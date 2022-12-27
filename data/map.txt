@@ -280,7 +280,7 @@ system "Aplha Cromha"
 			period 70
 		object "Alldust Moon"
 			sprite "planet/fg_moon18"
-			distance 240
+			distance 2	40
 			period 50
 
 planet "Alldust"
