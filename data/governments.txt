@@ -12,7 +12,7 @@ government "Cromha Empire"
 		Republic -2
 		Hai 1
 		"Mineria colonnies" 5
-		"Hai (Wormhole Access)" 1
+		Hai 1
 		"Hai Merchant" 1
 		"Hai Merchant (Sympathizers)" 1
 		"Hai Merchant (Human)" 1

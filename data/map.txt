@@ -86,7 +86,7 @@ planet "Linimbus"
 		
 planet "Linimbus Moon"
 	landscape "land/Linimbus_moon"
-	attributes urban tourism inhabited frontier volcanic north research military "near earth"
+	attributes urban tourism inhabited frontier volcanic north research military "near earth" moon	
 	description "The Linimbus moon but also one of the hotest moons"
 	spaceport "Linimbus is the first planet that the explorer Cromha found that far in the galaxy, there is about two decades now. This planet is the most advanced in technology, you will be able to find for not that big prizes pieces of technology that you cannot compare to any else technology. A planet where a third party is full of lava, wich is used to produce great quantity of energy to create new technologies. Same for hes moon."
 	outfitter Cromha-basic-outfitter
@@ -240,7 +240,7 @@ planet "Crodust"
 	outfitter Cromha-military-outfitter
 	spaceport "Crodust is the first military research planet that Cromha Empire decided to install on. More than 60% if the planet is full of swamps. There is not outfitter and no shipyard here, the only guys who are here are scientists or Cromha Empire workers that make money by doing werid stuff for the Empire."
 	description "A huge military research installation for Cromha Empire. The most part of the planet is full of dirty swamps."
-	"required reputation" 10
+	"required reputation" 5
 	bribe 3
 	security 3
 	tribute 1000000
@@ -280,8 +280,12 @@ system "Aplha Cromha"
 			period 70
 		object "Alldust Moon"
 			sprite "planet/fg_moon18"
-			distance 2	40
+			distance 240
 			period 50
+	object "Witdrew"
+		sprite "planet/fg_terrestrial17"
+		distance 300
+		period 300
 
 planet "Alldust"
 	attributes inhabited rich research military paradise mining factory north urban
@@ -309,8 +313,17 @@ planet "Plutoon"
 	security 3
 	
 planet "Alldust Moon"
+	attributes uninhabited
 	landscape "land/Alldust_moon"
 	description "The small uninhabited moon that orbit around Alldust planet. This moon is known to be very rich in silicon and other heavy metals because of alls meteors that hit that moon since she don't have any atmoshpere. You will find lot of metals at high prizes here."
+	
+planet "Witdrew"
+	government Hai
+	attributes inhabited rich factory north urban tourism research
+	landscape "land/Witdrew"
+	description "This is the planet that was given by Cromha Empire to Hais when both of this governments create an alliance between them, a siecle ago. It is where human of The Empire and Hais scientics collab together to create news technologies by mixing hai tech and human tech, making the mosts andvanceds outfits and ships of all human space."
+	spaceport "A lot of Hais seems to live her, but actuallynot that much, only 25% of habitants are Hais. Most of the Hais that you will find here are people in search of new ships or technologies, due to the cheap prizes of materials here."
+	spaceport "In this spaceport you will find the most interesting ships of all human space; even some Korath come here. The most of the missions you will find here is to travel Hai in your bunks till Hai Home or other planets in Hai space."
 
 system "Sol"
 	link "Volcanois"
