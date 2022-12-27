@@ -90,7 +90,6 @@ planet "Linimbus Moon"
 	description "The Linimbus moon but also one of the hotest moons"
 	spaceport "Linimbus is the first planet that the explorer Cromha found that far in the galaxy, there is about two decades now. This planet is the most advanced in technology, you will be able to find for not that big prizes pieces of technology that you cannot compare to any else technology. A planet where a third party is full of lava, wich is used to produce great quantity of energy to create new technologies. Same for hes moon."
 	outfitter Cromha-basic-outfitter
-	shipyard Cromha-basic-shipyard
 	"required reputation" 0
 	bribe 1
 	security 1
