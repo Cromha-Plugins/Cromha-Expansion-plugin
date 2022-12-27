@@ -72,7 +72,7 @@ system "Volcanois"
 
 planet "Linimbus"
 	landscape "land/Linimbus"
-	attributes urban inhabited volcanic frontier north research "near earth"
+	attributes urban inhabited volcanic frontier north research "near earth" "requires: empire passport"
 	description "One of the most advanced planet in technology. Everyone is nice here. But dont make upset Cromha's Empire ships or you will regret it."
 	spaceport "Linimbus is the first planet that the explorer Cromha found that far in the galaxy, there is about two decades now. This planet is the most advanced in technology, you will be able to find for not that big prizes pieces of technology that you cannot compare to any else technology. A planet where a third party is full of lava, wich is used to produce great quantity of energy to create new technologies."
 	outfitter Cromha-basic-outfitter
@@ -86,7 +86,7 @@ planet "Linimbus"
 		
 planet "Linimbus Moon"
 	landscape "land/Linimbus_moon"
-	attributes urban tourism inhabited frontier volcanic north research military "near earth" moon	
+	attributes urban tourism inhabited frontier volcanic north research military "near earth" moon "requires: empire passport"
 	description "The Linimbus moon but also one of the hotest moons"
 	spaceport "Linimbus is the first planet that the explorer Cromha found that far in the galaxy, there is about two decades now. This planet is the most advanced in technology, you will be able to find for not that big prizes pieces of technology that you cannot compare to any else technology. A planet where a third party is full of lava, wich is used to produce great quantity of energy to create new technologies. Same for hes moon."
 	outfitter Cromha-basic-outfitter
@@ -131,7 +131,7 @@ system "Astroid"
 	
 planet "Mineria"
 	landscape "land/Mineria"
-	attributes urban inhabited north mining factory oil
+	attributes urban inhabited north mining factory oil "requires: empire passport"
 	description "One of the biggest  and the richest minner colonnies planet."
 	spaceport "Mineria was found back in the 29th siecle. Humans decided to install a minner colonie only 3 years after the discover of the precious metals that are in the planet. It's because of this metals that Mineria is now the center of economy of all north-part of the galaxy. It is connected to almost all most important planets by hyperspace link so all the cargo can be delivred in short times. There is a lot of aliens on this planet, beware of them."
 	outfitter Cromha-basic-outfitter
@@ -144,7 +144,7 @@ planet "Mineria"
 		fleet cromha-fleet 5
 		
 planet "Mineria Trading Station"
-	attributes urban station north factory research military mining
+	attributes urban station north factory research military mining "requires: empire passport"
 	spaceport "The mineria Trading Station gained independance in 3005, back at the start of Cromha Empire. The is not really lot of things to do here unless you like transporting cargo[...]"
 	government "Mineria colonnies"
 	landscape "land/Mineria_station"
@@ -197,7 +197,7 @@ system "Calor stil"
 		period 10
 
 planet "Striy"
-	attributes tourism rich paradise inhabited north
+	attributes tourism rich paradise inhabited north "requires: empire passport"
 	landscape "land/Striy"
 	music "waves"
 	spaceport "Striy is one of the most touristic planet of all human space. Millions of ships are registred every weeks. The security is at the most, almost all dangereous outfits are illegals here, be sure to check all your outfits before entering the planet next time."
@@ -208,7 +208,7 @@ planet "Striy"
 		
 system "Lifdot"
 	pos 187 -470
-	attributes inhabited rich research military
+	attributes inhabited rich research military 
 	government "Cromha Empire"
 	fleet cromha-fleet 500
 	fleet cromha-transporters 550
@@ -235,7 +235,7 @@ system "Lifdot"
 		period 110
 	
 planet "Crodust"
-	attributes rich inhabited north research military
+	attributes rich inhabited north research military "requires: empire passport"
 	landscape "land/Crodust"
 	outfitter Cromha-military-outfitter
 	spaceport "Crodust is the first military research planet that Cromha Empire decided to install on. More than 60% if the planet is full of swamps. There is not outfitter and no shipyard here, the only guys who are here are scientists or Cromha Empire workers that make money by doing werid stuff for the Empire."
@@ -294,7 +294,7 @@ system "Aplha Cromha"
 			period 75
 
 planet "Alldust"
-	attributes inhabited rich research military paradise mining factory north urban
+	attributes inhabited rich research military paradise mining factory north urban "requires: empire passport"
 	landscape "land/Alldust"
 	outfitter Cromha-basic-outfitter
 	shipyard Cromha-basic-shipyard
@@ -309,7 +309,7 @@ planet "Alldust"
 		fleet cromha-fleet 15
 		
 planet "Plutoon"
-	attributes inhabited rich research paradise factory north urban tourism
+	attributes inhabited rich research paradise factory north urban tourism "requires: empire passport"
 	landscape "land/Plutoon"
 	outfitter Cromha-basic-outfitter
 	spaceport "A not that special spaceport, you can find basic things that you thind is the Cromha Empire space. There is a lot of tourism missions here so if you search people who want to travel the whole universe for tourism, this is the right place for you!"
@@ -319,7 +319,7 @@ planet "Plutoon"
 	security 3
 	
 planet "Alldust Moon"
-	attributes uninhabited
+	attributes uninhabited "requires: empire passport"
 	landscape "land/Alldust_moon"
 	description "The small uninhabited moon that orbit around Alldust planet. This moon is known to be very rich in silicon and other heavy metals because of alls meteors that hit that moon since she don't have any atmoshpere. You will find lot of metals at high prizes here."
 	
