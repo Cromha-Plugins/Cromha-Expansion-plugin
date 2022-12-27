@@ -325,7 +325,7 @@ planet "Alldust Moon"
 	
 planet "Witdrew"
 	government Hai
-	attributes inhabited rich factory north urban tourism research "requires: quantum keystone"
+	attributes inhabited rich factory north urban tourism research "requires: empire passport"
 	landscape "land/Witdrew"
 	description "This is the planet that was given by Cromha Empire to Hais when both of this governments create an alliance between them, a siecle ago. It is where human of The Empire and Hais scientics collab together to create news technologies by mixing hai tech and human tech, making the mosts andvanceds outfits and ships of all human space."
 	spaceport "A lot of Hais seems to live her, but actuallynot that much, only 25% of habitants are Hais. Most of the Hais that you will find here are people in search of new ships or technologies, due to the cheap prizes of materials here."

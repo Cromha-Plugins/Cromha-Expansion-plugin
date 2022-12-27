@@ -187,5 +187,5 @@ outfitter Cromha-military-outfitter
 	"Modified Plasma Repeater"
 	"Local Map"
 outfitter Cromha-witdrew-station-outfitter
-	"Empire Passport License"
+	"Empire Passport"
 	"Local Map"

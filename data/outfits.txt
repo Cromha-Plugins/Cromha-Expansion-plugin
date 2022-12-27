@@ -76,8 +76,9 @@ outfit "Empire License"
 	thumbnail "outfit/empire_license"
 	description "Without this license, you will not be able to buy any Cromha Empire ship or outfit. You cannot buy it or get it by completing missions; to get it you will need to have a good reputation with the Empire so the Empire will give you one of this license."
 
-outfit "Empire Passport License"
-	category "Licenses"
+outfit "Empire Passport"
+	category "Hand to Hand"
 	cost 10000
 	thumbnail "outfit/empire_passport"
+	"empire passport" 1
 	description "The must need License if you want to do anything in Cromha Empire space. It is required to land on any planet. The only place where you can buy it is in the Witdrew Station in Alpha Cromha system."
