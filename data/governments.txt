@@ -50,6 +50,6 @@ government "Mineria colonnies"
 		"Cromha Empire" 5
 	swizzle 1
 	"provoke on scan"
-	color 0.91000003 0.41999999 0.090000004
+	color 191 4 135
 	bribe 2
 	fine 2
