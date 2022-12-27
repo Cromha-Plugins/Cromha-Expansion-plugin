@@ -1,0 +1,399 @@
+system "Volcanois"
+	pos 137 -622
+	arrival 1080
+	habitable 1080
+	belt 1529
+	attributes urban tourism inhabited frontier north volcanic "near earth"
+	government "Cromha Empire"
+	fleet cromha-fleet 550
+	fleet cromha-transporters 500
+	fleet mineria-transports 500
+	link "Astroid"
+	link "Sol"
+	link "Hi Yahr"
+	link "Bore Fah"
+	link "Risiit"
+	link "Celeborim"
+	link "Nileem"
+	link "Asikafarnut"
+	link "Alpha Hydri"
+	link "Markeb"
+	asteroids "large metal" 21 7
+	minables "silicon" 50 3
+	minables "silver" 19 3
+	minables "uranium" 24 2	
+	object "Linimbus"
+		sprite "planet/fg_lava0"
+			scale 2
+		distance 547
+		period 110
+		object "Linimbus Moon"
+			sprite "planet/fg_gas13"
+				scale 0.3
+			distance 850
+			period 115
+	object
+		sprite "star/g5"
+		period 10
+	object
+		sprite "planet/ice4"
+		distance 252
+		period 34
+	object
+		sprite "planet/neptune"
+		distance 1443
+		period 473
+		object
+			sprite "planet/dust1"
+			distance 223
+			period 16
+		object
+			sprite "planet/rock17"
+			distance 335
+			period 30
+		object
+			sprite "planet/lava0"
+			distance 433
+			period 44
+		object
+			sprite "planet/miranda"
+			distance 631
+			period 78
+	trade "Heavy Metals" 1050
+	trade "Luxury Goods" 2056
+	trade Electronics 180
+	trade Equipment 195
+	trade Food 145
+	trade Industrial 97
+	trade Medical 1356
+	trade Metal 59
+	trade Plastic 506
+	trade "Heavy Metals" 1200
+
+planet "Linimbus"
+	landscape "land/Linimbus"
+	attributes urban inhabited volcanic frontier north research "near earth"
+	description "One of the most advanced planet in technology. Everyone is nice here. But dont make upset Cromha's Empire ships or you will regret it."
+	spaceport "Linimbus is the first planet that the explorer Cromha found that far in the galaxy, there is about two decades now. This planet is the most advanced in technology, you will be able to find for not that big prizes pieces of technology that you cannot compare to any else technology. A planet where a third party is full of lava, wich is used to produce great quantity of energy to create new technologies."
+	outfitter Cromha-basic-outfitter
+	shipyard Cromha-basic-shipyard
+	"required reputation" 0
+	bribe 1
+	security 1
+	tribute 1000000
+		threshold 5000
+		fleet cromha-fleet 5
+		
+planet "Linimbus Moon"
+	landscape "land/Linimbus_moon"
+	attributes urban tourism inhabited frontier volcanic north research military "near earth"
+	description "The Linimbus moon but also one of the hotest moons"
+	spaceport "Linimbus is the first planet that the explorer Cromha found that far in the galaxy, there is about two decades now. This planet is the most advanced in technology, you will be able to find for not that big prizes pieces of technology that you cannot compare to any else technology. A planet where a third party is full of lava, wich is used to produce great quantity of energy to create new technologies. Same for hes moon."
+	outfitter Cromha-basic-outfitter
+	shipyard Cromha-basic-shipyard
+	"required reputation" 0
+	bribe 1
+	security 1
+		
+system "Astroid"
+	pos 137 -570
+	attributes urban tourism inhabited mining factory
+	government "Cromha Empire"
+	fleet cromha-fleet 550
+	fleet cromha-transporters 500
+	fleet mineria-transports 500
+	link "Volcanois"
+	link "Calor stil"
+	link "Aplha Cromha"
+	trade "Heavy Metals" 1050
+	trade Electronics 187
+	trade Equipment 95
+	trade Food 125
+	trade Industrial 97
+	trade Medical 1356
+	trade Metal 59
+	trade Plastic 506
+	object "Mineria"
+		sprite "planet/fg_cloud0"
+			scale 3
+		distance 100
+		period 110
+		object "Mineria Trading Station"
+			sprite "planet/fg_station0"
+				scale 1
+			distance 400
+			period 110
+	object
+		sprite "star/b-supergiant"
+			scale 5
+		distance 1900
+		period 10
+	
+planet "Mineria"
+	landscape "land/Mineria"
+	attributes urban inhabited north mining factory oil
+	description "One of the biggest  and the richest minner colonnies planet."
+	spaceport "Mineria was found back in the 29th siecle. Humans decided to install a minner colonie only 3 years after the discover of the precious metals that are in the planet. It's because of this metals that Mineria is now the center of economy of all north-part of the galaxy. It is connected to almost all most important planets by hyperspace link so all the cargo can be delivred in short times. There is a lot of aliens on this planet, beware of them."
+	outfitter Cromha-basic-outfitter
+	shipyard Cromha-basic-shipyard
+	"required reputation" 0
+	bribe 1
+	security 1
+	tribute 100000
+		threshold 5000
+		fleet cromha-fleet 5
+		
+planet "Mineria Trading Station"
+	attributes urban station north factory research military mining
+	spaceport "The mineria Trading Station gained independance in 3005, back at the start of Cromha Empire. The is not really lot of things to do here unless you like transporting cargo[...]"
+	government "Mineria colonnies"
+	landscape "land/Mineria_station"
+	description "The Station that orbit around Mineria. It's here everything is traded."
+	"required reputation" 0
+	bribe 1
+	security 1
+	tribute 100000
+		threshold 5000
+		fleet cromha-fleet 5
+		
+system "Calor stil"
+	pos 127 -500
+	attributes tourism inhabited rich paradise
+	government "Cromha Empire"
+	fleet cromha-fleet 450
+	fleet calor-stil-tourism 350
+	fleet calor-stil-tourism2 350
+	fleet small-pirates 1500
+	link "Astroid"
+	link "Lifdot"
+	trade "Heavy Metals" 1052
+	trade Electronics 387
+	trade Equipment 951
+	trade Food 165
+	trade Industrial 957
+	trade Medical 356
+	trade Metal 259
+	trade Plastic 706
+	object
+		sprite "star/nova-small"
+			scale 3
+		distance 300
+		period 0
+	
+	object "Striy"
+		sprite "planet/fg_inhabited1"
+			scale 2
+		distance 300
+		period 50
+		object
+			sprite "planet/fg_gas19"
+				scale 0.5
+			distance 200
+			period 5
+	object
+		sprite "star/f8"
+			scale 1.5
+		distance 450
+		period 10
+
+planet "Striy"
+	attributes tourism rich paradise inhabited north
+	landscape "land/Striy"
+	music "waves"
+	spaceport "Striy is one of the most touristic planet of all human space. Millions of ships are registred every weeks. The security is at the most, almost all dangereous outfits are illegals here, be sure to check all your outfits before entering the planet next time."
+	description "The most touristic planet of all north east galaxy. Security is at the maximum."
+	"required reputation" 10
+	bribe 0.01
+	security 2
+		
+system "Lifdot"
+	pos 187 -470
+	attributes inhabited rich research military
+	government "Cromha Empire"
+	fleet cromha-fleet 500
+	fleet cromha-transporters 550
+	fleet mineria-transports 500
+	link "Calor stil"
+	link "Aplha Cromha"
+	trade "Heavy Metals" 152
+	trade Electronics 687
+	trade Equipment 751
+	trade Food 265
+	trade Industrial 357
+	trade Medical 756
+	trade Metal 559
+	trade Plastic 306
+	object "Crodust"
+		sprite "planet/fg_terrestrial2"
+			scale 2.4
+		distance 450
+		period 500
+	object
+		sprite "star/m5"
+			scale 3
+		distance 600
+		period 110
+	
+planet "Crodust"
+	attributes rich inhabited north research military
+	landscape "land/Crodust"
+	outfitter Cromha-military-outfitter
+	spaceport "Crodust is the first military research planet that Cromha Empire decided to install on. More than 60% if the planet is full of swamps. There is not outfitter and no shipyard here, the only guys who are here are scientists or Cromha Empire workers that make money by doing werid stuff for the Empire."
+	description "A huge military research installation for Cromha Empire. The most part of the planet is full of dirty swamps."
+	"required reputation" 10
+	bribe 3
+	security 3
+	tribute 1000000
+		threshold 5000
+		fleet cromha-fleet 10
+		
+system "Aplha Cromha"
+	pos 184 -540
+	attributes inhabited rich research military paradise mining factory north urban
+	government "Cromha Empire"
+	fleet cromha-fleet 900
+	fleet cromha-transporters 850
+	fleet mineria-transports 1000
+	link "Lifdot"
+	link "Astroid"
+	trade "Clothing" 126
+	trade "Luxury Goods" 1200
+	trade "Heavy Metals" 252
+	trade Electronics 697
+	trade Equipment 761
+	trade Food 275
+	trade Industrial 457
+	trade Medical 766
+	trade Metal 539
+	trade Plastic 406
+	asteroids "large metal" 21 7
+	minables "silicon" 50 3
+	minables "silver" 19 3
+	object "Alldust"
+		sprite "planet/fg_terrestrial10"
+			scale 1.5
+		distance 600
+		period 250
+		object "Plutoon"
+			sprite "planet/fg_inhabited5"
+			distance 440
+			period 70
+		object "Alldust Moon"
+			sprite "planet/fg_moon18"
+			distance 240
+			period 50
+
+planet "Alldust"
+	attributes inhabited rich research military paradise mining factory north urban
+	landscape "land/Alldust"
+	outfitter Cromha-basic-outfitter
+	shipyard Cromha-basic-shipyard
+	spaceport "The hugest spaceport of all The Empire. Lot of Hais here search for missions or help; you will find a lot of well remunerated missions. The perfect place if you search money."
+	spaceport "Did you know that it was in this spaceport, a siecle ago that Hais communicated with The Empire for the first time?"
+	description "The Cromha Empire center planet. It's where all started. You will find a lot of missions here and a lot of hai people. Almost all of the planet is urban, it's rare to find vegetation but the food is insane. This is also the only place in the galaxy where you can find food synthisers."
+	"required reputation" 0
+	bribe 2
+	security 5
+	tribute 1000000
+		threshold 5000
+		fleet cromha-fleet 15
+		
+planet "Plutoon"
+	attributes inhabited rich research paradise factory north urban tourism
+	landscape "land/Plutoon"
+	outfitter Cromha-basic-outfitter
+	spaceport "A not that special spaceport, you can find basic things that you thind is the Cromha Empire space. There is a lot of tourism missions here so if you search people who want to travel the whole universe for tourism, this is the right place for you!"
+	description "The small moon that orbit around Alldust planet. This moon is known to be very nature-friendly, you will find great forests but also medium cities where you can find lot of differents things for small prizes."
+	"required reputation" 0
+	bribe 1.5
+	security 3
+	
+planet "Alldust Moon"
+	landscape "land/Alldust_moon"
+	description "The small uninhabited moon that orbit around Alldust planet. This moon is known to be very rich in silicon and other heavy metals because of alls meteors that hit that moon since she don't have any atmoshpere. You will find lot of metals at high prizes here."
+
+system "Sol"
+	link "Volcanois"
+	fleet mineria-transports 700
+system "Hi Yahr"
+	link "Volcanois"
+system "Bore Fah"
+	link "Volcanois"
+system "Risiit"
+	link "Volcanois"
+system "Celeborim"
+	link "Volcanois"
+system "Nileem"
+	link "Volcanois"
+system "Asikafarnut"
+	link "Volcanois"
+system "Alpha Hydri"
+	link "Volcanois"
+	link "Ruchbah"
+system "Markeb"
+	link "Volcanois"
+	link "Avior"
+	link "Aludra"
+	fleet mineria-transports 700
+system "Alpha Hydri"
+	fleet "Small Syndicate" 1200
+	fleet cromha-fleet 550
+	fleet cromha-transporters 500
+	fleet mineria-transports 600
+	government "Cromha Empire"
+	link "Sheratan"
+	link "Achernar"
+	link "Alpheratz"
+	link "Ruchbah"
+	link "Volcanois"
+	link "Polaris"
+system "Polaris"
+	fleet "Small Syndicate" 1200
+	fleet cromha-fleet 550
+	fleet cromha-transporters 500
+	fleet mineria-transports 600
+	government "Cromha Empire"
+	link "Achernar"
+	link "Aplha Hydri"
+system "Sheratan"
+	fleet "Small Syndicate" 1200
+	fleet cromha-fleet 550
+	fleet cromha-transporters 500
+	fleet mineria-transports 600
+	government "Cromha Empire"
+	link "Ruchbah"
+	link "Zaurak"
+	link "Alpha Hydri"
+system "Achernar"
+	fleet "Small Syndicate" 1200
+	fleet cromha-fleet 550
+	fleet cromha-transporters 500
+	fleet mineria-transports 600
+	government "Cromha Empire"
+	link "Polaris"
+	link "Alpheratz"
+	link "Schedar"
+	link "Al Dhanab"
+	link "Alpha Hydri"
+system "Alpheratz"
+	fleet "Small Syndicate" 1200
+	fleet cromha-fleet 550
+	fleet cromha-transporters 500
+	fleet mineria-transports 600
+	government "Cromha Empire"
+	link "Achernar"
+	link "Al Dhanab"
+	link "Ruchbah"
+	link "Alpha Hydri"
+system "Ruchbah"
+	fleet "Small Syndicate" 1200
+	government "Cromha Empire"
+	fleet cromha-fleet 550
+	fleet cromha-transporters 500
+	fleet mineria-transports 600
+	link "Algol"
+	link "Hamal"
+	link "Ankaa"
+	link "Alpheratz"
+	link "Sheratan"
+	link "Alpha Hydri"

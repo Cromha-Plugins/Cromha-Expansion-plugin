@@ -1,0 +1,61 @@
+start "cromha-transporter"
+	name "Cromha Transporter start"
+	description `You grew up on your dad's transporter, learning navigation, defending from Pirates.`
+	description `You decided to leave your father transporter to travel to Linimbus bank, in the Volcanois system to take out a loan of 4.5M credits  with two of your best friends to buy your first ship and have a fresh start. Maybe will you choose to be captain of a transporter too?`
+	thumbnail "scene/lobby"
+	date 17 11 301'
+	system "Volcanois"
+	planet "Linimbus"
+	conversation "cromha transporter intro"
+	account
+		credits 4500000
+		score 400
+		mortgage Mortgage
+			principal 4500000
+			interest 0.008
+			term 365
+	set "license: Pilot's"
+	
+conversation "cromha transporter intro"
+	scene "scene/lobby"
+	`The bank's architecture is what you would have called "futuristic" back when you dreamed that the future would be less squalid than the present: story above story of curves and spires and balconies, all in gleaming metal. A doorman stands by each of the heavy glass doors. You are wearing your very best clothes, but you feel shabby next to them.`
+	`	The loan broker's office is equally intimidating. Large computer monitors fill the walls, with stock quotes and other information spilling down them almost too fast to read. You occasionally glimpse the names of places that you have only seen in movies: Aldebaran. Tarazed. Earth.`
+	`	The pen is heavy as lead but glides almost without friction as you print your initials on the bottom of page after page of ominous legal documents and sign several dozen statements, notices, and agreements. The banker, a balding middle-aged man in a suit that you suspect costs more than the spaceship you are about to purchase, flips the pages past you quickly, uttering a curt, "Sign here. Now here," as he points to each page. He moves swiftly, mechanically.`
+	`	The only moment when he becomes truly animated is when explaining the Truth in Lending statement to you. "You are borrowing 4,500,000 credits," he says, "to be repaid over the course of a year. Your daily interest rate is 0.8%. Sign here." He grins.`
+	`	You sign your name one final time:`
+	name
+	`	The elevator is so well-tuned that you do not even realize it is moving until it has deposited you back in the lobby. But as you leave the bank, you are smiling. This crazy adventure suddenly feels real to you. You are going to do it. You are finally going to get off this planet.`
+	`	Compared to the bank, you feel much more at home in the shipyard, walking among the rusted out hulks and newer ships that gleam in the sunlight. You smell grease and dirt and rocket fuel; wonderful smells. There are many ship models to choose from, but only some are within your price range. Which one you choose will determine your future...`
+
+conversation "birthday present choice"
+    	`"WAIT!..."`
+    	choice
+        	`	Do not wait your dad and enter the spaceport without him`
+           		goto "wait"
+       	`	Wait your dad, he seem to have smth important to tell you`
+           		goto "not wait"
+     	label "wait"
+     	`	"Son! I'm glad you waited me! I have something important for you, it's your birthday present. Follow me to the spaceport please."`
+	`	Your dad go to the spaceort manager and ask smth you cam't hear. The manager give him keys of a spaceport depot. He opens it and a very old but beautifull Blackbird transporter.`
+	`	"This was my first ship! say your dad. And it is now yours. I know it is pretty old and rusty but i'm sure you will like it!"`
+	`	You say: "Oh my god dad, it really didn't expected this from you. I'm so happy"`
+	`	"I hope you will mak good worth of it. See you next time!"`
+	`	Your dad come back to his ship and you have the sentiment of never seeing him again.`
+		give ship Blackbird "Heavy bird"
+    	label "not wait"
+    	`	You continue your way till the shipyard.`
+	`	"What ship should i buy now?" you say`
+
+conversation "test"
+    `A Navy officer asks if you can do a job for him.`
+    choice
+        `    "Sure, I'd love to."`
+            accept
+        `    "Sorry, I'm on an urgent cargo mission."`
+            decline
+        `(Attack him.)`
+            goto "bad idea"
+    label "bad idea"
+    `    You shout "Death to all tyrants!" and go for your gun.`
+    `    Unfortunately, he pulls his own gun first.`
+        die

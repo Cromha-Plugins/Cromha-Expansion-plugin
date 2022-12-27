@@ -1,0 +1,213 @@
+# Heavy Warships
+ship "Black Manta (Prototype)"
+	sprite "ship/black_manta"
+		scale 1
+	thumbnail "thumbnail/black_manta"
+	attributes
+		category "Heavy Warship"
+		licenses
+			"Empire"
+		"cost" 5470000000
+		"shields" 31400
+		"hull" 1500
+		"required crew" 6
+		"bunks" 15
+		"mass" 830
+		"drag" 4.7
+		"heat dissipation" .8
+		"fuel capacity" 800
+		"cargo space" 200
+		"outfit space" 1470
+		"weapon capacity" 440
+		"engine capacity" 450
+		weapon
+			"blast radius" 700
+			"shield damage" 2500
+			"hull damage" 1600
+			"hit force" 3500
+	outfits
+		"Particle Cannon" 4
+		"Modified Plasma Repeater" 4
+		
+		"Heavy Anti-Missile Turret" 2
+		
+		"Geode Reactor"
+		"Supercapacitor" 5
+		
+		"D94-YV Shield Generator"
+		"Empire Hai Batteries" 8
+		"Catalytic Ramscoop"
+		"Hyperdrive"
+		"Jump Drive"
+		"Large Radar Jammer"
+		"Outfit Scanner" 5
+		"Cargo Scanner" 5
+		"Asteroid Scanner" 5
+		"Scanning Module"
+		"Tactical Scanner"
+		"Liquid Nitrogen Cooler'
+		
+		"A860 Black Atomic Thruster"
+		"A865 Black Atomic Steering"
+		"Ionic Afterburner" 2
+		"Laser Rifle" 10
+		"Pulse Rifle" 10
+		"Security Station" 3
+		"Fragmentation Grenades" 5
+		"Security Forcefield" 3
+	engine -42.9 52
+	engine 42.9 52
+	gun -26 -40.3 "Modified Plasma Repeater"
+	gun 26 -40.3 "Modified Plasma Repeater"
+	gun -34.45 -39 "Modified Plasma Repeater"
+	gun 34.45 -39 "Modified Plasma Repeater"
+	gun -89.05 -42.9 "Particle Cannon"
+	gun 89.05 -42.9 "Particle Cannon"
+	gun -76.05 -42.9 "Particle Cannon"
+	gun 76.05 -42.9 "Particle Cannon"
+	turret 26 15.6 "Heavy Anti-Missile Turret"
+	turret -26 15.6 "Heavy Anti-Missile Turret" 2
+	bay "Drone" -85 55
+	bay "Drone" 85 55
+	bay "Fighter" -38.5 -64.5
+	bay "Fighter" 38.5 -64.5
+	bay "Fighter" -50 40.5
+	bay "Fighter" 50 40.5
+	leak "leak" 60 50
+	leak "flame" 40 80
+	leak "big leak" 30 30
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion Large"
+	description "The fastest and greatest Heavy Warship of all human space. After the great succes of Syndicate's ship 'Manta', to this menace, Cromha Empire decided to create the greatest human ship; a ship that will have human tech and Hai tech together, a big ship that can carry a lot of gun, a lot of cargo, but still enough fast to concurrence other ships. They decided to invade the Syndicated planet Nimbus, to stole the Manta ship plans. Cromha Empire military scientics take the Manta base and remixed it to enhance everything by adding Hai technologies and more outfit and cargo space but also the shields. But the most important thing is the Jump Drive, for yet an unknow technologie for humans. It even has two Ionic Afterburner integrated. Due to the big consummation of fuel of the Jump Drive technologie, this ship have 800Liters of fuel capacity, great for long trips with HyperDrive technologie. This ship can even carry 2 drones and 4 fighters in his bays. The Black Manta is still a prototype but is yet used by The Empire."
+
+ship "Empire Destroyer"
+	sprite "ship/empire_destroyer"
+	thumbnail "thumbnail/empire_destroyer"
+	attributes
+		category "Heavy Warship"
+		licenses
+			"Empire"
+		"cost" 17200000
+		"shields" 31400
+		"hull" 8300
+		"required crew" 80
+		"bunks" 184
+		"mass" 1310
+		"drag" 17.7
+		"heat dissipation" .45
+		"fuel capacity" 1100
+		"cargo space" 300
+		"outfit space" 1220
+		"weapon capacity" 470
+		"engine capacity" 310
+		weapon
+			"blast radius" 400
+			"shield damage" 4000
+			"hull damage" 2500
+			"hit force" 5500
+	outfits
+		"Proton Turret" 2
+		"Proton Gun" 4
+		"Meteor Missile Launcher" 4
+		"Meteor Missile" 120
+		"Heavy Laser Turret" 2
+		"Heavy Anti-Missile Turret" 2
+		
+		"Fusion Reactor"
+		"Empire Hai Batteries" 2
+		"Catalytic Ramscoop"
+		"Asteroid Scanner"
+		"D94-YV Shield Generator"
+		"Large Radar Jammer" 2
+		"Water Coolant System"
+		"Brig"
+		"Laser Rifle" 40
+		"Fragmentation Grenades" 40
+		"Pulse Rifle" 25
+		"Security Station" 10
+		"Tactical Scanner"
+		
+		"Tyrant Plasma Thruster"
+		"Tyrant Plasma Steering"
+		"Caldera Afterburner"
+		"Hyperdrive"
+		
+	engine -54.75 300 0.65
+	engine 54.75 300 0.65
+	gun -26.5 -264.9 "Proton Gun"
+	gun 26.5 -264.9 "Proton Gun"
+	gun -26.5 -264.9 "Meteor Missile Launcher"
+	gun 26.5 -264.9 "Meteor Missile Launcher"
+	gun -39 -251.25 "Proton Gun"
+	gun 39 -251.25 "Proton Gun"
+	gun -39 -251.25 "Meteor Missile Launcher"
+	gun 39 -251.25 "Meteor Missile Launcher"
+	turret 0 -73.5 "Heavy Laser Turret"
+	turret 0 21 "Heavy Laser Turret"
+	turret 0 30 "Proton Turret"
+	turret 0 -30 "Proton Turret"
+	turret -33 33 "Heavy Anti-Missile Turret"
+	turret 33 33 "Heavy Anti-Missile Turret"
+	bay "Fighter" -38.5 -64.5
+	bay "Fighter" 38.5 -64.5
+	bay "Fighter" -50 40.5
+	bay "Fighter" 50 40.5
+	bay "Fighter" -71.5 -49.5
+	bay "Fighter" 71.5 -49.5
+	bay "Fighter" -115 55
+	bay "Fighter" 115 55
+	bay "Drone" -85 55
+	bay "Drone" 85 55
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 30 30
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "The Empire Destroyer is more than just a warship: it is practically a mobile space station, with docking bays for an entire squadron of drones and fighters and enough crew to fill a small village. Although designed primarily for engaging enemies from a distance, a Carrier can also do significant damage in close combat."
+
+# Drones & Fighters
+ship "Empire Drone"
+	sprite "ship/combat drone"
+		scale 1.2
+	thumbnail "thumbnail/combat drone"
+	attributes
+		category "Drone"
+		licenses
+			"Empire"
+		"cost" 93000
+		"hull" 700
+		"automaton" 1
+		"mass" 25
+		"drag" .59
+		"heat dissipation" .9
+		"outfit space" 70
+		"weapon capacity" 15
+		"engine capacity" 38
+		weapon
+			"blast radius" 5
+			"shield damage" 50
+			"hull damage" 25
+			"hit force" 75
+	outfits
+		"Heavy Laser"
+		
+		"nGVF-AA Fuel Cell"
+		"Supercapacitor"
+		
+		"X1700 Ion Thruster"
+		"X1200 Ion Steering"
+		
+	engine -10.2 34.2 0.9
+	engine 10.2 34.2 0.9
+	gun 0 -43.5 "Heavy Laser"
+	explode "tiny explosion" 15
+	description "It is at first a Republic Navy drone but Cromha Empire buyed rights of this ship and made its own version to satisfy them."
+	description "	Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay."

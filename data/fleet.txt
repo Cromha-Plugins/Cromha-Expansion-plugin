@@ -1,0 +1,138 @@
+fleet cromha-fleet
+	government "Cromha Empire"
+	names "syndicate small"
+	cargo 2
+	personality heroic
+		forbearing
+		disables
+		plunders
+	outfitters Cromha-basic-outfitter
+	# surveillance
+	variant 35
+		Quicksilver 4
+		Raven 4
+		"Empire Drone" 4
+		"Empire Destroyer" 1
+	# defender
+	variant 5
+		Quicksilver 4
+		Splinter 2
+		"Empire Destroyer" 1
+		"Empire Drone" 10
+		Protector 2
+		"Black Manta" 2
+		Raven 5
+	# war
+	variant 3
+		Quicksilver 6
+		"Black Manta" 4
+		Splinter 2
+		"Empire Destroyer" 1
+		"Empire Drone" 10
+		Protector 2
+		Raven 6
+fleet cromha-transporters
+	government "Merchant"
+	names "civilian"
+	cargo 4
+	personality forbearing
+		disables
+		plunders
+	outfitters Cromha-basic-outfitter
+	# small convoits
+	variant 20
+		Freighter 2
+		"Star Barge" 5
+		Wasp 3
+	# big comvoits
+	variant 10
+		Hauler 2
+		"Container Transport" 2
+		"Bulk reighter" 3
+		Frigate 3
+	# special convoits
+	variant 1
+		"Star Queen" 1
+		Mule 2
+		Gunboat 6
+fleet mineria-transports
+	government "Mineria colonnies"
+	names "civilian"
+	personality pacific
+	outfitters Cromha-basic-outfitter
+	cargo 4
+	# big convoits
+	variant 10
+		Hauler 2
+		"Container Transport" 2
+		"Bulk reighter" 3
+		Frigate 3
+	# special convoits
+	variant 1
+		"Star Queen" 1
+		Mule 2
+		Gunboat 6
+fleet calor-stil-tourism
+	government "Mineria colonnies"
+	names "civilian"
+	personality pacific
+	cargo 3
+	outfitters Cromha-basic-outfitter
+	# single tourist 1
+	variant 15
+		Blackbird 1
+	# single tourist 2
+	variant 15
+		Scout 1
+	# single tourist 3
+	variant 15
+		Flivver 1
+	# family tourists
+	variant 7
+		"Star Barge" 2
+		Scout 1
+		Flivver 3
+fleet calor-stil-tourism2
+	government "Merchant"
+	names "civilian"
+	personality pacific
+	outfitters Cromha-basic-outfitter
+	# single tourist 1
+	variant 15
+		Blackbird 1
+	# single tourist 2
+	variant 15
+		Scout 1
+	# single tourist 3
+	variant 15
+		Flivver 1
+	# family tourists
+	variant 7
+		"Star Barge" 2
+		Scout 1
+		Flivver 3
+fleet small-pirates
+	government "Pirate"
+	names "pirate"
+	personality frugal
+		disables
+		plunders
+		coward
+		appeasing
+	# single
+	variant 30
+		Wasp 1
+	variant 30
+		Hawk 1
+	variant 30
+		Fury 1
+	# group
+	variant 25
+		Sparrow 2
+		Berserker 2
+		Gunboat 1
+	# fleet
+	variant 10
+		Gunboat 2
+		Sparrow 4
+		Splinter 1
