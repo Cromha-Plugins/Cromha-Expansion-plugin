@@ -254,6 +254,7 @@ system "Aplha Cromha"
 	fleet cromha-fleet 900
 	fleet cromha-transporters 850
 	fleet mineria-transports 1000
+	fleet "Small Hai" 900
 	link "Lifdot"
 	link "Astroid"
 	trade "Clothing" 126
