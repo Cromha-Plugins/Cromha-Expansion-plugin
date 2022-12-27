@@ -16,7 +16,7 @@ government "Cromha Empire"
 		"Hai Merchant" 1
 		"Hai Merchant (Sympathizers)" 1
 		"Hai Merchant (Human)" 1
-		"Hai (Unfettered)" -.1
+		"Hai (Unfettered)" 1
 	"death sentence" "caught red-handed"
 	raid "Small Syndicate"
 	"penality for"
