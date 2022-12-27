@@ -287,6 +287,11 @@ system "Aplha Cromha"
 		sprite "planet/fg_terrestrial17"
 		distance 300
 		period 300
+		object "Witdrew Station"
+			sprite "planet/station11"
+				scale 0.4
+			distance 130
+			period 75
 
 planet "Alldust"
 	attributes inhabited rich research military paradise mining factory north urban
@@ -325,6 +330,16 @@ planet "Witdrew"
 	description "This is the planet that was given by Cromha Empire to Hais when both of this governments create an alliance between them, a siecle ago. It is where human of The Empire and Hais scientics collab together to create news technologies by mixing hai tech and human tech, making the mosts andvanceds outfits and ships of all human space."
 	spaceport "A lot of Hais seems to live her, but actuallynot that much, only 25% of habitants are Hais. Most of the Hais that you will find here are people in search of new ships or technologies, due to the cheap prizes of materials here."
 	spaceport "In this spaceport you will find the most interesting ships of all human space; even some Korath come here. The most of the missions you will find here is to travel Hai in your bunks till Hai Home or other planets in Hai space."
+	
+planet "Witdrew Station"
+	government "Cromha Empire"
+	attributes rich factory north station research military
+	landscape "land/Witdrew_station"
+	description "This station orbit around the Witdrew planet; it's where all Hais have to go to register them and have an Empire passport, but also every other people. This is also a research station with labs and a military station with lot of cells for unregistered people that enter Cromha Empire space without Empire passport."
+	spaceport "Not a that big spaceport. Here, you will find almost every species you can imagine in the galaxy. Most of them are pirates, outlaws or people you want an Empire passport."
+	spaceport "Beware of The Empire authorites here, security is at the most!"
+	bribe 2
+	secrity 10
 
 system "Sol"
 	link "Volcanois"
