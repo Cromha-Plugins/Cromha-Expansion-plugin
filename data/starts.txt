@@ -27,22 +27,6 @@ conversation "cromha transporter intro"
 	`	The elevator is so well-tuned that you do not even realize it is moving until it has deposited you back in the lobby. But as you leave the bank, you are smiling. This crazy adventure suddenly feels real to you. You are going to do it. You are finally going to get off this planet.`
 	`	Compared to the bank, you feel much more at home in the shipyard, walking among the rusted out hulks and newer ships that gleam in the sunlight. You smell grease and dirt and rocket fuel; wonderful smells. There are many ship models to choose from, but only some are within your price range. Which one you choose will determine your future...`
 
-mission hai-passenger
-	name "Hai Passenger Transport to <destination>"
-	description "Passenger an Hai to <destination> so he can find back his girlfriend. Payment is <payment>"
-	job
-	repeat
-	passengers 1
-	destination
-		distance 5 30
-		government "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Hai (Unfettered)"
-		not attributes station
-	on complete
-		payment
-		payment 15000
-		dialog "As soon you open the ship sas, the Hai guy run to somewhere you can't tell. He left 15000 credits behind him."
-		
-
 conversation test
 	`"WAIT!..."`
     	choice
