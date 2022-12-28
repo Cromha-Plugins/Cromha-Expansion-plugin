@@ -1,14 +1,15 @@
 person "Cromha"
 	government "Cromha Empire"
-	frequency 500
-	personality
-		mining harvests surveillance unconstrained forbearing
-	phrase
-		phrase
-			"friendly author"
+	frequency 50000
+	personality heroic
+		forbearing
+		disables
+		plunders
+	system
+		government "Cromha Empire"
 	phrase
 		word
-			"Search for Ursa Polaris Station!"
+			"Get an Empire Passport at Witdrew Station! Or dont enter my territor."
 	phrase
 		word
 			"Someday"
@@ -59,25 +60,4 @@ person "Cromha"
 			"a place you could buy any outfit."
 			"somewhere you could optimize your ships, without cris-crossing the known galaxy."
 			"a space station out of asteroids - that carried all the outfits."
-	phrase
-		word
-			"I "
-		word
-			"stole "
-			"captured "
-			"restored "
-			"found "
-			"got a hold of "
-			"appropriated "
-			"procured "
-		word
-			"this very old Korath World Ship and "
-		word
-			"made it my own"
-			"customized it"
-			"made some modifications"
-			"made a few modifications"
-		word
-			", with a little help, of course."
-	ship "Ursa Polaris" "Local God"
-		"never disabled"
+	ship "Black Manta" "Black Manta"

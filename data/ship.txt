@@ -3,6 +3,7 @@ ship "Black Manta (Prototype)"
 	sprite "ship/black_manta"
 		scale 1
 	thumbnail "thumbnail/black_manta"
+	"uncapturable"
 	attributes
 		category "Heavy Warship"
 		licenses
