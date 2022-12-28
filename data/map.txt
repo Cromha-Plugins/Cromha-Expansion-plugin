@@ -368,7 +368,7 @@ system "Beta Cromha"
 		period 110
 		object "Alldust Prima"
 			sprite "planet/ocean2"
-			distance 400
+			distance 550
 			period 95
 	
 planet "Alldust Prima"
