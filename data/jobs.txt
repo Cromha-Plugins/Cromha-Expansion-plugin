@@ -31,7 +31,7 @@ mission hai-embassade-escort[0]
 		payment
 		payment 60000
 		dialog "After opening the ship's sas, the Ambassador thank you and gives you 60000 credits."
-	npc save
+	npc accompany
 		government Hai
 		personality pacific
 			disables
