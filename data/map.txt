@@ -104,6 +104,7 @@ system "Astroid"
 	link "Volcanois"
 	link "Calor stil"
 	link "Alpha Cromha"
+	link "Beta Cromha"
 	trade "Heavy Metals" 1050
 	trade Electronics 187
 	trade Equipment 95
@@ -256,6 +257,7 @@ system "Alpha Cromha"
 	fleet "Small Hai" 900
 	link "Lifdot"
 	link "Astroid"
+	link "Beta Cromha"
 	trade "Clothing" 126
 	trade "Luxury Goods" 1200
 	trade "Heavy Metals" 252
@@ -342,7 +344,7 @@ planet "Witdrew Station"
 	secrity 10
 	
 system "Beta Cromha"
-	pos 184 -560
+	pos 194 -620
 	attributes inhabited rich research military paradise mining factory north urban
 	government "Cromha Empire"
 	fleet cromha-fleet 900
@@ -350,6 +352,7 @@ system "Beta Cromha"
 	fleet mineria-transports 1000
 	fleet "Small Hai" 900
 	link "Alpha Cromha"
+	link "Astroid"
 	trade "Clothing" 1'6
 	trade "Luxury Goods" 940
 	trade "Heavy Metals" 142
