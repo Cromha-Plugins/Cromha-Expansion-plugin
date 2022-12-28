@@ -326,7 +326,7 @@ planet "Witdrew"
 	government Hai
 	attributes inhabited rich factory north urban tourism research "requires: empire passport"
 	landscape "land/Witdrew"
-	description "This is the planet that was given by Cromha Empire to Hais when both of this governments create an alliance between them, a siecle ago. It is where human of The Empire and Hais scientics collab together to create news technologies by mixing hai tech and human tech, making the mosts andvanceds outfits and ships of all human space."
+	description "This is the planet that was given by Cromha Empire to Hais when both of this governments create an alliance between them, a siecle ago. It is where human of The Empire and Hais scientics collab together to create news technologies by mixing hai tech and human tech, making the mosts andvanceds outfits and ships of all human space. You can find the Hai embassade near the center of the capital, a great place to meet friends."
 	spaceport "A lot of Hais seems to live her, but actuallynot that much, only 25% of habitants are Hais. Most of the Hais that you will find here are people in search of new ships or technologies, due to the cheap prizes of materials here."
 	spaceport "In this spaceport you will find the most interesting ships of all human space; even some Korath come here. The most of the missions you will find here is to travel Hai in your bunks till Hai Home or other planets in Hai space."
 	
@@ -340,6 +340,27 @@ planet "Witdrew Station"
 	spaceport "Beware of The Empire authorites here, security is at the most!"
 	bribe 2
 	secrity 10
+	
+system "Beta Cromha"
+	pos 184 -560
+	attributes inhabited rich research military paradise mining factory north urban
+	government "Cromha Empire"
+	fleet cromha-fleet 900
+	fleet cromha-transporters 850
+	fleet mineria-transports 1000
+	fleet "Small Hai" 900
+	link "Alpha Cromha"
+	trade "Clothing" 1'6
+	trade "Luxury Goods" 940
+	trade "Heavy Metals" 142
+	trade Electronics 649
+	trade Equipment 581
+	trade Food 225
+	trade Industrial 277
+	trade Medical 785
+	trade Metal 269
+	trade Plastic 436
+	asteroids "large metal" 21 7	
 
 system "Sol"
 	link "Volcanois"
