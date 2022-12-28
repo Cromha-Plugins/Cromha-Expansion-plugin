@@ -360,11 +360,20 @@ system "Beta Cromha"
 	trade Medical 785
 	trade Metal 269
 	trade Plastic 436
-	asteroids "large metal" 21 7	
+	asteroids "large metal" 21 7
+	object
+		sprite "star/g5-old"
+			scale 1.5
+		distance 0
+		period 110
+		object "Alldust Prima"
+			sprite "planet/ocean2"
+			distance 400
+			period 95
 	
 planet "Alldust Prima"
 	attributes inhabited rich research military paradise mining factory north urban "requires: empire passport"
-	landscape "land/Alldust"
+	landscape "land/Alldust_prima"
 	outfitter Cromha-basic-outfitter
 	shipyard Cromha-basic-shipyard
 	spaceport "It is a little like Alldust spaceport, the only difference is that you will find many more Hais here than in Alldust."
