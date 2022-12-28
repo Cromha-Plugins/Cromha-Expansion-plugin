@@ -15,7 +15,7 @@ fleet cromha-fleet
 	# defender
 	variant 5
 		"Empire Quicksilver" 4
-		"Empire Splinter" 2
+		"Light Empire Destroyer" 2
 		"Empire Drone" 10
 		Protector 2
 		"Black Manta" 2
@@ -24,7 +24,7 @@ fleet cromha-fleet
 	variant 3
 		"Empire Quicksilver" 6
 		"Black Manta" 4
-		"Empire Splinter" 2
+		"Light Empire Destroyer" 2
 		"Empire Drone" 10
 		Protector 2
 		"Empire Raven" 6
