@@ -103,7 +103,7 @@ system "Astroid"
 	fleet mineria-transports 500
 	link "Volcanois"
 	link "Calor stil"
-	link "Aplha Cromha"
+	link "Alpha Cromha"
 	trade "Heavy Metals" 1050
 	trade Electronics 187
 	trade Equipment 95
@@ -213,7 +213,7 @@ system "Lifdot"
 	fleet cromha-transporters 550
 	fleet mineria-transports 500
 	link "Calor stil"
-	link "Aplha Cromha"
+	link "Alpha Cromha"
 	trade "Heavy Metals" 152
 	trade Electronics 687
 	trade Equipment 751
@@ -246,7 +246,7 @@ planet "Crodust"
 		threshold 5000
 		fleet cromha-fleet 10
 		
-system "Aplha Cromha"
+system "Alpha Cromha"
 	pos 184 -540
 	attributes inhabited rich research military paradise mining factory north urban
 	government "Cromha Empire"
@@ -363,7 +363,7 @@ system "Beta Cromha"
 	asteroids "large metal" 21 7
 	object
 		sprite "star/g5-old"
-			scale 1.5
+			scale 2.2
 		distance 0
 		period 110
 		object "Alldust Prima"
@@ -378,7 +378,7 @@ planet "Alldust Prima"
 	shipyard Cromha-basic-shipyard
 	spaceport "It is a little like Alldust spaceport, the only difference is that you will find many more Hais here than in Alldust."
 	spaceport "The spaceport has a great view of the sea, many attractions and market full the spaceport, the spaceport is ultra rich."
-	description "A planet full of oceans, 8 at total, with that, the Earth seems nithing compared to Alldust Prima. Many tourism come here, cities are very rich."
+	description "A planet full of oceans, 8 at total, with that, the Earth seems nothing compared to Alldust Prima. Many tourism come here, cities are very rich."
 	"required reputation" 0
 	bribe 2
 	security 3
