@@ -1,8 +1,8 @@
 # Heavy Warships
 ship "Black Manta (Prototype)"
-	sprite "ship/black_manta"
+	sprite "ship/mmantae"
 		scale 1
-	thumbnail "thumbnail/black_manta"
+	thumbnail "thumbnail/mmantae"
 	"uncapturable"
 	attributes
 		category "Heavy Warship"
