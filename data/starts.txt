@@ -28,8 +28,8 @@ conversation "cromha transporter intro"
 	`	Compared to the bank, you feel much more at home in the shipyard, walking among the rusted out hulks and newer ships that gleam in the sunlight. You smell grease and dirt and rocket fuel; wonderful smells. There are many ship models to choose from, but only some are within your price range. Which one you choose will determine your future...`
 
 mission hai-passenger
-	name "Hai Passenger Transport to <destionation>"
-	description "Passenger an Hai to <destionation> so he can find back his girlfriend. Payment is <payment>"
+	name "Hai Passenger Transport to <destination>"
+	description "Passenger an Hai to <destination> so he can find back his girlfriend. Payment is <payment>"
 	job
 	repeat
 	passengers 1
