@@ -9,7 +9,7 @@ mission hai-passenger
 		government "Cromha Empire"
 		attributes hai urban tourism
 	destination
-		distance 5 30
+		distance 5 60
 		government "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Hai (Unfettered)"
 		not attributes station
 	on complete
