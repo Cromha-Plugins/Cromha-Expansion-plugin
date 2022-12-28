@@ -9,12 +9,12 @@ fleet cromha-fleet
 	outfitters Cromha-basic-outfitter
 	# surveillance
 	variant 35
-		Quicksilver 4
+		"Empire Quicksilver" 4
 		Raven 4
 		"Empire Drone" 4
 	# defender
 	variant 5
-		Quicksilver 4
+		"Empire Quicksilver" 4
 		Splinter 2
 		"Empire Drone" 10
 		Protector 2
@@ -22,7 +22,7 @@ fleet cromha-fleet
 		Raven 5
 	# war
 	variant 3
-		Quicksilver 6
+		"Empire Quicksilver" 6
 		"Black Manta" 4
 		Splinter 2
 		"Empire Drone" 10
