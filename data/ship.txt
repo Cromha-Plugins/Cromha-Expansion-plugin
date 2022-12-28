@@ -85,7 +85,7 @@ ship "Black Manta (Prototype)"
 	"final explode" "final explosion Large"
 	description "The fastest and greatest Heavy Warship of all human space. After the great succes of Syndicate's ship 'Manta', to this menace, Cromha Empire decided to create the greatest human ship; a ship that will have human tech and Hai tech together, a big ship that can carry a lot of gun, a lot of cargo, but still enough fast to concurrence other ships. They decided to invade the Syndicated planet Nimbus, to stole the Manta ship plans. Cromha Empire military scientics take the Manta base and remixed it to enhance everything by adding Hai technologies and more outfit and cargo space but also the shields. But the most important thing is the Jump Drive, for yet an unknow technologie for humans. It even has two Ionic Afterburner integrated. Due to the big consummation of fuel of the Jump Drive technologie, this ship have 800Liters of fuel capacity, great for long trips with HyperDrive technologie. This ship can even carry 2 drones and 4 fighters in his bays. The Black Manta is still a prototype but is yet used by The Empire."
 
-ship "Empire Destroyer"
+ship "Heavy Empire Destroyer"
 	sprite "ship/empire_destroyer"
 	thumbnail "thumbnail/empire_destroyer"
 	attributes
@@ -173,6 +173,71 @@ ship "Empire Destroyer"
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
 	description "The Empire Destroyer is more than just a warship: it is practically a mobile space station, with docking bays for an entire squadron of drones and fighters and enough crew to fill a small village. Although designed primarily for engaging enemies from a distance, a Carrier can also do significant damage in close combat."
+
+ship "Empire Destroyer"
+	sprite "ship/falcon"
+	thumbnail "thumbnail/falcon"
+	attributes
+		category "Heavy Warship"
+		licenses
+			"Empire"
+		"cost" 10930000
+		"shields" 14800
+		"hull" 3700
+		"required crew" 52
+		"bunks" 91
+		"mass" 510
+		"drag" 6.7
+		"heat dissipation" .7
+		"fuel capacity" 600
+		"cargo space" 160
+		"outfit space" 660
+		"weapon capacity" 350
+		"engine capacity" 350
+		weapon
+			"blast radius" 160
+			"shield damage" 1600
+			"hull damage" 800
+			"hit force" 2400
+	outfits
+		"Particle Cannon" 2
+		"Torpedo Launcher" 2
+		"Torpedo" 60
+		"Quad Blaster Turret" 3
+		"Heavy Anti-Missile Turret"
+		
+		"Breeder Reactor"
+		"KP-6 Photovoltaic Array"
+		"KP-6 Photovoltaic Panel" 2
+		"LP144a Battery Pack"
+		"D41-HY Shield Generator"
+		"Large Radar Jammer"
+		"Liquid Nitrogen Cooler"
+		"Laser Rifle" 15
+		
+		"Tyrant Plasma Thruster"
+		"Tyrant Plasma Steering"
+		"Hyperdrive"
+		
+	engine -16.5 143
+	engine 16.5 143
+	gun -16 -86.5 "Particle Cannon"
+	gun 16 -86.5 "Particle Cannon"
+	gun -19 -76.5 "Torpedo Launcher"
+	gun 19 -76.5 "Torpedo Launcher"
+	turret -16 -29 "Heavy Anti-Missile Turret"
+	turret 16 -29 "Quad Blaster Turret"
+	turret -50 39.5 "Quad Blaster Turret"
+	turret 50 39.5 "Quad Blaster Turret"
+	leak "leak" 30 50
+	leak "flame" 50 80
+	leak "big leak" 60 30
+	explode "tiny explosion" 40
+	explode "small explosion" 55
+	explode "medium explosion" 60
+	explode "large explosion" 40
+	"final explode" "final explosion medium"
+	description "The Empire Destroyer is one of the most powerful warships in the Empire fleet, a sleeker and more maneuverable alternative to the venerable and somewhat outdated Leviathan."
 
 # Drones & Fighters
 ship "Empire Drone"
