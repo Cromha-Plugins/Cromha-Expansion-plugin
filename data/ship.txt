@@ -1,16 +1,16 @@
 # Heavy Warships
 ship "Black Manta (Prototype)"
-	sprite "ship/mmantae"
+	sprite "ship/blackmanta"
 		scale 1
-	thumbnail "thumbnail/mmantae"
+	thumbnail "thumbnail/blackmanta"
 	"uncapturable"
 	attributes
 		category "Heavy Warship"
 		licenses
 			"Empire"
 		"cost" 5470000000
-		"shields" 31400
-		"hull" 1500
+		"shields" 41400
+		"hull" 7500
 		"required crew" 6
 		"bunks" 15
 		"mass" 830
