@@ -1,3 +1,22 @@
+# Hai Empire jobs
+mission hai-passenger
+	name "Hai Passenger Transport to <destination>"
+	description "Passenger an Hai to <destination> so he can find back his girlfriend. Payment is <payment>"
+	job
+	repeat
+	passengers 1
+	source
+		government "Cromha Empire"
+		attributes hai urban tourism
+	destination
+		distance 5 30
+		government "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Hai (Unfettered)"
+		not attributes station
+	on complete
+		payment
+		payment 15000
+		dialog "As soon you open the ship sas, the Hai guy run to somewhere you can't tell. He left 15000 credits behind him."
+
 # Cromha Empire jobs
 mission "Transport executive to <planet>"
 	job
