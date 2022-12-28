@@ -74,7 +74,23 @@ ship "Black Manta (Prototype)"
 	gun 16 0 "Typhoon Launcher"
 	gun -16 0 "Typhoon Launcher"
 	turret 26 15.6 "Heavy Anti-Missile Turret"
-	turret -26 15.6 "Heavy Anti-Missile Turret" 2
+	turret -26 15.6 "Heavy Anti-Missile Turret"
+	
+	engine -43 55.5
+	engine 43 55.5
+	turret 45.5 -2.5 "Heavy Anti-Missile Turret"
+	turret -45.5 -2.5 "Heavy Anti-Missile Turret"
+	gun 42 -36 "Modified Plasma Repeater"
+	gun -42 -36 "Modified Plasma Repeater"
+	gun -35 -35 "Modified Plasma Repeater"
+	gun 35 -35 "Modified Plasma Repeater"
+	gun -10 -52 "Particle Cannon"
+	gun 10 -52 "Particle Cannon"
+	gun -88.5 -40 "Particle Cannon"
+	gun 88.5 -40 "Particle Cannon"
+	gun -25.5 -36 "Typhoon Launcher"
+	gun 25.5 -36 "Typhoon Launcher"
+	gun 0 0 "Nuclear Missile"
 	bay "Drone" -85 55
 	bay "Drone" 85 55
 	bay "Fighter" -38.5 -64.5
