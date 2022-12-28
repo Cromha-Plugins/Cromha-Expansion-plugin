@@ -1,5 +1,5 @@
 # Hai Empire jobs
-mission hai-passenger
+mission hai-passenger[0]
 	name "Hai Passenger Transport to <destination>"
 	description "Passenger an Hai to <destination> so he can find back his girlfriend. Payment is <payment>"
 	job
@@ -16,7 +16,26 @@ mission hai-passenger
 		payment
 		payment 15000
 		dialog "As soon you open the ship sas, the Hai guy run to somewhere you can't tell. He left 15000 credits behind him."
-
+		
+mission hai-embassade-escort[0]
+	assisting
+	job
+	repeat
+	name "Escort Hai Embassador to <destination>"
+	description "An Hai Empire Embassador want to go back on <destination>. Bring him back to <destination>. Payment is <payment>"
+	source
+		government "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Hai (Unfettered)"
+	destination "Witdrew"
+	on complete
+		payment
+		payment 60000
+		dialog "After opening the ship's sas, the Ambassador thank you and gives you 60000 credits."
+	npc save
+		government Hai
+		personality pacific
+			disables
+		ship "Pond Strider" "Hai Empire Embassador"
+		
 # Cromha Empire jobs
 mission "Transport executive to <planet>"
 	job
