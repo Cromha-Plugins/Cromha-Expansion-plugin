@@ -142,6 +142,7 @@ outfitter Cromha-military-outfitter
 	"X5200 Ion Steering"
 	"Volcano Afterburner"
 	"Caldera Afterburner"
+	"Typhoon Torpedo"
 	"Ionic Afterburner"
 	"Chipmunk Plasma Thruster"
 	"Chipmunk Plasma Steering"
