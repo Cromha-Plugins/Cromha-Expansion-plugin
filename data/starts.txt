@@ -27,6 +27,7 @@ conversation "cromha transporter intro"
 	name
 	`	The elevator is so well-tuned that you do not even realize it is moving until it has deposited you back in the lobby. But as you leave the bank, you are smiling. This crazy adventure suddenly feels real to you. You are going to do it. You are finally going to get off this planet.`
 	`	Compared to the bank, you feel much more at home in the shipyard, walking among the rusted out hulks and newer ships that gleam in the sunlight. You smell grease and dirt and rocket fuel; wonderful smells. There are many ship models to choose from, but only some are within your price range. Which one you choose will determine your future...`
+conversation test
 	`"WAIT!..."`
     	choice
         	`	Do not wait your dad and enter the spaceport without him`
