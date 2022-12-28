@@ -361,6 +361,18 @@ system "Beta Cromha"
 	trade Metal 269
 	trade Plastic 436
 	asteroids "large metal" 21 7	
+	
+planet "Alldust Prima"
+	attributes inhabited rich research military paradise mining factory north urban "requires: empire passport"
+	landscape "land/Alldust"
+	outfitter Cromha-basic-outfitter
+	shipyard Cromha-basic-shipyard
+	spaceport "It is a little like Alldust spaceport, the only difference is that you will find many more Hais here than in Alldust."
+	spaceport "The spaceport has a great view of the sea, many attractions and market full the spaceport, the spaceport is ultra rich."
+	description "A planet full of oceans, 8 at total, with that, the Earth seems nithing compared to Alldust Prima. Many tourism come here, cities are very rich."
+	"required reputation" 0
+	bribe 2
+	security 3
 
 system "Sol"
 	link "Volcanois"
