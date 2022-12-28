@@ -136,3 +136,19 @@ fleet small-pirates
 		Gunboat 2
 		Sparrow 4
 		Splinter 1
+fleet cromha-miners
+	government "Merchant"
+	names "civilian"
+	personality pacific
+		mining
+		disables
+	# single
+	variant 30
+		Hawk 1
+	#double
+	variant 10
+		Fury 2
+	#triple
+	variant 5
+		Hawk 1
+		Fury 2

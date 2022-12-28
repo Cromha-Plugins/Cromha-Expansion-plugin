@@ -5,9 +5,10 @@ system "Volcanois"
 	belt 1529
 	attributes urban tourism inhabited frontier north volcanic "near earth"
 	government "Cromha Empire"
-	fleet cromha-fleet 550
-	fleet cromha-transporters 500
-	fleet mineria-transports 500
+	fleet cromha-fleet 750
+	fleet cromha-transporters 700
+	fleet mineria-transports 700
+	fleet cromha-miners 600
 	link "Astroid"
 	link "Sol"
 	link "Hi Yahr"
@@ -255,6 +256,7 @@ system "Alpha Cromha"
 	fleet cromha-transporters 850
 	fleet mineria-transports 1000
 	fleet "Small Hai" 900
+	fleet cromha-miners 800
 	link "Lifdot"
 	link "Astroid"
 	link "Beta Cromha"
@@ -351,6 +353,7 @@ system "Beta Cromha"
 	fleet cromha-transporters 850
 	fleet mineria-transports 1000
 	fleet "Small Hai" 900
+	fleet cromha-miners 1000
 	link "Alpha Cromha"
 	link "Astroid"
 	trade "Clothing" 1'6
@@ -373,6 +376,10 @@ system "Beta Cromha"
 			sprite "planet/ocean2"
 			distance 550
 			period 95
+		object "Neptunna"
+			sprite "planet/fg_terrestrial14"
+			distance 800
+			period 120
 	
 planet "Alldust Prima"
 	attributes inhabited rich research military paradise mining factory north urban farming "dirt belt" "requires: empire passport"
@@ -385,6 +392,17 @@ planet "Alldust Prima"
 	"required reputation" 0
 	bribe 2
 	security 3
+	
+planet "Neptunna"
+	attributes inhabited rich paradise north factory urban farming "requires: empire passport"
+	landscape "land/Neptunna"
+	outfitter Cromha-basic-outfitter
+	spaceport "A small little friendly spaceport. The are a lot of spectacles the evening and a lot of good bars the night. A great place to invite your friends or anyone else."
+	spaceport "But be aware of some people here, there are some xenophobist that will annoy you if you look at them. Wanna a tip? Just avoid them..."
+	description "A planet very similar to the Earth, many forests, oceans but still pretty urban where there is population."
+	"required reputation" 0
+	bribe 0.7
+	security 1
 
 system "Sol"
 	link "Volcanois"

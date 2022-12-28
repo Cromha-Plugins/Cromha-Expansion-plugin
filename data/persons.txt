@@ -1,0 +1,83 @@
+person "Cromha"
+	government "Cromha Empire"
+	frequency 500
+	personality
+		mining harvests surveillance unconstrained forbearing
+	phrase
+		phrase
+			"friendly author"
+	phrase
+		word
+			"Search for Ursa Polaris Station!"
+	phrase
+		word
+			"Someday"
+			"One day"
+			"Eventually"
+		word
+			", "
+		word
+			"maybe I should "
+			"I might "
+			"I will "
+			"I'm going to "
+		word
+			"park this heap"
+			"moor this beast"
+			"put down roots"
+			"find a cozy orbit"
+		word
+			" and "
+		word
+			"retire as an outfit dealer."
+			"open a universal outfitter."
+			"start dealing exotic outfits."
+			"sell outfits from everywhere."
+			"stock outfits from all over the place."
+	phrase
+		word
+			"If only "
+			"I wish "
+			"Reputable Captains wish "
+		word
+			"someone "
+			"a rich Captain "
+			"an entrepreneurial spirited individual "
+			"a Captain with wealthy friends "
+		word
+			"would "
+		word
+			"build "
+			"construct "
+			"put together "
+			"cobble together "
+			"make "
+		word
+			"and stock "
+		word
+			"a universal outfitter space station."
+			"a place you could buy any outfit."
+			"somewhere you could optimize your ships, without cris-crossing the known galaxy."
+			"a space station out of asteroids - that carried all the outfits."
+	phrase
+		word
+			"I "
+		word
+			"stole "
+			"captured "
+			"restored "
+			"found "
+			"got a hold of "
+			"appropriated "
+			"procured "
+		word
+			"this very old Korath World Ship and "
+		word
+			"made it my own"
+			"customized it"
+			"made some modifications"
+			"made a few modifications"
+		word
+			", with a little help, of course."
+	ship "Ursa Polaris" "Local God"
+		"never disabled"
