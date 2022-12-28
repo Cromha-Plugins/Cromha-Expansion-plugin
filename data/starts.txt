@@ -15,7 +15,7 @@ start "cromha-transporter"
 			interest 0.008
 			term 365
 	set "license: Pilot's"
-	set "outfit: Empire Passport"
+	set "empire passport" 1
 	
 conversation "cromha transporter intro"
 	scene "scene/lobby"
