@@ -1,11 +1,11 @@
 start "cromha-transporter"
 	name "Cromha Transporter start"
 	description `You grew up on your dad's transporter, learning navigation, defending from Pirates.`
-	description `You decided to leave your father transporter to travel to Linimbus bank, in the Volcanois system to take out a loan of 4.5M credits  with two of your best friends to buy your first ship and have a fresh start. Maybe will you choose to be captain of a transporter too?`
+	description `You decided to leave your father transporter to travel to Witdrew Station bank, in the Alpha Cromha system to take out a loan of 4.5M credits  with two of your best friends to buy your first ship and have a fresh start. Maybe will you choose to be captain of a transporter too?`
 	thumbnail "scene/lobby"
-	date 17 11 301'
-	system "Volcanois"
-	planet "Linimbus"
+	date 17 11 3035
+	system "Cromha Alpha"
+	planet "Witdrew Station"
 	conversation "cromha transporter intro"
 	account
 		credits 4500000
@@ -15,6 +15,7 @@ start "cromha-transporter"
 			interest 0.008
 			term 365
 	set "license: Pilot's"
+	set "outfit: Empire Passport"
 	
 conversation "cromha transporter intro"
 	scene "scene/lobby"
