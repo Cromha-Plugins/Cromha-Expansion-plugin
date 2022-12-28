@@ -56,7 +56,7 @@ mission "Corporate espionage"
 	source
 		government Republic "Cromha Empire" Neutral
 	destination
-		government Cromha Empire
+		government "Cromha Empire"
 		attributes research
 		distance 3 12
 	npc "scan cargo"
