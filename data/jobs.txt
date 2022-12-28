@@ -25,7 +25,7 @@ mission hai-embassade-escort[0]
 	description "An Hai Empire Embassador want to go back on <destination>. Bring him back to <destination>. Payment is <payment>"
 	source
 		government "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Hai (Unfettered)"
-		not "Witdrew"
+		not planet "Witdrew"
 	destination "Witdrew"
 	on complete
 		payment
