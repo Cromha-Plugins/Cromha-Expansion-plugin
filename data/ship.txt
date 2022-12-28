@@ -60,22 +60,7 @@ ship "Black Manta (Prototype)"
 		"Security Station" 3
 		"Fragmentation Grenades" 5
 		"Security Forcefield" 3
-	engine -42.9 52
-	engine 42.9 52
-	gun -26 -40.3 "Modified Plasma Repeater"
-	gun 26 -40.3 "Modified Plasma Repeater"
-	gun -34.45 -39 "Modified Plasma Repeater"
-	gun 34.45 -39 "Modified Plasma Repeater"
-	gun -89.05 -42.9 "Particle Cannon"
-	gun 89.05 -42.9 "Particle Cannon"
-	gun -76.05 -42.9 "Particle Cannon"
-	gun 76.05 -42.9 "Particle Cannon"
-	gun 0 0 "Nuclear Missile"
-	gun 16 0 "Typhoon Launcher"
-	gun -16 0 "Typhoon Launcher"
-	turret 26 15.6 "Heavy Anti-Missile Turret"
-	turret -26 15.6 "Heavy Anti-Missile Turret"
-	
+	engine 0.5 107.5
 	engine -43 55.5
 	engine 43 55.5
 	turret 45.5 -2.5 "Heavy Anti-Missile Turret"
