@@ -12,7 +12,7 @@ start "cromha-transporter"
 		score 400
 		mortgage Mortgage
 			principal 4500000
-			interest 0.008
+			interest 0.00008
 			term 365
 	set "license: Pilot's"
 	set "empire passport" 1
