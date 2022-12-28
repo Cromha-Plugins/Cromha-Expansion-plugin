@@ -3,7 +3,7 @@ system "Volcanois"
 	arrival 1080
 	habitable 1080
 	belt 1529
-	attributes urban tourism inhabited frontier north volcanic "near earth"
+	attributes urban tourism inhabited frontier north volcanic "near earth" hai
 	government "Cromha Empire"
 	fleet cromha-fleet 750
 	fleet cromha-transporters 700
@@ -73,7 +73,7 @@ system "Volcanois"
 
 planet "Linimbus"
 	landscape "land/Linimbus"
-	attributes urban inhabited volcanic frontier north research "near earth" "requires: empire passport"
+	attributes urban inhabited volcanic frontier north research "near earth" "requires: empire passport" hai
 	description "One of the most advanced planet in technology. Everyone is nice here. But dont make upset Cromha's Empire ships or you will regret it."
 	spaceport "Linimbus is the first planet that the explorer Cromha found that far in the galaxy, there is about two decades now. This planet is the most advanced in technology, you will be able to find for not that big prizes pieces of technology that you cannot compare to any else technology. A planet where a third party is full of lava, wich is used to produce great quantity of energy to create new technologies."
 	outfitter Cromha-basic-outfitter
@@ -159,7 +159,7 @@ planet "Mineria Trading Station"
 		
 system "Calor stil"
 	pos 127 -500
-	attributes tourism inhabited rich paradise
+	attributes tourism inhabited rich paradise hai
 	government "Cromha Empire"
 	fleet cromha-fleet 450
 	fleet calor-stil-tourism 350
@@ -198,7 +198,7 @@ system "Calor stil"
 		period 10
 
 planet "Striy"
-	attributes tourism rich paradise inhabited north "requires: empire passport"
+	attributes tourism rich paradise inhabited north "requires: empire passport" hai
 	landscape "land/Striy"
 	music "waves"
 	spaceport "Striy is one of the most touristic planet of all human space. Millions of ships are registred every weeks. The security is at the most, almost all dangereous outfits are illegals here, be sure to check all your outfits before entering the planet next time."
@@ -250,7 +250,7 @@ planet "Crodust"
 		
 system "Alpha Cromha"
 	pos 184 -540
-	attributes inhabited rich research military paradise mining factory north urban
+	attributes inhabited rich research military paradise mining factory north urban hai
 	government "Cromha Empire"
 	fleet cromha-fleet 900
 	fleet cromha-transporters 850
@@ -301,7 +301,7 @@ system "Alpha Cromha"
 				period 75
 
 planet "Alldust"
-	attributes inhabited rich research military paradise mining factory north urban "requires: empire passport"
+	attributes inhabited rich research military paradise mining factory north urban "requires: empire passport" hai
 	landscape "land/Alldust"
 	outfitter Cromha-basic-outfitter
 	shipyard Cromha-basic-shipyard
@@ -316,7 +316,7 @@ planet "Alldust"
 		fleet cromha-fleet 15
 		
 planet "Plutoon"
-	attributes inhabited rich research paradise factory north urban tourism farming "dirt belt""requires: empire passport"
+	attributes inhabited rich research paradise factory north urban tourism farming "dirt belt""requires: empire passport" hai
 	landscape "land/Plutoon"
 	outfitter Cromha-basic-outfitter
 	spaceport "A not that special spaceport, you can find basic things that you thind is the Cromha Empire space. There is a lot of tourism missions here so if you search people who want to travel the whole universe for tourism, this is the right place for you!"
@@ -332,7 +332,7 @@ planet "Alldust Moon"
 	
 planet "Witdrew"
 	government Hai
-	attributes inhabited rich factory north urban tourism research "requires: empire passport"
+	attributes inhabited rich factory north urban tourism research "requires: empire passport" hai
 	landscape "land/Witdrew"
 	description "This is the planet that was given by Cromha Empire to Hais when both of this governments create an alliance between them, a siecle ago. It is where human of The Empire and Hais scientics collab together to create news technologies by mixing hai tech and human tech, making the mosts andvanceds outfits and ships of all human space. You can find the Hai embassade near the center of the capital, a great place to meet friends."
 	spaceport "A lot of Hais seems to live her, but actuallynot that much, only 25% of habitants are Hais. Most of the Hais that you will find here are people in search of new ships or technologies, due to the cheap prizes of materials here."
@@ -340,7 +340,7 @@ planet "Witdrew"
 	
 planet "Witdrew Station"
 	government "Cromha Empire"
-	attributes rich factory north station research military
+	attributes rich factory north station research military hai
 	outfitter Cromha-witdrew-station-outfitter
 	shipyard "Luxury Ships"
 	landscape "land/Witdrew_station"
@@ -352,7 +352,7 @@ planet "Witdrew Station"
 	
 system "Beta Cromha"
 	pos 194 -620
-	attributes inhabited rich research military paradise mining factory north urban
+	attributes inhabited rich research military paradise mining factory north urban hai
 	government "Cromha Empire"
 	fleet cromha-fleet 900
 	fleet cromha-transporters 850
@@ -387,7 +387,7 @@ system "Beta Cromha"
 			period 120
 	
 planet "Alldust Prima"
-	attributes inhabited rich research military paradise mining factory north urban farming "dirt belt" "requires: empire passport"
+	attributes inhabited rich research military paradise mining factory north urban farming "dirt belt" "requires: empire passport" hai
 	landscape "land/Alldust_prima"
 	outfitter Cromha-basic-outfitter
 	shipyard Cromha-basic-shipyard
@@ -399,7 +399,7 @@ planet "Alldust Prima"
 	security 3
 	
 planet "Neptunna"
-	attributes inhabited rich paradise north factory urban farming "requires: empire passport"
+	attributes inhabited rich paradise north factory urban farming "requires: empire passport" hai
 	landscape "land/Neptunna"
 	outfitter Cromha-basic-outfitter
 	spaceport "A small little friendly spaceport. The are a lot of spectacles the evening and a lot of good bars the night. A great place to invite your friends or anyone else."
