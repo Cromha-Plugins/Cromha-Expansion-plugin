@@ -4283,7 +4283,7 @@ mission "Asteroid Course"
 	to offer
 		random < 6
 	source
-		government "Merchant" "Syndicate"
+		government "Merchant" "Syndicate" "Cromha Empire"
 		category "Light Freighter" "Interceptor"
 		not attributes "automaton"
 	passengers 3 7
@@ -4519,6 +4519,39 @@ mission "Assisting Syndicate"
 	on complete
 		payment 150000
 		dialog phrase "generic pirate attack payment dialog"
+		
+mission "Assisting Cromha Empire"
+	assisting
+	repeat
+	minor
+	name "Defend <planet>"
+	description "Defeat a pirate raid on <destination>."
+	to offer
+		"combat rating" > 100
+		random < 5
+	source
+		government "Cromha Empire"
+		not category "Fighter" "Drone"
+		not attributes "automaton"
+	destination
+		government "Cromha Empire"
+		distance 2 4
+	on offer
+		conversation "assisting law enforcement"
+	npc kill
+		government "Pirate"
+		personality heroic staying target harvests plunders
+		system destination
+		fleet "Large Core Pirates" 2
+		fleet "Small Core Pirates"
+	npc
+		government "Cromha Empire"
+		personality heroic staying
+		system destination
+		fleet "cromha-fleet"
+	on complete
+		payment 150000
+		dialog phrase "generic pirate attack payment dialog"
 
 
 
@@ -4606,7 +4639,7 @@ mission "Pirate Mutiny"
 		category "Medium Warship" "Heavy Warship"
 		not attributes "automaton"
 	destination
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "Cromha Empire"
 		distance 2 4
 	passengers 10 20
 	on offer
