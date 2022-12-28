@@ -273,28 +273,32 @@ system "Alpha Cromha"
 	asteroids "large metal" 21 7
 	minables "silicon" 50 3
 	minables "silver" 19 3
-	object "Alldust"
-		sprite "planet/fg_terrestrial10"
-			scale 1.5
-		distance 800
-		period 250
-		object "Plutoon"
-			sprite "planet/fg_inhabited5"
-			distance 440
-			period 70
-		object "Alldust Moon"
-			sprite "planet/fg_moon18"
-			distance 240
-			period 50
-	object "Witdrew"
-		sprite "planet/fg_terrestrial17"
-		distance 100
-		period 300
-		object "Witdrew Station"
-			sprite "planet/station11"
-				scale 0.4
-			distance 200
-			period 75
+	object
+		sprite "star/k-supergiant"
+		distance 0
+		period 110
+		object "Alldust"
+			sprite "planet/fg_terrestrial10"
+				scale 1.5
+			distance 800
+			period 250
+			object "Plutoon"
+				sprite "planet/fg_inhabited5"
+				distance 440
+				period 70
+			object "Alldust Moon"
+				sprite "planet/fg_moon18"
+				distance 240
+				period 50
+		object "Witdrew"
+			sprite "planet/fg_terrestrial17"
+			distance 100
+			period 300
+			object "Witdrew Station"
+				sprite "planet/station11"
+					scale 0.4
+				distance 200
+				period 75
 
 planet "Alldust"
 	attributes inhabited rich research military paradise mining factory north urban "requires: empire passport"
