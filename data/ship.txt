@@ -357,6 +357,8 @@ ship "Empire Raven"
 	thumbnail "thumbnail/mravene"
 	attributes
 		category "Light Warship"
+		licenses
+			"Empire"
 		"cost" 2270000
 		"shields" 6500
 		"hull" 1400
