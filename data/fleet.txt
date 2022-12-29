@@ -44,19 +44,19 @@ fleet cromha-transporters
 	# small convoits
 	variant 20
 		Freighter 2
-		"Star Barge" 5
+		"Star Barge" 1
 		Wasp 3
 	# big comvoits
 	variant 10
 		Hauler 2
-		"Container Transport" 2
-		"Bulk reighter" 3
-		Frigate 3
+		"Container Transport" 1
+		"Bulk reighter" 1
+		Frigate 2
 	# special convoits
 	variant 1
 		"Star Queen" 1
 		Mule 2
-		Gunboat 6
+		Gunboat 3
 fleet mineria-transports
 	government "Mineria colonnies"
 	names "civilian"
@@ -65,15 +65,15 @@ fleet mineria-transports
 	cargo 6
 	# big convoits
 	variant 10
-		Hauler 2
-		"Container Transport" 2
-		"Bulk reighter" 3
-		Frigate 3
+		Hauler 1
+		"Container Transport" 1
+		"Bulk reighter" 2
+		Frigate 1
 	# special convoits
 	variant 1
 		"Star Queen" 1
 		Mule 2
-		Gunboat 6
+		Gunboat 4
 fleet calor-stil-tourism
 	government "Mineria colonnies"
 	names "civilian"
