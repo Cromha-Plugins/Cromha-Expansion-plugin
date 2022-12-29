@@ -463,6 +463,7 @@ ship "Empire Drone"
 		
 		"nGVF-AA Fuel Cell"
 		"Supercapacitor"
+		"Surveillance Pod"
 		
 		"X1700 Ion Thruster"
 		"X1200 Ion Steering"
@@ -507,6 +508,7 @@ ship "Empire Fighter"
 		"Supercapacitor"
 		"D14-RN Shield Generator"
 		"Small Radar Jammer"
+		"Surveillance Pod"
 		
 		"X1700 Ion Thruster"
 		"X1200 Ion Steering"

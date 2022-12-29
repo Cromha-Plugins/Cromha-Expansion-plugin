@@ -32,9 +32,7 @@ government "Cromha Empire"
 	bribe 2
 	fine 2
 	illegals
-		"Never Gas" 500000
 		"Interference Plating" 1000000
-		"Surveillance Pod" 2000000
 		"Typhoon Torpedo" 1000000
 		"Typhoon Storage Tube" 1000000
 		"Typhoon Launcher" 1000000
