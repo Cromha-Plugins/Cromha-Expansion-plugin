@@ -480,6 +480,8 @@ ship "Empire Fighter"
 	thumbnail "thumbnail/dagger"
 	attributes
 		category "Fighter"
+		licenses
+			"Empire"
 		"cost" 149000
 		"shields" 2000
 		"hull" 500
