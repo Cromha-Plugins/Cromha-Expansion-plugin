@@ -40,7 +40,7 @@ ship "Black Manta (Prototype)"
 		"Supercapacitor" 5
 		
 		"D94-YV Shield Generator"
-		"Empire Hai Batteries" 8
+		"Empire Hai Valley Batteries" 8
 		"Catalytic Ramscoop"
 		"Hyperdrive"
 		"Jump Drive"
@@ -128,7 +128,7 @@ ship "Heavy Empire Destroyer"
 		"Nuclear Missile" 2
 		
 		"Fusion Reactor"
-		"Empire Hai Batteries" 2
+		"Empire Hai Balley Batteries" 2
 		"Catalytic Ramscoop"
 		"Asteroid Scanner"
 		"D94-YV Shield Generator"
@@ -202,7 +202,7 @@ ship "Empire Destroyer"
 		"heat dissipation" .7
 		"fuel capacity" 600
 		"cargo space" 160
-		"outfit space" 660
+		"outfit space" 690
 		"weapon capacity" 350
 		"engine capacity" 350
 		weapon
@@ -221,7 +221,7 @@ ship "Empire Destroyer"
 		"Breeder Reactor"
 		"KP-6 Photovoltaic Array"
 		"KP-6 Photovoltaic Panel" 2
-		"LP144a Battery Pack"
+		"Empire Hai Ravine Batteries"
 		"D41-HY Shield Generator"
 		"Large Radar Jammer"
 		"Liquid Nitrogen Cooler"
@@ -293,7 +293,7 @@ ship "Light Empire Destroyer"
 		"Anti-Missile Turret"
 		
 		"RT-I Radiothermal"
-		"LP144a Battery Pack"
+		"Empire Hai Ravine Batteries"
 		"D67-TM Shield Generator"
 		"Small Radar Jammer" 2
 		"Water Coolant System"
@@ -360,7 +360,7 @@ ship "Empire Quicksilver"
 		"Proton Gun" 2
 		
 		"RT-I Radiothermal"
-		"LP036a Battery Pack"
+		"Empire Hai Gorge Batteries"
 		"D23-QP Shield Generator"
 		"Cooling Ducts"
 		
@@ -412,7 +412,7 @@ ship "Empire Raven"
 		
 		"RT-I Radiothermal"
 		"KP-6 Photovoltaic Panel" 2
-		"LP072a Battery Pack"
+		"Empire Hai Gorge Batteries"
 		"D41-HY Shield Generator"
 		"Laser Rifle" 2
 		

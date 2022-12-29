@@ -27,3 +27,4 @@ shipyard Cromha-basic-shipyard
 	"Light Empire Destroyer"
 	"Empire Quicksilver"
 	"Empire Raven"
+	"Empire Fighter"
