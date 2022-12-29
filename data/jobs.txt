@@ -93,7 +93,8 @@ mission outlaw-empire-passport[0]
 	name "Escort outlaw to Witdrew Station"
 	description "This guy was caught in The Empire systems without any Empire passport. Bring him back safely to Witdrew Station so he can get a Empire Passport. Payment is <payment>."
 	passengers 1
-	to offer < 30
+	to offer
+		random < 30
 	source
 		government "Cromha Empire"
 		not planet "Witdrew Station"
@@ -103,13 +104,14 @@ mission outlaw-empire-passport[0]
 		payment 80000
 		dialog "After opening the sas, Empire authorities thank you and take the guy to the Empire register. You automaticlly got 80000 credits on your bank account."
 
-ission outlaw-empire-passport[1]
+mission outlaw-empire-passport[1]
 	job
 	repeat
 	name "Escort outlaw to Witdrew Station"
 	description "This guy was caught in The Empire systems without any Empire passport. Bring him back safely to Witdrew Station so he can get a Empire Passport. Payment is <payment>."
 	passengers 1
-	to offer < 30
+	to offer
+		random < 30
 	source
 		government "Cromha Empire"
 		not planet "Witdrew Station"
@@ -119,13 +121,14 @@ ission outlaw-empire-passport[1]
 		payment 80000
 		dialog "After opening the sas, Empire authorities thank you and take the guy to the Empire register. You automaticlly got 80000 credits on your bank account."
 
-ission outlaw-empire-passport[2]
+mission outlaw-empire-passport[2]
 	job
 	repeat
 	name "Escort outlaw to Witdrew Station"
 	description "This guy was caught in The Empire systems without any Empire passport. Bring him back safely to Witdrew Station so he can get a Empire Passport. Payment is <payment>."
 	passengers 1
-	to offer < 30
+	to offer
+		random < 30
 	source
 		government "Cromha Empire"
 		not planet "Witdrew Station"
@@ -135,6 +138,31 @@ ission outlaw-empire-passport[2]
 		payment 80000
 		dialog "After opening the sas, Empire authorities thank you and take the guy to the Empire register. You automaticlly got 80000 credits on your bank account."
 
+mission assist-empire-pirate[0]
+	job
+	repeat
+	name "Assist Empire in <system>"
+	description "An Empire army in <system> need help for defeating pirates. Defeat all the pirates then land on <planet> and recieve <payment>"
+	source
+		government "Cromha Empire"
+		attributes urban military
+	destination
+		government "Cromha Empire"
+		attributes rich urban tourism
+	on complete
+		payment
+		payment 80000
+		dialog "The Cromha Empire authorities thank you for helping them and gives you <payment>"
+	npc
+		government "Cromha Empire"
+		personality heroic forbearing disables plunders
+		fleet cromha-fleet
+		system destination
+	npc kill
+		government "Pirate"
+		personality plunders harvests
+		fleet "Large Southern Pirates"
+		system destination
 
 # Cromha Empire jobs
 mission "Transport executive to <planet>"
