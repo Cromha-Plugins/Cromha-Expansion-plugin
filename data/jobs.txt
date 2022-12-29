@@ -25,7 +25,7 @@ mission mineria-colonnies-transport-escort[0]
 	name "Escort Mineria Transports to <destination>"
 	description "Escort an Mineria colonnies transport till <destination>'s factory. Take them safe and the Captain will pay you <payment>."
 	to offer
-		random < 200
+		random < 35
 	source
 		government "Cromha Empire" "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Hai (Unfettered)"
 		not planet "Mineria"
@@ -48,7 +48,7 @@ mission mineria-colonnies-transport-escort[1]
 	name "Escort Mineria Transports to <destination>"
 	description "Escort an Mineria colonnies transport till <destination>'s factory. Take them safe and the Captain will pay you <payment>."
 	to offer
-		random < 200
+		random < 35
 	source
 		government "Cromha Empire" "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Hai (Unfettered)"
 		not planet "Mineria"
@@ -71,7 +71,7 @@ mission mineria-colonnies-transport-escort[2]
 	name "Escort Mineria Transports to <destination>"
 	description "Escort an Mineria colonnies transport till <destination>'s factory. Take them safe and the Captain will pay you <payment>."
 	to offer
-		random < 200
+		random < 35
 	source
 		government "Cromha Empire" "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Hai (Unfettered)"
 		not planet "Mineria"
@@ -86,6 +86,55 @@ mission mineria-colonnies-transport-escort[2]
 		government "Cromha Empire"
 		personality escort timid
 		fleet mineria-escorts-transports
+
+mission outlaw-empire-passport[0]
+	job
+	repeat
+	name "Escort outlaw to Witdrew Station"
+	description "This guy was caught in The Empire systems without any Empire passport. Bring him back safely to Witdrew Station so he can get a Empire Passport. Payment is <payment>."
+	passengers 1
+	to offer < 30
+	source
+		government "Cromha Empire"
+		not planet "Witdrew Station"
+	destination "Witdrew Station"
+	on complete
+		payment
+		payment 80000
+		dialog "After opening the sas, Empire authorities thank you and take the guy to the Empire register. You automaticlly got 80000 credits on your bank account."
+
+ission outlaw-empire-passport[1]
+	job
+	repeat
+	name "Escort outlaw to Witdrew Station"
+	description "This guy was caught in The Empire systems without any Empire passport. Bring him back safely to Witdrew Station so he can get a Empire Passport. Payment is <payment>."
+	passengers 1
+	to offer < 30
+	source
+		government "Cromha Empire"
+		not planet "Witdrew Station"
+	destination "Witdrew Station"
+	on complete
+		payment
+		payment 80000
+		dialog "After opening the sas, Empire authorities thank you and take the guy to the Empire register. You automaticlly got 80000 credits on your bank account."
+
+ission outlaw-empire-passport[2]
+	job
+	repeat
+	name "Escort outlaw to Witdrew Station"
+	description "This guy was caught in The Empire systems without any Empire passport. Bring him back safely to Witdrew Station so he can get a Empire Passport. Payment is <payment>."
+	passengers 1
+	to offer < 30
+	source
+		government "Cromha Empire"
+		not planet "Witdrew Station"
+	destination "Witdrew Station"
+	on complete
+		payment
+		payment 80000
+		dialog "After opening the sas, Empire authorities thank you and take the guy to the Empire register. You automaticlly got 80000 credits on your bank account."
+
 
 # Cromha Empire jobs
 mission "Transport executive to <planet>"
