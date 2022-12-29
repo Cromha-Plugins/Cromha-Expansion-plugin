@@ -433,6 +433,7 @@ system "Markeb"
 	link "Aludra"
 	fleet mineria-transports 700
 system "Alpha Hydri"
+	attributes "core" syndicate
 	fleet "Small Syndicate" 1200
 	fleet cromha-fleet 550
 	fleet cromha-transporters 500
@@ -445,6 +446,7 @@ system "Alpha Hydri"
 	link "Volcanois"
 	link "Polaris"
 system "Polaris"
+	attributes syndicate
 	fleet "Small Syndicate" 1200
 	fleet cromha-fleet 550
 	fleet cromha-transporters 500
@@ -453,6 +455,7 @@ system "Polaris"
 	link "Achernar"
 	link "Aplha Hydri"
 system "Sheratan"
+	attributes "core" syndicate
 	fleet "Small Syndicate" 1200
 	fleet cromha-fleet 550
 	fleet cromha-transporters 500
@@ -462,6 +465,7 @@ system "Sheratan"
 	link "Zaurak"
 	link "Alpha Hydri"
 system "Achernar"
+	attributes "core" syndicate
 	fleet "Small Syndicate" 1200
 	fleet cromha-fleet 550
 	fleet cromha-transporters 500
@@ -473,6 +477,7 @@ system "Achernar"
 	link "Al Dhanab"
 	link "Alpha Hydri"
 system "Alpheratz"
+	attributes "core" syndicate
 	fleet "Small Syndicate" 1200
 	fleet cromha-fleet 550
 	fleet cromha-transporters 500
@@ -483,6 +488,7 @@ system "Alpheratz"
 	link "Ruchbah"
 	link "Alpha Hydri"
 system "Ruchbah"
+	attributes "core" syndicate
 	fleet "Small Syndicate" 1200
 	government "Cromha Empire"
 	fleet cromha-fleet 550

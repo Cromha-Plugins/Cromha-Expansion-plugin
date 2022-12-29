@@ -31,7 +31,7 @@ fleet cromha-fleet
 fleet cromha-transporters
 	government "Merchant"
 	names "civilian"
-	cargo 4
+	cargo 6
 	personality forbearing
 		disables
 		plunders
@@ -57,7 +57,7 @@ fleet mineria-transports
 	names "civilian"
 	personality pacific
 	outfitters Cromha-basic-outfitter
-	cargo 4
+	cargo 6
 	# big convoits
 	variant 10
 		Hauler 2
@@ -72,6 +72,7 @@ fleet mineria-transports
 fleet calor-stil-tourism
 	government "Mineria colonnies"
 	names "civilian"
+	cargo 3
 	personality pacific
 	cargo 3
 	outfitters Cromha-basic-outfitter
@@ -92,6 +93,7 @@ fleet calor-stil-tourism
 fleet calor-stil-tourism2
 	government "Merchant"
 	names "civilian"
+	cargo 2
 	personality pacific
 	outfitters Cromha-basic-outfitter
 	# single tourist 1
@@ -136,6 +138,7 @@ fleet small-pirates
 fleet cromha-miners
 	government "Merchant"
 	names "civilian"
+	cargo 4
 	personality pacific
 		mining
 		disables
@@ -152,6 +155,7 @@ fleet cromha-miners
 fleet mineria-escorts-transports
 	government "Mineria colonnies"
 	names "civilian"
+	cargo 15
 	personality escort timid
 	#small
 	variant 30

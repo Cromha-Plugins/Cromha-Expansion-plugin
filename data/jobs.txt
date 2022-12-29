@@ -30,6 +30,7 @@ mission mineria-colonnies-transport-escort[0]
 		government "Cromha Empire" "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Hai (Unfettered)"
 		not planet "Mineria"
 	destination
+		distance 10 30
 		government "Republic" "Cromha Empire" "Syndicate" "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Hai (Unfettered)"
 		attributes factory
 	on complete
@@ -53,6 +54,7 @@ mission mineria-colonnies-transport-escort[1]
 		government "Cromha Empire" "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Hai (Unfettered)"
 		not planet "Mineria"
 	destination
+		distance 10 30
 		government "Republic" "Cromha Empire" "Syndicate" "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Hai (Unfettered)"
 		attributes factory
 	on complete
@@ -76,6 +78,7 @@ mission mineria-colonnies-transport-escort[2]
 		government "Cromha Empire" "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Hai (Unfettered)"
 		not planet "Mineria"
 	destination
+		distance 3 10
 		government "Republic" "Cromha Empire" "Syndicate" "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Hai (Unfettered)"
 		attributes factory
 	on complete
@@ -141,7 +144,7 @@ mission outlaw-empire-passport[2]
 mission assist-empire-pirate[0]
 	job
 	repeat
-	name "Assist Empire in <system>"
+	name "Assist Empire in <system> from Pirates"
 	description "An Empire army in <system> need help for defeating pirates. Defeat all the pirates then land on <planet> and recieve <payment>"
 	to offer
 		random < 20
@@ -166,7 +169,37 @@ mission assist-empire-pirate[0]
 		personality plunders harvests
 		fleet "Large Southern Pirates"
 		system destination
-		dialog "Last last pirate has just been killed, go back to <planet> to get your payment."
+		dialog "The last Pirate has just been disabled, go back to <planet> to get your payment."
+
+mission assist-empire-syndicate[0]
+	job
+	repeat
+	name "Assist Empire in <system> from Syndicate rebels"
+	description "An Empire army in <system> need help for defeating syndicates rebels. Defeat all the rebels then land on <planet> and recieve <payment>"
+	to offer
+		random < 25
+		"combat rating" > 1500
+	source
+		government "Cromha Empire"
+		attributes urban military
+	destination
+		government "Cromha Empire"
+		attributes syndicate "core"
+	on complete
+		payment
+		payment 80000
+		dialog "The Cromha Empire authorities thank you for helping them and gives you <payment>"
+	npc
+		government "Cromha Empire"
+		personality heroic forbearing disables plunders
+		fleet cromha-fleet
+		system destination
+	npc kill
+		government "Syndicate"
+		personality plunders harvests
+		fleet "Large Syndicate"
+		system destination
+		dialog "The last rebel has just been disabled, go back to <planet> to get your payment."
 
 # Cromha Empire jobs
 mission "Transport executive to <planet>"
