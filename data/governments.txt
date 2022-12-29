@@ -42,11 +42,6 @@ government "Cromha Empire"
 
 government "Mineria colonnies"
 	"display name" "Mineria colonnies"
-	"attitude toward"
-		Merchant 5
-		Neutral 0.1
-		Militia 0.1
-		"Cromha Empire" 5
 	swizzle 1
 	"provoke on scan"
 	color 191 4 135

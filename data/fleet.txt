@@ -149,3 +149,16 @@ fleet cromha-miners
 	variant 5
 		Hawk 1
 		Fury 2
+fleet mineria-escorts-transports
+	government "Mineria colonnies"
+	names "civilian"
+	personality escort timid
+	#small
+	variant 30
+		Hawk 2
+		Blackbird 1
+		Frigate 2
+	#medium
+	variant 15
+		Fury 3
+		Frigate 4

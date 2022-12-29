@@ -1,28 +1,10 @@
-# Hai Empire jobs
-mission hai-passenger[0]
-	name "Hai Passenger Transport to <destination>"
-	description "Passenger an Hai to <destination> so he can find back his girlfriend. Payment is <payment>"
-	job
-	repeat
-	passengers 1
-	source
-		government "Cromha Empire"
-		attributes hai urban tourism
-	destination
-		distance 5 60
-		government "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Hai (Unfettered)"
-		not attributes station
-	on complete
-		payment
-		payment 15000
-		dialog "As soon you open the ship sas, the Hai guy run to somewhere you can't tell. He left 15000 credits behind him."
-		
+# Hai Empire Jobs
 mission hai-embassade-escort[0]
 	assisting
 	job
 	repeat
 	name "Escort Hai Embassador to <destination>"
-	description "An Hai Empire Embassador want to go back on <destination>. Bring him back to <destination>. Payment is <payment>"
+	description "An Hai Empire Embassador want to go back on <destination>. Bring him back to <destination>. Payment is <payment>."
 	source
 		government "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Hai (Unfettered)"
 		not planet "Witdrew"
@@ -35,7 +17,76 @@ mission hai-embassade-escort[0]
 		government Hai
 		personality escort timid
 		ship "Pond Strider" "Hai Empire Embassador"
-		
+
+mission mineria-colonnies-transport-escort[0]
+	assisting
+	job
+	repeat
+	name "Escort Mineria Transports to <destination>"
+	description "Escort an Mineria colonnies transport till <destination>'s factory. Take them safe and the Captain will pay you <payment>."
+	to offer
+		random < 200
+	source
+		government "Cromha Empire" "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Hai (Unfettered)"
+		not planet "Mineria"
+	destination
+		government "Republic" "Cromha Empire" "Syndicate" "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Hai (Unfettered)"
+		attributes factory
+	on complete
+		payment
+		payment 100000
+		dialog "After landing oon the planet, the Captain thanks you and gives you the <payment>."
+	npc accompany save
+		government "Cromha Empire"
+		personality escort timid
+		fleet mineria-escorts-transports
+
+mission mineria-colonnies-transport-escort[1]
+	assisting
+	job
+	repeat
+	name "Escort Mineria Transports to <destination>"
+	description "Escort an Mineria colonnies transport till <destination>'s factory. Take them safe and the Captain will pay you <payment>."
+	to offer
+		random < 200
+	source
+		government "Cromha Empire" "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Hai (Unfettered)"
+		not planet "Mineria"
+	destination
+		government "Republic" "Cromha Empire" "Syndicate" "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Hai (Unfettered)"
+		attributes factory
+	on complete
+		payment
+		payment 200000
+		dialog "After landing oon the planet, the Captain thanks you and gives you the <payment>."
+	npc accompany save
+		government "Cromha Empire"
+		personality escort timid
+		fleet mineria-escorts-transports
+
+mission mineria-colonnies-transport-escort[2]
+	assisting
+	job
+	repeat
+	name "Escort Mineria Transports to <destination>"
+	description "Escort an Mineria colonnies transport till <destination>'s factory. Take them safe and the Captain will pay you <payment>."
+	to offer
+		random < 200
+	source
+		government "Cromha Empire" "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Hai (Unfettered)"
+		not planet "Mineria"
+	destination
+		government "Republic" "Cromha Empire" "Syndicate" "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Hai (Unfettered)"
+		attributes factory
+	on complete
+		payment
+		payment 150000
+		dialog "After landing oon the planet, the Captain thanks you and gives you the <payment>."
+	npc accompany save
+		government "Cromha Empire"
+		personality escort timid
+		fleet mineria-escorts-transports
+
 # Cromha Empire jobs
 mission "Transport executive to <planet>"
 	job
