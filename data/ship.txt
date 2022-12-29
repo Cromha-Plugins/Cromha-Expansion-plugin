@@ -237,6 +237,16 @@ ship "Empire Destroyer"
 	turret 16 -29 "Quad Blaster Turret"
 	turret -50 39.5 "Quad Blaster Turret"
 	turret 50 39.5 "Quad Blaster Turret"
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
 	leak "leak" 30 50
 	leak "flame" 50 80
 	leak "big leak" 60 30
@@ -295,6 +305,16 @@ ship "Light Empire Destroyer"
 	turret -13 42 "Blaster Turret"
 	turret 0 9 "Anti-Missile Turret"
 	turret 13 42 "Blaster Turret"
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
 	leak "leak" 60 50
 	leak "flame" 40 80
 	leak "big leak" 90 30
@@ -448,3 +468,49 @@ ship "Empire Drone"
 	explode "tiny explosion" 15
 	description "It is at first a Republic Navy drone but Cromha Empire buyed rights of this ship and made its own version to satisfy them."
 	description "	Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay."
+
+ship "Empire Fighter"
+	sprite "ship/dagger"
+		scale 1.2
+	thumbnail "thumbnail/dagger"
+	attributes
+		category "Fighter"
+		"cost" 149000
+		"shields" 2000
+		"hull" 500
+		"required crew" 1
+		"bunks" 1
+		"mass" 20
+		"drag" .63
+		"heat dissipation" .9
+		"outfit space" 90
+		"weapon capacity" 20
+		"engine capacity" 30
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"Beam Laser"
+		"Javelin Mini Pod"
+		"Javelin" 40
+		
+		"nGVF-AA Fuel Cell"
+		"Supercapacitor"
+		"D14-RN Shield Generator"
+		"Small Radar Jammer"
+		
+		"X1700 Ion Thruster"
+		"X1200 Ion Steering"
+		
+	engine -8 34
+	engine 8 34
+	gun -11 -21 "Beam Laser"
+	gun 11 -21 "Javelin Mini Pod"
+	leak "leak" 60 50
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description "The Dagger is a fighter designed by Lionheart Industries, intended to be carried by their Aerie warship, although other ships have been known to carry them, as well. As with many Lionheart ships, its chassis is largely composed of lightweight composite materials, making it considerably faster than other fighters."
+	description "The Empire made its own version to satisfy their need. This ship has better shields and hull; a little more expensive, but totally worth it for an army."
+	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
