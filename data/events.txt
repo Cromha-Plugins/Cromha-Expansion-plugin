@@ -1,0 +1,17 @@
+event "ultimatum day"
+	date 3 4 3025
+#mission "ultimatum day2"
+	landing
+	repeat
+	on offer
+		conversation
+			`You enter the spaceport, but something seems weird. You see a lot of ships but you hear no noise, no talk or ship sounds. You search the spaceport for someone but you find noone. Wait, but you hear a little noise, coming from a bar. You see people in it!`
+			`	You enter the bar and see everyone grouped front of an big screen. It's time where there is the news:`
+            `	The Syndicates have invaded the Ruchbah system, near Alpha Hydri. The sent an ultimatum to The Empire. If The Empire dont take back there fleets near 'The Core' before the first of February, Syndicate fleet will engage war to every systems that The Empire own in 'The Core'`
+			`	The Empire decided to not respect the deal and repulse all Syndicate fleets. The send a call to all Empire and Hais systems to join The Empire fleet to defeat the Syndicate fleet; same with Syndicate.`
+			`	The Hais fleets decided to joins Empire's fleets.`
+            `	Also maybe try to avoid going on system near 'The Core', so don't get disabled.`
+            `	It's up to you to choose wich side to join for the battle.`
+            `	You can go on Alldust Prima in Beta Cromha system if you want to join The Empire, they will give you severals warships if you help them.`
+            `	If you want to join Syndicate, you can go on Crossroads in Ruchbah system. They promised 1M credits for anyone who wants to join them.`
+            	decline
