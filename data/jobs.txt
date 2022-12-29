@@ -143,6 +143,9 @@ mission assist-empire-pirate[0]
 	repeat
 	name "Assist Empire in <system>"
 	description "An Empire army in <system> need help for defeating pirates. Defeat all the pirates then land on <planet> and recieve <payment>"
+	to offer
+		random < 20
+		"combat rating" > 3000
 	source
 		government "Cromha Empire"
 		attributes urban military
@@ -163,6 +166,7 @@ mission assist-empire-pirate[0]
 		personality plunders harvests
 		fleet "Large Southern Pirates"
 		system destination
+		dialog "Last last pirate has just been killed, go back to <planet> to get your payment."
 
 # Cromha Empire jobs
 mission "Transport executive to <planet>"
