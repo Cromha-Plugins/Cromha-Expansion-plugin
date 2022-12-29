@@ -239,6 +239,7 @@ planet "Crodust"
 	attributes rich inhabited north research military "requires: empire passport"
 	landscape "land/Crodust"
 	outfitter Cromha-military-outfitter
+	shipyard Cromha-military-shipyard
 	spaceport "Crodust is the first military research planet that Cromha Empire decided to install on. More than 60% if the planet is full of swamps. There is not outfitter and no shipyard here, the only guys who are here are scientists or Cromha Empire workers that make money by doing werid stuff for the Empire."
 	description "A huge military research installation for Cromha Empire. The most part of the planet is full of dirty swamps."
 	"required reputation" 5
