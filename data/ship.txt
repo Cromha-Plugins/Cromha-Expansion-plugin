@@ -18,8 +18,8 @@ ship "Black Manta (Prototype)"
 		"heat dissipation" .8
 		"fuel capacity" 800
 		"cargo space" 200
-		"outfit space" 1489
-		"weapon capacity" 440
+		"outfit space" 1589
+		"weapon capacity" 500
 		"engine capacity" 450
 		weapon
 			"blast radius" 700
