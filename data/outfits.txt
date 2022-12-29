@@ -25,6 +25,82 @@ outfit "Modified Plasma Repeater"
 	description `After the succes of The Plasma Repeater, better version of the original Plasma Cannon, Cromha Empire made a modified Plasma Repeater version for their ships. A little like the Modified Blaster Gun, the weapon have better range, lifetime, velocity and firehing heat; even if this version has worst reload, it is surely a better version. The Empire military scientics also improved the weapon accuracy, that was very bad for the old Plasma guns.`
 	description `	Derived from the original Plasma Repeater, this heavier version trades off its larger bursts for a much faster rate of fire. Although the smaller bursts of superheated plasma deal far less damage than its predecessor, the volume of fire results in more damage to the target overall.`
 
+outfit "Nuclear Missile"
+	category "Secondary Weapons"
+	cost 2000000
+	thumbnail "outfit/nuke"
+	"mass" 15
+	"outfit space" -10
+	"weapon capacity" -10
+	"gun ports" -1
+	weapon
+		sprite "projectile/missile"
+			"no repeat"
+			"frame rate" .25
+		"hardpoint sprite" "hardpoint/nuke"
+		sound "nuke"
+		ammo "Nuclear Missile"
+		stream
+		icon "icon/nuke"
+		"hit effect" "nuke explosion"
+		"hit effect" "nuke residue fast" 10
+		"hit effect" "nuke residue slow" 10
+		"die effect" "missile death"
+		"inaccuracy" 1
+		"velocity" 8
+		"lifetime" 800
+		"reload" 400
+		"firing energy" 10
+		"firing heat" 400
+		"acceleration" .8
+		"drag" .1
+		"turn" 4
+		"homing" 4
+		"radar tracking" .5
+		"optical tracking" 1
+		"trigger radius" 40
+		"blast radius" 450
+		"shield damage" 15000
+		"hull damage" 12000
+		"hit force" 4000
+		"missile strength" 200
+	description "It has been centuries since the last nuclear war was fought, and until very recently, most people in the galaxy assumed that that era of chaos and destruction was forever behind us..."
+	description "	[Nuclear missiles are a one-shot weapon: each missile occupies a gun slot, and after it is fired, the slot it was in is left empty.]"
+
+effect "nuke explosion"
+	sprite "effect/explosion/nuke"
+		"no repeat"
+		"frame rate" 30
+		scale 2
+	sound "explosion nuke"
+	"lifetime" 30
+	"random angle" 360
+	"random spin" 5
+	"random velocity" 1
+	"velocity scale" .4
+
+effect "nuke residue fast"
+	sprite "effect/explosion/huge"
+		"no repeat"
+		"frame rate" 15
+		scale 2
+	"lifetime" 72
+	"random angle" 360
+	"random spin" 5
+	"random velocity" 8
+	"velocity scale" 0.1
+
+effect "nuke residue slow"
+	sprite "effect/explosion/huge"
+		"no repeat"
+		"frame rate" 10
+		scale 2
+	"lifetime" 120
+	"random angle" 360
+	"random spin" 5
+	"random velocity" 5
+	"velocity scale" 0.1
+
 # Engines
 outfit "A860 Black Atomic Thruster"
 	category "Engines"

@@ -125,6 +125,7 @@ ship "Heavy Empire Destroyer"
 		"Meteor Missile" 120
 		"Heavy Laser Turret" 2
 		"Heavy Anti-Missile Turret" 2
+		"Nuclear Missile" 2
 		
 		"Fusion Reactor"
 		"Empire Hai Batteries" 2
@@ -155,6 +156,8 @@ ship "Heavy Empire Destroyer"
 	gun 39 -251.25 "Proton Gun"
 	gun -39 -251.25 "Meteor Missile Launcher"
 	gun 39 -251.25 "Meteor Missile Launcher"
+	gun -5 0 "Nuclear Missile"
+	gun 5 0 "Nuclear Missile"
 	turret 0 -73.5 "Heavy Laser Turret"
 	turret 0 21 "Heavy Laser Turret"
 	turret 0 30 "Proton Turret"
@@ -213,6 +216,7 @@ ship "Empire Destroyer"
 		"Torpedo" 60
 		"Quad Blaster Turret" 3
 		"Heavy Anti-Missile Turret"
+		"Nuclear Missile"
 		
 		"Breeder Reactor"
 		"KP-6 Photovoltaic Array"
@@ -233,6 +237,7 @@ ship "Empire Destroyer"
 	gun 16 -86.5 "Particle Cannon"
 	gun -19 -76.5 "Torpedo Launcher"
 	gun 19 -76.5 "Torpedo Launcher"
+	gun 0 0 "Nuclear Missile"
 	turret -16 -29 "Heavy Anti-Missile Turret"
 	turret 16 -29 "Quad Blaster Turret"
 	turret -50 39.5 "Quad Blaster Turret"
