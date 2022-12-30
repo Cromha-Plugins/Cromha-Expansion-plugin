@@ -1,10 +1,8 @@
 event "ultimatum day"
-	date 3 4 3025
-mission "ultimatum day"
+	date 12 12 3023
+mission "ultimatum day mission"
 	landing
-	repeat
-	#to offer
-		#has "event: ultimatum day"
+	destination "Witdrew"
 	on offer
 		conversation
 			`You enter the spaceport, but something seems weird. You see a lot of ships but you hear no noise, no talk or ship sounds. You search the spaceport for someone but you find noone. Wait, but you hear a little noise, coming from a bar. You see people in it!`
@@ -22,6 +20,37 @@ mission "ultimatum day"
 			`	If you want to join Syndicate, you can go on Crossroads in Ruchbah system. They promised 1M credits for anyone who wants to join them.`
 			choice
 				`Go now by yourself to Alldust Prima or Crossroads`
-					flee
+					launch
 				`Go later.`
 					decline
+
+mission "alldust prima join fleet"
+	landing
+	destination "Alldust Prima"
+	to offer
+		has "ultimatum day mission: active"
+	on complete
+		give ship "Empire Quicksilver" "Empire Quicksilver"
+		give ship "Empire Quicksilver" "Empire Quicksilver"
+		give ship "Empire Quicksilver" "Empire Quicksilver"
+		give ship "Empire Quicksilver" "Empire Quicksilver"
+		conversation
+			`You enter the spaceport of Alldust Prima and search for the recrute place. And guy of Empire authorities greet you and tell you to follow him.`
+			choice
+				`	Next`
+					goto next
+			label next
+			`He tell you to wait here till the guy who is charged of recruting come.`
+			`	You wait severals minutes until someone approach you.`
+			`	"Hi! I guess you are here to get recruted. Follow me please, i'll show you the ships you'll get."`
+			`	You follow him. You enter in a big place where severals warships like Quicksilver and Raven are parked in this sort of 'garage'.`
+			`	Suddently he stops in front of 3 ship. Then he tells you:`
+			`	"So? What ship do you want?"`
+			choice
+				`	The Empire Quicksilver semms cool. (choose quicksilvers fleet)`
+					goto quicksilver
+			label quicksilver
+			`	"You choosed the quicksilver right? Hmm.. pretty good choice. The Empire will give you 4 of thems if you promise to come to battle in Ruchbah the First of February this year, The Empire will count you as an enemy and you'll not be welcome in our space."`
+			`	You say:`
+			`	"Semms good for me."`
+			`	The guy left and now enjoy your new ships.`
