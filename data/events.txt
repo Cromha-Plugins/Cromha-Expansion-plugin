@@ -25,26 +25,3 @@ mission "ultimatum day"
 					flee
 				`Go later.`
 					decline
-				`Go now and ask for somebody to take you to Alldust Prima or Crossroads`
-					goto askhelp
-			label askhelp
-			`	You go back in the spaceport and you see a friendly Hai. You goo see him.`
-			choice
-				`	"Hi! How you doin friend?"`
-					goto choice1
-				`	"Hello, can I ask you a favor?"`
-					goto choice2
-			label choice1
-			`	"Pretty good actually" respond the Hai. "Can I do something for you human?"`
-			choice
-				`	"Actually yes, i would like to go to Crossroads in Ruchbah system" (join Syndicate)`
-					goto syndicate1
-				`	"Yes please, can you take me safely to Alldust Prima in the Beta Cromha system?" (join Empire)`
-					goto empire1
-			label choice2
-			`	"Sure, it's a pleasure, what do you need?" say the Hai`
-				choice
-					`	"I Would like you to escort me to Crossroads in Ruchbah system" (join Syndicate)`
-						goto syndicate2
-					`	"I want to go to Alldust Prima in Beta Cromha system with an escort" (join Empire) `
-						goto empire2
