@@ -174,7 +174,7 @@ mission assist-empire-pirate[0]
 mission assist-empire-syndicate[0]
 	job
 	repeat
-	name "Assist Empire in <system> from Syndicate rebels"
+	name "Assist Empire in <system> from Syndicates"
 	description "An Empire army in <system> need help for defeating syndicates rebels. Defeat all the rebels then land on <planet> and recieve <payment>"
 	to offer
 		random < 25
