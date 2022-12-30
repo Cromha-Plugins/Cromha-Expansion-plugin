@@ -1,6 +1,6 @@
 event "ultimatum day"
 	date 12 12 3023
-mission "ultimatum day mission"
+#mission "ultimatum day mission"
 	landing
 	destination "Witdrew"
 	on offer
@@ -24,7 +24,7 @@ mission "ultimatum day mission"
 				`Go later.`
 					decline
 
-mission "alldust prima join fleet"
+#mission "alldust prima join fleet"
 	landing
 	destination "Alldust Prima"
 	to offer
