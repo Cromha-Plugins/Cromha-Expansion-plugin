@@ -6015,3 +6015,52 @@ mission "Harvest (uranium, large)"
 		outfit "Uranium" -100
 		payment 1600000
 		dialog `You unload the uranium at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+
+# Hunt Down Jobs
+mission marauder[0]
+	job
+	repeat
+	name "Hunt Down Marauder near <system>"
+	description "A Marauder name the <npc> has been attacking Merchants recently near <system> system. Hunt it down and land back on <planet> before the <date> to get your payment. Payment is <payment>"
+	to offer
+		random < 20
+		"combat rating" > 1500
+	source
+		government "Cromha Empire"
+	destination
+		government "Cromha Empire"
+		distance 1 5
+	on complete
+		payment
+		payment 80000
+		dialog "The Cromha Empire authorities thank you for destroying the marauder and gives you <payment>"
+	npc kill
+		government "Pirate"
+		personality plunders harvests
+		fleet "small-pirates"
+		system destination
+		dialog "The last marauder has just been disabled, go back to <planet> to get your payment."
+
+mission marauder[1]
+	job
+	repeat
+	name "Hunt Down Marauder near <system>"
+	description "A Marauder name the <npc> has been attacking Merchants recently near <system> system. Hunt it down and land back on <planet> before the <date> to get your payment. Payment is <payment>"
+	to offer
+		random < 25
+		"combat rating" > 1500
+	source
+		government "Cromha Empire"
+	destination
+		government "Cromha Empire"
+		distance 1 5
+	on complete
+		payment
+		payment 130000
+		dialog "The Cromha Empire authorities thank you for destroying the marauder and gives you <payment>"
+	npc kill
+		government "Pirate"
+		personality plunders harvests
+		fleet "small-pirates"
+		system destination
+		dialog "The last marauder has just been disabled, go back to <planet> to get your payment."
