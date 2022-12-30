@@ -171,3 +171,23 @@ fleet mineria-escorts-transports
 	variant 15
 		Fury 3
 		Frigate 4
+fleet empire-rebels-raiders
+	government "Empire Rebels"
+	names "civilian"
+	cargo 3
+	personality appeasing frugal disables plunders coward
+	# small
+	variant 10
+		Manta 1
+		Wasp 3
+		"Empire Drone" 2
+	# medium
+	variant 20
+		Manta 1
+		Wasp 3
+		Gunboat 2
+	# large
+	variant 5
+		Gunboat 2
+		Protector 1
+		"Light Empire Destroyer" 2
