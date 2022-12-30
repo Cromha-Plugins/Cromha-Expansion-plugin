@@ -166,6 +166,7 @@ system "Calor stil"
 	fleet small-pirates 1500
 	link "Astroid"
 	link "Lifdot"
+	link "Sepriaptu"
 	trade "Heavy Metals" 1052
 	trade Electronics 387
 	trade Equipment 951
@@ -215,6 +216,7 @@ system "Lifdot"
 	fleet mineria-transports 500
 	link "Calor stil"
 	link "Alpha Cromha"
+	link "Sepriaptu"
 	trade "Heavy Metals" 152
 	trade Electronics 687
 	trade Equipment 751
@@ -409,9 +411,79 @@ planet "Neptunna"
 	bribe 0.7
 	security 1
 
+system "Sepriaptu"
+	pos 139.431 -448.812
+	government "Cromha Empire"
+	attributes "korath" north
+	arrival 2035
+	habitable 2035
+	belt 1120
+	link Kaliptari
+	link Sabriset
+	link "Calor stil"
+	link "Lifdot"
+	asteroids "small rock" 127 4.34
+	asteroids "medium rock" 23 4.41
+	asteroids "large rock" 63 4.13
+	asteroids "small metal" 4 10.5
+	asteroids "medium metal" 53 6.23
+	asteroids "large metal" 1 9.24
+	minables aluminum 13 5.16891
+	minables lead 4 5.12023
+	trade Clothing 370
+	trade Electronics 683
+	trade Equipment 588
+	trade Food 488
+	trade "Heavy Metals" 907
+	trade Industrial 740
+	trade "Luxury Goods" 1331
+	trade Medical 604
+	trade Metal 320
+	trade Plastic 449
+	fleet "Large Quarg" 4000
+	fleet cromha-miners 600
+	fleet small-pirates 2000
+	fleet mineria-transports 3000
+	fleet cromha-fleet 1500
+	object
+		sprite star/f5
+		distance 15.0211
+		period 8.27857
+	object
+		sprite star/m0
+		distance 80.5041
+		period 8.27857
+	object
+		sprite planet/desert7-b
+		distance 362.451
+		period 61.1859
+	object
+		sprite planet/rock4-b
+		distance 1644.91
+		period 591.549
+		object "Advanced Empire Station"
+			sprite planet/station3kd
+				scale 0.5
+			distance 273.55
+			period 41.1893
+	object
+		sprite planet/rock17-b
+		distance 2309.96
+		period 984.429
+
+planet "Advanced Empire Station"
+	government "Cromha Empire"
+	attributes "korath" north factory station research military
+	outfitter Cromha-basic-outfitter
+	shipyard "Luxury Ships"
+	landscape "land/Advanced_empire_station"
+	description "An advanced Empire station in the korath space. The goal of this station is to collect data on litterally everything. Most of the people that come here are Empire scientists"
+	spaceport "Not a that big spaceport. Most of everything here is rudimental, you see almost noone but there is a good connection!"
+	bribe 0.5
+	secrity 0.5
+
 system "Sol"
 	link "Volcanois"
-	fleet mineria-transports 700
 system "Hi Yahr"
 	link "Volcanois"
 system "Bore Fah"
@@ -429,7 +501,6 @@ system "Markeb"
 	link "Volcanois"
 	link "Avior"
 	link "Aludra"
-	fleet mineria-transports 700
 system "Alpha Hydri"
 	attributes "core" syndicate
 	fleet "Small Syndicate" 1200

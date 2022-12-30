@@ -22,7 +22,7 @@ mission mineria-colonnies-transport-escort[0]
 	assisting
 	job
 	repeat
-	name "Escort Mineria Transports to <destination>"
+	name "Escort Mineria Convoit to <destination>"
 	description "Escort an Mineria colonnies transport till <destination>'s factory. Take them safe and the Captain will pay you <payment>."
 	to offer
 		random < 35
@@ -46,7 +46,7 @@ mission mineria-colonnies-transport-escort[1]
 	assisting
 	job
 	repeat
-	name "Escort Mineria Transports to <destination>"
+	name "Escort Mineria Convoit to <destination>"
 	description "Escort an Mineria colonnies transport till <destination>'s factory. Take them safe and the Captain will pay you <payment>."
 	to offer
 		random < 35
@@ -70,7 +70,7 @@ mission mineria-colonnies-transport-escort[2]
 	assisting
 	job
 	repeat
-	name "Escort Mineria Transports to <destination>"
+	name "Escort Mineria Convoit to <destination>"
 	description "Escort an Mineria colonnies transport till <destination>'s factory. Take them safe and the Captain will pay you <payment>."
 	to offer
 		random < 35
