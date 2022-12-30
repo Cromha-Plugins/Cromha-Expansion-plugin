@@ -15,6 +15,7 @@ start "cromha-transporter"
 			interest 0.00008
 			term 365
 	set "license: Pilot's"
+	conversation "birthday present"
 	
 conversation "cromha transporter intro"
 	scene "land/Witset_station"
@@ -27,21 +28,21 @@ conversation "cromha transporter intro"
 	`	The elevator is so well-tuned that you do not even realize it is moving until it has deposited you back in the lobby. But as you leave the bank, you are smiling. This crazy adventure suddenly feels real to you. You are going to do it. You are finally going to get off this planet.`
 	`	Compared to the bank, you feel much more at home in the shipyard, walking among the rusted out hulks and newer ships that gleam in the sunlight. You smell grease and dirt and rocket fuel; wonderful smells. There are many ship models to choose from, but only some are within your price range. Which one you choose will determine your future...`
 
-conversation test
+conversation "birthday present"
 	`"WAIT!..."`
     	choice
         	`	Do not wait your dad and enter the spaceport without him`
-           		goto "wait"
+           		goto wait
        		`	Wait your dad, he seem to have smth important to tell you`
-           		goto "not wait"
-     	label "wait"
+           		goto notwait
+     	label wait
      	`	"Son! I'm glad you waited me! I have something important for you, it's your birthday present. Follow me to the spaceport please."`
 	`	Your dad go to the spaceort manager and ask smth you cam't hear. The manager give him keys of a spaceport depot. He opens it and a very old but beautifull Blackbird transporter.`
 	`	"This was my first ship! say your dad. And it is now yours. I know it is pretty old and rusty but i'm sure you will like it!"`
 	`	You say: "Oh my god dad, it really didn't expected this from you. I'm so happy"`
 	`	"I hope you will mak good worth of it. See you next time!"`
 	`	Your dad come back to his ship and you have the sentiment of never seeing him again.`
-		give ship Blackbird "Heavy bird"
-    	label "not wait"
+	
+    	label notwait
     	`	You continue your way till the shipyard.`
 	`	"What ship should i buy now?" you say`
