@@ -281,9 +281,9 @@ ship "Light Empire Destroyer"
 		"heat dissipation" .7
 		"fuel capacity" 600
 		"cargo space" 75
-		"outfit space" 500
+		"outfit space" 550
 		"weapon capacity" 150
-		"engine capacity" 100
+		"engine capacity" 150
 		weapon
 			"blast radius" 60
 			"shield damage" 600
@@ -301,8 +301,8 @@ ship "Light Empire Destroyer"
 		"Water Coolant System"
 		"Laser Rifle"
 		
-		"X3700 Ion Thruster"
-		"X3200 Ion Steering"
+		"X4700 Ion Thruster"
+		"X4200 Ion Steering"
 		"Hyperdrive"
 		
 	engine -15.5 115
