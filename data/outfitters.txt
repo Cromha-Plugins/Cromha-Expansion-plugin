@@ -82,6 +82,8 @@ outfitter Cromha-basic-outfitter
 	"Empire Hai Gorge Batteries"
 	"Empire Hai Fissure Batteries"
 	"Empire Hai Chasm Batteries"
+	"Meteor Missile Launcher"
+	"Meteor Missile"
 outfitter Cromha-military-outfitter
 	"Empire Hai Valley Batteries"
 	"Hyperdrive"
@@ -195,6 +197,8 @@ outfitter Cromha-military-outfitter
 	"Empire Hai Gorge Batteries"
 	"Empire Hai Fissure Batteries"
 	"Empire Hai Chasm Batteries"
+	"Meteor Missile Launcher"
+	"Meteor Missile"
 outfitter Cromha-witdrew-station-outfitter
 	"Empire Passport"
 	"Local Map"

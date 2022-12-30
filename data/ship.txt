@@ -350,8 +350,8 @@ ship "Empire Quicksilver"
 		"heat dissipation" .8
 		"fuel capacity" 400
 		"cargo space" 10
-		"outfit space" 240
-		"weapon capacity" 60
+		"outfit space" 280
+		"weapon capacity" 80
 		"engine capacity" 70
 		weapon
 			"blast radius" 40
@@ -360,6 +360,8 @@ ship "Empire Quicksilver"
 			"hit force" 600
 	outfits
 		"Proton Gun" 2
+		"Meteor Missile" 60
+		"Meteor Missile Launcher" 2
 		
 		"RT-I Radiothermal"
 		"Empire Hai Gorge Batteries"
@@ -374,6 +376,8 @@ ship "Empire Quicksilver"
 	engine 15.5 54
 	gun -6 -39.5 "Proton Gun"
 	gun 6 -39.5 "Proton Gun"
+	gun 9 2 "Meteor Missile Launcher"
+	gun -9 2 "Meteor Missile Launcher"
 	leak "leak" 50 50
 	explode "tiny explosion" 12
 	explode "small explosion" 16
