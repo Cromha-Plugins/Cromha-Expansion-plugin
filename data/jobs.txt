@@ -6064,3 +6064,308 @@ mission marauder[1]
 		fleet "small-pirates"
 		system destination
 		dialog "The last marauder has just been disabled, go back to <planet> to get your payment."
+
+# Delivries Jobs
+mission cargo-delivry-food[0]
+	name "Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Food" 10 250
+	to offer
+		random < 60
+	source
+		government "Cromha Empire"
+	destination
+		distance 1 5
+		not government "Syndicate"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission cargo-delivry-food[1]
+	name "Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Food" 10 250
+	to offer
+		random < 60
+	source
+		government "Cromha Empire"
+	destination
+		distance 1 5
+		not government "Syndicate"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission cargo-delivry-food[2]
+	name "Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Food" 10 250
+	to offer
+		random < 60
+	source
+		government "Cromha Empire"
+	destination
+		distance 1 5
+		not government "Syndicate"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission cargo-delivry-food[3]
+	name "Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Food" 10 250
+	to offer
+		random < 60
+	source
+		government "Cromha Empire"
+	destination
+		distance 1 5
+		not government "Syndicate"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission cargo-delivry-food[4]
+	name "Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Food" 10 250
+	to offer
+		random < 60
+	source
+		government "Cromha Empire"
+	destination
+		distance 1 5
+		not government "Syndicate"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission cargo-delivry-clothing[0]
+	name "Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Clothing" 10 250
+	to offer
+		random < 60
+	source
+		government "Cromha Empire"
+	destination
+		distance 1 5
+		not government "Syndicate"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission cargo-delivry-clothing[1]
+	name "Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Clothing" 10 250
+	to offer
+		random < 60
+	source
+		government "Cromha Empire"
+	destination
+		distance 1 5
+		not government "Syndicate"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission cargo-delivry-clothing[2]
+	name "Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Clothing" 10 250
+	to offer
+		random < 60
+	source
+		government "Cromha Empire"
+	destination
+		distance 1 5
+		not government "Syndicate"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission cargo-delivry-equipment[0]
+	name "Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Equipment" 10 250
+	to offer
+		random < 60
+	source
+		government "Cromha Empire"
+	destination
+		distance 1 5
+		not government "Syndicate"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission cargo-delivry-equipment[1]
+	name "Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Equipment" 10 250
+	to offer
+		random < 60
+	source
+		government "Cromha Empire"
+	destination
+		distance 1 5
+		not government "Syndicate"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission cargo-delivry-equipment[2]
+	name "Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Equipment" 10 250
+	to offer
+		random < 60
+	source
+		government "Cromha Empire"
+	destination
+		distance 1 5
+		not government "Syndicate"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission cargo-delivry-medical[0]
+	name "Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Medical" 10 250
+	to offer
+		random < 60
+	source
+		government "Cromha Empire"
+	destination
+		distance 1 5
+		not government "Syndicate"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission cargo-delivry-medical[1]
+	name "Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Medical" 10 250
+	to offer
+		random < 60
+	source
+		government "Cromha Empire"
+	destination
+		distance 1 5
+		not government "Syndicate"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission cargo-delivry-electronics[0]
+	name "Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Electronics" 10 250
+	to offer
+		random < 60
+	source
+		government "Cromha Empire"
+	destination
+		distance 1 5
+		not government "Syndicate"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission cargo-delivry-electronics[1]
+	name "Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Electronics" 10 250
+	to offer
+		random < 60
+	source
+		government "Cromha Empire"
+	destination
+		distance 1 5
+		not government "Syndicate"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission cargo-delivry-electronics[2]
+	name "Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Electronics" 10 250
+	to offer
+		random < 60
+	source
+		government "Cromha Empire"
+	destination
+		distance 1 5
+		not government "Syndicate"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
