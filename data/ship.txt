@@ -102,9 +102,9 @@ ship "Heavy Empire Destroyer"
 		category "Heavy Warship"
 		licenses
 			"Empire"
-		"cost" 17200000
-		"shields" 31400
-		"hull" 8300
+		"cost" 37200000
+		"shields" 501400
+		"hull" 80300
 		"required crew" 80
 		"bunks" 184
 		"mass" 1310
