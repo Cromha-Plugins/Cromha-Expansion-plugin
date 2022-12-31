@@ -363,7 +363,7 @@ system "Beta Cromha"
 	fleet cromha-miners 1000
 	link "Alpha Cromha"
 	link "Astroid"
-	trade "Clothing" 1'6
+	trade "Clothing" 160
 	trade "Luxury Goods" 940
 	trade "Heavy Metals" 142
 	trade Electronics 649

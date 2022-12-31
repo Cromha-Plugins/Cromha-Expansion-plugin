@@ -202,7 +202,7 @@ ship "Empire Destroyer"
 		licenses
 			"Empire"
 		"cost" 10930000
-		"shields" 14800
+		"shields" 25800
 		"hull" 3700
 		"required crew" 52
 		"bunks" 91
@@ -279,8 +279,8 @@ ship "Light Empire Destroyer"
 		licenses
 			"Empire"
 		"cost" 3120000
-		"shields" 5700
-		"hull" 1700
+		"shields" 15700
+		"hull" 3700
 		"required crew" 7
 		"bunks" 21
 		"mass" 350
@@ -300,6 +300,7 @@ ship "Light Empire Destroyer"
 		"Proton Gun" 2
 		"Blaster Turret" 2
 		"Anti-Missile Turret"
+		"Volcano Afterburner"
 		
 		"RT-I Radiothermal"
 		"Empire Hai Ravine Batteries"
