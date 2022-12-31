@@ -191,6 +191,16 @@ outfit "Empire Hai Valley Batteries"
 	description "After The Empire and Hais made an alliance between their two governments, Hais shared their Tech to Cromha Empire."
 	description "Cromha Empire used as model The Hai Valley Battery to implemente some technology to improve capacity and lower the mass of the battery to equip it to their ships. This is the most advanced battery in all human space."
 
+# Cooling
+outfit "Multiphasic Cooler"
+	category "Systems"
+	cost 80000
+	thumbnail "outfit/multiphasic_cooler"
+	"mass" 20
+	"outfit space" -20
+	"cooling" 29
+	description "For ships with extreme cooling needs, the multiphasic cooler is the answer. One of these coolers will dissipate the heat produced by anything but the heaviest of armaments."
+
 # Licenses
 outfit "Empire License"
 	category "Licenses"

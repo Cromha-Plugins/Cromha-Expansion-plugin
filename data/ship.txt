@@ -51,7 +51,7 @@ ship "Black Manta (Prototype)"
 		"Asteroid Scanner" 5
 		"Scanning Module"
 		"Tactical Scanner"
-		"Liquid Nitrogen Cooler"
+		"Multiphasic Cooler"
 		
 		"A860 Black Atomic Thruster"
 		"A865 Black Atomic Steering"
@@ -135,7 +135,7 @@ ship "Heavy Empire Destroyer"
 		"Large Radar Jammer" 4
 		"Surveillance Pod"
 		"Tactical Scanner"
-		"Water Coolant System"
+		"Multiphasic Cooler"
 		"Brig"
 		"Laser Rifle" 40
 		"Fragmentation Grenades" 40
@@ -233,7 +233,7 @@ ship "Empire Destroyer"
 		"Empire Hai Ravine Batteries"
 		"D41-HY Shield Generator"
 		"Large Radar Jammer"
-		"Liquid Nitrogen Cooler"
+		"Multiphasic Cooler"
 		"Laser Rifle" 15
 		
 		"Tyrant Plasma Thruster"
@@ -306,7 +306,7 @@ ship "Light Empire Destroyer"
 		"Empire Hai Ravine Batteries"
 		"D67-TM Shield Generator"
 		"Small Radar Jammer" 2
-		"Water Coolant System"
+		"Multiphasic Cooler"
 		"Laser Rifle"
 		
 		"X4700 Ion Thruster"
@@ -484,7 +484,7 @@ ship "Empire Quicksilver"
 		"RT-I Radiothermal"
 		"Empire Hai Gorge Batteries"
 		"D23-QP Shield Generator"
-		"Cooling Ducts"
+		"Multiphasic Cooler"
 		
 		"Greyhound Plasma Thruster"
 		"Greyhound Plasma Steering"

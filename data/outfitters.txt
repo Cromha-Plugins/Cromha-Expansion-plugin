@@ -84,6 +84,7 @@ outfitter Cromha-basic-outfitter
 	"Empire Hai Chasm Batteries"
 	"Meteor Missile Launcher"
 	"Meteor Missile"
+	"Multiphasic Cooler"
 outfitter Cromha-military-outfitter
 	"Empire Hai Valley Batteries"
 	"Hyperdrive"
@@ -199,6 +200,7 @@ outfitter Cromha-military-outfitter
 	"Empire Hai Chasm Batteries"
 	"Meteor Missile Launcher"
 	"Meteor Missile"
+	"Multiphasic Cooler"
 outfitter Cromha-witdrew-station-outfitter
 	"Empire Passport"
 	"Local Map"
