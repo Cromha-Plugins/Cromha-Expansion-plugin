@@ -191,6 +191,16 @@ outfit "Empire Hai Valley Batteries"
 	description "After The Empire and Hais made an alliance between their two governments, Hais shared their Tech to Cromha Empire."
 	description "Cromha Empire used as model The Hai Valley Battery to implemente some technology to improve capacity and lower the mass of the battery to equip it to their ships. This is the most advanced battery in all human space."
 
+outfit "Multiphasic Reactor"
+	category "Power"
+	cost 2950000
+	thumbnail "outfit/multiphasic_reactor"
+	"mass" 50
+	"outfit space" -50
+	"energy generation" 8.9
+	"heat generation" 21.2
+	description "Fission reactors are considered a rudimentary technology among interstellar species. Nonetheless, it remains a proven and safe technology that even the Hai use fairly regularly."
+
 # Cooling
 outfit "Multiphasic Cooler"
 	category "Systems"

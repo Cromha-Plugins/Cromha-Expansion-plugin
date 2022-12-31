@@ -37,7 +37,7 @@ ship "Black Manta (Prototype)"
 		
 		"Heavy Anti-Missile Turret" 2
 		
-		"Geode Reactor"
+		"Multiphasic Reactor"
 		"Supercapacitor" 5
 		
 		"D94-YV Shield Generator"
@@ -127,7 +127,7 @@ ship "Heavy Empire Destroyer"
 		"Heavy Anti-Missile Turret" 4
 		"Nuclear Missile" 2
 		
-		"Fusion Reactor"
+		"Multiphasic Reactor"
 		"Empire Hai Ravine Batteries" 4
 		"Catalytic Ramscoop"
 		"Asteroid Scanner"
@@ -227,7 +227,7 @@ ship "Empire Destroyer"
 		"Heavy Anti-Missile Turret"
 		"Nuclear Missile"
 		
-		"Breeder Reactor"
+		"Multiphasic Reactor"
 		"KP-6 Photovoltaic Array"
 		"KP-6 Photovoltaic Panel" 2
 		"Empire Hai Ravine Batteries"
