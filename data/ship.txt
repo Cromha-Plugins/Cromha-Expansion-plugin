@@ -121,20 +121,20 @@ ship "Heavy Empire Destroyer"
 			"hull damage" 2500
 			"hit force" 5500
 	outfits
-		"Proton Turret" 2
-		"Proton Gun" 4
-		"Meteor Missile Launcher" 4
-		"Meteor Missile" 120
-		"Heavy Laser Turret" 2
-		"Heavy Anti-Missile Turret" 2
+		"Proton Turret" 8
+		"Sidewinder Missile Launcher" 4
+		"Sidewinder Missile" 120
+		"Heavy Anti-Missile Turret" 4
 		"Nuclear Missile" 2
 		
 		"Fusion Reactor"
-		"Empire Hai Balley Batteries" 2
+		"Empire Hai Ravin Batteries" 4
 		"Catalytic Ramscoop"
 		"Asteroid Scanner"
 		"D94-YV Shield Generator"
-		"Large Radar Jammer" 2
+		"Large Radar Jammer" 4
+		"Surveillance Pod"
+		"Tactical Scanner"
 		"Water Coolant System"
 		"Brig"
 		"Laser Rifle" 40
@@ -142,30 +142,37 @@ ship "Heavy Empire Destroyer"
 		"Pulse Rifle" 25
 		"Security Station" 10
 		"Tactical Scanner"
+		"Liquid Helium Cooler"
 		
 		"Tyrant Plasma Thruster"
 		"Tyrant Plasma Steering"
 		"Caldera Afterburner"
-		"Hyperdrive"
+		"Scram Drive"
 		
-	engine -54.75 300 0.65
-	engine 54.75 300 0.65
-	gun -26.5 -264.9 "Proton Gun"
-	gun 26.5 -264.9 "Proton Gun"
-	gun -26.5 -264.9 "Meteor Missile Launcher"
-	gun 26.5 -264.9 "Meteor Missile Launcher"
-	gun -39 -251.25 "Proton Gun"
-	gun 39 -251.25 "Proton Gun"
-	gun -39 -251.25 "Meteor Missile Launcher"
-	gun 39 -251.25 "Meteor Missile Launcher"
-	gun -5 0 "Nuclear Missile"
-	gun 5 0 "Nuclear Missile"
-	turret 0 -73.5 "Heavy Laser Turret"
-	turret 0 21 "Heavy Laser Turret"
-	turret 0 30 "Proton Turret"
-	turret 0 -30 "Proton Turret"
-	turret -33 33 "Heavy Anti-Missile Turret"
-	turret 33 33 "Heavy Anti-Missile Turret"
+	engine -57 289
+	engine -71 290
+	engine -42 290
+	engine 57 289
+	engine 71 290
+	engine 42 290
+	gun -75 100 "Nuclear Missile"
+	gun 75 100 "Nuclear Missile"
+	gun -39 -250 "Sidewinder Missile Launcher"
+	gun -27 -264.5 "Sidewinder Missile Launcher"
+	gun 39 -250 "Sidewinder Missile Launcher"
+	gun 27 -264.5 "Sidewinder Missile Launcher"
+	turret 0 20.5 "Heavy Anti-Missile Turret"
+	turret 0 -75.5 "Heavy Anti-Missile Turret"
+	turret -33.5 31.5 "Heavy Anti-Missile Turret"
+	turret 33.5 32.5 "Heavy Anti-Missile Turret"
+	turret -169 113 "Proton Turret"
+	turret 169 113 "Proton Turret"
+	turret -72.5 84 "Proton Turret"
+	turret 72.5 84 "Proton Turret"
+	turret -60 -78 "Proton Turret"
+	turret -60 -78 "Proton Turret"
+	turret -30.5 -194.5 "Proton Turret"
+	turret 30.5 -194.5 "Proton Turret"
 	bay "Fighter" -38.5 -64.5
 	bay "Fighter" 38.5 -64.5
 	bay "Fighter" -50 40.5
