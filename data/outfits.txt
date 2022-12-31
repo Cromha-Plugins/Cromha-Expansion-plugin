@@ -211,6 +211,18 @@ outfit "Multiphasic Cooler"
 	"cooling" 29
 	description "For ships with extreme cooling needs, the multiphasic cooler is the answer. One of these coolers will dissipate the heat produced by anything but the heaviest of armaments."
 
+# Hand to Hand
+outfit "Teleportation Dock"
+	category "Hand to Hand"
+	cost 1000000
+	thumbnail "outfit/teleportation_dock"
+	"mass" 5
+	"outfit space" -1
+	"capture attack" 15
+	"capture defense" 5
+	"energy consumption" 10
+	description "Extremly good for attack, letting you teleporting into your enemy ship to attack them by surprise but that that useful for defending."
+
 # Licenses
 outfit "Empire License"
 	category "Licenses"
