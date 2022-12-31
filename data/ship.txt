@@ -283,14 +283,14 @@ ship "Light Empire Destroyer"
 		"hull" 3700
 		"required crew" 7
 		"bunks" 21
-		"mass" 350
+		"mass" 550
 		"drag" 4.0
 		"heat dissipation" .7
 		"fuel capacity" 600
 		"cargo space" 75
 		"outfit space" 550
 		"weapon capacity" 150
-		"engine capacity" 150
+		"engine capacity" 250
 		weapon
 			"blast radius" 60
 			"shield damage" 600
@@ -309,8 +309,8 @@ ship "Light Empire Destroyer"
 		"Multiphasic Cooler"
 		"Laser Rifle"
 		
-		"X4700 Ion Thruster"
-		"X4200 Ion Steering"
+		"Tyrant Plasma Thruster"
+		"Tyrant Plasma Steering"
 		"Hyperdrive"
 		
 	engine -15.5 115
@@ -341,58 +341,6 @@ ship "Light Empire Destroyer"
 	description "The Light Empire Destroyer is the largest warship produced by the Empire shipyard. It is designed to be faster and more maneuverable than other ships of a similar size, in order to serve as a heavy escort ship or as part of a planetary defense and patrol fleet. Because of its intended use in merchant convoys, it also has a fair amount of cargo space."
 
 # Medium Warship
-ship "Empire Quicksilver"
-	sprite "ship/mquicksilvere"
-	thumbnail "thumbnail/mquicksilvere"
-	attributes
-		category "Fighter"
-		licenses
-			"Empire"
-		"cost" 1100000
-		"shields" 10000
-		"hull" 1500
-		"required crew" 3
-		"bunks" 6
-		"mass" 120
-		"drag" 2.7
-		"heat dissipation" .8
-		"fuel capacity" 400
-		"cargo space" 10
-		"outfit space" 310
-		"weapon capacity" 80
-		"engine capacity" 70
-		weapon
-			"blast radius" 40
-			"shield damage" 400
-			"hull damage" 200
-			"hit force" 600
-	outfits
-		"Proton Gun" 2
-		"Meteor Missile" 60
-		"Meteor Missile Launcher" 2
-		"Volcano Afterburner"
-		
-		"RT-I Radiothermal"
-		"Empire Hai Gorge Batteries"
-		"D23-QP Shield Generator"
-		"Cooling Ducts"
-		
-		"Greyhound Plasma Thruster"
-		"Greyhound Plasma Steering"
-		"Hyperdrive"
-		
-	engine -15.5 54
-	engine 15.5 54
-	gun -6 -39.5 "Proton Gun"
-	gun 6 -39.5 "Proton Gun"
-	gun 9 2 "Meteor Missile Launcher"
-	gun -9 2 "Meteor Missile Launcher"
-	leak "leak" 50 50
-	explode "tiny explosion" 12
-	explode "small explosion" 16
-	"final explode" "final explosion small"
-	description "The Empire Quicksilver is a warship built around a single concept: to design the smallest and fastest ship capable of carrying two particle cannons. Because of its speed and long weapons range, the Quicksilver can keep a safe distance from most targets and bombard them with particle bursts until they are destroyed. Unfortunately the Headhunter eventually surpassed the original design intent, but the Quicksilver's better durability to cost ratio, and the existence of long-term contracts, has kept it in use with Syndicate security forces."
-
 ship "Empire Raven"
 	sprite "ship/mravene"
 	thumbnail "thumbnail/mravene"
