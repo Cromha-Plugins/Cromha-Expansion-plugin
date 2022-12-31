@@ -128,7 +128,7 @@ ship "Heavy Empire Destroyer"
 		"Nuclear Missile" 2
 		
 		"Fusion Reactor"
-		"Empire Hai Ravin Batteries" 4
+		"Empire Hai Ravine Batteries" 4
 		"Catalytic Ramscoop"
 		"Asteroid Scanner"
 		"D94-YV Shield Generator"
