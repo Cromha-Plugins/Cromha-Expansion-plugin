@@ -12,14 +12,14 @@ fleet cromha-fleet
 		"Empire Quicksilver" 2
 		"Empire Raven" 1
 		"Empire Drone" 4
-		"Empire Fighter" 6
+		"Empire Fighter" 4
 		"Light Empire Destroyer"
 	# defender
 	variant 5
 		"Empire Quicksilver" 3
 		"Light Empire Destroyer" 2
 		"Empire Drone" 4
-		"Empire Fighter" 6
+		"Empire Fighter" 4
 		"Black Manta (Prototype)" 1
 		"Empire Raven" 2
 		"Empire Destroyer"
@@ -29,7 +29,7 @@ fleet cromha-fleet
 		"Black Manta (Prototype)" 1
 		"Light Empire Destroyer" 2
 		"Empire Drone" 4
-		"Empire Fighter" 6
+		"Empire Fighter" 4
 		"Empire Raven" 3
 		"Light Empire Destroyer" 3
 		"Heavy Empire Destroyer"
