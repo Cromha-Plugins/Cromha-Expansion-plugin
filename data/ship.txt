@@ -344,7 +344,7 @@ ship "Empire Quicksilver"
 	sprite "ship/mquicksilvere"
 	thumbnail "thumbnail/mquicksilvere"
 	attributes
-		category "Light Warship"
+		category "Fighter"
 		licenses
 			"Empire"
 		"cost" 1100000
@@ -449,6 +449,58 @@ ship "Empire Raven"
 	description "The Lionheart Raven is their most popular warship, an agile and elegant vessel that can nevertheless deal out and absorb considerable damage. Ravens are a favorite ship for bounty hunters, because they are more than a match for pirate interceptors and can be used by a skilled pilot to take down much larger ships as well."
 
 # Drones & Fighters
+ship "Empire Quicksilver"
+	sprite "ship/mquicksilvere"
+	thumbnail "thumbnail/mquicksilvere"
+	attributes
+		category "Fighter"
+		licenses
+			"Empire"
+		"cost" 1100000
+		"shields" 10000
+		"hull" 1500
+		"required crew" 3
+		"bunks" 6
+		"mass" 120
+		"drag" 2.7
+		"heat dissipation" .8
+		"fuel capacity" 400
+		"cargo space" 10
+		"outfit space" 310
+		"weapon capacity" 80
+		"engine capacity" 70
+		weapon
+			"blast radius" 40
+			"shield damage" 400
+			"hull damage" 200
+			"hit force" 600
+	outfits
+		"Proton Gun" 2
+		"Meteor Missile" 60
+		"Meteor Missile Launcher" 2
+		"Volcano Afterburner"
+		
+		"RT-I Radiothermal"
+		"Empire Hai Gorge Batteries"
+		"D23-QP Shield Generator"
+		"Cooling Ducts"
+		
+		"Greyhound Plasma Thruster"
+		"Greyhound Plasma Steering"
+		"Hyperdrive"
+		
+	engine -15.5 54
+	engine 15.5 54
+	gun -6 -39.5 "Proton Gun"
+	gun 6 -39.5 "Proton Gun"
+	gun 9 2 "Meteor Missile Launcher"
+	gun -9 2 "Meteor Missile Launcher"
+	leak "leak" 50 50
+	explode "tiny explosion" 12
+	explode "small explosion" 16
+	"final explode" "final explosion small"
+	description "The Empire Quicksilver is a warship built around a single concept: to design the smallest and fastest ship capable of carrying two particle cannons. Because of its speed and long weapons range, the Quicksilver can keep a safe distance from most targets and bombard them with particle bursts until they are destroyed. Unfortunately the Headhunter eventually surpassed the original design intent, but the Quicksilver's better durability to cost ratio, and the existence of long-term contracts, has kept it in use with Syndicate security forces."
+
 ship "Empire Drone"
 	sprite "ship/combat drone"
 		scale 1.2
