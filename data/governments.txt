@@ -46,6 +46,7 @@ government "Empire Rebels"
 		"Mineria colonnies" -1
 		"Cromha Empire" -1
 		Republic -1
+		"Deep Security" -1
 		Hai -1
 		"Hai Merchant" -1
 		"Hai Merchant (Sympathizers)" -1
