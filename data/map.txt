@@ -494,6 +494,102 @@ planet "Listrosia"
 	landscape "land/Listrosia"
 	description "Listrosia is a great arid desert. Even if the atmosphere is well for humans, The Empire or any other government never thinked of installing a colony on this planet. The Empire wish to install one the next decade. Maybe they will?"
 
+system Kaliptari
+	pos 85.4305 -402.812
+	government "Cromha Empire"
+	attributes "korath"
+	arrival 500
+	habitable 320
+	belt 1089
+	link Fornarep
+	link Mekislepti
+	link Sabriset
+	link Sepriaptu
+	link Skeruto
+	link Solifar
+	asteroids "small rock" 8 4.2282
+	asteroids "medium rock" 11 6.9498
+	asteroids "large rock" 25 5.4918
+	asteroids "large metal" 1 3.2562
+	minables silicon 11 10.7447
+	minables tungsten 5 10.9185
+	trade Clothing 316
+	trade Electronics 754
+	trade Equipment 568
+	trade Food 453
+	trade "Heavy Metals" 989
+	trade Industrial 657
+	trade "Luxury Goods" 1262
+	trade Medical 675
+	trade Metal 334
+	trade Plastic 398
+	fleet "Large Quarg" 3000
+	fleet "Small Kor Mereti" 10000
+	fleet cromha-fleet 2000
+	fleet cromha-miners 1500
+	fleet small-pirates 3000
+	fleet mineria-transports 5000
+	object
+		sprite star/m0
+		period 10
+	object "Spera Anatrusk"
+		sprite planet/mars
+		distance 316.61
+		period 125.971
+		object "Hope Station"
+			sprite planet/station4c
+				scale 0.5
+			distance 170
+			period 23.335
+	object
+		sprite planet/dust2
+		distance 602.61
+		period 330.780
+	object
+		sprite planet/uranus-b
+		distance 1207.17
+		period 937.859
+		object
+			sprite planet/callisto
+			distance 221
+			period 14.0366
+		object
+			sprite planet/dust5-b
+			distance 358
+			period 28.94
+		object
+			sprite planet/dust3-b
+			distance 464
+			period 42.7022
+	object
+		sprite planet/gas10
+		distance 3109.42
+		period 3877.07
+		object
+			sprite planet/lava0-b
+			distance 192
+			period 14.0039
+		object
+			sprite planet/rhea
+			distance 316
+			period 29.5684
+
+planet "Spera Anatrusk"
+	attributes korath uninhabited
+	government Uninhabited
+	landscape land/badlands11
+	description `This is a relatively dry planet, and the only Korath cities were close to the poles where the temperatures are more mild and the lifeless deserts give way to grasslands and even a few scattered forests. The largest city was clearly destroyed by orbital bombardment. The other cities seem to have been done in by rioting or looting, leaving smashed windows and burned-out buildings behind. Some of the damage is very recent; the Korath survivors here held out for a long time.`
+
+planet "Hope Station"
+	attributes korath north factory station research military
+	landscape "land/Hope_station"
+	government "Cromha Empire"
+	description "An advanced Empire station in the korath space. The goal of this station is to collect data on litterally everything. Most of the people that come here are Empire scientists"
+	spaceport "Not a that big spaceport. Most of everything here is rudimental, you see almost noone but there is a good connection!"
+	bribe 0.5
+	security 0
+
+
 # Empire Rebels
 system Wezen
 	pos -664 -433
