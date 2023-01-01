@@ -1,3 +1,4 @@
+#Cromha Empire
 system "Volcanois"
 	pos 137 -622
 	arrival 1080
@@ -487,6 +488,87 @@ planet "Listrosia"
 	attributes uninhabited
 	landscape "land/Listrosia"
 	description "Listrosia is a great arid desert. Even if the atmosphere is well for humans, The Empire or any other government never thinked of installing a colony on this planet. The Empire wish to install one the next decade. Maybe they will?"
+
+# Empire Rebels
+system Wezen
+	pos -664 -433
+	government "Empire Rebels"
+	attributes "deep" rebels
+	arrival 2710
+	habitable 2710
+	belt 1913
+	link Naos
+	asteroids "small rock" 6 2.6418
+	asteroids "medium rock" 68 2.2372
+	asteroids "large rock" 22 1.3328
+	asteroids "small metal" 3 2.5228
+	asteroids "medium metal" 6 1.9992
+	asteroids "large metal" 4 2.7132
+	minables silicon 2 3.02054
+	minables titanium 19 2.21947
+	trade Clothing 310
+	trade Electronics 700
+	trade Equipment 398
+	trade Food 414
+	trade "Heavy Metals" 921
+	trade Industrial 710
+	trade "Luxury Goods" 1033
+	trade Medical 796
+	trade Metal 365
+	trade Plastic 306
+	fleet empire-rebels-raiders 6000
+	fleet "Large Deep Security" 10000
+	object
+		sprite star/f0
+		distance 5.89184
+		period 8.43858
+	object
+		sprite star/g-dwarf
+		distance 100.554
+		period 8.43858
+		offset 180
+	object
+		sprite planet/miranda-b
+		distance 255.401
+		period 31.3623
+	object
+		sprite planet/gas5-b
+		distance 664.041
+		period 131.482
+		object "Phoenix Station"
+			sprite planet/station1
+				scale 0.5
+			distance 257
+			period 12.3538
+	object
+		sprite planet/water0-b
+		distance 1273.29
+		period 349.113
+	object Alfheim
+		sprite planet/forest0
+		distance 1768.53
+		period 571.470
+		object
+			sprite planet/ice0-b
+			distance 181
+			period 19.8826
+	object
+		sprite planet/gas9-b
+		distance 3579.78
+		period 1645.73
+		object
+			sprite planet/rock0
+			distance 220
+			period 11.5088
+		object
+			sprite planet/rock14-b
+			distance 374
+			period 25.5097
+		object
+			sprite planet/tethys
+			distance 496
+			period 38.9601
+
 
 system "Sol"
 	link "Volcanois"
