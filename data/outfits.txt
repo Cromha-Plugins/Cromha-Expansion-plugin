@@ -149,10 +149,29 @@ outfit "AR120 Black Reverse Thruster"
 	description "	Because a reverse thruster must be facing forwards, it must be installed in the weapon section of your ship instead of the engine section."
 
 outfit "Multiphasic Anti-Missile"
-
+	thumbnail "outfit/multiphasic_anti_missile"
+	category "Turrets"
+	cost 55000
+	thumbnail "outfit/anti-missile hai"
+	"mass" 5
+	"outfit space" -5
+	"weapon capacity" -5
+	"turret mounts" -1
+	"cooling" 5
+	weapon
+		"hardpoint sprite" "hardpoint/anti-missile hai"
+		"hardpoint offset" 3.
+		"hit effect" "small anti-missile"
+		"anti-missile" 45
+		"velocity" 200
+		"lifetime" 5
+		"reload" 10
+		"firing energy" 20
+		"firing heat" 10
+		"stream"
+	description "This is the most advanced Anti Missile of all time. It can cool itself and has insane reload. Perfect for any ship."
 
 outfit "Antimatter Railgun"
-	outfit StarStreak
 	category "Secondary Weapons"
 	cost 20000
 	thumbnail "outfit/antimatter railgun"
@@ -162,7 +181,7 @@ outfit "Antimatter Railgun"
 	"railgun slug capacity" 100
 	description "A missle system, Works internally like a fabricator."
 	description "It refits the materials of a railgun slug, and adds fuel from your ship."
-	description "Shoots Vertical launch starstreak missles (VLSM) "
+	description "This weapon does not do any shield damage but does lot of ion and heat damage that can esealy overheat and take there battery power to zero your enemy and disable his ship."
 	weapon
 		sprite "projectile/shardinactive"
 		homing 2
@@ -181,6 +200,10 @@ outfit "Antimatter Railgun"
 		reload 120
 		"firing energy" 100
 		"firing heat" 2
+		"ion damage" 300
+		"energy damage" 100
+		"burn damage" 3000
+		"hull damage" 50
 		"cluster"
 		"firing fuel" 5
 		"tracking" 1
@@ -223,6 +246,10 @@ outfit "streakstage2"
 		"hit effect" "small explosion"
 		"live effect" "rocketminitrace" 200
 		"inaccuracy" 50
+		"ion damage" 300
+		"energy damage" 100
+		"burn damage" 3000
+		"hull damage" 50
 		drag 0.5
 		"velocity" 1
 		"lifetime" 500
