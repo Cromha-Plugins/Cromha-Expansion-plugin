@@ -106,15 +106,15 @@ ship "Heavy Empire Destroyer"
 		"cost" 37200000
 		"shields" 501400
 		"hull" 80300
-		"required crew" 80
-		"bunks" 184
+		"required crew" 200
+		"bunks" 500
 		"mass" 1310
 		"drag" 17.7
 		"heat dissipation" .45
 		"fuel capacity" 1100
 		"cargo space" 300
-		"outfit space" 1220
-		"weapon capacity" 470
+		"outfit space" 3220
+		"weapon capacity" 2470
 		"engine capacity" 310
 		weapon
 			"blast radius" 400
@@ -123,20 +123,20 @@ ship "Heavy Empire Destroyer"
 			"hit force" 5500
 	outfits
 		"Proton Turret" 8
-		"Sidewinder Missile Launcher" 4
-		"Sidewinder Missile" 120
-		"Heavy Anti-Missile Turret" 4
+		"Sidewinder Missile Launcher" 9
+		"Sidewinder Missile" 1200
+		"Heavy Anti-Missile Turret" 11
 		"Nuclear Missile" 2
 		
-		"Multiphasic Reactor"
-		"Empire Hai Ravine Batteries" 4
+		"Multiphasic Reactor" 3
+		"Empire Hai Valley Batteries" 6
 		"Catalytic Ramscoop"
 		"Asteroid Scanner"
 		"D94-YV Shield Generator"
 		"Large Radar Jammer" 4
 		"Surveillance Pod"
 		"Tactical Scanner"
-		"Multiphasic Cooler"
+		"Multiphasic Cooler" 2
 		"Brig"
 		"Laser Rifle" 40
 		"Fragmentation Grenades" 40
@@ -145,35 +145,49 @@ ship "Heavy Empire Destroyer"
 		"Tactical Scanner"
 		"Liquid Helium Cooler"
 		
-		"Tyrant Plasma Thruster"
-		"Tyrant Plasma Steering"
-		"Caldera Afterburner"
+		"A860 Black Atomic Thruster"
+		"A865 Black Atomic Steering"
+		"Ionic Afterburner" 2
 		"Scram Drive"
 		
-	engine -57 289
-	engine -71 290
-	engine -42 290
-	engine 57 289
-	engine 71 290
-	engine 42 290
-	gun -75 100 "Nuclear Missile"
-	gun 75 100 "Nuclear Missile"
-	gun -39 -250 "Sidewinder Missile Launcher"
-	gun -27 -264.5 "Sidewinder Missile Launcher"
-	gun 39 -250 "Sidewinder Missile Launcher"
-	gun 27 -264.5 "Sidewinder Missile Launcher"
-	turret 0 20.5 "Heavy Anti-Missile Turret"
-	turret 0 -75.5 "Heavy Anti-Missile Turret"
-	turret -33.5 31.5 "Heavy Anti-Missile Turret"
-	turret 33.5 32.5 "Heavy Anti-Missile Turret"
-	turret -169 113 "Proton Turret"
-	turret 169 113 "Proton Turret"
-	turret -72.5 84 "Proton Turret"
-	turret 72.5 84 "Proton Turret"
-	turret -60 -78 "Proton Turret"
-	turret -60 -78 "Proton Turret"
-	turret -30.5 -194.5 "Proton Turret"
-	turret 30.5 -194.5 "Proton Turret"
+	turret 0 10 "Heavy Anti-Missile Turret"
+	turret -35.5 -11 "Heavy Anti-Missile Turret"
+	turret 37 -12 "Heavy Anti-Missile Turret"
+	turret -36 31 "Heavy Anti-Missile Turret"
+	turret 37.5 29.5 "Heavy Anti-Missile Turret"
+	turret -37 74.5 "Heavy Anti-Missile Turret"
+	turret 40 73.5 "Heavy Anti-Missile Turret"
+	turret -23.5 109 "Heavy Anti-Missile Turret"
+	turret 23.5 107 "Heavy Anti-Missile Turret"
+	turret -76 109 "Heavy Anti-Missile Turret"
+	turret 73.5 108n "Heavy Anti-Missile Turret"
+	engine -18 218
+	engine -24 216
+	engine 17 219.5
+	engine 24 218.5
+	engine -41.5 210.5
+	engine -50.5 210
+	engine 40 211
+	engine 48 211
+	gun -86.5 36 "Sidewinder Missile Launcher"
+	gun -73 25 "Sidewinder Missile Launcher"
+	gun 71 24.5 "Sidewinder Missile Launcher"
+	gun 83 40 "Sidewinder Missile Launcher"
+	gun 59 15 "Sidewinder Missile Launcher"
+	gun -60.5 13 "Sidewinder Missile Launcher"
+	gun -0.5 -217.5 "Sidewinder Missile Launcher"
+	gun 7.5 -218.5 "Sidewinder Missile Launcher"
+	gun -4.5 -218 "Sidewinder Missile Launcher"
+	gun 0 0 "Nuclear Missile"
+	gun 0 0 "Nuclear Missile"
+	turret -102.5 118 "Proton Turret"
+	turret -103 96 "Proton Turret"
+	turret -85.5 80.5 "Proton Turret"
+	turret -70.5 67 "Proton Turret"
+	turret 102.5 118 "Proton Turret"
+	turret 103 96 "Proton Turret"
+	turret 85.5 80.5 "Proton Turret"
+	turret 70.5 67 "Proton Turret"
 	bay "Fighter" -38.5 -64.5
 	bay "Fighter" 38.5 -64.5
 	bay "Fighter" -50 40.5
@@ -182,6 +196,24 @@ ship "Heavy Empire Destroyer"
 	bay "Fighter" 71.5 -49.5
 	bay "Fighter" -115 55
 	bay "Fighter" 115 55
+	bay "Fighter" -38.5 -64.5
+	bay "Fighter" 38.5 -64.5
+	bay "Fighter" -50 40.5
+	bay "Fighter" 50 40.5
+	bay "Fighter" -71.5 -49.5
+	bay "Fighter" 71.5 -49.5
+	bay "Fighter" -115 55
+	bay "Fighter" 115 55
+	bay "Fighter" -38.5 -64.5
+	bay "Fighter" 38.5 -64.5
+	bay "Fighter" -50 40.5
+	bay "Fighter" 50 40.5
+	bay "Fighter" -71.5 -49.5
+	bay "Fighter" 71.5 -49.5
+	bay "Fighter" -115 55
+	bay "Fighter" 115 55
+	bay "Drone" -85 55
+	bay "Drone" 85 55
 	bay "Drone" -85 55
 	bay "Drone" 85 55
 	leak "leak" 30 50
