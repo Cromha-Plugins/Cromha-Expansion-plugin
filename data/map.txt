@@ -1,3 +1,8 @@
+# labels
+galaxy empire
+	pos 50 -420
+	sprite "label/empire"
+
 #Cromha Empire
 system "Volcanois"
 	pos 137 -622
