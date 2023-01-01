@@ -203,6 +203,7 @@ outfitter Cromha-military-outfitter
 	"Meteor Missile"
 	"Multiphasic Cooler"
 	"Teleportation Dock"
+	"Antimatter Railgun"
 outfitter Cromha-witdrew-station-outfitter
 	"Empire Passport"
 	"Local Map"

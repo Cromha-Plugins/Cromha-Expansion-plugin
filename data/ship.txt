@@ -31,9 +31,11 @@ ship "Black Manta (Prototype)"
 		"Modified Plasma Repeater" 4
 		"Proton Gun"
 		"Nuclear Missile" 1
-		"Typhoon Launcher" 2
-		"Typhoon Torpedo" 60
-		"Typhoon Storage Tube" 2
+		"Firelight Missile Bank" 2
+		"Firelight Missile" 52
+		"Firelight Storage Pack" 2
+		"Antimatter Railgun" 2
+		"rslug" 100
 		
 		"Heavy Anti-Missile Turret" 2
 		
@@ -75,10 +77,12 @@ ship "Black Manta (Prototype)"
 	gun 10 -52 "Particle Cannon"
 	gun -88.5 -40 "Particle Cannon"
 	gun 88.5 -40 "Particle Cannon"
-	gun -25.5 -36 "Typhoon Launcher"
-	gun 25.5 -36 "Typhoon Launcher"
+	gun -25.5 -36 "Firelight Missile Bank"
+	gun 25.5 -36 "Firelight Missile Bank"
 	gun 0 -103 "Proton Gun"
 	gun 0 0 "Nuclear Missile"
+	gun 16 -35 "Antimatter Railgun"
+	gun -16 -35 "Antimatter Railgun"
 	bay "Drone" -85 55
 	bay "Drone" 85 55
 	bay "Fighter" -38.5 -64.5
