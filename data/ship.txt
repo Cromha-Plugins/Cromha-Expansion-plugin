@@ -29,7 +29,7 @@ ship "Black Manta (Prototype)"
 	outfits
 		"Particle Cannon" 4
 		"Modified Plasma Repeater" 4
-		"Dragon's Ice" 1
+		"Proton Gun"
 		"Nuclear Missile" 1
 		"Typhoon Launcher" 2
 		"Typhoon Torpedo" 60
@@ -76,7 +76,7 @@ ship "Black Manta (Prototype)"
 	gun 88.5 -40 "Particle Cannon"
 	gun -25.5 -36 "Typhoon Launcher"
 	gun 25.5 -36 "Typhoon Launcher"
-	gun 0 -103 "Dragon's Ice"
+	gun 0 -103 "Proton Gun"
 	gun 0 0 "Nuclear Missile"
 	bay "Drone" -85 55
 	bay "Drone" 85 55

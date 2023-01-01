@@ -15,10 +15,9 @@ start "cromha-transporter"
 			interest 0.00008
 			term 365
 	set "license: Pilot's"
-	#conversation "birthday present"
-	
+
 conversation "cromha transporter intro"
-	scene "land/Witset_station"
+	scene "land/Witdrew_station"
 	`The bank's architecture is what you would have called "futuristic" back when you dreamed that the future would be less squalid than the present: story above story of curves and spires and balconies, all in gleaming metal. A doorman stands by each of the heavy glass doors. You are wearing your very best clothes, but you feel shabby next to them.`
 	`	The loan broker's office is equally intimidating. Large computer monitors fill the walls, with stock quotes and other information spilling down them almost too fast to read. You occasionally glimpse the names of places that you have only seen in movies: Aldebaran. Tarazed. Earth.`
 	`	The pen is heavy as lead but glides almost without friction as you print your initials on the bottom of page after page of ominous legal documents and sign several dozen statements, notices, and agreements. The banker, a balding middle-aged man in a suit that you suspect costs more than the spaceship you are about to purchase, flips the pages past you quickly, uttering a curt, "Sign here. Now here," as he points to each page. He moves swiftly, mechanically.`
@@ -29,20 +28,19 @@ conversation "cromha transporter intro"
 	`	Compared to the bank, you feel much more at home in the shipyard, walking among the rusted out hulks and newer ships that gleam in the sunlight. You smell grease and dirt and rocket fuel; wonderful smells. There are many ship models to choose from, but only some are within your price range. Which one you choose will determine your future...`
 
 conversation "birthday present"
-	`"WAIT!..."`
-    	choice
-        	`	Do not wait your dad and enter the spaceport without him`
-           		goto wait
-       		`	Wait your dad, he seem to have smth important to tell you`
-           		goto notwait
-     	label wait
-     	`	"Son! I'm glad you waited me! I have something important for you, it's your birthday present. Follow me to the spaceport please."`
+    `"WAIT!..."`
+	choice
+		`	Do not wait your dad and enter the spaceport without him`
+			goto dontwait
+		`	Do not wait your dad and enter the spaceport without him`
+			goto wait
+	label dontwait
+	`e`
+
+	label wait
+	`	"Son! I'm glad you waited me! I have something important for you, it's your birthday present. Follow me to the spaceport please."`
 	`	Your dad go to the spaceort manager and ask smth you cam't hear. The manager give him keys of a spaceport depot. He opens it and a very old but beautifull Blackbird transporter.`
 	`	"This was my first ship! say your dad. And it is now yours. I know it is pretty old and rusty but i'm sure you will like it!"`
 	`	You say: "Oh my god dad, it really didn't expected this from you. I'm so happy"`
 	`	"I hope you will mak good worth of it. See you next time!"`
 	`	Your dad come back to his ship and you have the sentiment of never seeing him again.`
-	
-    	label notwait
-    	`	You continue your way till the shipyard.`
-	`	"What ship should i buy now?" you say`
