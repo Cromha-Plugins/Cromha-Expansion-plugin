@@ -55,6 +55,7 @@ ship "Black Manta (Prototype)"
 		
 		"A860 Black Atomic Thruster"
 		"A865 Black Atomic Steering"
+		"AR120 Black Reverse Thruster"
 		"Ionic Afterburner" 2
 		"Laser Rifle" 10
 		"Pulse Rifle" 10
