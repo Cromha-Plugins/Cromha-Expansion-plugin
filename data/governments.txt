@@ -38,7 +38,7 @@ government "Cromha Empire"
 		"Typhoon Launcher" 1000000
 		"Jump Drive (Broken)" 1000000
 
-government "Empire rebels"
+government "Empire Rebels"
 	"display name" "Empire Rebels"
 	"atitude toward"
 		Pirate 1
