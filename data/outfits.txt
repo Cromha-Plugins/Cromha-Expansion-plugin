@@ -158,9 +158,11 @@ outfit "Multiphasic Anti-Missile"
 	"weapon capacity" -5
 	"turret mounts" -1
 	"cooling" 5
+	"Multiphasic Anti-Missile ammunition capacity" 600
 	weapon
 		"hardpoint sprite" "hardpoint/anti-missile hai"
 		"hardpoint offset" 3.
+		ammo "Multiphasic Anti-Missile ammunition"
 		"hit effect" "small anti-missile"
 		"anti-missile" 45
 		"velocity" 200
@@ -170,6 +172,16 @@ outfit "Multiphasic Anti-Missile"
 		"firing heat" 10
 		"stream"
 	description "This is the most advanced Anti Missile of all time. It can cool itself and has insane reload. Perfect for any ship."
+	description "But be warn this Anti-Missile has limits: he need ammunitions. Be sure to always have ammunition before going in a battle."
+
+outfit "Multiphasic Anti-Missile ammunition"
+	plural "Multiphasic Anti-Missile ammunitions"
+	category "Ammunition"
+	cost 5
+	thumbnail "outfit/anti-missile ammunition"
+	"mass" .5
+	"Multiphasic Anti-Missile ammunition capacity" -1
+	description "It is the ammunition for the Multiphasic Anti-Missile. Each Multiphasic Anti-Missile can hold 600 of them. You cannot install an Multiphasic Anti-Missile ammuniton unless you have installed and Multiphasic Anti-Missile."
 
 outfit "Antimatter Railgun"
 	category "Secondary Weapons"
@@ -326,7 +338,6 @@ outfit "Multiphasic Reactor"
 	"cooling" 9
 	description "Fission reactors are considered a rudimentary technology among interstellar species. Nonetheless, it remains a proven and safe technology that even the Hai use fairly regularly."
 	description "It is the 'auto-sufficient' of the Multiphasic Reactor that make it powerful: It has cooling ducts integrated to its systems, that way it produce litteraly no heat.. It is small and can be installed in almost all ships. This reactor is used for almost all Empire fleet ships."
-
 # Cooling
 outfit "Multiphasic Cooler"
 	category "Systems"
