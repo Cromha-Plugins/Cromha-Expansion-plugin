@@ -54,33 +54,17 @@ event "ultimatum day"
 			`	You say:`
 			`	"Semms good for me."`
 			`	The guy left and now enjoy your new ships.`
-			
-mission "Landing without empire passport"
+
+mission get-empire-passport
 	landing
-	repeat
 	source
 		government "Cromha Empire"
-	to offer
-		has "outfit: empire license"
 	on offer
-		conversation
-			`While trying to land on the spaceport you seems something weird. Three Empire Quicksilvers semms to follow; they want to catch you.`
-			`	Suddently, the three fighters catch you up and send you a message:`
-			`	"Hi captain <last>, it seems you trying to enter <planet> spaceport? But our scanners tell us that this ship doesn't have any Empire Passport installed. Please go buy one at the Witdrew Station in the Alpha Cromha system or our ships will make shiort work of you"`
-			`	You have two choice that are in your head:`
-			choice
-				`	"Sorry about that, i'm leaving right now" (leave the planet and go buy an Empire Passport)`
-					goto choicesmart
-				`	[...] (ignore them)`
-					goto choicedumb
-			label choicesmart
-			`	"It's okay", say one of the fighter pilot, "it's happen often actually, it was cool to help you out"`
-				flee
-			
-			
-			label choicedumb
-			`	"Hello? Do you hear us?", say the first fighter pilot.`
-			`	"I think he's ignoring us", say an other one. "We gonna have to destroy him, it's sad; he seems to be nice"`
-			`	"Yeah but we have no choice", say the third pilot.`
-			`	The three Empire Quicksilvers pilots made great fireworks out of your ship.`
-				explode
+		dialog `After opening your ships sas, the empire authorities inform you that you need an Empire Passport to land on Cromha Empire planets. You can buy them one for 10,000 credits. If you refuse they will have disable your ship.`
+	on accept
+		dialog `The authorities sell you an Empire Passport for 10,000 credits.`
+		outfit "Empire Passport License"
+		fine 10000
+	on decline
+		dialog `"Good luck" they say.`
+		"reputation: Cromha Empire" = -1

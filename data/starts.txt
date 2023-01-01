@@ -15,7 +15,7 @@ start "cromha-transporter"
 			interest 0.00008
 			term 365
 	set "license: Pilot's"
-	conversation "birthday present"
+	#conversation "birthday present"
 	
 conversation "cromha transporter intro"
 	scene "land/Witset_station"
