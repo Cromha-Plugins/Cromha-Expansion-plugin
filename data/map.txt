@@ -830,6 +830,28 @@ planet "Las Tah"
 		threshold 5000
 		fleet empire-rebels-raiders 6
 
+system "Far Sabira"
+	pos -643 -435
+	government "Empire Rebels"
+	attributes "deep" rebels
+	arrival 2710
+	habitable 2710
+	belt 1913
+	link Wezen
+	link "Alpi Tah"
+	asteroids "small rock" 6 2.6418
+	trade Clothing 184
+	trade Electronics 612
+	trade Equipment 732
+	trade Food 648
+	trade "Heavy Metals" 560
+	trade Industrial 702
+	trade "Luxury Goods" 1460
+	trade Medical 407
+	trade Metal 501
+	trade Plastic 467
+	fleet empire-rebels-raiders 6000
+
 system "Sol"
 	link "Volcanois"
 system "Hi Yahr"
