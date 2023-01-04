@@ -27,7 +27,7 @@ ship "Black Manta (Prototype)"
 			"hull damage" 1600
 			"hit force" 3500
 	outfits
-		"Particle Cannon" 4
+		"Empire Particle gun" 4
 		"Modified Plasma Repeater" 4
 		"Proton Gun"
 		"Nuclear Missile" 1
@@ -37,7 +37,8 @@ ship "Black Manta (Prototype)"
 		"Antimatter Railgun" 2
 		"rslug" 100
 		
-		"Heavy Anti-Missile Turret" 2
+		"Multiphasic Anti-Missile" 2
+		"Multiphasic Anti-Missile ammunition" 1200
 		
 		"Multiphasic Reactor"
 		"Supercapacitor" 5
@@ -67,16 +68,16 @@ ship "Black Manta (Prototype)"
 	engine 0.5 107.5
 	engine -43 55.5
 	engine 43 55.5
-	turret 45.5 -2.5 "Heavy Anti-Missile Turret"
-	turret -45.5 -2.5 "Heavy Anti-Missile Turret"
+	turret 45.5 -2.5 "Multiphasic Anti-Missile"
+	turret -45.5 -2.5 "Multiphasic Anti-Missile"
 	gun 42 -36 "Modified Plasma Repeater"
 	gun -42 -36 "Modified Plasma Repeater"
 	gun -35 -35 "Modified Plasma Repeater"
 	gun 35 -35 "Modified Plasma Repeater"
-	gun -10 -52 "Particle Cannon"
-	gun 10 -52 "Particle Cannon"
-	gun -88.5 -40 "Particle Cannon"
-	gun 88.5 -40 "Particle Cannon"
+	gun -10 -52 "Empire Particle gun"
+	gun 10 -52 "Empire Particle gun"
+	gun -88.5 -40 "Empire Particle gun"
+	gun 88.5 -40 "Empire Particle gun"
 	gun -25.5 -36 "Firelight Missile Bank"
 	gun 25.5 -36 "Firelight Missile Bank"
 	gun 0 -103 "Proton Gun"
@@ -129,7 +130,8 @@ ship "Heavy Empire Destroyer"
 		"Proton Turret" 8
 		"Sidewinder Missile Launcher" 9
 		"Sidewinder Missile" 1200
-		"Heavy Anti-Missile Turret" 11
+		"Multiphasic Anti-Missile" 11
+		"Multiphasic Anti-Missile ammunition" 6600
 		"Nuclear Missile" 2
 		
 		"Multiphasic Reactor" 3
@@ -154,17 +156,17 @@ ship "Heavy Empire Destroyer"
 		"Ionic Afterburner" 2
 		"Scram Drive"
 		
-	turret 0 10 "Heavy Anti-Missile Turret"
-	turret -35.5 -11 "Heavy Anti-Missile Turret"
-	turret 37 -12 "Heavy Anti-Missile Turret"
-	turret -36 31 "Heavy Anti-Missile Turret"
-	turret 37.5 29.5 "Heavy Anti-Missile Turret"
-	turret -37 74.5 "Heavy Anti-Missile Turret"
-	turret 40 73.5 "Heavy Anti-Missile Turret"
-	turret -23.5 109 "Heavy Anti-Missile Turret"
-	turret 23.5 107 "Heavy Anti-Missile Turret"
-	turret -76 109 "Heavy Anti-Missile Turret"
-	turret 73.5 108n "Heavy Anti-Missile Turret"
+	turret 0 10 "Multiphasic Anti-Missile"
+	turret -35.5 -11 "Multiphasic Anti-Missile"
+	turret 37 -12 "Multiphasic Anti-Missile"
+	turret -36 31 "Multiphasic Anti-Missile"
+	turret 37.5 29.5 "Multiphasic Anti-Missile"
+	turret -37 74.5"Multiphasic Anti-Missile"
+	turret 40 73.5 "Multiphasic Anti-Missile"
+	turret -23.5 109 "Multiphasic Anti-Missile"
+	turret 23.5 107 "Multiphasic Anti-Missile"
+	turret -76 109 "Multiphasic Anti-Missile"
+	turret 73.5 108n "Multiphasic Anti-Missile"
 	engine -18 218
 	engine -24 216
 	engine 17 219.5
@@ -257,11 +259,12 @@ ship "Empire Destroyer"
 			"hull damage" 800
 			"hit force" 2400
 	outfits
-		"Particle Cannon" 2
+		"Empire Particle gun" 2
 		"Torpedo Launcher" 2
 		"Torpedo" 60
 		"Quad Blaster Turret" 3
-		"Heavy Anti-Missile Turret"
+		"Multiphasic Anti-Missile"
+		"Multiphasic Anti-Missile ammunition" 600
 		"Nuclear Missile"
 		
 		"Multiphasic Reactor"
@@ -279,12 +282,12 @@ ship "Empire Destroyer"
 		
 	engine -16.5 143
 	engine 16.5 143
-	gun -16 -86.5 "Particle Cannon"
-	gun 16 -86.5 "Particle Cannon"
+	gun -16 -86.5 "Empire Particle gun"
+	gun 16 -86.5 "Empire Particle gun"
 	gun -19 -76.5 "Torpedo Launcher"
 	gun 19 -76.5 "Torpedo Launcher"
 	gun 0 0 "Nuclear Missile"
-	turret -16 -29 "Heavy Anti-Missile Turret"
+	turret -16 -29 "Multiphasic Anti-Missile"
 	turret 16 -29 "Quad Blaster Turret"
 	turret -50 39.5 "Quad Blaster Turret"
 	turret 50 39.5 "Quad Blaster Turret"
@@ -334,9 +337,10 @@ ship "Light Empire Destroyer"
 			"hull damage" 300
 			"hit force" 900
 	outfits
-		"Proton Gun" 2
+		"Empire Particle gun" 2
 		"Blaster Turret" 2
-		"Anti-Missile Turret"
+		"Multiphasic Anti-Missile"
+		"Multiphasic Anti-Missile ammunition" 600
 		"Volcano Afterburner"
 		
 		"RT-I Radiothermal"
@@ -352,10 +356,10 @@ ship "Light Empire Destroyer"
 		
 	engine -15.5 115
 	engine 15.5 115
-	gun -12 -93 "Proton Gun"
-	gun 12 -93 "Proton Gun"
+	gun -12 -93 "Empire Particle gun"
+	gun 12 -93 "Empire Particle gun"
 	turret -13 42 "Blaster Turret"
-	turret 0 9 "Anti-Missile Turret"
+	turret 0 9 "Multiphasic Anti-Missile"
 	turret 13 42 "Blaster Turret"
 	bay "Fighter" 0 0
 	bay "Fighter" 0 0
@@ -404,7 +408,7 @@ ship "Empire Raven"
 			"hull damage" 300
 			"hit force" 900
 	outfits
-		"Heavy Laser" 2
+		"Empire Particle gun" 2
 		"Sidewinder Missile Launcher" 2
 		"Sidewinder Missile" 90
 		"Volcano Afterburner"
@@ -421,8 +425,8 @@ ship "Empire Raven"
 		
 	engine -9.5 63
 	engine 9.5 63
-	gun -13.5 -35.5 "Heavy Laser"
-	gun 13.5 -35.5 "Heavy Laser"
+	gun -13.5 -35.5 "Empire Particle gun"
+	gun 13.5 -35.5 "Empire Particle gun"
 	gun -21 -28 "Sidewinder Missile Launcher"
 	gun 21 -28 "Sidewinder Missile Launcher"
 	leak "leak" 60 50
@@ -461,7 +465,7 @@ ship "Empire Quicksilver"
 			"hull damage" 200
 			"hit force" 600
 	outfits
-		"Proton Gun" 2
+		"Empire Particle gun" 2
 		"Meteor Missile" 60
 		"Meteor Missile Launcher" 2
 		"Volcano Afterburner"
@@ -477,8 +481,8 @@ ship "Empire Quicksilver"
 		
 	engine -15.5 54
 	engine 15.5 54
-	gun -6 -39.5 "Proton Gun"
-	gun 6 -39.5 "Proton Gun"
+	gun -6 -39.5 "Empire Particle gun"
+	gun 6 -39.5 "Empire Particle gun"
 	gun 9 2 "Meteor Missile Launcher"
 	gun -9 2 "Meteor Missile Launcher"
 	leak "leak" 50 50
@@ -510,7 +514,7 @@ ship "Empire Drone"
 			"hull damage" 25
 			"hit force" 75
 	outfits
-		"Heavy Laser"
+		"Empire Particle gun"
 		
 		"nGVF-AA Fuel Cell"
 		"Supercapacitor"
@@ -521,7 +525,7 @@ ship "Empire Drone"
 		
 	engine -10.2 34.2 0.9
 	engine 10.2 34.2 0.9
-	gun 0 -43.5 "Heavy Laser"
+	gun 0 -43.5 "Empire Particle gun"
 	explode "tiny explosion" 15
 	description "It is at first a Republic Navy drone but Cromha Empire buyed rights of this ship and made its own version to satisfy them."
 	description "	Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay."
@@ -551,7 +555,7 @@ ship "Empire Fighter"
 			"hull damage" 60
 			"hit force" 180
 	outfits
-		"Beam Laser"
+		"Empire Particle gun"
 		"Javelin Mini Pod"
 		"Javelin" 40
 		
@@ -566,7 +570,7 @@ ship "Empire Fighter"
 		
 	engine -8 34
 	engine 8 34
-	gun -11 -21 "Beam Laser"
+	gun -11 -21 "Empire Particle gun"
 	gun 11 -21 "Javelin Mini Pod"
 	leak "leak" 60 50
 	explode "tiny explosion" 15

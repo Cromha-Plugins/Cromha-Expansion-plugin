@@ -208,6 +208,7 @@ outfitter Cromha-military-outfitter
 	"Antimatter Railgun"
 	"Multiphasic Anti-Missile"
 	"Multiphasic Anti-Missile ammunition"
+	"Empire Particle gun"
 outfitter Cromha-witdrew-station-outfitter
 	"Empire Passport"
 	"Local Map"

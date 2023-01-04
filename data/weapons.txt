@@ -12,9 +12,9 @@ outfit "Modified Plasma Repeater"
 		sound "plasma"
 		"hit effect" "plasma explosion"
 		"lifetime" 20
-		"velocity" 35
+		"velocity" 40
 		"inaccuracy" 2	
-		"reload" 10
+		"reload" 35
 		"firing energy" 25
 		"firing heat" 200
 		"shield damage" 37
@@ -23,6 +23,30 @@ outfit "Modified Plasma Repeater"
 		"hit force" 23
 	description `After the succes of The Plasma Repeater, better version of the original Plasma Cannon, Cromha Empire made a modified Plasma Repeater version for their ships. A little like the Modified Blaster Gun, the weapon have better range, lifetime, velocity and firehing heat; even if this version has worst reload, it is surely a better version. The Empire military scientics also improved the weapon accuracy, that was very bad for the old Plasma guns.`
 	description `	Derived from the original Plasma Repeater, this heavier version trades off its larger bursts for a much faster rate of fire. Although the smaller bursts of superheated plasma deal far less damage than its predecessor, the volume of fire results in more damage to the target overall.`
+
+outfit "Empire Particle gun"
+	category "Guns"
+	cost 220000
+	thumbnail "outfit/empire particle cannon"
+	"mass" 30
+	"outfit space" -30
+	"weapon capacity" -30
+	"gun ports" -1
+	weapon
+		sprite "projectile/empire particle beam"
+		sound "particle"
+		"hit effect" "particle impact"
+		"inaccuracy" .5
+		"velocity" 30
+		"lifetime" 25
+		"reload" 15
+		"firing energy" 35
+		"firing force" 10
+		"firing heat" 120
+		"hit force" 80
+		"shield damage" 65
+		"hull damage" 62
+	description "The Particle Cannon works by accelerating a short burst of particles to near-relativistic speeds. When mounted on a ship that can turn fast enough to keep it trained on approaching ships, it becomes a nearly unbeatable weapon, capable of destroying smaller ships before they can even approach close enough for their comparatively short-ranged weapons to be effective."
 
 outfit "Multiphasic Anti-Missile"
 	thumbnail "outfit/multiphasic_anti_missile"
@@ -130,6 +154,15 @@ outfit "streakstage2"
 			"scale" 0.1
 			"start frame" 0
 			"no repeat"
+				"inaccuracy" 30
+		drag 1
+		"velocity" 6
+		"lifetime" 1000
+		turn 10
+		homing 4
+		"tracking" 1
+		acceleration 10
+		"hit force" 1
 		"die effect" "missile death"
 		"hit effect" "small explosion"
 		"live effect" "rocketminitrace" 200
@@ -138,11 +171,8 @@ outfit "streakstage2"
 		"energy damage" 100
 		"burn damage" 3000
 		"hull damage" 50
+		phasing
 		"tracking" 1
-		drag 0.5
-		"velocity" 1
-		"lifetime" 500
-		turn 2
 
 outfit "Nuclear Missile"
 	category "Secondary Weapons"
