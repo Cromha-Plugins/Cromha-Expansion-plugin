@@ -212,7 +212,7 @@ outfitter Cromha-military-outfitter
 outfitter Cromha-witdrew-station-outfitter
 	"Empire Passport"
 	"Local Map"
-	shipyard Cromha-basic-shipyard
+shipyard Cromha-basic-shipyard
 	"Blackbird"
 	"Star Queen"
 	"Freighter"
