@@ -748,6 +748,72 @@ planet "Sabira Station"
 	description "An advanced Empire station in the korath space. The goal of this station is to collect data on litterally everything. Most of the people that come here are Empire scientists"
 	spaceport "Not a that big spaceport. Most of everything here is rudimental, you see almost noone but there is a good connection!"
 
+system Sabriset
+	pos 151.724 -426.518
+	government "Cromha Empire"
+	attributes "korath"
+	arrival 1570
+	habitable 1570
+	belt 1025
+	link Kaliptari
+	link Sepriaptu
+	asteroids "small rock" 3 3.9285
+	asteroids "medium rock" 6 2.6325
+	asteroids "large rock" 5 4.779
+	asteroids "small metal" 21 4.374
+	asteroids "medium metal" 4 5.1435
+	asteroids "large metal" 7 4.3335
+	minables aluminum 8 7.59557
+	minables tungsten 2 5.97609
+	trade Clothing 352
+	trade Electronics 723
+	trade Equipment 577
+	trade Food 489
+	trade "Heavy Metals" 885
+	trade Industrial 727
+	trade "Luxury Goods" 1311
+	trade Medical 621
+	trade Metal 275
+	trade Plastic 441
+	fleet "Large Quarg" 4000
+	fleet cromha-fleet 2000
+	fleet empire-rebels-raiders 1500
+	fleet small-pirates 1300
+	object
+		sprite star/g0
+		distance 34.3036
+		period 11.6325
+	object
+		sprite star/k0
+		distance 75.6079
+		period 11.6325
+		offset 180
+	object "For Lastru"
+		sprite planet/gas7-hot
+		distance 279.387
+		period 47.1432
+	object
+		sprite planet/lava7
+		distance 738.015
+		period 202.398
+	object
+		sprite planet/desert2
+		distance 1012.78
+		period 325.373
+	object
+		sprite planet/rock5
+		distance 1367.84
+		period 510.696
+
+planet "For Lastru"
+	attributes korath
+	government Uninhabited
+	landscape land/badlands7
+	description "This planet is full of great red tainted canyons. It has insane paysages."
+	description `Long ago, this planet was home to several Korath oil mining settlements, but now all that remains visible are the tops of a few dozen of the tallest buildings. Everything else has been buried by sandstorms.`
+	description `	Due to a recent shift in climate the deserts have begun shrinking once more, with local vegetation growing to cover more and more land each year, but the Korath are no longer here to benefit from the change.`
+
+
 # Remnant
 system Pantica
 	pos 303.87 445.242
@@ -1016,7 +1082,14 @@ system "Far Sabira"
 	trade Plastic 467
 	fleet empire-rebels-raiders 6000
 
+# Extra
 system "Sol"
+	link "Sirius"
+	link Caph
+	link Altair
+	link Vega
+	link "Aplha Centauri"
+	link Denebola
 	link "Volcanois"
 system "Hi Yahr"
 	link "Volcanois"
