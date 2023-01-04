@@ -68,12 +68,3 @@ outfit "Multiphasic Reactor"
 	"cooling" 9
 	description "Fission reactors are considered a rudimentary technology among interstellar species. Nonetheless, it remains a proven and safe technology that even the Hai use fairly regularly."
 	description "It is the 'auto-sufficient' of the Multiphasic Reactor that make it powerful: It has cooling ducts integrated to its systems, that way it produce litteraly no heat.. It is small and can be installed in almost all ships. This reactor is used for almost all Empire fleet ships."
-# Cooling
-outfit "Multiphasic Cooler"
-	category "Systems"
-	cost 80000
-	thumbnail "outfit/multiphasic_cooler"
-	"mass" 20
-	"outfit space" -20
-	"cooling" 29
-	description "For ships with extreme cooling needs, the multiphasic cooler is the answer. One of these coolers will dissipate the heat produced by anything but the heaviest of armaments."

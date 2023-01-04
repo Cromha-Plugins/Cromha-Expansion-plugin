@@ -1,3 +1,13 @@
+# Cooling
+outfit "Multiphasic Cooler"
+	category "Systems"
+	cost 80000
+	thumbnail "outfit/multiphasic_cooler"
+	"mass" 20
+	"outfit space" -20
+	"cooling" 29
+	description "For ships with extreme cooling needs, the multiphasic cooler is the answer. One of these coolers will dissipate the heat produced by anything but the heaviest of armaments."
+
 # Hand to Hand
 outfit "Teleportation Dock"
 	category "Hand to Hand"
