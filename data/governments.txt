@@ -4,6 +4,7 @@ conversation "caught red-handed"
 government "Cromha Empire"
 	"display name" "Cromha Empire"
 	"attitude toward"
+		"Empire Rebels" -5
 		Merchant 1
 		Militia 0.1
 		Pirate -1
@@ -41,7 +42,7 @@ government "Empire Rebels"
 		Pirate 1
 		Syndicate -1
 		"Mineria colonnies" -1
-		"Cromha Empire" -1
+		"Cromha Empire" -10
 		Republic -1
 		"Deep Security" -1
 		Hai -1

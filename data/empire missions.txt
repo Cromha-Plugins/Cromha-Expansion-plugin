@@ -1,0 +1,33 @@
+mission "Empire: First Contact"
+	landing
+   	repeat
+   	name "Register with The Empire Authorities"
+	source
+		government "Cromha Empire"
+   	destination "Witdrew Station"
+	on offer
+		"reputation: Cromha Empire" += 10
+		conversation
+		      `As you entering the spaceport, you see a lot of alien speciec you never seen before: some seems to be Hai others Remnants and even weird looking sort of Spider.`
+		      `   A guy with a blaster and an Empire Badge walks up to you`
+		      `   "Hey. We scanned your ship before you land. We see that you have no Empire Passport installed on your ship. To travel in the Empire Space you'll need one."`
+		      choice
+		          `   "Thank you for adverting me, how can I have one in anyway?"`
+		              goto next
+		          `   "I don't want any of this 'Empire Passport' thing. Let me alone."`
+		      `   The authorities charge their blasters and shoot you. I guess it is the end.`
+		              die
+		      label next
+		      `   "You can get one by registering in the Witdrew Station, in the Alpha Cromha system. It is totally free."`
+		      `   "Thanks" you say. "I didn't expected the Passport to be free."`
+		      `   "At your services say the auttorithies."`
+		      choice
+		          `   "I'll go there to register and get an Empire Passport"`
+		              accept
+    
+	on complete
+		"reputation: Cromha Empire" += 10
+		set "license: Empire Passport"
+		conversation
+			`You enter the registering place in the Witdrew Station spaceport. you wait in a queue until it's your turn.`
+			`   "Captain <last>?" say the guy who registering people. "Oh! It's you; there is you Empire Passport and have a great day!"`

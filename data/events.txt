@@ -54,17 +54,3 @@ event "ultimatum day"
 			`	You say:`
 			`	"Semms good for me."`
 			`	The guy left and now enjoy your new ships.`
-
-mission get-empire-passport
-	landing
-	source
-		government "Cromha Empire"
-	on offer
-		dialog `After opening your ships sas, the empire authorities inform you that you need an Empire Passport to land on Cromha Empire planets. You can buy them one for 10,000 credits. If you refuse they will have disable your ship.`
-	on accept
-		dialog `The authorities sell you an Empire Passport for 10,000 credits.`
-		outfit "Empire Passport License"
-		fine 10000
-	on decline
-		dialog `"Good luck" they say.`
-		"reputation: Cromha Empire" = -1
