@@ -9,6 +9,8 @@ mission hai-embassade-escort[0]
 		government "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Hai (Unfettered)"
 		not planet "Witdrew"
 	destination "Witdrew"
+	to offer
+		random < 15
 	on complete
 		"reputation: Hai" += 10
 		"reputation: Cromha Empire" += 10
