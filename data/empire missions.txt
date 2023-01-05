@@ -1,6 +1,6 @@
+# Story line
 mission "Empire: First Contact"
 	landing
-   	repeat
    	name "Register with The Empire Authorities"
 	source
 		government "Cromha Empire"
@@ -32,6 +32,18 @@ mission "Empire: First Contact"
 			`You enter the registering place in the Witdrew Station spaceport. you wait in a queue until it's your turn.`
 			`   "Captain <last>?" say the guy who registering people. "Oh! It's you; there is you Empire Passport and have a great day!"`
 
+mission "Empire: New at <planet>"
+	landing
+	source
+		government "Cromha Empire"
+	to offer
+		has "Empire: First Contact: done"
+	destination
+		government "Cromha Empire"
+		attributes station
+		distance 2 4
+
+# Misc
 mission "Discovered Empire Space"
 	landing
 	invisible
