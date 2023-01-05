@@ -18,7 +18,7 @@ mission "Empire: First Contact"
 		      `   The authorities charge their blasters and shoot you. I guess it is the end.`
 		              die
 		      label next
-		      `   "You can get one by registering in the Witdrew Station, in the Alpha Cromha system. It is totally free."`
+		      `   "You can get one by registering in the Witdrew Station spaceport, in the Alpha Cromha system. It is totally free."`
 		      `   "Thanks" you say. "I didn't expected the Passport to be free."`
 		      `   "At your services say the auttorithies."`
 		      choice
