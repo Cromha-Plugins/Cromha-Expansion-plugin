@@ -31,3 +31,16 @@ mission "Empire: First Contact"
 		conversation
 			`You enter the registering place in the Witdrew Station spaceport. you wait in a queue until it's your turn.`
 			`   "Captain <last>?" say the guy who registering people. "Oh! It's you; there is you Empire Passport and have a great day!"`
+
+mission "Discovered Empire Space"
+	landing
+	invisible
+	source
+		government "Cromha Empire"
+	on offer
+		event "label empire space"
+		fail
+
+event "label empire space"
+	galaxy "empire"
+		sprite "label/empire"
