@@ -10,6 +10,8 @@ mission hai-embassade-escort[0]
 		not planet "Witdrew"
 	destination "Witdrew"
 	on complete
+		"reputation: Hai" += 10
+		"reputation: Cromha Empire" += 10
 		payment
 		payment 60000
 		dialog "After opening the ship's sas, the Ambassador thank you and gives you 60000 credits."
@@ -34,6 +36,7 @@ mission mineria-colonnies-transport-escort[0]
 		government "Republic" "Cromha Empire" "Syndicate" "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Hai (Unfettered)"
 		attributes factory
 	on complete
+		"reputation: Mineria colonnies" += 10
 		payment
 		payment 100000
 		dialog "After landing oon the planet, the Captain thanks you and gives you the <payment>."
@@ -73,6 +76,7 @@ mission mineria-colonnies-transport-escort[1]
 		government "Republic" "Cromha Empire" "Syndicate" "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Hai (Unfettered)"
 		attributes factory
 	on complete
+		"reputation: Mineria colonnies" += 10
 		payment
 		payment 200000
 		dialog "After landing oon the planet, the Captain thanks you and gives you the <payment>."
@@ -112,6 +116,7 @@ mission mineria-colonnies-transport-escort[2]
 		government "Republic" "Cromha Empire" "Syndicate" "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Hai (Unfettered)"
 		attributes factory
 	on complete
+		"reputation: Mineria colonnies" += 10
 		payment
 		payment 150000
 		dialog "After landing oon the planet, the Captain thanks you and gives you the <payment>."
@@ -148,6 +153,7 @@ mission outlaw-empire-passport[0]
 		not planet "Witdrew Station"
 	destination "Witdrew Station"
 	on complete
+		"reputation: Cromha Empire" += 10
 		payment
 		payment 80000
 		dialog "After opening the sas, Empire authorities thank you and take the guy to the Empire register. You automaticlly got 80000 credits on your bank account."
@@ -165,6 +171,7 @@ mission outlaw-empire-passport[1]
 		not planet "Witdrew Station"
 	destination "Witdrew Station"
 	on complete
+		"reputation: Cromha Empire" += 10
 		payment
 		payment 80000
 		dialog "After opening the sas, Empire authorities thank you and take the guy to the Empire register. You automaticlly got 80000 credits on your bank account."
@@ -182,6 +189,7 @@ mission outlaw-empire-passport[2]
 		not planet "Witdrew Station"
 	destination "Witdrew Station"
 	on complete
+		"reputation: Cromha Empire" += 10
 		payment
 		payment 80000
 		dialog "After opening the sas, Empire authorities thank you and take the guy to the Empire register. You automaticlly got 80000 credits on your bank account."
@@ -201,6 +209,7 @@ mission assist-empire-pirate[0]
 		government "Cromha Empire"
 		attributes rich urban tourism
 	on complete
+		"reputation: Cromha Empire" += 10
 		payment
 		payment 80000
 		dialog "The Cromha Empire authorities thank you for helping them and gives you <payment>"
@@ -231,6 +240,7 @@ mission assist-empire-syndicate[0]
 		government "Cromha Empire"
 		attributes syndicate "core"
 	on complete
+		"reputation: Cromha Empire" += 10
 		payment
 		payment 80000
 		dialog "The Cromha Empire authorities thank you for helping them and gives you <payment>"
@@ -439,6 +449,7 @@ mission "Cromha Empire target practice [0]"
 		"reputation: Cromha Empire" --
 		fine 160000
 	on complete
+		"reputation: Cromha Empire" += 10
 		payment 80000
 		dialog "You transmit the scan results to a team of eager engineers and collect your payment of <payment>."
 
@@ -475,6 +486,7 @@ mission "Cromha Empire target practice [1]"
 		"reputation: Cromha Empire" --
 		fine 300000
 	on complete
+		"reputation: Cromha Empire" += 10
 		payment 150000
 		dialog "You transmit the scan results to a team of eager engineers and collect your payment of <payment>."
 
@@ -511,6 +523,7 @@ mission "Cromha Empire target practice [2]"
 		"reputation: Cromha Empire" --
 		fine 520000
 	on complete
+		"reputation: Cromha Empire" += 10
 		payment 260000
 		dialog "You transmit the scan results to a team of eager engineers and collect your payment of <payment>."
 
@@ -546,6 +559,7 @@ mission "Cromha Empire target practice [3]"
 		"reputation: Cromha Empire" --
 		fine 800000
 	on complete
+		"reputation: Cromha Empire" += 10
 		payment 400000
 		dialog "You transmit the scan results to a team of eager engineers and collect your payment of <payment>."
 
@@ -592,6 +606,7 @@ mission "Cromha Empire Prisoner Transport [0]"
 	on visit
 		dialog phrase "generic cargo and passenger on visit"
 	on complete
+		"reputation: Cromha Empire" += 10
 		payment 10000 200
 		dialog "The executive strolls off your ship with a sunny smile on his face. One of the lawyers hands you your payment of <payment> with muttered threats about libel lawsuits if you say anything about what you may or may not have overheard on your ship."
 
@@ -616,6 +631,7 @@ mission "Cromha Empire Prisoner Transport [1]"
 	on visit
 		dialog phrase "generic passenger on visit"
 	on complete
+		"reputation: Cromha Empire" += 10
 		payment 10000 200
 		dialog "A group of guards carry the prisoner off your ship more roughly than is strictly necessary. You receive your payment of <payment>."
 
@@ -640,6 +656,7 @@ mission "Cromha Empire Prisoner Transport [2]"
 	on visit
 		dialog phrase "generic passenger on visit"
 	on complete
+		"reputation: Cromha Empire" += 10
 		payment 15000 175
 		dialog "A group of guards lead the prisoners off your ship, chained together at the ankles. You receive your payment of <payment>."
 
@@ -665,6 +682,7 @@ mission "Cromha Empire Prisoner Transport [3]"
 	on visit
 		dialog phrase "generic passenger on visit"
 	on complete
+		"reputation: Cromha Empire" += 10
 		payment 10000 150
 		dialog "The prisoners are still wearing their civilian clothes, and you can see bruises from when they were arrested as the guards lead them inside. You receive your payment of <payment>."
 
@@ -690,6 +708,7 @@ mission "Cromha Empire Prisoner Transport [4]"
 	on visit
 		dialog phrase "generic passenger on visit"
 	on complete
+		"reputation: Cromha Empire" += 10
 		payment 15000 200
 		dialog `The union organizers are defiant as the guards drag them inside, and one of the organizers yells about "class traitors." You receive your payment of <payment>.`
 
@@ -6076,6 +6095,7 @@ mission marauder[0]
 		government "Cromha Empire"
 		distance 1 5
 	on complete
+		"reputation: Cromha Empire" += 10
 		payment
 		payment 80000
 		dialog "The Cromha Empire authorities thank you for destroying the marauder and gives you <payment>"
@@ -6100,6 +6120,7 @@ mission marauder[1]
 		government "Cromha Empire"
 		distance 1 5
 	on complete
+		"reputation: Cromha Empire" += 10
 		payment
 		payment 130000
 		dialog "The Cromha Empire authorities thank you for destroying the marauder and gives you <payment>"
