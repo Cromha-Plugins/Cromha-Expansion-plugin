@@ -48,7 +48,8 @@ mission "Discovered Empire Space"
 	landing
 	invisible
 	source
-		government "Cromha Empire"
+		attributes "empire space"
+		not attributes uninhabited
 	on offer
 		event "label empire space"
 		fail
