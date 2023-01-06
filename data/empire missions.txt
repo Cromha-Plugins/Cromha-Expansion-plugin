@@ -77,6 +77,32 @@ mission "Empire: Humanitary Delivry to <planet>"
 		payment 30000
 		dialog "You finished your first Empire Mission and get payed <payment>."
 
+mission "Empire: Escort Empire Raven"
+	landing
+	description "Escort on Empire Raven to the <planet> reparation station before the date of <date>. Payment is a free Empire Quicksilver ship."
+	deadline 15
+	source
+		government "Cromha Empire"
+		not attributes uninhabited
+	to offer
+		has "Empire: Humanitary Delivry to <planet>: done"
+	on offer
+		conversation
+			`You land on <planet> and recieve an other message for the Empire missions. You click on the pop-up and the app opens. You can see written on the screen:`
+			`	Escort on Empire Raven to the <planet> reparation station before the date of <date>. Payment is a free Empire Quicksilver ship."`
+				accept
+	destination
+		government "Cromha Empire"
+		attributes station
+		distance 1 10
+	on complete
+		 give ship "Empire Quicksilver" "Empire Quicksilver"
+		 dialog "You land on the reparation station dock and you can already see the Empire Quicksilver waiting for you in the spaceport."
+	npc accompany save
+		government "Cromha Empire"
+		personality escort timid
+		ship "Empire Raven" RZ-1406
+
 # Misc
 mission "Discovered Empire Space"
 	landing
