@@ -68,6 +68,9 @@ mission "Empire: Humanitary Delivry to <planet>"
 			`	You enter your ship, search for some app and install the one to get Empire missions. You can see your first mission appearing after opening the app:`
 			`	"Delivry humanitary resources to <destination> before the date of <date>. Payment is <payment>"`
 				accept
+	on fail
+		"reputation: Cromha Empire" -= 10
+		dialog "You failed in your mission. The Empire inform you that they will no longer give you missions."
 	destination
 		government "Cromha Empire"
 		attributes station
@@ -95,6 +98,9 @@ mission "Empire: Escort Empire Raven"
 		government "Cromha Empire"
 		attributes station
 		distance 1 10
+	on fail
+		"reputation: Cromha Empire" -= 10
+		dialog "You failed in your mission. The Empire inform you that they will no longer give you missions."
 	on complete
 		 give ship "Empire Quicksilver" "Empire Quicksilver"
 		 dialog "You land on the reparation station dock and you can already see the Empire Quicksilver waiting for you in the spaceport."
