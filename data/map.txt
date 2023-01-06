@@ -208,7 +208,7 @@ planet "Striy"
 	music "waves"
 	spaceport "Striy is one of the most touristic planet of all human space. Millions of ships are registred every weeks. The security is at the most, almost all dangereous outfits are illegals here, be sure to check all your outfits before entering the planet next time."
 	description "The most touristic planet of all north east galaxy. Security is at the maximum."
-	"required reputation" 10
+	"required reputation" 200
 	bribe 0.01
 	security 2
 		
