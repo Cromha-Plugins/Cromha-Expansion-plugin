@@ -117,7 +117,7 @@ mission "Empire Contributor"
 	name "Empire: Return to the <planet>"
 	description "Return to the <planet> to see if TheEmpire will grant you a higher status in The Empire now that you have been working among them for some time."
 	to offer
-		"coalition jobs" >= 30
+		"coalition jobs" >= 10
 	source
 		government "Cromha Empire"
 		not attributes uninhabited
@@ -127,7 +127,7 @@ mission "Empire Contributor"
 			`A Heliarch agent contacts you soon after you land, and says, "In many useful ways, among us you have been working. The Empire you should petition, and your rights and status among us they may elevate." The agent instructs you to return to the <planet> and petition the Empire rulers there.`
 				accept
 	on complete
-		"reputation: Cromha Empire" += 10
+		"reputation: Cromha Empire" += 30
 		set "license: Empire Contributor"
 		conversation
 			`Once again, when you exit your ship you are met by a member of the Empire Assembly, wearing the diamond circlets that mark them as Emire. "Told we have been," says the minister, "that among us with great diligence and commitment, small tasks you have performed."`
