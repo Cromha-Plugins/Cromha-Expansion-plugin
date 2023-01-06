@@ -21,6 +21,10 @@ outfit "Teleportation Dock"
 	description "Extremly good for attack, letting you teleporting into your enemy ship to attack them by surprise but that that useful for defending."
 
 # Licenses
+outfit "Empire Black Manta License"
+	category "Licenses"
+	thumbnail "outfit/empire_black_manta_license"
+	description "The need License if you want to buy an Black Manta ship. You can buy them in Empires Military shipyards."
 outfit "Empire Navy License"
 	category "Licenses"
 	thumbnail "outfit/empire_license"

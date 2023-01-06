@@ -76,6 +76,7 @@ mission "Empire: Humanitary Delivry to <planet>"
 		attributes station
 		distance 2 5
 	on complete
+		"empire jobs" += 1
 		payment
 		payment 30000
 		dialog "You finished your first Empire Mission and get payed <payment>."
@@ -102,6 +103,7 @@ mission "Empire: Escort Empire Raven"
 		"reputation: Cromha Empire" -= 10
 		dialog "You failed in your mission. The Empire inform you that they will no longer give you missions."
 	on complete
+		"empire jobs" += 1
 		 give ship "Empire Quicksilver" "Empire Quicksilver"
 		 dialog "You land on the reparation station dock and you can already see the Empire Quicksilver waiting for you in the spaceport."
 	npc accompany save
@@ -109,7 +111,40 @@ mission "Empire: Escort Empire Raven"
 		personality escort timid
 		ship "Empire Raven" RZ-1406
 
-# Misc
+# Events
+mission "Empire Contributor"
+	landing
+	name "Empire: Return to the <planet>"
+	description "Return to the <planet> to see if TheEmpire will grant you a higher status in The Empire now that you have been working among them for some time."
+	to offer
+		"coalition jobs" >= 30
+	source
+		government "Coalition"
+	destination "Ring of Friendship"
+	on offer
+		conversation
+			`A Heliarch agent contacts you soon after you land, and says, "In many useful ways, among us you have been working. The Heliarchs you should petition, and your rights and status among us they may elevate." The agent instructs you to return to the <planet> and petition the Heliarch rulers there.`
+				accept
+	on complete
+		"reputation: Coalition" += 10
+		"reputation: Heliarch" += 10
+		set "license: Coalition"
+		log "Completed a lot of Coalition jobs and received permission to purchase civilian technology and ships."
+		log "Factions" "Saryds" `Saryds are an alien species who look suspiciously similar to the centaurs found in early human mythology. They prefer to live on worlds with as much green space as possible, and even their major cities are full of parks and gardens. Most Saryds live in small communes with up to a few dozen of them per house.`
+		log "Factions" "Kimek" `The Kimek are large insectoid aliens, and are members of the Coalition. They discovered spaceflight after the Saryds, but before the Arachi. They are intensely social creatures, preferring to live together in massive buildings with thousands of inhabitants, and many of their worlds have populations in the tens of billions, far more than any human world.`
+		log "Factions" "Arachi" `The spider-like Arachi were the last of the three Coalition species to discover interstellar travel. Most members of their society owe allegiance to one of the great Arach "Houses," organizations that are somewhat similar to guilds and that each specialize in one particular form of industry or technology.`
+		conversation
+			`Once again, when you exit your ship you are met by a member of each of the three Coalition species, wearing the golden circlets that mark them as Heliarchs. "Told we have been," says the Saryd, "that among us with great diligence and commitment, small tasks you have performed."`
+			`	The Kimek says, "Those who in our society's prosperity have invested, with our society's technology may be trusted."`
+			`	"But," says the Arach, "like all civilians, even citizens, to you our weapons and warships we still cannot sell."`
+			choice
+				`	"Thank you."`
+					goto end
+				`	"Why don't you allow civilians to purchase weapons or warships?"`
+			`	"For the sake of peace it is," says the Saryd. "The Heliarch military, well trained to use weapons only for defense and only for justice, they are. And to place the needs of the Coalition over the ambitions of their own native species, each one committed is. No such discipline do civilians have, even you. But as a respectful guest you are, to maintain your weapons we shall allow."`
+			label end
+			`	Apparently nothing is for sale here, but they assure you that many Coalition worlds will now grant you access to their shipyards and outfitters.`
+
 mission "Discovered Empire Space"
 	landing
 	invisible

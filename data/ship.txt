@@ -7,7 +7,7 @@ ship "Black Manta (Prototype)"
 	attributes
 		category "Heavy Warship"
 		licenses
-			"Empire"
+			"Empire Black Manta"
 		"cost" 5470000000
 		"shields" 41400
 		"hull" 7500
