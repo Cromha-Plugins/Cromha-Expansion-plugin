@@ -38,7 +38,6 @@ mission mineria-colonnies-transport-escort[0]
 		government "Republic" "Cromha Empire" "Syndicate" "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Hai (Unfettered)"
 		attributes factory
 	on complete
-		"reputation: Mineria colonnies" += 10
 		payment
 		payment 100000
 		dialog "After landing oon the planet, the Captain thanks you and gives you the <payment>."
@@ -78,7 +77,6 @@ mission mineria-colonnies-transport-escort[1]
 		government "Republic" "Cromha Empire" "Syndicate" "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Hai (Unfettered)"
 		attributes factory
 	on complete
-		"reputation: Mineria colonnies" += 10
 		payment
 		payment 200000
 		dialog "After landing oon the planet, the Captain thanks you and gives you the <payment>."
@@ -118,7 +116,6 @@ mission mineria-colonnies-transport-escort[2]
 		government "Republic" "Cromha Empire" "Syndicate" "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Hai (Unfettered)"
 		attributes factory
 	on complete
-		"reputation: Mineria colonnies" += 10
 		payment
 		payment 150000
 		dialog "After landing oon the planet, the Captain thanks you and gives you the <payment>."

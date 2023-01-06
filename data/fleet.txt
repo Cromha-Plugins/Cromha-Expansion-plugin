@@ -50,7 +50,7 @@ fleet cromha-transporters
 	variant 10
 		Hauler 2
 		"Container Transport" 1
-		"Bulk reighter" 1
+		"Bulk Freighter" 1
 		Frigate 2
 	# special convoits
 	variant 1
@@ -67,7 +67,7 @@ fleet mineria-transports
 	variant 10
 		Hauler 1
 		"Container Transport" 1
-		"Bulk reighter" 2
+		"Bulk Freighter" 2
 		Frigate 1
 	# special convoits
 	variant 1
