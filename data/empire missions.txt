@@ -93,7 +93,7 @@ mission "Empire: Escort Empire Raven"
 	on offer
 		conversation
 			`You land on <planet> and recieve an other message for the Empire missions. You click on the pop-up and the app opens. You can see written on the screen:`
-			`	Escort on Empire Raven to the <planet> reparation station before the date of <date>. Payment is a free Empire Quicksilver ship."`
+			`	"Escort on Empire Raven to the <planet> reparation station before the date of <date>. Payment is a free Empire Quicksilver ship."`
 				accept
 	destination
 		government "Cromha Empire"
@@ -110,6 +110,37 @@ mission "Empire: Escort Empire Raven"
 		government "Cromha Empire"
 		personality escort timid
 		ship "Empire Raven" RZ-1406
+
+mission "Empire: Delivry Jump Drive in <planet> military lab."
+	landing
+	description "Delivry Jump Drive in <planet> in the military lab before the date of <date>. Payment is <payment>."
+	deadline 13
+	source
+		government "Cromha Empire"
+		not attributes uninhabited
+	to offer
+		has "Empire: Escort Empire Raven: done"
+	on offer
+		conversation
+			`You land on <planet> and recieve an other message for the Empire missions. You click on the pop-up and the app opens. You can see written on the screen:`
+			`	"Delivry Jump Drive in <planet> in the military lab before the date of <date>. Payment is <payment>."`
+				accept
+	on fail
+		"reputation: Cromha Empire" -= 20
+		dialog "You failed in your mission. The Empire inform you that they will no longer give you missions."
+	on accept
+		outfit "Jump Drive" 1
+	destination
+		government "Cromha Empire"
+		attributes military research
+		distance 1 10
+	on complete
+		"empire jobs" += 1
+		require "Jump Drive" 1
+		outfit "Jump Drive" -1
+		payment
+		payment 100000
+		dialog "You land on the reparation station dock and you can already see the Empire Quicksilver waiting for you in the spaceport."
 
 # Events
 mission "Empire Contributor"
