@@ -6,6 +6,8 @@ outfit "Modified Plasma Repeater"
 	"outfit space" -37
 	"weapon capacity" -40
 	"gun ports" -1
+	licenses
+		"Empire Contributor"
 	weapon
 		sprite "projectile/plasma"
 			"frame rate" 3
@@ -32,6 +34,8 @@ outfit "Empire Particle gun"
 	"outfit space" -30
 	"weapon capacity" -30
 	"gun ports" -1
+	licenses
+		"Empire Contributor"
 	weapon
 		sprite "projectile/empire particle beam"
 		sound "particle"
@@ -52,6 +56,8 @@ outfit "Multiphasic Anti-Missile"
 	thumbnail "outfit/multiphasic_anti_missile"
 	category "Turrets"
 	cost 55000
+	licenses
+		"Empire Contributor"
 	thumbnail "outfit/anti-missile hai"
 	"mass" 5
 	"outfit space" -5
@@ -77,6 +83,8 @@ outfit "Multiphasic Anti-Missile"
 outfit "Multiphasic Anti-Missile ammunition"
 	plural "Multiphasic Anti-Missile ammunitions"
 	category "Ammunition"
+	licenses
+		"Empire Contributor"
 	cost 5
 	thumbnail "outfit/anti-missile ammunition"
 	"mass" .5
@@ -88,6 +96,8 @@ outfit "Antimatter Railgun"
 	cost 20000
 	thumbnail "outfit/antimatter railgun"
 	mass 1
+	licenses
+		"Empire Contributor"
 	"weapon capacity" -10
 	"gun ports" -1
 	"railgun slug capacity" 100

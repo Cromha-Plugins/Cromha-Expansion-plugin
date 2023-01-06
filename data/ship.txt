@@ -107,7 +107,7 @@ ship "Heavy Empire Destroyer"
 	attributes
 		category "Heavy Warship"
 		licenses
-			"Empire"
+			"Empire Navy"
 		"cost" 37200000
 		"shields" 501400
 		"hull" 80300
@@ -239,7 +239,7 @@ ship "Empire Destroyer"
 	attributes
 		category "Heavy Warship"
 		licenses
-			"Empire"
+			"Empire Navy"
 		"cost" 10930000
 		"shields" 25800
 		"hull" 3700
@@ -317,7 +317,7 @@ ship "Light Empire Destroyer"
 	attributes
 		category "Medium Warship"
 		licenses
-			"Empire"
+			"Empire Navy"
 		"cost" 3120000
 		"shields" 15700
 		"hull" 3700
@@ -388,7 +388,7 @@ ship "Empire Raven"
 	attributes
 		category "Light Warship"
 		licenses
-			"Empire"
+			"Empire Contributor"
 		"cost" 2570000
 		"shields" 6500
 		"hull" 2400
@@ -445,7 +445,7 @@ ship "Empire Quicksilver"
 	attributes
 		category "Fighter"
 		licenses
-			"Empire"
+			"Empire Contributor"
 		"cost" 1100000
 		"shields" 10000
 		"hull" 1500
@@ -498,7 +498,7 @@ ship "Empire Drone"
 	attributes
 		category "Drone"
 		licenses
-			"Empire"
+			"Empire Contributor"
 		"cost" 93000
 		"hull" 700
 		"automaton" 1
@@ -537,7 +537,7 @@ ship "Empire Fighter"
 	attributes
 		category "Fighter"
 		licenses
-			"Empire"
+			"Empire Contributor"
 		"cost" 149000
 		"shields" 2000
 		"hull" 500

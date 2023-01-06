@@ -129,21 +129,17 @@ mission "Empire Contributor"
 	on complete
 		"reputation: Cromha Empire" += 10
 		set "license: Empire Contributor"
-		log "Completed a lot of Coalition jobs and received permission to purchase civilian technology and ships."
-		log "Factions" "Saryds" `Saryds are an alien species who look suspiciously similar to the centaurs found in early human mythology. They prefer to live on worlds with as much green space as possible, and even their major cities are full of parks and gardens. Most Saryds live in small communes with up to a few dozen of them per house.`
-		log "Factions" "Kimek" `The Kimek are large insectoid aliens, and are members of the Coalition. They discovered spaceflight after the Saryds, but before the Arachi. They are intensely social creatures, preferring to live together in massive buildings with thousands of inhabitants, and many of their worlds have populations in the tens of billions, far more than any human world.`
-		log "Factions" "Arachi" `The spider-like Arachi were the last of the three Coalition species to discover interstellar travel. Most members of their society owe allegiance to one of the great Arach "Houses," organizations that are somewhat similar to guilds and that each specialize in one particular form of industry or technology.`
 		conversation
-			`Once again, when you exit your ship you are met by a member of each of the three Coalition species, wearing the golden circlets that mark them as Heliarchs. "Told we have been," says the Saryd, "that among us with great diligence and commitment, small tasks you have performed."`
-			`	The Kimek says, "Those who in our society's prosperity have invested, with our society's technology may be trusted."`
-			`	"But," says the Arach, "like all civilians, even citizens, to you our weapons and warships we still cannot sell."`
+			`Once again, when you exit your ship you are met by a member of the Empire Assembly, wearing the diamond circlets that mark them as Emire. "Told we have been," says the minister, "that among us with great diligence and commitment, small tasks you have performed."`
+			`	The Second Minister says, "Those who in our society's prosperity have invested, with our society's technology may be trusted."`
+			`	"But," says the Security Minister, "like all civilians, even citizens, to you our warships we still cannot sell."`
 			choice
 				`	"Thank you."`
 					goto end
 				`	"Why don't you allow civilians to purchase weapons or warships?"`
-			`	"For the sake of peace it is," says the Saryd. "The Heliarch military, well trained to use weapons only for defense and only for justice, they are. And to place the needs of the Coalition over the ambitions of their own native species, each one committed is. No such discipline do civilians have, even you. But as a respectful guest you are, to maintain your weapons we shall allow."`
+			`	"For the sake of peace it is," says the Security Minister. "The Heliarch military, well trained to use weapons only for defense and only for justice, they are. And to place the needs of the Coalition over the ambitions of their own native species, each one committed is. No such discipline do civilians have, even you. But as a respectful guest you are, to maintain your weapons we shall allow."`
 			label end
-			`	Apparently nothing is for sale here, but they assure you that many Coalition worlds will now grant you access to their shipyards and outfitters.`
+			`	Apparently nothing is for sale here, but they assure you that many Empire worlds will now grant you access to their shipyards and outfitters.`
 
 mission "Discovered Empire Space"
 	landing
