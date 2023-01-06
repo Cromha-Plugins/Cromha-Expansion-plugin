@@ -1,7 +1,7 @@
 # Story line
 mission "Empire: First Contact"
 	landing
-   	name "Register with The Empire Authorities"
+	description "Enter in Witdrew Station in Alpha Cromha system to get an Empire Passport."
 	source
 		government "Cromha Empire"
    	destination "Witdrew Station"
@@ -32,16 +32,50 @@ mission "Empire: First Contact"
 			`You enter the registering place in the Witdrew Station spaceport. you wait in a queue until it's your turn.`
 			`   "Captain <last>?" say the guy who registering people. "Oh! It's you; there is you Empire Passport and have a great day!"`
 
-mission "Empire: New at <planet>"
+mission "Empire: Humanitary Delivry to <planet>"
 	landing
+	description "Delivry humanitary resources to <destination> before the date of <date>. Payment is <payment>"
+	cargo Food 5 15
+	deadline 10
 	source
 		government "Cromha Empire"
+		not attributes uninhabited
 	to offer
 		has "Empire: First Contact: done"
+	on offer
+		conversation
+			`You enter the <planet> spaceport and see a big sign where it's written "The Empire search for remunerated workforce".`
+			choice
+				`	Go see what is it.`
+					goto next
+				`	Ignore it.`
+					decline
+			label next
+			`	You go see someone who seems to be part of the Empire Authorities. You ask them on what consist this job and how much they will pay you.`
+			`	"Hi. I want to get informations about this 'Empire remunerated workforce', can you help me about that?"`
+			`	The guy says:`
+			`	"Of course, it's why i'm here.", "The Empire recrutes people who want to work for them. By registering to this 'organization' you will accept to recieve differents remunerated missions from The Empire. All hard workers will be rewarded for working hard for the Empire, rewards are money, ships, special new outfits from Empire scientics, licenses and more!"`
+			choice
+				`	"Seems interesting. I would like to register, how can I?"`
+					goto accept
+				`	"This is not interesting me, but thank you anyway`
+					decline
+			label accept
+			`	"Cool!", "Well to register you just have to write your name here and we will offer you your first remunerated mission right after."`
+			`	"Nice" you say "I like how The Empire is well organized."`
+			`	You write your name in a board and your Empire Passport UUID and go back on your ship to do your mission right now.`
+			``
+			`	You enter your ship, search for some app and install the one to get Empire missions. You can see your first mission appearing after opening the app:`
+			`	"Delivry humanitary resources to <destination> before the date of <date>. Payment is <payment>"`
+				accept
 	destination
 		government "Cromha Empire"
 		attributes station
-		distance 2 4
+		distance 2 5
+	on complete
+		payment
+		payment 30000
+		dialog "You finished your first Empire Mission and get payed <payment>."
 
 # Misc
 mission "Discovered Empire Space"
