@@ -12,7 +12,7 @@ ship "Black Manta (Prototype)"
 		"shields" 41400
 		"hull" 7500
 		"required crew" 6
-		"bunks" 15
+		"bunks" 200
 		"mass" 830
 		"drag" 4.7
 		"heat dissipation" .8
