@@ -213,35 +213,6 @@ mission "Empire: First Award"
 		outfit "Empire Contributor License"
 
 # Events
-mission "Empire Contributor"
-	landing
-	name "Empire: Return to the <planet>"
-	description "Return to the <planet> to see if TheEmpire will grant you a higher status in The Empire now that you have been working among them for some time."
-	to offer
-		"coalition jobs" >= 10
-	source
-		government "Cromha Empire"
-		not attributes uninhabited
-	destination "Alldust"
-	on offer
-		conversation
-			`A Heliarch agent contacts you soon after you land, and says, "In many useful ways, among us you have been working. The Empire you should petition, and your rights and status among us they may elevate." The agent instructs you to return to the <planet> and petition the Empire rulers there.`
-				accept
-	on complete
-		"reputation: Cromha Empire" += 30
-		set "license: Empire Contributor"
-		conversation
-			`Once again, when you exit your ship you are met by a member of the Empire Assembly, wearing the diamond circlets that mark them as Emire. "Told we have been," says the minister, "that among us with great diligence and commitment, small tasks you have performed."`
-			`	The Second Minister says, "Those who in our society's prosperity have invested, with our society's technology may be trusted."`
-			`	"But," says the Security Minister, "like all civilians, even citizens, to you our warships we still cannot sell."`
-			choice
-				`	"Thank you."`
-					goto end
-				`	"Why don't you allow civilians to purchase weapons or warships?"`
-			`	"For the sake of peace it is," says the Security Minister. "The Heliarch military, well trained to use weapons only for defense and only for justice, they are. And to place the needs of the Coalition over the ambitions of their own native species, each one committed is. No such discipline do civilians have, even you. But as a respectful guest you are, to maintain your weapons we shall allow."`
-			label end
-			`	Apparently nothing is for sale here, but they assure you that many Empire worlds will now grant you access to their shipyards and outfitters.`
-
 mission "Discovered Empire Space"
 	landing
 	invisible
