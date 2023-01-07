@@ -13,7 +13,7 @@ ship "Black Manta (Prototype)"
 		"hull" 7500
 		"required crew" 6
 		"bunks" 200
-		"mass" 830
+		"mass" 630
 		"drag" 4.7
 		"heat dissipation" .8
 		"fuel capacity" 800
@@ -449,7 +449,7 @@ ship "Empire Quicksilver"
 		"hull" 1500
 		"required crew" 3
 		"bunks" 6
-		"mass" 120
+		"mass" 80
 		"drag" 2.7
 		"heat dissipation" .8
 		"fuel capacity" 400
