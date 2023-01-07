@@ -11,7 +11,7 @@ ship "Black Manta (Prototype)"
 		"cost" 5470000000
 		"shields" 41400
 		"hull" 7500
-		"required crew" 6
+		"required crew" 100
 		"bunks" 200
 		"mass" 630
 		"drag" 4.7
