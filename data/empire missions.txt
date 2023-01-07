@@ -76,7 +76,7 @@ mission "Empire: Humanitary Delivry to <planet>"
 		attributes station
 		distance 2 5
 	on complete
-		"reputation: Cromha Empire" += 1
+		"reputation: Cromha Empire" += 10
 		"empire jobs" += 1
 		payment
 		payment 30000
@@ -104,7 +104,7 @@ mission "Empire: Escort Empire Raven"
 		"reputation: Cromha Empire" -= 10
 		dialog "You failed in your mission. The Empire inform you that they will no longer give you missions."
 	on complete
-		"reputation: Cromha Empire" += 1
+		"reputation: Cromha Empire" += 10
 		"empire jobs" += 1
 		 give ship "Empire Quicksilver" "Empire Quicksilver"
 		 dialog "You land on the reparation station dock and you can already see the Empire Quicksilver waiting for you in the spaceport."
@@ -137,7 +137,7 @@ mission "Empire: Delivry Jump Drive in <planet> military lab"
 		attributes military research
 		distance 1 10
 	on complete
-		"reputation: Cromha Empire" += 1
+		"reputation: Cromha Empire" += 10
 		"empire jobs" += 1
 		require "Jump Drive" 1
 		outfit "Jump Drive" -1
@@ -159,7 +159,7 @@ mission "Empire: Harvest 25 tons of silicon"
 			`	"Harvest 25 tons of silicon for The Empire then land on <origin> to get your payment of <payment>."`
 				accept
 	on complete
-		"reputation: Cromha Empire" += 1
+		"reputation: Cromha Empire" += 10
 		"empire jobs" += 1
 		require "Silicon" 50
 		outfit "Silicon" -50
@@ -182,7 +182,7 @@ mission "Empire: Dirige Empire fleet to <planet>"
 			`	"Dirige an Empire combat fleet to <destination> for engaging battle to Empire Rebels. Destroy the Empire Rebels fleet and land on <planet> to get your payment of <payment>."`
 				accept
 	on complete
-		"reputation: Cromha Empire" += 1
+		"reputation: Cromha Empire" += 10
 		"empire jobs" += 1
 		payment 300000
 		dialog "You land on <planet>, give back the fleet to The Empire and get your payment of <payment>."
@@ -194,6 +194,23 @@ mission "Empire: Dirige Empire fleet to <planet>"
 		government "Empire Rebels"
 		personality staying
 		fleet empire-rebels-raiders-fleet
+
+mission "Empire: First Award"
+	landing
+	source
+		government "Cromha Empire"
+		not attributes uninhabited
+	to offer
+		has "Empire: Dirige Empire fleet to <planet>: done"
+	on offer
+		conversation
+			`As you land on the planet, you can see a message from The Empire:`
+			`	"It's been a few weeks that you've been working for us, we wanted to award you for all for hard work. We offer you the Empire Contributor License wich will grant you the access to every non-military ships and outfits in the Empire Space. You also will also be credited 1M credits on your account."`
+				decline
+	on decline
+		"reputation: Cromha Empire" += 1
+		payment 10000
+		outfit "Empire Contributor License"
 
 # Events
 mission "Empire Contributor"
