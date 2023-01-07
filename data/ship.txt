@@ -102,12 +102,13 @@ ship "Black Manta (Prototype)"
 	leak "leak" 60 50
 	leak "flame" 40 80
 	leak "big leak" 30 30
+	leak "big leak" 30 30
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	explode "huge explosion" 10
-	"final explode" "final explosion Large"
+	"final explode" "nuke explosion"
 	description "The fastest and greatest Heavy Warship of all human space. After the great succes of Syndicate's ship 'Manta', to this menace, Cromha Empire decided to create the greatest human ship; a ship that will have human tech and Hai tech together, a big ship that can carry a lot of gun, a lot of cargo, but still enough fast to concurrence other ships. They decided to invade the Syndicated planet Nimbus, to stole the Manta ship plans. Cromha Empire military scientics take the Manta base and remixed it to enhance everything by adding Hai technologies and more outfit and cargo space but also the shields. But the most important thing is the Jump Drive, for yet an unknow technologie for humans. It even has two Ionic Afterburner integrated. Due to the big consummation of fuel of the Jump Drive technologie, this ship have 800Liters of fuel capacity, great for long trips with HyperDrive technologie. This ship can even carry 2 drones and 4 fighters in his bays. The Black Manta is still a prototype but is yet used by The Empire."
 
 ship "Heavy Empire Destroyer"
