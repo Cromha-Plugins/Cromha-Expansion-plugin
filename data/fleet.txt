@@ -191,3 +191,24 @@ fleet empire-rebels-raiders
 		Gunboat 2
 		Protector 1
 		"Light Empire Destroyer" 2
+fleet empire-rebels-raiders-fleet
+	government "Empire Rebels"
+	names "civilian"
+	cargo 3
+	personality appeasing frugal disables plunders coward
+	# small
+	variant 10
+		Manta 3
+		Wasp 5
+		"Empire Drone" 2
+	# medium
+	variant 20
+		Manta 4
+		Wasp 2
+		Gunboat 4
+	# large
+	variant 5
+		Gunboat 5
+		Protector 1
+		"Empire Raven" 1
+		"Light Empire Destroyer" 2

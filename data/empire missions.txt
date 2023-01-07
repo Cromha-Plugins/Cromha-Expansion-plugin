@@ -161,6 +161,33 @@ mission "Empire: Harvest 25 tons of silicon"
 		payment 60000
 		dialog `You unload the silicon at the spaceport. You get payed on your account <payment>.`
 
+mission "Empire: Dirige Empire fleet to <planet>"
+	landing
+	description "Dirige an Empire combat fleet to <destination> for engaging battle to Empire Rebels. Destroy the Empire Rebels fleet and land on <planet> to get your payment of <payment>."
+	source
+		government "Cromha Empire"
+		not attributes uninhabited
+	to offer
+		has "Empire: Harvest 25 tons of silicon: done"
+	destination
+		government "Empire Rebels"
+	on offer
+		conversation
+			`You land on <planet> and recieve an other message for the Empire missions. You click on the pop-up and the app opens. You can see written on the screen:`
+			`	"Dirige an Empire combat fleet to <destination> for engaging battle to Empire Rebels. Destroy the Empire Rebels fleet and land on <planet> to get your payment of <payment>."`
+				accept
+	on complete
+		payment 300000
+		dialog "You land on <planet>, give back the fleet to The Empire and get your payment of <payment>."
+	npc accompany
+		government "Cromha Empire"
+		fleet cromha-fleet
+	npc kill
+		system destination
+		government "Empire Rebels"
+		personality staying
+		fleet empire-rebels-raiders-fleet
+
 # Events
 mission "Empire Contributor"
 	landing
