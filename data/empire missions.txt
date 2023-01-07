@@ -239,7 +239,7 @@ mission "Empire: Technology Testing"
 		personality disables staying heroic target
 			confusion 120
 		system destination
-		ship "Berserker Test Dummy" "Cromha Empire Test Vessel"
+		ship "Quarg Wardragon" "Cromha Empire Test Vessel"
 		dialog "You scan the disabled craft and take careful measurements of the battle damage. Time to deliver the results on <planet>."
 
 # Events
