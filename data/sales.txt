@@ -212,7 +212,6 @@ outfitter Cromha-military-outfitter
 	"Empire Particle gun"
 	"Multiphasic Scanner"
 outfitter Cromha-witdrew-station-outfitter
-	"Empire Passport"
 	"Local Map"
 shipyard Cromha-basic-shipyard
 	"Blackbird"

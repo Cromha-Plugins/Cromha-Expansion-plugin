@@ -349,7 +349,7 @@ planet "Witdrew Station"
 	government "Cromha Empire"
 	attributes rich factory north station research military hai "empire space"
 	outfitter Cromha-witdrew-station-outfitter
-	shipyard "Luxury Ships"
+	shipyard Cromha-basic-shipyard
 	landscape "land/Witdrew_station"
 	description "This station orbit around the Witdrew planet; it's where all Hais have to go to register them and have an Empire passpor. This is also a research station with labs and a military station with lot of cells for unregistered people that enter Cromha Empire space without Empire passport."
 	spaceport "Not a that big spaceport. Here, you will find almost every species you can imagine in the galaxy. Most of them are pirates, outlaws or people you want an Empire passport."
