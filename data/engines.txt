@@ -23,7 +23,7 @@ outfit "A865 Black Atomic Steering"
 	"turn" 5597
 	"turning energy" 9.6
 	"turning heat" 35.5
-	"steering flare sprite" "effect/black manta atomic flare/huge"
+	"steering flare sprite" "effect/atmoic flare/medium"
 		"frame rate" 10
 	"steering flare sound" "atomic huge"
 	description "A copy of the A865 Atomic Steering designed specially for the Black Manta ship who need insane engines that are very powerful. It is not sold in any outfitter but you can still take off one of this of your Black Manta and install it on an other ship. You may need to upgrade your ship's power and cooling systems to handle it."

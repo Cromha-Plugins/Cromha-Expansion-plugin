@@ -21,19 +21,20 @@ ship "Black Manta (Prototype)"
 		"outfit space" 1589
 		"weapon capacity" 500
 		"engine capacity" 450
+		"atmosphere scan" 100
 		weapon
 			"blast radius" 700
 			"shield damage" 2500
 			"hull damage" 1600
 			"hit force" 3500
 	outfits
-		"Empire Particle gun" 4
-		"Modified Plasma Repeater" 4
+		"Empire Particle gun" 6
+		"Modified Plasma Repeater" 2
 		"Proton Gun"
 		"Nuclear Missile" 1
 		"Firelight Missile Bank" 2
-		"Firelight Missile" 52
-		"Firelight Storage Pack" 2
+		"Firelight Missile" 200
+		"Firelight Storage Rack" 4
 		"Antimatter Railgun" 2
 		"rslug" 100
 		
@@ -46,7 +47,7 @@ ship "Black Manta (Prototype)"
 		"D94-YV Shield Generator"
 		"Empire Hai Valley Batteries" 8
 		"Catalytic Ramscoop"
-		"Hyperdrive"
+		"Scram Drive"
 		"Jump Drive"
 		"Large Radar Jammer"
 		"Multiphasic Scanner"
@@ -62,15 +63,26 @@ ship "Black Manta (Prototype)"
 		"Security Station" 3
 		"Fragmentation Grenades" 5
 		"Security Forcefield" 3
-	engine 0.5 107.5
+	# Back
+	engine 0 108.5
 	engine -43 55.5
 	engine 43 55.5
+	# Reverse
+	"reverse engine" -15 -40.5
+	"reverse engine" 15 -40.5
+	"reverse engine" -84.5 -40
+	"reverse engine" 84.5 -39
+	"reverse engine" -72 -35
+	"reverse engine" 72 -35
+	"reverse engine" -58.5 -34.5
+	"reverse engine" 58.5 -34.5
+	# Weapons
 	turret 45.5 -2.5 "Multiphasic Anti-Missile"
 	turret -45.5 -2.5 "Multiphasic Anti-Missile"
 	gun 42 -36 "Modified Plasma Repeater"
 	gun -42 -36 "Modified Plasma Repeater"
-	gun -35 -35 "Modified Plasma Repeater"
-	gun 35 -35 "Modified Plasma Repeater"
+	gun -35 -35 "Empire Particle gun"
+	gun 35 -35 "Empire Particle gun"
 	gun -10 -52 "Empire Particle gun"
 	gun 10 -52 "Empire Particle gun"
 	gun -88.5 -40 "Empire Particle gun"
