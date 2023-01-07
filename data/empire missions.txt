@@ -212,6 +212,36 @@ mission "Empire: First Award"
 		payment 10000
 		outfit "Empire Contributor License"
 
+mission "Empire: Technology Testing"
+	landing
+	description "Disable the robotic target dummy ship in <system>, collect test data for Cromha Empire engineers by scanning it with the multiphasic scanner tech, and land on <planet>. Warning: the target ship is programmed to engage in self-defense behaviors to ensure a realistic simulation. Payment is <payment>."
+	source
+		government "Cromha Empire"
+		not attributes uninhabited
+	to offer
+		has "Empire: First Award: declined"
+	destination
+		distance 1 10
+		government "Cromha Empire"
+	on offer
+		conversation
+			`You land on <planet> and recieve an other message for the Empire missions. You click on the pop-up and the app opens. You can see written on the screen:`
+			`	"Disable the robotic target dummy ship in <system>, collect test data for Cromha Empire engineers by scanning it with the multiphasic scanner tech, and land on <planet>. Warning: the target ship is programmed to engage in self-defense behaviors to ensure a realistic simulation. Payment is <payment>."`
+				accept
+	on accept
+		outfit "Multiphasic Scanner" 1
+	on complete
+		payment
+		payment 10000
+		dialog "You send the scans to The Empire and recieve <payment> and an extra Multiphasic Scanner."
+	npc save disable "scan cargo"
+		government "Test Dummy"
+		personality disables staying heroic target
+			confusion 120
+		system destination
+		ship "Berserker Test Dummy" "Cromha Empire Test Vessel"
+		dialog "You scan the disabled craft and take careful measurements of the battle damage. Time to deliver the results on <planet>."
+
 # Events
 mission "Discovered Empire Space"
 	landing
