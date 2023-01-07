@@ -111,7 +111,7 @@ mission "Empire: Escort Empire Raven"
 		personality escort timid
 		ship "Empire Raven" RZ-1406
 
-mission "Empire: Delivry Jump Drive in <planet> military lab."
+mission "Empire: Delivry Jump Drive in <planet> military lab"
 	landing
 	description "Delivry Jump Drive in <planet> in the military lab before the date of <date>. Payment is <payment>."
 	deadline 13
@@ -140,7 +140,26 @@ mission "Empire: Delivry Jump Drive in <planet> military lab."
 		outfit "Jump Drive" -1
 		payment
 		payment 100000
-		dialog "You land on the reparation station dock and you can already see the Empire Quicksilver waiting for you in the spaceport."
+		dialog "You land on the reparation station dock and you unload the Jump Drive. You get payed <payment>."
+
+mission "Empire: Harvest 25 tons of silicon"
+	landing
+	description "Harvest 25 tons of silicon for The Empire then land on <origin> to get your payment of <payment>."
+	source
+		government "Cromha Empire"
+		not attributes uninhabited
+	to offer
+		has "Empire: Delivry Jump Drive in <planet> military lab: done"
+	on offer
+		conversation
+			`You land on <planet> and recieve an other message for the Empire missions. You click on the pop-up and the app opens. You can see written on the screen:`
+			`	"Harvest 25 tons of silicon for The Empire then land on <origin> to get your payment of <payment>."`
+				accept
+	on complete
+		require "Silicon" 50
+		outfit "Silicon" -50
+		payment 60000
+		dialog `You unload the silicon at the spaceport. You get payed on your account <payment>.`
 
 # Events
 mission "Empire Contributor"
