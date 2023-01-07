@@ -49,11 +49,7 @@ ship "Black Manta (Prototype)"
 		"Hyperdrive"
 		"Jump Drive"
 		"Large Radar Jammer"
-		"Outfit Scanner" 5
-		"Cargo Scanner" 5
-		"Asteroid Scanner" 5
-		"Scanning Module"
-		"Tactical Scanner"
+		"Multiphasic Scanner"
 		"Multiphasic Cooler"
 		"Quantum Keystone"
 		

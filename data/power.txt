@@ -40,6 +40,8 @@ outfit "Empire Hai Ravine Batteries"
 	cost 49000
 	thumbnail "outfit/large battery empire"
 	"mass" 45
+	licenses
+		"Empire Contributor"
 	"outfit space" -45
 	"energy capacity" 34350
 	description "After The Empire and Hais made an alliance between their two governments, Hais shared their Tech to Cromha Empire."
@@ -50,6 +52,8 @@ outfit "Empire Hai Valley Batteries"
 	plural "Empire Hai Valley Batteries"
 	category "Power"
 	cost 93000
+	licenses
+		"Empire Contributor"
 	thumbnail "outfit/huge battery empire"
 	"mass" 65
 	"outfit space" -65
@@ -60,6 +64,8 @@ outfit "Empire Hai Valley Batteries"
 outfit "Multiphasic Reactor"
 	category "Power"
 	cost 2950000
+	licenses
+		"Empire Contributor"
 	thumbnail "outfit/multiphasic_reactor"
 	"mass" 50
 	"outfit space" -15

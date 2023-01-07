@@ -2,16 +2,43 @@
 outfit "Multiphasic Cooler"
 	category "Systems"
 	cost 80000
+	licenses
+		"Empire Contributor"
 	thumbnail "outfit/multiphasic_cooler"
 	"mass" 20
 	"outfit space" -20
 	"cooling" 29
+	"energy consumption" 10
 	description "For ships with extreme cooling needs, the multiphasic cooler is the answer. One of these coolers will dissipate the heat produced by anything but the heaviest of armaments."
+
+# Scanning
+outfit "Multiphasic Scanner"
+	category "Systems"
+	licenses
+		"Empire Contributor"
+	cost 3000000
+	thumbnail "outfit/multiphasic_scanner"
+	"mass" 40
+	"energy consumption" 30
+	"outfit space" -30
+	# outfit
+	"outfit scan power" 100
+	"outfit scan speed" 10
+	# cargo
+	"cargo scan power" 100
+	"cargo scan speed" 10
+	# tactical
+	"tactical scan power" 100
+	# Asteroid
+	"asteroid scan power" 100
+	description "This extremly advanced scanner designed by The Empire and Hai scientics together. It is all in once scanner, it can scan outfits, cargo, heat, energy and it even has an radar jammer istalled on. And all that for a small massand outfit space."
 
 # Hand to Hand
 outfit "Teleportation Dock"
 	category "Hand to Hand"
 	cost 1000000
+	licenses
+		"Empire Contributor"
 	thumbnail "outfit/teleportation_dock"
 	"mass" 5
 	"outfit space" -1
