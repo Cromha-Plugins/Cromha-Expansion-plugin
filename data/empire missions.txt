@@ -186,7 +186,7 @@ mission "Empire: Dirige Empire fleet to <planet>"
 		"empire jobs" += 1
 		payment 300000
 		dialog "You land on <planet>, give back the fleet to The Empire and get your payment of <payment>."
-	npc accompany
+	npc escort
 		government "Cromha Empire"
 		fleet cromha-fleet
 	npc kill
