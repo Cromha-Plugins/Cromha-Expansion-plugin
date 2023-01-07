@@ -29,8 +29,10 @@ outfit "Multiphasic Scanner"
 	"cargo scan speed" 10
 	# tactical
 	"tactical scan power" 100
-	# Asteroid
+	# asteroid
 	"asteroid scan power" 100
+	# jammer
+	"radar jamming" 35
 	description "This extremly advanced scanner designed by The Empire and Hai scientics together. It is all in once scanner, it can scan outfits, cargo, heat, energy and it even has an radar jammer istalled on. And all that for a small massand outfit space."
 
 # Hand to Hand
