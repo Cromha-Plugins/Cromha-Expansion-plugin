@@ -224,7 +224,7 @@ shipyard Cromha-basic-shipyard
 	"Fury"
 	"Hawk"
 	"Sparrow"
-	"Gunboat"
+	"Gunboat (modified)"
 	"Manta"
 	"Lance"
 shipyard Cromha-military-shipyard
