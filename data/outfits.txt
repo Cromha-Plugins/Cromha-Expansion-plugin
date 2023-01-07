@@ -19,7 +19,6 @@ outfit "Multiphasic Scanner"
 	cost 3000000
 	thumbnail "outfit/multiphasic_scanner"
 	"mass" 40
-	"energy consumption" 10
 	"outfit space" -30
 	# outfit
 	"outfit scan power" 100
