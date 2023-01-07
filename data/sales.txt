@@ -224,9 +224,9 @@ shipyard Cromha-basic-shipyard
 	"Fury"
 	"Hawk"
 	"Sparrow"
-	"Gunboat (modified)"
 	"Manta"
 	"Lance"
+	"Gunboat (modified)"
 shipyard Cromha-military-shipyard
 	"Combat Drone"
 	"Black Manta (Prototype)"
@@ -241,3 +241,4 @@ shipyard Cromha-military-shipyard
 	"Cruiser"
 	"Berserker"
 	"Barb"
+	"Gunboat (modified)"

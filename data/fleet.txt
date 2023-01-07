@@ -56,7 +56,7 @@ fleet cromha-transporters
 	variant 1
 		"Star Queen" 1
 		Mule 2
-		Gunboat 3
+		"Gunboat (modified)" 3
 fleet mineria-transports
 	government "Mineria colonnies"
 	names "civilian"
@@ -73,7 +73,7 @@ fleet mineria-transports
 	variant 1
 		"Star Queen" 1
 		Mule 2
-		Gunboat 4
+		"Gunboat (modified)" 4
 fleet calor-stil-tourism
 	government "Mineria colonnies"
 	names "civilian"
@@ -134,10 +134,10 @@ fleet small-pirates
 	variant 25
 		Sparrow 2
 		Berserker 2
-		Gunboat 1
+		"Gunboat (modified)" 1
 	# fleet
 	variant 10
-		Gunboat 2
+		"Gunboat (modified)" 2
 		Sparrow 4
 		Splinter 1
 fleet cromha-miners
@@ -185,10 +185,10 @@ fleet empire-rebels-raiders
 	variant 20
 		Manta 1
 		Wasp 3
-		Gunboat 2
+		"Gunboat (modified)" 2
 	# large
 	variant 5
-		Gunboat 2
+		"Gunboat (modified)" 2
 		Protector 1
 		"Light Empire Destroyer" 2
 fleet empire-rebels-raiders-fleet
@@ -205,10 +205,10 @@ fleet empire-rebels-raiders-fleet
 	variant 20
 		Manta 4
 		Wasp 2
-		Gunboat 4
+		"Gunboat (modified)" 4
 	# large
 	variant 5
-		Gunboat 5
+		"Gunboat (modified)" 5
 		Protector 1
 		"Empire Raven" 1
 		"Light Empire Destroyer" 2
