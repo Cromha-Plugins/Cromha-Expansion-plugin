@@ -222,6 +222,7 @@ system "Lifdot"
 	link "Calor stil"
 	link "Alpha Cromha"
 	link "Sepriaptu"
+	link "All'Estros"
 	trade "Heavy Metals" 152
 	trade Electronics 687
 	trade Equipment 751
@@ -416,6 +417,47 @@ planet "Neptunna"
 	bribe 0.7
 	security 1
 
+# Far Empire
+system "All'Estros"
+	pos 440 -490
+	attributes inhabited rich research military  "empire space"
+	government "Cromha Empire"
+	fleet cromha-fleet 1100
+	fleet cromha-transporters 850
+	fleet mineria-transports 700
+	link "Lifdot"
+	trade "Heavy Metals" 152
+	trade "Luxury Goods" 290
+	trade Electronics 687
+	trade Equipment 751
+	trade Food 265
+	trade Industrial 357
+	trade Medical 756
+	trade Metal 559
+	trade Plastic 306
+	object
+		sprite "star/k0"
+			scale 5
+		distance 1100
+		period 110
+		object "Limat"
+			sprite "planet/desert6-b"
+				scale 2.4
+			distance 800
+			period 500
+
+planet "Limat"
+	attributes inhabited poor paradise north "far empire space"
+	landscape "land/Limat"
+	outfitter Cromha-basic-outfitter
+	spaceport "A small little friendly spaceport. The are a lot of spectacles the evening and a lot of good bars the night. A great place to invite your friends or anyone else."
+	spaceport "But be aware of some people here, there are some xenophobist that will annoy you if you look at them. Wanna a tip? Just avoid them..."
+	description "This is the most advanced human planet in the whole galaxy. It is a great desert with lot of xenophobist but it's not that hot. You will fin lot of hunting down missions near this planet."
+	"required reputation" 0
+	bribe 0.7
+	security 1
+
+# Korath
 system "Sepriaptu"
 	pos 139.431 -448.812
 	government "Cromha Empire"
