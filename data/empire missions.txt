@@ -256,3 +256,17 @@ mission "Discovered Empire Space"
 event "label empire space"
 	galaxy "empire"
 		sprite "label/empire"
+
+mission "Discovered Far Empire Space"
+	landing
+	invisible
+	source
+		attributes "far empire space"
+		not attributes uninhabited
+	on offer
+		event "label far empire space"
+		fail
+
+event "label far empire space"
+	galaxy "far empire space"
+		sprite "label/far_empire"

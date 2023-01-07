@@ -2,6 +2,9 @@
 galaxy empire
 	pos 50 -420
 
+galaxy "far empire space"
+	pos 440 -490
+
 #Cromha Empire
 system "Volcanois"
 	pos 137 -622
@@ -420,11 +423,12 @@ planet "Neptunna"
 # Far Empire
 system "All'Estros"
 	pos 440 -490
-	attributes inhabited rich research military  "empire space"
+	attributes inhabited rich research military  "far empire space"
 	government "Cromha Empire"
 	fleet cromha-fleet 1100
 	fleet cromha-transporters 850
 	fleet mineria-transports 700
+	haze _menu/haze-cyan
 	link "Lifdot"
 	trade "Heavy Metals" 152
 	trade "Luxury Goods" 290
