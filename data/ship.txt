@@ -351,7 +351,7 @@ ship "Light Empire Destroyer"
 		"Blaster Turret" 2
 		"Multiphasic Anti-Missile"
 		"Multiphasic Anti-Missile ammunition" 600
-		"Volcano Afterburner"
+		"Ionic Afterburner"
 		
 		"RT-I Radiothermal"
 		"Empire Hai Ravine Batteries"
@@ -421,7 +421,7 @@ ship "Empire Raven"
 		"Empire Particle gun" 2
 		"Sidewinder Missile Launcher" 2
 		"Sidewinder Missile" 90
-		"Volcano Afterburner"
+		"Ionic Afterburner"
 		
 		"RT-I Radiothermal"
 		"KP-6 Photovoltaic Panel" 2
@@ -478,7 +478,7 @@ ship "Empire Quicksilver"
 		"Empire Particle gun" 2
 		"Meteor Missile" 60
 		"Meteor Missile Launcher" 2
-		"Volcano Afterburner"
+		"Ionic Afterburner"
 		
 		"RT-I Radiothermal"
 		"Empire Hai Gorge Batteries"
