@@ -100,7 +100,7 @@ outfit "Antimatter Railgun"
 		"Empire Contributor"
 	"weapon capacity" -10
 	"gun ports" -1
-	"railgun slug capacity" 100
+	"railgun slug capacity" 30
 	description "A missle system, Works internally like a fabricator."
 	description "It refits the materials of a railgun slug, and adds fuel from your ship."
 	description "This weapon does not do any shield damage but does lot of ion and heat damage that can esealy overheat and take there battery power to zero your enemy and disable his ship."
