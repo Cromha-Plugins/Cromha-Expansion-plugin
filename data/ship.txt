@@ -36,7 +36,7 @@ ship "Black Manta (Prototype)"
 		"Firelight Missile" 200
 		"Firelight Storage Rack" 4
 		"Antimatter Railgun" 2
-		"rslug" 100
+		"rslug" 60
 		
 		"Multiphasic Anti-Missile" 2
 		"Multiphasic ammo" 1200
@@ -287,8 +287,7 @@ ship "Empire Destroyer"
 		
 		"Tyrant Plasma Thruster"
 		"Tyrant Plasma Steering"
-		"Hyperdrive"
-		
+		"Hyperdrive"	
 	engine -16.5 143
 	engine 16.5 143
 	gun -16 -86.5 "Empire Particle gun"
@@ -421,8 +420,7 @@ ship "Empire Raven"
 		"Sidewinder Missile" 90
 		"Ionic Afterburner"
 		
-		"RT-I Radiothermal"
-		"KP-6 Photovoltaic Panel" 2
+		"Multiphasic Reactor"
 		"Empire Hai Gorge Batteries"
 		"D41-HY Shield Generator"
 		"Laser Rifle" 2
@@ -478,7 +476,7 @@ ship "Empire Quicksilver"
 		"Meteor Missile Launcher" 2
 		"Ionic Afterburner"
 		
-		"RT-I Radiothermal"
+		"Multiphasic Reactor"
 		"Empire Hai Gorge Batteries"
 		"D23-QP Shield Generator"
 		"Multiphasic Cooler"
