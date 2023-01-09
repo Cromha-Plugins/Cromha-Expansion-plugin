@@ -4,16 +4,18 @@ ship "Black Manta (Prototype)"
 		scale 1
 	thumbnail "thumbnail/blackmanta"
 	"uncapturable"
+	"never disabled"
+	"swizzle" 1
 	attributes
 		category "Heavy Warship"
 		licenses
 			"Empire Black Manta"
 		"cost" 5470000000
 		"shields" 41400
-		"hull" 7500
+		"hull" 9500
 		"required crew" 100
 		"bunks" 200
-		"mass" 630
+		"mass" 680
 		"drag" 4.7
 		"heat dissipation" .8
 		"fuel capacity" 800
@@ -21,7 +23,6 @@ ship "Black Manta (Prototype)"
 		"outfit space" 1589
 		"weapon capacity" 500
 		"engine capacity" 450
-		"atmosphere scan" 100
 		weapon
 			"blast radius" 700
 			"shield damage" 2500
@@ -113,6 +114,9 @@ ship "Black Manta (Prototype)"
 ship "Heavy Empire Destroyer"
 	sprite "ship/empire_destroyer"
 	thumbnail "thumbnail/empire_destroyer"
+	"uncapturable"
+	"never disabled"
+	"swizzle" 1
 	attributes
 		category "Heavy Warship"
 		licenses
@@ -139,7 +143,7 @@ ship "Heavy Empire Destroyer"
 		"Proton Turret" 8
 		"Sidewinder Missile Launcher" 9
 		"Sidewinder Missile" 1200
-		"Multiphasic Anti-Missile" 11
+		"Multiphasic Anti-Missile" 5
 		"Multiphasic ammo" 6600
 		"Nuclear Missile" 2
 		
@@ -170,12 +174,6 @@ ship "Heavy Empire Destroyer"
 	turret 37 -12 "Multiphasic Anti-Missile"
 	turret -36 31 "Multiphasic Anti-Missile"
 	turret 37.5 29.5 "Multiphasic Anti-Missile"
-	turret -37 74.5"Multiphasic Anti-Missile"
-	turret 40 73.5 "Multiphasic Anti-Missile"
-	turret -23.5 109 "Multiphasic Anti-Missile"
-	turret 23.5 107 "Multiphasic Anti-Missile"
-	turret -76 109 "Multiphasic Anti-Missile"
-	turret 73.5 108n "Multiphasic Anti-Missile"
 	engine -18 218
 	engine -24 216
 	engine 17 219.5
@@ -245,6 +243,9 @@ ship "Heavy Empire Destroyer"
 ship "Empire Destroyer"
 	sprite "ship/mfalcone"
 	thumbnail "thumbnail/mfalcone"
+	"uncapturable"
+	"never disabled"
+	"swizzle" 1
 	attributes
 		category "Heavy Warship"
 		licenses
@@ -322,6 +323,9 @@ ship "Empire Destroyer"
 ship "Light Empire Destroyer"
 	sprite "ship/msplintere"
 	thumbnail "thumbnail/msplintere"
+	"uncapturable"
+	"never disabled"
+	"swizzle" 1
 	attributes
 		category "Medium Warship"
 		licenses
@@ -392,6 +396,9 @@ ship "Light Empire Destroyer"
 ship "Empire Raven"
 	sprite "ship/mravene"
 	thumbnail "thumbnail/mravene"
+	"uncapturable"
+	"never disabled"
+	"swizzle" 1
 	attributes
 		category "Light Warship"
 		licenses
@@ -448,6 +455,9 @@ ship "Empire Raven"
 ship "Empire Quicksilver"
 	sprite "ship/mquicksilvere"
 	thumbnail "thumbnail/mquicksilvere"
+	"uncapturable"
+	"never disabled"
+	"swizzle" 1
 	attributes
 		category "Fighter"
 		licenses
@@ -501,6 +511,9 @@ ship "Empire Drone"
 	sprite "ship/combat drone"
 		scale 1.2
 	thumbnail "thumbnail/combat drone"
+	"uncapturable"
+	"never disabled"
+	"swizzle" 1
 	attributes
 		category "Drone"
 		licenses
@@ -540,6 +553,9 @@ ship "Empire Fighter"
 	sprite "ship/dagger"
 		scale 1.2
 	thumbnail "thumbnail/dagger"
+	"uncapturable"
+	"never disabled"
+	"swizzle" 1
 	attributes
 		category "Fighter"
 		licenses
