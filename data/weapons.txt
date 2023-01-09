@@ -90,7 +90,7 @@ outfit "Multiphasic Anti-Missile"
 	description "This is the most advanced Anti Missile of all time. It can cool itself and has insane reload. Perfect for any ship."
 	description "But be warn this Anti-Missile has limits: he need ammunitions. Be sure to always have ammunition before going in a battle."
 
-outfit "Multiphasi ammo"
+outfit "Multiphasic ammo"
 	plural "Multiphasic ammoes"
 	category "Ammunition"
 	licenses
