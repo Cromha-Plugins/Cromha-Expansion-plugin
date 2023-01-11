@@ -21,6 +21,7 @@ outfitter Base-outfitter
 	"AR120 Reverse Thruster"
 	"Capybara Reverse Thruster"
 outfitter Basic-ammo-outfitter
+	"Railgun Slug"
 	"Multiphasic ammo"
 	"Torpedo"
 	"Typhoon Torpedo"
@@ -79,6 +80,7 @@ outfitter Basic-engines-outfitter
 	"X4200 Ion Steering"
 	"X4700 Ion Thruster"
 outfitter Advanced-ammo-outfitter
+	"Railgun Slug"
 	"Multiphasic ammo"
 	"Torpedo"
 	"Typhoon Torpedo"
@@ -154,6 +156,8 @@ outfitter Advanced-power-outfitter
 	"Empire Hai Gorge Batteries"
 	"Empire Hai Ravine Batteries"
 	"Empire Hai Valley Batteries"
+	"RC-X1 Multiphasic Reactor"
+	"RC-X2 Multiphasic Reactor"
 	"RC-X3 Multiphasic Reactor"
 	"RC-X4 Multiphasic Reactor"
 	"S3 Thermionic"

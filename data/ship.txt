@@ -37,7 +37,7 @@ ship "Black Manta (Prototype)"
 		"Firelight Missile" 200
 		"Firelight Storage Rack" 4
 		"Antimatter Railgun" 2
-		"rslug" 60
+		"Railgun Slug" 60
 		
 		"Multiphasic Anti-Missile" 2
 		"Multiphasic ammo" 1200
