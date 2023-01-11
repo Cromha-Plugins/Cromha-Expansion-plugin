@@ -143,7 +143,7 @@ ship "Heavy Empire Destroyer"
 		"Proton Turret" 8
 		"Sidewinder Missile Launcher" 9
 		"Sidewinder Missile" 1200
-		"Multiphasic Anti-Missile" 5
+		"Multiphasic Anti-Missile" 4
 		"Multiphasic ammo" 6600
 		"Nuclear Missile" 2
 		
@@ -169,11 +169,10 @@ ship "Heavy Empire Destroyer"
 		"AR120 Black Reverse Thruster"
 		"Scram Drive"
 		
-	turret 0 10 "Multiphasic Anti-Missile"
 	turret -35.5 -11 "Multiphasic Anti-Missile"
-	turret 37 -12 "Multiphasic Anti-Missile"
+	turret 35.5 -11 "Multiphasic Anti-Missile"
 	turret -36 31 "Multiphasic Anti-Missile"
-	turret 37.5 29.5 "Multiphasic Anti-Missile"
+	turret 36 31 "Multiphasic Anti-Missile"
 	engine -18 218
 	engine -24 216
 	engine 17 219.5
@@ -269,18 +268,17 @@ ship "Empire Destroyer"
 			"hull damage" 800
 			"hit force" 2400
 	outfits
-		"Empire Particle gun" 2
+		"Proton Turret" 6
 		"Torpedo Launcher" 2
 		"Torpedo" 60
-		"Quad Blaster Turret" 3
-		"Multiphasic Anti-Missile"
-		"Multiphasic ammo" 600
+		"Multiphasic Anti-Missile" 4
+		"Multiphasic ammo" 2400
 		"Nuclear Missile"
 		
-		"Multiphasic Reactor"
+		"Multiphasic Reactor" 2
 		"KP-6 Photovoltaic Array"
 		"KP-6 Photovoltaic Panel" 2
-		"Empire Hai Ravine Batteries"
+		"Empire Hai Ravine Batteries" 6
 		"D41-HY Shield Generator"
 		"Large Radar Jammer"
 		"Multiphasic Cooler"
@@ -291,15 +289,18 @@ ship "Empire Destroyer"
 		"Hyperdrive"	
 	engine -16.5 143
 	engine 16.5 143
-	gun -16 -86.5 "Empire Particle gun"
-	gun 16 -86.5 "Empire Particle gun"
-	gun -19 -76.5 "Torpedo Launcher"
-	gun 19 -76.5 "Torpedo Launcher"
-	gun 0 0 "Nuclear Missile"
-	turret -16 -29 "Multiphasic Anti-Missile"
-	turret 16 -29 "Quad Blaster Turret"
-	turret -50 39.5 "Quad Blaster Turret"
-	turret 50 39.5 "Quad Blaster Turret"
+	gun -16 0 "Nuclear Missile"
+	gun 16 0 "Nuclear Missile"
+	turret -51 39.5 "Multiphasic Anti-Missile"
+	turret 51 39.5 "Multiphasic Anti-Missile"
+	turret -17 -30 "Multiphasic Anti-Missile"
+	turret 17 -30 "Multiphasic Anti-Missile"
+	turret -1.5 97 "Proton Turret"
+	turret 49.5 90 "Proton Turret"
+	turret -49.5 90 "Proton Turret"
+	turret -10.5 7.5 "Proton Turret"
+	turret 10.5 7.5 "Proton Turret"
+	turret -0.5 -79 "Proton Turret"
 	bay "Fighter" 0 0
 	bay "Fighter" 0 0
 	bay "Fighter" 0 0
@@ -349,29 +350,33 @@ ship "Light Empire Destroyer"
 			"hull damage" 300
 			"hit force" 900
 	outfits
-		"Empire Particle gun" 2
-		"Blaster Turret" 2
+		"Empire Particle gun" 4
 		"Multiphasic Anti-Missile"
 		"Multiphasic ammo" 600
+		"Sidewinder Missile Pod" 2
+		"Sidewinder Missile" 60
 		
-		"RT-I Radiothermal"
-		"Empire Hai Ravine Batteries"
+		"Multiphasic Reactor" 
+		"Empire Hai Ravine Batteries" 6
 		"D67-TM Shield Generator"
 		"Small Radar Jammer" 2
 		"Multiphasic Cooler"
 		"Laser Rifle"
 		
-		"Tyrant Plasma Thruster"
-		"Tyrant Plasma Steering"
+		"Orca Plasma Thruster"
+		"Orca Plasma Steering"
 		"Hyperdrive"
 		
 	engine -15.5 115
 	engine 15.5 115
+	engine 0 116
 	gun -12 -93 "Empire Particle gun"
 	gun 12 -93 "Empire Particle gun"
-	turret -13 42 "Blaster Turret"
+	gun -13 42 "Empire Particle gun"
 	turret 0 9 "Multiphasic Anti-Missile"
-	turret 13 42 "Blaster Turret"
+	gun 13 42 "Empire Particle gun"
+	gun 11 -57 "Sidewinder Missile Pod"
+	gun -11 -57 "Sidewinder Missile Pod"
 	bay "Fighter" 0 0
 	bay "Fighter" 0 0
 	bay "Fighter" 0 0
@@ -486,8 +491,8 @@ ship "Empire Quicksilver"
 		"Meteor Missile Launcher" 2
 		"Ionic Afterburner"
 		
-		"Multiphasic Reactor"
-		"Empire Hai Gorge Batteries"
+		"Multiphasic Reactor" 2
+		"Empire Hai Gorge Batteries" 2
 		"D23-QP Shield Generator"
 		"Multiphasic Cooler"
 		
