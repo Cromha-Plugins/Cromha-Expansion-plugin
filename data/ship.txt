@@ -42,7 +42,7 @@ ship "Black Manta (Prototype)"
 		"Multiphasic Anti-Missile" 2
 		"Multiphasic ammo" 1200
 		
-		"Multiphasic Reactor"
+		"RC-X4 Multiphasic Reactor" 1
 		"Supercapacitor" 5
 		
 		"D94-YV Shield Generator"
@@ -147,7 +147,7 @@ ship "Heavy Empire Destroyer"
 		"Multiphasic ammo" 6600
 		"Nuclear Missile" 2
 		
-		"Multiphasic Reactor" 3
+		"RC-X4 Multiphasic Reactor" 2
 		"Empire Hai Valley Batteries" 6
 		"Catalytic Ramscoop"
 		"Asteroid Scanner"
@@ -275,7 +275,7 @@ ship "Empire Destroyer"
 		"Multiphasic ammo" 2400
 		"Nuclear Missile"
 		
-		"Multiphasic Reactor" 2
+		"RC-X3 Multiphasic Reactor" 2
 		"KP-6 Photovoltaic Array"
 		"KP-6 Photovoltaic Panel" 2
 		"Empire Hai Ravine Batteries" 6
@@ -356,7 +356,7 @@ ship "Light Empire Destroyer"
 		"Sidewinder Missile Pod" 2
 		"Sidewinder Missile" 60
 		
-		"Multiphasic Reactor" 
+		"RC-X3 Multiphasic Reactor"
 		"Empire Hai Ravine Batteries" 6
 		"D67-TM Shield Generator"
 		"Small Radar Jammer" 2
@@ -432,7 +432,7 @@ ship "Empire Raven"
 		"Sidewinder Missile" 90
 		"Ionic Afterburner"
 		
-		"Multiphasic Reactor"
+		"RC-X2 Multiphasic Reactor" 2
 		"Empire Hai Gorge Batteries"
 		"D41-HY Shield Generator"
 		"Laser Rifle" 2
@@ -491,7 +491,7 @@ ship "Empire Quicksilver"
 		"Meteor Missile Launcher" 2
 		"Ionic Afterburner"
 		
-		"Multiphasic Reactor" 2
+		"RC-X1 Multiphasic Reactor" 4
 		"Empire Hai Gorge Batteries" 2
 		"D23-QP Shield Generator"
 		"Multiphasic Cooler"

@@ -61,16 +61,58 @@ outfit "Empire Hai Valley Batteries"
 	description "After The Empire and Hais made an alliance between their two governments, Hais shared their Tech to Cromha Empire."
 	description "Cromha Empire used as model The Hai Valley Battery to implemente some technology to improve capacity and lower the mass of the battery to equip it to their ships. This is the most advanced battery in all human space."
 
-outfit "Multiphasic Reactor"
+outfit "RC-X1 Multiphasic Reactor"
 	category "Power"
-	cost 2950000
+	cost 7000
 	licenses
 		"Empire Contributor"
-	thumbnail "outfit/multiphasic_reactor"
-	"mass" 50
-	"outfit space" -15
-	"energy generation" 8.9
-	"heat generation" 21.2
-	"cooling" 9
+	thumbnail "outfit/x1_multiphasic_reactor"
+	"mass" 5
+	"outfit space" -5
+	"energy generation" 5
+	"heat generation" 8
+	"cooling" 3
 	description "Fission reactors are considered a rudimentary technology among interstellar species. Nonetheless, it remains a proven and safe technology that even the Hai use fairly regularly."
-	description "It is the 'auto-sufficient' of the Multiphasic Reactor that make it powerful: It has cooling ducts integrated to its systems, that way it produce litteraly no heat.. It is small and can be installed in almost all ships. This reactor is used for almost all Empire fleet ships."
+	description "It is the 'auto-efficient' of the Multiphasic Reactor that make it powerful: It has cooling ducts integrated to its systems, that way it produce litteraly no heat.. It is small and can be installed in almost all ships. This reactor is used for almost all Empire fleet ships."
+
+outfit "RC-X2 Multiphasic Reactor"
+	category "Power"
+	cost 7000
+	licenses
+		"Empire Contributor"
+	thumbnail "outfit/x2_multiphasic_reactor"
+	"mass" 15
+	"outfit space" -15
+	"energy generation" 15
+	"heat generation" 6
+	"cooling" 4
+	description "Fission reactors are considered a rudimentary technology among interstellar species. Nonetheless, it remains a proven and safe technology that even the Hai use fairly regularly."
+	description "It is the 'auto-efficient' of the Multiphasic Reactor that make it powerful: It has cooling ducts integrated to its systems, that way it produce litteraly no heat.. It is small and can be installed in almost all ships. This reactor is used for almost all Empire fleet ships."
+
+outfit "RC-X3 Multiphasic Reactor"
+	category "Power"
+	cost 7000
+	licenses
+		"Empire Contributor"
+	thumbnail "outfit/x3_multiphasic_reactor"
+	"mass" 20
+	"outfit space" -20
+	"energy generation" 20
+	"heat generation" 7
+	"cooling" 5
+	description "Fission reactors are considered a rudimentary technology among interstellar species. Nonetheless, it remains a proven and safe technology that even the Hai use fairly regularly."
+	description "It is the 'auto-efficient' of the Multiphasic Reactor that make it powerful: It has cooling ducts integrated to its systems, that way it produce litteraly no heat.. It is small and can be installed in almost all ships. This reactor is used for almost all Empire fleet ships."
+
+outfit "RC-X4 Multiphasic Reactor"
+	category "Power"
+	cost 7000
+	licenses
+		"Empire Contributor"
+	thumbnail "outfit/x4_multiphasic_reactor"
+	"mass" 30
+	"outfit space" -30
+	"energy generation" 30
+	"heat generation" 10
+	"cooling" 8
+	description "Fission reactors are considered a rudimentary technology among interstellar species. Nonetheless, it remains a proven and safe technology that even the Hai use fairly regularly."
+	description "It is the 'auto-efficient' of the Multiphasic Reactor that make it powerful: It has cooling ducts integrated to its systems, that way it produce litteraly no heat.. It is small and can be installed in almost all ships. This reactor is used for almost all Empire fleet ships."
