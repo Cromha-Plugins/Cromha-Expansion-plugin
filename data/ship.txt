@@ -37,12 +37,14 @@ ship "Black Manta (Prototype)"
 		"Firelight Missile" 200
 		"Firelight Storage Rack" 4
 		"Antimatter Railgun" 2
-		"Railgun Slug" 60
+		"Railgun Slug" 560
+		"Railgun Slug Rack"
 		
 		"Multiphasic Anti-Missile" 2
 		"Multiphasic ammo" 1200
 		
-		"RC-X4 Multiphasic Reactor" 1
+		"RC-X2 Multiphasic Reactor" 2
+		"RC-X4 Multiphasic Reactor"
 		"Supercapacitor" 5
 		
 		"D94-YV Shield Generator"
