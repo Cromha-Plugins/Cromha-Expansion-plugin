@@ -11,7 +11,7 @@ ship "Black Manta (Prototype)"
 		licenses
 			"Empire Black Manta"
 		"cost" 5470000000
-		"shields" 41400
+		"shields" 100400
 		"hull" 9500
 		"required crew" 100
 		"bunks" 200
@@ -46,6 +46,7 @@ ship "Black Manta (Prototype)"
 		"RC-X3 Multiphasic Reactor" 2
 		"RC-X4 Multiphasic Reactor"
 		"Supercapacitor" 5
+		"Fuel Pod" 5
 		
 		"D94-YV Shield Generator"
 		"Empire Hai Valley Batteries" 8

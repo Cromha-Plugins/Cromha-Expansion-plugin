@@ -11,24 +11,21 @@ fleet cromha-fleet
 	variant 35
 		"Empire Quicksilver" 2
 		"Empire Raven" 1
-		"Empire Drone" 4
+		"Empire Drone" 2
 		"Light Empire Destroyer"
 	# defender
 	variant 5
 		"Empire Quicksilver" 3
 		"Light Empire Destroyer" 2
-		"Empire Drone" 4
 		"Black Manta (Prototype)" 1
 		"Empire Raven" 2
 		"Empire Destroyer"
 	# war
 	variant 3
-		"Empire Quicksilver" 5
+		"Empire Quicksilver" 4
 		"Black Manta (Prototype)" 1
-		"Light Empire Destroyer" 2
-		"Empire Drone" 4
-		"Empire Raven" 3
 		"Light Empire Destroyer" 3
+		"Empire Raven" 3
 		"Heavy Empire Destroyer"
 fleet cromha-transporters
 	government "Merchant"
