@@ -43,7 +43,7 @@ ship "Black Manta (Prototype)"
 		"Multiphasic Anti-Missile" 2
 		"Multiphasic ammo" 1200
 		
-		"RC-X2 Multiphasic Reactor" 2
+		"RC-X3 Multiphasic Reactor" 2
 		"RC-X4 Multiphasic Reactor"
 		"Supercapacitor" 5
 		
@@ -95,12 +95,18 @@ ship "Black Manta (Prototype)"
 	gun 0 0 "Nuclear Missile"
 	gun 16 -35 "Antimatter Railgun"
 	gun -16 -35 "Antimatter Railgun"
-	bay "Drone" -85 55
-	bay "Drone" 85 55
-	bay "Fighter" -38.5 -64.5
-	bay "Fighter" 38.5 -64.5
-	bay "Fighter" -50 40.5
-	bay "Fighter" 50 40.5
+	bay "Fighter" 77.5 -30.5
+		under
+	bay "Fighter" 52 -29.5
+		under
+	bay "Fighter" -77.5 -30.5
+		under
+	bay "Fighter" -52 -29.5
+		under
+	bay "Drone" -24.5 37.5
+		over
+	bay "Drone" 24.5 37.5
+		over
 	leak "leak" 60 50
 	leak "flame" 40 80
 	leak "big leak" 30 30
