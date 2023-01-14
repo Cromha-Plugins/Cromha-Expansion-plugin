@@ -1,0 +1,7 @@
+person "Cromha"
+    frequency 70000
+    government "Author"
+    personality heroic disables board
+    system
+        government "Cromha Empire" "Quarg" "Coalition" "Republic" "Hai" "Wanderer" "Syndicate" "Uninhabited"
+    ship "Quarg Wardragon"
