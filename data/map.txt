@@ -479,13 +479,14 @@ planet "Neptunna"
 # Far Empire
 system "All'Estros"
 	pos 440 -490
-	attributes inhabited rich research military  "far empire space"
+	attributes inhabited rich research military "far empire space"
 	government "Cromha Empire"
 	fleet cromha-fleet 1100
 	fleet cromha-transporters 850
 	fleet mineria-transports 700
 	haze _menu/haze-cyan
 	link "Lifdot"
+	link "Ring Wartrue"
 	trade "Heavy Metals" 152
 	trade "Luxury Goods" 290
 	trade Electronics 687
@@ -521,6 +522,352 @@ planet "Limat"
 	"required reputation" 0
 	bribe 0.7
 	security 1
+
+system "Ring Wartrue"
+	pos 530 -490
+	attributes inhabited rich research military "far empire space"
+	government "Cromha Empire"
+	fleet cromha-fleet 1100
+	fleet mineria-transports 900
+	haze _menu/haze-cyan
+	link "All'Estros"
+	trade "Heavy Metals" 152
+	trade "Luxury Goods" 290
+	trade Electronics 687
+	trade Equipment 751
+	trade Food 265
+	trade Industrial 357
+	trade Medical 756
+	trade Metal 559
+	trade Plastic 306
+	object
+		sprite star/g3
+		period 10
+	object "Empire Ring"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+	object "Empire Ring"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 20
+	object "Empire Ring"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 40
+	object "Empire Ring"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 60
+	object "Empire Ring"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 80
+	object "Empire Ring"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 100
+	object "Empire Ring"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 120
+	object "Empire Ring"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 140
+	object "Empire Ring"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 160
+	object "Empire Ring"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 180
+	object "Empire Ring"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 200
+	object "Empire Ring"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 220
+	object "Empire Ring"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 240
+	object "Empire Ring"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 260
+	object "Empire Ring"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 280
+	object "Empire Ring"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 300
+	object "Empire Ring"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 320
+	object "Empire Ring"
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 340
+	object
+		sprite planet/panels1
+			scale 0.5
+		distance 800
+		period 349.820
+		offset 21
+	object
+		sprite planet/panels2
+			scale 0.5
+		distance 800
+		period 349.820
+		offset 32
+	object
+		sprite planet/panels1
+			scale 0.5
+		distance 800
+		period 349.820
+		offset 44
+	object
+		sprite planet/panels3
+			scale 0.5
+		distance 800
+		period 349.820
+		offset 53
+	object
+		sprite planet/panels2
+			scale 0.5
+		distance 800
+		period 349.820
+		offset 62
+	object
+		sprite planet/panels1
+			scale 0.5
+		distance 800
+		period 349.820
+		offset 66
+	object
+		sprite planet/panels4
+			scale 0.5
+		distance 800
+		period 349.820
+		offset 73
+	object
+		sprite planet/panels5
+			scale 0.5
+		distance 800
+		period 349.820
+		offset 87
+	object
+		sprite planet/panels3
+			scale 0.5
+		distance 800
+		period 349.820
+		offset 95
+	object
+		sprite planet/panels2
+			scale 0.5
+		distance 800
+		period 349.820
+		offset 104
+	object
+		sprite planet/panels4
+			scale 0.5
+		distance 800
+		period 349.820
+		offset 116
+	object
+		sprite planet/panels1
+			scale 0.5
+		distance 800
+		period 349.820
+		offset 125
+	object
+		sprite planet/panels2
+			scale 0.5
+		distance 800
+		period 349.820
+		offset 134
+	object
+		sprite planet/panels2
+			scale 0.5
+		distance 800
+		period 349.820
+		offset 149
+	object
+		sprite planet/panels2
+			scale 0.5
+		distance 830
+		period 349.820
+		offset 29
+	object
+		sprite planet/panels1
+			scale 0.5
+		distance 830
+		period 349.820
+		offset 38
+	object
+		sprite planet/panels1
+			scale 0.5
+		distance 830
+		period 349.820
+		offset 42
+	object
+		sprite planet/panels3
+			scale 0.5
+		distance 830
+		period 349.820
+		offset 55
+	object
+		sprite planet/panels2
+			scale 0.5
+		distance 830
+		period 349.820
+		offset 64
+	object
+		sprite planet/panels5
+			scale 0.5
+		distance 830
+		period 349.820
+		offset 78
+	object
+		sprite planet/panels3
+			scale 0.5
+		distance 830
+		period 349.820
+		offset 92
+	object
+		sprite planet/panels5
+			scale 0.5
+		distance 830
+		period 349.820
+		offset 106
+	object
+		sprite planet/panels2
+			scale 0.5
+		distance 830
+		period 349.820
+		offset 120
+	object
+		sprite planet/panels1
+			scale 0.5
+		distance 830
+		period 349.820
+		offset 132
+	object
+		sprite planet/panels1
+			scale 0.5
+		distance 830
+		period 349.820
+		offset 145
+	object
+		sprite planet/panels1
+			scale 0.5
+		distance 800
+		period 349.820
+		offset 185
+	object
+		sprite planet/panels3
+			scale 0.5
+		distance 800
+		period 349.820
+		offset 197
+	object
+		sprite planet/panels2
+			scale 0.5
+		distance 800
+		period 349.820
+		offset 207
+	object
+		sprite planet/panels5
+			scale 0.5
+		distance 800
+		period 349.820
+		offset 218
+	object
+		sprite planet/panels2
+			scale 0.5
+		distance 800
+		period 349.820
+		offset 231
+	object
+		sprite planet/panels2
+			scale 0.5
+		distance 800
+		period 349.820
+		offset 244
+	object
+		sprite planet/panels2
+			scale 0.5
+		distance 830
+		period 349.820
+		offset 198
+	object
+		sprite planet/panels3
+			scale 0.5
+		distance 830
+		period 349.820
+		offset 212
+	object
+		sprite planet/panels4
+			scale 0.5
+		distance 830
+		period 349.820
+		offset 237
+
+planet "Empire Ring"
+	attributes inhabited rich north "far empire space" station
+	outfitter Base-outfitter
+	outfitter Advanced-ammo-outfitter
+	outfitter Advanced-weapons-outfitter
+	outfitter Advanced-systems-outfitter
+	outfitter Advanced-power-outfitter
+	outfitter Advanced-engines-outfitter
+	landscape "land/Empire_ring"
+	description "The biggest ring station of the whole galaxy. It is in the center of the Far Empire Space. You will ind many missions and advanced outfits here. There is also lot of criminality so security is at the most."
+	spaceport "A huge spaceport where you can find almost anything you can imagine: Bars, pretty ships, hotels and even more. It is an easy place to mae money by completing missions."
+	bribe 1.7
+	security 1.8
 
 # Korath
 system "Sepriaptu"
