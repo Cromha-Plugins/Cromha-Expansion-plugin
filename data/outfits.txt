@@ -109,24 +109,3 @@ outfit "Teleportation Dock"
 	"capture defense" 5
 	"energy consumption" 10
 	description "Extremly good for attack, letting you teleporting into your enemy ship to attack them by surprise but that that useful for defending."
-
-# Licenses
-outfit "Empire Black Manta License"
-	category "Licenses"
-	thumbnail "outfit/empire_black_manta_license"
-	description "The need License if you want to buy an Black Manta ship. You can buy them in Empires Military shipyards."
-
-outfit "Empire Contributor License"
-	category "Licenses"
-	thumbnail "outfit/empire_contributor_license"
-	description "With this Empire Contributor License, you will have more rights and privileges in all Empire Space."
-
-outfit "Empire Navy License"
-	category "Licenses"
-	thumbnail "outfit/empire_license"
-	description "Without this license, you will not be able to buy any Cromha Empire ship or outfit. You cannot buy it or get it by completing missions; to get it you will need to have a good reputation with the Empire so the Empire will give you one of this license."
-
-outfit "Empire Passport License"
-	category "Licenses"
-	thumbnail "outfit/empire_passport"
-	description "The must need License if you want to do anything in Cromha Empire space. It is required to land on any planet. The only place where you can buy it is in the Witdrew Station in Alpha Cromha system."
