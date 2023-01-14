@@ -13,13 +13,7 @@ outfitter Base-outfitter
 	"Ramscoop"
 	"Fuel Pod"
 	"Asteroid Scanner"
-	"Chimpunk Steering"
-	"Chimpunk Thruster"
-	"A125 Atomic Steering"
-	"A120 Atomic Thruster"
-	"X1050 Ion Engines"
-	"AR120 Reverse Thruster"
-	"Capybara Reverse Thruster"
+	`RC-001 Atomic Engines`
 outfitter Basic-ammo-outfitter
 	"Empire Torpedo Missile"
 	"Railgun Slug"
@@ -66,20 +60,13 @@ outfitter Basic-power-outfitter
 	"Supercapacitor"
 	"NT-200 Nucleovoltaic"
 outfitter Basic-engines-outfitter
-	"Chimpunk Plasma Steering"
-	"Chimpunk Plasma Thruster"
-	"A125 Atomic Steering"
-	"A120 Atomic Thruster"
-	"A370 Atomic Thruster"
-	"A375 Atomic Steering"
-	"X1050 Ion Engines"
-	"AR120 Reverse Thruster"
-	"Capybara Reverse Thruster"
-	"Greyhound Plasma Steering"
-	"Greyhound Plasma Thruster"
-	"Ionic Afterburner"
-	"X4200 Ion Steering"
-	"X4700 Ion Thruster"
+	`RC-140 Atomic Thruster`
+	`RC-145 Atomic Steering`
+	`RC-160 Atomic Thruster`
+	`RC-165 Atomic Steering`
+	`RC-180 Atomic Thruster`
+	`RC-185 Atomic Steering`
+	`RC-120 Reverse Thruster`
 outfitter Advanced-ammo-outfitter
 	"Empire Torpedo Missile"
 	"Empire Torpedo Storage Rack"
@@ -175,29 +162,18 @@ outfitter Advanced-power-outfitter
 	"RT-I Radiothermal"
 	"KP-6 Photovoltaic Array"
 outfitter Advanced-engines-outfitter
-	"Chimpunk Plasma Steering"
-	"Chimpunk Plasma Thruster"
-	"Impala Plasma Steering"
-	"Impala Plasma Thruster"
-	"A125 Atomic Steering"
-	"A120 Atomic Thruster"
-	"A370 Atomic Thruster"
-	"A375 Atomic Steering"
-	"A520 Atomic Thruster"
-	"A525 Atomic Steering"
-	"A860 Atomic Thruster"
-	"A865 Atomic Steering"
-	"X1050 Ion Engines"
-	"AR120 Reverse Thruster"
-	"Capybara Reverse Thruster"
-	"Greyhound Plasma Steering"
-	"Greyhound Plasma Thruster"
-	"Caldera Afterburner"
-	"Ionic Afterburner"
-	"X4200 Ion Steering"
-	"X4700 Ion Thruster"
-	"X5700 Ion Thruster"
-	"X5200 Ion Steering"
+	`RC-140 Atomic Thruster`
+	`RC-145 Atomic Steering`
+	`RC-160 Atomic Thruster`
+	`RC-165 Atomic Steering`
+	`RC-180 Atomic Thruster`
+	`RC-185 Atomic Steering`
+	`RC-200 Atomic Thruster`
+	`RC-205 Atomic Steering`
+	`RC-220 Atomic Thruster`
+	`RC-225 Atomic Steering`
+	`RC-120 Reverse Thruster`
+	`RC-180 Reverse Thruster`
 shipyard Cromha-basic-shipyard
 	"Blackbird"
 	"Star Queen"

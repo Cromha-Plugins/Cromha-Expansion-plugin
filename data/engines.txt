@@ -96,7 +96,7 @@ outfit `RC-140 Atomic Thruster`
 outfit `RC-160 Atomic Thruster`
 	category "Engines"
 	"cost" 300000
-	thumbnail "outfit/small atomic thruster eùîre"
+	thumbnail "outfit/small atomic thruster empire"
 	"mass" 28
 	"outfit space" -28
 	"engine capacity" -28
@@ -285,7 +285,7 @@ outfit `RC-205 Atomic Steering`
 outfit `RC-225 Atomic Steering`
 	category "Engines"
 	"cost" 2100000
-	thumbnail "outfit/huge atomic steering hai"
+	thumbnail "outfit/huge atomic steering empire"
 	"mass" 76
 	"outfit space" -76
 	"engine capacity" -76
