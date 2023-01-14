@@ -27,7 +27,7 @@ outfit "Multiphasic Scanner"
 	"cargo scan power" 100
 	"cargo scan speed" 10
 	# tactical
-	"tactical scan power" 100
+	"tactical scan power" 300
 	# asteroid
 	"asteroid scan power" 100
 	# jammer
