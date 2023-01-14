@@ -106,8 +106,8 @@ mission "Empire: Escort Empire Raven"
 	on complete
 		"reputation: Cromha Empire" += 10
 		"empire jobs" += 1
-		 give ship "Empire Quicksilver" "Empire Quicksilver"
-		 dialog "You land on the reparation station dock and you can already see the Empire Quicksilver waiting for you in the spaceport."
+		give ship "Empire Quicksilver"
+		dialog "You land on the reparation station dock and you can already see the Empire Quicksilver waiting for you in the spaceport."
 	npc accompany save
 		government "Cromha Empire"
 		personality escort timid
@@ -211,7 +211,7 @@ mission "Empire: First Award"
 		"reputation: Cromha Empire" += 1
 		payment
 		payment 1000000
-		outfit "Empire Contributor License"
+		set "license: Empire Contributor"
 
 mission "Empire: Technology Testing"
 	landing
