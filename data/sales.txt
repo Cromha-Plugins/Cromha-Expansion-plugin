@@ -21,6 +21,7 @@ outfitter Base-outfitter
 	"AR120 Reverse Thruster"
 	"Capybara Reverse Thruster"
 outfitter Basic-ammo-outfitter
+	"Empire Torpedo Missile"
 	"Railgun Slug"
 	"Multiphasic ammo"
 	"Torpedo"
@@ -80,6 +81,8 @@ outfitter Basic-engines-outfitter
 	"X4200 Ion Steering"
 	"X4700 Ion Thruster"
 outfitter Advanced-ammo-outfitter
+	"Empire Torpedo Missile"
+	"Empire Torpedo Storage Rack"
 	"Railgun Slug"
 	"Multiphasic ammo"
 	"Torpedo"
@@ -88,8 +91,6 @@ outfitter Advanced-ammo-outfitter
 	"Meteor Missile"
 	"rslug"
 	"Javelin"
-	"Firelight Missile"
-	"Firelight Storage Rack"
 	"Torpedo Storage Rack"
 	"Sidewinder Missile Rack"
 	"Meteor Missile Box"
@@ -99,6 +100,7 @@ outfitter Advanced-ammo-outfitter
 	"Thunderhead Storage Array"
 	"Railgun Slug Rack"
 outfitter Advanced-weapon-outfitter
+	"Empire Torpedo Bank"
 	"Sidewinder Missile Pod"
 	"Sidewinder Missile Launcher"
 	"Meteor Missile Launcher"
@@ -122,7 +124,6 @@ outfitter Advanced-weapon-outfitter
 	"Teleporting Dock"
 	"Never Gas"
 	"Antimatter Railgun"
-	"Firelight Missile Bank"
 	"Javelin Pod"
 	"Nuclear Missile"
 	"Thunderhead Launcher"
