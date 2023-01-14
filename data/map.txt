@@ -80,6 +80,12 @@ system "Volcanois"
 
 planet "Linimbus"
 	landscape "land/Linimbus"
+	outfitter Base-outfitter
+	outfitter Basic-ammo-outfitter
+	outfitter Basic-weapons-outfitter
+	outfitter Advanced-systems-outfitter
+	outfitter Basic-power-outfitter
+	outfitter Basic-engines-outfitter
 	attributes urban inhabited volcanic frontier north research "near earth" hai "empire space"
 	description "One of the most advanced planet in technology. Everyone is nice here. But dont make upset Cromha's Empire ships or you will regret it."
 	spaceport "Linimbus is the first planet that the explorer Cromha found that far in the galaxy, there is about two decades now. This planet is the most advanced in technology, you will be able to find for not that big prizes pieces of technology that you cannot compare to any else technology. A planet where a third party is full of lava, wich is used to produce great quantity of energy to create new technologies."
@@ -93,6 +99,12 @@ planet "Linimbus"
 		
 planet "Linimbus Moon"
 	landscape "land/Linimbus_moon"
+	outfitter Base-outfitter
+	outfitter Basic-ammo-outfitter
+	outfitter Basic-weapons-outfitter
+	outfitter Advanced-systems-outfitter
+	outfitter Basic-power-outfitter
+	outfitter Basic-engines-outfitter
 	attributes urban tourism inhabited frontier volcanic north research military "near earth" moon farming "empire space"
 	description "The Linimbus moon but also one of the hotest moons"
 	spaceport "Linimbus is the first planet that the explorer Cromha found that far in the galaxy, there is about two decades now. This planet is the most advanced in technology, you will be able to find for not that big prizes pieces of technology that you cannot compare to any else technology. A planet where a third party is full of lava, wich is used to produce great quantity of energy to create new technologies. Same for hes moon."
@@ -137,6 +149,12 @@ system "Astroid"
 	
 planet "Mineria"
 	landscape "land/Mineria"
+	outfitter Base-outfitter
+	outfitter Advanced-ammo-outfitter
+	outfitter Basic-weapons-outfitter
+	outfitter Advanced-systems-outfitter
+	outfitter Advanced-power-outfitter
+	outfitter Basic-engines-outfitter
 	attributes urban inhabited north mining factory oil "empire space"
 	description "One of the biggest  and the richest minner colonnies planet."
 	spaceport "Mineria was found back in the 29th siecle. Humans decided to install a minner colonie only 3 years after the discover of the precious metals that are in the planet. It's because of this metals that Mineria is now the center of economy of all north-part of the galaxy. It is connected to almost all most important planets by hyperspace link so all the cargo can be delivred in short times. There is a lot of aliens on this planet, beware of them."
@@ -149,6 +167,7 @@ planet "Mineria"
 		fleet cromha-fleet 5
 		
 planet "Mineria Trading Station"
+	outfitter Base-outfitter
 	attributes urban station north factory research military mining "empire space"
 	spaceport "The mineria Trading Station gained independance in 3005, back at the start of Cromha Empire. The is not really lot of things to do here unless you like transporting cargo[...]"
 	government "Mineria colonnies"
@@ -204,6 +223,12 @@ system "Calor stil"
 
 planet "Striy"
 	attributes tourism rich paradise inhabited north hai "empire space"
+	outfitter Base-outfitter
+	outfitter Basic-ammo-outfitter
+	outfitter Basic-weapons-outfitter
+	outfitter Basic-systems-outfitter
+	outfitter Basic-power-outfitter
+	outfitter Basic-engines-outfitter
 	landscape "land/Striy"
 	music "waves"
 	spaceport "Striy is one of the most touristic planet of all human space. Millions of ships are registred every weeks. The security is at the most, almost all dangereous outfits are illegals here, be sure to check all your outfits before entering the planet next time."
@@ -315,6 +340,12 @@ system "Alpha Cromha"
 
 planet "Alldust"
 	attributes inhabited rich research military paradise mining factory north urban hai "empire space"
+	outfitter Base-outfitter
+	outfitter Basic-ammo-outfitter
+	outfitter Basic-weapons-outfitter
+	outfitter Advanced-systems-outfitter
+	outfitter Advanced-power-outfitter
+	outfitter Advanced-engines-outfitter
 	landscape "land/Alldust"
 	shipyard Cromha-basic-shipyard
 	spaceport "The hugest spaceport of all The Empire. Lot of Hais here search for missions or help; you will find a lot of well remunerated missions. The perfect place if you search money."
@@ -329,6 +360,12 @@ planet "Alldust"
 		
 planet "Plutoon"
 	attributes inhabited rich research paradise factory north urban tourism farming "empire space" hai
+	outfitter Base-outfitter
+	outfitter Basic-ammo-outfitter
+	outfitter Basic-weapons-outfitter
+	outfitter Advanced-systems-outfitter
+	outfitter Advanced-power-outfitter
+	outfitter Advanced-engines-outfitter
 	landscape "land/Plutoon"
 	spaceport "A not that special spaceport, you can find basic things that you thind is the Cromha Empire space. There is a lot of tourism missions here so if you search people who want to travel the whole universe for tourism, this is the right place for you!"
 	description "The small moon that orbit around Alldust planet. This moon is known to be very nature-friendly, you will find great forests but also medium cities where you can find lot of differents things for small prizes."
@@ -344,6 +381,12 @@ planet "Alldust Moon"
 planet "Witdrew"
 	government Hai
 	attributes inhabited rich factory north urban tourism research hai "empire space"
+	shipyard "Mon Ki i'Hiya Advanced"
+	shipyard "Mon Ki i'Hiya Basics"
+	shipyard "Imo Loo Mer Advanced"
+	shipyard "Imo Loo Mer Basics"
+	shipyard "Yeer e Ki Basics"
+	outfitter "Hai Advanced"
 	landscape "land/Witdrew"
 	description "This is the planet that was given by Cromha Empire to Hais when both of this governments create an alliance between them, a siecle ago. It is where human of The Empire and Hais scientics collab together to create news technologies by mixing hai tech and human tech, making the mosts andvanceds outfits and ships of all human space. You can find the Hai embassade near the center of the capital, a great place to meet friends."
 	spaceport "A lot of Hais seems to live her, but actuallynot that much, only 25% of habitants are Hais. Most of the Hais that you will find here are people in search of new ships or technologies, due to the cheap prizes of materials here."
@@ -351,6 +394,10 @@ planet "Witdrew"
 	
 planet "Witdrew Station"
 	government "Cromha Empire"
+	outfitter Base-outfitter
+	outfitter Basic-ammo-outfitter
+	outfitter Basic-power-outfitter
+	outfitter basic-engines-outfitter
 	attributes rich factory north station research military hai "empire space"
 	shipyard Cromha-basic-shipyard
 	landscape "land/Witdrew_station"
@@ -398,6 +445,12 @@ system "Beta Cromha"
 	
 planet "Alldust Prima"
 	attributes inhabited rich research military paradise mining factory north urban farming hai "empire space"
+	outfitter Base-outfitter
+	outfitter Basic-ammo-outfitter
+	outfitter Basic-weapons-outfitter
+	outfitter Advanced-systems-outfitter
+	outfitter Advanced-power-outfitter
+	outfitter Advanced-engines-outfitter
 	landscape "land/Alldust_prima"
 	shipyard Cromha-basic-shipyard
 	spaceport "It is a little like Alldust spaceport, the only difference is that you will find many more Hais here than in Alldust."
@@ -409,6 +462,12 @@ planet "Alldust Prima"
 	
 planet "Neptunna"
 	attributes inhabited rich paradise north factory urban farming hai "empire space"
+	outfitter Base-outfitter
+	outfitter Basic-ammo-outfitter
+	outfitter Basic-weapons-outfitter
+	outfitter Advanced-systems-outfitter
+	outfitter Advanced-power-outfitter
+	outfitter Advanced-engines-outfitter
 	landscape "land/Neptunna"
 	spaceport "A small little friendly spaceport. The are a lot of spectacles the evening and a lot of good bars the night. A great place to invite your friends or anyone else."
 	spaceport "But be aware of some people here, there are some xenophobist that will annoy you if you look at them. Wanna a tip? Just avoid them..."
@@ -449,6 +508,12 @@ system "All'Estros"
 
 planet "Limat"
 	attributes inhabited poor paradise north "far empire space"
+	outfitter Base-outfitter
+	outfitter Basic-ammo-outfitter
+	outfitter Basic-weapons-outfitter
+	outfitter Advanced-systems-outfitter
+	outfitter Advanced-power-outfitter
+	outfitter Advanced-engines-outfitter
 	landscape "land/Limat"
 	spaceport "A small little friendly spaceport. The are a lot of spectacles the evening and a lot of good bars the night. A great place to invite your friends or anyone else."
 	spaceport "But be aware of some people here, there are some xenophobist that will annoy you if you look at them. Wanna a tip? Just avoid them..."
@@ -521,7 +586,6 @@ system "Sepriaptu"
 planet "Advanced Empire Station"
 	government "Cromha Empire"
 	attributes "korath" north factory station research military
-	shipyard "Luxury Ships"
 	landscape "land/Advanced_empire_station"
 	description "An advanced Empire station in the korath space. The goal of this station is to collect data on litterally everything. Most of the people that come here are Empire scientists"
 	spaceport "Not a that big spaceport. Most of everything here is rudimental, you see almost noone but there is a good connection!"
