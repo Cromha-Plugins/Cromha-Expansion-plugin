@@ -172,9 +172,9 @@ ship "Heavy Empire Destroyer"
 		"Tactical Scanner"
 		"Liquid Helium Cooler"
 		
-		"A860 Black Atomic Thruster"
-		"A865 Black Atomic Steering"
-		"AR120 Black Reverse Thruster"
+		`RC-220 Atomic Thruster`
+		`RC-225 Atomic Steering`
+		"RC-180 Black Reverse Thruster"
 		"Scram Drive"
 		
 	turret -35.5 -11 "Multiphasic Anti-Missile"
@@ -292,8 +292,8 @@ ship "Empire Destroyer"
 		"Multiphasic Cooler"
 		"Laser Rifle" 15
 		
-		"Tyrant Plasma Thruster"
-		"Tyrant Plasma Steering"
+		`RC-200 Atomic Thruster`
+		`RC-205 Atomic Steering`
 		"Hyperdrive"	
 	engine -16.5 143
 	engine 16.5 143
@@ -371,8 +371,8 @@ ship "Light Empire Destroyer"
 		"Multiphasic Cooler"
 		"Laser Rifle"
 		
-		"Orca Plasma Thruster"
-		"Orca Plasma Steering"
+		`RC-180 Atomic Thruster`
+		`RC-185 Atomic Steering`
 		"Hyperdrive"
 		
 	engine -15.5 115
@@ -438,15 +438,14 @@ ship "Empire Raven"
 		"Empire Particle gun" 2
 		"Sidewinder Missile Launcher" 2
 		"Sidewinder Missile" 90
-		"Ionic Afterburner"
 		
 		"RC-X2 Multiphasic Reactor" 2
 		"Empire Hai Gorge Batteries"
 		"D41-HY Shield Generator"
 		"Laser Rifle" 2
 		
-		"X3700 Ion Thruster"
-		"X3200 Ion Steering"
+		`RC-180 Atomic Thruster`
+		`RC-185 Atomic Steering`
 		"Hyperdrive"
 		
 	engine -9.5 63
@@ -497,15 +496,14 @@ ship "Empire Quicksilver"
 		"Empire Particle gun" 2
 		"Meteor Missile" 60
 		"Meteor Missile Launcher" 2
-		"Ionic Afterburner"
 		
 		"RC-X1 Multiphasic Reactor" 4
 		"Empire Hai Gorge Batteries" 2
 		"D23-QP Shield Generator"
 		"Multiphasic Cooler"
 		
-		"Greyhound Plasma Thruster"
-		"Greyhound Plasma Steering"
+		`RC-160 Atomic Thruster`
+		`RC-165 Atomic Steering`
 		"Hyperdrive"
 		
 	engine -15.5 54
