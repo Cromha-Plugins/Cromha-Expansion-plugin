@@ -30,7 +30,35 @@ outfit "Empire Shielding Core"
 	description "This Wanderer shield generator can restore a ship's shield strength more quickly than any human shielding technology, but while recharging shields it also draws a much larger amount of power."
 
 # Hyper Drives
+outfit "Compact Plasma Drive"
+	category "Systems"
+	cost 8000
+	licenses
+		"Empire Contributor"
+	thumbnail "outfit/plasma drive"
+	"mass" 15
+	"outfit space" -15
+	"jump fuel" 80
+	"jump speed" .1
+	"hyperdrive" 1
+	description "The Compact Plasma Drive is a very compact hyperdrive that have been designed by The Empire to be installed on smalls vessels like Empire Drones or Empire Quicksilvers qnd even Empire Ravens."
 
+outfit "Plasma Drive"
+	category "Systems"
+	licenses
+		"Empire Contributor"
+	cost 50000
+	thumbnail "outfit/big plasma drive"
+	"mass" 25
+	"outfit space" -25
+	"jump speed" .3
+	"jump fuel" 100
+	"hyperdrive" 1
+	"jump speed" .4
+	"jump fuel" 170
+	"jump drive" 1
+	description "This mysterious box sits quietly at the heart of your ship, thinking its own inscrutable thoughts. When it comes time to travel between the stars it sets off a nuclear fusion reaction powerful enough to level an entire city, and then somehow tucks the resulting explosion in between the folds of regular space-time like a wasp stinging an oak leaf to lay her eggs inside. Your ship rides the resulting ripple in the fabric of space."
+	description "	They say that fewer than a dozen human beings alive today understand the inner workings of the hyperdrive."
 
 # Cooling
 outfit "Multiphasic Cooler"

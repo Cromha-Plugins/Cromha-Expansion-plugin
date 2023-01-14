@@ -51,8 +51,7 @@ ship "Black Manta (Prototype)"
 		"Empire Shielding Core"
 		"Empire Hai Valley Batteries" 8
 		"Catalytic Ramscoop"
-		"Scram Drive"
-		"Jump Drive"
+		"Plasma Drive"
 		"Multiphasic Scanner"
 		"Multiphasic Cooler"
 		"Quantum Keystone"
@@ -175,7 +174,7 @@ ship "Heavy Empire Destroyer"
 		`RC-220 Atomic Thruster`
 		`RC-225 Atomic Steering`
 		"RC-180 Reverse Thruster"
-		"Scram Drive"
+		"Plasma Drive"
 		
 	turret -35.5 -11 "Multiphasic Anti-Missile"
 	turret 35.5 -11 "Multiphasic Anti-Missile"
@@ -292,7 +291,7 @@ ship "Empire Destroyer"
 		
 		`RC-200 Atomic Thruster`
 		`RC-205 Atomic Steering`
-		"Hyperdrive"	
+		"Plasma Drive"
 	engine -16.5 143
 	engine 16.5 143
 	gun -16 0 "Nuclear Missile"
@@ -347,7 +346,7 @@ ship "Light Empire Destroyer"
 		"heat dissipation" .7
 		"fuel capacity" 600
 		"cargo space" 75
-		"outfit space" 590
+		"outfit space" 600
 		"weapon capacity" 150
 		"engine capacity" 250
 		weapon
@@ -371,7 +370,7 @@ ship "Light Empire Destroyer"
 		
 		`RC-180 Atomic Thruster`
 		`RC-185 Atomic Steering`
-		"Hyperdrive"
+		"Plasma Drive"
 		
 	engine -15.5 115
 	engine 15.5 115
@@ -444,7 +443,7 @@ ship "Empire Raven"
 		
 		`RC-180 Atomic Thruster`
 		`RC-185 Atomic Steering`
-		"Hyperdrive"
+		"Compact Plasma Drive"
 		
 	engine -9.5 63
 	engine 9.5 63
@@ -502,7 +501,7 @@ ship "Empire Quicksilver"
 		
 		`RC-160 Atomic Thruster`
 		`RC-165 Atomic Steering`
-		"Hyperdrive"
+		"Compact Plasma Drive"
 		
 	engine -15.5 54
 	engine 15.5 54
@@ -533,9 +532,10 @@ ship "Empire Drone"
 		"mass" 25
 		"drag" .59
 		"heat dissipation" .9
-		"outfit space" 79
+		"outfit space" 100
 		"weapon capacity" 30
 		"engine capacity" 38
+		"fuel capacity" 500
 		weapon
 			"blast radius" 5
 			"shield damage" 50
@@ -549,6 +549,7 @@ ship "Empire Drone"
 		"Surveillance Pod"
 
 		`RC-001 Atomic Engines`
+		"Compact Plasma Drive"
 	engine -10.2 34.2 0.9
 	engine 10.2 34.2 0.9
 	gun 0 -43.5 "Empire Particle gun"
@@ -575,9 +576,10 @@ ship "Empire Fighter"
 		"mass" 20
 		"drag" .63
 		"heat dissipation" .9
-		"outfit space" 111
+		"outfit space" 116
 		"weapon capacity" 33
 		"engine capacity" 30
+		"fuel capacity" 400
 		weapon
 			"blast radius" 12
 			"shield damage" 120
@@ -595,6 +597,7 @@ ship "Empire Fighter"
 		"Surveillance Pod"
 		
 		`RC-001 Atomic Engines`
+		"Compact Plasma Drive"
 	engine -8 34
 	engine 8 34
 	gun -11 -21 "Empire Particle gun"
