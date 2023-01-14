@@ -57,9 +57,9 @@ ship "Black Manta (Prototype)"
 		"Multiphasic Cooler"
 		"Quantum Keystone"
 		
-		"A860 Black Atomic Thruster"
-		"A865 Black Atomic Steering"
-		"AR120 Black Reverse Thruster"
+		`RC-400 Atomic Thruster`
+		`RC-405 Atomic Steering`
+		`RC-400 Reverse Thruster`
 		"Laser Rifle" 10
 		"Pulse Rifle" 10
 		"Security Station" 3
@@ -551,10 +551,8 @@ ship "Empire Drone"
 		"nGVF-AA Fuel Cell"
 		"Supercapacitor"
 		"Surveillance Pod"
-		
-		"X1700 Ion Thruster"
-		"X1200 Ion Steering"
-		
+
+		`RC-001 Atomic Engines`
 	engine -10.2 34.2 0.9
 	engine 10.2 34.2 0.9
 	gun 0 -43.5 "Empire Particle gun"
@@ -600,9 +598,7 @@ ship "Empire Fighter"
 		"Small Radar Jammer"
 		"Surveillance Pod"
 		
-		"X1700 Ion Thruster"
-		"X1200 Ion Steering"
-		
+		`RC-001 Atomic Engines`
 	engine -8 34
 	engine 8 34
 	gun -11 -21 "Empire Particle gun"
