@@ -209,7 +209,8 @@ mission "Empire: First Award"
 				decline
 	on decline
 		"reputation: Cromha Empire" += 1
-		payment 10000
+		payment
+		payment 1000000
 		outfit "Empire Contributor License"
 
 mission "Empire: Technology Testing"
@@ -239,7 +240,7 @@ mission "Empire: Technology Testing"
 		personality disables staying heroic target
 			confusion 120
 		system destination
-		ship "Quarg Wardragon" "Cromha Empire Test Vessel"
+		ship "Gunboat (modified)" "Cromha Empire Test Vessel"
 		dialog "You scan the disabled craft and take careful measurements of the battle damage. Time to deliver the results on <planet>."
 
 # Events
