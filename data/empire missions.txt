@@ -266,7 +266,7 @@ mission "Empire: Espionage Remnants"
 		"espionage empire" 1
 	on complete
 		"reputation: Cromha Empire" += 10
-		"reputation: Remnant" += 20
+		"reputation: Remnant" += 50
 		"empire jobs" += 1
 		payment
 		payment 700000
@@ -278,6 +278,57 @@ mission "Empire: Espionage Remnants"
 		system destination
 		ship "Starling" "remnant"
 		dialog "You scan the ship and take careful measurements of the battle damage. Time to deliver the results on <planet>."
+
+mission "Empire: Empire Ring Assist"
+	landing
+	description "The Empire Ring Station in <system> system is attacked by some Bounty Hunters. Dirige an Empire Fleet to the <system> and destroy all the Bounty Hunters."
+	source
+		government "Cromha Empire"
+		not attributes uninhabited
+	to offer
+		has "Empire: Espionage Remnants: done"
+	destination "Empire Ring"
+	on offer
+		conversation
+			`You land on <planet> and recieve an other message for the Empire missions. You click on the pop-up and the app opens. You can see written on the screen:`
+			`	"The Empire Ring Station in <system> system is attacked by some Bounty Hunters. Dirige an Empire Fleet to the <system> and destroy all the Bounty Hunters."`
+			`	They also inform you that an entire fleet is waiting you on the <planet> ring station.`
+				accept
+	on complete
+		"reputation: Cromha Empire" += 50
+		"empire jobs" += 1
+		give ship "Empire Raven" RZ-453
+		give ship "Empire Raven" EZ-496
+		give ship "Empire Raven" OR-195
+		give ship "Empire Quicksilver" RA-5310
+		give ship "Empire Quicksilver" QR-6491
+		give ship "Empire Quicksilver" ZZ-4815
+		give ship "Empire Quicksilver" FR-9416
+		give ship "Empire Quicksilver" IK-9216
+		give ship "Light Empire Destroyer" YE-53
+		give ship "Light Empire Destroyer" YE-94
+		payment
+		payment 300000
+		dialog "You land on <planet> and recieve <payment>. There is an entire Empire fleet of 3 Empire Ravens, 5 Empire Quicksilvers and 2 Light Empire Destroyer."
+	npc kill
+		government "Bounty Hunter"
+		personality staying disables target
+			confusion 170
+		system destination
+		fleet "Bounty Hunters"
+		fleet "Bounty Hunters"
+		fleet "Bounty Hunters"
+		fleet "Bounty Hunters"
+		fleet "Bounty Hunters"
+		fleet "Bounty Hunters"
+		dialog "No more Bounty Hunter seems to be still active in the current system. Land on <planet> to get your payment."
+	npc
+		government "Mineria colonnies"
+		system destination
+		personality staying
+			confusion 500
+		fleet mineria-transports
+		fleet mineria-transports
 
 # Events
 mission "Discovered Empire Space"
