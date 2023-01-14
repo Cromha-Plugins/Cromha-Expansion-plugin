@@ -109,6 +109,7 @@ ship "Black Manta (Prototype)"
 		over
 	bay "Drone" 24.5 37.5
 		over
+	leak "smoke" 60 50
 	leak "leak" 60 50
 	leak "flame" 40 80
 	leak "big leak" 30 30
