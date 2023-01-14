@@ -4,7 +4,7 @@ outfit "Compact Empire Shielding Core"
 	licenses
 		"Empire Contributor"
 	cost 10000
-	thumbnail "outfit/small shield"
+	thumbnail "outfit/small empire shield"
 	"mass" 15
 	"outfit space" -10
 	"shield generation" 1.8
@@ -19,7 +19,7 @@ outfit "Empire Shielding Core"
 	licenses
 		"Empire Contributor"
 	cost 400000
-	thumbnail "outfit/big shield"
+	thumbnail "outfit/big empire shield"
 	"mass" 41
 	"outfit space" -41
 	"shield generation" 3.5

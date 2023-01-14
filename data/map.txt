@@ -926,7 +926,7 @@ system Pantica
 			period 70
 
 planet "Empire Listening Station"
-	attributes "ember waste" remnant factory station research military
+	attributes "ember waste" remnant factory station research military "require: empire partisan"
 	landscape "land/Empire_listening_station"
 	government "Cromha Empire"
 	description "This is an secret Empire Listening Station that watch remnants. Even if the Empire is now friend with the Remnants, they still use this old station. Mayb The Empire dont has that much confidence with this aliens."
