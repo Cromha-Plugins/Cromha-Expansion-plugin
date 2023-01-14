@@ -48,7 +48,7 @@ ship "Black Manta (Prototype)"
 		"Supercapacitor" 5
 		"Fuel Pod" 5
 		
-		"D94-YV Shield Generator"
+		"Empire Shielding Core"
 		"Empire Hai Valley Batteries" 8
 		"Catalytic Ramscoop"
 		"Scram Drive"
@@ -159,7 +159,7 @@ ship "Heavy Empire Destroyer"
 		"Empire Hai Valley Batteries" 6
 		"Catalytic Ramscoop"
 		"Asteroid Scanner"
-		"D94-YV Shield Generator"
+		"Empire Shielding Core"
 		"Large Radar Jammer" 4
 		"Surveillance Pod"
 		"Tactical Scanner"
@@ -174,7 +174,7 @@ ship "Heavy Empire Destroyer"
 		
 		`RC-220 Atomic Thruster`
 		`RC-225 Atomic Steering`
-		"RC-180 Black Reverse Thruster"
+		"RC-180 Reverse Thruster"
 		"Scram Drive"
 		
 	turret -35.5 -11 "Multiphasic Anti-Missile"
@@ -267,7 +267,7 @@ ship "Empire Destroyer"
 		"heat dissipation" .7
 		"fuel capacity" 600
 		"cargo space" 160
-		"outfit space" 690
+		"outfit space" 850
 		"weapon capacity" 350
 		"engine capacity" 350
 		weapon
@@ -277,17 +277,15 @@ ship "Empire Destroyer"
 			"hit force" 2400
 	outfits
 		"Proton Turret" 6
-		"Torpedo Launcher" 2
-		"Torpedo" 60
 		"Multiphasic Anti-Missile" 4
 		"Multiphasic ammo" 2400
-		"Nuclear Missile"
+		"Nuclear Missile" 2
 		
 		"RC-X3 Multiphasic Reactor" 2
 		"KP-6 Photovoltaic Array"
 		"KP-6 Photovoltaic Panel" 2
 		"Empire Hai Ravine Batteries" 6
-		"D41-HY Shield Generator"
+		"Compact Empire Shielding Core" 6
 		"Large Radar Jammer"
 		"Multiphasic Cooler"
 		"Laser Rifle" 15
@@ -349,7 +347,7 @@ ship "Light Empire Destroyer"
 		"heat dissipation" .7
 		"fuel capacity" 600
 		"cargo space" 75
-		"outfit space" 550
+		"outfit space" 590
 		"weapon capacity" 150
 		"engine capacity" 250
 		weapon
@@ -366,7 +364,7 @@ ship "Light Empire Destroyer"
 		
 		"RC-X3 Multiphasic Reactor"
 		"Empire Hai Ravine Batteries" 6
-		"D67-TM Shield Generator"
+		"Compact Empire Shielding Core" 4
 		"Small Radar Jammer" 2
 		"Multiphasic Cooler"
 		"Laser Rifle"
@@ -441,7 +439,7 @@ ship "Empire Raven"
 		
 		"RC-X2 Multiphasic Reactor" 2
 		"Empire Hai Gorge Batteries"
-		"D41-HY Shield Generator"
+		"Compact Empire Shielding Core" 2
 		"Laser Rifle" 2
 		
 		`RC-180 Atomic Thruster`
@@ -499,7 +497,7 @@ ship "Empire Quicksilver"
 		
 		"RC-X1 Multiphasic Reactor" 4
 		"Empire Hai Gorge Batteries" 2
-		"D23-QP Shield Generator"
+		"Compact Empire Shielding Core"
 		"Multiphasic Cooler"
 		
 		`RC-160 Atomic Thruster`
@@ -535,8 +533,8 @@ ship "Empire Drone"
 		"mass" 25
 		"drag" .59
 		"heat dissipation" .9
-		"outfit space" 70
-		"weapon capacity" 15
+		"outfit space" 79
+		"weapon capacity" 30
 		"engine capacity" 38
 		weapon
 			"blast radius" 5
@@ -577,8 +575,8 @@ ship "Empire Fighter"
 		"mass" 20
 		"drag" .63
 		"heat dissipation" .9
-		"outfit space" 90
-		"weapon capacity" 20
+		"outfit space" 111
+		"weapon capacity" 33
 		"engine capacity" 30
 		weapon
 			"blast radius" 12

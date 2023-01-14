@@ -46,6 +46,7 @@ outfitter Basic-systems-outfitter
 	"Small Radar Jammer"
 	"Outfits Expansion"
 	"Small Bunk Room"
+	"Compact Empire Shielding Core"
 outfitter Basic-power-outfitter
 	"Empire Hai Chasm Batteries"
 	"Empire Hai Fissure Batteries"
@@ -138,6 +139,8 @@ outfitter Advanced-systems-outfitter
 	"Catalytic Ramscoop"
 	"Large Radar Jammer"
 	"Research Laboratory"
+	"Compact Empire Shielding Core"
+	"Empire Shielding Core"
 outfitter Advanced-power-outfitter
 	"Empire Hai Chasm Batteries"
 	"Empire Hai Fissure Batteries"

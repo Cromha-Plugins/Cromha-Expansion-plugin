@@ -1,3 +1,34 @@
+# Shields
+outfit "Compact Empire Shielding Core"
+	category "Systems"
+	licenses
+		"Empire Contributor"
+	cost 10000
+	thumbnail "outfit/small shield"
+	"mass" 15
+	"outfit space" -10
+	"shield generation" 1.8
+	"shield energy" 3.0
+	"hull repair rate" 0.1
+	"hull energy" 0.1
+	"hull heat" 0.15
+	description "This small Wanderer shield generator is able to recharge a ship's shields at a considerable rate, but it also consumes more energy than some other shield generators do."
+
+outfit "Empire Shielding Core"
+	category "Systems"
+	licenses
+		"Empire Contributor"
+	cost 400000
+	thumbnail "outfit/big shield"
+	"mass" 41
+	"outfit space" -41
+	"shield generation" 3.5
+	"shield energy" 7.0
+	"hull repair rate" 0.5
+	"hull energy" 0.5
+	"hull heat" 0.25
+	description "This Wanderer shield generator can restore a ship's shield strength more quickly than any human shielding technology, but while recharging shields it also draws a much larger amount of power."
+
 # Cooling
 outfit "Multiphasic Cooler"
 	category "Systems"
