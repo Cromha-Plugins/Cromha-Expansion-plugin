@@ -68,7 +68,6 @@ outfit "Multiphasic Anti-Missile"
 	cost 55000
 	licenses
 		"Empire Contributor"
-	thumbnail "outfit/anti-missile hai"
 	"mass" 5
 	"outfit space" -5
 	"weapon capacity" -5

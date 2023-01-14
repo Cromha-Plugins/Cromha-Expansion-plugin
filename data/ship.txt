@@ -10,14 +10,17 @@ ship "Black Manta (Prototype)"
 		category "Heavy Warship"
 		licenses
 			"Empire Black Manta"
-		"cost" 5470000000
-		"shields" 100400
-		"hull" 9500
-		"required crew" 100
+		"cost" 50000000
+		"shields" 150400
+		"hull" 15065
+		"required crew" 80
 		"bunks" 200
 		"mass" 680
 		"drag" 4.7
-		"heat dissipation" .8
+		"heat dissipation" .7
+		"cloak" .02
+		"cloaking energy" 5
+		"cloaking fuel" .1
 		"fuel capacity" 800
 		"cargo space" 200
 		"outfit space" 1589

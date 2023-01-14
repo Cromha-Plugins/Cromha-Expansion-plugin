@@ -208,7 +208,7 @@ mission "Empire: First Award"
 			`	"It's been a few weeks that you've been working for us, we wanted to award you for all for hard work. We offer you the Empire Contributor License wich will grant you the access to every non-military ships and outfits in the Empire Space. You also will also be credited 1M credits on your account."`
 				decline
 	on decline
-		"reputation: Cromha Empire" += 1
+		"reputation: Cromha Empire" += 10
 		payment
 		payment 1000000
 		set "license: Empire Contributor"
@@ -232,6 +232,8 @@ mission "Empire: Technology Testing"
 	on accept
 		outfit "Multiphasic Scanner" 1
 	on complete
+		"reputation: Cromha Empire" += 10
+		"empire jobs" += 1
 		payment
 		payment 10000
 		dialog "You send the scans to The Empire and recieve <payment> and an extra Multiphasic Scanner."
@@ -242,6 +244,40 @@ mission "Empire: Technology Testing"
 		system destination
 		ship "Gunboat (modified)" "Cromha Empire Test Vessel"
 		dialog "You scan the disabled craft and take careful measurements of the battle damage. Time to deliver the results on <planet>."
+
+mission "Empire: Espionage Remnants"
+	landing
+	description "Go to the Pantica system and scan the remnant ship <npc> and its outfits. Then land on the Empire Listening Station. Payment is <payment>. Beware the Remnants will surely attack you if you scan them. Don't destroy the ship."
+	source
+		government "Cromha Empire"
+		not attributes uninhabited
+	to offer
+		has "Empire: Technology Testing: done"
+	destination "Empire Listening Station"
+	on offer
+		conversation
+			`You land on <planet> and recieve an other message for the Empire missions. You click on the pop-up and the app opens. You can see written on the screen:`
+			`	"Go to the Pantica system and scan the remnant ship <npc> and its outfits. Then land on the Empire Listening Station. Payment is <payment>. Beware the Remnants will surely attack you if you scan them. Don't destroy the ship."`
+			`	They also inform you that after the missions the Remnants will no longer attack you. Just skip the attacking ships and land on <planet>.`
+				accept
+	on fail
+		dialog "The Empire inform you that you failed the mission and that they will count you as an enemy to them."
+	on accept
+		"espionage empire" 1
+	on complete
+		"reputation: Cromha Empire" += 10
+		"reputation: Remnant" += 20
+		"empire jobs" += 1
+		payment
+		payment 700000
+		dialog "You land on <planet> and give the results of the scans to an Empire officer and get your paymentof <payment>."
+	npc "scan outfits" save
+		government "Remnant"
+		personality staying disables board target
+			confusion 130
+		system destination
+		ship "Starling" "remnant"
+		dialog "You scan the ship and take careful measurements of the battle damage. Time to deliver the results on <planet>."
 
 # Events
 mission "Discovered Empire Space"
