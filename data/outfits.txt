@@ -29,6 +29,9 @@ outfit "Empire Shielding Core"
 	"hull heat" 0.25
 	description "This Wanderer shield generator can restore a ship's shield strength more quickly than any human shielding technology, but while recharging shields it also draws a much larger amount of power."
 
+# Hyper Drives
+
+
 # Cooling
 outfit "Multiphasic Cooler"
 	category "Systems"
