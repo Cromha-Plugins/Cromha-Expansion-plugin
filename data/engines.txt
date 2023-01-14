@@ -11,6 +11,12 @@ outfit "A860 Black Atomic Thruster"
 	"flare sprite" "effect/black manta atomic flare/huge"
 		"frame rate" 10
 	"flare sound" "atomic huge"
+	"afterburner thrust" 43.5
+	"afterburner fuel" .025
+	"afterburner energy" 5.1
+	"afterburner heat" 4.0
+	"afterburner effect" "ionic afterburner"
+	"afterburner effect" "ionic afterburner"
 	description "A copy of the A860 Atomic Thruster designed specially for the Black Manta ship who need insane engines that are very powerful. It is not sold in any outfitter but you can still take off one of this of your Black Manta and install it on an other ship. You may need to upgrade your ship's power and cooling systems to handle it."
 	
 outfit "A865 Black Atomic Steering"
