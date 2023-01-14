@@ -232,7 +232,7 @@ outfit "Empire Torpedo Bank"
 	"empire torpedo capacity" 20
 	weapon
 		sprite "projectile/empire torpedo"
-			scale 2
+			scale 1.5
 		sound "firelight"
 		ammo "Empire Torpedo Missile"
 		icon "icon/empire torpedo"
@@ -264,7 +264,7 @@ outfit "Empire Torpedo Bank"
 outfit "Firelight Turning"
 	weapon
 		sprite "projectile/empire torpedo"
-			scale 2
+			scale 1.5
 		"hit effect" "firelight ring" 20
 		"velocity" 0.1
 		"lifetime" 20
@@ -282,7 +282,7 @@ outfit "Firelight Turning"
 outfit "Firelight Activated"
 	weapon
 		sprite "projectile/empire torpedo active"
-			scale 2
+			scale 1.5
 			"frame rate" 12
 			"random start frame"
 		"hit effect" "firelight ring" 20
