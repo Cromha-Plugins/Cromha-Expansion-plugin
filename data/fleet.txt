@@ -1,6 +1,6 @@
 fleet cromha-fleet
 	government "Cromha Empire"
-	names "syndicate small"
+	names "empire fleet names"
 	cargo 2
 	personality heroic
 		forbearing
