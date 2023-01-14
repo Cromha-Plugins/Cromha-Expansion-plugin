@@ -297,16 +297,16 @@ mission "Empire: Empire Ring Assist"
 	on complete
 		"reputation: Cromha Empire" += 50
 		"empire jobs" += 1
-		give ship "Empire Raven" RZ-453
-		give ship "Empire Raven" EZ-496
-		give ship "Empire Raven" OR-195
-		give ship "Empire Quicksilver" RA-5310
-		give ship "Empire Quicksilver" QR-6491
-		give ship "Empire Quicksilver" ZZ-4815
-		give ship "Empire Quicksilver" FR-9416
-		give ship "Empire Quicksilver" IK-9216
-		give ship "Light Empire Destroyer" YE-53
-		give ship "Light Empire Destroyer" YE-94
+		give ship "Empire Raven" "empire fleet names"
+		give ship "Empire Raven" "empire fleet names"
+		give ship "Empire Raven" "empire fleet names"
+		give ship "Empire Quicksilver" "empire fleet names"
+		give ship "Empire Quicksilver" "empire fleet names"
+		give ship "Empire Quicksilver" "empire fleet names"
+		give ship "Empire Quicksilver" "empire fleet names"
+		give ship "Empire Quicksilver" "empire fleet names"
+		give ship "Light Empire Destroyer" "empire fleet names"
+		give ship "Light Empire Destroyer" "empire fleet names"
 		payment
 		payment 300000
 		dialog "You land on <planet> and recieve <payment>. There is an entire Empire fleet of 3 Empire Ravens, 5 Empire Quicksilvers and 2 Light Empire Destroyer."
