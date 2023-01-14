@@ -245,6 +245,7 @@ system "Lifdot"
 planet "Crodust"
 	attributes rich inhabited north research military "empire space"
 	landscape "land/Crodust"
+	outfitter Base-outfitter
 	outfitter Advanced-ammo-outfitter
 	outfitter Advanced-weapon-outfitter
 	outfitter Advanced-systems-outfitter
