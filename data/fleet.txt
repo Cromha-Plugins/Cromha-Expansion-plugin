@@ -206,3 +206,9 @@ fleet empire-rebels-raiders-fleet
 		Protector 1
 		"Empire Raven" 1
 		"Light Empire Destroyer" 2
+fleet shooting-Star
+	government "Cromha Empire"
+	cargo 3
+	personality surveillance disables timid
+	variant 1
+		"Shooting Star (Empire)"

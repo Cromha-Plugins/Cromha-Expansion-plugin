@@ -485,6 +485,7 @@ system "All'Estros"
 	fleet cromha-fleet 1100
 	fleet cromha-transporters 850
 	fleet mineria-transports 700
+	fleet shooting-Star 6000
 	haze _menu/haze-cyan
 	link "Lifdot"
 	link "Ring Wartrue"
@@ -538,6 +539,7 @@ system "Ring Wartrue"
 	fleet "Wanderer Defense" 2600
 	fleet "Small Remnant" 4300
 	fleet "Large Remnant" 5000
+	fleet shooting-Star 6000
 	haze _menu/haze-cyan
 	link "All'Estros"
 	trade "Heavy Metals" 152
