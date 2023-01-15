@@ -1,3 +1,4 @@
+# Ignore this text
 effect "rockettrace"
 	sprite "effect/afterburner"
 		"scale" 0.5
