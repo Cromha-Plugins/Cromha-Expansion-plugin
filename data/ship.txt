@@ -68,6 +68,7 @@ ship "Black Manta (Prototype)"
 		"Security Forcefield" 3
 	# Back
 	engine 0 108.5
+		zoom 0.8
 	engine -43 55.5
 	engine 43 55.5
 	# Reverse
@@ -82,19 +83,19 @@ ship "Black Manta (Prototype)"
 	# Weapons
 	turret 45.5 -2.5 "Multiphasic Anti-Missile"
 	turret -45.5 -2.5 "Multiphasic Anti-Missile"
-	gun 42 -36 "Modified Plasma Repeater"
-	gun -42 -36 "Modified Plasma Repeater"
-	gun -35 -35 "Empire Particle gun"
-	gun 35 -35 "Empire Particle gun"
-	gun -10 -52 "Empire Particle gun"
-	gun 10 -52 "Empire Particle gun"
-	gun -88.5 -40 "Empire Particle gun"
-	gun 88.5 -40 "Empire Particle gun"
-	gun -25.5 -36 "Empire Torpedo Bank"
-	gun 25.5 -36 "Empire Torpedo Bank"
-	gun 0 -103 "Proton Gun"
-	gun 16 -35 "Antimatter Railgun"
-	gun -16 -35 "Antimatter Railgun"
+	gun 26 -40.5 "Modified Plasma Repeater"
+	gun -26 -40.5 "Modified Plasma Repeater"
+	gun -34.5 -39 "Empire Particle gun"
+	gun -44 -41 "Empire Particle gun"
+	gun -89.5 -42 "Empire Particle gun"
+	gun 34.5 -39 "Empire Particle gun"
+	gun 44 -41 "Empire Particle gun"
+	gun 89.5 -42 "Empire Particle gun"
+	gun 9.5 -83.5 "Empire Torpedo Bank"
+	gun -9.5 -83.5 "Empire Torpedo Bank"
+	gun 0 -107 "Proton Gun"
+	gun -44.5 -9 "Antimatter Railgun"
+	gun 44.5 -9 "Antimatter Railgun"
 	bay "Fighter" 77.5 -30.5
 		under
 	bay "Fighter" 52 -29.5
