@@ -478,6 +478,7 @@ planet "Neptunna"
 
 # Far Empire
 system "All'Estros"
+	hazard "Far Empire Space Hazard" 9000
 	pos 440 -490
 	attributes inhabited rich research military "far empire space"
 	government "Cromha Empire"
@@ -524,6 +525,7 @@ planet "Limat"
 	security 1
 
 system "Ring Wartrue"
+	hazard "Far Empire Space Hazard" 9000
 	pos 530 -490
 	attributes inhabited rich research military "far empire space"
 	government "Cromha Empire"
