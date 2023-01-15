@@ -869,7 +869,7 @@ planet "Empire Ring"
 	attributes inhabited rich north "far empire space" station
 	outfitter Base-outfitter
 	outfitter Advanced-ammo-outfitter
-	outfitter Advanced-weapons-outfitter
+	outfitter Advanced-weapon-outfitter
 	outfitter Advanced-systems-outfitter
 	outfitter Advanced-power-outfitter
 	outfitter Advanced-engines-outfitter
