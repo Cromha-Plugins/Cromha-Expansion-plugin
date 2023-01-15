@@ -279,7 +279,7 @@ mission "Empire: Espionage Remnants"
 		ship "Starling" "remnant"
 		dialog "You scan the ship and take careful measurements of the battle damage. Time to deliver the results on <planet>."
 
-mission "Empire: Empire Ring Assist"
+mission "Empire: Ring Assist"
 	landing
 	description "The Empire Ring Station in <system> system is attacked by some Bounty Hunters. Dirige an Empire Fleet to the <system> and destroy all the Bounty Hunters."
 	source
@@ -297,6 +297,7 @@ mission "Empire: Empire Ring Assist"
 	on complete
 		"reputation: Cromha Empire" += 50
 		"empire jobs" += 1
+		set "license: Empire Navy"
 		give ship "Empire Raven" "empire fleet names"
 		give ship "Empire Raven" "empire fleet names"
 		give ship "Empire Raven" "empire fleet names"
@@ -309,7 +310,7 @@ mission "Empire: Empire Ring Assist"
 		give ship "Light Empire Destroyer" "empire fleet names"
 		payment
 		payment 300000
-		dialog "You land on <planet> and recieve <payment>. There is an entire Empire fleet of 3 Empire Ravens, 5 Empire Quicksilvers and 2 Light Empire Destroyer."
+		dialog "You land on <planet> and recieve <payment>. There is an entire Empire fleet of 3 Empire Ravens, 5 Empire Quicksilvers and 2 Light Empire Destroyer. You also won an Empire Navy License."
 	npc kill
 		government "Bounty Hunter"
 		personality staying disables target
@@ -329,6 +330,33 @@ mission "Empire: Empire Ring Assist"
 			confusion 500
 		fleet mineria-transports
 		fleet mineria-transports
+
+mission "Empire: Scientists Researches in Ember Waste"
+	landing
+	description "Go to Generus in the Ember Waste and scan a Void Sprite and its outfits for the Empire Scientists. Then Land on <planet> to get your payment of <payment>."
+	source
+		government "Cromha Empire"
+		not attributes uninhabited
+	destination "Empire Listening Station"
+	to offer
+		has "Empire: Ring Assist: done"
+	on offer
+		conversation
+			`You land on <planet> and recieve an other message for the Empire missions. You click on the pop-up and the app opens. You can see written on the screen:`
+			`	"Go to <system> in the Ember Waste and scan a Void Sprite for the Empire Scientists. Then Land on <planet> to get your payment of <payment>."`
+				accept
+	on complete
+		payment
+		payment 1000000
+		"reputation: Cromha Empire" += 50
+		"empire jobs" += 1
+		dialog "t o be replaced"
+	npc "scan outfits" save
+		government "Unknown"
+		system "Generus"
+		personality staying target
+		ship "Pincer Beast" "Void Sprite"
+		dialog "You scan the Void Sprite. Time to land on <destination>."
 
 # Events
 mission "Discovered Empire Space"

@@ -145,6 +145,9 @@ ship "Heavy Empire Destroyer"
 		"outfit space" 3220
 		"weapon capacity" 2470
 		"engine capacity" 310
+		"cloak" .02
+		"cloaking energy" 5
+		"cloaking fuel" .1
 		weapon
 			"blast radius" 400
 			"shield damage" 4000
@@ -273,6 +276,9 @@ ship "Empire Destroyer"
 		"outfit space" 850
 		"weapon capacity" 350
 		"engine capacity" 350
+		"cloak" .02
+		"cloaking energy" 5
+		"cloaking fuel" .1
 		weapon
 			"blast radius" 160
 			"shield damage" 1600
@@ -353,6 +359,9 @@ ship "Light Empire Destroyer"
 		"outfit space" 600
 		"weapon capacity" 150
 		"engine capacity" 250
+		"cloak" .02
+		"cloaking energy" 5
+		"cloaking fuel" .1
 		weapon
 			"blast radius" 60
 			"shield damage" 600
@@ -416,7 +425,7 @@ ship "Empire Raven"
 	attributes
 		category "Light Warship"
 		licenses
-			"Empire Contributor"
+			"Empire Navy"
 		"cost" 2570000
 		"shields" 6500
 		"hull" 2400
@@ -430,6 +439,9 @@ ship "Empire Raven"
 		"outfit space" 320
 		"weapon capacity" 100
 		"engine capacity" 100
+		"cloak" .02
+		"cloaking energy" 5
+		"cloaking fuel" .1
 		weapon
 			"blast radius" 60
 			"shield damage" 600
@@ -474,7 +486,7 @@ ship "Empire Quicksilver"
 	attributes
 		category "Fighter"
 		licenses
-			"Empire Contributor"
+			"Empire Navy"
 		"cost" 1100000
 		"shields" 10000
 		"hull" 1500
@@ -529,7 +541,7 @@ ship "Empire Drone"
 	attributes
 		category "Drone"
 		licenses
-			"Empire Contributor"
+			"Empire Navy"
 		"cost" 93000
 		"hull" 700
 		"automaton" 1
@@ -571,7 +583,7 @@ ship "Empire Fighter"
 	attributes
 		category "Fighter"
 		licenses
-			"Empire Contributor"
+			"Empire Navy"
 		"cost" 149000
 		"shields" 2000
 		"hull" 500
