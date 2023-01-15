@@ -331,7 +331,7 @@ mission "Empire: Ring Assist"
 		fleet mineria-transports
 		fleet mineria-transports
 
-mission "Empire: Scientists Researches in Ember Waste"
+mission "Empire: Scientists Researches in Ember Waste 1"
 	landing
 	description "Go to Gerenus in the Ember Waste and scan a Void Sprite and its outfits for the Empire Scientists. Then Land on <planet> to get your payment of <payment>."
 	source
@@ -350,6 +350,22 @@ mission "Empire: Scientists Researches in Ember Waste"
 		payment 1000000
 		"reputation: Cromha Empire" += 50
 		"empire jobs" += 1
+	npc "scan outfits" save
+		government "Unknow"
+		system "Gerenus"
+		personality staying timid target
+		ship "Pincer Beast" "Void Sprite"
+		dialog "You scan the void sprite. Time to land on <destination>"
+mission "Empire: Scientists Researches in Ember Waste 2"
+	landing
+	description "Go kill an Void Sprite in Gerenus system then out the rests of the creature on your cargo and bring back it to the scientist. Payment is <payment>."
+	source
+		government "Cromha Empire"
+		not attributes uninhabited
+	destination "Empire Listening Station"
+	to offer
+		has "Empire: Scientists Researches in Ember Waste 1: done"
+	on offer
 		conversation
 			`After landing you go to the scientists hall and give the results to the head scientist. He greets you and give you the payment of <payment>. After this he put the hard disk in his huge computer and open the results.`
 			`	He opens it and he cannot make any sens of what's the scans says. The scans seems to be incorrect, not logics. After a second he says that the creature must have some sort of organic system that jams the scanner.`
@@ -367,13 +383,21 @@ mission "Empire: Scientists Researches in Ember Waste"
 				`	"Kill a living creature? Never! i'm leaving now."`
 					flee
 			label yes
-			``
-	npc "scan outfits" save
+			`	"Great! You can go right now"`
+				accept
+	on complete
+		payment
+		payment 5000000
+		"reputation: Cromha Empire" += 50
+		"empire jobs" += 1
+	npc kill
 		government "Unknow"
 		system "Gerenus"
 		personality staying timid target
 		ship "Pincer Beast" "Void Sprite"
-		dialog "You scan the void sprite. Time to land on <destination>"
+		conversation
+			scene "thumbnail/void sprite adult"
+			`You bring the rests of the Void Sprite to your ship cargo. Time to bring it to the scientist in <planet>.`
 # Events
 mission "Discovered Empire Space"
 	landing
