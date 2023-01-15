@@ -527,8 +527,15 @@ system "Ring Wartrue"
 	pos 530 -490
 	attributes inhabited rich research military "far empire space"
 	government "Cromha Empire"
-	fleet cromha-fleet 1100
-	fleet mineria-transports 900
+	fleet cromha-fleet 2000
+	fleet mineria-transports 1600
+	fleet "Small Hai" 2200
+	fleet "Small Unfettered" 3000
+	fleet "Quarg" 4300
+	fleet "Wanderer Freight" 2600
+	fleet "Wanderer Defense" 2600
+	fleet "Small Remnant" 4300
+	fleet "Large Remnant" 5000
 	haze _menu/haze-cyan
 	link "All'Estros"
 	trade "Heavy Metals" 152
