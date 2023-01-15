@@ -125,7 +125,7 @@ outfit `RC-220 Atomic Thruster`
 	"afterburner effect" "ionic afterburner"
 	description "These thrusters are the largest of the Hai atomic thrusters, and one of the most powerful thrusters in known space. Beat out by only the largest human atomic thrusters, these massive engines provide enough thrust to push around even the largest of ships as if they were fighters."
 
-outfit `RC-120 Reverse Thruster`
+outfit `RX-120 Reverse Thruster`
 	category "Engines"
 	"cost" 150000
 	thumbnail "outfit/tiny atomic reverse empire"
@@ -140,7 +140,7 @@ outfit `RC-120 Reverse Thruster`
 	"reverse flare sound" "atomic tiny"
 	description "These tiny reverse thrusters allow even the smallest of Hai ships additional maneuverability beyond normal steering. Many young Hai find these an invaluable investment when first setting out on their own."
 
-outfit `RC-180 Reverse Thruster`
+outfit `RX-180 Reverse Thruster`
 	category "Engines"
 	"cost" 300000
 	thumbnail "outfit/small atomic reverse empire"
