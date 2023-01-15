@@ -35,7 +35,6 @@ ship "Black Manta (Prototype)"
 		"Empire Particle gun" 6
 		"Modified Plasma Repeater" 2
 		"Proton Gun"
-		"Nuclear Missile" 1
 		"Empire Torpedo Bank" 2
 		"Empire Torpedo Missile" 120
 		"Empire Torpedo Storage Rack" 8
