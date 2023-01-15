@@ -68,7 +68,7 @@ outfitter Basic-engines-outfitter
 	`RC-165 Atomic Steering`
 	`RC-180 Atomic Thruster`
 	`RC-185 Atomic Steering`
-	`RC-120 Reverse Thruster`
+	`XC-120 Reverse Thruster`
 outfitter Advanced-ammo-outfitter
 	"Empire Torpedo Missile"
 	"Empire Torpedo Storage Rack"
@@ -178,8 +178,8 @@ outfitter Advanced-engines-outfitter
 	`RC-205 Atomic Steering`
 	`RC-220 Atomic Thruster`
 	`RC-225 Atomic Steering`
-	`RC-120 Reverse Thruster`
-	`RC-180 Reverse Thruster`
+	`XC-120 Reverse Thruster`
+	`XC-180 Reverse Thruster`
 shipyard Cromha-basic-shipyard
 	"Blackbird"
 	"Star Queen"
