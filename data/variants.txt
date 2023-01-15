@@ -51,3 +51,8 @@ ship "Gunboat (modified)"
 	"final explode" "final explosion small"
     description "This is a non-licensied model of the original Gunboat."
 	description "The Navy Gunboat is designed for engaging targets at short range, and also serves as the Navy's mobile sensor platform, scanning ships for illegal equipment or cargo."
+
+ship "Black Manta (Prototype)" "Black Manta (Nuclear Missile)"
+	outfits
+		"Nuclear Missile"
+	gun 0 0 "Nuclear Missile"

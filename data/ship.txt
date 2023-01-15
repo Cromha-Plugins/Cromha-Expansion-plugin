@@ -23,7 +23,7 @@ ship "Black Manta (Prototype)"
 		"cloaking fuel" .1
 		"fuel capacity" 800
 		"cargo space" 200
-		"outfit space" 1589
+		"outfit space" 1856
 		"weapon capacity" 500
 		"engine capacity" 450
 		weapon
@@ -59,9 +59,9 @@ ship "Black Manta (Prototype)"
 		"Multiphasic Cooler"
 		"Quantum Keystone"
 		
-		`RC-400 Atomic Thruster`
-		`RC-405 Atomic Steering`
-		`RC-400 Reverse Thruster`
+		"RC-220 Atomic Thruster" 2
+		"RC-225 Atomic Steering" 2
+		"RC-180 Reverse Thruster" 2
 		"Laser Rifle" 10
 		"Pulse Rifle" 10
 		"Security Station" 3
@@ -94,7 +94,6 @@ ship "Black Manta (Prototype)"
 	gun -25.5 -36 "Empire Torpedo Bank"
 	gun 25.5 -36 "Empire Torpedo Bank"
 	gun 0 -103 "Proton Gun"
-	gun 0 0 "Nuclear Missile"
 	gun 16 -35 "Antimatter Railgun"
 	gun -16 -35 "Antimatter Railgun"
 	bay "Fighter" 77.5 -30.5
