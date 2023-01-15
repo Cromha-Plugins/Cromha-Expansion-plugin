@@ -584,7 +584,7 @@ system "Ring Wartrue"
 		distance 812
 		period 349.820
 		offset 120
-	object
+	object "Empire Unfettered Ring"
 		sprite planet/ringworld
 			scale 0.5
 		distance 812
@@ -602,7 +602,7 @@ system "Ring Wartrue"
 		distance 812
 		period 349.820
 		offset 180
-	object
+	object "Empire Quarg Ring"
 		sprite planet/ringworld
 			scale 0.5
 		distance 812
@@ -620,7 +620,7 @@ system "Ring Wartrue"
 		distance 812
 		period 349.820
 		offset 240
-	object
+	object "Empire Wanderer Ring"
 		sprite planet/ringworld
 			scale 0.5
 		distance 812
@@ -650,7 +650,7 @@ system "Ring Wartrue"
 		distance 812
 		period 349.820
 		offset 340
-	object
+	object "Empire Remnant Ring"
 		sprite planet/panels1
 			scale 0.5
 		distance 800
@@ -876,6 +876,63 @@ planet "Empire Hai Ring"
 	landscape "land/Empire_ring"
 	outfitter Base-outfitter
 	outfitter "Hai Advanced"
+	outfitter Basic-ammo-outfitter
+	outfitter Basic-systems-outfitter
+	outfitter Basic-power-outfitter
+	description "The biggest ring station of the whole galaxy. It is in the center of the Far Empire Space. You will ind many missions and advanced outfits here. There is also lot of criminality so security is at the most."
+	spaceport "A huge spaceport where you can find almost anything you can imagine: Bars, pretty ships, hotels and even more. It is an easy place to mae money by completing missions."
+	bribe 1.7
+	security 1.8
+
+planet "Empire Unfettered Ring"
+	government "Hai (Unfettered)"
+	attributes inhabited rich north "far empire space" station unfettered hai
+	landscape "land/Empire_ring"
+	outfitter Base-outfitter
+	outfitter "Unfettered Basics"
+	outfitter Basic-ammo-outfitter
+	outfitter Basic-systems-outfitter
+	outfitter Basic-power-outfitter
+	description "The biggest ring station of the whole galaxy. It is in the center of the Far Empire Space. You will ind many missions and advanced outfits here. There is also lot of criminality so security is at the most."
+	spaceport "A huge spaceport where you can find almost anything you can imagine: Bars, pretty ships, hotels and even more. It is an easy place to mae money by completing missions."
+	bribe 1.7
+	security 1.8
+
+planet "Empire Quarg Ring"
+	government "Quarg"
+	attributes inhabited rich north "far empire space" station quarg
+	landscape "land/Empire_ring"
+	outfitter Base-outfitter
+	outfitter Quarg-Basics
+	outfitter Basic-ammo-outfitter
+	outfitter Basic-systems-outfitter
+	outfitter Basic-power-outfitter
+	description "The biggest ring station of the whole galaxy. It is in the center of the Far Empire Space. You will ind many missions and advanced outfits here. There is also lot of criminality so security is at the most."
+	spaceport "A huge spaceport where you can find almost anything you can imagine: Bars, pretty ships, hotels and even more. It is an easy place to mae money by completing missions."
+	bribe 1.7
+	security 1.8
+
+planet "Empire Wanderer Ring"
+	government "Wanderer"
+	attributes inhabited rich north "far empire space" station wanderer
+	landscape "land/Empire_ring"
+	outfitter Base-outfitter
+	outfitter "Wanderer Basics"
+	outfitter Basic-ammo-outfitter
+	outfitter Basic-systems-outfitter
+	outfitter Basic-power-outfitter
+	description "The biggest ring station of the whole galaxy. It is in the center of the Far Empire Space. You will ind many missions and advanced outfits here. There is also lot of criminality so security is at the most."
+	spaceport "A huge spaceport where you can find almost anything you can imagine: Bars, pretty ships, hotels and even more. It is an easy place to mae money by completing missions."
+	bribe 1.7
+	security 1.8
+
+planet "Empire Remnant Ring"
+	government "Remnant"
+	attributes inhabited rich north "far empire space" station remnant
+	landscape "land/Empire_ring"
+	outfitter Base-outfitter
+	outfitter "Remnant"
+	outfitter "Void Sprite Parts"
 	outfitter Basic-ammo-outfitter
 	outfitter Basic-systems-outfitter
 	outfitter Basic-power-outfitter

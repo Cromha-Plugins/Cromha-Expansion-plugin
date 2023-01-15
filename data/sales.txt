@@ -180,6 +180,11 @@ outfitter Advanced-engines-outfitter
 	`RC-225 Atomic Steering`
 	`RX-120 Reverse Thruster`
 	`RX-180 Reverse Thruster`
+outfitter Quarg-Basics
+	"Nanotech Battery"
+	"Antimatter Core"
+	"Quarg Skylance"
+	"Quantum Shield Generator"
 shipyard Cromha-basic-shipyard
 	"Blackbird"
 	"Star Queen"
