@@ -60,7 +60,7 @@ ship "Black Manta (Prototype)"
 		
 		"RC-220 Atomic Thruster" 2
 		"RC-225 Atomic Steering" 2
-		"RC-180 Reverse Thruster" 2
+		"XC-180 Reverse Thruster" 2
 		"Laser Rifle" 10
 		"Pulse Rifle" 10
 		"Security Station" 3
@@ -176,7 +176,7 @@ ship "Heavy Empire Destroyer"
 		
 		`RC-220 Atomic Thruster`
 		`RC-225 Atomic Steering`
-		"RC-180 Reverse Thruster"
+		"XC-180 Reverse Thruster"
 		"Plasma Drive"
 
 	# Thrusters
