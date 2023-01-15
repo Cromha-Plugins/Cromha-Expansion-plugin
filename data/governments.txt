@@ -28,7 +28,7 @@ government "Cromha Empire"
 		scan 0
 		atrocity 10
 	swizzle 1
-	color 0 255 255
+	color 0 255 255 1
 	"provoke on scan"
 	bribe 2
 	fine 2
@@ -52,7 +52,7 @@ government "Empire Rebels"
 		"Hai (Unfettered)" -1
 	raid cromha-fleet
 	swizzle 3
-	color 0 92 92
+	color 0 255 0 1
 	"provoke on scan"
 	bribe 1
 	fine 2
@@ -61,6 +61,6 @@ government "Mineria colonnies"
 	"display name" "Mineria colonnies"
 	swizzle 1
 	"provoke on scan"
-	color 191 4 135
+	color 191 4 135 1
 	bribe 2
 	fine 2
