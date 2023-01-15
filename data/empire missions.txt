@@ -333,7 +333,7 @@ mission "Empire: Ring Assist"
 
 mission "Empire: Scientists Researches in Ember Waste"
 	landing
-	description "Go to Generus in the Ember Waste and scan a Void Sprite and its outfits for the Empire Scientists. Then Land on <planet> to get your payment of <payment>."
+	description "Go to Gerenus in the Ember Waste and scan a Void Sprite and its outfits for the Empire Scientists. Then Land on <planet> to get your payment of <payment>."
 	source
 		government "Cromha Empire"
 		not attributes uninhabited
@@ -350,14 +350,30 @@ mission "Empire: Scientists Researches in Ember Waste"
 		payment 1000000
 		"reputation: Cromha Empire" += 50
 		"empire jobs" += 1
-		dialog "t o be replaced"
+		conversation
+			`After landing you go to the scientists hall and give the results to the head scientist. He greets you and give you the payment of <payment>. After this he put the hard disk in his huge computer and open the results.`
+			`	He opens it and he cannot make any sens of what's the scans says. The scans seems to be incorrect, not logics. After a second he says that the creature must have some sort of organic system that jams the scanner.`
+			`	"I have at least two good things: This creature appears to have an outer shell made of small asteroids held together by strands of carbon nanotubes. But also there is no apparent hyperdrive mechanism, but somehow it is able to open a hyperspace window." say the scientist`
+			choice
+				`	"It sounds really interesting, can you tell me more?"`
+					goto next
+				`	"Is there any way to make better scans of this creature?"`
+					goto next
+			label next
+			`	"I see these creatures are interesting you. For now I can't tell you more but i have smoething in my head: if you could kill one and puts the rests of the creature in your argo, i would be able to learn more stuff. And of course as always you will be well recompensed."`
+			choice
+				`	"Of course, I'll be glad to help! I'm impatient to learn more stuff about it"`
+					goto yes
+				`	"Kill a living creature? Never! i'm leaving now."`
+					flee
+			label yes
+			``
 	npc "scan outfits" save
-		government "Unknown"
-		system "Generus"
-		personality staying target
+		government "Unknow"
+		system "Gerenus"
+		personality staying timid target
 		ship "Pincer Beast" "Void Sprite"
-		dialog "You scan the Void Sprite. Time to land on <destination>."
-
+		dialog "You scan the void sprite. Time to land on <destination>"
 # Events
 mission "Discovered Empire Space"
 	landing
