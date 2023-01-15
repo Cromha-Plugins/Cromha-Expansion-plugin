@@ -66,6 +66,7 @@ ship "Black Manta (Prototype)"
 		"Security Station" 3
 		"Fragmentation Grenades" 5
 		"Security Forcefield" 3
+		"Countermesure Module"
 	# Back
 	engine 0 108.5
 		zoom 0.8
@@ -179,6 +180,7 @@ ship "Heavy Empire Destroyer"
 		`RC-225 Atomic Steering`
 		"RX-180 Reverse Thruster"
 		"Plasma Drive"
+		"Countermesure Module" 3
 
 	# Thrusters
 	engine -21.5 220
@@ -329,6 +331,7 @@ ship "Empire Destroyer"
 		`RC-200 Atomic Thruster`
 		`RC-205 Atomic Steering`
 		"Plasma Drive"
+		"Countermesure Module" 2
 	engine -16.5 143
 	engine 16.5 143
 	gun -16 0 "Nuclear Missile"
@@ -411,6 +414,7 @@ ship "Light Empire Destroyer"
 		`RC-180 Atomic Thruster`
 		`RC-185 Atomic Steering`
 		"Plasma Drive"
+		"Countermesure Module" 2
 		
 	engine -15.5 115
 	engine 15.5 115
@@ -487,6 +491,7 @@ ship "Empire Raven"
 		`RC-180 Atomic Thruster`
 		`RC-185 Atomic Steering`
 		"Compact Plasma Drive"
+		"Countermesure Module"
 		
 	engine -9.5 63
 	engine 9.5 63
@@ -545,6 +550,7 @@ ship "Empire Quicksilver"
 		`RC-160 Atomic Thruster`
 		`RC-165 Atomic Steering`
 		"Compact Plasma Drive"
+		"Countermesure Module"
 		
 	engine -15.5 54
 	engine 15.5 54
