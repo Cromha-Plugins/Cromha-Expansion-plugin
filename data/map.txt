@@ -548,103 +548,103 @@ system "Ring Wartrue"
 			scale 0.5
 		distance 812
 		period 349.820
-	object "Empire Ring"
+	object
 		sprite planet/ringworld
 			scale 0.5
 		distance 812
 		period 349.820
 		offset 20
-	object "Empire Ring"
+	object
 		sprite planet/ringworld
 			scale 0.5
 		distance 812
 		period 349.820
 		offset 40
-	object "Empire Ring"
+	object
 		sprite planet/ringworld
 			scale 0.5
 		distance 812
 		period 349.820
 		offset 60
-	object "Empire Ring"
+	object
 		sprite planet/ringworld
 			scale 0.5
 		distance 812
 		period 349.820
 		offset 80
-	object "Empire Ring"
+	object "Empire Hai Ring"
 		sprite planet/ringworld
 			scale 0.5
 		distance 812
 		period 349.820
 		offset 100
-	object "Empire Ring"
+	object
 		sprite planet/ringworld
 			scale 0.5
 		distance 812
 		period 349.820
 		offset 120
-	object "Empire Ring"
+	object
 		sprite planet/ringworld
 			scale 0.5
 		distance 812
 		period 349.820
 		offset 140
-	object "Empire Ring"
+	object
 		sprite planet/ringworld
 			scale 0.5
 		distance 812
 		period 349.820
 		offset 160
-	object "Empire Ring"
+	object
 		sprite planet/ringworld
 			scale 0.5
 		distance 812
 		period 349.820
 		offset 180
-	object "Empire Ring"
+	object
 		sprite planet/ringworld
 			scale 0.5
 		distance 812
 		period 349.820
 		offset 200
-	object "Empire Ring"
+	object
 		sprite planet/ringworld
 			scale 0.5
 		distance 812
 		period 349.820
 		offset 220
-	object "Empire Ring"
+	object
 		sprite planet/ringworld
 			scale 0.5
 		distance 812
 		period 349.820
 		offset 240
-	object "Empire Ring"
+	object
 		sprite planet/ringworld
 			scale 0.5
 		distance 812
 		period 349.820
 		offset 260
-	object "Empire Ring"
+	object
 		sprite planet/ringworld
 			scale 0.5
 		distance 812
 		period 349.820
 		offset 280
-	object "Empire Ring"
+	object
 		sprite planet/ringworld
 			scale 0.5
 		distance 812
 		period 349.820
 		offset 300
-	object "Empire Ring"
+	object
 		sprite planet/ringworld
 			scale 0.5
 		distance 812
 		period 349.820
 		offset 320
-	object "Empire Ring"
+	object
 		sprite planet/ringworld
 			scale 0.5
 		distance 812
@@ -856,6 +856,7 @@ system "Ring Wartrue"
 		offset 237
 
 planet "Empire Ring"
+	government "Cromha Empire"
 	attributes inhabited rich north "far empire space" station
 	outfitter Base-outfitter
 	outfitter Advanced-ammo-outfitter
@@ -864,6 +865,20 @@ planet "Empire Ring"
 	outfitter Advanced-power-outfitter
 	outfitter Advanced-engines-outfitter
 	landscape "land/Empire_ring"
+	description "The biggest ring station of the whole galaxy. It is in the center of the Far Empire Space. You will ind many missions and advanced outfits here. There is also lot of criminality so security is at the most."
+	spaceport "A huge spaceport where you can find almost anything you can imagine: Bars, pretty ships, hotels and even more. It is an easy place to mae money by completing missions."
+	bribe 1.7
+	security 1.8
+
+planet "Empire Hai Ring"
+	government "Hai"
+	attributes inhabited rich north "far empire space" station hai
+	landscape "land/Empire_ring"
+	outfitter Base-outfitter
+	outfitter "Hai Advanced"
+	outfitter Basic-ammo-outfitter
+	outfitter Basic-systems-outfitter
+	outfitter Basic-power-outfitter
 	description "The biggest ring station of the whole galaxy. It is in the center of the Far Empire Space. You will ind many missions and advanced outfits here. There is also lot of criminality so security is at the most."
 	spaceport "A huge spaceport where you can find almost anything you can imagine: Bars, pretty ships, hotels and even more. It is an easy place to mae money by completing missions."
 	bribe 1.7
