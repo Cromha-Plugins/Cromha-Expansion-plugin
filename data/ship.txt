@@ -7,7 +7,7 @@ ship "Black Manta (Prototype)"
 	"never disabled"
 	"swizzle" 1
 	attributes
-		category "Heavy Warship"
+		category "Empire Warship"
 		licenses
 			"Empire Black Manta"
 		"cost" 50000000
@@ -129,7 +129,7 @@ ship "Heavy Empire Destroyer"
 	"never disabled"
 	"swizzle" 1
 	attributes
-		category "Heavy Warship"
+		category "Destroyer"
 		licenses
 			"Empire Navy"
 		"cost" 37200000
@@ -154,94 +154,122 @@ ship "Heavy Empire Destroyer"
 			"hull damage" 2500
 			"hit force" 5500
 	outfits
-		"Proton Turret" 8
-		"Sidewinder Missile Launcher" 9
-		"Sidewinder Missile" 1200
-		"Multiphasic Anti-Missile" 4
-		"Multiphasic ammo" 6600
+		"Multiphasic Anti-Missile" 8
+		"Multiphasic ammo" 4800
 		"Nuclear Missile" 2
-		
-		"RC-X4 Multiphasic Reactor" 2
-		"Empire Hai Valley Batteries" 6
-		"Catalytic Ramscoop"
-		"Asteroid Scanner"
-		"Empire Shielding Core"
-		"Large Radar Jammer" 4
-		"Surveillance Pod"
-		"Tactical Scanner"
-		"Multiphasic Cooler" 2
-		"Brig"
+		"Electron Turret" 10
+		"Empire Torpedo Bank" 6
+		"Empire Torpedo Storage Rack" 30
+		"Empire Torpedo Missile" 420
+
+		"RC-X4 Multiphasic Reactor" 8
+		"Empire Hai Valley Batteries" 10
+		"Catalytic Ramscoop" 2
+		"Empire Shielding Core" 4
+		"Multiphasic Cooler" 12
+		"Brig" 20
 		"Laser Rifle" 40
 		"Fragmentation Grenades" 40
 		"Pulse Rifle" 25
 		"Security Station" 10
-		"Tactical Scanner"
-		"Liquid Helium Cooler"
+		"Multiphasic Scanner" 3
+		"Fuel Pod" 5
+		"Quantum Keystone"
 		
 		`RC-220 Atomic Thruster`
 		`RC-225 Atomic Steering`
 		"RC-180 Reverse Thruster"
 		"Plasma Drive"
-		
-	turret -35.5 -11 "Multiphasic Anti-Missile"
-	turret 35.5 -11 "Multiphasic Anti-Missile"
-	turret -36 31 "Multiphasic Anti-Missile"
-	turret 36 31 "Multiphasic Anti-Missile"
-	engine -18 218
-	engine -24 216
-	engine 17 219.5
-	engine 24 218.5
-	engine -41.5 210.5
-	engine -50.5 210
-	engine 40 211
-	engine 48 211
-	gun -86.5 36 "Sidewinder Missile Launcher"
-	gun -73 25 "Sidewinder Missile Launcher"
-	gun 71 24.5 "Sidewinder Missile Launcher"
-	gun 83 40 "Sidewinder Missile Launcher"
-	gun 59 15 "Sidewinder Missile Launcher"
-	gun -60.5 13 "Sidewinder Missile Launcher"
-	gun -0.5 -217.5 "Sidewinder Missile Launcher"
-	gun 7.5 -218.5 "Sidewinder Missile Launcher"
-	gun -4.5 -218 "Sidewinder Missile Launcher"
-	gun 0 0 "Nuclear Missile"
-	gun 0 0 "Nuclear Missile"
-	turret -102.5 118 "Proton Turret"
-	turret -103 96 "Proton Turret"
-	turret -85.5 80.5 "Proton Turret"
-	turret -70.5 67 "Proton Turret"
-	turret 102.5 118 "Proton Turret"
-	turret 103 96 "Proton Turret"
-	turret 85.5 80.5 "Proton Turret"
-	turret 70.5 67 "Proton Turret"
-	bay "Fighter" -38.5 -64.5
-	bay "Fighter" 38.5 -64.5
-	bay "Fighter" -50 40.5
-	bay "Fighter" 50 40.5
-	bay "Fighter" -71.5 -49.5
-	bay "Fighter" 71.5 -49.5
-	bay "Fighter" -115 55
-	bay "Fighter" 115 55
-	bay "Fighter" -38.5 -64.5
-	bay "Fighter" 38.5 -64.5
-	bay "Fighter" -50 40.5
-	bay "Fighter" 50 40.5
-	bay "Fighter" -71.5 -49.5
-	bay "Fighter" 71.5 -49.5
-	bay "Fighter" -115 55
-	bay "Fighter" 115 55
-	bay "Fighter" -38.5 -64.5
-	bay "Fighter" 38.5 -64.5
-	bay "Fighter" -50 40.5
-	bay "Fighter" 50 40.5
-	bay "Fighter" -71.5 -49.5
-	bay "Fighter" 71.5 -49.5
-	bay "Fighter" -115 55
-	bay "Fighter" 115 55
-	bay "Drone" -85 55
-	bay "Drone" 85 55
-	bay "Drone" -85 55
-	bay "Drone" 85 55
+
+	# Thrusters
+	engine -21.5 220
+		zoom 1.5
+	engine -46.5 211.5
+		zoom 1.5
+	engine 21.5 220
+		zoom 1.5
+	engine 46.5 211.5
+		zoom 1.5
+	# Left Steering
+	"steering engine" 40.5 -32.5
+		zoom 0.5
+		angle 300
+		left
+	"steering engine" 36.5 -53.5
+		zoom 0.5
+		angle 300
+		left
+	"steering engine" 34 -72.5
+		zoom 0.5
+		angle 300
+		left
+	"steering engine" 30 -92
+		zoom 0.5
+		angle 300
+		left
+	# Right Steering
+	"steering engine" -40.5 -32.5
+		zoom 0.5
+		angle 60
+		right
+	"steering engine" -36.5 -53.5
+		zoom 0.5
+		angle 60
+		right
+	"steering engine" -34 -72.5
+		zoom 0.5
+		angle 60
+		right
+	"steering engine" -30 -92
+		zoom 0.5
+		angle 60
+		right
+	turret -32.5 -110.5 "Multiphasic Anti-Missile"
+	turret 32.5 -110.5 "Multiphasic Anti-Missile"
+	turret -54.5 6.5 "Multiphasic Anti-Missile"
+	turret 54.5 6.5 "Multiphasic Anti-Missile"
+	turret -102 113.5 "Multiphasic Anti-Missile"
+	turret 102 113.5 "Multiphasic Anti-Missile"
+	turret -37 177 "Multiphasic Anti-Missile"
+	turret 37 177 "Multiphasic Anti-Missile"
+	turret -37 -9.5 "Electron Turret"
+	turret -37.5 32 "Electron Turret"
+	turret -24 108 "Electron Turret"
+	turret -76.5 108.5 "Electron Turret"
+	turret 37 -9.5 "Electron Turret"
+	turret 37.5 32 "Electron Turret"
+	turret 24 108 "Electron Turret"
+	turret 76.5 108.5 "Electron Turret"
+	turret -1.5 11 "Electron Turret"
+	turret -0.5 -148.5 "Electron Turret"
+	gun -85 37.5 "Empire Torpedo Bank"
+	gun -73 24.5 "Empire Torpedo Bank"
+	gun -60 15.5 "Empire Torpedo Bank"
+	gun 85 37.5 "Empire Torpedo Bank"
+	gun 73 24.5 "Empire Torpedo Bank"
+	gun 60 15.5 "Empire Torpedo Bank"
+	gun 52.5 6 "Nuclear Missile"
+		over
+	gun -52.5 6 "Nuclear Missile"
+		over
+	bay "Empire Warship" 74.5 92.5
+		under
+	bay "Empire Warship" -74.5 92.5
+		under
+	bay "Empire Warship" 19.5 89
+		over
+	bay "Empire Warship" -19.5 89
+		over
+	bay "Empire Warship" 21 -46.5
+		over
+	bay "Empire Warship" -21 -46.5
+		over
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
 	leak "leak" 30 50
 	leak "flame" 30 80
 	leak "big leak" 30 30
@@ -260,7 +288,7 @@ ship "Empire Destroyer"
 	"never disabled"
 	"swizzle" 1
 	attributes
-		category "Heavy Warship"
+		category "Destroyer"
 		licenses
 			"Empire Navy"
 		"cost" 10930000
@@ -343,7 +371,7 @@ ship "Light Empire Destroyer"
 	"never disabled"
 	"swizzle" 1
 	attributes
-		category "Medium Warship"
+		category "Destroyer"
 		licenses
 			"Empire Navy"
 		"cost" 3120000
@@ -423,7 +451,7 @@ ship "Empire Raven"
 	"never disabled"
 	"swizzle" 1
 	attributes
-		category "Light Warship"
+		category "Empire Warship"
 		licenses
 			"Empire Navy"
 		"cost" 2570000
@@ -484,7 +512,7 @@ ship "Empire Quicksilver"
 	"never disabled"
 	"swizzle" 1
 	attributes
-		category "Fighter"
+		category "Empire Warship"
 		licenses
 			"Empire Navy"
 		"cost" 1100000
