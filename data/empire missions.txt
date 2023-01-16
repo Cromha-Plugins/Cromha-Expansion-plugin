@@ -518,6 +518,7 @@ event "label far empire space"
 
 event "Black Manta Building Station Appear"
 	system "Delia"
+		fleet cromha-fleet 5000
 		object "Black Manta Spacial Dock"
 			sprite planet/station7
 			distance 1400
