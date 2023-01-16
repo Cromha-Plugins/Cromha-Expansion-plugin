@@ -348,7 +348,7 @@ mission "Empire: Scientists Researches in Ember Waste 1"
 	on complete
 		payment
 		payment 1000000
-		"reputation: Cromha Empire" += 50
+		"reputation: Cromha Empire" += 10
 		"empire jobs" += 1
 	npc "scan outfits" save
 		government "Unknow"
@@ -388,7 +388,7 @@ mission "Empire: Scientists Researches in Ember Waste 2"
 	on complete
 		payment
 		payment 5000000
-		"reputation: Cromha Empire" += 50
+		"reputation: Cromha Empire" += 10
 		"empire jobs" += 1
 	npc kill
 		government "Unknow"
@@ -398,6 +398,95 @@ mission "Empire: Scientists Researches in Ember Waste 2"
 		conversation
 			scene "thumbnail/void sprite adult"
 			`You bring the rests of the Void Sprite to your ship cargo. Time to bring it to the scientist in <planet>.`
+
+mission "Empire: Search for Void Sprites"
+	landing
+	description "Search for new types of Void Sprites in the following systems: Gerenus, Esix, Nona, Paeli, Polerius."
+	source
+		government "Cromha Empire"
+		not attributes uninhabited
+	destination "Empire Listening Station"
+	to offer
+		has "Empire: Scientists Researches in Ember Waste 2: done"
+	on offer
+		conversation
+			`You depose the rests of the Void Sprite in the station spaceport so the scientists can analyse it. You see the head scientist going foward you. He greets you and says:`
+			`	"Wow! I didn't imagine that the Void Sprites were this big! Anyway, i want to thank you a lot! You helped me a lot. Here is 5M credits, as payment. For now i don't have any missions for you. Just search in the Ember Waste for new types of creatures then come back here. Here is a list of the systems where you can search for." And he gives a small piece of paper.`
+			`	"You are very genereous thank you! I will explore the Ember Waste as you asked. I hope you will contact me the soonest posible. This Void Sprite thing is so interesting!" you say with a big smile."`
+			`	You two greets again and he leaves. You look at the piece of paper and can read:`
+			`	"-Gerenus`
+			`	 -Esix"`
+			`	 -Nona`
+			`	 -Paeli`
+			`	 -Polerius"`
+				accept
+	on complete
+		payment
+		payment 5000000
+		"reputation: Cromha Empire" += 10
+		"empire jobs" += 1
+	npc "scan outfits" save
+		government "Unknow"
+		system "Gerenus"
+		personality staying target timid
+		fleet Void-sprite-family
+	npc "scan outfits" save
+		government "Unknow"
+		system "Esix"
+		personality staying target timid
+		fleet Void-sprite-family
+	npc "scan outfits" save
+		government "Unknow"
+		system "Nona"
+		personality staying target timid
+		fleet Void-sprite-family
+	npc "scan outfits" save
+		government "Unknow"
+		system "Paeli"
+		personality staying target timid
+		fleet Void-sprite-family
+	npc "scan outfits" save
+		government "Unknow"
+		system "Polerius"
+		personality staying target timid
+		fleet Void-sprite-family
+
+mission "Empire: Get Manta Plans"
+	landing
+	description "Disable the lost Syndicate Manta ship at Edusa, then board it an stole the plans of the ship. Bring the plans back to <destination>. Payment is <payment>. You can keep the ship if you'd like to."
+	source
+		government "Cromha Empire"
+		not attributes uninhabited
+	destination "Empire Listening Station"
+	to offer
+		has "Empire: Search for Void Sprites: done"
+	on offer
+		conversation
+			`As always, you enter the station, go see the head scientist and give him your results. You say:`
+			`	"I searched in the systems that you requested and scanned all outfits of the Void Sprites i met. Also i found that there was infant Void Sprite. Unlike adult Void Sprites, the infant ones don't have a that much developped system so the scans are more sucessful that the first ones. I hope it will help you."`
+			`	"Of course, it's amazing" says the scientist. "I'll analyse these scans later. I need your help please. As you know the Void Sprites are very developped and The Empire want from us to create the best ship ever with the Void Sprites systems. But for do that we need a new model for the ship. What we want from you is to board a detected Syndicate Manta lost in the Ember Waste in the Edusa system, board it and stole the ship's plans. We will pay you <payment>. You could keep the ship if you'd like too."`
+			choice
+				`	"OK, sounds great for me"`
+					accept
+				`	"I'm not sure about attacking a Syndicate ship, sorry but i'm the wrong person"`
+					decline
+	on complete
+		payment
+		payment 10000
+		"reputation: Cromha Empire" += 10
+		"empire jobs" += 1
+		event "Black Manta Building Station Appear"
+		conversation
+			`"Perfect!" says the scientist "You can leave the Ember Waste, we will avert you when the ship will be finished. I heard that The Empier had serious problems recently with the Rebels. You should help them, the Empire Navy pays very well. Anyway, it's been a pleasure!"`
+			`	"Also, you can come whenever you want in the Black Manta Spacial Dock in the Delia system."`
+			`	He leaves the room and let you <payment>.`
+	npc board
+		government "Syndicate"
+		personality timid target staying
+		system "Edusa"
+		ship "Manta" "small syndicate"
+		dialog "You board the ship and stole the ship's plans."
+
 # Events
 mission "Discovered Empire Space"
 	landing
@@ -426,3 +515,14 @@ mission "Discovered Far Empire Space"
 event "label far empire space"
 	galaxy "far empire space"
 		sprite "label/far_empire"
+
+event "Black Manta Building Station Appear"
+	system "Delia"
+		object "Black Manta Spacial Dock"
+			sprite planet/station7
+			distance 1400
+			period 110
+			object
+				sprite planet/station7c
+				distance 0
+				period 110
