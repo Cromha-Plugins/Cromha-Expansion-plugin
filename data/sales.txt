@@ -119,6 +119,7 @@ outfitter Advanced-weapon-outfitter
 	"Nuclear Missile"
 	"Thunderhead Launcher"
 	"Ion Proton Gun"
+	"Ion Proton Turret"
 outfitter Advanced-systems-outfitter
 	"Asteroid Scanner"
 	"Cargo Expansion"
