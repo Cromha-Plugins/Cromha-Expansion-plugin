@@ -66,7 +66,7 @@ ship "Black Manta (Prototype)"
 		"Security Station" 3
 		"Fragmentation Grenades" 5
 		"Security Forcefield" 3
-		"Countermesure Module"
+		"Countermesure Module" 2
 	# Back
 	engine 0 108.5
 		zoom 0.8
@@ -180,7 +180,7 @@ ship "Heavy Empire Destroyer"
 		`RC-225 Atomic Steering`
 		"RX-180 Reverse Thruster"
 		"Plasma Drive"
-		"Countermesure Module" 3
+		"Countermesure Module" 4
 
 	# Thrusters
 	engine -21.5 220
