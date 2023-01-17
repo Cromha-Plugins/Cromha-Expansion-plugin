@@ -34,6 +34,49 @@ effect "empire particle impact"
 	"random spin" 10
 	"velocity scale" -.05
 
+outfit "Ion Proton Gun"
+	category "Guns"
+	cost 300000
+	thumbnail "outfit/ion proton gun"
+	"mass" 25
+	"outfit space" -25
+	"weapon capacity" -20
+	"gun ports" -1
+	weapon
+		sprite "projectile/ion proton"
+		sound "proton"
+		"hit effect" "ion proton impact" 3
+		"inaccuracy" 4
+		"submunition" "Ion Proton Fragment" 3
+		"velocity" 24
+		"lifetime" 2
+		"reload" 8
+		"firing energy" 15
+		"firing force" 2
+		"firing heat" 60
+	description "The Proton Gun started out as the Syndicate's attempt to reverse engineer and mass produce a cheap competitor for the Particle Cannon. Unfortunately, they were unable to find a reliable way to keep the beam coherent, but the resulting weapon is still popular with some captains, particularly as an anti-fighter gun."
+
+outfit "Ion Proton Fragment"
+	weapon
+		sprite "projectile/ion proton fragment"
+			"no repeat"
+			"frame rate" 2
+		"hit effect" "ion proton impact"
+		"inaccuracy" 2
+		"lifetime" 24
+		"hit force" 6
+		"shield damage" 10.1
+		"hull damage" 8.4
+		"ion damage" 2.1
+
+effect "ion proton impact"
+	sprite "effect/ion proton impact"
+		"no repeat"
+		"frame rate" 30
+	"lifetime" 20
+	"random angle" 2
+	"velocity scale" -.005
+
 outfit "Modified Plasma Repeater"
 	category "Guns"
 	cost 432000

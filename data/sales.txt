@@ -35,6 +35,7 @@ outfitter Basic-weapons-outfitter
 	"Energy Blaster"
 	"Security Forcefield"
 	"Security Station"
+	"Ion Proton Gun"
 outfitter Basic-systems-outfitter
 	"Asteroid Scanner"
 	"Cargo Expansion"
@@ -117,6 +118,7 @@ outfitter Advanced-weapon-outfitter
 	"Javelin Pod"
 	"Nuclear Missile"
 	"Thunderhead Launcher"
+	"Ion Proton Gun"
 outfitter Advanced-systems-outfitter
 	"Asteroid Scanner"
 	"Cargo Expansion"
