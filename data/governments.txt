@@ -3,6 +3,7 @@ conversation "caught red-handed"
 
 government "Cromha Empire"
 	"display name" "Cromha Empire"
+	"player reputation" 1
 	"attitude toward"
 		"Empire Rebels" -5
 		Merchant 1
@@ -20,17 +21,16 @@ government "Cromha Empire"
 	"death sentence" "caught red-handed"
 	raid "Small Syndicate"
 	"penality for"
-		assist -0.1
-		disable 0.5
-		board 0.3
-		capture 1
-		destroy 1
+		assist -0.25
+		disable 1
+		board 1
+		capture 10
+		destroy 10
 		scan 0.1
-		atrocity 10
 	swizzle 0
 	color 0 255 255
 	"provoked on scan"
-	bribe 2
+	bribe 0
 	fine 2
 	illegals
 		"Interference Plating" 1000000
