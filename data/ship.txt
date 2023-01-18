@@ -34,7 +34,7 @@ ship "Black Manta (Prototype)"
 	outfits
 		"Empire Particle gun" 6
 		"Modified Plasma Repeater" 2
-		"Ion Proton Turret"
+		"Ion Proton Gun"
 		"Empire Torpedo Bank" 2
 		"Empire Torpedo Missile" 120
 		"Empire Torpedo Storage Rack" 8
@@ -94,7 +94,7 @@ ship "Black Manta (Prototype)"
 	gun 89.5 -42 "Empire Particle gun"
 	gun 9.5 -83.5 "Empire Torpedo Bank"
 	gun -9.5 -83.5 "Empire Torpedo Bank"
-	turret 0 -107 "Ion Proton Turret"
+	turret 0 -107 "Ion Proton Gun"
 	gun -44.5 -9 "Antimatter Railgun"
 	gun 44.5 -9 "Antimatter Railgun"
 	bay "Fighter" 77.5 -30.5
