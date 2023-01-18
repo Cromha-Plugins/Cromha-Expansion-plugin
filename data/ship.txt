@@ -17,7 +17,7 @@ ship "Black Manta (Prototype)"
 		"bunks" 200
 		"mass" 680
 		"drag" 4.7
-		"heat dissipation" .7
+		"heat dissipation" .10
 		"cloak" .02
 		"cloaking energy" 5
 		"cloaking fuel" .1
@@ -26,11 +26,13 @@ ship "Black Manta (Prototype)"
 		"outfit space" 1856
 		"weapon capacity" 500
 		"engine capacity" 450
+		"inscrutable" 1
+		"ramscoop" 0.5
 		weapon
-			"blast radius" 700
-			"shield damage" 2500
-			"hull damage" 1600
-			"hit force" 3500
+			"blast radius" 500
+			"shield damage" 7500
+			"hull damage" 5500
+			"hit force" 2500
 	outfits
 		"Empire Particle gun" 6
 		"Modified Plasma Repeater" 2

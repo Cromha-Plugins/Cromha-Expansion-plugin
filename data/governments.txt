@@ -25,16 +25,20 @@ government "Cromha Empire"
 		board 0.3
 		capture 1
 		destroy 1
-		scan 0
+		scan 0.1
 		atrocity 10
 	swizzle 0
-	color 0 255 255 1
+	color 0 255 255
 	"provoke on scan"
 	bribe 2
 	fine 2
 	illegals
 		"Interference Plating" 1000000
 		"Modified Plasma Repeater" 500000
+	"friendly hail" "empire friendly hail"
+    "friendly disabled hail" "empire friendly disabled hail"
+    "hostile hail" "empire hostile hail"
+    "hostile disabled hail" "empire hostile disabled hail"
 
 government "Empire Rebels"
 	"display name" "Empire Rebels"
