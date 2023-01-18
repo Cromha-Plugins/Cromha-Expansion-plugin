@@ -27,14 +27,14 @@ government "Cromha Empire"
 		destroy 1
 		scan 0
 		atrocity 10
-	swizzle 1
+	swizzle 0
 	color 0 255 255 1
 	"provoke on scan"
 	bribe 2
 	fine 2
 	illegals
 		"Interference Plating" 1000000
-		"Jump Drive (Broken)" 1000000
+		"Modified Plasma Repeater" 500000
 
 government "Empire Rebels"
 	"display name" "Empire Rebels"

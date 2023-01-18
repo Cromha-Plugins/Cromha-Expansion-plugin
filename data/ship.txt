@@ -5,7 +5,7 @@ ship "Black Manta (Prototype)"
 	thumbnail "thumbnail/blackmanta"
 	"uncapturable"
 	"never disabled"
-	"swizzle" 1
+	"swizzle" 0
 	attributes
 		category "Prototype"
 		licenses
@@ -127,7 +127,7 @@ ship "Heavy Empire Destroyer"
 	thumbnail "thumbnail/empire_destroyer"
 	"uncapturable"
 	"never disabled"
-	"swizzle" 1
+	"swizzle" 0
 	attributes
 		category "Destroyer"
 		licenses
@@ -283,11 +283,11 @@ ship "Heavy Empire Destroyer"
 	description "The Empire Destroyer is more than just a warship: it is practically a mobile space station, with docking bays for an entire squadron of drones and fighters and enough crew to fill a small village. Although designed primarily for engaging enemies from a distance, a Carrier can also do significant damage in close combat."
 
 ship "Empire Destroyer"
-	sprite "ship/mfalcone"
-	thumbnail "thumbnail/mfalcone"
+	sprite "ship/empire destroyer"
+	thumbnail "thumbnail/empire destroyer"
 	"uncapturable"
 	"never disabled"
-	"swizzle" 1
+	"swizzle" 0
 	attributes
 		category "Destroyer"
 		licenses
@@ -367,11 +367,11 @@ ship "Empire Destroyer"
 	description "The Empire Destroyer is one of the most powerful warships in the Empire fleet, a sleeker and more maneuverable alternative to the venerable and somewhat outdated Leviathan."
 
 ship "Light Empire Destroyer"
-	sprite "ship/msplintere"
-	thumbnail "thumbnail/msplintere"
+	sprite "ship/light empire destroyer"
+	thumbnail "thumbnail/light empire destroyer"
 	"uncapturable"
 	"never disabled"
-	"swizzle" 1
+	"swizzle" 0
 	attributes
 		category "Destroyer"
 		licenses
@@ -448,11 +448,11 @@ ship "Light Empire Destroyer"
 
 # Medium Warship
 ship "Empire Raven"
-	sprite "ship/mravene"
-	thumbnail "thumbnail/mravene"
+	sprite "ship/empire raven"
+	thumbnail "thumbnail/empire raven"
 	"uncapturable"
 	"never disabled"
-	"swizzle" 1
+	"swizzle" 0
 	attributes
 		category "Empire Warship"
 		licenses
@@ -510,11 +510,11 @@ ship "Empire Raven"
 
 # Drones & Fighters
 ship "Empire Quicksilver"
-	sprite "ship/mquicksilvere"
-	thumbnail "thumbnail/mquicksilvere"
+	sprite "ship/empire quicksilver"
+	thumbnail "thumbnail/empire quicksilver"
 	"uncapturable"
 	"never disabled"
-	"swizzle" 1
+	"swizzle" 0
 	attributes
 		category "Empire Warship"
 		licenses
@@ -565,12 +565,12 @@ ship "Empire Quicksilver"
 	description "The Empire Quicksilver is a warship built around a single concept: to design the smallest and fastest ship capable of carrying two particle cannons. Because of its speed and long weapons range, the Quicksilver can keep a safe distance from most targets and bombard them with particle bursts until they are destroyed. Unfortunately the Headhunter eventually surpassed the original design intent, but the Quicksilver's better durability to cost ratio, and the existence of long-term contracts, has kept it in use with Syndicate security forces."
 
 ship "Empire Drone"
-	sprite "ship/combat drone"
+	sprite "ship/empire drone"
 		scale 1.2
-	thumbnail "thumbnail/combat drone"
+	thumbnail "thumbnail/empire drone"
 	"uncapturable"
 	"never disabled"
-	"swizzle" 1
+	"swizzle" 0
 	attributes
 		category "Drone"
 		licenses
@@ -605,55 +605,3 @@ ship "Empire Drone"
 	explode "tiny explosion" 15
 	description "It is at first a Republic Navy drone but Cromha Empire buyed rights of this ship and made its own version to satisfy them."
 	description "	Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay."
-
-ship "Empire Fighter"
-	sprite "ship/dagger"
-		scale 1.2
-	thumbnail "thumbnail/dagger"
-	"uncapturable"
-	"never disabled"
-	"swizzle" 1
-	attributes
-		category "Fighter"
-		licenses
-			"Empire Navy"
-		"cost" 149000
-		"shields" 2000
-		"hull" 500
-		"required crew" 1
-		"bunks" 1
-		"mass" 20
-		"drag" .63
-		"heat dissipation" .9
-		"outfit space" 116
-		"weapon capacity" 33
-		"engine capacity" 30
-		"fuel capacity" 400
-		weapon
-			"blast radius" 12
-			"shield damage" 120
-			"hull damage" 60
-			"hit force" 180
-	outfits
-		"Empire Particle gun"
-		"Javelin Mini Pod"
-		"Javelin" 40
-		
-		"nGVF-AA Fuel Cell"
-		"Supercapacitor"
-		"D14-RN Shield Generator"
-		"Small Radar Jammer"
-		"Surveillance Pod"
-		
-		`RC-001 Atomic Engines`
-		"Compact Plasma Drive"
-	engine -8 34
-	engine 8 34
-	gun -11 -21 "Empire Particle gun"
-	gun 11 -21 "Javelin Mini Pod"
-	leak "leak" 60 50
-	explode "tiny explosion" 15
-	explode "small explosion" 5
-	description "The Dagger is a fighter designed by Lionheart Industries, intended to be carried by their Aerie warship, although other ships have been known to carry them, as well. As with many Lionheart ships, its chassis is largely composed of lightweight composite materials, making it considerably faster than other fighters."
-	description "The Empire made its own version to satisfy their need. This ship has better shields and hull; a little more expensive, but totally worth it for an army."
-	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
