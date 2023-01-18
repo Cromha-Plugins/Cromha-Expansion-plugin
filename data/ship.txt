@@ -144,22 +144,23 @@ ship "Heavy Empire Destroyer"
 		"heat dissipation" .45
 		"fuel capacity" 1100
 		"cargo space" 300
-		"outfit space" 3220
-		"weapon capacity" 2470
-		"engine capacity" 310
+		"outfit space" 5220
+		"weapon capacity" 4470
+		"engine capacity" 3010
 		"cloak" .02
 		"cloaking energy" 5
 		"cloaking fuel" .1
 		weapon
 			"blast radius" 400
-			"shield damage" 4000
-			"hull damage" 2500
+			"shield damage" 10000
+			"hull damage" 50500
 			"hit force" 5500
 	outfits
 		"Multiphasic Anti-Missile" 8
 		"Multiphasic ammo" 4800
 		"Nuclear Missile" 2
-		"Electron Turret" 10
+		"Electron Turret" 5
+		"Ion Proton Turret" 5
 		"Empire Torpedo Bank" 6
 		"Empire Torpedo Storage Rack" 30
 		"Empire Torpedo Missile" 420
@@ -174,13 +175,13 @@ ship "Heavy Empire Destroyer"
 		"Fragmentation Grenades" 40
 		"Pulse Rifle" 25
 		"Security Station" 10
-		"Multiphasic Scanner" 3
+		"Multiphasic Scanner" 6
 		"Fuel Pod" 5
 		"Quantum Keystone"
 		
-		`RC-220 Atomic Thruster`
-		`RC-225 Atomic Steering`
-		"RX-180 Reverse Thruster"
+		`RC-220 Atomic Thruster` 4
+		`RC-225 Atomic Steering` 4
+		"RX-180 Reverse Thruster" 6
 		"Plasma Drive"
 		"Countermesure Module" 4
 
@@ -238,12 +239,12 @@ ship "Heavy Empire Destroyer"
 	turret -37 -9.5 "Electron Turret"
 	turret -37.5 32 "Electron Turret"
 	turret -24 108 "Electron Turret"
-	turret -76.5 108.5 "Electron Turret"
-	turret 37 -9.5 "Electron Turret"
-	turret 37.5 32 "Electron Turret"
+	turret -76.5 108.5 "Ion Proton Turret"
+	turret 37 -9.5 "Ion Proton Turret"
+	turret 37.5 32 "Ion Proton Turret"
 	turret 24 108 "Electron Turret"
-	turret 76.5 108.5 "Electron Turret"
-	turret -1.5 11 "Electron Turret"
+	turret 76.5 108.5 "Ion Proton Turret"
+	turret -1.5 11 "Ion Proton Turret"
 	turret -0.5 -148.5 "Electron Turret"
 	gun -85 37.5 "Empire Torpedo Bank"
 	gun -73 24.5 "Empire Torpedo Bank"
@@ -316,7 +317,7 @@ ship "Empire Destroyer"
 			"hull damage" 800
 			"hit force" 2400
 	outfits
-		"Proton Turret" 6
+		"Ion Proton Turret" 6
 		"Multiphasic Anti-Missile" 4
 		"Multiphasic ammo" 2400
 		"Nuclear Missile" 2
@@ -334,28 +335,29 @@ ship "Empire Destroyer"
 		`RC-205 Atomic Steering`
 		"Plasma Drive"
 		"Countermesure Module" 2
-	engine -16.5 143
-	engine 16.5 143
+	engine 51.5 119.5
+		zoom 0.5
+	engine -51.5 119.5
+		zoom 0.5
+	engine 0 153
+		zoom 1.2
+	engine 23 143.5
+	engine -23 143.5
 	gun -16 0 "Nuclear Missile"
 	gun 16 0 "Nuclear Missile"
 	turret -51 39.5 "Multiphasic Anti-Missile"
 	turret 51 39.5 "Multiphasic Anti-Missile"
 	turret -17 -30 "Multiphasic Anti-Missile"
 	turret 17 -30 "Multiphasic Anti-Missile"
-	turret -1.5 97 "Proton Turret"
-	turret 49.5 90 "Proton Turret"
-	turret -49.5 90 "Proton Turret"
-	turret -10.5 7.5 "Proton Turret"
-	turret 10.5 7.5 "Proton Turret"
-	turret -0.5 -79 "Proton Turret"
+	turret -1.5 97 "Ion Proton Turret"
+	turret 49.5 90 "Ion Proton Turret"
+	turret -49.5 90 "Ion Proton Turret"
+	turret -10.5 7.5 "Ion Proton Turret"
+	turret 10.5 7.5 "Ion Proton Turret"
+	turret -0.5 -79 "Ion Proton Turret"
 	bay "Fighter" 0 0
 	bay "Fighter" 0 0
 	bay "Fighter" 0 0
-	bay "Fighter" 0 0
-	bay "Fighter" 0 0
-	bay "Fighter" 0 0
-	bay "Drone" 0 0
-	bay "Drone" 0 0
 	bay "Drone" 0 0
 	bay "Drone" 0 0
 	leak "leak" 30 50
@@ -379,7 +381,7 @@ ship "Light Empire Destroyer"
 		licenses
 			"Empire Navy"
 		"cost" 3120000
-		"shields" 15700
+		"shields" 55700
 		"hull" 3700
 		"required crew" 7
 		"bunks" 21
@@ -388,7 +390,7 @@ ship "Light Empire Destroyer"
 		"heat dissipation" .7
 		"fuel capacity" 600
 		"cargo space" 75
-		"outfit space" 600
+		"outfit space" 623
 		"weapon capacity" 150
 		"engine capacity" 250
 		"cloak" .02
@@ -401,8 +403,8 @@ ship "Light Empire Destroyer"
 			"hit force" 900
 	outfits
 		"Empire Particle gun" 4
-		"Multiphasic Anti-Missile"
-		"Multiphasic ammo" 600
+		"Multiphasic Anti-Missile" 2
+		"Multiphasic ammo" 1200
 		"Sidewinder Missile Pod" 2
 		"Sidewinder Missile" 60
 		
@@ -413,29 +415,23 @@ ship "Light Empire Destroyer"
 		"Multiphasic Cooler"
 		"Laser Rifle"
 		
-		`RC-180 Atomic Thruster`
-		`RC-185 Atomic Steering`
+		`RC-200 Atomic Thruster`
+		`RC-205 Atomic Steering`
 		"Plasma Drive"
 		"Countermesure Module" 2
 		
 	engine -15.5 115
 	engine 15.5 115
 	engine 0 116
-	gun -12 -93 "Empire Particle gun"
-	gun 12 -93 "Empire Particle gun"
-	gun -13 42 "Empire Particle gun"
-	turret 0 9 "Multiphasic Anti-Missile"
-	gun 13 42 "Empire Particle gun"
+	gun -11.5 -92 "Empire Particle gun"
+	gun 11.5 -92 "Empire Particle gun"
+	gun -26 3 "Empire Particle gun"
+	gun 26 3 "Empire Particle gun"
 	gun 11 -57 "Sidewinder Missile Pod"
 	gun -11 -57 "Sidewinder Missile Pod"
+	turret -13.5 42 "Multiphasic Anti-Missile"
+	turret 13.5 42 "Multiphasic Anti-Missile"
 	bay "Fighter" 0 0
-	bay "Fighter" 0 0
-	bay "Fighter" 0 0
-	bay "Fighter" 0 0
-	bay "Fighter" 0 0
-	bay "Fighter" 0 0
-	bay "Drone" 0 0
-	bay "Drone" 0 0
 	bay "Drone" 0 0
 	bay "Drone" 0 0
 	leak "leak" 60 50
@@ -481,9 +477,11 @@ ship "Empire Raven"
 			"hull damage" 300
 			"hit force" 900
 	outfits
-		"Empire Particle gun" 2
+		"Empire Particle gun" 4
 		"Sidewinder Missile Launcher" 2
 		"Sidewinder Missile" 90
+		"Multiphasic Anti-Missile" 1
+		"Multiphasic ammo" 600
 		
 		"RC-X2 Multiphasic Reactor" 2
 		"Empire Hai Gorge Batteries"
@@ -495,12 +493,19 @@ ship "Empire Raven"
 		"Compact Plasma Drive"
 		"Countermesure Module"
 		
-	engine -9.5 63
-	engine 9.5 63
+	engine 10.5 62
+	engine -10.5 62
+	engine 35 14
+		zoom 0.5
+	engine -35 14
+		zoom 0.5
 	gun -13.5 -35.5 "Empire Particle gun"
 	gun 13.5 -35.5 "Empire Particle gun"
+	gun -20.5 -28 "Empire Particle gun"
+	gun 20.5 -28 "Empire Particle gun"
 	gun -21 -28 "Sidewinder Missile Launcher"
 	gun 21 -28 "Sidewinder Missile Launcher"
+	turret 0 7.5 "Multiphasic Anti-Missile"
 	leak "leak" 60 50
 	leak "flame" 50 80
 	explode "medium explosion" 24
@@ -554,10 +559,12 @@ ship "Empire Quicksilver"
 		"Compact Plasma Drive"
 		"Countermesure Module"
 		
-	engine -15.5 54
+	engine 0 55.5
 	engine 15.5 54
-	gun -6 -39.5 "Empire Particle gun"
-	gun 6 -39.5 "Empire Particle gun"
+	engine -15.5 54
+	gun -5 -38.5 "Empire Particle gun"
+	gun 5 -38.5 "Empire Particle gun"
+	gun 0 -11 "Ion Proton Gun"
 	gun 9 2 "Meteor Missile Launcher"
 	gun -9 2 "Meteor Missile Launcher"
 	leak "leak" 50 50
