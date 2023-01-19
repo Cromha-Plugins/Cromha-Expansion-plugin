@@ -218,3 +218,4 @@ shipyard Cromha-military-shipyard
 	"Berserker"
 	"Barb"
 	"Gunboat (modified)"
+	"Osprey (Rebels)"

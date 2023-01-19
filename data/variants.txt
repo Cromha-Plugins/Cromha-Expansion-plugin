@@ -149,3 +149,63 @@ ship "Bactarian" "Bactarian (Empire)"
 	turret -42.5 75 "Heavy Laser Turret"
 	turret 32.5 132 "Heavy Laser Turret"
 	turret -33.5 192.5 "Heavy Anti-Missile Turret"
+
+ship "Osprey" "Osprey (Rebels)"
+	sprite "ship/osprey"
+	thumbnail "thumbnail/osprey"
+	attributes
+		category "Medium Warship"
+		"cost" 4200000
+		"shields" 7200
+		"hull" 1600
+		"required crew" 9
+		"bunks" 24
+		"mass" 270
+		"drag" 5.9
+		"heat dissipation" .8
+		"fuel capacity" 600
+		"cargo space" 40
+		"outfit space" 450
+		"weapon capacity" 200
+		"engine capacity" 130
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
+	outfits
+		"Modified Plasma Repeater" 4
+		"Ion Proton Turret"
+		"Multiphasic Anti-Missile"
+		"Multiphasic ammo" 600
+		
+		"RC-X2 Multiphasic Reactor"
+		"LP036a Battery Pack"
+		"Empire Shielding Core"
+		"Large Radar Jammer"
+		"Multiphasic Cooler"
+		"Laser Rifle" 3
+		
+		"Impala Plasma Thruster"
+		"Impala Plasma Steering"
+		"Hyperdrive"
+		
+	engine -42.5 62.5 .8
+	engine 42.5 62.5 .8
+	engine -16.5 105 .6
+	engine 16.5 105 .6
+	gun -25 -49.5 "Modified Plasma Repeater"
+	gun 25 -49.5 "Modified Plasma Repeater"
+	gun -9.5 -95.5 "Modified Plasma Repeater"
+	gun 9.5 -95.5 "Modified Plasma Repeater"
+	turret -15.5 -12 "Ion Proton Turret"
+	turret 15.5 -12 "Multiphasic Anti-Missile"
+	leak "leak" 40 50
+	leak "flame" 80 80
+	leak "big leak" 80 30
+	explode "medium explosion" 24
+	explode "large explosion" 16
+	explode "small explosion" 40
+	explode "tiny explosion" 28
+	"final explode" "final explosion medium"
+	description "After the Blackbird gained surprising popularity as an agile light warship despite its original design as a transport, Tarazed decided to produce a new design specifically intended as a warship. The Osprey was the result. Although it is considered overpriced by most savvy pilots, it is nevertheless a perennial favorite among those who have the extra cash to spend on it."
