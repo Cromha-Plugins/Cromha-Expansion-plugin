@@ -42,22 +42,24 @@ mission mineria-colonnies-transport-escort[0]
 		payment 100000
 		dialog "After landing oon the planet, the Captain thanks you and gives you the <payment>."
 	npc accompany save
-		government "Cromha Empire"
+		government "Mineria colonnies"
 		personality escort timid
 		fleet mineria-escorts-transports
 	npc
 		system
 			distance 0 3
+		personality coward
 		government "Empire Rebels"
 		fleet empire-rebels-raiders
 	npc
 		system
 			distance 0 2
+		personality coward
 		government "Empire Rebels"
 		fleet empire-rebels-raiders
 	npc
-		system
-			distance 0 1
+		system destination
+		personality coward
 		government "Empire Rebels"
 		fleet empire-rebels-raiders
 
@@ -81,22 +83,24 @@ mission mineria-colonnies-transport-escort[1]
 		payment 200000
 		dialog "After landing oon the planet, the Captain thanks you and gives you the <payment>."
 	npc accompany save
-		government "Cromha Empire"
+		government "Mineria colonnies"
 		personality escort timid
 		fleet mineria-escorts-transports
 	npc
 		system
 			distance 0 3
+		personality coward
 		government "Empire Rebels"
 		fleet empire-rebels-raiders
 	npc
 		system
 			distance 0 2
+		personality coward
 		government "Empire Rebels"
 		fleet empire-rebels-raiders
 	npc
-		system
-			distance 0 1
+		system destination
+		personality coward
 		government "Empire Rebels"
 		fleet empire-rebels-raiders
 
@@ -120,22 +124,24 @@ mission mineria-colonnies-transport-escort[2]
 		payment 150000
 		dialog "After landing oon the planet, the Captain thanks you and gives you the <payment>."
 	npc accompany save
-		government "Cromha Empire"
+		government "Mineria colonnies"
 		personality escort timid
 		fleet mineria-escorts-transports
 	npc
 		system
 			distance 0 3
+		personality coward
 		government "Empire Rebels"
 		fleet empire-rebels-raiders
 	npc
 		system
 			distance 0 2
+		personality coward
 		government "Empire Rebels"
 		fleet empire-rebels-raiders
 	npc
-		system
-			distance 0 1
+		system destination
+		personality staying coward
 		government "Empire Rebels"
 		fleet empire-rebels-raiders
 

@@ -158,13 +158,16 @@ fleet mineria-escorts-transports
 	personality escort timid
 	#small
 	variant 30
-		Hawk 2
-		Blackbird 1
-		Frigate 2
+		"Bulk Freighter"
+		"Freighter" 2
+		Clipper
+		Rainmaker 2
 	#medium
 	variant 15
-		Fury 3
-		Frigate 4
+		Mule 2
+		Bactarian
+		Clipper
+		Rainmaker 2
 fleet empire-rebels-raiders
 	government "Empire Rebels"
 	names "civilian"
