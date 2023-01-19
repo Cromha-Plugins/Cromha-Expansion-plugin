@@ -546,6 +546,7 @@ ship "Empire Quicksilver"
 			"hit force" 600
 	outfits
 		"Empire Particle gun" 2
+		"Ion Proton Gun"
 		"Meteor Missile" 60
 		"Meteor Missile Launcher" 2
 		
@@ -560,6 +561,7 @@ ship "Empire Quicksilver"
 		"Countermesure Module"
 		
 	engine 0 55.5
+		zoom 1.5
 	engine 15.5 54
 	engine -15.5 54
 	gun -5 -38.5 "Empire Particle gun"
