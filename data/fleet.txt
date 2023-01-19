@@ -174,19 +174,19 @@ fleet empire-rebels-raiders
 	personality appeasing frugal disables plunders coward
 	# small
 	variant 10
-		Manta 1
-		Wasp 3
+		"Osprey (Rebels)" 1
+		Wasp 5
 		"Empire Drone" 2
 	# medium
 	variant 20
-		Manta 1
-		Wasp 3
-		"Gunboat (modified)" 2
+		"Osprey (Rebels)" 2
+		Wasp 2
+		"Gunboat (modified)" 4
 	# large
 	variant 5
-		"Gunboat (modified)" 2
+		"Gunboat (modified)" 5
 		Protector 1
-		"Light Empire Destroyer" 2
+		"Osprey (Rebels)" 4
 fleet empire-rebels-raiders-fleet
 	government "Empire Rebels"
 	names "civilian"
@@ -194,17 +194,16 @@ fleet empire-rebels-raiders-fleet
 	personality appeasing frugal disables plunders coward
 	# small
 	variant 10
-		Manta 3
+		"Osprey (Rebels)" 1
 		Wasp 5
 		"Empire Drone" 2
 	# medium
 	variant 20
-		Manta 4
+		"Osprey (Rebels)" 2
 		Wasp 2
 		"Gunboat (modified)" 4
 	# large
 	variant 5
 		"Gunboat (modified)" 5
 		Protector 1
-		"Empire Raven" 1
-		"Light Empire Destroyer" 2
+		"Osprey (Rebels)" 4
