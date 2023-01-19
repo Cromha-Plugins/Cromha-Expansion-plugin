@@ -156,16 +156,16 @@ ship "Osprey" "Osprey (Rebels)"
 	attributes
 		category "Medium Warship"
 		"cost" 4200000
-		"shields" 7200
-		"hull" 1600
-		"required crew" 9
-		"bunks" 24
-		"mass" 270
+		"shields" 50200
+		"hull" 8600
+		"required crew" 15
+		"bunks" 30
+		"mass" 240
 		"drag" 5.9
 		"heat dissipation" .8
 		"fuel capacity" 600
 		"cargo space" 40
-		"outfit space" 450
+		"outfit space" 460
 		"weapon capacity" 200
 		"engine capacity" 130
 		weapon
@@ -179,8 +179,8 @@ ship "Osprey" "Osprey (Rebels)"
 		"Multiphasic Anti-Missile"
 		"Multiphasic ammo" 600
 		
-		"RC-X2 Multiphasic Reactor"
-		"LP036a Battery Pack"
+		"RC-X2 Multiphasic Reactor" 2
+		"Empire Hai Ravine Batteries"
 		"Empire Shielding Core"
 		"Large Radar Jammer"
 		"Multiphasic Cooler"
