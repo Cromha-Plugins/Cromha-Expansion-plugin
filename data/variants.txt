@@ -56,3 +56,96 @@ ship "Black Manta (Prototype)" "Black Manta (Nuclear Missile)"
 	outfits
 		"Nuclear Missile"
 	gun 0 0 "Nuclear Missile"
+
+# Transports
+ship "Bulk Freighter" "Bulk Freighter (Empire)"
+	outfits
+		"Sidewinder Missile Launcher"
+		"Sidewinder Missile" 45
+		"Ion Proton Turret" 3
+		"Multiphasic Anti-Missile" 2
+		"Multiphasic ammo" 1200
+		
+		"RT-I Radiothermal"
+		"LP144a Battery Pack"
+		"D23-QP Shield Generator"
+		"Laser Rifle"
+		
+		"X3700 Ion Thruster"
+		"X3200 Ion Steering"
+		"X1100 Ion Reverse Thruster"
+		"Scram Drive"
+		"Countermesure Module"
+		
+	engine -22 198
+	engine 22 198
+	gun -20 -175 "Sidewinder Missile Launcher"
+	gun 20 -175
+	turret -12 -155 "Ion Proton Turret"
+	turret 12 -155 "Multiphasic Anti-Missile"
+	turret 0 5 "Ion Proton Turret"
+	turret -30 175 "Multiphasic Anti-Missile"
+	turret 30 175 "Ion Proton Turret"
+
+ship "Mule" "Mule (Empire)"
+	outfits
+		"Sidewinder Missile Launcher" 2
+		"Sidewinder Missile" 136
+		"Sidewinder Missile Rack" 2
+		"Multiphasic Anti-Missile" 2
+		"Multiphasic ammo" 1200
+		
+		"NT-200 Nucleovoltaic"
+		"KP-6 Photovoltaic Array"
+		"LP072a Battery Pack"
+		"D41-HY Shield Generator"
+		"Small Radar Jammer" 2
+		"Ramscoop"
+		"Laser Rifle"
+		
+		"X3700 Ion Thruster"
+		"X3200 Ion Steering"
+		"Hyperdrive"
+		"Countermesure Module"
+		
+	engine 11 128
+	engine -8 128
+	gun -11 -125 "Sidewinder Missile Launcher"
+	gun 11 -125 "Sidewinder Missile Launcher"
+	turret -22 -53.5 "Ion Proton Turret"
+	turret 19.5 -39 "Multiphasic Anti-Missile"
+	turret 20 33 "Ion Proton Turret"
+	turret -20.5 103.5 "Multiphasic Anti-Missile"
+
+ship "Bactarian" "Bactarian (Empire)"
+	outfits
+		"Sidewinder Missile Launcher" 2
+		"Sidewinder Missile" 90
+		"Torpedo Launcher"
+		"Torpedo" 30
+		"Heavy Laser Turret" 4
+		"Heavy Anti-Missile Turret" 2
+		
+		"Fusion Reactor"
+		"LP144a Battery Pack"
+		"D94-YV Shield Generator"
+		"Large Radar Jammer"
+		"Ramscoop"
+		"Laser Rifle" 15
+		
+		"X4700 Ion Thruster"
+		"X5200 Ion Steering"
+		"Hyperdrive"
+		
+	engine 18.5 232
+	engine -15 232
+	gun -9 -231.5
+	gun 13.5 -231.5 "Torpedo Launcher"
+	gun 36.5 -197 "Sidewinder Missile Launcher"
+	gun 42 -193 "Sidewinder Missile Launcher"
+	turret 37 -132.5 "Heavy Anti-Missile Turret"
+	turret -39 -39 "Heavy Laser Turret"
+	turret 31.5 -26 "Heavy Laser Turret"
+	turret -42.5 75 "Heavy Laser Turret"
+	turret 32.5 132 "Heavy Laser Turret"
+	turret -33.5 192.5 "Heavy Anti-Missile Turret"

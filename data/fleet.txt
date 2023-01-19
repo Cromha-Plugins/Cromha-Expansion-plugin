@@ -61,12 +61,12 @@ fleet mineria-transports
 	variant 10
 		Hauler 1
 		"Container Transport" 1
-		"Bulk Freighter" 2
+		"Bulk Freighter (Empire)" 2
 		Frigate 1
 	# special convoits
 	variant 1
 		"Star Queen" 1
-		Mule 2
+		"Mule (Empire)" 2
 		"Gunboat (modified)" 4
 fleet calor-stil-tourism
 	government "Mineria colonnies"
@@ -158,13 +158,12 @@ fleet mineria-escorts-transports
 	personality escort timid
 	#small
 	variant 30
-		"Bulk Freighter"
-		"Freighter" 2
+		"Bulk Freighter (Empire)"
 		Clipper
 		Rainmaker 2
 	#medium
 	variant 15
-		Mule 2
+		"Mule (Empire)" 2
 		Bactarian
 		Clipper
 		Rainmaker 2
