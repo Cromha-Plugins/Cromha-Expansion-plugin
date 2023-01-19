@@ -489,7 +489,7 @@ mission "Empire: Get Manta Plans"
 
 mission "Empire: Bring Resources"
 	landing
-	description "Bring the following resources to <destination> for the Black Manta:  25 tons of Titanium, 8 tons of Gold, 80 tons of Neodyium, 65 tons of Silicon, 6 tons of Uranium and 1 Plasma Drive."
+	description "Bring the following resources to <destination> for the Black Manta:  25 tons of Titanium, 8 tons of Gold, 80 tons of Neodyium, 65 tons of Silicon, 6 tons of Uranium and 1 Plasma Drive. Payment is <payment>."
 	source
 		government "Cromha Empire"
 		not attributes uninhabited
@@ -505,15 +505,15 @@ mission "Empire: Bring Resources"
 					goto next
 				`"I don't have the time sorry"`
 					decline
-		label next
-		`	"Thank you. In this spacial dock we can produce almost every minerals that we want, but not every, I wan you to get:`
-		`	25 tons of Titanium, 8 tons of Gold, 80 tons of Neodyium, 65 tons of Silicon, 6 tons of Uranium and 1 Plasma Drive.`
-		`	Is this okay for you?"`
-		choice
-			`"OK, i'll get this minerals right now`
-				accept
-			`"I don't think i'll be able to get those. Sorry"`
-				decline
+			label next
+			`	"Thank you. In this spacial dock we can produce almost every minerals that we want, but not every, I wan you to get:`
+			`	25 tons of Titanium, 8 tons of Gold, 80 tons of Neodyium, 65 tons of Silicon, 6 tons of Uranium and 1 Plasma Drive.`
+			`	Is this okay for you?"`
+			choice
+				`"OK, i'll get this minerals right now`
+					accept
+				`"I don't think i'll be able to get those. Sorry"`
+					decline
 	on decline
 		conversation
 			`	"Oh... I see it's okay."`
