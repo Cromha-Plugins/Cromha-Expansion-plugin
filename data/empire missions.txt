@@ -530,6 +530,9 @@ mission "Empire: Bring Resources"
 		payment 3000000
 		"reputation: Cromha Empire" += 10
 		"empire jobs" += 1
+		conversation
+			`You enter the station spaceport and see the same guy that the other time. He greets you and says:`
+			`	"Thanks for you help, here is <payment>. I hope it will help you. We will call you back if there is anything new about the Black Manta."`
 
 # Events
 mission "Discovered Empire Space"
