@@ -487,6 +487,50 @@ mission "Empire: Get Manta Plans"
 		ship "Manta" "small syndicate"
 		dialog "You board the ship and stole the ship's plans."
 
+mission "Empire: Bring Resources"
+	landing
+	description "Bring the following resources to <destination> for the Black Manta:  25 tons of Titanium, 8 tons of Gold, 80 tons of Neodyium, 65 tons of Silicon, 6 tons of Uranium and 1 Plasma Drive."
+	source
+		government "Cromha Empire"
+		not attributes uninhabited
+	destination "Black Manta Spacial Dock"
+	to offer
+		has "Empire: Get Manta Plans: done"
+	on offer
+		conversation
+			`You enter the Black Manta Spacial Dock and see that someones was waiting you. He comes to you and says:`
+			`	"Welcome to the Black Manta Spacial Dock, it's here the Black Manta is building. We was waiting you. Will you accept to do something for us?"`
+			choice
+				`"Sure, i'll be glad to help"`
+					goto next
+				`"I don't have the time sorry"`
+					decline
+		label next
+		`	"Thank you. In this spacial dock we can produce almost every minerals that we want, but not every, I wan you to get:`
+		`	25 tons of Titanium, 8 tons of Gold, 80 tons of Neodyium, 65 tons of Silicon, 6 tons of Uranium and 1 Plasma Drive.`
+		`	Is this okay for you?"`
+		choice
+			`"OK, i'll get this minerals right now`
+				accept
+			`"I don't think i'll be able to get those. Sorry"`
+				decline
+	on decline
+		conversation
+			`	"Oh... I see it's okay."`
+			`	And he leaves with disapointment.`
+	on complete
+		outfit "Titanium" -25
+		outfit "Gold" -8
+		outfit "Silicon" -65
+		outfit "Uranium" -6
+		outfit "Neodymium" -80
+		require "Plasma Drive" 1
+		outfit "Plasma Drive" -1
+		payment
+		payment 3000000
+		"reputation: Cromha Empire" += 10
+		"empire jobs" += 1
+
 # Events
 mission "Discovered Empire Space"
 	landing
