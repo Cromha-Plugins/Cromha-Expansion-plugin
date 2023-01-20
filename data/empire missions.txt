@@ -603,6 +603,44 @@ mission "Empire: Escort Convoit"
 		fleet empire-rebels-raiders-fleet
 		system
 			distance 4 10
+			
+mission "Empire: Attack Korsmanath"
+	landing
+	description "Some rumors says that an Empire Rebel fleet are waiting for orders to attack the Solifar system in the Korsmanath. Go to the Kormanath system and check if the rumors are true, if they are, destroy the whole fleet. An Empire fleet will accompany you in case you find Rebels on your way. Then land on <destination> to get your payment of <payment>."
+	source
+		government "Cromha Empire"
+		not attributes uninhabited
+	to offer
+		has "Empire: Escort Convoit: done"
+	destination
+		system "Ring Wartrue"
+	on offer
+		conversation
+			"Some rumors says that an Empire Rebel fleet are waiting for orders to attack the Solifar system in the Korsmanath."
+			"Go to the Kormanath system and check if the rumors are true, if they are, destroy the whole fleet. An Empire fleet will accompany you in case you find Rebels on your way."
+			"Then land on <destination> to get your payment of <payment>."
+				accept
+	on complete
+		payment
+		payment 600000
+		"reputation: Cromha Empire" += 10
+		"empire jobs" += 1
+		dialog "You land on <planet> and get your payment of <payment>."
+	on visit
+		dialog "It seems you land on <planet> but the Cromha fleet not. Wait for them to catch you up then land."
+	npc
+		government "Cromha Empire"
+		personality escort
+		fleet cromha-fleet
+	npc kill
+		government "Empire Rebels"
+		personality staying target
+		system Korsmanath
+		fleet empire-rebels-raiders-fleet
+		fleet empire-rebels-raiders-fleet
+		
+	on enter Korsmanath
+		dialog "You enter the system and see that your scanners find some ships: it's Rebels ships. Time to engage combat."
 
 # Events
 mission "Discovered Empire Space"
