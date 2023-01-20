@@ -149,4 +149,5 @@ outfit "Teleportation Dock"
 	"capture attack" 15
 	"capture defense" 5
 	"energy consumption" 10
+	"unplunderable" 1
 	description "Extremly good for attack, letting you teleporting into your enemy ship to attack them by surprise but that that useful for defending."
