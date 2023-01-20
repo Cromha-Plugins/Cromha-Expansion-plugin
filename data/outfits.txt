@@ -14,6 +14,30 @@ outfit "Countermesure Module"
 	"corrosion protection" 2
 	"energy consumption" 0.7
 	description "This module has been especially designed for the ships who would travels in the Far Empire Space. It increase ion, disruption, discharge, energy and corrosion damages. It is also perfect for traveling in the Ember Waste. This is a little piece of advanced high technology."
+	
+outfit "Weapon Module"
+	category "Systems"
+	cost 30000
+	thumbnail "outfit/weapon module"
+	"mass" 5
+	"outfit space" -5
+	"weapon capacity" 35
+	"engine capacity" -35
+	"unplunderable" 1
+	description "This module allows you to sacrifice some engine capacity in order to make more capacity for the weapons, in situations where you need just a bit more capacity to install a particular weapon or reverse thruster."
+	description "This little module redirect some of the engine energy to the weapons. It does not affect heat dissipation or anything else unless outfit space of course.
+	
+outfit "Engine Module"
+	category "Systems"
+	cost 30000
+	thumbnail "outfit/engine module"
+	"mass" 5
+	"outfit space" -5
+	"engine capacity" 35
+	"weapon capacity" -35
+	"unplunderable" 1
+	description "This module allows you to sacrifice some weapon capacity in order to make more capacity for the engines, in situations where you need just a bit more capacity to install a particular engine."
+	description "This little module redirect some of the weapon energy to the engines. It does not affect heat dissipation or anything else unless outfit space of course.
 
 # Shields
 outfit "Compact Empire Shielding Core"

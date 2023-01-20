@@ -546,7 +546,6 @@ mission "Empire: Defense Solifar"
 		conversation
 			`You land on <planet> and recieve an other message for the Empire missions. You click on the pop-up and the app opens. You can see written on the screen:`
 			`	"Defense Solifar from Empire Rebels fleet that attacked a Mineria Convoit. There will be an Empire fleet that will help you. Then land on <destination>. Payment is <payment>."`
-			`	They also inform you that an entire fleet is waiting you on the <planet> ring station.`
 				accept
 	on complete
 		payment
@@ -571,6 +570,39 @@ mission "Empire: Defense Solifar"
 		personality staying
 		fleet mineria-transports
 		system Solifar
+
+mission "Empire: Escort Convoit"
+	landing
+	description "Escort a mineria convoit from Empire Rebels. Get to <destination> before the Empire Rebels intercept you. You'll get an Bulk Freighter if you sccues in this mission."
+	source
+		government "Cromha Empire"
+		not attributes uninhabited
+	destination
+		government "Cromha Empire"
+		not attributes uninhabited
+		attributes "far empire space"
+		distance 1 5
+	to offer
+		has "Empire: Defense Solifar: done"
+	on offer
+		conversation
+			`You land on <planet> and recieve an other message for the Empire missions. You click on the pop-up and the app opens. You can see written on the screen:`
+			`	"Escort a mineria convoit from Empire Rebels. Get to <destination> before the Empire Rebels intercept you. You'll get an Bulk Freighter if you sccues in this mission".`
+				accept
+	on complete
+		give ship "Bulk Freighter (Empire)" "empire fleet names"
+		"reputation: Cromha Empire" += 10
+		"empire jobs" += 1
+	npc save escort
+		government "Mineria colonnies"
+		personality save escort timid
+		fleet mineria-escorts-transports
+	npc
+		government "Empire Rebels"
+		personality target plunders disables coward staying
+		fleet empire-rebels-raiders-fleet
+		system
+			distance 4 10
 
 # Events
 mission "Discovered Empire Space"
