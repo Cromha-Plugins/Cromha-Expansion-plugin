@@ -1509,6 +1509,10 @@ planet "Phoenix Station"
 	tribute 500
 		threshold 2000
 		fleet empire-rebels-raiders 5
+	outfitter Rebels-basic-outfitter
+	outfitter Rebels-basic-ammo-outfitter
+	outfitter Rebels-basic-systems-outfitter
+	outfitter Rebels-basic-power-outfitter
 
 planet Alfheim
 	attributes deep factory oil
@@ -1521,6 +1525,12 @@ planet Alfheim
 	tribute 1200
 		threshold 5000
 		fleet empire-rebels-raiders 10
+	outfitter Rebels-basic-outfitter
+	outfitter Rebels-basic-ammo-outfitter
+	outfitter Rebels-basic-weapon-outfitter
+	outfitter Rebels-basic-systems-outfitter
+	outfitter Rebels-advanced-power-outfitter
+	outfitter Rebels-advanced-engines-outfitter
 
 system "Alpi Tah"
 	pos -644 -453
@@ -1576,6 +1586,12 @@ planet "Las Tah"
 	tribute 1200
 		threshold 5000
 		fleet empire-rebels-raiders 6
+	outfitter Rebels-basic-outfitter
+	outfitter Rebels-basic-ammo-outfitter
+	outfitter Rebels-basic-weapon-outfitter
+	outfitter Rebels-basic-systems-outfitter
+	outfitter Rebels-advanced-power-outfitter
+	outfitter Rebels-basic-engines-outfitter
 
 system "Far Sabira"
 	pos -770 -445
@@ -1688,7 +1704,7 @@ planet "Sar'Al Station"
 	landscape land/Sar'al_station
 	description "This is a little station that has been created by the Empire Rebels some years ago. You cannot find any spaceport or ship here, this is principaly a listening station that surveillance this part of space."
 	spaceport ""
-
+	outfitter Rebels-basic-outfitter
 system Gorvi
 	pos -250 -483
 	government "Empire Rebels"
@@ -1759,6 +1775,12 @@ planet "Kal'Lis"
 	landscape land/Kal'lis
 	spaceport "The spaceport is huge, there are hundreds of ships. You can see some Empire Rebels ships and officers. It seems there is a lot of activity on this planet, but also a lot of traffics. It's better to stay away from people, there are not all good intentionned."
 	description "Kal'Lis is a ultra-urbannised planet. It's one of the greatest Rebels planet, it's where they stock all theirs ships and where they produce them and sells them. It's a great place to get advanced technoogy."
+	outfitter Rebels-basic-outfitter
+	outfitter Rebels-basic-ammo-outfitter
+	outfitter Rebels-advanced-weapon-outfitter
+	outfitter Rebels-advanced-systems-outfitter
+	outfitter Rebels-advanced-power-outfitter
+	outfitter Rebels-advanced-engines-outfitter
 
 # Extra
 system "Sol"
