@@ -251,6 +251,7 @@ outfitter Rebels-basic-weapon-outfitter
 	"Electron Beam"
 	"Energy Blaster"
 	"Security Station"
+	"Rebels Particle Gun"
 outfitter Rebels-basic-systems-outfitter
 	"Asteroid Scanner"
 	"Cargo Expansion"
@@ -301,6 +302,7 @@ outfitter Rebels-advanced-weapon-outfitter
 	"Security Station"
 	"Pulse Rifle"
 	"Security Forcefield"
+	"Rebels Particle Gun"
 outfitter Rebels-advanced-systems-outfitter
 	"Multiphasic Scanner"
 	"Countermesure Module"

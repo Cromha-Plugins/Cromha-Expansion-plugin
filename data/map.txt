@@ -1609,7 +1609,7 @@ system "Far Sabira"
 	trade Medical 407
 	trade Metal 501
 	trade Plastic 467
-	fleet empire-rebels-raiders-fleet 6000
+	fleet empire-rebels-raiders 6000
 	object
 		sprite star/m-supergiant
 			scale 0.8
@@ -1657,6 +1657,7 @@ system "Korsmanath"
 	trade Plastic 440
 	fleet "Large Quarg" 3000
 	fleet "Small Kor Mereti" 8000
+	fleet empire-rebels-raiders 6000
 	object
 		sprite star/k0
 		period 10
