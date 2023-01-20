@@ -1,10 +1,12 @@
 phrase "empire fleet names"
 	word
-		"S-"
+		"Z-"
 	phrase
 		"digit"
 	phrase
 		"digit"
+	phrase
+		"letter"
 	phrase
 		"letter"
 	phrase

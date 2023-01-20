@@ -39,6 +39,7 @@ outfitter Basic-weapons-outfitter
 	"Security Forcefield"
 	"Security Station"
 	"Ion Proton Gun"
+	"Railgun"
 outfitter Basic-systems-outfitter
 	"Asteroid Scanner"
 	"Cargo Expansion"
@@ -123,6 +124,7 @@ outfitter Advanced-weapon-outfitter
 	"Thunderhead Launcher"
 	"Ion Proton Gun"
 	"Ion Proton Turret"
+	"Railgun"
 outfitter Advanced-systems-outfitter
 	"Asteroid Scanner"
 	"Cargo Expansion"

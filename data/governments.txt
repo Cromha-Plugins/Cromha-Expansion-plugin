@@ -28,7 +28,7 @@ government "Cromha Empire"
 		destroy 10
 		scan 0.1
 	swizzle 0
-	color 0 255 255
+	color "energy"
 	"provoked on scan"
 	bribe 0
 	fine 2

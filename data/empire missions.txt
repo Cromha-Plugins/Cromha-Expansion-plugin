@@ -642,6 +642,8 @@ mission "Empire: Attack Korsmanath"
 	on enter Korsmanath
 		dialog "You enter the system and see that your scanners find some ships: it's Rebels ships. Time to engage combat."
 
+mission "Empire: 
+
 # Events
 mission "Discovered Empire Space"
 	landing
