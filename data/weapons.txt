@@ -341,7 +341,7 @@ outfit "Empire Torpedo Bank"
 		ammo "Empire Torpedo Missile"
 		icon "icon/empire torpedo"
 		"cluster"
-		"hit effect" "firelight ring" 20
+		"hit effect" "empire torpedo ring" 20
 		"velocity" 4
 		"velocity override" 16
 		"lifetime" 10
@@ -359,17 +359,17 @@ outfit "Empire Torpedo Bank"
 		"blast radius" 60
 		"hit force" 100
 		"missile strength" 60
-		submunition "Firelight Turning"
+		submunition "Empire Torpedo Turning"
 		"stream"
 	description "As the Firestorm torpedo does not require full reactor shielding or safety interlocks, Korath engineers were able to further scale down the reactor element to fit in a missile casing for use on and against smaller vessels."
 	description "	Rather than rely on traditional reaction engines attached to the missile for launch, this rapid-fire missile bank appears to operate on the same principles as a Banisher."
 
 
-outfit "Firelight Turning"
+outfit "Empire Torpedo Turning"
 	weapon
 		sprite "projectile/empire torpedo"
 			scale 1.5
-		"hit effect" "firelight ring" 20
+		"hit effect" "empire torpedo ring" 20
 		"velocity" 0.1
 		"lifetime" 20
 		"acceleration" -0.1
@@ -381,15 +381,15 @@ outfit "Firelight Turning"
 		"blast radius" 60
 		"hit force" 60
 		"missile strength" 60
-		"submunition" "Firelight Activated"
+		"submunition" "Empire Torpedo Activated"
 
-outfit "Firelight Activated"
+outfit "Empire Torpedo Activated"
 	weapon
 		sprite "projectile/empire torpedo active"
 			scale 1.5
 			"frame rate" 12
 			"random start frame"
-		"hit effect" "firelight ring" 20
+		"hit effect" "empire torpedo ring" 20
 		"velocity" 3
 		"lifetime" 500
 		"acceleration" 1.6
@@ -409,7 +409,7 @@ outfit "Firelight Activated"
 		"hit force" 400
 		"missile strength" 60
 
-effect "firelight ring"
+effect "empire torpedo ring"
 	sprite "effect/empire torpedo ring"
 		"scale" 0.5
 		"no repeat"
