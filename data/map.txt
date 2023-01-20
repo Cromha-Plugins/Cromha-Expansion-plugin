@@ -1426,6 +1426,7 @@ system Wezen
 	belt 1913
 	link Naos
 	link "Alpi Tah"
+	link "Far Sabira"
 	asteroids "small rock" 6 2.6418
 	asteroids "medium rock" 68 2.2372
 	asteroids "large rock" 22 1.3328
@@ -1577,14 +1578,10 @@ planet "Las Tah"
 		fleet empire-rebels-raiders 6
 
 system "Far Sabira"
-	pos -643 -435
+	pos -770 -445
 	government "Empire Rebels"
 	attributes "deep" rebels
-	arrival 2710
-	habitable 2710
-	belt 1913
 	link Wezen
-	link "Alpi Tah"
 	asteroids "small rock" 6 2.6418
 	trade Clothing 184
 	trade Electronics 612
@@ -1596,7 +1593,172 @@ system "Far Sabira"
 	trade Medical 407
 	trade Metal 501
 	trade Plastic 467
-	fleet empire-rebels-raiders 6000
+	fleet empire-rebels-raiders-fleet 6000
+	object
+		sprite star/m-supergiant
+			scale 0.8
+		distance 8
+		period 110
+		object
+			sprite planet/rock0
+			distance 300
+			period 60
+		object
+			sprite planet/lava1
+			distance 250
+			period 40
+		object
+			sprite planet/could7-b
+			distance 400
+			period 110
+		object
+			sprite planet/gas15-b
+			distance 900
+			period 250
+			
+system "Korsmanath"
+	pos 97.4305 -185.812
+	government "Empire Rebels"
+	attributes "korath"
+	arrival 500
+	habitable 490
+	belt 1775
+	link Farbutero
+	link Feroteri
+	asteroids "small rock" 2 2.4123
+	asteroids "medium rock" 1 2.5993
+	asteroids "large rock" 4 1.3277
+	asteroids "large metal" 2 1.6456
+	trade Clothing 335
+	trade Electronics 777
+	trade Equipment 509
+	trade Food 497
+	trade "Heavy Metals" 1067
+	trade Industrial 815
+	trade "Luxury Goods" 1014
+	trade Medical 479
+	trade Metal 427
+	trade Plastic 440
+	fleet "Large Quarg" 3000
+	fleet "Small Kor Mereti" 8000
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/rock8-b
+		distance 175.21
+		period 41.9083
+	object "Kasichara Fet"
+		sprite planet/desert3
+		distance 469.3
+		period 183.712
+	object
+		sprite planet/gas0-b
+		distance 1202.55
+		period 753.557
+		object
+			sprite planet/dust7
+			distance 268
+			period 12.8576
+		object
+			sprite planet/ice7
+			distance 419
+			period 25.1349
+			object "Sar'Al Station"
+				sprite planet/station5c
+					scale 0.2
+				distance 200
+				period 60
+	object
+		sprite planet/gas5-b
+		distance 2739.24
+		period 2590.64
+		object
+			sprite planet/lava0
+			distance 275
+			period 15.1651
+		object
+			sprite planet/dust3
+			distance 422
+			period 28.8281
+
+planet "Sar'Al Station"
+	government "Empire Rebels"
+	attributes "korath" rebels
+	landscape land/Sar'al_station
+	description "This is a little station that has been created by the Empire Rebels some years ago. You cannot find any spaceport or ship here, this is principaly a listening station that surveillance this part of space."
+	spaceport ""
+
+system Gorvi
+	pos -250 -483
+	government "Empire Rebels"
+	attributes "north" "wolf-rayet" rebels
+	arrival 5000
+	habitable 50000
+	belt 1345
+	haze _menu/haze-133
+	link Mintaka
+	link Tortor
+	asteroids "small rock" 60 1.1781
+	asteroids "medium rock" 3 2.1692
+	asteroids "large rock" 17 2.7302
+	asteroids "medium metal" 8 1.2155
+	asteroids "large metal" 1 1.5895
+	minables iron 7 2.21226
+	minables lead 9 2.73021
+	trade Clothing 331
+	trade Electronics 793
+	trade Equipment 539
+	trade Food 347
+	trade "Heavy Metals" 1072
+	trade Industrial 825
+	trade "Luxury Goods" 1091
+	trade Medical 882
+	trade Metal 514
+	trade Plastic 455
+	fleet "Small Northern Pirates" 1000
+	fleet "Large Northern Pirates" 1000
+	fleet "Large Republic" 4000
+	fleet "Small Northern Merchants" 8000
+	object
+		sprite star/wr
+		period 10
+	object
+		sprite planet/lava0
+		distance 342.184
+		period 35.8067
+	object
+		sprite planet/lava7
+		distance 580.224
+		period 79.0621
+	object
+		sprite planet/titan-b
+		distance 1076.43
+		period 199.780
+	object
+		sprite planet/gas16
+		distance 2298.59
+		period 623.400
+		object
+			sprite planet/rock17
+			distance 215
+			period 15.5389
+		object
+			sprite planet/dust7
+			distance 349
+			period 32.1366
+		object "Kal'Lis"
+			sprite planet/fg_terrestrial10
+				scale 0.7
+			distance 300
+			period 50
+
+planet "Kal'Lis"
+	government "Empire Rebels"
+	attributes "north" "wolf-rayet" rebels rich urban
+	landscape land/Kal'lis
+	spaceport "The spaceport is huge, there are hundreds of ships. You can see some Empire Rebels ships and officers. It seems there is a lot of activity on this planet, but also a lot of traffics. It's better to stay away from people, there are not all good intentionned."
+	description "Kal'Lis is a ultra-urbannised planet. It's one of the greatest Rebels planet, it's where they stock all theirs ships and where they produce them and sells them. It's a great place to get advanced technoogy."
 
 # Extra
 system "Sol"
