@@ -108,7 +108,7 @@ mission "Empire: Escort Empire Raven"
 		"empire jobs" += 1
 		give ship "Empire Quicksilver"
 		dialog "You land on the reparation station dock and you can already see the Empire Quicksilver waiting for you in the spaceport."
-	npc accompany save
+	npc escort save
 		government "Cromha Empire"
 		personality escort timid
 		ship "Empire Raven" RZ-1406
