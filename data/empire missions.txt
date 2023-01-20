@@ -174,8 +174,7 @@ mission "Empire: Dirige Empire fleet to <planet>"
 		not attributes uninhabited
 	to offer
 		has "Empire: Harvest 25 tons of silicon: done"
-	destination
-		government "Empire Rebels"
+	destination "Linimbus"
 	on offer
 		conversation
 			`You land on <planet> and recieve an other message for the Empire missions. You click on the pop-up and the app opens. You can see written on the screen:`
@@ -190,7 +189,7 @@ mission "Empire: Dirige Empire fleet to <planet>"
 		government "Cromha Empire"
 		fleet cromha-fleet
 	npc kill
-		system destination
+		system Wezen
 		government "Empire Rebels"
 		personality staying
 		fleet empire-rebels-raiders-fleet
@@ -533,6 +532,45 @@ mission "Empire: Bring Resources"
 		conversation
 			`You enter the station spaceport and see the same guy that the other time. He greets you and says:`
 			`	"Thanks for you help, here is <payment>. I hope it will help you. We will call you back if there is anything new about the Black Manta."`
+
+mission "Empire: Defense Solifar"
+	landing
+	description "Defense Solifar from Empire Rebels fleet that attacked a Mineria Convoit. There will be an Empire fleet that will help you. Then land on <destination>. Payment is <payment>."
+	source
+		government "Cromha Empire"
+		not attributes uninhabited
+	destination "Empire Ring"
+	to offer
+		has "Empire: Bring Resources: done"
+	on offer
+		conversation
+			`You land on <planet> and recieve an other message for the Empire missions. You click on the pop-up and the app opens. You can see written on the screen:`
+			`	"Defense Solifar from Empire Rebels fleet that attacked a Mineria Convoit. There will be an Empire fleet that will help you. Then land on <destination>. Payment is <payment>."`
+			`	They also inform you that an entire fleet is waiting you on the <planet> ring station.`
+				accept
+	on complete
+		payment
+		payment 250000
+		"reputation: Cromha Empire" += 10
+		"empire jobs" += 1
+	npc kill
+		government "Empire Rebels"
+		personality target plunders disables coward staying
+		fleet empire-rebels-raiders-fleet
+		fleet empire-rebels-raiders-fleet
+		fleet empire-rebels-raiders-fleet
+		system Solifar
+		dialog "The last Rebel ship has been destroyed. Time to land on <planet> to get your payment."
+	npc
+		government "Cromha Empire"
+		personality staying
+		fleet cromha-fleet
+		system Solifar
+	npc
+		government "Mineria colonnies"
+		personality staying
+		fleet mineria-transports
+		system Solifar
 
 # Events
 mission "Discovered Empire Space"
