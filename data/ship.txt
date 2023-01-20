@@ -5,7 +5,7 @@ ship "Black Manta (Prototype)"
 	thumbnail "thumbnail/blackmanta"
 	"uncapturable"
 	"never disabled"
-	"swizzle" 0
+	"swizzle" 6
 	attributes
 		category "Prototype"
 		licenses
@@ -61,7 +61,7 @@ ship "Black Manta (Prototype)"
 		
 		"RC-220 Atomic Thruster" 2
 		"RC-225 Atomic Steering" 2
-		"RX-180 Reverse Thruster" 2
+		"RX-180 Reverse Thruster" 3
 		"Laser Rifle" 10
 		"Pulse Rifle" 10
 		"Security Station" 3
@@ -128,7 +128,7 @@ ship "Heavy Empire Destroyer"
 	thumbnail "thumbnail/empire_destroyer"
 	"uncapturable"
 	"never disabled"
-	"swizzle" 0
+	"swizzle" 6
 	attributes
 		category "Destroyer"
 		licenses
@@ -289,7 +289,7 @@ ship "Empire Destroyer"
 	thumbnail "thumbnail/empire destroyer"
 	"uncapturable"
 	"never disabled"
-	"swizzle" 0
+	"swizzle" 6
 	attributes
 		category "Destroyer"
 		licenses
@@ -374,7 +374,7 @@ ship "Light Empire Destroyer"
 	thumbnail "thumbnail/light empire destroyer"
 	"uncapturable"
 	"never disabled"
-	"swizzle" 0
+	"swizzle" 6
 	attributes
 		category "Destroyer"
 		licenses
@@ -449,7 +449,7 @@ ship "Empire Raven"
 	thumbnail "thumbnail/empire raven"
 	"uncapturable"
 	"never disabled"
-	"swizzle" 0
+	"swizzle" 6
 	attributes
 		category "Empire Warship"
 		licenses
@@ -520,7 +520,7 @@ ship "Empire Quicksilver"
 	thumbnail "thumbnail/empire quicksilver"
 	"uncapturable"
 	"never disabled"
-	"swizzle" 0
+	"swizzle" 6
 	attributes
 		category "Empire Warship"
 		licenses
@@ -580,7 +580,7 @@ ship "Empire Drone"
 	thumbnail "thumbnail/empire drone"
 	"uncapturable"
 	"never disabled"
-	"swizzle" 0
+	"swizzle" 6
 	attributes
 		category "Drone"
 		licenses
