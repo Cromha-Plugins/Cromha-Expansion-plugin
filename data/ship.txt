@@ -38,8 +38,8 @@ ship "Black Manta (Prototype)"
 		"Empire Particle gun" 6
 		"Ion Proton Gun" 3
 		"Empire Torpedo Bank" 2
-		"Empire Torpedo Missile" 160
-		"Empire Torpedo Storage Rack" 12
+		"Empire Torpedo Missile" 240
+		"Empire Torpedo Storage Rack" 20
 		"Antimatter Railgun" 2
 		"Railgun Slug" 560
 		"Railgun Slug Rack"
