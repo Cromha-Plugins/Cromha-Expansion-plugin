@@ -66,7 +66,7 @@ ship "Black Manta (Prototype)"
 		"RC-220 Atomic Thruster" 3
 		"RC-225 Atomic Steering" 3
 		"RX-180 Reverse Thruster" 5
-		"Pulse Rifle" 80
+		"Phasic Rifle" 80
 		"Security Station" 12
 		"Fragmentation Grenades" 50
 		"Security Forcefield" 40
@@ -196,9 +196,8 @@ ship "Heavy Empire Destroyer"
 		"Empire Shielding Core" 4
 		"Multiphasic Cooler" 12
 		"Brig" 20
-		"Laser Rifle" 40
-		"Fragmentation Grenades" 40
-		"Pulse Rifle" 25
+		"Phasic Rifle" 150
+		"Fragmentation Grenades" 80
 		"Security Station" 10
 		"Multiphasic Scanner" 6
 		"Fuel Pod" 5
@@ -354,7 +353,7 @@ ship "Empire Destroyer"
 		"Compact Empire Shielding Core" 6
 		"Large Radar Jammer"
 		"Multiphasic Cooler"
-		"Laser Rifle" 15
+		"Phasic Rifle" 15
 		
 		`RC-200 Atomic Thruster`
 		`RC-205 Atomic Steering`
@@ -438,7 +437,7 @@ ship "Light Empire Destroyer"
 		"Compact Empire Shielding Core" 4
 		"Small Radar Jammer" 2
 		"Multiphasic Cooler"
-		"Laser Rifle"
+		"Phasic Rifle" 20
 		
 		`RC-200 Atomic Thruster`
 		`RC-205 Atomic Steering`
@@ -511,7 +510,7 @@ ship "Empire Raven"
 		"RC-X2 Multiphasic Reactor" 2
 		"Empire Hai Gorge Batteries"
 		"Compact Empire Shielding Core" 2
-		"Laser Rifle" 2
+		"Phasic Rifle" 10
 		
 		`RC-180 Atomic Thruster`
 		`RC-185 Atomic Steering`

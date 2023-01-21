@@ -198,3 +198,14 @@ outfit "Teleportation Dock"
 	"energy consumption" 10
 	"unplunderable" 1
 	description "Extremly good for attack, letting you teleporting into your enemy ship to attack them by surprise but that that useful for defending."
+	
+outfit "Phasic Rifle"
+	category "Hand to Hand"
+	cost 5000
+	licenses
+		"Empire Contributor"
+	thumbnail "outfit/phasic rifle"
+	"capture attack" 4
+	"capture defense" 6
+	"unplunderable"
+	description ""

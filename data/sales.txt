@@ -1,7 +1,7 @@
 # Empire
 outfitter Base-outfitter
 	"Local Map"
-	"Laser Rifle"
+	"Phasic Rifle"
 	"Fragmentation Grenades"
 	"Empire Hai Chasm Batteries"
 	"Empire Hai Fissure Batteries"
