@@ -29,15 +29,12 @@ conversation "cromha transporter intro"
 	`	Compared to the bank, you feel much more at home in the shipyard, walking among the rusted out hulks and newer ships that gleam in the sunlight. You smell grease and dirt and rocket fuel; wonderful smells. There are many ship models to choose from, but only some are within your price range. Which one you choose will determine your future...`
 
 conversation "birthday present"
-    `"WAIT!..."`
+	`"WAIT!..."`
 	choice
 		`	Do not wait your dad and enter the spaceport without him`
 			goto dontwait
 		`	Do not wait your dad and enter the spaceport without him`
-			goto wait
-	label dontwait
-	`e`
-
+			decline
 	label wait
 	`	"Son! I'm glad you waited me! I have something important for you, it's your birthday present. Follow me to the spaceport please."`
 	`	Your dad go to the spaceort manager and ask smth you cam't hear. The manager give him keys of a spaceport depot. He opens it and a very old but beautifull Blackbird transporter.`

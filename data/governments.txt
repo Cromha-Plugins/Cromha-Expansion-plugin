@@ -30,9 +30,9 @@ government "Cromha Empire"
 		"Modified Plasma Repeater" 500000
 		"Rebels Particle Gun" 500000
 	"friendly hail" "empire friendly hail"
-    "friendly disabled hail" "empire friendly disabled hail"
-    "hostile hail" "empire hostile hail"
-    "hostile disabled hail" "empire hostile disabled hail"
+	"friendly disabled hail" "empire friendly disabled hail"
+	"hostile hail" "empire hostile hail"
+	"hostile disabled hail" "empire hostile disabled hail"
 
 government "Empire Rebels"
 	"display name" "Empire Rebels"
