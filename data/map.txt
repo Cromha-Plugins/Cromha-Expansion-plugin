@@ -1015,7 +1015,7 @@ system "As'har"
 		period 1
 		
 planet "Solfa Station"
-	attributes station rebels "requires: rebels mapper"
+	attributes station rebels "requires: rebels mapper" "far empire space"
 	landscape land/Solfa_station
 	outfitter Rebels-basic-outfitter
 	outfitter Rebels-basic-ammo-outfitter
@@ -1069,6 +1069,75 @@ system "Los Asto"
 	haze _menu/haze-triangle
 	link "Los Calos"
 	link "Los Faros"
+	link "Lim Ort"
+
+system "Lim Ort"
+	hazard "Far Empire Space Hazard" 9000
+	pos 490 -350
+	attributes inhabited rich research military "far empire space"
+	government "Empire Rebels"
+	haze _menu/haze-cyan
+	fleet empire-rebels-raiders-fleet 1600
+	link "Los Asto"
+	trade "Heavy Metals" 364
+	trade "Luxury Goods" 921
+	trade Electronics 634
+	trade Equipment 312
+	trade Food 622
+	trade Industrial 931
+	trade Medical 639
+	trade Metal 163
+	trade Plastic 361
+	object
+		sprite star/a-giant
+			scale 0.7
+		period 110
+		object
+			sprite planet/browndwarf-t
+				scale 0.7
+			distance 500
+			period 35
+		object
+			sprite planet/dyson1
+				scale 0.4
+			distance 300
+			period 5
+		object
+			sprite planet/dyson2
+				scale 0.5
+			distance 360
+			period 10
+		object
+			sprite planet/dyson2
+				scale 0.2
+			distance 320
+			period 20
+		object
+			sprite planet/dyson3
+				scale 0.7
+			distance 390
+			period 35
+		object "Phil'Sta"
+			sprite planet/ganymede-b
+			distance 800
+			period 110
+		object
+			sprite planet/gas2
+			distance 1000
+			period 220
+			
+planet "Phil'Sta"
+	attributes rebels "far empire space" rich military research
+	landscape land/Phil'Sta
+	outfitter Rebels-basic-outfitter
+	outfitter Rebels-basic-ammo-outfitter
+	outfitter Rebels-basic-weapon-outfitter
+	outfitter Rebels-basic-systems-outfitter
+	outfitter Rebels-advanced-power-outfitter
+	outfitter Rebels-advanced-engines-outfitter
+	description "Phil'Sta is an inhabited planet with lot of canyons and other huge paysage. Rebels use this as an advaced post in case The Empire is going to far in the Far Empire Space so they can get them to go away. This planet is advanced in power and engines."
+	spaceport "The spaceport is on the verge of a large rocky cliff.It is in the walls of the big cliff where dock are diged inside for the vessels."
+	spaceport "Denumbers people seem to barter here, like all the planets governned by Empire Rebels."
 
 # Korath
 system "Sepriaptu"
