@@ -62,7 +62,7 @@ ship "Black Manta (Prototype)"
 		
 		"RC-220 Atomic Thruster" 2
 		"RC-225 Atomic Steering" 2
-		"RX-180 Reverse Thruster" 3
+		"RX-180 Reverse Thruster" 4
 		"Laser Rifle" 10
 		"Pulse Rifle" 10
 		"Security Station" 3
