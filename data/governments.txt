@@ -19,14 +19,7 @@ government "Cromha Empire"
 		"Hai Merchant (Human)" 1
 		"Hai (Unfettered)" 1
 	"death sentence" "caught red-handed"
-	raid "Small Syndicate"
-	"penality for"
-		assist -0.25
-		disable 1
-		board 1
-		capture 10
-		destroy 10
-		scan 0.1
+	raid empire-rebels-raiders
 	swizzle 0
 	color "energy"
 	"provoked on scan"

@@ -12,6 +12,8 @@ outfit "Countermesure Module"
 	"ion protection" 2
 	"discharge protection" 2
 	"corrosion protection" 2
+	"slowing protection" 2
+	"discharge protection" 2
 	"energy consumption" 0.7
 	description "This module has been especially designed for the ships who would travels in the Far Empire Space. It increase ion, disruption, discharge, energy and corrosion damages. It is also perfect for traveling in the Ember Waste. This is a little piece of advanced high technology."
 	
