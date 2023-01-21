@@ -53,3 +53,36 @@ effect "black manta explosion"
 	"random spin" 5
 	"random velocity" 1
 	"velocity scale" .4
+effect "empire tiny explosion"
+	sprite "effect/explosion/empire tiny"
+		"no repeat"
+		"frame rate" 15
+	sound "explosion tiny"
+	"lifetime" 20
+	"random angle" 360
+	"random frame rate" 5
+	"random spin" 1
+	"random velocity" .2
+	"velocity scale" .4
+effect "empire medium explosion"
+	sprite "effect/explosion/empire medium"
+		"no repeat"
+		"frame rate" 15
+	sound "explosion medium"
+	"lifetime" 28
+	"random angle" 360
+	"random frame rate" 5
+	"random spin" 3
+	"random velocity" .6
+	"velocity scale" .4
+effect "empire huge explosion"
+	sprite "effect/explosion/empire huge"
+		"no repeat"
+		"frame rate" 15
+	sound "explosion huge"
+	"lifetime" 36
+	"random angle" 360
+	"random frame rate" 5
+	"random spin" 5
+	"random velocity" 1
+	"velocity scale" .4

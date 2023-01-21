@@ -117,7 +117,7 @@ fleet Void-sprite-family
 		"Void Sprite Child"
 		"Void Sprite"
 		"Void Sprite"
-		variant 1
+	variant 1
 		"Pincer Beast Child"
 		"Pincer Beast Child"
 		"Void Sprite"
@@ -126,3 +126,51 @@ fleet Void-sprite-family
 		"Pincer Beast Child"
 		"Pincer Beast Child"
 		"Void Sprite"
+
+ship "Ayym"
+	noun "creature"
+	sprite "ship/ayym/ayym"
+	thumbnail "thumbnail/ayym"
+	attributes
+		category "Light Freighter"
+		"hull" 100300
+		"self destruct" 1.0
+		"automaton" 1
+		"mass" 850
+		"drag" 9.6
+		"heat dissipation" .7
+		"cargo space" 75
+		"cooling" 13
+		"thrust" 25
+		"turn" 1100
+		"hyperdrive" 1
+		"jump fuel" 100
+		"jump speed" 2
+		"hull repair rate" 5
+		"energy capacity" 1000
+		"energy generation" 5
+		"ramscoop" 0.5
+		"fuel capacity" 300
+		"inscrutable" 1
+		"gaslining" 1
+		weapon
+			"blast radius" 60
+			"shield damage" 800
+			"hull damage" 900
+			"hit force" 3600
+	outfits
+		Pincer 4
+	gun -41 -45 Pincer
+	gun 41 -45 Pincer
+	gun -42 -50 Pincer
+	gun 42 -50 Pincer
+	leak "blood" -40 -20
+	explode "blood" 45
+	"final explode" "pincer beast shatter"
+	description `This creature appears to have an outer shell made of small asteroids held together by strands of carbon nanotubes. It pulls rocks through arms into its main cavity where it processes them to make more shell. The multi-colored hairs pointing back seem to be a drive system of sorts, manipulating the gravity field around the creature to accelerate it. There is no apparent hyperdrive mechanism, but somehow it is able to open a hyperspace window.`
+	
+fleet "Ayym"
+	government "Unknow"
+	personality mining harvests staying
+	variant 1
+		"Ayym"

@@ -945,6 +945,7 @@ system "Irn'o"
 	fleet cromha-fleet 2000
 	fleet mineria-transports 1600
 	fleet "Small Hai" 2200
+	fleet "Ayym"
 	haze _menu/haze-cyan
 	link "Ring Wartrue"
 	link "Nugg'et"
@@ -958,6 +959,12 @@ system "Irn'o"
 	trade Medical 174
 	trade Metal 274
 	trade Plastic 942
+	asteroids "medium rock" 63 4.13
+	asteroids "small metal" 4 10.5
+	asteroids "medium metal" 53 6.23
+	minables silicon 13 5.16891
+	minables neoyium 13 5.16891
+	minables titanium 13 5.16891
 
 system "Nugg'et"
 	hazard "Far Empire Space Hazard" 9000
@@ -967,6 +974,7 @@ system "Nugg'et"
 	fleet cromha-fleet 2000
 	fleet mineria-transports 1600
 	fleet "Small Hai" 2200
+	fleet "Ayym"
 	haze _menu/haze-cyan
 	link "Irn'o"
 	trade "Heavy Metals" 361
@@ -978,6 +986,12 @@ system "Nugg'et"
 	trade Medical 174
 	trade Metal 274
 	trade Plastic 942
+	asteroids "medium rock" 63 4.13
+	asteroids "small metal" 4 10.5
+	asteroids "medium metal" 53 6.23
+	minables silicon 13 5.16891
+	minables neoyium 13 5.16891
+	minables titanium 13 5.16891
 
 system "As'har"
 	hazard "Far Empire Space Hazard" 9000
@@ -985,6 +999,7 @@ system "As'har"
 	attributes inhabited rich research military "far empire space" "blackhole"
 	government "Empire Rebels"
 	fleet empire-rebels-raiders-fleet 1600
+	fleet "Ayym" 1200
 	haze _menu/haze-cyan
 	link "Irn'o"
 	trade "Heavy Metals" 361
@@ -999,6 +1014,12 @@ system "As'har"
 	hazard "Far Black Hozle Accretion Disk" 1
 	hazard "Far Black Hole Event Horizon" 1
 	hazard "Far Black Hole Gravity" 1
+	asteroids "medium rock" 63 4.13
+	asteroids "small metal" 4 10.5
+	asteroids "medium metal" 53 6.23
+	minables silicon 13 5.16891
+	minables neoyium 13 5.16891
+	minables titanium 13 5.16891
 	object "Solfa Station"
 		sprite planet/tschyss
 			scale 0.3
@@ -1041,6 +1062,12 @@ system "Wel'y"
 	trade Medical 756
 	trade Metal 559
 	trade Plastic 306
+	asteroids "medium rock" 63 4.13
+	asteroids "small metal" 4 10.5
+	asteroids "medium metal" 53 6.23
+	minables silicon 13 5.16891
+	minables neoyium 13 5.16891
+	minables titanium 13 5.16891
 	
 system "Los Calos"
 	hazard "Far Empire Triangle Hazard" 1000
@@ -1051,6 +1078,12 @@ system "Los Calos"
 	link "Wel'y"
 	link "Los Faros"
 	link "Los Asto"
+	asteroids "medium rock" 63 4.13
+	asteroids "small metal" 4 10.5
+	asteroids "medium metal" 53 6.23
+	minables silicon 13 5.16891
+	minables neoyium 13 5.16891
+	minables titanium 13 5.16891
 	
 system "Los Faros"
 	hazard "Far Empire Triangle Hazard" 1000
@@ -1060,6 +1093,12 @@ system "Los Faros"
 	haze _menu/haze-triangle
 	link "Los Calos"
 	link "Los Asto"
+	asteroids "medium rock" 63 4.13
+	asteroids "small metal" 4 10.5
+	asteroids "medium metal" 53 6.23
+	minables silicon 13 5.16891
+	minables neoyium 13 5.16891
+	minables titanium 13 5.16891
 	
 system "Los Asto"
 	hazard "Far Empire Triangle Hazard" 1000
