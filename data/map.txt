@@ -996,7 +996,7 @@ system "As'har"
 	trade Medical 174
 	trade Metal 274
 	trade Plastic 942
-	hazard "Far Black Hole Accretion Disk" 1
+	hazard "Far Black Hozle Accretion Disk" 1
 	hazard "Far Black Hole Event Horizon" 1
 	hazard "Far Black Hole Gravity" 1
 	object "Solfa Station"
@@ -1031,6 +1031,26 @@ system "Wel'y"
 	fleet mineria-transports 1600
 	haze _menu/haze-cyan
 	link "Ring Wartrue"
+	link "Los Calos"
+	trade "Heavy Metals" 152
+	trade "Luxury Goods" 290
+	trade Electronics 687
+	trade Equipment 751
+	trade Food 265
+	trade Industrial 357
+	trade Medical 756
+	trade Metal 559
+	trade Plastic 306
+	
+system "Los Calos"
+	hazard "Far Empire Triangle Hazard" 1000
+	pos 540 -450
+	attributes inhabited rich research military "far empire space"
+	government "Cromha Empire"
+	fleet cromha-fleet 2000
+	fleet mineria-transports 1600
+	haze _menu/haze-triangle
+	link "Wel'y"
 	trade "Heavy Metals" 152
 	trade "Luxury Goods" 290
 	trade Electronics 687

@@ -9,14 +9,14 @@ hazard "Far Empire Space Hazard"
 		"hull damage" 0.01
 		
 hazard "Far Empire Triangle Hazard"
-	"duration" 60 240
-	"strength" 1 3
+	"duration" 300 1200
+	"strength" 3 6
 	"system-wide"
 	"environmental effect" "far empire triangle hazard" 20
 	weapon
-		"ion damage" 0.2
-		"corrosion damage" 0.2
-		"shield damage" 1
+		"ion damage" 0.5
+		"corrosion damage" 0.5
+		"shield damage" 1.3
 		
 effect "far empire triangle hazard"
 	sprite "effect/far empire ion impact"
