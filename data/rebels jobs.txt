@@ -1,0 +1,943 @@
+# Harvests
+mission "rebel Harvest (aluminum, small)"
+	name "Harvest Aluminum"
+	description "The people of <origin> will pay you <payment> for 50 tons of aluminum."
+	repeat
+	job
+	to offer
+		random < 30
+	source
+		government "Empire Rebels"
+	on complete
+		outfit "Aluminum" -50
+		payment 157500
+		dialog `You unload the aluminum at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+
+mission "rebel Harvest (aluminum, large)"
+	name "Harvest Aluminum"
+	description "The people of <origin> will pay you <payment> for 100 tons of aluminum."
+	repeat
+	job
+	to offer
+		random < 20
+	source
+		government "Empire Rebels"
+	on complete
+		outfit "Aluminum" -100
+		payment 324000
+		dialog `You unload the aluminum at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+
+mission "rebel Harvest (copper, small)"
+	name "Harvest Copper"
+	description "The people of <origin> will pay you <payment> for 50 tons of copper."
+	repeat
+	job
+	to offer
+		random < 30
+	source
+		government "Empire Rebels"
+	on complete
+		outfit "Copper" -50
+		payment 262500
+		dialog `You unload the copper at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+
+mission "rebel Harvest (copper, large)"
+	name "Harvest Copper"
+	description "The people of <origin> will pay you <payment> for 100 tons of copper."
+	repeat
+	job
+	to offer
+		random < 20
+	source
+		government "Empire Rebels"
+	on complete
+		outfit "Copper" -100
+		payment 540000
+		dialog `You unload the copper at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+
+mission "rebel Harvest (gold, small)"
+	name "Harvest Gold"
+	description "The people of <origin> will pay you <payment> for 50 tons of gold."
+	repeat
+	job
+	to offer
+		random < 15
+	source
+		government "Empire Rebels"
+	on complete
+		outfit "Gold" -50
+		payment 800000
+		dialog `You unload the gold at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+
+mission "rebel Harvest (gold, large)"
+	name "Harvest Gold"
+	description "The people of <origin> will pay you <payment> for 100 tons of gold."
+	repeat
+	job
+	to offer
+		random < 10
+	source
+		government "Empire Rebels"
+	on complete
+		outfit "Gold" -100
+		payment 1680000
+		dialog `You unload the gold at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+
+mission "rebel Harvest (iron, small)"
+	name "Harvest Iron"
+	description "The people of <origin> will pay you <payment> for 50 tons of iron."
+	repeat
+	job
+	to offer
+		random < 30
+	source
+		government "Empire Rebels"
+	on complete
+		outfit "Iron" -50
+		payment 105000
+		dialog `You unload the iron at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+
+mission "rebel Harvest (iron, large)"
+	name "Harvest Iron"
+	description "The people of <origin> will pay you <payment> for 100 tons of iron."
+	repeat
+	job
+	to offer
+		random < 20
+	source
+		government "Empire Rebels"
+	on complete
+		outfit "Iron" -100
+		payment 216000
+		dialog `You unload the iron at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+
+mission "rebel Harvest (lead, small)"
+	name "Harvest Lead"
+	description "The people of <origin> will pay you <payment> for 50 tons of lead."
+	repeat
+	job
+	to offer
+		random < 30
+	source
+		government "Empire Rebels"
+	on complete
+		outfit "Lead" -50
+		payment 90000
+		dialog `You unload the lead at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+
+mission "rebel Harvest (lead, large)"
+	name "Harvest Lead"
+	description "The people of <origin> will pay you <payment> for 100 tons of lead."
+	repeat
+	job
+	to offer
+		random < 20
+	source
+		government "Empire Rebels"
+	on complete
+		outfit "Lead" -100
+		payment 189000
+		dialog `You unload the lead at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+
+mission "rebel Harvest (neodymium, small)"
+	name "Harvest Neodymium"
+	description "The people of <origin> will pay you <payment> for 50 tons of neodymium."
+	repeat
+	job
+	to offer
+		random < 30
+	source
+		government "Empire Rebels"
+	on complete
+		outfit "Neodymium" -50
+		payment 380000
+		dialog `You unload the neodymium at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+
+mission "rebel Harvest (neodymium, large)"
+	name "Harvest Neodymium"
+	description "The people of <origin> will pay you <payment> for 100 tons of neodymium."
+	repeat
+	job
+	to offer
+		random < 20
+	source
+		government "Empire Rebels"
+	on complete
+		outfit "Neodymium" -100
+		payment 798000
+		dialog `You unload the neodymium at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+
+mission "rebel Harvest (platinum, small)"
+	name "Harvest Platinum"
+	description "The people of <origin> will pay you <payment> for 50 tons of platinum."
+	repeat
+	job
+	to offer
+		random < 10
+	source
+		government "Empire Rebels"
+	on complete
+		outfit "Platinum" -50
+		payment 1500000
+		dialog `You unload the platinum at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+
+mission "rebel Harvest (platinum, large)"
+	name "Harvest Platinum"
+	description "The people of <origin> will pay you <payment> for 100 tons of platinum."
+	repeat
+	job
+	to offer
+		random < 5
+	source
+		government "Empire Rebels"
+	on complete
+		outfit "Platinum" -100
+		payment 3200000
+		dialog `You unload the platinum at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+
+mission "rebel Harvest (silicon, small)"
+	name "Harvest Silicon"
+	description "The people of <origin> will pay you <payment> for 50 tons of silicon."
+	repeat
+	job
+	to offer
+		random < 30
+	source
+		government "Empire Rebels"
+	on complete
+		outfit "Silicon" -50
+		payment 60000
+		dialog `You unload the silicon at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+
+mission "rebel Harvest (silicon, large)"
+	name "Harvest Silicon"
+	description "The people of <origin> will pay you <payment> for 100 tons of silicon."
+	repeat
+	job
+	to offer
+		random < 20
+	source
+		government "Empire Rebels"
+	on complete
+		outfit "Silicon" -100
+		payment 128000
+		dialog `You unload the silicon at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+
+mission "rebel Harvest (silver, small)"
+	name "Harvest Silver"
+	description "The people of <origin> will pay you <payment> for 50 tons of silver."
+	repeat
+	job
+	to offer
+		random < 20
+	source
+		government "Empire Rebels"
+	on complete
+		outfit "Silver" -50
+		payment 450000
+		dialog `You unload the silver at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+
+mission "rebel Harvest (silver, large)"
+	name "Harvest Silver"
+	description "The people of <origin> will pay you <payment> for 100 tons of silver."
+	repeat
+	job
+	to offer
+		random < 10
+	source
+		government "Empire Rebels"
+	on complete
+		outfit "Silver" -100
+		payment 960000
+		dialog `You unload the silver at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+
+mission "rebel Harvest (titanium, small)"
+	name "Harvest Titanium"
+	description "The people of <origin> will pay you <payment> for 50 tons of titanium."
+	repeat
+	job
+	to offer
+		random < 10
+	source
+		government "Empire Rebels"
+	on complete
+		outfit "Titanium" -50
+		payment 375000
+		dialog `You unload the titanium at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+
+mission "rebel Harvest (titanium, large)"
+	name "Harvest Titanium"
+	description "The people of <origin> will pay you <payment> for 100 tons of titanium."
+	repeat
+	job
+	to offer
+		random < 5
+	source
+		government "Empire Rebels"
+	on complete
+		outfit "Titanium" -100
+		payment 800000
+		dialog `You unload the titanium at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+
+mission "rebel Harvest (tungsten, small)"
+	name "Harvest Tungsten"
+	description "The people of <origin> will pay you <payment> for 50 tons of tungsten."
+	repeat
+	job
+	to offer
+		random < 30
+	source
+		government "Empire Rebels"
+	on complete
+		outfit "Tungsten" -50
+		payment 450000
+		dialog `You unload the tungsten at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+
+mission "rebel Harvest (tungsten, large)"
+	name "Harvest Tungsten"
+	description "The people of <origin> will pay you <payment> for 100 tons of tungsten."
+	repeat
+	job
+	to offer
+		random < 20
+	source
+		government "Empire Rebels"
+	on complete
+		outfit "Tungsten" -100
+		payment 945000
+		dialog `You unload the tungsten at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+
+mission "rebel Harvest (uranium, small)"
+	name "Harvest Uranium"
+	description "The people of <origin> will pay you <payment> for 50 tons of uranium."
+	repeat
+	job
+	to offer
+		random < 10
+	source
+		government "Empire Rebels"
+	on complete
+		outfit "Uranium" -50
+		payment 750000
+		dialog `You unload the uranium at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+
+mission "rebel Harvest (uranium, large)"
+	name "Harvest Uranium"
+	description "The people of <origin> will pay you <payment> for 100 tons of uranium."
+	repeat
+	job
+	to offer
+		random < 5
+	source
+		government ""Empire Rebels"
+	on complete
+		outfit "Uranium" -100
+		payment 1600000
+		dialog `You unload the uranium at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+# Delivries Jobs
+mission rebelcargo-delivry-food[0]
+	name "Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Food" 10 250
+	to offer
+		random < 60
+	source
+		government "Empire Rebels"
+	destination
+		distance 1 5
+		government "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission rebelcargo-delivry-food[1]
+	name "Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Food" 10 250
+	to offer
+		random < 60
+	source
+		government "Empire Rebels"
+	destination
+		distance 1 5
+		government "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission rebelcargo-delivry-food[2]
+	name "Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Food" 10 250
+	to offer
+		random < 60
+	source
+		government "Empire Rebels"
+	destination
+		distance 1 5
+		government "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission rebelcargo-delivry-food[3]
+	name "Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Food" 10 250
+	to offer
+		random < 60
+	source
+		government "Empire Rebels"
+	destination
+		distance 1 5
+		government "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission rebelcargo-delivry-food[4]
+	name "Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Food" 10 250
+	to offer
+		random < 60
+	source
+		government "Empire Rebels"
+	destination
+		distance 1 5
+		government "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission rebelcargo-delivry-clothing[0]
+	name "Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Clothing" 10 250
+	to offer
+		random < 60
+	source
+		government "Empire Rebels"
+	destination
+		distance 1 5
+		government "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission rebelcargo-delivry-clothing[1]
+	name "Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Clothing" 10 250
+	to offer
+		random < 60
+	source
+		government "Empire Rebels"
+	destination
+		distance 1 5
+		government "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission rebelcargo-delivry-clothing[2]
+	name "Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Clothing" 10 250
+	to offer
+		random < 60
+	source
+		government "Empire Rebels"
+	destination
+		distance 1 5
+		government "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission rebelcargo-delivry-equipment[0]
+	name "Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Equipment" 10 250
+	to offer
+		random < 60
+	source
+		government "Empire Rebels"
+	destination
+		distance 1 5
+		government "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission rebelcargo-delivry-equipment[1]
+	name "Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Equipment" 10 250
+	to offer
+		random < 60
+	source
+		government "Empire Rebels"
+	destination
+		distance 1 5
+		government "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission rebelcargo-delivry-equipment[2]
+	name "Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Equipment" 10 250
+	to offer
+		random < 60
+	source
+		government "Empire Rebels"
+	destination
+		distance 1 5
+		government "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission rebelcargo-delivry-medical[0]
+	name "Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Medical" 10 250
+	to offer
+		random < 60
+	source
+		government "Empire Rebels"
+	destination
+		distance 1 5
+		government "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission rebelcargo-delivry-medical[1]
+	name "Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Medical" 10 250
+	to offer
+		random < 60
+	source
+		government "Empire Rebels"
+	destination
+		distance 1 5
+		government "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission rebelcargo-delivry-electronics[0]
+	name "Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Electronics" 10 250
+	to offer
+		random < 60
+	source
+		government "Empire Rebels"
+	destination
+		distance 1 5
+		government "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission rebelcargo-delivry-electronics[1]
+	name "Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Electronics" 10 250
+	to offer
+		random < 60
+	source
+		government ""Empire Rebels"
+	destination
+		distance 1 5
+		government "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission rebelcargo-delivry-electronics[2]
+	name "Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Electronics" 10 250
+	to offer
+		random < 60
+	source
+		government "Empire Rebels"
+	destination
+		distance 1 5
+		government "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+mission rebelbulk-delivry-food[0]
+	name "Bulk Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Food" 60 250
+	to offer
+		random < 60
+	source
+		government "Empire Rebels"
+	destination
+		distance 1 5
+		government "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission rebelbulk-delivry-food[1]
+	name "Bulk Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Food" 50 250
+	to offer
+		random < 60
+	source
+		government "Empire Rebels"
+	destination
+		distance 1 5
+		government "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission rebelbulk-delivry-food[2]
+	name "Bulk Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Food" 80 250
+	to offer
+		random < 60
+	source
+		government ""Empire Rebels"
+	destination
+		distance 1 5
+		government "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission rebelbulk-delivry-food[3]
+	name "Bulk Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Food" 100 250
+	to offer
+		random < 60
+	source
+		government "Empire Rebels"
+	destination
+		distance 1 5
+		government "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission rebelbulk-delivry-food[4]
+	name "Bluck Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Food" 140 250
+	to offer
+		random < 60
+	source
+		government "Empire Rebels"
+	destination
+		distance 1 5
+		government "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission rebelbulk-delivry-clothing[0]
+	name "Bulk Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Clothing" 40 250
+	to offer
+		random < 60
+	source
+		government "Empire Rebels"
+	destination
+		distance 1 5
+		government "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission rebelbluk-delivry-clothing[1]
+	name "Bulk Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Clothing" 50 250
+	to offer
+		random < 60
+	source
+		government "Empire Rebels"
+	destination
+		distance 1 5
+		government "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission rebelbulk-delivry-clothing[2]
+	name "Bulk Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Clothing" 50 250
+	to offer
+		random < 60
+	source
+		government "Empire Rebels"
+	destination
+		distance 1 5
+		government "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission rebelbulk-delivry-equipment[0]
+	name "Bulk Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Equipment" 40 250
+	to offer
+		random < 60
+	source
+		government "Empire Rebels"
+	destination
+		distance 1 5
+		government "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission rebelbulk-delivry-equipment[1]
+	name "Bulk Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Equipment" 70 250
+	to offer
+		random < 60
+	source
+		government "Empire Rebels"
+	destination
+		distance 1 5
+		government "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission rebelbulk-delivry-equipment[2]
+	name "Bulk Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Equipment" 90 250
+	to offer
+		random < 60
+	source
+		government "Empire Rebels"
+	destination
+		distance 1 5
+		government "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission rebelbulk-delivry-medical[0]
+	name "Bulk Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Medical" 35 250
+	to offer
+		random < 60
+	source
+		government "Empire Rebels"
+	destination
+		distance 1 5
+		government "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission rebelbulk-delivry-medical[1]
+	name "Bulk Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Medical" 60 250
+	to offer
+		random < 60
+	source
+		government "Empire Rebels"
+	destination
+		distance 1 5
+		government "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission rebelbulk-delivry-electronics[0]
+	name "Bulk Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Electronics" 50 250
+	to offer
+		random < 60
+	source
+		government "Empire Rebels"
+	destination
+		distance 1 5
+		government "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission rebelbulk-delivry-electronics[1]
+	name "Bulk Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Electronics" 70 250
+	to offer
+		random < 60
+	source
+		government "Empire Rebels"
+	destination
+		distance 1 5
+		government "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission rebelbulk-delivry-electronics[2]
+	name "Bulk Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Electronics" 100 250
+	to offer
+		random < 60
+	source
+		government "Empire Rebels"
+	destination
+		distance 1 5
+		government "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.
