@@ -1,6 +1,8 @@
 fleet cromha-fleet
 	government "Cromha Empire"
 	names "empire fleet names"
+	fighter "empire fleet names"
+	fighters "empire fleet names"
 	cargo 2
 	personality heroic
 		forbearing
@@ -53,7 +55,7 @@ fleet cromha-transporters
 		"Gunboat (modified)" 3
 fleet mineria-transports
 	government "Mineria colonnies"
-	names "civilian"
+	names "empire fleet names"
 	personality pacific
 	outfitters Cromha-basic-outfitter
 	cargo 6
