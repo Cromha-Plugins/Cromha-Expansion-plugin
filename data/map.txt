@@ -1047,19 +1047,17 @@ system "Los Calos"
 	pos 540 -450
 	attributes inhabited rich research military "far empire space"
 	government "Cromha Empire"
-	fleet cromha-fleet 2000
-	fleet mineria-transports 1600
 	haze _menu/haze-triangle
 	link "Wel'y"
-	trade "Heavy Metals" 152
-	trade "Luxury Goods" 290
-	trade Electronics 687
-	trade Equipment 751
-	trade Food 265
-	trade Industrial 357
-	trade Medical 756
-	trade Metal 559
-	trade Plastic 306
+	link "Los Faros"
+	
+system "Los Faros"
+	hazard "Far Empire Triangle Hazard" 1000
+	pos 560 -430
+	attributes inhabited rich research military "far empire space"
+	government "Cromha Empire"
+	haze _menu/haze-triangle
+	link "Los Calos"
 
 # Korath
 system "Sepriaptu"
