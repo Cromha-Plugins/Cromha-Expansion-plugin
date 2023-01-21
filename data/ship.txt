@@ -23,10 +23,10 @@ ship "Black Manta (Prototype)"
 		"cloaking energy" 5
 		"cloaking fuel" .1
 		"fuel capacity" 800
-		"cargo space" 200
-		"outfit space" 1856
+		"cargo space" 270
+		"outfit space" 3000
 		"weapon capacity" 500
-		"engine capacity" 450
+		"engine capacity" 650
 		"inscrutable" 1
 		"ramscoop" 0.5
 		weapon
@@ -38,8 +38,8 @@ ship "Black Manta (Prototype)"
 		"Empire Particle gun" 6
 		"Ion Proton Gun" 3
 		"Empire Torpedo Bank" 2
-		"Empire Torpedo Missile" 120
-		"Empire Torpedo Storage Rack" 8
+		"Empire Torpedo Missile" 160
+		"Empire Torpedo Storage Rack" 12
 		"Antimatter Railgun" 2
 		"Railgun Slug" 560
 		"Railgun Slug Rack"
@@ -47,28 +47,30 @@ ship "Black Manta (Prototype)"
 		"Multiphasic Anti-Missile" 2
 		"Multiphasic ammo" 1200
 		
-		"RC-X3 Multiphasic Reactor" 2
-		"RC-X4 Multiphasic Reactor"
+		"RC-X1 Multiphasic Reactor" 1
+		"RC-X2 Multiphasic Reactor" 4
+		"RC-X3 Multiphasic Reactor" 4
+		"RC-X4 Multiphasic Reactor" 4
 		"Supercapacitor" 5
 		"Fuel Pod" 5
 		
-		"Empire Shielding Core"
-		"Empire Hai Valley Batteries" 8
+		"Empire Shielding Core" 4
+		"Empire Hai Valley Batteries" 12
 		"Catalytic Ramscoop"
 		"Plasma Drive"
-		"Multiphasic Scanner"
-		"Multiphasic Cooler" 4
+		"Multiphasic Scanner" 4
+		"Multiphasic Cooler" 12
 		"Quantum Keystone"
 		
-		"RC-220 Atomic Thruster" 2
-		"RC-225 Atomic Steering" 2
-		"RX-180 Reverse Thruster" 4
-		"Laser Rifle" 10
-		"Pulse Rifle" 10
-		"Security Station" 3
-		"Fragmentation Grenades" 5
-		"Security Forcefield" 3
-		"Countermesure Module" 2
+		"RC-220 Atomic Thruster" 3
+		"RC-225 Atomic Steering" 3
+		"RX-180 Reverse Thruster" 5
+		"Pulse Rifle" 80
+		"Security Station" 12
+		"Fragmentation Grenades" 50
+		"Security Forcefield" 40
+		"Countermesure Module" 4
+		"Teleportation Dock" 2
 	# Back
 	engine 0 108.5
 		zoom 0.8
