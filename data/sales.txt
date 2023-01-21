@@ -19,6 +19,7 @@ outfitter Base-outfitter
 	"Weapon Module"
 	"Engine Module"
 	"Small Fuel Cell"
+	"Self Destruct Module"
 outfitter Basic-ammo-outfitter
 	"Empire Torpedo Missile"
 	"Railgun Slug"

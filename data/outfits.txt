@@ -15,6 +15,17 @@ outfit "Countermesure Module"
 	"energy consumption" 0.7
 	description "This module has been especially designed for the ships who would travels in the Far Empire Space. It increase ion, disruption, discharge, energy and corrosion damages. It is also perfect for traveling in the Ember Waste. This is a little piece of advanced high technology."
 	
+outfit "Self Destruct Module"
+	cost 1000
+	category "Systems"
+	mass 1
+	"outfit space" -1
+	thumbnail "outfit/self destruct module"
+	"self destruct" 1
+	"unplunderable" 1
+	description "Automaticlly engage a self destruct sequence when someone board your ship."
+	description "There is some chance that it does not engage the self destruct sequence."	
+
 outfit "Rebels Mapper"
 	category "Special"
 	cost 5000
@@ -30,6 +41,7 @@ outfit "Small Fuel Cell"
 	"outfit space" -5
 	"energy consumption" 5
 	"fuel generation" 0.2
+	"This outfit convert the extra energy to fuel. It is useful for long travels."
 outfit "Fuel Cell"
 	thumbnail "outfit/fuel cell empire"
 	category "Systems"
@@ -38,7 +50,7 @@ outfit "Fuel Cell"
 	"outfit space" -10
 	"energy consumption" 7
 	"fuel generation" 0.4
-	
+	description "This outfit convert the extra energy to fuel. It is useful for long travels."
 outfit "Big Fuel Cell"
 	thumbnail "outfit/big fuel cell empire"
 	category "Systems"
@@ -47,7 +59,7 @@ outfit "Big Fuel Cell"
 	"outfit space" -20
 	"energy consumption" 10
 	"fuel generation" 0.8
-
+	description "This outfit convert the extra energy to fuel. It is useful for long travels."
 outfit "Weapon Module"
 	category "Systems"
 	cost 30000

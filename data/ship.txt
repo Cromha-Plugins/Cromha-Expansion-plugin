@@ -53,6 +53,7 @@ ship "Black Manta (Prototype)"
 		"RC-X4 Multiphasic Reactor" 4
 		"Supercapacitor" 5
 		"Fuel Pod" 5
+		"Self Destruct Module"
 		
 		"Empire Shielding Core" 4
 		"Empire Hai Valley Batteries" 12
