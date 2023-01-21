@@ -127,7 +127,7 @@ fleet Void-sprite-family
 		"Pincer Beast Child"
 		"Void Sprite"
 
-ship "Ayym"
+ship "Ayym Creature"
 	noun "creature"
 	sprite "ship/ayym/ayym"
 	thumbnail "thumbnail/ayym"
@@ -141,7 +141,7 @@ ship "Ayym"
 		"heat dissipation" .7
 		"cargo space" 75
 		"cooling" 13
-		"thrust" 25
+		"thrust" 35
 		"turn" 1100
 		"hyperdrive" 1
 		"jump fuel" 100
@@ -171,6 +171,6 @@ ship "Ayym"
 	
 fleet "Ayym"
 	government "Unknow"
-	personality mining harvests staying
+	personality mining harvests
 	variant 1
-		"Ayym"
+		"Ayym Creature"

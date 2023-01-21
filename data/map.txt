@@ -945,7 +945,7 @@ system "Irn'o"
 	fleet cromha-fleet 2000
 	fleet mineria-transports 1600
 	fleet "Small Hai" 2200
-	fleet "Ayym"
+	fleet "Ayym" 2000
 	haze _menu/haze-cyan
 	link "Ring Wartrue"
 	link "Nugg'et"
@@ -974,7 +974,7 @@ system "Nugg'et"
 	fleet cromha-fleet 2000
 	fleet mineria-transports 1600
 	fleet "Small Hai" 2200
-	fleet "Ayym"
+	fleet "Ayym" 2000
 	haze _menu/haze-cyan
 	link "Irn'o"
 	trade "Heavy Metals" 361
@@ -999,7 +999,7 @@ system "As'har"
 	attributes inhabited rich research military "far empire space" "blackhole"
 	government "Empire Rebels"
 	fleet empire-rebels-raiders-fleet 1600
-	fleet "Ayym" 1200
+	fleet "Ayym" 2000
 	haze _menu/haze-cyan
 	link "Irn'o"
 	trade "Heavy Metals" 361
