@@ -18,7 +18,6 @@ outfitter Base-outfitter
 	"Countermesure Module"
 	"Weapon Module"
 	"Engine Module"
-	"Rebels Mapper"
 outfitter Basic-ammo-outfitter
 	"Empire Torpedo Missile"
 	"Railgun Slug"

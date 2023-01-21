@@ -1044,20 +1044,31 @@ system "Wel'y"
 	
 system "Los Calos"
 	hazard "Far Empire Triangle Hazard" 1000
-	pos 540 -450
+	pos 540 -430
 	attributes inhabited rich research military "far empire space"
 	government "Cromha Empire"
 	haze _menu/haze-triangle
 	link "Wel'y"
 	link "Los Faros"
+	link "Los Asto"
 	
 system "Los Faros"
 	hazard "Far Empire Triangle Hazard" 1000
-	pos 560 -430
+	pos 570 -400
 	attributes inhabited rich research military "far empire space"
 	government "Cromha Empire"
 	haze _menu/haze-triangle
 	link "Los Calos"
+	link "Los Asto"
+	
+system "Los Asto"
+	hazard "Far Empire Triangle Hazard" 1000
+	pos 520 -400
+	attributes inhabited rich research military "far empire space"
+	government "Cromha Empire"
+	haze _menu/haze-triangle
+	link "Los Calos"
+	link "Los Faros"
 
 # Korath
 system "Sepriaptu"
