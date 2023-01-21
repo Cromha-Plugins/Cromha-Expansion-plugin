@@ -6,7 +6,7 @@ outfit "Countermesure Module"
 	cost 25000
 	thumbnail "outfit/countermesure module"
 	mass 10
-	"outfit space" 5
+	"outfit space" -5
 	"disruption protection" 2
 	"energy protection" 2
 	"ion protection" 2
@@ -21,7 +21,33 @@ outfit "Rebels Mapper"
 	thumbnail "outfit/rebel mapper"
 	"rebels mapper" 1
 	description "This little module integrate to your mapping system to add the Rebels secrets maps."
+
+outfit "Small Fuel Cell"
+	thumbnail "outfit/small fuel cell empire"
+	category "Systems"
+	cost 3000
+	"mass" 5
+	"outfit space" -5
+	"energy consumption" 5
+	"fuel generation" 0.2
+outfit "Fuel Cell"
+	thumbnail "outfit/fuel cell empire"
+	category "Systems"
+	cost 4000
+	"mass" 10
+	"outfit space" -10
+	"energy consumption" 7
+	"fuel generation" 0.4
 	
+outfit "Big Fuel Cell"
+	thumbnail "outfit/big fuel cell empire"
+	category "Systems"
+	cost 5000
+	"mass" 15
+	"outfit space" -20
+	"energy consumption" 10
+	"fuel generation" 0.8
+
 outfit "Weapon Module"
 	category "Systems"
 	cost 30000

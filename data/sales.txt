@@ -18,6 +18,7 @@ outfitter Base-outfitter
 	"Countermesure Module"
 	"Weapon Module"
 	"Engine Module"
+	"Small Fuel Cell"
 outfitter Basic-ammo-outfitter
 	"Empire Torpedo Missile"
 	"Railgun Slug"
@@ -54,6 +55,7 @@ outfitter Basic-systems-outfitter
 	"Small Bunk Room"
 	"Compact Empire Shielding Core"
 	"Compact Plasma Drive"
+	"Fuel Cell"
 outfitter Basic-power-outfitter
 	"Empire Hai Chasm Batteries"
 	"Empire Hai Fissure Batteries"
@@ -153,6 +155,8 @@ outfitter Advanced-systems-outfitter
 	"Empire Shielding Core"
 	"Compact Plasma Drive"
 	"Plasma Drive"
+	"Fuel Cell"
+	"Big Fuel Cell"
 outfitter Advanced-power-outfitter
 	"Empire Hai Chasm Batteries"
 	"Empire Hai Fissure Batteries"
