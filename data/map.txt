@@ -539,6 +539,8 @@ system "Ring Wartrue"
 	fleet "Large Remnant" 5000
 	haze _menu/haze-cyan
 	link "All'Estros"
+	link "Irn'o"
+	link "Wel'y"
 	trade "Heavy Metals" 152
 	trade "Luxury Goods" 290
 	trade Electronics 687
@@ -934,6 +936,110 @@ planet "Empire Remnant Ring"
 	spaceport "A huge spaceport where you can find almost anything you can imagine: Bars, pretty ships, hotels and even more. It is an easy place to mae money by completing missions."
 	bribe 1.7
 	security 1.8
+
+system "Irn'o"
+	hazard "Far Empire Space Hazard" 9000
+	pos 610 -490
+	attributes inhabited rich research military "far empire space"
+	government "Cromha Empire"
+	fleet cromha-fleet 2000
+	fleet mineria-transports 1600
+	fleet "Small Hai" 2200
+	haze _menu/haze-cyan
+	link "Ring Wartrue"
+	link "Nugg'et"
+	link "As'har"
+	trade "Heavy Metals" 361
+	trade "Luxury Goods" 385
+	trade Electronics 1064
+	trade Equipment 622
+	trade Food 215
+	trade Industrial 921
+	trade Medical 174
+	trade Metal 274
+	trade Plastic 942
+
+system "Nugg'et"
+	hazard "Far Empire Space Hazard" 9000
+	pos 630 -535
+	attributes inhabited rich research military "far empire space"
+	government "Cromha Empire"
+	fleet cromha-fleet 2000
+	fleet mineria-transports 1600
+	fleet "Small Hai" 2200
+	haze _menu/haze-cyan
+	link "Irn'o"
+	trade "Heavy Metals" 361
+	trade "Luxury Goods" 385
+	trade Electronics 1064
+	trade Equipment 622
+	trade Food 215
+	trade Industrial 921
+	trade Medical 174
+	trade Metal 274
+	trade Plastic 942
+
+system "As'har"
+	hazard "Far Empire Space Hazard" 9000
+	pos 685 -515
+	attributes inhabited rich research military "far empire space" "blackhole"
+	government "Empire Rebels"
+	fleet empire-rebels-raiders-fleet 1600
+	haze _menu/haze-cyan
+	link "Irn'o"
+	trade "Heavy Metals" 361
+	trade "Luxury Goods" 385
+	trade Electronics 1064
+	trade Equipment 622
+	trade Food 215
+	trade Industrial 921
+	trade Medical 174
+	trade Metal 274
+	trade Plastic 942
+	hazard "Far Black Hole Accretion Disk" 1
+	hazard "Far Black Hole Event Horizon" 1
+	hazard "Far Black Hole Gravity" 1
+	object "Solfa Station"
+		sprite planet/tschyss
+			scale 0.3
+		period 1
+		distance 600
+	object
+		sprite star/nova-old
+		period 1
+	object
+		sprite star/black-hole-core
+		period 1
+	object
+		sprite star/black-hole
+		period 1
+		
+planet "Solfa Station"
+	attributes station rebels "requires: rebels mapper"
+	landscape land/Solfa_station
+	outfitter Rebels-basic-outfitter
+	outfitter Rebels-basic-ammo-outfitter
+	description "This little station is hidden by the black hole wind. It is perfect for espionnage The Empire. You must have an Rebel Mapper to see this station"
+	spaceport ""
+	
+system "Wel'y"
+	hazard "Far Empire Space Hazard" 9000
+	pos 550 -465
+	attributes inhabited rich research military "far empire space"
+	government "Cromha Empire"
+	fleet cromha-fleet 2000
+	fleet mineria-transports 1600
+	haze _menu/haze-cyan
+	link "Ring Wartrue"
+	trade "Heavy Metals" 152
+	trade "Luxury Goods" 290
+	trade Electronics 687
+	trade Equipment 751
+	trade Food 265
+	trade Industrial 357
+	trade Medical 756
+	trade Metal 559
+	trade Plastic 306
 
 # Korath
 system "Sepriaptu"

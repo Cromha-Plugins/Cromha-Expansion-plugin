@@ -35,3 +35,32 @@ effect "far empire space ion hazard"
 	"random lifetime" 60
 	"random spin" 10
 	"random velocity" 2
+
+hazard "Far Black Hole Accretion Disk"
+	"constant strength"
+	"range" 400
+	weapon
+		"target effect" "nano spark"
+		"damage dropoff" 150 600
+		"dropoff modifier" 0
+		"relative shield damage" .0018
+		"fuel damage" -0.5
+
+hazard "Far Black Hole Event Horizon"
+	"constant strength"
+	"range" 100
+	weapon
+		"target effect" "nano spark"
+		"damage dropoff" 0 150
+		"dropoff modifier" 0
+		"relative hull damage" .0009
+		"piercing" 10
+
+hazard "Far Black Hole Gravity"
+	"constant strength"
+	"range" 1000
+	weapon
+		"gravitational"
+		"hit force" -5
+		"damage dropoff" 150 2500
+		"dropoff modifier" 0

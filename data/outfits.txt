@@ -15,6 +15,13 @@ outfit "Countermesure Module"
 	"energy consumption" 0.7
 	description "This module has been especially designed for the ships who would travels in the Far Empire Space. It increase ion, disruption, discharge, energy and corrosion damages. It is also perfect for traveling in the Ember Waste. This is a little piece of advanced high technology."
 	
+outfit "Rebels Mapper"
+	category "Special"
+	cost 5000
+	thumbnail "outfit/rebel mapper"
+	"rebels mapper" 1
+	description "This little module integrate to your mapping system to add the Rebels secrets maps."
+	
 outfit "Weapon Module"
 	category "Systems"
 	cost 30000
