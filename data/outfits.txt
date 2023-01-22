@@ -10,6 +10,7 @@ outfit "Mineria Key Stone"
 	
 outfit "Cloaking Module"
 	category "Systems"
+	thumbnail "outfit/cloaking module"
 	cost 1000000
 	"mass" 10
 	"outfit space" -10
