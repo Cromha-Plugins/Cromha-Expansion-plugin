@@ -42,8 +42,7 @@ ship "Black Manta"
 		"Railgun Slug Rack"
 		
 		"Multiphasic Anti-Missile" 2
-		"Multiphasic Anti-Drone" 4
-		"Multiphasic ammo" 3600
+		"Multiphasic ammo" 1200
 		
 		"RC-X1 Multiphasic Reactor" 1
 		"RC-X2 Multiphasic Reactor" 4
