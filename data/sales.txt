@@ -165,6 +165,7 @@ outfitter Advanced-systems-outfitter
 	"Plasma Drive"
 	"Fuel Cell"
 	"Big Fuel Cell"
+	"Cloaking Module"
 outfitter Advanced-power-outfitter
 	"Empire Hai Chasm Batteries"
 	"Empire Hai Fissure Batteries"

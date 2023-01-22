@@ -7,6 +7,17 @@ outfit "Mineria Key Stone"
 	"outfit space" -1
 	"quantum keystone" 1
 	description "These Key Stones work like Hais or Remnant Key Stones. The Mineria Key Stones are produced by the Mineria mines and factories, wich is an huge source of keystones"
+	
+outfit "Cloaking Module"
+	category "Systems"
+	cost 1000000
+	"mass" 10
+	"outfit space" -10
+	"cloak" .02
+	"cloaking energy" 1
+	"cloaking fuel" .2
+	description "The work of the Cloaking Module is a total mistery in the whole galaxy. Some rumours says that only one human in the galaxy known the functionment of the Cloaking Module"
+	
 outfit "Countermesure Module"
 	category "Systems"
 	licenses
