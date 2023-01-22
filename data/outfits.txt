@@ -219,12 +219,14 @@ outfit "Teleportation Dock"
 	description "Extremly good for attack, letting you teleporting into your enemy ship to attack them by surprise but that that useful for defending."
 	
 outfit "Phasic Rifle"
+	plural "Phasic Rifles"
 	category "Hand to Hand"
 	cost 5000
 	licenses
 		"Empire Contributor"
 	thumbnail "outfit/phasic rifle"
-	"capture attack" 4
-	"capture defense" 6
-	"unplunderable"
-	description ""
+	"capture attack" 2.3
+	"capture defense" 2.8
+	"energy consumption" 0.01
+	"unplunderable" 1
+	description "Phasic Rifles are high advanced Hand to Hand weapons. It is the best weapon for boarding or defending ships. Since this weapon need lots of energy, it consumme some energy to recharge the Rifles."
