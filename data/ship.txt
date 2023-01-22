@@ -58,7 +58,8 @@ ship "Black Manta (Prototype)"
 		"Plasma Drive"
 		"Multiphasic Scanner" 4
 		"Multiphasic Cooler" 12
-		"Quantum Keystone"
+		"Mineria Key Stone"
+		"Brig" 4
 		
 		"RC-220 Atomic Thruster" 3
 		"RC-225 Atomic Steering" 3
@@ -196,7 +197,8 @@ ship "Heavy Empire Destroyer"
 		"Security Station" 10
 		"Multiphasic Scanner" 6
 		"Fuel Pod" 5
-		"Quantum Keystone"
+		"Mineria Key Stone"
+		"Brig" 15
 		
 		`RC-220 Atomic Thruster` 4
 		`RC-225 Atomic Steering` 4
@@ -353,6 +355,8 @@ ship "Empire Destroyer"
 		"Plasma Drive"
 		"Countermesure Module" 2
 		"Cloaking Module"
+		"Brig" 5
+		"Mineria Key Stone"
 	engine 51.5 119.5
 		zoom 0.5
 	engine -51.5 119.5
@@ -435,6 +439,8 @@ ship "Light Empire Destroyer"
 		"Plasma Drive"
 		"Countermesure Module" 2
 		"Cloaking Module"
+		"Mineria Key Stone"
+		"Brig" 4
 		
 	engine -15.5 115
 	engine 15.5 115
@@ -506,6 +512,8 @@ ship "Empire Raven"
 		"Compact Plasma Drive"
 		"Countermesure Module"
 		"Cloaking Module"
+		"Mineria Key Stone"
+		"Brig" 2
 		
 	engine 10.5 62
 	engine -10.5 62
