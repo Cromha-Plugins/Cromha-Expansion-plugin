@@ -15,12 +15,14 @@ category "ship"
 	"Empire Warship"
 	"Destroyer"
 	"Prototype"
+	"Fuel Pod"
 
 # Ships of these types can be carried by other ships.
 category "bay type"
 	"Drone"
 	"Fighter"
 	"Empire Warship"
+	"Fuel Pod"
 
 # Outfits of these types can be bought and sold via the outfitter.
 category "outfit"

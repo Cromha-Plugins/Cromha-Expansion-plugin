@@ -37,8 +37,8 @@ outfit `RC-140 Atomic Thruster`
 	"afterburner fuel" .025
 	"afterburner energy" 5.1
 	"afterburner heat" 4.0
-	"afterburner effect" "ionic afterburner"
-	"afterburner effect" "ionic afterburner"
+	"afterburner effect" "empire ionic afterburner"
+	"afterburner effect" "empire ionic afterburner"
 	description "Unbeknownst to the scientists of the Deep, the Hai have been using atomic engine technology for many millennia. Hai atomic engines are still much more energy hungry than other engines, but exhibit greater efficiency than their human counterparts."
 
 outfit `RC-160 Atomic Thruster`
@@ -58,8 +58,8 @@ outfit `RC-160 Atomic Thruster`
 	"afterburner fuel" .025
 	"afterburner energy" 5.1
 	"afterburner heat" 4.0
-	"afterburner effect" "ionic afterburner"
-	"afterburner effect" "ionic afterburner"
+	"afterburner effect" "empire ionic afterburner"
+	"afterburner effect" "empire ionic afterburner"
 	description "Unlike human space where atomic engines are a rare sight to see and a luxury to have, many years of being confined to a relatively small pocket of the Galaxy has allowed all Hai ships to be outfitted with atomic engines."
 
 outfit `RC-180 Atomic Thruster`
@@ -79,8 +79,8 @@ outfit `RC-180 Atomic Thruster`
 	"afterburner fuel" .025
 	"afterburner energy" 5.1
 	"afterburner heat" 4.0
-	"afterburner effect" "ionic afterburner"
-	"afterburner effect" "ionic afterburner"
+	"afterburner effect" "empire ionic afterburner"
+	"afterburner effect" "empire ionic afterburner"
 	description "This thruster is the standard thruster on most Hai light warships, providing enough thrust to make them usable in combat, but it is not quite big enough to suffice for something as large as a Hai Shield Beetle."
 
 outfit `RC-200 Atomic Thruster`
@@ -100,8 +100,8 @@ outfit `RC-200 Atomic Thruster`
 	"afterburner fuel" .025
 	"afterburner energy" 5.1
 	"afterburner heat" 4.0
-	"afterburner effect" "ionic afterburner"
-	"afterburner effect" "ionic afterburner"
+	"afterburner effect" "empire ionic afterburner"
+	"afterburner effect" "empire ionic afterburner"
 	description "While Deep Sky was busy developing the combat atomic engines, the Hai were working on making theirs even better. Because of this, Hai atomic engines are highly efficient compared to their human variants, requiring less energy to fire and producing less heat in the process."
 
 outfit `RC-220 Atomic Thruster`
@@ -121,8 +121,8 @@ outfit `RC-220 Atomic Thruster`
 	"afterburner fuel" .025
 	"afterburner energy" 5.1
 	"afterburner heat" 4.0
-	"afterburner effect" "ionic afterburner"
-	"afterburner effect" "ionic afterburner"
+	"afterburner effect" "empire ionic afterburner"
+	"afterburner effect" "empire ionic afterburner"
 	description "These thrusters are the largest of the Hai atomic thrusters, and one of the most powerful thrusters in known space. Beat out by only the largest human atomic thrusters, these massive engines provide enough thrust to push around even the largest of ships as if they were fighters."
 
 outfit `RX-120 Reverse Thruster`

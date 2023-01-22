@@ -1,3 +1,13 @@
+effect "empire ionic afterburner"
+	sprite "effect/afterburner/empire ionic afterburner"
+		"no repeat"
+		"frame rate" 30
+	sound "ionic afterburner"
+	"lifetime" 12
+	"random angle" 360
+	"random spin" 30
+	"random velocity" 1.
+	"velocity scale" 1.
 effect "rockettrace"
 	sprite "effect/afterburner"
 		"scale" 0.5

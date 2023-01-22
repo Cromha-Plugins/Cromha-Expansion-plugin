@@ -213,6 +213,7 @@ shipyard Cromha-basic-shipyard
 	"Manta"
 	"Lance"
 	"Gunboat (modified)"
+	"Fuel Pod"
 shipyard Cromha-military-shipyard
 	"Combat Drone"
 	"Black Manta (Prototype)"
@@ -229,6 +230,7 @@ shipyard Cromha-military-shipyard
 	"Barb"
 	"Gunboat (modified)"
 	"Osprey (Rebels)"
+	"Fuel Pod"
 # Rebels
 outfitter Rebels-basic-outfitter
 	"Local Map"

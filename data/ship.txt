@@ -65,7 +65,7 @@ ship "Black Manta (Prototype)"
 		
 		"RC-220 Atomic Thruster" 3
 		"RC-225 Atomic Steering" 3
-		"RX-180 Reverse Thruster" 5
+		`RC-200 Reverse Thruster` 4
 		"Phasic Rifle" 80
 		"Security Station" 12
 		"Fragmentation Grenades" 50
@@ -118,15 +118,15 @@ ship "Black Manta (Prototype)"
 	gun 44.5 -9 "Antimatter Railgun"
 	bay "Fighter" 77.5 -30.5
 		under
-	bay "Fighter" 52 -29.5
+	bay "Drone" 52 -29.5
 		under
 	bay "Fighter" -77.5 -30.5
 		under
-	bay "Fighter" -52 -29.5
+	bay "Drone" -52 -29.5
 		under
-	bay "Drone" -24.5 37.5
+	bay "Fuel Pod" -24.5 37.5
 		over
-	bay "Drone" 24.5 37.5
+	bay "Fuel Pod" 24.5 37.5
 		over
 	leak "empire leak" 60 50
 	leak "empire flame" 40 80
@@ -640,3 +640,71 @@ ship "Empire Drone"
 	explode "tiny explosion" 15
 	description "It is at first a Republic Navy drone but Cromha Empire buyed rights of this ship and made its own version to satisfy them."
 	description "	Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay."
+	
+ship "Fuel Pod"
+	noun "fuel pod"
+	sprite "ship/fuel pod"
+		scale 1.2
+	thumbnail "thumbnail/fuel pod"
+	"never disabled"
+	attributes
+		category "Fuel Pod"
+		"cost" 10000
+		"hull" 700
+		"automaton" 1
+		"mass" 100
+		"drag" .59
+		"heat dissipation" .9
+		"outfit space" 100
+		"weapon capacity" 30
+		"engine capacity" 38
+		"fuel capacity" 500
+		weapon
+			"blast radius" 5
+			"shield damage" 50
+			"hull damage" 25
+			"hit force" 75
+	outfits
+			`RC-001 Atomic Engines`
+			"RC-X1 Multiphasic Reactor"
+			"Supercapacitor
+	leak "empire leak" 15
+	explode "empire tiny explosion" 4
+	"final explode" empire medium explosion"
+	engine -7.5 36.5
+	engine 7.5 35.5
+	# right
+	"steering engine" 16.5 8
+		right
+		angle 270
+		zoom 0.7
+	"steering engine" 16.5 2
+		right
+		angle 270
+		zoom 0.7
+	"steering engine" -16.5 -24.5
+		right
+		angle 90
+		zoom 0.7
+	"steering engine" -17.5 -15.5
+		right
+		angle 90
+		zoom 0.7
+	# left
+	"seetring engine" -17 9.5
+		left
+		angle 90
+		zoom 0.7
+	"seetring engine" -17.5 2
+		left
+		angle 90
+		zoom 0.7
+	"seetring engine" 16 -25.5
+		left
+		angle 270
+		zoom 0.7
+	"seetring engine" 16 -15.5
+		left
+		angle 270
+		zoom 0.7
+	description "This is a mobile fuel pod. It is useful to carry fuel, drop it when you need fuel then leave it if you need speed."
