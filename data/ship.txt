@@ -1,8 +1,8 @@
 # Heavy Warships
-ship "Black Manta (Prototype)"
+ship "Black Manta"
 	sprite "ship/blackmanta"
 	thumbnail "thumbnail/blackmanta"
-	plurar "Black Mantas (Prototype)"
+	plural "Black Mantas"
 	noun "prototype"
 	"uncapturable"
 	"never disabled"
@@ -18,19 +18,19 @@ ship "Black Manta (Prototype)"
 		"bunks" 200
 		"mass" 680
 		"drag" 4.7
-		"heat dissipation" .10
+		"heat dissipation" .13
 		"fuel capacity" 800
-		"cargo space" 270
-		"outfit space" 3000
-		"weapon capacity" 500
+		"cargo space" 280
+		"outfit space" 3100
+		"weapon capacity" 510
 		"engine capacity" 650
 		"inscrutable" 1
 		"ramscoop" 0.5
 		weapon
-			"blast radius" 500
+			"blast radius" 300
 			"shield damage" 7500
 			"hull damage" 5500
-			"hit force" 2500
+			"hit force" 1500
 	outfits
 		"Empire Particle gun" 6
 		"Ion Proton Gun" 3

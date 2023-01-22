@@ -224,7 +224,7 @@ shipyard Cromha-basic-shipyard
 	"Fuel Pod"
 shipyard Cromha-military-shipyard
 	"Combat Drone"
-	"Black Manta (Prototype)"
+	"Black Manta"
 	"Empire Drone"
 	"Surveillance Drone"
 	"Heavy Empire Destroyer"
