@@ -152,7 +152,8 @@ mission outlaw-empire-passport[0]
 	description "This guy was caught in The Empire systems without any Empire passport. Bring him back safely to Witdrew Station so he can get a Empire Passport. Payment is <payment>."
 	passengers 1
 	to offer
-		random < 30
+		random < 15
+		has "outfit: Brig" 1
 	source
 		government "Cromha Empire"
 		not planet "Witdrew Station"
@@ -170,7 +171,8 @@ mission outlaw-empire-passport[1]
 	description "This guy was caught in The Empire systems without any Empire passport. Bring him back safely to Witdrew Station so he can get a Empire Passport. Payment is <payment>."
 	passengers 1
 	to offer
-		random < 30
+		random < 15
+		has "outfit: Brig" 1
 	source
 		government "Cromha Empire"
 		not planet "Witdrew Station"
@@ -188,7 +190,8 @@ mission outlaw-empire-passport[2]
 	description "This guy was caught in The Empire systems without any Empire passport. Bring him back safely to Witdrew Station so he can get a Empire Passport. Payment is <payment>."
 	passengers 1
 	to offer
-		random < 30
+		random < 15
+		has "outfit: Brig" 1
 	source
 		government "Cromha Empire"
 		not planet "Witdrew Station"

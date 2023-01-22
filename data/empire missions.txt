@@ -34,6 +34,7 @@ mission "Empire: First Contact"
 
 mission "Empire: Humanitary Delivry to <planet>"
 	landing
+	name "Empire: Humanitary Delivry"
 	description "Delivry humanitary resources to <destination> before the date of <date>. Payment is <payment>"
 	cargo Food 5 15
 	deadline 10
@@ -84,6 +85,7 @@ mission "Empire: Humanitary Delivry to <planet>"
 
 mission "Empire: Escort Empire Raven"
 	landing
+	name "Empire: Escort Empire Raven"
 	description "Escort on Empire Raven to the <planet> reparation station before the date of <date>. Payment is a free Empire Quicksilver ship."
 	deadline 15
 	source
@@ -115,6 +117,7 @@ mission "Empire: Escort Empire Raven"
 
 mission "Empire: Delivry Jump Drive in <planet> military lab"
 	landing
+	name "Empire: Jump Drive Delivry"
 	description "Delivry Jump Drive in <planet> in the military lab before the date of <date>. Payment is <payment>."
 	deadline 13
 	source
@@ -147,6 +150,7 @@ mission "Empire: Delivry Jump Drive in <planet> military lab"
 
 mission "Empire: Harvest 25 tons of silicon"
 	landing
+	name "Empire: Silicon Harvest"
 	description "Harvest 25 tons of silicon for The Empire then land on <origin> to get your payment of <payment>."
 	source
 		government "Cromha Empire"
@@ -168,6 +172,7 @@ mission "Empire: Harvest 25 tons of silicon"
 
 mission "Empire: Dirige Empire fleet to <planet>"
 	landing
+	name "Empire: Dirige Empire Fleet"
 	description "Dirige an Empire combat fleet to <destination> for engaging battle to Empire Rebels. Destroy the Empire Rebels fleet and land on <planet> to get your payment of <payment>."
 	source
 		government "Cromha Empire"
@@ -196,6 +201,7 @@ mission "Empire: Dirige Empire fleet to <planet>"
 
 mission "Empire: First Award"
 	landing
+	name "Empire: First Award"
 	source
 		government "Cromha Empire"
 		not attributes uninhabited
@@ -214,6 +220,7 @@ mission "Empire: First Award"
 
 mission "Empire: Technology Testing"
 	landing
+	name "Empire: Technology Testing"
 	description "Disable the robotic target dummy ship in <system>, collect test data for Cromha Empire engineers by scanning it with the multiphasic scanner tech, and land on <planet>. Warning: the target ship is programmed to engage in self-defense behaviors to ensure a realistic simulation. Payment is <payment>."
 	source
 		government "Cromha Empire"
@@ -246,6 +253,7 @@ mission "Empire: Technology Testing"
 
 mission "Empire: Espionage Remnants"
 	landing
+	name "Empire: Espionage Remnants"
 	description "Go to the Pantica system and scan the remnant ship <npc> and its outfits. Then land on the Empire Listening Station. Payment is <payment>. Beware the Remnants will surely attack you if you scan them. Don't destroy the ship."
 	source
 		government "Cromha Empire"
@@ -280,6 +288,7 @@ mission "Empire: Espionage Remnants"
 
 mission "Empire: Ring Assist"
 	landing
+	name "Empire: Ring Assist"
 	description "The Empire Ring Station in <system> system is attacked by some Bounty Hunters. Dirige an Empire Fleet to the <system> and destroy all the Bounty Hunters."
 	source
 		government "Cromha Empire"
@@ -332,6 +341,7 @@ mission "Empire: Ring Assist"
 
 mission "Empire: Scientists Researches in Ember Waste 1"
 	landing
+	name "Empire: Scan Void Sprite"
 	description "Go to Gerenus in the Ember Waste and scan a Void Sprite and its outfits for the Empire Scientists. Then Land on <planet> to get your payment of <payment>."
 	source
 		government "Cromha Empire"
@@ -357,6 +367,7 @@ mission "Empire: Scientists Researches in Ember Waste 1"
 		dialog "You scan the void sprite. Time to land on <destination>"
 mission "Empire: Scientists Researches in Ember Waste 2"
 	landing
+	name "Empire: Kill Void Sprite"
 	description "Go kill an Void Sprite in Gerenus system then out the rests of the creature on your cargo and bring back it to the scientist. Payment is <payment>."
 	source
 		government "Cromha Empire"
@@ -400,6 +411,7 @@ mission "Empire: Scientists Researches in Ember Waste 2"
 
 mission "Empire: Search for Void Sprites"
 	landing
+	name "Empire: Explore Ember Waste"
 	description "Search for new types of Void Sprites in the following systems: Gerenus, Esix, Nona, Paeli, Polerius."
 	source
 		government "Cromha Empire"
@@ -452,6 +464,7 @@ mission "Empire: Search for Void Sprites"
 
 mission "Empire: Get Manta Plans"
 	landing
+	name "Empire: Get Manta Plans"
 	description "Disable the lost Syndicate Manta ship at Edusa, then board it an stole the plans of the ship. Bring the plans back to <destination>. Payment is <payment>. You can keep the ship if you'd like to."
 	source
 		government "Cromha Empire"
@@ -488,6 +501,7 @@ mission "Empire: Get Manta Plans"
 
 mission "Empire: Bring Resources"
 	landing
+	name "Empire: Bring Resources"
 	description "Bring the following resources to <destination> for the Black Manta:  25 tons of Titanium, 8 tons of Gold, 80 tons of Neodyium, 65 tons of Silicon, 6 tons of Uranium and 1 Plasma Drive. Payment is <payment>."
 	source
 		government "Cromha Empire"
@@ -535,6 +549,7 @@ mission "Empire: Bring Resources"
 
 mission "Empire: Defense Solifar"
 	landing
+	name "Empire: Defense Solifar"
 	description "Defense Solifar from Empire Rebels fleet that attacked a Mineria Convoit. There will be an Empire fleet that will help you. Then land on <destination>. Payment is <payment>."
 	source
 		government "Cromha Empire"
@@ -573,6 +588,7 @@ mission "Empire: Defense Solifar"
 
 mission "Empire: Escort Convoit"
 	landing
+	name "Empire: Escort Convoit"
 	description "Escort a mineria convoit from Empire Rebels. Get to <destination> before the Empire Rebels intercept you. You'll get an Bulk Freighter if you sccues in this mission."
 	source
 		government "Cromha Empire"
@@ -606,6 +622,7 @@ mission "Empire: Escort Convoit"
 			
 mission "Empire: Attack Korsmanath"
 	landing
+	name "Empire: Attack Korsmanath"
 	description "Some rumors says that an Empire Rebel fleet are waiting for orders to attack the Solifar system in the Korsmanath. Go to the Kormanath system and check if the rumors are true, if they are, destroy the whole fleet. An Empire fleet will accompany you in case you find Rebels on your way. Then land on <destination> to get your payment of <payment>."
 	source
 		government "Cromha Empire"
