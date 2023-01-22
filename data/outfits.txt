@@ -1,4 +1,12 @@
 # Misc
+outfit "Mineria Key Stone"
+	category "Systems"
+	cost 1500
+	thumbnail "outfit/mineria keystone"
+	mass 0.5
+	"outfit space" -1
+	"quantum keystone" 1
+	description "These Key Stones work like Hais or Remnant Key Stones. The Mineria Key Stones are produced by the Mineria mines and factories, wich is an huge source of keystones"
 outfit "Countermesure Module"
 	category "Systems"
 	licenses
