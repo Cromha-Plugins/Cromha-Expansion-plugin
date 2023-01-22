@@ -22,7 +22,7 @@ ship "Black Manta"
 		"fuel capacity" 800
 		"cargo space" 280
 		"outfit space" 3100
-		"weapon capacity" 510
+		"weapon capacity" 530
 		"engine capacity" 650
 		"inscrutable" 1
 		"ramscoop" 0.5
@@ -42,7 +42,8 @@ ship "Black Manta"
 		"Railgun Slug Rack"
 		
 		"Multiphasic Anti-Missile" 2
-		"Multiphasic ammo" 1200
+		"Multiphasic Anti-Drone" 4
+		"Multiphasic ammo" 3600
 		
 		"RC-X1 Multiphasic Reactor" 1
 		"RC-X2 Multiphasic Reactor" 4
@@ -102,6 +103,10 @@ ship "Black Manta"
 	# Weapons
 	turret 45.5 -2.5 "Multiphasic Anti-Missile"
 	turret -45.5 -2.5 "Multiphasic Anti-Missile"
+	turret 79 -23.5 Multiphasic Anti-Drone"
+	turret 76 9.5 Multiphasic Anti-Drone"
+	turret -79 -23.5 Multiphasic Anti-Drone"
+	turret -76 9.5 Multiphasic Anti-Drone"
 	gun 26 -40.5 "Ion Proton Gun" 
 	gun -26 -40.5 "Ion Proton Gun" 
 	gun -34.5 -39 "Empire Particle gun"

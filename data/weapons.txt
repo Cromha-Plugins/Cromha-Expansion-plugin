@@ -168,6 +168,32 @@ outfit "Modified Plasma Repeater"
 	description `	Derived from the original Plasma Repeater, this heavier version trades off its larger bursts for a much faster rate of fire. Although the smaller bursts of superheated plasma deal far less damage than its predecessor, the volume of fire results in more damage to the target overall.`
 	description `	Since this weapon has been developped by Empire Rebels, it is illigal in all Empire Spaces.`
 
+outfit "Multiphasic Anti-Drone"
+	thumbnail "outfit/multiphasic_anti_missile
+	category "Turrets"
+	cost 30500
+	license
+		"Empire Contributor"
+	mass "5"
+	"outfit space" -5
+	"weapon capacity" -5
+	"turret mounts" -1
+	"cooling" 2
+	"Multiphasic ammo capacity" 600
+	weapon
+		"hardpoint sprite" "hardpoint/anti-missile-hai"
+		sprite "projectile/empire anti drone"
+		"hardpoint offset" 3.
+		ammo "Multiphasic ammo"
+		"velocity" 200
+		"reload" 8
+		"fireing energy" 20
+		"fireing heat" 10
+		"ion damage" 1
+		"turret turn" 2.5
+	description "This Turret use Anti-Missile ammo to inject in it anti-matter to fire automatcily on nearest enemy drones or fighters. It is used on almost every destroyer or big ships that don't use turrets."
+	description "This weapon does not do any shield or hull damage but only ion damage to discharge the enemy ship."
+
 outfit "Multiphasic Anti-Missile"
 	thumbnail "outfit/multiphasic_anti_missile"
 	category "Turrets"
