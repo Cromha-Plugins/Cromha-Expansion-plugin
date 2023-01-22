@@ -623,7 +623,7 @@ mission "Empire: Escort Convoit"
 mission "Empire: Attack Korsmanath"
 	landing
 	name "Empire: Attack Korsmanath"
-	description "Some rumors says that an Empire Rebel fleet are waiting for orders to attack the Solifar system in the Korsmanath. Go to the Kormanath system and check if the rumors are true, if they are, destroy the whole fleet. An Empire fleet will accompany you in case you find Rebels on your way. Then land on <destination> to get your payment of <payment>."
+	description "Some rumors says that an Empire Rebel fleet are waiting for orders to attack the Solifar system in Korsmanath rebel station. Go to the Kormanath system and check if the rumors are true, if they are, destroy the whole fleet. Then land on <destination> to get your payment of <payment>."
 	source
 		government "Cromha Empire"
 		not attributes uninhabited
@@ -659,7 +659,35 @@ mission "Empire: Attack Korsmanath"
 	on enter Korsmanath
 		dialog "You enter the system and see that your scanners find some ships: it's Rebels ships. Time to engage combat."
 
-mission "Empire: 
+mission "Empire: Study Black Hole"
+	landing
+	name "Empire: Study Blackhole"
+	description "Go to the As'har system to study the Blackhole, then go back to <destination> to depose the scans. Payment is <payment>."
+	source
+		government "Cromha Empire"
+		not attributes uninhabited
+	to offer
+		has "Empire: Attack Korsmanath: done"
+	destination
+		government "Cromha Empire"
+		attributes research station
+		distance 1 5
+	on offer
+		conversation
+			`You land on <planet> and recieve an other message for the Empire missions. You click on the pop-up and the app opens. You can see written on the screen:`
+			`	"Go to the As'har system to study the Blackhole, then go back to <destination> to depose the scans. Payment is <payment>."`
+				accept
+	on complete
+		payment
+		payment 350000
+		"reputation: Cromha Empire" += 10
+		"empire jobs" += 1
+		dialog "You land on <planet> and depose your scans results and get your payment of <payment>."
+	to complete
+		has "empire mission scanned black hole"
+	on enter As'har
+		dialog "You enter the As'har system and scans the blackhole. Time to land on <destination>."
+		"empire mission scanned black hole" ++
 
 # Events
 mission "Discovered Empire Space"
