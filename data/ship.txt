@@ -19,9 +19,6 @@ ship "Black Manta (Prototype)"
 		"mass" 680
 		"drag" 4.7
 		"heat dissipation" .10
-		"cloak" .02
-		"cloaking energy" 5
-		"cloaking fuel" .1
 		"fuel capacity" 800
 		"cargo space" 270
 		"outfit space" 3000
@@ -72,6 +69,7 @@ ship "Black Manta (Prototype)"
 		"Security Forcefield" 40
 		"Countermesure Module" 4
 		"Teleportation Dock" 2
+		"Cloaking Module"
 	# Back
 	engine 0 108.5
 		zoom 0.8
@@ -172,9 +170,6 @@ ship "Heavy Empire Destroyer"
 		"outfit space" 5220
 		"weapon capacity" 4470
 		"engine capacity" 3010
-		"cloak" .02
-		"cloaking energy" 5
-		"cloaking fuel" .1
 		weapon
 			"blast radius" 400
 			"shield damage" 10000
@@ -208,6 +203,7 @@ ship "Heavy Empire Destroyer"
 		"RX-180 Reverse Thruster" 6
 		"Plasma Drive"
 		"Countermesure Module" 4
+		"Cloaking Module"
 
 	# Thrusters
 	engine -21.5 220
@@ -332,9 +328,6 @@ ship "Empire Destroyer"
 		"outfit space" 850
 		"weapon capacity" 350
 		"engine capacity" 350
-		"cloak" .02
-		"cloaking energy" 5
-		"cloaking fuel" .1
 		weapon
 			"blast radius" 160
 			"shield damage" 1600
@@ -359,6 +352,7 @@ ship "Empire Destroyer"
 		`RC-205 Atomic Steering`
 		"Plasma Drive"
 		"Countermesure Module" 2
+		"Cloaking Module"
 	engine 51.5 119.5
 		zoom 0.5
 	engine -51.5 119.5
@@ -417,9 +411,6 @@ ship "Light Empire Destroyer"
 		"outfit space" 623
 		"weapon capacity" 150
 		"engine capacity" 250
-		"cloak" .02
-		"cloaking energy" 5
-		"cloaking fuel" .1
 		weapon
 			"blast radius" 60
 			"shield damage" 600
@@ -443,6 +434,7 @@ ship "Light Empire Destroyer"
 		`RC-205 Atomic Steering`
 		"Plasma Drive"
 		"Countermesure Module" 2
+		"Cloaking Module"
 		
 	engine -15.5 115
 	engine 15.5 115
@@ -492,9 +484,6 @@ ship "Empire Raven"
 		"outfit space" 320
 		"weapon capacity" 100
 		"engine capacity" 100
-		"cloak" .02
-		"cloaking energy" 5
-		"cloaking fuel" .1
 		weapon
 			"blast radius" 60
 			"shield damage" 600
@@ -516,6 +505,7 @@ ship "Empire Raven"
 		`RC-185 Atomic Steering`
 		"Compact Plasma Drive"
 		"Countermesure Module"
+		"Cloaking Module"
 		
 	engine 10.5 62
 	engine -10.5 62
