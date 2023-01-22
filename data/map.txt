@@ -155,6 +155,7 @@ planet "Mineria"
 	outfitter Advanced-systems-outfitter
 	outfitter Advanced-power-outfitter
 	outfitter Basic-engines-outfitter
+	outfitter Minerals-mineria-outfitter
 	attributes urban inhabited north mining factory oil "empire space"
 	description "One of the biggest  and the richest minner colonnies planet."
 	spaceport "Mineria was found back in the 29th siecle. Humans decided to install a minner colonie only 3 years after the discover of the precious metals that are in the planet. It's because of this metals that Mineria is now the center of economy of all north-part of the galaxy. It is connected to almost all most important planets by hyperspace link so all the cargo can be delivred in short times. There is a lot of aliens on this planet, beware of them."

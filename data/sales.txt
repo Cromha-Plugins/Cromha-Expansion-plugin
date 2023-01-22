@@ -20,6 +20,12 @@ outfitter Base-outfitter
 	"Engine Module"
 	"Small Fuel Cell"
 	"Self Destruct Module"
+outfitter Minerals-mineria-outfitter
+	"Neodymium"
+	"Platinum"
+	"Silicon"
+	"Titanium"
+	"Yottrite"
 outfitter Basic-ammo-outfitter
 	"Empire Torpedo Missile"
 	"Railgun Slug"
