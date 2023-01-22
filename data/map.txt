@@ -1030,9 +1030,11 @@ system "As'har"
 		period 1
 	object
 		sprite star/black-hole-core
+			scale 0.6
 		period 1
 	object
 		sprite star/black-hole
+			scale 0.6
 		period 1
 		
 planet "Solfa Station"

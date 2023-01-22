@@ -38,7 +38,7 @@ effect "far empire space ion hazard"
 
 hazard "Far Black Hole Accretion Disk"
 	"constant strength"
-	"range" 400
+	"range" 300
 	weapon
 		"target effect" "nano spark"
 		"damage dropoff" 150 600
@@ -48,7 +48,7 @@ hazard "Far Black Hole Accretion Disk"
 
 hazard "Far Black Hole Event Horizon"
 	"constant strength"
-	"range" 100
+	"range" 50
 	weapon
 		"target effect" "nano spark"
 		"damage dropoff" 0 150
@@ -58,7 +58,7 @@ hazard "Far Black Hole Event Horizon"
 
 hazard "Far Black Hole Gravity"
 	"constant strength"
-	"range" 1000
+	"range" 700
 	weapon
 		"gravitational"
 		"hit force" -5
