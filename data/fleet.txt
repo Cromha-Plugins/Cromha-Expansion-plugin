@@ -19,13 +19,13 @@ fleet cromha-fleet
 	variant 5
 		"Empire Quicksilver" 3
 		"Light Empire Destroyer" 2
-		"Black Manta (Prototype)" 1
+		"Black Manta" 1
 		"Empire Raven" 2
 		"Empire Destroyer"
 	# war
 	variant 3
 		"Empire Quicksilver" 4
-		"Black Manta (Prototype)" 1
+		"Black Manta" 1
 		"Light Empire Destroyer" 3
 		"Empire Raven" 3
 		"Heavy Empire Destroyer"

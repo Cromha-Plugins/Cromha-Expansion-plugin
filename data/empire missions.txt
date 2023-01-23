@@ -689,6 +689,37 @@ mission "Empire: Study Black Hole"
 		dialog "You enter the As'har system and scans the blackhole. Time to land on <destination>."
 		"empire mission scanned black hole" ++
 
+mission "Empire: Bring Resources 2"
+	landing
+	name "Empire: Bring Resources"
+	description "Bring the following resources to <destination> for the Black Manta:  10 tons of Titanium, 18 tons of Gold, 35 tons of Neodyium, 2 tons of Uranium, 1 Teleportation Dock and 1 Mineria Key Stone. Payment is <payment>."
+	source
+		government "Cromha Empire"
+		not attributes uninhabited
+	destination "Black Manta Spacial Dock"
+	to offer
+		has "Empire: Study Black Hole: done"
+	on offer
+		conversation
+			`You enter the planet spaceport when you recieve a message from the Black Manta scentists: they whant you to collect minerals again.`
+			`	"10 tons of Titanium, 18 tons of Gold, 35 tons of Neodyium, 2 tons of Uranium, 1 Teleportation Dock and 1 Mineria Key Stone."`
+				accept
+	on complete
+		qoutfit "Titanium" -10
+		outfit "Gold" -18
+		outfit "Uranium" -2
+		outfit "Neodymium" -2
+		require "Mineria Key Stone" 1
+		outfit "Mineria Key Stone" -1
+		require "Teleportation Dock" 1
+		outfit "Teleportation Dock" -1
+		payment
+		payment 3000000
+		"reputation: Cromha Empire" += 10
+		"empire jobs" += 1
+		conversation
+			`You enter the station spaceport and see the same guy that the other time. He greets you and says:`
+			`	"Thanks for you help, here is <payment>. I hope it will help you. We will call you back if there is anything new about the Black Manta."`
 
 # Misc
 mission "Award 3"
