@@ -464,10 +464,10 @@ effect "empire torpedo ring"
 	"random velocity" 2
 	"velocity scale" 0.1
 
-outfit "Nuclear Missile"
+outfit "Empire Nuke"
 	category "Secondary Weapons"
 	cost 2000000
-	thumbnail "outfit/nuke"
+	thumbnail "outfit/empire nuke"
 	licenses
 		"Empire Navy"
 	"mass" 15
@@ -480,16 +480,17 @@ outfit "Nuclear Missile"
 			"frame rate" .25
 		"hardpoint sprite" "hardpoint/nuke"
 		sound "nuke"
-		ammo "Nuclear Missile"
+		ammo "Empire Nuke"
 		stream
-		icon "icon/nuke"
-		"hit effect" "nuke explosion"
-		"hit effect" "nuke residue fast" 10
-		"hit effect" "nuke residue slow" 10
+		icon "icon/empire nuke"
+		"hit effect" "empire nuke explosion" 2
+		"hit effect" "empire nuke residue fast" 10
+		"hit effect" "empire nuke residue slow" 10
 		"die effect" "missile death"
 		"inaccuracy" 1
+		"missile strength" 200
 		"velocity" 8
-		"lifetime" 800
+		"lifetime" 1200
 		"reload" 400
 		"firing energy" 10
 		"firing heat" 400
@@ -500,6 +501,8 @@ outfit "Nuclear Missile"
 		"radar tracking" .5
 		"optical tracking" 1
 		"trigger radius" 40
+		"ion damage" 2000
+		"slowing damage" 450
 		"blast radius" 450
 		"shield damage" 15000
 		"hull damage" 12000
@@ -508,8 +511,8 @@ outfit "Nuclear Missile"
 	description "It has been centuries since the last nuclear war was fought, and until very recently, most people in the galaxy assumed that that era of chaos and destruction was forever behind us..."
 	description "	[Nuclear missiles are a one-shot weapon: each missile occupies a gun slot, and after it is fired, the slot it was in is left empty.]"
 
-effect "nuke explosion"
-	sprite "effect/explosion/nuke"
+effect "empire nuke explosion"
+	sprite "effect/explosion/empire huge"
 		"no repeat"
 		"frame rate" 30
 		scale 2
@@ -520,8 +523,8 @@ effect "nuke explosion"
 	"random velocity" 1
 	"velocity scale" .4
 
-effect "nuke residue fast"
-	sprite "effect/explosion/huge"
+effect "empire nuke residue fast"
+	sprite "effect/explosion/empire huge"
 		"no repeat"
 		"frame rate" 15
 		scale 2
@@ -531,8 +534,8 @@ effect "nuke residue fast"
 	"random velocity" 8
 	"velocity scale" 0.1
 
-effect "nuke residue slow"
-	sprite "effect/explosion/huge"
+effect "empire nuke residue slow"
+	sprite "effect/explosion/empire huge"
 		"no repeat"
 		"frame rate" 10
 		scale 2

@@ -179,7 +179,7 @@ ship "Heavy Empire Destroyer"
 	outfits
 		"Multiphasic Anti-Missile" 8
 		"Multiphasic ammo" 4800
-		"Nuclear Missile" 2
+		"Empire Nuke" 2
 		"Electron Turret" 5
 		"Ion Proton Turret" 5
 		"Empire Torpedo Bank" 6
@@ -274,9 +274,9 @@ ship "Heavy Empire Destroyer"
 	gun 85 37.5 "Empire Torpedo Bank"
 	gun 73 24.5 "Empire Torpedo Bank"
 	gun 60 15.5 "Empire Torpedo Bank"
-	gun 52.5 6 "Nuclear Missile"
+	gun 52.5 6 "Empire Nuke"
 		over
-	gun -52.5 6 "Nuclear Missile"
+	gun -52.5 6 "Empire Nuke"
 		over
 	bay "Empire Warship" 74.5 92.5
 		under
@@ -339,7 +339,7 @@ ship "Empire Destroyer"
 		"Ion Proton Turret" 6
 		"Multiphasic Anti-Missile" 4
 		"Multiphasic ammo" 2400
-		"Nuclear Missile" 2
+		"Empire Nuke" 2
 		
 		"RC-X3 Multiphasic Reactor" 2
 		"KP-6 Photovoltaic Array"
@@ -365,8 +365,8 @@ ship "Empire Destroyer"
 		zoom 1.2
 	engine 23 143.5
 	engine -23 143.5
-	gun -16 0 "Nuclear Missile"
-	gun 16 0 "Nuclear Missile"
+	gun -16 0 "Empire Nuke"
+	gun 16 0 "Empire Nuke"
 	turret -51 39.5 "Multiphasic Anti-Missile"
 	turret 51 39.5 "Multiphasic Anti-Missile"
 	turret -17 -30 "Multiphasic Anti-Missile"
