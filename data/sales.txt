@@ -114,7 +114,6 @@ outfitter Advanced-weapon-outfitter
 	"Empire Particle Gun"
 	"Proton Gun"
 	"Plasma Cannon"
-	"Modified Plasma Repeater"
 	"Electron Turret"
 	"Electron Beam"
 	"Energy Blaster"
