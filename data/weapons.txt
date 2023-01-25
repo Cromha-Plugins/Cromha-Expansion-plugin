@@ -219,10 +219,11 @@ outfit "Multiphasic Anti-Missile"
 		"hardpoint sprite" "hardpoint/anti-missile hai"
 		"hardpoint offset" 3.
 		ammo "Multiphasic ammo"
+		sprite "projectile/multiphasic-anti-missile"
 		"hit effect" "small anti-missile"
 		"anti-missile" 45
-		"velocity" 200
-		"lifetime" 5
+		"velocity" 230
+		"lifetime" 3
 		"reload" 10
 		"firing energy" 20
 		"firing heat" 10
