@@ -82,6 +82,7 @@ outfit "Big Fuel Cell"
 	"energy consumption" 10
 	"fuel generation" 0.8
 	description "This outfit convert the extra energy to fuel. It is useful for long travels."
+
 outfit "Weapon Module"
 	category "Systems"
 	cost 30000
@@ -92,7 +93,7 @@ outfit "Weapon Module"
 	"engine capacity" -35
 	"unplunderable" 1
 	description "This module allows you to sacrifice some engine capacity in order to make more capacity for the weapons, in situations where you need just a bit more capacity to install a particular weapon or reverse thruster."
-	description "This little module redirect some of the engine energy to the weapons. It does not affect heat dissipation or anything else unless outfit space of course.
+	description "This little module redirect some of the engine energy to the weapons. It does not affect heat dissipation or anything else unless outfit space of course."
 	
 outfit "Engine Module"
 	category "Systems"
@@ -104,7 +105,7 @@ outfit "Engine Module"
 	"weapon capacity" -35
 	"unplunderable" 1
 	description "This module allows you to sacrifice some weapon capacity in order to make more capacity for the engines, in situations where you need just a bit more capacity to install a particular engine."
-	description "This little module redirect some of the weapon energy to the engines. It does not affect heat dissipation or anything else unless outfit space of course.
+	description "This little module redirect some of the weapon energy to the engines. It does not affect heat dissipation or anything else unless outfit space of course."
 
 # Shields
 outfit "Compact Empire Shielding Core"
@@ -159,6 +160,7 @@ outfit "Plasma Drive"
 	thumbnail "outfit/big plasma drive"
 	"mass" 25
 	"outfit space" -25
+	"jump effect" "jump drive empire"
 	"jump speed" .3
 	"jump fuel" 100
 	"hyperdrive" 1

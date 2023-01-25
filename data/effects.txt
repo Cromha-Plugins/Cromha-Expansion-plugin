@@ -96,3 +96,11 @@ effect "empire huge explosion"
 	"random spin" 5
 	"random velocity" 1
 	"velocity scale" .4
+
+effect "jump drive empire"
+	sprite "effect/jump drive empire"
+		"no repeat"
+		"frame rate" 8
+		"rewind"
+	"lifetime" 8
+	"velocity scale" 3
