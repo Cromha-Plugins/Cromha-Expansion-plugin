@@ -219,8 +219,7 @@ outfit "Multiphasic Anti-Missile"
 		"hardpoint sprite" "hardpoint/anti-missile hai"
 		"hardpoint offset" 3.
 		ammo "Multiphasic ammo"
-		sprite "projectile/multiphasic-anti-missile"
-		"hit effect" "small anti-missile"
+		"hit effect" "multiphasic anti missile"
 		"anti-missile" 45
 		"velocity" 230
 		"lifetime" 3
@@ -230,6 +229,14 @@ outfit "Multiphasic Anti-Missile"
 		"stream"
 	description "This is the most advanced Anti Missile of all time. It can cool itself and has insane reload. Perfect for any ship."
 	description "But be warn this Anti-Missile has limits: he need ammunitions. Be sure to always have ammunition before going in a battle."
+
+effect "multiphasic anti missile"
+	sprite "projectile/multiphasic-anti-missile"
+		"no repeat"
+		"frame rate" 6
+	sound "warder"
+	"lifetime" 11
+	"velocity scale" 1
 
 outfit "Multiphasic ammo"
 	plural "Multiphasic ammoes"
