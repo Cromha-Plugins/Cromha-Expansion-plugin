@@ -102,7 +102,7 @@ outfit "Ion Proton Fragment"
 		"hit force" 6
 		"shield damage" 10.1
 		"hull damage" 8.4
-		"ion damage" 2.1
+		"ion damage" 0.3
 
 effect "ion proton impact"
 	sprite "effect/ion proton impact"
@@ -123,7 +123,7 @@ outfit "Ion Proton Turret"
 	"required crew" 1
 	weapon
 		sprite "projectile/ion proton"
-		"hardpoint sprite" "hardpoint/proton turret"
+		"hardpoint sprite" "hardpoint/ion proton turret"
 		"hardpoint offset" 14.
 		sound "proton"
 		"hit effect" "ion proton impact" 3

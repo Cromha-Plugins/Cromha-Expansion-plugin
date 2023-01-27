@@ -229,6 +229,8 @@ shipyard Cromha-military-shipyard
 	"Gunboat (modified)"
 	"Osprey (Rebels)"
 	"Fuel Pod"
+	"Empire Destroyer yll'e"
+	"Empire Destroyer yll'a"
 # Rebels
 outfitter Rebels-basic-outfitter
 	"Local Map"

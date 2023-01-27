@@ -21,7 +21,7 @@ fleet cromha-fleet
 		"Light Empire Destroyer" 2
 		"Black Manta" 1
 		"Empire Raven" 2
-		"Empire Destroyer"
+		"Empire Destroyer yll'e"
 	# war
 	variant 3
 		"Empire Quicksilver" 4

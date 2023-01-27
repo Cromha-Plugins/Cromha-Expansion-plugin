@@ -149,11 +149,11 @@ ship "Black Manta"
 	description "The fastest and greatest Heavy Warship of all human space. After the great succes of Syndicate's ship 'Manta', to this menace, Cromha Empire decided to create the greatest human ship; a ship that will have human tech and Hai tech together, a big ship that can carry a lot of gun, a lot of cargo, but still enough fast to concurrence other ships. They decided to invade the Syndicated planet Nimbus, to stole the Manta ship plans. Cromha Empire military scientics take the Manta base and remixed it to enhance everything by adding Hai technologies and more outfit and cargo space but also the shields. But the most important thing is the Jump Drive, for yet an unknow technologie for humans. It even has two Ionic Afterburner integrated. Due to the big consummation of fuel of the Jump Drive technologie, this ship have 800Liters of fuel capacity, great for long trips with HyperDrive technologie. This ship can even carry 2 drones and 4 fighters in his bays. The Black Manta is still a prototype but is yet used by The Empire."
 
 ship "Heavy Empire Destroyer"
-	sprite "ship/empire_destroyer"
-	thumbnail "thumbnail/empire_destroyer"
+	sprite "ship/heavy empire destroyer"
+	thumbnail "thumbnail/heavy empire destroyer"
 	"uncapturable"
 	"never disabled"
-	"swizzle" 6
+	swizzle 0
 	attributes
 		category "Destroyer"
 		licenses
@@ -166,7 +166,7 @@ ship "Heavy Empire Destroyer"
 		"mass" 1310
 		"drag" 17.7
 		"heat dissipation" .45
-		"fuel capacity" 1100
+		"fuel capacity" 900
 		"cargo space" 300
 		"outfit space" 5220
 		"weapon capacity" 4470
@@ -208,13 +208,17 @@ ship "Heavy Empire Destroyer"
 		"Cloaking Module"
 
 	# Thrusters
-	engine -21.5 220
+	engine -19.5 238
 		zoom 1.5
-	engine -46.5 211.5
+	engine -25 237.5
 		zoom 1.5
-	engine 21.5 220
+	engine -29.5 236
 		zoom 1.5
-	engine 46.5 211.5
+	engine 19.5 238
+		zoom 1.5
+	engine 25 237.5
+		zoom 1.5
+	engine 29.5 236
 		zoom 1.5
 	# Left Steering
 	"steering engine" 40.5 -32.5
@@ -250,52 +254,61 @@ ship "Heavy Empire Destroyer"
 		zoom 0.5
 		angle 60
 		right
-	turret -32.5 -110.5 "Multiphasic Anti-Missile"
-	turret 32.5 -110.5 "Multiphasic Anti-Missile"
-	turret -54.5 6.5 "Multiphasic Anti-Missile"
-	turret 54.5 6.5 "Multiphasic Anti-Missile"
-	turret -102 113.5 "Multiphasic Anti-Missile"
-	turret 102 113.5 "Multiphasic Anti-Missile"
-	turret -37 177 "Multiphasic Anti-Missile"
-	turret 37 177 "Multiphasic Anti-Missile"
-	turret -37 -9.5 "Electron Turret"
-	turret -37.5 32 "Electron Turret"
-	turret -24 108 "Electron Turret"
-	turret -76.5 108.5 "Ion Proton Turret"
-	turret 37 -9.5 "Ion Proton Turret"
-	turret 37.5 32 "Ion Proton Turret"
-	turret 24 108 "Electron Turret"
-	turret 76.5 108.5 "Ion Proton Turret"
-	turret -1.5 11 "Ion Proton Turret"
-	turret -0.5 -148.5 "Electron Turret"
-	gun -85 37.5 "Empire Torpedo Bank"
-	gun -73 24.5 "Empire Torpedo Bank"
-	gun -60 15.5 "Empire Torpedo Bank"
-	gun 85 37.5 "Empire Torpedo Bank"
-	gun 73 24.5 "Empire Torpedo Bank"
-	gun 60 15.5 "Empire Torpedo Bank"
-	gun 52.5 6 "Empire Nuke"
+	turret -19 -134.5 "Multiphasic Anti-Missile"
+	turret 18.5 -136 "Multiphasic Anti-Missile"
+	turret -0.5 -81 "Multiphasic Anti-Missile"
+	turret -1 -23.5 "Multiphasic Anti-Missile"
+	turret -0.5 41.5 "Multiphasic Anti-Missile"
+	turret -71 140.5 "Multiphasic Anti-Missile"
+	turret 75 138 "Multiphasic Anti-Missile"
+	turret -0.5 171.5 "Multiphasic Anti-Missile"
+	turret -66.5 71 "Electron Turret"
+	turret 66.5 71 "Electron Turret"
+	turret -0.5 -176.5 "Electron Turret"
+	turret -1.5 -110.5 "Electron Turret"
+	turret -0.5 -23 "Electron Turret"
+	turret -18 206.5 "Ion Proton Turret"
+	turret 18 206.5 "Ion Proton Turret"
+	turret -16.5 -38.5 "Ion Proton Turret"
+	turret 16.5 -38.5 "Ion Proton Turret"
+	turret -31 98.5 "Ion Proton Turret"
+	turret 31 98.5 "Ion Proton Turret"
+	gun -17.5 -157 "Empire Torpedo Bank"
+	gun 17.5 -157 "Empire Torpedo Bank"
+	gun -65.5 65.5 "Empire Torpedo Bank"
+	gun 65.5 65.5 "Empire Torpedo Bank"
+	gun -8.5 -212 "Empire Torpedo Bank"
+	gun 8.5 -212 "Empire Torpedo Bank"
+	gun -8.5 -212 "Empire Nuke"
 		over
-	gun -52.5 6 "Empire Nuke"
+	gun 8.5 -212 "Empire Nuke"
 		over
-	bay "Empire Warship" 74.5 92.5
+	bay "Empire Warship" 0 0
+	bay "Empire Warship" 0 0
+	bay "Empire Warship" 0 0
+	bay "Empire Warship" 0 0
+	bay "Empire Warship" 0 0
+	bay "Empire Warship" 0 0
+	bay "Fighter" -55.5 -6.5
 		under
-	bay "Empire Warship" -74.5 92.5
+	bay "Fighter" 55.5 -6.5
 		under
-	bay "Empire Warship" 19.5 89
+	bay "Drone" -32 86
 		over
-	bay "Empire Warship" -19.5 89
+	bay "Drone" -32 115.5
 		over
-	bay "Empire Warship" 21 -46.5
+	bay "Drone" 32 86
 		over
-	bay "Empire Warship" -21 -46.5
+	bay "Drone" 32 115.5
 		over
-	bay "Fighter" 0 0
-	bay "Fighter" 0 0
-	bay "Drone" 0 0
-	bay "Drone" 0 0
-	bay "Drone" 0 0
-	bay "Drone" 0 0
+	bay "Fuel Pod" -68 171
+		over
+	bay "Fuel Pod" -68.5 81
+		over
+	bay "Fuel Pod" 68.5 81
+		over
+	bay "Fuel Pod" 68 171
+		over
 	leak "empire leak" 30 50
 	leak "empire flame" 30 80
 	leak "empire big leak" 30 30
@@ -307,12 +320,12 @@ ship "Heavy Empire Destroyer"
 	"final explode" "empire huge explosion"
 	description "The Empire Destroyer is more than just a warship: it is practically a mobile space station, with docking bays for an entire squadron of drones and fighters and enough crew to fill a small village. Although designed primarily for engaging enemies from a distance, a Carrier can also do significant damage in close combat."
 
-ship "Empire Destroyer"
-	sprite "ship/empire destroyer"
-	thumbnail "thumbnail/empire destroyer"
+ship "Empire Destroyer yll'a"
+	sprite "ship/empire destroyer yll'a"
+	thumbnail "thumbnail/empire destroyer yll'a"
 	"uncapturable"
 	"never disabled"
-	"swizzle" 6
+	swizzle 0
 	attributes
 		category "Destroyer"
 		licenses
@@ -357,51 +370,124 @@ ship "Empire Destroyer"
 		"Cloaking Module"
 		"Brig" 5
 		"Mineria Key Stone"
-	engine 33 209
+		"Multiphasic Scanner"
+	engine -9.5 244.5
 		zoom 1.8
-	engine -33 209
+	engine 10.5 245.5
 		zoom 1.8
-	engine 3 209
-		zoom 1.9
-	"steering engine" 78.5 -79
-		left
-		angle 270
-		zoom 1.6
-	"steering engine" 66 -111
-		left
-		angle 330
-		zoom 1
-	"steering engine" 77.5 65.5
-		left
-		angle 270
-		zoom 1.4
-	"steering engine" -70.5 -97
-		right
-		angle 30
-		zoom 1
-	"steering engine" -54 -102.5
+	"steering engine" -21.5 -26.5
+		zoom 0.8
 		right
 		angle 90
-		zoom 1.6
-	gun -16 0 "Empire Nuke"
-	gun 16 0 "Empire Nuke"
-	turret -25 116.5 "Multiphasic Anti-Missile"
-	turret 53.5 -27 "Multiphasic Anti-Missile"
-	turret -37.5 -73 "Multiphasic Anti-Missile"
-	turret 9.5 -166.5 "Multiphasic Anti-Missile"
-	turret 9.5 -135.5 "Ion Proton Turret"
-	turret -22 -57.5 "Ion Proton Turret"
-	turret 50.5 101 "Ion Proton Turret"
-	turret 51.5 143 "Ion Proton Turret"
-	turret -53 18.5 "Ion Proton Turret"
-	turret -20 -133.5 "Ion Proton Turret"
-	turret -64 120 "Ion Proton Turret"
-	bay "Empire Warship" 79.5 15.5
-	bay "Empire Warship" 79 5
-	bay "Fighter" 80.5 -14.5
-	bay "Fighter" 79 -27.5
-	bay "Fighter" 79 46.5
-	bay "Drone" 78 31
+	"steering engine" -23 -8.5
+		zoom 0.8
+		right
+		angle 90
+	gun -0.5 -239 "Empire Nuke"
+	gun -9 -219 "Empire Nuke"
+	turret -22 199 "Multiphasic Anti-Missile"
+	turret -16.5 84 "Multiphasic Anti-Missile"
+	turret -10 -28.5 "Multiphasic Anti-Missile"
+	turret -1 -162.5 "Multiphasic Anti-Missile"
+	turret 1.5 197 "Ion Proton Turret"
+	turret -46.5 82 "Ion Proton Turret"
+	turret 2.5 88 "Ion Proton Turret"
+	turret -1 -74 "Ion Proton Turret"
+	turret -0.5 -220 "Ion Proton Turret"
+	turret -8.5 -167 "Ion Proton Turret"
+	bay "Fuel Pod" -15.5 144.5
+		under
+	bay "Fuel Pod" -30 55.5
+		under
+	bay "Drone" -17 84
+		over
+	bay "Drone" -17 45.5
+		over
+	bay "Empire Warship" -5 -82
+	bay "Empire Warship" -5 -82
+	leak "empire leak" 30 50
+	leak "empire flame" 50 80
+	leak "empire big leak" 60 30
+	explode "empire tiny explosion" 40
+	explode "empire tiny explosion" 55
+	explode "empire medium explosion" 60
+	explode "empire huge explosion" 40
+	"final explode" "empire medium explosion"
+	description "The Empire Destroyer is one of the most powerful warships in the Empire fleet, a sleeker and more maneuverable alternative to the venerable and somewhat outdated Leviathan."
+
+ship "Empire Destroyer yll'e"
+	sprite "ship/empire destroyer yll'e"
+	thumbnail "thumbnail/empire destroyer yll'e"
+	"uncapturable"
+	"never disabled"
+	swizzle 0
+	attributes
+		category "Destroyer"
+		licenses
+			"Empire Navy"
+		"cost" 10930000
+		"shields" 25800
+		"hull" 3700
+		"required crew" 52
+		"bunks" 91
+		"mass" 510
+		"drag" 6.7
+		"heat dissipation" .7
+		"fuel capacity" 600
+		"cargo space" 160
+		"outfit space" 850
+		"weapon capacity" 350
+		"engine capacity" 350
+		weapon
+			"blast radius" 160
+			"shield damage" 1600
+			"hull damage" 800
+			"hit force" 2400
+	outfits
+		"Ion Proton Turret" 6
+		"Multiphasic Anti-Missile" 4
+		"Multiphasic ammo" 2400
+		"Empire Nuke" 2
+		
+		"RC-X3 Multiphasic Reactor" 2
+		"KP-6 Photovoltaic Array"
+		"KP-6 Photovoltaic Panel" 2
+		"Empire Hai Ravine Batteries" 6
+		"Compact Empire Shielding Core" 6
+		"Large Radar Jammer"
+		"Multiphasic Cooler"
+		"Phasic Rifle" 15
+		
+		`RC-200 Atomic Thruster`
+		`RC-205 Atomic Steering`
+		"Plasma Drive"
+		"Countermesure Module" 2
+		"Cloaking Module"
+		"Brig" 5
+		"Mineria Key Stone"
+		"Multiphasic Scanner"
+	gun 0.5 -239 "Empire Nuke"
+	gun 9 -219 "Empire Nuke"
+	turret 22 199 "Multiphasic Anti-Missile"
+	turret 16.5 84 "Multiphasic Anti-Missile"
+	turret 10 -28.5 "Multiphasic Anti-Missile"
+	turret 1 -162.5 "Multiphasic Anti-Missile"
+	turret -1.5 197 "Ion Proton Turret"
+	turret 46.5 82 "Ion Proton Turret"
+	turret -2.5 88 "Ion Proton Turret"
+	turret 1 -74 "Ion Proton Turret"
+	turret 0.5 -220 "Ion Proton Turret"
+	turret 8.5 -167 "Ion Proton Turret"
+	bay "Fuel Pod" 15.5 144.5
+		under
+	bay "Fuel Pod" 30 55.5
+		under
+	bay "Drone" 17 84
+		over
+	bay "Drone" 17 45.5
+		over
+	bay "Empire Warship" 5 -82
+	bay "Empire Warship" 5 -82
 	leak "empire leak" 30 50
 	leak "empire flame" 50 80
 	leak "empire big leak" 60 30
@@ -417,7 +503,7 @@ ship "Light Empire Destroyer"
 	thumbnail "thumbnail/light empire destroyer"
 	"uncapturable"
 	"never disabled"
-	"swizzle" 6
+	swizzle 0
 	attributes
 		category "Destroyer"
 		licenses
@@ -461,101 +547,34 @@ ship "Light Empire Destroyer"
 		"Cloaking Module"
 		"Mineria Key Stone"
 		"Brig" 4
+		"Multiphasic Scanner"
 		
-	engine -15.5 115
-	engine 15.5 115
-	engine 0 116
-	gun -11.5 -92 "Empire Particle gun"
-	gun 11.5 -92 "Empire Particle gun"
-	gun -26 3 "Empire Particle gun"
-	gun 26 3 "Empire Particle gun"
-	gun 11 -57 "Sidewinder Missile Pod"
-	gun -11 -57 "Sidewinder Missile Pod"
-	turret -13.5 42 "Multiphasic Anti-Missile"
-	turret 13.5 42 "Multiphasic Anti-Missile"
+	engine -25 133
+	engine 24.5 132.5
+	engine -7 124
+		zoom 0.7
+	engine 7 124
+		zoom 0.7
+	gun -15.5 -54.5 "Empire Particle gun"
+	gun 15.5 -54.5 "Empire Particle gun"
+	gun -21 -25.5 "Empire Particle gun"
+	gun 21 -25.5 "Empire Particle gun"
+	gun -1 -90.5 "Sidewinder Missile Pod"
+	gun -1 -90.5 "Sidewinder Missile Pod"
+	turret -16 36 "Multiphasic Anti-Missile"
+	turret 16 36 "Multiphasic Anti-Missile"
 	bay "Fighter" 0 0
-	bay "Drone" 0 0
-	bay "Drone" 0 0
-	leak "leak" 60 50
-	leak "flame" 40 80
-	leak "big leak" 90 30
-	explode "tiny explosion" 18
-	explode "small explosion" 36
-	explode "medium explosion" 24
-	explode "large explosion" 8
-	"final explode" "final explosion medium"
+	bay "Drone" -17.5 21
+	bay "Drone" 17.5 21
+	leak "empire leak" 60 50
+	leak "empire flame" 40 80
+	leak "empire big leak" 90 30
+	explode "empire tiny explosion" 18
+	explode "empire tiny explosion" 36
+	explode "empire medium explosion" 24
+	explode "empire huge explosion" 8
+	"final explode" "empire huge explosion"
 	description "The Light Empire Destroyer is the largest warship produced by the Empire shipyard. It is designed to be faster and more maneuverable than other ships of a similar size, in order to serve as a heavy escort ship or as part of a planetary defense and patrol fleet. Because of its intended use in merchant convoys, it also has a fair amount of cargo space."
-
-# Medium Warship
-ship "Empire Raven"
-	sprite "ship/empire raven"
-	thumbnail "thumbnail/empire raven"
-	"uncapturable"
-	"never disabled"
-	"swizzle" 6
-	attributes
-		category "Empire Warship"
-		licenses
-			"Empire Navy"
-		"cost" 2570000
-		"shields" 6500
-		"hull" 2400
-		"required crew" 6
-		"bunks" 13
-		"mass" 130
-		"drag" 3.7
-		"heat dissipation" .8
-		"fuel capacity" 500
-		"cargo space" 30
-		"outfit space" 320
-		"weapon capacity" 100
-		"engine capacity" 100
-		weapon
-			"blast radius" 60
-			"shield damage" 600
-			"hull damage" 300
-			"hit force" 900
-	outfits
-		"Empire Particle gun" 4
-		"Sidewinder Missile Launcher" 2
-		"Sidewinder Missile" 90
-		"Multiphasic Anti-Missile" 1
-		"Multiphasic ammo" 600
-		
-		"RC-X2 Multiphasic Reactor" 2
-		"Empire Hai Gorge Batteries"
-		"Compact Empire Shielding Core" 2
-		"Phasic Rifle" 10
-		
-		`RC-180 Atomic Thruster`
-		`RC-185 Atomic Steering`
-		"Compact Plasma Drive"
-		"Countermesure Module"
-		"Cloaking Module"
-		"Mineria Key Stone"
-		"Brig" 2
-		
-	engine 10.5 62
-	engine -10.5 62
-	engine 35 14
-		zoom 0.5
-	engine -35 14
-		zoom 0.5
-	gun -13.5 -35.5 "Empire Particle gun"
-	gun 13.5 -35.5 "Empire Particle gun"
-	gun -20.5 -28 "Empire Particle gun"
-	gun 20.5 -28 "Empire Particle gun"
-	gun -21 -28 "Sidewinder Missile Launcher"
-	gun 21 -28 "Sidewinder Missile Launcher"
-	turret 0 7.5 "Multiphasic Anti-Missile"
-	leak "leak" 60 50
-	leak "flame" 50 80
-	explode "medium explosion" 24
-	explode "large explosion" 16
-	explode "tiny explosion" 28
-	explode "small explosion" 40
-	"final explode" "final explosion small"
-	description "The Lionheart Raven is their most popular warship, an agile and elegant vessel that can nevertheless deal out and absorb considerable damage. Ravens are a favorite ship for bounty hunters, because they are more than a match for pirate interceptors and can be used by a skilled pilot to take down much larger ships as well."
 
 # Drones & Fighters
 ship "Empire Quicksilver"
@@ -611,10 +630,10 @@ ship "Empire Quicksilver"
 	gun 0 -11 "Ion Proton Gun"
 	gun 9 2 "Meteor Missile Launcher"
 	gun -9 2 "Meteor Missile Launcher"
-	leak "leak" 50 50
-	explode "tiny explosion" 12
-	explode "small explosion" 16
-	"final explode" "final explosion small"
+	leak "empire leak" 50 50
+	explode "empire tiny explosion" 12
+	explode "empire tiny explosion" 16
+	"final explode" "empire medium explosion"
 	description "The Empire Quicksilver is a warship built around a single concept: to design the smallest and fastest ship capable of carrying two particle cannons. Because of its speed and long weapons range, the Quicksilver can keep a safe distance from most targets and bombard them with particle bursts until they are destroyed. Unfortunately the Headhunter eventually surpassed the original design intent, but the Quicksilver's better durability to cost ratio, and the existence of long-term contracts, has kept it in use with Syndicate security forces."
 
 ship "Empire Drone"
@@ -655,7 +674,7 @@ ship "Empire Drone"
 	engine -10.2 34.2 0.9
 	engine 10.2 34.2 0.9
 	gun 0 -43.5 "Empire Particle gun"
-	explode "tiny explosion" 15
+	explode "empire tiny explosion" 15
 	description "It is at first a Republic Navy drone but Cromha Empire buyed rights of this ship and made its own version to satisfy them."
 	description "	Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay."
 	
@@ -685,10 +704,10 @@ ship "Fuel Pod"
 	outfits
 			`RC-001 Atomic Engines`
 			"RC-X1 Multiphasic Reactor"
-			"Supercapacitor
+			"Supercapacitor"
 	leak "empire leak" 15
 	explode "empire tiny explosion" 4
-	"final explode" empire medium explosion"
+	"final explode" "empire medium explosion"
 	engine -7.5 36.5
 	engine 7.5 35.5
 	# right
