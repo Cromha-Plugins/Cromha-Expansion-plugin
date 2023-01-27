@@ -340,7 +340,7 @@ ship "Empire Destroyer yll'a"
 		"heat dissipation" .7
 		"fuel capacity" 600
 		"cargo space" 160
-		"outfit space" 850
+		"outfit space" 87
 		"weapon capacity" 350
 		"engine capacity" 350
 		weapon
@@ -435,7 +435,7 @@ ship "Empire Destroyer yll'e"
 		"heat dissipation" .7
 		"fuel capacity" 600
 		"cargo space" 160
-		"outfit space" 850
+		"outfit space" 871
 		"weapon capacity" 350
 		"engine capacity" 350
 		weapon
@@ -518,7 +518,7 @@ ship "Light Empire Destroyer"
 		"heat dissipation" .7
 		"fuel capacity" 600
 		"cargo space" 75
-		"outfit space" 623
+		"outfit space" 696
 		"weapon capacity" 150
 		"engine capacity" 250
 		weapon
