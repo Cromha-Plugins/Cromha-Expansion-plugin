@@ -296,15 +296,15 @@ ship "Heavy Empire Destroyer"
 	bay "Drone" 0 0
 	bay "Drone" 0 0
 	bay "Drone" 0 0
-	leak "leak" 30 50
-	leak "flame" 30 80
-	leak "big leak" 30 30
-	explode "tiny explosion" 20
-	explode "small explosion" 45
-	explode "medium explosion" 50
-	explode "large explosion" 40
-	explode "huge explosion" 10
-	"final explode" "final explosion large"
+	leak "empire leak" 30 50
+	leak "empire flame" 30 80
+	leak "empire big leak" 30 30
+	explode "empire tiny explosion" 20
+	explode "empire tiny explosion" 45
+	explode "empire medium explosion" 50
+	explode "empire medium explosion" 40
+	explode "empire huge explosion" 10
+	"final explode" "empire huge explosion"
 	description "The Empire Destroyer is more than just a warship: it is practically a mobile space station, with docking bays for an entire squadron of drones and fighters and enough crew to fill a small village. Although designed primarily for engaging enemies from a distance, a Carrier can also do significant damage in close combat."
 
 ship "Empire Destroyer"
@@ -357,39 +357,59 @@ ship "Empire Destroyer"
 		"Cloaking Module"
 		"Brig" 5
 		"Mineria Key Stone"
-	engine 51.5 119.5
-		zoom 0.5
-	engine -51.5 119.5
-		zoom 0.5
-	engine 0 153
-		zoom 1.2
-	engine 23 143.5
-	engine -23 143.5
+	engine 33 209
+		zoom 1.8
+	engine -33 209
+		zoom 1.8
+	engine 3 209
+		zoom 1.9
+	"steering engine" 78.5 -79
+		left
+		angle 270
+		zoom 1.6
+	"steering engine" 66 -111
+		left
+		angle 330
+		zoom 1
+	"steering engine" 77.5 65.5
+		left
+		angle 270
+		zoom 1.4
+	"steering engine" -70.5 -97
+		right
+		angle 30
+		zoom 1
+	"steering engine" -54 -102.5
+		right
+		angle 90
+		zoom 1.6
 	gun -16 0 "Empire Nuke"
 	gun 16 0 "Empire Nuke"
-	turret -51 39.5 "Multiphasic Anti-Missile"
-	turret 51 39.5 "Multiphasic Anti-Missile"
-	turret -17 -30 "Multiphasic Anti-Missile"
-	turret 17 -30 "Multiphasic Anti-Missile"
-	turret -1.5 97 "Ion Proton Turret"
-	turret 49.5 90 "Ion Proton Turret"
-	turret -49.5 90 "Ion Proton Turret"
-	turret -10.5 7.5 "Ion Proton Turret"
-	turret 10.5 7.5 "Ion Proton Turret"
-	turret -0.5 -79 "Ion Proton Turret"
-	bay "Fighter" 0 0
-	bay "Fighter" 0 0
-	bay "Fighter" 0 0
-	bay "Drone" 0 0
-	bay "Drone" 0 0
-	leak "leak" 30 50
-	leak "flame" 50 80
-	leak "big leak" 60 30
-	explode "tiny explosion" 40
-	explode "small explosion" 55
-	explode "medium explosion" 60
-	explode "large explosion" 40
-	"final explode" "final explosion medium"
+	turret -25 116.5 "Multiphasic Anti-Missile"
+	turret 53.5 -27 "Multiphasic Anti-Missile"
+	turret -37.5 -73 "Multiphasic Anti-Missile"
+	turret 9.5 -166.5 "Multiphasic Anti-Missile"
+	turret 9.5 -135.5 "Ion Proton Turret"
+	turret -22 -57.5 "Ion Proton Turret"
+	turret 50.5 101 "Ion Proton Turret"
+	turret 51.5 143 "Ion Proton Turret"
+	turret -53 18.5 "Ion Proton Turret"
+	turret -20 -133.5 "Ion Proton Turret"
+	turret -64 120 "Ion Proton Turret"
+	bay "Empire Warship" 79.5 15.5
+	bay "Empire Warship" 79 5
+	bay "Fighter" 80.5 -14.5
+	bay "Fighter" 79 -27.5
+	bay "Fighter" 79 46.5
+	bay "Drone" 78 31
+	leak "empire leak" 30 50
+	leak "empire flame" 50 80
+	leak "empire big leak" 60 30
+	explode "empire tiny explosion" 40
+	explode "empire tiny explosion" 55
+	explode "empire medium explosion" 60
+	explode "empire huge explosion" 40
+	"final explode" "empire medium explosion"
 	description "The Empire Destroyer is one of the most powerful warships in the Empire fleet, a sleeker and more maneuverable alternative to the venerable and somewhat outdated Leviathan."
 
 ship "Light Empire Destroyer"

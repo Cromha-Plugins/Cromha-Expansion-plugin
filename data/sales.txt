@@ -121,7 +121,7 @@ outfitter Advanced-weapon-outfitter
 	"Never Gas"
 	"Antimatter Railgun"
 	"Javelin Pod"
-	"Nuclear Missile"
+	"Empire Nuke"
 	"Thunderhead Launcher"
 	"Ion Proton Gun"
 	"Ion Proton Turret"

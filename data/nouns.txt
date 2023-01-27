@@ -160,6 +160,7 @@ ship "Ayym Creature"
 			"hit force" 3600
 	outfits
 		Pincer 4
+		"Ayym Parts" 500
 	gun -41 -45 Pincer
 	gun 41 -45 Pincer
 	gun -42 -50 Pincer
@@ -169,6 +170,16 @@ ship "Ayym Creature"
 	"final explode" "pincer beast shatter"
 	description `This creature appears to have an outer shell made of small asteroids held together by strands of carbon nanotubes. It pulls rocks through arms into its main cavity where it processes them to make more shell. The multi-colored hairs pointing back seem to be a drive system of sorts, manipulating the gravity field around the creature to accelerate it. There is no apparent hyperdrive mechanism, but somehow it is able to open a hyperspace window.`
 	
+outfit "Ayym Parts"
+	cost 50000
+	category "Minerals"
+	thumbnail "outfit/ayym parts"
+	"flotsam sprite" "asteroid/ayym parts/ayym parts"
+	"mass" 1
+	"installable" -1
+	description "This are Ayym creatures parts. This things can be sell very expensive. But since killing living creatures is a crime, in all empire space this outfit is illegal and can be fined very high. The Rebels like to kill some of this creatures to sell their parts."
+	description "But it has also a great potential in sciences..."
+
 fleet "Ayym"
 	government "Unknow"
 	personality mining harvests
