@@ -1,34 +1,66 @@
 fleet cromha-fleet
 	government "Cromha Empire"
 	names "empire fleet names"
-	fighter "empire fleet names"
 	fighters "empire fleet names"
 	cargo 2
+	commodities medical
 	personality heroic
 		forbearing
 		disables
+		daring
 		plunders
+		surveillance
+		hunting
+		daring
 	outfitters Cromha-basic-outfitter
-	# surveillance
-	variant 35
+	variant 1
+		"Light Empire Destroyer" 1
 		"Empire Quicksilver" 2
-		"Empire Raven" 1
 		"Empire Drone" 2
-		"Light Empire Destroyer"
-	# defender
-	variant 5
+	variant 1
+		"Light Empire Destroyer" 1
 		"Empire Quicksilver" 3
+		"Empire Drone" 1
+	variant 1
 		"Light Empire Destroyer" 2
-		"Black Manta" 1
-		"Empire Raven" 2
-		"Empire Destroyer yll'e"
-	# war
-	variant 3
 		"Empire Quicksilver" 4
-		"Black Manta" 1
-		"Light Empire Destroyer" 3
-		"Empire Raven" 3
+		"Empire Drone" 4
+	variant 1
+		"Light Empire Destroyer" 2
+		"Empire Quicksilver" 6
+		"Empire Drone" 4
+		"Empire Destroyer yll'a"
+	variant 1
+		"Light Empire Destroyer" 2
+		"Empire Quicksilver" 6
+		"Empire Drone" 4
+		"Empire Destroyer yll'e"
+	variant 1
+		"Light Empire Destroyer" 2
+		"Empire Quicksilver" 6
+		"Empire Drone" 4
+		"Empire Destroyer yll'a"
+		"Empire Destroyer yll'e"
+	variant 1
+		"Light Empire Destroyer" 2
+		"Empire Quicksilver" 6
+		"Empire Drone" 4
+		"Empire Destroyer yll'a"
 		"Heavy Empire Destroyer"
+	variant 1
+		"Light Empire Destroyer" 2
+		"Empire Quicksilver" 6
+		"Empire Drone" 4
+		"Empire Destroyer yll'e"
+		"Heavy Empire Destroyer"
+	variant 1
+		"Light Empire Destroyer" 2
+		"Empire Quicksilver" 6
+		"Empire Drone" 4
+		"Empire Destroyer yll'a"
+		"Empire Destroyer yll'e"
+		"Heavy Empire Destroyer"
+
 fleet cromha-transporters
 	government "Merchant"
 	names "civilian"

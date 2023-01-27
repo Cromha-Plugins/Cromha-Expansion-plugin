@@ -112,7 +112,7 @@ outfit "Pincer"
 
 fleet Void-sprite-family
 	government "Unknow"
-	personality timid
+	personality timid mute
 	variant 1
 		"Void Sprite Child"
 		"Void Sprite"
@@ -182,6 +182,6 @@ outfit "Ayym Parts"
 
 fleet "Ayym"
 	government "Unknow"
-	personality mining harvests
+	personality mining harvests mute
 	variant 1
 		"Ayym Creature"

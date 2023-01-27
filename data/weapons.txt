@@ -478,7 +478,7 @@ outfit "Empire Nuke"
 		sprite "projectile/missile"
 			"no repeat"
 			"frame rate" .25
-		"hardpoint sprite" "hardpoint/nuke"
+		"hardpoint sprite" "hardpoint/empire nuke"
 		sound "nuke"
 		ammo "Empire Nuke"
 		stream
