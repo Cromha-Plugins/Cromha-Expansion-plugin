@@ -67,16 +67,16 @@ system "Volcanois"
 			sprite "planet/miranda"
 			distance 631
 			period 78
-	trade "Heavy Metals" 1050
-	trade "Luxury Goods" 2056
-	trade Electronics 180
-	trade Equipment 195
-	trade Food 145
-	trade Industrial 97
-	trade Medical 1356
-	trade Metal 59
-	trade Plastic 506
-	trade "Heavy Metals" 1200
+	trade Clothing 215
+	trade Electronics 816
+	trade Equipment 487
+	trade Food 265
+	trade "Heavy Metals" 1102
+	trade Industrial 711
+	trade "Luxury Goods" 1014
+	trade Medical 797
+	trade Metal 479
+	trade Plastic 364
 
 planet "Linimbus"
 	landscape "land/Linimbus"
@@ -123,14 +123,16 @@ system "Astroid"
 	link "Calor stil"
 	link "Alpha Cromha"
 	link "Beta Cromha"
-	trade "Heavy Metals" 1050
-	trade Electronics 187
-	trade Equipment 95
-	trade Food 125
-	trade Industrial 97
-	trade Medical 1356
-	trade Metal 59
-	trade Plastic 506
+	trade Clothing 215
+	trade Electronics 816
+	trade Equipment 487
+	trade Food 265
+	trade "Heavy Metals" 1102
+	trade Industrial 711
+	trade "Luxury Goods" 1014
+	trade Medical 797
+	trade Metal 479
+	trade Plastic 364
 	object "Mineria"
 		sprite "planet/fg_cloud0"
 			scale 3
@@ -191,14 +193,16 @@ system "Calor stil"
 	link "Astroid"
 	link "Lifdot"
 	link "Sepriaptu"
-	trade "Heavy Metals" 1052
-	trade Electronics 387
-	trade Equipment 951
-	trade Food 165
-	trade Industrial 957
-	trade Medical 356
-	trade Metal 259
-	trade Plastic 706
+	trade Clothing 215
+	trade Electronics 816
+	trade Equipment 487
+	trade Food 265
+	trade "Heavy Metals" 1102
+	trade Industrial 711
+	trade "Luxury Goods" 1014
+	trade Medical 797
+	trade Metal 479
+	trade Plastic 364
 	object
 		sprite "star/nova-small"
 			scale 3
@@ -248,14 +252,16 @@ system "Lifdot"
 	link "Alpha Cromha"
 	link "Sepriaptu"
 	link "All'Estros"
-	trade "Heavy Metals" 152
-	trade Electronics 687
-	trade Equipment 751
+	trade Clothing 215
+	trade Electronics 816
+	trade Equipment 487
 	trade Food 265
-	trade Industrial 357
-	trade Medical 756
-	trade Metal 559
-	trade Plastic 306
+	trade "Heavy Metals" 1102
+	trade Industrial 711
+	trade "Luxury Goods" 1014
+	trade Medical 797
+	trade Metal 479
+	trade Plastic 364
 	object "Crodust"
 		sprite "planet/fg_terrestrial2"
 			scale 2.4
@@ -418,16 +424,16 @@ system "Beta Cromha"
 	fleet cromha-miners 1000
 	link "Alpha Cromha"
 	link "Astroid"
-	trade "Clothing" 160
-	trade "Luxury Goods" 940
-	trade "Heavy Metals" 142
-	trade Electronics 649
-	trade Equipment 581
-	trade Food 225
-	trade Industrial 277
-	trade Medical 785
-	trade Metal 269
-	trade Plastic 436
+	trade Clothing 215
+	trade Electronics 816
+	trade Equipment 487
+	trade Food 265
+	trade "Heavy Metals" 1102
+	trade Industrial 711
+	trade "Luxury Goods" 1014
+	trade Medical 797
+	trade Metal 479
+	trade Plastic 364
 	asteroids "large metal" 21 7
 	object
 		sprite "star/g5-old"
@@ -488,15 +494,16 @@ system "All'Estros"
 	haze _menu/haze-cyan
 	link "Lifdot"
 	link "Ring Wartrue"
-	trade "Heavy Metals" 152
-	trade "Luxury Goods" 290
-	trade Electronics 687
-	trade Equipment 751
+	trade Clothing 215
+	trade Electronics 816
+	trade Equipment 487
 	trade Food 265
-	trade Industrial 357
-	trade Medical 756
-	trade Metal 559
-	trade Plastic 306
+	trade "Heavy Metals" 1102
+	trade Industrial 711
+	trade "Luxury Goods" 1014
+	trade Medical 797
+	trade Metal 479
+	trade Plastic 364
 	object
 		sprite "star/k0"
 			scale 5
@@ -541,15 +548,16 @@ system "Ring Wartrue"
 	link "All'Estros"
 	link "Irn'o"
 	link "Wel'y"
-	trade "Heavy Metals" 152
-	trade "Luxury Goods" 290
-	trade Electronics 687
-	trade Equipment 751
+	trade Clothing 215
+	trade Electronics 816
+	trade Equipment 487
 	trade Food 265
-	trade Industrial 357
-	trade Medical 756
-	trade Metal 559
-	trade Plastic 306
+	trade "Heavy Metals" 1102
+	trade Industrial 711
+	trade "Luxury Goods" 1014
+	trade Medical 797
+	trade Metal 479
+	trade Plastic 364
 	object
 		sprite star/g3
 		period 10
@@ -950,15 +958,16 @@ system "Irn'o"
 	link "Ring Wartrue"
 	link "Nugg'et"
 	link "As'har"
-	trade "Heavy Metals" 361
-	trade "Luxury Goods" 385
-	trade Electronics 1064
-	trade Equipment 622
-	trade Food 215
-	trade Industrial 921
-	trade Medical 174
-	trade Metal 274
-	trade Plastic 942
+	trade Clothing 215
+	trade Electronics 816
+	trade Equipment 487
+	trade Food 265
+	trade "Heavy Metals" 1102
+	trade Industrial 711
+	trade "Luxury Goods" 1014
+	trade Medical 797
+	trade Metal 479
+	trade Plastic 364
 	asteroids "medium rock" 63 4.13
 	asteroids "small metal" 4 10.5
 	asteroids "medium metal" 53 6.23
@@ -977,15 +986,16 @@ system "Nugg'et"
 	fleet "Ayym" 2000
 	haze _menu/haze-cyan
 	link "Irn'o"
-	trade "Heavy Metals" 361
-	trade "Luxury Goods" 385
-	trade Electronics 1064
-	trade Equipment 622
-	trade Food 215
-	trade Industrial 921
-	trade Medical 174
-	trade Metal 274
-	trade Plastic 942
+	trade Clothing 215
+	trade Electronics 816
+	trade Equipment 487
+	trade Food 265
+	trade "Heavy Metals" 1102
+	trade Industrial 711
+	trade "Luxury Goods" 1014
+	trade Medical 797
+	trade Metal 479
+	trade Plastic 364
 	asteroids "medium rock" 63 4.13
 	asteroids "small metal" 4 10.5
 	asteroids "medium metal" 53 6.23
@@ -1002,15 +1012,16 @@ system "As'har"
 	fleet "Ayym" 2000
 	haze _menu/haze-cyan
 	link "Irn'o"
-	trade "Heavy Metals" 361
-	trade "Luxury Goods" 385
-	trade Electronics 1064
-	trade Equipment 622
-	trade Food 215
-	trade Industrial 921
-	trade Medical 174
-	trade Metal 274
-	trade Plastic 942
+	trade Clothing 215
+	trade Electronics 816
+	trade Equipment 487
+	trade Food 265
+	trade "Heavy Metals" 1102
+	trade Industrial 711
+	trade "Luxury Goods" 1014
+	trade Medical 797
+	trade Metal 479
+	trade Plastic 364
 	hazard "Far Black Hozle Accretion Disk" 1
 	hazard "Far Black Hole Event Horizon" 1
 	hazard "Far Black Hole Gravity" 1
@@ -1055,15 +1066,16 @@ system "Wel'y"
 	haze _menu/haze-cyan
 	link "Ring Wartrue"
 	link "Los Calos"
-	trade "Heavy Metals" 152
-	trade "Luxury Goods" 290
-	trade Electronics 687
-	trade Equipment 751
+	trade Clothing 215
+	trade Electronics 816
+	trade Equipment 487
 	trade Food 265
-	trade Industrial 357
-	trade Medical 756
-	trade Metal 559
-	trade Plastic 306
+	trade "Heavy Metals" 1102
+	trade Industrial 711
+	trade "Luxury Goods" 1014
+	trade Medical 797
+	trade Metal 479
+	trade Plastic 364
 	asteroids "medium rock" 63 4.13
 	asteroids "small metal" 4 10.5
 	asteroids "medium metal" 53 6.23
@@ -1120,15 +1132,16 @@ system "Lim Ort"
 	haze _menu/haze-cyan
 	fleet empire-rebels-raiders-fleet 1600
 	link "Los Asto"
-	trade "Heavy Metals" 364
-	trade "Luxury Goods" 921
-	trade Electronics 634
-	trade Equipment 312
-	trade Food 622
-	trade Industrial 931
-	trade Medical 639
-	trade Metal 163
-	trade Plastic 361
+	trade Clothing 215
+	trade Electronics 816
+	trade Equipment 487
+	trade Food 265
+	trade "Heavy Metals" 1102
+	trade Industrial 711
+	trade "Luxury Goods" 1014
+	trade Medical 797
+	trade Metal 479
+	trade Plastic 364
 	object
 		sprite star/a-giant
 			scale 0.7
@@ -1200,16 +1213,16 @@ system "Sepriaptu"
 	asteroids "large metal" 1 9.24
 	minables aluminum 13 5.16891
 	minables lead 4 5.12023
-	trade Clothing 370
-	trade Electronics 683
-	trade Equipment 588
-	trade Food 488
-	trade "Heavy Metals" 907
-	trade Industrial 740
-	trade "Luxury Goods" 1331
-	trade Medical 604
-	trade Metal 320
-	trade Plastic 449
+	trade Clothing 215
+	trade Electronics 816
+	trade Equipment 487
+	trade Food 265
+	trade "Heavy Metals" 1102
+	trade Industrial 711
+	trade "Luxury Goods" 1014
+	trade Medical 797
+	trade Metal 479
+	trade Plastic 364
 	fleet "Large Quarg" 4000
 	fleet cromha-miners 600
 	fleet small-pirates 2000
@@ -1369,16 +1382,16 @@ system Solifar
 	minables aluminum 30 12.5935
 	minables iron 6 10.1283
 	minables lead 20 11.4764
-	trade Clothing 256
-	trade Electronics 831
-	trade Equipment 595
-	trade Food 407
-	trade "Heavy Metals" 1046
-	trade Industrial 628
-	trade "Luxury Goods" 1227
-	trade Medical 678
-	trade Metal 285
-	trade Plastic 442
+	trade Clothing 215
+	trade Electronics 816
+	trade Equipment 487
+	trade Food 265
+	trade "Heavy Metals" 1102
+	trade Industrial 711
+	trade "Luxury Goods" 1014
+	trade Medical 797
+	trade Metal 479
+	trade Plastic 364
 	fleet "Large Quarg" 4000
 	object
 		sprite star/m0
@@ -1527,16 +1540,16 @@ system Sabriset
 	asteroids "large metal" 7 4.3335
 	minables aluminum 8 7.59557
 	minables tungsten 2 5.97609
-	trade Clothing 352
-	trade Electronics 723
-	trade Equipment 577
-	trade Food 489
-	trade "Heavy Metals" 885
-	trade Industrial 727
-	trade "Luxury Goods" 1311
-	trade Medical 621
-	trade Metal 275
-	trade Plastic 441
+	trade Clothing 215
+	trade Electronics 816
+	trade Equipment 487
+	trade Food 265
+	trade "Heavy Metals" 1102
+	trade Industrial 711
+	trade "Luxury Goods" 1014
+	trade Medical 797
+	trade Metal 479
+	trade Plastic 364
 	fleet "Large Quarg" 4000
 	fleet cromha-fleet 2000
 	fleet empire-rebels-raiders 1500
@@ -1594,16 +1607,16 @@ system Pantica
 	asteroids "medium metal" 2 1.19093
 	asteroids "large metal" 30 1.24227
 	minables aluminum 1 2.10029
-	trade Clothing 299
-	trade Electronics 693
-	trade Equipment 712
-	trade Food 541
-	trade "Heavy Metals" 914
-	trade Industrial 728
-	trade "Luxury Goods" 989
-	trade Medical 545
-	trade Metal 454
-	trade Plastic 469
+	trade Clothing 215
+	trade Electronics 816
+	trade Equipment 487
+	trade Food 265
+	trade "Heavy Metals" 1102
+	trade Industrial 711
+	trade "Luxury Goods" 1014
+	trade Medical 797
+	trade Metal 479
+	trade Plastic 364
 	fleet "Large Remnant" 2000
 	fleet "Small Remnant" 1400
 	fleet "Remnant Transport" 1400
@@ -1787,16 +1800,16 @@ system "Alpi Tah"
 	link Wezen
 	asteroids "small rock" 6 2.6418
 	asteroids "small metal" 3 2.5228
-	trade Clothing 316
-	trade Electronics 745
-	trade Equipment 368
-	trade Food 492
-	trade "Heavy Metals" 395
-	trade Industrial 593
-	trade "Luxury Goods" 495
-	trade Medical 309
-	trade Metal 573
-	trade Plastic 184
+	trade Clothing 215
+	trade Electronics 816
+	trade Equipment 487
+	trade Food 265
+	trade "Heavy Metals" 1102
+	trade Industrial 711
+	trade "Luxury Goods" 1014
+	trade Medical 797
+	trade Metal 479
+	trade Plastic 364
 	fleet empire-rebels-raiders 6000
 	fleet "Large Deep Security" 10000
 	object
