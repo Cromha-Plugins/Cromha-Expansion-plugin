@@ -7,10 +7,12 @@ phrase "empire friendly hail"
 phrase "empire friendly disabled hail"
     word
         "Your help is welcome? Please could you help me?"
+        "Carry us in destroyer the cowards that attacked us."
 
 phrase "empire hostile hail"
     word
         "You're not welcome here. Surrender or die."
+        "It was a bad idea to attack us. Enjoy your last minutes of life."
 
 phrase "empire hostile disabled hail"
     word
