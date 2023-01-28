@@ -85,8 +85,8 @@ mission "Empire: Humanitary Delivry to <planet>"
 
 mission "Empire: Escort Empire Raven"
 	landing
-	name "Empire: Escort Empire Raven"
-	description "Escort on Empire Raven to the <planet> reparation station before the date of <date>. Payment is a free Empire Quicksilver ship."
+	name "Empire: Escort Empire Wardragon"
+	description "Escort on Empire Wardragon to the <planet> reparation station before the date of <date>. Payment is a free Empire Wardragon ship."
 	deadline 15
 	source
 		government "Cromha Empire"
@@ -96,7 +96,7 @@ mission "Empire: Escort Empire Raven"
 	on offer
 		conversation
 			`You land on <planet> and recieve an other message for the Empire missions. You click on the pop-up and the app opens. You can see written on the screen:`
-			`	"Escort on Empire Raven to the <planet> reparation station before the date of <date>. Payment is a free Empire Quicksilver ship."`
+			`	"Escort on Empire Wardragon to the <planet> reparation station before the date of <date>. Payment is a free Empire Wardragon ship."`
 				accept
 	destination
 		government "Cromha Empire"
@@ -108,12 +108,12 @@ mission "Empire: Escort Empire Raven"
 	on complete
 		"reputation: Cromha Empire" += 10
 		"empire jobs" += 1
-		give ship "Empire Quicksilver"
-		dialog "You land on the reparation station dock and you can already see the Empire Quicksilver waiting for you in the spaceport."
+		give ship "Empire Wardragon"
+		dialog "You land on the reparation station dock and you can already see the Empire Wardragon waiting for you in the spaceport."
 	npc escort save
 		government "Cromha Empire"
 		personality escort timid
-		ship "Empire Raven" RZ-1406
+		ship "Empire Wardragon" "empire fleet names"
 
 mission "Empire: Delivry Jump Drive in <planet> military lab"
 	landing
@@ -306,19 +306,12 @@ mission "Empire: Ring Assist"
 		"reputation: Cromha Empire" += 50
 		"empire jobs" += 1
 		set "license: Empire Navy"
-		give ship "Empire Raven" "empire fleet names"
-		give ship "Empire Raven" "empire fleet names"
-		give ship "Empire Raven" "empire fleet names"
-		give ship "Empire Quicksilver" "empire fleet names"
-		give ship "Empire Quicksilver" "empire fleet names"
-		give ship "Empire Quicksilver" "empire fleet names"
-		give ship "Empire Quicksilver" "empire fleet names"
-		give ship "Empire Quicksilver" "empire fleet names"
+		give ship "Empire Wardragon" "empire fleet names"
 		give ship "Light Empire Destroyer" "empire fleet names"
 		give ship "Light Empire Destroyer" "empire fleet names"
 		payment
 		payment 300000
-		dialog "You land on <planet> and recieve <payment>. There is an entire Empire fleet of 3 Empire Ravens, 5 Empire Quicksilvers and 2 Light Empire Destroyer. You also won an Empire Navy License."
+		dialog "You land on <planet> and recieve <payment>. There is an entire Empire fleet of 1 Empire Wardragon and 2 Light Empire Destroyer. You also won an Empire Navy License."
 	npc kill
 		government "Bounty Hunter"
 		personality staying disables target
