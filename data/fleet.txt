@@ -60,48 +60,23 @@ fleet cromha-fleet
 		"Empire Destroyer yll'a"
 		"Empire Destroyer yll'e"
 		"Heavy Empire Destroyer"
-
-fleet cromha-transporters
-	government "Merchant"
-	names "civilian"
-	cargo 6
-	personality forbearing
-		disables
-		plunders
-	outfitters Cromha-basic-outfitter
-	# small convoits
-	variant 20
-		Freighter 2
-		"Star Barge" 1
-		Wasp 3
-	# big comvoits
-	variant 10
-		Hauler 2
-		"Container Transport" 1
-		"Bulk Freighter" 1
-		Frigate 2
-	# special convoits
-	variant 1
-		"Star Queen" 1
-		Mule 2
-		"Gunboat (modified)" 3
 fleet mineria-transports
 	government "Mineria colonnies"
 	names "empire fleet names"
-	personality pacific
+	personality timid
 	outfitters Cromha-basic-outfitter
-	cargo 6
+	cargo 8
 	# big convoits
-	variant 10
-		Hauler 1
-		"Container Transport" 1
-		"Bulk Freighter (Empire)" 2
-		Frigate 1
+	variant 1
+		"Empire Bulker"
+		"Cargo Transporter" 5
+		"Fuel Pod" 5
 	# special convoits
 	variant 1
-		"Star Queen" 1
-		"Mule (Empire)" 2
-		"Gunboat (modified)" 4
+		"Empire Bulker"
+		"Empire Bulker"
+		"Cargo Transporter" 16
+		"Fuel Pod" 2
 fleet calor-stil-tourism
 	government "Mineria colonnies"
 	names "civilian"

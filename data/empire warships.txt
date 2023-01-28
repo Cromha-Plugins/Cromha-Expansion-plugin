@@ -163,7 +163,7 @@ ship "Heavy Empire Destroyer"
 		"hull" 80300
 		"required crew" 200
 		"bunks" 500
-		"mass" 1310
+		"mass" 1800
 		"drag" 17.7
 		"heat dissipation" .45
 		"fuel capacity" 900

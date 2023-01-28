@@ -78,10 +78,10 @@ ship "Empire Bulker"
 		over
 	bay "Cargo Freighter" 20 -116
 		over
-    bay "Fuel Pod" 73 36.5
-        under
-    bay "Fuel Pod" -73 36.5
-        under
+	bay "Fuel Pod" 73 36.5
+		under
+	bay "Fuel Pod" -73 36.5
+		under
 	leak "empire leak" 80 80
 	leak "empire flame" 70 70
 	leak "empire big leak" 50 50
@@ -95,7 +95,7 @@ ship "Empire Bulker"
 ship "Cargo Transporter"
 	sprite "ship/cargo transporter"
 	thumbnail "thumbnail/cargo transporter"
-    "swizzle" 0
+	"swizzle" 0
 	attributes
 		category "Cargo Freighter"
 		"cost" 10000
