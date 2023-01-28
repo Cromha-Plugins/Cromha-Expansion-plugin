@@ -12,10 +12,10 @@ outfit `RC-001 Atomic Engines`
 	"turn" 244
 	"turning energy" .64
 	"turning heat" 1.28
-	"flare sprite" "effect/atomic flare/tiny"
+	"flare sprite" "effect/empire atomic flare/tiny"
 		"frame rate" 14
 	"flare sound" "atomic tiny"
-	"steering flare sprite" "effect/atomic flare/tiny"
+	"steering flare sprite" "effect/empire atomic flare/tiny"
 		"frame rate" 14
 	"steering flare sound" "atomic tiny"
 	description `While the Hai were designing the Flea, it quickly became apparent that even the RC-120 engine set was too large for the purpose. As a result, a combined thruster steering set was created: RC-125.`
@@ -30,7 +30,7 @@ outfit `RC-140 Atomic Thruster`
 	"thrust" 12.5
 	"thrusting energy" 1.4
 	"thrusting heat" 2.8
-	"flare sprite" "effect/atomic flare/tiny"
+	"flare sprite" "effect/empire atomic flare/tiny"
 		"frame rate" 14
 	"flare sound" "atomic tiny"
 	"afterburner thrust" 43.5
@@ -51,7 +51,7 @@ outfit `RC-160 Atomic Thruster`
 	"thrust" 22.4
 	"thrusting energy" 2.5
 	"thrusting heat" 4.8
-	"flare sprite" "effect/atomic flare/tiny"
+	"flare sprite" "effect/empire atomic flare/tiny"
 		"frame rate" 14
 	"flare sound" "atomic tiny"
 	"afterburner thrust" 43.5
@@ -72,7 +72,7 @@ outfit `RC-180 Atomic Thruster`
 	"thrust" 39.4
 	"thrusting energy" 4
 	"thrusting heat" 8.2
-	"flare sprite" "effect/atomic flare/small"
+	"flare sprite" "effect/empire atomic flare/small"
 		"frame rate" 13
 	"flare sound" "atomic small"
 	"afterburner thrust" 43.5
@@ -93,7 +93,7 @@ outfit `RC-200 Atomic Thruster`
 	"thrust" 62.8
 	"thrusting energy" 6.1
 	"thrusting heat" 12.7
-	"flare sprite" "effect/atomic flare/medium"
+	"flare sprite" "effect/empire atomic flare/medium"
 		"frame rate" 12
 	"flare sound" "atomic medium"
 	"afterburner thrust" 43.5
@@ -114,7 +114,7 @@ outfit `RC-220 Atomic Thruster`
 	"thrust" 114.1
 	"thrusting energy" 10.4
 	"thrusting heat" 22.6
-	"flare sprite" "effect/atomic flare/large"
+	"flare sprite" "effect/empire atomic flare/large"
 		"frame rate" 11
 	"flare sound" "atomic large"
 	"afterburner thrust" 43.5
@@ -135,7 +135,7 @@ outfit `RX-120 Reverse Thruster`
 	"reverse thrust" 12.5
 	"reverse thrusting energy" 1.4
 	"reverse thrusting heat" 2.8
-	"reverse flare sprite" "effect/atomic flare/tiny"
+	"reverse flare sprite" "effect/empire atomic flare/tiny"
 		"frame rate" 14
 	"reverse flare sound" "atomic tiny"
 	description "These tiny reverse thrusters allow even the smallest of Hai ships additional maneuverability beyond normal steering. Many young Hai find these an invaluable investment when first setting out on their own."
@@ -150,7 +150,7 @@ outfit `RX-180 Reverse Thruster`
 	"reverse thrust" 22.4
 	"reverse thrusting energy" 2.5
 	"reverse thrusting heat" 4.8
-	"reverse flare sprite" "effect/atomic flare/tiny"
+	"reverse flare sprite" "effect/empire atomic flare/tiny"
 		"frame rate" 14
 	"flare sound" "atomic tiny"
 	description "Considering them to be well worth the steep cost, many Hai freighter pilots install reverse thrusters such as these to supplement the often poor steering on larger Hai vessels."
@@ -165,7 +165,7 @@ outfit `RX-200 Reverse Thruster`
 	"reverse thrust" 39.4
 	"reverse thrusting energy" 4
 	"reverse thrusting heat" 8.2
-	"reverse flare sprite" "effect/atomic flare/small"
+	"reverse flare sprite" "effect/empire atomic flare/small"
 		"frame rate" 13
 	"reverse flare sound" "atomic small"
 	description "With pilots generally preferring to focus on steering when actual agility is needed, these are the largest reverse thrusters the Hai offer. They still boast an impressive amount of power for their size, which allows even the largest Hai ships to quickly come to a stop when needed."
@@ -180,7 +180,7 @@ outfit `RC-145 Atomic Steering`
 	"turn" 301
 	"turning energy" .7
 	"turning heat" 1.5
-	"steering flare sprite" "effect/atomic flare/tiny"
+	"steering flare sprite" "effect/empire atomic flare/tiny"
 		"frame rate" 14
 	"steering flare sound" "atomic tiny"
 	description "Hai atomic engines are too expensive to buy for most humans. All but the smallest of the engines are worth more than many of the most common ships flown in human space."
@@ -195,7 +195,7 @@ outfit `RC-165 Atomic Steering`
 	"turn" 563
 	"turning energy" 1.1
 	"turning heat" 2.85
-	"steering flare sprite" "effect/atomic flare/tiny"
+	"steering flare sprite" "effect/empire atomic flare/tiny"
 		"frame rate" 14
 	"steering flare sound" "atomic tiny"
 	description "Hai atomic engines allow for some of the most customizable ships in known space due to their size and efficiency. The few humans that are able to save up enough money to buy a set of Hai engines usually astound others in human space with the efficiency of their ship."
@@ -210,7 +210,7 @@ outfit `RC-185 Atomic Steering`
 	"turn" 1028
 	"turning energy" 2.0
 	"turning heat" 5.1
-	"steering flare sprite" "effect/atomic flare/small"
+	"steering flare sprite" "effect/empire atomic flare/small"
 		"frame rate" 13
 	"steering flare sound" "atomic small"
 	description "Having such powerful engines is a double-edged sword for the Hai, as the Unfettered Hai too own these powerful wonders. These engines allow most Hai ships to turn at amazing speeds, making them extremely deadly in combat."
@@ -225,7 +225,7 @@ outfit `RC-205 Atomic Steering`
 	"turn" 1714
 	"turning energy" 3.2
 	"turning heat" 8.2
-	"steering flare sprite" "effect/atomic flare/medium"
+	"steering flare sprite" "effect/empire atomic flare/medium"
 		"frame rate" 12
 	"steering flare sound" "atomic medium"
 	description "Reserved for special use on only a small number of Hai ships, these engines are one of the most expensive outfits that one could buy. Considerably more efficient than any other engine of the same size, Hai atomic engines are a go-to choice for anyone in need of a high turn speed."
@@ -240,7 +240,7 @@ outfit `RC-225 Atomic Steering`
 	"turn" 2967
 	"turning energy" 5.2
 	"turning heat" 13.8
-	"steering flare sprite" "effect/atomic flare/large"
+	"steering flare sprite" "effect/empire atomic flare/large"
 		"frame rate" 11
 	"steering flare sound" "atomic large"
 	description "Nine out of ten human captains interviewed in Hai space say that they would choose Hai atomic engines over those of Deep Sky any day... that is, if they could afford such expensive engines."

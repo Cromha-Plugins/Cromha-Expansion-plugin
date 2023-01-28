@@ -705,7 +705,7 @@ mission "Empire: Bring Resources 2"
 			`	"10 tons of Titanium, 18 tons of Gold, 35 tons of Neodyium, 2 tons of Uranium, 1 Teleportation Dock and 1 Mineria Key Stone."`
 				accept
 	on complete
-		qoutfit "Titanium" -10
+		outfit "Titanium" -10
 		outfit "Gold" -18
 		outfit "Uranium" -2
 		outfit "Neodymium" -2
@@ -719,7 +719,7 @@ mission "Empire: Bring Resources 2"
 		"empire jobs" += 1
 		conversation
 			`You enter the station spaceport and see the same guy that the other time. He greets you and says:`
-			`	"Thanks for you help, here is <payment>. I hope it will help you. We will call you back if there is anything new about the Black Manta."`
+			`	"Thanks for you help, here is <payment>. I'm sure we will finish the prototype soon. We will call you in a month approximativly to test the Black Manta."``
 
 # Misc
 mission "Award 3"
