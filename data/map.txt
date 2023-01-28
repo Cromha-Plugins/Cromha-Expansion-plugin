@@ -559,7 +559,7 @@ system "Ring Wartrue"
 	trade Metal 479
 	trade Plastic 364
 	object
-		sprite star/g3
+		sprite star/f3
 		period 10
 	object "Empire Ring"
 		sprite "planet/empire ringworld"
