@@ -5,7 +5,7 @@ galaxy empire
 galaxy "far empire space"
 	pos 440 -490
 
-#Cromha Empire
+# Cromha Empire
 system "Volcanois"
 	pos 137 -622
 	arrival 1080
@@ -1031,23 +1031,23 @@ system "As'har"
 	minables silicon 13 5.16891
 	minables neoyium 13 5.16891
 	minables titanium 13 5.16891
-	object "Solfa Station"
-		sprite planet/tschyss
-			scale 0.3
-		period 1
-		distance 600
 	object
-		sprite star/nova-old
+		sprite star/carbon
 		period 1
 	object
-		sprite star/black-hole-core
+		sprite star/coal-black-hole
+			scale 3.5
+		period 1
+	object
+		sprite star/neutron-core
 			scale 0.6
 		period 1
-	object
-		sprite star/black-hole
-			scale 0.6
-		period 1
-		
+		object "Solfa Station"
+			sprite planet/tschyss
+				scale 0.3
+			period 1
+			distance 600
+			
 planet "Solfa Station"
 	attributes station rebels "requires: rebels mapper" "far empire space"
 	landscape land/Solfa_station

@@ -58,9 +58,9 @@ hazard "Far Black Hole Event Horizon"
 
 hazard "Far Black Hole Gravity"
 	"constant strength"
-	"range" 700
+	"range" 2000
 	weapon
 		"gravitational"
-		"hit force" -5
+		"hit force" -3
 		"damage dropoff" 150 2500
 		"dropoff modifier" 0
