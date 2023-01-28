@@ -161,12 +161,11 @@ outfit "Plasma Drive"
 	"mass" 25
 	"outfit space" -25
 	"jump effect" "jump drive empire"
-	"jump speed" .3
-	"jump fuel" 100
 	"hyperdrive" 1
 	"jump speed" .4
-	"jump fuel" 170
+	"jump fuel" 140
 	"jump drive" 1
+	"jump range" 130
 	description "This mysterious box sits quietly at the heart of your ship, thinking its own inscrutable thoughts. When it comes time to travel between the stars it sets off a nuclear fusion reaction powerful enough to level an entire city, and then somehow tucks the resulting explosion in between the folds of regular space-time like a wasp stinging an oak leaf to lay her eggs inside. Your ship rides the resulting ripple in the fabric of space."
 	description "	They say that fewer than a dozen human beings alive today understand the inner workings of the hyperdrive."
 
