@@ -122,42 +122,8 @@ ship "Cargo Transporter"
 	leak "empire leak" 15
 	explode "empire tiny explosion" 4
 	"final explode" "empire medium explosion"
-	engine -7.5 36.5
-	engine 7.5 35.5
-	# right
-	"steering engine" 16.5 8
-		right
-		angle 270
-		zoom 0.7
-	"steering engine" 16.5 2
-		right
-		angle 270
-		zoom 0.7
-	"steering engine" -16.5 -24.5
-		right
-		angle 90
-		zoom 0.7
-	"steering engine" -17.5 -15.5
-		right
-		angle 90
-		zoom 0.7
-	# left
-	"steering engine" -17 9.5
-		left
-		angle 90
-		zoom 0.7
-	"steering engine" -17.5 2
-		left
-		angle 90
-		zoom 0.7
-	"steering engine" 16 -25.5
-		left
-		angle 270
-		zoom 0.7
-	"steering engine" 16 -15.5
-		left
-		angle 270
-		zoom 0.7
+	engine -13.5 22
+	engine 13.5 22
 	description "This is a mobile fuel pod. It is useful to carry fuel, drop it when you need fuel then leave it if you need speed."
 
 ship "Fuel Pod"
