@@ -15,50 +15,43 @@ fleet cromha-fleet
 	outfitters Cromha-basic-outfitter
 	variant 1
 		"Light Empire Destroyer" 1
-		"Empire Quicksilver" 2
 		"Empire Drone" 2
+		"Emipre Wardragon"
 	variant 1
 		"Light Empire Destroyer" 1
-		"Empire Quicksilver" 3
 		"Empire Drone" 1
+		"Emipre Wardragon"
 	variant 1
 		"Light Empire Destroyer" 2
-		"Empire Quicksilver" 4
 		"Empire Drone" 4
 	variant 1
 		"Light Empire Destroyer" 2
-		"Empire Quicksilver" 6
 		"Empire Drone" 4
 		"Empire Destroyer yll'a"
 	variant 1
 		"Light Empire Destroyer" 2
-		"Empire Quicksilver" 6
 		"Empire Drone" 4
 		"Empire Destroyer yll'e"
 		"Emipre Wardragon"
 	variant 1
 		"Light Empire Destroyer" 2
-		"Empire Quicksilver" 6
 		"Empire Drone" 4
 		"Empire Destroyer yll'a"
 		"Empire Destroyer yll'e"
 		"Emipre Wardragon" 2
 	variant 1
 		"Light Empire Destroyer" 2
-		"Empire Quicksilver" 6
 		"Empire Drone" 4
 		"Empire Destroyer yll'a"
 		"Heavy Empire Destroyer"
 	variant 1
 		"Light Empire Destroyer" 2
-		"Empire Quicksilver" 6
 		"Empire Drone" 4
 		"Empire Destroyer yll'e"
 		"Heavy Empire Destroyer"
 		"Emipre Wardragon" 3
 	variant 1
 		"Light Empire Destroyer" 2
-		"Empire Quicksilver" 6
 		"Empire Drone" 4
 		"Empire Destroyer yll'a"
 		"Empire Destroyer yll'e"
