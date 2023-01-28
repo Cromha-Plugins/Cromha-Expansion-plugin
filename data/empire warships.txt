@@ -63,7 +63,7 @@ ship "Black Manta"
 		
 		"RC-220 Atomic Thruster" 3
 		"RC-225 Atomic Steering" 3
-		`RC-200 Reverse Thruster` 4
+		`RX-200 Reverse Thruster` 4
 		"Phasic Rifle" 80
 		"Security Station" 12
 		"Fragmentation Grenades" 50
@@ -200,9 +200,9 @@ ship "Heavy Empire Destroyer"
 		"Mineria Key Stone"
 		"Brig" 15
 		
-		`RC-220 Atomic Thruster` 4
-		`RC-225 Atomic Steering` 4
-		"RX-180 Reverse Thruster" 6
+		`RC-220 Atomic Thruster` 3
+		`RC-225 Atomic Steering` 3
+		"RX-200 Reverse Thruster" 4
 		"Plasma Drive"
 		"Countermesure Module" 4
 		"Cloaking Module"

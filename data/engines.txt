@@ -155,7 +155,7 @@ outfit `RX-180 Reverse Thruster`
 	"flare sound" "atomic tiny"
 	description "Considering them to be well worth the steep cost, many Hai freighter pilots install reverse thrusters such as these to supplement the often poor steering on larger Hai vessels."
 
-outfit `RC-200 Reverse Thruster`
+outfit `RX-200 Reverse Thruster`
 	category "Engines"
 	"cost" 610000
 	thumbnail "outfit/medium atomic reverse empire"
