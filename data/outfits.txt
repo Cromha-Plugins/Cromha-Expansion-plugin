@@ -180,7 +180,7 @@ outfit "Multiphasic Cooler"
 	"mass" 20
 	"outfit space" -20
 	"cooling" 29
-	"energy consumption" 10
+	"cooling energy" 10
 	description "For ships with extreme cooling needs, the multiphasic cooler is the answer. One of these coolers will dissipate the heat produced by anything but the heaviest of armaments."
 
 # Scanning

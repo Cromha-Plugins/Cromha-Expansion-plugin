@@ -211,7 +211,9 @@ shipyard Cromha-basic-shipyard
 	"Manta"
 	"Lance"
 	"Gunboat (modified)"
+	"Empire Bulker"
 	"Fuel Pod"
+	"Cargo Transporter"
 shipyard Cromha-military-shipyard
 	"Combat Drone"
 	"Black Manta"
@@ -231,6 +233,8 @@ shipyard Cromha-military-shipyard
 	"Fuel Pod"
 	"Empire Destroyer yll'e"
 	"Empire Destroyer yll'a"
+	"Empire Bulker"
+	"Cargo Transporter"
 # Rebels
 outfitter Rebels-basic-outfitter
 	"Local Map"

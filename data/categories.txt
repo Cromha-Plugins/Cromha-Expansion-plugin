@@ -16,6 +16,8 @@ category "ship"
 	"Destroyer"
 	"Prototype"
 	"Fuel Pod"
+	"Bulker"
+	"Cargo Freighter"
 
 # Ships of these types can be carried by other ships.
 category "bay type"
@@ -23,6 +25,7 @@ category "bay type"
 	"Fighter"
 	"Empire Warship"
 	"Fuel Pod"
+	"Cargo Freighter"
 
 # Outfits of these types can be bought and sold via the outfitter.
 category "outfit"
