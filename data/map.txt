@@ -562,312 +562,312 @@ system "Ring Wartrue"
 		sprite star/g3
 		period 10
 	object "Empire Ring"
-		sprite planet/ringworld
+		sprite "planet/empire ringworld"
 			scale 0.5
 		distance 812
 		period 349.820
 	object
-		sprite planet/ringworld
+		sprite "planet/empire ringworld"
 			scale 0.5
 		distance 812
 		period 349.820
 		offset 20
 	object
-		sprite planet/ringworld
+		sprite "planet/empire ringworld broken left"
 			scale 0.5
 		distance 812
 		period 349.820
 		offset 40
 	object
-		sprite planet/ringworld
+		sprite "planet/empire ringworld broken right"
 			scale 0.5
 		distance 812
 		period 349.820
 		offset 60
 	object
-		sprite planet/ringworld
+		sprite "planet/empire ringworld"
 			scale 0.5
 		distance 812
 		period 349.820
 		offset 80
 	object "Empire Hai Ring"
-		sprite planet/ringworld
+		sprite "planet/empire ringworld"
 			scale 0.5
 		distance 812
 		period 349.820
 		offset 100
 	object
-		sprite planet/ringworld
+		sprite "planet/empire ringworld"
 			scale 0.5
 		distance 812
 		period 349.820
 		offset 120
 	object
-		sprite planet/ringworld
+		sprite "planet/empire ringworld"
 			scale 0.5
 		distance 812
 		period 349.820
 		offset 140
 	object
-		sprite planet/ringworld
+		sprite "planet/empire ringworld"
 			scale 0.5
 		distance 812
 		period 349.820
 		offset 160
 	object
-		sprite planet/ringworld
+		sprite "planet/empire ringworld"
 			scale 0.5
 		distance 812
 		period 349.820
 		offset 180
 	object "Empire Quarg Ring"
-		sprite planet/ringworld
+		sprite "planet/empire ringworld"
 			scale 0.5
 		distance 812
 		period 349.820
 		offset 200
 	object
-		sprite planet/ringworld
+		sprite "planet/empire ringworld"
 			scale 0.5
 		distance 812
 		period 349.820
 		offset 220
 	object
-		sprite planet/ringworld
+		sprite "planet/empire ringworld"
 			scale 0.5
 		distance 812
 		period 349.820
 		offset 240
 	object "Empire Wanderer Ring"
-		sprite planet/ringworld
+		sprite "planet/empire ringworld"
 			scale 0.5
 		distance 812
 		period 349.820
 		offset 260
 	object
-		sprite planet/ringworld
+		sprite "planet/empire ringworld"
 			scale 0.5
 		distance 812
 		period 349.820
 		offset 280
 	object
-		sprite planet/ringworld
+		sprite "planet/empire ringworld"
 			scale 0.5
 		distance 812
 		period 349.820
 		offset 300
 	object
-		sprite planet/ringworld
+		sprite "planet/empire ringworld"
 			scale 0.5
 		distance 812
 		period 349.820
 		offset 320
 	object
-		sprite planet/ringworld
+		sprite "planet/empire ringworld"
 			scale 0.5
 		distance 812
 		period 349.820
 		offset 340
 	object "Empire Remnant Ring"
-		sprite planet/panels1
+		sprite "planet/empire panels1"
 			scale 0.5
 		distance 800
 		period 349.820
 		offset 21
 	object
-		sprite planet/panels2
+		sprite "planet/empire panels2"
 			scale 0.5
 		distance 800
 		period 349.820
 		offset 32
 	object
-		sprite planet/panels1
+		sprite "planet/empire panels1"
 			scale 0.5
 		distance 800
 		period 349.820
 		offset 44
 	object
-		sprite planet/panels3
+		sprite "planet/empire panels3"
 			scale 0.5
 		distance 800
 		period 349.820
 		offset 53
 	object
-		sprite planet/panels2
+		sprite "planet/empire panels2"
 			scale 0.5
 		distance 800
 		period 349.820
 		offset 62
 	object
-		sprite planet/panels1
+		sprite "planet/empire panels1"
 			scale 0.5
 		distance 800
 		period 349.820
 		offset 66
 	object
-		sprite planet/panels4
+		sprite "planet/empire panels4"
 			scale 0.5
 		distance 800
 		period 349.820
 		offset 73
 	object
-		sprite planet/panels5
+		sprite "planet/empire panels5"
 			scale 0.5
 		distance 800
 		period 349.820
 		offset 87
 	object
-		sprite planet/panels3
+		sprite "planet/empire panels3"
 			scale 0.5
 		distance 800
 		period 349.820
 		offset 95
 	object
-		sprite planet/panels2
+		sprite "planet/emopire panels2"
 			scale 0.5
 		distance 800
 		period 349.820
 		offset 104
 	object
-		sprite planet/panels4
+		sprite "planet/empire panels4"
 			scale 0.5
 		distance 800
 		period 349.820
 		offset 116
 	object
-		sprite planet/panels1
+		sprite "planet/empire panels1"
 			scale 0.5
 		distance 800
 		period 349.820
 		offset 125
 	object
-		sprite planet/panels2
+		sprite "planet/empire panels2"
 			scale 0.5
 		distance 800
 		period 349.820
 		offset 134
 	object
-		sprite planet/panels2
+		sprite "planet/empire panels2"
 			scale 0.5
 		distance 800
 		period 349.820
 		offset 149
 	object
-		sprite planet/panels2
+		sprite "planet/empire panels2"
 			scale 0.5
 		distance 830
 		period 349.820
 		offset 29
 	object
-		sprite planet/panels1
+		sprite "planet/empire panels1"
 			scale 0.5
 		distance 830
 		period 349.820
 		offset 38
 	object
-		sprite planet/panels1
+		sprite "planet/empire panels1"
 			scale 0.5
 		distance 830
 		period 349.820
 		offset 42
 	object
-		sprite planet/panels3
+		sprite "planet/empire panels3"
 			scale 0.5
 		distance 830
 		period 349.820
 		offset 55
 	object
-		sprite planet/panels2
+		sprite "planet/empire panels2"
 			scale 0.5
 		distance 830
 		period 349.820
 		offset 64
 	object
-		sprite planet/panels5
+		sprite "planet/empire panels5"
 			scale 0.5
 		distance 830
 		period 349.820
 		offset 78
 	object
-		sprite planet/panels3
+		sprite "planet/empire panels3"
 			scale 0.5
 		distance 830
 		period 349.820
 		offset 92
 	object
-		sprite planet/panels5
+		sprite "planet/empire panels5"
 			scale 0.5
 		distance 830
 		period 349.820
 		offset 106
 	object
-		sprite planet/panels2
+		sprite "planet/empire panels2"
 			scale 0.5
 		distance 830
 		period 349.820
 		offset 120
 	object
-		sprite planet/panels1
+		sprite "planet/empire panels1"
 			scale 0.5
 		distance 830
 		period 349.820
 		offset 132
 	object
-		sprite planet/panels1
+		sprite "planet/empire panels1"
 			scale 0.5
 		distance 830
 		period 349.820
 		offset 145
 	object
-		sprite planet/panels1
+		sprite "planet/empire panels1"
 			scale 0.5
 		distance 800
 		period 349.820
 		offset 185
 	object
-		sprite planet/panels3
+		sprite "planet/empire panels3"
 			scale 0.5
 		distance 800
 		period 349.820
 		offset 197
 	object
-		sprite planet/panels2
+		sprite "planet/empire panels2"
 			scale 0.5
 		distance 800
 		period 349.820
 		offset 207
 	object
-		sprite planet/panels5
+		sprite "planet/empire panels5"
 			scale 0.5
 		distance 800
 		period 349.820
 		offset 218
 	object
-		sprite planet/panels2
+		sprite "planet/empire panels2"
 			scale 0.5
 		distance 800
 		period 349.820
 		offset 231
 	object
-		sprite planet/panels2
+		sprite "planet/empire panels2"
 			scale 0.5
 		distance 800
 		period 349.820
 		offset 244
 	object
-		sprite planet/panels2
+		sprite "planet/empire panels2"
 			scale 0.5
 		distance 830
 		period 349.820
 		offset 198
 	object
-		sprite planet/panels3
+		sprite "planet/empire panels3"
 			scale 0.5
 		distance 830
 		period 349.820
 		offset 212
 	object
-		sprite planet/panels4
+		sprite "planet/empire panels4"
 			scale 0.5
 		distance 830
 		period 349.820
