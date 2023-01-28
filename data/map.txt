@@ -13,7 +13,7 @@ system "Volcanois"
 	belt 1529
 	attributes urban tourism inhabited frontier north volcanic "near earth" hai "empire space"
 	government "Cromha Empire"
-	fleet cromha-fleet 750
+	fleet cromha-fleet 900
 	fleet cromha-transporters 700
 	fleet mineria-transports 700
 	fleet cromha-miners 600
@@ -116,7 +116,7 @@ system "Astroid"
 	pos 137 -570
 	attributes urban tourism inhabited mining factory farming "empire space"
 	government "Cromha Empire"
-	fleet cromha-fleet 550
+	fleet cromha-fleet 900
 	fleet cromha-transporters 500
 	fleet mineria-transports 500
 	link "Volcanois"
@@ -186,7 +186,7 @@ system "Calor stil"
 	pos 127 -500
 	attributes tourism inhabited rich paradise hai "empire space"
 	government "Cromha Empire"
-	fleet cromha-fleet 450
+	fleet cromha-fleet 900
 	fleet calor-stil-tourism 350
 	fleet calor-stil-tourism2 350
 	fleet small-pirates 1500
@@ -245,7 +245,7 @@ system "Lifdot"
 	pos 187 -470
 	attributes inhabited rich research military  "empire space"
 	government "Cromha Empire"
-	fleet cromha-fleet 500
+	fleet cromha-fleet 900
 	fleet cromha-transporters 550
 	fleet mineria-transports 500
 	link "Calor stil"
@@ -2070,7 +2070,7 @@ system "Markeb"
 system "Alpha Hydri"
 	attributes "core" syndicate
 	fleet "Small Syndicate" 1200
-	fleet cromha-fleet 550
+	fleet cromha-fleet 1200
 	fleet cromha-transporters 500
 	fleet mineria-transports 600
 	government "Cromha Empire"
@@ -2083,7 +2083,7 @@ system "Alpha Hydri"
 system "Polaris"
 	attributes syndicate
 	fleet "Small Syndicate" 1200
-	fleet cromha-fleet 550
+	fleet cromha-fleet 900
 	fleet cromha-transporters 500
 	fleet mineria-transports 600
 	government "Cromha Empire"
@@ -2092,7 +2092,7 @@ system "Polaris"
 system "Sheratan"
 	attributes "core" syndicate
 	fleet "Small Syndicate" 1200
-	fleet cromha-fleet 550
+	fleet cromha-fleet 900
 	fleet cromha-transporters 500
 	fleet mineria-transports 600
 	government "Cromha Empire"
@@ -2102,7 +2102,7 @@ system "Sheratan"
 system "Achernar"
 	attributes "core" syndicate
 	fleet "Small Syndicate" 1200
-	fleet cromha-fleet 550
+	fleet cromha-fleet 900
 	fleet cromha-transporters 500
 	fleet mineria-transports 600
 	government "Cromha Empire"
@@ -2114,7 +2114,7 @@ system "Achernar"
 system "Alpheratz"
 	attributes "core" syndicate
 	fleet "Small Syndicate" 1200
-	fleet cromha-fleet 550
+	fleet cromha-fleet 900
 	fleet cromha-transporters 500
 	fleet mineria-transports 600
 	government "Cromha Empire"
@@ -2126,7 +2126,7 @@ system "Ruchbah"
 	attributes "core" syndicate
 	fleet "Small Syndicate" 1200
 	government "Cromha Empire"
-	fleet cromha-fleet 550
+	fleet cromha-fleet 900
 	fleet cromha-transporters 500
 	fleet mineria-transports 600
 	link "Algol"
