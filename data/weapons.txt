@@ -149,7 +149,7 @@ outfit "Modified Plasma Repeater"
 	licenses
 		"Empire Contributor"
 	weapon
-		sprite "projectile/detainer"
+		sprite "projectile/rebel plasma"
 			"frame rate" 2.5
 		sound "detainer"
 		"hit effect" "rebel plasma impact" 3
@@ -175,7 +175,7 @@ outfit "Modified Plasma Repeater"
 	description `	Since this weapon has been developped by Empire Rebels, it is illigal in all Empire Spaces.`
 
 effect "rebel plasma sparks"
-	sprite "effect/detainer sparks"
+	sprite "effect/rebel plasma sparks"
 		"no repeat"
 		"frame rate" 10
 	"lifetime" 37
@@ -184,7 +184,7 @@ effect "rebel plasma sparks"
 	"velocity scale" .5
 
 effect "rebel plasma impact"
-	sprite "effect/detainer impact"
+	sprite "effect/rebel plasma impact"
 		"no repeat"
 		"frame rate" 40
 	"lifetime" 13
