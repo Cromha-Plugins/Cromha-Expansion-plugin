@@ -1,4 +1,125 @@
 # Heavy Warships
+ship "Emipre Wardragon"
+	sprite "ship/empire wardragon"
+	thumbnail "thumbnail/empire wardragon"
+	plural "Empire Wardragons"
+	noun "wardragon"
+	"uncapturable"
+	"never disabled"
+	"swizzle" 0
+	attributes
+		category "Empire Warship"
+		licenses
+			"Empire Navy"
+		"cost" 50000000
+		"shields" 230400
+		"hull" 30065
+		"required crew" 80
+		"bunks" 200
+		"mass" 680
+		"drag" 4.7
+		"heat dissipation" .13
+		"fuel capacity" 800
+		"cargo space" 280
+		"outfit space" 3100
+		"weapon capacity" 530
+		"engine capacity" 650
+		"inscrutable" 1
+		"ramscoop" 1.5
+		weapon
+			"blast radius" 100
+			"shield damage" 9500
+			"hull damage" 9500
+			"hit force" 300
+	outfits
+		"Empire Particle gun" 6
+		"Empire Torpedo Bank" 2
+		"Empire Torpedo Missile" 240
+		"Empire Torpedo Storage Rack" 20
+		"Antimatter Railgun" 2
+		"Railgun Slug" 560
+		"Railgun Slug Rack"
+		
+		"Multiphasic Anti-Missile" 2
+		"Multiphasic ammo" 1200
+		
+		"RC-X1 Multiphasic Reactor" 1
+		"RC-X2 Multiphasic Reactor" 4
+		"RC-X3 Multiphasic Reactor" 4
+		"RC-X4 Multiphasic Reactor" 4
+		"Supercapacitor" 5
+		"Fuel Pod" 5
+		"Self Destruct Module"
+		
+		"Empire Shielding Core" 4
+		"Empire Hai Valley Batteries" 12
+		"Catalytic Ramscoop"
+		"Plasma Drive"
+		"Multiphasic Scanner" 4
+		"Multiphasic Cooler" 12
+		"Mineria Key Stone"
+		"Brig" 4
+		
+		"RC-220 Atomic Thruster" 3
+		"RC-225 Atomic Steering" 3
+		`RX-200 Reverse Thruster` 4
+		"Phasic Rifle" 80
+		"Security Station" 12
+		"Fragmentation Grenades" 50
+		"Security Forcefield" 40
+		"Countermesure Module" 4
+		"Teleportation Dock" 2
+		"Cloaking Module"
+	engine -18.5 51
+		zoom 0.5
+	engine -25 51
+		zoom 0.5
+	engine 18.5 51
+		zoom 0.5
+	engine 25 51
+		zoom 0.5
+	"reverse engine" -42.5 -16
+		zoom 0.5
+	"reverse engine" -13.5 -33
+		zoom 0.5
+	"reverse engine" 42.5 -16
+		zoom 0.5
+	"reverse engine" 13.5 -33
+		zoom 0.5
+	# Weapons
+	turret 27.5 5.5 "Multiphasic Anti-Missile"
+	turret -27.5 5.5 "Multiphasic Anti-Missile"
+	gun -12.5 -33.5 "Empire Particle gun"
+	gun 12.5 -33.5 "Empire Particle gun"
+	gun -42 -15.5 "Empire Particle gun"
+	gun 42 -15.5 "Empire Particle gun"
+	gun -9 -51.5 "Empire Particle gun"
+	gun 9 -51.5 "Empire Particle gun"
+	gun 10 -1 "Empire Torpedo Bank"
+	gun -10 -1 "Empire Torpedo Bank"
+	gun 8 -13.5 "Antimatter Railgun"
+	gun -8 -13.5 "Antimatter Railgun"
+	leak "empire leak" 60 50
+	leak "empire flame" 40 80
+	leak "empire big leak" 30 30
+	leak "empire flame" 40 80
+	leak "empire leak" 60 50
+	leak "empire big leak" 60 30
+	leak "empire leak" 60 50
+	leak "empire flame" 40 80
+	leak "empire big leak" 30 30
+	leak "empire flame" 40 80
+	leak "empire leak" 60 50
+	leak "empire big leak" 60 30
+	leak "empire big leak" 50 30
+	leak "empire big leak" 50 30
+	explode "empire tiny explosion" 60
+	explode "empire medium explosion" 40
+	explode "empire medium explosion" 45
+	explode "empire huge explosion" 10
+	"final explode" "empire huge explosion"
+	description "The fastest and greatest Heavy Warship of all human space. After the great succes of Syndicate's ship 'Manta', to this menace, Cromha Empire decided to create the greatest human ship; a ship that will have human tech and Hai tech together, a big ship that can carry a lot of gun, a lot of cargo, but still enough fast to concurrence other ships. They decided to invade the Syndicated planet Nimbus, to stole the Manta ship plans. Cromha Empire military scientics take the Manta base and remixed it to enhance everything by adding Hai technologies and more outfit and cargo space but also the shields. But the most important thing is the Jump Drive, for yet an unknow technologie for humans. It even has two Ionic Afterburner integrated. Due to the big consummation of fuel of the Jump Drive technologie, this ship have 800Liters of fuel capacity, great for long trips with HyperDrive technologie. This ship can even carry 2 drones and 4 fighters in his bays. The Black Manta is still a prototype but is yet used by The Empire."
+
 ship "Black Manta"
 	sprite "ship/blackmanta"
 	thumbnail "thumbnail/blackmanta"

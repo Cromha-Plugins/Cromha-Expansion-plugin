@@ -234,6 +234,7 @@ shipyard Cromha-military-shipyard
 	"Empire Destroyer yll'e"
 	"Empire Destroyer yll'a"
 	"Empire Bulker"
+	"Emipre Wardragon"
 	"Cargo Transporter"
 # Rebels
 outfitter Rebels-basic-outfitter

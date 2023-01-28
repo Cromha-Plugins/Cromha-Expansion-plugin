@@ -35,12 +35,14 @@ fleet cromha-fleet
 		"Empire Quicksilver" 6
 		"Empire Drone" 4
 		"Empire Destroyer yll'e"
+		"Emipre Wardragon"
 	variant 1
 		"Light Empire Destroyer" 2
 		"Empire Quicksilver" 6
 		"Empire Drone" 4
 		"Empire Destroyer yll'a"
 		"Empire Destroyer yll'e"
+		"Emipre Wardragon" 2
 	variant 1
 		"Light Empire Destroyer" 2
 		"Empire Quicksilver" 6
@@ -53,6 +55,7 @@ fleet cromha-fleet
 		"Empire Drone" 4
 		"Empire Destroyer yll'e"
 		"Heavy Empire Destroyer"
+		"Emipre Wardragon" 3
 	variant 1
 		"Light Empire Destroyer" 2
 		"Empire Quicksilver" 6
