@@ -39,15 +39,18 @@ government "Empire Rebels"
 	"atitude toward"
 		Pirate 1
 		Syndicate -1
-		"Mineria colonnies" -1
-		"Cromha Empire" -10
+		"Mineria colonnies" -5
+		"Cromha Empire" -5
 		Republic -1
 		"Deep Security" -1
-		Hai -1
-		"Hai Merchant" -1
-		"Hai Merchant (Sympathizers)" -1
-		"Hai Merchant (Human)" 1
-		"Hai (Unfettered)" -1
+		Hai -5
+		"Hai Merchant" -5
+		"Hai Merchant (Sympathizers)" -5
+		"Hai Merchant (Human)" 5
+		"Hai (Unfettered)" -5
+		"Quarg" -1
+		"Wanderer" -3
+		"Remnant" -3
 	raid cromha-fleet
 	swizzle 3
 	color 0 255 0 1
