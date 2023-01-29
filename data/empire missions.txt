@@ -744,7 +744,40 @@ mission "Empire: Assist Ring2"
 mission "Empire: Repair Empire Ringworld"
 	landing
 	name "Empire: Repair Empire Ringworld"
-	description "The Empire Ringworld got heavly endomaged since the attack of the rebels."
+	description "The Empire Ringworld got heavly endomaged since the attack of the rebels. Help to repair the Empire Ringworld by collecting these following materials: 10 tons of Aluminum, 15 tons of Iron and 15 Phasic Rifles. Then land on <destination>."
+	source
+		government "Cromha Empire"
+		not attributes uninhabited
+	destination "Empire Ring"
+	to offer
+		has "Empire: Assist Ring2: done"
+	on offer
+		event "Empire Ringworld broken"
+		conversation
+			`You land on <planet> and get your payment of 500000 credits for defending the Empire Ringworld.`
+			`	But as you exiting of your ship you see lots of mans and aliens trying to repair to station. You understand that the station got heavly endommaged becase of the combat between Rebels and the Empire Ringworld defenses fleets.`
+			`	You try to approach some guy to ask about what appened:`
+			`	"Hi Sir. Could you tell me about what appened?" You say.`
+			`	"Hi, Captain <last>. Since the last combat with the Empire Rebels, the Empire Ringworld got heavly endommaged as you see. the B, C and E ring has break points. Some circuits are endommaged too but that's not a big deal."`
+			`	"How can i help you in ny way?"`
+			`	"To Repair the B ring we need some materials and stuff. If you could get 10 tons of Aluminum, 15 tons of Iron and 15 Phasic Rifles it'll be great. Bring them back to me in the Empire Ring Station."`
+			`	"Sure, it'll be right back"`
+			``
+			`You greets the man and leaves him.`
+				accept
+	on visit
+		dialog `You land on <planet> but you see that your forget some materials. "Shoot" You say`
+	on complete
+		outfit "Aluminum" -10
+		outfit Iron -15
+		require "Phasic Rifle" 15
+		outfit "Phasic Rifle" -15
+		conversation
+			`You land on <planet> with all the materials. It's time to depose the materials to the man of the last time. You search him in the whole spaceport but don't find him. You decide so to depose it to one of the Empire Authorities guy. He pays you <payment>.`
+		payment
+		payment 30000
+		"reputation: Cromha Empire" += 10
+		"empire jobs" += 1
 
 # Misc
 mission "Award 3"
@@ -764,6 +797,638 @@ mission "Award 3"
 		outfit "Empire Quantum Medal"
 
 # Events
+event "Empire Ringworld broken"
+	system "Ring Wartrue"
+		object
+			sprite star/f3
+			period 10
+		object "Empire Ring"
+			sprite "planet/empire ringworld"
+				scale 0.5
+			distance 812
+			period 349.820
+		object
+			sprite "planet/empire ringworld"
+				scale 0.5
+			distance 812
+			period 349.820
+			offset 20
+		object
+			sprite "planet/empire ringworld broken left"
+				scale 0.5
+			distance 812
+			period 349.820
+			offset 40
+		object
+			sprite "planet/empire ringworld broken right"
+				scale 0.5
+			distance 812
+			period 349.820
+			offset 60
+		object
+			sprite "planet/empire ringworld"
+				scale 0.5
+			distance 812
+			period 349.820
+			offset 80
+		object "Empire Hai Ring"
+			sprite "planet/empire ringworld"
+				scale 0.5
+			distance 812
+			period 349.820
+			offset 100
+		object
+			sprite "planet/empire ringworld left"
+				scale 0.5
+			distance 812
+			period 349.820
+			offset 120
+		object
+			sprite "planet/empire ringworld broken debris"
+				scale 0.5
+			distance 812
+			period 349.820
+			offset 140
+		object
+			sprite "planet/empire ringworld right"
+				scale 0.5
+			distance 812
+			period 349.820
+			offset 160
+		object
+			sprite "planet/empire ringworld"
+				scale 0.5
+			distance 812
+			period 349.820
+			offset 180
+		object "Empire Quarg Ring"
+			sprite "planet/empire ringworld"
+				scale 0.5
+			distance 812
+			period 349.820
+			offset 200
+		object
+			sprite "planet/empire ringworld"
+				scale 0.5
+			distance 812
+			period 349.820
+			offset 220
+		object
+			sprite "planet/empire ringworld"
+				scale 0.5
+			distance 812
+			period 349.820
+			offset 240
+		object "Empire Wanderer Ring"
+			sprite "planet/empire ringworld"
+				scale 0.5
+			distance 812
+			period 349.820
+			offset 260
+		object
+			sprite "planet/empire ringworld"
+				scale 0.5
+			distance 812
+			period 349.820
+			offset 280
+		object
+			sprite "planet/empire ringworld"
+				scale 0.5
+			distance 812
+			period 349.820
+			offset 300
+		object
+			sprite "planet/empire ringworld"
+				scale 0.5
+			distance 812
+			period 349.820
+			offset 320
+		object
+			sprite "planet/empire ringworld"
+				scale 0.5
+			distance 812
+			period 349.820
+			offset 340
+		object "Empire Remnant Ring"
+			sprite "planet/empire panels1"
+				scale 0.5
+			distance 800
+			period 349.820
+			offset 21
+		object
+			sprite "planet/empire panels2"
+				scale 0.5
+			distance 800
+			period 349.820
+			offset 32
+		object
+			sprite "planet/empire panels1"
+				scale 0.5
+			distance 800
+			period 349.820
+			offset 44
+		object
+			sprite "planet/empire panels3"
+				scale 0.5
+			distance 800
+			period 349.820
+			offset 53
+		object
+			sprite "planet/empire panels2"
+				scale 0.5
+			distance 800
+			period 349.820
+			offset 62
+		object
+			sprite "planet/empire ringworld broken debris"
+				scale 0.5
+			distance 800
+			period 349.820
+			offset 66
+		object
+			sprite "planet/empire panels4"
+				scale 0.5
+			distance 800
+			period 349.820
+			offset 73
+		object
+			sprite "planet/empire panels5"
+				scale 0.5
+			distance 800
+			period 349.820
+			offset 87
+		object
+			sprite "planet/empire panels3"
+				scale 0.5
+			distance 800
+			period 349.820
+			offset 95
+		object
+			sprite "planet/emopire panels2"
+				scale 0.5
+			distance 800
+			period 349.820
+			offset 104
+		object
+			sprite "planet/empire panels4"
+				scale 0.5
+			distance 800
+			period 349.820
+			offset 116
+		object
+			sprite "planet/empire panels1"
+				scale 0.5
+			distance 800
+			period 349.820
+			offset 125
+		object
+			sprite "planet/empire panels2"
+				scale 0.5
+			distance 800
+			period 349.820
+			offset 134
+		object
+			sprite "planet/empire panels2"
+				scale 0.5
+			distance 800
+			period 349.820
+			offset 149
+		object
+			sprite "planet/empire panels2"
+				scale 0.5
+			distance 830
+			period 349.820
+			offset 29
+		object
+			sprite "planet/empire ringworld broken debris"
+				scale 0.5
+			distance 830
+			period 349.820
+			offset 38
+		object
+			sprite "planet/empire panels1"
+				scale 0.5
+			distance 830
+			period 349.820
+			offset 42
+		object
+			sprite "planet/empire ringworld broken debris"
+				scale 0.5
+			distance 830
+			period 349.820
+			offset 55
+		object
+			sprite "planet/empire panels2"
+				scale 0.5
+			distance 830
+			period 349.820
+			offset 64
+		object
+			sprite "planet/empire ringworld broken debris"
+				scale 0.5
+			distance 830
+			period 349.820
+			offset 78
+		object
+			sprite "planet/empire panels3"
+				scale 0.5
+			distance 830
+			period 349.820
+			offset 92
+		object
+			sprite "planet/empire panels5"
+				scale 0.5
+			distance 830
+			period 349.820
+			offset 106
+		object
+			sprite "planet/empire panels2"
+				scale 0.5
+			distance 830
+			period 349.820
+			offset 120
+		object
+			sprite "planet/empire panels1"
+				scale 0.5
+			distance 830
+			period 349.820
+			offset 132
+		object
+			sprite "planet/empire panels1"
+				scale 0.5
+			distance 830
+			period 349.820
+			offset 145
+		object
+			sprite "planet/empire ringworld broken debris small"
+				scale 0.5
+			distance 800
+			period 349.820
+			offset 185
+		object
+			sprite "planet/empire panels3"
+				scale 0.5
+			distance 800
+			period 349.820
+			offset 197
+		object
+			sprite "planet/empire panels2"
+				scale 0.5
+			distance 800
+			period 349.820
+			offset 207
+		object
+			sprite "planet/empire ringworld broken debris small"
+				scale 0.5
+			distance 800
+			period 349.820
+			offset 218
+		object
+			sprite "planet/empire panels2"
+				scale 0.5
+			distance 800
+			period 349.820
+			offset 231
+		object
+			sprite "planet/empire ringworld broken debris small"
+				scale 0.5
+			distance 800
+			period 349.820
+			offset 244
+		object
+			sprite "planet/empire panels2"
+				scale 0.5
+			distance 830
+			period 349.820
+			offset 198
+		object
+			sprite "planet/empire panels3"
+				scale 0.5
+			distance 830
+			period 349.820
+			offset 212
+		object
+			sprite "planet/empire panels4"
+				scale 0.5
+			distance 830
+			period 349.820
+			offset 237
+event "Empire Ringworld back to normal"
+	system "Ring Wartrue"
+		object
+			sprite star/f3
+			period 10
+		object "Empire Ring"
+			sprite "planet/empire ringworld"
+				scale 0.5
+			distance 812
+			period 349.820
+		object
+			sprite "planet/empire ringworld"
+				scale 0.5
+			distance 812
+			period 349.820
+			offset 20
+		object
+			sprite "planet/empire ringworld broken left"
+				scale 0.5
+			distance 812
+			period 349.820
+			offset 40
+		object
+			sprite "planet/empire ringworld broken right"
+				scale 0.5
+			distance 812
+			period 349.820
+			offset 60
+		object
+			sprite "planet/empire ringworld"
+				scale 0.5
+			distance 812
+			period 349.820
+			offset 80
+		object "Empire Hai Ring"
+			sprite "planet/empire ringworld"
+				scale 0.5
+			distance 812
+			period 349.820
+			offset 100
+		object
+			sprite "planet/empire ringworld"
+				scale 0.5
+			distance 812
+			period 349.820
+			offset 120
+		object
+			sprite "planet/empire ringworld"
+				scale 0.5
+			distance 812
+			period 349.820
+			offset 140
+		object
+			sprite "planet/empire ringworld"
+				scale 0.5
+			distance 812
+			period 349.820
+			offset 160
+		object
+			sprite "planet/empire ringworld"
+				scale 0.5
+			distance 812
+			period 349.820
+			offset 180
+		object "Empire Quarg Ring"
+			sprite "planet/empire ringworld"
+				scale 0.5
+			distance 812
+			period 349.820
+			offset 200
+		object
+			sprite "planet/empire ringworld"
+				scale 0.5
+			distance 812
+			period 349.820
+			offset 220
+		object
+			sprite "planet/empire ringworld"
+				scale 0.5
+			distance 812
+			period 349.820
+			offset 240
+		object "Empire Wanderer Ring"
+			sprite "planet/empire ringworld"
+				scale 0.5
+			distance 812
+			period 349.820
+			offset 260
+		object
+			sprite "planet/empire ringworld"
+				scale 0.5
+			distance 812
+			period 349.820
+			offset 280
+		object
+			sprite "planet/empire ringworld"
+				scale 0.5
+			distance 812
+			period 349.820
+			offset 300
+		object
+			sprite "planet/empire ringworld"
+				scale 0.5
+			distance 812
+			period 349.820
+			offset 320
+		object
+			sprite "planet/empire ringworld"
+				scale 0.5
+			distance 812
+			period 349.820
+			offset 340
+		object "Empire Remnant Ring"
+			sprite "planet/empire panels1"
+				scale 0.5
+			distance 800
+			period 349.820
+			offset 21
+		object
+			sprite "planet/empire panels2"
+				scale 0.5
+			distance 800
+			period 349.820
+			offset 32
+		object
+			sprite "planet/empire panels1"
+				scale 0.5
+			distance 800
+			period 349.820
+			offset 44
+		object
+			sprite "planet/empire panels3"
+				scale 0.5
+			distance 800
+			period 349.820
+			offset 53
+		object
+			sprite "planet/empire panels2"
+				scale 0.5
+			distance 800
+			period 349.820
+			offset 62
+		object
+			sprite "planet/empire panels1"
+				scale 0.5
+			distance 800
+			period 349.820
+			offset 66
+		object
+			sprite "planet/empire panels4"
+				scale 0.5
+			distance 800
+			period 349.820
+			offset 73
+		object
+			sprite "planet/empire panels5"
+				scale 0.5
+			distance 800
+			period 349.820
+			offset 87
+		object
+			sprite "planet/empire panels3"
+				scale 0.5
+			distance 800
+			period 349.820
+			offset 95
+		object
+			sprite "planet/emopire panels2"
+				scale 0.5
+			distance 800
+			period 349.820
+			offset 104
+		object
+			sprite "planet/empire panels4"
+				scale 0.5
+			distance 800
+			period 349.820
+			offset 116
+		object
+			sprite "planet/empire panels1"
+				scale 0.5
+			distance 800
+			period 349.820
+			offset 125
+		object
+			sprite "planet/empire panels2"
+				scale 0.5
+			distance 800
+			period 349.820
+			offset 134
+		object
+			sprite "planet/empire panels2"
+				scale 0.5
+			distance 800
+			period 349.820
+			offset 149
+		object
+			sprite "planet/empire panels2"
+				scale 0.5
+			distance 830
+			period 349.820
+			offset 29
+		object
+			sprite "planet/empire panels1"
+				scale 0.5
+			distance 830
+			period 349.820
+			offset 38
+		object
+			sprite "planet/empire panels1"
+				scale 0.5
+			distance 830
+			period 349.820
+			offset 42
+		object
+			sprite "planet/empire panels3"
+				scale 0.5
+			distance 830
+			period 349.820
+			offset 55
+		object
+			sprite "planet/empire panels2"
+				scale 0.5
+			distance 830
+			period 349.820
+			offset 64
+		object
+			sprite "planet/empire panels5"
+				scale 0.5
+			distance 830
+			period 349.820
+			offset 78
+		object
+			sprite "planet/empire panels3"
+				scale 0.5
+			distance 830
+			period 349.820
+			offset 92
+		object
+			sprite "planet/empire panels5"
+				scale 0.5
+			distance 830
+			period 349.820
+			offset 106
+		object
+			sprite "planet/empire panels2"
+				scale 0.5
+			distance 830
+			period 349.820
+			offset 120
+		object
+			sprite "planet/empire panels1"
+				scale 0.5
+			distance 830
+			period 349.820
+			offset 132
+		object
+			sprite "planet/empire panels1"
+				scale 0.5
+			distance 830
+			period 349.820
+			offset 145
+		object
+			sprite "planet/empire panels1"
+				scale 0.5
+			distance 800
+			period 349.820
+			offset 185
+		object
+			sprite "planet/empire panels3"
+				scale 0.5
+			distance 800
+			period 349.820
+			offset 197
+		object
+			sprite "planet/empire panels2"
+				scale 0.5
+			distance 800
+			period 349.820
+			offset 207
+		object
+			sprite "planet/empire panels5"
+				scale 0.5
+			distance 800
+			period 349.820
+			offset 218
+		object
+			sprite "planet/empire panels2"
+				scale 0.5
+			distance 800
+			period 349.820
+			offset 231
+		object
+			sprite "planet/empire panels2"
+				scale 0.5
+			distance 800
+			period 349.820
+			offset 244
+		object
+			sprite "planet/empire panels2"
+				scale 0.5
+			distance 830
+			period 349.820
+			offset 198
+		object
+			sprite "planet/empire panels3"
+				scale 0.5
+			distance 830
+			period 349.820
+			offset 212
+		object
+			sprite "planet/empire panels4"
+				scale 0.5
+			distance 830
+			period 349.820
+			offset 237
 mission "Discovered Empire Space"
 	landing
 	invisible
