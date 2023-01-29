@@ -14,18 +14,17 @@ ship "Emipre Wardragon"
 		"cost" 50000000
 		"shields" 230400
 		"hull" 30065
-		"required crew" 80
-		"bunks" 200
-		"mass" 680
+		"required crew" 55
+		"bunks" 85
+		"mass" 450
 		"drag" 4.7
-		"heat dissipation" .13
-		"fuel capacity" 800
-		"cargo space" 280
+		"heat dissipation" .12
+		"fuel capacity" 650
+		"cargo space" 85
 		"outfit space" 3100
 		"weapon capacity" 530
 		"engine capacity" 650
-		"inscrutable" 1
-		"ramscoop" 1.5
+		"ramscoop" 0.7
 		weapon
 			"blast radius" 100
 			"shield damage" 9500
@@ -43,32 +42,27 @@ ship "Emipre Wardragon"
 		"Multiphasic Anti-Missile" 2
 		"Multiphasic ammo" 1200
 		
-		"RC-X1 Multiphasic Reactor" 1
-		"RC-X2 Multiphasic Reactor" 4
-		"RC-X3 Multiphasic Reactor" 4
-		"RC-X4 Multiphasic Reactor" 4
+		"RC-X4 Multiphasic Reactor" 3
 		"Supercapacitor" 5
-		"Fuel Pod" 5
 		"Self Destruct Module"
 		
-		"Empire Shielding Core" 4
-		"Empire Hai Valley Batteries" 12
-		"Catalytic Ramscoop"
+		"Empire Shielding Core" 2
+		"Empire Hai Ravine Batteries" 6
 		"Plasma Drive"
-		"Multiphasic Scanner" 4
-		"Multiphasic Cooler" 12
+		"Multiphasic Scanner"
+		"Multiphasic Cooler" 4
 		"Mineria Key Stone"
-		"Brig" 4
+		"Brig" 2
 		
-		"RC-220 Atomic Thruster" 3
-		"RC-225 Atomic Steering" 3
-		`RX-200 Reverse Thruster` 4
-		"Phasic Rifle" 80
-		"Security Station" 12
-		"Fragmentation Grenades" 50
-		"Security Forcefield" 40
-		"Countermesure Module" 4
-		"Teleportation Dock" 2
+		"RC-220 Atomic Thruster" 1
+		"RC-225 Atomic Steering" 1
+		`RX-200 Reverse Thruster` 2
+		"Phasic Rifle" 55
+		"Security Station" 5
+		"Fragmentation Grenades" 25
+		"Security Forcefield" 5
+		"Countermesure Module" 1
+		"Teleportation Dock" 1
 		"Cloaking Module"
 	engine -18.5 51
 		zoom 0.5
@@ -104,19 +98,8 @@ ship "Emipre Wardragon"
 	leak "empire big leak" 30 30
 	leak "empire flame" 40 80
 	leak "empire leak" 60 50
-	leak "empire big leak" 60 30
-	leak "empire leak" 60 50
-	leak "empire flame" 40 80
-	leak "empire big leak" 30 30
-	leak "empire flame" 40 80
-	leak "empire leak" 60 50
-	leak "empire big leak" 60 30
-	leak "empire big leak" 50 30
-	leak "empire big leak" 50 30
 	explode "empire tiny explosion" 60
 	explode "empire medium explosion" 40
-	explode "empire medium explosion" 45
-	explode "empire huge explosion" 10
 	"final explode" "empire huge explosion"
 	description "The fastest and greatest Heavy Warship of all human space. After the great succes of Syndicate's ship 'Manta', to this menace, Cromha Empire decided to create the greatest human ship; a ship that will have human tech and Hai tech together, a big ship that can carry a lot of gun, a lot of cargo, but still enough fast to concurrence other ships. They decided to invade the Syndicated planet Nimbus, to stole the Manta ship plans. Cromha Empire military scientics take the Manta base and remixed it to enhance everything by adding Hai technologies and more outfit and cargo space but also the shields. But the most important thing is the Jump Drive, for yet an unknow technologie for humans. It even has two Ionic Afterburner integrated. Due to the big consummation of fuel of the Jump Drive technologie, this ship have 800Liters of fuel capacity, great for long trips with HyperDrive technologie. This ship can even carry 2 drones and 4 fighters in his bays. The Black Manta is still a prototype but is yet used by The Empire."
 
