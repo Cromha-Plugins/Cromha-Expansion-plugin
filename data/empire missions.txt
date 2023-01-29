@@ -712,7 +712,39 @@ mission "Empire: Bring Resources 2"
 		"empire jobs" += 1
 		conversation
 			`You enter the station spaceport and see the same guy that the other time. He greets you and says:`
-			`	"Thanks for you help, here is <payment>. I'm sure we will finish the prototype soon. We will call you in a month approximativly to test the Black Manta."``
+			`	"Thanks for you help, here is <payment>. I'm sure we will finish the prototype soon. We will call you in a month approximativly to test the Black Manta. You should go back to the Empire Ringworld, they get attacked by Empire Rebels recently, i think they'll be glad to have your help."`
+
+mission "Empire: Assist Ring2"
+	landing
+	name "Empire: Assist Ring"
+	description "An Empire Rebels fleet stationned in the Lim Ort system are coming to the Ring Wartrue system to attack the Empire Ringworld. Stay in the Ring Wartrue system until the rebels fleet come then engage combat. After destroying the fleet, land on <planet> to get your payment of <payment>."
+	source
+		government "Cromha Empire"
+		not attributes uninhabited
+	destination "Empire Ring"
+	to offer
+		has "Empire: Bring Resources 2: done"
+	on offer
+		conversation
+			`You enter the planet spaceport when you recieve a message from the Black Manta scentists: they whant you to collect minerals again.`
+			`	"A Rebels fleet stationned in the Lim Ort system are coming to the Ring Wartrue system to attack the Empire Ringworld. Stay in the Ring Wartrue system until the rebels fleet come and,engage combat. After destroying the fleet, land on <planet> to get your payment of <payment>."`
+				accept
+	on complete
+		payment
+		payment 500000
+		"reputation: Cromha Empire" += 10
+		"empire jobs" += 1
+	npc kill
+		government "Empire Rebels"
+		fleet empire-rebels-raiders-fleet
+		fleet empire-rebels-raiders-fleet
+		personality target coward disables plunders
+		system "Lim Ort"
+
+mission "Empire: Repair Empire Ringworld"
+	landing
+	name "Empire: Repair Empire Ringworld"
+	description "The Empire Ringworld got heavly endomaged since the attack of the rebels."
 
 # Misc
 mission "Award 3"
@@ -725,7 +757,7 @@ mission "Award 3"
 	on offer
 		conversation
 			`As you land, you hear a little 'bip' sound coming from to small monitor in front of you. You click on the pop-up and its open the Cromha Empire missions app. You can read a new message:`
-			`	"Dear Captain <last>, I heard about you this last months, about what you did for The Empire. You know that we award all our good citizens, but you deserve something better. For your bravour you won an Empire medal. With this medal you will be able to enter in any Empire planets even if it is top secrets ones. With this medal you will also recieve 25,000 credits per day. Just be sure you don't lose it. Signed, Cromha Lord-sta"`
+			`	"Dear Captain <last>, I heard about you this last months, about what you did for The Empire. You know that we award all our good citizens, but you deserve something better. For your bravour you won an Empire medal. With this medal you will be able to enter in any Empire planets even if it is top secrets ones. With this medal you will also recieve 15,000 credits per day. Just be sure you don't lose it. Signed, Cromha Lord-sta"`
 			`	Cromha Lord-sta himself, the Emperor send you a letter! You can't even think about it that your teleportation dock turns on and you can see the medal teleporting. You'll know how to make good use of it.`
 				decline
 	on decline
