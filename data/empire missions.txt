@@ -685,7 +685,7 @@ mission "Empire: Study Black Hole"
 mission "Empire: Bring Resources 2"
 	landing
 	name "Empire: Bring Resources"
-	description "Bring the following resources to <destination> for the Black Manta:  10 tons of Titanium, 18 tons of Gold, 35 tons of Neodyium, 2 tons of Uranium, 1 Teleportation Dock and 1 Mineria Key Stone. Payment is <payment>."
+	description "Bring the following resources to <destination> for the Black Manta:  10 tons of Crystal, 18 tons of Gold, 35 tons of Neodyium, 2 tons of Uranium, 1 Teleportation Dock and 1 Mineria Key Stone. Payment is <payment>."
 	source
 		government "Cromha Empire"
 		not attributes uninhabited
@@ -698,7 +698,7 @@ mission "Empire: Bring Resources 2"
 			`	"10 tons of Titanium, 18 tons of Gold, 35 tons of Neodyium, 2 tons of Uranium, 1 Teleportation Dock and 1 Mineria Key Stone."`
 				accept
 	on complete
-		outfit "Titanium" -10
+		outfit "Crystal" -10
 		outfit "Gold" -18
 		outfit "Uranium" -2
 		outfit "Neodymium" -2
@@ -744,7 +744,7 @@ mission "Empire: Assist Ring2"
 mission "Empire: Repair Empire Ringworld"
 	landing
 	name "Empire: Repair Empire Ringworld"
-	description "The Empire Ringworld got heavly endomaged since the attack of the rebels. Help to repair the Empire Ringworld by collecting these following materials: 10 tons of Aluminum, 15 tons of Iron and 15 Phasic Rifles. Then land on <destination>."
+	description "The Empire Ringworld got heavly endomaged since the attack of the rebels. Help to repair the Empire Ringworld by collecting these following materials: 10 tons of Crystal, 15 tons of Iron and 15 Phasic Rifles. Then land on <destination>."
 	source
 		government "Cromha Empire"
 		not attributes uninhabited
@@ -760,7 +760,7 @@ mission "Empire: Repair Empire Ringworld"
 			`	"Hi Sir. Could you tell me about what appened?" You say.`
 			`	"Hi, Captain <last>. Since the last combat with the Empire Rebels, the Empire Ringworld got heavly endommaged as you see. the B, C and E ring has break points. Some circuits are endommaged too but that's not a big deal."`
 			`	"How can i help you in ny way?"`
-			`	"To Repair the B ring we need some materials and stuff. If you could get 10 tons of Aluminum, 15 tons of Iron and 15 Phasic Rifles it'll be great. Bring them back to me in the Empire Ring Station."`
+			`	"To Repair the B ring we need some materials and stuff. If you could get 10 tons of Crystal, 15 tons of Iron and 15 Phasic Rifles it'll be great. Bring them back to me in the Empire Ring Station."`
 			`	"Sure, it'll be right back"`
 			``
 			`You greets the man and leaves him.`
@@ -768,7 +768,7 @@ mission "Empire: Repair Empire Ringworld"
 	on visit
 		dialog `You land on <planet> but you see that your forget some materials. "Shoot" You say`
 	on complete
-		outfit "Aluminum" -10
+		outfit "Crystal" -10
 		outfit Iron -15
 		require "Phasic Rifle" 15
 		outfit "Phasic Rifle" -15
