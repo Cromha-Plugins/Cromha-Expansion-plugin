@@ -60,8 +60,7 @@ fleet mineria-transports
 	government "Mineria colonnies"
 	names "empire fleet names"
 	personality timid
-	outfitters Cromha-basic-outfitter
-	cargo 8
+	cargo 6
 	# big convoits
 	variant 1
 		"Empire Bulker"
