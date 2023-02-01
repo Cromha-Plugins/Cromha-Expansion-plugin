@@ -549,6 +549,7 @@ system "Ring Wartrue"
 	link "All'Estros"
 	link "Irn'o"
 	link "Wel'y"
+	link "Phil'Ira"
 	trade Clothing 215
 	trade Electronics 816
 	trade Equipment 487
@@ -1201,6 +1202,69 @@ planet "Phil'Sta"
 	description "Phil'Sta is an inhabited planet with lot of canyons and other huge paysage. Rebels use this as an advaced post in case The Empire is going to far in the Far Empire Space so they can get them to go away. This planet is advanced in power and engines."
 	spaceport "The spaceport is on the verge of a large rocky cliff.It is in the walls of the big cliff where dock are diged inside for the vessels."
 	spaceport "Denumbers people seem to barter here, like all the planets governned by Empire Rebels."
+
+system "Phil'Ira"
+	hazard "Far Empire Space Hazard" 9000
+	pos 540 -545
+	attributes inhabited rich research military "far empire space"
+	government "Cromha Empire"
+	haze _menu/haze-cyan
+	fleet cromha-fleet 1600
+	fleet mineria-transports 1700
+	fleet Ayym 2000
+	link "Ring Wartrue"
+	trade Clothing 215
+	trade Electronics 816
+	trade Equipment 487
+	trade Food 265
+	trade "Heavy Metals" 1102
+	trade Industrial 711
+	trade "Luxury Goods" 1014
+	trade Medical 797
+	trade Metal 479
+	trade Plastic 364
+	minables crystal 13 5.45
+
+system "Phil'Rima"
+	hazard "Far Empire Space Hazard" 9000
+	pos 520 -565
+	attributes inhabited rich research military "far empire space"
+	government "Cromha Empire"
+	haze _menu/haze-cyan
+	fleet cromha-fleet 2600
+	fleet mineria-transports 3700
+	fleet Ayym 1400
+	link "Phil'Ira"
+	trade Clothing 215
+	trade Electronics 816
+	trade Equipment 487
+	trade Food 265
+	trade "Heavy Metals" 1102
+	trade Industrial 711
+	trade "Luxury Goods" 1014
+	trade Medical 797
+	trade Metal 479
+	trade Plastic 364
+	minables crystal 8 5.45
+	object
+		sprite "star/o-supergiant"
+			scale 1.3
+		period 1
+		object
+			sprite "star/o-giant"
+			period 110
+			distance 300
+			object
+				sprite "star/o0"
+				distance 400
+				period 70
+			object
+				sprite "star/0-5"
+				distance 250
+				period 30
+
+
+
 
 # Korath
 system "Sepriaptu"
