@@ -1,5 +1,5 @@
 conversation "caught red-handed"
-	"Before you can leave your ship, the Cromha Empire authorities show up and begin scanning it. They say, "Captain <last>, we detect highly illegal material on your ship.You are sentenced to lifetime imprisonment on a penal colony." Your days of traveling the stars have come to an end."
+	"Before you can leave your ship, the Cromha Empire authorities show up and begin scanning it. They say, 'Captain <last>, we detect highly illegal material on your ship.You are sentenced to lifetime imprisonment on a penal colony.' Your days of traveling the stars have come to an end."
 
 government "Cromha Empire"
 	"display name" "Cromha Empire"
