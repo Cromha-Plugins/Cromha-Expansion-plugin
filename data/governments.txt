@@ -5,13 +5,13 @@ government "Cromha Empire"
 	"display name" "Cromha Empire"
 	"player reputation" 1
 	"attitude toward"
-		"Empire Rebels" -5
+		"Empire Rebels" -3
 		Merchant 1
 		Militia 0.1
 		Pirate -1
-		Syndicate -5
+		Syndicate -3
 		Neutral 0.1
-		Republic -2
+		Republic 0.1
 		Hai 1
 		"Mineria colonnies" 5
 		"Hai Merchant" 1
