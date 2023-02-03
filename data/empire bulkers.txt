@@ -86,9 +86,7 @@ ship "Empire Bulker"
 	explode "empire tiny explosion" 10
 	explode "empire tiny explosion" 30
 	explode "empire medium explosion" 15
-	"final explode" "empire huge explosion"
-    description "This is a non-licensied model of the original Gunboat."
-	description "The Navy Gunboat is designed for engaging targets at short range, and also serves as the Navy's mobile sensor platform, scanning ships for illegal equipment or cargo."
+	description "The Empire Bulker is an great freighter to transport heavy metals or cargo. It is an very smart freighter ship: it has not much cargo space itself that make it faster to defend from pirates but it carries Empire Cargo Transporters. It is probally the most ingenious Freighters in the whole galaxy."
 
 ship "Cargo Transporter"
 	sprite "ship/cargo transporter"
@@ -122,7 +120,7 @@ ship "Cargo Transporter"
 	"final explode" "empire medium explosion"
 	engine -13.5 22
 	engine 13.5 22
-	description "This is a mobile fuel pod. It is useful to carry fuel, drop it when you need fuel then leave it if you need speed."
+	description "This is a 'mobile cargo'. It is useful to carry cargo, drop it when you need to be faster if you are attacked. The Empire use them with the Empire Bulker to export all their products."
 
 ship "Fuel Pod"
 	noun "fuel pod"
