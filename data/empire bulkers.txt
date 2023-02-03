@@ -4,6 +4,8 @@ ship "Empire Bulker"
 	"swizzle" 0
 	attributes
 		category "Bulker"
+		licenses
+			"Empire Navy"
 		"cost" 3205000
 		"shields" 16000
 		"hull" 5060
@@ -38,6 +40,7 @@ ship "Empire Bulker"
 		"Countermesure Module"
 		"Mineria Key Stone"
 		"Brig"
+		"Fuel Cell"
 		
 		`RC-180 Atomic Thruster`
 		`RC-185 Atomic Steering`
@@ -94,6 +97,8 @@ ship "Cargo Transporter"
 	"swizzle" 0
 	attributes
 		category "Cargo Freighter"
+		licenses
+			"Empire Navy"
 		"cost" 10000
 		"hull" 700
 		"automaton" 1
@@ -130,6 +135,8 @@ ship "Fuel Pod"
 	"never disabled"
 	attributes
 		category "Fuel Pod"
+		licenses
+			"Empire Contributor"
 		"cost" 10000
 		"hull" 700
 		"automaton" 1
