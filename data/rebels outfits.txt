@@ -1,0 +1,6 @@
+outfit "Rebels Mapper"
+	category "Special"
+	cost 5000
+	thumbnail "outfit/rebel mapper"
+	"rebels mapper" 1
+	description "This little module integrate to your mapping system to add the Rebels secrets maps."
