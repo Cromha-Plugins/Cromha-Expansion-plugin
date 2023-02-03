@@ -54,7 +54,7 @@ outfit "Ion Proton Gun"
 		"firing energy" 15
 		"firing force" 2
 		"firing heat" 60
-	description "The Proton Gun started out as the Syndicate's attempt to reverse engineer and mass produce a cheap competitor for the Particle Cannon. Unfortunately, they were unable to find a reliable way to keep the beam coherent, but the resulting weapon is still popular with some captains, particularly as an anti-fighter gun."
+	description "The Ion Proton Gun started out as the Empire's attempt to reverse engineer and mass produce a cheap competitor for the Electon Turret. Unfortunately, they were unable to find a reliable way to keep the beam coherent, but the resulting weapon is still used in all heavy empire ships, particularly as an anti-fighter gun."
 
 outfit "Ion Proton Fragment"
 	weapon
@@ -101,7 +101,7 @@ outfit "Ion Proton Turret"
 		"firing energy" 15
 		"firing force" 2
 		"firing heat" 60
-	description "The Syndicate Proton Turret is a relatively new product designed to compete with Deep Sky's perennially popular laser turrets in the anti-fighter defense market. Though cruder than its competition, the Proton Turret maintains a loyal following among captains dissatisfied with laser weapons' short range."
+	description "The Ion Proton Turret is a relatively new product designed to compete with Empire perennially popular laser turrets in the anti-fighter defense market. Though cruder than its competition, the Proton Turret maintains a loyal following among captains dissatisfied with laser weapons' short range."
 
 outfit "Multiphasic Anti-Missile"
 	thumbnail "outfit/multiphasic_anti_missile"
@@ -231,7 +231,7 @@ outfit "Empire Torpedo Storage Rack"
 	"outfit space" -6
 	"empire torpedo capacity" 10
 	ammo "Empire Torpedo Missile"
-	description "This rack stores additional Firelight missiles to feed into a Firelight Bank."
+	description "This rack stores additional Empire Torpedo missiles to feed into a Empire Torpedo Bank."
 
 outfit "Empire Torpedo Missile"
 	category "Ammunition"
@@ -243,7 +243,7 @@ outfit "Empire Torpedo Missile"
 	"empire torpedo capacity" -1
 	"energy generation" 0.02
 	"heat generation" 0.1
-	description `The reactor element inside a Firelight missile must be kept minimally active in order to ensure it is ready for launch. Although terribly inefficient, it nonetheless produces a trickle of power that can be tapped into when properly installed.`
+	description `The reactor element inside a Empire Torpedo missile must be kept minimally active in order to ensure it is ready for launch. Although terribly inefficient, it nonetheless produces a trickle of power that can be tapped into when properly installed.`
 
 outfit "Empire Torpedo Bank"
 	category "Secondary Weapons"
