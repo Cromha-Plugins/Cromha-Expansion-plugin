@@ -53,7 +53,7 @@ outfitter Basic-systems-outfitter
 	"Small Radar Jammer"
 	"Outfits Expansion"
 	"Small Bunk Room"
-	"Compact Empire Shielding Core"
+	"Small Empire Shielding Core"
 	"Compact Plasma Drive"
 	"Fuel Cell"
 outfitter Basic-power-outfitter
@@ -149,7 +149,7 @@ outfitter Advanced-systems-outfitter
 	"Catalytic Ramscoop"
 	"Large Radar Jammer"
 	"Research Laboratory"
-	"Compact Empire Shielding Core"
+	"Small Empire Shielding Core"
 	"Empire Shielding Core"
 	"Compact Plasma Drive"
 	"Plasma Drive"
