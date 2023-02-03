@@ -11,19 +11,19 @@ ship "Emipre Wardragon"
 		category "Empire Warship"
 		licenses
 			"Empire Navy"
-		"cost" 50000000
-		"shields" 230400
+		"cost" 3000000
+		"shields" 75400
 		"hull" 30065
 		"required crew" 55
 		"bunks" 85
-		"mass" 450
-		"drag" 4.7
+		"mass" 380
+		"drag" 7.7
 		"heat dissipation" .12
 		"fuel capacity" 650
 		"cargo space" 85
-		"outfit space" 3100
+		"outfit space" 1300
 		"weapon capacity" 530
-		"engine capacity" 650
+		"engine capacity" 230
 		"ramscoop" 0.7
 		weapon
 			"blast radius" 100
@@ -101,7 +101,7 @@ ship "Emipre Wardragon"
 	explode "empire tiny explosion" 60
 	explode "empire medium explosion" 40
 	"final explode" "empire huge explosion"
-	description "The fastest and greatest Heavy Warship of all human space. After the great succes of Syndicate's ship 'Manta', to this menace, Cromha Empire decided to create the greatest human ship; a ship that will have human tech and Hai tech together, a big ship that can carry a lot of gun, a lot of cargo, but still enough fast to concurrence other ships. They decided to invade the Syndicated planet Nimbus, to stole the Manta ship plans. Cromha Empire military scientics take the Manta base and remixed it to enhance everything by adding Hai technologies and more outfit and cargo space but also the shields. But the most important thing is the Jump Drive, for yet an unknow technologie for humans. It even has two Ionic Afterburner integrated. Due to the big consummation of fuel of the Jump Drive technologie, this ship have 800Liters of fuel capacity, great for long trips with HyperDrive technologie. This ship can even carry 2 drones and 4 fighters in his bays. The Black Manta is still a prototype but is yet used by The Empire."
+	description "The Empire Wardragin is an remix of the Quarg Wardragon. This is the official Empire Warship that they use. It has good outfits, a great cargo space and great velocity. It is perfect for interceptions, attack, defend or even escort missions."
 
 ship "Black Manta"
 	sprite "ship/blackmanta"
@@ -263,7 +263,7 @@ ship "Heavy Empire Destroyer"
 		licenses
 			"Empire Navy"
 		"cost" 37200000
-		"shields" 501400
+		"shields" 89400
 		"hull" 80300
 		"required crew" 200
 		"bunks" 500
@@ -272,9 +272,9 @@ ship "Heavy Empire Destroyer"
 		"heat dissipation" .45
 		"fuel capacity" 900
 		"cargo space" 300
-		"outfit space" 5220
-		"weapon capacity" 4470
-		"engine capacity" 3010
+		"outfit space" 3300
+		"weapon capacity" 900
+		"engine capacity" 640
 		weapon
 			"blast radius" 400
 			"shield damage" 10000
@@ -444,7 +444,7 @@ ship "Empire Destroyer yll'a"
 		"heat dissipation" .7
 		"fuel capacity" 600
 		"cargo space" 160
-		"outfit space" 87
+		"outfit space" 871
 		"weapon capacity" 350
 		"engine capacity" 350
 		weapon
@@ -622,9 +622,9 @@ ship "Light Empire Destroyer"
 		"heat dissipation" .7
 		"fuel capacity" 600
 		"cargo space" 75
-		"outfit space" 696
-		"weapon capacity" 150
-		"engine capacity" 250
+		"outfit space" 750
+		"weapon capacity" 190
+		"engine capacity" 130
 		weapon
 			"blast radius" 60
 			"shield damage" 600
@@ -634,8 +634,8 @@ ship "Light Empire Destroyer"
 		"Empire Particle gun" 4
 		"Multiphasic Anti-Missile" 2
 		"Multiphasic ammo" 1200
-		"Sidewinder Missile Pod" 2
-		"Sidewinder Missile" 60
+		"Empire Torpedo Bank" 2
+		"Empire Torpedo" 40
 		
 		"RC-X3 Multiphasic Reactor"
 		"Empire Hai Ravine Batteries" 6
@@ -663,8 +663,8 @@ ship "Light Empire Destroyer"
 	gun 15.5 -54.5 "Empire Particle gun"
 	gun -21 -25.5 "Empire Particle gun"
 	gun 21 -25.5 "Empire Particle gun"
-	gun -1 -90.5 "Sidewinder Missile Pod"
-	gun -1 -90.5 "Sidewinder Missile Pod"
+	gun -1 -90.5 "Empire Torpedo Bank"
+	gun -1 -90.5 "Empire Torpedo Bank"
 	turret -16 36 "Multiphasic Anti-Missile"
 	turret 16 36 "Multiphasic Anti-Missile"
 	bay "Fighter" 0 0
@@ -683,7 +683,6 @@ ship "Light Empire Destroyer"
 # Drones & Fighters
 ship "Empire Drone"
 	sprite "ship/empire drone"
-		scale 1.2
 	thumbnail "thumbnail/empire drone"
 	"uncapturable"
 	"never disabled"
