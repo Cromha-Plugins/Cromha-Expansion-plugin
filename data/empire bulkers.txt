@@ -47,7 +47,7 @@ ship "Empire Bulker"
 		`RX-180 Reverse Thruster`
 		"Plasma Drive"
         "Phasic Rifle" 15
-        "Fragmentation Gernades" 5
+        "Phasic Gernades" 5
         "Security Staion" 2
 		
 	engine 10 204.5

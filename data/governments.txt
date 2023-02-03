@@ -29,6 +29,7 @@ government "Cromha Empire"
 		"Interference Plating" 1000000
 		"Modified Plasma Repeater" 500000
 		"Rebels Particle Gun" 500000
+		"Nerve Gas" 10000
 	"friendly hail" "empire friendly hail"
 	"friendly disabled hail" "empire friendly disabled hail"
 	"hostile hail" "empire hostile hail"

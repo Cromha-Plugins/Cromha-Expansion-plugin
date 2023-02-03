@@ -217,3 +217,14 @@ outfit "Phasic Rifle"
 	"energy consumption" 0.01
 	"unplunderable" 1
 	description "Phasic Rifles are high advanced Hand to Hand weapons. It is the best weapon for boarding or defending ships. Since this weapon need lots of energy, it consumme some energy to recharge the Rifles."
+
+outfit "Phasic Grenades"
+	category "Hand to Hand"
+	cost 6500
+	licenses
+		"Empire Navy"
+	thumbnail "outfit/phasic grenades"
+	"capture attack" 3.8
+	"capture defense" .8
+	"unplunderable" 1
+	description "The Phasic Grenades are high advanced Han to Hand weapons. It is partucullary useful for attacking and boarding ships. The grenades actually only eject ion particles so the grenades dont destroy itself. It will consume some energy to recharge the Phasic Grenades so."

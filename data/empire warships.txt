@@ -59,7 +59,7 @@ ship "Emipre Wardragon"
 		`RX-200 Reverse Thruster` 2
 		"Phasic Rifle" 55
 		"Security Station" 5
-		"Fragmentation Grenades" 25
+		"Phasic Grenades" 25
 		"Security Forcefield" 5
 		"Countermesure Module" 1
 		"Teleportation Dock" 1
@@ -170,7 +170,7 @@ ship "Black Manta"
 		`RX-200 Reverse Thruster` 4
 		"Phasic Rifle" 80
 		"Security Station" 12
-		"Fragmentation Grenades" 50
+		"Phasic Grenades" 50
 		"Security Forcefield" 40
 		"Countermesure Module" 4
 		"Teleportation Dock" 2
@@ -297,7 +297,7 @@ ship "Heavy Empire Destroyer"
 		"Multiphasic Cooler" 12
 		"Brig" 20
 		"Phasic Rifle" 150
-		"Fragmentation Grenades" 80
+		"Phasic Grenades" 80
 		"Security Station" 10
 		"Multiphasic Scanner" 6
 		"Fuel Pod" 5
@@ -466,6 +466,7 @@ ship "Empire Destroyer yll'a"
 		"Large Radar Jammer"
 		"Multiphasic Cooler"
 		"Phasic Rifle" 15
+		"Phasic Grenades" 8
 		
 		`RC-200 Atomic Thruster`
 		`RC-205 Atomic Steering`
@@ -561,6 +562,7 @@ ship "Empire Destroyer yll'e"
 		"Large Radar Jammer"
 		"Multiphasic Cooler"
 		"Phasic Rifle" 15
+		"Phasic Grenades" 8
 		
 		`RC-200 Atomic Thruster`
 		`RC-205 Atomic Steering`
@@ -643,6 +645,7 @@ ship "Light Empire Destroyer"
 		"Small Radar Jammer" 2
 		"Multiphasic Cooler"
 		"Phasic Rifle" 20
+		"Phasic Grenades" 10
 		
 		`RC-200 Atomic Thruster`
 		`RC-205 Atomic Steering`
