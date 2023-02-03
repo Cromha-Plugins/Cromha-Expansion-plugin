@@ -2,7 +2,6 @@
 outfitter Base-outfitter
 	"Local Map"
 	"Phasic Rifle"
-	"Fragmentation Grenades"
 	"Empire Hai Chasm Batteries"
 	"Empire Hai Fissure Batteries"
 	"Supercapacitor"
