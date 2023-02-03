@@ -1,0 +1,36 @@
+fleet empire-rebels-raiders
+	government "Empire Rebels"
+	names "civilian"
+	cargo 3
+	personality appeasing frugal disables plunders coward
+	# small
+	variant 10
+		"Osprey (Rebels)" 1
+		"Gunboat (Rebels)" 2
+	# medium
+	variant 20
+		"Osprey (Rebels)" 2
+		"Gunboat (Rebels)" 4
+	# large
+	variant 5
+		"Gunboat (Rebels)" 5
+		Protector 1
+		"Osprey (Rebels)" 4
+fleet empire-rebels-raiders-fleet
+	government "Empire Rebels"
+	names "civilian"
+	cargo 3
+	personality appeasing frugal disables plunders coward
+	# small
+	variant 10
+		"Osprey (Rebels)" 1
+		"Gunboat (Rebels)" 2
+	# medium
+	variant 20
+		"Osprey (Rebels)" 1
+		"Gunboat (Rebels)" 2
+	# large
+	variant 5
+		"Gunboat (Rebels)" 3
+		Protector 1
+		"Osprey (Rebels)" 2

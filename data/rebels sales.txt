@@ -1,0 +1,123 @@
+outfitter Rebels-basic-outfitter
+	"Local Map"
+	"Laser Rifle"
+	"Fragmentation Grenades"
+	"Never Gas"
+	"Empire Hai Chasm Batteries"
+	"Supercapacitor"
+	"nVF-AA Fuel Cell"
+	"KP-6 Photovoltaic Panel"
+	"Hyperdrive"
+	"Ramscoop"
+	"Fuel Pod"
+	"Asteroid Scanner"
+	`RC-001 Atomic Engines`
+outfitter Rebels-basic-ammo-outfitter
+	"Multiphasic ammo"
+	"Torpedo"
+	"Typhoon Torpedo"
+	"Sidewinder Missile"
+	"rslug"
+outfitter Rebels-basic-weapon-outfitter
+	"Sidewinder Missile Pod"
+	"Torpedo Launcher"
+	"Typhoon Launcher"
+	"Multiphasic Anti-Missile"
+	"Electron Beam"
+	"Energy Blaster"
+	"Security Station"
+	"Rebels Particle Gun"
+outfitter Rebels-basic-systems-outfitter
+	"Asteroid Scanner"
+	"Cargo Expansion"
+	"Cargo Scanner"
+	"Ramscoop"
+	"Fuel Pod"
+	"Hyperdrive"
+	"Liquid Nitrogen Cooler"
+	"Water Coolant System"
+	"Small Radar Jammer"
+	"Outfits Expansion"
+	"Small Bunk Room"
+	"Weapon Module"
+	"Engine Module"
+	"Compact Empire Shielding Core"
+outfitter Rebels-basic-power-outfitter
+	"Empire Hai Chasm Batteries"
+	"Empire Hai Fissure Batteries"
+	"Empire Hai Gorge Batteries"
+	"RC-X1 Multiphasic Reactor"
+	"RC-X2 Multiphasic Reactor"
+	"S3 Thermionic"
+	"Fission Reactor"
+	"nGVF-BB Fuel Cell"
+	"Supercapacitor"
+	"NT-200 Nucleovoltaic"
+outfitter Rebels-basic-engines-outfitter
+	`RC-140 Atomic Thruster`
+	`RC-145 Atomic Steering`
+	`RC-160 Atomic Thruster`
+	`RC-165 Atomic Steering`
+	`RX-120 Reverse Thruster`
+outfitter Rebels-advanced-ammo-outfitter
+	"Multiphasic ammo"
+	"Torpedo"
+	"Typhoon Torpedo"
+	"Sidewinder Missile"
+	"rslug"
+outfitter Rebels-advanced-weapon-outfitter
+	"Sidewinder Missile Pod"
+	"Torpedo Launcher"
+	"Typhoon Launcher"
+	"Multiphasic Anti-Missile"
+	"Proton Gun"
+	"Particle Gun"
+	"Electron Beam"
+	"Energy Blaster"
+	"Security Station"
+	"Pulse Rifle"
+	"Security Forcefield"
+	"Rebels Particle Gun"
+outfitter Rebels-advanced-systems-outfitter
+	"Multiphasic Scanner"
+	"Countermesure Module"
+	"Asteroid Scanner"
+	"Cargo Expansion"
+	"Cargo Scanner"
+	"Ramscoop"
+	"Fuel Pod"
+	"Hyperdrive"
+	"Liquid Nitrogen Cooler"
+	"Water Coolant System"
+	"Multiphasic Cooler"
+	"Small Radar Jammer"
+	"Outfits Expansion"
+	"Small Bunk Room"
+	"Weapon Module"
+	"Engine Module"
+	"Compact Empire Shielding Core"
+	"Empire Shielding Core"
+outfitter Rebels-advanced-power-outfitter
+	"Empire Hai Chasm Batteries"
+	"Empire Hai Fissure Batteries"
+	"Empire Hai Gorge Batteries"
+	"Empire Hai Ravine Batteries"
+	"RC-X1 Multiphasic Reactor"
+	"RC-X2 Multiphasic Reactor"
+	"RC-X3 Multiphasic Reactor"
+	"S3 Thermionic"
+	"Fission Reactor"
+	"nGVF-BB Fuel Cell"
+	"nGVF-CC Fuel Cell"
+	"Supercapacitor"
+	"NT-200 Nucleovoltaic"
+outfitter Rebels-advanced-engines-outfitter
+	`RC-140 Atomic Thruster`
+	`RC-145 Atomic Steering`
+	`RC-160 Atomic Thruster`
+	`RC-165 Atomic Steering`
+	`RC-180 Atomic Thruster`
+	`RC-185 Atomic Steering`
+	`RC-200 Atomic Thruster`
+	`RC-205 Atomic Steering`
+	`RX-120 Reverse Thruster`
