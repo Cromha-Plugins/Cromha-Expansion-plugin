@@ -226,5 +226,6 @@ outfit "Phasic Grenades"
 	thumbnail "outfit/phasic grenades"
 	"capture attack" 3.8
 	"capture defense" .8
+	"energy consumption" 0.01
 	"unplunderable" 1
 	description "The Phasic Grenades are high advanced Han to Hand weapons. It is partucullary useful for attacking and boarding ships. The grenades actually only eject ion particles so the grenades dont destroy itself. It will consume some energy to recharge the Phasic Grenades so."
