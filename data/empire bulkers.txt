@@ -78,10 +78,8 @@ ship "Empire Bulker"
 		over
 	bay "Cargo Freighter" 20 -116
 		over
-	bay "Fuel Pod" 73 36.5
-		under
-	bay "Fuel Pod" -73 36.5
-		under
+	bay "Fuel Pod" 0 0
+	bay "Fuel Pod" 0 0
 	leak "empire leak" 80 80
 	leak "empire flame" 70 70
 	leak "empire big leak" 50 50
