@@ -701,7 +701,7 @@ ship "Empire Drone"
 	thumbnail "thumbnail/empire drone"
 	"uncapturable"
 	"never disabled"
-	"swizzle" 6
+	"swizzle" 0
 	attributes
 		category "Drone"
 		licenses
