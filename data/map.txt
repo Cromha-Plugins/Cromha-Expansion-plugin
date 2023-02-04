@@ -562,7 +562,7 @@ system "Ring Wartrue"
 	trade Plastic 364
 	minables crystal 2 5.16891
 	object
-		sprite star/f3
+		sprite star/x3
 		period 10
 	object "Empire Ring"
 		sprite "planet/empire ringworld"

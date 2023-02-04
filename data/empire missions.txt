@@ -800,7 +800,7 @@ mission "Award 3"
 event "Empire Ringworld broken"
 	system "Ring Wartrue"
 		object
-			sprite star/f3
+			sprite star/x3
 			period 10
 		object "Empire Ring"
 			sprite "planet/empire ringworld"
