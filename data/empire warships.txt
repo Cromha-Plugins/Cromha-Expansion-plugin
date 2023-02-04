@@ -712,8 +712,8 @@ ship "Empire Drone"
 		"mass" 25
 		"drag" .59
 		"heat dissipation" .9
-		"outfit space" 100
-		"weapon capacity" 30
+		"outfit space" 160
+		"weapon capacity" 100
 		"engine capacity" 38
 		"fuel capacity" 500
 		weapon
@@ -722,7 +722,7 @@ ship "Empire Drone"
 			"hull damage" 25
 			"hit force" 75
 	outfits
-		"Empire Particle gun"
+		"Empire Particle gun" 2
 		
 		"nGVF-AA Fuel Cell"
 		"Supercapacitor"
@@ -732,7 +732,8 @@ ship "Empire Drone"
 		"Compact Plasma Drive"
 	engine -10.2 34.2 0.9
 	engine 10.2 34.2 0.9
-	gun 0 -43.5 "Empire Particle gun"
+	gun 7 -13 "Empire Particle Gun"
+	gun 12.5 -6 "Empire Particle Gun"
 	explode "empire tiny explosion" 15
 	description "It is at first a Republic Navy drone but Cromha Empire buyed rights of this ship and made its own version to satisfy them."
 	description "	Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay."
