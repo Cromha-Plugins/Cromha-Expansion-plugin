@@ -572,6 +572,18 @@ ship "Empire Destroyer yll'e"
 		"Brig" 5
 		"Mineria Key Stone"
 		"Multiphasic Scanner"
+	engine -9.5 244.5
+		zoom 1.8
+	engine 10.5 245.5
+		zoom 1.8
+	"steering engine" 21.5 -26.5
+		zoom 0.8
+		right
+		angle 90
+	"steering engine" 23 -8.5
+		zoom 0.8
+		right
+		angle 90
 	gun 0.5 -239 "Empire Nuke"
 	gun 9 -219 "Empire Nuke"
 	turret 22 199 "Multiphasic Anti-Missile"
@@ -637,7 +649,7 @@ ship "Light Empire Destroyer"
 		"Multiphasic Anti-Missile" 2
 		"Multiphasic ammo" 1200
 		"Empire Torpedo Bank" 2
-		"Empire Torpedo" 40
+		"Empire Torpedo Missile" 40
 		
 		"RC-X3 Multiphasic Reactor"
 		"Empire Hai Ravine Batteries" 6
