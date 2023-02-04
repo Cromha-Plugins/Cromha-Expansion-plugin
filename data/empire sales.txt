@@ -43,6 +43,7 @@ outfitter Basic-systems-outfitter
 	"Small Empire Shielding Core"
 	"Compact Plasma Drive"
 	"Fuel Cell"
+	"Plasma Fuel Pod"
 outfitter Basic-power-outfitter
 	"Empire Hai Chasm Batteries"
 	"Empire Hai Fissure Batteries"
@@ -111,6 +112,7 @@ outfitter Advanced-systems-outfitter
 	"Plasma Drive"
 	"Fuel Cell"
 	"Cloaking Module"
+	"Plasma Fuel Pod"
 outfitter Advanced-power-outfitter
 	"Empire Hai Chasm Batteries"
 	"Empire Hai Fissure Batteries"

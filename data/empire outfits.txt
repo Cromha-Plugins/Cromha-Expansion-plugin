@@ -202,6 +202,18 @@ outfit "Multiphasic Scanner"
 	"radar jamming" 35
 	description "This extremly advanced scanner designed by The Empire and Hai scientics together. It is all in once scanner, it can scan outfits, cargo, heat, energy and it even has an radar jammer istalled on. And all that for a small massand outfit space."
 
+# Misc
+outfit "Plasma Fuel Pod"
+	category "Systems"
+	licenses
+		"Empire Contributor"
+	cost 8500
+	thumbnail "outfit/phasic fuel pod"
+	"mass" 10
+	"outfit space" -5
+	"fuel capacity" 150
+	description "A fuel pod increases your fuel capacity, allowing your ship to make one additional hyperspace jump before it needs to land and refuel."
+
 # Hand to Hand
 outfit "Teleportation Dock"
 	category "Hand to Hand"
