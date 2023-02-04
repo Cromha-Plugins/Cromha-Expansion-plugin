@@ -2120,7 +2120,7 @@ system "Sol"
 	link Caph
 	link Altair
 	link Vega
-	link "Aplha Centauri"
+	link "Alpha Centauri"
 	link Denebola
 	link "Volcanois"
 system "Hi Yahr"
