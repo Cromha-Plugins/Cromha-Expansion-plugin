@@ -4,3 +4,11 @@ outfit "Rebels Mapper"
 	thumbnail "outfit/rebel mapper"
 	"rebels mapper" 1
 	description "This little module integrate to your mapping system to add the Rebels secrets maps."
+
+outfit "Drugs"
+	category "Hand to Hand"
+	cost 15000
+	"scan brightness" 12.3
+	"illegal" 50000
+	thumbnail "outfit/drugs"
+	description "These little capsules are full of weird unknow substance that the rebels usually sell to republics outlaws for money. This is an higly illegal outfit beware if you run one of them for the rebels."
