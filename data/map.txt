@@ -1213,6 +1213,7 @@ system "Phil'Ira"
 	fleet mineria-transports 1700
 	fleet Ayym 2000
 	link "Ring Wartrue"
+	link "Phil'Rima"
 	trade Clothing 215
 	trade Electronics 816
 	trade Equipment 487
@@ -1247,7 +1248,7 @@ system "Phil'Rima"
 	trade Plastic 364
 	minables crystal 8 5.45
 	object
-		sprite "star/o-supergiant"
+		sprite "star/x-supergiant"
 			scale 1.3
 		period 1
 		object
@@ -1256,7 +1257,7 @@ system "Phil'Rima"
 			distance 300
 			period 10
 		object
-			sprite "star/o-giant"
+			sprite "star/x-giant"
 			period 110
 			distance 300
 			object
@@ -1274,7 +1275,7 @@ system "Phil'Rima"
 					distance 300
 					period 10
 			object
-				sprite "star/0-5"
+				sprite "star/x5-old"
 				distance 250
 				period 30
 				object
