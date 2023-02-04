@@ -183,5 +183,6 @@ outfit "Ayym Parts"
 fleet "Ayym"
 	government "Unknow"
 	personality mining harvests mute
+	cargo 0
 	variant 1
 		"Ayym Creature"

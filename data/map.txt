@@ -1251,20 +1251,50 @@ system "Phil'Rima"
 			scale 1.3
 		period 1
 		object
+			sprite "planet/empire panels3"
+				scale 0.4
+			distance 300
+			period 10
+		object
 			sprite "star/o-giant"
 			period 110
 			distance 300
 			object
-				sprite "star/o0"
-				distance 400
+				sprite "planet/empire panels4"
+					scale 0.5
+				distance 300
+				period 10
+			object
+				sprite "planet/browndwarf-y"
+				distance 350
 				period 70
+				object
+					sprite "planet/empire panels2"
+						scale 0.6
+					distance 300
+					period 10
 			object
 				sprite "star/0-5"
 				distance 250
 				period 30
+				object
+					sprite "planet/empire panels2"
+						scale 0.7
+					distance 300
+					period 10
+			object "Ill'Safra Station"
+				sprite planet/station9
+					scale 0.7
+				distance 300
+				period 40
 
-
-
+planet "Ill'Safra Station"
+	attributes "far empire space" rich military research
+	landscape land/Ill'safra_station
+	outfitter Base-outfitter
+	outfitter Basic-ammo-outfitter
+	description "The Ill'Safra Station is here to study the 'brown draf y' planet and the other huges stars. They also produce fuel with sorts of ramscoop stations that they put near the stars."
+	spaceport "A basical station spaceport. You'll find the minimal things here."
 
 # Korath
 system "Sepriaptu"
