@@ -133,8 +133,7 @@ outfit "Compact Plasma Drive"
 	"mass" 15
 	"outfit space" -15
 	"jump fuel" 80
-	"jump speed" .1
-	"hyperdrive" 1
+	"scram drive" 12
 	description "The Compact Plasma Drive is a very compact hyperdrive that have been designed by The Empire to be installed on smalls vessels like Empire Drones or Empire Quicksilvers qnd even Empire Ravens."
 
 outfit "Plasma Drive"
@@ -146,8 +145,7 @@ outfit "Plasma Drive"
 	"mass" 25
 	"outfit space" -25
 	"jump effect" "jump drive empire"
-	"hyperdrive" 1
-	"jump speed" .4
+	"scram drive" 20
 	"jump fuel" 140
 	"jump drive" 1
 	"jump range" 130
