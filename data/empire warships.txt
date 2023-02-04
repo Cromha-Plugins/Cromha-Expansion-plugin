@@ -730,8 +730,8 @@ ship "Empire Drone"
 
 		`RC-001 Atomic Engines`
 		"Compact Plasma Drive"
-	engine -10.2 34.2 0.9
-	engine 10.2 34.2 0.9
+	engine 4 37.5
+	engine -10.5 37
 	gun 7 -13 "Empire Particle Gun"
 	gun 12.5 -6 "Empire Particle Gun"
 	explode "empire tiny explosion" 15
