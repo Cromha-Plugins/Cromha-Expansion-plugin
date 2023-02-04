@@ -1289,7 +1289,7 @@ system "Phil'Rima"
 				period 40
 
 planet "Ill'Safra Station"
-	attributes "far empire space" rich military research
+	attributes "far empire space" research
 	landscape land/Ill'safra_station
 	outfitter Base-outfitter
 	outfitter Basic-ammo-outfitter
