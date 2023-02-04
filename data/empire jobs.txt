@@ -202,11 +202,11 @@ mission outlaw-empire-passport[2]
 		payment 80000
 		dialog "After opening the sas, Empire authorities thank you and take the guy to the Empire register. You automaticlly got 80000 credits on your bank account."
 
-mission assist-empire-pirate[0]
+mission assist-empire-bounty[0]
 	job
 	repeat
-	name "Assist Empire in <system> from Pirates"
-	description "An Empire army in <system> need help for defeating pirates. Defeat all the pirates then land on <planet> and recieve <payment>"
+	name "Assist Empire in <system> from Bounty"
+	description "An Empire army in <system> need help for defeating an attacking bounty fleet. Defeat all the pirates then land on <planet> and recieve <payment>"
 	to offer
 		random < 20
 		"combat rating" > 3000
@@ -222,13 +222,13 @@ mission assist-empire-pirate[0]
 		payment 80000
 		dialog "The Cromha Empire authorities thank you for helping them and gives you <payment>"
 	npc
-		government "Cromha Empire"
-		personality heroic forbearing disables plunders
-		fleet cromha-fleet
+		government "Mineria colonnies"
+		personality heroic forbearing disables plunders staying
+		fleet mineria-transports
 		system destination
 	npc kill
-		government "Pirate"
-		personality plunders harvests
+		government "Bounty"
+		personality plunders harvests staying target
 		fleet "Large Southern Pirates"
 		system destination
 		dialog "The last Pirate has just been disabled, go back to <planet> to get your payment."
@@ -253,14 +253,45 @@ mission assist-empire-syndicate[0]
 		payment 80000
 		dialog "The Cromha Empire authorities thank you for helping them and gives you <payment>"
 	npc
-		government "Cromha Empire"
-		personality heroic forbearing disables plunders
-		fleet cromha-fleet
+		government "Mineria colonnies"
+		personality heroic forbearing disables plunders staying
+		fleet mineria-transports
 		system destination
 	npc kill
 		government "Syndicate"
-		personality plunders harvests
+		personality plunders harvests staying target
 		fleet "Large Syndicate"
+		system destination
+		dialog "The last rebel has just been disabled, go back to <planet> to get your payment."
+
+mission assist-empire-rebels[0]
+	job
+	repeat
+	name "Assist Empire in <system> from Rebels"
+	description "An Empire army in <system> need help for defeating Empire Rebels. Defeat all the rebels then land on <planet> and recieve <payment>"
+	to offer
+		random < 25
+		"combat rating" > 1500
+	source
+		government "Cromha Empire"
+		attributes urban military
+	destination
+		government "Cromha Empire"
+		neighbor government "Empire Rebels"
+	on complete
+		"reputation: Cromha Empire" += 10
+		payment
+		payment 80000
+		dialog "The Cromha Empire authorities thank you for helping them and gives you <payment>"
+	npc
+		government "Mineria colonnies"
+		personality heroic forbearing disables plunders staying
+		fleet mineria-transports
+		system destination
+	npc kill
+		government "Empire Rebels"
+		personality plunders harvests staying target
+		fleet empire-rebels-raiders-fleet
 		system destination
 		dialog "The last rebel has just been disabled, go back to <planet> to get your payment."
 
