@@ -703,16 +703,19 @@ ship "Empire Drone"
 	"never disabled"
 	"swizzle" 0
 	attributes
-		category "Drone"
+		category "Empire Warship"
 		licenses
 			"Empire Navy"
 		"cost" 93000
-		"hull" 700
-		"automaton" 1
+		"shields" 15500
+		"hull" 7000
+		"required crew" 2
+		"bunks" 5
 		"mass" 25
 		"drag" .59
 		"heat dissipation" .9
-		"outfit space" 160
+		"outfit space" 275
+		"cargo space" 25
 		"weapon capacity" 100
 		"engine capacity" 38
 		"fuel capacity" 500
@@ -724,9 +727,11 @@ ship "Empire Drone"
 	outfits
 		"Empire Particle gun" 2
 		
-		"nGVF-AA Fuel Cell"
-		"Supercapacitor"
+		"RC-X1 Multiphasic Reactor"
+		"Small Empire Shielding Core"
+		"Supercapacitor" 2
 		"Surveillance Pod"
+		"One-Phasic Cooler" 2
 
 		`RC-001 Atomic Engines`
 		"Compact Plasma Drive"

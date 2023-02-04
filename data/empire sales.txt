@@ -19,6 +19,7 @@ outfitter Base-outfitter
 	"Small Fuel Cell"
 	"Self Destruct Module"
 	"Mineria Key Stone"
+	"One-Phasic Cooler"
 outfitter Basic-ammo-outfitter
 	"Empire Torpedo Missile"
 	"Railgun Slug"

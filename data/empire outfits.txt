@@ -167,6 +167,18 @@ outfit "Multiphasic Cooler"
 	"cooling energy" 10
 	description "For ships with extreme cooling needs, the multiphasic cooler is the answer. One of these coolers will dissipate the heat produced by anything but the heaviest of armaments."
 
+outfit "One-Phasic Cooler"
+	category "Systems"
+	cost 9000
+	licenses
+		"Empire Contributor"
+	thumbnail "outfit/phasic_cooler"
+	"mass" 5
+	"outfit space" -5
+	"cooling" 7.8
+	"cooling energy" 2.3
+	description "For ships with minors cooling need like an interceptor, the One-Phasic Cooler is a great possibility. For it mass, cooling and energy consumption, it has great effiency."
+
 # Scanning
 outfit "Multiphasic Scanner"
 	category "Systems"
