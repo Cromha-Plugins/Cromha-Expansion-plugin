@@ -144,9 +144,9 @@ system "Astroid"
 			distance 400
 			period 110
 	object
-		sprite "star/b-supergiant"
-			scale 5
-		distance 1900
+		sprite "star/x-supergiant"
+			scale 1.5
+		distance 850
 		period 10
 	
 planet "Mineria"
