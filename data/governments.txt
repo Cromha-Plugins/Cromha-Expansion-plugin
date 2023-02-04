@@ -24,7 +24,7 @@ government "Cromha Empire"
 	color "energy"
 	"provoked on scan"
 	bribe 0
-	fine 2
+	fine 5
 	illegals
 		"Interference Plating" 1000000
 		"Modified Plasma Repeater" 500000

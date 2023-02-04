@@ -8,7 +8,8 @@ outfit "Rebels Mapper"
 outfit "Drugs"
 	category "Hand to Hand"
 	cost 15000
-	"scan brightness" 12.3
+	"mass" 1
+	"scan brightness" 3.5
 	"illegal" 50000
 	thumbnail "outfit/drugs"
 	description "These little capsules are full of weird unknow substance that the rebels usually sell to republics outlaws for money. This is an higly illegal outfit beware if you run one of them for the rebels."

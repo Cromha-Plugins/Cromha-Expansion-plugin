@@ -329,7 +329,7 @@ mission "rebel Harvest (uranium, large)"
 	to offer
 		random < 5
 	source
-		government ""Empire Rebels"
+		government "Empire Rebels"
 	on complete
 		outfit "Uranium" -100
 		payment 1600000
@@ -611,7 +611,7 @@ mission rebelcargo-delivry-electronics[1]
 	to offer
 		random < 60
 	source
-		government ""Empire Rebels"
+		government "Empire Rebels"
 	destination
 		distance 1 5
 		government "Empire Rebels"
@@ -686,7 +686,7 @@ mission rebelbulk-delivry-food[2]
 	to offer
 		random < 60
 	source
-		government ""Empire Rebels"
+		government "Empire Rebels"
 	destination
 		distance 1 5
 		government "Empire Rebels"
@@ -940,4 +940,71 @@ mission rebelbulk-delivry-electronics[2]
 	on complete
 		payment
 		payment 15000
-		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+# Drugs Runs
+mission rebel-drugs-run[0]
+	name "Drugs Run to <planet>"
+	description "Run 15 tons of drugs for the rebels to <destination> and get payed <payment>."
+	repeat
+	job
+	to offer
+		random < 20
+	source
+		government "Empire Rebels"
+	on accept
+		outfit "Drugs" 15
+	destination
+		distance 1 8
+		government "Republic" "Empire Rebels" "Free Worlds" "Cromha Empire" "Pirate"
+	on complete
+		require "Drugs" 15
+		outfit "Drugs" -15
+		payment
+		payment 300000
+		"reputation: Empire Rebels" + 1
+		dialog "You land on <planet> and go search for the drugs dealer and gives him the drugs. You recieve the payment of <payment>."
+
+mission rebel-drugs-run[1]
+	name "Drugs Run to <planet>"
+	description "Run 30 tons of drugs for the rebels to <destination> and get payed <payment>."
+	repeat
+	job
+	to offer
+		random < 15
+	source
+		government "Empire Rebels"
+	on accept
+		outfit "Drugs" 30
+	destination
+		distance 1 8
+		government "Republic" "Empire Rebels" "Free Worlds" "Cromha Empire" "Pirate"
+	on complete
+		require "Drugs" 30
+		outfit "Drugs" -30
+		payment
+		payment 300000
+		"reputation: Empire Rebels" + 1
+		dialog "You land on <planet> and go search for the drugs dealer and gives him the drugs. You recieve the payment of <payment>."
+
+mission rebel-drugs-run[2]
+	name "Drugs Run to <planet>"
+	description "Run 5 tons of drugs for the rebels to <destination> and get payed <payment>."
+	repeat
+	job
+	to offer
+		random < 30
+	source
+		government "Empire Rebels"
+	on accept
+		outfit "Drugs" 5
+	destination
+		distance 1 8
+		government "Republic" "Empire Rebels" "Free Worlds" "Cromha Empire" "Pirate"
+	on complete
+		require "Drugs" 5
+		outfit "Drugs" -5
+		payment
+		payment 300000
+		"reputation: Empire Rebels" + 1
+		dialog "You land on <planet> and go search for the drugs dealer and gives him the drugs. You recieve the payment of <payment>."
