@@ -1015,6 +1015,7 @@ system "As'har"
 	government "Empire Rebels"
 	fleet empire-rebels-raiders-fleet 1600
 	fleet "Ayym" 2000
+	fleet empire-rebels-merchants 5000
 	haze _menu/haze-cyan
 	link "Irn'o"
 	trade Clothing 215
@@ -1140,6 +1141,7 @@ system "Lim Ort"
 	government "Empire Rebels"
 	haze _menu/haze-cyan
 	fleet empire-rebels-raiders-fleet 1600
+	fleet empire-rebels-merchants 5000
 	link "Los Asto"
 	trade Clothing 215
 	trade Electronics 816
@@ -1809,6 +1811,7 @@ system Wezen
 	trade Plastic 306
 	fleet empire-rebels-raiders 6000
 	fleet "Large Deep Security" 10000
+	fleet empire-rebels-merchants 5000
 	object
 		sprite star/f0
 		distance 5.89184
@@ -1916,6 +1919,7 @@ system "Alpi Tah"
 	trade Plastic 364
 	fleet empire-rebels-raiders 6000
 	fleet "Large Deep Security" 10000
+	fleet empire-rebels-merchants 5000
 	object
 		sprite "star/b-giant"
 			scale 2.2
@@ -1972,6 +1976,7 @@ system "Far Sabira"
 	trade Metal 501
 	trade Plastic 467
 	fleet empire-rebels-raiders 6000
+	fleet empire-rebels-merchants 5000
 	object
 		sprite star/m-supergiant
 			scale 0.8
@@ -2020,6 +2025,7 @@ system "Korsmanath"
 	fleet "Large Quarg" 3000
 	fleet "Small Kor Mereti" 8000
 	fleet empire-rebels-raiders 6000
+	fleet empire-rebels-merchants 5000
 	object
 		sprite star/k0
 		period 10
@@ -2099,6 +2105,7 @@ system Gorvi
 	fleet "Large Northern Pirates" 1000
 	fleet "Large Republic" 4000
 	fleet "Small Northern Merchants" 8000
+	fleet empire-rebels-merchants 5000
 	object
 		sprite star/wr
 		period 10
