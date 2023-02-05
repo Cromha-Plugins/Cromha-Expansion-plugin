@@ -1015,7 +1015,7 @@ system "As'har"
 	government "Empire Rebels"
 	fleet empire-rebels-raiders-fleet 1600
 	fleet "Ayym" 2000
-	fleet empire-rebels-merchants 5000
+	fleet empire-rebels-merchants 1800
 	haze _menu/haze-cyan
 	link "Irn'o"
 	trade Clothing 215

@@ -74,8 +74,8 @@ ship "Scavenger"
 		"heat dissipation" .4
 		"fuel capacity" 800
 		"cargo space" 370
-		"outfit space" 440
-		"weapon capacity" 170
+		"outfit space" 520
+		"weapon capacity" 340
 		"engine capacity" 85
 		"scan interference" 1000
 		weapon
@@ -87,18 +87,15 @@ ship "Scavenger"
 		"Plasma Turret" 2
 		"Modified Plasma Repeater" 2
 		"Heavy Anti-Missile Turret" 2
-		
 		"Fission Reactor"
 		"LP144a Battery Pack"
 		"D41-HY Shield Generator"
 		"Laser Rifle" 5
-		"One-Phasic Pod"
+		"Plasma Fuel Pod"
 		"Liquid Nitrogen Cooler"
-		
 		"X3700 Ion Thruster"
 		"X3200 Ion Steering"
 		"Hyperdrive"
-
 	engine -31.5 110.5 0.7
 	engine 31.5 110.5 0.7
 	engine 0 113.5 1.2
