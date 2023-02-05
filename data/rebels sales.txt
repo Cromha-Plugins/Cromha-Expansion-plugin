@@ -78,6 +78,8 @@ outfitter Rebels-advanced-weapon-outfitter
 	"Pulse Rifle"
 	"Security Forcefield"
 	"Rebels Particle Gun"
+	"Rebel Grav-Turret"
+	"Rebels Blaze-Pike"
 outfitter Rebels-advanced-systems-outfitter
 	"Multiphasic Scanner"
 	"Countermesure Module"
