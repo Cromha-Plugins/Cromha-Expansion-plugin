@@ -1,7 +1,16 @@
 person "Cromha"
-    frequency 70000
-    government "Author"
-    personality heroic disables board
+    frequency 7000000
+    government "Cromha Empire"
+    personality heroic disables plunders
     system
         government "Cromha Empire" "Quarg" "Coalition" "Republic" "Hai" "Wanderer" "Syndicate" "Uninhabited"
-    ship "Quarg Wardragon"
+    ship "Empire Wardragon"
+    ship "Empire Wardragon" "empire fleet names"
+    ship "Empire Wardragon" "empire fleet names"
+    ship "Empire Wardragon" "empire fleet names"
+    ship "Empire Drone" "empire fleet names"
+    ship "Empire Drone" "empire fleet names"
+    ship "Empire Drone" "empire fleet names"
+    ship "Empire Drone" "empire fleet names"
+    ship "Empire Drone" "empire fleet names"
+    ship "Empire Drone" "empire fleet names"
