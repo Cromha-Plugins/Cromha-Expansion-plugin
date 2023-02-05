@@ -99,3 +99,38 @@ effect "rebel plasma smoke"
 	"random spin" 5
 	"random velocity" 1
 	"velocity scale" -.01
+
+outfit "Rebel Grav-Turret"
+	category "Turrets"
+	cost 943000
+	thumbnail "outfit/rebels banisher"
+	"mass" 19
+	"outfit space" -10
+	"weapon capacity" -25
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/rebels banisher"
+			"frame rate" 60
+		"hardpoint sprite" "hardpoint/rebels banisher"
+		"hardpoint offset" 5.
+		sound "banisher"
+		"hit effect" "rebels banisher impact"
+		"inaccuracy" .4
+		"turret turn" 4.2
+		"velocity" 590
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 3.3
+		"firing heat" 4.9
+		"shield damage" 2.8
+		"hull damage" .9
+		"hit force" 40
+	description "Similar in all points to the Korath Bnish Grav-Turret, rebels likes to keep their enemy close but not too much..."
+
+effect "rebels banisher impact"
+	sprite "effect/rebels banisher impact"
+		"random start frame"
+		"frame rate" 60
+	"lifetime" 2
+	"velocity scale" 0.

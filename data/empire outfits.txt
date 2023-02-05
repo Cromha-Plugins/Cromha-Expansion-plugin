@@ -212,6 +212,7 @@ outfit "Plasma Fuel Pod"
 	"mass" 10
 	"outfit space" -5
 	"fuel capacity" 150
+	"fuel protection".25
 	description "A fuel pod increases your fuel capacity, allowing your ship to make one additional hyperspace jump before it needs to land and refuel."
 
 # Hand to Hand

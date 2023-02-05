@@ -24,7 +24,7 @@ ship "Osprey" "Osprey (Rebels)"
 	outfits
 		"Modified Plasma Repeater" 2
 		"Rebels Particle Gun" 2
-		"Ion Proton Turret"
+		"Rebel Grav-Turret"
 		"Heavy Anti-Missile Turret"
 		
 		"RC-X2 Multiphasic Reactor" 2
@@ -47,7 +47,7 @@ ship "Osprey" "Osprey (Rebels)"
 	gun 25 -49.5 "Rebels Particle Gun"
 	gun -9.5 -95.5 "Modified Plasma Repeater"
 	gun 9.5 -95.5 "Modified Plasma Repeater"
-	turret -15.5 -12 "Ion Proton Turret"
+	turret -15.5 -12 "Rebel Grav-Turret"
 	turret 15.5 -12 "Multiphasic Anti-Missile"
 	leak "leak" 40 50
 	leak "flame" 80 80
