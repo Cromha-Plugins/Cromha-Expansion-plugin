@@ -841,6 +841,32 @@ mission "Empire: Visit Pugs"
 		system
 			distance 5 15
 
+mission "Empire: Transport Pugs Vacancers"
+	name "Empire: Transport Pugs Vacancers"
+	description "Transport Pugs Vacancers to <destination>."
+	landing
+	passengers 3
+	destination "Alldust"
+	to offer
+		has "Empire: Visit Pugs: done"
+	on offer
+		conversation
+			`As you land on Vara Pug, you see some sorts of aliens coming to you: it's Pugs. You show them where the cargo is stocked. You approach of one of their ship, they are extremly smooth and seems highly advanced in technology.`
+			`	You stay some time in the spaceport to look at the Pugs's ships. You go back to your ship to do some things when you hear a noise near the ship arrimage. You go to see what is it and see an Pug.`
+			`	The Pug starts the conversation: "Hi!"`
+			`	You response to him and say "Great to meet you. But how do you know my language?"`
+			`	"I actually have a translator on me. It automaticlly translate everything i say and you say."`
+			`	"It seems pretty cool, but why are you here if i'm no too curious?"`
+			`	"I'm here to ask you a favor. Me and my family and i wants to travel to the Empire Ringwolrd, people says that it is the greatest and most ingenious invention of the human space. And i also think that i could help a lot out there. Is this okay for you?"`
+			choice
+				`	"Sounds great for me"`
+					accept
+				`	"Sorry but i don't have that much time."`
+					decline
+	on complete
+		dialog "You land on <planet> and greets the Pug. He says that he will contact you in a few months when i will find some sort of job."
+		"reputation: Pug" += 10
+
 # Misc
 mission "Award 3"
 	landing
