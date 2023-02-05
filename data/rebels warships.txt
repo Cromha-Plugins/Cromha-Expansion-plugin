@@ -58,7 +58,68 @@ ship "Osprey" "Osprey (Rebels)"
 	explode "tiny explosion" 28
 	"final explode" "final explosion medium"
 	description "After the Blackbird gained surprising popularity as an agile light warship despite its original design as a transport, Tarazed decided to produce a new design specifically intended as a warship. The Osprey was the result. Although it is considered overpriced by most savvy pilots, it is nevertheless a perennial favorite among those who have the extra cash to spend on it."
-	
+
+ship "Scavenger"
+	sprite "ship/scavenger"
+	thumbnail "thumbnail/scavenger"
+	attributes
+		category "Heavy Freighter"
+		"cost" 8400000
+		"shields" 5200
+		"hull" 6600
+		"required crew" 13
+		"bunks" 23
+		"mass" 490
+		"drag" 10.9
+		"heat dissipation" .4
+		"fuel capacity" 800
+		"cargo space" 370
+		"outfit space" 440
+		"weapon capacity" 170
+		"engine capacity" 85
+		"scan interference" 1000
+		weapon
+			"blast radius" 140
+			"shield damage" 1400
+			"hull damage" 700
+			"hit force" 2100
+	outfits
+		"Plasma Turret" 2
+		"Modified Plasma Repeater" 2
+		"Heavy Anti-Missile Turret" 2
+		
+		"Fission Reactor"
+		"LP144a Battery Pack"
+		"D41-HY Shield Generator"
+		"Laser Rifle" 5
+		"One-Phasic Pod"
+		"Liquid Nitrogen Cooler"
+		
+		"X3700 Ion Thruster"
+		"X3200 Ion Steering"
+		"Hyperdrive"
+
+	engine -31.5 110.5 0.7
+	engine 31.5 110.5 0.7
+	engine 0 113.5 1.2
+	turret 0 37 "Heavy Anti-Missile Turret"
+	turret 0 65 "Heavy Anti-Missile Turret"
+	turret -11.5 51 "Plasma Turret"
+	turret 11.5 51 "Plasma Turret"
+	gun -48.5 -9.5 "Modified Plasma Repeater"
+		parallel
+	gun 48.5 -9.5 "Modified Plasma Repeater"
+		parallel
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description "The Scavenger is an ancient ship: developed hundreds of years ago to transport radioactive materials across human space, it had lost importance with the introduction of generalised and better armed haulers like the Bulk Freighter and the Behemoth. It came back in use as a pirate freighter after the discovery that its radiological shields and internal structure were very efficient at hiding its cargo, interfering with incoming scans enough to block almost all of them."
+
 ship "Gunboat (modified)" "Gunboat (Rebels)"
 	sprite "ship/gunboat"
 	thumbnail "thumbnail/gunboat"

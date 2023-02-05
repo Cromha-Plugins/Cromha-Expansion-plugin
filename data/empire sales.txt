@@ -180,3 +180,4 @@ shipyard Cromha-military-shipyard
 	"Empire Bulker"
 	"Emipre Wardragon"
 	"Cargo Transporter"
+	"Scavenger"
