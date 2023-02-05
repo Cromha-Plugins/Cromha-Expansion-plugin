@@ -779,6 +779,68 @@ mission "Empire: Repair Empire Ringworld"
 		"reputation: Cromha Empire" += 10
 		"empire jobs" += 1
 
+mission "Empire: Visit Pugs"
+	landing
+	name "Empire: Visit Pugs"
+	description "Bring resources to Pugs in the Pug Iyik system in the Wanderer Space before the date of <date>. Payment is <payment>."
+	deadline 30 1
+	source
+		government "Cromha Empire"
+		not attributes uninhabited
+	destination "Vara Pug"
+	to offer
+		has "Empire: Repair Empire Ringworld: done"
+	on offer
+		conversation
+			`Recently The Empire has been trying to make an alliance with the Pugs, to share their both technologies. Pugs has contacted the Cromha Empire to ask their help:`
+			`	The Pugs are currently missing of materials. They asked The Empire to bring 145 tons of Titanium, 95 tons of Silicon and 75 Jump Drives. The Empire wants you to escort an huge Mineria colonnies convoit to <destination> before the date of <date>. There will be some Empire Rebels and Bounties in your way. Payment is <payment>.`
+				accept
+	on visit
+		dialog "The whole fleet is not still here. Wait for them then land on <planet>."
+	on abort
+		dialog "The Empire will not be happy that you aborded the mission. they fine you 10000000 credits."
+		fine 10000000
+	on complete
+		payment
+		payment 3000000
+		"reputation: Cromha Empire" += 100
+		"reputation: Pug" += 30
+		"empire jobs" += 1
+	npc save accompany
+		government "Mineria colonnies"
+		personality escort timid
+		fleet mineria-transports
+		fleet mineria-transports
+		fleet mineria-transports
+		fleet cromha-fleet
+	npc
+		government "Empire Rebels"
+		personality coward plunders disables target
+		fleet empire-rebels-raiders-fleet
+		system
+			government "Cromha Empire"
+	npc
+		government "Empire Rebels"
+		personality coward plunders disables target
+		fleet empire-rebels-raiders-fleet
+		system
+			government "Cromha Empire"
+	npc
+		government "Bounty"
+		personality coward plunders disables target
+		fleet "Large Southern Pirates"
+		fleet "Large Southern Pirates"
+		system
+			distance 5 15
+
+	npc
+		government "Bounty"
+		personality coward plunders disables target
+		fleet "Large Southern Pirates"
+		fleet "Large Southern Pirates"
+		system
+			distance 5 15
+
 # Misc
 mission "Award 3"
 	landing
