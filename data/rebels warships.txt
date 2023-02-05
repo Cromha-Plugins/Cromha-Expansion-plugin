@@ -14,7 +14,7 @@ ship "Osprey" "Osprey (Rebels)"
 		"fuel capacity" 600
 		"cargo space" 40
 		"outfit space" 520
-		"weapon capacity" 204
+		"weapon capacity" 235
 		"engine capacity" 130
 		weapon
 			"blast radius" 80
@@ -24,8 +24,10 @@ ship "Osprey" "Osprey (Rebels)"
 	outfits
 		"Modified Plasma Repeater" 2
 		"Rebels Particle Gun" 2
+		"Rebels Blaze-Pike" 2
 		"Rebel Grav-Turret"
 		"Heavy Anti-Missile Turret"
+		"Railgun Slug" 1000
 		
 		"RC-X2 Multiphasic Reactor" 2
 		"Empire Hai Ravine Batteries"
@@ -43,6 +45,8 @@ ship "Osprey" "Osprey (Rebels)"
 	engine 42.5 62.5 .8
 	engine -16.5 105 .6
 	engine 16.5 105 .6
+	gun -25 -49.5 "Rebels Blaze-Pike"
+	gun 25 -49.5 "Rebels Blaze-Pike"
 	gun -25 -49.5 "Rebels Particle Gun"
 	gun 25 -49.5 "Rebels Particle Gun"
 	gun -9.5 -95.5 "Modified Plasma Repeater"

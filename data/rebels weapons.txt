@@ -134,3 +134,43 @@ effect "rebels banisher impact"
 		"frame rate" 60
 	"lifetime" 2
 	"velocity scale" 0.
+
+outfit "Rebels Blaze-Pike"
+	category "Secondary Weapons"
+	cost 1970000
+	thumbnail "outfit/rebels blaze-pike"
+	"mass" 15
+	"outfit space" -15
+	"weapon capacity" -15
+	"gun ports" -1
+	"required crew" 1
+	"railgun slug capacity" 500
+	weapon
+		sprite "projectile/rebels blaze-pike"
+			"frame rate" 20
+		ammo "Railgun Slug"
+		icon "icon/rail gun"
+		"hardpoint sprite" "hardpoint/rebels blaze-pike"
+		sound "blaze-pike"
+		"hit effect" "rebels blaze-pike hit"
+		"inaccuracy" 0.45
+		"velocity" 450
+		"lifetime" 1
+		"reload" 5
+		"firing energy" 5
+		"firing heat" 4.5
+		"shield damage" 60.1
+		"hull damage" 51
+		"heat damage" 28
+		"burn damage" 7.45
+	description "The seeming reverence the Rebels have for fire appears embodied in this weapon. This pair of Fire-Lances mounted together in a turret do not merely create twin lances of fire: Rather, they begin to form a gestalt - a single, longer, hotter, and almost hypnotic column of fire."
+
+effect "rebels blaze-pike hit"
+	sprite "effect/rebels blaze-pike hit"
+		"no repeat"
+		"frame rate" 30
+	"lifetime" 5
+	"random angle" 360
+	"random spin" 1
+	"random velocity" 5
+	"velocity scale" .005
