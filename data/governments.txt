@@ -31,6 +31,8 @@ government "Cromha Empire"
 		"Modified Plasma Repeater" 500000
 		"Rebels Particle Gun" 500000
 		"Drugs" 10000000
+		"Large Interference Emitter" 70000
+		"Small Interference Emitter" 50000
 	"friendly hail" "empire friendly hail"
 	"friendly disabled hail" "empire friendly disabled hail"
 	"hostile hail" "empire hostile hail"
