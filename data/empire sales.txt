@@ -8,7 +8,6 @@ outfitter Base-outfitter
 	"KP-6 Photovoltaic Panel"
 	"RT-I Radiothermal"
 	"Ramscoop"
-	"Fuel Pod"
 	`RC-001 Atomic Engines`
 	"Countermesure Module"
 	"Weapon Module"
@@ -36,7 +35,6 @@ outfitter Basic-weapons-outfitter
 outfitter Basic-systems-outfitter
 	"Cargo Expansion"
 	"Ramscoop"
-	"Fuel Pod"
 	"Multiphasic Cooler"
 	"Outfits Expansion"
 	"Small Bunk Room"
@@ -95,7 +93,6 @@ outfitter Advanced-weapon-outfitter
 outfitter Advanced-systems-outfitter
 	"Cargo Expansion"
 	"Ramscoop"
-	"Fuel Pod"
 	"Multiphasic Cooler"
 	"Outfits Expansion"
 	"Small Bunk Room"
