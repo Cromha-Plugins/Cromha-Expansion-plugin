@@ -262,16 +262,63 @@ system "Lifdot"
 	trade Medical 797
 	trade Metal 479
 	trade Plastic 364
-	object "Crodust"
-		sprite "planet/fg_terrestrial2"
-			scale 2.4
-		distance 450
-		period 500
 	object
-		sprite "star/m5"
-			scale 3
-		distance 600
+		sprite "star/red neutron"
+			scale 1.3
+		distance 750
 		period 110
+		object "Phoenux Station"
+			sprite "planet/station7"
+			distance 300
+			period 80
+			object
+				sprite "planet/station7c"
+				period 1
+		object
+			sprite "star/x5-old"
+				scale 3
+			distance 900
+			period 110
+			object "Crodust"
+				sprite "planet/fg_terrestrial2"
+					scale 2.4
+				distance 450
+				period 600
+			object
+				sprite "planet/fg_icegiant3"
+					scale 0.8
+				distance 800
+				period 130
+		object
+			sprite "planet/empire panels1"
+				scale 0.8
+			distance 249
+			period 40
+		object
+			sprite "planet/empire panels3"
+				scale 0.8
+			distance 174
+			period 50
+		object
+			sprite "planet/empire panels3"
+				scale 0.8
+			distance 368
+			period 48
+		object
+			sprite "planet/empire panels2"
+				scale 0.8
+			distance 300
+			period 10
+		object
+			sprite "planet/empire panels2"
+				scale 0.8
+			distance 340
+			period 26
+		object
+			sprite "planet/empire panels4"
+				scale 0.8
+			distance 249
+			period 38
 	
 planet "Crodust"
 	attributes rich inhabited north research military "empire space"
@@ -285,13 +332,29 @@ planet "Crodust"
 	shipyard Cromha-military-shipyard
 	spaceport "Crodust is the first military research planet that Cromha Empire decided to install on. More than 60% if the planet is full of swamps. The only guys who are here are scientists or Cromha Empire workers that make money by doing werid stuff for the Empire."
 	description "A huge military research installation for Cromha Empire. The most part of the planet is full of dirty swamps."
-	"required reputation" 5
+	"required reputation" 250
 	bribe 3
 	security 3
 	tribute 1000000
 		threshold 5000
 		fleet cromha-fleet 10
-		
+
+planet "Phoenux Station"
+	attributes rich inhabited station nortn research military "empire space"
+	landscape "land/Phoenux_station"
+	outfitter Base-outfitter
+	outfitter Advanced-ammo-outfitter
+	outfitter Basic-weapon-outfitter
+	outfitter Basic-power-outfitter
+	"required reputation" 250
+	spaceport ""
+	description "This station studies the red neutron star in the Lifdot system."
+	bribe 3
+	security 3
+	tribute 1000000
+		threshold 5000
+		fleet cromha-fleet 10
+
 system "Alpha Cromha"
 	pos 184 -540
 	attributes inhabited rich research military paradise mining factory north urban hai "empire space"
