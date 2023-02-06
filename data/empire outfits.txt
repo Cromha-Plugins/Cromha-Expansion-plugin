@@ -61,7 +61,7 @@ outfit "Fuel Cell"
 	"mass" 5
 	"outfit space" -5
 	"energy consumption" 5
-	"fuel generation" 0.3
+	"fuel generation" 0.01
 	description "This outfit convert the extra energy to fuel. It is useful for long travels."
 
 outfit "Weapon Module"
