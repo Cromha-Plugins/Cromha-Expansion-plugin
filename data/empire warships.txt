@@ -462,7 +462,7 @@ ship "Empire Destroyer yll'a"
 		"KP-6 Photovoltaic Array"
 		"KP-6 Photovoltaic Panel" 2
 		"Empire Hai Ravine Batteries" 6
-		"Compact Empire Shielding Core" 6
+		"Small Empire Shielding Core" 6
 		"Large Radar Jammer"
 		"Multiphasic Cooler"
 		"Phasic Rifle" 15
@@ -558,7 +558,7 @@ ship "Empire Destroyer yll'e"
 		"KP-6 Photovoltaic Array"
 		"KP-6 Photovoltaic Panel" 2
 		"Empire Hai Ravine Batteries" 6
-		"Compact Empire Shielding Core" 6
+		"Small Empire Shielding Core" 6
 		"Large Radar Jammer"
 		"Multiphasic Cooler"
 		"Phasic Rifle" 15
@@ -653,7 +653,7 @@ ship "Light Empire Destroyer"
 		
 		"RC-X3 Multiphasic Reactor"
 		"Empire Hai Ravine Batteries" 6
-		"Compact Empire Shielding Core" 4
+		"Small Empire Shielding Core" 4
 		"Small Radar Jammer" 2
 		"Multiphasic Cooler"
 		"Phasic Rifle" 20
