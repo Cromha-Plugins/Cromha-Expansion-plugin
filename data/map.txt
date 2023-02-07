@@ -18,14 +18,11 @@ system "Volcanois"
 	fleet mineria-transports 700
 	fleet cromha-miners 600
 	link "Astroid"
-	link "Sol"
 	link "Hi Yahr"
 	link "Bore Fah"
 	link "Risiit"
 	link "Nileem"
 	link "Asikafarnut"
-	link "Alpha Hydri"
-	link "Markeb"
 	asteroids "large metal" 21 7
 	minables "silicon" 50 3
 	minables "silver" 19 3
@@ -2216,14 +2213,6 @@ planet "Kal'Lis"
 	outfitter Rebels-advanced-engines-outfitter
 
 # Extra
-system "Sol"
-	link "Sirius"
-	link Caph
-	link Altair
-	link Vega
-	link "Alpha Centauri"
-	link Denebola
-	link "Volcanois"
 system "Hi Yahr"
 	link "Volcanois"
 system "Bore Fah"
@@ -2235,12 +2224,7 @@ system "Nileem"
 system "Asikafarnut"
 	link "Volcanois"
 system "Alpha Hydri"
-	link "Volcanois"
 	link "Ruchbah"
-system "Markeb"
-	link "Volcanois"
-	link "Avior"
-	link "Aludra"
 system "Alpha Hydri"
 	attributes "core" syndicate
 	fleet "Small Syndicate" 1200
