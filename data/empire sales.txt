@@ -75,7 +75,7 @@ outfitter Advanced-weapon-outfitter
 	"Typhoon Pod"
 	"Multiphasic Anti-Missile"
 	"Plasma Turret"
-	"Empire Particle Gun"
+	"Empire Particle gun"
 	"Plasma Cannon"
 	"Electron Turret"
 	"Electron Beam"
