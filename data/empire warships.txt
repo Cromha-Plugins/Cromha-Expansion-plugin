@@ -387,23 +387,17 @@ ship "Heavy Empire Destroyer"
 		over
 	gun 8.5 -212 "Empire Nuke"
 		over
-	bay "Empire Warship" 0 0
-	bay "Empire Warship" 0 0
-	bay "Empire Warship" 0 0
-	bay "Empire Warship" 0 0
-	bay "Empire Warship" 0 0
-	bay "Empire Warship" 0 0
 	bay "Fighter" -55.5 -6.5
 		under
 	bay "Fighter" 55.5 -6.5
 		under
-	bay "Drone" -32 86
+	bay "Empire Warship" -32 86
 		over
-	bay "Drone" -32 115.5
+	bay "Empire Warship" -32 115.5
 		over
-	bay "Drone" 32 86
+	bay "Empire Warship" 32 86
 		over
-	bay "Drone" 32 115.5
+	bay "Empire Warship" 32 115.5
 		over
 	bay "Fuel Pod" -68 171
 		over
@@ -504,9 +498,9 @@ ship "Empire Destroyer yll'a"
 		under
 	bay "Fuel Pod" -30 55.5
 		under
-	bay "Drone" -17 84
+	bay "Empire Warship" -17 84
 		over
-	bay "Drone" -17 45.5
+	bay "Empire Warship" -17 45.5
 		over
 	bay "Empire Warship" -5 -82
 	bay "Empire Warship" -5 -82
@@ -600,9 +594,9 @@ ship "Empire Destroyer yll'e"
 		under
 	bay "Fuel Pod" 30 55.5
 		under
-	bay "Drone" 17 84
+	bay "Empire Warship" 17 84
 		over
-	bay "Drone" 17 45.5
+	bay "Empire Warship" 17 45.5
 		over
 	bay "Empire Warship" 5 -82
 	bay "Empire Warship" 5 -82
@@ -682,9 +676,7 @@ ship "Light Empire Destroyer"
 	gun -1 -90.5 "Empire Torpedo Bank"
 	turret -16 36 "Multiphasic Anti-Missile"
 	turret 16 36 "Multiphasic Anti-Missile"
-	bay "Fighter" 0 0
-	bay "Drone" -17.5 21
-	bay "Drone" 17.5 21
+	bay "Empire Warship" 0 0
 	leak "empire leak" 60 50
 	leak "empire flame" 40 80
 	leak "empire big leak" 90 30
