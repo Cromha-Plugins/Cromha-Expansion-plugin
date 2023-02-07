@@ -300,7 +300,7 @@ ship "Heavy Empire Destroyer"
 		"Phasic Grenades" 80
 		"Security Station" 10
 		"Multiphasic Scanner" 6
-		"Fuel Pod" 5
+		"Plasma Fuel Pod" 5
 		"Mineria Key Stone"
 		"Brig" 15
 		
