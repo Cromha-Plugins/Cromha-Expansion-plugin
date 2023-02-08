@@ -16,7 +16,7 @@ ship "Emipre Wardragon"
 		"hull" 30065
 		"required crew" 55
 		"bunks" 85
-		"mass" 340
+		"mass" 260
 		"drag" 7.7
 		"heat dissipation" .12
 		"fuel capacity" 650
