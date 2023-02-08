@@ -260,6 +260,10 @@ system "Lifdot"
 	trade Medical 797
 	trade Metal 479
 	trade Plastic 364
+	object "Lifdot Jump Tunnel"
+		sprite "planet/jump tunnel"
+		distance 7800
+		period 5
 	object
 		sprite "star/red neutron"
 			scale 1.3
@@ -1154,6 +1158,10 @@ system "Wel'y"
 	minables neoyium 13 5.16891
 	minables titanium 13 5.16891
 	minables crystal 13 5.16891
+	object "Wel'y Jump Tunnel"
+		sprite "planet/jump tunnel"
+		distance 2700
+		period 5
 	
 system "Los Calos"
 	hazard "Far Empire Triangle Hazard" 1000
@@ -1596,6 +1604,10 @@ system Solifar
 		sprite planet/gas7
 		distance 2068.97
 		period 2104.34
+	object "Solifar Jump Tunnel"
+		sprite "planet/jump tunnel"
+		distance 1700
+		period 10
 
 planet "Desi Seledrak"
 	attributes korath uninhabitable
@@ -1818,8 +1830,8 @@ system Pantica
 		sprite planet/gas8
 		distance 1930
 		period 1598.78
-	object "Wormhole Pantica"
-		sprite planet/wormhole-red
+	object "Solifar Jump Tunnel"
+		sprite "planet/jump tunnel"
 		distance 5000
 		period 5000
 	object
@@ -2327,3 +2339,90 @@ system "Ruchbah"
 	link "Alpheratz"
 	link "Sheratan"
 	link "Alpha Hydri"
+system Prakacha'a
+	object
+		sprite star/g0
+		distance 52.2281
+		period 10.4671
+		offset 180
+	object
+		sprite star/k5-old
+		distance 59.3751
+		period 10.4671
+	object
+		sprite planet/rock18
+		distance 270
+		period 39.3874
+	object
+		sprite planet/desert5-b
+		distance 485.205
+		period 94.8855
+	object
+		sprite planet/rock19-b
+		distance 717.455
+		period 170.609
+	object
+		sprite planet/tethys
+		distance 871.065
+		period 228.237
+	object
+		sprite planet/gas6-b
+		distance 4036.31
+		period 2276.61
+		object
+			sprite planet/callisto-b
+			distance 294
+			period 12.8761
+		object
+			sprite planet/rock3-b
+			distance 437
+			period 23.3339
+		object
+			sprite planet/io-b
+			distance 540
+			period 32.052
+		object
+			sprite planet/dust3-b
+			distance 723
+			period 49.6561
+	object "Wel'y Jump Tunnel"
+		sprite "planet/jump tunnel"
+		distance 2700
+		period 5
+system Markeb
+	object "Lifdot Jump Tunnel"
+		sprite "planet/jump tunnel"
+		distance 7800
+		period 5
+	object
+		sprite star/k3
+		period 10
+	object
+		sprite planet/lava0-b
+		distance 157.31
+		period 37.2038
+	object Bivrost
+		sprite planet/forest2
+		distance 429.15
+		period 167.636
+	object
+		sprite planet/gas7
+		distance 967.99
+		period 567.884
+		object
+			sprite planet/dust4
+			distance 235
+			period 11.6896
+	object
+		sprite planet/cloud0
+		distance 1906.67
+		period 1569.88
+		object Alexandria
+			sprite planet/station7
+				scale 0.5
+			distance 178.482
+			period 29.3849
+	object
+		sprite planet/miranda
+		distance 2787.49
+		period 2775.06
