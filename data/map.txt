@@ -242,6 +242,7 @@ system "Lifdot"
 	pos 187 -470
 	attributes inhabited rich research military  "empire space"
 	government "Cromha Empire"
+	hazard "lifdot neutron hazard" 900
 	fleet cromha-fleet 900
 	fleet cromha-transporters 550
 	fleet mineria-transports 500
