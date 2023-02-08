@@ -1891,7 +1891,7 @@ system Wezen
 		distance 664.041
 		period 131.482
 		object "Phoenix Station"
-			sprite planet/station1
+			sprite "planet/rebel station1"
 				scale 0.5
 			distance 257
 			period 12.3538
@@ -2111,7 +2111,7 @@ system "Korsmanath"
 			distance 419
 			period 25.1349
 			object "Sar'Al Station"
-				sprite planet/station5c
+				sprite "planet/rebel station2"
 					scale 0.2
 				distance 200
 				period 60
