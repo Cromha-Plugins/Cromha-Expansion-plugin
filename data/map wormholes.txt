@@ -1,0 +1,10 @@
+planet "Alpha Jump Tunnel"
+	attributes "requires: quantum keystone"
+	spaceport ``
+	description ``
+	wormhole "Alpha Jump Tunnel Wormhole"
+wormhole "Alpha Jump Tunnel Wormhole"
+	mappable
+	link "Alpha Cromha" "Alpha Hydri"
+	link "Alpha Hydri" "Alpha Cromha"
+	"display name" "Alpha Jump Tunnel"

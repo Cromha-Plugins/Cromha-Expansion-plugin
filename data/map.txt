@@ -404,6 +404,10 @@ system "Alpha Cromha"
 					scale 0.4
 				distance 200
 				period 75
+	object "Alpha Jump Tunnel"
+		sprite "planet/jump tunnel"
+		distance 1200
+		period 70
 
 planet "Alldust"
 	attributes inhabited rich research military paradise mining factory north urban hai "empire space"
@@ -2226,6 +2230,35 @@ system "Asikafarnut"
 	link "Volcanois"
 system "Alpha Hydri"
 	link "Ruchbah"
+	object "Alpha Jump Tunnel"
+		sprite "planet/jump tunnel"
+		distance 1200
+		period 70
+	object
+		sprite star/g0
+		distance 23.474
+		period 9.26844
+	object
+		sprite star/k8
+		distance 68.5187
+		period 9.26844
+		offset 180
+	object
+		sprite planet/rock5-b
+		distance 287.674
+		period 51.2538
+	object
+		sprite planet/gas12-b
+		distance 846.484
+		period 258.704
+	object Nimbus
+		sprite planet/ocean1
+		distance 1376.64
+		period 536.545
+	object
+		sprite planet/gas7
+		distance 2334.93
+		period 1185.18
 system "Alpha Hydri"
 	attributes "core" syndicate
 	fleet "Small Syndicate" 1200
