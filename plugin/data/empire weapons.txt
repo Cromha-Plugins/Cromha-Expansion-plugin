@@ -1,0 +1,463 @@
+outfit "Empire Particle gun"
+	category "Guns"
+	cost 220000
+	thumbnail "outfit/empire particle cannon"
+	"mass" 30
+	"outfit space" -30
+	"weapon capacity" -30
+	"gun ports" -1
+	licenses
+		"Empire Contributor"
+	weapon
+		sprite "projectile/empire particle beam"
+		sound "particle"
+		"hit effect" "empire particle impact"
+		"inaccuracy" .2
+		"velocity" 30
+		"lifetime" 25
+		"reload" 20
+		"firing energy" 35
+		"firing force" 10
+		"firing heat" 120
+		"hit force" 80
+		"shield damage" 65
+		"hull damage" 62
+	description "The Particle Cannon works by accelerating a short burst of particles to near-relativistic speeds. When mounted on a ship that can turn fast enough to keep it trained on approaching ships, it becomes a nearly unbeatable weapon, capable of destroying smaller ships before they can even approach close enough for their comparatively short-ranged weapons to be effective."
+
+effect "empire particle impact"
+	sprite "effect/empire particle impact"
+		"no repeat"
+		"frame rate" 30
+	sound "explosion small"
+	"lifetime" 20
+	"random angle" 2
+	"random spin" 10
+	"velocity scale" -.05
+
+outfit "Ion Proton Gun"
+	category "Guns"
+	cost 300000
+	thumbnail "outfit/ion proton gun"
+	"mass" 25
+	"outfit space" -25
+	"weapon capacity" -20
+	"gun ports" -1
+	weapon
+		sprite "projectile/ion proton"
+		sound "proton"
+		"hit effect" "ion proton impact" 3
+		"inaccuracy" 4
+		"submunition" "Ion Proton Fragment" 3
+		"velocity" 24
+		"lifetime" 2
+		"reload" 8
+		"firing energy" 15
+		"firing force" 2
+		"firing heat" 60
+	description "The Ion Proton Gun started out as the Empire's attempt to reverse engineer and mass produce a cheap competitor for the Electon Turret. Unfortunately, they were unable to find a reliable way to keep the beam coherent, but the resulting weapon is still used in all heavy empire ships, particularly as an anti-fighter gun."
+
+outfit "Ion Proton Fragment"
+	weapon
+		sprite "projectile/ion proton fragment"
+			"no repeat"
+			"frame rate" 2
+		"hit effect" "ion proton impact"
+		"inaccuracy" 2
+		"lifetime" 24
+		"hit force" 6
+		"shield damage" 10.1
+		"hull damage" 8.4
+		"ion damage" 0.3
+
+effect "ion proton impact"
+	sprite "effect/ion proton impact"
+		"no repeat"
+		"frame rate" 30
+	"lifetime" 20
+	"random angle" 2
+	"velocity scale" -.005
+
+outfit "Ion Proton Turret"
+	category "Turrets"
+	cost 260000
+	thumbnail "outfit/ion proton turret"
+	"mass" 34
+	"outfit space" -34
+	"weapon capacity" -34
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/ion proton"
+		"hardpoint sprite" "hardpoint/ion proton turret"
+		"hardpoint offset" 14.
+		sound "proton"
+		"hit effect" "ion proton impact" 3
+		"inaccuracy" 4
+		"turret turn" 2.0
+		"submunition" "Ion Proton Fragment" 3
+		"velocity" 24
+		"lifetime" 2
+		"reload" 8
+		"firing energy" 15
+		"firing force" 2
+		"firing heat" 60
+	description "The Ion Proton Turret is a relatively new product designed to compete with Empire perennially popular laser turrets in the anti-fighter defense market. Though cruder than its competition, the Proton Turret maintains a loyal following among captains dissatisfied with laser weapons' short range."
+
+outfit "Multiphasic Anti-Missile"
+	thumbnail "outfit/multiphasic_anti_missile"
+	category "Turrets"
+	cost 55000
+	licenses
+		"Empire Contributor"
+	"mass" 5
+	"outfit space" -5
+	"weapon capacity" -5
+	"turret mounts" -1
+	"cooling" 5
+	"Multiphasic ammo capacity" 600
+	weapon
+		"hardpoint sprite" "hardpoint/anti-missile hai"
+		"hardpoint offset" 3.
+		ammo "Multiphasic ammo"
+		"hit effect" "multiphasic anti missile"
+		"anti-missile" 45
+		"velocity" 230
+		"lifetime" 3
+		"reload" 10
+		"firing energy" 20
+		"firing heat" 10
+		"stream"
+	description "This is the most advanced Anti Missile of all time. It can cool itself and has insane reload. Perfect for any ship."
+	description "But be warn this Anti-Missile has limits: he need ammunitions. Be sure to always have ammunition before going in a battle."
+
+effect "multiphasic anti missile"
+	sprite "projectile/multiphasic-anti-missile"
+		"no repeat"
+		"frame rate" 6
+	sound "warder"
+	"lifetime" 11
+	"velocity scale" 1
+
+outfit "Multiphasic ammo"
+	plural "Multiphasic ammoes"
+	category "Ammunition"
+	licenses
+		"Empire Contributor"
+	cost 5
+	thumbnail "outfit/anti-missile ammunition"
+	"mass" .5
+	"Multiphasic ammo capacity" -1
+	description "It is the ammunition for the Multiphasic Anti-Missile. Each Multiphasic Anti-Missile can hold 600 of them. You cannot install an Multiphasic Anti-Missile ammuniton unless you have installed and Multiphasic Anti-Missile."
+
+outfit "Antimatter Railgun"
+	category "Secondary Weapons"
+	cost 20000
+	thumbnail "outfit/antimatter railgun"
+	mass 1
+	licenses
+		"Empire Contributor"
+	"weapon capacity" -10
+	"gun ports" -1
+	"railgun slug capacity" 30
+	description "A missle system, Works internally like a fabricator."
+	description "It refits the materials of a railgun slug, and adds fuel from your ship."
+	description "This weapon does not do any shield damage but does lot of ion and heat damage that can esealy overheat and take there battery power to zero your enemy and disable his ship."
+	weapon
+		sprite "projectile/antimatter railgun"
+		homing 2
+		ammo "Railgun Slug"
+		icon "icon/rail gun"
+		sound "ion impact"
+		inaccuracy 30
+		velocity 3
+		acceleration 0
+		drag 0.5
+		turn 0
+		lifetime 60
+		reload 120
+		"firing energy" 100
+		"firing heat" 2
+		"ion damage" 75
+		"heat damage" 75
+		"cluster"
+		"firing fuel" 5
+		"tracking" 1
+		phasing
+		submunition "streakstage1" 1
+
+outfit "streakstage1"
+	weapon
+		sprite "projectile/antimatter railgun"
+		"inaccuracy" 30
+		drag 1
+		"velocity" 6
+		"lifetime" 1000
+		turn 10
+		homing 4
+		"tracking" 1
+		"ion damage" 75
+		"heat damage" 75
+		acceleration 10
+		"hit force" 1
+		phasing
+		"split range" 500
+		submunition "streakstage2" 3
+
+outfit "streakstage2"
+	weapon
+		sprite "projectile/antimatter railgun"
+		"inaccuracy" 30
+		drag 1
+		"velocity" 6
+		"lifetime" 1000
+		turn 10
+		homing 4
+		"tracking" 1
+		acceleration 10
+		"hit force" 1
+		"ion damage" 75
+		"heat damage" 75
+		"inaccuracy" 50
+		phasing
+		"tracking" 1
+
+outfit "Empire Torpedo Storage Rack"
+	category "Ammunition"
+	cost 8400
+	licenses
+		"Empire Contributor"
+	thumbnail "outfit/empire torpedo rack"
+	"mass" 3
+	"outfit space" -6
+	"empire torpedo capacity" 10
+	ammo "Empire Torpedo Missile"
+	description "This rack stores additional Empire Torpedo missiles to feed into a Empire Torpedo Bank."
+
+outfit "Empire Torpedo Missile"
+	category "Ammunition"
+	cost 1600
+	thumbnail "outfit/empire torpedo"
+	licenses
+		"Empire Contributor"
+	"mass" 0.3
+	"empire torpedo capacity" -1
+	"energy generation" 0.02
+	"heat generation" 0.1
+	description `The reactor element inside a Empire Torpedo missile must be kept minimally active in order to ensure it is ready for launch. Although terribly inefficient, it nonetheless produces a trickle of power that can be tapped into when properly installed.`
+
+outfit "Empire Torpedo Bank"
+	category "Secondary Weapons"
+	cost 937000
+	thumbnail "outfit/empire torpedo bank"
+	licenses
+		"Empire Contributor"
+	"mass" 22
+	"outfit space" -28
+	"weapon capacity" -28
+	"gun ports" -1
+	"energy capacity" 700
+	"empire torpedo capacity" 20
+	weapon
+		sprite "projectile/empire torpedo"
+			scale 1.3
+		sound "firelight"
+		ammo "Empire Torpedo Missile"
+		icon "icon/empire torpedo"
+		"cluster"
+		"hit effect" "empire torpedo ring" 20
+		"velocity" 4
+		"velocity override" 16
+		"lifetime" 10
+		"reload" 80
+		"burst reload" 20
+		"burst count" 5
+		"firing energy" 211
+		"firing heat" 151
+		"acceleration" 0.6
+		"drag" .1
+		"infrared tracking" .11
+		"optical tracking" .14
+		"homing" 4
+		"trigger radius" 30
+		"blast radius" 40
+		"hit force" 70
+		"missile strength" 90
+		phasing
+		submunition "Empire Torpedo Turning"
+		"stream"
+	description "As the Firestorm torpedo does not require full reactor shielding or safety interlocks, Korath engineers were able to further scale down the reactor element to fit in a missile casing for use on and against smaller vessels."
+	description "	Rather than rely on traditional reaction engines attached to the missile for launch, this rapid-fire missile bank appears to operate on the same principles as a Banisher."
+
+
+outfit "Empire Torpedo Turning"
+	weapon
+		sprite "projectile/empire torpedo"
+			scale 1.3
+		"hit effect" "empire torpedo ring" 20
+		"velocity" 0.1
+		"lifetime" 20
+		"acceleration" -0.1
+		"turn" 4.6
+		"homing" 4
+		"infrared tracking" .11
+		"optical tracking" .14
+		"trigger radius" 30
+		"blast radius" 20
+		"hit force" 30
+		"missile strength" 90
+		phasing
+		"submunition" "Empire Torpedo Activated"
+
+outfit "Empire Torpedo Activated"
+	weapon
+		sprite "projectile/empire torpedo active"
+			scale 1.3
+			"frame rate" 12
+			"random start frame"
+		"hit effect" "empire torpedo ring" 20
+		"velocity" 3
+		"lifetime" 500
+		"acceleration" 1.6
+		"drag" .1
+		"turn" 2
+		"homing" 4
+		"infrared tracking" .11
+		"optical tracking" .14
+		"trigger radius" 30
+		"blast radius" 60
+		"shield damage" 950
+		"hull damage" 950
+		"heat damage" 1800
+		"ion damage" 0.3
+		"energy damage" 0.7
+		"corrosion damage" 3.5
+		"hit force" 300
+		"missile strength" 110
+		phasing
+
+effect "empire torpedo ring"
+	sprite "effect/empire torpedo ring"
+		"scale" 0.3
+		"no repeat"
+		"frame rate" 14
+	"lifetime" 50
+	sound "firelight hit"
+	"random angle" 360
+	"random velocity" 2
+	"velocity scale" 0.1
+
+outfit "Empire Nuke"
+	category "Secondary Weapons"
+	cost 2000000
+	thumbnail "outfit/empire nuke"
+	licenses
+		"Empire Navy"
+	"mass" 15
+	"outfit space" -10
+	"weapon capacity" -10
+	"gun ports" -1
+	weapon
+		sprite "projectile/missile"
+			"no repeat"
+			"frame rate" .25
+		"hardpoint sprite" "hardpoint/empire nuke"
+		sound "nuke"
+		ammo "Empire Nuke"
+		stream
+		icon "icon/empire nuke"
+		"hit effect" "empire nuke explosion" 2
+		"hit effect" "empire nuke residue fast" 10
+		"hit effect" "empire nuke residue slow" 10
+		"die effect" "missile death"
+		"inaccuracy" 1
+		"missile strength" 200
+		"velocity" 8
+		"lifetime" 1200
+		"reload" 400
+		"firing energy" 10
+		"firing heat" 400
+		"acceleration" .8
+		"drag" .1
+		"turn" 4
+		"homing" 4
+		"radar tracking" .5
+		"optical tracking" 1
+		"trigger radius" 40
+		"ion damage" 2000
+		"slowing damage" 450
+		"blast radius" 450
+		"shield damage" 15000
+		"hull damage" 12000
+		"hit force" 4000
+		"missile strength" 200
+	description "It has been centuries since the last nuclear war was fought, and until very recently, most people in the galaxy assumed that that era of chaos and destruction was forever behind us..."
+	description "	[Nuclear missiles are a one-shot weapon: each missile occupies a gun slot, and after it is fired, the slot it was in is left empty.]"
+
+effect "empire nuke explosion"
+	sprite "effect/explosion/empire huge"
+		"no repeat"
+		"frame rate" 30
+		scale 2
+	sound "explosion nuke"
+	"lifetime" 30
+	"random angle" 360
+	"random spin" 5
+	"random velocity" 1
+	"velocity scale" .4
+
+effect "empire nuke residue fast"
+	sprite "effect/explosion/empire huge"
+		"no repeat"
+		"frame rate" 15
+		scale 2
+	"lifetime" 72
+	"random angle" 360
+	"random spin" 5
+	"random velocity" 8
+	"velocity scale" 0.1
+
+effect "empire nuke residue slow"
+	sprite "effect/explosion/empire huge"
+		"no repeat"
+		"frame rate" 10
+		scale 2
+	"lifetime" 120
+	"random angle" 360
+	"random spin" 5
+	"random velocity" 5
+	"velocity scale" 0.1
+
+outfit "Twin Modified Blaster"
+	category "Guns"
+	cost 84000
+	thumbnail "outfit/twin mod blaster"
+	"mass" 14
+	"outfit space" -14
+	"weapon capacity" -14
+	"gun ports" -1
+	weapon
+		sound "mod blaster"
+		"submunition" "Modified Blaster Submunition"
+			"offset" 1 0
+			"facing" 0.45
+		"submunition" "Modified Blaster Submunition"
+			"offset" -1 0
+			"facing" -0.45
+		"hit effect" "blaster impact" 2
+		"inaccuracy" 4
+		"lifetime" 0
+		"velocity override" 10
+		"range override" 480
+		"reload" 12
+		"firing energy" 13
+		"firing heat" 50.4
+	description "An enterprising engineer, presumably having decided that the Modified Blaster's already-frightening lack of safety control was insufficient, has taken two of the weapons and shoved them together in the same gun port, crudely welded together with fervid enthusiasm. Whether or not this weapon will destroy the target before it melts its own components is anyone's guess; perhaps the intent was that the twin barrels would intimidate enemies into submission before the weapon would have to be fired."
+
+outfit "Modified Blaster Submunition"
+	weapon
+		sprite "projectile/mod blaster"
+		"hit effect" "blaster impact"
+		"velocity" 10
+		"lifetime" 48
+		"shield damage" 13.2
+		"hull damage" 8.8

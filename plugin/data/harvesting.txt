@@ -1,0 +1,20 @@
+minable "crystal"
+	sprite "asteroid/crystal/crystal"
+        scale 0.1
+	hull 4560
+	"random hull" 550
+	payload "Crystal" 32
+	explode "smoke" 30
+	explode "bolide" 30
+	explode "asteroid crunch medium"
+
+outfit "Crystal"
+	plural "Crystals"
+	category "Minerals"
+	cost 4550
+	thumbnail "outfit/harvested crystal"
+	"flotsam sprite" "effect/flotsam crystal"
+	"mass" 1
+	"installable" -1
+	"minable" 1
+	description "Strong, lightweight, and resistant to corrosion, the far empire crystal is one of the chief metals used for empire warships hulls. It is the Ayym Creature who produce it by eating differents metals in the Triangle region in the Far Empire Space."

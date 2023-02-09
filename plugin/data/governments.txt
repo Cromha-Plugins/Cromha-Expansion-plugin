@@ -1,0 +1,86 @@
+conversation "caught red-handed"
+	"Before you can leave your ship, the Cromha Empire authorities show up and begin scanning it. They say, 'Captain <last>, we detect highly illegal material on your ship.You are sentenced to lifetime imprisonment on a penal colony.' Your days of traveling the stars have come to an end."
+
+government "Cromha Empire"
+	"display name" "Cromha Empire"
+	"player reputation" 1
+	"attitude toward"
+		"Empire Rebels" -3
+		Merchant 1
+		Militia 0.1
+		Pirate -1
+		Syndicate -3
+		Neutral 0.1
+		Republic 0.1
+		Hai 1
+		"Mineria colonnies" 5
+		"Hai Merchant" 1
+		"Hai Merchant (Sympathizers)" 1
+		"Hai Merchant (Human)" 1
+		"Hai (Unfettered)" 1
+		Bounty -1
+	"death sentence" "caught red-handed"
+	raid empire-rebels-raiders
+	swizzle 0
+	color "energy"
+	"provoked on scan"
+	bribe 0
+	fine 5
+	illegals
+		"Interference Plating" 1000000
+		"Modified Plasma Repeater" 500000
+		"Rebels Particle Gun" 500000
+		"Drugs" 10000000
+		"Large Interference Emitter" 70000
+		"Small Interference Emitter" 50000
+	"friendly hail" "empire friendly hail"
+	"friendly disabled hail" "empire friendly disabled hail"
+	"hostile hail" "empire hostile hail"
+	"hostile disabled hail" "empire hostile disabled hail"
+
+government "Empire Rebels"
+	"display name" "Empire Rebels"
+	"atitude toward"
+		Pirate 1
+		Syndicate -1
+		"Mineria colonnies" -5
+		"Cromha Empire" -5
+		Republic -1
+		"Deep Security" -1
+		Hai -5
+		"Hai Merchant" -5
+		"Hai Merchant (Sympathizers)" -5
+		"Hai Merchant (Human)" 5
+		"Hai (Unfettered)" -5
+		"Quarg" -1
+		"Wanderer" -3
+		"Remnant" -3
+	raid cromha-fleet
+	swizzle 3
+	color 0 255 0 1
+	"provoke on scan"
+	bribe 1
+	fine 2
+
+government "Mineria colonnies"
+	"display name" "Mineria colonnies"
+	swizzle 1
+	"provoked on scan"
+	"attitude toward"
+		"Empire Rebels" -3
+		Merchant 1
+		Militia 0.1
+		Pirate -1
+		Syndicate -3
+		Neutral 0.1
+		Republic 0.1
+		Hai 1
+		"Mineria colonnies" 5
+		"Hai Merchant" 1
+		"Hai Merchant (Sympathizers)" 1
+		"Hai Merchant (Human)" 1
+		"Hai (Unfettered)" 1
+		Bounty -1
+	color 191 4 135 1
+	bribe 2
+	fine 2
