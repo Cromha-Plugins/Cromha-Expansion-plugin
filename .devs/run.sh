@@ -7,3 +7,4 @@ echo "Copying the locals plugin data into '$path'"
 cp -r ../plugin/ "$path"
 cd "$path"
 find . -depth -type d -name "plugin" -execdir mv {} "Cromha-expansion-plugin" \;
+sh ../logger.sh "Finished pushing current plugin version in the endless sky plugins folder"
