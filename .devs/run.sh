@@ -7,8 +7,3 @@ echo "Copying the locals plugin data into '$path'"
 cp -r ../plugin/ "$path"
 cd "$path"
 find . -depth -type d -name "plugin" -execdir mv {} "Cromha-expansion-plugin" \;
-echo "Running the endless sky game? (y/n)"
-read awnser
-if [ "$answer" == "y" ] ;then
-    endless-sky
-fi
