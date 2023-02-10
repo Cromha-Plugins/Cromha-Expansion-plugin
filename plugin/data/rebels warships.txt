@@ -1,0 +1,177 @@
+ship "Osprey" "Osprey (Rebels)"
+	sprite "ship/osprey"
+	thumbnail "thumbnail/osprey"
+	attributes
+		category "Medium Warship"
+		"cost" 4200000
+		"shields" 35000
+		"hull" 5450
+		"required crew" 15
+		"bunks" 30
+		"mass" 240
+		"drag" 5.9
+		"heat dissipation" .8
+		"fuel capacity" 600
+		"cargo space" 40
+		"outfit space" 520
+		"weapon capacity" 235
+		"engine capacity" 130
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
+	outfits
+		"Modified Plasma Repeater" 2
+		"Rebels Particle Gun" 2
+		"Rebels Blaze-Pike" 2
+		"Rebel Grav-Turret"
+		"Heavy Anti-Missile Turret"
+		"Railgun Slug" 1000
+		
+		"RC-X2 Multiphasic Reactor" 2
+		"Empire Hai Ravine Batteries"
+		"Small Empire Shielding Core"
+		"Active Radar Jammer"
+		"Liquid Nitrogen Cooler"
+		"Pulse Rifle" 3
+		"Large Interference Emitter"
+		
+		"Impala Plasma Thruster"
+		"Impala Plasma Steering"
+		"Hyperdrive"
+		
+	engine -42.5 62.5 .8
+	engine 42.5 62.5 .8
+	engine -16.5 105 .6
+	engine 16.5 105 .6
+	gun -25 -49.5 "Rebels Blaze-Pike"
+	gun 25 -49.5 "Rebels Blaze-Pike"
+	gun -25 -49.5 "Rebels Particle Gun"
+	gun 25 -49.5 "Rebels Particle Gun"
+	gun -9.5 -95.5 "Modified Plasma Repeater"
+	gun 9.5 -95.5 "Modified Plasma Repeater"
+	turret -15.5 -12 "Rebel Grav-Turret"
+	turret 15.5 -12 "Multiphasic Anti-Missile"
+	leak "leak" 40 50
+	leak "flame" 80 80
+	leak "big leak" 80 30
+	explode "medium explosion" 24
+	explode "large explosion" 16
+	explode "small explosion" 40
+	explode "tiny explosion" 28
+	"final explode" "final explosion medium"
+	description "After the Blackbird gained surprising popularity as an agile light warship despite its original design as a transport, Tarazed decided to produce a new design specifically intended as a warship. The Osprey was the result. Although it is considered overpriced by most savvy pilots, it is nevertheless a perennial favorite among those who have the extra cash to spend on it."
+
+ship "Scavenger"
+	sprite "ship/scavenger"
+	thumbnail "thumbnail/scavenger"
+	attributes
+		category "Heavy Freighter"
+		"cost" 8400000
+		"shields" 5200
+		"hull" 6600
+		"required crew" 13
+		"bunks" 23
+		"mass" 490
+		"drag" 10.9
+		"heat dissipation" .4
+		"fuel capacity" 800
+		"cargo space" 370
+		"outfit space" 520
+		"weapon capacity" 340
+		"engine capacity" 85
+		"scan interference" 1000
+		weapon
+			"blast radius" 140
+			"shield damage" 1400
+			"hull damage" 700
+			"hit force" 2100
+	outfits
+		"Plasma Turret" 2
+		"Modified Plasma Repeater" 2
+		"Heavy Anti-Missile Turret" 2
+		"Fission Reactor"
+		"LP144a Battery Pack"
+		"D41-HY Shield Generator"
+		"Laser Rifle" 5
+		"Plasma Fuel Pod"
+		"Liquid Nitrogen Cooler"
+		"X3700 Ion Thruster"
+		"X3200 Ion Steering"
+		"Hyperdrive"
+	engine -31.5 110.5 0.7
+	engine 31.5 110.5 0.7
+	engine 0 113.5 1.2
+	turret 0 37 "Heavy Anti-Missile Turret"
+	turret 0 65 "Heavy Anti-Missile Turret"
+	turret -11.5 51 "Plasma Turret"
+	turret 11.5 51 "Plasma Turret"
+	gun -48.5 -9.5 "Modified Plasma Repeater"
+		parallel
+	gun 48.5 -9.5 "Modified Plasma Repeater"
+		parallel
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description "The Scavenger is an ancient ship: developed hundreds of years ago to transport radioactive materials across human space, it had lost importance with the introduction of generalised and better armed haulers like the Bulk Freighter and the Behemoth. It came back in use as a pirate freighter after the discovery that its radiological shields and internal structure were very efficient at hiding its cargo, interfering with incoming scans enough to block almost all of them."
+
+ship "Gunboat (modified)" "Gunboat (Rebels)"
+	sprite "ship/gunboat"
+	thumbnail "thumbnail/gunboat"
+	attributes
+		category "Light Warship"
+		"cost" 3200000
+		"shields" 5800
+		"hull" 1400
+		"required crew" 7
+		"bunks" 14
+		"mass" 137
+		"drag" 3.1
+		"heat dissipation" .8
+		"fuel capacity" 600
+		"cargo space" 50
+		"outfit space" 340
+		"weapon capacity" 100
+		"engine capacity" 90
+		weapon
+			"blast radius" 72
+			"shield damage" 720
+			"hull damage" 360
+			"hit force" 1080
+	outfits
+		"Rebels Particle Gun" 2
+		"Modified Plasma Repeater"
+		
+		"RT-I Radiothermal"
+		"LP144a Battery Pack"
+		"D14-RN Shield Generator"
+		"Active Radar Jammer"
+		"Cargo Scanner"
+		"Outfit Scanner"
+		"Tactical Scanner"
+		"Brig"
+        "Small Interference Emitter"
+		
+		"X3700 Ion Thruster"
+		"X2200 Ion Steering"
+		"Hyperdrive"
+		
+	engine -12 57.5 0.7
+	engine 12 57.5 0.7
+	gun -28.5 -27.5 "Rebels Particle Gun"
+	gun 28.5 -27.5 "Rebels Particle Gun"
+	gun 0 -1 "Modified Plasma Repeater"
+	leak "leak" 50 50
+	leak "flame" 80 80
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 15
+	"final explode" "final explosion small"
+    description "This is a non-licensied model of the original Gunboat."
+	description "The Navy Gunboat is designed for engaging targets at short range, and also serves as the Navy's mobile sensor platform, scanning ships for illegal equipment or cargo."

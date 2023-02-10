@@ -1,0 +1,13 @@
+phrase "empire fleet names"
+	word
+		"Z-"
+	phrase
+		"digit"
+	phrase
+		"digit"
+	phrase
+		"letter"
+	phrase
+		"letter"
+	phrase
+		"digit"

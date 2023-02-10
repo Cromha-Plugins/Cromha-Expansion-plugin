@@ -1,0 +1,1344 @@
+# Hai Empire Jobs
+mission hai-embassade-escort[0]
+	assisting
+	job
+	repeat
+	name "Escort Hai Embassador to <destination>"
+	description "An Hai Empire Embassador want to go back on <destination>. Bring him back to <destination>. Payment is <payment>."
+	source
+		government "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Hai (Unfettered)"
+		not planet "Witdrew"
+	destination "Witdrew"
+	to offer
+		random < 15
+	on complete
+		"reputation: Hai" += 10
+		"reputation: Cromha Empire" += 10
+		payment
+		payment 60000
+		dialog "After opening the ship's sas, the Ambassador thank you and gives you 60000 credits."
+	npc accompany save
+		government Hai
+		personality escort timid
+		ship "Pond Strider" "Hai Empire Embassador"
+
+mission mineria-colonnies-transport-escort[0]
+	assisting
+	job
+	repeat
+	name "Escort Mineria convoit to <system>"
+	description "Escort an Mineria colonnies transport till <destination>'s factory. Take them safe and the Captain will pay you <payment>. Be aware, they may have some Empire Rebels on your way."
+	to offer
+		random < 35
+	source
+		government "Cromha Empire" "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Hai (Unfettered)"
+		not planet "Mineria"
+	destination
+		distance 10 30
+		government "Republic" "Cromha Empire" "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Hai (Unfettered)"
+		attributes factory
+	on complete
+		payment
+		payment 100000
+		dialog "After landing oon the planet, the Captain thanks you and gives you the <payment>."
+	npc accompany save
+		government "Mineria colonnies"
+		personality escort timid
+		fleet mineria-escorts-transports
+	npc
+		system
+			distance 0 3
+		personality coward
+		government "Empire Rebels"
+		fleet empire-rebels-raiders
+	npc
+		system
+			distance 0 2
+		personality coward
+		government "Empire Rebels"
+		fleet empire-rebels-raiders
+	npc
+		system destination
+		personality coward
+		government "Empire Rebels"
+		fleet empire-rebels-raiders
+
+mission mineria-colonnies-transport-escort[1]
+	assisting
+	job
+	repeat
+	name "Escort Mineria convoit to <system>"
+	description "Escort an Mineria colonnies transport till <destination>'s factory. Take them safe and the Captain will pay you <payment>. Be aware, they may have some Empire Rebels on your way."
+	to offer
+		random < 35
+	source
+		government "Cromha Empire" "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Hai (Unfettered)"
+		not planet "Mineria"
+	destination
+		distance 10 30
+		government "Republic" "Cromha Empire" "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Hai (Unfettered)"
+		attributes factory
+	on complete
+		payment
+		payment 200000
+		dialog "After landing oon the planet, the Captain thanks you and gives you the <payment>."
+	npc accompany save
+		government "Mineria colonnies"
+		personality escort timid
+		fleet mineria-escorts-transports
+	npc
+		system
+			distance 0 3
+		personality coward
+		government "Empire Rebels"
+		fleet empire-rebels-raiders
+	npc
+		system
+			distance 0 2
+		personality coward
+		government "Empire Rebels"
+		fleet empire-rebels-raiders
+	npc
+		system destination
+		personality coward
+		government "Empire Rebels"
+		fleet empire-rebels-raiders
+
+mission mineria-colonnies-transport-escort[2]
+	assisting
+	job
+	repeat
+	name "Escort Mineria convoit to <system>"
+	description "Escort an Mineria colonnies transport till <destination>'s factory. Take them safe and the Captain will pay you <payment>. Be aware, they may have some Empire Rebels on your way."
+	to offer
+		random < 35
+	source
+		government "Cromha Empire" "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Hai (Unfettered)"
+		not planet "Mineria"
+	destination
+		distance 3 10
+		government "Republic" "Cromha Empire" "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Hai (Unfettered)"
+		attributes factory
+	on complete
+		payment
+		payment 150000
+		dialog "After landing oon the planet, the Captain thanks you and gives you the <payment>."
+	npc accompany save
+		government "Mineria colonnies"
+		personality escort timid
+		fleet mineria-escorts-transports
+	npc
+		system
+			distance 0 3
+		personality coward
+		government "Empire Rebels"
+		fleet empire-rebels-raiders
+	npc
+		system
+			distance 0 2
+		personality coward
+		government "Empire Rebels"
+		fleet empire-rebels-raiders
+	npc
+		system destination
+		personality staying coward
+		government "Empire Rebels"
+		fleet empire-rebels-raiders
+
+mission outlaw-empire-passport[0]
+	job
+	repeat
+	name "Escort outlaw to Witdrew Station"
+	description "This guy was caught in The Empire systems without any Empire passport. Bring him back safely to Witdrew Station so he can get a Empire Passport. Payment is <payment>."
+	passengers 1
+	to offer
+		random < 15
+		has "outfit: Brig" 1
+	source
+		government "Cromha Empire"
+		not planet "Witdrew Station"
+	destination "Witdrew Station"
+	on complete
+		"reputation: Cromha Empire" += 10
+		payment
+		payment 80000
+		dialog "After opening the sas, Empire authorities thank you and take the guy to the Empire register. You automaticlly got 80000 credits on your bank account."
+
+mission outlaw-empire-passport[1]
+	job
+	repeat
+	name "Escort outlaw to Witdrew Station"
+	description "This guy was caught in The Empire systems without any Empire passport. Bring him back safely to Witdrew Station so he can get a Empire Passport. Payment is <payment>."
+	passengers 1
+	to offer
+		random < 15
+		has "outfit: Brig" 1
+	source
+		government "Cromha Empire"
+		not planet "Witdrew Station"
+	destination "Witdrew Station"
+	on complete
+		"reputation: Cromha Empire" += 10
+		payment
+		payment 80000
+		dialog "After opening the sas, Empire authorities thank you and take the guy to the Empire register. You automaticlly got 80000 credits on your bank account."
+
+mission outlaw-empire-passport[2]
+	job
+	repeat
+	name "Escort outlaw to Witdrew Station"
+	description "This guy was caught in The Empire systems without any Empire passport. Bring him back safely to Witdrew Station so he can get a Empire Passport. Payment is <payment>."
+	passengers 1
+	to offer
+		random < 15
+		has "outfit: Brig" 1
+	source
+		government "Cromha Empire"
+		not planet "Witdrew Station"
+	destination "Witdrew Station"
+	on complete
+		"reputation: Cromha Empire" += 10
+		payment
+		payment 80000
+		dialog "After opening the sas, Empire authorities thank you and take the guy to the Empire register. You automaticlly got 80000 credits on your bank account."
+
+mission assist-empire-bounty[0]
+	job
+	repeat
+	name "Assist Empire in <system> from Bounty"
+	description "An Empire army in <system> need help for defeating an attacking bounty fleet. Defeat all the pirates then land on <planet> and recieve <payment>"
+	to offer
+		random < 20
+		"combat rating" > 3000
+	source
+		government "Cromha Empire"
+		attributes urban military
+	destination
+		government "Cromha Empire"
+		attributes rich urban tourism
+	on complete
+		"reputation: Cromha Empire" += 10
+		payment
+		payment 80000
+		dialog "The Cromha Empire authorities thank you for helping them and gives you <payment>"
+	npc
+		government "Mineria colonnies"
+		personality heroic forbearing disables plunders staying
+		fleet mineria-transports
+		system destination
+	npc kill
+		government "Bounty"
+		personality plunders harvests staying target
+		fleet "Large Southern Pirates"
+		system destination
+		dialog "The last Pirate has just been disabled, go back to <planet> to get your payment."
+
+mission assist-empire-syndicate[0]
+	job
+	repeat
+	name "Assist Empire in <system> from Syndicates"
+	description "An Empire army in <system> need help for defeating syndicates rebels. Defeat all the rebels then land on <planet> and recieve <payment>"
+	to offer
+		random < 25
+		"combat rating" > 1500
+	source
+		government "Cromha Empire"
+		attributes urban military
+	destination
+		government "Cromha Empire"
+		attributes syndicate "core"
+	on complete
+		"reputation: Cromha Empire" += 10
+		payment
+		payment 80000
+		dialog "The Cromha Empire authorities thank you for helping them and gives you <payment>"
+	npc
+		government "Mineria colonnies"
+		personality heroic forbearing disables plunders staying
+		fleet mineria-transports
+		system destination
+	npc kill
+		government "Syndicate"
+		personality plunders harvests staying target
+		fleet "Large Syndicate"
+		system destination
+		dialog "The last rebel has just been disabled, go back to <planet> to get your payment."
+
+mission assist-empire-rebels[0]
+	job
+	repeat
+	name "Assist Empire in <system> from Rebels"
+	description "An Empire army in <system> need help for defeating Empire Rebels. Defeat all the rebels then land on <planet> and recieve <payment>"
+	to offer
+		random < 25
+		"combat rating" > 1500
+	source
+		government "Cromha Empire"
+		attributes urban military
+	destination
+		government "Cromha Empire"
+		neighbor government "Empire Rebels"
+	on complete
+		"reputation: Cromha Empire" += 10
+		payment
+		payment 80000
+		dialog "The Cromha Empire authorities thank you for helping them and gives you <payment>"
+	npc
+		government "Mineria colonnies"
+		personality heroic forbearing disables plunders staying
+		fleet mineria-transports
+		system destination
+	npc kill
+		government "Empire Rebels"
+		personality plunders harvests staying target
+		fleet empire-rebels-raiders-fleet
+		system destination
+		dialog "The last rebel has just been disabled, go back to <planet> to get your payment."
+
+# Harvests
+mission "Harvest (aluminum, small)"
+	name "Harvest Aluminum"
+	description "The people of <origin> will pay you <payment> for 50 tons of aluminum."
+	repeat
+	job
+	to offer
+		random < 30
+	source
+		government "Cromha Empire"
+	on complete
+		outfit "Aluminum" -50
+		payment 157500
+		dialog `You unload the aluminum at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+
+mission "Harvest (aluminum, large)"
+	name "Harvest Aluminum"
+	description "The people of <origin> will pay you <payment> for 100 tons of aluminum."
+	repeat
+	job
+	to offer
+		random < 20
+	source
+		government "Cromha Empire"
+	on complete
+		outfit "Aluminum" -100
+		payment 324000
+		dialog `You unload the aluminum at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+
+mission "Harvest (copper, small)"
+	name "Harvest Copper"
+	description "The people of <origin> will pay you <payment> for 50 tons of copper."
+	repeat
+	job
+	to offer
+		random < 30
+	source
+		government "Cromha Empire"
+	on complete
+		outfit "Copper" -50
+		payment 262500
+		dialog `You unload the copper at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+
+mission "Harvest (copper, large)"
+	name "Harvest Copper"
+	description "The people of <origin> will pay you <payment> for 100 tons of copper."
+	repeat
+	job
+	to offer
+		random < 20
+	source
+		government "Cromha Empire"
+	on complete
+		outfit "Copper" -100
+		payment 540000
+		dialog `You unload the copper at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+
+mission "Harvest (gold, small)"
+	name "Harvest Gold"
+	description "The people of <origin> will pay you <payment> for 50 tons of gold."
+	repeat
+	job
+	to offer
+		random < 15
+	source
+		government "Cromha Empire"
+	on complete
+		outfit "Gold" -50
+		payment 800000
+		dialog `You unload the gold at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+
+mission "Harvest (gold, large)"
+	name "Harvest Gold"
+	description "The people of <origin> will pay you <payment> for 100 tons of gold."
+	repeat
+	job
+	to offer
+		random < 10
+	source
+		government "Cromha Empire"
+	on complete
+		outfit "Gold" -100
+		payment 1680000
+		dialog `You unload the gold at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+
+mission "Harvest (iron, small)"
+	name "Harvest Iron"
+	description "The people of <origin> will pay you <payment> for 50 tons of iron."
+	repeat
+	job
+	to offer
+		random < 30
+	source
+		government "Cromha Empire"
+	on complete
+		outfit "Iron" -50
+		payment 105000
+		dialog `You unload the iron at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+
+mission "Harvest (iron, large)"
+	name "Harvest Iron"
+	description "The people of <origin> will pay you <payment> for 100 tons of iron."
+	repeat
+	job
+	to offer
+		random < 20
+	source
+		government "Cromha Empire"
+	on complete
+		outfit "Iron" -100
+		payment 216000
+		dialog `You unload the iron at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+
+mission "Harvest (lead, small)"
+	name "Harvest Lead"
+	description "The people of <origin> will pay you <payment> for 50 tons of lead."
+	repeat
+	job
+	to offer
+		random < 30
+	source
+		government "Cromha Empire"
+	on complete
+		outfit "Lead" -50
+		payment 90000
+		dialog `You unload the lead at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+
+mission "Harvest (lead, large)"
+	name "Harvest Lead"
+	description "The people of <origin> will pay you <payment> for 100 tons of lead."
+	repeat
+	job
+	to offer
+		random < 20
+	source
+		government "Cromha Empire"
+	on complete
+		outfit "Lead" -100
+		payment 189000
+		dialog `You unload the lead at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+
+mission "Harvest (neodymium, small)"
+	name "Harvest Neodymium"
+	description "The people of <origin> will pay you <payment> for 50 tons of neodymium."
+	repeat
+	job
+	to offer
+		random < 30
+	source
+		government "Cromha Empire"
+	on complete
+		outfit "Neodymium" -50
+		payment 380000
+		dialog `You unload the neodymium at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+
+mission "Harvest (neodymium, large)"
+	name "Harvest Neodymium"
+	description "The people of <origin> will pay you <payment> for 100 tons of neodymium."
+	repeat
+	job
+	to offer
+		random < 20
+	source
+		government "Cromha Empire"
+	on complete
+		outfit "Neodymium" -100
+		payment 798000
+		dialog `You unload the neodymium at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+
+mission "Harvest (platinum, small)"
+	name "Harvest Platinum"
+	description "The people of <origin> will pay you <payment> for 50 tons of platinum."
+	repeat
+	job
+	to offer
+		random < 10
+	source
+		government "Cromha Empire"
+	on complete
+		outfit "Platinum" -50
+		payment 1500000
+		dialog `You unload the platinum at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+
+mission "Harvest (platinum, large)"
+	name "Harvest Platinum"
+	description "The people of <origin> will pay you <payment> for 100 tons of platinum."
+	repeat
+	job
+	to offer
+		random < 5
+	source
+		government "Cromha Empire"
+	on complete
+		outfit "Platinum" -100
+		payment 3200000
+		dialog `You unload the platinum at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+
+mission "Harvest (crystal, small)"
+	name "Harvest Crystal"
+	description "The people of <origin> will pay you <payment> for 50 tons of crystal."
+	repeat
+	job
+	to offer
+		random < 10
+	source
+		government "Cromha Empire"
+		attributes "far empire space"
+	on complete
+		outfit "Crystal" -50
+		payment 1500000
+		dialog `You unload the platinum at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+
+mission "Harvest (crystal, large)"
+	name "Harvest Crystal"
+	description "The people of <origin> will pay you <payment> for 100 tons of crystal."
+	repeat
+	job
+	to offer
+		random < 5
+	source
+		government "Cromha Empire"
+		attributes "far empire space"
+	on complete
+		outfit "Crystal" -100
+		payment 3200000
+		dialog `You unload the platinum at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+
+mission "Harvest (silicon, small)"
+	name "Harvest Silicon"
+	description "The people of <origin> will pay you <payment> for 50 tons of silicon."
+	repeat
+	job
+	to offer
+		random < 30
+	source
+		government "Cromha Empire"
+	on complete
+		outfit "Silicon" -50
+		payment 60000
+		dialog `You unload the silicon at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+
+mission "Harvest (silicon, large)"
+	name "Harvest Silicon"
+	description "The people of <origin> will pay you <payment> for 100 tons of silicon."
+	repeat
+	job
+	to offer
+		random < 20
+	source
+		government "Cromha Empire"
+	on complete
+		outfit "Silicon" -100
+		payment 128000
+		dialog `You unload the silicon at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+
+mission "Harvest (silver, small)"
+	name "Harvest Silver"
+	description "The people of <origin> will pay you <payment> for 50 tons of silver."
+	repeat
+	job
+	to offer
+		random < 20
+	source
+		government "Cromha Empire"
+	on complete
+		outfit "Silver" -50
+		payment 450000
+		dialog `You unload the silver at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+
+mission "Harvest (silver, large)"
+	name "Harvest Silver"
+	description "The people of <origin> will pay you <payment> for 100 tons of silver."
+	repeat
+	job
+	to offer
+		random < 10
+	source
+		government "Cromha Empire"
+	on complete
+		outfit "Silver" -100
+		payment 960000
+		dialog `You unload the silver at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+
+mission "Harvest (titanium, small)"
+	name "Harvest Titanium"
+	description "The people of <origin> will pay you <payment> for 50 tons of titanium."
+	repeat
+	job
+	to offer
+		random < 10
+	source
+		government "Cromha Empire"
+	on complete
+		outfit "Titanium" -50
+		payment 375000
+		dialog `You unload the titanium at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+
+mission "Harvest (titanium, large)"
+	name "Harvest Titanium"
+	description "The people of <origin> will pay you <payment> for 100 tons of titanium."
+	repeat
+	job
+	to offer
+		random < 5
+	source
+		government "Cromha Empire"
+	on complete
+		outfit "Titanium" -100
+		payment 800000
+		dialog `You unload the titanium at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+
+mission "Harvest (tungsten, small)"
+	name "Harvest Tungsten"
+	description "The people of <origin> will pay you <payment> for 50 tons of tungsten."
+	repeat
+	job
+	to offer
+		random < 30
+	source
+		government "Cromha Empire"
+	on complete
+		outfit "Tungsten" -50
+		payment 450000
+		dialog `You unload the tungsten at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+
+mission "Harvest (tungsten, large)"
+	name "Harvest Tungsten"
+	description "The people of <origin> will pay you <payment> for 100 tons of tungsten."
+	repeat
+	job
+	to offer
+		random < 20
+	source
+		government "Cromha Empire"
+	on complete
+		outfit "Tungsten" -100
+		payment 945000
+		dialog `You unload the tungsten at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+
+mission "Harvest (uranium, small)"
+	name "Harvest Uranium"
+	description "The people of <origin> will pay you <payment> for 50 tons of uranium."
+	repeat
+	job
+	to offer
+		random < 10
+	source
+		government "Cromha Empire"
+	on complete
+		outfit "Uranium" -50
+		payment 750000
+		dialog `You unload the uranium at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+
+mission "Harvest (uranium, large)"
+	name "Harvest Uranium"
+	description "The people of <origin> will pay you <payment> for 100 tons of uranium."
+	repeat
+	job
+	to offer
+		random < 5
+	source
+		government "Cromha Empire"
+	on complete
+		outfit "Uranium" -100
+		payment 1600000
+		dialog `You unload the uranium at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+
+# Hunt Down Jobs
+mission marauder[0]
+	job
+	repeat
+	name "Hunt Down Marauder near <system>"
+	description "A Marauder name the <npc> has been attacking Merchants recently near <system> system. Hunt it down and land back on <planet> before the <date> to get your payment. Payment is <payment>"
+	to offer
+		random < 20
+		"combat rating" > 1500
+	source
+		government "Cromha Empire"
+	destination
+		government "Cromha Empire"
+		distance 1 5
+	on complete
+		"reputation: Cromha Empire" += 10
+		payment
+		payment 80000
+		dialog "The Cromha Empire authorities thank you for destroying the marauder and gives you <payment>"
+	npc kill
+		government "Pirate"
+		personality plunders harvests
+		fleet "small-pirates"
+		system destination
+		dialog "The last marauder has just been disabled, go back to <planet> to get your payment."
+
+mission marauder[1]
+	job
+	repeat
+	name "Hunt Down Marauder near <system>"
+	description "A Marauder name the <npc> has been attacking Merchants recently near <system> system. Hunt it down and land back on <planet> before the <date> to get your payment. Payment is <payment>"
+	to offer
+		random < 25
+		"combat rating" > 1500
+	source
+		government "Cromha Empire"
+	destination
+		government "Cromha Empire"
+		distance 1 5
+	on complete
+		"reputation: Cromha Empire" += 10
+		payment
+		payment 130000
+		dialog "The Cromha Empire authorities thank you for destroying the marauder and gives you <payment>"
+	npc kill
+		government "Pirate"
+		personality plunders harvests
+		fleet "small-pirates"
+		system destination
+		dialog "The last marauder has just been disabled, go back to <planet> to get your payment."
+
+# Delivries Jobs
+mission cargo-delivry-food[0]
+	name "Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Food" 10 250
+	to offer
+		random < 60
+	source
+		government "Cromha Empire"
+	destination
+		distance 1 5
+		not government "Syndicate" "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission cargo-delivry-food[1]
+	name "Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Food" 10 250
+	to offer
+		random < 60
+	source
+		government "Cromha Empire"
+	destination
+		distance 1 5
+		not government "Syndicate" "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission cargo-delivry-food[2]
+	name "Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Food" 10 250
+	to offer
+		random < 60
+	source
+		government "Cromha Empire"
+	destination
+		distance 1 5
+		not government "Syndicate" "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission cargo-delivry-food[3]
+	name "Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Food" 10 250
+	to offer
+		random < 60
+	source
+		government "Cromha Empire"
+	destination
+		distance 1 5
+		not government "Syndicate" "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission cargo-delivry-food[4]
+	name "Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Food" 10 250
+	to offer
+		random < 60
+	source
+		government "Cromha Empire"
+	destination
+		distance 1 5
+		not government "Syndicate" "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission cargo-delivry-clothing[0]
+	name "Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Clothing" 10 250
+	to offer
+		random < 60
+	source
+		government "Cromha Empire"
+	destination
+		distance 1 5
+		not government "Syndicate" "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission cargo-delivry-clothing[1]
+	name "Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Clothing" 10 250
+	to offer
+		random < 60
+	source
+		government "Cromha Empire"
+	destination
+		distance 1 5
+		not government "Syndicate" "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission cargo-delivry-clothing[2]
+	name "Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Clothing" 10 250
+	to offer
+		random < 60
+	source
+		government "Cromha Empire"
+	destination
+		distance 1 5
+		not government "Syndicate" "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission cargo-delivry-equipment[0]
+	name "Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Equipment" 10 250
+	to offer
+		random < 60
+	source
+		government "Cromha Empire"
+	destination
+		distance 1 5
+		not government "Syndicate" "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission cargo-delivry-equipment[1]
+	name "Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Equipment" 10 250
+	to offer
+		random < 60
+	source
+		government "Cromha Empire"
+	destination
+		distance 1 5
+		not government "Syndicate" "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission cargo-delivry-equipment[2]
+	name "Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Equipment" 10 250
+	to offer
+		random < 60
+	source
+		government "Cromha Empire"
+	destination
+		distance 1 5
+		not government "Syndicate" "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission cargo-delivry-medical[0]
+	name "Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Medical" 10 250
+	to offer
+		random < 60
+	source
+		government "Cromha Empire"
+	destination
+		distance 1 5
+		not government "Syndicate" "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission cargo-delivry-medical[1]
+	name "Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Medical" 10 250
+	to offer
+		random < 60
+	source
+		government "Cromha Empire"
+	destination
+		distance 1 5
+		not government "Syndicate" "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission cargo-delivry-electronics[0]
+	name "Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Electronics" 10 250
+	to offer
+		random < 60
+	source
+		government "Cromha Empire"
+	destination
+		distance 1 5
+		not government "Syndicate" "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission cargo-delivry-electronics[1]
+	name "Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Electronics" 10 250
+	to offer
+		random < 60
+	source
+		government "Cromha Empire"
+	destination
+		distance 1 5
+		not government "Syndicate" "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission cargo-delivry-electronics[2]
+	name "Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Electronics" 10 250
+	to offer
+		random < 60
+	source
+		government "Cromha Empire"
+	destination
+		distance 1 5
+		not government "Syndicate" "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+mission bulk-delivry-food[0]
+	name "Bulk Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Food" 60 250
+	to offer
+		random < 60
+	source
+		government "Cromha Empire"
+	destination
+		distance 1 5
+		not government "Syndicate" "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission bulk-delivry-food[1]
+	name "Bulk Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Food" 50 250
+	to offer
+		random < 60
+	source
+		government "Cromha Empire"
+	destination
+		distance 1 5
+		not government "Syndicate" "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission bulk-delivry-food[2]
+	name "Bulk Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Food" 80 250
+	to offer
+		random < 60
+	source
+		government "Cromha Empire"
+	destination
+		distance 1 5
+		not government "Syndicate" "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission bulk-delivry-food[3]
+	name "Bulk Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Food" 100 250
+	to offer
+		random < 60
+	source
+		government "Cromha Empire"
+	destination
+		distance 1 5
+		not government "Syndicate" "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission bulk-delivry-food[4]
+	name "Bluck Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Food" 140 250
+	to offer
+		random < 60
+	source
+		government "Cromha Empire"
+	destination
+		distance 1 5
+		not government "Syndicate" "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission bulk-delivry-clothing[0]
+	name "Bulk Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Clothing" 40 250
+	to offer
+		random < 60
+	source
+		government "Cromha Empire"
+	destination
+		distance 1 5
+		not government "Syndicate" "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission bluk-delivry-clothing[1]
+	name "Bulk Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Clothing" 50 250
+	to offer
+		random < 60
+	source
+		government "Cromha Empire"
+	destination
+		distance 1 5
+		not government "Syndicate" "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission bulk-delivry-clothing[2]
+	name "Bulk Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Clothing" 50 250
+	to offer
+		random < 60
+	source
+		government "Cromha Empire"
+	destination
+		distance 1 5
+		not government "Syndicate" "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission bulk-delivry-equipment[0]
+	name "Bulk Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Equipment" 40 250
+	to offer
+		random < 60
+	source
+		government "Cromha Empire"
+	destination
+		distance 1 5
+		not government "Syndicate" "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission bulk-delivry-equipment[1]
+	name "Bulk Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Equipment" 70 250
+	to offer
+		random < 60
+	source
+		government "Cromha Empire"
+	destination
+		distance 1 5
+		not government "Syndicate" "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission bulk-delivry-equipment[2]
+	name "Bulk Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Equipment" 90 250
+	to offer
+		random < 60
+	source
+		government "Cromha Empire"
+	destination
+		distance 1 5
+		not government "Syndicate" "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission bulk-delivry-medical[0]
+	name "Bulk Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Medical" 35 250
+	to offer
+		random < 60
+	source
+		government "Cromha Empire"
+	destination
+		distance 1 5
+		not government "Syndicate" "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission bulk-delivry-medical[1]
+	name "Bulk Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Medical" 60 250
+	to offer
+		random < 60
+	source
+		government "Cromha Empire"
+	destination
+		distance 1 5
+		not government "Syndicate" "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission bulk-delivry-electronics[0]
+	name "Bulk Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Electronics" 50 250
+	to offer
+		random < 60
+	source
+		government "Cromha Empire"
+	destination
+		distance 1 5
+		not government "Syndicate" "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission bulk-delivry-electronics[1]
+	name "Bulk Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Electronics" 70 250
+	to offer
+		random < 60
+	source
+		government "Cromha Empire"
+	destination
+		distance 1 5
+		not government "Syndicate" "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+mission bulk-delivry-electronics[2]
+	name "Bulk Delivry to <planet>"
+	description "Delivry <cargo> to <destination>. Payment is <payment>."
+	repeat
+	job
+	clearance
+	cargo "Electronics" 100 250
+	to offer
+		random < 60
+	source
+		government "Cromha Empire"
+	destination
+		distance 1 5
+		not government "Syndicate" "Empire Rebels"
+	on complete
+		payment
+		payment 15000
+		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
+
+# Disguise pirates missions
+mission disguise-pirate-merchant
+	name "Disguise Pirate ship"
+	description "A pirate has been recently disguising as a merchant in the <npc> ship near the <system> system. Select merchants ships near this system and destroy the ship then return on <destination> to get your payment of <payment>."
+	repeat
+	job
+	to offer
+		random < 15
+		"combat rating" > 300
+	source
+		government "Cromha Empire"
+	on complete
+		payment
+		payment 350000
+		dialog "You land on <planet> and get your payment of <payment>."
+	npc kill
+		government "Bounty (Disguised)"
+		personality staying
+		system
+			distance 1 2
+		ship "Leviathan" "Shingu Al'I"
