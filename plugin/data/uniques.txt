@@ -1,7 +1,0 @@
-outfit "Empire Quantum Medal"
-	thumbnail "outfit/empire quantum medal"
-	"unplunderable" 1
-	category "Unique"
-	"quantum keystone" 1
-	description "This small medal is made of Mineria Key Stones that are extremly raffined nnd merged with some Neoyium and Silver. It is shiny in the dark and make a great necklace. As long as you have this medal you'll be able to enter any Empire planet and recieve 25,000 credits per day."
-	income 15000
