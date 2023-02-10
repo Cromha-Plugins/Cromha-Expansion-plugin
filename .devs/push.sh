@@ -46,4 +46,4 @@ git push -u origin main
 echo deleting branch "$branchname"
 git branch --delete "$branchname"
 echo "Finished pushing your commit to the main branch in $date"
-sh ../logger.sh "Finished pushing your commit to the main branch in $date"
+sh ../.scripts/logger.sh "Finished pushing your commit to the main branch in $date"

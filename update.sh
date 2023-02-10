@@ -1,5 +1,5 @@
 path=$(cat .settings)
-$date=$(date)
+date=$(date)
 
 # merging main into origin
 echo started updating your local repo from github repo
