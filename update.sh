@@ -14,4 +14,4 @@ cd "$path"
 find . -depth -type d -name "plugin" -execdir mv {} "Cromha-expansion-plugin" \;
 sleep 1
 echo "Done"
-sh .scripts/logger.sh "Finished updating your local repo"
+sh scripts/logger.sh "Finished updating your local repo"
