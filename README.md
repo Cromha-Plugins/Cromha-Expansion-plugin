@@ -7,8 +7,6 @@ This is a endless sky plugin i make myself. Check out the wiki for more informat
 ### Step 2: run the installation script:
 #### For Linux or MacOSX users:
 
-	chmod +x install.sh
-
 	sh install.sh
 
 #### For windows users: 
