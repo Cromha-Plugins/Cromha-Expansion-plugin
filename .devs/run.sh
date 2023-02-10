@@ -12,3 +12,4 @@ read awnser
 if [ "$answer" == "y" ] ;then
     endless-sky
 fi
+sh ../.scripts/logger.sh "Rinished pushing your local modifications to the endless sky plugin directory in $date"
