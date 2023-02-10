@@ -101,7 +101,7 @@ ship "Emipre Wardragon"
 	explode "empire tiny explosion" 60
 	explode "empire medium explosion" 40
 	"final explode" "empire huge explosion"
-	description "The Empire Wardragin is an remix of the Quarg Wardragon. This is the official Empire Warship that they use. It has good outfits, a great cargo space and great velocity. It is perfect for interceptions, attack, defend or even escort missions."
+	description "The Empire Wardragmoin is an remix of the Quarg Wardragon. This is the official Empire Warship that they use. It has good outfits, a great cargo space and great velocity. It is perfect for interceptions, attack, defend or even escort missions."
 
 ship "Heavy Empire Destroyer"
 	sprite "ship/heavy empire destroyer"
