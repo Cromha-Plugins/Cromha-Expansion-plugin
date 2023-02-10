@@ -1,5 +1,7 @@
 echo "Please enter the path of your endless sky plugin directory (https://pastebin.com/9h7cGgEW for help)"
 read path
+echo "Creating your .settings file to remember plugins path"
+echo "$path" >> .settings
 echo "Copying the locals plugin data into '$path'"
 cp -r plugin/ "$path"
 cd "$path"
