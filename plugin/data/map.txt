@@ -38,7 +38,7 @@ system "Volcanois"
 			distance 850
 			period 115
 	object
-		sprite "star/g5"
+		sprite "star/y5"
 		period 10
 	object
 		sprite "planet/ice4"
@@ -217,7 +217,7 @@ system "Calor stil"
 			distance 200
 			period 5
 	object
-		sprite "star/f8"
+		sprite "star/y8"
 			scale 1.5
 		distance 450
 		period 10
@@ -383,7 +383,7 @@ system "Alpha Cromha"
 	minables "silicon" 50 3
 	minables "silver" 19 3
 	object
-		sprite "star/k-supergiant"
+		sprite "star/y-supergiant"
 		distance 0
 		period 110
 		object "Alldust"
@@ -631,7 +631,7 @@ system "Ring Wartrue"
 	trade Plastic 364
 	minables crystal 2 5.16891
 	object
-		sprite star/x3
+		sprite star/y3
 		period 10
 	object "Empire Ring"
 		sprite "planet/empire ringworld"
@@ -1227,7 +1227,7 @@ system "Lim Ort"
 	trade Metal 479
 	trade Plastic 364
 	object
-		sprite star/a-giant
+		sprite star/y-giant
 			scale 0.7
 		period 110
 		object
