@@ -5,7 +5,6 @@ ship "Black Manta"
 	noun "prototype"
 	"uncapturable"
 	"never disabled"
-	"swizzle" 6
 	attributes
 		category "Prototype"
 		licenses
