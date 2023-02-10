@@ -166,7 +166,7 @@ outfit "Antimatter Railgun"
 		sprite "projectile/antimatter railgun"
 		homing 2
 		ammo "Railgun Slug"
-		icon "icon/rail gun"
+		icon "icon/antimatter railgun"
 		sound "ion impact"
 		inaccuracy 30
 		velocity 3

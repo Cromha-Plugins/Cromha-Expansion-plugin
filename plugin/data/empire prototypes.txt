@@ -21,24 +21,25 @@ ship "Black Manta"
 		"fuel capacity" 800
 		"cargo space" 280
 		"outfit space" 3100
-		"weapon capacity" 530
-		"engine capacity" 650
+		"weapon capacity" 1200
+		"engine capacity" 1200
 		"inscrutable" 1
 		"ramscoop" 0.5
 		weapon
-			"blast radius" 300
-			"shield damage" 7500
-			"hull damage" 5500
-			"hit force" 1500
+			"blast radius" 100
+			"shield damage" 175000
+			"hull damage" 230000
+			"hit force" 200
 	outfits
 		"Empire Particle gun" 6
 		"Ion Proton Gun" 3
 		"Empire Torpedo Bank" 2
-		"Empire Torpedo Missile" 240
-		"Empire Torpedo Storage Rack" 20
+		"Empire Torpedo Missile" 340
+		"Empire Torpedo Storage Rack" 30
 		"Antimatter Railgun" 2
-		"Railgun Slug" 560
-		"Railgun Slug Rack"
+		"Railgun Slug" 1120
+		"Railgun Slug Rack" 2
+		"Rebels Blaze-Pike" 2
 		
 		"Multiphasic Anti-Missile" 2
 		"Multiphasic ammo" 1200
@@ -47,43 +48,79 @@ ship "Black Manta"
 		"RC-X2 Multiphasic Reactor" 4
 		"RC-X3 Multiphasic Reactor" 4
 		"RC-X4 Multiphasic Reactor" 4
-		"Supercapacitor" 5
-		"Fuel Pod" 5
+		"Supercapacitor" 15
+		"Plasma Fuel Pod" 5
 		"Self Destruct Module"
+		"Fuel Cell" 5
 		
 		"Empire Shielding Core" 4
-		"Empire Hai Valley Batteries" 12
-		"Catalytic Ramscoop"
+		"Empire Hai Valley Batteries" 4
+		"Catalytic Ramscoop" 4
 		"Plasma Drive"
 		"Multiphasic Scanner" 4
-		"Multiphasic Cooler" 12
-		"Mineria Key Stone"
-		"Brig" 4
+		"Multiphasic Cooler" 8
+		"One-Phasic Cooler" 6
+		"Mineria Key Stone" 4
+		"Brig" 2
 		
 		"RC-220 Atomic Thruster" 3
 		"RC-225 Atomic Steering" 3
-		`RX-200 Reverse Thruster` 4
+		`RX-200 Reverse Thruster` 5
 		"Phasic Rifle" 80
 		"Security Station" 12
 		"Phasic Grenades" 50
-		"Security Forcefield" 40
-		"Countermesure Module" 4
-		"Teleportation Dock" 2
+		"Security Forcefield" 12
+		"Countermesure Module" 6
+		"Teleportation Dock" 4
 		"Cloaking Module"
 	# Back
 	engine 0 108.5
 		zoom 0.8
 	engine -43 55.5
 	engine 43 55.5
+		#mini
+	engine 53 30.5
+		zoom 0.1
+		over
+	engine 49 31
+		zoom 0.1
+		over
+	engine 44.5 30
+		zoom 0.1
+		over
+	engine 39.5 29
+		zoom 0.1
+		over
+	engine 37 29.5
+		zoom 0.1
+		over
+	engine -53 30.5
+		zoom 0.1
+		over
+	engine -49 31
+		zoom 0.1
+	engine -44.5 30
+		zoom 0.1
+		over
+	engine -39.5 29
+		zoom 0.1
+		over
+	engine -37 29.5
+		zoom 0.1
+		over
 	# Reverse
-	"reverse engine" -15 -40.5
-	"reverse engine" 15 -40.5
-	"reverse engine" -84.5 -40
-	"reverse engine" 84.5 -39
-	"reverse engine" -72 -35
-	"reverse engine" 72 -35
-	"reverse engine" -58.5 -34.5
-	"reverse engine" 58.5 -34.5
+	"reverse engine" -9.5 -52
+		zoom 0.6
+	"reverse engine" -89 -39
+		zoom 0.6
+	"reverse engine" -44 -41.5
+		zoom 0.6
+	"reverse engine" 9.5 -52
+		zoom 0.6
+	"reverse engine" 89 -39
+		zoom 0.6
+	"reverse engine" 44 -41.5
+		zoom 0.6
 	# Steering left
 	"steering engine" -43 55.5
 		left
@@ -99,33 +136,31 @@ ship "Black Manta"
 		right
 		angle 330
 	# Weapons
-	turret 45.5 -2.5 "Multiphasic Anti-Missile"
-	turret -45.5 -2.5 "Multiphasic Anti-Missile"
-	gun 26 -40.5 "Ion Proton Gun" 
-	gun -26 -40.5 "Ion Proton Gun" 
-	gun -34.5 -39 "Empire Particle gun"
+	turret 46 -1.5 "Multiphasic Anti-Missile"
+	turret -46 -1.5 "Multiphasic Anti-Missile"
+	gun -8.5 -84.5 "Empire Particle gun"
 	gun -44 -41 "Empire Particle gun"
-	gun -89.5 -42 "Empire Particle gun"
-	gun 34.5 -39 "Empire Particle gun"
+	gun -89 -39.5 "Empire Particle gun"
+	gun 8.5 -84.5 "Empire Particle gun"
 	gun 44 -41 "Empire Particle gun"
-	gun 89.5 -42 "Empire Particle gun"
-	gun 43.5 -37.5 "Empire Torpedo Bank"
-	gun -43.5 -37.5 "Empire Torpedo Bank"
-	gun 0 -107 "Ion Proton Gun"
-	gun -44.5 -9 "Antimatter Railgun"
-	gun 44.5 -9 "Antimatter Railgun"
-	bay "Fighter" 77.5 -30.5
-		under
-	bay "Drone" 52 -29.5
-		under
-	bay "Fighter" -77.5 -30.5
-		under
-	bay "Drone" -52 -29.5
-		under
-	bay "Fuel Pod" -24.5 37.5
+	gun -7.5 -52.5 "Ion Proton Gun"
+	gun 7.5 -52.5 "Ion Proton Gun"
+	gun 1 -36.5 "Ion Proton Gun"
 		over
-	bay "Fuel Pod" 24.5 37.5
-		over
+	gun -43 -40 "Empire Torpedo Bank"
+	gun 43 -40 "Empire Torpedo Bank"
+	gun -3.5 -97.5 "Antimatter Railgun"
+	gun 3.5 -97.5 "Antimatter Railgun"
+	gun -24.5 -40 "Rebels Blaze-Pike"
+	gun 24.5 -40 "Rebels Blaze-Pike"
+	bay "Fuel Pod" -20.5 21
+		under
+	bay "Fuel Pod" 20.5 21
+		under
+	bay "Empire Warship" 45.5 -2
+		under
+	bay "Empire Warship" -45.5 -2
+		under
 	leak "empire leak" 60 50
 	leak "empire flame" 40 80
 	leak "empire big leak" 30 30

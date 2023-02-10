@@ -149,7 +149,7 @@ outfit "Rebels Blaze-Pike"
 		sprite "projectile/rebels blaze-pike"
 			"frame rate" 20
 		ammo "Railgun Slug"
-		icon "icon/rail gun"
+		icon "icon/rebel blaze pike"
 		"hardpoint sprite" "hardpoint/rebels blaze-pike"
 		sound "blaze-pike"
 		"hit effect" "rebels blaze-pike hit"

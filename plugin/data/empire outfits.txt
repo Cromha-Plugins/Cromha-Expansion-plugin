@@ -19,6 +19,9 @@ outfit "Cloaking Module"
 	"cloak" .02
 	"cloaking energy" 1
 	"cloaking fuel" .2
+	"cloaking heat" 1.3
+	"required crew" 1
+	"operating costs" 350
 	description "The work of the Cloaking Module is a total mistery in the whole galaxy. Some rumours says that only one human in the galaxy known the functionment of the Cloaking Module"
 	
 outfit "Countermesure Module"

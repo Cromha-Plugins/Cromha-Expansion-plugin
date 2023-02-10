@@ -28,8 +28,6 @@ government "Cromha Empire"
 	fine 5
 	illegals
 		"Interference Plating" 1000000
-		"Modified Plasma Repeater" 500000
-		"Rebels Particle Gun" 500000
 		"Drugs" 10000000
 		"Large Interference Emitter" 70000
 		"Small Interference Emitter" 50000
