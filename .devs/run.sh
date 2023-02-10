@@ -1,4 +1,5 @@
 path=$(cat ../.settings)
+date=$(date)
 
 echo "Deleting the current plugin version in your endless sky plugins folder"
 rm -r "$path/Cromha-expansion-plugin"

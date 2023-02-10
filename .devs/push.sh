@@ -1,3 +1,5 @@
+date=$(date)
+
 printf "Wanna update the local repo before pushing (y/n)? "
 read answer
 if [ "$answer" != "${answer#[Yy]}" ] ;then
@@ -43,3 +45,5 @@ echo pushing "$branchname" to main branch
 git push -u origin main
 echo deleting branch "$branchname"
 git branch --delete "$branchname"
+echo "Finished pushing your commit to the main branch in $date"
+sh ../logger.sh "Finished pushing your commit to the main branch in $date"
