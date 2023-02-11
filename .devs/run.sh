@@ -8,3 +8,4 @@ cp -r ../plugin/ "$path"
 sh ../logger.sh "Finished pushing current plugin version in the endless sky plugins folder"
 cd "$path"
 find . -depth -type d -name "plugin" -execdir mv {} "Cromha-expansion-plugin" \;
+endless-sky
