@@ -87,6 +87,40 @@ fleet mineria-transports
 		"Cargo Transporter" 16
 		"Fuel Pod" 4
 		"Light Empire Destroyer" 2
+fleet cromha-merchants
+	government "Merchant"
+	names "civilian"
+	personality timid frugal appeasing
+		confusion 40
+	variant 1
+		"Headhunter (Empire)"
+		"Fury (Empire)" 2
+	variant 1
+		"Argosy (Epmire)"
+	variant 1
+		"Argosy (Epmire)"
+		"Fury (Empire)" 2
+	variant 1
+		"Behemoth (Empire)"
+		"Headhunter (Empire)" 2
+	variant 1
+		"Blackbird (Empire)"
+		"Fury (Empire)"
+	variant 1
+		"Bounder (Empire)"
+		"Blackbird (Empire)" 2
+	variant 1
+		"Headhunter (Empire)" 2
+		"Corvette"
+	variant 1
+		"Leviathan"
+		"Headhunter (Empire)" 2
+	variant 1
+		"Argosy (Empire)" 2
+		"Leviathan"
+	variant 1
+		"Blackbird (Empire)"
+		"Fury (Empire)" 2
 fleet calor-stil-tourism
 	government "Mineria colonnies"
 	names "civilian"
