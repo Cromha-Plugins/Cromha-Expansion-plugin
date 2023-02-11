@@ -35,7 +35,7 @@ ship "Black Manta"
 		"Ion Proton Gun" 3
 		"Empire Torpedo Bank" 2
 		"Antimatter Railgun" 2
-		"Modified Plasma Repeater" 2
+		"Korath Detainer" 2
 
 		"Empire Torpedo Missile" 340
 		"Empire Torpedo Storage Rack" 30
@@ -152,8 +152,8 @@ ship "Black Manta"
 	gun 43 -40 "Empire Torpedo Bank"
 	gun -3.5 -97.5 "Antimatter Railgun"
 	gun 3.5 -97.5 "Antimatter Railgun"
-	gun -34 -39.5 "Modified Plasma Repeater"
-	gun 34 -39.5 "Modified Plasma Repeater"
+	gun -34 -39.5 "Korath Detainer"
+	gun 34 -39.5 "Korath Detainer"
 	bay "Fuel Pod" -20.5 21
 		under
 	bay "Fuel Pod" 20.5 21
