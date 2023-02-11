@@ -16,7 +16,7 @@ outfit "Cloaking Module"
 	cost 1000000
 	"mass" 10
 	"outfit space" -10
-	"cloak" .02
+	"cloak" .1
 	"cloaking energy" 1
 	"cloaking fuel" .2
 	"cloaking heat" 1.3
