@@ -273,3 +273,52 @@ ship "Behemoth" "Behemoth (Empire)"
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
 	description "The Behemoth is a recent ship design from Betelgeuse Shipyards, designed as an alternative to the Syndicate Bulk Freighter. Although its cargo capacity is somewhat lower, it is also more maneuverable, and packs a heavier armament by default."
+
+ship "Fury" "Fury (Empire)"
+	plural "Furies"
+	sprite "ship/mfury"
+	thumbnail "thumbnail/mfury"
+	attributes
+		category "Interceptor"
+		"cost" 490000
+		"shields" 2000
+		"hull" 400
+		"required crew" 1
+		"bunks" 3
+		"mass" 70
+		"drag" 1.6
+		"heat dissipation" .9
+		"fuel capacity" 600
+		"cargo space" 15
+		"outfit space" 250
+		"weapon capacity" 240
+		"engine capacity" 120
+		weapon
+			"blast radius" 24
+			"shield damage" 240
+			"hull damage" 120
+			"hit force" 360
+	outfits
+		"Empire Particle gun" 4
+		
+		"RC-X1 Multiphasic Reactor"
+		"Empire Hai Gorge Batteries"
+		"Small Empire Shielding Core"
+		"Small Radar Jammer" 2
+		
+		"X2700 Ion Thruster"
+		"X2200 Ion Steering"
+		"Compact Plasma Drive"
+		
+	engine -11 35 0.8
+	engine 11 35 0.8
+	engine -18 37 0.6
+	engine 18 37 0.6
+	gun -10.5 -25.5 "Empire Particle gun"
+	gun 10.5 -25.5 "Empire Particle gun"
+	gun -17 -19.5 "Empire Particle gun"
+	gun 17 -19.5 "Empire Particle gun"
+	leak "flame" 50 80
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	description "The Fury is Southbound Shipyards' most popular design of escort ship. They have greater firepower than any other interceptor-class vessel, meaning that any pirate flying solo will think twice before attacking a convoy that is accompanied by a Fury. However, Furies are also much less maneuverable than other small ships."

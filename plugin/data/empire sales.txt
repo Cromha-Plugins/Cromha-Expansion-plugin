@@ -182,3 +182,4 @@ shipyard Cromha-military-shipyard
 	"Bounder (Empire)"
 	"Argosy (Empire)"
 	"Behemoth (Empire)"
+	"Fury (Empire)"
