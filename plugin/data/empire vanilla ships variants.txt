@@ -235,16 +235,16 @@ ship "Behemoth" "Behemoth (Empire)"
 	outfits
 		"Ion Proton Turret" 4
 		"Multiphasic Anti-Missile" 2
-        "Multiphasic ammo" 1200
-        "Thunderhead Launcher" 2
-        "Thunderhead Missile" 80
+		"Multiphasic ammo" 1200
+		"Thunderhead Launcher" 2
+		"Thunderhead Missile" 80
 		
 		"RC-X2 Multiphasic Reactor"
 		"Empire Hai Gorge Batteries"
-        "Fuel Cell" 2
-        "Plasma Fuel Pod" 2
+		"Fuel Cell" 2
+		"Plasma Fuel Pod" 2
 		"Empire Shielding Core"
-        "Multiphasic "
+		"Multiphasic Cooler"
 		"Small Radar Jammer"
 		
 		"RC-180 Atomic Thruster"
