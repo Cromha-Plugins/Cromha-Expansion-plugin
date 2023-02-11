@@ -181,3 +181,4 @@ shipyard Cromha-military-shipyard
 	"Flivver (Empire)"
 	"Bounder (Empire)"
 	"Argosy (Empire)"
+	"Behemoth (Empire)"
