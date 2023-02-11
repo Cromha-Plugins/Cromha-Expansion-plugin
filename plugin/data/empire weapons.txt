@@ -183,9 +183,9 @@ outfit "Antimatter Railgun"
 		"firing fuel" 5
 		"tracking" 1
 		phasing
-		submunition "streakstage1" 1
+		submunition "antimatter railgun stage 1" 1
 
-outfit "streakstage1"
+outfit "antimatter railgun stage 1"
 	weapon
 		sprite "projectile/antimatter railgun"
 		"inaccuracy" 30
@@ -201,9 +201,9 @@ outfit "streakstage1"
 		"hit force" 1
 		phasing
 		"split range" 500
-		submunition "streakstage2" 3
+		submunition "antimatter railgun stage 2" 3
 
-outfit "streakstage2"
+outfit "antimatter railgun stage 2"
 	weapon
 		sprite "projectile/antimatter railgun"
 		"inaccuracy" 30
