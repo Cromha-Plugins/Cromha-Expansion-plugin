@@ -309,7 +309,7 @@ outfit "Empire Torpedo Homing"
 		"hit force" 50
 		"missile strength" 135
 		phasing
-		"submunition" "Empire Torpedo Activated" 4
+		"submunition" "Empire Torpedo Activated" 2
 
 outfit "Empire Torpedo Activated"
 	weapon
@@ -317,19 +317,20 @@ outfit "Empire Torpedo Activated"
 			"frame rate" 6
 			"random start frame"
 		"hit effect" "empire torpedo ring" 6
-		"velocity" 3
+		"velocity" 2
+		"random velocity" 15
 		"lifetime" 500
 		"acceleration" 1.6
 		"drag" .1
 		"turn" 2
-		"homing" 4
+		"homing" 1
 		"infrared tracking" .15
 		"optical tracking" .19
 		"radar tracking" .21
 		"trigger radius" 30
-		"blast radius" 60
-		"shield damage" 950
-		"hull damage" 950
+		"blast radius" 15
+		"shield damage" 540
+		"hull damage" 565
 		"heat damage" 1800
 		"ion damage" 0.3
 		"energy damage" 0.7
