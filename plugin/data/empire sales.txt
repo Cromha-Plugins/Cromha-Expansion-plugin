@@ -179,3 +179,4 @@ shipyard Cromha-military-shipyard
 	"Osprey (Rebels)"
 	"Blackbird (Empire)"
 	"Flivver (Empire)"
+	"Bounder (Empire)"
