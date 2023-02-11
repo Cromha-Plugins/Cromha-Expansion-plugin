@@ -1,5 +1,5 @@
 # Heavy Warships
-ship "Emipre Wardragon"
+ship "Empire Wardragon"
 	sprite "ship/empire wardragon"
 	thumbnail "thumbnail/empire wardragon"
 	plural "Empire Wardragons"

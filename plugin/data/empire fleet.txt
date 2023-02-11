@@ -20,7 +20,7 @@ fleet cromha-fleet
 	variant 1
 		"Light Empire Destroyer" 1
 		"Empire Drone" 1
-		"Emipre Wardragon"
+		"Empire Wardragon"
 	variant 1
 		"Light Empire Destroyer" 2
 		"Empire Drone" 4

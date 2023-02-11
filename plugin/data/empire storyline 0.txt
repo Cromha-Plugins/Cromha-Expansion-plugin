@@ -110,7 +110,7 @@ mission "Empire: Escort Empire Raven"
 		"empire jobs" += 1
 		give ship "Empire Wardragon"
 		dialog "You land on the reparation station dock and you can already see the Empire Wardragon waiting for you in the spaceport."
-	npc escort save
+	npc accompany save
 		government "Cromha Empire"
 		personality escort timid
 		ship "Empire Wardragon" "empire fleet names"
@@ -173,7 +173,7 @@ mission "Empire: Harvest 25 tons of silicon"
 mission "Empire: Dirige Empire fleet to <planet>"
 	landing
 	name "Empire: Dirige Empire Fleet"
-	description "Dirige an Empire combat fleet to <destination> for engaging battle to Empire Rebels. Destroy the Empire Rebels fleet and land on <planet> to get your payment of <payment>."
+	description "Dirige an Empire combat fleet to Wezen for engaging battle to Empire Rebels. Destroy the Empire Rebels fleet and land on <planet> to get your payment of <payment>."
 	source
 		government "Cromha Empire"
 		not attributes uninhabited
