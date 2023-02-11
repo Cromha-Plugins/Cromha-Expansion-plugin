@@ -28,7 +28,7 @@ git add ../update.bat
 echo Added "update.bat" file
 git add ../update.sh
 echo Added "update.sh" file
-git add ../.scripts/logger.sh
+git add ../logger.sh
 echo Added "logger.sh" file
 echo Added files and directories to commit
 echo Please enter a commit message:
