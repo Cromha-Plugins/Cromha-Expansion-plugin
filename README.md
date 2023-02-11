@@ -1,6 +1,8 @@
 # Cromha-expansion_plugin
 This is a endless sky plugin i make myself. Check out the wiki for more informations or just test the plugin!
 
+For more information, just check the [wiki](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki)!
+
 ## Installation
 ### Step 1: clone the repo on your local computer:
     git clone https://github.com/OcelotWalrus/Cromha-Expansion-plugin.git
