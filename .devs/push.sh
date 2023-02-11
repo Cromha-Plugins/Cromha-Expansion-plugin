@@ -27,7 +27,7 @@ echo Added "update.sh" file
 git add ../logger.sh
 echo Added "logger.sh" file
 git add ../todoes.odt
-echo Added "logger.sh" file
+echo Added "todoes.odt" file
 echo Added files and directories to commit
 echo Please enter a commit message:
 read commitname
