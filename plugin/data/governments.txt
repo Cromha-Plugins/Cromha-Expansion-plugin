@@ -19,6 +19,8 @@ government "Cromha Empire"
 		"Hai Merchant (Human)" 1
 		"Hai (Unfettered)" 1
 		Bounty -1
+		"Unknow" 2
+		"Unknown" 2
 	"death sentence" "caught red-handed"
 	raid empire-rebels-raiders
 	swizzle 0
