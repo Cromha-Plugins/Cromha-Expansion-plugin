@@ -16,16 +16,12 @@ git add ../about.txt
 echo Added "about.txt" file
 git add ../copyright
 echo Added "copyright" file
-git add ../install.bat
-echo Added "install.bat" file
 git add ../install.sh
 echo Added "install.sh" file
 git add ../LICENSE
 echo Added "LICENSE" file
 git add ../README.md
 echo Added "README.md" file
-git add ../update.bat
-echo Added "update.bat" file
 git add ../update.sh
 echo Added "update.sh" file
 git add ../logger.sh
