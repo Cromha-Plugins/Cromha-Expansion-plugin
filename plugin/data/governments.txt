@@ -46,6 +46,7 @@ government "Empire Rebels"
 		Republic -1
 		"Deep Security" -1
 		Hai -5
+		"Merchant" -1
 		"Hai Merchant" -5
 		"Hai Merchant (Sympathizers)" -5
 		"Hai Merchant (Human)" 5
