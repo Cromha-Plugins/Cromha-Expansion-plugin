@@ -183,3 +183,4 @@ shipyard Cromha-military-shipyard
 	"Argosy (Empire)"
 	"Behemoth (Empire)"
 	"Fury (Empire)"
+	"Headhunter (Empire)"
