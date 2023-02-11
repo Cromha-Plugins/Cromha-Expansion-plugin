@@ -157,10 +157,6 @@ ship "Black Manta"
 		under
 	bay "Fuel Pod" 20.5 21
 		under
-	bay "Empire Warship" 45.5 -2
-		under
-	bay "Empire Warship" -45.5 -2
-		under
 	leak "empire leak" 60 50
 	leak "empire flame" 40 80
 	leak "empire big leak" 30 30

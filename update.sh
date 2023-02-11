@@ -10,8 +10,8 @@ echo "Deleting the current plugin data to overwrite with the new one"
 rm -r "$path/Cromha-expansion-plugin"
 echo "Copying the locals plugin data into '$path'"
 cp -r plugin/ "$path"
+sh logger.sh "Finished updating your local repo"
 cd "$path"
 find . -depth -type d -name "plugin" -execdir mv {} "Cromha-expansion-plugin" \;
 sleep 1
 echo "Done"
-sh logger.sh "Finished updating your local repo"
