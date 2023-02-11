@@ -3,6 +3,7 @@ mission "Empire: First Contact"
 	description "Enter in Witdrew Station in Alpha Cromha system to get an Empire Passport."
 	source
 		government "Cromha Empire"
+		not attributes uninhabited
    	destination "Witdrew Station"
 	on offer
 		"reputation: Cromha Empire" += 10
