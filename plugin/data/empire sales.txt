@@ -180,3 +180,4 @@ shipyard Cromha-military-shipyard
 	"Blackbird (Empire)"
 	"Flivver (Empire)"
 	"Bounder (Empire)"
+	"Argosy (Empire)"
