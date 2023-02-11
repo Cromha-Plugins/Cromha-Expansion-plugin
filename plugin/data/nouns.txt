@@ -46,7 +46,7 @@ ship "Void Sprite"
 	"final explode" "pincer beast shatter"
 	description `This creature appears to have an outer shell made of small asteroids held together by strands of carbon nanotubes. It pulls rocks through arms into its main cavity where it processes them to make more shell. The multi-colored hairs pointing back seem to be a drive system of sorts, manipulating the gravity field around the creature to accelerate it. There is no apparent hyperdrive mechanism, but somehow it is able to open a hyperspace window.`
 
-ship "Void Sprute Child"
+ship "Void Sprite Child"
 	# This creature is only in intergalactic space, far away from
 	# civilization, so the player knows no "proper" name for this
 	# creature. Hence the descriptive name.

@@ -87,12 +87,11 @@ mission "Empire: Ring Assist"
 		"reputation: Cromha Empire" += 50
 		"empire jobs" += 1
 		set "license: Empire Navy"
-		give ship "Empire Wardragon" "empire fleet names"
 		give ship "Light Empire Destroyer" "empire fleet names"
 		give ship "Light Empire Destroyer" "empire fleet names"
 		payment
 		payment 300000
-		dialog "You land on <planet> and recieve <payment>. There is an entire Empire fleet of 1 Empire Wardragon and 2 Light Empire Destroyer. You also won an Empire Navy License."
+		dialog "You land on <planet> and recieve <payment>. There is an entire Empire fleet of 2 Light Empire Destroyer. You also won an Empire Navy License."
 	npc kill
 		government "Bounty Hunter"
 		personality staying disables target
@@ -137,7 +136,7 @@ mission "Empire: Scientists Researches in Ember Waste 1"
 		government "Unknow"
 		system "Gerenus"
 		personality staying timid target
-		ship "Pincer Beast" "Void Sprite"
+		ship "Void Sprite"
 		dialog "You scan the void sprite. Time to land on <destination>"
 mission "Empire: Scientists Researches in Ember Waste 2"
 	landing
@@ -178,7 +177,7 @@ mission "Empire: Scientists Researches in Ember Waste 2"
 		government "Unknow"
 		system "Gerenus"
 		personality staying timid target
-		ship "Pincer Beast" "Void Sprite"
+		ship "Void Sprite"
 		conversation
 			scene "thumbnail/void sprite adult"
 			`You bring the rests of the Void Sprite to your ship cargo. Time to bring it to the scientist in <planet>.`
@@ -200,7 +199,7 @@ mission "Empire: Search for Void Sprites"
 			`	"You are very genereous thank you! I will explore the Ember Waste as you asked. I hope you will contact me the soonest posible. This Void Sprite thing is so interesting!" you say with a big smile."`
 			`	You two greets again and he leaves. You look at the piece of paper and can read:`
 			`	"-Gerenus`
-			`	 -Esix"`
+			`	 -Esix`
 			`	 -Nona`
 			`	 -Paeli`
 			`	 -Polerius"`
