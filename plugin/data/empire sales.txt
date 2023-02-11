@@ -177,3 +177,5 @@ shipyard Cromha-military-shipyard
 	"Emipre Wardragon"
 	"Cargo Transporter"
 	"Osprey (Rebels)"
+	"Blackbird (Empire)"
+	"Flivver (Empire)"
