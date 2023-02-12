@@ -156,7 +156,7 @@ outfit "Multiphasic Ammo Rack"
 	cost 10
 	"outfit space" -5
 	ammo "Multiphasic ammo"
-	thumbnail "outfit/multipasic ammo capacitor
+	thumbnail "outfit/multipasic ammo capacitor"
 	"Multiphasic ammo capacity" 300
 	description "This litle rack can stock up to 300 Multiphasic ammo for your Multiphasic Anti-Missile"
 
