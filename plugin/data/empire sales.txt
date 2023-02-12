@@ -110,6 +110,7 @@ outfitter Advanced-systems-outfitter
 	"Fuel Cell"
 	"Cloaking Module"
 	"Plasma Fuel Pod"
+	"Empire Navy Emitter"
 outfitter Advanced-power-outfitter
 	"Empire Hai Chasm Batteries"
 	"Empire Hai Fissure Batteries"

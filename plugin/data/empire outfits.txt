@@ -24,6 +24,16 @@ outfit "Cloaking Module"
 	"operating costs" 350
 	description "The work of the Cloaking Module is a total mistery in the whole galaxy. Some rumours says that only one human in the galaxy known the functionment of the Cloaking Module"
 	
+outfit "Empire Navy Emitter"
+	category "Systems"
+	licenses
+		"Empire Navy"
+	thumbnail "outfit/empire interferance emitter"
+	cost 15000
+	"mass" 5
+	"outfit space" -5
+	"scan interference" 120
+	
 outfit "Countermesure Module"
 	category "Systems"
 	licenses
