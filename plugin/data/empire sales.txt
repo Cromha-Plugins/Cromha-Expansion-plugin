@@ -59,7 +59,7 @@ outfitter Basic-engines-outfitter
 	`RX-120 Reverse Thruster`
 outfitter Advanced-ammo-outfitter
 	"Empire Torpedo Missile"
-	"Empire Torpedo Storage Rack"
+	"Empire Torpedo Rack"
 	"Railgun Slug"
 	"Multiphasic ammo"
 	"Typhoon Torpedo"
@@ -186,3 +186,4 @@ shipyard Cromha-military-shipyard
 	"Behemoth (Empire)"
 	"Fury (Empire)"
 	"Headhunter (Empire)"
+	"Empire Fortress"

@@ -156,7 +156,7 @@ outfit "Multiphasic Ammo Rack"
 	cost 10
 	"outfit space" -5
 	ammo "Multiphasic ammo"
-	thumbnail "outfit/multipasic ammo capacitor"
+	thumbnail "outfit/multiphasic ammo capacitor"
 	"Multiphasic ammo capacity" 300
 	description "This litle rack can stock up to 300 Multiphasic ammo for your Multiphasic Anti-Missile"
 
@@ -385,7 +385,6 @@ outfit "Empire Nuke"
 		"hit effect" "empire nuke residue slow" 10
 		"die effect" "missile death"
 		"inaccuracy" 1
-		"missile strength" 200
 		"velocity" 8
 		"lifetime" 1200
 		"reload" 400
@@ -404,7 +403,7 @@ outfit "Empire Nuke"
 		"shield damage" 15000
 		"hull damage" 12000
 		"hit force" 4000
-		"missile strength" 200
+		"missile strength" 2300
 	description "It has been centuries since the last nuclear war was fought, and until very recently, most people in the galaxy assumed that that era of chaos and destruction was forever behind us..."
 	description "	[Nuclear missiles are a one-shot weapon: each missile occupies a gun slot, and after it is fired, the slot it was in is left empty.]"
 

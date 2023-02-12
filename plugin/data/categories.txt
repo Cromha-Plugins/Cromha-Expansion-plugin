@@ -18,6 +18,7 @@ category "ship"
 	"Fuel Pod"
 	"Bulker"
 	"Cargo Freighter"
+	"Fortress"
 
 # Ships of these types can be carried by other ships.
 category "bay type"

@@ -1,5 +1,5 @@
 ship "Osprey" "Osprey (Rebels)"
-	sprite "ship/osprey"
+	sprite "ship/mosprey"
 	thumbnail "thumbnail/osprey"
 	attributes
 		category "Medium Warship"

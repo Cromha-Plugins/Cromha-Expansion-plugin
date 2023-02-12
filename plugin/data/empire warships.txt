@@ -585,3 +585,208 @@ ship "Empire Drone"
 	explode "empire tiny explosion" 15
 	description "It is at first a Republic Navy drone but Cromha Empire buyed rights of this ship and made its own version to satisfy them."
 	description "	Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay."
+
+# Fortresses
+ship "Empire Fortress"
+	sprite "ship/empire fortress"
+	thumbnail "thumbnail/empire fortress"
+	"swizzle" 0
+	attributes
+		category "Fortress"
+		cost 276900000
+		shields 1996420
+		hull 1320690
+		"required crew" 1940
+		"bunks" 31920
+		"mass" 10000
+		"drag" 84
+		"heat dissipation" .22
+		"solar collection" 4.2
+		"fuel capacity" 200
+		"cargo space" 3400
+		"outfit space" 7580
+		"weapon capacity" 3500
+		"engine capacity" 1200
+		"atmosphere scan" 100
+		weapon
+			"blast radius" 4000
+			"shield damage" 800000
+			"hull damage" 400000
+			"hit force" 120000
+	outfits
+		"Multiphasic Anti-Missile" 10
+		"Multiphasic ammo" 7500
+		"Multiphasic Ammo Rack" 5
+
+		"Ion Proton Turret" 12
+		"Electron Turret" 8
+
+		"Empire Torpedo Bank" 6
+		"Empire Torpedo Rack" 10
+		"Empire Torpedo Missile" 220
+
+		"Thunderhead Launcher" 6
+		"Thunderhead Storage Array" 20
+		"Thunderhead Missile" 640
+
+		"Cluster Mine Layer" 6
+		"Cluster Mine" 282
+		"Cluster Mine Rack" 20
+
+		"Empire Nuke" 8
+
+		"Empire Hai Valley Batteries" 12
+		"RC-X4 Multiphasic Reactor" 25
+		"RC-X3 Multiphasic Reactor" 15
+		"RC-X2 Multiphasic Reactor" 8
+		"RC-X1 Multiphasic Reactor" 10
+		"Multiphasic Cooler" 8
+		"Countermesure Module" 4
+		"Mineria Key Stone"
+		"Cloaking Module"
+		"Empire Navy Emitter" 6
+		"Self Destruct Module" 4
+		"Fuel Cell" 4
+		"Empire Shielding Core" 8
+		"Plasma Fuel Pod" 8
+
+		"Teleportation Dock" 50
+		"Phasic Rifle" 940
+		"Phasic Grenades" 540
+		
+		`RC-220 Atomic Thruster` 2
+		`RC-225 Atomic Steering` 2
+		`RX-200 Reverse Thruster` 4
+		"Plasma Drive"
+	turret -129.5 -176 "Ion Proton Turret"
+	turret 129.5 -176 "Ion Proton Turret"
+	turret -18 18 "Ion Proton Turret"
+	turret -75 164 "Electron Turret"
+	turret -22 -230.5 "Electron Turret"
+	turret 21 -196.5 "Electron Turret"
+	turret -41.5 -100.5 "Electron Turret"
+	turret -122.5 -349 "Electron Turret"
+	turret 63.5 130.5 "Ion Proton Turret"
+	turret 0 -439 "Ion Proton Turret"
+	turret -154 -86 "Electron Turret"
+	turret 145.5 184 "Ion Proton Turret"
+	turret -147.5 172.5 "Ion Proton Turret"
+	turret 129 -299 "Ion Proton Turret"
+	turret -141.5 -286.5 "Ion Proton Turret"
+	turret 39 -337.5 "Electron Turret"
+	turret -131 -409.5 "Ion Proton Turret"
+	turret 28 -471.5"Ion Proton Turret"
+	turret -77.5 283 "Ion Proton Turret"
+	turret 28 310.5 "Electron Turret"
+	gun -163 -434 "Empire Torpedo Bank"
+	gun -178.5 -419.5 "Empire Torpedo Bank"
+	gun -185 83 "Empire Torpedo Bank"
+		angle 180
+	gun 163 -434 "Empire Torpedo Bank"
+	gun 178.5 -419.5 "Empire Torpedo Bank"
+	gun 185 83 "Empire Torpedo Bank"
+		angle 180
+	gun -163 -434 "Thunderhead Launcher"
+	gun -178.5 -419.5 "Thunderhead Launcher"
+	gun -185 83 "Thunderhead Launcher"
+		angle 180
+	gun 163 -434 "Thunderhead Launcher"
+	gun 178.5 -419.5 "Thunderhead Launcher"
+	gun 185 83 "Thunderhead Launcher"
+		angle 180
+	gun -163 -434 "Cluster Mine Layer"
+	gun -178.5 -419.5 "Cluster Mine Layer"
+	gun -185 83 "Cluster Mine Layer"
+		angle 180
+	gun 163 -434 "Cluster Mine Layer"
+	gun 178.5 -419.5 "Cluster Mine Layer"
+	gun 185 83 "Cluster Mine Layer"
+		angle 180
+	gun 55 -325 "Empire Nuke"
+	gun 51.5 -409 "Empire Nuke"
+	gun -45.5 -403.5 "Empire Nuke"
+	gun -95.5 168.5 "Empire Nuke"
+	gun 97 171 "Empire Nuke"
+	gun -68 231.5 "Empire Nuke"
+	gun 72 234 "Empire Nuke"
+	gun -127 1.5 "Empire Nuke"
+	gun 124.5 -303.5 "Empire Nuke"
+	turret 40 -403.5 "Multiphasic Anti-Missile"
+	turret -55.5 -312 "Multiphasic Anti-Missile"
+	turret 135 -165.5 "Multiphasic Anti-Missile"
+	turret -121.5 -164 "Multiphasic Anti-Missile"
+	turret -124 24 "Multiphasic Anti-Missile"
+	turret 107 86 "Multiphasic Anti-Missile"
+	turret -97.5 165 "Multiphasic Anti-Missile"
+	turret 27.5 299 "Multiphasic Anti-Missile"
+	"reverse engine" -90 -464 0.8
+	"reverse engine" 90 -464 0.8
+	"reverse engine" -115.5 -445.5 0.7
+	"reverse engine" 115.5 -445.5 0.7
+	"steering engine" -90 -464
+		zoom 0.7
+		left
+		angle 180
+	"steering engine" 90 -464
+		zoom 0.7
+		right
+		angle 180
+	"steering engine" -115.5 -445.5
+		zoom 0.6
+		left
+		angle 180
+	"steering engine" 115.5 -445.5
+		zoom 0.6
+		right
+		angle 180
+	"steering engine" -152.5 -270
+		angle 45
+		right
+		zoom 0.6
+	"steering engine" 152.5 -270
+		angle 315
+		left
+		zoom 0.6
+	"steering engine" -172 169
+		angle 135
+		left
+		zoom 0.6
+	"steering engine" 172 169
+		angle 225
+		right
+		zoom 0.6
+	"steering engine" -135.5 444
+		zoom 1.2
+		right
+	"steering engine" 135.5 444
+		zoom 1.2
+		left
+	engine 0 481.5
+		zoom 1.7
+	engine -135.5 444
+		zoom 1.6
+	engine 135.5 444
+		zoom 1.6
+	engine -88.5 430.5
+		zoom 0.7
+	engine 88.5 430.5
+		zoom 0.7
+	engine -77 436
+		zoom 0.7
+	engine 77 436
+		zoom 0.7
+	engine -46 454.5
+		zoom 0.8
+	engine 46 454.5
+		zoom 0.8
+	leak "empire flame" 75
+	leak "empire leak" 20
+	leak "empire big leak" 50
+	explode "empire tiny explosion" 30
+	explode "empire small explosion" 45
+	explode "empire medium explosion" 50
+	explode "empire medium explosion" 40
+	explode "empire huge explosion" 50
+	"final explode" "black manta explosion"
+	description "Korsmanath A'awojs, named in memory of the Korath home system, are massive nomadic habitats that hold much of their remaining population. True flying cities, they could be self-contained miniature worlds were it not for their heavy defensive armament and reliance on unsustainable materials, methods, and sources of power."
+	description "	Commission of new Korsmanath A'awojs is a resource-demanding, labor-intensive, painstaking process fraught with political intrigue. Navarchs fight with the civilian government for resources and yard time they would rather devote to building raiding and defensive fleets, civilians vie with each other for a place on the next ship, and planning committees argue with engineers over what methods and technologies to use. This leads to construction delays, corner-cutting, and over-militarization of the design at best, and violent feuds at worst."
