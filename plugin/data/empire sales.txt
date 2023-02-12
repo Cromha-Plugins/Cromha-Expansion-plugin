@@ -69,6 +69,7 @@ outfitter Advanced-ammo-outfitter
 	"Thunderhead Missile"
 	"Thunderhead Storage Array"
 	"Railgun Slug Rack"
+	"Multiphasic Ammo Rack"
 outfitter Advanced-weapon-outfitter
 	"Empire Torpedo Bank"
 	"Typhoon Launcher"

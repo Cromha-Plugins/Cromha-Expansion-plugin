@@ -149,6 +149,15 @@ outfit "Multiphasic ammo"
 	"Multiphasic ammo capacity" -1
 	description "It is the ammunition for the Multiphasic Anti-Missile. Each Multiphasic Anti-Missile can hold 600 of them. You cannot install an Multiphasic Anti-Missile ammuniton unless you have installed and Multiphasic Anti-Missile."
 
+outfit "Multiphasic Ammo Rack"
+	category "Amunition
+	licenses
+		"Empire Contributor"
+	cost 10
+	thumbnail "outfit/multipasic ammo capacitor
+	"Multiphasic ammo capacity" 300
+	description "This litle rack can stock up to 300 Multiphasic ammo for your Multiphasic Anti-Missile"
+
 outfit "Antimatter Railgun"
 	category "Secondary Weapons"
 	cost 20000

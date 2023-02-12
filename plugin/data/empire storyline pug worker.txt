@@ -1,5 +1,5 @@
 mission "Empire: Transport Pugs Vacancers"
-	name "Empire: Transport Pugs Vacancers"
+	name "Pug: Transport Pugs Vacancers"
 	description "Transport Pugs Vacancers to <destination>."
 	landing
 	passengers 3
@@ -8,7 +8,7 @@ mission "Empire: Transport Pugs Vacancers"
 		has "Empire: Visit Pugs: done"
 	on offer
 		conversation
-			`As you land on Vara Pug, you see some sorts of aliens coming to you: it's Pugs. You show them where the cargo is stocked. You approach of one of their ship, they are extremly smooth and seems highly advanced in technology.`
+			`As you land on Vara Pug, you see some sorts of aliens coming to you: it's Pugs. You show them where the cargo is stocked. You approach of one of their ship, they are extremely smooth and seems highly advanced in technology.`
 			`	You stay some time in the spaceport to look at the Pugs's ships. You go back to your ship to do some things when you hear a noise near the ship arrimage. You go to see what is it and see an Pug.`
 			`	The Pug starts the conversation: "Hi!"`
 			`	You response to him and say "Great to meet you. But how do you know my language?"`
@@ -23,4 +23,27 @@ mission "Empire: Transport Pugs Vacancers"
 	on complete
 		dialog "You land on <planet> and greets the Pug. He says that he will contact you in a few months when i will find some sort of job."
 		"reputation: Pug" += 10
-        "empire worker jobs" += 1
+		"empire worker jobs" += 1
+		
+#mission "Pug: Crodust Shipyard"
+	name "Pug: Crodust Shipyard"
+	description "The Pug worker that bringed to The Empire Ringworld some time ago wants to go to Crodust. Escort him to Crodust so he can buy his new ship."
+	spaceport
+	destination "Crodust"
+	to offer
+		has "Empire: Transport Pugs Vacancers: done"
+		random < 8
+	source "Empire Ring"
+	on offer
+		set "Pug Crystal" 1
+		conversation
+			`	As you enter the spaceport and go for a coffee in a bar, you see a pug guy that you already meet buy you don't know how... You approach him and ask:`
+			`	"Hi! Sorry to borrow you but i feel we already meet somewhere?"`
+			`	"Oh! Yes of course! Remember me? You bringed me to this fabulous station two months ago i think."`
+			`	"Yes now i remember, how are you since the last time?" You say to him.`
+			`	"Pretty good, i wanna thank you for bringing me here, i know have a job that i like and i have no more money problems anymore! I would like to give you something but i don't know what..."`
+			`	"All the pleasure is for me, i don't need any kind of recompense."`
+			`	"Here! i give you this crystal, it carries good luck."`
+			`You can see a sort of yellow crystal in his hands. It seems to have secrets power.`
+			
+			`
