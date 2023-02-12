@@ -38,7 +38,7 @@ ship "Black Manta"
 		"Korath Detainer" 2
 
 		"Empire Torpedo Missile" 340
-		"Empire Torpedo Storage Rack" 30
+		"Empire Torpedo Rack" 30
 		"Railgun Slug" 1120
 		"Railgun Slug Rack" 2
 		

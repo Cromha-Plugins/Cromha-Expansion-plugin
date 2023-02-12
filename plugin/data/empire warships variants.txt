@@ -33,7 +33,7 @@ ship "Empire Wardragon" "Empire Wardragon (Ion Proton)"
 		"Ion Proton Gun" 6
 		"Empire Torpedo Bank" 2
 		"Empire Torpedo Missile" 240
-		"Empire Torpedo Storage Rack" 20
+		"Empire Torpedo Rack" 20
 		"Antimatter Railgun" 2
 		"Railgun Slug" 560
 		"Railgun Slug Rack"
@@ -137,7 +137,7 @@ ship "Empire Wardragon" "Empire Wardragon (Electron Beam)"
 		"Electron Beam" 6
 		"Empire Torpedo Bank" 2
 		"Empire Torpedo Missile" 240
-		"Empire Torpedo Storage Rack" 20
+		"Empire Torpedo Rack" 20
 		"Antimatter Railgun" 2
 		"Railgun Slug" 560
 		"Railgun Slug Rack"
@@ -241,7 +241,7 @@ ship "Empire Wardragon" "Empire Wardragon (Plasma Repeater)"
 		"Plasma Repeater" 6
 		"Empire Torpedo Bank" 2
 		"Empire Torpedo Missile" 240
-		"Empire Torpedo Storage Rack" 20
+		"Empire Torpedo Rack" 20
 		"Antimatter Railgun" 2
 		"Railgun Slug" 560
 		"Railgun Slug Rack"
@@ -345,7 +345,7 @@ ship "Empire Wardragon" "Empire Wardragon (Twin Modified Blaster)"
 		"Twin Modified Blaster" 6
 		"Empire Torpedo Bank" 2
 		"Empire Torpedo Missile" 240
-		"Empire Torpedo Storage Rack" 20
+		"Empire Torpedo Rack" 20
 		"Antimatter Railgun" 2
 		"Railgun Slug" 560
 		"Railgun Slug Rack"

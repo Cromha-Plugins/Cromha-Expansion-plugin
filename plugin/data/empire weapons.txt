@@ -154,6 +154,8 @@ outfit "Multiphasic Ammo Rack"
 	licenses
 		"Empire Contributor"
 	cost 10
+	"outfit space" -5
+	ammo "Multiphasic ammo"
 	thumbnail "outfit/multipasic ammo capacitor
 	"Multiphasic ammo capacity" 300
 	description "This litle rack can stock up to 300 Multiphasic ammo for your Multiphasic Anti-Missile"
@@ -230,7 +232,7 @@ outfit "antimatter railgun stage 2"
 		phasing
 		"tracking" 1
 
-outfit "Empire Torpedo Storage Rack"
+outfit "Empire Torpedo Rack"
 	category "Ammunition"
 	cost 8400
 	licenses

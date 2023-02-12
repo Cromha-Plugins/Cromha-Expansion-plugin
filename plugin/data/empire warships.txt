@@ -34,7 +34,7 @@ ship "Empire Wardragon"
 		"Empire Particle gun" 6
 		"Empire Torpedo Bank" 2
 		"Empire Torpedo Missile" 240
-		"Empire Torpedo Storage Rack" 20
+		"Empire Torpedo Rack" 20
 		"Antimatter Railgun" 2
 		"Railgun Slug" 560
 		"Railgun Slug Rack"
@@ -138,7 +138,7 @@ ship "Heavy Empire Destroyer"
 		"Electron Turret" 5
 		"Ion Proton Turret" 5
 		"Empire Torpedo Bank" 6
-		"Empire Torpedo Storage Rack" 30
+		"Empire Torpedo Rack" 30
 		"Empire Torpedo Missile" 420
 
 		"RC-X4 Multiphasic Reactor" 8
