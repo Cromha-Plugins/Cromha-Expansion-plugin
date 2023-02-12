@@ -150,7 +150,7 @@ outfit "Multiphasic ammo"
 	description "It is the ammunition for the Multiphasic Anti-Missile. Each Multiphasic Anti-Missile can hold 600 of them. You cannot install an Multiphasic Anti-Missile ammuniton unless you have installed and Multiphasic Anti-Missile."
 
 outfit "Multiphasic Ammo Rack"
-	category "Amunition"
+	category "Ammunition"
 	licenses
 		"Empire Contributor"
 	cost 10
