@@ -13,8 +13,8 @@ outfit "Empire Particle gun"
 		sound "particle"
 		"hit effect" "empire particle impact"
 		"inaccuracy" .2
-		"velocity" 30
-		"lifetime" 25
+		"velocity" 35
+		"lifetime" 30
 		"reload" 20
 		"firing energy" 35
 		"firing force" 10
