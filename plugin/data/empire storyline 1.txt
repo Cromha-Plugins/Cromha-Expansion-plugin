@@ -276,9 +276,7 @@ mission "Empire: Bring Resources"
 	landing
 	name "Empire: Bring Resources"
 	description "Bring the following resources to <destination> for the Black Manta:  25 tons of Titanium, 8 tons of Gold, 80 tons of Neodyium, 65 tons of Silicon, 6 tons of Uranium and 1 Plasma Drive. Payment is <payment>."
-	source
-		government "Cromha Empire"
-		not attributes uninhabited
+	source "Black Manta Spacial Dock"
 	destination "Black Manta Spacial Dock"
 	to offer
 		has "Empire: Get Manta Plans: done"
@@ -310,7 +308,6 @@ mission "Empire: Bring Resources"
 		outfit "Silicon" -65
 		outfit "Uranium" -6
 		outfit "Neodymium" -80
-		require "Plasma Drive" 1
 		outfit "Plasma Drive" -1
 		payment
 		payment 3000000
