@@ -174,7 +174,7 @@ shipyard Cromha-military-shipyard
 	"Empire Destroyer yll'e"
 	"Empire Destroyer yll'a"
 	"Empire Bulker"
-	"Emipre Wardragon"
+	"Empire Wardragon"
 	"Cargo Transporter"
 	"Osprey (Rebels)"
 	"Blackbird (Empire)"

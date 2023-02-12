@@ -43,7 +43,7 @@ mission "Empire: Repair Empire Ringworld"
 			`	You try to approach some guy to ask about what appened:`
 			`	"Hi Sir. Could you tell me about what appened?" You say.`
 			`	"Hi, Captain <last>. Since the last combat with the Empire Rebels, the Empire Ringworld got heavly endommaged as you see. the B, C and E ring has break points. Some circuits are endommaged too but that's not a big deal."`
-			`	"How can i help you in ny way?"`
+			`	"How can i help you in any way?"`
 			`	"To Repair the B ring we need some materials and stuff. If you could get 10 tons of Crystal, 15 tons of Iron and 15 Phasic Rifles it'll be great. Bring them back to me in the Empire Ring Station."`
 			`	"Sure, it'll be right back"`
 			``
