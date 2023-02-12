@@ -654,9 +654,9 @@ ship "Empire Fortress"
 		"Phasic Rifle" 940
 		"Phasic Grenades" 540
 		
-		`RC-220 Atomic Thruster` 2
-		`RC-225 Atomic Steering` 2
-		`RX-200 Reverse Thruster` 4
+		`RC-220 Atomic Thruster` 4
+		`RC-225 Atomic Steering` 4
+		`RX-200 Reverse Thruster` 8
 		"Plasma Drive"
 	turret -129.5 -176 "Ion Proton Turret"
 	turret 129.5 -176 "Ion Proton Turret"
@@ -719,6 +719,32 @@ ship "Empire Fortress"
 	turret 107 86 "Multiphasic Anti-Missile"
 	turret -97.5 165 "Multiphasic Anti-Missile"
 	turret 27.5 299 "Multiphasic Anti-Missile"
+	turret -27.5 299 "Multiphasic Anti-Missile"
+	turret 107 -86 "Multiphasic Anti-Missile"
+	bay "Empire Warship" 61.5 -175.5
+		over
+	bay "Empire Warship" 63.5 -144.5
+		over
+	bay "Empire Warship" 58.5 -117
+		over
+	bay "Empire Warship" 24 -173
+		over
+	bay "Empire Warship" 22 -147.5
+		over
+	bay "Empire Warship" 24.5 -116
+		over
+	bay "Empire Warship" -61.5 -175.5
+		over
+	bay "Empire Warship" -63.5 -144.5
+		over
+	bay "Empire Warship" -58.5 -117
+		over
+	bay "Empire Warship" -24 -173
+		over
+	bay "Empire Warship" -22 -147.5
+		over
+	bay "Empire Warship" -24.5 -116
+		over
 	"reverse engine" -90 -464 0.8
 	"reverse engine" 90 -464 0.8
 	"reverse engine" -115.5 -445.5 0.7
