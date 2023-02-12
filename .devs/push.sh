@@ -1,4 +1,5 @@
 date=$(date)
+branchname=$(cat .branchname)
 
 printf "Wanna update the local repo before pushing (y/n)? "
 read answer
@@ -7,43 +8,38 @@ if [ "$answer" != "${answer#[Yy]}" ] ;then
 else
     echo not updating local repo
 fi
-echo Adding files and directories to commit
+echo Adding files to the commit...
+echo -ne '#####                     (33%)\r'
+sleep 1
+echo -ne '#############             (66%)\r'
+sleep 1
+echo -ne '#######################   (100%)\r'
+echo -ne '\n'
 git add ../plugin/
-echo Added "plugin" directory
 git add ../.devs/
-echo Added ".devs" directory
 git add ../about.txt
-echo Added "about.txt" file
 git add ../copyright
-echo Added "copyright" file
 git add ../install.sh
-echo Added "install.sh" file
 git add ../LICENSE
-echo Added "LICENSE" file
 git add ../README.md
-echo Added "README.md" file
 git add ../update.sh
-echo Added "update.sh" file
 git add ../logger.sh
-echo Added "logger.sh" file
 git add ../todoes.odt
-echo Added "todoes.odt" file
-echo Added files and directories to commit
 echo Please enter a commit message:
 read commitname
+echo Pushing the commit...
+echo -ne '#####                     (33%)\r'
+sleep 1
+echo -ne '#############             (66%)\r'
+sleep 1
+echo -ne '#######################   (100%)\r'
+echo -ne '\n'
 git commit -m "$commitname"
-echo created commit
-echo Please enter a branch name for your commit:
-read branchname
 git branch -M "$branchname"
-echo selected branch "$branchname"
 git push -u origin "$branchname"
 git checkout main
-echo merging branch main with branch $branchname
 git merge "$branchname"
-echo pushing "$branchname" to main branch
 git push -u origin main
-echo deleting branch "$branchname"
 git branch --delete "$branchname"
-echo "Finished pushing your commit to the main branch in $date"
 sh ../logger.sh "Finished pushing your commit to the main branch"
+echo "Done"

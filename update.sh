@@ -1,14 +1,14 @@
 path=$(cat .settings)
 date=$(date)
 
-# merging main into origin
-echo started updating your local repo from github repo
 git pull origin main
-echo finishd updating your local repo from github repo
-# running install.sh to reinstall the plugin
-echo "Deleting the current plugin data to overwrite with the new one"
+echo -ne '#####                     (33%)\r'
+sleep 1
+echo -ne '#############             (66%)\r'
+sleep 1
+echo -ne '#######################   (100%)\r'
+echo -ne '\n'
 rm -r "$path/Cromha-expansion-plugin"
-echo "Copying the locals plugin data into '$path'"
 cp -r plugin/ "$path"
 sh logger.sh "Finished updating your local repo"
 cd "$path"
