@@ -1,13 +1,14 @@
 path=$(cat .settings)
 date=$(date)
 
-git pull origin main
+echo "Starting updating your local repo:"
 echo -ne '#####                     (33%)\r'
 sleep 1
 echo -ne '#############             (66%)\r'
 sleep 1
 echo -ne '#######################   (100%)\r'
 echo -ne '\n'
+git pull origin main
 rm -r "$path/Cromha-expansion-plugin"
 cp -r plugin/ "$path"
 sh logger.sh "Finished updating your local repo"

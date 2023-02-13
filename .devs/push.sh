@@ -24,7 +24,6 @@ git add ../LICENSE
 git add ../README.md
 git add ../update.sh
 git add ../logger.sh
-git add ../todoes.odt
 echo Please enter a commit message:
 read commitname
 echo Pushing the commit...
