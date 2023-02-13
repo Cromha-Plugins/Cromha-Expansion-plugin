@@ -1,0 +1,827 @@
+system "All'Estros"
+	hazard "Far Empire Space Hazard" 9000
+	pos 440 -490
+	attributes inhabited rich research military "far empire space"
+	government "Cromha Empire"
+	fleet cromha-fleet 1100
+	fleet cromha-transporters 850
+	fleet mineria-transports 700
+	fleet cromha-merchants 800
+	haze _menu/haze-cyan
+	link "Lifdot"
+	link "Ring Wartrue"
+	trade Clothing 215
+	trade Electronics 816
+	trade Equipment 487
+	trade Food 265
+	trade "Heavy Metals" 1102
+	trade Industrial 711
+	trade "Luxury Goods" 1014
+	trade Medical 797
+	trade Metal 479
+	trade Plastic 364
+	minables crystal 13 5.16891
+	object
+		sprite "star/k0"
+			scale 5
+		distance 1100
+		period 110
+		object "Limat"
+			sprite "planet/desert6-b"
+				scale 2.4
+			distance 800
+			period 500
+
+planet "Limat"
+	attributes inhabited poor paradise north "far empire space"
+	outfitter Base-outfitter
+	outfitter Basic-ammo-outfitter
+	outfitter Basic-weapons-outfitter
+	outfitter Advanced-systems-outfitter
+	outfitter Advanced-power-outfitter
+	outfitter Advanced-engines-outfitter
+	landscape "land/Limat"
+	spaceport "A small little friendly spaceport. The are a lot of spectacles the evening and a lot of good bars the night. A great place to invite your friends or anyone else."
+	spaceport "But be aware of some people here, there are some xenophobist that will annoy you if you look at them. Wanna a tip? Just avoid them..."
+	description "This is the most advanced human planet in the whole galaxy. It is a great desert with lot of xenophobist but it's not that hot. You will fin lot of hunting down missions near this planet."
+	"required reputation" 0
+	bribe 0.7
+	security 1
+
+system "Ring Wartrue"
+	hazard "Far Empire Space Hazard" 9000
+	pos 530 -490
+	attributes inhabited rich research military "far empire space"
+	government "Cromha Empire"
+	fleet cromha-fleet 2000
+	fleet mineria-transports 1600
+	fleet "Small Hai" 2200
+	fleet "Quarg" 4300
+	fleet "Wanderer Freight" 2600
+	fleet "Wanderer Defense" 2600
+	fleet cromha-merchants 1200
+	fleet "Small Remnant" 4300
+	fleet "Large Remnant" 5000
+	haze _menu/haze-cyan
+	link "All'Estros"
+	link "Irn'o"
+	link "Wel'y"
+	link "Phil'Ira"
+	trade Clothing 215
+	trade Electronics 816
+	trade Equipment 487
+	trade Food 265
+	trade "Heavy Metals" 1102
+	trade Industrial 711
+	trade "Luxury Goods" 1014
+	trade Medical 797
+	trade Metal 479
+	trade Plastic 364
+	minables crystal 2 5.16891
+	object
+		sprite star/y3
+		period 10
+	object "Empire Ring"
+		sprite "planet/empire ringworld"
+			scale 0.5
+		distance 812
+		period 349.820
+	object
+		sprite "planet/empire ringworld"
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 20
+	object
+		sprite "planet/empire ringworld broken left"
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 40
+	object
+		sprite "planet/empire ringworld broken right"
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 60
+	object
+		sprite "planet/empire ringworld"
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 80
+	object "Empire Hai Ring"
+		sprite "planet/empire ringworld"
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 100
+	object
+		sprite "planet/empire ringworld"
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 120
+	object
+		sprite "planet/empire ringworld"
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 140
+	object
+		sprite "planet/empire ringworld"
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 160
+	object
+		sprite "planet/empire ringworld"
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 180
+	object "Empire Quarg Ring"
+		sprite "planet/empire ringworld"
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 200
+	object
+		sprite "planet/empire ringworld"
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 220
+	object
+		sprite "planet/empire ringworld"
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 240
+	object "Empire Wanderer Ring"
+		sprite "planet/empire ringworld"
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 260
+	object
+		sprite "planet/empire ringworld"
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 280
+	object
+		sprite "planet/empire ringworld"
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 300
+	object
+		sprite "planet/empire ringworld"
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 320
+	object
+		sprite "planet/empire ringworld"
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 340
+	object "Empire Remnant Ring"
+		sprite "planet/empire panels1"
+			scale 0.5
+		distance 800
+		period 349.820
+		offset 21
+	object
+		sprite "planet/empire panels2"
+			scale 0.5
+		distance 800
+		period 349.820
+		offset 32
+	object
+		sprite "planet/empire panels1"
+			scale 0.5
+		distance 800
+		period 349.820
+		offset 44
+	object
+		sprite "planet/empire panels3"
+			scale 0.5
+		distance 800
+		period 349.820
+		offset 53
+	object
+		sprite "planet/empire panels2"
+			scale 0.5
+		distance 800
+		period 349.820
+		offset 62
+	object
+		sprite "planet/empire panels1"
+			scale 0.5
+		distance 800
+		period 349.820
+		offset 66
+	object
+		sprite "planet/empire panels4"
+			scale 0.5
+		distance 800
+		period 349.820
+		offset 73
+	object
+		sprite "planet/empire panels5"
+			scale 0.5
+		distance 800
+		period 349.820
+		offset 87
+	object
+		sprite "planet/empire panels3"
+			scale 0.5
+		distance 800
+		period 349.820
+		offset 95
+	object
+		sprite "planet/emopire panels2"
+			scale 0.5
+		distance 800
+		period 349.820
+		offset 104
+	object
+		sprite "planet/empire panels4"
+			scale 0.5
+		distance 800
+		period 349.820
+		offset 116
+	object
+		sprite "planet/empire panels1"
+			scale 0.5
+		distance 800
+		period 349.820
+		offset 125
+	object
+		sprite "planet/empire panels2"
+			scale 0.5
+		distance 800
+		period 349.820
+		offset 134
+	object
+		sprite "planet/empire panels2"
+			scale 0.5
+		distance 800
+		period 349.820
+		offset 149
+	object
+		sprite "planet/empire panels2"
+			scale 0.5
+		distance 830
+		period 349.820
+		offset 29
+	object
+		sprite "planet/empire panels1"
+			scale 0.5
+		distance 830
+		period 349.820
+		offset 38
+	object
+		sprite "planet/empire panels1"
+			scale 0.5
+		distance 830
+		period 349.820
+		offset 42
+	object
+		sprite "planet/empire panels3"
+			scale 0.5
+		distance 830
+		period 349.820
+		offset 55
+	object
+		sprite "planet/empire panels2"
+			scale 0.5
+		distance 830
+		period 349.820
+		offset 64
+	object
+		sprite "planet/empire panels5"
+			scale 0.5
+		distance 830
+		period 349.820
+		offset 78
+	object
+		sprite "planet/empire panels3"
+			scale 0.5
+		distance 830
+		period 349.820
+		offset 92
+	object
+		sprite "planet/empire panels5"
+			scale 0.5
+		distance 830
+		period 349.820
+		offset 106
+	object
+		sprite "planet/empire panels2"
+			scale 0.5
+		distance 830
+		period 349.820
+		offset 120
+	object
+		sprite "planet/empire panels1"
+			scale 0.5
+		distance 830
+		period 349.820
+		offset 132
+	object
+		sprite "planet/empire panels1"
+			scale 0.5
+		distance 830
+		period 349.820
+		offset 145
+	object
+		sprite "planet/empire panels1"
+			scale 0.5
+		distance 800
+		period 349.820
+		offset 185
+	object
+		sprite "planet/empire panels3"
+			scale 0.5
+		distance 800
+		period 349.820
+		offset 197
+	object
+		sprite "planet/empire panels2"
+			scale 0.5
+		distance 800
+		period 349.820
+		offset 207
+	object
+		sprite "planet/empire panels5"
+			scale 0.5
+		distance 800
+		period 349.820
+		offset 218
+	object
+		sprite "planet/empire panels2"
+			scale 0.5
+		distance 800
+		period 349.820
+		offset 231
+	object
+		sprite "planet/empire panels2"
+			scale 0.5
+		distance 800
+		period 349.820
+		offset 244
+	object
+		sprite "planet/empire panels2"
+			scale 0.5
+		distance 830
+		period 349.820
+		offset 198
+	object
+		sprite "planet/empire panels3"
+			scale 0.5
+		distance 830
+		period 349.820
+		offset 212
+	object
+		sprite "planet/empire panels4"
+			scale 0.5
+		distance 830
+		period 349.820
+		offset 237
+
+planet "Empire Ring"
+	government "Cromha Empire"
+	attributes inhabited rich north "far empire space" station
+	outfitter Base-outfitter
+	outfitter Advanced-ammo-outfitter
+	outfitter Advanced-weapon-outfitter
+	outfitter Advanced-systems-outfitter
+	outfitter Advanced-power-outfitter
+	outfitter Advanced-engines-outfitter
+	landscape "land/Empire_ring"
+	description "The biggest ring station of the whole galaxy. It is in the center of the Far Empire Space. You will ind many missions and advanced outfits here. There is also lot of criminality so security is at the most."
+	spaceport "A huge spaceport where you can find almost anything you can imagine: Bars, pretty ships, hotels and even more. It is an easy place to mae money by completing missions."
+	bribe 1.7
+	security 1.8
+
+planet "Empire Hai Ring"
+	government "Hai"
+	attributes inhabited rich north "far empire space" station hai
+	landscape "land/Empire_ring"
+	outfitter Base-outfitter
+	outfitter "Hai Advanced"
+	outfitter Basic-ammo-outfitter
+	outfitter Basic-systems-outfitter
+	outfitter Basic-power-outfitter
+	description "The biggest ring station of the whole galaxy. It is in the center of the Far Empire Space. You will ind many missions and advanced outfits here. There is also lot of criminality so security is at the most."
+	spaceport "A huge spaceport where you can find almost anything you can imagine: Bars, pretty ships, hotels and even more. It is an easy place to mae money by completing missions."
+	bribe 1.7
+	security 1.8
+
+planet "Empire Quarg Ring"
+	government "Quarg"
+	attributes inhabited rich north "far empire space" station quarg
+	landscape "land/Empire_ring"
+	outfitter Base-outfitter
+	outfitter Quarg-Basics
+	outfitter Basic-ammo-outfitter
+	outfitter Basic-systems-outfitter
+	outfitter Basic-power-outfitter
+	description "The biggest ring station of the whole galaxy. It is in the center of the Far Empire Space. You will ind many missions and advanced outfits here. There is also lot of criminality so security is at the most."
+	spaceport "A huge spaceport where you can find almost anything you can imagine: Bars, pretty ships, hotels and even more. It is an easy place to mae money by completing missions."
+	bribe 1.7
+	security 1.8
+
+planet "Empire Wanderer Ring"
+	government "Wanderer"
+	attributes inhabited rich north "far empire space" station wanderer
+	landscape "land/Empire_ring"
+	outfitter Base-outfitter
+	outfitter "Wanderer Basics"
+	outfitter Basic-ammo-outfitter
+	outfitter Basic-systems-outfitter
+	outfitter Basic-power-outfitter
+	description "The biggest ring station of the whole galaxy. It is in the center of the Far Empire Space. You will ind many missions and advanced outfits here. There is also lot of criminality so security is at the most."
+	spaceport "A huge spaceport where you can find almost anything you can imagine: Bars, pretty ships, hotels and even more. It is an easy place to mae money by completing missions."
+	bribe 1.7
+	security 1.8
+
+planet "Empire Remnant Ring"
+	government "Remnant"
+	attributes inhabited rich north "far empire space" station remnant
+	landscape "land/Empire_ring"
+	outfitter Base-outfitter
+	outfitter "Remnant"
+	outfitter "Void Sprite Parts"
+	outfitter Basic-ammo-outfitter
+	outfitter Basic-systems-outfitter
+	outfitter Basic-power-outfitter
+	description "The biggest ring station of the whole galaxy. It is in the center of the Far Empire Space. You will ind many missions and advanced outfits here. There is also lot of criminality so security is at the most."
+	spaceport "A huge spaceport where you can find almost anything you can imagine: Bars, pretty ships, hotels and even more. It is an easy place to mae money by completing missions."
+	bribe 1.7
+	security 1.8
+
+system "Irn'o"
+	hazard "Far Empire Space Hazard" 9000
+	pos 610 -490
+	attributes inhabited rich research military "far empire space"
+	government "Cromha Empire"
+	fleet cromha-fleet 2000
+	fleet mineria-transports 1600
+	fleet "Small Hai" 2200
+	fleet cromha-merchants 300
+	fleet "Ayym" 2000
+	haze _menu/haze-cyan
+	link "Ring Wartrue"
+	link "Nugg'et"
+	link "As'har"
+	trade Clothing 215
+	trade Electronics 816
+	trade Equipment 487
+	trade Food 265
+	trade "Heavy Metals" 1102
+	trade Industrial 711
+	trade "Luxury Goods" 1014
+	trade Medical 797
+	trade Metal 479
+	trade Plastic 364
+	asteroids "medium rock" 63 4.13
+	asteroids "small metal" 4 10.5
+	asteroids "medium metal" 53 6.23
+	minables silicon 13 5.16891
+	minables neoyium 13 5.16891
+	minables titanium 13 5.16891
+	minables crystal 13 5.16891
+
+system "Nugg'et"
+	hazard "Far Empire Space Hazard" 9000
+	pos 630 -535
+	attributes inhabited rich research military "far empire space"
+	government "Cromha Empire"
+	fleet cromha-fleet 2000
+	fleet mineria-transports 1600
+	fleet cromha-merchants 2000
+	fleet "Small Hai" 2200
+	fleet "Ayym" 2000
+	haze _menu/haze-cyan
+	link "Irn'o"
+	trade Clothing 215
+	trade Electronics 816
+	trade Equipment 487
+	trade Food 265
+	trade "Heavy Metals" 1102
+	trade Industrial 711
+	trade "Luxury Goods" 1014
+	trade Medical 797
+	trade Metal 479
+	trade Plastic 364
+	asteroids "medium rock" 63 4.13
+	asteroids "small metal" 4 10.5
+	asteroids "medium metal" 53 6.23
+	minables silicon 13 5.16891
+	minables neoyium 13 5.16891
+	minables titanium 13 5.16891
+	minables crystal 13 5.16891
+
+system "As'har"
+	hazard "Far Empire Space Hazard" 9000
+	pos 685 -515
+	attributes inhabited rich research military "far empire space" "blackhole"
+	government "Empire Rebels"
+	fleet empire-rebels-raiders-fleet 1600
+	fleet "Ayym" 2000
+	fleet empire-rebels-merchants 1800
+	haze _menu/haze-cyan
+	link "Irn'o"
+	trade Clothing 215
+	trade Electronics 816
+	trade Equipment 487
+	trade Food 265
+	trade "Heavy Metals" 1102
+	trade Industrial 711
+	trade "Luxury Goods" 1014
+	trade Medical 797
+	trade Metal 479
+	trade Plastic 364
+	hazard "Far Black Hozle Accretion Disk" 1
+	hazard "Far Black Hole Event Horizon" 1
+	hazard "Far Black Hole Gravity" 1
+	asteroids "medium rock" 63 4.13
+	asteroids "small metal" 4 10.5
+	asteroids "medium metal" 53 6.23
+	minables silicon 13 5.16891
+	minables neoyium 13 5.16891
+	minables titanium 13 5.16891
+	object
+		sprite star/carbon
+		period 1
+	object
+		sprite star/coal-black-hole
+			scale 3.5
+		period 1
+	object
+		sprite star/neutron-core
+			scale 0.6
+		period 1
+		object "Solfa Station"
+			sprite planet/tschyss
+				scale 0.3
+			period 1
+			distance 600
+			
+planet "Solfa Station"
+	attributes station rebels "requires: rebels mapper" "far empire space"
+	landscape land/Solfa_station
+	outfitter Rebels-basic-outfitter
+	outfitter Rebels-basic-ammo-outfitter
+	description "This little station is hidden by the black hole wind. It is perfect for espionnage The Empire. You must have an Rebel Mapper to see this station"
+	spaceport ""
+	
+system "Wel'y"
+	hazard "Far Empire Space Hazard" 9000
+	pos 550 -465
+	attributes inhabited rich research military "far empire space"
+	government "Cromha Empire"
+	fleet cromha-fleet 2000
+	fleet mineria-transports 1600
+	fleet cromha-merchants 1200
+	haze _menu/haze-cyan
+	link "Ring Wartrue"
+	link "Los Calos"
+	trade Clothing 215
+	trade Electronics 816
+	trade Equipment 487
+	trade Food 265
+	trade "Heavy Metals" 1102
+	trade Industrial 711
+	trade "Luxury Goods" 1014
+	trade Medical 797
+	trade Metal 479
+	trade Plastic 364
+	asteroids "medium rock" 63 4.13
+	asteroids "small metal" 4 10.5
+	asteroids "medium metal" 53 6.23
+	minables silicon 13 5.16891
+	minables neoyium 13 5.16891
+	minables titanium 13 5.16891
+	minables crystal 13 5.16891
+	object "Wel'y Jump Tunnel"
+		sprite "planet/jump tunnel"
+		distance 2700
+		period 5
+	
+system "Los Calos"
+	hazard "Far Empire Triangle Hazard" 1000
+	pos 540 -430
+	attributes inhabited rich research military "far empire space"
+	government "Cromha Empire"
+	haze _menu/haze-triangle
+	link "Wel'y"
+	link "Los Faros"
+	link "Los Asto"
+	asteroids "medium rock" 63 4.13
+	asteroids "small metal" 4 10.5
+	asteroids "medium metal" 53 6.23
+	minables silicon 13 5.16891
+	minables neoyium 13 5.16891
+	minables titanium 13 5.16891
+	minables crystal 13 5.16891
+	
+system "Los Faros"
+	hazard "Far Empire Triangle Hazard" 1000
+	pos 570 -400
+	attributes inhabited rich research military "far empire space"
+	government "Cromha Empire"
+	haze _menu/haze-triangle
+	link "Los Calos"
+	link "Los Asto"
+	asteroids "medium rock" 63 4.13
+	asteroids "small metal" 4 10.5
+	asteroids "medium metal" 53 6.23
+	minables silicon 13 5.16891
+	minables neoyium 13 5.16891
+	minables titanium 13 5.16891
+	minables crystal 13 5.16891
+	
+system "Los Asto"
+	hazard "Far Empire Triangle Hazard" 1000
+	pos 520 -400
+	attributes inhabited rich research military "far empire space"
+	government "Cromha Empire"
+	haze _menu/haze-triangle
+	link "Los Calos"
+	link "Los Faros"
+	link "Lim Ort"
+	minables crystal 13 5.16891
+
+system "Lim Ort"
+	hazard "Far Empire Space Hazard" 9000
+	pos 490 -350
+	attributes inhabited rich research military "far empire space"
+	government "Empire Rebels"
+	haze _menu/haze-cyan
+	fleet empire-rebels-raiders-fleet 1600
+	fleet empire-rebels-merchants 5000
+	fleet cromha-merchants 3000
+	link "Los Asto"
+	trade Clothing 215
+	trade Electronics 816
+	trade Equipment 487
+	trade Food 265
+	trade "Heavy Metals" 1102
+	trade Industrial 711
+	trade "Luxury Goods" 1014
+	trade Medical 797
+	trade Metal 479
+	trade Plastic 364
+	object
+		sprite star/y-giant
+			scale 0.7
+		period 110
+		object
+			sprite planet/browndwarf-t
+				scale 0.7
+			distance 500
+			period 35
+		object
+			sprite planet/dyson1
+				scale 0.4
+			distance 300
+			period 5
+		object
+			sprite planet/dyson2
+				scale 0.5
+			distance 360
+			period 10
+		object
+			sprite planet/dyson2
+				scale 0.2
+			distance 320
+			period 20
+		object
+			sprite planet/dyson3
+				scale 0.7
+			distance 390
+			period 35
+		object "Phil'Sta"
+			sprite planet/ganymede-b
+			distance 800
+			period 110
+		object
+			sprite planet/gas2
+			distance 1000
+			period 220
+		minables crystal 13 5.16891
+			
+planet "Phil'Sta"
+	attributes rebels "far empire space" rich military research
+	landscape land/Phil'Sta
+	outfitter Rebels-basic-outfitter
+	outfitter Rebels-basic-ammo-outfitter
+	outfitter Rebels-basic-weapon-outfitter
+	outfitter Rebels-basic-systems-outfitter
+	outfitter Rebels-advanced-power-outfitter
+	outfitter Rebels-advanced-engines-outfitter
+	description "Phil'Sta is an inhabited planet with lot of canyons and other huge paysage. Rebels use this as an advaced post in case The Empire is going to far in the Far Empire Space so they can get them to go away. This planet is advanced in power and engines."
+	spaceport "The spaceport is on the verge of a large rocky cliff.It is in the walls of the big cliff where dock are diged inside for the vessels."
+	spaceport "Denumbers people seem to barter here, like all the planets governned by Empire Rebels."
+
+system "Phil'Ira"
+	hazard "Far Empire Space Hazard" 9000
+	pos 540 -545
+	attributes inhabited rich research military "far empire space"
+	government "Cromha Empire"
+	haze _menu/haze-cyan
+	fleet cromha-fleet 1600
+	fleet mineria-transports 1700
+	fleet cromha-merchants 2100
+	fleet Ayym 2000
+	link "Ring Wartrue"
+	link "Phil'Rima"
+	trade Clothing 215
+	trade Electronics 816
+	trade Equipment 487
+	trade Food 265
+	trade "Heavy Metals" 1102
+	trade Industrial 711
+	trade "Luxury Goods" 1014
+	trade Medical 797
+	trade Metal 479
+	trade Plastic 364
+	minables crystal 13 5.45
+
+system "Phil'Rima"
+	hazard "Far Empire Space Hazard" 9000
+	pos 520 -565
+	attributes inhabited rich research military "far empire space"
+	government "Cromha Empire"
+	haze _menu/haze-cyan
+	fleet cromha-fleet 2600
+	fleet mineria-transports 3700
+	fleet cromha-merchants 2800
+	fleet Ayym 1400
+	link "Phil'Ira"
+	trade Clothing 215
+	trade Electronics 816
+	trade Equipment 487
+	trade Food 265
+	trade "Heavy Metals" 1102
+	trade Industrial 711
+	trade "Luxury Goods" 1014
+	trade Medical 797
+	trade Metal 479
+	trade Plastic 364
+	minables crystal 8 5.45
+	object
+		sprite "star/x-supergiant"
+			scale 1.3
+		period 1
+		object
+			sprite "planet/empire panels3"
+				scale 0.4
+			distance 300
+			period 10
+		object
+			sprite "star/x-giant"
+			period 110
+			distance 300
+			object
+				sprite "planet/empire panels4"
+					scale 0.5
+				distance 300
+				period 10
+			object
+				sprite "planet/browndwarf-y"
+				distance 350
+				period 70
+				object
+					sprite "planet/empire panels2"
+						scale 0.6
+					distance 300
+					period 10
+			object
+				sprite "star/x5-old"
+				distance 250
+				period 30
+				object
+					sprite "planet/empire panels2"
+						scale 0.7
+					distance 300
+					period 10
+			object "Ill'Safra Station"
+				sprite planet/station9
+					scale 0.7
+				distance 300
+				period 40
+
+planet "Ill'Safra Station"
+	attributes "far empire space" research
+	landscape land/Ill'safra_station
+	outfitter Base-outfitter
+	outfitter Basic-ammo-outfitter
+	description "The Ill'Safra Station is here to study the 'brown draf y' planet and the other huges stars. They also produce fuel with sorts of ramscoop stations that they put near the stars."
+	spaceport "A basical station spaceport. You'll find the minimal things here."

@@ -1,0 +1,5 @@
+galaxy empire
+	pos 50 -420
+
+galaxy "far empire space"
+	pos 440 -490

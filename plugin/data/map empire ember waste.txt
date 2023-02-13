@@ -1,0 +1,83 @@
+system Pantica
+	pos 303.87 445.242
+	government Remnant
+	attributes "ember waste" "wormhole"
+	arrival 500
+	habitable 450
+	belt 1253
+	haze _menu/haze-red
+	link Arculus
+	link Cinxia
+	asteroids "small rock" 4 1.14987
+	asteroids "medium rock" 18 0.79053
+	asteroids "large rock" 2 1.386
+	asteroids "small metal" 6 1.18067
+	asteroids "medium metal" 2 1.19093
+	asteroids "large metal" 30 1.24227
+	minables aluminum 1 2.10029
+	trade Clothing 215
+	trade Electronics 816
+	trade Equipment 487
+	trade Food 265
+	trade "Heavy Metals" 1102
+	trade Industrial 711
+	trade "Luxury Goods" 1014
+	trade Medical 797
+	trade Metal 479
+	trade Plastic 364
+	fleet "Large Remnant" 2000
+	fleet "Small Remnant" 1400
+	fleet "Remnant Transport" 1400
+	fleet "Remnant Home Guard" 1300
+	fleet "Korath Ember Waste Raid" 40000
+	hazard "Ember Waste Base Heat" 100
+	hazard "Ember Waste Base Storm" 25000
+	object
+		sprite star/k3
+		period 10
+	object Capitoline
+		sprite planet/lava1
+		distance 190
+		period 49.3837
+	object Aventine
+		sprite planet/ocean0
+		distance 595
+		period 273.671
+	object Esquiline
+		sprite planet/gas9-b
+		distance 1320
+		period 904.304
+		object Quirinal
+			sprite planet/lava0
+			distance 248
+			period 14.6443
+	object Servian
+		sprite planet/gas8
+		distance 1930
+		period 1598.78
+	object "Solifar Jump Tunnel"
+		sprite "planet/jump tunnel"
+		distance 5000
+		period 5000
+	object
+		sprite planet/gas4
+		distance 10000
+		period 1000
+		object "Empire Listening Station"
+			sprite planet/stationh-ancient0
+				scale 0.4
+			distance 250
+			period 70
+
+planet "Empire Listening Station"
+	attributes "ember waste" remnant factory station research military
+	landscape land/Empire_listening_station
+	government "Cromha Empire"
+	description "This is an secret Empire Listening Station that watch remnants. Even if the Empire is now friend with the Remnants, they still use this old station. Maybe The Empire dont has that much confiance with this aliens."
+
+planet "Black Manta Spacial Dock"
+	attributes "ember waste" remnant facotry station research military "spacial dock"
+	government "Cromha Empire"
+	landscape land/Black_manta_spacial_dock
+	spaceport "Smallest spaceprt ever"
+	description "This is a recent spacial dock. There is not much things do to here unless you want to buy Black Manta Prototypes."

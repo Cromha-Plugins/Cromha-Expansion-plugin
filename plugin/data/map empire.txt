@@ -1,0 +1,952 @@
+system "Volcanois"
+	pos 137 -622
+	arrival 1080
+	habitable 1080
+	belt 1529
+	attributes urban tourism inhabited frontier north volcanic "near earth" hai "empire space"
+	government "Cromha Empire"
+	fleet cromha-fleet 900
+	fleet cromha-transporters 700
+	fleet mineria-transports 700
+	fleet cromha-miners 600
+	fleet cromha-merchants 800
+	link "Astroid"
+	link "Hi Yahr"
+	link "Bore Fah"
+	link "Risiit"
+	link "Nileem"
+	link "Asikafarnut"
+	asteroids "large metal" 21 7
+	minables "silicon" 50 3
+	minables "silver" 19 3
+	minables "uranium" 24 2	
+	object "Linimbus"
+		sprite "planet/fg_lava0"
+			scale 2
+		distance 547
+		period 110
+		object "Linimbus Moon"
+			sprite "planet/fg_gas13"
+				scale 0.3
+			distance 850
+			period 115
+	object
+		sprite "star/y5"
+		period 10
+	object
+		sprite "planet/ice4"
+		distance 252
+		period 34
+	object
+		sprite "planet/neptune"
+		distance 1443
+		period 473
+		object
+			sprite "planet/dust1"
+			distance 223
+			period 16
+		object
+			sprite "planet/rock17"
+			distance 335
+			period 30
+		object
+			sprite "planet/lava0"
+			distance 433
+			period 44
+		object
+			sprite "planet/miranda"
+			distance 631
+			period 78
+	trade Clothing 215
+	trade Electronics 816
+	trade Equipment 487
+	trade Food 265
+	trade "Heavy Metals" 1102
+	trade Industrial 711
+	trade "Luxury Goods" 1014
+	trade Medical 797
+	trade Metal 479
+	trade Plastic 364
+
+planet "Linimbus"
+	landscape "land/Linimbus"
+	outfitter Base-outfitter
+	outfitter Basic-ammo-outfitter
+	outfitter Basic-weapons-outfitter
+	outfitter Advanced-systems-outfitter
+	outfitter Basic-power-outfitter
+	outfitter Basic-engines-outfitter
+	attributes urban inhabited volcanic frontier north research "near earth" hai "empire space"
+	description "One of the most advanced planet in technology. Everyone is nice here. But dont make upset Cromha's Empire ships or you will regret it."
+	spaceport "Linimbus is the first planet that the explorer Cromha found that far in the galaxy, there is about two decades now. This planet is the most advanced in technology, you will be able to find for not that big prizes pieces of technology that you cannot compare to any else technology. A planet where a third party is full of lava, wich is used to produce great quantity of energy to create new technologies."
+	shipyard Cromha-basic-shipyard
+	"required reputation" 0
+	bribe 1
+	security 1
+	tribute 1000000
+		threshold 5000
+		fleet cromha-fleet 5
+		
+planet "Linimbus Moon"
+	landscape "land/Linimbus_moon"
+	outfitter Base-outfitter
+	outfitter Basic-ammo-outfitter
+	outfitter Basic-weapons-outfitter
+	outfitter Advanced-systems-outfitter
+	outfitter Basic-power-outfitter
+	outfitter Basic-engines-outfitter
+	attributes urban tourism inhabited frontier volcanic north research military "near earth" moon farming "empire space"
+	description "The Linimbus moon but also one of the hotest moons"
+	spaceport "Linimbus is the first planet that the explorer Cromha found that far in the galaxy, there is about two decades now. This planet is the most advanced in technology, you will be able to find for not that big prizes pieces of technology that you cannot compare to any else technology. A planet where a third party is full of lava, wich is used to produce great quantity of energy to create new technologies. Same for hes moon."
+	"required reputation" 0
+	bribe 1
+	security 1
+		
+system "Astroid"
+	pos 137 -570
+	attributes urban tourism inhabited mining factory farming "empire space"
+	government "Cromha Empire"
+	fleet cromha-fleet 900
+	fleet cromha-transporters 500
+	fleet mineria-transports 500
+	fleet cromha-merchants 1000
+	link "Volcanois"
+	link "Calor stil"
+	link "Alpha Cromha"
+	link "Beta Cromha"
+	trade Clothing 215
+	trade Electronics 816
+	trade Equipment 487
+	trade Food 265
+	trade "Heavy Metals" 1102
+	trade Industrial 711
+	trade "Luxury Goods" 1014
+	trade Medical 797
+	trade Metal 479
+	trade Plastic 364
+	object "Mineria"
+		sprite "planet/fg_cloud0"
+			scale 3
+		distance 100
+		period 110
+		object "Mineria Trading Station"
+			sprite "planet/fg_station0"
+				scale 1
+			distance 400
+			period 110
+	object
+		sprite "star/x-supergiant"
+			scale 1.5
+		distance 850
+		period 10
+	
+planet "Mineria"
+	landscape "land/Mineria"
+	outfitter Base-outfitter
+	outfitter Advanced-ammo-outfitter
+	outfitter Basic-weapons-outfitter
+	outfitter Advanced-systems-outfitter
+	outfitter Advanced-power-outfitter
+	outfitter Basic-engines-outfitter
+	attributes urban inhabited north mining factory oil "empire space"
+	description "One of the biggest  and the richest minner colonnies planet."
+	spaceport "Mineria was found back in the 29th siecle. Humans decided to install a minner colonie only 3 years after the discover of the precious metals that are in the planet. It's because of this metals that Mineria is now the center of economy of all north-part of the galaxy. It is connected to almost all most important planets by hyperspace link so all the cargo can be delivred in short times. There is a lot of aliens on this planet, beware of them."
+	shipyard Cromha-basic-shipyard
+	"required reputation" 0
+	bribe 1
+	security 1
+	tribute 100000
+		threshold 5000
+		fleet cromha-fleet 5
+		
+planet "Mineria Trading Station"
+	outfitter Base-outfitter
+	attributes urban station north factory research military mining "empire space"
+	spaceport "The mineria Trading Station gained independance in 3005, back at the start of Cromha Empire. The is not really lot of things to do here unless you like transporting cargo[...]"
+	government "Mineria colonnies"
+	landscape "land/Mineria_station"
+	description "The Station that orbit around Mineria. It's here everything is traded."
+	"required reputation" 0
+	bribe 1
+	security 1
+	tribute 100000
+		threshold 5000
+		fleet cromha-fleet 5
+		
+system "Calor stil"
+	pos 127 -500
+	attributes tourism inhabited rich paradise hai "empire space"
+	government "Cromha Empire"
+	fleet cromha-fleet 900
+	fleet calor-stil-tourism 350
+	fleet calor-stil-tourism2 350
+	fleet small-pirates 1500
+	fleet cromha-merchants 1400
+	link "Astroid"
+	link "Lifdot"
+	link "Sepriaptu"
+	trade Clothing 215
+	trade Electronics 816
+	trade Equipment 487
+	trade Food 265
+	trade "Heavy Metals" 1102
+	trade Industrial 711
+	trade "Luxury Goods" 1014
+	trade Medical 797
+	trade Metal 479
+	trade Plastic 364
+	object
+		sprite "star/nova-small"
+			scale 3
+		distance 300
+		period 0
+	
+	object "Striy"
+		sprite "planet/fg_inhabited1"
+			scale 2
+		distance 300
+		period 50
+		object
+			sprite "planet/fg_gas19"
+				scale 0.5
+			distance 200
+			period 5
+	object
+		sprite "star/y8"
+			scale 1.5
+		distance 450
+		period 10
+
+planet "Striy"
+	attributes tourism rich paradise inhabited north hai "empire space"
+	outfitter Base-outfitter
+	outfitter Basic-ammo-outfitter
+	outfitter Basic-weapons-outfitter
+	outfitter Basic-systems-outfitter
+	outfitter Basic-power-outfitter
+	outfitter Basic-engines-outfitter
+	landscape "land/Striy"
+	music "waves"
+	spaceport "Striy is one of the most touristic planet of all human space. Millions of ships are registred every weeks. The security is at the most, almost all dangereous outfits are illegals here, be sure to check all your outfits before entering the planet next time."
+	description "The most touristic planet of all north east galaxy. Security is at the maximum."
+	"required reputation" 200
+	bribe 0.01
+	security 2
+		
+system "Lifdot"
+	pos 187 -470
+	attributes inhabited rich research military  "empire space"
+	government "Cromha Empire"
+	hazard "lifdot neutron hazard" 2900
+	fleet cromha-fleet 900
+	fleet cromha-transporters 550
+	fleet mineria-transports 500
+	fleet cromha-merchants 800
+	link "Calor stil"
+	link "Alpha Cromha"
+	link "Sepriaptu"
+	link "All'Estros"
+	trade Clothing 215
+	trade Electronics 816
+	trade Equipment 487
+	trade Food 265
+	trade "Heavy Metals" 1102
+	trade Industrial 711
+	trade "Luxury Goods" 1014
+	trade Medical 797
+	trade Metal 479
+	trade Plastic 364
+	object "Lifdot Jump Tunnel"
+		sprite "planet/jump tunnel"
+		distance 7800
+		period 5
+	object
+		sprite "star/red neutron"
+			scale 1.3
+		distance 750
+		period 110
+		object "Phoenux Station"
+			sprite "planet/station7"
+			distance 300
+			period 80
+			object
+				sprite "planet/station7c"
+				period 1
+		object
+			sprite "star/x5-old"
+				scale 3
+			distance 900
+			period 110
+			object "Crodust"
+				sprite "planet/fg_terrestrial2"
+					scale 2.4
+				distance 450
+				period 600
+			object
+				sprite "planet/fg_icegiant3"
+					scale 0.8
+				distance 800
+				period 130
+		object
+			sprite "planet/empire panels1"
+				scale 0.8
+			distance 249
+			period 40
+		object
+			sprite "planet/empire panels3"
+				scale 0.8
+			distance 174
+			period 50
+		object
+			sprite "planet/empire panels3"
+				scale 0.8
+			distance 368
+			period 48
+		object
+			sprite "planet/empire panels2"
+				scale 0.8
+			distance 300
+			period 10
+		object
+			sprite "planet/empire panels2"
+				scale 0.8
+			distance 340
+			period 26
+		object
+			sprite "planet/empire panels4"
+				scale 0.8
+			distance 249
+			period 38
+	
+planet "Crodust"
+	attributes rich inhabited north research military "empire space"
+	landscape "land/Crodust"
+	outfitter Base-outfitter
+	outfitter Advanced-ammo-outfitter
+	outfitter Advanced-weapon-outfitter
+	outfitter Advanced-systems-outfitter
+	outfitter Advanced-power-outfitter
+	outfitter Advanced-engines-outfitter
+	shipyard Cromha-military-shipyard
+	spaceport "Crodust is the first military research planet that Cromha Empire decided to install on. More than 60% if the planet is full of swamps. The only guys who are here are scientists or Cromha Empire workers that make money by doing werid stuff for the Empire."
+	description "A huge military research installation for Cromha Empire. The most part of the planet is full of dirty swamps."
+	"required reputation" 250
+	bribe 3
+	security 3
+	tribute 1000000
+		threshold 5000
+		fleet cromha-fleet 10
+
+planet "Phoenux Station"
+	attributes rich inhabited station nortn research military "empire space"
+	landscape "land/Phoenux_station"
+	outfitter Base-outfitter
+	outfitter Advanced-ammo-outfitter
+	outfitter Basic-weapon-outfitter
+	outfitter Basic-power-outfitter
+	"required reputation" 250
+	spaceport ""
+	description "This station studies the red neutron star in the Lifdot system."
+	bribe 3
+	security 3
+	tribute 1000000
+		threshold 5000
+		fleet cromha-fleet 10
+
+system "Alpha Cromha"
+	pos 184 -540
+	attributes inhabited rich research military paradise mining factory north urban hai "empire space"
+	government "Cromha Empire"
+	fleet cromha-fleet 900
+	fleet cromha-transporters 850
+	fleet mineria-transports 1000
+	fleet "Small Hai" 900
+	fleet cromha-merchants 1000
+	fleet cromha-miners 800
+	link "Lifdot"
+	link "Astroid"
+	link "Beta Cromha"
+	trade "Clothing" 126
+	trade "Luxury Goods" 1200
+	trade "Heavy Metals" 252
+	trade Electronics 697
+	trade Equipment 761
+	trade Food 275
+	trade Industrial 457
+	trade Medical 766
+	trade Metal 539
+	trade Plastic 406
+	asteroids "large metal" 21 7
+	minables "silicon" 50 3
+	minables "silver" 19 3
+	object
+		sprite "star/y-supergiant"
+		distance 0
+		period 110
+		object "Alldust"
+			sprite "planet/fg_terrestrial10"
+				scale 1.5
+			distance 800
+			period 650
+			object "Plutoon"
+				sprite "planet/fg_inhabited5"
+				distance 440
+				period 70
+			object "Alldust Moon"
+				sprite "planet/fg_moon18"
+				distance 240
+				period 50
+		object "Witdrew"
+			sprite "planet/fg_terrestrial17"
+			distance 900
+			period 300
+			object "Witdrew Station"
+				sprite "planet/station11"
+					scale 0.4
+				distance 200
+				period 75
+	object "Alpha Jump Tunnel"
+		sprite "planet/jump tunnel"
+		distance 1200
+		period 70
+
+planet "Alldust"
+	attributes inhabited rich research military paradise mining factory north urban hai "empire space"
+	outfitter Base-outfitter
+	outfitter Basic-ammo-outfitter
+	outfitter Basic-weapons-outfitter
+	outfitter Advanced-systems-outfitter
+	outfitter Advanced-power-outfitter
+	outfitter Advanced-engines-outfitter
+	landscape "land/Alldust"
+	shipyard Cromha-basic-shipyard
+	spaceport "The hugest spaceport of all The Empire. Lot of Hais here search for missions or help; you will find a lot of well remunerated missions. The perfect place if you search money."
+	spaceport "Did you know that it was in this spaceport, a siecle ago that Hais communicated with The Empire for the first time?"
+	description "The Cromha Empire center planet. It's where all started. You will find a lot of missions here and a lot of hai people. Almost all of the planet is urban, it's rare to find vegetation but the food is insane. This is also the only place in the galaxy where you can find food synthisers."
+	"required reputation" 0
+	bribe 2
+	security 5
+	tribute 1000000
+		threshold 5000
+		fleet cromha-fleet 15
+		
+planet "Plutoon"
+	attributes inhabited rich research paradise factory north urban tourism farming "empire space" hai
+	outfitter Base-outfitter
+	outfitter Basic-ammo-outfitter
+	outfitter Basic-weapons-outfitter
+	outfitter Advanced-systems-outfitter
+	outfitter Advanced-power-outfitter
+	outfitter Advanced-engines-outfitter
+	landscape "land/Plutoon"
+	spaceport "A not that special spaceport, you can find basic things that you thind is the Cromha Empire space. There is a lot of tourism missions here so if you search people who want to travel the whole universe for tourism, this is the right place for you!"
+	description "The small moon that orbit around Alldust planet. This moon is known to be very nature-friendly, you will find great forests but also medium cities where you can find lot of differents things for small prizes."
+	"required reputation" 0
+	bribe 1.5
+	security 3
+	
+planet "Alldust Moon"
+	attributes uninhabited
+	landscape "land/Alldust_moon"
+	description "The small uninhabited moon that orbit around Alldust planet. This moon is known to be very rich in silicon and other heavy metals because of alls meteors that hit that moon since she don't have any atmoshpere. You will find lot of metals at high prizes here."
+	
+planet "Witdrew"
+	government Hai
+	attributes inhabited rich factory north urban tourism research hai "empire space"
+	shipyard "Mon Ki i'Hiya Advanced"
+	shipyard "Mon Ki i'Hiya Basics"
+	shipyard "Imo Loo Mer Advanced"
+	shipyard "Imo Loo Mer Basics"
+	shipyard "Yeer e Ki Basics"
+	outfitter "Hai Advanced"
+	landscape "land/Witdrew"
+	description "This is the planet that was given by Cromha Empire to Hais when both of this governments create an alliance between them, a siecle ago. It is where human of The Empire and Hais scientics collab together to create news technologies by mixing hai tech and human tech, making the mosts andvanceds outfits and ships of all human space. You can find the Hai embassade near the center of the capital, a great place to meet friends."
+	spaceport "A lot of Hais seems to live her, but actuallynot that much, only 25% of habitants are Hais. Most of the Hais that you will find here are people in search of new ships or technologies, due to the cheap prizes of materials here."
+	spaceport "In this spaceport you will find the most interesting ships of all human space; even some Korath come here. The most of the missions you will find here is to travel Hai in your bunks till Hai Home or other planets in Hai space."
+	
+planet "Witdrew Station"
+	government "Cromha Empire"
+	outfitter Base-outfitter
+	outfitter Basic-ammo-outfitter
+	outfitter Basic-power-outfitter
+	outfitter basic-engines-outfitter
+	attributes rich factory north station research military hai "empire space"
+	shipyard Cromha-basic-shipyard
+	landscape "land/Witdrew_station"
+	description "This station orbit around the Witdrew planet; it's where all Hais have to go to register them and have an Empire passpor. This is also a research station with labs and a military station with lot of cells for unregistered people that enter Cromha Empire space without Empire passport."
+	spaceport "Not a that big spaceport. Here, you will find almost every species you can imagine in the galaxy. Most of them are pirates, outlaws or people you want an Empire passport."
+	spaceport "Beware of The Empire authorites here, security is at the most!"
+	bribe 2
+	secrity 10
+	
+system "Beta Cromha"
+	pos 194 -620
+	attributes inhabited rich research military paradise mining factory north urban hai "empire space"
+	government "Cromha Empire"
+	fleet cromha-fleet 900
+	fleet cromha-transporters 850
+	fleet mineria-transports 1000
+	fleet cromha-merchants 1000
+	fleet "Small Hai" 900
+	fleet cromha-miners 1000
+	link "Alpha Cromha"
+	link "Astroid"
+	trade Clothing 215
+	trade Electronics 816
+	trade Equipment 487
+	trade Food 265
+	trade "Heavy Metals" 1102
+	trade Industrial 711
+	trade "Luxury Goods" 1014
+	trade Medical 797
+	trade Metal 479
+	trade Plastic 364
+	asteroids "large metal" 21 7
+	object
+		sprite "star/g5-old"
+			scale 2.2
+		distance 0
+		period 110
+		object "Alldust Prima"
+			sprite "planet/ocean2"
+			distance 550
+			period 95
+		object "Neptunna"
+			sprite "planet/fg_terrestrial14"
+			distance 800
+			period 120
+	
+planet "Alldust Prima"
+	attributes inhabited rich research military paradise mining factory north urban farming hai "empire space"
+	outfitter Base-outfitter
+	outfitter Basic-ammo-outfitter
+	outfitter Basic-weapons-outfitter
+	outfitter Advanced-systems-outfitter
+	outfitter Advanced-power-outfitter
+	outfitter Advanced-engines-outfitter
+	landscape "land/Alldust_prima"
+	shipyard Cromha-basic-shipyard
+	spaceport "It is a little like Alldust spaceport, the only difference is that you will find many more Hais here than in Alldust."
+	spaceport "The spaceport has a great view of the sea, many attractions and market full the spaceport, the spaceport is ultra rich."
+	description "A planet full of oceans, 8 at total, with that, the Earth seems nothing compared to Alldust Prima. Many tourism come here, cities are very rich."
+	"required reputation" 0
+	bribe 2
+	security 3
+	
+planet "Neptunna"
+	attributes inhabited rich paradise north factory urban farming hai "empire space"
+	outfitter Base-outfitter
+	outfitter Basic-ammo-outfitter
+	outfitter Basic-weapons-outfitter
+	outfitter Advanced-systems-outfitter
+	outfitter Advanced-power-outfitter
+	outfitter Advanced-engines-outfitter
+	landscape "land/Neptunna"
+	spaceport "A small little friendly spaceport. The are a lot of spectacles the evening and a lot of good bars the night. A great place to invite your friends or anyone else."
+	spaceport "But be aware of some people here, there are some xenophobist that will annoy you if you look at them. Wanna a tip? Just avoid them..."
+	description "A planet very similar to the Earth, many forests, oceans but still pretty urban where there is population."
+	"required reputation" 0
+	bribe 0.7
+	security 1
+
+system "Sepriaptu"
+	pos 139.431 -448.812
+	government "Cromha Empire"
+	attributes "korath" north
+	arrival 2035
+	habitable 2035
+	belt 1120
+	link Kaliptari
+	link Sabriset
+	link "Calor stil"
+	link "Lifdot"
+	asteroids "small rock" 127 4.34
+	asteroids "medium rock" 23 4.41
+	asteroids "large rock" 63 4.13
+	asteroids "small metal" 4 10.5
+	asteroids "medium metal" 53 6.23
+	asteroids "large metal" 1 9.24
+	minables aluminum 13 5.16891
+	minables lead 4 5.12023
+	trade Clothing 215
+	trade Electronics 816
+	trade Equipment 487
+	trade Food 265
+	trade "Heavy Metals" 1102
+	trade Industrial 711
+	trade "Luxury Goods" 1014
+	trade Medical 797
+	trade Metal 479
+	trade Plastic 364
+	fleet "Large Quarg" 4000
+	fleet cromha-miners 600
+	fleet small-pirates 2000
+	fleet mineria-transports 3000
+	fleet cromha-fleet 1500
+	object
+		sprite star/f5
+		distance 15.0211
+		period 8.27857
+	object
+		sprite star/m0
+		distance 80.5041
+		period 8.27857
+	object
+		sprite planet/desert7-b
+		distance 362.451
+		period 61.1859
+	object "Listrosia"
+		sprite planet/rock4-b
+		distance 1644.91
+		period 591.549
+		object "Advanced Empire Station"
+			sprite planet/station3kd
+				scale 0.5
+			distance 273.55
+			period 41.1893
+	object
+		sprite planet/rock17-b
+		distance 2309.96
+		period 984.429
+
+planet "Advanced Empire Station"
+	government "Cromha Empire"
+	attributes "korath" north factory station research military
+	landscape "land/Advanced_empire_station"
+	description "An advanced Empire station in the korath space. The goal of this station is to collect data on litterally everything. Most of the people that come here are Empire scientists"
+	spaceport "Not a that big spaceport. Most of everything here is rudimental, you see almost noone but there is a good connection!"
+	bribe 0.5
+	security 0.5
+
+planet "Listrosia"
+	government "Uninhabited"
+	attributes uninhabited
+	landscape "land/Listrosia"
+	description "Listrosia is a great arid desert. Even if the atmosphere is well for humans, The Empire or any other government never thinked of installing a colony on this planet. The Empire wish to install one the next decade. Maybe they will?"
+
+system Kaliptari
+	pos 85.4305 -402.812
+	government "Cromha Empire"
+	attributes "korath"
+	arrival 500
+	habitable 320
+	belt 1089
+	link Fornarep
+	link Mekislepti
+	link Sabriset
+	link Sepriaptu
+	link Skeruto
+	link Solifar
+	asteroids "small rock" 8 4.2282
+	asteroids "medium rock" 11 6.9498
+	asteroids "large rock" 25 5.4918
+	asteroids "large metal" 1 3.2562
+	minables silicon 11 10.7447
+	minables tungsten 5 10.9185
+	trade Clothing 316
+	trade Electronics 754
+	trade Equipment 568
+	trade Food 453
+	trade "Heavy Metals" 989
+	trade Industrial 657
+	trade "Luxury Goods" 1262
+	trade Medical 675
+	trade Metal 334
+	trade Plastic 398
+	fleet "Large Quarg" 3000
+	fleet "Small Kor Mereti" 10000
+	fleet cromha-fleet 2000
+	fleet cromha-miners 1500
+	fleet small-pirates 3000
+	fleet mineria-transports 5000
+	fleet cromha-merchants 2300
+	object
+		sprite star/m0
+		period 10
+	object "Spera Anatrusk"
+		sprite planet/mars
+		distance 316.61
+		period 125.971
+		object "Hope Station"
+			sprite planet/station4c
+				scale 0.5
+			distance 170
+			period 23.335
+	object
+		sprite planet/dust2
+		distance 602.61
+		period 330.780
+	object
+		sprite planet/uranus-b
+		distance 1207.17
+		period 937.859
+		object
+			sprite planet/callisto
+			distance 221
+			period 14.0366
+		object
+			sprite planet/dust5-b
+			distance 358
+			period 28.94
+		object
+			sprite planet/dust3-b
+			distance 464
+			period 42.7022
+	object
+		sprite planet/gas10
+		distance 3109.42
+		period 3877.07
+		object
+			sprite planet/lava0-b
+			distance 192
+			period 14.0039
+		object
+			sprite planet/rhea
+			distance 316
+			period 29.5684
+
+planet "Spera Anatrusk"
+	attributes korath uninhabited
+	government Uninhabited
+	landscape land/badlands11
+	description `This is a relatively dry planet, and the only Korath cities were close to the poles where the temperatures are more mild and the lifeless deserts give way to grasslands and even a few scattered forests. The largest city was clearly destroyed by orbital bombardment. The other cities seem to have been done in by rioting or looting, leaving smashed windows and burned-out buildings behind. Some of the damage is very recent; the Korath survivors here held out for a long time.`
+
+planet "Hope Station"
+	attributes korath north factory station research military
+	landscape "land/Hope_station"
+	government "Cromha Empire"
+	description "An advanced Empire station in the korath space. The goal of this station is to collect data on litterally everything. Most of the people that come here are Empire scientists"
+	spaceport "Not a that big spaceport. Most of everything here is rudimental, you see almost noone but there is a good connection!"
+	bribe 0.5
+	security 0
+
+system Solifar
+	pos 47.4305 -435.812
+	government "Cromha Empire"
+	attributes "korath"
+	arrival 500
+	habitable 320
+	belt 1517
+	haze _menu/haze-67
+	link Kaliptari
+	asteroids "small rock" 7 7.772
+	asteroids "medium rock" 21 4.176
+	asteroids "large rock" 5 3.654
+	asteroids "small metal" 2 7.134
+	asteroids "medium metal" 80 7.946
+	asteroids "large metal" 26 7.076
+	minables aluminum 30 12.5935
+	minables iron 6 10.1283
+	minables lead 20 11.4764
+	trade Clothing 215
+	trade Electronics 816
+	trade Equipment 487
+	trade Food 265
+	trade "Heavy Metals" 1102
+	trade Industrial 711
+	trade "Luxury Goods" 1014
+	trade Medical 797
+	trade Metal 479
+	trade Plastic 364
+	fleet "Large Quarg" 4000
+	fleet cromha-merchants 1700
+	object
+		sprite star/m0
+		period 10
+	object "Desi Seledrak"
+		sprite planet/cloud5
+		distance 270.64
+		period 99.5572
+		object "Kor Tah Station"
+			sprite planet/tschyss
+				scale 0.6
+			distance 200
+			period 50
+	object
+		sprite planet/gas14
+		distance 974.08
+		period 679.793
+		object
+			sprite planet/luna-b
+			distance 219
+			period 13.1985
+		object
+			sprite planet/rock17-b
+			distance 345
+			period 26.0968
+		object
+			sprite planet/rock7-b
+			distance 504
+			period 46.0792
+	object
+		sprite planet/gas7
+		distance 2068.97
+		period 2104.34
+	object "Solifar Jump Tunnel"
+		sprite "planet/jump tunnel"
+		distance 1700
+		period 10
+
+planet "Desi Seledrak"
+	attributes korath uninhabitable
+	government Uninhabited
+	landscape land/lava13
+	description `Plumes of soot and ash rise from a cluster of several dozen volcanoes on this planet's main continent, shrouding the planet in a thick layer of clouds and choking out the sunlight. The ruins of several Korath cities and the geometric grids of cleared land surrounding them show that this was once a farming world, but now few plants are able to survive and kilometer-high glaciers have begun creeping down from the poles. It may be centuries before the skies clear and this world begins to thaw.`
+	security 0
+
+planet "Kor Tah Station"
+	attributes korath north factory station research military
+	landscape "land/Kor_tah_station"
+	government "Cromha Empire"
+	description "An advanced Empire station in the korath space. The goal of this station is to collect data on litterally everything. Most of the people that come here are Empire scientists"
+	spaceport "Not a that big spaceport. Most of everything here is rudimental, you see almost noone but there is a good connection!"
+
+
+system Skeruto
+	pos 28.4305 -339.812
+	government "Cromha Empire"
+	attributes "korath"
+	arrival 500
+	habitable 320
+	belt 1198
+	link Fornarep
+	link Furmeliki
+	link Kaliptari
+	link Meftarkata
+	link Seketra
+	asteroids "large metal" 1 1.5554
+	trade Clothing 286
+	trade Electronics 736
+	trade Equipment 498
+	trade Food 514
+	trade "Heavy Metals" 1049
+	trade Industrial 630
+	trade "Luxury Goods" 1161
+	trade Medical 621
+	trade Metal 393
+	trade Plastic 333
+	fleet "Large Quarg" 2000
+	fleet cromha-merchants 1700
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/lava0
+		distance 188.56
+		period 57.8974
+	object "Sabira Eseskrai"
+		sprite planet/desert8
+		distance 395.37
+		period 175.788
+		object "Sabira Station"
+			sprite planet/station15
+				scale 0.6
+			distance 400
+			period 65
+			object
+				sprite planet/station3b
+					scale 0.3
+				distance 200
+				period 110
+			object
+				sprite planet/station3bd
+					scale 0.3
+				distance 50
+				period 20
+	object
+		sprite planet/desert10
+		distance 913.509
+		period 617.382
+		object
+			sprite planet/station1kd
+				scale 0.5
+			distance 197.726
+			period 28.4644
+	object
+		sprite planet/gas11
+		distance 1806.49
+		period 1716.87
+		object
+			sprite planet/ice8-b
+			distance 236
+			period 11.9576
+
+planet "Sabira Eseskrai"
+	attributes korath
+	government Uninhabited
+	landscape land/desert13
+	description `Long ago, this planet was home to several Korath oil mining settlements, but now all that remains visible are the tops of a few dozen of the tallest buildings. Everything else has been buried by sandstorms.`
+	description `	Due to a recent shift in climate the deserts have begun shrinking once more, with local vegetation growing to cover more and more land each year, but the Korath are no longer here to benefit from the change.`
+
+planet "Sabira Station"
+	attributes korath north factory station research military
+	landscape "land/Sabira_station"
+	government "Cromha Empire"
+	description "An advanced Empire station in the korath space. The goal of this station is to collect data on litterally everything. Most of the people that come here are Empire scientists"
+	spaceport "Not a that big spaceport. Most of everything here is rudimental, you see almost noone but there is a good connection!"
+
+system Sabriset
+	pos 151.724 -426.518
+	government "Cromha Empire"
+	attributes "korath"
+	arrival 1570
+	habitable 1570
+	belt 1025
+	link Kaliptari
+	link Sepriaptu
+	asteroids "small rock" 3 3.9285
+	asteroids "medium rock" 6 2.6325
+	asteroids "large rock" 5 4.779
+	asteroids "small metal" 21 4.374
+	asteroids "medium metal" 4 5.1435
+	asteroids "large metal" 7 4.3335
+	minables aluminum 8 7.59557
+	minables tungsten 2 5.97609
+	trade Clothing 215
+	trade Electronics 816
+	trade Equipment 487
+	trade Food 265
+	trade "Heavy Metals" 1102
+	trade Industrial 711
+	trade "Luxury Goods" 1014
+	trade Medical 797
+	trade Metal 479
+	trade Plastic 364
+	fleet "Large Quarg" 4000
+	fleet cromha-fleet 2000
+	fleet empire-rebels-raiders 1500
+	fleet small-pirates 1300
+	fleet cromha-merchants 2300
+	object
+		sprite star/g0
+		distance 34.3036
+		period 11.6325
+	object
+		sprite star/k0
+		distance 75.6079
+		period 11.6325
+		offset 180
+	object "For Lastru"
+		sprite planet/gas7-hot
+		distance 279.387
+		period 47.1432
+	object
+		sprite planet/lava7
+		distance 738.015
+		period 202.398
+	object
+		sprite planet/desert2
+		distance 1012.78
+		period 325.373
+	object
+		sprite planet/rock5
+		distance 1367.84
+		period 510.696
+
+planet "For Lastru"
+	attributes korath
+	government Uninhabited
+	landscape land/badlands7
+	description "This planet is full of great red tainted canyons. It has insane paysages."
+	description `Long ago, this planet was home to several Korath oil mining settlements, but now all that remains visible are the tops of a few dozen of the tallest buildings. Everything else has been buried by sandstorms.`
+	description `	Due to a recent shift in climate the deserts have begun shrinking once more, with local vegetation growing to cover more and more land each year, but the Korath are no longer here to benefit from the change.`
