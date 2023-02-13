@@ -1350,7 +1350,7 @@ mission merchant-escort[0]
 	repeat
 	job
 	to offer
-		random < 13
+		random < 30
 		"combat rating" > 150
 	source
 		government "Cromha Empire"
@@ -1380,7 +1380,7 @@ mission merchant-escort[1]
 	repeat
 	job
 	to offer
-		random < 13
+		random < 30
 		"combat rating" > 150
 	source
 		government "Cromha Empire"
@@ -1410,7 +1410,7 @@ mission merchant-escort[2]
 	repeat
 	job
 	to offer
-		random < 13
+		random < 30
 		"combat rating" > 150
 	source
 		government "Cromha Empire"
@@ -1435,3 +1435,369 @@ mission merchant-escort[2]
 		dialog "You've landed on your destination but it semms that your escorts are still not here. Wait for them then land back."
 
 # Secure delivries
+mission secure-delivry[0]
+	name "Secure Delivry to <planet>"
+	description "Deliver a secure package to <destination> before the date of <date>. Payment is <payment>."
+	deadline 2 9
+	job
+	repeat
+	source
+		government "Cromha Empire"
+	destination
+		distance 2 7
+		attributes military
+		government "Cromha Empire" "Mineria colonnies" "Hai" "Quarg" "Syndicate" "Remnant" "Wanderer"
+	cargo "secure package" 1
+	to offer
+		random < 25
+		"reputation: Cromha Empire" >= 35
+		has not "secure empire package ability"
+	on accept
+		dialog phrase "secure package pickup"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on abort
+		dialog "The Cromha Empire will not be happy. You got fined 250,000 credits."
+		set "secure empire package ability"
+	on fail
+		dialog "The Cromha Empire will not be happy. You got fined 250,000 credits."
+		set "secure empire package ability"
+	on complete
+		payment 3000 750
+		"reputation: Cromha Empire" += 1
+		"secure empire package" ++
+		dialog phrase "secure package dropoff payment"
+
+mission secure-delivry[1]
+	name "Secure Delivry to <planet>"
+	description "Deliver a secure package to <destination> before the date of <date>. Payment is <payment>."
+	deadline 2 9
+	job
+	repeat
+	source
+		government "Cromha Empire"
+	destination
+		distance 2 7
+		attributes military
+		government "Cromha Empire" "Mineria colonnies" "Hai" "Quarg" "Syndicate" "Remnant" "Wanderer"
+	cargo "secure package" 1
+	to offer
+		random < 25
+		"reputation: Cromha Empire" >= 35
+		has not "secure empire package ability"
+	on accept
+		dialog phrase "secure package pickup"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on abort
+		dialog "The Cromha Empire will not be happy. You got fined 250,000 credits."
+		set "secure empire package ability"
+	on fail
+		dialog "The Cromha Empire will not be happy. You got fined 250,000 credits."
+		set "secure empire package ability"
+	on complete
+		payment 3000 750
+		"reputation: Cromha Empire" += 1
+		"secure empire package" ++
+		dialog phrase "secure package dropoff payment"
+
+# Bring Tourists
+mission bring-tourist[0]
+	name "Bring Tourist to <planet>"
+	description "A family of 3 humans want to go tourist to <destination>. Bring them there safely to get payed <payment>."
+	passengers 3
+	job repeat
+	source
+		government "Cromha Empire"
+	destination
+		attributes toursim tourist paradise
+		distance 3 8
+	to offer
+		random < 35
+	on complete
+		payment
+		payment 15000
+		dialog "You land on <planet> and depose the whole family. They payed you <payment>."
+mission bring-tourist[1]
+	name "Bring Tourist to <planet>"
+	description "A family of 12 humans want to go tourist to <destination>. Bring them there safely to get payed <payment>."
+	passengers 12
+	job repeat
+	source
+		government "Cromha Empire"
+	destination
+		attributes toursim tourist paradise
+		distance 2 5
+	to offer
+		random < 35
+	on complete
+		payment
+		payment 11000
+		dialog "You land on <planet> and depose the whole family. They payed you <payment>."
+mission bring-tourist[2]
+	name "Bring Tourist to <planet>"
+	description "A family of 2 humans want to go tourist to <destination>. Bring them there safely to get payed <payment>."
+	passengers 2
+	job repeat
+	source
+		government "Cromha Empire"
+	destination
+		attributes toursim tourist paradise
+		distance 1 3
+	to offer
+		random < 35
+	on complete
+		payment
+		payment 9000
+		dialog "You land on <planet> and depose the whole family. They payed you <payment>."
+mission bring-tourist[3]
+	name "Bring Tourist to <planet>"
+	description "A family of 6 humans want to go tourist to <destination>. Bring them there safely to get payed <payment>."
+	passengers 6
+	job repeat
+	source
+		government "Cromha Empire"
+	destination
+		attributes toursim tourist paradise
+		distance 5 9
+	to offer
+		random < 35
+	on complete
+		payment
+		payment 21000
+		dialog "You land on <planet> and depose the whole family. They payed you <payment>."
+
+#  Colonny importation
+mission colonny-importation[0]
+	name "Import to <planet> Colonny"
+	description "Import  2 workers to <planet>'s colonny. Payment is <payment>."
+	job
+	repeat
+	passengers 2
+	source
+		government "Cromha Empire"
+	destination
+		not government "Syndicate" "Quarg" "Pug" "Empire Rebels"
+		attributes farming
+		distance 1 9
+	to offer
+		random < 30
+	on complete
+		payment
+		payment 18000
+		dialog "You land on <planet> and depose the workers. They payed you <payment>."
+
+mission colonny-importation[1]
+	name "Import to <planet> Colonny"
+	description "Import  5 workers to <planet>'s colonny. Payment is <payment>."
+	job
+	repeat
+	passengers 5
+	source
+		government "Cromha Empire"
+	destination
+		not government "Syndicate" "Quarg" "Pug" "Empire Rebels"
+		attributes farming
+		distance 4 8
+	to offer
+		random < 30
+	on complete
+		payment
+		payment 21000
+		dialog "You land on <planet> and depose the workers. They payed you <payment>."
+
+mission colonny-importation[2]
+	name "Import to <planet> Colonny"
+	description "Import  7 workers to <planet>'s colonny. Payment is <payment>."
+	job
+	repeat
+	passengers 7
+	source
+		government "Cromha Empire"
+	destination
+		not government "Syndicate" "Quarg" "Pug" "Empire Rebels"
+		attributes farming
+		distance 3 6
+	to offer
+		random < 30
+	on complete
+		payment
+		payment 24000
+		dialog "You land on <planet> and depose the workers. They payed you <payment>."
+
+# Passengers
+mission passenger-transport[0]
+	name "Passenger to <planet>"
+	description "Passenger 1 human to <destination>. Payment is <payment>."
+	job
+	repeat
+	passengers 1
+	source
+		government "Cromha Empire"
+	destination
+		not government "Syndicate" "Quarg" "Pug" "Empire Rebels"
+		distance 1 6
+	to offer
+		random < 35
+	on complete
+		payment
+		payment 8500
+		dialog "You land on <planet> and get Payed <payment>."
+mission passenger-transport[1]
+	name "Passenger to <planet>"
+	description "Passenger 3 humans to <destination>. Payment is <payment>."
+	job
+	repeat
+	passengers 3
+	source
+		government "Cromha Empire"
+	destination
+		not government "Syndicate" "Quarg" "Pug" "Empire Rebels"
+		distance 2 5
+	to offer
+		random < 35
+	on complete
+		payment
+		payment 10500
+		dialog "You land on <planet> and get Payed <payment>."
+mission passenger-transport[2]
+	name "Passenger to <planet>"
+	description "Passenger 1 human to <destination>. Payment is <payment>."
+	job
+	repeat
+	passengers 1
+	source
+		government "Cromha Empire"
+	destination
+		not government "Syndicate" "Quarg" "Pug" "Empire Rebels"
+		distance 3 9
+	to offer
+		random < 35
+	on complete
+		payment
+		payment 9500
+		dialog "You land on <planet> and get Payed <payment>."
+
+mission passenger-transport[3]
+	name "Passenger to <planet>"
+	description "Passenger 5 human to <destination>. Payment is <payment>."
+	job
+	repeat
+	passengers 5
+	source
+		government "Cromha Empire"
+	destination
+		not government "Syndicate" "Quarg" "Pug" "Empire Rebels"
+		distance 2 4
+	to offer
+		random < 35
+	on complete
+		payment
+		payment 12300
+		dialog "You land on <planet> and get Payed <payment>."
+mission passenger-transport[4]
+	name "Passenger to <planet>"
+	description "Passenger 7 human to <destination>. Payment is <payment>."
+	job
+	repeat
+	passengers 7
+	source
+		government "Cromha Empire"
+	destination
+		not government "Syndicate" "Quarg" "Pug" "Empire Rebels"
+		distance 1 3
+	to offer
+		random < 35
+	on complete
+		payment
+		payment 8500
+		dialog "You land on <planet> and get Payed <payment>."
+mission passenger-transport[5]
+	name "Passenger to <planet>"
+	description "Passenger 2 humans to <destination>. Payment is <payment>."
+	job
+	repeat
+	passengers 2
+	source
+		government "Cromha Empire"
+	destination
+		not government "Syndicate" "Quarg" "Pug" "Empire Rebels"
+		distance 1 8
+	to offer
+		random < 35
+	on complete
+		payment
+		payment 10500
+		dialog "You land on <planet> and get Payed <payment>."
+
+# Wanted outlaws, bounties, rebels
+mission wanted-outlaw
+	name "Wanted Outlaw near <system>"
+	description "An well armed outlaw near <system> is beeing researched. He is staying near <system>. Find him, disabled the ship and board to capture the outlaw. Bring him to <destination>. Payment is <payment>."
+	job
+	repeat
+	source
+		government "Cromha Empire"
+	destination source
+	to offer
+		random < 35
+		"combat rating" > 350
+	on complete
+		payment
+		payment 150000
+		dialog "You bring the captured outlaw to an empire authorities. You got payed <payment>."
+	npc board
+		government "Bounty (Disguised)"
+		ship "Leviathan"
+		personality staying target
+			confusion 40
+		system
+			distance 1 2
+		dialog "You capture the outlaw. Time to bring him to <planet>."
+mission wanted-rebel[0]
+	name "Wanted Rebel near <system>"
+	description "An well armed rebel staying in an system near <system> is beeing researched. Find him, disabled the ship and board to capture the rebel. Bring him to <destination>. Payment is <payment>."
+	job
+	repeat
+	source
+		government "Cromha Empire"
+	destination source
+	to offer
+		random < 35
+		"combat rating" > 350
+	on complete
+		payment
+		payment 150000
+		dialog "You bring the captured outlaw to an empire authorities. You got payed <payment>."
+	npc board
+		government "Empire Rebels"
+		ship "Gunboat (Rebels)"
+		personality staying target
+			confusion 40
+		system
+			distance 1 3
+		dialog "You capture the rebel. Time to bring him to <planet>."
+
+mission wanted-rebel[1]
+	name "Wanted Rebel near <system>"
+	description "An well armed rebel staying in an system near <system> is beeing researched. Find him, disabled the ship and board to capture the rebel. Bring him to <destination>. Payment is <payment>."
+	job
+	repeat
+	source
+		government "Cromha Empire"
+	destination source
+	to offer
+		random < 35
+		"combat rating" > 350
+	on complete
+		payment
+		payment 150000
+		dialog "You bring the captured outlaw to an empire authorities. You got payed <payment>."
+	npc board
+		government "Empire Rebels"
+		ship "Gunboat (Rebels)"
+		personality staying target
+			confusion 40
+		system
+			distance 1 3
+		dialog "You capture the rebel. Time to bring him to <planet>."
