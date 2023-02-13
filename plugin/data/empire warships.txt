@@ -145,6 +145,7 @@ ship "Empire Skylark"
 		"Multiphasic Anti-Missile" 2
 		"Multiphasic ammo" 1200
 		
+		"Empire Shielding Core" 2
 		"Empire Hai Ravine Batteries"
 		"Supercapacitor" 3
 		"Multiphasic Scanner"
