@@ -138,9 +138,9 @@ fleet cromha-merchants
 		"Headhunter (Empire)"
 		"Fury (Empire)" 2
 	variant 1
-		"Argosy (Epmire)"
+		"Argosy (Empire)"
 	variant 1
-		"Argosy (Epmire)"
+		"Argosy (Empire)"
 		"Fury (Empire)" 2
 	variant 1
 		"Behemoth (Empire)"
