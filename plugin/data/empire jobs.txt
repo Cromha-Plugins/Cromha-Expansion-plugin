@@ -1357,6 +1357,7 @@ mission merchant-escort[0]
 		distance 1 3
 	destination
 		government "Cromha Empire"
+		distance 1 3
 	on complete
 		payment
 		payment 60000
@@ -1386,6 +1387,7 @@ mission merchant-escort[1]
 		distance 1 3
 	destination
 		government "Cromha Empire"
+		distance 1 3
 	on complete
 		payment
 		payment 60000
@@ -1415,6 +1417,7 @@ mission merchant-escort[2]
 		distance 1 3
 	destination
 		government "Cromha Empire"
+		distance 1 3
 	on complete
 		payment
 		payment 60000
@@ -1430,3 +1433,5 @@ mission merchant-escort[2]
 			distance 1 3
 	on visit
 		dialog "You've landed on your destination but it semms that your escorts are still not here. Wait for them then land back."
+
+# Secure delivries
