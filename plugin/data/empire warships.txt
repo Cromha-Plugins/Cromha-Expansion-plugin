@@ -719,23 +719,23 @@ ship "Empire Fortress"
 			"hit force" 120000
 	outfits
 		"Multiphasic Anti-Missile" 10
-		"Multiphasic ammo" 7500
-		"Multiphasic Ammo Rack" 5
+		"Multiphasic ammo" 9000
+		"Multiphasic Ammo Rack" 10
 
 		"Ion Proton Turret" 12
 		"Electron Turret" 8
 
 		"Empire Torpedo Bank" 6
-		"Empire Torpedo Rack" 10
-		"Empire Torpedo Missile" 220
+		"Empire Torpedo Rack" 80
+		"Empire Torpedo Missile" 920
 
 		"Thunderhead Launcher" 6
-		"Thunderhead Storage Array" 20
-		"Thunderhead Missile" 640
+		"Thunderhead Storage Array" 40
+		"Thunderhead Missile" 1040
 
 		"Cluster Mine Layer" 6
-		"Cluster Mine" 282
-		"Cluster Mine Rack" 20
+		"Cluster Mine" 462
+		"Cluster Mine Rack" 40
 
 		"Empire Nuke" 8
 
@@ -749,8 +749,9 @@ ship "Empire Fortress"
 		"Mineria Key Stone"
 		"Cloaking Module"
 		"Empire Navy Emitter" 6
-		"Self Destruct Module" 4
-		"Fuel Cell" 4
+		"Self Destruct Module" 15
+		"Fuel Cell" 15
+		"Multiphasic Scanner" 15
 		"Empire Shielding Core" 8
 		"Plasma Fuel Pod" 8
 
@@ -807,14 +808,23 @@ ship "Empire Fortress"
 	gun 185 83 "Cluster Mine Layer"
 		angle 180
 	gun 55 -325 "Empire Nuke"
+		over
 	gun 51.5 -409 "Empire Nuke"
+		over
 	gun -45.5 -403.5 "Empire Nuke"
+		over
 	gun -95.5 168.5 "Empire Nuke"
+		over
 	gun 97 171 "Empire Nuke"
+		over
 	gun -68 231.5 "Empire Nuke"
+		over
 	gun 72 234 "Empire Nuke"
+		over
 	gun -127 1.5 "Empire Nuke"
+		over
 	gun 124.5 -303.5 "Empire Nuke"
+		over
 	turret 40 -403.5 "Multiphasic Anti-Missile"
 	turret -55.5 -312 "Multiphasic Anti-Missile"
 	turret 135 -165.5 "Multiphasic Anti-Missile"
