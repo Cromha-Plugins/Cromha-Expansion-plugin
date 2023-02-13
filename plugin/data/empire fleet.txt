@@ -13,62 +13,104 @@ fleet cromha-fleet
 		hunting
 		daring
 	outfitters Cromha-basic-outfitter
-	variant 1
-		"Light Empire Destroyer" 1
-		"Empire Drone" 2
-		"Empire Wardragon (Electron Beam)"
-	variant 1
-		"Light Empire Destroyer" 1
-		"Empire Drone" 1
-		"Empire Wardragon"
-	variant 1
-		"Light Empire Destroyer" 2
-		"Empire Drone" 4
-		"Empire Wardragon (Electron Beam)"
-	variant 1
-		"Light Empire Destroyer" 2
-		"Empire Drone" 4
-		"Empire Destroyer yll'a"
-		"Empire Wardragon (Twin Modified Blaster)"
-	variant 1
-		"Light Empire Destroyer" 2
-		"Empire Drone" 4
-		"Empire Destroyer yll'e"
+	variant 3
+		"Empire Skylark"
+		"Empire Wardragon" 2
+		"Empire Nanobot" 2
+	variant 3
+		"Empire Skylark (Ion Proton)"
+		"Empire Wardragon (Electron Beam)" 2
+		"Empire Nanobot" 2
+	variant 3
+		"Empire Skylark (Electron Beam)"
 		"Empire Wardragon (Ion Proton)"
-	variant 1
-		"Light Empire Destroyer" 2
-		"Empire Drone" 4
-		"Empire Destroyer yll'a"
-		"Empire Destroyer yll'e"
-		"Empire Wardragon (Electron Beam)"
-		"Empire Wardragon (Ion Proton)"
-	variant 1
-		"Light Empire Destroyer" 2
-		"Empire Drone" 4
-		"Empire Destroyer yll'a"
-		"Empire Wardragon (Electron Beam)"
-		"Heavy Empire Destroyer"
-	variant 1
-		"Light Empire Destroyer" 2
-		"Empire Drone" 4
-		"Empire Destroyer yll'a"
 		"Empire Wardragon (Plasma Repeater)"
-		"Heavy Empire Destroyer"
+		"Empire Nanobot"
+	variant 3
+		"Empire Skylark"
+		"Empire Wardragon (Plasma Repeater)" 2
+		"Empire Nanobot" 2
+	variant 3
+		"Empire Skylark (Plasma Repeater)"
+		"Empire Wardragon" 2
+		"Empire Nanobot" 2
+	variant 3
+		"Empire Skylark (Twin Modified Blaster)"
+		"Empire Wardragon (Ion Proton)"
+		"Empire Wardragon"
+		"Empire Nanobot"
+	variant 3
+		"Empire Skylark"
+		"Empire Wardragon (Twin Modified Blaster)" 2
+		"Empire Nanobot" 2
+	variant 3
+		"Empire Skylark (Electron Beam)"
+		"Empire Wardragon"
+		"Empire Wardragon (Plasma Repeater)"
+		"Empire Nanobot" 2
 	variant 1
 		"Light Empire Destroyer" 2
-		"Empire Drone" 4
+		"Empire Destroyer yll'e"
+		"Empire Nanobot" 3
+	variant 1
+		"Light Empire Destroyer" 2
+		"Empire Destroyer yll'a"
+		"Empire Nanobot" 1
+	variant 1
+		"Light Empire Destroyer"
+		"Empire Destroyer yll'e" 2
+		"Empire Nanobot" 3
+	variant 1
+		"Light Empire Destroyer"
+		"Empire Destroyer yll'a" 2
+		"Empire Nanobot" 1
+	variant 1
+		"Light Empire Destroyer"
+		"Empire Destroyer yll'e"
+		"Empire Destroyer yll'a"
+		"Empire Nanobot" 2
+	variant 1
+		"Light Empire Destroyer" 2
+		"Empire Destroyer yll'a"
+		"Empire Destroyer yll'e"
+		"Empire Nanobot" 4
+	variant 0.7
+		"Light Empire Destroyer" 2
 		"Empire Destroyer yll'e"
 		"Heavy Empire Destroyer"
-		"Emipre Wardragon"
-		"Empire Wardragon (Ion Proton)"
-		"Empire Wardragon (Electron Beam)"
-		"Empire Wardragon (Electron Beam)"
-	variant 1
+		"Empire Nanobot" 3
+	variant 0.7
 		"Light Empire Destroyer" 2
-		"Empire Drone" 4
+		"Empire Destroyer yll'a"
+		"Heavy Empire Destroyer"
+		"Empire Nanobot" 1
+	variant 0.7
+		"Light Empire Destroyer"
+		"Empire Destroyer yll'e" 2
+		"Heavy Empire Destroyer"
+		"Empire Nanobot" 2
+	variant 0.7
+		"Light Empire Destroyer"
+		"Empire Destroyer yll'a" 2
+		"Heavy Empire Destroyer"
+		"Empire Nanobot" 3
+	variant 0.7
+		"Light Empire Destroyer"
+		"Empire Destroyer yll'e"
+		"Empire Destroyer yll'a"
+		"Heavy Empire Destroyer"
+		"Empire Nanobot" 4
+	variant 0.7
+		"Light Empire Destroyer" 2
 		"Empire Destroyer yll'a"
 		"Empire Destroyer yll'e"
 		"Heavy Empire Destroyer"
+		"Empire Nanobot" 5
+	variant 0.3
+		"Empire Fortress"
+		"Empire Wardragon"
+		"Empire Wardragon (Electron Beam)"
+		"Empire Wardragon (Plasma Repeater)"
 		"Empire Wardragon (Ion Proton)"
 fleet mineria-transports
 	government "Mineria colonnies"

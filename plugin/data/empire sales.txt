@@ -161,7 +161,7 @@ shipyard Cromha-basic-shipyard
 shipyard Cromha-military-shipyard
 	"Combat Drone"
 	"Black Manta"
-	"Empire Drone"
+	"Empire Nanobot"
 	"Heavy Empire Destroyer"
 	"Empire Destroyer"
 	"Light Empire Destroyer"
