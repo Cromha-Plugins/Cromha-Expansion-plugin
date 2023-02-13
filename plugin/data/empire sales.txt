@@ -187,3 +187,4 @@ shipyard Cromha-military-shipyard
 	"Fury (Empire)"
 	"Headhunter (Empire)"
 	"Empire Fortress"
+	"Empire Skylark"

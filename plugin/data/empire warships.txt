@@ -11,7 +11,7 @@ ship "Empire Wardragon"
 		category "Empire Warship"
 		licenses
 			"Empire Navy"
-		"cost" 3000000
+		"cost" 200000
 		"shields" 75400
 		"hull" 30065
 		"required crew" 55
@@ -42,12 +42,12 @@ ship "Empire Wardragon"
 		"Multiphasic Anti-Missile" 2
 		"Multiphasic ammo" 1200
 		
-		"RC-X4 Multiphasic Reactor" 3
+		"RC-X4 Multiphasic Reactor" 2
 		"Supercapacitor" 5
 		"Self Destruct Module"
 		
 		"Empire Shielding Core" 2
-		"Empire Hai Ravine Batteries" 6
+		"Empire Hai Ravine Batteries" 2
 		"Plasma Drive"
 		"Multiphasic Scanner"
 		"Multiphasic Cooler" 4
@@ -102,6 +102,103 @@ ship "Empire Wardragon"
 	explode "empire medium explosion" 40
 	"final explode" "empire huge explosion"
 	description "The Empire Wardragmoin is an remix of the Quarg Wardragon. This is the official Empire Warship that they use. It has good outfits, a great cargo space and great velocity. It is perfect for interceptions, attack, defend or even escort missions."
+
+ship "Empire Skylark"
+	sprite "ship/empire skylark"
+	thumbnail "thumbnail/empire skylark"
+	"never disabled"
+	"swizzle" 0
+	attributes
+		licenses
+			"Empire Navy"
+		category "Empire Warship"
+		"cost" 350000
+		"shields" 115000
+		"hull" 70000
+		"required crew" 55
+		"bunks" 85
+		"mass" 370
+		"drag" 12.3
+		"heat dissipation" .9
+		"fuel capacity" 800
+		"cargo space" 245
+		"outfit space" 950
+		"weapon capacity" 650
+		"engine capacity" 450
+		"hull repair rate" 5
+		"hull energy" 5
+		"ramscoop" 1.5
+		weapon
+			"blast radius" 100
+			"shield damage" 10500
+			"hull damage" 10500
+			"hit force" 300
+	outfits
+		"Empire Particle gun" 6
+		"Empire Torpedo Bank" 2
+		"Empire Torpedo Missile" 240
+		"Empire Torpedo Rack" 20
+		"Antimatter Railgun" 2
+		"Railgun Slug" 560
+		"Railgun Slug Rack"
+
+		"Multiphasic Anti-Missile" 2
+		"Multiphasic ammo" 1200
+		
+		"Empire Hai Ravine Batteries"
+		"Supercapacitor" 3
+		"Multiphasic Scanner"
+		"Multiphasic Cooler" 2
+		"One-Phasic Cooler" 2
+		"Mineria Key Stone"
+		"Brig" 6
+		"RC-X4 Multiphasic Reactor" 2
+		
+		"RC-200 Atomic Thruster" 1
+		"RC-205 Atomic Steering" 1
+		`RX-180 Reverse Thruster` 2
+		"Phasic Rifle" 55
+		"Security Station" 5
+		"Phasic Grenades" 25
+		"Security Forcefield" 5
+		"Countermesure Module" 1
+		"Teleportation Dock" 1
+		"Cloaking Module"
+		"Plasma Drive"
+		
+	engine -14 106
+		zoom 1.4
+	engine 14 106
+		zoom 1.4
+	engine 30.5 86
+		over
+	engine -30.5 86
+		over
+	engine 63.5 127
+	engine -63.5 127
+	"reverse engine" -62.5 -32.5
+	"reverse engine" -30.5 -72
+	"reverse engine" 62.5 -32.5
+	"reverse engine" 30.5 -72
+	gun -29.5 -72.5 "Empire Particle gun"
+	gun -63.5 -31.5 "Empire Particle gun"
+	gun -14 -85 "Empire Particle gun"
+	gun 29.5 -72.5 "Empire Particle gun"
+	gun 63.5 -31.5 "Empire Particle gun"
+	gun 14 -85 "Empire Particle gun"
+	gun -64.5 -32.5 "Empire Torpedo Bank"
+	gun 64.5 -32.5 "Empire Torpedo Bank"
+	gun -34 -7.5 "Antimatter Railgun"
+	gun 34 -7.5 "Antimatter Railgun"
+	turret -34 24 "Multiphasic Anti-Missile"
+	turret 34 24 "Multiphasic Anti-Missile"
+	explode "empire tiny explosion" 12
+	explode "empire small explosion" 16
+	explode "empire medium explosion" 30
+	explode "empire medium explosion" 40
+	explode "empire huge explosion" 20
+	"final explode" "empire huge explosion"
+	description "As the Empire Wardragon, this great ship is a remix of the Quarg ship Skylark. Like the Empire Wardragon, this ship is designed for interception, defend and attack missions principally. The only difference with th Empire Wardragon is that the Empire Skylark has been designed for longer missions. With its capability to regenerate fuel easily, it is a great ship for long interceptions missions but also cargo missions since it has a good cargo space."
 
 ship "Heavy Empire Destroyer"
 	sprite "ship/heavy empire destroyer"
