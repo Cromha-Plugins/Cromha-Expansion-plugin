@@ -12,6 +12,7 @@ outfitter Rebels-basic-outfitter
 	"Fuel Pod"
 	"Asteroid Scanner"
 	`RC-001 Atomic Engines`
+	"Nitrogen Afterburnner"
 outfitter Rebels-basic-ammo-outfitter
 	"Multiphasic ammo"
 	"Torpedo"

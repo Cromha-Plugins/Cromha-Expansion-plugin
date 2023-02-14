@@ -39,6 +39,7 @@ ship "Osprey" "Osprey (Rebels)"
 		
 		"Impala Plasma Thruster"
 		"Impala Plasma Steering"
+		"Nitrogen Afterburnner"
 		"Hyperdrive"
 		
 	engine -42.5 62.5 .8
@@ -99,6 +100,7 @@ ship "Scavenger"
 		"Liquid Nitrogen Cooler"
 		"X3700 Ion Thruster"
 		"X3200 Ion Steering"
+		"Nitrogen Afterburnner"
 		"Hyperdrive"
 	engine -31.5 110.5 0.7
 	engine 31.5 110.5 0.7
@@ -158,6 +160,7 @@ ship "Gunboat (modified)" "Gunboat (Rebels)"
 		
 		"X3700 Ion Thruster"
 		"X2200 Ion Steering"
+		"Nitrogen Afterburnner"
 		"Hyperdrive"
 		
 	engine -12 57.5 0.7
