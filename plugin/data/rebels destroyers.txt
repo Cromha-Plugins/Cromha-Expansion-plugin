@@ -8,7 +8,7 @@ ship "Tar Kas Destroyer"
 		"hull" 10650
 		"required crew" 35
 		"bunks" 55
-		"mass" 355
+		"mass" 450
 		"drag" 5.9
 		"heat dissipation" .9
 		"fuel capacity" 900

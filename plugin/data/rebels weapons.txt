@@ -58,11 +58,10 @@ outfit "Modified Plasma Repeater"
 		"burst count" 2
 		"firing energy" 25
 		"firing heat" 200
-		"shield damage" 37
-		"hull damage" 15
-		"heat damage" 144
-		"slowing damage" 13
-		"hit force" 23
+		"shield damage" 320
+		"hull damage" 240
+		"slowing damage" 40
+		"blast radius" 20
 	description `After the succes of The Plasma Repeater, better version of the original Plasma Cannon, the Empire Rebels made a modified Plasma Repeater version for their ships. A little like the Modified Blaster Gun, the weapon have better range, lifetime, velocity and firehing heat; even if this version has worst reload, it is surely a better version. The Empire military scientics also improved the weapon accuracy, that was very bad for the old Plasma guns.`
 	description `	Derived from the original Plasma Repeater, this heavier version trades off its larger bursts for a much faster rate of fire. Although the smaller bursts of superheated plasma deal far less damage than its predecessor, the volume of fire results in more damage to the target overall.`
 	description `	Since this weapon has been developped by Empire Rebels, it is illigal in all Empire Spaces.`
