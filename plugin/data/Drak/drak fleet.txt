@@ -1,0 +1,10 @@
+fleet drak-fleet
+	government "Drak"
+	personality heroic vindictive staying frugal forbearing mute
+	cargo 0
+	variant 1
+		"Archon"
+	variant 1
+		"Archon B"
+	variant 1
+		"Archon C"
