@@ -174,4 +174,4 @@ planet "Las Tah"
 	outfitter Rebels-basic-weapon-outfitter
 	outfitter Rebels-basic-systems-outfitter
 	outfitter Rebels-advanced-power-outfitter
-	outfitter Rebels-basic-engines-outfitte
+	outfitter Rebels-basic-engines-outfitter
