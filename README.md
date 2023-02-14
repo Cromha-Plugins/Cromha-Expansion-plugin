@@ -4,6 +4,7 @@ This is a endless sky plugin i make myself. Check out the wiki for more informat
 For more information, just check the [wiki](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki)!
 
 ## Installation
+Go [here](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki/User-Guide) for more infos on installing the plugin.
 ### Step 1: clone the repo on your local computer:
     git clone https://github.com/OcelotWalrus/Cromha-Expansion-plugin.git
 ### Step 2: run the installation script:
