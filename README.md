@@ -12,4 +12,5 @@ Simply run the install bash script:
     sh install.sh
 ## Keeping the plugin up to date with the github repository
 You can simply update your local repo from the github repo using the update bash script:
+    
     sh update.sh
