@@ -87,6 +87,13 @@ government "Mineria colonnies"
 		"Hai Merchant (Human)" 1
 		"Hai (Unfettered)" 1
 		Bounty -1
+		"Unknow" 2
+		"Unknown" 2
+		"Bounty Hunter" -1
+		"Kor Sestor" -3
+		"Kor Mereti" -3
+		"Korath" -2
+		"Kor Efreti" -3
 	color 191 4 135 1
 	bribe 2
 	fine 2
