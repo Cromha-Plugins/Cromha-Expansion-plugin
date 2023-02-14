@@ -89,3 +89,43 @@ government "Mineria colonnies"
 	color 191 4 135 1
 	bribe 2
 	fine 2
+
+government "Remnant (empre mission)"
+	swizzle 0
+	color .89 .38 .62
+	"crew defense" 2.2
+	"display name" "Remnant"
+	"player reputation" 1
+	"bribe" 0
+	"attitude toward"
+		"Indigenous Lifeform" 0.05
+		"Korath" -.05
+		"Alpha" -.05
+	"penalty for"
+		assist -0.25
+		disable 1
+		board 1
+		capture 10
+		destroy 10
+		scan 0.1
+	"use foreign penalties for"
+	"provoked on scan"
+	"friendly hail" "remnant uncontacted"
+	"hostile hail" "remnant uncontacted hostile"
+
+government "Syndicate (empire mission)"
+	swizzle 4
+	color 0 .41 .71
+	"display name" "Syndicate"
+	"player reputation" 2
+	"attitude toward"
+		"Merchant" .3
+		"Pirate" -.4
+		"Pirate (Devil-Run Gang)" -.4
+		"Smuggler (Hai Trafficker)" -.4
+		"Syndicate that won't enter wormhole" 1
+		"Korath" -.5
+	"bribe" .08
+	"friendly hail" "friendly syndicate"
+	"hostile hail" "hostile syndicate"
+	raid "pirate raid"

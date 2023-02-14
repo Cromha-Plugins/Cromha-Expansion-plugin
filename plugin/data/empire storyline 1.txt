@@ -54,13 +54,12 @@ mission "Empire: Espionage Remnants"
 		"espionage empire" 1
 	on complete
 		"reputation: Cromha Empire" += 10
-		"reputation: Remnant" += 50
 		"empire jobs" += 1
 		payment
 		payment 700000
 		dialog "You land on <planet> and give the results of the scans to an Empire officer and get your paymentof <payment>."
 	npc "scan outfits" save
-		government "Remnant"
+		government "Remnant (empire mission)"
 		personality staying disables board target
 			confusion 130
 		system destination
@@ -266,7 +265,7 @@ mission "Empire: Get Manta Plans"
 			`	"Also, you can come whenever you want in the Black Manta Spacial Dock in the Delia system."`
 			`	He leaves the room and let you <payment>.`
 	npc board
-		government "Syndicate"
+		government "Syndicate (empire mission)"
 		personality timid target staying
 		system "Edusa"
 		ship "Manta" "small syndicate"
