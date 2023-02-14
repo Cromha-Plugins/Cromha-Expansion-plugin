@@ -643,10 +643,10 @@ ship "Light Empire Destroyer"
 	description "The Light Empire Destroyer is the largest warship produced by the Empire shipyard. It is designed to be faster and more maneuverable than other ships of a similar size, in order to serve as a heavy escort ship or as part of a planetary defense and patrol fleet. Because of its intended use in merchant convoys, it also has a fair amount of cargo space."
 
 # Drones & Fighters
-ship "Empire Nanobot"
+ship "Empire Nanobot yll'e"
 	plural "Empire Nanobots"
-	sprite "ship/empire drone"
-	thumbnail "thumbnail/empire drone"
+	sprite "ship/empire nanobot yll'e"
+	thumbnail "thumbnail/empire nanobot yll'e"
 	"uncapturable"
 	"never disabled"
 	"swizzle" 0
@@ -676,7 +676,7 @@ ship "Empire Nanobot"
 		
 		"RC-X1 Multiphasic Reactor"
 		"Small Empire Shielding Core"
-		"Supercapacitor" 2
+		"Empire Hai Chasm Batteries" 
 		"Surveillance Pod"
 		"One-Phasic Cooler" 2
 
@@ -687,8 +687,49 @@ ship "Empire Nanobot"
 	gun 7 -13 "Empire Particle gun"
 	gun 12.5 -6 "Empire Particle gun"
 	explode "empire tiny explosion" 15
-	description "It is at first a Republic Navy drone but Cromha Empire buyed rights of this ship and made its own version to satisfy them."
-	description "	Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay."
+ship "Empire Nanobot yll'a"
+	plural "Empire Nanobots"
+	sprite "ship/empire nanobot yll'a"
+	thumbnail "thumbnail/empire nanobot yll'a"
+	"uncapturable"
+	"never disabled"
+	"swizzle" 0
+	attributes
+		category "Nanobot"
+		licenses
+			"Empire Navy"
+		"cost" 93000
+		"shields" 15500
+		"hull" 7000
+		"automaton" 1
+		"mass" 15
+		"drag" .59
+		"heat dissipation" .12
+		"outfit space" 275
+		"cargo space" 25
+		"weapon capacity" 100
+		"engine capacity" 38
+		"fuel capacity" 500
+		weapon
+			"blast radius" 5
+			"shield damage" 50
+			"hull damage" 25
+			"hit force" 75
+	outfits
+		"Ion Proton Gun"
+		
+		"RC-X1 Multiphasic Reactor"
+		"Small Empire Shielding Core"
+		"Empire Hai Chasm Batteries" 
+		"Surveillance Pod"
+		"One-Phasic Cooler" 2
+
+		`RC-001 Atomic Engines`
+		"Compact Plasma Drive"
+	engine 4 37.5
+	engine -10.5 37
+	gun -0.5 -29 "Ion Proton Gun"
+	explode "empire tiny explosion" 15
 
 # Fortresses
 ship "Empire Fortress"

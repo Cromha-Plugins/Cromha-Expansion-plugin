@@ -16,20 +16,21 @@ fleet cromha-fleet
 	variant 3
 		"Empire Skylark"
 		"Empire Wardragon" 2
-		"Empire Nanobot" 2
+		"Empire Nanobot yll'a" 2
 	variant 3
 		"Empire Skylark (Ion Proton)"
 		"Empire Wardragon (Electron Beam)" 2
-		"Empire Nanobot" 2
+		"Empire Nanobot yll'e"
+		"Empire Nanobot yll'a"
 	variant 3
 		"Empire Skylark (Electron Beam)"
 		"Empire Wardragon (Ion Proton)"
 		"Empire Wardragon (Plasma Repeater)"
-		"Empire Nanobot"
+		"Empire Nanobot yll'e"
 	variant 3
 		"Empire Skylark"
 		"Empire Wardragon (Plasma Repeater)" 2
-		"Empire Nanobot" 2
+		"Empire Nanobot yll'e" 2
 	variant 3
 		"Empire Skylark (Plasma Repeater)"
 		"Empire Wardragon" 2
@@ -38,74 +39,81 @@ fleet cromha-fleet
 		"Empire Skylark (Twin Modified Blaster)"
 		"Empire Wardragon (Ion Proton)"
 		"Empire Wardragon"
-		"Empire Nanobot"
+		"Empire Nanobot yll'a"
 	variant 3
 		"Empire Skylark"
 		"Empire Wardragon (Twin Modified Blaster)" 2
-		"Empire Nanobot" 2
+		"Empire Nanobot yll'e"
+		"Empire Nanobot yll'a"
 	variant 3
 		"Empire Skylark (Electron Beam)"
 		"Empire Wardragon"
 		"Empire Wardragon (Plasma Repeater)"
-		"Empire Nanobot" 2
+		"Empire Nanobot yll'e"
+		"Empire Nanobot yll'a"
 	variant 1
 		"Light Empire Destroyer" 2
 		"Empire Destroyer yll'e"
-		"Empire Nanobot" 3
+		"Empire Nanobot yll'e" 2
+		"Empire Nanobot yll'a"
 	variant 1
 		"Light Empire Destroyer" 2
 		"Empire Destroyer yll'a"
-		"Empire Nanobot" 1
+		"Empire Nanobot yll'e" 1
 	variant 1
 		"Light Empire Destroyer"
 		"Empire Destroyer yll'e" 2
-		"Empire Nanobot" 3
+		"Empire Nanobot yll'e"
+		"Empire Nanobot yll'a" 2
 	variant 1
 		"Light Empire Destroyer"
 		"Empire Destroyer yll'a" 2
-		"Empire Nanobot" 1
+		"Empire Nanobot yll'a" 1
 	variant 1
 		"Light Empire Destroyer"
 		"Empire Destroyer yll'e"
 		"Empire Destroyer yll'a"
-		"Empire Nanobot" 2
+		"Empire Nanobot yll'e" 2
 	variant 1
 		"Light Empire Destroyer" 2
 		"Empire Destroyer yll'a"
 		"Empire Destroyer yll'e"
-		"Empire Nanobot" 4
+		"Empire Nanobot yll'e" 2
+		"Empire Nanobot yll'a" 2
 	variant 0.7
 		"Light Empire Destroyer" 2
 		"Empire Destroyer yll'e"
 		"Heavy Empire Destroyer"
-		"Empire Nanobot" 3
+		"Empire Nanobot yll'e"
+		"Empire Nanobot yll'a" 2
 	variant 0.7
 		"Light Empire Destroyer" 2
 		"Empire Destroyer yll'a"
 		"Heavy Empire Destroyer"
-		"Empire Nanobot" 1
+		"Empire Nanobot yll'a"
 	variant 0.7
 		"Light Empire Destroyer"
 		"Empire Destroyer yll'e" 2
 		"Heavy Empire Destroyer"
-		"Empire Nanobot" 2
+		"Empire Nanobot yll'a" 2
 	variant 0.7
 		"Light Empire Destroyer"
 		"Empire Destroyer yll'a" 2
 		"Heavy Empire Destroyer"
-		"Empire Nanobot" 3
+		"Empire Nanobot yll'e" 3
 	variant 0.7
 		"Light Empire Destroyer"
 		"Empire Destroyer yll'e"
 		"Empire Destroyer yll'a"
 		"Heavy Empire Destroyer"
-		"Empire Nanobot" 4
+		"Empire Nanobot yll'a" 4
 	variant 0.7
 		"Light Empire Destroyer" 2
 		"Empire Destroyer yll'a"
 		"Empire Destroyer yll'e"
 		"Heavy Empire Destroyer"
-		"Empire Nanobot" 5
+		"Empire Nanobot yll'e" 3
+		"Empire Nanobot yll'a" 2
 	variant 0.3
 		"Empire Fortress"
 		"Empire Wardragon"

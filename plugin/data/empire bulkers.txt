@@ -61,25 +61,25 @@ ship "Empire Bulker"
 	turret 13.5 -58 "Electron Turret"
 	turret 37.5 60 "Ion Proton Turret"
 	turret -1.5 -63 "Multiphasic Anti-Missile"
-	bay "Cargo Freighter" -37.5 66.5
+	bay "Nanobot" -37.5 66.5
 		over
-	bay "Cargo Freighter" 37.5 66.5
+	bay "Nanobot" 37.5 66.5
 		over
-	bay "Cargo Freighter" -37.5 15
+	bay "Nanobot" -37.5 15
 		over
-	bay "Cargo Freighter" 37.5 15
+	bay "Nanobot" 37.5 15
 		over
-	bay "Cargo Freighter" -26.5 123.5
+	bay "Nanobot" -26.5 123.5
 		over
-	bay "Cargo Freighter" 26.5 123.5
+	bay "Nanobot" 26.5 123.5
 		over
-	bay "Cargo Freighter" -27.5 -22.5
+	bay "Nanobot" -27.5 -22.5
 		over
-	bay "Cargo Freighter" 27.5 -22.5
+	bay "Nanobot" 27.5 -22.5
 		over
-	bay "Cargo Freighter" -20 -116
+	bay "Nanobot" -20 -116
 		over
-	bay "Cargo Freighter" 20 -116
+	bay "Nanobot" 20 -116
 		over
 	bay "Fuel Pod" 0 0
 	bay "Fuel Pod" 0 0
@@ -96,7 +96,7 @@ ship "Cargo Transporter"
 	thumbnail "thumbnail/cargo transporter"
 	"swizzle" 0
 	attributes
-		category "Cargo Freighter"
+		category "Nanobot"
 		licenses
 			"Empire Navy"
 		"cost" 10000
