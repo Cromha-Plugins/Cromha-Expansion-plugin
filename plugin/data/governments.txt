@@ -25,6 +25,7 @@ government "Cromha Empire"
 		"Kor Sestor" -3
 		"Kor Mereti" -3
 		"Korath" -2
+		"Kor Efreti" -3
 	"death sentence" "caught red-handed"
 	raid empire-rebels-raiders
 	swizzle 0

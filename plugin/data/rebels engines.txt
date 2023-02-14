@@ -18,3 +18,4 @@ effect "nitrogen afterburner"
 	"lifetime" 1
 	"random velocity" 1.
 	"velocity scale" 1.
+
