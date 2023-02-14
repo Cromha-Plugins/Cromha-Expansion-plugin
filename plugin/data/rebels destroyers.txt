@@ -95,3 +95,173 @@ ship "Tar Kas Destroyer"
 	explode "tiny explosion" 28
 	"final explode" "final explosion medium"
 	description "After the Blackbird gained surprising popularity as an agile light warship despite its original design as a transport, Tarazed decided to produce a new design specifically intended as a warship. The Osprey was the result. Although it is considered overpriced by most savvy pilots, it is nevertheless a perennial favorite among those who have the extra cash to spend on it."
+
+ship "Or Kar Destroyer"
+    sprite "ship/or kar destroyer"
+	thumbnail "thumbnail/or kar destroyer"
+	attributes
+		category "Destroyer"
+		"cost" 950000
+		"shields" 120000
+		"hull" 28650
+		"required crew" 75
+		"bunks" 145
+		"mass" 650
+		"drag" 6.8
+		"heat dissipation" .7
+		"fuel capacity" 900
+		"cargo space" 135
+		"outfit space" 840
+		"weapon capacity" 750
+		"engine capacity" 345
+		weapon
+			"blast radius" 156
+			"shield damage" 2600
+			"hull damage" 1900
+			"hit force" 150
+	outfits
+		"Rebel Grav-Turret" 7
+		"Heavy Anti-Missile Turret" 2
+		
+		"RC-X3 Multiphasic Reactor" 2
+		"Empire Hai Ravine Batteries"
+		"Empire Shielding Core" 2
+		
+        "Active Radar Jammer" 2
+
+		"Liquid Nitrogen Cooler" 2
+		"Pulse Rifle" 55
+        "Nerve Gas" 35
+		"Large Interference Emitter" 2
+		
+		"W-180 Nitrogen Thruster"
+		"W-180 Nitrogen Steering"
+		"Nitrogen Afterburnner"
+		"Scram Drive"
+		
+	engine 18.5 131.5
+		zoom 1.4
+	engine -18.5 131.5
+		zoom 1.4
+	engine 70 78
+		zoom 0.6
+	engine 67.5 95
+		zoom 0.6
+	engine 44.5 140.5
+		zoom 0.6
+	engine -70 78
+		zoom 0.6
+	engine -67.5 95
+		zoom 0.6
+	engine -44.5 140.5
+		zoom 0.6
+	"steering engine" 64.5 31
+		angle 325
+		left
+		zoom 0.3
+		over
+	"steering engine" 60.5 18
+		angle 325
+		left
+		zoom 0.3
+		over
+	"steering engine" 57 8
+		angle 325
+		left
+		zoom 0.3
+		over
+	"steering engine" 57 -35.5
+		angle 325
+		left
+		zoom 0.3
+		over
+	"steering engine" 46 -84.5
+		angle 325
+		left
+		zoom 0.3
+		over
+	"steering engine" -24.5 153
+		angle 325
+		left
+		zoom 0.3
+		over
+	"steering engine" -28.5 142
+		angle 325
+		left
+		zoom 0.3
+		over
+	"steering engine" -30 135
+		angle 325
+		left
+		zoom 0.3
+		over
+	"steering engine" 41 -99.5
+		angle 325
+		left
+		zoom 0.3
+		over
+
+
+	"steering engine" -64.5 31
+		angle 35
+		right
+		zoom 0.3
+		over
+	"steering engine" -60.5 18
+		angle 35
+		right
+		zoom 0.3
+		over
+	"steering engine" -57 8
+		angle 35
+		right
+		zoom 0.3
+		over
+	"steering engine" -57 -35.5
+		angle 35
+		right
+		zoom 0.3
+		over
+	"steering engine" -46 -84.5
+		angle 35
+		right
+		zoom 0.3
+		over
+	"steering engine" 24.5 153
+		angle 35
+		right
+		zoom 0.3
+		over
+	"steering engine" 28.5 142
+		angle 35
+		right
+		zoom 0.3
+		over
+	"steering engine" 30 135
+		angle 35
+		right
+		zoom 0.3
+		over
+	"steering engine" -41 -99.5
+		angle 35
+		right
+		zoom 0.3
+		over
+	turret 20 -63.5 "Rebel Grav-Turret"
+	turret 27 98.5 "Rebel Grav-Turret"
+	turret 32 14.5 "Rebel Grav-Turret"
+	turret -20 -63.5 "Rebel Grav-Turret"
+	turret -27 98.5 "Rebel Grav-Turret"
+	turret -32 14.5 "Rebel Grav-Turret"
+	turret 0.5 -4 "Rebel Grav-Turret"
+	turret -0.5 72.5 "Heavy Anti-Missile Turret"
+	turret 0 -90 "Heavy Anti-Missile Turret"
+	leak "leak" 40 50
+	leak "flame" 80 80
+	leak "big leak" 80 30
+	explode "medium explosion" 24
+	explode "large explosion" 16
+	explode "small explosion" 40
+	explode "tiny explosion" 28
+	"final explode" "final explosion medium"
+	description "After the Blackbird gained surprising popularity as an agile light warship despite its original design as a transport, Tarazed decided to produce a new design specifically intended as a warship. The Osprey was the result. Although it is considered overpriced by most savvy pilots, it is nevertheless a perennial favorite among those who have the extra cash to spend on it."
