@@ -189,3 +189,4 @@ shipyard Cromha-military-shipyard
 	"Headhunter (Empire)"
 	"Empire Fortress"
 	"Empire Skylark"
+	"Tar Kas Destroyer"

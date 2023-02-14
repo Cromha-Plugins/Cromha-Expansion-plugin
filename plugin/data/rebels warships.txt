@@ -37,8 +37,8 @@ ship "Osprey" "Osprey (Rebels)"
 		"Pulse Rifle" 3
 		"Large Interference Emitter"
 		
-		"Impala Plasma Thruster"
-		"Impala Plasma Steering"
+		"W-160 Nitrogen Thruster"
+		"W-160 Nitrogen Steering"
 		"Nitrogen Afterburnner"
 		"Hyperdrive"
 		
@@ -98,8 +98,8 @@ ship "Scavenger"
 		"Laser Rifle" 5
 		"Plasma Fuel Pod"
 		"Liquid Nitrogen Cooler"
-		"X3700 Ion Thruster"
-		"X3200 Ion Steering"
+		"W-160 Nitrogen Thruster"
+		"W-160 Nitrogen Steering"
 		"Nitrogen Afterburnner"
 		"Hyperdrive"
 	engine -31.5 110.5 0.7
@@ -158,8 +158,8 @@ ship "Gunboat (modified)" "Gunboat (Rebels)"
 		"Brig"
 		"Small Interference Emitter"
 		
-		"X3700 Ion Thruster"
-		"X2200 Ion Steering"
+		"W-120 Nitrogen Thruster"
+		"W-160 Nitrogen Steering"
 		"Nitrogen Afterburnner"
 		"Hyperdrive"
 		

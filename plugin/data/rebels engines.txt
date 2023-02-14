@@ -12,10 +12,97 @@ outfit "Nitrogen Afterburnner"
 
 effect "nitrogen afterburner"
 	sprite "effect/afterburner/nitrogen afterburner"
+		scale 1.4
 		"no repeat"
-		"frame rate" 3
-	sound "ionic afterburner"
-	"lifetime" 1
+		"frame rate" 30
+	sound "korath afterburner"
+	"lifetime" 14
+	"random angle" 15
+	"random spin" 360
+	"random frame rate" 5
 	"random velocity" 1.
-	"velocity scale" 1.
+	"velocity scale" 1
 
+outfit "W-120 Nitrogen Thruster"
+	cost 9500
+	category "Engines"
+	thumbnail "outfit/small rebels thruster"
+	"mass" 25
+	"outfit space" -15
+	"engine capacity" -25
+	"thrust" 14.6
+	"thrusting energy" 3.8
+	"thrusting heat" 4.2
+	"flare sprite" "effect/nitrogen flare/small"
+		"frame rate" 11
+	"flare sound" "atomic small"
+
+outfit "W-120 Nitrogen Steering"
+	cost 9500
+	category "Engines"
+	thumbnail "outfit/small rebels steering"
+	"mass" 25
+	"outfit space" -15
+	"engine capacity" -25
+	"turn" 563
+	"turning energy" 3.8
+	"turning heat" 4.2
+	"steering flare sprite" "effect/nitrogen flare/small"
+		"frame rate" 11
+	"steering flare sound" "atomic small"
+
+outfit "W-160 Nitrogen Thruster"
+	cost 9500
+	category "Engines"
+	thumbnail "outfit/medium rebels thruster"
+	"mass" 35
+	"outfit space" -20
+	"engine capacity" -35
+	"thrust" 22.4
+	"thrusting energy" 6.4
+	"thrusting heat" 6.4
+	"flare sprite" "effect/nitrogen flare/medium"
+		"frame rate" 11
+	"flare sound" "atomic medium"
+
+outfit "W-160 Nitrogen Steering"
+	cost 9500
+	category "Engines"
+	thumbnail "outfit/medium rebels steering"
+	"mass" 35
+	"outfit space" -20
+	"engine capacity" -35
+	"turn" 1028
+	"turning energy" 6.4
+	"turning heat" 6.4
+	"steering flare sprite" "effect/nitrogen flare/medium"
+		"frame rate" 11
+	"steering flare sound" "atomic medium"
+
+outfit "W-180 Nitrogen Thruster"
+	cost 9500
+	category "Engines"
+	thumbnail "outfit/large rebels thruster"
+	"mass" 45
+	"outfit space" -30
+	"engine capacity" -45
+	"thrust" 34.2
+	"thrusting energy" 8.3
+	"thrusting heat" 8.3
+	"flare sprite" "effect/nitrogen flare/large"
+		"frame rate" 11
+	"flare sound" "atomic large"
+
+outfit "W-180 Nitrogen Steering"
+	cost 9500
+	category "Engines"
+	thumbnail "outfit/large rebels steering"
+	"mass" 45
+	"outfit space" -30
+	"engine capacity" -45
+	"turn" 1708
+	"turning energy" 8.3
+	"turning heat" 8.3
+	"steering flare sprite" "effect/nitrogen flare/large"
+		"frame rate" 11
+	"steering flare sound" "atomic large"

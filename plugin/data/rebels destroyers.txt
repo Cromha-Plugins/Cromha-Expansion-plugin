@@ -1,0 +1,97 @@
+ship "Tar Kas Destroyer"
+    sprite "ship/tar kas destroyer"
+	thumbnail "thumbnail/tar kas destroyer"
+	attributes
+		category "Destroyer"
+		"cost" 750000
+		"shields" 75000
+		"hull" 10650
+		"required crew" 35
+		"bunks" 55
+		"mass" 355
+		"drag" 5.9
+		"heat dissipation" .9
+		"fuel capacity" 900
+		"cargo space" 85
+		"outfit space" 720
+		"weapon capacity" 350
+		"engine capacity" 175
+		weapon
+			"blast radius" 95
+			"shield damage" 1200
+			"hull damage" 800
+			"hit force" 1300
+	outfits
+		"Modified Plasma Repeater" 4
+		"Rebels Blaze-Pike" 2
+		"Rebel Grav-Turret" 2
+		"Heavy Anti-Missile Turret" 2
+		"Railgun Slug" 1000
+		
+		"RC-X3 Multiphasic Reactor" 2
+		"Empire Hai Ravine Batteries"
+		"Empire Shielding Core"
+		
+        "Active Radar Jammer"
+
+		"Liquid Nitrogen Cooler"
+		"Pulse Rifle" 15
+        "Nerve Gas" 8
+		"Large Interference Emitter" 2
+		
+		"W-180 Nitrogen Thruster"
+		"W-180 Nitrogen Steering"
+		"Nitrogen Afterburnner"
+		"Scram Drive"
+		
+	engine -32 198.5
+        zoom 1.3
+	engine 32 198.5
+        zoom 1.3
+	"reverse engine" -34.5 -183.5
+        zoom 1.3
+	"reverse engine" 34.5 -183.5
+        zoom 1.3
+	"steering engine" 108 33.5
+        zoom 0.9
+        angle 325
+        left
+	"steering engine" 103.5 16
+        zoom 0.3
+        angle 325
+        left
+	"steering engine" 103.5 5
+        zoom 0.3
+        angle 325
+        left
+	"steering engine" -108 33.5
+        zoom 0.9
+        angle 35
+        right
+	"steering engine" -103.5 16
+        zoom 0.3
+        angle 35
+        right
+	"steering engine" -103.5 5
+        zoom 0.3
+        angle 35
+        right
+	turret -74 13 "Heavy Anti-Missile Turret"
+	turret 74 13 "Heavy Anti-Missile Turret"
+	gun 37.5 -183.5 "Modified Plasma Repeater"
+	gun 28.5 -184 "Modified Plasma Repeater"
+	gun -37.5 -183.5 "Modified Plasma Repeater"
+	gun -28.5 -184 "Modified Plasma Repeater"
+	gun -17.5 -84 "Rebels Blaze-Pike"
+	gun 17.5 -84 "Rebels Blaze-Pike"
+	turret -12 103 "Rebel Grav-Turret"
+	turret 12 103 "Rebel Grav-Turret"
+	leak "leak" 40 50
+	leak "flame" 80 80
+	leak "big leak" 80 30
+	explode "medium explosion" 24
+	explode "large explosion" 16
+	explode "small explosion" 40
+	explode "tiny explosion" 28
+	"final explode" "final explosion medium"
+	description "After the Blackbird gained surprising popularity as an agile light warship despite its original design as a transport, Tarazed decided to produce a new design specifically intended as a warship. The Osprey was the result. Although it is considered overpriced by most savvy pilots, it is nevertheless a perennial favorite among those who have the extra cash to spend on it."
