@@ -19,12 +19,12 @@ government "Cromha Empire"
 		"Hai Merchant (Human)" 1
 		"Hai (Unfettered)" 1
 		Bounty -1
-<<<<<<< HEAD
 		"Unknow" 2
 		"Unknown" 2
-=======
 		"Bounty Hunter" -1
->>>>>>> patch
+		"Kor Sestor" -3
+		"Kor Mereti" -3
+		"Korath" -2
 	"death sentence" "caught red-handed"
 	raid empire-rebels-raiders
 	swizzle 0
