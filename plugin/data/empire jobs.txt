@@ -1096,7 +1096,7 @@ mission bulk-delivry-food[3]
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
 mission bulk-delivry-food[4]
-	name "Bluck Delivry to <planet>"
+	name "Bulk Delivry to <planet>"
 	description "Delivry <cargo> to <destination>. Payment is <payment>."
 	repeat
 	job
@@ -1133,7 +1133,7 @@ mission bulk-delivry-clothing[0]
 		payment 15000
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
-mission bluk-delivry-clothing[1]
+mission bulk-delivry-clothing[1]
 	name "Bulk Delivry to <planet>"
 	description "Delivry <cargo> to <destination>. Payment is <payment>."
 	repeat
