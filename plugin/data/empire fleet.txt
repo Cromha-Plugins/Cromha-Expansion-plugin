@@ -57,8 +57,8 @@ fleet cromha-fleet
 		"Empire Nanobot yll'e" 2
 		"Empire Nanobot yll'a"
 		"Empire Bulker"
-		"Empire Nanobot yll'e" 6
-		"Empire Nanobot yll'e" 6
+		"Empire Nanobot yll'e" 5
+		"Empire Nanobot yll'e" 5
 	variant 1
 		"Light Empire Destroyer" 2
 		"Empire Destroyer yll'a"
@@ -73,8 +73,8 @@ fleet cromha-fleet
 		"Empire Destroyer yll'a" 2
 		"Empire Nanobot yll'a" 1
 		"Empire Bulker"
-		"Empire Nanobot yll'e" 6
-		"Empire Nanobot yll'e" 6
+		"Empire Nanobot yll'e" 5
+		"Empire Nanobot yll'e" 5
 	variant 1
 		"Light Empire Destroyer"
 		"Empire Destroyer yll'e"
@@ -87,8 +87,8 @@ fleet cromha-fleet
 		"Empire Nanobot yll'e" 2
 		"Empire Nanobot yll'a" 2
 		"Empire Bulker"
-		"Empire Nanobot yll'e" 6
-		"Empire Nanobot yll'e" 6
+		"Empire Nanobot yll'e" 5
+		"Empire Nanobot yll'e" 5
 	variant 0.7
 		"Light Empire Destroyer" 2
 		"Empire Destroyer yll'e"
@@ -101,8 +101,8 @@ fleet cromha-fleet
 		"Heavy Empire Destroyer"
 		"Empire Nanobot yll'a"
 		"Empire Bulker"
-		"Empire Nanobot yll'e" 6
-		"Empire Nanobot yll'e" 6
+		"Empire Nanobot yll'e" 5
+		"Empire Nanobot yll'e" 5
 	variant 0.7
 		"Light Empire Destroyer"
 		"Empire Destroyer yll'e" 2
@@ -120,8 +120,8 @@ fleet cromha-fleet
 		"Heavy Empire Destroyer"
 		"Empire Nanobot yll'a" 4
 		"Empire Bulker"
-		"Empire Nanobot yll'e" 6
-		"Empire Nanobot yll'e" 6
+		"Empire Nanobot yll'e" 5
+		"Empire Nanobot yll'e" 5
 	variant 0.7
 		"Light Empire Destroyer" 2
 		"Empire Destroyer yll'a"
@@ -130,8 +130,8 @@ fleet cromha-fleet
 		"Empire Nanobot yll'e" 3
 		"Empire Nanobot yll'a" 2
 		"Empire Bulker"
-		"Empire Nanobot yll'e" 6
-		"Empire Nanobot yll'e" 6
+		"Empire Nanobot yll'e" 5
+		"Empire Nanobot yll'e" 5
 	variant 0.3
 		"Empire Fortress"
 		"Empire Wardragon"
