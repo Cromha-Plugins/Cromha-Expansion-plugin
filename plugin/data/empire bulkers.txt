@@ -91,42 +91,6 @@ ship "Empire Bulker"
 	explode "empire medium explosion" 15
 	description "The Empire Bulker is an great freighter to transport heavy metals or cargo. It is an very smart freighter ship: it has not much cargo space itself that make it faster to defend from pirates but it carries Empire Cargo Transporters. It is probally the most ingenious Freighters in the whole galaxy."
 
-ship "Cargo Transporter"
-	sprite "ship/cargo transporter"
-	thumbnail "thumbnail/cargo transporter"
-	"swizzle" 0
-	attributes
-		category "Nanobot"
-		licenses
-			"Empire Navy"
-		"cost" 10000
-		"hull" 700
-		"automaton" 1
-		"mass" 100
-		"drag" .59
-		"heat dissipation" .9
-		"outfit space" 170
-		"weapon capacity" 30
-		"engine capacity" 38
-		"fuel capacity" 200
-        "cargo space" 70
-		weapon
-			"blast radius" 5
-			"shield damage" 50
-			"hull damage" 25
-			"hit force" 75
-	outfits
-			`RC-001 Atomic Engines`
-			"RC-X1 Multiphasic Reactor"
-			"Supercapacitor"
-            "Self Destruct Module"
-	leak "empire leak" 15
-	explode "empire tiny explosion" 4
-	"final explode" "empire medium explosion"
-	engine -13.5 22
-	engine 13.5 22
-	description "This is a 'mobile cargo'. It is useful to carry cargo, drop it when you need to be faster if you are attacked. The Empire use them with the Empire Bulker to export all their products."
-
 ship "Fuel Pod"
 	noun "fuel pod"
 	sprite "ship/fuel pod"

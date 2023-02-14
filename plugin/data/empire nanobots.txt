@@ -1,0 +1,124 @@
+ship "Empire Nanobot yll'e"
+	plural "Empire Nanobots"
+	sprite "ship/empire nanobot yll'e"
+	thumbnail "thumbnail/empire nanobot yll'e"
+	"uncapturable"
+	"never disabled"
+	"swizzle" 0
+	attributes
+		category "Nanobot"
+		licenses
+			"Empire Navy"
+		"cost" 93000
+		"shields" 15500
+		"hull" 7000
+		"automaton" 1
+		"mass" 15
+		"drag" .59
+		"heat dissipation" .12
+		"outfit space" 275
+		"cargo space" 25
+		"weapon capacity" 100
+		"engine capacity" 38
+		"fuel capacity" 500
+		weapon
+			"blast radius" 5
+			"shield damage" 50
+			"hull damage" 25
+			"hit force" 75
+	outfits
+		"Empire Particle gun" 2
+		
+		"RC-X1 Multiphasic Reactor"
+		"Small Empire Shielding Core"
+		"Empire Hai Chasm Batteries" 
+		"Surveillance Pod"
+		"One-Phasic Cooler" 2
+
+		`RC-001 Atomic Engines`
+		"Compact Plasma Drive"
+	engine 4 37.5
+	engine -10.5 37
+	gun 7 -13 "Empire Particle gun"
+	gun 12.5 -6 "Empire Particle gun"
+	explode "empire tiny explosion" 15
+
+ship "Empire Nanobot yll'a"
+	plural "Empire Nanobots"
+	sprite "ship/empire nanobot yll'a"
+	thumbnail "thumbnail/empire nanobot yll'a"
+	"uncapturable"
+	"never disabled"
+	"swizzle" 0
+	attributes
+		category "Nanobot"
+		licenses
+			"Empire Navy"
+		"cost" 93000
+		"shields" 15500
+		"hull" 7000
+		"automaton" 1
+		"mass" 15
+		"drag" .59
+		"heat dissipation" .12
+		"outfit space" 275
+		"cargo space" 25
+		"weapon capacity" 100
+		"engine capacity" 38
+		"fuel capacity" 500
+		weapon
+			"blast radius" 5
+			"shield damage" 50
+			"hull damage" 25
+			"hit force" 75
+	outfits
+		"Ion Proton Gun"
+		
+		"RC-X1 Multiphasic Reactor"
+		"Small Empire Shielding Core"
+		"Empire Hai Chasm Batteries" 
+		"Surveillance Pod"
+		"One-Phasic Cooler" 2
+
+		`RC-001 Atomic Engines`
+		"Compact Plasma Drive"
+	engine 4 37.5
+	engine -10.5 37
+	gun -0.5 -29 "Ion Proton Gun"
+	explode "empire tiny explosion" 15
+
+ship "Cargo Transporter"
+	sprite "ship/cargo transporter"
+	thumbnail "thumbnail/cargo transporter"
+	"swizzle" 0
+	attributes
+		category "Nanobot"
+		licenses
+			"Empire Navy"
+		"cost" 10000
+		"hull" 700
+		"automaton" 1
+		"mass" 100
+		"drag" .59
+		"heat dissipation" .9
+		"outfit space" 170
+		"weapon capacity" 30
+		"engine capacity" 38
+		"fuel capacity" 200
+        "cargo space" 70
+		weapon
+			"blast radius" 5
+			"shield damage" 50
+			"hull damage" 25
+			"hit force" 75
+	outfits
+			`RC-001 Atomic Engines`
+			"RC-X1 Multiphasic Reactor"
+			"Supercapacitor"
+            "Self Destruct Module"
+	leak "empire leak" 15
+	explode "empire tiny explosion" 4
+	"final explode" "empire medium explosion"
+	engine -13.5 22
+	engine 13.5 22
+	description "This is a 'mobile cargo'. It is useful to carry cargo, drop it when you need to be faster if you are attacked. The Empire use them with the Empire Bulker to export all their products."
