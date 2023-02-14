@@ -1,7 +1,6 @@
 date=$(date)
-branchname=$(cat .branchname)
 
-printf "Wanna update the local repo before pushing (y/n)? "
+echo "Wanna update the local repo before pushing (y/n)? "
 read answer
 if [ "$answer" != "${answer#[Yy]}" ] ;then
     sh update.sh
@@ -34,11 +33,9 @@ sleep 1
 echo -ne '#######################   (100%)\r'
 echo -ne '\n'
 git commit -m "$commitname"
+echo "Where you want your commit to be pushed? (branch name):"
+read branchname
 git branch -M "$branchname"
 git push -u origin "$branchname"
-git checkout main
-git merge "$branchname"
-git push -u origin main
-git branch --delete "$branchname"
-sh ../logger.sh "Finished pushing your commit to the main branch"
+sh ../logger.sh "Finished pushing your commit to the $branchname branch"
 echo "Done"

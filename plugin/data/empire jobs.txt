@@ -1801,3 +1801,252 @@ mission wanted-rebel[1]
 		system
 			distance 1 3
 		dialog "You capture the rebel. Time to bring him to <planet>."
+
+# Prisonner transport
+mission prisonner-empire[0]
+	name "Prisonner to <planet>"
+	description "Bring an empire prisonner safely to <destination> before the date of <date>. Payment is <payment>."
+	job
+	repeat
+	deadline 1 4
+	passengers 1
+	source
+		government "Cromha Empire"
+	destination
+		government "Cromha Empire"
+		attributes military
+		distance 1 4
+	to offer
+		random < 40
+	on complete
+		payment
+		payment 18000
+		dialog "You bring the prisonner to an empire authoritie. He pays you <payment>."
+mission prisonner-empire[1]
+	name "Prisonner to <planet>"
+	description "Bring an empire prisonner safely to <destination> before the date of <date>. Payment is <payment>."
+	job
+	repeat
+	passengers 1
+	deadline 1 8
+	source
+		government "Cromha Empire"
+	destination
+		government "Cromha Empire"
+		attributes military
+		distance 1 8
+	to offer
+		random < 35
+	on complete
+		payment
+		payment 24000
+		dialog "You bring the prisonner to an empire authoritie. He pays you <payment>."
+mission prisonner-empire[2]
+	name "Prisonner to <planet>"
+	description "Bring an empire prisonner safely to <destination> before the date of <date>. Payment is <payment>."
+	job
+	repeat
+	passengers 1
+	deadline 1 2
+	source
+		government "Cromha Empire"
+	destination
+		government "Cromha Empire"
+		attributes military
+		distance 1 2
+	to offer
+		random < 50
+	on complete
+		payment
+		payment 13500
+		dialog "You bring the prisonner to an empire authoritie. He pays you <payment>."
+
+# Vacancers
+mission vacancer[0]
+	name "Vacancer to <planet>"
+	description "Transport 1 vacancer to <destination> for its vacations before the date of <date>. Payment is <payment>."
+	job
+	repeat
+	deadline 1 3
+	passengers 1
+	source
+		government "Cromha Empire"
+	destination
+		not government "Empire Rebels" "Syndicate"
+		attributes tourism torist
+		distance 1 3
+	to offer
+		random < 35
+	on complete
+		payment
+		payment 9600
+		dialog "You land on <planet> and depose the vacancer(s). You got payed <payment>."
+mission vacancer[1]
+	name "Vacancers to <planet>"
+	description "Transport 2 vacancer to <destination> for its vacations before the date of <date>. Payment is <payment>."
+	job
+	repeat
+	deadline 2 7
+	passengers 2
+	source
+		government "Cromha Empire"
+	destination
+		not government "Empire Rebels" "Syndicate"
+		attributes tourism torist
+		distance 2 5
+	to offer
+		random < 45
+	on complete
+		payment
+		payment 21000
+		dialog "You land on <planet> and depose the vacancer(s). You got payed <payment>."
+mission vacancer[2]
+	name "Vacancers to <planet>"
+	description "Transport 4 vacancer to <destination> for its vacations before the date of <date>. Payment is <payment>."
+	job
+	repeat
+	deadline 1 3
+	passengers 4
+	source
+		government "Cromha Empire"
+	destination
+		not government "Empire Rebels" "Syndicate"
+		attributes tourism torist
+		distance 1 3
+	to offer
+		random < 40
+	on complete
+		payment
+		payment 23500
+		dialog "You land on <planet> and depose the vacancer(s). You got payed <payment>."
+mission vacancer[4]
+	name "Vacancers to <planet>"
+	description "Transport 3 vacancer to <destination> for its vacations before the date of <date>. Payment is <payment>."
+	job
+	repeat
+	deadline 2 8
+	passengers 3
+	source
+		government "Cromha Empire"
+	destination
+		not government "Empire Rebels" "Syndicate"
+		attributes tourism torist
+		distance 2 6
+	to offer
+		random < 55
+	on complete
+		payment
+		payment 31000
+		dialog "You land on <planet> and depose the vacancer(s). You got payed <payment>."
+
+# Miners transport
+mission miner[0]
+	name "Miner to <planet>"
+	description "Transport a miner to the <destination> mine. Payment is <payment>."
+	job
+	repeat
+	passengers 1
+	source
+		government "Cromha Empire"
+	destination
+		government "Cromha Empire" "Mineria colonnies"
+		attributes mining oil
+		distance 1 12
+	to offer
+		random < 40
+	on complete
+		payment
+		payment 7800
+		dialog "You land on <planet> and get payed <payment> by the miner(s)."
+mission miner[1]
+	name "Miners to <planet>"
+	description "Transport 2 miners to the <destination> mine. Payment is <payment>."
+	job
+	repeat
+	passengers 2
+	source
+		government "Cromha Empire"
+	destination
+		government "Cromha Empire" "Mineria colonnies"
+		attributes mining oil
+		distance 1 12
+	to offer
+		random < 55
+	on complete
+		payment
+		payment 9400
+		dialog "You land on <planet> and get payed <payment> by the miner(s)."
+mission miner[2]
+	name "Miners to <planet>"
+	description "Transport 6 miners to the <destination> mine. Payment is <payment>."
+	job
+	repeat
+	passengers 6
+	source
+		government "Cromha Empire"
+	destination
+		government "Cromha Empire" "Mineria colonnies"
+		attributes mining oil
+		distance 1 12
+	to offer
+		random < 35
+	on complete
+		payment
+		payment 18000
+		dialog "You land on <planet> and get payed <payment> by the miner(s)."
+mission miner[3]
+	name "Miners to <planet>"
+	description "Transport 4 miners to the <destination> mine. Payment is <payment>."
+	job
+	repeat
+	passengers 4
+	source
+		government "Cromha Empire"
+	destination
+		government "Cromha Empire" "Mineria colonnies"
+		attributes mining oil
+		distance 1 12
+	to offer
+		random < 45
+	on complete
+		payment
+		payment 19000
+		dialog "You land on <planet> and get payed <payment> by the miner(s)."
+
+# Worker
+mission worker-factory[0]
+	name "Worker to <planet>."
+	description "Transport a worker to the <planet> facotry in the <system> system. Payment is <payment>."
+	job
+	repeat
+	passengers 1
+	source
+		government "Cromha Empire"
+	destination
+		government "Cromha Empire" "Mineria colonnies"
+		attributes factory
+		distance 1 8
+	to offer
+		random < 40
+	on complete
+		payment
+		payment 9600 750
+		dialog "You land on <planet> and the worker(s) pay you <payment>."
+mission worker-factory[1]
+	name "Worker to <planet>"
+	description "Transport 2 workers to the <planet> facotry in the <system> system. Payment is <payment>."
+	job
+	repeat
+	passengers 2
+	source
+		government "Cromha Empire"
+	destination
+		government "Cromha Empire" "Mineria colonnies"
+		attributes factory
+		distance 1 8
+	to offer
+		random < 45
+	on complete
+		payment
+		payment 12040 750
+		dialog "You land on <planet> and the worker(s) pay you <payment>."
