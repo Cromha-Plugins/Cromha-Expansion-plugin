@@ -368,18 +368,18 @@ ship "Light Empire Destroyer"
 		licenses
 			"Empire Navy"
 		"cost" 3120000
-		"shields" 61700
-		"hull" 8700
-		"required crew" 7
-		"bunks" 21
+		"shields" 95400
+		"hull" 45065
+		"required crew" 85
+		"bunks" 125
 		"mass" 550
 		"drag" 4.0
 		"heat dissipation" .7
-		"fuel capacity" 600
-		"cargo space" 75
-		"outfit space" 750
-		"weapon capacity" 190
-		"engine capacity" 130
+		"fuel capacity" 650
+		"cargo space" 95
+		"outfit space" 965
+		"weapon capacity" 560
+		"engine capacity" 280
 		weapon
 			"blast radius" 60
 			"shield damage" 600
@@ -390,18 +390,24 @@ ship "Light Empire Destroyer"
 		"Multiphasic Anti-Missile" 2
 		"Multiphasic ammo" 1200
 		"Empire Torpedo Bank" 2
-		"Empire Torpedo Missile" 40
+		"Empire Torpedo Missile" 60
+		"Empire Torpedo Rack"
+		"Antimatter Railgun"
+		"Railgun Slug" 30
+		"Grab-Strike Blaze" 6
 		
 		"RC-X3 Multiphasic Reactor"
+		"RC-X2 Multiphasic Reactor" 2
 		"Empire Hai Ravine Batteries" 6
 		"Small Empire Shielding Core" 4
 		"Small Radar Jammer" 2
+		"Fuel Cell"
 		"Multiphasic Cooler"
 		"Phasic Rifle" 20
 		"Phasic Grenades" 10
 		
 		`RC-200 Atomic Thruster`
-		`RC-205 Atomic Steering`
+		`RC-225 Atomic Steering`
 		"Plasma Drive"
 		"Countermesure Module" 2
 		"Cloaking Module"
@@ -421,8 +427,15 @@ ship "Light Empire Destroyer"
 	gun 21 -25.5 "Empire Particle gun"
 	gun -1 -90.5 "Empire Torpedo Bank"
 	gun -1 -90.5 "Empire Torpedo Bank"
+	gun -0.5 -90 "Antimatter Railgun"
 	turret -16 36 "Multiphasic Anti-Missile"
 	turret 16 36 "Multiphasic Anti-Missile"
+	turret -36 -46 "Grab-Strike Blaze"
+	turret -37 -27.5 "Grab-Strike Blaze"
+	turret -39.5 -6.5 "Grab-Strike Blaze"
+	turret 36 -46 "Grab-Strike Blaze"
+	turret 37 -27.5 "Grab-Strike Blaze"
+	turret 39.5 -6.5 "Grab-Strike Blaze"
 	bay "Nanobot" 0 0
 	bay "Nanobot" 0 0
 	bay "Nanobot" 0 0

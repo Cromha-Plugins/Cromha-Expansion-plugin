@@ -34,6 +34,7 @@ ship "Empire Nanobot yll'e"
 		"Empire Hai Chasm Batteries" 
 		"Surveillance Pod"
 		"One-Phasic Cooler" 2
+		"Mineria Key Stone"
 
 		`RC-001 Atomic Engines`
 		"Compact Plasma Drive"
@@ -79,6 +80,7 @@ ship "Empire Nanobot yll'a"
 		"Empire Hai Chasm Batteries" 
 		"Surveillance Pod"
 		"One-Phasic Cooler" 2
+		"Mineria Key Stone"
 
 		`RC-001 Atomic Engines`
 		"Compact Plasma Drive"
