@@ -25,17 +25,18 @@ git add ../update.sh
 git add ../logger.sh
 echo Please enter a commit message:
 read commitname
-echo Pushing the commit...
-echo -ne '#####                     (33%)\r'
-sleep 1
-echo -ne '#############             (66%)\r'
-sleep 1
-echo -ne '#######################   (100%)\r'
-echo -ne '\n'
 git commit -m "$commitname" >/dev/null 2>&1
 echo "Where you want your commit to be pushed? (branch name):"
 read branchname
+echo "Pushing the commit to $branchname branch"
+echo -ne '#####                    (10%)\r'
 git branch -M "$branchname" >/dev/null 2>&1
+echo -ne '########                 (24%)\r'
 git push -u origin "$branchname" >/dev/null 2>&1
+echo -ne '###########              (37%)\r'
 sh ../logger.sh "Finished pushing your commit to the $branchname branch"
+echo -ne '#################        (61%)\r'
+echo -ne '######################## (95%)\r'
+echo -ne '#########################(100%)\r'
+echo -ne '\n'
 echo "Done"
