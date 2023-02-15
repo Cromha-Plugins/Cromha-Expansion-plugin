@@ -108,7 +108,7 @@ ship "Cargo Transporter"
 		"weapon capacity" 30
 		"engine capacity" 38
 		"fuel capacity" 200
-        "cargo space" 70
+		"cargo space" 70
 		weapon
 			"blast radius" 5
 			"shield damage" 50
