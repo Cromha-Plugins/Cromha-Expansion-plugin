@@ -1,0 +1,79 @@
+mission empire-kor-sestor-attack
+    landing
+    repeat
+    name "Defend <system> from Kor Sestor"
+    description "The <system> system is under attack by Kor Sestor. Help The Empire to defend the system and you'll get well recompensed by The Empire."
+    source
+        government "Cromha Empire"
+        attributes korath
+    to offer
+        random < 5
+    destination source
+    on offer
+        conversation
+            "As you land on <planet>, you hear a huge noise: it look like a siren. You wondering what's all about when you hear an other huge noise around you:"
+            "   The <system> system is under attack by a Kor Sestor bounty fleet. The Empire ask to everyone with a well armed ship to defend the planet. You guess that you'll get well payed if you defend <planet>."
+            choice
+                "   Join the defense fleet (accept)"
+                    launch
+                "   Don't do anything (decline)"
+                    decline
+    npc kill
+        government "Kor Sestor"
+        fleet "Large Kor Sestor"
+        fleet "Large Kor Sestor"
+        dialog "The last Kor Sestor ship has been destroyed. Time to land on <planet> to get your payment."
+    npc
+        government "Cromha Empire"
+        personality heroic disables plunders staying
+        fleet cromha-fleet
+    npc
+        government "Mineria colonnies"
+        fleet mineria-transports
+    npc
+        government "Merchant"
+        fleet cromha-merchants
+    on complete
+        payment
+        payment 650000
+        dialog "You recieve 650,000 credits from The Empire for defending <system> from the Kor Sestor fleets."
+
+mission empire-kor-mereit-attack
+    landing
+    repeat
+    name "Defend <system> from Kor Mereti"
+    description "The <system> system is under attack by Kor Mereti. Help The Empire to defend the system and you'll get well recompensed by The Empire."
+    source
+        government "Cromha Empire"
+        attributes korath
+    to offer
+        random < 5
+    destination source
+    on offer
+        conversation
+            "As you land on <planet>, you hear a huge noise: it look like a siren. You wondering what's all about when you hear an other huge noise around you:"
+            "   The <system> system is under attack by a Kor Mereti bounty fleet. The Empire ask to everyone with a well armed ship to defend the planet. You guess that you'll get well payed if you defend <planet>."
+            choice
+                "   Join the defense fleet (accept)"
+                    launch
+                "   Don't do anything (decline)"
+                    decline
+    npc kill
+        government "Kor Mereti"
+        fleet "Large Kor Mereti"
+        fleet "Large Kor Mereti"
+        dialog "The last Kor Mereti ship has been destroyed. Time to land on <planet> to get your payment."
+    npc
+        government "Cromha Empire"
+        personality heroic disables plunders staying
+        fleet cromha-fleet
+    npc
+        government "Mineria colonnies"
+        fleet mineria-transports
+    npc
+        government "Merchant"
+        fleet cromha-merchants
+    on complete
+        payment
+        payment 650000
+        dialog "You recieve 650,000 credits from The Empire for defending <system> from the Kor Mereti fleets."
