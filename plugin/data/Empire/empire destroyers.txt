@@ -50,6 +50,7 @@ ship "Heavy Empire Destroyer"
 		"Plasma Fuel Pod" 5
 		"Mineria Key Stone"
 		"Brig" 15
+		"Thermal Nucleavoltaic" 5
 		
 		`RC-220 Atomic Thruster` 3
 		`RC-225 Atomic Steering` 3
@@ -185,7 +186,7 @@ ship "Empire Destroyer yll'a"
 		"heat dissipation" .7
 		"fuel capacity" 600
 		"cargo space" 160
-		"outfit space" 965
+		"outfit space" 995
 		"weapon capacity" 550
 		"engine capacity" 450
 		weapon
@@ -209,6 +210,7 @@ ship "Empire Destroyer yll'a"
 		"Multiphasic Cooler"
 		"Phasic Rifle" 15
 		"Phasic Grenades" 8
+		"Thermal Nucleavoltaic"
 		
 		`RC-200 Atomic Thruster`
 		`RC-225 Atomic Steering`
@@ -284,7 +286,7 @@ ship "Empire Destroyer yll'e"
 		"heat dissipation" .7
 		"fuel capacity" 600
 		"cargo space" 160
-		"outfit space" 965
+		"outfit space" 995
 		"weapon capacity" 550
 		"engine capacity" 450
 		weapon
@@ -308,9 +310,10 @@ ship "Empire Destroyer yll'e"
 		"Multiphasic Cooler"
 		"Phasic Rifle" 15
 		"Phasic Grenades" 8
+		"Thermal Nucleavoltaic"
 		
 		`RC-200 Atomic Thruster`
-		`RC-205 Atomic Steering`
+		`RC-225 Atomic Steering`
 		"Plasma Drive"
 		"Countermesure Module" 2
 		"Cloaking Module"
@@ -411,6 +414,7 @@ ship "Light Empire Destroyer"
 		"Multiphasic Cooler"
 		"Phasic Rifle" 20
 		"Phasic Grenades" 10
+		"Thermal Nucleavoltaic"
 		
 		`RC-200 Atomic Thruster`
 		`RC-225 Atomic Steering`

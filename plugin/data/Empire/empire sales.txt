@@ -49,6 +49,7 @@ outfitter Basic-power-outfitter
 	"RC-X1 Multiphasic Reactor"
 	"RC-X2 Multiphasic Reactor"
 	"Supercapacitor"
+	"Thermal Nucleavoltaic"
 outfitter Basic-engines-outfitter
 	`RC-140 Atomic Thruster`
 	`RC-145 Atomic Steering`
@@ -123,6 +124,7 @@ outfitter Advanced-power-outfitter
 	"RC-X3 Multiphasic Reactor"
 	"RC-X4 Multiphasic Reactor"
 	"Supercapacitor"
+	"Thermal Nucleavoltaic"
 outfitter Advanced-engines-outfitter
 	`RC-140 Atomic Thruster`
 	`RC-145 Atomic Steering`
