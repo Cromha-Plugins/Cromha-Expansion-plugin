@@ -51,7 +51,6 @@ system "Alpha Hydri"
 	link "Achernar"
 	link "Alpheratz"
 	link "Ruchbah"
-	link "Volcanois"
 	link "Polaris"
 system "Polaris"
 	attributes syndicate
