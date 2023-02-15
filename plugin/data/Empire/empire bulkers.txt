@@ -26,7 +26,7 @@ ship "Empire Bulker"
 			"hit force" 1080
 	outfits
 		"Ion Proton Turret" 2
-		"Electron Turret" 2
+		"Grab-Strike Blaze" 2
 		"Multiphasic Anti-Missile"
 		"Multiphasic ammo" 600
 		
@@ -56,9 +56,9 @@ ship "Empire Bulker"
 	engine -71 61
 	"reverse engine" -70 20
 	"reverse engine" 70 20
-	turret -13.5 -58 "Electron Turret"
+	turret -13.5 -58 "Grab-Strike Blaze"
 	turret -37.5 60 "Ion Proton Turret"
-	turret 13.5 -58 "Electron Turret"
+	turret 13.5 -58 "Grab-Strike Blaze"
 	turret 37.5 60 "Ion Proton Turret"
 	turret -1.5 -63 "Multiphasic Anti-Missile"
 	bay "Nanobot" -37.5 66.5

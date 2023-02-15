@@ -31,7 +31,7 @@ ship "Heavy Empire Destroyer"
 		"Multiphasic Anti-Missile" 8
 		"Multiphasic ammo" 4800
 		"Empire Nuke" 2
-		"Electron Turret" 5
+		"Grab-Strike Blaze" 5
 		"Ion Proton Turret" 5
 		"Empire Torpedo Bank" 6
 		"Empire Torpedo Rack" 30
@@ -113,11 +113,11 @@ ship "Heavy Empire Destroyer"
 	turret -71 140.5 "Multiphasic Anti-Missile"
 	turret 75 138 "Multiphasic Anti-Missile"
 	turret -0.5 171.5 "Multiphasic Anti-Missile"
-	turret -66.5 71 "Electron Turret"
-	turret 66.5 71 "Electron Turret"
-	turret -0.5 -176.5 "Electron Turret"
-	turret -1.5 -110.5 "Electron Turret"
-	turret -0.5 -23 "Electron Turret"
+	turret -66.5 71 "Grab-Strike Blaze"
+	turret 66.5 71 "Grab-Strike Blaze"
+	turret -0.5 -176.5 "Grab-Strike Blaze"
+	turret -1.5 -110.5 "Grab-Strike Blaze"
+	turret -0.5 -23 "Grab-Strike Blaze"
 	turret -18 206.5 "Ion Proton Turret"
 	turret 18 206.5 "Ion Proton Turret"
 	turret -16.5 -38.5 "Ion Proton Turret"
@@ -468,7 +468,7 @@ ship "Empire Fortress"
 		"Multiphasic Ammo Rack" 10
 
 		"Ion Proton Turret" 12
-		"Electron Turret" 8
+		"Grab-Strike Blaze" 8
 
 		"Empire Torpedo Bank" 6
 		"Empire Torpedo Rack" 80
@@ -511,23 +511,23 @@ ship "Empire Fortress"
 	turret -129.5 -176 "Ion Proton Turret"
 	turret 129.5 -176 "Ion Proton Turret"
 	turret -18 18 "Ion Proton Turret"
-	turret -75 164 "Electron Turret"
-	turret -22 -230.5 "Electron Turret"
-	turret 21 -196.5 "Electron Turret"
-	turret -41.5 -100.5 "Electron Turret"
-	turret -122.5 -349 "Electron Turret"
+	turret -75 164 "Grab-Strike Blaze"
+	turret -22 -230.5 "Grab-Strike Blaze"
+	turret 21 -196.5 "Grab-Strike Blaze"
+	turret -41.5 -100.5 "Grab-Strike Blaze"
+	turret -122.5 -349 "Grab-Strike Blaze"
 	turret 63.5 130.5 "Ion Proton Turret"
 	turret 0 -439 "Ion Proton Turret"
-	turret -154 -86 "Electron Turret"
+	turret -154 -86 "Grab-Strike Blaze"
 	turret 145.5 184 "Ion Proton Turret"
 	turret -147.5 172.5 "Ion Proton Turret"
 	turret 129 -299 "Ion Proton Turret"
 	turret -141.5 -286.5 "Ion Proton Turret"
-	turret 39 -337.5 "Electron Turret"
+	turret 39 -337.5 "Grab-Strike Blaze"
 	turret -131 -409.5 "Ion Proton Turret"
 	turret 28 -471.5"Ion Proton Turret"
 	turret -77.5 283 "Ion Proton Turret"
-	turret 28 310.5 "Electron Turret"
+	turret 28 310.5 "Grab-Strike Blaze"
 	gun -163 -434 "Empire Torpedo Bank"
 	gun -178.5 -419.5 "Empire Torpedo Bank"
 	gun -185 83 "Empire Torpedo Bank"

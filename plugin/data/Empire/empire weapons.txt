@@ -475,3 +475,47 @@ outfit "Modified Blaster Submunition"
 		"lifetime" 48
 		"shield damage" 13.2
 		"hull damage" 8.8
+
+outfit "Grab-Strike Blaze"
+	category "Turrets"
+	cost 901000
+	thumbnail "outfit/grab-strike empire"
+	"mass" 15
+	"outfit space" -15
+	"weapon capacity" -15
+	"energy capacity" 100
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/grab-strike empire"
+			"frame rate" 25
+			"random start frame"
+		"hardpoint sprite" "hardpoint/grab-strike empire"
+		"hardpoint offset" 7.
+		sound "grab-strike empire"
+		"hit effect" "grab-strike empire impact"
+		"die effect" "grab-strike empire impact"
+		"inaccuracy" 1
+		"turret turn" 1.9
+		"velocity" 10
+		"lifetime" 100
+		"reload" 20
+		"firing energy" 60
+		"firing heat" 150
+		"acceleration" 1
+		"drag" .1
+		"turn" .2
+		"homing" 4
+		"tracking" .7
+		"shield damage" 108
+		"hull damage" 32
+		"hit force" -160
+	description "Empire Grab-Strike projectiles are designed to pull a target closer to the Empire ship, to keep it from escaping."
+
+effect "grab-strike empire impact"
+	sprite "effect/grab-strike empire impact"
+		"no repeat"
+		"frame rate" 20
+	"lifetime" 15
+	"random angle" 360
+	"velocity scale" -.1
