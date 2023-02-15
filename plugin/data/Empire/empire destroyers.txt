@@ -176,25 +176,26 @@ ship "Empire Destroyer yll'a"
 		licenses
 			"Empire Navy"
 		"cost" 10930000
-		"shields" 89800
-		"hull" 9700
-		"required crew" 52
-		"bunks" 91
+		"shields" 130400
+		"hull" 95065
+		"required crew" 125
+		"bunks" 215
 		"mass" 510
 		"drag" 6.7
 		"heat dissipation" .7
 		"fuel capacity" 600
 		"cargo space" 160
-		"outfit space" 871
-		"weapon capacity" 350
-		"engine capacity" 350
+		"outfit space" 965
+		"weapon capacity" 550
+		"engine capacity" 450
 		weapon
 			"blast radius" 160
 			"shield damage" 1600
 			"hull damage" 800
 			"hit force" 2400
 	outfits
-		"Ion Proton Turret" 6
+		"Ion Proton Turret" 3
+		"Grab-Strike Blaze" 5
 		"Multiphasic Anti-Missile" 4
 		"Multiphasic ammo" 2400
 		"Empire Nuke" 2
@@ -203,14 +204,14 @@ ship "Empire Destroyer yll'a"
 		"KP-6 Photovoltaic Array"
 		"KP-6 Photovoltaic Panel" 2
 		"Empire Hai Ravine Batteries" 6
-		"Small Empire Shielding Core" 6
+		"Empire Shielding Core" 4
 		"Large Radar Jammer"
 		"Multiphasic Cooler"
 		"Phasic Rifle" 15
 		"Phasic Grenades" 8
 		
 		`RC-200 Atomic Thruster`
-		`RC-205 Atomic Steering`
+		`RC-225 Atomic Steering`
 		"Plasma Drive"
 		"Countermesure Module" 2
 		"Cloaking Module"
@@ -238,9 +239,11 @@ ship "Empire Destroyer yll'a"
 	turret 1.5 197 "Ion Proton Turret"
 	turret -46.5 82 "Ion Proton Turret"
 	turret 2.5 88 "Ion Proton Turret"
-	turret -1 -74 "Ion Proton Turret"
-	turret -0.5 -220 "Ion Proton Turret"
-	turret -8.5 -167 "Ion Proton Turret"
+	turret 18.5 -131.5 "Grab-Strike Blaze"
+	turret 18 -110 "Grab-Strike Blaze"
+	turret 20 -85 "Grab-Strike Blaze"
+	turret 23 -63.5 "Grab-Strike Blaze"
+	turret 41 144 "Grab-Strike Blaze"
 	bay "Fuel Pod" -15.5 144.5
 		under
 	bay "Fuel Pod" -30 55.5
@@ -272,25 +275,26 @@ ship "Empire Destroyer yll'e"
 		licenses
 			"Empire Navy"
 		"cost" 10930000
-		"shields" 89800
-		"hull" 9700
-		"required crew" 52
-		"bunks" 91
+		"shields" 130400
+		"hull" 95065
+		"required crew" 125
+		"bunks" 215
 		"mass" 510
 		"drag" 6.7
 		"heat dissipation" .7
 		"fuel capacity" 600
 		"cargo space" 160
-		"outfit space" 871
-		"weapon capacity" 350
-		"engine capacity" 350
+		"outfit space" 965
+		"weapon capacity" 550
+		"engine capacity" 450
 		weapon
 			"blast radius" 160
 			"shield damage" 1600
 			"hull damage" 800
 			"hit force" 2400
 	outfits
-		"Ion Proton Turret" 6
+		"Ion Proton Turret" 3
+		"Grab-Strike Blaze" 5
 		"Multiphasic Anti-Missile" 4
 		"Multiphasic ammo" 2400
 		"Empire Nuke" 2
@@ -299,7 +303,7 @@ ship "Empire Destroyer yll'e"
 		"KP-6 Photovoltaic Array"
 		"KP-6 Photovoltaic Panel" 2
 		"Empire Hai Ravine Batteries" 6
-		"Small Empire Shielding Core" 6
+		"Empire Shielding Core" 4
 		"Large Radar Jammer"
 		"Multiphasic Cooler"
 		"Phasic Rifle" 15
@@ -334,9 +338,11 @@ ship "Empire Destroyer yll'e"
 	turret -1.5 197 "Ion Proton Turret"
 	turret 46.5 82 "Ion Proton Turret"
 	turret -2.5 88 "Ion Proton Turret"
-	turret 1 -74 "Ion Proton Turret"
-	turret 0.5 -220 "Ion Proton Turret"
-	turret 8.5 -167 "Ion Proton Turret"
+	turret -18.5 -131.5 "Grab-Strike Blaze"
+	turret -18 -110 "Grab-Strike Blaze"
+	turret -20 -85 "Grab-Strike Blaze"
+	turret -23 -63.5 "Grab-Strike Blaze"
+	turret -41 144 "Grab-Strike Blaze"
 	bay "Fuel Pod" 15.5 144.5
 		under
 	bay "Fuel Pod" 30 55.5
