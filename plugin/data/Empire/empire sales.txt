@@ -136,10 +136,6 @@ outfitter Advanced-engines-outfitter
 	`RC-225 Atomic Steering`
 	`RX-120 Reverse Thruster`
 	`RX-180 Reverse Thruster`
-	"Nanotech Battery"
-	"Antimatter Core"
-	"Quarg Skylance"
-	"Quantum Shield Generator"
 
 # Shipyards
 shipyard Base-shipyard
