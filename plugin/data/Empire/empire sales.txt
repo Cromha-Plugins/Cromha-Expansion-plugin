@@ -158,6 +158,7 @@ shipyard Cromha-basic-shipyard
 	"Empire Bulker"
 	"Fuel Pod"
 	"Cargo Transporter"
+	"Empire Bulker Class D"
 shipyard Cromha-military-shipyard
 	"Combat Drone"
 	"Black Manta"
@@ -191,3 +192,4 @@ shipyard Cromha-military-shipyard
 	"Empire Skylark"
 	"Tar Kas Destroyer"
 	"Or Kar Destroyer"
+	"Empire Bulker Class D"

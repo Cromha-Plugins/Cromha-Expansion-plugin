@@ -91,6 +91,133 @@ ship "Empire Bulker"
 	explode "empire medium explosion" 15
 	description "The Empire Bulker is an great freighter to transport heavy metals or cargo. It is an very smart freighter ship: it has not much cargo space itself that make it faster to defend from pirates but it carries Empire Cargo Transporters. It is probally the most ingenious Freighters in the whole galaxy."
 
+ship "Empire Bulker Class D"
+	sprite "ship/empire class d"
+	thumbnail "thumbnail/empire class d"
+	"swizzle" 0
+	attributes
+		category "Bulker"
+		licenses
+			"Empire Navy"
+		"cost" 3205000
+		"shields" 65000
+		"hull" 13060
+		"required crew" 85
+		"bunks" 125
+		"mass" 265
+		"drag" 3.1
+		"heat dissipation" .9
+		"fuel capacity" 700
+		"cargo space" 125
+		"outfit space" 665
+		"weapon capacity" 560
+		"engine capacity" 145
+		weapon
+			"blast radius" 72
+			"shield damage" 1220
+			"hull damage" 1060
+			"hit force" 1080
+	outfits
+		"Cluster Mine Layer" 2
+		"Cluster Mine" 70
+		"Cluster Mine Rack" 4
+		"Multiphasic Anti-Missile" 2
+		"Multiphasic ammo" 1200
+		"Thunderhead Launcher" 2
+		"Thunderhead Storage Array" 4
+		"Thunderhead Missile" 160
+		
+		"Empire Shielding Core" 2
+		"Empire Hai Gorge Batteries" 4
+		"RC-X3 Multiphasic Reactor"
+		"RC-X1 Multiphasic Reactor"
+		"Multiphasic Scanner"
+		"Multiphasic Cooler"
+		"Self Destruct Module"
+		"Countermesure Module"
+		"Mineria Key Stone"
+		"Brig" 3
+		"Fuel Cell" 2
+		
+		`RC-180 Atomic Thruster`
+		`RC-185 Atomic Steering`
+		`RX-180 Reverse Thruster`
+		"Plasma Drive"
+        "Phasic Rifle" 45
+        "Phasic Gernades" 15
+        "Security Staion" 15
+		
+	engine 53 345
+	engine -53 345
+	engine 0.5 347.5
+	"reverse engine" -51 -219
+	"reverse engine" 51 -219
+
+	"steering engine" -45.5 195.5
+		right
+		angle 90
+	"steering engine" -49 62.5
+		right
+		angle 90
+	"steering engine" -45.5 -70.5
+		right
+		angle 90
+	
+	"steering engine" 45.5 195.5
+		left
+		angle 270
+	"steering engine" 49 62.5
+		left
+		angle 270
+	"steering engine" 45.5 -70.5
+		left
+		angle 270
+	gun 25.5 64 "Cluster Mine Layer"
+		angle 90
+	gun -25.5 64 "Cluster Mine Layer"
+		angle 270
+	gun -49 -219 "Thunderhead Launcher"
+	gun 49 -219 "Thunderhead Launcher"
+	turret 1 -176.5 "Multiphasic Anti-Missile"
+	turret -0.5 296.5 "Multiphasic Anti-Missile"
+	bay "Nanobot" 20 196
+		over
+	bay "Nanobot" 40.5 239
+		over
+	bay "Nanobot" 37 153
+		over
+	bay "Nanobot" 38.5 104.5
+		over
+	bay "Nanobot" 41 20.5
+		over
+	bay "Nanobot" 37.5 -26.5
+		over
+	bay "Nanobot" 35.5 -114
+		over
+	bay "Nanobot" -20 196
+		over
+	bay "Nanobot" -40.5 239
+		over
+	bay "Nanobot" -37 153
+		over
+	bay "Nanobot" -38.5 104.5
+		over
+	bay "Nanobot" -41 20.5
+		over
+	bay "Nanobot" -37.5 -26.5
+		over
+	bay "Nanobot" -35.5 -114
+		over
+	bay "Fuel Pod" 0 0
+	bay "Fuel Pod" 0 0
+	leak "empire leak" 80 80
+	leak "empire flame" 70 70
+	leak "empire big leak" 50 50
+	explode "empire tiny explosion" 10
+	explode "empire tiny explosion" 30
+	explode "empire medium explosion" 15
+	description "The Empire Bulker Class D is an great freighter to transport heavy metals or cargo. It is an very smart freighter ship: it has not much cargo space itself that make it faster to defend from pirates but it carries Empire Cargo Transporters. It is probally the most ingenious Freighters in the whole galaxy."
+
 ship "Fuel Pod"
 	noun "fuel pod"
 	sprite "ship/fuel pod"
