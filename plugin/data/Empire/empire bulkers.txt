@@ -287,3 +287,47 @@ ship "Fuel Pod"
 		angle 270
 		zoom 0.7
 	description "This is a mobile fuel pod. It is useful to carry fuel, drop it when you need fuel then leave it if you need speed."
+
+ship "Fuel Pod Class D"
+	noun "fuel pod"
+	sprite "ship/fuel pod class d"
+		scale 1.4
+	thumbnail "thumbnail/fuel pod class d"
+	"never disabled"
+	attributes
+		category "Fuel Pod"
+		licenses
+			"Empire Contributor"
+		"cost" 25000
+		"shields" 9060
+		"hull" 9300
+		"automaton" 1
+		"mass" 125
+		"drag" .59
+		"heat dissipation" .19
+		"outfit space" 250
+		"weapon capacity" 30
+		"engine capacity" 38
+		"fuel capacity" 500
+		weapon
+			"blast radius" 5
+			"shield damage" 50
+			"hull damage" 25
+			"hit force" 75
+	outfits
+			`RC-001 Atomic Engines`
+			"RC-X1 Multiphasic Reactor"
+			"Supercapacitor"
+			"Countermesure Module"
+			"Small Empire Shielding Core"
+			"One-Phasic Cooler"
+	leak "empire leak" 15
+	explode "empire tiny explosion" 8
+	"final explode" "empire medium explosion"
+	engine -0.7 40.6
+		zoom 2.5
+	"steering engine" 25.2 0
+		angle 30
+	"steering engine" -25.2 0
+		angle 330
+	description "This is a mobile fuel pod. It is useful to carry fuel, drop it when you need fuel then leave it if you need speed."

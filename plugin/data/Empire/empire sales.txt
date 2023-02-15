@@ -193,3 +193,4 @@ shipyard Cromha-military-shipyard
 	"Tar Kas Destroyer"
 	"Or Kar Destroyer"
 	"Empire Bulker Class D"
+	"Fuel Pod Class D"

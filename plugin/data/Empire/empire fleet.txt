@@ -59,6 +59,7 @@ fleet cromha-fleet
 		"Empire Bulker"
 		"Empire Nanobot yll'e" 5
 		"Empire Nanobot yll'e" 5
+		"Fuel Pod Class D" 2
 	variant 1
 		"Light Empire Destroyer" 2
 		"Empire Destroyer yll'a"
@@ -89,6 +90,7 @@ fleet cromha-fleet
 		"Empire Bulker"
 		"Empire Nanobot yll'e" 5
 		"Empire Nanobot yll'e" 5
+		"Fuel Pod Class D" 2
 	variant 0.7
 		"Light Empire Destroyer" 2
 		"Empire Destroyer yll'e"
@@ -103,6 +105,7 @@ fleet cromha-fleet
 		"Empire Bulker"
 		"Empire Nanobot yll'e" 5
 		"Empire Nanobot yll'e" 5
+		"Fuel Pod Class D" 2
 	variant 0.7
 		"Light Empire Destroyer"
 		"Empire Destroyer yll'e" 2
@@ -113,6 +116,7 @@ fleet cromha-fleet
 		"Empire Destroyer yll'a" 2
 		"Heavy Empire Destroyer"
 		"Empire Nanobot yll'e" 3
+		"Fuel Pod Class D" 2
 	variant 0.7
 		"Light Empire Destroyer"
 		"Empire Destroyer yll'e"
@@ -122,6 +126,7 @@ fleet cromha-fleet
 		"Empire Bulker"
 		"Empire Nanobot yll'e" 5
 		"Empire Nanobot yll'e" 5
+		"Fuel Pod Class D" 2
 	variant 0.7
 		"Light Empire Destroyer" 2
 		"Empire Destroyer yll'a"
@@ -132,12 +137,14 @@ fleet cromha-fleet
 		"Empire Bulker"
 		"Empire Nanobot yll'e" 5
 		"Empire Nanobot yll'e" 5
+		"Fuel Pod Class D" 2
 	variant 0.3
 		"Empire Fortress"
 		"Empire Wardragon"
 		"Empire Wardragon (Electron Beam)"
 		"Empire Wardragon (Plasma Repeater)"
 		"Empire Wardragon (Ion Proton)"
+		"Fuel Pod Class D" 2
 fleet mineria-transports
 	government "Mineria colonnies"
 	names "empire fleet names"
@@ -161,7 +168,7 @@ fleet mineria-transports
 		"Nanobot yll'a" 3
 	variant 1
 		"Empire Bulker"
-		"Fuel Pod" 2
+		"Fuel Pod Class D" 2
 		"Cargo Transporter" 7
 		"Nanobot yll'a" 3
 	variant 1
@@ -176,7 +183,7 @@ fleet mineria-transports
 		"Nanobot yll'e" 3
 	variant 1
 		"Empire Bulker"
-		"Fuel Pod" 2
+		"Fuel Pod Class D" 2
 		"Cargo Transporter" 7
 		"Nanobot yll'e" 3
 	variant 1
@@ -199,24 +206,24 @@ fleet mineria-transports
 		"Nanobot yll'a" 2
 	variant 0.3
 		"Empire Bulker Class D"
-		"Fuel Pod" 2
+		"Fuel Pod Class D" 2
 		"Cargo Transporter" 6
 		"Nanobot yll'e" 5
 		"Nanobot yll'a" 3
 	variant 0.3
 		"Empire Bulker Class D"
-		"Fuel Pod" 2
+		"Fuel Pod Class D" 2
 		"Cargo Transporter" 5
 		"Nanobot yll'e" 3
 		"Nanobot yll'a" 6
 	variant 0.3
 		"Empire Bulker Class D"
-		"Fuel Pod" 2
+		"Fuel Pod Class D" 2
 		"Cargo Transporter" 5
 		"Nanobot yll'e" 9
 	variant 0.3
 		"Empire Bulker Class D"
-		"Fuel Pod" 2
+		"Fuel Pod Class D" 2
 		"Cargo Transporter" 5
 		"Nanobot yll'a" 9
 fleet cromha-merchants
