@@ -15,7 +15,6 @@ government "Cromha Empire"
 		"Hai Merchant" 1
 		"Hai Merchant (Sympathizers)" 1
 		"Hai Merchant (Human)" 1
-		"Hai (Unfettered)" 1
 		Bounty -1
 		"Unknow" 2
 		"Unknown" 2
@@ -81,7 +80,6 @@ government "Mineria colonnies"
 		"Hai Merchant" 1
 		"Hai Merchant (Sympathizers)" 1
 		"Hai Merchant (Human)" 1
-		"Hai (Unfettered)" 1
 		Bounty -1
 		"Unknow" 2
 		"Unknown" 2
