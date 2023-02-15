@@ -508,6 +508,7 @@ outfit "Grab-Strike Blaze"
 		"homing" 4
 		"tracking" .7
 		"shield damage" 108
+		"slowing damage" 1
 		"hull damage" 32
 		"hit force" -160
 	description "Empire Grab-Strike projectiles are designed to pull a target closer to the Empire ship, to keep it from escaping."
