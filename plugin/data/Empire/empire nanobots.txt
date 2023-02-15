@@ -108,7 +108,6 @@ ship "Cargo Transporter"
 		"outfit space" 170
 		"weapon capacity" 30
 		"engine capacity" 38
-		"fuel capacity" 200
 		"cargo space" 70
 		weapon
 			"blast radius" 5
@@ -120,7 +119,7 @@ ship "Cargo Transporter"
 			"Empire Particle gun"
 			"Small Empire Shielding Core"
 			"RC-X1 Multiphasic Reactor" 2
-			"Empire Chasm Batteries"
+			"Empire Hai Chasm Batteries"
             "Self Destruct Module"
 	leak "empire leak" 15
 	explode "empire tiny explosion" 4
