@@ -500,8 +500,8 @@ outfit "Grab-Strike Blaze"
 		"velocity" 10
 		"lifetime" 100
 		"reload" 20
-		"firing energy" 60
-		"firing heat" 150
+		"firing energy" 15
+		"firing heat" 15
 		"acceleration" 1
 		"drag" .1
 		"turn" .2
