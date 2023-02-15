@@ -99,6 +99,7 @@ ship "Cargo Transporter"
 		licenses
 			"Empire Navy"
 		"cost" 10000
+		"shields" 1800
 		"hull" 700
 		"automaton" 1
 		"mass" 100
@@ -116,12 +117,15 @@ ship "Cargo Transporter"
 			"hit force" 75
 	outfits
 			`RC-001 Atomic Engines`
-			"RC-X1 Multiphasic Reactor"
-			"Supercapacitor"
+			"Empire Particle gun"
+			"Small Empire Shielding Core"
+			"RC-X1 Multiphasic Reactor" 2
+			"Empire Chasm Batteries"
             "Self Destruct Module"
 	leak "empire leak" 15
 	explode "empire tiny explosion" 4
 	"final explode" "empire medium explosion"
 	engine -13.5 22
 	engine 13.5 22
+	gun 0 -26 "Empire Particle gun"
 	description "This is a 'mobile cargo'. It is useful to carry cargo, drop it when you need to be faster if you are attacked. The Empire use them with the Empire Bulker to export all their products."
