@@ -9,9 +9,9 @@ else
 fi
 echo Adding files to the commit...
 echo -ne '#####                     (33%)\r'
-sleep 1
+sleep 0.1
 echo -ne '#############             (66%)\r'
-sleep 1
+sleep 0.1
 echo -ne '#######################   (100%)\r'
 echo -ne '\n'
 git add ../plugin/
