@@ -40,6 +40,11 @@ planet "Limat"
 	outfitter Advanced-systems-outfitter
 	outfitter Advanced-power-outfitter
 	outfitter Advanced-engines-outfitter
+	shipyard Base-shipyard
+	shipyard Advanced-freighters-shipyard
+	shipyard Advanced-interceptors-shipyard
+	shipyard Advanced-warships-shipyard
+	shipyard Basic-lifdot-industries-shipyard
 	landscape "land/Limat"
 	spaceport "A small little friendly spaceport. The are a lot of spectacles the evening and a lot of good bars the night. A great place to invite your friends or anyone else."
 	spaceport "But be aware of some people here, there are some xenophobist that will annoy you if you look at them. Wanna a tip? Just avoid them..."
@@ -402,6 +407,8 @@ planet "Empire Ring"
 	outfitter Advanced-systems-outfitter
 	outfitter Advanced-power-outfitter
 	outfitter Advanced-engines-outfitter
+	shipyard Base-shipyard
+	shipyard Advanced-interceptors-shipyard
 	landscape "land/Empire_ring"
 	description "The biggest ring station of the whole galaxy. It is in the center of the Far Empire Space. You will ind many missions and advanced outfits here. There is also lot of criminality so security is at the most."
 	spaceport "A huge spaceport where you can find almost anything you can imagine: Bars, pretty ships, hotels and even more. It is an easy place to mae money by completing missions."
@@ -823,5 +830,7 @@ planet "Ill'Safra Station"
 	landscape land/Ill'safra_station
 	outfitter Base-outfitter
 	outfitter Basic-ammo-outfitter
+	shipyard Base-shipyard
+	shipyard Advanced-interceptors-shipyard
 	description "The Ill'Safra Station is here to study the 'brown draf y' planet and the other huges stars. They also produce fuel with sorts of ramscoop stations that they put near the stars."
 	spaceport "A basical station spaceport. You'll find the minimal things here."
