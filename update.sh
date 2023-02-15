@@ -8,7 +8,7 @@ echo -ne '#############             (66%)\r'
 sleep 1
 echo -ne '#######################   (100%)\r'
 echo -ne '\n'
-git pull origin main
+git pull origin main >/dev/null 2>&1
 rm -r "$path/Cromha-expansion-plugin"
 cp -r plugin/ "$path"
 sh logger.sh "Finished updating your local repo"

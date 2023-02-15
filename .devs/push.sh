@@ -32,10 +32,10 @@ echo -ne '#############             (66%)\r'
 sleep 1
 echo -ne '#######################   (100%)\r'
 echo -ne '\n'
-git commit -m "$commitname"
+git commit -m "$commitname" >/dev/null 2>&1
 echo "Where you want your commit to be pushed? (branch name):"
 read branchname
-git branch -M "$branchname"
-git push -u origin "$branchname"
+git branch -M "$branchname" >/dev/null 2>&1
+git push -u origin "$branchname" >/dev/null 2>&1
 sh ../logger.sh "Finished pushing your commit to the $branchname branch"
 echo "Done"
