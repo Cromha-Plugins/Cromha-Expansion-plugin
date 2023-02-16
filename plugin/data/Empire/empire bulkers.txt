@@ -327,7 +327,7 @@ ship "Fuel Pod Class D"
 	engine -0.7 40.6
 		zoom 2.5
 	"steering engine" 25.2 0
-		angle 30
-	"steering engine" -25.2 0
 		angle 330
+	"steering engine" -25.2 0
+		angle 30
 	description "This is a mobile fuel pod. It is useful to carry fuel, drop it when you need fuel then leave it if you need speed."

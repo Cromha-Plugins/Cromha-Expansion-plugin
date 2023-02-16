@@ -233,29 +233,37 @@ ship "Empire Destroyer yll'a"
 		right
 		angle 90
 	gun -0.5 -239 "Empire Nuke"
+		under
 	gun -9 -219 "Empire Nuke"
-	turret -22 199 "Multiphasic Anti-Missile"
-	turret -16.5 84 "Multiphasic Anti-Missile"
-	turret -10 -28.5 "Multiphasic Anti-Missile"
-	turret -1 -162.5 "Multiphasic Anti-Missile"
-	turret 1.5 197 "Ion Proton Turret"
-	turret -46.5 82 "Ion Proton Turret"
-	turret 2.5 88 "Ion Proton Turret"
-	turret 18.5 -131.5 "Grab-Strike Blaze"
-	turret 18 -110 "Grab-Strike Blaze"
-	turret 20 -85 "Grab-Strike Blaze"
-	turret 23 -63.5 "Grab-Strike Blaze"
-	turret 41 144 "Grab-Strike Blaze"
+		under
+	turret 34.5 99.5 "Multiphasic Anti-Missile"
+	turret 31 28.5 "Multiphasic Anti-Missile"
+	turret -5 26.5 "Multiphasic Anti-Missile"
+	turret -6.5 -133 "Multiphasic Anti-Missile"
+	turret -8.5 -118 "Ion Proton Turret"
+	turret -10 75 "Ion Proton Turret"
+	turret -10 116 "Ion Proton Turret"
+	turret 18 -132.5 "Grab-Strike Blaze"
+	turret 19.5 -109.5 "Grab-Strike Blaze"
+	turret 20.5 -85.5 "Grab-Strike Blaze"
+	turret 23 -63 "Grab-Strike Blaze"
+	turret 40 146 "Grab-Strike Blaze"
 	bay "Fuel Pod" -15.5 144.5
 		under
 	bay "Fuel Pod" -30 55.5
 		under
-	bay "Nanobot" -17 84
+	bay "Nanobot" -9 -216
 		over
-	bay "Nanobot" -17 45.5
+	bay "Nanobot" -22.5 120.5
 		over
-	bay "Nanobot" -5 -82
-	bay "Empire Warship" -5 -82
+	bay "Nanobot" -3 76.5
+		over
+	bay "Nanobot" -15.5 25.5
+		over
+	bay "Nanobot" -11.5 -123.5
+		over
+	bay "Nanobot" -19.5 -64
+		over
 	leak "empire leak" 30 50
 	leak "empire flame" 50 80
 	leak "empire big leak" 60 30
@@ -299,7 +307,7 @@ ship "Empire Destroyer yll'e"
 		"Grab-Strike Blaze" 5
 		"Multiphasic Anti-Missile" 4
 		"Multiphasic ammo" 2400
-		"Empire Nuke" 2
+		"Empire Nuke"
 		
 		"RC-X3 Multiphasic Reactor" 2
 		"KP-6 Photovoltaic Array"
@@ -320,42 +328,40 @@ ship "Empire Destroyer yll'e"
 		"Brig" 5
 		"Mineria Key Stone"
 		"Multiphasic Scanner"
-	engine -9.5 221.5
+	engine 11 220
 		zoom 1.8
-	engine 9.5 220
+	engine -11 220
 		zoom 1.8
-	"steering engine" 21.5 -26.5
+	"steering engine" 28.5 13
 		zoom 0.8
-		right
+		left
 		angle 270
-	"steering engine" 23 -8.5
+	"steering engine" 29 25.5
 		zoom 0.8
-		right
+		left
 		angle 270
-	gun 0.5 -239 "Empire Nuke"
-	gun 9 -219 "Empire Nuke"
-	turret 22 199 "Multiphasic Anti-Missile"
-	turret 16.5 84 "Multiphasic Anti-Missile"
-	turret 10 -28.5 "Multiphasic Anti-Missile"
-	turret 1 -162.5 "Multiphasic Anti-Missile"
-	turret -1.5 197 "Ion Proton Turret"
-	turret 46.5 82 "Ion Proton Turret"
-	turret -2.5 88 "Ion Proton Turret"
-	turret -18.5 -131.5 "Grab-Strike Blaze"
-	turret -18 -110 "Grab-Strike Blaze"
-	turret -20 -85 "Grab-Strike Blaze"
-	turret -23 -63.5 "Grab-Strike Blaze"
-	turret -41 144 "Grab-Strike Blaze"
-	bay "Fuel Pod" 15.5 144.5
+	gun 11 -175.5 "Empir Nuke"
 		under
-	bay "Fuel Pod" 30 55.5
-		under
-	bay "Nanobot" 17 84
+	turret 11 94 "Multiphasic Anti-Missile"
+	turret 11.5 -130.5 "Multiphasic Anti-Missile"
+	turret 14 -52 "Multiphasic Anti-Missile"
+	turret -26 83 "Multiphasic Anti-Missile"
+	turret 32.5 -27.5 "Ion Proton Turret"
+	turret 51.5 96 "Ion Proton Turret"
+	turret 15 17.5 "Ion Proton Turret"
+	turret -14.5 -37 "Grab-Strike Blaze"
+	turret -12.5 -59 "Grab-Strike Blaze"
+	turret -10.5 -84 "Grab-Strike Blaze"
+	turret -8.5 -108 "Grab-Strike Blaze"
+	turret 22 149.5 "Grab-Strike Blaze"
+	bay "Fuel Pod" 0 0
+	bay "Fuel Pod" 0 0
+	bay "Nanobot" 33.5 57
 		over
-	bay "Nanobot" 17 45.5
+	bay "Nanobot" 31.5 155.5
 		over
-	bay "Nanobot" 5 -82
-	bay "Empire Warship" 5 -82
+	bay "Nanobot" 20 -60.5
+		over
 	leak "empire leak" 30 50
 	leak "empire flame" 50 80
 	leak "empire big leak" 60 30
