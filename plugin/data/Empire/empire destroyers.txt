@@ -109,7 +109,7 @@ ship "Heavy Empire Destroyer"
 	# Reverse
 	"reverse engine" 67 67.5
 		zoom 1.5
-	"reverse engine" =67 67.5
+	"reverse engine" -67 67.5
 		zoom 1.5
 	turret 98.5 128.5 "Multiphasic Anti-Missile"
 	turret 52.5 23 "Multiphasic Anti-Missile"
