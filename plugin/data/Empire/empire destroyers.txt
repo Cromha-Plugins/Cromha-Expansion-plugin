@@ -31,8 +31,8 @@ ship "Heavy Empire Destroyer"
 		"Multiphasic Anti-Missile" 8
 		"Multiphasic ammo" 4800
 		"Empire Nuke" 2
-		"Grab-Strike Blaze" 5
-		"Ion Proton Turret" 5
+		"Grab-Strike Blaze" 8
+		"Ion Proton Turret" 3
 		"Empire Torpedo Bank" 6
 		"Empire Torpedo Rack" 30
 		"Empire Torpedo Missile" 420
@@ -106,55 +106,48 @@ ship "Heavy Empire Destroyer"
 		zoom 0.5
 		angle 60
 		right
-	turret -19 -134.5 "Multiphasic Anti-Missile"
-	turret 18.5 -136 "Multiphasic Anti-Missile"
-	turret -0.5 -81 "Multiphasic Anti-Missile"
-	turret -1 -23.5 "Multiphasic Anti-Missile"
-	turret -0.5 41.5 "Multiphasic Anti-Missile"
-	turret -71 140.5 "Multiphasic Anti-Missile"
-	turret 75 138 "Multiphasic Anti-Missile"
-	turret -0.5 171.5 "Multiphasic Anti-Missile"
-	turret -66.5 71 "Grab-Strike Blaze"
-	turret 66.5 71 "Grab-Strike Blaze"
-	turret -0.5 -176.5 "Grab-Strike Blaze"
-	turret -1.5 -110.5 "Grab-Strike Blaze"
-	turret -0.5 -23 "Grab-Strike Blaze"
-	turret -18 206.5 "Ion Proton Turret"
-	turret 18 206.5 "Ion Proton Turret"
-	turret -16.5 -38.5 "Ion Proton Turret"
-	turret 16.5 -38.5 "Ion Proton Turret"
-	turret -31 98.5 "Ion Proton Turret"
-	turret 31 98.5 "Ion Proton Turret"
-	gun -17.5 -157 "Empire Torpedo Bank"
-	gun 17.5 -157 "Empire Torpedo Bank"
-	gun -65.5 65.5 "Empire Torpedo Bank"
-	gun 65.5 65.5 "Empire Torpedo Bank"
-	gun -8.5 -212 "Empire Torpedo Bank"
-	gun 8.5 -212 "Empire Torpedo Bank"
-	gun -8.5 -212 "Empire Nuke"
+	# Reverse
+	"reverse engine" 67 67.5
+		zoom 1.5
+	"reverse engine" 67 67.5
+		zoom 1.5
+	turret 98.5 128.5 "Multiphasic Anti-Missile"
+	turret 52.5 23 "Multiphasic Anti-Missile"
+	turret 67 105.5 "Multiphasic Anti-Missile"
+	turret 11.5 -135.5 "Multiphasic Anti-Missile"
+	turret -98.5 128.5 "Multiphasic Anti-Missile"
+	turret -52.5 23 "Multiphasic Anti-Missile"
+	turret -67 105.5 "Multiphasic Anti-Missile"
+	turret -11.5 -135.5 "Multiphasic Anti-Missile"
+	turret 0 96.5 "Ion Proton Turret"
+	turret -40.5 -91.5 "Ion Proton Turret"
+	turret 40.5 -91.5 "Ion Proton Turret"
+	turret -40 -110.5 "Grab-Strike Blaze"
+	turret -37 -131 "Grab-Strike Blaze"
+	turret -36.5 -148.5 "Grab-Strike Blaze"
+	turret 102.5 190 "Grab-Strike Blaze"
+	turret 40 -110.5 "Grab-Strike Blaze"
+	turret 37 -131 "Grab-Strike Blaze"
+	turret 36.5 -148.5 "Grab-Strike Blaze"
+	turret -102.5 190 "Grab-Strike Blaze"
+	gun -7 -198 "Empire Nuke"
 		over
-	gun 8.5 -212 "Empire Nuke"
+	gun 7 -198 "Empire Nuke"
 		over
-	bay "Nanobot" -55.5 -6.5
-		under
-	bay "Nanobo" 55.5 -6.5
-		under
-	bay "Empire Warship" -32 86
+	bay "Nanobot" -45.5 150.5
 		over
-	bay "Empire Warship" -32 115.5
+	bay "Nanobot" -29 99.5
 		over
-	bay "Nanobot" 32 86
+	bay "Nanobot" 45.5 150.5
 		over
-	bay "Nanobot" 32 115.5
+	bay "Nanobot" 29 99.5
 		over
-	bay "Nanobot" -68 171
+	bay "Nanobot" 0 -123
 		over
-	bay "Nanobot" -68.5 81
+	bay "Nanobot" 0 -28.5
 		over
-	bay "Fuel Pod" 68.5 81
-		over
-	bay "Fuel Pod" 68 171
-		over
+	bay "Fuel Pod" 0 0
+	bay "Fuel Pod" 0 0
 	leak "empire leak" 30 50
 	leak "empire flame" 30 80
 	leak "empire big leak" 30 30
@@ -609,29 +602,29 @@ ship "Empire Fortress"
 	turret 27.5 299 "Multiphasic Anti-Missile"
 	turret -27.5 299 "Multiphasic Anti-Missile"
 	turret 107 -86 "Multiphasic Anti-Missile"
-	bay "Empire Warship" 61.5 -175.5
+	bay "Nanobot" 61.5 -175.5
 		over
-	bay "Empire Warship" 63.5 -144.5
+	bay "Nanobot" 63.5 -144.5
 		over
-	bay "Empire Warship" 58.5 -117
+	bay "Nanobot" 58.5 -117
 		over
-	bay "Empire Warship" 24 -173
+	bay "Nanobot" 24 -173
 		over
-	bay "Empire Warship" 22 -147.5
+	bay "Nanobot" 22 -147.5
 		over
-	bay "Empire Warship" 24.5 -116
+	bay "Nanobot" 24.5 -116
 		over
-	bay "Empire Warship" -61.5 -175.5
+	bay "Nanobot" -61.5 -175.5
 		over
-	bay "Empire Warship" -63.5 -144.5
+	bay "Nanobot" -63.5 -144.5
 		over
-	bay "Empire Warship" -58.5 -117
+	bay "Nanobot" -58.5 -117
 		over
-	bay "Empire Warship" -24 -173
+	bay "Nanobot" -24 -173
 		over
-	bay "Empire Warship" -22 -147.5
+	bay "Nanobot" -22 -147.5
 		over
-	bay "Empire Warship" -24.5 -116
+	bay "Nanobot" -24.5 -116
 		over
 	"reverse engine" -90 -464 0.8
 	"reverse engine" 90 -464 0.8
