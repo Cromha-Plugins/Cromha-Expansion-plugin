@@ -8,7 +8,7 @@ To contribute to the plugin, you can create issues to describe an error from spe
 
 You can also create an issue to request specific feature.
 
-If you wanna know more about contributing, check the [wiki page](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki/Contributor-Guide)
+If you wanna know more about contributing, check the [wiki page](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki/Contributor-Guide).
 
 ## Installation
 Go [here](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki/User-Guide) for more infos on installing the plugin.
