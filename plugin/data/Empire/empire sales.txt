@@ -78,7 +78,7 @@ outfitter Advanced-weapon-outfitter
 	"Multiphasic Anti-Missile"
 	"Plasma Turret"
 	"Empire Particle gun"
-	"Plasma Cannon"
+	"Plasma Repeater"
 	"Electron Turret"
 	"Electron Beam"
 	"Security Forcefield"
