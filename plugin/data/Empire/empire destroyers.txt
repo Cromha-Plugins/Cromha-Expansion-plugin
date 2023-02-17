@@ -2,8 +2,6 @@
 ship "Heavy Empire Destroyer"
 	sprite "ship/heavy empire destroyer"
 	thumbnail "thumbnail/heavy empire destroyer"
-	"uncapturable"
-	"never disabled"
 	swizzle 0
 	attributes
 		category "Destroyer"
@@ -168,8 +166,6 @@ ship "Heavy Empire Destroyer"
 ship "Empire Destroyer yll'a"
 	sprite "ship/empire destroyer yll'a"
 	thumbnail "thumbnail/empire destroyer yll'a"
-	"uncapturable"
-	"never disabled"
 	swizzle 0
 	attributes
 		category "Destroyer"
@@ -276,8 +272,6 @@ ship "Empire Destroyer yll'a"
 ship "Empire Destroyer yll'e"
 	sprite "ship/empire destroyer yll'e"
 	thumbnail "thumbnail/empire destroyer yll'e"
-	"uncapturable"
-	"never disabled"
 	swizzle 0
 	attributes
 		category "Destroyer"
@@ -374,8 +368,6 @@ ship "Empire Destroyer yll'e"
 ship "Light Empire Destroyer"
 	sprite "ship/light empire destroyer"
 	thumbnail "thumbnail/light empire destroyer"
-	"uncapturable"
-	"never disabled"
 	swizzle 0
 	attributes
 		category "Destroyer"

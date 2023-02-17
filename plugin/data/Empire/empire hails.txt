@@ -3,16 +3,20 @@ phrase "empire friendly hail"
         "We're here to protect you!"
         "Get an Empire Passport!"
         "Join the Empire Navy! Our ships are the bests!"
+        "Do you have any illegal outfits? Let us scan you."
 
 phrase "empire friendly disabled hail"
     word
-        "Your help is welcome? Please could you help me?"
-        "Carry us in destroyer the cowards that attacked us."
+        "Your help is welcome. Please could you help me?"
+        "Carry us in destroying the cowards that attacked us."
+        "Please i'm disables, would you like to help us? The Empire will surely award you for this."
 
 phrase "empire hostile hail"
     word
         "You're not welcome here. Surrender or die."
         "It was a bad idea to attack us. Enjoy your last minutes of life."
+        "We're here to defend people from Pirates, not from little stupid guy like you. Let us disable and board you, it will be faster and easier for you."
+        "You're going to have your last years of life in a prison."
 
 phrase "empire hostile disabled hail"
     word
