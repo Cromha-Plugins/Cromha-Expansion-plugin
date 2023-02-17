@@ -248,6 +248,7 @@ planet "Striy"
 system "Lifdot"
 	pos 187 -470
 	attributes inhabited rich research military  "empire space"
+	haze "_menu/haze-red"
 	government "Cromha Empire"
 	hazard "lifdot neutron hazard" 2900
 	fleet cromha-fleet 900
@@ -268,15 +269,16 @@ system "Lifdot"
 	trade Medical 797
 	trade Metal 479
 	trade Plastic 364
-	object "Lifdot Jump Tunnel"
-		sprite "planet/jump tunnel"
-		distance 1300
-		period 5
+	asteroids "large metal" 21 7
 	object
 		sprite "star/red neutron"
 			scale 1.3
 		distance 750
 		period 110
+		object "Lifdot Jump Tunnel"
+			sprite "planet/jump tunnel"
+			distance 2100
+			period 5
 		object "Phoenux Station"
 			sprite "planet/station7"
 			distance 300
@@ -287,18 +289,22 @@ system "Lifdot"
 		object
 			sprite "star/x5-old"
 				scale 3
-			distance 900
+			distance 1200
 			period 110
 			object "Crodust"
 				sprite "planet/fg_terrestrial2"
 					scale 2.4
-				distance 450
+				distance 750
 				period 600
-			object
-				sprite "planet/fg_icegiant3"
-					scale 0.8
-				distance 800
-				period 130
+				object
+					sprite planet/forest6-b
+					distance 350
+					period 85
+				object
+					sprite "planet/fg_icegiant3"
+						scale 0.8
+					distance 800
+					period 130
 		object
 			sprite "planet/empire panels1"
 				scale 0.8
