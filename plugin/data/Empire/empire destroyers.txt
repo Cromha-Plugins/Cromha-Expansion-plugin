@@ -52,7 +52,7 @@ ship "Heavy Empire Destroyer"
 		"Brig" 15
 		"Thermal Nucleavoltaic" 5
 		
-		`RC-220 Atomic Thruster` 3
+		`RC-220 Atomic Thruster` 1
 		`RC-225 Atomic Steering` 3
 		"RX-200 Reverse Thruster" 4
 		"Plasma Drive"
