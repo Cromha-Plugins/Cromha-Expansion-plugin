@@ -230,3 +230,4 @@ shipyard Advanced-lifdot-industries-shipyard
 	"Empire Destroyer yll'a"
 	"Empire Skylark"
 	"Empire Fortress"
+	"Rebel Firebird"

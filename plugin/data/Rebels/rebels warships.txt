@@ -1,3 +1,129 @@
+ship "Rebel Firebird"
+	sprite "ship/rebel firebird"
+	thumbnail "thumbnail/rebel firebird"
+	attributes
+		category "Heavy Freighter"
+		"cost" 10800000
+		"shields" 11000
+		"hull" 8900
+		"required crew" 20
+		"bunks" 60
+		"mass" 8564
+		"drag" 18
+		"heat dissipation" .55
+		"fuel capacity" 1400
+		"cargo space" 850
+		"outfit space" 1120
+		"weapon capacity" 512
+		"engine capacity" 245
+		weapon
+			"blast radius" 140
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Torpedo Launcher" 4
+		"Torpedo" 120
+		"Ion Proton Turret" 4
+		"Quad Blaster Turret" 4
+		"Heavy Anti-Missile Turret" 4
+		
+		"Fission Reactor"
+		"Liquid Nitrogen Cooler"
+		"LP576a Battery Pack" 2
+		"D67-TM Shield Generator"
+		"Laser Rifle" 40
+		"Thermal Nucleavoltaic" 3
+		
+		"W-180 Nitrogen Thruster" 2
+		"W-180 Nitrogen Steering" 2
+		"Nitrogen Afterburnner"
+		"Scram Drive"
+	
+	gun -13.5 -131.5 
+	gun 13.5 -131.5 
+	gun -24 -131.5 
+	gun 24 -131.5 
+	turret -47.5 -68.5 "Ion Proton Turret"
+	turret 47.5 -68.5 "Ion Proton Turret"
+	turret -106.5 -77 "Heavy Anti-Missile Turret"
+	turret 106.5 -77 "Heavy Anti-Missile Turret"
+	turret -146 -35.5 "Ion Proton Turret"
+	turret 146 -35.5 "Ion Proton Turret"
+	
+	turret -17.5 -53.5 
+	turret 17.5 -53.5 
+	turret -18 -42 "Heavy Anti-Missile Turret"
+	turret 18 -42 "Heavy Anti-Missile Turret"
+	turret -18 -31 
+	turret 18 -31 
+	engine -179 33 
+	engine 179 33 
+	engine 0 127.5 
+	leak "leak" 60 50
+	leak "flame" 50 80
+	explode "tiny explosion" 10
+	explode "small explosion" 30
+	explode "medium explosion" 20
+	"final explode" "final explosion small"
+	description `Fancy experimental freighter as more heavily armed alternative to the older Carrack. While relatively large number of containers are exposed for easier unloading, the unusual angle negates the benefit as ports are unable to utilize standardized automations to unload it and require manual unloading with smaller vehicles.`
+	
+ship "Rebel Raven"
+	sprite "ship/rebel raven"
+	thumbnail "thumbnail/rebel raven"
+	attributes
+		category "Light Freighter"
+		"cost" 1250000
+		"shields" 2800
+		"hull" 1600
+		"required crew" 4
+		"bunks" 10
+		"mass" 158
+		"drag" 3.6
+		"heat dissipation" .75
+		"fuel capacity" 600
+		"cargo space" 130
+		"outfit space" 336
+		"weapon capacity" 345
+		"engine capacity" 345
+		weapon
+			"blast radius" 40
+			"shield damage" 400
+			"hull damage" 200
+			"hit force" 600
+	outfits
+		"Heavy Anti-Missile Turret"
+		"Blaster Turret"
+		"Ion Proton Gun" 2
+		
+		"nGVF-DD Fuel Cell"
+		"LP072a Battery Pack"
+		"D23-QP Shield Generator"
+		"Brig" 2
+		"Thermal Nucleavoltaic"
+		"One-Phasic Cooler"
+		
+		"W-120 Nitrogen Thruster"
+		"W-120 Nitrogen Steering"
+		"Nitrogen Afterburnner"
+		"Scram Drive"
+		
+	gun -12.5 -94.5 "Ion Proton Gun"
+	gun 12.5 -94.5 "Ion Proton Gun"
+	turret -19.5 11 "Heavy Anti-Missile Turret"
+	turret 19.5 11 "Blaster Turret"
+	engine -20.5 56 
+	engine 20.5 56 
+	engine -49 79.5 
+		zoom .7
+	engine 49 79.5 
+		zoom .7
+	leak "leak" 60 50
+	leak "flame" 50 80
+	explode "tiny explosion" 10
+	explode "small explosion" 30
+	explode "medium explosion" 20
+	"final explode" "final explosion small"
 ship "Osprey" "Osprey (Rebels)"
 	sprite "ship/mosprey"
 	thumbnail "thumbnail/osprey"
