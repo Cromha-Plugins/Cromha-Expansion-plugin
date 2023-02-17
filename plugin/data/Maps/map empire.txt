@@ -596,6 +596,7 @@ system "Sepriaptu"
 	pos 139.431 -448.812
 	government "Cromha Empire"
 	attributes "korath" north
+	haze "_menu/haze-orange"
 	arrival 2035
 	habitable 2035
 	belt 1120
@@ -673,6 +674,7 @@ system Kaliptari
 	pos 85.4305 -402.812
 	government "Cromha Empire"
 	attributes "korath"
+	haze "_menu/haze-orange"
 	arrival 500
 	habitable 320
 	belt 1089
@@ -774,7 +776,7 @@ system Solifar
 	arrival 500
 	habitable 320
 	belt 1517
-	haze _menu/haze-67
+	haze "_menu/haze-orange"
 	link Kaliptari
 	asteroids "small rock" 7 7.772
 	asteroids "medium rock" 21 4.176
@@ -858,6 +860,7 @@ system Skeruto
 	arrival 500
 	habitable 320
 	belt 1198
+	haze "_menu/haze-orange"
 	link Fornarep
 	link Furmeliki
 	link Kaliptari
@@ -945,6 +948,7 @@ system Sabriset
 	belt 1025
 	link Kaliptari
 	link Sepriaptu
+	haze "_menu/haze-orange"
 	asteroids "small rock" 3 3.9285
 	asteroids "medium rock" 6 2.6325
 	asteroids "large rock" 5 4.779
