@@ -145,8 +145,9 @@ ship "Empire Skylark"
 		"Multiphasic ammo" 1200
 		
 		"Empire Shielding Core" 2
+		"Small Empire Shielding Core" 2
 		"Empire Hai Ravine Batteries"
-		"Supercapacitor" 3
+		"Thermal Nucleavoltaic"
 		"Multiphasic Scanner"
 		"Multiphasic Cooler" 2
 		"One-Phasic Cooler" 2
@@ -161,7 +162,7 @@ ship "Empire Skylark"
 		"Security Station" 5
 		"Phasic Grenades" 25
 		"Security Forcefield" 5
-		"Countermesure Module" 1
+		"Countermesure Module" 2
 		"Teleportation Dock" 1
 		"Cloaking Module"
 		"Plasma Drive"
