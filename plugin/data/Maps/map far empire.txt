@@ -539,6 +539,7 @@ system "As'har"
 	pos 685 -515
 	attributes inhabited rich research military "far empire space" "blackhole"
 	government "Empire Rebels"
+	arrival 1900
 	fleet empire-rebels-raiders-fleet 1600
 	fleet "Ayym" 2000
 	fleet empire-rebels-merchants 1800
