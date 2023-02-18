@@ -15,9 +15,9 @@ Go [here](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki/User-Guid
 ### Step 1: clone the repo on your local computer:
     git clone https://github.com/OcelotWalrus/Cromha-Expansion-plugin.git
 ### Step 2: run the installation script:
-Simply run the install bash script:
+Simply run the install python script:
     
-    sh install.sh
+    python install.py
 ## Keeping the plugin up to date with the github repository
 You can simply update your local repo from the github repo using the update bash script:
     
