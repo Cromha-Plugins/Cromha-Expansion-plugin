@@ -342,15 +342,73 @@ fleet mineria-escorts-transports
 	names "empire fleet names"
 	personality timid
 	cargo 6
-	# big convoits
 	variant 1
 		"Empire Bulker"
-		"Cargo Transporter" 5
 		"Fuel Pod" 2
-		"Light Empire Destroyer"
-	# special convoits
+		"Cargo Transporter" 3
+		"Nanobot yll'a" 2
 	variant 1
-		"Empire Bulker" 2
-		"Cargo Transporter" 16
-		"Fuel Pod" 4
-		"Light Empire Destroyer" 2
+		"Empire Bulker"
+		"Fuel Pod" 2
+		"Cargo Transporter" 5
+		"Nanobot yll'a" 3
+	variant 1
+		"Empire Bulker"
+		"Fuel Pod Class D" 2
+		"Cargo Transporter" 7
+		"Nanobot yll'a" 3
+	variant 1
+		"Empire Bulker"
+		"Fuel Pod" 2
+		"Cargo Transporter" 3
+		"Nanobot yll'e" 2
+	variant 1
+		"Empire Bulker"
+		"Fuel Pod" 2
+		"Cargo Transporter" 5
+		"Nanobot yll'e" 3
+	variant 1
+		"Empire Bulker"
+		"Fuel Pod Class D" 2
+		"Cargo Transporter" 7
+		"Nanobot yll'e" 3
+	variant 1
+		"Empire Bulker"
+		"Fuel Pod" 2
+		"Cargo Transporter" 3
+		"Nanobot yll'e"
+		"Nanobot yll'a"
+	variant 1
+		"Empire Bulker"
+		"Fuel Pod" 2
+		"Cargo Transporter" 5
+		"Nanobot yll'e" 2
+		"Nanobot yll'a"
+	variant 1
+		"Empire Bulker"
+		"Fuel Pod" 2
+		"Cargo Transporter" 7
+		"Nanobot yll'e" 1
+		"Nanobot yll'a" 2
+	variant 0.3
+		"Empire Bulker Class D"
+		"Fuel Pod Class D" 2
+		"Cargo Transporter" 6
+		"Nanobot yll'e" 5
+		"Nanobot yll'a" 3
+	variant 0.3
+		"Empire Bulker Class D"
+		"Fuel Pod Class D" 2
+		"Cargo Transporter" 5
+		"Nanobot yll'e" 3
+		"Nanobot yll'a" 6
+	variant 0.3
+		"Empire Bulker Class D"
+		"Fuel Pod Class D" 2
+		"Cargo Transporter" 5
+		"Nanobot yll'e" 9
+	variant 0.3
+		"Empire Bulker Class D"
+		"Fuel Pod Class D" 2
+		"Cargo Transporter" 5
+		"Nanobot yll'a" 9
