@@ -432,7 +432,7 @@ system "Alpha Cromha"
 				period 75
 	object "Alpha Jump Tunnel"
 		sprite "planet/jump tunnel"
-		distance 1200
+		distance 2300
 		period 70
 
 planet "Alldust"
