@@ -38,16 +38,17 @@ ship "Empire Wardragon" "Empire Wardragon (Ion Proton)"
 		"Antimatter Railgun" 2
 		"Railgun Slug" 560
 		"Railgun Slug Rack"
+				"Langrage Empire-Heaver"
 		
 		"Multiphasic Anti-Missile" 2
 		"Multiphasic ammo" 1200
 		
-		"RC-X4 Multiphasic Reactor" 3
+		"RC-X4 Multiphasic Reactor" 2
 		"Supercapacitor" 5
 		"Self Destruct Module"
 		
 		"Empire Shielding Core" 2
-		"Empire Hai Ravine Batteries" 6
+		"Empire Hai Ravine Batteries" 2
 		"Plasma Drive"
 		"Multiphasic Scanner"
 		"Multiphasic Cooler" 4
@@ -83,16 +84,17 @@ ship "Empire Wardragon" "Empire Wardragon (Ion Proton)"
 	# Weapons
 	turret 27.5 5.5 "Multiphasic Anti-Missile"
 	turret -27.5 5.5 "Multiphasic Anti-Missile"
-	gun -12.5 -33.5 "Ion Proton Gun"
-	gun 12.5 -33.5 "Ion Proton Gun"
-	gun -42 -15.5 "Ion Proton Gun"
-	gun 42 -15.5 "Ion Proton Gun"
-	gun -9 -51.5 "Ion Proton Gun"
-	gun 9 -51.5 "Ion Proton Gun"
+	gun -12.5 -33.5 "Empire Particle gun"
+	gun 12.5 -33.5 "Empire Particle gun"
+	gun -42 -15.5 "Empire Particle gun"
+	gun 42 -15.5 "Empire Particle gun"
+	gun -9 -51.5 "Empire Particle gun"
+	gun 9 -51.5 "Empire Particle gun"
 	gun 10 -1 "Empire Torpedo Bank"
 	gun -10 -1 "Empire Torpedo Bank"
 	gun 8 -13.5 "Antimatter Railgun"
 	gun -8 -13.5 "Antimatter Railgun"
+	gun 0 -71.5 "Langrage Empire-Heaver"
 	leak "empire leak" 60 50
 	leak "empire flame" 40 80
 	leak "empire big leak" 30 30
@@ -142,16 +144,17 @@ ship "Empire Wardragon" "Empire Wardragon (Electron Beam)"
 		"Antimatter Railgun" 2
 		"Railgun Slug" 560
 		"Railgun Slug Rack"
+				"Langrage Empire-Heaver"
 		
 		"Multiphasic Anti-Missile" 2
 		"Multiphasic ammo" 1200
 		
-		"RC-X4 Multiphasic Reactor" 3
+		"RC-X4 Multiphasic Reactor" 2
 		"Supercapacitor" 5
 		"Self Destruct Module"
 		
 		"Empire Shielding Core" 2
-		"Empire Hai Ravine Batteries" 6
+		"Empire Hai Ravine Batteries" 2
 		"Plasma Drive"
 		"Multiphasic Scanner"
 		"Multiphasic Cooler" 4
@@ -187,16 +190,17 @@ ship "Empire Wardragon" "Empire Wardragon (Electron Beam)"
 	# Weapons
 	turret 27.5 5.5 "Multiphasic Anti-Missile"
 	turret -27.5 5.5 "Multiphasic Anti-Missile"
-	gun -12.5 -33.5 "Electron Beam"
-	gun 12.5 -33.5 "Electron Beam"
-	gun -42 -15.5 "Electron Beam"
-	gun 42 -15.5 "Electron Beam"
-	gun -9 -51.5 "Electron Beam"
-	gun 9 -51.5 "Electron Beam"
+	gun -12.5 -33.5 "Empire Particle gun"
+	gun 12.5 -33.5 "Empire Particle gun"
+	gun -42 -15.5 "Empire Particle gun"
+	gun 42 -15.5 "Empire Particle gun"
+	gun -9 -51.5 "Empire Particle gun"
+	gun 9 -51.5 "Empire Particle gun"
 	gun 10 -1 "Empire Torpedo Bank"
 	gun -10 -1 "Empire Torpedo Bank"
 	gun 8 -13.5 "Antimatter Railgun"
 	gun -8 -13.5 "Antimatter Railgun"
+	gun 0 -71.5 "Langrage Empire-Heaver"
 	leak "empire leak" 60 50
 	leak "empire flame" 40 80
 	leak "empire big leak" 30 30
@@ -246,16 +250,17 @@ ship "Empire Wardragon" "Empire Wardragon (Plasma Repeater)"
 		"Antimatter Railgun" 2
 		"Railgun Slug" 560
 		"Railgun Slug Rack"
+				"Langrage Empire-Heaver"
 		
 		"Multiphasic Anti-Missile" 2
 		"Multiphasic ammo" 1200
 		
-		"RC-X4 Multiphasic Reactor" 3
+		"RC-X4 Multiphasic Reactor" 2
 		"Supercapacitor" 5
 		"Self Destruct Module"
 		
 		"Empire Shielding Core" 2
-		"Empire Hai Ravine Batteries" 6
+		"Empire Hai Ravine Batteries" 2
 		"Plasma Drive"
 		"Multiphasic Scanner"
 		"Multiphasic Cooler" 4
@@ -291,16 +296,17 @@ ship "Empire Wardragon" "Empire Wardragon (Plasma Repeater)"
 	# Weapons
 	turret 27.5 5.5 "Multiphasic Anti-Missile"
 	turret -27.5 5.5 "Multiphasic Anti-Missile"
-	gun -12.5 -33.5 "Plasma Repeater"
-	gun 12.5 -33.5 "Plasma Repeater"
-	gun -42 -15.5 "Plasma Repeater"
-	gun 42 -15.5 "Plasma Repeater"
-	gun -9 -51.5 "Plasma Repeater"
-	gun 9 -51.5 "Plasma Repeater"
+	gun -12.5 -33.5 "Empire Particle gun"
+	gun 12.5 -33.5 "Empire Particle gun"
+	gun -42 -15.5 "Empire Particle gun"
+	gun 42 -15.5 "Empire Particle gun"
+	gun -9 -51.5 "Empire Particle gun"
+	gun 9 -51.5 "Empire Particle gun"
 	gun 10 -1 "Empire Torpedo Bank"
 	gun -10 -1 "Empire Torpedo Bank"
 	gun 8 -13.5 "Antimatter Railgun"
 	gun -8 -13.5 "Antimatter Railgun"
+	gun 0 -71.5 "Langrage Empire-Heaver"
 	leak "empire leak" 60 50
 	leak "empire flame" 40 80
 	leak "empire big leak" 30 30
@@ -350,16 +356,17 @@ ship "Empire Wardragon" "Empire Wardragon (Twin Modified Blaster)"
 		"Antimatter Railgun" 2
 		"Railgun Slug" 560
 		"Railgun Slug Rack"
+		"Langrage Empire-Heaver"
 		
 		"Multiphasic Anti-Missile" 2
 		"Multiphasic ammo" 1200
 		
-		"RC-X4 Multiphasic Reactor" 3
+		"RC-X4 Multiphasic Reactor" 2
 		"Supercapacitor" 5
 		"Self Destruct Module"
 		
 		"Empire Shielding Core" 2
-		"Empire Hai Ravine Batteries" 6
+		"Empire Hai Ravine Batteries" 2
 		"Plasma Drive"
 		"Multiphasic Scanner"
 		"Multiphasic Cooler" 4
@@ -395,16 +402,17 @@ ship "Empire Wardragon" "Empire Wardragon (Twin Modified Blaster)"
 	# Weapons
 	turret 27.5 5.5 "Multiphasic Anti-Missile"
 	turret -27.5 5.5 "Multiphasic Anti-Missile"
-	gun -12.5 -33.5 "Twin Modified Blaster"
-	gun 12.5 -33.5 "Twin Modified Blaster"
-	gun -42 -15.5 "Twin Modified Blaster"
-	gun 42 -15.5 "Twin Modified Blaster"
-	gun -9 -51.5 "Twin Modified Blaster"
-	gun 9 -51.5 "Twin Modified Blaster"
+	gun -12.5 -33.5 "Empire Particle gun"
+	gun 12.5 -33.5 "Empire Particle gun"
+	gun -42 -15.5 "Empire Particle gun"
+	gun 42 -15.5 "Empire Particle gun"
+	gun -9 -51.5 "Empire Particle gun"
+	gun 9 -51.5 "Empire Particle gun"
 	gun 10 -1 "Empire Torpedo Bank"
 	gun -10 -1 "Empire Torpedo Bank"
 	gun 8 -13.5 "Antimatter Railgun"
 	gun -8 -13.5 "Antimatter Railgun"
+	gun 0 -71.5 "Langrage Empire-Heaver"
 	leak "empire leak" 60 50
 	leak "empire flame" 40 80
 	leak "empire big leak" 30 30
@@ -435,7 +443,7 @@ ship "Empire Skylark" "Empire Skylark (Ion Proton)"
 		"heat dissipation" .9
 		"fuel capacity" 800
 		"cargo space" 245
-		"outfit space" 950
+		"outfit space" 960
 		"weapon capacity" 650
 		"engine capacity" 450
 		"hull repair rate" 5
@@ -454,6 +462,7 @@ ship "Empire Skylark" "Empire Skylark (Ion Proton)"
 		"Antimatter Railgun" 2
 		"Railgun Slug" 560
 		"Railgun Slug Rack"
+		"Langrage Empire-Heaver"
 
 		"Multiphasic Anti-Missile" 2
 		"Multiphasic ammo" 1200
@@ -499,16 +508,17 @@ ship "Empire Skylark" "Empire Skylark (Ion Proton)"
 		under
 	bay "Nanobot" 25.5 32.5
 		under
-	gun -29.5 -72.5 "Ion Proton Gun"
-	gun -63.5 -31.5 "Ion Proton Gun"
-	gun -14 -85 "Ion Proton Gun"
-	gun 29.5 -72.5 "Ion Proton Gun"
-	gun 63.5 -31.5 "Ion Proton Gun"
-	gun 14 -85 "Ion Proton Gun"
+	gun -29.5 -72.5 "Empire Particle gun"
+	gun -63.5 -31.5 "Empire Particle gun"
+	gun -14 -85 "Empire Particle gun"
+	gun 29.5 -72.5 "Empire Particle gun"
+	gun 63.5 -31.5 "Empire Particle gun"
+	gun 14 -85 "Empire Particle gun"
 	gun -64.5 -32.5 "Empire Torpedo Bank"
 	gun 64.5 -32.5 "Empire Torpedo Bank"
 	gun -34 -7.5 "Antimatter Railgun"
 	gun 34 -7.5 "Antimatter Railgun"
+	gun 0 -127 "Langrage Empire-Heaver"
 	turret -34 24 "Multiphasic Anti-Missile"
 	turret 34 24 "Multiphasic Anti-Missile"
 	explode "empire tiny explosion" 12
@@ -538,7 +548,7 @@ ship "Empire Skylark" "Empire Skylark (Electron Beam)"
 		"heat dissipation" .9
 		"fuel capacity" 800
 		"cargo space" 245
-		"outfit space" 950
+		"outfit space" 960
 		"weapon capacity" 650
 		"engine capacity" 450
 		"hull repair rate" 5
@@ -557,6 +567,7 @@ ship "Empire Skylark" "Empire Skylark (Electron Beam)"
 		"Antimatter Railgun" 2
 		"Railgun Slug" 560
 		"Railgun Slug Rack"
+		"Langrage Empire-Heaver"
 
 		"Multiphasic Anti-Missile" 2
 		"Multiphasic ammo" 1200
@@ -602,16 +613,17 @@ ship "Empire Skylark" "Empire Skylark (Electron Beam)"
 		under
 	bay "Nanobot" 25.5 32.5
 		under
-	gun -29.5 -72.5 "Electron Beam"
-	gun -63.5 -31.5 "Electron Beam"
-	gun -14 -85 "Electron Beam"
-	gun 29.5 -72.5 "Electron Beam"
-	gun 63.5 -31.5 "Electron Beam"
-	gun 14 -85 "Electron Beam"
+	gun -29.5 -72.5 "Empire Particle gun"
+	gun -63.5 -31.5 "Empire Particle gun"
+	gun -14 -85 "Empire Particle gun"
+	gun 29.5 -72.5 "Empire Particle gun"
+	gun 63.5 -31.5 "Empire Particle gun"
+	gun 14 -85 "Empire Particle gun"
 	gun -64.5 -32.5 "Empire Torpedo Bank"
 	gun 64.5 -32.5 "Empire Torpedo Bank"
 	gun -34 -7.5 "Antimatter Railgun"
 	gun 34 -7.5 "Antimatter Railgun"
+	gun 0 -127 "Langrage Empire-Heaver"
 	turret -34 24 "Multiphasic Anti-Missile"
 	turret 34 24 "Multiphasic Anti-Missile"
 	explode "empire tiny explosion" 12
@@ -641,7 +653,7 @@ ship "Empire Skylark" "Empire Skylark (Plasma Repeater)"
 		"heat dissipation" .9
 		"fuel capacity" 800
 		"cargo space" 245
-		"outfit space" 950
+		"outfit space" 960
 		"weapon capacity" 650
 		"engine capacity" 450
 		"hull repair rate" 5
@@ -660,6 +672,7 @@ ship "Empire Skylark" "Empire Skylark (Plasma Repeater)"
 		"Antimatter Railgun" 2
 		"Railgun Slug" 560
 		"Railgun Slug Rack"
+		"Langrage Empire-Heaver"
 
 		"Multiphasic Anti-Missile" 2
 		"Multiphasic ammo" 1200
@@ -705,16 +718,17 @@ ship "Empire Skylark" "Empire Skylark (Plasma Repeater)"
 		under
 	bay "Nanobot" 25.5 32.5
 		under
-	gun -29.5 -72.5 "Plasma Repeater"
-	gun -63.5 -31.5 "Plasma Repeater"
-	gun -14 -85 "Plasma Repeater"
-	gun 29.5 -72.5 "Plasma Repeater"
-	gun 63.5 -31.5 "Plasma Repeater"
-	gun 14 -85 "Plasma Repeater"
+	gun -29.5 -72.5 "Empire Particle gun"
+	gun -63.5 -31.5 "Empire Particle gun"
+	gun -14 -85 "Empire Particle gun"
+	gun 29.5 -72.5 "Empire Particle gun"
+	gun 63.5 -31.5 "Empire Particle gun"
+	gun 14 -85 "Empire Particle gun"
 	gun -64.5 -32.5 "Empire Torpedo Bank"
 	gun 64.5 -32.5 "Empire Torpedo Bank"
 	gun -34 -7.5 "Antimatter Railgun"
 	gun 34 -7.5 "Antimatter Railgun"
+	gun 0 -127 "Langrage Empire-Heaver"
 	turret -34 24 "Multiphasic Anti-Missile"
 	turret 34 24 "Multiphasic Anti-Missile"
 	explode "empire tiny explosion" 12
@@ -744,7 +758,7 @@ ship "Empire Skylark" "Empire Skylark (Twin Modified Blaster)"
 		"heat dissipation" .9
 		"fuel capacity" 800
 		"cargo space" 245
-		"outfit space" 950
+		"outfit space" 960
 		"weapon capacity" 650
 		"engine capacity" 450
 		"hull repair rate" 5
@@ -763,6 +777,7 @@ ship "Empire Skylark" "Empire Skylark (Twin Modified Blaster)"
 		"Antimatter Railgun" 2
 		"Railgun Slug" 560
 		"Railgun Slug Rack"
+		"Langrage Empire-Heaver"
 
 		"Multiphasic Anti-Missile" 2
 		"Multiphasic ammo" 1200
@@ -808,16 +823,17 @@ ship "Empire Skylark" "Empire Skylark (Twin Modified Blaster)"
 		under
 	bay "Nanobot" 25.5 32.5
 		under
-	gun -29.5 -72.5 "Twin Modified Blaster"
-	gun -63.5 -31.5 "Twin Modified Blaster"
-	gun -14 -85 "Twin Modified Blaster"
-	gun 29.5 -72.5 "Twin Modified Blaster"
-	gun 63.5 -31.5 "Twin Modified Blaster"
-	gun 14 -85 "Twin Modified Blaster"
+	gun -29.5 -72.5 "Empire Particle gun"
+	gun -63.5 -31.5 "Empire Particle gun"
+	gun -14 -85 "Empire Particle gun"
+	gun 29.5 -72.5 "Empire Particle gun"
+	gun 63.5 -31.5 "Empire Particle gun"
+	gun 14 -85 "Empire Particle gun"
 	gun -64.5 -32.5 "Empire Torpedo Bank"
 	gun 64.5 -32.5 "Empire Torpedo Bank"
 	gun -34 -7.5 "Antimatter Railgun"
 	gun 34 -7.5 "Antimatter Railgun"
+	gun 0 -127 "Langrage Empire-Heaver"
 	turret -34 24 "Multiphasic Anti-Missile"
 	turret 34 24 "Multiphasic Anti-Missile"
 	explode "empire tiny explosion" 12

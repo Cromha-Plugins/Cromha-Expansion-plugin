@@ -87,6 +87,7 @@ outfitter Advanced-weapon-outfitter
 	"Ion Proton Turret"
 	"Railgun"
 	"Phasic Grenades"
+	"Langrage Empire-Heaver"
 outfitter Advanced-systems-outfitter
 	"Cargo Expansion"
 	"Ramscoop"

@@ -128,9 +128,9 @@ outfit "Small Empire Shielding Core"
 	thumbnail "outfit/small empire shield"
 	"mass" 15
 	"outfit space" -10
-	"shield generation" 1.8
+	"shield generation" 2.7
 	"shield energy" 3.0
-	"hull repair rate" 0.1
+	"hull repair rate" 0.6
 	"hull energy" 0.1
 	"hull heat" 0.15
 	description "This small Wanderer shield generator is able to recharge a ship's shields at a considerable rate, but it also consumes more energy than some other shield generators do."
@@ -143,9 +143,9 @@ outfit "Empire Shielding Core"
 	thumbnail "outfit/big empire shield"
 	"mass" 41
 	"outfit space" -41
-	"shield generation" 3.5
+	"shield generation" 5.8
 	"shield energy" 7.0
-	"hull repair rate" 0.5
+	"hull repair rate" 1.3
 	"hull energy" 0.5
 	"hull heat" 0.25
 	description "This Wanderer shield generator can restore a ship's shield strength more quickly than any human shielding technology, but while recharging shields it also draws a much larger amount of power."

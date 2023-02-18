@@ -520,3 +520,94 @@ effect "grab-strike empire impact"
 	"lifetime" 15
 	"random angle" 360
 	"velocity scale" -.1
+
+outfit "Langrage Empire-Heaver"
+	category "Secondary Weapons"
+	cost 3450000
+	thumbnail "outfit/empire heaver"
+	"mass" 15
+	"outfit space" -8
+	"weapon capacity" -8
+	"gun ports" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/empire heaver hyperspace"
+			"frame rate" 12
+			rewind
+		sound "heaver"
+		icon "icon/empire heaver"
+		"hit effect" "empire heaver hyperspace hit"
+		velocity 30
+		lifetime 8
+		"reload" 40
+		"burst reload" 5
+		"burst count" 3
+		"firing energy" 31
+		"firing heat" 190
+		"shield damage" -342
+		"hull damage" -342
+		"hit force" 3600
+		"ion damage" 6
+		"burn damage" 6
+		submunition "Empire Heaver Shard" 20
+	description `Langrage Hyper-Heavers raise the use of improvised ammunition to a fine art. This turret converts scrap metal, nearby asteroids, compressed garbage, or other debris into a high speed debris field. The exact mechanism is unclear, but the internal workings bear some similarities to hyperdrives and Banishers.`
+	description `	At close range, the heaved langrage merely forces the enemy back. As the launch field collapses and the langrage returns fully to normal space, however, it is rent into a rapidly-expanding cloud of deadly projectiles as it returns to normal space.`
+
+effect "empire heaver hyperspace hit"
+	sprite "effect/empire heaver hyperspace hit"
+		"no repeat"
+		rewind
+		"frame rate" 60
+	lifetime 36
+	"velocity scale" .1
+	sound "heaver hyperspace hit"
+
+outfit "Empire Heaver Shard"
+	weapon
+		sprite "projectile/empire heaver shard"
+			"frame rate" 12
+			"rewind"
+		"hit effect" "empire heaver shard hit" 5
+		"inaccuracy" 4
+		"velocity" 15
+		"random velocity" 1.5
+		"lifetime" 20
+		"random lifetime" 7.5
+		"hit force" 20
+		"burn damage" 1
+		submunition "Empire Heaver Splinter" 3
+
+outfit "Empire Heaver Splinter"
+	weapon
+		sprite "projectile/empire heaver shard"
+			"frame rate" 12
+			rewind
+			scale 0.33
+		"hit effect" "empire heaver splinter hit" 3
+		"inaccuracy" 5
+		"lifetime" 20
+		"random lifetime" 7.5
+		"shield damage" 5.7
+		"hull damage" 5.7
+		"hit force" 6.7
+		"ion damage" 1
+		"burn damage" 1
+
+effect "empire heaver shard hit"
+	sprite "effect/empire heaver shard hit"
+		"no repeat"
+		"frame rate" 12
+	sound "heaver shard hit"
+	lifetime 60
+	"velocity scale" .05
+	"random angle" 10
+
+effect "empire heaver splinter hit"
+	sprite "effect/empire heaver shard hit"
+		"no repeat"
+		"frame rate" 12
+		scale 0.33
+	sound "heaver shard hit"
+	lifetime 60
+	"velocity scale" .05
+	"random angle" 10

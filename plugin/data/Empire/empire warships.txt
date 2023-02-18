@@ -37,6 +37,7 @@ ship "Empire Wardragon"
 		"Antimatter Railgun" 2
 		"Railgun Slug" 560
 		"Railgun Slug Rack"
+		"Langrage Empire-Heaver"
 		
 		"Multiphasic Anti-Missile" 2
 		"Multiphasic ammo" 1200
@@ -92,6 +93,7 @@ ship "Empire Wardragon"
 	gun -10 -1 "Empire Torpedo Bank"
 	gun 8 -13.5 "Antimatter Railgun"
 	gun -8 -13.5 "Antimatter Railgun"
+	gun 0 -71.5 "Langrage Empire-Heaver"
 	leak "empire leak" 60 50
 	leak "empire flame" 40 80
 	leak "empire big leak" 30 30
@@ -121,7 +123,7 @@ ship "Empire Skylark"
 		"heat dissipation" .9
 		"fuel capacity" 800
 		"cargo space" 245
-		"outfit space" 950
+		"outfit space" 960
 		"weapon capacity" 650
 		"engine capacity" 450
 		"hull repair rate" 5
@@ -140,6 +142,7 @@ ship "Empire Skylark"
 		"Antimatter Railgun" 2
 		"Railgun Slug" 560
 		"Railgun Slug Rack"
+		"Langrage Empire-Heaver"
 
 		"Multiphasic Anti-Missile" 2
 		"Multiphasic ammo" 1200
@@ -195,6 +198,7 @@ ship "Empire Skylark"
 	gun 64.5 -32.5 "Empire Torpedo Bank"
 	gun -34 -7.5 "Antimatter Railgun"
 	gun 34 -7.5 "Antimatter Railgun"
+	gun 0 -127 "Langrage Empire-Heaver"
 	turret -34 24 "Multiphasic Anti-Missile"
 	turret 34 24 "Multiphasic Anti-Missile"
 	explode "empire tiny explosion" 12
