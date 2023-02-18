@@ -3,7 +3,7 @@ mission "Empire: Transport Pugs Vacancers"
 	description "Transport Pugs Vacancers to <destination>."
 	landing
 	passengers 3
-	destination "Alldust"
+	destination "Empire Ring"
 	to offer
 		has "Empire: Visit Pugs: done"
 	on offer
@@ -24,6 +24,8 @@ mission "Empire: Transport Pugs Vacancers"
 		dialog "You land on <planet> and greets the Pug. He says that he will contact you in a few months when i will find some sort of job."
 		"reputation: Pug" += 10
 		"empire worker jobs" += 1
+		log "You transported a Pug to the Empire Ringworld."
+		log "Minor People" "Pug Worker" "He is a new friend that you made. He is a pug that you brang to the Empire Ringworld so he could get a job."
 		
 #mission "Pug: Crodust Shipyard"
 	name "Pug: Crodust Shipyard"

@@ -56,6 +56,7 @@ mission "Empire: Repair Empire Ringworld"
 		outfit Iron -15
 		require "Phasic Rifle" 15
 		outfit "Phasic Rifle" -15
+		log "You helped repearing the Empire Ringworld."
 		conversation
 			`You land on <planet> with all the materials. It's time to depose the materials to the man of the last time. You search him in the whole spaceport but don't find him. You decide so to depose it to one of the Empire Authorities guy. He pays you <payment>.`
 		payment
@@ -90,6 +91,7 @@ mission "Empire: Visit Pugs"
 		"reputation: Cromha Empire" += 100
 		"reputation: Pug" += 30
 		"empire jobs" += 1
+		log "You visited the Pugs to accomplish an Empire mission."
 	npc save accompany
 		government "Mineria colonnies"
 		personality escort timid

@@ -63,6 +63,7 @@ government "Empire Rebels"
 		"Kor Mereti" -3
 		"Korath" -2
 		"Kor Efreti" -3
+		"Quarg" -1
 	raid cromha-fleet
 	swizzle 3
 	color 0 255 0 1

@@ -28,6 +28,7 @@ mission "Empire: First Contact"
 	on complete
 		"reputation: Cromha Empire" += 10
 		set "license: Empire Passport"
+		log "You got your Empire Passport."
 		conversation
 			`You enter the registering place in the Witdrew Station spaceport. you wait in a queue until it's your turn.`
 			`   "Captain <last>?" say the guy who registering people. "Oh! It's you; there is you Empire Passport and have a great day!"`
@@ -79,6 +80,7 @@ mission "Empire: Humanitary Delivry to <planet>"
 	on complete
 		"reputation: Cromha Empire" += 10
 		"empire jobs" += 1
+		log "You done your first empire job."
 		payment
 		payment 30000
 		dialog "You finished your first Empire Mission and get payed <payment>."
@@ -188,6 +190,7 @@ mission "Empire: Dirige Empire fleet to <planet>"
 	on complete
 		"reputation: Cromha Empire" += 10
 		"empire jobs" += 1
+		log "You diriged a whole Empire Fleet to fight against Empire Rebels."
 		payment 300000
 		dialog "You land on <planet>, give back the fleet to The Empire and get your payment of <payment>."
 	npc escort
@@ -208,6 +211,7 @@ mission "Empire: First Award"
 	to offer
 		has "Empire: Dirige Empire fleet to <planet>: done"
 	on offer
+		log "You gained your first award from The Empire. You got the Empire Contributor Lincense."
 		conversation
 			`As you land on the planet, you can see a message from The Empire:`
 			`	"It's been a few weeks that you've been working for us, we wanted to award you for all for hard work. We offer you the Empire Contributor License wich will grant you the access to every non-military ships and outfits in the Empire Space. You also will also be credited 1M credits on your account."`
