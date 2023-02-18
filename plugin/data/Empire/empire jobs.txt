@@ -1902,7 +1902,7 @@ mission colonny-importation[0]
 	destination
 		not government "Syndicate" "Quarg" "Pug" "Empire Rebels"
 		attributes farming
-		distance 1 9
+		distance 1 15
 	to offer
 		random < 30
 	on complete
@@ -1921,7 +1921,7 @@ mission colonny-importation[1]
 	destination
 		not government "Syndicate" "Quarg" "Pug" "Empire Rebels"
 		attributes farming
-		distance 4 8
+		distance 4 15
 	to offer
 		random < 30
 	on complete
@@ -1940,7 +1940,7 @@ mission colonny-importation[2]
 	destination
 		not government "Syndicate" "Quarg" "Pug" "Empire Rebels"
 		attributes farming
-		distance 3 6
+		distance 3 15
 	to offer
 		random < 30
 	on complete
