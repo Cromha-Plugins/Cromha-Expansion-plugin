@@ -7,11 +7,12 @@ fleet cromha-fleet
 	personality heroic
 		forbearing
 		disables
+		hunting
+		frugal
 		daring
 		plunders
 		surveillance
-		hunting
-		daring
+		ramming
 	outfitters Cromha-basic-outfitter
 	variant 3
 		"Empire Skylark"
