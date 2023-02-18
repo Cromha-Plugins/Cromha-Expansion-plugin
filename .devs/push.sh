@@ -18,7 +18,7 @@ git add ../plugin/
 git add ../.devs/
 git add ../about.txt
 git add ../copyright
-git add ../install.sh
+git add ../install.py
 git add ../LICENSE
 git add ../README.md
 git add ../update.sh
