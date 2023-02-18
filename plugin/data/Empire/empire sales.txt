@@ -4,9 +4,6 @@ outfitter Base-outfitter
 	"Phasic Rifle"
 	"Empire Hai Chasm Batteries"
 	"Empire Hai Fissure Batteries"
-	"Supercapacitor"
-	"KP-6 Photovoltaic Panel"
-	"RT-I Radiothermal"
 	"Ramscoop"
 	`RC-001 Atomic Engines`
 	"Countermesure Module"
