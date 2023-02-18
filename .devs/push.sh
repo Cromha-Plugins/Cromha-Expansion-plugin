@@ -36,7 +36,6 @@ git push -u origin "$branchname" >/dev/null 2>&1
 sleep 0.6
 echo -ne '###########              (37%)\r'
 sleep 1
-sh ../logger.sh "Finished pushing your commit to the $branchname branch"
 echo -ne '#################        (61%)\r'
 sleep 0.3
 echo -ne '######################## (95%)\r'
