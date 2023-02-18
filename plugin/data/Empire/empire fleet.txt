@@ -149,7 +149,16 @@ fleet cromha-fleet
 fleet mineria-transports
 	government "Mineria colonnies"
 	names "empire fleet names"
-	personality timid
+	personality heroic
+		forbearing
+		disables
+		hunting
+		frugal
+		daring
+		plunders
+		surveillance
+		ramming
+	outfitters Cromha-basic-outfitter
 	cargo 6
 	variant 1
 		"Empire Bulker"
