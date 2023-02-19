@@ -982,6 +982,11 @@ system Sabriset
 		sprite planet/gas7-hot
 		distance 279.387
 		period 47.1432
+		object "Dragon Station"
+			sprite "planet/igshoal outpost station"
+				scale 0.5
+			distance 550
+			period 75
 	object
 		sprite planet/lava7
 		distance 738.015
@@ -994,6 +999,17 @@ system Sabriset
 		sprite planet/rock5
 		distance 1367.84
 		period 510.696
+
+planet "Dragon Station"
+	attributes korath military research station
+	government "Cromha Empire"
+	landscape land/Dragon_station
+	description "This station was first designed to protect The Empire from the upcoming Kor Sestor and Kor Mereti attacks. It's like a wall between the Empire Korath Space and the Empire Space."
+	spaceport "The spaceport is huge and can contain thousands of Empire Warships or Destroyers. It has been designed to contain Empire Navy fleets in case Kor Sestor or Kor Mereti happens to attack somewhere in the Empire Korath Space."
+	outfitter Base-outfitter
+	outfitter Basic-ammo-outfitter
+	shipyard Base-shipyard
+	shipyard Advanced-interceptors-shipyard
 
 planet "For Lastru"
 	attributes korath
