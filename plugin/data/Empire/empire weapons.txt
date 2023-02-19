@@ -194,6 +194,7 @@ outfit "Antimatter Railgun"
 		"firing heat" 2
 		"ion damage" 75
 		"heat damage" 75
+		"leak damage" 15
 		"cluster"
 		"firing fuel" 5
 		"tracking" 1
@@ -212,6 +213,7 @@ outfit "antimatter railgun stage 1"
 		"tracking" 1
 		"ion damage" 75
 		"heat damage" 75
+		"leak damage" 15
 		acceleration 10
 		"hit force" 1
 		phasing
@@ -231,7 +233,8 @@ outfit "antimatter railgun stage 2"
 		acceleration 10
 		"hit force" 1
 		"ion damage" 75
-		"heat damage" 75
+		"heat damage" 757
+		
 		"inaccuracy" 50
 		phasing
 		"tracking" 1
