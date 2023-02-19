@@ -1,5 +1,5 @@
 system "Uwa Fahn"
-	link "Calor Stil"
+	link "Calor stil"
 	link "Ya Hai"
 	link "Da Ent"
 system "Bore Fah"
