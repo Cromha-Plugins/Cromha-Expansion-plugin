@@ -126,3 +126,40 @@ mission "Empire: Visit Pugs"
 		fleet "Large Southern Pirates"
 		system
 			distance 5 15
+mission "Empire: Tech Testing2"
+	name "Empire: Tech Testing"
+	description "The Empire Navy has been designing a new generation of thruster and steering. Install them on your ship, go for a battle with Empire Rebels in the Gorvi system. Go back to <destination> andget your payment of <payment>."
+	landing
+	source
+		government "Cromha Empire"
+		not attributes uninhabited
+	to offer
+		has "Empire: Visit Pugs: done"
+	destination Crodust
+	on offer
+		conversation
+			`Recently The Empire Navy has been designing a new generatiuon of thrusters and steerings.`
+			`	Install them on your ship, then, go for a battle with Empire Rebels in the Gorvi system. Go back to <destination> to get your payment.`
+				accept
+	on accept
+		outfit "RV-120 Disruption Thruster"
+		outfit "RV-125 Disruption Steering"
+	on abort
+		launch
+		conversation "empire imprisonment"
+	on complete
+		outfit "RV-120 Disruption Thruster" -1
+		outfit "RV-125 Disruption Steering" -1
+		payment
+		payment 650000
+		give ship "Empire Wardragon (Disruption)" "Z-97WQ6"
+		conversation
+			`The Empire Navy thanks you for testing these new generations engines. They payed you <payment> and offers you an Empire Dragon with the new generation engines installed on it.`
+		"reputation: Cromha Empire" += 50
+		"empire jobs" += 1
+		log "You tested insanes new generation Empire engines. After completing your mission, the Empire Navy gived you an Empire Wardragon with new generation engines installed on it!"
+	npc kill
+		government "Empire Rebels"
+		personality target staying coward
+		fleet empire-rebels-raiders
+		system "Gorvi"

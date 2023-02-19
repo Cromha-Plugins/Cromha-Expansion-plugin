@@ -1,0 +1,38 @@
+outfit "RV-120 Disruption Thruster"
+      cost 1000000
+      licenses
+            "Empire Navy"
+      category "Engines"
+      thumbnail "outfit/disruption thruster"
+      "mass" 15
+      "outfit space" -10
+      "engine capacity" -5
+      "thrust" 114.1
+	"thrusting energy" .1
+	"thrusting heat" 0.1
+	"reverse thrust" 39.4
+	"reverse thrusting energy" 4
+	"reverse thrusting heat" 8.2
+	"reverse flare sprite"  "effect/disruption flare"
+		"frame rate" 14
+	"reverse flare sound" "atomic small"
+	"flare sprite" "effect/disruption flare"
+		"frame rate" 14
+	"flare sound" "atomic tiny"
+	description "These new generations Empire Navy disruption thruster are the future of empires engines: They have the best thrusting effiency."
+outfit "RV-125 Disruption Steering"
+      cost 1000000
+      licenses
+            "Empire Navy"
+      category "Engines"
+      thumbnail "outfit/disruption steering"
+      "mass" 15
+      "outfit space" -10
+      "engine capacity" -5
+      "turn" 2967
+	"turning energy" .1
+	"turning heat" 0.1
+	"flare sprite" "effect/disruption flare"
+		"frame rate" 14
+	"flare sound" "atomic tiny"
+	description "These new generations Empire Navy disruption steering are the future of empires engines: They have the best turning effiency."
