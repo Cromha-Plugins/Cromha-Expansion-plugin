@@ -156,7 +156,6 @@ fleet mineria-transports
 		frugal
 		daring
 		plunders
-		surveillance
 		ramming
 	outfitters Cromha-basic-outfitter
 	cargo 6
