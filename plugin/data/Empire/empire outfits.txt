@@ -46,7 +46,7 @@ outfit "Empire Navy Emitter"
 	cost 15000
 	"mass" 5
 	"outfit space" -5
-	"scan interference" 120
+	inscrutable 1
 	
 outfit "Countermesure Module"
 	category "Systems"
