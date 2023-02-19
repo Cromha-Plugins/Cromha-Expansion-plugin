@@ -11,11 +11,7 @@ system "Volcanois"
 	fleet cromha-miners 600
 	fleet cromha-merchants 800
 	link "Astroid"
-	link "Hi Yahr"
 	link "Bore Fah"
-	link "Risiit"
-	link "Nileem"
-	link "Asikafarnut"
 	asteroids "large metal" 21 7
 	minables "silicon" 50 3
 	minables "silver" 19 3
@@ -195,6 +191,7 @@ system "Calor stil"
 	link "Astroid"
 	link "Lifdot"
 	link "Sepriaptu"
+	link "Uwa Fahn"
 	trade Clothing 215
 	trade Electronics 816
 	trade Equipment 487
