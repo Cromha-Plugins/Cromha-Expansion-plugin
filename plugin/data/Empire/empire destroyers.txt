@@ -464,7 +464,7 @@ ship "Empire Fortress"
 		category "Fortress"
 		cost 276900000
 		shields 1996420
-		hull 1320690
+		hull 999999999999
 		"required crew" 1940
 		"bunks" 31920
 		"mass" 10000
