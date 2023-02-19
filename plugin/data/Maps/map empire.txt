@@ -256,6 +256,7 @@ system "Lifdot"
 	link "Alpha Cromha"
 	link "Sepriaptu"
 	link "All'Estros"
+	link "Mesuket"
 	trade Clothing 215
 	trade Electronics 816
 	trade Equipment 487
@@ -945,6 +946,8 @@ system Sabriset
 	belt 1025
 	link Kaliptari
 	link Sepriaptu
+	link Eshkoshtar
+	link Mesuket
 	haze "_menu/haze-orange"
 	asteroids "small rock" 3 3.9285
 	asteroids "medium rock" 6 2.6325
@@ -1018,3 +1021,210 @@ planet "For Lastru"
 	description "This planet is full of great red tainted canyons. It has insane paysages."
 	description `Long ago, this planet was home to several Korath oil mining settlements, but now all that remains visible are the tops of a few dozen of the tallest buildings. Everything else has been buried by sandstorms.`
 	description `	Due to a recent shift in climate the deserts have begun shrinking once more, with local vegetation growing to cover more and more land each year, but the Korath are no longer here to benefit from the change.`
+
+system Mesuket
+	pos 220.431 -409.812
+	government "Cromha Empire"
+	attributes "korath"
+	arrival 950
+	habitable 950
+	belt 1215
+	link Eneremprukt
+	link Eshkoshtar
+	link Salipastart
+	link Silikatakfar
+	link Lifdot
+	link Sabriset
+	asteroids "large metal" 1 1.6758
+	trade Clothing 252
+	trade Electronics 746
+	trade Equipment 681
+	trade Food 221
+	trade "Heavy Metals" 771
+	trade Industrial 660
+	trade "Luxury Goods" 1458
+	trade Medical 798
+	trade Metal 272
+	trade Plastic 366
+	fleet "Large Kor Mereti" 1300
+	fleet "Large Kor Sestor" 1300
+	fleet cromha-fleet 1000
+	fleet mineria-transports 1200
+	fleet fleet cromha-merchants 1900
+	object
+		sprite star/k5-old
+		period 10
+	object
+		sprite planet/mercury-b
+		distance 130
+		period 19.2359
+	object
+		sprite planet/rock13
+		distance 595
+		period 188.353
+		object
+			sprite planet/station1kd
+				scale 0.5
+			distance 159.426
+			period 25.3047
+	object
+		sprite planet/gas17-b
+		distance 1400
+		period 679.814
+		object
+			sprite planet/station3kd
+				scale 0.5
+			distance 341.722
+			period 26.9888
+	object
+		sprite planet/gas4
+		distance 3640
+		period 2850.03
+		object "Amanda Station"
+			sprite planet/station6
+				scale 0.8
+			distance 365
+			period 110
+
+		object
+			sprite planet/ice7-b
+			distance 264
+			period 15.1288
+		object
+			sprite planet/dust1-b
+			distance 416
+			period 29.9252
+		object
+			sprite planet/dust4-b
+			distance 550
+			period 45.4927
+		object
+			sprite planet/io-b
+			distance 706
+			period 66.1613
+
+planet "Amanda Station"
+	attributes korath military station
+	government "Cromha Empire"
+	landscape land/Amanda_station
+	description "This station was first designed to protect The Empire from the upcoming Kor Sestor and Kor Mereti attacks. It's like a wall between the Empire Korath Space and the Empire Space."
+	spaceport "The spaceport is huge and can contain thousands of Empire Warships or Destroyers. It has been designed to contain Empire Navy fleets in case Kor Sestor or Kor Mereti happens to attack somewhere in the Empire Korath Space."
+	outfitter Base-outfitter
+	outfitter Basic-ammo-outfitter
+	shipyard Base-shipyard
+	shipyard Advanced-interceptors-shipyard
+
+system Eshkoshtar
+	pos 156.431 -381.812
+	government "Cromha Empire"
+	attributes "korath"
+	arrival 810
+	habitable 810
+	belt 1105
+	link Mekislepti
+	link Mesuket
+	link Similisti
+	link Sabriset
+	asteroids "small rock" 4 4.44
+	asteroids "medium rock" 31 2.49
+	asteroids "large rock" 2 4.02
+	asteroids "small metal" 12 4.5
+	asteroids "medium metal" 53 2.31
+	asteroids "large metal" 155 3.51
+	minables aluminum 38 3.97026
+	minables silicon 25 3.83848
+	trade Clothing 248
+	trade Electronics 715
+	trade Equipment 703
+	trade Food 249
+	trade "Heavy Metals" 876
+	trade Industrial 588
+	trade "Luxury Goods" 1354
+	trade Medical 704
+	trade Metal 258
+	trade Plastic 481
+	fleet "Small Kor Mereti" 1200
+	fleet "Large Kor Mereti" 1800
+	fleet "Large Kor Sestor" 3800
+	fleet "Kor Mereti Miners" 3200
+	fleet cromha-fleet 1000
+	fleet mineria-transports 1200
+	fleet fleet cromha-merchants 1900
+	object
+		sprite star/k0
+		distance 41.2173
+		period 14.9775
+		offset 180
+	object
+		sprite star/m0
+		distance 63.1141
+		period 14.9775
+	object
+		sprite planet/neptune
+		distance 403.411
+		period 113.877
+		object
+			sprite planet/luna
+			distance 214
+			period 15.5974
+	object "Esayaku Fen"
+		sprite planet/desert10
+		distance 796.251
+		period 315.785
+		object "Fen Station"
+			sprite planet/station4b
+				scale 0.5
+			distance 400
+			period 110
+			object
+				sprite planet/station4bd
+					scale 0.5
+				distance 150
+				period 400
+	object
+		sprite planet/gas11-b
+		distance 1598.86
+		period 898.531
+		object
+			sprite planet/station2kd
+				scale 0.5
+			distance 237.94
+			period 12.1054
+	object
+		sprite planet/gas4
+		distance 2400.09
+		period 1652.56
+		object
+			sprite planet/rock14-b
+			distance 257
+			period 14.531
+		object
+			sprite planet/dust7-b
+			distance 367
+			period 24.7968
+
+planet "Esayaku Fen"
+	attributes korath factory military colonny oil
+	government "Mineria colonnies"
+	landscape land/badlands5
+	description `This planet is a huge industry and oil refinery. It was at first and Empire colonny but they became an Mineria colonny a decade ago. It is one of the most important facotry in the Cromha Empire.`
+	description `	The deserts here are home to an unusual number of plant species, which have adapted to survive the occasional catastrophic flash floods.`
+	spaceport `The spaceport is just enough big for 2 Empire Destroyers. You will find lots of dilithum seller or illegal outfits dealers. Some Empire Rebels are hiding on this planet since the security is very low.`
+	security 0.5
+	outfitter Base-outfitter
+	outfitter Advanced-ammo-outfitter
+	outfitter Advanced-systems-outfitter
+	outfitter Basic-power-outfitter
+	outfitter Basic-engines-outfitter
+	shipyard Base-shipyard
+	shipyard Basic-freighters-shipyard
+	shipyard Basic-interceptors-shipyard
+
+planet "Fen Station"
+	attributes korath military colonny station
+	landscape land/station4
+	description "This station is here to contain multiples Empire fleets to defend the Esayaku colonnies in case some Kor Mereti or Kor Sestor happen to attack this system."
+	spaceport "Most of the station is a spaceport, technicly it's more a spacial dock than a station."
+	security 2
+	outfitter Base-outfitter
+	outfitter Basic-ammo-outfitter
