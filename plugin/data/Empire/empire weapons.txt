@@ -38,6 +38,8 @@ outfit "Ion Proton Gun"
 	category "Guns"
 	cost 300000
 	thumbnail "outfit/ion proton gun"
+	licenses
+		"Empire Contributor"
 	"mass" 25
 	"outfit space" -25
 	"weapon capacity" -20
@@ -81,6 +83,8 @@ outfit "Ion Proton Turret"
 	category "Turrets"
 	cost 260000
 	thumbnail "outfit/ion proton turret"
+	licenses
+		"Empire Contributor"
 	"mass" 34
 	"outfit space" -34
 	"weapon capacity" -34
@@ -481,6 +485,8 @@ outfit "Grab-Strike Blaze"
 	cost 901000
 	thumbnail "outfit/grab-strike empire"
 	"mass" 15
+	licenses
+		"Empire Contributor"
 	"outfit space" -15
 	"weapon capacity" -15
 	"energy capacity" 100
@@ -526,6 +532,8 @@ outfit "Langrage Empire-Heaver"
 	cost 3450000
 	thumbnail "outfit/empire heaver"
 	"mass" 15
+	licenses
+		"Empire Contributor"
 	"outfit space" -8
 	"weapon capacity" -8
 	"gun ports" -1
