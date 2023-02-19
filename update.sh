@@ -1,5 +1,5 @@
-path=$(cat .settings)
+path=$(cat .settings.txt)
 
 git pull origin main
-cp plugin/ $path
+cp -r plugin/ $path/
 mv $path/plugin $path/Cromha-expansion
