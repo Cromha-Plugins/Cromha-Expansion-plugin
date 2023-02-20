@@ -22,7 +22,6 @@ git add ../install.py
 git add ../LICENSE
 git add ../README.md
 git add ../update.sh
-git add ../update.bat
 echo Please enter a commit message:
 read commitname
 git commit -m "$commitname" >/dev/null 2>&1
