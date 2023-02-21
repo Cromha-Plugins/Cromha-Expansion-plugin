@@ -617,11 +617,63 @@ system "Wel'y"
 	minables neoyium 13 5.16891
 	minables titanium 13 5.16891
 	minables crystal 13 5.16891
+	object
+		sprite star/xgiant
+		period 5
+		object "Wel'y"
+			sprite planet/gas7-hot
+			distance 575
+			period 10
+			object
+				sprite planet/fg_moon33
+				distance 350
+				period 35
+			object
+				sprite planet/forest6-b
+				distance 750
+				period 97
+				object "Wel'y Spacial Dock"
+					sprite planet/stationh-ancient1
+						scale 0.5
+					distance 450
+					period 55
+					object
+						sprite planet/fg_gas8
+						distance 850
+						period 110
 	object "Wel'y Jump Tunnel"
 		sprite "planet/jump tunnel"
 		distance 2700
 		period 5
-	
+
+
+planet "Wel'y"
+	attributes "far empire space" oil rich inhabited tourism
+	landscape land/nasa24
+	outfitter Base-outfitter
+	outfitter Advanced-weapon-outfitter
+	outfitter Advanced-ammo-outfitter
+	outfitter Basic-systems-outfitter
+	outfitter Advanced-power-outfitter
+	outfitter Basic-engines-outfitter
+	shipyard Base-shipyard
+	shipyard Advanced-freighters-shipyard
+	shipyard Basic-interceptors-shipyard
+	shipyard Basic-lifdot-industries-shipyard
+	description "In this gas planet, there is only one big city, that float in the sky. Technology in this planet is highly advanced, you will find almost everything you need."
+	description "The commerce of this planet is concentrated in Interceptors and Freighters shipyards, that rules to commerce in the city."
+	spaceport ""
+
+planet "Wel'y Spacial Dock"
+	attributes "far empire space" facotry oil poor inhabited station
+	landscape land/station42
+	outfitter Base-outfitter
+	outfitter Basic-ammo-outfitter
+	outfitter Basic-systems-outfitter
+	shipyard Base-shipyard
+	description "The Wel'y Spacial Dock is the central ship facotry of the Lifdot Industires. Most of their ships are build there like Interceptors, Warships, Freighters but not Empire Warships, which are build in a military station: The Weila Staton in the Los Faros system."
+	spaceport "The spaceport is minimal. Most of the people that come here are toursists ingeneers or people that come for the core to find jobs."
+
 system "Los Calos"
 	hazard "Far Empire Triangle Hazard" 1000
 	pos 540 -430
@@ -654,6 +706,45 @@ system "Los Faros"
 	minables neoyium 13 5.16891
 	minables titanium 13 5.16891
 	minables crystal 13 5.16891
+	fleet cromha-fleet 1700
+	fleet mineria-transports 1850
+	object
+		sprite planet/vesvi
+			scale 3
+		period 10
+		object
+			sprite planet/lava5
+			distance 270
+			period 95
+		object
+			sprite planet/rock2b
+			distance 300
+			period 95
+		object
+			sprite planet/rock1
+			distance 230
+			period 35
+		object
+			sprite star/y-drawf
+			distance 350
+			period 18
+			object "Weila Station"
+				sprite planet/station6
+				distance 785
+				period 110
+				object
+					sprite planet/station7c
+					period 1
+
+planet "Weila Station"
+	attributes station military research facotry rich
+	outfitter Base-outfitter
+	outfitter Basic-outfitter
+	shipyard Base-shipyard
+	landscape land/sivael5
+	description "The Weila station is the center of the Lifdot Industries facotiries: most of the Empire Warships are build in this spacial dock. It was at first a military research station that was studying the hazards in the 'Triangle'."
+	description "Fifty years ago, the Lifdot Industries, when the started to design the today known Empire Warship, turned this military reseach station into a spacial dock. It was protected from the Empire Rebels with the extreme hazards, since the Empire Rebels have not the Cromha Empire technology to resist to these extreme hazards."
+	spaceport ""
 	
 system "Los Asto"
 	hazard "Far Empire Triangle Hazard" 1000
@@ -827,7 +918,7 @@ system "Phil'Rima"
 				period 40
 
 planet "Ill'Safra Station"
-	attributes "far empire space" research
+	attributes "far empire space" research station
 	landscape land/Ill'safra_station
 	outfitter Base-outfitter
 	outfitter Basic-ammo-outfitter

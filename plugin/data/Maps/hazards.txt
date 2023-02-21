@@ -21,7 +21,7 @@ hazard "lifdot neutron hazard"
 	
 hazard "Far Empire Triangle Hazard"
 	"duration" 300 1200
-	"strength" 3 6
+	"strength" 3 18
 	"system-wide"
 	"environmental effect" "far empire triangle hazard" 20
 	weapon
