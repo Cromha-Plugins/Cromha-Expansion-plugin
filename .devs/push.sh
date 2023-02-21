@@ -1,12 +1,5 @@
 date=$(date)
 
-echo "Wanna update the local repo before pushing (y/n)? "
-read answer
-if [ "$answer" != "${answer#[Yy]}" ] ;then
-    sh update.sh
-else
-    echo not updating local repo
-fi
 echo Adding files to the commit...
 echo -ne '#####                     (33%)\r'
 sleep 0.1
