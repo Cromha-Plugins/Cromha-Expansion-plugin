@@ -18,6 +18,7 @@ ship "Empire Wardragon"
 		"mass" 260
 		"drag" 7.7
 		"heat dissipation" .12
+		"landing speed" 0.1
 		"fuel capacity" 650
 		"cargo space" 85
 		"outfit space" 1300
@@ -123,6 +124,7 @@ ship "Empire Skylark"
 		"heat dissipation" .9
 		"fuel capacity" 800
 		"cargo space" 245
+		"landing speed" 0.1
 		"outfit space" 960
 		"weapon capacity" 650
 		"engine capacity" 450

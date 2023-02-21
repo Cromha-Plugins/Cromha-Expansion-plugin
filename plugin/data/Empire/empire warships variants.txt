@@ -21,6 +21,7 @@ ship "Empire Wardragon" "Empire Wardragon (Ion Proton)"
 		"heat dissipation" .12
 		"fuel capacity" 650
 		"cargo space" 85
+		"landing speed" 0.1
 		"outfit space" 1300
 		"weapon capacity" 530
 		"engine capacity" 230
@@ -126,6 +127,7 @@ ship "Empire Wardragon" "Empire Wardragon (Electron Beam)"
 		"drag" 7.7
 		"heat dissipation" .12
 		"fuel capacity" 650
+		"landing speed" 0.1
 		"cargo space" 85
 		"outfit space" 1300
 		"weapon capacity" 530
@@ -235,6 +237,7 @@ ship "Empire Wardragon" "Empire Wardragon (Plasma Repeater)"
 		"cargo space" 85
 		"outfit space" 1300
 		"weapon capacity" 530
+		"landing speed" 0.1
 		"engine capacity" 230
 		"ramscoop" 0.7
 		weapon
@@ -339,6 +342,7 @@ ship "Empire Wardragon" "Empire Wardragon (Twin Modified Blaster)"
 		"heat dissipation" .12
 		"fuel capacity" 650
 		"cargo space" 85
+		"landing speed" 0.1
 		"outfit space" 1300
 		"weapon capacity" 530
 		"engine capacity" 230
@@ -443,6 +447,7 @@ ship "Empire Wardragon" "Empire Wardragon (Disruption)"
 		"mass" 260
 		"drag" 7.7
 		"heat dissipation" .12
+		"landing speed" 0.1
 		"fuel capacity" 650
 		"cargo space" 85
 		"outfit space" 1300
@@ -554,6 +559,7 @@ ship "Empire Skylark" "Empire Skylark (Ion Proton)"
 		"engine capacity" 450
 		"hull repair rate" 5
 		"hull energy" 5
+		"landing speed" 0.1
 		"ramscoop" 1.5
 		weapon
 			"blast radius" 100
@@ -659,6 +665,7 @@ ship "Empire Skylark" "Empire Skylark (Electron Beam)"
 		"engine capacity" 450
 		"hull repair rate" 5
 		"hull energy" 5
+		"landing speed" 0.1
 		"ramscoop" 1.5
 		weapon
 			"blast radius" 100
@@ -761,6 +768,7 @@ ship "Empire Skylark" "Empire Skylark (Plasma Repeater)"
 		"cargo space" 245
 		"outfit space" 960
 		"weapon capacity" 650
+		"landing speed" 0.1
 		"engine capacity" 450
 		"hull repair rate" 5
 		"hull energy" 5
@@ -870,6 +878,7 @@ ship "Empire Skylark" "Empire Skylark (Twin Modified Blaster)"
 		"hull repair rate" 5
 		"hull energy" 5
 		"ramscoop" 1.5
+		"landing speed" 0.1
 		weapon
 			"blast radius" 100
 			"shield damage" 10500
