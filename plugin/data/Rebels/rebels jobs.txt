@@ -1,3 +1,110 @@
+# Cargo
+mission "Rebel Cargo Smuggling [0]"
+	name "Smuggling to <planet>"
+	job
+	repeat
+	description "Smuggle <cargo> to <destination> without being scanned or caught by planetary law enforcement. Payment is <payment>."
+	cargo "Illegal Cargo" 5 2 .1
+	illegal 40000 `In addition to the fine, your illegal cargo is confiscated. The Empire Rebels won't be happy to hear about this.`
+	stealth
+	to offer
+		or
+			"reputation: Empire Rebels" > -100
+			"combat rating" > 150
+	source
+		government "Empire Rebels"
+	destination
+		distance 3 6
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate" "Empire Rebels" "Cromha Empire"
+	on abort
+		"reputation: Empire Rebels" -= 1
+		dialog phrase "The Empire Rebels won't be happy to hear that you aborted the mission"
+	on fail
+		"reputation: Empire Rebels" -= 1
+	on complete
+		payment 4000 300
+		dialog phrase "You bring the cargo to some Empire Rebels. You got payed <payment>."
+
+mission "Rebel Cargo Smuggling [1]"
+	name "Smuggling to <planet>"
+	job
+	repeat
+	description "Smuggle <cargo> to <destination> without being scanned or caught by planetary law enforcement. Payment is <payment>."
+	cargo "Illegal Cargo" 5 2 .1
+	illegal 50000 `In addition to the fine, your illegal cargo is confiscated. The Empire Rebels won't be happy to hear about this.`
+	stealth
+	to offer
+		random < 90
+		or
+			"reputation: Empire Rebels" > -100
+			"combat rating" > 150
+	source
+		government "Empire Rebels"
+	destination
+		distance 3 8
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate" "Empire Rebels" "Cromha Empire"
+	on abort
+		"reputation: Empire Rebels" -= 1
+		dialog phrase "The Empire Rebels won't be happy to hear that you aborted the mission"
+	on fail
+		"reputation: Empire Rebels" -= 1
+	on complete
+		payment 4000 300
+		dialog phrase "You bring the cargo to some Empire Rebels. You got payed <payment>."
+
+mission "Rebel Cargo Smuggling [2]"
+	name "Smuggling to <planet>"
+	job
+	repeat
+	description "Smuggle <cargo> to <destination> without being scanned or caught by planetary law enforcement. Payment is <payment>."
+	cargo "Illegal Cargo" 5 2 .1
+	illegal 64000 `In addition to the fine, your illegal cargo is confiscated. The Empire Rebels won't be happy to hear about this.`
+	stealth
+	to offer
+		random < 70
+		or
+			"reputation: Empire Rebels" > -100
+			"combat rating" > 150
+	source
+		government "Empire Rebels"
+	destination
+		distance 4 10
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate" "Empire Rebels" "Cromha Empire"
+	on abort
+		"reputation: Empire Rebels" -= 1
+		dialog phrase "The Empire Rebels won't be happy to hear that you aborted the mission"
+	on fail
+		"reputation: Empire Rebels" -= 1
+	on complete
+		payment 4000 300
+		dialog phrase "You bring the cargo to some Empire Rebels. You got payed <payment>."
+mission "Rebel Cargo Smuggling [3]"
+	name "Smuggling to <planet>"
+	job
+	repeat
+	description "Smuggle <cargo> to <destination> without being scanned or caught by planetary law enforcement. Payment is <payment>."
+	cargo "Illegal Cargo" 5 2 .1
+	illegal 80000 `In addition to the fine, your illegal cargo is confiscated. The Empire Rebels won't be happy to hear about this.`
+	stealth
+	to offer
+		random < 60
+		or
+			"reputation: Empire Rebels" > -100
+			"combat rating" > 150
+	source
+		government "Empire Rebels"
+	destination
+		distance 5 12
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate" "Empire Rebels" "Cromha Empire"
+	on abort
+		"reputation: Empire Rebels" -= 1
+		dialog phrase "The Empire Rebels won't be happy to hear that you aborted the mission"
+	on fail
+		"reputation: Empire Rebels" -= 1
+	on complete
+		payment 4000 300
+		dialog phrase "You bring the cargo to some Empire Rebels. You got payed <payment>."
+
 # Harvests
 mission "rebel Harvest (aluminum, small)"
 	name "Harvest Aluminum"
@@ -401,6 +508,74 @@ mission rebel-drugs-run[2]
 		payment 300000
 		"reputation: Empire Rebels" + 1
 		dialog "You land on <planet> and go search for the drugs dealer and gives him the drugs. You recieve the payment of <payment>."
+
+mission rebel-bulk-drugs-run[0]
+	name "Bulk Drugs Run to <planet>"
+	description "Run 35 tons of drugs for the rebels to <destination> and get payed <payment>."
+	repeat
+	job
+	to offer
+		random < 20
+	source
+		government "Empire Rebels"
+	on accept
+		outfit "Drugs" 35
+	destination
+		distance 1 8
+		government "Republic" "Empire Rebels" "Free Worlds" "Cromha Empire" "Pirate"
+	on complete
+		require "Drugs" 35
+		outfit "Drugs" -35
+		payment
+		payment 550000
+		"reputation: Empire Rebels" + 1
+		dialog "You land on <planet> and go search for the drugs dealer and gives him the drugs. You recieve the payment of <payment>."
+
+mission rebel-bulk-drugs-run[1]
+	name "Bulk Drugs Run to <planet>"
+	description "Run 50 tons of drugs for the rebels to <destination> and get payed <payment>."
+	repeat
+	job
+	to offer
+		random < 15
+	source
+		government "Empire Rebels"
+	on accept
+		outfit "Drugs" 50
+	destination
+		distance 1 8
+		government "Republic" "Empire Rebels" "Free Worlds" "Cromha Empire" "Pirate"
+	on complete
+		require "Drugs" 50
+		outfit "Drugs" -50
+		payment
+		payment 750000
+		"reputation: Empire Rebels" + 1
+		dialog "You land on <planet> and go search for the drugs dealer and gives him the drugs. You recieve the payment of <payment>."
+
+mission rebel-bulk-drugs-run[2]
+	name "Bulk Drugs Run to <planet>"
+	description "Run 75 tons of drugs for the rebels to <destination> and get payed <payment>."
+	repeat
+	job
+	to offer
+		random < 30
+	source
+		government "Empire Rebels"
+	on accept
+		outfit "Drugs" 75
+	destination
+		distance 1 8
+		government "Republic" "Empire Rebels" "Free Worlds" "Cromha Empire" "Pirate"
+	on complete
+		require "Drugs" 75
+		outfit "Drugs" -75
+		payment
+		payment 980000
+		"reputation: Empire Rebels" + 1
+		dialog "You land on <planet> and go search for the drugs dealer and gives him the drugs. You recieve the payment of <payment>."
+
+# Wanted Passengers
 mission "Rebel Wanted Passenger [0]"
 	name "Wanted individual to <planet>"
 	job
@@ -457,7 +632,7 @@ mission "Rebel Wanted Passengers [1]"
 		payment 20000 300
 		dialog "Your <passengers> insist that you land on the edge of the spaceport to avoid being seen. After you land, they pay you <payment> before quickly grabbing their things and leaving your ship."
 	
-mission "Wanted Passengers [2]"
+mission "Rebel Wanted Passengers [2]"
 	name "Wanted individuals to <planet>"
 	job
 	repeat
@@ -484,3 +659,187 @@ mission "Wanted Passengers [2]"
 	on complete
 		payment 20000 300
 		dialog "Your <passengers> insist that you land on the edge of the spaceport to avoid being seen. After you land, they pay you <payment> before quickly grabbing their things and leaving your ship."
+
+# Mercenary jobs
+mission "Raid on Merchants (Rebels)"
+	name "Merchants near <system>"
+	repeat
+	job
+	description "A merchant fleet has been spotted near the <system> system. Join in destroying them and return to <planet> by <day> for a cut of the loot (<payment>)."
+	to offer
+		random < 50
+		"combat rating" > 150
+	source
+		government "Empire Rebels"
+	npc
+		government "Empire Rebels"
+		personality plunders harvests escort coward
+		fleet empire-rebels-raiders
+	
+	npc kill
+		government "Merchant"
+		personality heroic staying target
+		system
+			distance 1 3
+		fleet "Small Northern Merchants" 2
+		fleet "Large Northern Merchants"
+		dialog "The merchants have been eliminated. Return to <destination> for your cut of the loot."
+	on complete
+		payment 150000
+		dialog "After counting up the loot from the destroyed merchant fleet, you are given your cut. <payment>"
+
+# Assassination
+mission "Cromha Empire Assassination"
+	name "Assassinate a political target"
+	description "An Cromha Empire politician was spotted passing through a nearby system in their ship, the <npc>. Assassinate them by <day> to send a message to the Cromha Empire. Payment is <payment>. Be advised that they may have escorts."
+	repeat
+	job
+	deadline 25
+	to offer
+		"combat rating" > 300
+		random < 5
+	source
+		government "Empire Rebels"
+	npc kill
+		government "Cromha Empire"
+		personality staying target
+		system
+			government "Cromha Empire"
+			distance 2 3
+		fleet mineria-transports
+		dialog "The target has been destroyed. Return to <destination> for your payment."
+	on complete
+		payment 460000
+		dialog "A pirate warlord thanks you for eliminating the politician and pays you <payment>."
+		"reputation: Cromha Empire" -= 10
+		"reputation: Empire Rebels" += 3
+
+mission "Republic Assassination Rebel"
+	name "Assassinate a political target"
+	description "A Republic politician who is worrying local pirate gangs was spotted in their ship, the <npc>, in Northern space. Assassinate them by <day> to send a message to the Republic. Payment is <payment>. Be advised that they may have escorts."
+	repeat
+	job
+	deadline 20
+	to offer
+		"combat rating" > 300
+		random < 5
+		"reputation: Empire Rebels" > -100
+	source
+		government "Empire Rebels"
+	npc kill
+		government "Republic"
+		personality staying target
+		system
+			government "Republic"
+			distance 3 6
+			not near "Cardax" 3
+		fleet
+			names civilian
+			variant 7
+				"Flivver"
+			variant 7
+				"Scout"
+			variant 3
+				"Flivver"
+				"Raven"
+				"Berserker"
+			variant 2
+				"Scout"
+				"Aerie"
+				"Dagger" 2
+			variant 2
+				"Flivver"
+				"Firebird"
+			variant 3
+				"Scout"
+				"Headhunter" 2
+			variant 1
+				"Flivver"
+				"Gunboat" 2
+			variant 1
+				"Scout"
+				"Frigate"
+			variant 1
+				"Mule"
+				"Dagger"
+			variant 1
+				"Star Queen"
+		dialog "The target has been destroyed. Return to <destination> for your payment."
+	on complete
+		payment 460000
+		dialog "A rebel warlord thanks you for eliminating the politician pays you <payment>."
+		"reputation: Republic" -= 10
+		"reputation: Navy (Oathkeeper)" -= 10
+		"reputation: Empire Rebels" += 3
+		
+mission "Republic Assassination Rebels[1]"
+	name "Assassinate a political target"
+	description "A Republic politician who is worrying local drug traders was spotted in their ship, the <npc>, in a nearby system. Assassinate them by <day> to send a message to the Republic. Payment is <payment>. Be advised that they may be heavily defended."
+	repeat
+	job
+	deadline 20
+	to offer
+		"combat rating" > 600
+		random < 5
+		"reputation: Empire Rebels" > -50
+	source
+		government "Empire Rebels"
+	npc kill
+		government "Republic"
+		personality staying target
+		system
+			government "Republic"
+			distance 3 6
+			not near "Cardax" 3
+		fleet
+			names civilian
+			variant 1
+				"Flivver"
+			variant 1
+				"Scout"
+			variant 2
+				"Mule"
+				"Dagger"
+			variant 2
+				"Star Queen"
+			variant 2
+				"Flivver"
+				"Aerie"
+				"Dagger" 2
+				"Frigate"
+			variant 4
+				"Scout"
+				"Headhunter" 4
+			variant 3
+				"Mule"
+				"Dagger"
+				"Raven" 2
+			variant 2
+				"Star Queen"
+				"Corvette"
+				"Firebird"
+			variant 2
+				"Flivver"
+				"Leviathan"
+			variant 2
+				"Scout"
+				"Corvette"
+				"Mule"
+				"Dagger"
+			variant 1
+				"Mule"
+				"Dagger"
+				"Cruiser"
+				"Combat Drone" 4
+			variant 1
+				"Star Queen"
+				"Carrier"
+				"Lance" 4
+				"Combat Drone" 6
+		dialog "The target has been destroyed. Return to <destination> for payment."
+	on complete
+		payment 800000
+		dialog "A band of drug traders thank you for eliminating the politician and pay you <payment>."
+		"reputation: Republic" -= 15
+		"reputation: Navy (Oathkeeper)" -= 15
+		"reputation: Empire Rebels" += 5

@@ -6,6 +6,7 @@ outfit "Rebels Mapper"
 	description "This little module integrate to your mapping system to add the Rebels secrets maps."
 
 outfit "Drugs"
+	plural "Drugs"
 	category "Hand to Hand"
 	cost 15000
 	"mass" 1
