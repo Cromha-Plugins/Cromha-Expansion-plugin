@@ -549,6 +549,7 @@ outfit "Langrage Empire-Heaver"
 		icon "icon/empire heaver"
 		"hit effect" "empire heaver hyperspace hit"
 		velocity 30
+		"hit force" 0
 		lifetime 8
 		"reload" 40
 		"burst reload" 5
@@ -557,7 +558,6 @@ outfit "Langrage Empire-Heaver"
 		"firing heat" 190
 		"shield damage" -342
 		"hull damage" -342
-		"hit force" 3600
 		"ion damage" 6
 		"burn damage" 6
 		submunition "Empire Heaver Shard" 20
@@ -582,9 +582,9 @@ outfit "Empire Heaver Shard"
 		"inaccuracy" 4
 		"velocity" 15
 		"random velocity" 1.5
+		"hit force" 0
 		"lifetime" 20
 		"random lifetime" 7.5
-		"hit force" 20
 		"burn damage" 1
 		submunition "Empire Heaver Splinter" 3
 
@@ -597,10 +597,10 @@ outfit "Empire Heaver Splinter"
 		"hit effect" "empire heaver splinter hit" 3
 		"inaccuracy" 5
 		"lifetime" 20
+		"hit force" 0
 		"random lifetime" 7.5
 		"shield damage" 5.7
 		"hull damage" 5.7
-		"hit force" 6.7
 		"ion damage" 1
 		"burn damage" 1
 

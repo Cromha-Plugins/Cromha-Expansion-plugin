@@ -18,6 +18,7 @@ fleet cromha-fleet
 		"Empire Skylark"
 		"Empire Wardragon" 2
 		"Empire Nanobot yll'a" 2
+		"Empire Tubfalet"
 	variant 3
 		"Empire Skylark (Ion Proton)"
 		"Empire Wardragon (Electron Beam)" 2
@@ -32,6 +33,7 @@ fleet cromha-fleet
 		"Empire Skylark"
 		"Empire Wardragon (Plasma Repeater)" 2
 		"Empire Nanobot yll'e" 2
+		"Empire Tubfalet"
 	variant 3
 		"Empire Skylark (Plasma Repeater)"
 		"Empire Wardragon" 2
@@ -46,6 +48,7 @@ fleet cromha-fleet
 		"Empire Wardragon (Twin Modified Blaster)" 2
 		"Empire Nanobot yll'e"
 		"Empire Nanobot yll'a"
+		"Empire Tubfalet"
 	variant 3
 		"Empire Skylark (Electron Beam)"
 		"Empire Wardragon"
@@ -65,6 +68,7 @@ fleet cromha-fleet
 		"Light Empire Destroyer" 2
 		"Empire Destroyer yll'a"
 		"Empire Nanobot yll'e" 1
+		"Empire Tubfalet"
 	variant 1
 		"Light Empire Destroyer"
 		"Empire Destroyer yll'e" 2
@@ -82,6 +86,7 @@ fleet cromha-fleet
 		"Empire Destroyer yll'e"
 		"Empire Destroyer yll'a"
 		"Empire Nanobot yll'e" 2
+		"Empire Tubfalet"
 	variant 1
 		"Light Empire Destroyer" 2
 		"Empire Destroyer yll'a"

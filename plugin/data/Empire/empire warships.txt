@@ -210,3 +210,97 @@ ship "Empire Skylark"
 	explode "empire huge explosion" 20
 	"final explode" "empire huge explosion"
 	description "As the Empire Wardragon, this great ship is a remix of the Quarg ship Skylark. Like the Empire Wardragon, this ship is designed for interception, defend and attack missions principally. The only difference with th Empire Wardragon is that the Empire Skylark has been designed for longer missions. With its capability to regenerate fuel easily, it is a great ship for long interceptions missions but also cargo missions since it has a good cargo space."
+
+ship "Empire Tubfalet"
+	sprite "ship/empire tubfalet"
+	thumbnail "thumbnail/empire tubfalet"
+	"never disabled"
+	"swizzle" 0
+	attributes
+		licenses
+			"Empire Navy"
+		category "Empire Warship"
+		"cost" 450000
+		"shields" 178000
+		"hull" 120000
+		"required crew" 75
+		"bunks" 95
+		"mass" 390
+		"drag" 12.3
+		"heat dissipation" .8
+		"fuel capacity" 800
+		"cargo space" 245
+		"landing speed" 0.1
+		"outfit space" 960
+		"weapon capacity" 650
+		"engine capacity" 450
+		"hull repair rate" 5
+		"hull energy" 5
+		"ramscoop" 1.5
+		weapon
+			"blast radius" 300
+			"shield damage" 14500
+			"hull damage" 13500
+			"hit force" 0
+	outfits
+		"Empire Torpedo Bank" 2
+		"Empire Torpedo Missile" 240
+		"Empire Torpedo Rack" 20
+		"Antimatter Railgun" 2
+		"Railgun Slug" 560
+		"Railgun Slug Rack"
+		"Langrage Empire-Heaver" 6
+
+		"Multiphasic Anti-Missile" 2
+		"Multiphasic ammo" 1200
+		
+		"Small Empire Shielding Core" 6
+		"Empire Hai Goerg Batteries"
+		"Thermal Nucleavoltaic" 2
+		"Multiphasic Scanner"
+		"Multiphasic Cooler"
+		"One-Phasic Cooler" 4
+		"Mineria Key Stone"
+		"Brig" 14
+		"RC-X4 Multiphasic Reactor" 2
+		
+		"RC-220 Atomic Thruster" 1
+		"RC-225 Atomic Steering" 1
+		`RX-180 Reverse Thruster` 2
+		"Phasic Rifle" 75
+		"Security Station" 13
+		"Phasic Grenades" 40
+		"Security Forcefield" 13
+		"Countermesure Module" 4
+		"Teleportation Dock" 2
+		"Cloaking Module"
+		"Plasma Drive"
+	
+	engine 32.5 146.5
+		zoom 1.6
+	engine -78.5 153
+		zoom 1.8
+	engine 78.5 153
+		zoom 1.8
+	"reverse engine" -9 -154
+	"reverse engine" 9 -154
+	turret 0 -106 "Multiphasic Anti-Missile"
+	turret 0 72 "Multiphasic Anti-Missile"
+	gun -68.5 -145.5 "Langrage Empire-Heaver"
+	gun -58.5 -147 "Langrage Empire-Heaver"
+	gun -49.5 -148.5 "Langrage Empire-Heaver"
+	gun 68.5 -145.5 "Langrage Empire-Heaver"
+	gun 58.5 -147 "Langrage Empire-Heaver"
+	gun 49.5 -148.5 "Langrage Empire-Heaver"
+	gun -68 -64 "Antimatter Railgun"
+	gun 68 -64 "Antimatter Railgun"
+	gun -63.5 -53 "Empire Torpedo Bank"
+	gun 63.5 -53 "Empire Torpedo Bank"
+	explode "empire tiny explosion" 12
+	explode "empire small explosion" 16
+	explode "empire medium explosion" 30
+	explode "empire medium explosion" 40
+	explode "empire huge explosion" 20
+	"final explode" "empire huge explosion"
+	description "The goal of the Lifdot Industries was to build a new warship capable of destroying a whole Korath Exiles fleet himself. So the best way was to reuse an Korath Exiles ship model."
+	description "The second goal was to build a ship with the size of an Light Empire Destroyer but with more compact outfits so it can be more maveuvrable and can carry more cargo if needed. Even if it is supposed to be a Warship, the Empire Navy more use it as an Interceptor to capture wanted outalaws or Empire Rebels."
