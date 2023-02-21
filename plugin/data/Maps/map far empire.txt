@@ -33,7 +33,7 @@ system "All'Estros"
 			period 500
 
 planet "Limat"
-	attributes inhabited poor paradise north "far empire space"
+	attributes inhabited poor oil facotry mining "far empire space"
 	outfitter Base-outfitter
 	outfitter Basic-ammo-outfitter
 	outfitter Basic-weapons-outfitter

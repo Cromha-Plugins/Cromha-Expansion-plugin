@@ -16,7 +16,7 @@ ship "Empire Bulker"
 		"heat dissipation" .9
 		"fuel capacity" 700
 		"cargo space" 75
-		"outfit space" 590
+		"outfit space" 730
 		"weapon capacity" 210
 		"engine capacity" 145
 		weapon
@@ -37,7 +37,7 @@ ship "Empire Bulker"
 		"Multiphasic Cooler"
 		"Fuel Cell"
 		"Self Destruct Module"
-		"Countermesure Module"
+		"Countermesure Module" 2
 		"Mineria Key Stone"
 		"Brig"
 		"Fuel Cell"
@@ -109,7 +109,7 @@ ship "Empire Bulker Class D"
 		"heat dissipation" .9
 		"fuel capacity" 700
 		"cargo space" 125
-		"outfit space" 665
+		"outfit space" 950
 		"weapon capacity" 560
 		"engine capacity" 145
 		weapon
@@ -134,7 +134,7 @@ ship "Empire Bulker Class D"
 		"Multiphasic Scanner"
 		"Multiphasic Cooler"
 		"Self Destruct Module"
-		"Countermesure Module"
+		"Countermesure Module" 3
 		"Mineria Key Stone"
 		"Brig" 3
 		"Fuel Cell" 2
