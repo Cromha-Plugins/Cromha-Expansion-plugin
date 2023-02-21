@@ -334,613 +334,6 @@ mission "rebel Harvest (uranium, large)"
 		outfit "Uranium" -100
 		payment 1600000
 		dialog `You unload the uranium at the spaceport. The people of <origin> thank you, and pay you <payment>.`
-# Delivries Jobs
-mission rebelcargo-delivry-food[0]
-	name "Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
-	repeat
-	job
-	clearance
-	cargo "Food" 10 250
-	to offer
-		random < 60
-	source
-		government "Empire Rebels"
-	destination
-		distance 1 5
-		government "Empire Rebels"
-	on complete
-		payment
-		payment 15000
-		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
-
-mission rebelcargo-delivry-food[1]
-	name "Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
-	repeat
-	job
-	clearance
-	cargo "Food" 10 250
-	to offer
-		random < 60
-	source
-		government "Empire Rebels"
-	destination
-		distance 1 5
-		government "Empire Rebels"
-	on complete
-		payment
-		payment 15000
-		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
-
-mission rebelcargo-delivry-food[2]
-	name "Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
-	repeat
-	job
-	clearance
-	cargo "Food" 10 250
-	to offer
-		random < 60
-	source
-		government "Empire Rebels"
-	destination
-		distance 1 5
-		government "Empire Rebels"
-	on complete
-		payment
-		payment 15000
-		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
-
-mission rebelcargo-delivry-food[3]
-	name "Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
-	repeat
-	job
-	clearance
-	cargo "Food" 10 250
-	to offer
-		random < 60
-	source
-		government "Empire Rebels"
-	destination
-		distance 1 5
-		government "Empire Rebels"
-	on complete
-		payment
-		payment 15000
-		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
-
-mission rebelcargo-delivry-food[4]
-	name "Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
-	repeat
-	job
-	clearance
-	cargo "Food" 10 250
-	to offer
-		random < 60
-	source
-		government "Empire Rebels"
-	destination
-		distance 1 5
-		government "Empire Rebels"
-	on complete
-		payment
-		payment 15000
-		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
-
-mission rebelcargo-delivry-clothing[0]
-	name "Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
-	repeat
-	job
-	clearance
-	cargo "Clothing" 10 250
-	to offer
-		random < 60
-	source
-		government "Empire Rebels"
-	destination
-		distance 1 5
-		government "Empire Rebels"
-	on complete
-		payment
-		payment 15000
-		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
-
-mission rebelcargo-delivry-clothing[1]
-	name "Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
-	repeat
-	job
-	clearance
-	cargo "Clothing" 10 250
-	to offer
-		random < 60
-	source
-		government "Empire Rebels"
-	destination
-		distance 1 5
-		government "Empire Rebels"
-	on complete
-		payment
-		payment 15000
-		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
-
-mission rebelcargo-delivry-clothing[2]
-	name "Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
-	repeat
-	job
-	clearance
-	cargo "Clothing" 10 250
-	to offer
-		random < 60
-	source
-		government "Empire Rebels"
-	destination
-		distance 1 5
-		government "Empire Rebels"
-	on complete
-		payment
-		payment 15000
-		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
-
-mission rebelcargo-delivry-equipment[0]
-	name "Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
-	repeat
-	job
-	clearance
-	cargo "Equipment" 10 250
-	to offer
-		random < 60
-	source
-		government "Empire Rebels"
-	destination
-		distance 1 5
-		government "Empire Rebels"
-	on complete
-		payment
-		payment 15000
-		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
-
-mission rebelcargo-delivry-equipment[1]
-	name "Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
-	repeat
-	job
-	clearance
-	cargo "Equipment" 10 250
-	to offer
-		random < 60
-	source
-		government "Empire Rebels"
-	destination
-		distance 1 5
-		government "Empire Rebels"
-	on complete
-		payment
-		payment 15000
-		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
-
-mission rebelcargo-delivry-equipment[2]
-	name "Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
-	repeat
-	job
-	clearance
-	cargo "Equipment" 10 250
-	to offer
-		random < 60
-	source
-		government "Empire Rebels"
-	destination
-		distance 1 5
-		government "Empire Rebels"
-	on complete
-		payment
-		payment 15000
-		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
-
-mission rebelcargo-delivry-medical[0]
-	name "Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
-	repeat
-	job
-	clearance
-	cargo "Medical" 10 250
-	to offer
-		random < 60
-	source
-		government "Empire Rebels"
-	destination
-		distance 1 5
-		government "Empire Rebels"
-	on complete
-		payment
-		payment 15000
-		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
-
-mission rebelcargo-delivry-medical[1]
-	name "Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
-	repeat
-	job
-	clearance
-	cargo "Medical" 10 250
-	to offer
-		random < 60
-	source
-		government "Empire Rebels"
-	destination
-		distance 1 5
-		government "Empire Rebels"
-	on complete
-		payment
-		payment 15000
-		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
-
-mission rebelcargo-delivry-electronics[0]
-	name "Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
-	repeat
-	job
-	clearance
-	cargo "Electronics" 10 250
-	to offer
-		random < 60
-	source
-		government "Empire Rebels"
-	destination
-		distance 1 5
-		government "Empire Rebels"
-	on complete
-		payment
-		payment 15000
-		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
-
-mission rebelcargo-delivry-electronics[1]
-	name "Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
-	repeat
-	job
-	clearance
-	cargo "Electronics" 10 250
-	to offer
-		random < 60
-	source
-		government "Empire Rebels"
-	destination
-		distance 1 5
-		government "Empire Rebels"
-	on complete
-		payment
-		payment 15000
-		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
-
-mission rebelcargo-delivry-electronics[2]
-	name "Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
-	repeat
-	job
-	clearance
-	cargo "Electronics" 10 250
-	to offer
-		random < 60
-	source
-		government "Empire Rebels"
-	destination
-		distance 1 5
-		government "Empire Rebels"
-	on complete
-		payment
-		payment 15000
-		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
-mission rebelbulk-delivry-food[0]
-	name "Bulk Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
-	repeat
-	job
-	clearance
-	cargo "Food" 60 250
-	to offer
-		random < 60
-	source
-		government "Empire Rebels"
-	destination
-		distance 1 5
-		government "Empire Rebels"
-	on complete
-		payment
-		payment 15000
-		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
-
-mission rebelbulk-delivry-food[1]
-	name "Bulk Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
-	repeat
-	job
-	clearance
-	cargo "Food" 50 250
-	to offer
-		random < 60
-	source
-		government "Empire Rebels"
-	destination
-		distance 1 5
-		government "Empire Rebels"
-	on complete
-		payment
-		payment 15000
-		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
-
-mission rebelbulk-delivry-food[2]
-	name "Bulk Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
-	repeat
-	job
-	clearance
-	cargo "Food" 80 250
-	to offer
-		random < 60
-	source
-		government "Empire Rebels"
-	destination
-		distance 1 5
-		government "Empire Rebels"
-	on complete
-		payment
-		payment 15000
-		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
-
-mission rebelbulk-delivry-food[3]
-	name "Bulk Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
-	repeat
-	job
-	clearance
-	cargo "Food" 100 250
-	to offer
-		random < 60
-	source
-		government "Empire Rebels"
-	destination
-		distance 1 5
-		government "Empire Rebels"
-	on complete
-		payment
-		payment 15000
-		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
-
-mission rebelbulk-delivry-food[4]
-	name "Bluck Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
-	repeat
-	job
-	clearance
-	cargo "Food" 140 250
-	to offer
-		random < 60
-	source
-		government "Empire Rebels"
-	destination
-		distance 1 5
-		government "Empire Rebels"
-	on complete
-		payment
-		payment 15000
-		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
-
-mission rebelbulk-delivry-clothing[0]
-	name "Bulk Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
-	repeat
-	job
-	clearance
-	cargo "Clothing" 40 250
-	to offer
-		random < 60
-	source
-		government "Empire Rebels"
-	destination
-		distance 1 5
-		government "Empire Rebels"
-	on complete
-		payment
-		payment 15000
-		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
-
-mission rebelbluk-delivry-clothing[1]
-	name "Bulk Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
-	repeat
-	job
-	clearance
-	cargo "Clothing" 50 250
-	to offer
-		random < 60
-	source
-		government "Empire Rebels"
-	destination
-		distance 1 5
-		government "Empire Rebels"
-	on complete
-		payment
-		payment 15000
-		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
-
-mission rebelbulk-delivry-clothing[2]
-	name "Bulk Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
-	repeat
-	job
-	clearance
-	cargo "Clothing" 50 250
-	to offer
-		random < 60
-	source
-		government "Empire Rebels"
-	destination
-		distance 1 5
-		government "Empire Rebels"
-	on complete
-		payment
-		payment 15000
-		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
-
-mission rebelbulk-delivry-equipment[0]
-	name "Bulk Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
-	repeat
-	job
-	clearance
-	cargo "Equipment" 40 250
-	to offer
-		random < 60
-	source
-		government "Empire Rebels"
-	destination
-		distance 1 5
-		government "Empire Rebels"
-	on complete
-		payment
-		payment 15000
-		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
-
-mission rebelbulk-delivry-equipment[1]
-	name "Bulk Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
-	repeat
-	job
-	clearance
-	cargo "Equipment" 70 250
-	to offer
-		random < 60
-	source
-		government "Empire Rebels"
-	destination
-		distance 1 5
-		government "Empire Rebels"
-	on complete
-		payment
-		payment 15000
-		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
-
-mission rebelbulk-delivry-equipment[2]
-	name "Bulk Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
-	repeat
-	job
-	clearance
-	cargo "Equipment" 90 250
-	to offer
-		random < 60
-	source
-		government "Empire Rebels"
-	destination
-		distance 1 5
-		government "Empire Rebels"
-	on complete
-		payment
-		payment 15000
-		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
-
-mission rebelbulk-delivry-medical[0]
-	name "Bulk Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
-	repeat
-	job
-	clearance
-	cargo "Medical" 35 250
-	to offer
-		random < 60
-	source
-		government "Empire Rebels"
-	destination
-		distance 1 5
-		government "Empire Rebels"
-	on complete
-		payment
-		payment 15000
-		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
-
-mission rebelbulk-delivry-medical[1]
-	name "Bulk Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
-	repeat
-	job
-	clearance
-	cargo "Medical" 60 250
-	to offer
-		random < 60
-	source
-		government "Empire Rebels"
-	destination
-		distance 1 5
-		government "Empire Rebels"
-	on complete
-		payment
-		payment 15000
-		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
-
-mission rebelbulk-delivry-electronics[0]
-	name "Bulk Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
-	repeat
-	job
-	clearance
-	cargo "Electronics" 50 250
-	to offer
-		random < 60
-	source
-		government "Empire Rebels"
-	destination
-		distance 1 5
-		government "Empire Rebels"
-	on complete
-		payment
-		payment 15000
-		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
-
-mission rebelbulk-delivry-electronics[1]
-	name "Bulk Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
-	repeat
-	job
-	clearance
-	cargo "Electronics" 70 250
-	to offer
-		random < 60
-	source
-		government "Empire Rebels"
-	destination
-		distance 1 5
-		government "Empire Rebels"
-	on complete
-		payment
-		payment 15000
-		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
-
-mission rebelbulk-delivry-electronics[2]
-	name "Bulk Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
-	repeat
-	job
-	clearance
-	cargo "Electronics" 100 250
-	to offer
-		random < 60
-	source
-		government "Empire Rebels"
-	destination
-		distance 1 5
-		government "Empire Rebels"
-	on complete
-		payment
-		payment 15000
-		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
 # Drugs Runs
 mission rebel-drugs-run[0]
@@ -1008,3 +401,86 @@ mission rebel-drugs-run[2]
 		payment 300000
 		"reputation: Empire Rebels" + 1
 		dialog "You land on <planet> and go search for the drugs dealer and gives him the drugs. You recieve the payment of <payment>."
+mission "Rebel Wanted Passenger [0]"
+	name "Wanted individual to <planet>"
+	job
+	repeat
+	description "This wanted individual wishes to reach <destination> without being caught by local law enforcement. They also wish to bring with them <cargo>. Payment is <payment>."
+	passengers 1
+	cargo "battle trophies" 1
+	illegal 50000 `Upon scanning your vessel, law enforcement notice the criminal that you have on board. Entering your ship to detain them, they find the criminal in the corner of one of the rooms of your ship, clutching their battle trophies and screaming "you'll never take them from me!" After a short confrontation, they carry the criminal out and leave you with a small fine. This doesn't help to establish your reputation as reliable, no-questions-asked transporter.`
+	stealth
+	to offer
+		or
+			"combat rating" > 400
+	source
+		government "Empire Rebels"
+	destination
+		distance 2 10
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Cromha Empire"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on abort
+		"reputation: Empire Rebels" -= 1
+		dialog phrase "generic aborted pirate passenger mission"
+	on fail
+		"reputation: Empire Rebels" -= 1
+	on complete
+		payment 30000 300
+		dialog "Your <passengers> insists that you land on the edge of the spaceport to avoid being seen. After you land, they pay you <payment> before quickly grabbing their things and leaving your ship."
+
+mission "Rebel Wanted Passengers [1]"
+	name "Wanted individuals to <planet>"
+	job
+	repeat
+	description "These <bunks> wanted individuals wish to reach <destination> without being caught by local law enforcement. They also wish to bring with them <cargo>. Payment is <payment>."
+	passengers 2 10 .9
+	cargo "credit chips" 1
+	illegal 75000 `Upon scanning your vessel, law enforcement notices the criminals that you have on board. Entering your ship to detain them, they find the criminals busy scooping their credits into the airlock, hoping that no one can have them. The officers quickly detain the criminals and carry them off along with the rest of the credits, leaving you with a moderately sized fine. This doesn't help to establish your reputation as reliable, no-questions-asked transporter.`
+	stealth
+	to offer
+		random < 75
+		"combat rating" > 1100
+	source
+		government "Empire Rebels"
+	destination
+		distance 2 10
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Cromha Empire"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on abort
+		"reputation: Empire Rebels" -= 1
+		dialog phrase "generic aborted pirate passenger mission"
+	on fail
+		"reputation: Empire Rebels" -= 1
+	on complete
+		payment 20000 300
+		dialog "Your <passengers> insist that you land on the edge of the spaceport to avoid being seen. After you land, they pay you <payment> before quickly grabbing their things and leaving your ship."
+	
+mission "Wanted Passengers [2]"
+	name "Wanted individuals to <planet>"
+	job
+	repeat
+	description "These <bunks> wanted individuals wish to reach <destination> without being caught by local law enforcement. They also wish to bring with them <cargo>. Payment is <payment>."
+	passengers 2 10 .9
+	cargo "customized weapons" 1
+	illegal 75000 `Upon scanning your vessel, law enforcement notices the criminals that you have on board. Entering your ship to detain them, the criminals begin firing down the hallways with their customized weapons. Immediately met with tear gas, the criminals did not put up too much of a fight. The officers carry the criminals out and leave you with a moderate fine and a few laser marks in the halls of your ship. This doesn't help to establish your reputation as reliable, no-questions-asked transporter.`
+	stealth
+	to offer
+		random < 50
+		"combat rating" > 1100
+	source
+		government "Empire Rebels"
+	destination
+		distance 2 10
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Cromha Empire"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on abort
+		"reputation: Empire Rebels" -= 1
+		dialog phrase "generic aborted pirate passenger mission"
+	on fail
+		"reputation: Empire Rebels" -= 1
+	on complete
+		payment 20000 300
+		dialog "Your <passengers> insist that you land on the edge of the spaceport to avoid being seen. After you land, they pay you <payment> before quickly grabbing their things and leaving your ship."
