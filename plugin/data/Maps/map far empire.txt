@@ -503,6 +503,50 @@ system "Irn'o"
 	minables neoyium 13 5.16891
 	minables titanium 13 5.16891
 	minables crystal 13 5.16891
+	object
+		sprite star/protostar-orange
+		period 10
+		object
+			sprite star/x-dwarf
+			distance 350
+			period 45
+			object "Est Lifdot"
+				sprite planet/cloud1
+				distance 200
+				period 10
+				object
+					sprite planet/fg_moon15
+					distance 140
+					period 25
+		object
+			sprite planet/fg_gas4
+			distance 800
+			period 110
+		object
+			sprite planet/gas1-b
+			distance 990
+			period 190
+		object
+			sprite star/y3
+			distance 680
+			period 5
+			object
+				sprite planet/ice0
+				distance 145
+				period 55
+
+planet "Est Lifdot"
+	attributes "far empire space" inhabited rich military factory oil colonny
+	landscape land/fog10
+	outfitter Base-outfitter
+	outfitter Advanced-ammo-outfitter
+	outfitter Basic-systems-outfitter
+	outfitter Advanced-power-outfitter
+	outfitter Advanced-engines-outfitter
+	shipyard Base-shipyard
+	shipyard Advanced-freighters-shipyard
+	description "Est Lifdot is know to be a high tropical planet. Like Lifdot, it is full of verdure. This planet is an huge miner colonny, that extract Titanium, Uranium and  Crystal, the materials needed for building Empire Atomic Engines. There is also 3 greats engines factories, the only place where the Empire Atomic Engines are builded."
+	spaceport ""
 
 system "Nugg'et"
 	hazard "Far Empire Space Hazard" 9000
