@@ -727,7 +727,7 @@ mission cargo-delivry-food[0]
 		government "Cromha Empire"
 	destination
 		distance 1 5
-		not government "Syndicate" "Empire Rebels"
+		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
 		payment 15000
@@ -765,7 +765,7 @@ mission cargo-delivry-food[2]
 		government "Cromha Empire"
 	destination
 		distance 1 5
-		not government "Syndicate" "Empire Rebels"
+		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
 		payment 15000
@@ -784,7 +784,7 @@ mission cargo-delivry-food[3]
 		government "Cromha Empire"
 	destination
 		distance 1 5
-		not government "Syndicate" "Empire Rebels"
+		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
 		payment 15000
@@ -803,7 +803,7 @@ mission cargo-delivry-food[4]
 		government "Cromha Empire"
 	destination
 		distance 1 5
-		not government "Syndicate" "Empire Rebels"
+		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
 		payment 15000
@@ -822,7 +822,7 @@ mission cargo-delivry-clothing[0]
 		government "Cromha Empire"
 	destination
 		distance 1 5
-		not government "Syndicate" "Empire Rebels"
+		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
 		payment 15000
@@ -841,7 +841,7 @@ mission cargo-delivry-clothing[1]
 		government "Cromha Empire"
 	destination
 		distance 1 5
-		not government "Syndicate" "Empire Rebels"
+		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
 		payment 15000
@@ -860,7 +860,7 @@ mission cargo-delivry-clothing[2]
 		government "Cromha Empire"
 	destination
 		distance 1 5
-		not government "Syndicate" "Empire Rebels"
+		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
 		payment 15000
@@ -879,7 +879,7 @@ mission cargo-delivry-equipment[0]
 		government "Cromha Empire"
 	destination
 		distance 1 5
-		not government "Syndicate" "Empire Rebels"
+		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
 		payment 15000
@@ -898,7 +898,7 @@ mission cargo-delivry-equipment[1]
 		government "Cromha Empire"
 	destination
 		distance 1 5
-		not government "Syndicate" "Empire Rebels"
+		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
 		payment 15000
@@ -917,7 +917,7 @@ mission cargo-delivry-equipment[2]
 		government "Cromha Empire"
 	destination
 		distance 1 5
-		not government "Syndicate" "Empire Rebels"
+		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
 		payment 15000
@@ -936,7 +936,7 @@ mission cargo-delivry-medical[0]
 		government "Cromha Empire"
 	destination
 		distance 1 5
-		not government "Syndicate" "Empire Rebels"
+		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
 		payment 15000
@@ -955,7 +955,7 @@ mission cargo-delivry-medical[1]
 		government "Cromha Empire"
 	destination
 		distance 1 5
-		not government "Syndicate" "Empire Rebels"
+		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
 		payment 15000
@@ -974,7 +974,7 @@ mission cargo-delivry-electronics[0]
 		government "Cromha Empire"
 	destination
 		distance 1 5
-		not government "Syndicate" "Empire Rebels"
+		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
 		payment 15000
@@ -993,7 +993,7 @@ mission cargo-delivry-electronics[1]
 		government "Cromha Empire"
 	destination
 		distance 1 5
-		not government "Syndicate" "Empire Rebels"
+		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
 		payment 15000
@@ -1012,7 +1012,7 @@ mission cargo-delivry-electronics[2]
 		government "Cromha Empire"
 	destination
 		distance 1 5
-		not government "Syndicate" "Empire Rebels"
+		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
 		payment 15000
@@ -1032,7 +1032,7 @@ mission bulk-delivry-food[0]
 		government "Cromha Empire"
 	destination
 		distance 1 5
-		not government "Syndicate" "Empire Rebels"
+		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
 		payment 15000
@@ -1051,7 +1051,7 @@ mission bulk-delivry-food[1]
 		government "Cromha Empire"
 	destination
 		distance 1 5
-		not government "Syndicate" "Empire Rebels"
+		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
 		payment 15000
@@ -1070,7 +1070,7 @@ mission bulk-delivry-food[2]
 		government "Cromha Empire"
 	destination
 		distance 1 5
-		not government "Syndicate" "Empire Rebels"
+		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
 		payment 15000
@@ -1089,7 +1089,7 @@ mission bulk-delivry-food[3]
 		government "Cromha Empire"
 	destination
 		distance 1 5
-		not government "Syndicate" "Empire Rebels"
+		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
 		payment 15000
@@ -1108,7 +1108,7 @@ mission bulk-delivry-food[4]
 		government "Cromha Empire"
 	destination
 		distance 1 5
-		not government "Syndicate" "Empire Rebels"
+		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
 		payment 15000
@@ -1127,7 +1127,7 @@ mission bulk-delivry-clothing[0]
 		government "Cromha Empire"
 	destination
 		distance 1 5
-		not government "Syndicate" "Empire Rebels"
+		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
 		payment 15000
@@ -1146,7 +1146,7 @@ mission bulk-delivry-clothing[1]
 		government "Cromha Empire"
 	destination
 		distance 1 5
-		not government "Syndicate" "Empire Rebels"
+		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
 		payment 15000
@@ -1165,7 +1165,7 @@ mission bulk-delivry-clothing[2]
 		government "Cromha Empire"
 	destination
 		distance 1 5
-		not government "Syndicate" "Empire Rebels"
+		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
 		payment 15000
@@ -1184,7 +1184,7 @@ mission bulk-delivry-equipment[0]
 		government "Cromha Empire"
 	destination
 		distance 1 5
-		not government "Syndicate" "Empire Rebels"
+		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
 		payment 15000
@@ -1203,7 +1203,7 @@ mission bulk-delivry-equipment[1]
 		government "Cromha Empire"
 	destination
 		distance 1 5
-		not government "Syndicate" "Empire Rebels"
+		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
 		payment 15000
@@ -1222,7 +1222,7 @@ mission bulk-delivry-equipment[2]
 		government "Cromha Empire"
 	destination
 		distance 1 5
-		not government "Syndicate" "Empire Rebels"
+		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
 		payment 15000
@@ -1241,7 +1241,7 @@ mission bulk-delivry-medical[0]
 		government "Cromha Empire"
 	destination
 		distance 1 5
-		not government "Syndicate" "Empire Rebels"
+		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
 		payment 15000
@@ -1260,7 +1260,7 @@ mission bulk-delivry-medical[1]
 		government "Cromha Empire"
 	destination
 		distance 1 5
-		not government "Syndicate" "Empire Rebels"
+		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
 		payment 15000
@@ -1279,7 +1279,7 @@ mission bulk-delivry-electronics[0]
 		government "Cromha Empire"
 	destination
 		distance 1 5
-		not government "Syndicate" "Empire Rebels"
+		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
 		payment 15000
@@ -1298,7 +1298,7 @@ mission bulk-delivry-electronics[1]
 		government "Cromha Empire"
 	destination
 		distance 1 5
-		not government "Syndicate" "Empire Rebels"
+		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
 		payment 15000
@@ -1317,7 +1317,7 @@ mission bulk-delivry-electronics[2]
 		government "Cromha Empire"
 	destination
 		distance 1 5
-		not government "Syndicate" "Empire Rebels"
+		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
 		payment 15000
@@ -1337,7 +1337,7 @@ mission rush-delivry-food[0]
 		government "Cromha Empire"
 	destination
 		distance 1 5
-		not government "Syndicate" "Empire Rebels"
+		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
 		payment 15000
@@ -1357,7 +1357,7 @@ mission rush-delivry-food[1]
 		government "Cromha Empire"
 	destination
 		distance 1 5
-		not government "Syndicate" "Empire Rebels"
+		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
 		payment 15000
@@ -1377,7 +1377,7 @@ mission rush-delivry-food[2]
 		government "Cromha Empire"
 	destination
 		distance 1 5
-		not government "Syndicate" "Empire Rebels"
+		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
 		payment 15000
@@ -1397,7 +1397,7 @@ mission rush-delivry-food[3]
 		government "Cromha Empire"
 	destination
 		distance 1 5
-		not government "Syndicate" "Empire Rebels"
+		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
 		payment 15000
@@ -1417,7 +1417,7 @@ mission rush-delivry-food[4]
 		government "Cromha Empire"
 	destination
 		distance 1 5
-		not government "Syndicate" "Empire Rebels"
+		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
 		payment 15000
@@ -1437,7 +1437,7 @@ mission rush-delivry-clothing[0]
 		government "Cromha Empire"
 	destination
 		distance 1 5
-		not government "Syndicate" "Empire Rebels"
+		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
 		payment 15000
@@ -1457,7 +1457,7 @@ mission rush-delivry-clothing[1]
 		government "Cromha Empire"
 	destination
 		distance 1 5
-		not government "Syndicate" "Empire Rebels"
+		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
 		payment 15000
@@ -1477,7 +1477,7 @@ mission rush-delivry-clothing[2]
 		government "Cromha Empire"
 	destination
 		distance 1 5
-		not government "Syndicate" "Empire Rebels"
+		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
 		payment 15000
@@ -1497,7 +1497,7 @@ mission rush-delivry-equipment[0]
 		government "Cromha Empire"
 	destination
 		distance 1 5
-		not government "Syndicate" "Empire Rebels"
+		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
 		payment 15000
@@ -1517,7 +1517,7 @@ mission rush-delivry-equipment[1]
 		government "Cromha Empire"
 	destination
 		distance 1 5
-		not government "Syndicate" "Empire Rebels"
+		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
 		payment 15000
@@ -1537,7 +1537,7 @@ mission rush-delivry-equipment[2]
 		government "Cromha Empire"
 	destination
 		distance 1 5
-		not government "Syndicate" "Empire Rebels"
+		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
 		payment 15000
@@ -1557,7 +1557,7 @@ mission rush-delivry-medical[0]
 		government "Cromha Empire"
 	destination
 		distance 1 5
-		not government "Syndicate" "Empire Rebels"
+		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
 		payment 15000
@@ -1577,7 +1577,7 @@ mission rush-delivry-medical[1]
 		government "Cromha Empire"
 	destination
 		distance 1 5
-		not government "Syndicate" "Empire Rebels"
+		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
 		payment 15000
@@ -1597,7 +1597,7 @@ mission rush-delivry-electronics[0]
 		government "Cromha Empire"
 	destination
 		distance 1 5
-		not government "Syndicate" "Empire Rebels"
+		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
 		payment 15000
@@ -1617,7 +1617,7 @@ mission rush-delivry-electronics[1]
 		government "Cromha Empire"
 	destination
 		distance 1 5
-		not government "Syndicate" "Empire Rebels"
+		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
 		payment 15000
@@ -1637,7 +1637,7 @@ mission rush-delivry-electronics[2]
 		government "Cromha Empire"
 	destination
 		distance 1 5
-		not government "Syndicate" "Empire Rebels"
+		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
 		payment 15000
