@@ -53,6 +53,7 @@ outfitter Basic-engines-outfitter
 	`RC-180 Atomic Thruster`
 	`RC-185 Atomic Steering`
 	`RX-120 Reverse Thruster`
+	"Nitrogen Afterburnner"
 outfitter Advanced-ammo-outfitter
 	"Empire Torpedo Missile"
 	"Empire Torpedo Rack"
@@ -132,6 +133,7 @@ outfitter Advanced-engines-outfitter
 	`RC-225 Atomic Steering`
 	`RX-120 Reverse Thruster`
 	`RX-180 Reverse Thruster`
+	"RX-200 Reverse Thruster"
 
 # Shipyards
 shipyard Base-shipyard
