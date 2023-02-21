@@ -26,6 +26,8 @@ outfit "Empire Hai Gorge Batteries"
 	plural "Empire Hai Gorge Batteries"
 	category "Power"
 	cost 28000
+	licenses
+		"Empire Contributor"
 	thumbnail "outfit/medium battery empire"
 	"mass" 27
 	"outfit space" -27
