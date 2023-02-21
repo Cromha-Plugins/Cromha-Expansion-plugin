@@ -1,0 +1,23 @@
+mission help-rebels-prisonners
+      name "Bring prisonner to <planet>"
+      description "Bring the 3 empire prisonners you found in the Empire Rebel ship to <destiation>. Payment is <payment>."
+      boarding
+      repeat
+      source
+            government "Empire Rebels"
+      destination
+            government "Cromha Empire"
+            distance 1 5
+      on offer
+            conversation
+                  `When you board the ship, you hear some people shouting "help!". You try to approach the sound and you finnally found 3 Empire Navy pilots that have been captured by Empire Rebels.`
+                  `     You hear Empire Rebels coming for defend their ship. You have two choice:`
+                  choice
+                        `     Take the prisonners with you and leave the ship immedialty.`
+                              launch
+                        `     Let the prisonners here.`
+                              decline
+      on complete
+            payment
+            payment 35000
+            dialog "The 3 prisonners thanks you and gives you <payment>."
