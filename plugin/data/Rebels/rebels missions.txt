@@ -3,6 +3,8 @@ mission help-rebels-prisonners
       description "Bring the 3 empire prisonners you found in the Empire Rebel ship to <destiation>. Payment is <payment>."
       boarding
       repeat
+      to offer
+            random < 5
       source
             government "Empire Rebels"
       destination
