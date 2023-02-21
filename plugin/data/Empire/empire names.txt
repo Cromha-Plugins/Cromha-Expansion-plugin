@@ -6,8 +6,12 @@ phrase "empire fleet names"
 	phrase
 		"digit"
 	phrase
+		"-"
+	phrase
 		"letter"
 	phrase
 		"letter"
+	phrase
+		"-"
 	phrase
 		"digit"
