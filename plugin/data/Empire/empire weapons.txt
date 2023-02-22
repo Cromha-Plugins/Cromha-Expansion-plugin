@@ -550,7 +550,7 @@ outfit "Langrage Empire-Heaver"
 		"hit effect" "empire heaver hyperspace hit"
 		velocity 30
 		"hit force" 0
-		lifetime 8
+		lifetime 1
 		"reload" 40
 		"burst reload" 5
 		"burst count" 3
