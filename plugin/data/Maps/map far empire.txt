@@ -577,6 +577,25 @@ system "Nugg'et"
 	minables neoyium 13 5.16891
 	minables titanium 13 5.16891
 	minables crystal 13 5.16891
+	object
+		sprite star/nova-old
+		period 10
+	object
+		sprite star/x-giant
+		distance 1300
+		period 10
+		object
+			sprite planet/desert3
+			distance 540
+			period 75
+			object
+				sprite planet/dust4
+				distance 250
+				period 25
+		object
+			sprite planet/saturn
+			distance 980
+			period 110
 
 system "As'har"
 	hazard "Far Empire Space Hazard" 9000
@@ -896,6 +915,26 @@ system "Phil'Ira"
 	trade Metal 479
 	trade Plastic 364
 	minables crystal 13 5.45
+	object
+		sprite planet/gas1-b
+			scale 2.4
+		period 10
+		object
+			sprite planet/ganymede-b
+			distance 300
+			period 45
+			object
+				sprite planet/fg_moon32
+				distance 75
+				period 10
+		object
+			sprite planet/fog0-b
+			distance 450
+			period 70
+		object
+			sprite planet/cloud0
+			distance 750
+			period 110
 
 system "Phil'Rima"
 	hazard "Far Empire Space Hazard" 9000
