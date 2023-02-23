@@ -4,12 +4,16 @@ phrase "empire friendly hail"
         "Get an Empire Passport!"
         "Join the Empire Navy! Our ships are the bests!"
         "Do you have any illegal outfits? Let us scan you."
+        "Need work? Join our new safe colonnies in the Empire-Korath Space!"
+        "You should consider joining the Empire Navy, we have the best ships! "
+        "Join the Empire Navy to fight against the Empire Rebels!"
+        "Join the Empire Authorities to stop selfish drugs dealers!"
 
 phrase "empire friendly disabled hail"
     word
         "Your help is welcome. Please could you help me?"
         "Carry us in destroying the cowards that attacked us."
-        "Please i'm disables, would you like to help us? The Empire will surely award you for this."
+        "Please i'm disabled, would you like to help us? The Empire will surely award you for this."
 
 phrase "empire hostile hail"
     word
