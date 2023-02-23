@@ -1228,3 +1228,88 @@ planet "Fen Station"
 	security 2
 	outfitter Base-outfitter
 	outfitter Basic-ammo-outfitter
+
+system Fornarep
+	pos 79.4305 -309.812
+	government "Cromha Empire"
+	attributes "korath" military
+	arrival 500
+	habitable 320
+	belt 1922
+	haze _menu/haze-133
+	link Kaliptari
+	link Meftarkata
+	link Mekislepti
+	link Skeruto
+	asteroids "small rock" 15 2.9904
+	asteroids "medium rock" 4 1.8144
+	asteroids "large rock" 5 3.528
+	asteroids "small metal" 7 2.8224
+	asteroids "medium metal" 11 3.2928
+	asteroids "large metal" 13 4.5024
+	minables lead 2 3.99772
+	minables titanium 7 4.45146
+	trade Clothing 296
+	trade Electronics 743
+	trade Equipment 565
+	trade Food 442
+	trade "Heavy Metals" 1051
+	trade Industrial 662
+	trade "Luxury Goods" 1225
+	trade Medical 694
+	trade Metal 438
+	trade Plastic 375
+	fleet "Large Quarg" 2000
+	fleet "Small Kor Mereti" 9000
+	fleet "Large Kor Mereti" 5800
+	fleet cromha-fleet 1800
+	fleet mineria-transports 1700
+	fleet empire-rebels-raiders 2300
+	object
+		sprite star/m0
+		period 10
+	object "Sek Alarfarat"
+		sprite planet/rock4
+		distance 338.809
+		period 139.449
+		object "Alarfarat Refinery"
+			sprite planet/station1kd
+				scale 0.5
+			distance 182.94
+			period 22.5265
+	object
+		sprite planet/gas9
+		distance 985.84
+		period 692.141
+	object
+		sprite planet/rock5
+		distance 1479.93
+		period 1273.05
+	object
+		sprite planet/gas17
+		distance 2002.34
+		period 2003.51
+		object
+			sprite planet/rock0-b
+			distance 240
+			period 15.8851
+		object
+			sprite planet/miranda-b
+			distance 371
+			period 30.5305
+
+planet "Alarfarat Refinery"
+	attributes korath station military research
+	outfitter Base-outfitter
+	landscape land/station16
+	description "The Alarfarat station, when it was found, was totally destroyed, it was an old Kor Mereti station. The Empire decided to make this an outpost the defend the miner colonnies on Alarfarat. But this station is also a refinery for the Alarfarat miner colonny."
+	spaceport ""
+	security 0
+
+planet "Sek Alarfarat"
+	government "Mineria colonnies"
+	security 0
+	attributes korath mining oil colony colonny
+	landscape land/canyon15
+	description "Recently, a minnin colonny got installed on this planet rich in uranium, due to urnanium asteroids that usually crash into the planet. All uranium is sent to the Alarfarat Refinery station by small mineria convoits."
+	spaceport ""
