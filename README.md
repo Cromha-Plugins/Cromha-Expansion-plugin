@@ -19,6 +19,6 @@ Simply run the install python script:
     
     python install.py
 ## Keeping the plugin up to date with the github repository
-You can simply update your local repo from the github repo using the update bash script:
+You can simply update your local repo from the github repo using the update python script:
     
-    sh update.sh
+    python update.py
