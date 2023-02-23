@@ -38,3 +38,4 @@ class Push:
       print("Pushing local branch to main branch...")
       origin = repo.remote(name='origin')
       origin.push()
+      print("Done")
