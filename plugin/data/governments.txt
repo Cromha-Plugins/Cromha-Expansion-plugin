@@ -38,7 +38,7 @@ government "Cromha Empire"
 	"death sentence" "empire imprisonment"
 	raid empire-rebels-raiders
 	swizzle 0
-	color "shields"
+	color .415 .553 1
 	bribe 0
 	fine 5
 	illegals
