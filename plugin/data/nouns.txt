@@ -105,6 +105,7 @@ outfit "Pincer"
 		"lifetime" 1
 		"reload" 120
 		"cluster"
+		"corrosion damage" 9
 		"shield damage" 1900
 		"hull damage" 1900
 		"firing energy" 40
@@ -174,7 +175,7 @@ outfit "Ayym Parts"
 	cost 50000
 	category "Minerals"
 	thumbnail "outfit/ayym parts"
-	"flotsam sprite" "asteroid/ayym parts/ayym parts"
+	"flotsam chance" 1
 	"mass" 1
 	"installable" -1
 	description "This are Ayym creatures parts. This things can be sell very expensive. But since killing living creatures is a crime, in all empire space this outfit is illegal and can be fined very high. The Rebels like to kill some of this creatures to sell their parts."
