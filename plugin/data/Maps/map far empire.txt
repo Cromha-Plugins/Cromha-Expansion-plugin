@@ -598,7 +598,6 @@ system "Nugg'et"
 			period 110
 
 system "As'har"
-	hazard "Far Empire Space Hazard" 9000
 	pos 685 -515
 	attributes inhabited rich research military "far empire space" "blackhole"
 	government "Empire Rebels"
@@ -606,7 +605,7 @@ system "As'har"
 	fleet empire-rebels-raiders-fleet 1600
 	fleet "Ayym" 2000
 	fleet empire-rebels-merchants 1800
-	haze _menu/haze-cyan
+	haze _menu/haze-133
 	link "Irn'o"
 	trade Clothing 215
 	trade Electronics 816
@@ -628,7 +627,7 @@ system "As'har"
 	minables neoyium 13 5.16891
 	minables titanium 13 5.16891
 	object
-		sprite star/carbon
+		sprite star/coal-black-hole
 		period 1
 	object
 		sprite star/coal-black-hole
@@ -662,6 +661,7 @@ system "Wel'y"
 	fleet cromha-merchants 1200
 	haze _menu/haze-cyan
 	link "Ring Wartrue"
+	link "As'tyar"
 	link "Los Calos"
 	trade Clothing 215
 	trade Electronics 816
@@ -1009,3 +1009,41 @@ planet "Ill'Safra Station"
 	shipyard Advanced-interceptors-shipyard
 	description "The Ill'Safra Station is here to study the 'brown draf y' planet and the other huges stars. They also produce fuel with sorts of ramscoop stations that they put near the stars."
 	spaceport "A basical station spaceport. You'll find the minimal things here."
+
+system "As'tyar"
+	pos 500 -450
+	hazard "Blue Black Hole Gravity" 1
+	hazard "Blue Black Hole Event Horizon" 1
+	hazard "Blue Black Hole Accretion Disk" 1
+	attributes inhabited rich research military "far empire space"
+	government "Cromha Empire"
+	fleet cromha-fleet 2000
+	fleet mineria-transports 1600
+	fleet cromha-merchants 1200
+	haze _menu/haze-133
+	link "Wel'y"
+	trade Clothing 215
+	trade Electronics 816
+	trade Equipment 487
+	trade Food 265
+	trade "Heavy Metals" 1102
+	trade Industrial 711
+	trade "Luxury Goods" 1014
+	trade Medical 797
+	trade Metal 479
+	trade Plastic 364
+	asteroids "medium rock" 63 4.13
+	asteroids "small metal" 4 10.5
+	asteroids "medium metal" 53 6.23
+	minables silicon 13 5.16891
+	minables neoyium 13 5.16891
+	minables titanium 13 5.16891
+	minables crystal 13 5.16891
+	object
+		sprite star/small-black-hole
+			scale 1.5
+		period 10
+		object
+			sprite planet/browndwarf-y
+			distance 700
+			period 90
