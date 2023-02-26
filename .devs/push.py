@@ -26,7 +26,6 @@ class Push:
       repo.git.add("copyright")
       repo.git.add("LICENSE")
       repo.git.add("README.md")
-      repo.git.add("about.txt")
       repo.git.add("update.py")
       repo.git.add("install.py")
       
