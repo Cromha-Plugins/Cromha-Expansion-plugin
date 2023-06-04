@@ -969,8 +969,7 @@ system Sabriset
 	trade Plastic 364
 	fleet "Large Quarg" 1111
 	fleet cromha-fleet 260
-	fleet empire-rebels-raiders 260
-	fleet small-pirates 1700
+	fleet small-pirates 2100
 	fleet cromha-merchants 3400
 	object
 		sprite star/g0
