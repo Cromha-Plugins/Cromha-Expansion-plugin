@@ -967,8 +967,8 @@ system Sabriset
 	trade Medical 797
 	trade Metal 479
 	trade Plastic 364
-	fleet "Large Quarg" 2100
-	fleet cromha-fleet 1000
+	fleet "Large Quarg" 4100
+	fleet cromha-fleet-minimalist 1000
 	fleet small-pirates 570
 	fleet cromha-merchants 340
 	object
