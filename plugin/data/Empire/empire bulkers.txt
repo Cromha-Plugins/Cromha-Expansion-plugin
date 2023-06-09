@@ -47,7 +47,7 @@ ship "Empire Bulker"
 		`RX-180 Reverse Thruster`
 		"Plasma Drive"
 		"Phasic Rifle" 15
-		"Phasic Gernades" 5
+		"Phasic Grenades" 5
 		"Security Station" 2
 		
 	engine 10 204.5
@@ -144,7 +144,7 @@ ship "Empire Bulker Class D"
 		`RX-180 Reverse Thruster`
 		"Plasma Drive"
 		"Phasic Rifle" 45
-		"Phasic Gernades" 15
+		"Phasic Grenades" 15
 		"Security Station" 15
 		
 	engine 53 345
