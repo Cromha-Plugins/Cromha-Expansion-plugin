@@ -967,10 +967,11 @@ system Sabriset
 	trade Medical 797
 	trade Metal 479
 	trade Plastic 364
-	fleet "Large Quarg" 4100
-	fleet cromha-fleet-minimalist 1000
-	fleet small-pirates 570
-	fleet cromha-merchants 340
+	fleet "Large Quarg" 1100
+	fleet cromha-fleet 260
+	fleet empire-rebels-raiders 260
+	fleet small-pirates 1700
+	fleet cromha-merchants 3400
 	object
 		sprite star/g0
 		distance 34.3036

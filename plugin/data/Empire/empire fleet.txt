@@ -151,58 +151,6 @@ fleet cromha-fleet
 		"Empire Wardragon (Plasma Repeater)"
 		"Empire Wardragon (Ion Proton)"
 		"Fuel Pod Class D" 2
-		
-fleet cromha-fleet-minimalist
-	government "Cromha Empire"
-	names "empire fleet names"
-	fighters "empire fleet names"
-	cargo 0
-	personality heroic
-		forbearing
-		disables
-		hunting
-		frugal
-		daring
-		plunders
-		surveillance
-		ramming
-	outfitters Cromha-basic-outfitter
-	variant 1
-		"Empire Nanobot yll'e" 3
-		"Empire Nanobot yll'a" 2
-	variant 1
-		"Empire Nanobot yll'a" 1
-		"Empire Nanobot yll'e" 5
-	variant 1
-		"Empire Nanobot yll'e" 3
-	variant 1
-		"Empire Nanobot yll'e" 7
-		"Empire Nanobot yll'a" 1
-	variant 1
-		"Empire Nanobot yll'e" 2
-		"Empire Nanobot yll'a" 3
-	variant 1
-		"Empire Nanobot yll'a" 1
-		"Empire Nanobot yll'e" 3
-	variant 1
-		"Empire Nanobot yll'a" 1
-		"Empire Nanobot yll'e" 4
-	variant 1
-		"Empire Nanobot yll'e" 2
-		"Empire Nanobot yll'a" 3
-	variant 1
-		"Empire Nanobot yll'a" 2
-	variant 1
-		"Empire Nanobot yll'e" 3
-		"Empire Nanobot yll'a" 1
-	variant 1
-		"Empire Nanobot yll'e" 3
-		"Empire Nanobot yll'a" 1
-	variant 1
-		"Empire Nanobot yll'a" 2
-		"Empire Nanobot yll'e" 1
-
-
 fleet mineria-transports
 	government "Mineria colonnies"
 	names "empire fleet names"
@@ -264,6 +212,46 @@ fleet mineria-transports
 		"Cargo Transporter" 7
 		"Nanobot yll'e" 1
 		"Nanobot yll'a" 2
+	variant .7
+		"Empire Bulker Class H"
+		"Fuel Pod Class H" 6
+	variant .7
+		"Empire Bulker Class H"
+		"Fuel Pod Class H" 5
+	variant .7
+		"Empire Bulker Class H"
+		"Fuel Pod Class H" 4
+	variant .7
+		"Empire Bulker Class H"
+		"Fuel Pod Class H" 3
+	variant .7
+		"Empire Bulker Class H"
+		"Fuel Pod Class H" 2
+	variant .7
+		"Empire Bulker Class H"
+		"Fuel Pod Class H" 1
+	variant .7
+		"Empire Bulker Class H"
+	variant .5
+		"Empire Bulker Class H" 2
+		"Fuel Pod Class H" 6
+	variant .5
+		"Empire Bulker Class H" 2
+		"Fuel Pod Class H" 5
+	variant .5
+		"Empire Bulker Class H" 2
+		"Fuel Pod Class H" 4
+	variant .5
+		"Empire Bulker Class H" 2
+		"Fuel Pod Class H" 3
+	variant .5
+		"Empire Bulker Class H" 2
+		"Fuel Pod Class H" 2
+	variant .5
+		"Empire Bulker Class H" 2
+		"Fuel Pod Class H" 1
+	variant .5
+		"Empire Bulker Class H" 2
 	variant 0.3
 		"Empire Bulker Class D"
 		"Fuel Pod Class D" 2

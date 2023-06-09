@@ -46,9 +46,9 @@ ship "Empire Bulker"
 		`RC-185 Atomic Steering`
 		`RX-180 Reverse Thruster`
 		"Plasma Drive"
-        "Phasic Rifle" 15
-        "Phasic Gernades" 5
-        "Security Staion" 2
+		"Phasic Rifle" 15
+		"Phasic Gernades" 5
+		"Security Staion" 2
 		
 	engine 10 204.5
 	engine -10 204.5
@@ -143,9 +143,9 @@ ship "Empire Bulker Class D"
 		`RC-185 Atomic Steering`
 		`RX-180 Reverse Thruster`
 		"Plasma Drive"
-        "Phasic Rifle" 45
-        "Phasic Gernades" 15
-        "Security Staion" 15
+		"Phasic Rifle" 45
+		"Phasic Gernades" 15
+		"Security Staion" 15
 		
 	engine 53 345
 	engine -53 345
@@ -217,6 +217,97 @@ ship "Empire Bulker Class D"
 	explode "empire tiny explosion" 30
 	explode "empire medium explosion" 15
 	description "The Empire Bulker Class D is an great freighter to transport heavy metals or cargo. It is an very smart freighter ship: it has not much cargo space itself that make it faster to defend from pirates but it carries Empire Cargo Transporters. It is probally the most ingenious Freighters in the whole galaxy."
+
+ship "Empire Bulker Class H"
+	sprite "ship/empire transporter class h"
+	thumbnail "thumbnail/empire transporter class h"
+	"swizzle" 0
+	attributes
+		category "Bulker"
+		licenses
+			"Empire Navy"
+		"cost" 3205000
+		"shields" 18000
+		"hull" 7777
+		"required crew" 47
+		"bunks" 24
+		"mass" 320
+		"drag" 3.1
+		"heat dissipation" .7
+		"fuel capacity" 870
+		"cargo space" 65
+		"outfit space" 810
+		"weapon capacity" 270
+		"engine capacity" 125
+		weapon
+			"blast radius" 57
+			"shield damage" 640
+			"hull damage" 120
+			"hit force" 730
+	outfits
+		"Ion Proton Turret" 2
+		"Grab-Strike Blaze" 2
+		"Multiphasic Anti-Missile"
+		"Multiphasic ammo" 600
+		
+		"Empire Shielding Core" 2
+		"Empire Hai Gorge Batteries" 3
+		"Thermal Nucleavoltaic"
+		"Multiphasic Scanner"
+		"Multiphasic Cooler"
+		"Fuel Cell"
+		"Self Destruct Module"
+		"Countermesure Module"
+		"Mineria Key Stone"
+		"Fuel Cell"
+		
+		`RC-160 Atomic Thruster`
+		`RC-165 Atomic Steering`
+		"Compact Plasma Drive"
+		"Phasic Rifle" 10
+		"Phasic Gernades" 3
+		"Security Staion"
+	engine -77 -20
+		zoom 1.5
+	engine -70 76.5
+		zoom 1.5
+	engine -45.5 161
+		zoom 1.5
+	engine -19.5 187.5
+		zoom 1.5
+	engine 77 -20
+		zoom 1.5
+	engine 70 76.5
+		zoom 1.5
+	engine 45.5 161
+		zoom 1.5
+	engine 19.5 187.5
+		zoom 1.5
+	turret 0 -120 "Ion Proton Turret"
+	turret 0 42 "Ion Proton Turret"
+	turret 0 138.5 "Grab-Strike Blaze"
+	turret 0 74.5 "Grab-Strike Blaze"
+	turret 0 -15 "Multiphasic Anti-Missile"
+	bay "Fuel Pod" -77 -87.5
+		over
+	bay "Fuel Pod" -68 44
+		over
+	bay "Fuel Pod" -48 76.5
+		under
+	bay "Fuel Pod" 77 -87.5
+		over
+	bay "Fuel Pod" 68 44
+		over
+	bay "Fuel Pod" 48 76.5
+		under
+	leak "empire leak" 80 80
+	leak "empire flame" 70 70
+	leak "empire big leak" 50 50
+	explode "empire tiny explosion" 10
+	explode "empire tiny explosion" 30
+	explode "empire medium explosion" 15
+	description "The Empire Bulker is an great freighter to transport heavy metals or cargo. It is an very smart freighter ship: it has not much cargo space itself that make it faster to defend from pirates but it carries Empire Cargo Transporters. It is probally the most ingenious Freighters in the whole galaxy."
+	description "The Empire class H ships are the first ships The Empire ever made. They used to be used at the beginning of The Cromha Empire when it was still being discovered. They are old but are still good ships because The Empire installed new generations outfits and weapons on them recently."
 
 ship "Fuel Pod"
 	noun "fuel pod"
@@ -331,3 +422,48 @@ ship "Fuel Pod Class D"
 	"steering engine" -25.2 0
 		angle 30
 	description "This is a mobile fuel pod. It is useful to carry fuel, drop it when you need fuel then leave it if you need speed."
+
+ship "Fuel Pod Class H"
+	noun "fuel pod"
+	sprite "ship/fuel pod class h"
+		scale 1.4
+	thumbnail "thumbnail/fuel pod class h"
+	"never disabled"
+	attributes
+		category "Fuel Pod"
+		licenses
+			"Empire Contributor"
+		"cost" 25000
+		"shields" 14060
+		"hull" 12300
+		"automaton" 1
+		"mass" 75
+		"drag" .59
+		"heat dissipation" .34
+		"outfit space" 287
+		"weapon capacity" 30
+		"engine capacity" 38
+		"fuel capacity" 500
+		weapon
+			"blast radius" 5
+			"shield damage" 50
+			"hull damage" 25
+			"hit force" 75
+	outfits
+			`RC-001 Atomic Engines`
+			"RC-X2 Multiphasic Reactor"
+			"Supercapacitor"
+			"Countermesure Module"
+			"Small Empire Shielding Core"
+			"One-Phasic Cooler" 2
+	leak "empire leak" 15
+	explode "empire tiny explosion" 8
+	"final explode" "empire medium explosion"
+	engine -8.5 26
+	engine 8.5 26
+	"steering engine" 12 -2
+		angle 330
+	"steering engine" -12 -2
+		angle 30
+	description "This is a mobile fuel pod. It is useful to carry fuel, drop it when you need fuel then leave it if you need speed."
+	description "The Empire class H ships are the first ships The Empire ever made. They used to be used at the beginning of The Cromha Empire when it was still being discovered. They are old but are still good ships because The Empire installed new generations outfits and weapons on them recently."

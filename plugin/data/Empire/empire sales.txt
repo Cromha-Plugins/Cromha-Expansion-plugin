@@ -139,6 +139,7 @@ outfitter Advanced-engines-outfitter
 shipyard Base-shipyard
 	"Clipper"
 	"Fuel Pod"
+	"Fuel Pod Class H"
 	"Empire Nanobot yll'e"
 	"Empire Nanobot yll'a"
 	"Flivver (Empire)"
@@ -163,6 +164,7 @@ shipyard Advanced-freighters-shipyard
 	"Flivver (Empire)"
 	"Empire Bulker Class D"
 	"Fuel Pod Class D"
+	"Empire Bulker Class H"
 shipyard Basic-interceptors-shipyard
 	"Fury (Empire)"
 	"Berserker"
@@ -208,6 +210,7 @@ shipyard Basic-lifdot-industries-shipyard
 	"Behemoth (Empire)"
 	"Fury (Empire)"
 	"Headhunter (Empire)"
+	"Empire Bulker Class H"
 shipyard Advanced-lifdot-industries-shipyard
 	"Empire Nanobot yll'e"
 	"Empire Nanobot yll'a"
@@ -227,3 +230,4 @@ shipyard Advanced-lifdot-industries-shipyard
 	"Empire Skylark"
 	"Empire Fortress"
 	"Empire Tubfalet"
+	"Empire Bulker Class H"
