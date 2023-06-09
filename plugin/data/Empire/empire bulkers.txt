@@ -48,7 +48,7 @@ ship "Empire Bulker"
 		"Plasma Drive"
 		"Phasic Rifle" 15
 		"Phasic Gernades" 5
-		"Security Staion" 2
+		"Security Station" 2
 		
 	engine 10 204.5
 	engine -10 204.5
@@ -145,7 +145,7 @@ ship "Empire Bulker Class D"
 		"Plasma Drive"
 		"Phasic Rifle" 45
 		"Phasic Gernades" 15
-		"Security Staion" 15
+		"Security Station" 15
 		
 	engine 53 345
 	engine -53 345
@@ -266,7 +266,7 @@ ship "Empire Bulker Class H"
 		"Compact Plasma Drive"
 		"Phasic Rifle" 10
 		"Phasic Gernades" 3
-		"Security Staion"
+		"Security Station"
 	engine -77 -20
 		zoom 1.5
 	engine -70 76.5
