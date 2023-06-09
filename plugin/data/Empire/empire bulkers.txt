@@ -230,7 +230,7 @@ ship "Empire Bulker Class H"
 		"shields" 18000
 		"hull" 7777
 		"required crew" 47
-		"bunks" 24
+		"bunks" 57
 		"mass" 320
 		"drag" 3.1
 		"heat dissipation" .7
