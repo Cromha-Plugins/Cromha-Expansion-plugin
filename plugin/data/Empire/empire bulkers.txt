@@ -429,6 +429,7 @@ ship "Fuel Pod Class H"
 		scale 1.4
 	thumbnail "thumbnail/fuel pod class h"
 	"never disabled"
+	swizzle 0
 	attributes
 		category "Fuel Pod"
 		licenses
