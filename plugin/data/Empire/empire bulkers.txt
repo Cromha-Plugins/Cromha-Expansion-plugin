@@ -252,7 +252,7 @@ ship "Empire Bulker Class H"
 		
 		"Empire Shielding Core" 2
 		"Empire Hai Gorge Batteries" 3
-		"Thermal Nucleavoltaic"
+		"Thermal Nucleavoltaic" 2
 		"Multiphasic Scanner"
 		"Multiphasic Cooler"
 		"Fuel Cell"
