@@ -25,8 +25,7 @@ government "Cromha Empire"
 		"Hai Merchant (Human)" 1
 		"Hai (Unfettered)" -1
 		Bounty -1
-		"Unknow" 2
-		"Unknown" 2
+		"Indigene Creature" 2
 		"Bounty Hunter" -1
 		"Kor Sestor" -3
 		"Kor Mereti" -3
@@ -63,6 +62,7 @@ government "Empire Rebels"
 		"Deep Security" -1
 		Hai -5
 		"Merchant" -1
+		"Indigene Creature" -1
 		"Hai Merchant" -5
 		"Hai Merchant (Sympathizers)" -5
 		"Hai Merchant (Human)" 5
@@ -109,8 +109,7 @@ government "Mineria colonnies"
 		"Hai Merchant (Human)" 1
 		"Hai (Unfettered)" -1
 		Bounty -1
-		"Unknow" 2
-		"Unknown" 2
+		"Indigene Creature" 2
 		"Bounty Hunter" -1
 		"Kor Sestor" -3
 		"Kor Mereti" -3

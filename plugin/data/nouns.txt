@@ -112,7 +112,7 @@ outfit "Pincer"
 		"firing heat" 20
 
 fleet Void-sprite-family
-	government "Unknow"
+	government "Indigene Creature"
 	personality timid mute
 	variant 1
 		"Void Sprite Child"
@@ -161,7 +161,7 @@ ship "Ayym Creature"
 			"hit force" 3600
 	outfits
 		Pincer 4
-		"Ayym Parts" 500
+		"Ayym Parts" 25
 	gun -41 -45 Pincer
 	gun 41 -45 Pincer
 	gun -42 -50 Pincer
@@ -180,10 +180,11 @@ outfit "Ayym Parts"
 	"installable" -1
 	description "This are Ayym creatures parts. This things can be sell very expensive. But since killing living creatures is a crime, in all empire space this outfit is illegal and can be fined very high. The Rebels like to kill some of this creatures to sell their parts."
 	description "But it has also a great potential in sciences..."
+	"illegal" 70000
 
 fleet "Ayym"
-	government "Unknow"
-	personality mining harvests mute
+	government "Indigene Creature"
+	personality mining harvests mute pacifist
 	cargo 0
 	variant 1
 		"Ayym Creature"

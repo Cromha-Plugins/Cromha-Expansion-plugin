@@ -43,3 +43,12 @@ government "Merchant"
 	"fine" 0
 	"friendly hail" "friendly civilian"
 	"hostile hail" "hostile civilian"
+
+government "Indigene Creature"
+	swizzle 1
+	color "governments: Ungoverned"
+	"player reputation" 0
+	"attitude toward"
+		"Cromha Empire" 1
+		"Mineria colonnies" 1
+		"Empire Rebels" -1
