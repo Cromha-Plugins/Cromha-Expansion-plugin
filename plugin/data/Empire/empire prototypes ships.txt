@@ -31,7 +31,50 @@ ship "Black Manta"
 			"hull damage" 230000
 			"hit force" 200
 	outfits
-		
+		"Cloaking Module"
+		"Compact Plasma Drive"
+		"Countermesure Module" 2
+		"Empire Hai Valley Batteries" 4
+		"Empire Navy Emitter" 2
+		"Empire Shielding Core" 4
+		"Fuel Cell" 2
+		"Mineria Key Stone"
+		"Multiphasic Cooler" 2
+		"Multiphasic Scanner" 2
+		"One-Phasic Cooler" 2
+		"Plasma Drive"
+		"Plasma Fuel Pod" 4
+		"RC-220 Atomic Thruster"
+		"RC-225 Atomic Steering"
+		"RC-X4 Multiphasic Reactor" 2
+		"RX-200 Reverse Thruster"
+		"Self Destruct Module"
+		"Small Empire Shielding Core" 2
+		"Thermal Nucleavoltaic" 2
+	turret 0 -70
+	turret 0 67.5
+	gun -22.5 -105.5
+	gun -27.5 -103.5
+	turret -71 35.5
+	gun -39.5 51.5
+	gun -100.5 1
+	gun -82 7
+	gun -55.5 9
+	turret -84 16.5
+	turret -65 100.5
+	engine -39 134
+	engine -31.5 135
+	gun 22.5 -105.5
+	gun 27.5 -103.5
+	turret 71 35.5
+	gun 39.5 51.5
+	gun 100.5 1
+	gun 82 7
+	gun 55.5 9
+	turret 84 16.5
+	turret 65 100.5
+	engine 39 134
+	engine 31.5 135
 	leak "empire leak" 60 50
 	leak "empire flame" 40 80
 	leak "empire big leak" 30 30
