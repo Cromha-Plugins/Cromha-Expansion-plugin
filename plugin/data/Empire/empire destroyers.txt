@@ -711,7 +711,7 @@ ship "Empire Colinizer"
 		"hull protection" 7000
 		"required crew" 1300
 		"bunks" 7200
-		"mass" 7000
+		"mass" 400
 		"drag" 47
 		"heat dissipation" .17
 		"solar collection" 7.2
