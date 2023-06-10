@@ -1,1 +1,1 @@
-/home/lolo/.var/app/io.github.endless_sky.endless_sky/data/endless-sky/
+/home/lolo/.var/app/io.github.endless_sky.endless_sky/data/endless-sky/plugins/
