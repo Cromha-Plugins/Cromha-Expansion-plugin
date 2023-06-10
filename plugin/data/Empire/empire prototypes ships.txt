@@ -62,8 +62,6 @@ ship "Black Manta"
 	gun -55.5 9
 	turret -84 16.5
 	turret -65 100.5
-	engine -39 134
-	engine -31.5 135
 	gun 22.5 -105.5
 	gun 27.5 -103.5
 	turret 71 35.5
@@ -73,8 +71,26 @@ ship "Black Manta"
 	gun 55.5 9
 	turret 84 16.5
 	turret 65 100.5
+
+	# Thrusters
+	engine -39 134
+	engine -31.5 135
 	engine 39 134
 	engine 31.5 135
+
+	engine -14.5 164
+		angle 10
+		zoom 0.7
+	engine -21 153
+		angle 10
+		zoom 0.7
+	engine 14.5 164
+		angle -10
+		zoom 0.7
+	engine 21 153
+		angle -10
+		zoom 0.7
+
 	leak "empire leak" 60 50
 	leak "empire flame" 40 80
 	leak "empire big leak" 30 30
