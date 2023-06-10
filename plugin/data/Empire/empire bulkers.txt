@@ -265,7 +265,7 @@ ship "Empire Bulker Class H"
 		`RC-165 Atomic Steering`
 		"Compact Plasma Drive"
 		"Phasic Rifle" 10
-		"Phasic Gernades" 3
+		"Phasic Grenades" 3
 		"Security Station"
 	engine -77 -20
 		zoom 1.5
