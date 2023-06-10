@@ -12,7 +12,7 @@ ship "Black Manta"
 			"Empire Black Manta"
 		"cost" 783854123467
 		"shields" 177463
-		"hull" 17823
+		"hull" 177823
 		"required crew" 77
 		"bunks" 97
 		"mass" 711
@@ -46,7 +46,7 @@ ship "Black Manta"
 		"Ion Proton Turret" 3
 		"Mineria Key Stone"
 		"Multiphasic Ammo Rack" 8
-		"Multiph asic Anti-Missile" 2
+		"Multiphasic Anti-Missile" 2
 		"Multiphasic Cooler" 2
 		"Multiphasic Scanner" 2
 		"Multiphasic ammo" 3600
