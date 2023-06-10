@@ -29,3 +29,17 @@ government "Quarg"
 		"Medium Graviton Thruster"
 		"Medium Graviton Steering"
 		"Quantum Shield Generator"
+
+government "Merchant"
+	swizzle 5
+
+	"player reputation" 10
+	"attitude toward"
+		"Pirate" -.2
+		"Pirate (Devil-Run Gang)" -.2
+		"Korath" -.2
+		"Empire Rebels" -1
+	"bribe" .05
+	"fine" 0
+	"friendly hail" "friendly civilian"
+	"hostile hail" "hostile civilian"
