@@ -26,8 +26,8 @@ ship "Blackbird" "Blackbird (Empire)"
 		"Multiphasic Anti-Missile"
 		"Multiphasic ammo" 600
 		
-		"S3 Thermionic"
-		"KP-6 Photovoltaic Array" 3
+		"S3 Thermionic" 2
+		"KP-6 Photovoltaic Array" 4
 		"Empire Hai Gorge Batteries"
 		"Small Empire Shielding Core"
 		"Small Radar Jammer"
@@ -75,7 +75,7 @@ ship "Flivver" "Flivver (Empire)"
 			"hit force" 240
 	outfits
 		
-		"Fuel Cell"
+		"Fuel Cell" 2
 		"RC-X1 Multiphasic Reactor" 2
 		"Empire Hai Fissure Batteries"
 		"Small Empire Shielding Core"
@@ -123,10 +123,9 @@ ship "Bounder" "Bounder (Empire)"
 		"Multiphasic ammo" 1200
 		"Ion Proton Turret" 2
 		
-		"Fuel Cell"
 		"One-Phasic Cooler" 2
 		"RC-X2 Multiphasic Reactor"
-		"Empire Hai Fissure Batteries"
+		"Empire Hai Fissure Batteries" 2
 		"Empire Shielding Core"
 		
 		`RC-180 Atomic Thruster`
@@ -162,8 +161,8 @@ ship "Argosy" "Argosy (Empire)"
 		"heat dissipation" .7
 		"fuel capacity" 400
 		"cargo space" 120
-		"outfit space" 370
-		"weapon capacity" 140
+		"outfit space" 385
+		"weapon capacity" 160
 		"engine capacity" 140
 		weapon
 			"blast radius" 60
@@ -180,7 +179,7 @@ ship "Argosy" "Argosy (Empire)"
 
 		"RT-I Radiothermal"
 		"Empire Hai Gorge Batteries"
-		"RC-X1 Multiphasic Reactor" 2
+		"RC-X1 Multiphasic Reactor" 3
 		"Empire Shielding Core"
 		"One-Phasic Cooler" 3
 		
@@ -239,7 +238,7 @@ ship "Behemoth" "Behemoth (Empire)"
 		"Thunderhead Launcher" 2
 		"Thunderhead Missile" 80
 		
-		"RC-X2 Multiphasic Reactor"
+		"RC-X2 Multiphasic Reactor" 2
 		"Empire Hai Gorge Batteries"
 		"Fuel Cell" 2
 		"Plasma Fuel Pod" 2
@@ -391,7 +390,7 @@ ship "Freighter" "Freighter (Empire)"
 		"fuel capacity" 600
 		"cargo space" 150
 		"outfit space" 250
-		"weapon capacity" 80
+		"weapon capacity" 110
 		"engine capacity" 70
 		weapon
 			"blast radius" 40
@@ -404,7 +403,7 @@ ship "Freighter" "Freighter (Empire)"
 		"Multiphasic ammo" 600
 		
 		"Empire Hai Fissure Batteries"
-		"Thermal Nucleavoltaic"
+		"Thermal Nucleavoltaic" 2
 		"Small Empire Shielding Core"
 		
 		"RC-140 Atomic Thruster"
@@ -441,8 +440,8 @@ ship "Bulk Freighter" "Bulk Freighter (Empire)"
 		"heat dissipation" .4
 		"fuel capacity" 900
 		"cargo space" 640
-		"outfit space" 410
-		"weapon capacity" 180
+		"outfit space" 415
+		"weapon capacity" 260
 		"engine capacity" 85
 		weapon
 			"blast radius" 120
@@ -463,7 +462,7 @@ ship "Bulk Freighter" "Bulk Freighter (Empire)"
 		
 		"RC-160 Atomic Thruster"
 		"RC-165 Atomic Steering"
-		"RC-180 Reverse Thruster"
+		"RX-180 Reverse Thruster"
 		"Compact Plasma Drive"
 		
 	engine -22 198
@@ -501,8 +500,8 @@ ship "Container Transport" "Container Transport (Empire)"
 		"heat dissipation" .6
 		"fuel capacity" 600
 		"cargo space" 550
-		"outfit space" 410
-		"weapon capacity" 180
+		"outfit space" 475
+		"weapon capacity" 375
 		"engine capacity" 85
 		weapon
 			"blast radius" 120
