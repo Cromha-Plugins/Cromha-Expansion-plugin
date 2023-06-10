@@ -108,7 +108,26 @@ ship "Black Manta"
 		over
 	turret 65 100.5 "Plasma Turret"
 		over
-
+	engine 32.5 146.5
+		zoom 1.6
+		angle 0
+		under
+	engine -78.5 153
+		zoom 1.8
+		angle 0
+		under
+	engine 78.5 153
+		zoom 1.8
+		angle 0
+		under
+	"reverse engine" -9 -154
+		zoom 1
+		angle -360
+		under
+	"reverse engine" 9 -154
+		zoom 1
+		angle -360
+		under
 	leak "empire leak" 60 50
 	leak "empire flame" 40 80
 	leak "empire big leak" 30 30
