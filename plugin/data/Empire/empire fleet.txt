@@ -150,7 +150,10 @@ fleet cromha-fleet
 		"Empire Wardragon (Electron Beam)"
 		"Empire Wardragon (Plasma Repeater)"
 		"Empire Wardragon (Ion Proton)"
+		"Empire Colinizer" 3
+		"Fuel Pod Class H" 2
 		"Fuel Pod Class D" 2
+		"Fuel Pod" 2
 fleet mineria-transports
 	government "Mineria colonnies"
 	names "empire fleet names"

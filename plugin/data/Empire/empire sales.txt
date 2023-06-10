@@ -231,3 +231,4 @@ shipyard Advanced-lifdot-industries-shipyard
 	"Empire Fortress"
 	"Empire Tubfalet"
 	"Empire Bulker Class H"
+	"Empire Colinizer"

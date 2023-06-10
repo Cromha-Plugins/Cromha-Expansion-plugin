@@ -2,7 +2,7 @@ fleet empire-rebels-raiders
 	government "Empire Rebels"
 	names "civilian"
 	cargo 3
-	personality appeasing frugal disables plunders coward
+	personality appeasing frugal disables plunders coward opportunistic harvests secretive
 		confusion 25
 	variant 1
 		"Gunboat (Rebels)" 2
@@ -44,7 +44,7 @@ fleet empire-rebels-raiders-fleet
 	government "Empire Rebels"
 	names "civilian"
 	cargo 3
-	personality appeasing frugal disables plunders coward
+	personality appeasing frugal disables plunders coward opportunistic harvests secretive
 		confusion 25
 	variant 1
 		"Gunboat (Rebels)" 2

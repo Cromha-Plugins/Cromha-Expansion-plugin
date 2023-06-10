@@ -255,7 +255,7 @@ ship "Empire Tubfalet"
 		"Multiphasic ammo" 1200
 		
 		"Small Empire Shielding Core" 6
-		"Empire Hai Goerg Batteries"
+		"Empire Hai Gorge Batteries"
 		"Thermal Nucleavoltaic" 2
 		"Multiphasic Scanner"
 		"Multiphasic Cooler"
