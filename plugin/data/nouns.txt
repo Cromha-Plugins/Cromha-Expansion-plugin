@@ -132,6 +132,7 @@ ship "Ayym Creature"
 	noun "creature"
 	sprite "ship/ayym/ayym"
 	thumbnail "thumbnail/ayym"
+	"never disabled"
 	attributes
 		category "Light Freighter"
 		"hull" 100300
