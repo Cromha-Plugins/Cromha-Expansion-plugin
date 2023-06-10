@@ -31,65 +31,83 @@ ship "Black Manta"
 			"hull damage" 230000
 			"hit force" 200
 	outfits
+		"Antimatter Railgun"
 		"Cloaking Module"
 		"Compact Plasma Drive"
 		"Countermesure Module" 2
+		"Electron Beam" 2
 		"Empire Hai Valley Batteries" 4
 		"Empire Navy Emitter" 2
+		"Empire Nuke"
+		"Empire Particle gun" 2
 		"Empire Shielding Core" 4
 		"Fuel Cell" 2
+		"Ion Proton Gun" 2
+		"Ion Proton Turret" 3
 		"Mineria Key Stone"
+		"Multiphasic Ammo Rack" 8
+		"Multiph asic Anti-Missile" 2
 		"Multiphasic Cooler" 2
 		"Multiphasic Scanner" 2
+		"Multiphasic ammo" 3600
 		"One-Phasic Cooler" 2
+		"Phasic Grenades" 25
+		"Phasic Rifle" 25
 		"Plasma Drive"
 		"Plasma Fuel Pod" 4
-		"RC-220 Atomic Thruster"
-		"RC-225 Atomic Steering"
+		"Plasma Repeater" 4
+		"Plasma Turret" 3
+		"RC-220 Atomic Thruster" 2
+		"RC-225 Atomic Steering" 2
 		"RC-X4 Multiphasic Reactor" 2
-		"RX-200 Reverse Thruster"
+		"RX-200 Reverse Thruster" 4
+		"Railgun Slug" 1030
+		"Railgun Slug Rack" 2
+		"Security Station" 13
 		"Self Destruct Module"
 		"Small Empire Shielding Core" 2
+		"Teleportation Dock" 2
 		"Thermal Nucleavoltaic" 2
-	turret 0 -70
-	turret 0 67.5
-	gun -22.5 -105.5
-	gun -27.5 -103.5
-	turret -71 35.5
-	gun -39.5 51.5
-	gun -100.5 1
-	gun -82 7
-	gun -55.5 9
-	turret -84 16.5
-	turret -65 100.5
-	gun 22.5 -105.5
-	gun 27.5 -103.5
-	turret 71 35.5
-	gun 39.5 51.5
-	gun 100.5 1
-	gun 82 7
-	gun 55.5 9
-	turret 84 16.5
-	turret 65 100.5
-
-	# Thrusters
-	engine -39 134
-	engine -31.5 135
-	engine 39 134
-	engine 31.5 135
-
-	engine -14.5 164
-		angle 10
-		zoom 0.7
-	engine -21 153
-		angle 10
-		zoom 0.7
-	engine 14.5 164
-		angle -10
-		zoom 0.7
-	engine 21 153
-		angle -10
-		zoom 0.7
+	turret 0 -70 "Multiphasic Anti-Missile"
+		over
+	turret 0 67.5 "Multiphasic Anti-Missile"
+		over
+	gun -22.5 -105.5 "Plasma Repeater"
+		under
+	gun -27.5 -103.5 "Plasma Repeater"
+		under
+	turret -71 35.5 "Ion Proton Turret"
+		over
+	gun -39.5 51.5 "Antimatter Railgun"
+		under
+	gun -100.5 1 "Empire Particle gun"
+		under
+	gun -82 7 "Ion Proton Gun"
+		under
+	gun -55.5 9 "Electron Beam"
+		under
+	turret -84 16.5 "Ion Proton Turret"
+		over
+	turret -65 100.5 "Plasma Turret"
+		over
+	gun 22.5 -105.5 "Plasma Repeater"
+		under
+	gun 27.5 -103.5 "Plasma Repeater"
+		under
+	turret 71 35.5 "Plasma Turret"
+		over
+	gun 39.5 51.5 "Empire Nuke"
+		under
+	gun 100.5 1 "Empire Particle gun"
+		under
+	gun 82 7 "Ion Proton Gun"
+		under
+	gun 55.5 9 "Electron Beam"
+		under
+	turret 84 16.5 "Ion Proton Turret"
+		over
+	turret 65 100.5 "Plasma Turret"
+		over
 
 	leak "empire leak" 60 50
 	leak "empire flame" 40 80
