@@ -374,3 +374,173 @@ ship "Headhunter" "Headhunter (Empire)"
 	explode "medium explosion" 15
 	"final explode" "final explosion small"
 	description "The Headhunter is one of the newest ships designed by Lionheart: a versatile ship that can serve equally well for carrying cargo or for bounty hunting. As with many of Lionheart's designs, the hull is mostly composite fiber rather than metal, sacrificing armor strength for the sake of lighter weight and faster movement."
+
+ship "Freighter" "Freighter (Empire)"
+	sprite "ship/freighter"
+	thumbnail "thumbnail/freighter"
+	attributes
+		category "Light Freighter"
+		"cost" 730000
+		"shields" 2000
+		"hull" 2000
+		"required crew" 2
+		"bunks" 7
+		"mass" 240
+		"drag" 5.6
+		"heat dissipation" .6
+		"fuel capacity" 600
+		"cargo space" 150
+		"outfit space" 250
+		"weapon capacity" 80
+		"engine capacity" 70
+		weapon
+			"blast radius" 40
+			"shield damage" 400
+			"hull damage" 200
+			"hit force" 600
+	outfits
+		"Ion Proton Turret" 2
+		"Multiphasic Anti-Missile"
+		"Multiphasic ammo" 600
+		
+		"Empire Hai Fissure Batteries"
+		"Thermal Nucleavoltaic"
+		"Small Empire Shielding Core"
+		
+		"RC-140 Atomic Thruster"
+		"RC-165 Atomic Steering"
+		"RX-120 Reverse Thruster"
+		"Compact Plasma Drive"
+		
+	engine -7.5 92
+	engine 7.5 92
+	turret 0 -64 "Ion Proton Turret"
+	turret 0 -4.5 "Multiphasic Anti-Missile"
+	turret 0 64.5 "Ion Proton Turret"
+	leak "leak" 60 50
+	leak "flame" 50 80
+	explode "tiny explosion" 10
+	explode "small explosion" 30
+	explode "medium explosion" 20
+	"final explode" "final explosion small"
+	description "The Freighter is designed by the Syndicate to be an efficient means of carrying cargo from system to system, but is so slow and difficult to land that most pilots hate flying them."
+	description "	Freighters are an obvious target for pirates, but turn much too slowly to be able to bring any forward-facing guns to bear on an approaching enemy. As a result, the latest model of freighter is equipped only with turrets, including an anti-missile turret to prevent attackers from simply bombarding them into submission from a safe distance."
+
+ship "Bulk Freighter" "Bulk Freighter (Empire)"
+	sprite "ship/bulk freighter"
+	thumbnail "thumbnail/bulk freighter"
+	attributes
+		category "Heavy Freighter"
+		"cost" 11100000
+		"shields" 4000
+		"hull" 7600
+		"required crew" 12
+		"bunks" 21
+		"mass" 870
+		"drag" 14
+		"heat dissipation" .4
+		"fuel capacity" 900
+		"cargo space" 640
+		"outfit space" 410
+		"weapon capacity" 180
+		"engine capacity" 85
+		weapon
+			"blast radius" 120
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Thunderhead Launcher"
+		"Thunderhead Missile" 40
+		"Electron Turret" 4
+		"Multiphasic Anti-Missile"
+		"Multiphasic ammo" 600
+		
+		"Empire Shielding Core"
+		"Empire Hai Ravine Batteries"
+		"RC-X2 Multiphasic Reactor"
+		"Phasic Rifle" 2
+		
+		"RC-160 Atomic Thruster"
+		"RC-165 Atomic Steering"
+		"RC-180 Reverse Thruster"
+		"Compact Plasma Drive"
+		
+	engine -22 198
+	engine 22 198
+	gun -20 -175 "Thunderhead Launcher"
+	gun 20 -175
+	turret -12 -155 "Electron Turret"
+	turret 12 -155 "Electron Turret"
+	turret 0 5 "Electron Turret"
+	turret -30 175 "Multiphasic Anti-Missile"
+	turret 30 175 "Electron Turret"
+	leak "leak" 40 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description "The Bulk Freighter is the ultimate cargo ship, able to carry as much cargo as four ordinary Syndicate Freighters. Its on-board gearing allows it to service even the most primitive colonies, though dock workers in busier spaceports often joke that it would be simpler to carry smaller freighters within its gigantic holds."
+	description "	It is also an incredibly slow and difficult to maneuver ship, especially when loaded down with cargo. Some freight caravans use ordinary freighters instead of Bulk Freighters just to avoid the hassle of constantly having to wait for the Bulk Freighter to properly align itself for hyperspace travel."
+
+ship "Container Transport" "Container Transport (Empire)"
+	sprite "ship/container transport"
+	thumbnail "thumbnail/container transport"
+	attributes
+		category "Heavy Freighter"
+		"cost" 9200000
+		"shields" 3500
+		"hull" 8000
+		"required crew" 6
+		"bunks" 18
+		"mass" 880
+		"drag" 17.6
+		"heat dissipation" .6
+		"fuel capacity" 600
+		"cargo space" 550
+		"outfit space" 410
+		"weapon capacity" 180
+		"engine capacity" 85
+		weapon
+			"blast radius" 120
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Thunderhead Launcher"
+		"Thunderhead Missile" 40
+		"Electron Turret" 3
+		"Heavy Anti-Missile Turret" 2
+		
+		"RT-I Radiothermal"
+		"LP144a Battery Pack"
+		"D23-QP Shield Generator"
+		"Laser Rifle"
+		
+		"X3700 Ion Thruster"
+		"X3200 Ion Steering"
+		"X1100 Ion Reverse Thruster"
+		"Compact Plasma Drive"
+		
+	engine -20 195.5
+	engine 20 195.5
+	gun -23.5 -182 "Thunderhead Missile"
+	gun 23.5 -182
+	turret 0 -90.5 "Electron Turret"
+	turret 0 -40.5 "Heavy Anti-Missile Turret"
+	turret 0 9.5 "Electron Turret"
+	turret 0 59.5 "Heavy Anti-Missile Turret"
+	turret 0 109 "Electron Turret"
+	leak "leak" 40 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description "The Container Transport is a newer, more popular configuration of the Bulk Freighter that replaces the outboard loose cargo holds with intermodal containers for more efficient turnaround in larger, better-equipped ports."
+	description "	As with its geared cousin, however, it remains a slow and difficult to maneuver ship, especially when loaded down with cargo. Some freight caravans use ordinary freighters instead of Container Transports just to avoid the hassle of constantly having to wait for the Container Transport to properly align itself for hyperspace travel."

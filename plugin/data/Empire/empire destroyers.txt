@@ -464,6 +464,8 @@ ship "Empire Fortress"
 		category "Fortress"
 		cost 276900000
 		shields 1996420
+		licenses
+			"Empire Black Manta"
 		hull 999999999999
 		"hull protection" 9000
 		"required crew" 1940
@@ -708,6 +710,8 @@ ship "Empire Colinizer"
 		cost 276900
 		shields 750000
 		hull 7500000
+		licenses
+			"Empire Navy"
 		"hull protection" 7000
 		"required crew" 1300
 		"bunks" 7200
