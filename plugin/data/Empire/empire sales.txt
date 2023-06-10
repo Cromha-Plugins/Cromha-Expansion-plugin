@@ -13,6 +13,7 @@ outfitter Base-outfitter
 	"Self Destruct Module"
 	"Mineria Key Stone"
 	"One-Phasic Cooler"
+	"Nitrogen Afterburnner"
 outfitter Basic-ammo-outfitter
 	"Empire Torpedo Missile"
 	"Railgun Slug"
