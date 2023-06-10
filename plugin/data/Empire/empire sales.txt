@@ -248,3 +248,4 @@ shipyard Advanced-lifdot-industries-shipyard
 	"Empire Tubfalet"
 	"Empire Bulker Class H"
 	"Empire Colinizer"
+	"Black Manta"
