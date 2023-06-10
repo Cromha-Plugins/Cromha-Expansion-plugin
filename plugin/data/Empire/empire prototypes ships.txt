@@ -1,6 +1,6 @@
 ship "Black Manta"
-	sprite "ship/blackmanta/black manta 1"
-	thumbnail "thumbnail/black manta 1"
+	sprite "ship/black manta/black manta 1"
+	thumbnail "thumbnail/black manta/black manta 1"
 	plural "Black Mantas"
 	noun "prototype"
 	"uncapturable"
