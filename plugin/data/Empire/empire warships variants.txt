@@ -62,7 +62,7 @@ ship "Empire Wardragon" "Empire Wardragon (Ion Proton)"
 		"Phasic Rifle" 55
 		"Security Station" 5
 		"Phasic Grenades" 25
-		"Security Forcefield" 5
+		
 		"Countermesure Module" 1
 		"Teleportation Dock" 1
 		"Cloaking Module"
@@ -169,7 +169,7 @@ ship "Empire Wardragon" "Empire Wardragon (Electron Beam)"
 		"Phasic Rifle" 55
 		"Security Station" 5
 		"Phasic Grenades" 25
-		"Security Forcefield" 5
+		
 		"Countermesure Module" 1
 		"Teleportation Dock" 1
 		"Cloaking Module"
@@ -276,7 +276,7 @@ ship "Empire Wardragon" "Empire Wardragon (Plasma Repeater)"
 		"Phasic Rifle" 55
 		"Security Station" 5
 		"Phasic Grenades" 25
-		"Security Forcefield" 5
+		
 		"Countermesure Module" 1
 		"Teleportation Dock" 1
 		"Cloaking Module"
@@ -383,7 +383,7 @@ ship "Empire Wardragon" "Empire Wardragon (Twin Modified Blaster)"
 		"Phasic Rifle" 55
 		"Security Station" 5
 		"Phasic Grenades" 25
-		"Security Forcefield" 5
+		
 		"Countermesure Module" 1
 		"Teleportation Dock" 1
 		"Cloaking Module"
@@ -490,7 +490,7 @@ ship "Empire Wardragon" "Empire Wardragon (Disruption)"
 		"Phasic Rifle" 55
 		"Security Station" 5
 		"Phasic Grenades" 25
-		"Security Forcefield" 5
+		
 		"Countermesure Module" 1
 		"Teleportation Dock" 1
 		"Cloaking Module"
@@ -596,7 +596,7 @@ ship "Empire Skylark" "Empire Skylark (Ion Proton)"
 		"Phasic Rifle" 55
 		"Security Station" 5
 		"Phasic Grenades" 25
-		"Security Forcefield" 5
+		
 		"Countermesure Module" 2
 		"Teleportation Dock" 1
 		"Cloaking Module"
@@ -702,7 +702,7 @@ ship "Empire Skylark" "Empire Skylark (Electron Beam)"
 		"Phasic Rifle" 55
 		"Security Station" 5
 		"Phasic Grenades" 25
-		"Security Forcefield" 5
+		
 		"Countermesure Module" 2
 		"Teleportation Dock" 1
 		"Cloaking Module"
@@ -808,7 +808,7 @@ ship "Empire Skylark" "Empire Skylark (Plasma Repeater)"
 		"Phasic Rifle" 55
 		"Security Station" 5
 		"Phasic Grenades" 25
-		"Security Forcefield" 5
+		
 		"Countermesure Module" 2
 		"Teleportation Dock" 1
 		"Cloaking Module"
@@ -914,7 +914,7 @@ ship "Empire Skylark" "Empire Skylark (Twin Modified Blaster)"
 		"Phasic Rifle" 55
 		"Security Station" 5
 		"Phasic Grenades" 25
-		"Security Forcefield" 5
+		
 		"Countermesure Module" 2
 		"Teleportation Dock" 1
 		"Cloaking Module"

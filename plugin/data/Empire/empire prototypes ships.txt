@@ -70,7 +70,7 @@ ship "Black Manta"
 		"Phasic Rifle" 80
 		"Security Station" 12
 		"Phasic Grenades" 50
-		"Security Forcefield" 12
+		
 		"Countermesure Module" 6
 		"Teleportation Dock" 4
 		"Cloaking Module"

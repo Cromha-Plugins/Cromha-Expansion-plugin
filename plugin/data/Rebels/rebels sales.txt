@@ -78,7 +78,7 @@ outfitter Rebels-advanced-weapon-outfitter
 	"Energy Blaster"
 	"Security Station"
 	"Pulse Rifle"
-	"Security Forcefield"
+	
 	"Rebels Particle Gun"
 	"Rebel Grav-Turret"
 	"Rebels Blaze-Pike"

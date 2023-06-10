@@ -749,11 +749,11 @@ ship "Empire Colinizer"
 		
 		"RC-200 Atomic Thruster" 1
 		"RC-205 Atomic Steering" 1
-		`RX-160 Reverse Thruster` 2
+		`RX-180 Reverse Thruster` 2
 		"Phasic Rifle" 35
 		"Security Station" 5
 		"Phasic Grenades" 15
-		"Security Forcefield" 4
+		
 		"Countermesure Module"
 		"Teleportation Dock"
 		"Cloaking Module"
@@ -773,10 +773,10 @@ ship "Empire Colinizer"
 	engine 29 212
 	gun -81.5 58 "Empire Torpedo Bank"
 		angle 270
-	turret -96.5 -129.5 "Langrage Empire-Heaver"
+	gun -96.5 -129.5 "Langrage Empire-Heaver"
 	turret 96.5 -129.5 "Multiphasic Anti-Missile"
 	turret -62.5 55 "Multiphasic Anti-Missile"
-	turret 62.5 55 "Langrage Empire-Heaver"
+	gun 62.5 55 "Langrage Empire-Heaver"
 	turret 36.5 -55.5 "Grab-Strike Blaze"
 	bay "Fuel Pod" -115 -152
 		angle 30

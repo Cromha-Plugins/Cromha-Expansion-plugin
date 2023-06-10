@@ -61,7 +61,7 @@ ship "Empire Wardragon"
 		"Phasic Rifle" 55
 		"Security Station" 5
 		"Phasic Grenades" 25
-		"Security Forcefield" 5
+		
 		"Countermesure Module" 1
 		"Teleportation Dock" 1
 		"Cloaking Module"
@@ -166,7 +166,7 @@ ship "Empire Skylark"
 		"Phasic Rifle" 55
 		"Security Station" 5
 		"Phasic Grenades" 25
-		"Security Forcefield" 5
+		
 		"Countermesure Module" 2
 		"Teleportation Dock" 1
 		"Cloaking Module"
@@ -270,7 +270,7 @@ ship "Empire Tubfalet"
 		"Phasic Rifle" 75
 		"Security Station" 13
 		"Phasic Grenades" 40
-		"Security Forcefield" 13
+		
 		"Countermesure Module" 4
 		"Teleportation Dock" 2
 		"Cloaking Module"
