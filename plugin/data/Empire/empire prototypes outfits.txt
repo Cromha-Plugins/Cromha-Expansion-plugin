@@ -2,7 +2,7 @@ outfit "RV-120 Disruption Thruster"
       cost 1000000
       licenses
             "Empire Navy"
-      category "Engines"
+      category "Prototype"
       thumbnail "outfit/disruption thruster"
       "mass" 15
       "outfit space" -10
@@ -24,7 +24,7 @@ outfit "RV-125 Disruption Steering"
       cost 1000000
       licenses
             "Empire Navy"
-      category "Engines"
+      category "Prototype"
       thumbnail "outfit/disruption steering"
       "mass" 15
       "outfit space" -10
@@ -37,7 +37,7 @@ outfit "RV-125 Disruption Steering"
 	"flare sound" "atomic tiny"
 	description "These new generations Empire Navy disruption steering are the future of empires engines: They have the best turning effiency."
 outfit "Tri-Phasic Hyperdrive"
-      category "Systems"
+      category "Prototype"
 	cost 7500000000
 	licenses
 		"Empire Contributor"
@@ -51,3 +51,47 @@ outfit "Tri-Phasic Hyperdrive"
 	"jump drive" 1
 	"jump speed" .9
 	description "This mysterious box sits quietly at the heart of your ship, thinking its own inscrutable thoughts. When it comes time to travel between the stars it sets off a nuclear fusion reaction powerful enough to level an entire city, and then somehow tucks the resulting explosion in between the folds of regular space-time like a wasp stinging an oak leaf to lay her eggs inside. Your ship rides the resulting ripple in the fabric of space."
+
+outfit "Alldust Beam Canon"
+	category "Prototype"
+	licenses
+		"Empire Contributor"
+	cost 760000
+	thumbnail "outfit/alldust beam turret"
+	"mass" 19
+	"outfit space" -19
+	"weapon capacity" -19
+	"gun ports" -1
+	weapon
+		sprite "projectile/alldust beam"
+			"random start frame"
+		sound "moonbeam"
+		"fire effect" "alldust beam fleck"
+		"hit effect" "alldust beam impact"
+		"inaccuracy" 2.0
+		"velocity" 490
+		"lifetime" 1
+		# A full cycle is 45 frames. Beam is active 56% of the time.
+		"reload" 1.8
+		"burst count" 25
+		"burst reload" 1
+		"firing energy" 5.4
+		"firing heat" 1.8
+		"shield damage" 4.8
+		"hull damage" 8.4
+	description "Because their Sunbeams are not very effective against the heavy plating of the Korath drones, the Wanderers have developed a new beam weapon that is considerably more effective against hull armor."
+
+effect "alldust beam fleck"
+	sprite "effect/alldust beam fleck"
+		"frame rate" 10
+	"lifetime" 7
+	"random velocity" 30
+	"velocity scale" 1
+
+effect "alldust beam impact"
+	sprite "effect/alldust beam impact"
+		"frame rate" 30
+	"lifetime" 7
+	"random angle" 360
+	"random velocity" 2
+	"velocity scale" -.002
