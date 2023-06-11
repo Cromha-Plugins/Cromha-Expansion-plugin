@@ -24,7 +24,7 @@ phrase "empire hostile hail"
         "All your weapons of evil must be destroyed."
 		"You have only a short time to learn to live together in peace."
 		"You must live in peace... or leave the galaxy."
-         "Don't even think about boarding my ship."
+        "Don't even think about boarding my ship."
         "My friends are gonna destroy you."
         "Get of my way!"
     

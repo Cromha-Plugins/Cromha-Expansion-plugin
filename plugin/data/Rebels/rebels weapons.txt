@@ -41,8 +41,6 @@ outfit "Modified Plasma Repeater"
 	"outfit space" -37
 	"weapon capacity" -40
 	"gun ports" -1
-	licenses
-		"Empire Contributor"
 	weapon
 		sprite "projectile/rebel plasma"
 			"frame rate" 2.5

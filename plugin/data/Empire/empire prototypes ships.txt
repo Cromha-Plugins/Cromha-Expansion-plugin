@@ -34,21 +34,21 @@ ship "Black Manta"
 		"Antimatter Railgun"
 		"Cloaking Module"
 		"Compact Plasma Drive"
-		"Countermesure Module" 2
-		"Electron Beam" 2
+		"Countermesure Module" 6
+		"Ion Proton Gun" 2
 		"Empire Hai Valley Batteries" 4
 		"Empire Navy Emitter" 2
 		"Empire Nuke"
 		"Empire Particle gun" 2
-		"Empire Shielding Core" 4
+		"Empire Shielding Core" 12
 		"Fuel Cell" 2
 		"Ion Proton Gun" 2
 		"Ion Proton Turret" 3
 		"Mineria Key Stone"
 		"Multiphasic Ammo Rack" 8
 		"Multiphasic Anti-Missile" 2
-		"Multiphasic Cooler" 2
-		"Multiphasic Scanner" 2
+		"Multiphasic Cooler" 8
+		"Multiphasic Scanner" 6
 		"Multiphasic ammo" 3600
 		"One-Phasic Cooler" 2
 		"Phasic Grenades" 25
@@ -56,16 +56,17 @@ ship "Black Manta"
 		"Plasma Drive"
 		"Plasma Fuel Pod" 4
 		"Plasma Repeater" 4
-		"Plasma Turret" 3
+		"Grab-Strike Blaze" 3
 		"RC-220 Atomic Thruster" 2
 		"RC-225 Atomic Steering" 2
-		"RC-X4 Multiphasic Reactor" 2
+		"RC-X3 Multiphasic Reactor" 4
+		"RC-X4 Multiphasic Reactor" 4
 		"RX-200 Reverse Thruster" 4
 		"Railgun Slug" 1030
 		"Railgun Slug Rack" 2
 		"Security Station" 13
 		"Self Destruct Module"
-		"Small Empire Shielding Core" 2
+		"Small Empire Shielding Core" 6
 		"Teleportation Dock" 2
 		"Thermal Nucleavoltaic" 2
 	turret 0 -70 "Multiphasic Anti-Missile"
@@ -84,17 +85,17 @@ ship "Black Manta"
 		under
 	gun -82 7 "Ion Proton Gun"
 		under
-	gun -55.5 9 "Electron Beam"
+	gun -55.5 9 "Ion Proton Gun"
 		under
 	turret -84 16.5 "Ion Proton Turret"
 		over
-	turret -65 100.5 "Plasma Turret"
+	turret -65 100.5 "Grab-Strike Blaze"
 		over
 	gun 22.5 -105.5 "Plasma Repeater"
 		under
 	gun 27.5 -103.5 "Plasma Repeater"
 		under
-	turret 71 35.5 "Plasma Turret"
+	turret 71 35.5 "Grab-Strike Blaze"
 		over
 	gun 39.5 51.5 "Empire Nuke"
 		under
@@ -102,11 +103,11 @@ ship "Black Manta"
 		under
 	gun 82 7 "Ion Proton Gun"
 		under
-	gun 55.5 9 "Electron Beam"
+	gun 55.5 9 "Ion Proton Gun"
 		under
 	turret 84 16.5 "Ion Proton Turret"
 		over
-	turret 65 100.5 "Plasma Turret"
+	turret 65 100.5 "Grab-Strike Blaze"
 		over
 	engine -39 134
 	engine -31.5 135
