@@ -624,7 +624,7 @@ effect "empire heaver splinter hit"
 	"random angle" 10
 
 outfit "Alldust Beam Canon"
-	category "Gun"
+	category "Guns"
 	licenses
 		"Empire Contributor"
 	cost 760000
