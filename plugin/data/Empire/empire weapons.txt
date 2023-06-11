@@ -650,9 +650,10 @@ outfit "Alldust Beam Canon"
 		"firing energy" 5.4
 		"firing heat" 1.8
 		"shield damage" 9.7
+		"energy damage" .9
             "fuel damage" .01
-            "slowing damage" .07
-            "burn damage" .05
+            "slowing damage" .3
+            "burn damage" .1
 		"hull damage" 7.8
 	description "Because their Sunbeams are not very effective against the heavy plating of the Korath drones, the Wanderers have developed a new beam weapon that is considerably more effective against hull armor."
 
