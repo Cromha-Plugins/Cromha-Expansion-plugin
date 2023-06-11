@@ -19,11 +19,13 @@ fleet cromha-fleet
 		"Empire Wardragon" 2
 		"Empire Nanobot yll'a" 2
 		"Empire Tubfalet"
+		"Empire Palavret"
 	variant 3
 		"Empire Skylark (Ion Proton)"
 		"Empire Wardragon (Electron Beam)" 2
 		"Empire Nanobot yll'e"
 		"Empire Nanobot yll'a"
+		"Empire Palavret"
 	variant 3
 		"Empire Skylark (Electron Beam)"
 		"Empire Wardragon (Ion Proton)"
@@ -43,6 +45,7 @@ fleet cromha-fleet
 		"Empire Wardragon (Ion Proton)"
 		"Empire Wardragon"
 		"Empire Nanobot yll'a"
+		"Empire Palavret"
 	variant 3
 		"Empire Skylark"
 		"Empire Wardragon (Twin Modified Blaster)" 2
@@ -55,6 +58,7 @@ fleet cromha-fleet
 		"Empire Wardragon (Plasma Repeater)"
 		"Empire Nanobot yll'e"
 		"Empire Nanobot yll'a"
+		"Empire Palavret"
 	variant 1
 		"Light Empire Destroyer" 2
 		"Empire Destroyer yll'e"
@@ -74,6 +78,7 @@ fleet cromha-fleet
 		"Empire Destroyer yll'e" 2
 		"Empire Nanobot yll'e"
 		"Empire Nanobot yll'a" 2
+		"Empire Palavret" 2
 	variant 1
 		"Light Empire Destroyer"
 		"Empire Destroyer yll'a" 2
@@ -103,6 +108,7 @@ fleet cromha-fleet
 		"Heavy Empire Destroyer"
 		"Empire Nanobot yll'e"
 		"Empire Nanobot yll'a" 2
+		"Empire Palavret"
 	variant 0.7
 		"Light Empire Destroyer" 2
 		"Empire Destroyer yll'a"
@@ -112,6 +118,7 @@ fleet cromha-fleet
 		"Empire Nanobot yll'e" 7
 		"Empire Nanobot yll'e" 7
 		"Fuel Pod Class D" 2
+		"Empire Palavret" 2
 	variant 0.7
 		"Light Empire Destroyer"
 		"Empire Destroyer yll'e" 2
@@ -144,6 +151,7 @@ fleet cromha-fleet
 		"Empire Nanobot yll'e" 7
 		"Empire Nanobot yll'e" 7
 		"Fuel Pod Class D" 2
+		"Empire Palavret" 2
 	variant 0.3
 		"Empire Fortress"
 		"Empire Wardragon"
