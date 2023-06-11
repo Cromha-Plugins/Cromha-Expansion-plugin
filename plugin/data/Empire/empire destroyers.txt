@@ -10,13 +10,13 @@ ship "Heavy Empire Destroyer"
 		"cost" 37200000
 		"shields" 89400
 		"hull" 80300
-		"required crew" 200
-		"bunks" 500
+		"required crew" 95
+		"bunks" 111
 		"mass" 1800
 		"drag" 17.7
 		"heat dissipation" .45
 		"fuel capacity" 900
-		"cargo space" 300
+		"cargo space" 127
 		"outfit space" 3300
 		"weapon capacity" 900
 		"engine capacity" 640
@@ -174,13 +174,13 @@ ship "Empire Destroyer yll'a"
 		"cost" 10930000
 		"shields" 130400
 		"hull" 95065
-		"required crew" 125
-		"bunks" 215
+		"required crew" 75
+		"bunks" 90
 		"mass" 510
 		"drag" 6.7
 		"heat dissipation" .7
 		"fuel capacity" 600
-		"cargo space" 160
+		"cargo space" 125
 		"outfit space" 995
 		"weapon capacity" 550
 		"engine capacity" 450
@@ -280,13 +280,13 @@ ship "Empire Destroyer yll'e"
 		"cost" 10930000
 		"shields" 130400
 		"hull" 95065
-		"required crew" 125
-		"bunks" 215
+		"required crew" 75
+		"bunks" 110
 		"mass" 510
 		"drag" 6.7
 		"heat dissipation" .7
 		"fuel capacity" 600
-		"cargo space" 160
+		"cargo space" 87
 		"outfit space" 995
 		"weapon capacity" 550
 		"engine capacity" 450
@@ -376,13 +376,13 @@ ship "Light Empire Destroyer"
 		"cost" 3120000
 		"shields" 95400
 		"hull" 45065
-		"required crew" 85
-		"bunks" 125
+		"required crew" 65
+		"bunks" 75
 		"mass" 550
 		"drag" 4.0
 		"heat dissipation" .7
 		"fuel capacity" 650
-		"cargo space" 95
+		"cargo space" 68
 		"outfit space" 965
 		"weapon capacity" 560
 		"engine capacity" 280
@@ -713,14 +713,14 @@ ship "Empire Colinizer"
 		licenses
 			"Empire Navy"
 		"hull protection" 7000
-		"required crew" 1300
-		"bunks" 7200
+		"required crew" 75
+		"bunks" 3100
 		"mass" 400
 		"drag" 47
 		"heat dissipation" .17
 		"solar collection" 7.2
 		"fuel capacity" 670
-		"cargo space" 110
+		"cargo space" 111
 		"outfit space" 1070
 		"weapon capacity" 1750
 		"engine capacity" 790

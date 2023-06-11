@@ -231,6 +231,7 @@ shipyard Basic-lifdot-industries-shipyard
 	"Fury (Empire)"
 	"Headhunter (Empire)"
 	"Empire Bulker Class H"
+	"Empire Palavret"
 shipyard Advanced-lifdot-industries-shipyard
 	"Empire Nanobot yll'e"
 	"Empire Nanobot yll'a"
@@ -253,3 +254,4 @@ shipyard Advanced-lifdot-industries-shipyard
 	"Empire Bulker Class H"
 	"Empire Colinizer"
 	"Black Manta"
+	"Empire Palavret"

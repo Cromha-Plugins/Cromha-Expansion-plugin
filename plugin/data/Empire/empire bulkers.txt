@@ -15,7 +15,7 @@ ship "Empire Bulker"
 		"drag" 3.1
 		"heat dissipation" .9
 		"fuel capacity" 700
-		"cargo space" 75
+		"cargo space" 85
 		"outfit space" 730
 		"weapon capacity" 210
 		"engine capacity" 145
@@ -102,13 +102,13 @@ ship "Empire Bulker Class D"
 		"cost" 3205000
 		"shields" 65000
 		"hull" 13060
-		"required crew" 85
-		"bunks" 125
+		"required crew" 40
+		"bunks" 65
 		"mass" 265
 		"drag" 3.1
 		"heat dissipation" .9
 		"fuel capacity" 700
-		"cargo space" 125
+		"cargo space" 135
 		"outfit space" 950
 		"weapon capacity" 560
 		"engine capacity" 145
@@ -229,8 +229,8 @@ ship "Empire Bulker Class H"
 		"cost" 3205000
 		"shields" 18000
 		"hull" 7777
-		"required crew" 47
-		"bunks" 57
+		"required crew" 15
+		"bunks" 27
 		"mass" 320
 		"drag" 3.1
 		"heat dissipation" .7
