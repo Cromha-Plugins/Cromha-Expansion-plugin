@@ -25,11 +25,11 @@ outfitter Basic-weapons-outfitter
 	"Multiphasic Anti-Missile"
 	"Electron Turret"
 	"Electron Beam"
-	
 	"Security Station"
 	"Ion Proton Gun"
 	"Railgun"
 	"Phasic Grenades"
+	"Grab-Strike Blaze"
 outfitter Basic-systems-outfitter
 	"Cargo Expansion"
 	"Ramscoop"
@@ -78,7 +78,6 @@ outfitter Advanced-weapon-outfitter
 	"Plasma Repeater"
 	"Electron Turret"
 	"Electron Beam"
-	
 	"Security Station"
 	"Teleporting Dock"
 	"Never Gas"
@@ -90,6 +89,7 @@ outfitter Advanced-weapon-outfitter
 	"Railgun"
 	"Phasic Grenades"
 	"Langrage Empire-Heaver"
+	"Grab-Strike Blaze"
 outfitter Advanced-systems-outfitter
 	"Cargo Expansion"
 	"Ramscoop"
