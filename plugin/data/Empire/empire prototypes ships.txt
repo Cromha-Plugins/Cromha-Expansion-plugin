@@ -33,7 +33,6 @@ ship "Black Manta"
 	outfits
 		"Antimatter Railgun"
 		"Cloaking Module"
-		"Compact Plasma Drive"
 		"Countermesure Module" 6
 		"Ion Proton Gun" 2
 		"Empire Hai Valley Batteries" 4
@@ -53,7 +52,7 @@ ship "Black Manta"
 		"One-Phasic Cooler" 2
 		"Phasic Grenades" 25
 		"Phasic Rifle" 25
-		"Plasma Drive"
+		"Tri-Phasic Hyperdrive"
 		"Plasma Fuel Pod" 4
 		"Plasma Repeater" 4
 		"Grab-Strike Blaze" 3

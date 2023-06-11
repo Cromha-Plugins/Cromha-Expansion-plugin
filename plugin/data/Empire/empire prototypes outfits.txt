@@ -36,3 +36,18 @@ outfit "RV-125 Disruption Steering"
 		"frame rate" 14
 	"flare sound" "atomic tiny"
 	description "These new generations Empire Navy disruption steering are the future of empires engines: They have the best turning effiency."
+outfit "Tri-Phasic Hyperdrive"
+      category "Systems"
+	cost 7500000000
+	licenses
+		"Empire Contributor"
+	thumbnail "outfit/triphasic plasma drive"
+	"mass" 15
+	"outfit space" -30
+	"jump fuel" 75
+	"scram drive" 17
+	"hyperdrive" 1
+	"jump effect" "jump drive empire"
+	"jump drive" 1
+	"jump speed" .9
+	description "This mysterious box sits quietly at the heart of your ship, thinking its own inscrutable thoughts. When it comes time to travel between the stars it sets off a nuclear fusion reaction powerful enough to level an entire city, and then somehow tucks the resulting explosion in between the folds of regular space-time like a wasp stinging an oak leaf to lay her eggs inside. Your ship rides the resulting ripple in the fabric of space."
