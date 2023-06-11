@@ -30,6 +30,7 @@ outfitter Basic-weapons-outfitter
 	"Railgun"
 	"Phasic Grenades"
 	"Grab-Strike Blaze"
+	"Alldust Beam Canon"
 outfitter Basic-systems-outfitter
 	"Cargo Expansion"
 	"Ramscoop"
@@ -90,6 +91,7 @@ outfitter Advanced-weapon-outfitter
 	"Phasic Grenades"
 	"Langrage Empire-Heaver"
 	"Grab-Strike Blaze"
+	"Alldust Beam Canon"
 outfitter Advanced-systems-outfitter
 	"Cargo Expansion"
 	"Ramscoop"
@@ -111,7 +113,6 @@ outfitter Advanced-systems-outfitter
 	"Plasma Fuel Pod"
 	"Empire Navy Emitter"
 	"Tri-Phasic Hyperdrive"
-	"Alldust Beam Canon"
 outfitter Advanced-power-outfitter
 	"Empire Hai Chasm Batteries"
 	"Empire Hai Fissure Batteries"

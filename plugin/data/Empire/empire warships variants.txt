@@ -139,7 +139,7 @@ ship "Empire Wardragon" "Empire Wardragon (Electron Beam)"
 			"hull damage" 9500
 			"hit force" 300
 	outfits
-		"Electron Beam" 6
+		"Alldust Beam Canon" 6
 		"Empire Torpedo Bank" 2
 		"Empire Torpedo Missile" 240
 		"Empire Torpedo Rack" 20
@@ -673,7 +673,7 @@ ship "Empire Skylark" "Empire Skylark (Electron Beam)"
 			"hull damage" 10500
 			"hit force" 300
 	outfits
-		"Electron Beam" 6
+		"Alldust Beam Canon" 6
 		"Empire Torpedo Bank" 2
 		"Empire Torpedo Missile" 240
 		"Empire Torpedo Rack" 20
