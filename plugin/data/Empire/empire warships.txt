@@ -339,9 +339,6 @@ ship "Empire Palavret"
 		"Empire Torpedo Bank" 2
 		"Empire Torpedo Missile" 240
 		"Empire Torpedo Rack" 20
-		"Antimatter Railgun" 2
-		"Railgun Slug" 560
-		"Railgun Slug Rack"
 		"Alldust Beam Canon" 6
 
 		"Multiphasic Anti-Missile" 2
@@ -369,7 +366,9 @@ ship "Empire Palavret"
 		"Cloaking Module"
 		"Compact Plasma Drive"
 	
-	engine 32.5 146.5
+	engine 19.5 128
+		zoom 1.6
+	engine -19.5 128
 		zoom 1.6
 	engine -78.5 153
 		zoom 1.8
@@ -385,10 +384,8 @@ ship "Empire Palavret"
 	gun 68.5 -145.5 "Alldust Beam Canon"
 	gun 58.5 -147 "Alldust Beam Canon"
 	gun 49.5 -148.5 "Alldust Beam Canon"
-	gun -68 -64 "Antimatter Railgun"
-	gun 68 -64 "Antimatter Railgun"
-	gun -63.5 -53 "Empire Torpedo Bank"
-	gun 63.5 -53 "Empire Torpedo Bank"
+	gun 26.5 4.5 "Empire Torpedo Bank"
+	gun -26.5 4.5 "Empire Torpedo Bank"
 	explode "empire tiny explosion" 12
 	explode "empire small explosion" 16
 	explode "empire medium explosion" 30
