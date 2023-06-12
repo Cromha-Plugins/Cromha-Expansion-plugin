@@ -1786,7 +1786,7 @@ mission secure-delivry[0]
 		dialog "The Cromha Empire will not be happy. You got fined 250,000 credits."
 		set "secure empire package ability"
 	on complete
-		payment 3000 750
+		payment 70000 750
 		"reputation: Cromha Empire" += 1
 		"secure empire package" ++
 		dialog phrase "secure package dropoff payment"
@@ -1819,7 +1819,7 @@ mission secure-delivry[1]
 		dialog "The Cromha Empire will not be happy. You got fined 250,000 credits."
 		set "secure empire package ability"
 	on complete
-		payment 3000 750
+		payment 75000 750
 		"reputation: Cromha Empire" += 1
 		"secure empire package" ++
 		dialog phrase "secure package dropoff payment"
