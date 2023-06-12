@@ -1,6 +1,6 @@
 # Outfitters
 outfitter Base-outfitter
-	"Local Map"
+	"Empire Mapper"
 	"Phasic Rifle"
 	"Empire Hai Chasm Batteries"
 	"Empire Hai Fissure Batteries"
