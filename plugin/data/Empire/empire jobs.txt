@@ -214,7 +214,7 @@ mission assist-empire-bounty[0]
 		government "Cromha Empire"
 		attributes urban military
 	destination
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies" "Hai" "Quarg"
 		attributes rich urban tourism
 	on complete
 		"reputation: Cromha Empire" += 10
@@ -245,7 +245,7 @@ mission assist-empire-syndicate[0]
 		government "Cromha Empire"
 		attributes urban military
 	destination
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies" "Hai" "Quarg"
 		attributes syndicate "core"
 	on complete
 		"reputation: Cromha Empire" += 10
@@ -273,7 +273,7 @@ mission assist-empire-rebels[0]
 		random < 25
 		"combat rating" > 1500
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies" "Hai" "Quarg"
 		attributes urban military
 	destination
 		government "Cromha Empire"
@@ -724,9 +724,9 @@ mission cargo-delivry-food[0]
 	to offer
 		random < 40
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" 
 	destination
-		distance 1 5
+		distance 1 3
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
@@ -764,7 +764,7 @@ mission cargo-delivry-food[2]
 	source
 		government "Cromha Empire"
 	destination
-		distance 1 5
+		distance 1 8
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
@@ -783,7 +783,7 @@ mission cargo-delivry-food[3]
 	source
 		government "Cromha Empire"
 	destination
-		distance 1 5
+		distance 1 10
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
@@ -802,7 +802,7 @@ mission cargo-delivry-food[4]
 	source
 		government "Cromha Empire"
 	destination
-		distance 1 5
+		distance 1 17
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
@@ -821,7 +821,7 @@ mission cargo-delivry-clothing[0]
 	source
 		government "Cromha Empire"
 	destination
-		distance 1 5
+		distance 1 3
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
@@ -859,7 +859,7 @@ mission cargo-delivry-clothing[2]
 	source
 		government "Cromha Empire"
 	destination
-		distance 1 5
+		distance 1 8
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
@@ -878,7 +878,7 @@ mission cargo-delivry-equipment[0]
 	source
 		government "Cromha Empire"
 	destination
-		distance 1 5
+		distance 1 10
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
@@ -897,7 +897,7 @@ mission cargo-delivry-equipment[1]
 	source
 		government "Cromha Empire"
 	destination
-		distance 1 5
+		distance 1 17
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
@@ -916,7 +916,7 @@ mission cargo-delivry-equipment[2]
 	source
 		government "Cromha Empire"
 	destination
-		distance 1 5
+		distance 1 4
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
@@ -935,7 +935,7 @@ mission cargo-delivry-medical[0]
 	source
 		government "Cromha Empire"
 	destination
-		distance 1 5
+		distance 1 6
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
@@ -954,7 +954,7 @@ mission cargo-delivry-medical[1]
 	source
 		government "Cromha Empire"
 	destination
-		distance 1 5
+		distance 1 10
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
@@ -973,7 +973,7 @@ mission cargo-delivry-electronics[0]
 	source
 		government "Cromha Empire"
 	destination
-		distance 1 5
+		distance 1 7
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
@@ -992,7 +992,7 @@ mission cargo-delivry-electronics[1]
 	source
 		government "Cromha Empire"
 	destination
-		distance 1 5
+		distance 1 8
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
@@ -1011,7 +1011,7 @@ mission cargo-delivry-electronics[2]
 	source
 		government "Cromha Empire"
 	destination
-		distance 1 5
+		distance 1 12
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
@@ -1031,7 +1031,7 @@ mission bulk-delivry-food[0]
 	source
 		government "Cromha Empire"
 	destination
-		distance 1 5
+		distance 1 9
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
@@ -1050,7 +1050,7 @@ mission bulk-delivry-food[1]
 	source
 		government "Cromha Empire"
 	destination
-		distance 1 5
+		distance 1 12
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
@@ -1069,7 +1069,7 @@ mission bulk-delivry-food[2]
 	source
 		government "Cromha Empire"
 	destination
-		distance 1 5
+		distance 1 7
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
@@ -1088,7 +1088,7 @@ mission bulk-delivry-food[3]
 	source
 		government "Cromha Empire"
 	destination
-		distance 1 5
+		distance 1 10
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
@@ -1107,7 +1107,7 @@ mission bulk-delivry-food[4]
 	source
 		government "Cromha Empire"
 	destination
-		distance 1 5
+		distance 1 11
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
@@ -1126,7 +1126,7 @@ mission bulk-delivry-clothing[0]
 	source
 		government "Cromha Empire"
 	destination
-		distance 1 5
+		distance 1 9
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
@@ -1145,7 +1145,7 @@ mission bulk-delivry-clothing[1]
 	source
 		government "Cromha Empire"
 	destination
-		distance 1 5
+		distance 1 7
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
@@ -1164,7 +1164,7 @@ mission bulk-delivry-clothing[2]
 	source
 		government "Cromha Empire"
 	destination
-		distance 1 5
+		distance 1 8
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
@@ -1183,7 +1183,7 @@ mission bulk-delivry-equipment[0]
 	source
 		government "Cromha Empire"
 	destination
-		distance 1 5
+		distance 1 6
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
@@ -1202,7 +1202,7 @@ mission bulk-delivry-equipment[1]
 	source
 		government "Cromha Empire"
 	destination
-		distance 1 5
+		distance 1 10
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
@@ -1221,7 +1221,7 @@ mission bulk-delivry-equipment[2]
 	source
 		government "Cromha Empire"
 	destination
-		distance 1 5
+		distance 1 10
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
@@ -1240,7 +1240,7 @@ mission bulk-delivry-medical[0]
 	source
 		government "Cromha Empire"
 	destination
-		distance 1 5
+		distance 1 11
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
@@ -1259,7 +1259,7 @@ mission bulk-delivry-medical[1]
 	source
 		government "Cromha Empire"
 	destination
-		distance 1 5
+		distance 1 7
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
@@ -1278,7 +1278,7 @@ mission bulk-delivry-electronics[0]
 	source
 		government "Cromha Empire"
 	destination
-		distance 1 5
+		distance 1 8
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
@@ -1297,7 +1297,7 @@ mission bulk-delivry-electronics[1]
 	source
 		government "Cromha Empire"
 	destination
-		distance 1 5
+		distance 1 9
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
@@ -1316,7 +1316,7 @@ mission bulk-delivry-electronics[2]
 	source
 		government "Cromha Empire"
 	destination
-		distance 1 5
+		distance 1 11
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
@@ -1679,7 +1679,7 @@ mission merchant-escort[0]
 		government "Cromha Empire"
 		distance 1 3
 	destination
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies" "Hai" "Quarg"
 		distance 1 3
 	on complete
 		payment
@@ -1709,7 +1709,7 @@ mission merchant-escort[1]
 		government "Cromha Empire"
 		distance 1 3
 	destination
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies" "Hai" "Quarg"
 		distance 1 3
 	on complete
 		payment
@@ -1739,7 +1739,67 @@ mission merchant-escort[2]
 		government "Cromha Empire"
 		distance 1 3
 	destination
+		government "Cromha Empire" "Mineria colonnies" "Hai" "Quarg"
+		distance 1 3
+	on complete
+		payment
+		payment 60000
+		dialog "Captain <npc> greets you and gives you <payment>."
+	npc save accompany
+		government "Merchant"
+		personality escort timid
+		fleet cromha-merchants
+	npc
+		government "Empire Rebels"
+		fleet empire-rebels-raiders
+		system
+			distance 1 3
+	on visit
+		dialog "You've landed on your destination but it semms that your escorts are still not here. Wait for them then land back."
+
+mission merchant-escort[3]
+	name "Escort to <planet>"
+	description "Escort the Captain '<npc>' to <destination>. Empire Rebels will be on your way so be carefull. Payment is <payment>."
+	repeat
+	job
+	to offer
+		random < 30
+		"combat rating" > 150
+	source
 		government "Cromha Empire"
+		distance 1 3
+	destination
+		government "Cromha Empire" "Mineria colonnies" "Hai" "Quarg"
+		distance 1 3
+	on complete
+		payment
+		payment 60000
+		dialog "Captain <npc> greets you and gives you <payment>."
+	npc save accompany
+		government "Merchant"
+		personality escort timid
+		fleet cromha-merchants
+	npc
+		government "Empire Rebels"
+		fleet empire-rebels-raiders
+		system
+			distance 1 3
+	on visit
+		dialog "You've landed on your destination but it semms that your escorts are still not here. Wait for them then land back."
+
+mission merchant-escort[4]
+	name "Escort to <planet>"
+	description "Escort the Captain '<npc>' to <destination>. Empire Rebels will be on your way so be carefull. Payment is <payment>."
+	repeat
+	job
+	to offer
+		random < 30
+		"combat rating" > 150
+	source
+		government "Cromha Empire"
+		distance 1 3
+	destination
+		government "Cromha Empire" "Mineria colonnies" "Hai" "Quarg"
 		distance 1 3
 	on complete
 		payment
@@ -1782,9 +1842,11 @@ mission secure-delivry[0]
 	on abort
 		dialog "The Cromha Empire will not be happy. You got fined 250,000 credits."
 		set "secure empire package ability"
+		fine 250000
 	on fail
 		dialog "The Cromha Empire will not be happy. You got fined 250,000 credits."
 		set "secure empire package ability"
+		fine 250000
 	on complete
 		payment 70000 750
 		"reputation: Cromha Empire" += 1
@@ -1815,9 +1877,11 @@ mission secure-delivry[1]
 	on abort
 		dialog "The Cromha Empire will not be happy. You got fined 250,000 credits."
 		set "secure empire package ability"
+		fine 250000
 	on fail
 		dialog "The Cromha Empire will not be happy. You got fined 250,000 credits."
 		set "secure empire package ability"
+		fine 250000
 	on complete
 		payment 75000 750
 		"reputation: Cromha Empire" += 1
@@ -1833,7 +1897,7 @@ mission bring-tourist[0]
 	source
 		government "Cromha Empire"
 	destination
-		attributes toursim tourist paradise
+		attributes toursim tourist
 		distance 3 8
 	to offer
 		random < 35
@@ -1849,7 +1913,7 @@ mission bring-tourist[1]
 	source
 		government "Cromha Empire"
 	destination
-		attributes toursim tourist paradise
+		attributes toursim tourist
 		distance 2 5
 	to offer
 		random < 35
@@ -1865,7 +1929,7 @@ mission bring-tourist[2]
 	source
 		government "Cromha Empire"
 	destination
-		attributes toursim tourist paradise
+		attributes toursim tourist
 		distance 1 3
 	to offer
 		random < 35
@@ -1881,7 +1945,7 @@ mission bring-tourist[3]
 	source
 		government "Cromha Empire"
 	destination
-		attributes toursim tourist paradise
+		attributes toursim tourist
 		distance 5 9
 	to offer
 		random < 35
@@ -1959,7 +2023,7 @@ mission passenger-transport[0]
 		government "Cromha Empire"
 	destination
 		not government "Syndicate" "Quarg" "Pug" "Empire Rebels"
-		distance 1 6
+		distance 1 9
 	to offer
 		random < 35
 	on complete
@@ -2011,7 +2075,7 @@ mission passenger-transport[3]
 		government "Cromha Empire"
 	destination
 		not government "Syndicate" "Quarg" "Pug" "Empire Rebels"
-		distance 2 4
+		distance 2 12
 	to offer
 		random < 35
 	on complete
@@ -2028,7 +2092,7 @@ mission passenger-transport[4]
 		government "Cromha Empire"
 	destination
 		not government "Syndicate" "Quarg" "Pug" "Empire Rebels"
-		distance 1 3
+		distance 1 17
 	to offer
 		random < 35
 	on complete
@@ -2045,7 +2109,7 @@ mission passenger-transport[5]
 		government "Cromha Empire"
 	destination
 		not government "Syndicate" "Quarg" "Pug" "Empire Rebels"
-		distance 1 8
+		distance 1 3
 	to offer
 		random < 35
 	on complete
@@ -2184,6 +2248,46 @@ mission prisonner-empire[2]
 		payment 13500
 		dialog "You bring the prisonner to an empire authoritie. He pays you <payment>."
 
+mission prisonner-empire[3]
+	name "Prisonner to <planet>"
+	description "Bring an empire prisonner safely to <destination> before the date of <date>. Payment is <payment>."
+	job
+	repeat
+	passengers 1
+	deadline 1 2
+	source
+		government "Cromha Empire"
+	destination
+		government "Cromha Empire"
+		attributes military
+		distance 1 2
+	to offer
+		random < 50
+	on complete
+		payment
+		payment 13500
+		dialog "You bring the prisonner to an empire authoritie. He pays you <payment>."
+
+mission prisonner-empire[4]
+	name "Prisonner to <planet>"
+	description "Bring an empire prisonner safely to <destination> before the date of <date>. Payment is <payment>."
+	job
+	repeat
+	passengers 1
+	deadline 1 2
+	source
+		government "Cromha Empire"
+	destination
+		government "Cromha Empire"
+		attributes military
+		distance 1 2
+	to offer
+		random < 50
+	on complete
+		payment
+		payment 13500
+		dialog "You bring the prisonner to an empire authoritie. He pays you <payment>."
+
 # Vacancers
 mission vacancer[0]
 	name "Vacancer to <planet>"
@@ -2196,8 +2300,8 @@ mission vacancer[0]
 		government "Cromha Empire"
 	destination
 		not government "Empire Rebels" "Syndicate"
-		attributes tourism torist
-		distance 1 3
+		attributes tourism
+		distance 1 7
 	to offer
 		random < 35
 	on complete
@@ -2215,8 +2319,8 @@ mission vacancer[1]
 		government "Cromha Empire"
 	destination
 		not government "Empire Rebels" "Syndicate"
-		attributes tourism torist
-		distance 2 5
+		attributes tourism
+		distance 2 11
 	to offer
 		random < 45
 	on complete
@@ -2234,8 +2338,8 @@ mission vacancer[2]
 		government "Cromha Empire"
 	destination
 		not government "Empire Rebels" "Syndicate"
-		attributes tourism torist
-		distance 1 3
+		attributes tourism
+		distance 1 12
 	to offer
 		random < 40
 	on complete
@@ -2253,8 +2357,8 @@ mission vacancer[4]
 		government "Cromha Empire"
 	destination
 		not government "Empire Rebels" "Syndicate"
-		attributes tourism torist
-		distance 2 6
+		attributes tourism
+		distance 2 9
 	to offer
 		random < 55
 	on complete
@@ -2272,8 +2376,8 @@ mission miner[0]
 	source
 		government "Cromha Empire"
 	destination
-		government "Cromha Empire" "Mineria colonnies"
-		attributes mining oil
+		government "Cromha Empire" "Mineria colonnies" "Hai"
+		attributes mining
 		distance 1 12
 	to offer
 		random < 40
@@ -2291,7 +2395,7 @@ mission miner[1]
 		government "Cromha Empire"
 	destination
 		government "Cromha Empire" "Mineria colonnies"
-		attributes mining oil
+		attributes mining
 		distance 1 12
 	to offer
 		random < 55
@@ -2308,8 +2412,8 @@ mission miner[2]
 	source
 		government "Cromha Empire"
 	destination
-		government "Cromha Empire" "Mineria colonnies"
-		attributes mining oil
+		government "Cromha Empire" "Mineria colonnies" "Hai"
+		attributes mining
 		distance 1 12
 	to offer
 		random < 35
@@ -2326,8 +2430,8 @@ mission miner[3]
 	source
 		government "Cromha Empire"
 	destination
-		government "Cromha Empire" "Mineria colonnies"
-		attributes mining oil
+		government "Cromha Empire" "Mineria colonnies" "Hai"
+		attributes mining
 		distance 1 12
 	to offer
 		random < 45
@@ -2346,7 +2450,7 @@ mission worker-factory[0]
 	source
 		government "Cromha Empire"
 	destination
-		government "Cromha Empire" "Mineria colonnies"
+		government "Cromha Empire" "Mineria colonnies" "Hai" "Quarg"
 		attributes factory
 		distance 1 8
 	to offer
@@ -2364,9 +2468,28 @@ mission worker-factory[1]
 	source
 		government "Cromha Empire"
 	destination
-		government "Cromha Empire" "Mineria colonnies"
+		government "Cromha Empire" "Mineria colonnies" "Hai" "Quarg"
 		attributes factory
-		distance 1 8
+		distance 1 9
+	to offer
+		random < 45
+	on complete
+		payment
+		payment 12040 750
+		dialog "You land on <planet> and the worker(s) pay you <payment>."
+
+mission worker-factory[1]
+	name "Worker to <planet>"
+	description "Transport 2 workers to the <planet> facotry in the <system> system. Payment is <payment>."
+	job
+	repeat
+	passengers 2
+	source
+		government "Cromha Empire"
+	destination
+		government "Cromha Empire" "Mineria colonnies" "Hai" "Quarg"
+		attributes factory
+		distance 1 12
 	to offer
 		random < 45
 	on complete
