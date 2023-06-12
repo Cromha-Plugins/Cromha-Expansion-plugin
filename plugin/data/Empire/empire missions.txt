@@ -97,7 +97,6 @@ mission empire-syndicate-attack
     description "The <system> system is under attack by Syndicates. Help The Empire to defend the system and you'll get well recompensed by The Empire."
     source
         government "Cromha Empire"
-        attributes syndicate
     to offer
         random < 5
     destination source
