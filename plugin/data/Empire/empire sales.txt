@@ -255,7 +255,3 @@ shipyard Advanced-lifdot-industries-shipyard
 	"Empire Colinizer"
 	"Black Manta"
 	"Empire Palavret"
-	"Heron"
-	"Pug Arfecta"
-	"Archon"
-	"Ararebo"
