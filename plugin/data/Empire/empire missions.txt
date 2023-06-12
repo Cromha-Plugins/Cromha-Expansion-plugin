@@ -89,3 +89,44 @@ mission empire-kor-mereit-attack
         payment
         payment 650000
         dialog "You recieve 650,000 credits from The Empire for defending <system> from the Kor Mereti fleets."
+
+mission empire-syndicate-attack
+    landing
+    repeat
+    name "Defend <system> from Syndicates"
+    description "The <system> system is under attack by Syndicates. Help The Empire to defend the system and you'll get well recompensed by The Empire."
+    source
+        government "Cromha Empire"
+        attributes syndicate
+    to offer
+        random < 5
+    destination source
+    on offer
+        conversation
+            "As you land on <planet>, you hear a huge noise: it look like a siren. You wondering what's all about when you hear an other huge noise around you:"
+            "   The <system> system is under attack by a Syndicate fleet. The Empire ask to everyone with a well armed ship to defend the planet. You guess that you'll get well payed if you defend <planet>."
+            choice
+                "   Join the defense fleet (accept)"
+                    launch
+                "   Don't do anything (decline)"
+                    decline
+    npc kill
+        government "Syndicate"
+        fleet "Large Syndicate"
+        fleet "Large Syndicate"
+        fleet "Smal Syndicate"
+        fleet "Smal Syndicate"
+        dialog "The last Syndicate ship has been destroyed. Time to land on <planet> to get your payment."
+    npc
+        government "Mineria colonnies"
+        fleet mineria-transports
+        fleet mineria-transports
+        fleet mineria-transports
+    npc
+        government "Merchant"
+        fleet cromha-merchants
+        fleet cromha-merchants
+    on complete
+        payment
+        payment 650000
+        dialog "You recieve 650,000 credits from The Empire for defending <system> from the Syndicate fleets."
