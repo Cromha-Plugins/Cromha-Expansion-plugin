@@ -1,7 +1,7 @@
 government "Cromha Empire"
 	"display name" "Cromha Empire"
-	"player reputation" 1
-	"crew attack" 6
+	"player reputation" 0
+	"crew attack" 7
 	"crew defense" 8
 	"penalty for"
 		assist -0.4
@@ -39,7 +39,8 @@ government "Cromha Empire"
 	swizzle 0
 	color .415 .553 1
 	bribe 0
-	fine 5
+	fine 7
+	"provoked on scan"
 	illegals
 		"Interference Plating" 7000
 		"Drugs" 1500
@@ -53,32 +54,35 @@ government "Cromha Empire"
 
 government "Empire Rebels"
 	"display name" "Empire Rebels"
+	"player reputation" -1
 	"atitude toward"
 		Pirate 1
 		Syndicate -1
 		"Mineria colonnies" -5
 		"Cromha Empire" -5
-		Republic -1
-		"Deep Security" -1
+		"Hai (Unfettered)" 5
+
+		# Empire allies
+		"Quarg" -5
+		"Remnant" -5
+		"Wanderer" -5
+		Republic -5
+		"Deep Security" -5
 		Hai -5
 		"Merchant" -1
 		"Indigene Creature" -1
 		"Hai Merchant" -5
 		"Hai Merchant (Sympathizers)" -5
 		"Hai Merchant (Human)" 5
-		"Hai (Unfettered)" -5
-		"Quarg" -1
-		"Wanderer" -3
-		"Remnant" -3
+
 		"Kor Sestor" -3
 		"Kor Mereti" -3
 		"Korath" -2
 		"Kor Efreti" -3
-		"Quarg" -1
 	raid cromha-fleet
 	swizzle 3
 	color 0 255 0 1
-	"provoke on scan"
+	"provoked on scan"
 	bribe 1
 	fine 2
 
@@ -124,6 +128,7 @@ government "Mineria colonnies"
 	color "shields"
 	bribe 0
 	fine 5
+	"provoked on scan"
 	"friendly hail" "empire friendly hail"
 	"friendly disabled hail" "empire friendly disabled hail"
 	"hostile hail" "empire hostile hail"

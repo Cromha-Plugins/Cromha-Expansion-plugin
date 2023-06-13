@@ -13,8 +13,9 @@ government "Quarg"
 		"Pirate" -.01
 		"Pirate (Devil-Run Gang)" -.01
 		"Gegno" 0.1
-            "Empire Rebels" -1
-            "Cromha Empire" 1
+            "Empire Rebels" -5
+            "Cromha Empire" 5
+		"Mineria colonnies" 5
 	"use foreign penalties for"
 		"Gegno"
 	"death sentence" "quarg imprisonment"
@@ -63,9 +64,105 @@ government "Wanderer"
 		"Hai (Unfettered Wanderer Tribute)" .1
 		"Cromha Empire" 3
 		"Mineria colonnies" 3
+		"Empire Rebels" -5
 	language "Wanderer"
 	"send untranslated hails"
 	"friendly hail" "wanderer untranslated"
 	"friendly disabled hail" "wanderer untranslated"
 	"hostile hail" "wanderer untranslated"
 	"hostile disabled hail" "wanderer untranslated"
+
+government "Remnant"
+	swizzle 0
+	color "governments: Remnant"
+	"crew defense" 2.2
+	
+	"player reputation" 1
+	"bribe" 0
+	"attitude toward"
+		"Indigenous Lifeform" 0.05
+		"Korath" -.05
+		"Alpha" -.05
+		"Remnant (Research)" 1
+		"Empire Rebels" -5
+		"Cromha Empire" 5
+		"Mineria colonnies" 5
+	"penalty for"
+		assist -0.25
+		disable 1
+		board 1
+		capture 10
+		destroy 10
+		scan 0.1
+	"foreign penalties for"
+		"Remnant (Research)"
+	"custom penalties for"
+		"Indigenous Lifeform"
+			scan 0
+	"provoked on scan"
+	"friendly hail" "remnant uncontacted"
+	"hostile hail" "remnant uncontacted hostile"
+
+government "Republic"
+	swizzle 0
+	color "governments: Republic"
+	"crew attack" 1.2
+	"crew defense" 2.2
+	
+	"player reputation" 2
+	"attitude toward"
+		"Alpha" -.3
+		"Merchant" .25
+		"Militia" .1
+		"Pirate" -.3
+		"Pirate (Devil-Run Gang)" -.3
+		"Republic that won't enter wormhole" 1
+		"Smuggler (Hai Trafficker)" .25
+		"Navy Intelligence" 1
+		"Republic Intelligence" 1
+		"Navy (Oathkeeper)" 1
+		"Neutral" .1
+		"Empire Rebels" -5
+		"Cromha Empire" 1
+		"Mineria colonnies" 1
+	"friendly hail" "friendly navy"
+	"hostile hail" "hostile navy"
+	raid "pirate raid"
+
+government "Deep Security"
+	swizzle 0
+	"player reputation" 1
+	"attitude toward"
+		"Merchant" .5
+		"Pirate" -.2
+		"Pirate (Devil-Run Gang)" -.2
+		"Smuggler (Hai Trafficker)" -.2
+		"Empire Rebels" -5
+		"Cromha Empire" 1
+		"Mineria colonnies" 1
+	"friendly hail" "friendly deep"
+	"hostile hail" "hostile deep"
+
+government "Hai"
+	swizzle 0
+	color "governments: Hai"
+	
+	"player reputation" 0
+	"attitude toward"
+		"Hai (Wormhole Access)" 1
+		"Hai Merchant" 1
+		"Hai Merchant (Sympathizers)" 1
+		"Hai Merchant (Human)" 1
+		"Hai (Unfettered)" -.1
+		"Hai (Friendly Unfettered)" .1
+		"Hai (Unfettered Civilians)" .1
+		"Merchant" .01
+		"Elenctic Commune" .1
+		"Empire Rebels" -5
+		"Cromha Empire" 5
+		"Mineria colonnies" 5
+	"bribe" .2
+	"friendly hail" "friendly hai"
+	"friendly disabled hail" "friendly disabled hai"
+	"hostile hail" "hostile hai"
+	"hostile disabled hail" "hostile disabled hai"
