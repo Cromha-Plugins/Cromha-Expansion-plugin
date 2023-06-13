@@ -440,10 +440,10 @@ ship "Light Empire Destroyer"
 	turret 16 36 "Multiphasic Anti-Missile"
 	turret -36 -46 "Grab-Strike Blaze"
 	turret -37 -27.5 "Grab-Strike Blaze"
-	turret -39.5 -6.5 "Nuclavoltaic Repeater"
+	gun -39.5 -6.5 "Nuclavoltaic Repeater"
 	turret 36 -46 "Grab-Strike Blaze"
 	turret 37 -27.5 "Grab-Strike Blaze"
-	turret 39.5 -6.5 "Nuclavoltaic Repeater"
+	gun 39.5 -6.5 "Nuclavoltaic Repeater"
 	bay "Nanobot" 0 0
 	bay "Nanobot" 0 0
 	bay "Nanobot" 0 0
