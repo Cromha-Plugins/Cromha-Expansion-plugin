@@ -85,12 +85,12 @@ ship "Empire Wardragon" "Empire Wardragon (Ion Proton)"
 	# Weapons
 	turret 27.5 5.5 "Multiphasic Anti-Missile"
 	turret -27.5 5.5 "Multiphasic Anti-Missile"
-	gun -12.5 -33.5 "Empire Particle gun"
-	gun 12.5 -33.5 "Empire Particle gun"
-	gun -42 -15.5 "Empire Particle gun"
-	gun 42 -15.5 "Empire Particle gun"
-	gun -9 -51.5 "Empire Particle gun"
-	gun 9 -51.5 "Empire Particle gun"
+	gun -12.5 -33.5 "Ion Proton Gun"
+	gun 12.5 -33.5 "Ion Proton Gun"
+	gun -42 -15.5 "Ion Proton Gun"
+	gun 42 -15.5 "Ion Proton Gun"
+	gun -9 -51.5 "Ion Proton Gun"
+	gun 9 -51.5 "Ion Proton Gun"
 	gun 10 -1 "Empire Torpedo Bank"
 	gun -10 -1 "Empire Torpedo Bank"
 	gun 8 -13.5 "Antimatter Railgun"
@@ -246,7 +246,7 @@ ship "Empire Wardragon" "Empire Wardragon (Plasma Repeater)"
 			"hull damage" 9500
 			"hit force" 300
 	outfits
-		"Plasma Repeater" 6
+		"Nuclavoltaic Repeater" 6
 		"Empire Torpedo Bank" 2
 		"Empire Torpedo Missile" 240
 		"Empire Torpedo Rack" 20
@@ -299,12 +299,12 @@ ship "Empire Wardragon" "Empire Wardragon (Plasma Repeater)"
 	# Weapons
 	turret 27.5 5.5 "Multiphasic Anti-Missile"
 	turret -27.5 5.5 "Multiphasic Anti-Missile"
-	gun -12.5 -33.5 "Empire Particle gun"
-	gun 12.5 -33.5 "Empire Particle gun"
-	gun -42 -15.5 "Empire Particle gun"
-	gun 42 -15.5 "Empire Particle gun"
-	gun -9 -51.5 "Empire Particle gun"
-	gun 9 -51.5 "Empire Particle gun"
+	gun -12.5 -33.5 "Nuclavoltaic Repeater"
+	gun 12.5 -33.5 "Nuclavoltaic Repeater"
+	gun -42 -15.5 "Nuclavoltaic Repeater"
+	gun 42 -15.5 "Nuclavoltaic Repeater"
+	gun -9 -51.5 "Nuclavoltaic Repeater"
+	gun 9 -51.5 "Nuclavoltaic Repeater"
 	gun 10 -1 "Empire Torpedo Bank"
 	gun -10 -1 "Empire Torpedo Bank"
 	gun 8 -13.5 "Antimatter Railgun"
@@ -779,7 +779,7 @@ ship "Empire Skylark" "Empire Skylark (Plasma Repeater)"
 			"hull damage" 10500
 			"hit force" 300
 	outfits
-		"Plasma Repeater" 6
+		"Nuclavoltaic Repeater" 6
 		"Empire Torpedo Bank" 2
 		"Empire Torpedo Missile" 240
 		"Empire Torpedo Rack" 20
@@ -832,12 +832,12 @@ ship "Empire Skylark" "Empire Skylark (Plasma Repeater)"
 		under
 	bay "Nanobot" 25.5 32.5
 		under
-	gun -29.5 -72.5 "Empire Particle gun"
-	gun -63.5 -31.5 "Empire Particle gun"
-	gun -14 -85 "Empire Particle gun"
-	gun 29.5 -72.5 "Empire Particle gun"
-	gun 63.5 -31.5 "Empire Particle gun"
-	gun 14 -85 "Empire Particle gun"
+	gun -29.5 -72.5 "Nuclavoltaic Repeater"
+	gun -63.5 -31.5 "Nuclavoltaic Repeater"
+	gun -14 -85 "Nuclavoltaic Repeater"
+	gun 29.5 -72.5 "Nuclavoltaic Repeater"
+	gun 63.5 -31.5 "Nuclavoltaic Repeater"
+	gun 14 -85 "Nuclavoltaic Repeater"
 	gun -64.5 -32.5 "Empire Torpedo Bank"
 	gun 64.5 -32.5 "Empire Torpedo Bank"
 	gun -34 -7.5 "Antimatter Railgun"

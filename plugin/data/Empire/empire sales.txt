@@ -31,6 +31,7 @@ outfitter Basic-weapons-outfitter
 	"Phasic Grenades"
 	"Grab-Strike Blaze"
 	"Alldust Beam Canon"
+	"Nuclavoltaic Repeater"
 outfitter Basic-systems-outfitter
 	"Cargo Expansion"
 	"Ramscoop"

@@ -671,3 +671,43 @@ effect "alldust beam impact"
 	"random angle" 360
 	"random velocity" 2
 	"velocity scale" -.002
+
+outfit "Nuclavoltaic Repeater"
+	category "Guns"
+	cost 306000
+	thumbnail "outfit/nucleavoltaic repeater"
+	"mass" 11
+	"outfit space" -11
+	"weapon capacity" -11
+	"energy capacity" 100
+	"gun ports" -1
+	licenses
+		"Empire Contributor"
+	weapon
+		sprite "projectile/nucleavoltaic repeater"
+			"frame rate" 5
+		sound "repeater"
+		"hit effect" "nucleavoltaic repeater impact"
+		"inaccuracy" 4
+		"velocity" 13
+		"lifetime" 40
+		"reload" 10
+		"burst reload" 4
+		"burst count" 3
+		"cluster"
+		"firing energy" 24
+		"firing heat" .7
+		"shield damage" 37
+		"hull damage" 27
+		"heat damage" 77
+	description "This is the smallest and simplest Cromha Empire projectile weapon, designed mostly for use on light destroyers and other ships. As with most Empire technology, it generates a large amount of heat and energy, enough that the gun must pause briefly after every few shots to cool down."
+
+effect "nucleavoltaic repeater impact"
+	sprite "effect/nucleavoltaic repeater impact"
+		"no repeat"
+		"frame rate" 12
+	"lifetime" 21
+	"random angle" 360
+	"random spin" 100
+	"random velocity" .6
+	"velocity scale" -.1

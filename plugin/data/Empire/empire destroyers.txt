@@ -400,7 +400,8 @@ ship "Light Empire Destroyer"
 		"Empire Torpedo Rack"
 		"Antimatter Railgun"
 		"Railgun Slug" 30
-		"Grab-Strike Blaze" 6
+		"Grab-Strike Blaze" 4
+		"Nuclavoltaic Repeater" 2
 		
 		"RC-X3 Multiphasic Reactor"
 		"RC-X2 Multiphasic Reactor" 2
@@ -439,10 +440,10 @@ ship "Light Empire Destroyer"
 	turret 16 36 "Multiphasic Anti-Missile"
 	turret -36 -46 "Grab-Strike Blaze"
 	turret -37 -27.5 "Grab-Strike Blaze"
-	turret -39.5 -6.5 "Grab-Strike Blaze"
+	turret -39.5 -6.5 "Nuclavoltaic Repeater"
 	turret 36 -46 "Grab-Strike Blaze"
 	turret 37 -27.5 "Grab-Strike Blaze"
-	turret 39.5 -6.5 "Grab-Strike Blaze"
+	turret 39.5 -6.5 "Nuclavoltaic Repeater"
 	bay "Nanobot" 0 0
 	bay "Nanobot" 0 0
 	bay "Nanobot" 0 0
