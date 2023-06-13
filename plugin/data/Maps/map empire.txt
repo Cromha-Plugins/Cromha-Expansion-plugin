@@ -1015,8 +1015,8 @@ planet "Dragon Station"
 	shipyard Advanced-interceptors-shipyard
 
 planet "For Lastru"
-	attributes korath
-	government Uninhabited
+	attributes korath minning military oil
+	government "Mineria colonnies"
 	landscape land/badlands7
 	description "This planet is full of great red tainted canyons. It has insane paysages."
 	description `Long ago, this planet was home to several Korath oil mining settlements, but now all that remains visible are the tops of a few dozen of the tallest buildings. Everything else has been buried by sandstorms.`
