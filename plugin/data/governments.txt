@@ -31,7 +31,7 @@ government "Cromha Empire"
 		"Kor Mereti" -3
 		"Korath" -2
 		"Kor Efreti" -3
-		"Wanderer" 1
+		"Wanderer" 3
 		"Remnant" 1
 		"Quarg" 1
 	"death sentence" "empire imprisonment"
@@ -115,7 +115,7 @@ government "Mineria colonnies"
 		"Kor Mereti" -3
 		"Korath" -2
 		"Kor Efreti" -3
-		"Wanderer" 1
+		"Wanderer" 3
 		"Remnant" 1
 		"Quarg" 1
 	"death sentence" "empire imprisonment"

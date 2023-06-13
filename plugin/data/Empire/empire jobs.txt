@@ -6,7 +6,7 @@ mission hai-embassade-escort[0]
 	name "Escort Hai Embassador to <destination>"
 	description "An Hai Empire Embassador want to go back on <destination>. Bring him back to <destination>. Payment is <payment>."
 	source
-		government "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Hai (Unfettered)"
+		government "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)"
 		not planet "Witdrew"
 	destination "Witdrew"
 	to offer
@@ -31,11 +31,11 @@ mission mineria-colonnies-transport-escort[0]
 	to offer
 		random < 35
 	source
-		government "Cromha Empire" "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Hai (Unfettered)"
+		government "Cromha Empire" "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)"
 		not planet "Mineria"
 	destination
 		distance 10 30
-		government "Republic" "Cromha Empire" "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Hai (Unfettered)"
+		government "Republic" "Cromha Empire" "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Wanderer"
 		attributes factory
 	on complete
 		payment
@@ -72,11 +72,11 @@ mission mineria-colonnies-transport-escort[1]
 	to offer
 		random < 35
 	source
-		government "Cromha Empire" "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Hai (Unfettered)"
+		government "Cromha Empire" "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)"
 		not planet "Mineria"
 	destination
 		distance 10 30
-		government "Republic" "Cromha Empire" "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Hai (Unfettered)"
+		government "Republic" "Cromha Empire" "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Wanderer"
 		attributes factory
 	on complete
 		payment
@@ -113,11 +113,11 @@ mission mineria-colonnies-transport-escort[2]
 	to offer
 		random < 35
 	source
-		government "Cromha Empire" "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Hai (Unfettered)"
+		government "Cromha Empire" "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)"
 		not planet "Mineria"
 	destination
 		distance 3 10
-		government "Republic" "Cromha Empire" "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Hai (Unfettered)"
+		government "Republic" "Cromha Empire" "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Wanderer"
 		attributes factory
 	on complete
 		payment
@@ -214,7 +214,7 @@ mission assist-empire-bounty[0]
 		government "Cromha Empire"
 		attributes urban military
 	destination
-		government "Cromha Empire" "Mineria colonnies" "Hai" "Quarg"
+		government "Cromha Empire" "Mineria colonnies" "Hai" "Quarg" "Wanderer"
 		attributes rich urban tourism
 	on complete
 		"reputation: Cromha Empire" += 10
@@ -245,7 +245,7 @@ mission assist-empire-syndicate[0]
 		government "Cromha Empire"
 		attributes urban military
 	destination
-		government "Cromha Empire" "Mineria colonnies" "Hai" "Quarg"
+		government "Cromha Empire" "Mineria colonnies" "Hai" "Quarg" "Wanderer"
 		attributes syndicate "core"
 	on complete
 		"reputation: Cromha Empire" += 10
@@ -273,7 +273,7 @@ mission assist-empire-rebels[0]
 		random < 25
 		"combat rating" > 1500
 	source
-		government "Cromha Empire" "Mineria colonnies" "Hai" "Quarg"
+		government "Cromha Empire" "Mineria colonnies" "Hai" "Quarg" "Wanderer"
 		attributes urban military
 	destination
 		government "Cromha Empire"
@@ -1679,7 +1679,7 @@ mission merchant-escort[0]
 		government "Cromha Empire"
 		distance 1 3
 	destination
-		government "Cromha Empire" "Mineria colonnies" "Hai" "Quarg"
+		government "Cromha Empire" "Mineria colonnies" "Hai" "Quarg" "Wanderer"
 		distance 1 3
 	on complete
 		payment
@@ -1709,7 +1709,7 @@ mission merchant-escort[1]
 		government "Cromha Empire"
 		distance 1 3
 	destination
-		government "Cromha Empire" "Mineria colonnies" "Hai" "Quarg"
+		government "Cromha Empire" "Mineria colonnies" "Hai" "Quarg" "Wanderer"
 		distance 1 3
 	on complete
 		payment
@@ -1739,7 +1739,7 @@ mission merchant-escort[2]
 		government "Cromha Empire"
 		distance 1 3
 	destination
-		government "Cromha Empire" "Mineria colonnies" "Hai" "Quarg"
+		government "Cromha Empire" "Mineria colonnies" "Hai" "Quarg" "Wanderer"
 		distance 1 3
 	on complete
 		payment
@@ -1769,7 +1769,7 @@ mission merchant-escort[3]
 		government "Cromha Empire"
 		distance 1 3
 	destination
-		government "Cromha Empire" "Mineria colonnies" "Hai" "Quarg"
+		government "Cromha Empire" "Mineria colonnies" "Hai" "Quarg" "Wanderer"
 		distance 1 3
 	on complete
 		payment
@@ -1799,7 +1799,7 @@ mission merchant-escort[4]
 		government "Cromha Empire"
 		distance 1 3
 	destination
-		government "Cromha Empire" "Mineria colonnies" "Hai" "Quarg"
+		government "Cromha Empire" "Mineria colonnies" "Hai" "Quarg" "Wanderer"
 		distance 1 3
 	on complete
 		payment
@@ -1827,7 +1827,7 @@ mission secure-delivry[0]
 	source
 		government "Cromha Empire"
 	destination
-		distance 2 7
+		distance 2 12
 		attributes military
 		government "Cromha Empire" "Mineria colonnies" "Hai" "Quarg" "Syndicate" "Remnant" "Wanderer"
 	cargo "secure package" 1
@@ -1897,7 +1897,7 @@ mission bring-tourist[0]
 	source
 		government "Cromha Empire"
 	destination
-		attributes toursim tourist
+		attributes toursim
 		distance 3 8
 	to offer
 		random < 35
@@ -1913,7 +1913,7 @@ mission bring-tourist[1]
 	source
 		government "Cromha Empire"
 	destination
-		attributes toursim tourist
+		attributes toursim
 		distance 2 5
 	to offer
 		random < 35
@@ -1929,7 +1929,7 @@ mission bring-tourist[2]
 	source
 		government "Cromha Empire"
 	destination
-		attributes toursim tourist
+		attributes toursim
 		distance 1 3
 	to offer
 		random < 35
@@ -1945,7 +1945,7 @@ mission bring-tourist[3]
 	source
 		government "Cromha Empire"
 	destination
-		attributes toursim tourist
+		attributes toursim
 		distance 5 9
 	to offer
 		random < 35
@@ -2376,7 +2376,7 @@ mission miner[0]
 	source
 		government "Cromha Empire"
 	destination
-		government "Cromha Empire" "Mineria colonnies" "Hai"
+		government "Cromha Empire" "Mineria colonnies" "Hai" "Wanderer"
 		attributes mining
 		distance 1 12
 	to offer
@@ -2394,7 +2394,7 @@ mission miner[1]
 	source
 		government "Cromha Empire"
 	destination
-		government "Cromha Empire" "Mineria colonnies"
+		government "Cromha Empire" "Mineria colonnies" "Wanderer" "Hai"
 		attributes mining
 		distance 1 12
 	to offer
@@ -2412,7 +2412,7 @@ mission miner[2]
 	source
 		government "Cromha Empire"
 	destination
-		government "Cromha Empire" "Mineria colonnies" "Hai"
+		government "Cromha Empire" "Mineria colonnies" "Hai" "Wanderer"
 		attributes mining
 		distance 1 12
 	to offer
@@ -2430,7 +2430,7 @@ mission miner[3]
 	source
 		government "Cromha Empire"
 	destination
-		government "Cromha Empire" "Mineria colonnies" "Hai"
+		government "Cromha Empire" "Mineria colonnies" "Hai" "Wanderer"
 		attributes mining
 		distance 1 12
 	to offer
@@ -2450,7 +2450,7 @@ mission worker-factory[0]
 	source
 		government "Cromha Empire"
 	destination
-		government "Cromha Empire" "Mineria colonnies" "Hai" "Quarg"
+		government "Cromha Empire" "Mineria colonnies" "Hai" "Quarg" "Wanderer"
 		attributes factory
 		distance 1 8
 	to offer
@@ -2468,7 +2468,7 @@ mission worker-factory[1]
 	source
 		government "Cromha Empire"
 	destination
-		government "Cromha Empire" "Mineria colonnies" "Hai" "Quarg"
+		government "Cromha Empire" "Mineria colonnies" "Hai" "Quarg" "Wanderer"
 		attributes factory
 		distance 1 9
 	to offer
@@ -2487,7 +2487,7 @@ mission worker-factory[1]
 	source
 		government "Cromha Empire"
 	destination
-		government "Cromha Empire" "Mineria colonnies" "Hai" "Quarg"
+		government "Cromha Empire" "Mineria colonnies" "Hai" "Quarg" "Wanderer"
 		attributes factory
 		distance 1 12
 	to offer
