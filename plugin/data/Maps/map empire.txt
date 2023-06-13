@@ -1017,7 +1017,16 @@ planet "Dragon Station"
 planet "For Lastru"
 	attributes korath minning military oil
 	government "Mineria colonnies"
+	outfitter Base-outfitter
+	outfitter Basic-ammo-outfitter
+	outfitter Basic-power-outfitter
+	outfitter Basic-systems-outfitter
+	shipyard Base-shipyard
+	shipyard Basic-interceptors-shipyard
+	shipyard Basic-warships-shipyard
+	shipyard Advanced-freighters-shipyard
 	landscape land/badlands7
+	spaceport "This planet is one of the greatest Mineria colonnies. It's basically here that 65% of The Empire oil that they use and sell is produced. If it wasn't right next to the Dragon Station, Empire Rebels would be attacking this station h24."
 	description "This planet is full of great red tainted canyons. It has insane paysages."
 	description `Long ago, this planet was home to several Korath oil mining settlements, but now all that remains visible are the tops of a few dozen of the tallest buildings. Everything else has been buried by sandstorms.`
 	description `	Due to a recent shift in climate the deserts have begun shrinking once more, with local vegetation growing to cover more and more land each year, but the Korath are no longer here to benefit from the change.`
