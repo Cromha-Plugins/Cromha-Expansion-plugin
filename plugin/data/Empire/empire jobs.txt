@@ -31,11 +31,11 @@ mission mineria-colonnies-transport-escort[0]
 	to offer
 		random < 35
 	source
-		government "Cromha Empire" "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)"
+		government "Cromha Empire" "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Mineria colonnies"
 		not planet "Mineria"
 	destination
 		distance 10 30
-		government "Republic" "Cromha Empire" "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Wanderer"
+		government "Republic" "Cromha Empire" "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Wanderer" "Mineria colonnies"
 		attributes factory
 	on complete
 		payment
@@ -72,11 +72,11 @@ mission mineria-colonnies-transport-escort[1]
 	to offer
 		random < 35
 	source
-		government "Cromha Empire" "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)"
+		government "Cromha Empire" "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Mineria colonnies"
 		not planet "Mineria"
 	destination
 		distance 10 30
-		government "Republic" "Cromha Empire" "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Wanderer"
+		government "Republic" "Cromha Empire" "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Wanderer" "Mineria colonnies"
 		attributes factory
 	on complete
 		payment
@@ -113,11 +113,11 @@ mission mineria-colonnies-transport-escort[2]
 	to offer
 		random < 35
 	source
-		government "Cromha Empire" "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)"
+		government "Cromha Empire" "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Mineria colonnies"
 		not planet "Mineria"
 	destination
 		distance 3 10
-		government "Republic" "Cromha Empire" "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Wanderer"
+		government "Republic" "Cromha Empire" "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)" "Wanderer" "Mineria colonnies"
 		attributes factory
 	on complete
 		payment
@@ -155,7 +155,7 @@ mission outlaw-empire-passport[0]
 		random < 15
 		has "outfit: Brig" 1
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 		not planet "Witdrew Station"
 	destination "Witdrew Station"
 	on complete
@@ -174,7 +174,7 @@ mission outlaw-empire-passport[1]
 		random < 15
 		has "outfit: Brig" 1
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 		not planet "Witdrew Station"
 	destination "Witdrew Station"
 	on complete
@@ -193,7 +193,7 @@ mission outlaw-empire-passport[2]
 		random < 15
 		has "outfit: Brig" 1
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 		not planet "Witdrew Station"
 	destination "Witdrew Station"
 	on complete
@@ -211,7 +211,7 @@ mission assist-empire-bounty[0]
 		random < 20
 		"combat rating" > 3000
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 		attributes urban military
 	destination
 		government "Cromha Empire" "Mineria colonnies" "Hai" "Quarg" "Wanderer"
@@ -242,7 +242,7 @@ mission assist-empire-syndicate[0]
 		random < 25
 		"combat rating" > 1500
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 		attributes urban military
 	destination
 		government "Cromha Empire" "Mineria colonnies" "Hai" "Quarg" "Wanderer"
@@ -276,7 +276,7 @@ mission assist-empire-rebels[0]
 		government "Cromha Empire" "Mineria colonnies" "Hai" "Quarg" "Wanderer"
 		attributes urban military
 	destination
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 		neighbor government "Empire Rebels"
 	on complete
 		"reputation: Cromha Empire" += 10
@@ -304,7 +304,7 @@ mission "Harvest (aluminum, small)"
 	to offer
 		random < 30
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	on complete
 		outfit "Aluminum" -50
 		payment 157500
@@ -318,7 +318,7 @@ mission "Harvest (aluminum, large)"
 	to offer
 		random < 20
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	on complete
 		outfit "Aluminum" -100
 		payment 324000
@@ -332,7 +332,7 @@ mission "Harvest (copper, small)"
 	to offer
 		random < 30
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	on complete
 		outfit "Copper" -50
 		payment 262500
@@ -346,7 +346,7 @@ mission "Harvest (copper, large)"
 	to offer
 		random < 20
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	on complete
 		outfit "Copper" -100
 		payment 540000
@@ -360,7 +360,7 @@ mission "Harvest (gold, small)"
 	to offer
 		random < 15
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	on complete
 		outfit "Gold" -50
 		payment 800000
@@ -374,7 +374,7 @@ mission "Harvest (gold, large)"
 	to offer
 		random < 10
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	on complete
 		outfit "Gold" -100
 		payment 1680000
@@ -388,7 +388,7 @@ mission "Harvest (iron, small)"
 	to offer
 		random < 30
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	on complete
 		outfit "Iron" -50
 		payment 105000
@@ -402,7 +402,7 @@ mission "Harvest (iron, large)"
 	to offer
 		random < 20
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	on complete
 		outfit "Iron" -100
 		payment 216000
@@ -416,7 +416,7 @@ mission "Harvest (lead, small)"
 	to offer
 		random < 30
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	on complete
 		outfit "Lead" -50
 		payment 90000
@@ -430,7 +430,7 @@ mission "Harvest (lead, large)"
 	to offer
 		random < 20
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	on complete
 		outfit "Lead" -100
 		payment 189000
@@ -444,7 +444,7 @@ mission "Harvest (neodymium, small)"
 	to offer
 		random < 30
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	on complete
 		outfit "Neodymium" -50
 		payment 380000
@@ -458,7 +458,7 @@ mission "Harvest (neodymium, large)"
 	to offer
 		random < 20
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	on complete
 		outfit "Neodymium" -100
 		payment 798000
@@ -472,7 +472,7 @@ mission "Harvest (platinum, small)"
 	to offer
 		random < 10
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	on complete
 		outfit "Platinum" -50
 		payment 1500000
@@ -486,7 +486,7 @@ mission "Harvest (platinum, large)"
 	to offer
 		random < 5
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	on complete
 		outfit "Platinum" -100
 		payment 3200000
@@ -500,7 +500,7 @@ mission "Harvest (crystal, small)"
 	to offer
 		random < 10
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 		attributes "far empire space"
 	on complete
 		outfit "Crystal" -50
@@ -515,7 +515,7 @@ mission "Harvest (crystal, large)"
 	to offer
 		random < 5
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 		attributes "far empire space"
 	on complete
 		outfit "Crystal" -100
@@ -530,7 +530,7 @@ mission "Harvest (silicon, small)"
 	to offer
 		random < 30
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	on complete
 		outfit "Silicon" -50
 		payment 60000
@@ -544,7 +544,7 @@ mission "Harvest (silicon, large)"
 	to offer
 		random < 20
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	on complete
 		outfit "Silicon" -100
 		payment 128000
@@ -558,7 +558,7 @@ mission "Harvest (silver, small)"
 	to offer
 		random < 20
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	on complete
 		outfit "Silver" -50
 		payment 450000
@@ -572,7 +572,7 @@ mission "Harvest (silver, large)"
 	to offer
 		random < 10
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	on complete
 		outfit "Silver" -100
 		payment 960000
@@ -586,7 +586,7 @@ mission "Harvest (titanium, small)"
 	to offer
 		random < 10
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	on complete
 		outfit "Titanium" -50
 		payment 375000
@@ -600,7 +600,7 @@ mission "Harvest (titanium, large)"
 	to offer
 		random < 5
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	on complete
 		outfit "Titanium" -100
 		payment 800000
@@ -614,7 +614,7 @@ mission "Harvest (tungsten, small)"
 	to offer
 		random < 30
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	on complete
 		outfit "Tungsten" -50
 		payment 450000
@@ -628,7 +628,7 @@ mission "Harvest (tungsten, large)"
 	to offer
 		random < 20
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	on complete
 		outfit "Tungsten" -100
 		payment 945000
@@ -642,7 +642,7 @@ mission "Harvest (uranium, small)"
 	to offer
 		random < 10
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	on complete
 		outfit "Uranium" -50
 		payment 750000
@@ -656,7 +656,7 @@ mission "Harvest (uranium, large)"
 	to offer
 		random < 5
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	on complete
 		outfit "Uranium" -100
 		payment 1600000
@@ -672,9 +672,9 @@ mission marauder[0]
 		random < 20
 		"combat rating" > 1500
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 		distance 1 5
 	on complete
 		"reputation: Cromha Empire" += 10
@@ -697,9 +697,9 @@ mission marauder[1]
 		random < 25
 		"combat rating" > 1500
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 		distance 1 5
 	on complete
 		"reputation: Cromha Empire" += 10
@@ -724,7 +724,7 @@ mission cargo-delivry-food[0]
 	to offer
 		random < 40
 	source
-		government "Cromha Empire" 
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		distance 1 3
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
@@ -743,7 +743,7 @@ mission cargo-delivry-food[1]
 	to offer
 		random < 40
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		distance 1 5
 		not government "Syndicate" "Empire Rebels"
@@ -762,7 +762,7 @@ mission cargo-delivry-food[2]
 	to offer
 		random < 40
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		distance 1 8
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
@@ -781,7 +781,7 @@ mission cargo-delivry-food[3]
 	to offer
 		random < 40
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		distance 1 10
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
@@ -800,7 +800,7 @@ mission cargo-delivry-food[4]
 	to offer
 		random < 40
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		distance 1 17
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
@@ -819,7 +819,7 @@ mission cargo-delivry-clothing[0]
 	to offer
 		random < 40
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		distance 1 3
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
@@ -838,7 +838,7 @@ mission cargo-delivry-clothing[1]
 	to offer
 		random < 40
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		distance 1 5
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
@@ -857,7 +857,7 @@ mission cargo-delivry-clothing[2]
 	to offer
 		random < 40
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		distance 1 8
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
@@ -876,7 +876,7 @@ mission cargo-delivry-equipment[0]
 	to offer
 		random < 40
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		distance 1 10
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
@@ -895,7 +895,7 @@ mission cargo-delivry-equipment[1]
 	to offer
 		random < 40
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		distance 1 17
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
@@ -914,7 +914,7 @@ mission cargo-delivry-equipment[2]
 	to offer
 		random < 40
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		distance 1 4
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
@@ -933,7 +933,7 @@ mission cargo-delivry-medical[0]
 	to offer
 		random < 40
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		distance 1 6
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
@@ -952,7 +952,7 @@ mission cargo-delivry-medical[1]
 	to offer
 		random < 40
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		distance 1 10
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
@@ -971,7 +971,7 @@ mission cargo-delivry-electronics[0]
 	to offer
 		random < 40
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		distance 1 7
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
@@ -990,7 +990,7 @@ mission cargo-delivry-electronics[1]
 	to offer
 		random < 40
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		distance 1 8
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
@@ -1009,7 +1009,7 @@ mission cargo-delivry-electronics[2]
 	to offer
 		random < 40
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		distance 1 12
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
@@ -1029,7 +1029,7 @@ mission bulk-delivry-food[0]
 	to offer
 		random < 30
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		distance 1 9
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
@@ -1048,7 +1048,7 @@ mission bulk-delivry-food[1]
 	to offer
 		random < 30
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		distance 1 12
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
@@ -1067,7 +1067,7 @@ mission bulk-delivry-food[2]
 	to offer
 		random < 30
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		distance 1 7
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
@@ -1086,7 +1086,7 @@ mission bulk-delivry-food[3]
 	to offer
 		random < 30
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		distance 1 10
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
@@ -1105,7 +1105,7 @@ mission bulk-delivry-food[4]
 	to offer
 		random < 30
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		distance 1 11
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
@@ -1124,7 +1124,7 @@ mission bulk-delivry-clothing[0]
 	to offer
 		random < 30
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		distance 1 9
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
@@ -1143,7 +1143,7 @@ mission bulk-delivry-clothing[1]
 	to offer
 		random < 30
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		distance 1 7
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
@@ -1162,7 +1162,7 @@ mission bulk-delivry-clothing[2]
 	to offer
 		random < 30
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		distance 1 8
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
@@ -1181,7 +1181,7 @@ mission bulk-delivry-equipment[0]
 	to offer
 		random < 30
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		distance 1 6
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
@@ -1200,7 +1200,7 @@ mission bulk-delivry-equipment[1]
 	to offer
 		random < 30
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		distance 1 10
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
@@ -1219,7 +1219,7 @@ mission bulk-delivry-equipment[2]
 	to offer
 		random < 30
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		distance 1 10
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
@@ -1238,7 +1238,7 @@ mission bulk-delivry-medical[0]
 	to offer
 		random < 30
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		distance 1 11
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
@@ -1257,7 +1257,7 @@ mission bulk-delivry-medical[1]
 	to offer
 		random < 30
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		distance 1 7
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
@@ -1276,7 +1276,7 @@ mission bulk-delivry-electronics[0]
 	to offer
 		random < 30
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		distance 1 8
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
@@ -1295,7 +1295,7 @@ mission bulk-delivry-electronics[1]
 	to offer
 		random < 30
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		distance 1 9
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
@@ -1314,7 +1314,7 @@ mission bulk-delivry-electronics[2]
 	to offer
 		random < 30
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		distance 1 11
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
@@ -1334,7 +1334,7 @@ mission rush-delivry-food[0]
 	to offer
 		random < 30
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		distance 1 5
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
@@ -1354,7 +1354,7 @@ mission rush-delivry-food[1]
 	to offer
 		random < 40
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		distance 1 5
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
@@ -1374,7 +1374,7 @@ mission rush-delivry-food[2]
 	to offer
 		random < 40
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		distance 1 5
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
@@ -1394,7 +1394,7 @@ mission rush-delivry-food[3]
 	to offer
 		random < 40
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		distance 1 5
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
@@ -1414,7 +1414,7 @@ mission rush-delivry-food[4]
 	to offer
 		random < 40
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		distance 1 5
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
@@ -1434,7 +1434,7 @@ mission rush-delivry-clothing[0]
 	to offer
 		random < 40
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		distance 1 5
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
@@ -1454,7 +1454,7 @@ mission rush-delivry-clothing[1]
 	to offer
 		random < 40
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		distance 1 5
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
@@ -1474,7 +1474,7 @@ mission rush-delivry-clothing[2]
 	to offer
 		random < 40
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		distance 1 5
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
@@ -1494,7 +1494,7 @@ mission rush-delivry-equipment[0]
 	to offer
 		random < 40
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		distance 1 5
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
@@ -1514,7 +1514,7 @@ mission rush-delivry-equipment[1]
 	to offer
 		random < 40
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		distance 1 5
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
@@ -1534,7 +1534,7 @@ mission rush-delivry-equipment[2]
 	to offer
 		random < 40
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		distance 1 5
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
@@ -1554,7 +1554,7 @@ mission rush-delivry-medical[0]
 	to offer
 		random < 40
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		distance 1 5
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
@@ -1574,7 +1574,7 @@ mission rush-delivry-medical[1]
 	to offer
 		random < 40
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		distance 1 5
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
@@ -1594,7 +1594,7 @@ mission rush-delivry-electronics[0]
 	to offer
 		random < 40
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		distance 1 5
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
@@ -1614,7 +1614,7 @@ mission rush-delivry-electronics[1]
 	to offer
 		random < 40
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		distance 1 5
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
@@ -1634,7 +1634,7 @@ mission rush-delivry-electronics[2]
 	to offer
 		random < 40
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		distance 1 5
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
@@ -1654,7 +1654,7 @@ mission disguise-pirate-merchant
 		random < 15
 		"combat rating" > 300
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	on complete
 		payment
 		payment 350000
@@ -1676,7 +1676,7 @@ mission merchant-escort[0]
 		random < 30
 		"combat rating" > 150
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 		distance 1 3
 	destination
 		government "Cromha Empire" "Mineria colonnies" "Hai" "Quarg" "Wanderer"
@@ -1706,7 +1706,7 @@ mission merchant-escort[1]
 		random < 30
 		"combat rating" > 150
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 		distance 1 3
 	destination
 		government "Cromha Empire" "Mineria colonnies" "Hai" "Quarg" "Wanderer"
@@ -1736,7 +1736,7 @@ mission merchant-escort[2]
 		random < 30
 		"combat rating" > 150
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 		distance 1 3
 	destination
 		government "Cromha Empire" "Mineria colonnies" "Hai" "Quarg" "Wanderer"
@@ -1766,7 +1766,7 @@ mission merchant-escort[3]
 		random < 30
 		"combat rating" > 150
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 		distance 1 3
 	destination
 		government "Cromha Empire" "Mineria colonnies" "Hai" "Quarg" "Wanderer"
@@ -1796,7 +1796,7 @@ mission merchant-escort[4]
 		random < 30
 		"combat rating" > 150
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 		distance 1 3
 	destination
 		government "Cromha Empire" "Mineria colonnies" "Hai" "Quarg" "Wanderer"
@@ -1825,7 +1825,7 @@ mission secure-delivry[0]
 	job
 	repeat
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		distance 2 12
 		attributes military
@@ -1860,7 +1860,7 @@ mission secure-delivry[1]
 	job
 	repeat
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		distance 2 7
 		attributes military
@@ -1895,7 +1895,7 @@ mission bring-tourist[0]
 	passengers 3
 	job repeat
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		attributes toursim
 		distance 3 8
@@ -1911,7 +1911,7 @@ mission bring-tourist[1]
 	passengers 12
 	job repeat
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		attributes toursim
 		distance 2 5
@@ -1927,7 +1927,7 @@ mission bring-tourist[2]
 	passengers 2
 	job repeat
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		attributes toursim
 		distance 1 3
@@ -1943,7 +1943,7 @@ mission bring-tourist[3]
 	passengers 6
 	job repeat
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		attributes toursim
 		distance 5 9
@@ -1962,7 +1962,7 @@ mission colonny-importation[0]
 	repeat
 	passengers 2
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		not government "Syndicate" "Quarg" "Pug" "Empire Rebels"
 		attributes farming
@@ -1981,7 +1981,7 @@ mission colonny-importation[1]
 	repeat
 	passengers 5
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		not government "Syndicate" "Quarg" "Pug" "Empire Rebels"
 		attributes farming
@@ -2000,7 +2000,7 @@ mission colonny-importation[2]
 	repeat
 	passengers 7
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		not government "Syndicate" "Quarg" "Pug" "Empire Rebels"
 		attributes farming
@@ -2020,7 +2020,7 @@ mission passenger-transport[0]
 	repeat
 	passengers 1
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		not government "Syndicate" "Quarg" "Pug" "Empire Rebels"
 		distance 1 9
@@ -2037,7 +2037,7 @@ mission passenger-transport[1]
 	repeat
 	passengers 3
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		not government "Syndicate" "Quarg" "Pug" "Empire Rebels"
 		distance 2 5
@@ -2054,7 +2054,7 @@ mission passenger-transport[2]
 	repeat
 	passengers 1
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		not government "Syndicate" "Quarg" "Pug" "Empire Rebels"
 		distance 3 9
@@ -2072,7 +2072,7 @@ mission passenger-transport[3]
 	repeat
 	passengers 5
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		not government "Syndicate" "Quarg" "Pug" "Empire Rebels"
 		distance 2 12
@@ -2089,7 +2089,7 @@ mission passenger-transport[4]
 	repeat
 	passengers 7
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		not government "Syndicate" "Quarg" "Pug" "Empire Rebels"
 		distance 1 17
@@ -2106,7 +2106,7 @@ mission passenger-transport[5]
 	repeat
 	passengers 2
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		not government "Syndicate" "Quarg" "Pug" "Empire Rebels"
 		distance 1 3
@@ -2124,7 +2124,7 @@ mission wanted-outlaw
 	job
 	repeat
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination source
 	to offer
 		random < 35
@@ -2147,7 +2147,7 @@ mission wanted-rebel[0]
 	job
 	repeat
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination source
 	to offer
 		random < 35
@@ -2171,7 +2171,7 @@ mission wanted-rebel[1]
 	job
 	repeat
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination source
 	to offer
 		random < 35
@@ -2198,9 +2198,9 @@ mission prisonner-empire[0]
 	deadline 1 4
 	passengers 1
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 		attributes military
 		distance 1 4
 	to offer
@@ -2217,9 +2217,9 @@ mission prisonner-empire[1]
 	passengers 1
 	deadline 1 8
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 		attributes military
 		distance 1 8
 	to offer
@@ -2236,9 +2236,9 @@ mission prisonner-empire[2]
 	passengers 1
 	deadline 1 2
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 		attributes military
 		distance 1 2
 	to offer
@@ -2256,9 +2256,9 @@ mission prisonner-empire[3]
 	passengers 1
 	deadline 1 2
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 		attributes military
 		distance 1 2
 	to offer
@@ -2276,9 +2276,9 @@ mission prisonner-empire[4]
 	passengers 1
 	deadline 1 2
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 		attributes military
 		distance 1 2
 	to offer
@@ -2297,7 +2297,7 @@ mission vacancer[0]
 	deadline 1 3
 	passengers 1
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		not government "Empire Rebels" "Syndicate"
 		attributes tourism
@@ -2316,7 +2316,7 @@ mission vacancer[1]
 	deadline 2 7
 	passengers 2
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		not government "Empire Rebels" "Syndicate"
 		attributes tourism
@@ -2335,7 +2335,7 @@ mission vacancer[2]
 	deadline 1 3
 	passengers 4
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		not government "Empire Rebels" "Syndicate"
 		attributes tourism
@@ -2354,7 +2354,7 @@ mission vacancer[4]
 	deadline 2 8
 	passengers 3
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		not government "Empire Rebels" "Syndicate"
 		attributes tourism
@@ -2374,7 +2374,7 @@ mission miner[0]
 	repeat
 	passengers 1
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		government "Cromha Empire" "Mineria colonnies" "Hai" "Wanderer"
 		attributes mining
@@ -2392,7 +2392,7 @@ mission miner[1]
 	repeat
 	passengers 2
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		government "Cromha Empire" "Mineria colonnies" "Wanderer" "Hai"
 		attributes mining
@@ -2410,7 +2410,7 @@ mission miner[2]
 	repeat
 	passengers 6
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		government "Cromha Empire" "Mineria colonnies" "Hai" "Wanderer"
 		attributes mining
@@ -2428,7 +2428,7 @@ mission miner[3]
 	repeat
 	passengers 4
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		government "Cromha Empire" "Mineria colonnies" "Hai" "Wanderer"
 		attributes mining
@@ -2448,7 +2448,7 @@ mission worker-factory[0]
 	repeat
 	passengers 1
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		government "Cromha Empire" "Mineria colonnies" "Hai" "Quarg" "Wanderer"
 		attributes factory
@@ -2466,7 +2466,7 @@ mission worker-factory[1]
 	repeat
 	passengers 2
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		government "Cromha Empire" "Mineria colonnies" "Hai" "Quarg" "Wanderer"
 		attributes factory
@@ -2485,7 +2485,7 @@ mission worker-factory[1]
 	repeat
 	passengers 2
 	source
-		government "Cromha Empire"
+		government "Cromha Empire" "Mineria colonnies"
 	destination
 		government "Cromha Empire" "Mineria colonnies" "Hai" "Quarg" "Wanderer"
 		attributes factory
