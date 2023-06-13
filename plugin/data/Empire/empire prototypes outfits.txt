@@ -2,7 +2,7 @@ outfit "RV-120 Disruption Thruster"
       cost 1000000
       licenses
             "Empire Navy"
-      category "Prototype"
+      category "Engines"
       thumbnail "outfit/disruption thruster"
       "mass" 15
       "outfit space" -10
@@ -24,7 +24,7 @@ outfit "RV-125 Disruption Steering"
       cost 1000000
       licenses
             "Empire Navy"
-      category "Prototype"
+      category "Engines"
       thumbnail "outfit/disruption steering"
       "mass" 15
       "outfit space" -10
@@ -37,7 +37,7 @@ outfit "RV-125 Disruption Steering"
 	"flare sound" "atomic tiny"
 	description "These new generations Empire Navy disruption steering are the future of empires engines: They have the best turning effiency."
 outfit "Tri-Phasic Hyperdrive"
-      category "Prototype"
+      category "Systems"
 	cost 7500000000
 	licenses
 		"Empire Contributor"
