@@ -693,7 +693,7 @@ outfit "Nuclavoltaic Repeater"
 		"lifetime" 40
 		"reload" 10
 		"burst reload" 4
-		"burst count" 3
+		"burst count" 12
 		"cluster"
 		"firing energy" 24
 		"firing heat" .7
