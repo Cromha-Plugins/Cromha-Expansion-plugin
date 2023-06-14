@@ -173,8 +173,8 @@ mission "Empire: Harvest 25 tons of silicon"
 	on complete
 		"reputation: Cromha Empire" += 10
 		"empire jobs" += 1
-		require "Silicon" 50
-		outfit "Silicon" -50
+		require "Silicon" 25
+		outfit "Silicon" -25
 		payment 60000
 		dialog `You unload the silicon at the spaceport. You get payed on your account <payment>.`
 
