@@ -6,7 +6,7 @@ start "cromha-transporter"
 	thumbnail "land/Witdrew_station"
 	date 17 11 3035
 	system "Alpha Cromha"
-	planet "Witdrew Station"
+	planet "Alldust"
 	conversation "cromha transporter intro"
 	account
 		credits 4500000
