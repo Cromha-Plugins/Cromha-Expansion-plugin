@@ -42,6 +42,7 @@ outfitter Basic-systems-outfitter
 	"Compact Plasma Drive"
 	"Fuel Cell"
 	"Plasma Fuel Pod"
+	"Nuclavoltaic Repeater"
 outfitter Basic-power-outfitter
 	"Empire Hai Chasm Batteries"
 	"Empire Hai Fissure Batteries"
