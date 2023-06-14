@@ -307,8 +307,8 @@ outfit "Empire Barricade"
 	licenses
 		"Empire Navy"
 	thumbnail "outfit/empire defense cannon"
-	"capture defense" .11
-	"capture attack" .2
+	"capture defense" 7.2
+	"capture attack" 6.3
 	"energy consumption" .007
 	"unplunderable" 1
 	"mass" 6
