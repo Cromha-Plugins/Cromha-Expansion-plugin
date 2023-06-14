@@ -278,7 +278,7 @@ outfit "Phasic Rifle"
 	description "Phasic Rifles are high advanced Hand to Hand weapons. It is the best weapon for boarding or defending ships. Since this weapon need lots of energy, it consumme some energy to recharge the Rifles."
 
 outfit "Tre-Phasic Rifle"
-	category "Hand to hand"
+	category "Hand to Hand"
 	cost 1700000
 	licenses
 		"Empire Navy"
@@ -302,7 +302,7 @@ outfit "Phasic Grenades"
 	description "The Phasic Grenades are high advanced Han to Hand weapons. It is partucullary useful for attacking and boarding ships. The grenades actually only eject ion particles so the grenades dont destroy itself. It will consume some energy to recharge the Phasic Grenades so."
 
 outfit "Empire Barricade"
-	category "Hand to hand"
+	category "Hand to Hand"
 	cost 5800
 	licenses
 		"Empire Navy"
@@ -316,7 +316,7 @@ outfit "Empire Barricade"
 	description "The Empire barricades are mostly used on heavy warships or destroyers to defend from invasious species that are trying to board the ship. It is also a great defense point to retreat on if you're trying to board a ship and capture it. It will also consumme some energy but it's negligable."
 
 outfit "Empire Defense Station"
-	category "Hand to hand"
+	category "Hand to Hand"
 	cost 9750
 	licenses
 		"Empire Navy"
