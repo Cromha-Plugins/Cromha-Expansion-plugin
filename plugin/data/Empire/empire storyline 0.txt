@@ -4,7 +4,7 @@ mission "Empire: First Contact"
 	source
 		government "Cromha Empire"
 		not attributes uninhabited
-   	destination "Witdrew Station"
+	destination "Witdrew Station"
 	on offer
 		"reputation: Cromha Empire" += 10
 		conversation
