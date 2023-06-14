@@ -46,7 +46,6 @@ outfitter Basic-systems-outfitter
 	"Compact Plasma Drive"
 	"Fuel Cell"
 	"Plasma Fuel Pod"
-	"Nuclavoltaic Repeater"
 outfitter Basic-power-outfitter
 	"Empire Hai Chasm Batteries"
 	"Empire Hai Fissure Batteries"
@@ -98,6 +97,7 @@ outfitter Advanced-weapon-outfitter
 	"Langrage Empire-Heaver"
 	"Grab-Strike Blaze"
 	"Alldust Beam Canon"
+	"Nuclavoltaic Repeater"
 outfitter Advanced-systems-outfitter
 	"Cargo Expansion"
 	"Ramscoop"
