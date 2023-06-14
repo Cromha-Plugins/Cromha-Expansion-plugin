@@ -321,8 +321,8 @@ outfit "Empire Defense Station"
 	licenses
 		"Empire Navy"
 	thumbnail "outfit/empire defense station"
-	"capture defense" .10
-	"capture attack" .3
+	"capture defense" 4.7
+	"capture attack" 3.7
 	"unplunderable" 1
 	"mass" 3
 	"outfit space" -2
