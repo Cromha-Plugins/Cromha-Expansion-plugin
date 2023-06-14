@@ -67,7 +67,10 @@ ship "Empire Fortress"
 
 		"Teleportation Dock" 50
 		"Phasic Rifle" 940
+		"Tre-Phasic Rifle" 5
 		"Phasic Grenades" 540
+		"Empire Barricade" 50
+		"Empire Defense Station" 75
 		
 		`RC-220 Atomic Thruster` 4
 		`RC-225 Atomic Steering` 4
@@ -263,7 +266,7 @@ ship "Empire Colinizer"
 		"solar collection" 7.2
 		"fuel capacity" 670
 		"cargo space" 111
-		"outfit space" 1070
+		"outfit space" 1085
 		"weapon capacity" 1750
 		"engine capacity" 790
 		"atmosphere scan" 100
@@ -297,8 +300,10 @@ ship "Empire Colinizer"
 		"RC-205 Atomic Steering" 1
 		`RX-180 Reverse Thruster` 2
 		"Phasic Rifle" 35
-		"Security Station" 5
+		"Tre-Phasic Rifle" 3
+		"Empire Defense Station" 5
 		"Phasic Grenades" 15
+		"Empire Barricade" 3
 		
 		"Countermesure Module"
 		"Teleportation Dock"

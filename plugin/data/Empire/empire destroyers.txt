@@ -17,7 +17,7 @@ ship "Heavy Empire Destroyer"
 		"heat dissipation" .45
 		"fuel capacity" 900
 		"cargo space" 127
-		"outfit space" 3300
+		"outfit space" 3315
 		"weapon capacity" 900
 		"engine capacity" 640
 		weapon
@@ -42,8 +42,10 @@ ship "Heavy Empire Destroyer"
 		"Multiphasic Cooler" 12
 		"Brig" 20
 		"Phasic Rifle" 150
+		"Tre-Phasic Rifle" 2
 		"Phasic Grenades" 80
-		"Security Station" 10
+		"Empire Defense Station" 10
+		"Empire Barricade" 5
 		"Multiphasic Scanner" 6
 		"Plasma Fuel Pod" 5
 		"Mineria Key Stone"
@@ -181,7 +183,7 @@ ship "Empire Destroyer yll'a"
 		"heat dissipation" .7
 		"fuel capacity" 600
 		"cargo space" 125
-		"outfit space" 995
+		"outfit space" 1200
 		"weapon capacity" 550
 		"engine capacity" 450
 		weapon
@@ -205,6 +207,8 @@ ship "Empire Destroyer yll'a"
 		"Multiphasic Cooler"
 		"Phasic Rifle" 15
 		"Phasic Grenades" 8
+		"Empire Barricade" 3
+		"Empire Defense Station" 6
 		"Thermal Nucleavoltaic"
 		
 		`RC-200 Atomic Thruster`
@@ -287,7 +291,7 @@ ship "Empire Destroyer yll'e"
 		"heat dissipation" .7
 		"fuel capacity" 600
 		"cargo space" 87
-		"outfit space" 995
+		"outfit space" 1200
 		"weapon capacity" 550
 		"engine capacity" 450
 		weapon
@@ -311,6 +315,8 @@ ship "Empire Destroyer yll'e"
 		"Multiphasic Cooler"
 		"Phasic Rifle" 15
 		"Phasic Grenades" 8
+		"Empire Barricade" 3
+		"Empire Defense Station" 6
 		"Thermal Nucleavoltaic"
 		
 		`RC-200 Atomic Thruster`
@@ -383,7 +389,7 @@ ship "Light Empire Destroyer"
 		"heat dissipation" .7
 		"fuel capacity" 650
 		"cargo space" 68
-		"outfit space" 965
+		"outfit space" 1120
 		"weapon capacity" 560
 		"engine capacity" 280
 		weapon
@@ -412,6 +418,8 @@ ship "Light Empire Destroyer"
 		"Multiphasic Cooler"
 		"Phasic Rifle" 20
 		"Phasic Grenades" 10
+		"Empire Barricade"
+		"Empire Defense Station" 3
 		"Thermal Nucleavoltaic"
 		
 		`RC-200 Atomic Thruster`

@@ -4,7 +4,7 @@ outfitter Rebels-basic-outfitter
 	"Fragmentation Grenades"
 	"Never Gas"
 	"Empire Hai Chasm Batteries"
-	"Supercapacitor"
+	"Multiphasic Capacitor"
 	"nVF-AA Fuel Cell"
 	"KP-6 Photovoltaic Panel"
 	"Hyperdrive"
@@ -27,7 +27,7 @@ outfitter Rebels-basic-weapon-outfitter
 	"Multiphasic Anti-Missile"
 	"Electron Beam"
 	"Energy Blaster"
-	"Security Station"
+	"Empire Defense Station"
 	"Rebels Particle Gun"
 outfitter Rebels-basic-systems-outfitter
 	"Asteroid Scanner"
@@ -53,7 +53,7 @@ outfitter Rebels-basic-power-outfitter
 	"S3 Thermionic"
 	"Fission Reactor"
 	"nGVF-BB Fuel Cell"
-	"Supercapacitor"
+	"Multiphasic Capacitor"
 	"NT-200 Nucleovoltaic"
 outfitter Rebels-basic-engines-outfitter
 	`RC-140 Atomic Thruster`
@@ -76,7 +76,7 @@ outfitter Rebels-advanced-weapon-outfitter
 	"Particle Gun"
 	"Electron Beam"
 	"Energy Blaster"
-	"Security Station"
+	"Empire Defense Station"
 	"Pulse Rifle"
 	
 	"Rebels Particle Gun"
@@ -113,7 +113,7 @@ outfitter Rebels-advanced-power-outfitter
 	"Fission Reactor"
 	"nGVF-BB Fuel Cell"
 	"nGVF-CC Fuel Cell"
-	"Supercapacitor"
+	"Multiphasic Capacitor"
 	"NT-200 Nucleovoltaic"
 outfitter Rebels-advanced-engines-outfitter
 	`RC-140 Atomic Thruster`

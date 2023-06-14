@@ -45,7 +45,7 @@ ship "Empire Wardragon" "Empire Wardragon (Ion Proton)"
 		"Multiphasic ammo" 1200
 		
 		"RC-X4 Multiphasic Reactor" 2
-		"Supercapacitor" 5
+		"Multiphasic Capacitor" 5
 		"Self Destruct Module"
 		
 		"Empire Shielding Core" 2
@@ -60,7 +60,7 @@ ship "Empire Wardragon" "Empire Wardragon (Ion Proton)"
 		"RC-225 Atomic Steering" 1
 		`RX-200 Reverse Thruster` 2
 		"Phasic Rifle" 55
-		"Security Station" 5
+		"Empire Defense Station" 5
 		"Phasic Grenades" 25
 		
 		"Countermesure Module" 1
@@ -152,7 +152,7 @@ ship "Empire Wardragon" "Empire Wardragon (Electron Beam)"
 		"Multiphasic ammo" 1200
 		
 		"RC-X4 Multiphasic Reactor" 2
-		"Supercapacitor" 5
+		"Multiphasic Capacitor" 5
 		"Self Destruct Module"
 		
 		"Empire Shielding Core" 2
@@ -167,7 +167,7 @@ ship "Empire Wardragon" "Empire Wardragon (Electron Beam)"
 		"RC-225 Atomic Steering" 1
 		`RX-200 Reverse Thruster` 2
 		"Phasic Rifle" 55
-		"Security Station" 5
+		"Empire Defense Station" 5
 		"Phasic Grenades" 25
 		
 		"Countermesure Module" 1
@@ -259,7 +259,7 @@ ship "Empire Wardragon" "Empire Wardragon (Plasma Repeater)"
 		"Multiphasic ammo" 1200
 		
 		"RC-X4 Multiphasic Reactor" 2
-		"Supercapacitor" 5
+		"Multiphasic Capacitor" 5
 		"Self Destruct Module"
 		
 		"Empire Shielding Core" 2
@@ -274,7 +274,7 @@ ship "Empire Wardragon" "Empire Wardragon (Plasma Repeater)"
 		"RC-225 Atomic Steering" 1
 		`RX-200 Reverse Thruster` 2
 		"Phasic Rifle" 55
-		"Security Station" 5
+		"Empire Defense Station" 5
 		"Phasic Grenades" 25
 		
 		"Countermesure Module" 1
@@ -366,7 +366,7 @@ ship "Empire Wardragon" "Empire Wardragon (Twin Modified Blaster)"
 		"Multiphasic ammo" 1200
 		
 		"RC-X4 Multiphasic Reactor" 2
-		"Supercapacitor" 5
+		"Multiphasic Capacitor" 5
 		"Self Destruct Module"
 		
 		"Empire Shielding Core" 2
@@ -381,7 +381,7 @@ ship "Empire Wardragon" "Empire Wardragon (Twin Modified Blaster)"
 		"RC-225 Atomic Steering" 1
 		`RX-200 Reverse Thruster` 2
 		"Phasic Rifle" 55
-		"Security Station" 5
+		"Empire Defense Station" 5
 		"Phasic Grenades" 25
 		
 		"Countermesure Module" 1
@@ -473,7 +473,7 @@ ship "Empire Wardragon" "Empire Wardragon (Disruption)"
 		"Multiphasic ammo" 1200
 		
 		"RC-X4 Multiphasic Reactor" 2
-		"Supercapacitor" 5
+		"Multiphasic Capacitor" 5
 		"Self Destruct Module"
 		
 		"Empire Shielding Core" 2
@@ -488,7 +488,7 @@ ship "Empire Wardragon" "Empire Wardragon (Disruption)"
 		"RV-125 Disruption Steering"
 		"Nitrogen Afterburnner"
 		"Phasic Rifle" 55
-		"Security Station" 5
+		"Empire Defense Station" 5
 		"Phasic Grenades" 25
 		
 		"Countermesure Module" 1
@@ -594,7 +594,7 @@ ship "Empire Skylark" "Empire Skylark (Ion Proton)"
 		"RC-225 Atomic Steering" 1
 		`RX-180 Reverse Thruster` 2
 		"Phasic Rifle" 55
-		"Security Station" 5
+		"Empire Defense Station" 5
 		"Phasic Grenades" 25
 		
 		"Countermesure Module" 2
@@ -700,7 +700,7 @@ ship "Empire Skylark" "Empire Skylark (Electron Beam)"
 		"RC-225 Atomic Steering" 1
 		`RX-180 Reverse Thruster` 2
 		"Phasic Rifle" 55
-		"Security Station" 5
+		"Empire Defense Station" 5
 		"Phasic Grenades" 25
 		
 		"Countermesure Module" 2
@@ -806,7 +806,7 @@ ship "Empire Skylark" "Empire Skylark (Plasma Repeater)"
 		"RC-225 Atomic Steering" 1
 		`RX-180 Reverse Thruster` 2
 		"Phasic Rifle" 55
-		"Security Station" 5
+		"Empire Defense Station" 5
 		"Phasic Grenades" 25
 		
 		"Countermesure Module" 2
@@ -912,7 +912,7 @@ ship "Empire Skylark" "Empire Skylark (Twin Modified Blaster)"
 		"RC-225 Atomic Steering" 1
 		`RX-180 Reverse Thruster` 2
 		"Phasic Rifle" 55
-		"Security Station" 5
+		"Empire Defense Station" 5
 		"Phasic Grenades" 25
 		
 		"Countermesure Module" 2

@@ -63,7 +63,7 @@ ship "Black Manta"
 		"RX-200 Reverse Thruster" 4
 		"Railgun Slug" 1030
 		"Railgun Slug Rack" 2
-		"Security Station" 13
+		"Empire Defense Station" 13
 		"Self Destruct Module"
 		"Small Empire Shielding Core" 6
 		"Teleportation Dock" 2

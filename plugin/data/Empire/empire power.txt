@@ -49,7 +49,6 @@ outfit "Empire Hai Ravine Batteries"
 	description "After The Empire and Hais made an alliance between their two governments, Hais shared their Tech to Cromha Empire."
 	description "Cromha Empire used as model The Hai Ravine Battery to implemente some technology to improve capacity and lower the mass of the battery to equip it to their ships. This is the most advanced battery in all human space."
 
-
 outfit "Empire Hai Valley Batteries"
 	plural "Empire Hai Valley Batteries"
 	category "Power"
@@ -62,6 +61,17 @@ outfit "Empire Hai Valley Batteries"
 	"energy capacity" 51234
 	description "After The Empire and Hais made an alliance between their two governments, Hais shared their Tech to Cromha Empire."
 	description "Cromha Empire used as model The Hai Valley Battery to implemente some technology to improve capacity and lower the mass of the battery to equip it to their ships. This is the most advanced battery in all human space."
+
+outfit "Multiphasic Capacitor"
+	category "Power"
+	cost 7900
+	licenses
+		"Empire Contributor"
+	thumbnail "outfit/empire capacitor"
+	"mass" 1
+	"outfit space" -2
+	"energy capacity" 875
+	description "In technic, Empire nanobots don't need any batteries because of their small amount of energy need. The Multiphasic Capacitor lets Empire nanobots stores energy."
 
 outfit "RC-X1 Multiphasic Reactor"
 	category "Power"

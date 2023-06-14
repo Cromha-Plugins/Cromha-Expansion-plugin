@@ -277,6 +277,18 @@ outfit "Phasic Rifle"
 	"unplunderable" 1
 	description "Phasic Rifles are high advanced Hand to Hand weapons. It is the best weapon for boarding or defending ships. Since this weapon need lots of energy, it consumme some energy to recharge the Rifles."
 
+outfit "Tre-Phasic Rifle"
+	category "Hand to hand"
+	cost 1700000
+	licenses
+		"Empire Navy"
+	thumbnail "outfit/tre-phasic rifle"
+	"capture attack" 7.9
+	"capture defense" 9.8
+	"energy consumption" 1
+	"unplunderable"
+	description "Tre-Phasic Rifles are very high advanced Hand to Hand weapons. It is the best weapon The Empire every designed for boarding and defending ships. Since this weapon need lots of energy, it consumme some energy to recharge the Rifles. It can kill and alien in one shot."
+
 outfit "Phasic Grenades"
 	category "Hand to Hand"
 	cost 6500
@@ -288,3 +300,30 @@ outfit "Phasic Grenades"
 	"energy consumption" 0.01
 	"unplunderable" 1
 	description "The Phasic Grenades are high advanced Han to Hand weapons. It is partucullary useful for attacking and boarding ships. The grenades actually only eject ion particles so the grenades dont destroy itself. It will consume some energy to recharge the Phasic Grenades so."
+
+outfit "Empire Barricade"
+	category "Hand to hand"
+	cost 5800
+	licenses
+		"Empire Navy"
+	thumbnail "outfit/empire defense cannon"
+	"capture defense" .11
+	"capture attack" .2
+	"energy consumption" .007
+	"unplunderable" 1
+	"mass" 6
+	"outfit space" -3
+	description "The Empire barricades are mostly used on heavy warships or destroyers to defend from invasious species that are trying to board the ship. It is also a great defense point to retreat on if you're trying to board a ship and capture it. It will also consumme some energy but it's negligable."
+
+outfit "Empire Defense Station"
+	category "Hand to hand"
+	cost 9750
+	licenses
+		"Empire Navy"
+	thumbnail "outfit/empire defense station"
+	"capture defense" .10
+	"capture attack" .3
+	"unplunderable" 1
+	"mass" 3
+	"outfit space" -2
+	description "This is a specially designed barricade, which can be installed in the hallways of your ship as a powerful defense against anyone who boards you in an attempt to take over your ship"
