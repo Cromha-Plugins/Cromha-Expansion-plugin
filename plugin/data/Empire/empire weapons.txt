@@ -691,8 +691,8 @@ outfit "Nuclavoltaic Repeater"
 		"inaccuracy" 4
 		"velocity" 13
 		"lifetime" 40
-		"reload" 10
-		"burst reload" 1
+		"reload" 5
+		"burst reload" 4
 		"burst count" 12
 		"cluster"
 		"firing energy" 24
