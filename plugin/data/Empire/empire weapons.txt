@@ -689,7 +689,7 @@ outfit "Nuclavoltaic Repeater"
 		sound "repeater"
 		"hit effect" "nucleavoltaic repeater impact"
 		"inaccuracy" 4
-		"velocity" 13
+		"velocity" 15
 		"lifetime" 40
 		"reload" 5
 		"burst reload" 4
@@ -697,8 +697,9 @@ outfit "Nuclavoltaic Repeater"
 		"cluster"
 		"firing energy" 24
 		"firing heat" .7
-		"shield damage" 37
-		"hull damage" 27
+		"shield damage" 72
+		"corrosion damage" 1
+		"hull damage" 39
 		"heat damage" 77
 	description "This is the smallest and simplest Cromha Empire projectile weapon, designed mostly for use on light destroyers and other ships. As with most Empire technology, it generates a large amount of heat and energy, enough that the gun must pause briefly after every few shots to cool down."
 
