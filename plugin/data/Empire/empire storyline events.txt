@@ -683,6 +683,7 @@ event "Black Manta Building Station Appear"
 	log "The Black Manta Spacial Dock has been builded."
 	system "Delia"
 		fleet cromha-fleet 5000
+		government "Cromha Empire"
 		object "Black Manta Spacial Dock"
 			sprite planet/station7
 			distance 1400
