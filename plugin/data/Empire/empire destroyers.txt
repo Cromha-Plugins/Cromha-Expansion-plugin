@@ -424,7 +424,7 @@ ship "Empire Battle Bulker"
 		"Tre-Phasic Rifle" 2
 		
 		`RC-180 Atomic Thruster`
-		`RC-185 Atomic Steering`
+		"RC-185 Atomic Steering"
 		`RX-180 Reverse Thruster`
 		"Plasma Drive"
 	
