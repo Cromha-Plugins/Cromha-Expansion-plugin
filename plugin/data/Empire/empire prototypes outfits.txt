@@ -51,3 +51,42 @@ outfit "Tri-Phasic Hyperdrive"
 	"jump drive" 1
 	"jump speed" .9
 	description "This mysterious box sits quietly at the heart of your ship, thinking its own inscrutable thoughts. When it comes time to travel between the stars it sets off a nuclear fusion reaction powerful enough to level an entire city, and then somehow tucks the resulting explosion in between the folds of regular space-time like a wasp stinging an oak leaf to lay her eggs inside. Your ship rides the resulting ripple in the fabric of space."
+
+outfit "RV-170 Disruption Thruster"
+      cost 1000000
+      licenses
+            "Empire Navy"
+      category "Engines"
+      thumbnail "outfit/disruption thruster large"
+      "mass" 15
+      "outfit space" -10
+      "engine capacity" -5
+      "thrust" 157.4
+	"thrusting energy" .1
+	"thrusting heat" 0.1
+	"reverse thrust" 47.5
+	"reverse thrusting energy" 4
+	"reverse thrusting heat" 8.2
+	"reverse flare sprite"  "effect/disruption flare"
+		"frame rate" 14
+	"reverse flare sound" "atomic small"
+	"flare sprite" "effect/disruption flare"
+		"frame rate" 14
+	"flare sound" "atomic large"
+	description "These new generations Empire Navy disruption thruster are the future of empires engines: They have the best thrusting effiency."
+outfit "RV-175 Disruption Steering"
+      cost 1000000
+      licenses
+            "Empire Navy"
+      category "Engines"
+      thumbnail "outfit/disruption steering large"
+      "mass" 15
+      "outfit space" -10
+      "engine capacity" -5
+      "turn" 3250
+	"turning energy" .1
+	"turning heat" 0.1
+	"flare sprite" "effect/disruption flare"
+		"frame rate" 14
+	"flare sound" "atomic large"
+	description "These new generations Empire Navy disruption steering are the future of empires engines: They have the best turning effiency."

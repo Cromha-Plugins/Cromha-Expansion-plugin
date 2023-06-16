@@ -126,6 +126,7 @@ mission "Empire: Visit Pugs"
 		fleet "Large Southern Pirates"
 		system
 			distance 5 15
+
 mission "Empire: Tech Testing2"
 	name "Empire: Tech Testing"
 	description "The Empire Navy has been designing a new generation of thruster and steering. Install them on your ship, go for a battle with Empire Rebels in the Gorvi system. Go back to <destination> andget your payment of <payment>."
@@ -163,3 +164,47 @@ mission "Empire: Tech Testing2"
 		personality target staying coward
 		fleet empire-rebels-raiders
 		system "Gorvi"
+
+mission "Empire: Collect Data"
+	name "Empire: Collect Data"
+	description "Collect data about remnants engines in the Polerius to enhance the Empire New Generation engines: scan the remnant ship and land back on the Black Manta Spacial Dock to get your payment."
+	landing
+	to offer
+		has "Empire: Tech Testing2: done"
+	source "Black Manta Spacial Dock"
+	on offer
+		conversation
+			`When you land on the Black Manta Spacial Dock to get news about the Black Manta, you see an empire scientist greeting you from to outside of your ship. You open your ship's gate and late to guy enter.`
+			`	"Hi! Great to see you" he says. He his the last guy who asked you to do some mission about Void Sprites in the Ember Waste.`
+			`	"Hi! Nice to meet to you!"`
+			`	"Will you like to do some missions for The Empire again? We would like you to furtivly collect data about Remnants engines and give us the data for <payment>. It's for enhance the new generation engines."`
+			choice
+				`	"Sure!"`
+					accept
+				`	"No thanks, it seems a little too risky."`
+					decline
+				`	"Sorry but i don't have time lately."`
+					decline
+	on accept
+		conversation
+			`"Nice! says to scientist."`
+			`	"So, what you'll have to do is this: enter the Polerius system in the Ember Waste. You'll need to search for a ship named 'The Great Die-Off'. Scan him and land back to the Black Manta Spacial Dock."`
+			`He leaves your ship.`
+	on decline
+		dialog "He leaves the ship with disapointment"
+	on abort
+		launch
+		conversation "empire imprisonment"
+	on complete
+		payment 7500000
+		payment
+		"reputation: Cromha Empire" += 50
+		"reputation: Remnant (empre mission)" += 5000000
+		"empire jobs" += 1
+		log "You scanned an Remnant ship to collect data about its engines for The Empire."
+		dailog "You get your payment of <payment>"
+	npc "scan outfits"
+		government "Remnant (empre mission)"
+		personality staying target coward
+		ship "Peregrine" "The Great Die-Off"
+		system "Polerius"
