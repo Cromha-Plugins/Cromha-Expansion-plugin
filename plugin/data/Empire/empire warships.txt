@@ -220,7 +220,7 @@ ship "Empire Tubfalet"
 		licenses
 			"Empire Navy"
 		category "Empire Warship"
-		"cost" 450000
+		"cost" 7500000
 		"shields" 178000
 		"hull" 120000
 		"required crew" 75
@@ -250,6 +250,8 @@ ship "Empire Tubfalet"
 		"Railgun Slug" 560
 		"Railgun Slug Rack"
 		"Langrage Empire-Heaver" 6
+		"Grab-Strike Blaze" 2
+		"Alldust Beam Turret" 4
 
 		"Multiphasic Anti-Missile" 2
 		"Multiphasic ammo" 1200
@@ -287,15 +289,27 @@ ship "Empire Tubfalet"
 	turret 0 -106 "Multiphasic Anti-Missile"
 	turret 0 72 "Multiphasic Anti-Missile"
 	gun -68.5 -145.5 "Langrage Empire-Heaver"
+		over
 	gun -58.5 -147 "Langrage Empire-Heaver"
+		over
 	gun -49.5 -148.5 "Langrage Empire-Heaver"
+		over
 	gun 68.5 -145.5 "Langrage Empire-Heaver"
+		over
 	gun 58.5 -147 "Langrage Empire-Heaver"
+		over
 	gun 49.5 -148.5 "Langrage Empire-Heaver"
+		over
 	gun -68 -64 "Antimatter Railgun"
 	gun 68 -64 "Antimatter Railgun"
 	gun -63.5 -53 "Empire Torpedo Bank"
 	gun 63.5 -53 "Empire Torpedo Bank"
+	turret -15.5 -24 "Alldust Beam Turret"
+	turret 15.5 -24 "Alldust Beam Turret"
+	turret -76.5 70 "Alldust Beam Turret"
+	turret 76.5 70 "Alldust Beam Turret"
+	turret -36.5 -140.5 "Grab-Strike Blaze"
+	turret 36.5 -140.5  "Grab-Strike Blaze"
 	explode "empire tiny explosion" 12
 	explode "empire small explosion" 16
 	explode "empire medium explosion" 30

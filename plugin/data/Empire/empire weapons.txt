@@ -120,7 +120,7 @@ outfit "Multiphasic Anti-Missile"
 	"cooling" 5
 	"Multiphasic ammo capacity" 600
 	weapon
-		"hardpoint sprite" "hardpoint/anti-missile hai"
+		"hardpoint sprite" "hardpoint/multiphasic-anti-missile"
 		"hardpoint offset" 3.
 		ammo "Multiphasic ammo"
 		"hit effect" "multiphasic anti missile"
