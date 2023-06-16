@@ -7,6 +7,7 @@ outfitter Base-outfitter
 	"Ramscoop"
 	`RC-001 Atomic Engines`
 	"Countermesure Module"
+	"Countermesure Module Compact"
 	"Weapon Module"
 	"Engine Module"
 	"Fuel Cell"

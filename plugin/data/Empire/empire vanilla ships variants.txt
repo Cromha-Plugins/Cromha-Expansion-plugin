@@ -30,6 +30,7 @@ ship "Blackbird" "Blackbird (Empire)"
 		"KP-6 Photovoltaic Array" 4
 		"Empire Hai Gorge Batteries"
 		"Small Empire Shielding Core"
+		"Countermesure Module Compact"
 		"Small Radar Jammer"
 		"Luxury Accommodations"
 		
@@ -79,6 +80,7 @@ ship "Flivver" "Flivver (Empire)"
 		"RC-X1 Multiphasic Reactor" 2
 		"Empire Hai Fissure Batteries"
 		"Small Empire Shielding Core"
+		"Countermesure Module Compact"
 		"Ion Proton Gun" 2
 		"One-Phasic Cooler" 2
 		
@@ -126,6 +128,7 @@ ship "Bounder" "Bounder (Empire)"
 		"One-Phasic Cooler" 2
 		"RC-X2 Multiphasic Reactor"
 		"Empire Hai Fissure Batteries" 2
+		"Countermesure Module Compact"
 		"Empire Shielding Core"
 		
 		`RC-180 Atomic Thruster`
@@ -179,6 +182,7 @@ ship "Argosy" "Argosy (Empire)"
 
 		"RT-I Radiothermal"
 		"Empire Hai Gorge Batteries"
+		"Countermesure Module Compact"
 		"RC-X1 Multiphasic Reactor" 3
 		"Empire Shielding Core"
 		"One-Phasic Cooler" 3
@@ -242,6 +246,7 @@ ship "Behemoth" "Behemoth (Empire)"
 		"Empire Hai Gorge Batteries"
 		"Fuel Cell" 2
 		"Plasma Fuel Pod" 2
+		"Countermesure Module Compact"
 		"Empire Shielding Core"
 		"Multiphasic Cooler"
 		"Small Radar Jammer"
@@ -304,6 +309,7 @@ ship "Fury" "Fury (Empire)"
 		"Empire Hai Gorge Batteries"
 		"Small Empire Shielding Core"
 		"Small Radar Jammer" 2
+		"Countermesure Module Compact"
 		
 		"X2700 Ion Thruster"
 		"X2200 Ion Steering"
@@ -352,6 +358,7 @@ ship "Headhunter" "Headhunter (Empire)"
 		
 		"RC-X2 Multiphasic Reactor"
 		"KP-6 Photovoltaic Array"
+		"Countermesure Module Compact"
 		"Empire Hai Gorge Batteries"
 		"Empire Shielding Core"
 		
@@ -404,6 +411,7 @@ ship "Freighter" "Freighter (Empire)"
 		
 		"Empire Hai Fissure Batteries"
 		"Thermal Nucleavoltaic" 2
+		"Countermesure Module Compact"
 		"Small Empire Shielding Core"
 		
 		"RC-140 Atomic Thruster"
@@ -457,6 +465,7 @@ ship "Bulk Freighter" "Bulk Freighter (Empire)"
 		
 		"Empire Shielding Core"
 		"Empire Hai Ravine Batteries"
+		"Countermesure Module Compact"
 		"RC-X2 Multiphasic Reactor"
 		"Phasic Rifle" 2
 		
@@ -516,6 +525,7 @@ ship "Container Transport" "Container Transport (Empire)"
 		
 		"RT-I Radiothermal"
 		"LP144a Battery Pack"
+		"Countermesure Module Compact"
 		"D23-QP Shield Generator"
 		"Laser Rifle"
 		
