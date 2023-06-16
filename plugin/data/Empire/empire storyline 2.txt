@@ -235,13 +235,13 @@ mission "Empire: Colonny Import Giriba"
 		log "You escorted an fleet of Mineria colonnies and some merchants to set up a minning colonny on Osaeli in the Giribia system. It will be the first Empire colonny in the Ember Waste."
 		dialog "You get your payment of <payment>"
 	
-	npc accompany save escort
+	npc accompany save
 		government "Mineria colonnies"
 		personality escort
 		fleet mineria-transports
 		fleet mineria-transports
 	
-	npc accompany save escort
+	npc accompany save
 		government "Merchant"
 		personality escort
 		fleet cromha-merchants
