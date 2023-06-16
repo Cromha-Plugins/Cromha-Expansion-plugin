@@ -34,9 +34,10 @@ mission "Pug: Crodust Shipyard"
 	destination "Crodust"
 	to offer
 		has "Empire: Transport Pugs Vacancers: done"
+		random < 5
 	source "Empire Ring"
 	on offer
-		set "Pug Crystal" 1
+		outfit "Pug Crystal" 1
 		conversation
 			`	As you enter the spaceport and go for a coffee in a bar, you see a pug guy that you already meet buy you don't know how... You approach him and ask:`
 			`	"Hi! Sorry to borrow you but i feel we already meet somewhere?"`
