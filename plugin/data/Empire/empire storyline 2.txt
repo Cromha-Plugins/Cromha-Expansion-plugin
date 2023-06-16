@@ -219,8 +219,7 @@ mission "Empire: Colonny Import Giriba"
 	source "Black Manta Spacial Dock"
 	destination "Osaeli"
 	on offer
-		conversation
-			dialog "As you land on the Black Manta Spacial there is a fleet that seems to wait for you. They want you to escort them to <system>"
+		dialog "As you land on the Black Manta Spacial there is a fleet that seems to wait for you. They want you to escort them to <system>"
 	on complete
 		payment 8500000
 		payment
