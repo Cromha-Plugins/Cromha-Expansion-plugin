@@ -1332,6 +1332,7 @@ system Seketra
 	belt 1465
 	link Chikatip
 	link Skeruto
+	haze _menu/haze-orange
 	asteroids "large metal" 1 1.7556
 	trade Clothing 247
 	trade Electronics 792
@@ -1344,6 +1345,11 @@ system Seketra
 	trade Metal 327
 	trade Plastic 286
 	fleet "Large Quarg" 3000
+	fleet cromha-fleet 1700
+	fleet mineria-transports 875
+	fleet cromha-merchants 950
+	fleet empire-rebels-raiders-fleet
+	fleet cromha-miners
 	object
 		sprite star/k5
 		period 10
