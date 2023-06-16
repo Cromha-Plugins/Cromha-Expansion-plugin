@@ -37,7 +37,6 @@ mission "Pug: Crodust Shipyard"
 		random < 5
 	source "Empire Ring"
 	on offer
-		outfit "Pug Crystal" 1
 		conversation
 			`	As you enter the spaceport and go for a coffee in a bar, you see a pug guy that you already meet buy you don't know how... You approach him and ask:`
 			`	"Hi! Sorry to borrow you but i feel we already meet somewhere?"`
@@ -57,8 +56,14 @@ mission "Pug: Crodust Shipyard"
 		government "Pug"
 		personality escort timid
 		ship "Pug Zibruka" "Great Flyer"
+	on accept
+		outfit "Pug Crystal" 1
+		dialog "The Pug give you the Pug Crystal"
+		log "The friendly Pug gave you a 'Pug Crystal'"
+	on decline
+		dialog "The Pug worker leaves with disapointment and don't give you the crystal"
 	on complete
 		dialog "You land on <planet> and see the Pug Worker walking toward some shipyards."
 		"reputation: Pug" += 10
 		"empire worker jobs" += 1
-		log "You transported a Pug to Crodust so he can buy a ship."
+		log "You transported friendly Pug to Crodust so he can buy a ship."
