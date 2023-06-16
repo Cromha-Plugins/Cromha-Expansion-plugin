@@ -264,3 +264,4 @@ shipyard Advanced-lifdot-industries-shipyard
 	"Empire Colinizer"
 	"Black Manta"
 	"Empire Palavret"
+	"Empire Battle Bulker"

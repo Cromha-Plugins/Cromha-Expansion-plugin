@@ -374,9 +374,9 @@ ship "Empire Destroyer yll'e"
 ship "Empire Battle Bulker"
 	sprite "ship/empire transporter"
 	thumbnail "thumbnail/empire transporter"
+	swizzle 0
 	attributes
 		category "Destroyer"
-		swizzle 0
 		"cost" 18290000
 		"shields" 79900
 		"hull" 47800
