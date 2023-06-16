@@ -27,9 +27,9 @@ mission "Empire: Transport Pugs Vacancers"
 		log "You transported a Pug to the Empire Ringworld."
 		log "Minor People" "Pug Worker" "He is a new friend that you made. He is a pug that you brang to the Empire Ringworld so he could get a job."
 		
-#mission "Pug: Crodust Shipyard"
+mission "Pug: Crodust Shipyard"
 	name "Pug: Crodust Shipyard"
-	description "The Pug worker that bringed to The Empire Ringworld some time ago wants to go to Crodust. Escort him to Crodust so he can buy his new ship."
+	description "The Pug worker that you bringed to The Empire Ringworld some time ago wants to go to Crodust. Escort him to Crodust so he can buy his new ship."
 	spaceport
 	destination "Crodust"
 	to offer
@@ -47,5 +47,14 @@ mission "Empire: Transport Pugs Vacancers"
 			`	"All the pleasure is for me, i don't need any kind of recompense."`
 			`	"Here! i give you this crystal, it carries good luck."`
 			`You can see a sort of yellow crystal in his hands. It seems to have secrets power.`
-			
-			`
+			`	"I would also ask you a favor, can I?"`
+			choice
+				`	"Sure"`
+					accept
+				`	"Sorry, but I don't have that much time"`
+					decline
+	on complete
+		dialog "You land on <planet> and see the Pug Worker walking toward some shipyards."
+		"reputation: Pug" += 10
+		"empire worker jobs" += 1
+		log "You transported a Pug to Crodust so he can buy a ship."
