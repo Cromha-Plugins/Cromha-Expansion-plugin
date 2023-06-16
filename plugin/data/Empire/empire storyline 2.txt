@@ -232,7 +232,7 @@ mission "Empire: Colonny Import Giriba"
 		"reputation: Mineria colonnies" += 170
 		"empire jobs" += 1
 		set "giribia colonny import" 1
-		log "You escorted an fleet of Mineria colonnies and some merchants to set up a minning colonny on Osaeli in the Giribia system. It will be the first Empire colonny in the Ember Waste."
+		log "You escorted an fleet of Mineria colonnies and some merchants to set up a minning colonny on Osaeli in the Giribea system. It will be the first Empire colonny in the Ember Waste."
 		dialog "You get your payment of <payment>"
 	
 	npc accompany save

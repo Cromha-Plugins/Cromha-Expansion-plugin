@@ -692,3 +692,93 @@ event "Black Manta Building Station Appear"
 				sprite planet/station7c
 				distance 0
 				period 110
+
+event "Giribea Colonny Appears"
+	log "The first colonny of The Empire in the Ember Waste is now fully setted up and some of it because of you."
+	system Giribea
+		pos -6 674
+		government Cromha Empire
+		attributes "ember waste" "graveyard" minning oil
+		arrival 1800
+		ramscoop
+			universal 0
+			addend -0.02
+			multiplier 1.5
+		habitable 1800
+		belt 1500
+		haze _menu/haze-red
+		link Delia
+		link Dixere
+		link Feraticus
+		link Lire
+		asteroids "large metal" 29 4
+		asteroids "large rock" 2 1
+		asteroids "medium metal" 50 3
+		asteroids "medium rock" 10 2
+		asteroids "small metal" 17 3
+		asteroids "small rock" 1 2
+		minables lead 40 1
+		minables tungsten 11 1
+		minables titanium 9 2
+		minables uranium 24 1
+		trade Clothing 260
+		trade Electronics 759
+		trade Equipment 614
+		trade Food 489
+		trade "Heavy Metals" 925
+		trade Industrial 715
+		trade "Luxury Goods" 1155
+		trade Medical 804
+		trade Metal 325
+		trade Plastic 488
+		fleet "Ka'het Core" 2850
+		fleet "Builders Drone" 2100
+		fleet mineria-transports 1500
+		fleet cromha-fleet 2000
+		fleet cromha-merchants 2500
+		hazard "Ember Waste Base Heat" 100
+		hazard "Ember Waste Base Storm" 9000
+		object
+			sprite star/g5-old
+			distance 35.4857
+			period 11.7996
+			offset 180
+		object
+			sprite star/g8
+			distance 80.6493
+			period 11.7996
+		object
+			sprite planet/lava0
+			distance 217.769
+			period 30.2982
+		object Osaeli
+			sprite planet/forest0-b
+			distance 662.609
+			period 160.808
+		object Seli'het
+			sprite planet/station1b
+				scale 0.5
+			distance 950.019
+			period 276.071
+		object
+			sprite planet/gas9-b
+			distance 1952.66
+			period 813.511
+			object
+				sprite planet/dust4-b
+				distance 268
+				period 16.451
+			object
+				sprite planet/io-b
+				distance 395
+				period 29.4365
+			object
+				sprite planet/ice0
+				distance 553
+				period 48.7616
+	planet Osaeli
+		attributes ka'het minning oil research military
+		landscape land/fields15
+		government "Mineria colonnies"
+		spaceport `An Earth-like planet with high biodiversity, at first glance Osaeli appears to be an idyllic world where no lifeform ever became predominant; but looking more closely, the signs of an ancient devastation can still be seen. In the middle of the forests, huge amounts of debris are scattered across large areas, and scans reveal many underground bunkers, partly destroyed and filled with water.`
+		description `An Earth-like planet with high biodiversity, at first glance Osaeli appears to be an idyllic world where no lifeform ever became predominant; but looking more closely, the signs of an ancient devastation can still be seen. In the middle of the forests, huge amounts of debris are scattered across large areas, and scans reveal many underground bunkers, partly destroyed and filled with water.`
