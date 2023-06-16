@@ -1322,3 +1322,75 @@ planet "Sek Alarfarat"
 	landscape land/canyon15
 	description "Recently, a minnin colonny got installed on this planet rich in uranium, due to urnanium asteroids that usually crash into the planet. All uranium is sent to the Alarfarat Refinery station by small mineria convoits."
 	spaceport ""
+
+system Seketra
+	pos -24.5695 -356.812
+	government "Mineria colonnies"
+	attributes "korath"
+	arrival 500
+	habitable 425
+	belt 1465
+	link Chikatip
+	link Skeruto
+	asteroids "large metal" 1 1.7556
+	trade Clothing 247
+	trade Electronics 792
+	trade Equipment 433
+	trade Food 542
+	trade "Heavy Metals" 1013
+	trade Industrial 577
+	trade "Luxury Goods" 1114
+	trade Medical 635
+	trade Metal 327
+	trade Plastic 286
+	fleet "Large Quarg" 3000
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/rock8
+		distance 235.01
+		period 69.9028
+	object "Seleptra Nak"
+		sprite planet/rock1
+		distance 433.85
+		period 175.337
+		object "Empire Z677 Base"
+			sprite "planet/asteroid base red"
+			distance 700
+			period 11
+	object
+		sprite planet/ice2-b
+		distance 1126.26
+		period 733.370
+	object
+		sprite planet/gas3
+		distance 2033.62
+		period 1779.38
+		object
+			sprite planet/dust7
+			distance 300
+			period 13.2723
+		object
+			sprite planet/desert4-b
+			distance 445
+			period 23.9775
+		object
+			sprite planet/rock0
+			distance 538
+			period 31.8741
+
+planet "Seleptra Nak"
+	attributes korath mining oil
+	landscape land/fog2
+	outfitter Base-outfitter
+	spaceport "The spaceport is very small and there is only a several ships. Most of the poeple who lives here are colonnies of Mineria that moved here a century ago probably with a H class Empire World Ship."
+	government "Mineria colonnies"
+	description `The most disturbing thing about the empty Korath cities on this planet is how pristine they are: no sign of bombing or of weapons fire. Either everyone who lived here chose to leave, or they were killed by a weapon that did no damage to the buildings they live in.`
+	description `	Outside the cities, plant and animal life has begun to flourish, and some of the smaller villages have already been swallowed up by the growing forests. The climate is temperate, and rainfall is plentiful; aside from the reduction in biodiversity, it will not take this planet long to forget its former owners.`
+
+planet "Empire Z677 Base"
+	attributes korath military secret "requires: empire mapper"
+	landscape "land/Empire_Z677_base"
+	government "Cromha Empire"
+	description "The Empire Z677 Secret Base is an outpost in the korath space to analyze Empire Rebels that are staying in the Korosmanath system and Kor Efreti that are in the Sumprast, Sevrelect and Kashikt systems because the Cromha Empire is planning to envase the Kor Efreti systems and make them own. Maybe it will be sooner that people think"
