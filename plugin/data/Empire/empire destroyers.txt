@@ -371,6 +371,104 @@ ship "Empire Destroyer yll'e"
 	"final explode" "empire medium explosion"
 	description "The Empire Destroyer is one of the most powerful warships in the Empire fleet, a sleeker and more maneuverable alternative to the venerable and somewhat outdated Leviathan."
 
+ship "Empire Battle Bulker"
+	sprite "ship/empire transporter"
+	thumbnail "thumbnail/empire transporter"
+	attributes
+		category "Destroyer"
+		swizzle 0
+		"cost" 18290000
+		"shields" 79900
+		"hull" 47800
+		"mass" 540
+		"drag" 9.1
+		"heat dissipation" .65
+		"fuel capacity" 500
+		"cargo space" 39
+		"outfit space" 725
+		"weapon capacity" 475
+		"engine capacity" 122
+		weapon
+			"blast radius" 280
+			"shield damage" 7200
+			"hull damage" 2400
+			"hit force" 4700
+	outfits
+		"Multiphasic Anti-Missile"
+		"Multiphasic ammo" 600
+		"Nuclavoltaic Repeater" 2
+		"Grab-Strike Blaze" 2
+		"Alldust Beam Turret" 2
+		
+		"Empire Shielding Core" 2
+		"Small Empire Shielding Core" 2
+		"Empire Hai Ravine Batteries" 2
+		"RC-X3 Multiphasic Reactor"
+		"Thermal Nucleavoltaic"
+		"Multiphasic Scanner"
+		"Multiphasic Cooler" 2
+		"Self Destruct Module"
+		"Countermesure Module"
+		"Mineria Key Stone"
+		"Brig"
+		"Fuel Cell"
+		
+		`RC-180 Atomic Thruster`
+		`RC-185 Atomic Thruster`
+		`RX-180 Reverse Thruster`
+		"Plasma Drive"
+	
+	engine -9 205
+	engine 9 205
+	turret 0 -214 "Multiphasic Anti-Missile"
+	gun -14 -206 "Nuclavoltaic Repeater"
+	gun 14 -206 "Nuclavoltaic Repeater"
+	turret -13 -60 "Grab-Strike Blaze"
+	turret 13 -60 "Grab-Strike Blaze"
+	turret -89 32 "Alldust Beam Turret"
+	turret 89 32 "Alldust Beam Turret"
+	bay "Nanobot" 38.5 -115.5 over
+		"launch effect" "korath external"
+	bay "Nanobot" 25 -50.5 over
+		"launch effect" "korath external"
+	bay "Nanobot" 59 28 over
+		"launch effect" "korath external"
+	bay "Nanobot" 28 79 over
+		"launch effect" "korath external"
+	bay "Nanobot" 19.5 145.5 over
+		"launch effect" "korath external"
+	bay "Nanobot" 57.5 -56.5 under
+		"launch effect" "korath external"
+	bay "Nanobot" 40 19 under
+		"launch effect" "korath external"
+	bay "Nanobot" 60 58.5 under
+		"launch effect" "korath external"
+	bay "Nanobot" 45.5 135 under
+		"launch effect" "korath external"
+	bay "Nanobot" -36.5 -130.5 over
+		"launch effect" "korath external"
+	bay "Nanobot" -61.5 -68 over
+		"launch effect" "korath external"
+	bay "Nanobot" -29.5 -17 over
+		"launch effect" "korath external"
+	bay "Nanobot" -54.5 55 over
+		"launch effect" "korath external"
+	bay "Nanobot" -62 24 under
+		"launch effect" "korath external"
+	bay "Nanobot" -35 136.5 under
+		"launch effect" "korath external"
+	bay "Nanobot" -22 -82 under
+		"launch effect" "korath external"
+	leak "empire leak" 30 50
+	leak "empire flame" 50 80
+	leak "empire big leak" 60 30
+	explode "empire tiny explosion" 40
+	explode "empire tiny explosion" 55
+	explode "empire medium explosion" 60
+	explode "empire huge explosion" 5
+	"final explode" "empire medium explosion"
+	description "The TF109 is designed almost solely for the purpose of carrying a fleet of Kor Sestor fighters and drones. Without them to serve as a protective screen, the ship itself is relatively helpless."
+
 ship "Light Empire Destroyer"
 	sprite "ship/light empire destroyer"
 	thumbnail "thumbnail/light empire destroyer"

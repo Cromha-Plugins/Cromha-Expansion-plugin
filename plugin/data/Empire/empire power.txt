@@ -73,6 +73,20 @@ outfit "Multiphasic Capacitor"
 	"energy capacity" 875
 	description "In technic, Empire nanobots don't need any batteries because of their small amount of energy need. The Multiphasic Capacitor lets Empire nanobots stores energy."
 
+outfit "Thermal Nucleavoltaic"
+	category "Power"
+	licenses
+		"Empire Contributor"
+	thumbnail "outfit/thermal nucleavoltaic"
+	cost 9700
+	mass 5
+	"outfit space" -5
+	"energy generation" 5.4
+	"cooling" 3.2
+	"heat generation" 3.2
+	description "The Thermal Nuclealotaic is a high advanced generator. It convert thermal enrgy into power and cool the heat."
+	description "It is mainly used on Empire Nanobots and Empire Destroyers but it's rare to find someone using it."
+
 outfit "RC-X1 Multiphasic Reactor"
 	category "Power"
 	cost 7000
