@@ -382,6 +382,8 @@ ship "Empire Battle Bulker"
 		"hull" 47800
 		"mass" 540
 		"drag" 9.1
+		"required crew" 65
+		"bunks" 75
 		"heat dissipation" .65
 		"fuel capacity" 500
 		"cargo space" 39
