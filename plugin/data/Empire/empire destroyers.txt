@@ -423,9 +423,9 @@ ship "Empire Battle Bulker"
 		"Teleportation Dock" 2
 		"Tre-Phasic Rifle" 2
 		
-		`RC-180 Atomic Thruster`
-		"RC-185 Atomic Steering"
-		`RX-180 Reverse Thruster`
+		`RC-200 Atomic Thruster`
+		"RC-205 Atomic Steering"
+		`RX-200 Reverse Thruster`
 		"Plasma Drive"
 	
 	engine -9 205
