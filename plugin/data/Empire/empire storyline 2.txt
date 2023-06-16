@@ -208,3 +208,35 @@ mission "Empire: Collect Data"
 		personality staying target coward
 		ship "Peregrine" "The Great Die-Off"
 		system "Polerius"
+
+mission "Empire: Colonny Import Giriba"
+	name "Empire: Colonny Import"
+	description "Escort safely an fleet of Mineria colonnies and some merchants to <destination>. They will be setting up the first colonny of The Empire in the Ember Waste. Payment is <payment>."
+	landing
+	to offer
+		has "Empire: Collect Data: done"
+		random < 3
+	source "Black Manta Spacial Dock"
+	destination "Osaeli"
+	on offer
+		conversation
+			dialog "As you land on the Black Manta Spacial there is a fleet that seems to wait for you. They want you to escort them to <system>"
+	on complete
+		payment 8500000
+		payment
+		"reputation: Cromha Empire" += 15
+		"reputation: Mineria colonnies" += 170
+		"empire jobs" += 1
+		log "You escorted an fleet of Mineria colonnies and some merchants to set up a minning colonny on Osaeli in the Giribia system. It will be the first Empire colonny in the Ember Waste."
+		dialog "You get your payment of <payment>"
+	
+	npc accompany save escort
+		government "Mineria colonnies"
+		personality escort
+		fleet mineria-transports
+		fleet mineria-transports
+	
+	npc accompany save escort
+		government "Merchant"
+		personality escort
+		fleet cromha-merchants
