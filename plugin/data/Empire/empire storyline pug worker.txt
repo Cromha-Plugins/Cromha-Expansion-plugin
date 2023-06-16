@@ -47,12 +47,16 @@ mission "Pug: Crodust Shipyard"
 			`	"All the pleasure is for me, i don't need any kind of recompense."`
 			`	"Here! i give you this crystal, it carries good luck."`
 			`You can see a sort of yellow crystal in his hands. It seems to have secrets power.`
-			`	"I would also ask you a favor, can I?"`
+			`	"Also, i want to ask you something: would you escort me to <destination> so I can buy a new ship? I've heard some stories about Empire Rebels and I'm pretty scared. Don't you?"`
 			choice
 				`	"Sure"`
 					accept
 				`	"Sorry, but I don't have that much time"`
 					decline
+	npc accompany save
+		government "Pug"
+		personality escort timid
+		ship "Pug Zibruka" "Great Flyer"
 	on complete
 		dialog "You land on <planet> and see the Pug Worker walking toward some shipyards."
 		"reputation: Pug" += 10
