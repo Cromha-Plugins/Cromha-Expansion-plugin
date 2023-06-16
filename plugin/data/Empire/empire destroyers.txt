@@ -406,17 +406,25 @@ ship "Empire Battle Bulker"
 		"Small Empire Shielding Core" 2
 		"Empire Hai Ravine Batteries" 2
 		"RC-X3 Multiphasic Reactor"
+		"RC-X2 Multiphasic Reactor" 2
 		"Thermal Nucleavoltaic"
 		"Multiphasic Scanner"
 		"Multiphasic Cooler" 2
 		"Self Destruct Module"
 		"Countermesure Module"
 		"Mineria Key Stone"
-		"Brig"
+		"Brig" 3
 		"Fuel Cell"
+
+		"Empire Barricade"
+		"Empire Defense Station" 5
+		"Phasic Grenades" 15
+		"Phasic Rifle" 15
+		"Teleportation Dock" 2
+		"Tre-Phasic Rifle" 2
 		
 		`RC-180 Atomic Thruster`
-		`RC-185 Atomic Thruster`
+		`RC-185 Atomic Steering`
 		`RX-180 Reverse Thruster`
 		"Plasma Drive"
 	
