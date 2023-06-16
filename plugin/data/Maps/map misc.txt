@@ -248,6 +248,7 @@ system Pantica
 		period 273.671
 		object "Empire Remnant Embassade"
 			sprite planet/stationh-ancient2
+				scale 0.4
 			distance 275
 			period 15
 	object Esquiline
