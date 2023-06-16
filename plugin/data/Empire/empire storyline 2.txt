@@ -215,7 +215,6 @@ mission "Empire: Colonny Import Giriba"
 	landing
 	to offer
 		has "Empire: Collect Data: done"
-		random < 3
 	source "Black Manta Spacial Dock"
 	destination "Osaeli"
 	on offer
