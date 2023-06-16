@@ -1348,8 +1348,8 @@ system Seketra
 	fleet cromha-fleet 1700
 	fleet mineria-transports 875
 	fleet cromha-merchants 950
-	fleet empire-rebels-raiders-fleet
-	fleet cromha-miners
+	fleet empire-rebels-raiders-fleet 1950
+	fleet cromha-miners 360
 	object
 		sprite star/k5
 		period 10
