@@ -232,6 +232,9 @@ system Pantica
 	fleet "Small Remnant" 1400
 	fleet "Remnant Transport" 1400
 	fleet "Remnant Home Guard" 1300
+	fleet cromha-merchants 2000
+	fleet cromha-fleet 2000
+	fleet mineria-transports 2000
 	fleet "Korath Ember Waste Raid" 40000
 	hazard "Ember Waste Base Heat" 100
 	hazard "Ember Waste Base Storm" 25000
