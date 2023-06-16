@@ -922,8 +922,8 @@ system Skeruto
 			period 11.9576
 
 planet "Sabira Eseskrai"
-	attributes korath
-	government Uninhabited
+	attributes korath mining oil military
+	government Mineria colonnies
 	landscape land/desert13
 	description `Long ago, this planet was home to several Korath oil mining settlements, but now all that remains visible are the tops of a few dozen of the tallest buildings. Everything else has been buried by sandstorms.`
 	description `	Due to a recent shift in climate the deserts have begun shrinking once more, with local vegetation growing to cover more and more land each year, but the Korath are no longer here to benefit from the change.`
