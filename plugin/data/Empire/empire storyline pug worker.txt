@@ -34,6 +34,7 @@ mission "Pug: Crodust Shipyard"
 	destination "Crodust"
 	to offer
 		has "Empire: Transport Pugs Vacancers: done"
+		random < 8
 	source "Empire Ring"
 	on offer
 		set "Pug Crystal" 1
