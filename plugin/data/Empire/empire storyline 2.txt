@@ -202,7 +202,7 @@ mission "Empire: Collect Data"
 		"reputation: Remnant (empre mission)" += 5000000
 		"empire jobs" += 1
 		log "You scanned an Remnant ship to collect data about its engines for The Empire."
-		dailog "You get your payment of <payment>"
+		dialog "You get your payment of <payment>"
 	npc "scan outfits"
 		government "Remnant (empre mission)"
 		personality staying target coward
