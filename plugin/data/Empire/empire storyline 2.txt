@@ -337,6 +337,7 @@ mission "Empire: Station Escort Meftarkata"
 	on complete
 		payment 780000
 		payment
+		event "Mefterk Refinery Appears"
 		outfit "RV-175 Disruption Steering" 1
 		outfit "RV-170 Disruption Thruster" 1
 		"reputation: Cromha Empire" += 30
