@@ -594,7 +594,7 @@ outfit "Empire Heaver Splinter"
 			"frame rate" 12
 			rewind
 			scale 0.33
-		"hit effect" "empire heaver splinter hit" 3
+		"hit effect" "empire heaver splinter hit" 6
 		"inaccuracy" 5
 		"lifetime" 20
 		"hit force" 0
