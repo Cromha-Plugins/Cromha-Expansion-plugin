@@ -26,38 +26,7 @@ ship "Heavy Empire Destroyer"
 			"hull damage" 50500
 			"hit force" 5500
 	outfits
-		"Multiphasic Anti-Missile" 8
-		"Multiphasic ammo" 4800
-		"Empire Nuke" 2
-		"Grab-Strike Blaze" 8
-		"Ion Proton Turret" 3
-		"Empire Torpedo Bank" 6
-		"Empire Torpedo Rack" 30
-		"Empire Torpedo Missile" 420
-
-		"RC-X4 Multiphasic Reactor" 8
-		"Empire Hai Valley Batteries" 10
-		"Catalytic Ramscoop" 2
-		"Empire Shielding Core" 4
-		"Multiphasic Cooler" 12
-		"Brig" 20
-		"Phasic Rifle" 150
-		"Tre-Phasic Rifle" 2
-		"Phasic Grenades" 80
-		"Empire Defense Station" 10
-		"Empire Barricade" 5
-		"Multiphasic Scanner" 6
-		"Plasma Fuel Pod" 5
-		"Mineria Key Stone"
-		"Brig" 15
-		"Thermal Nucleavoltaic" 5
 		
-		`RC-220 Atomic Thruster` 1
-		`RC-225 Atomic Steering` 3
-		"RX-200 Reverse Thruster" 4
-		"Plasma Drive"
-		"Countermesure Module" 4
-		"Cloaking Module"
 
 	# Thrusters
 	engine -19.5 238
