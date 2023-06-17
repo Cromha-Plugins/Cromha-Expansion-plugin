@@ -142,3 +142,16 @@ outfit "RC-X4 Multiphasic Reactor"
 	"cooling" 8
 	description "Fission reactors are considered a rudimentary technology among interstellar species. Nonetheless, it remains a proven and safe technology that even the Hai use fairly regularly."
 	description "It is the 'auto-efficient' of the Multiphasic Reactor that make it powerful: It has cooling ducts integrated to its systems, that way it produce litteraly no heat.. It is small and can be installed in almost all ships. This reactor is used for almost all Empire fleet ships."
+
+outfit "Quantum Generator"
+	category "Power"
+	cost 1750000
+	licenses
+		"Empire Contributor"
+	thumbnail "outfit/empire quantum generator"
+	"mass" 45
+	"outfit space" -30
+	"energy generation" 87
+	"heat generation" 20
+	"cooling" 17.5
+	description "The Quantum Generator was designed for ships with needs like the most heaviest Lifdot ships. Some ships like the Empire Fortress, the Heavy Empire Destroyer and other world-ships. This generator uses antimatter like the Quarg do. It has incredible energy/heat and energy/weight effiency of all human reactors. It has also integrated cooling so it produce almost no heat: 87.5% of the heat is cooled."

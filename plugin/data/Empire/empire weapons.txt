@@ -750,6 +750,41 @@ outfit "Nuclavoltaic Repeater"
 		"heat damage" 77
 	description "This is the smallest and simplest Cromha Empire projectile weapon, designed mostly for use on light destroyers and other ships. As with most Empire technology, it generates a large amount of heat and energy, enough that the gun must pause briefly after every few shots to cool down."
 
+outfit "Nuclavoltaic Turret"
+	category "Turrets"
+	cost 306000
+	thumbnail "outfit/nucleavoltaic repeater turret"
+	"mass" 11
+	"outfit space" -11
+	"weapon capacity" -11
+	"energy capacity" 100
+	"turret mounts" -1
+	"required crew" 1
+	licenses
+		"Empire Contributor"
+	weapon
+		sprite "projectile/nucleavoltaic repeater"
+			"frame rate" 5
+		sound "repeater"
+		"hit effect" "nucleavoltaic repeater impact"
+		"hardpoint offset" 7.
+		"hardpoint sprite" "hardpoint/nucleavoltaic repeater turret"
+		"inaccuracy" 4
+		"turret turn" 2.6
+		"velocity" 15
+		"lifetime" 40
+		"reload" 5
+		"burst reload" 4
+		"burst count" 12
+		"cluster"
+		"firing energy" 24
+		"firing heat" .7
+		"shield damage" 72
+		"corrosion damage" 1
+		"hull damage" 39
+		"heat damage" 77
+	description "This is the smallest and simplest Cromha Empire projectile weapon, designed mostly for use on light destroyers and other ships. As with most Empire technology, it generates a large amount of heat and energy, enough that the gun must pause briefly after every few shots to cool down."
+
 effect "nucleavoltaic repeater impact"
 	sprite "effect/nucleavoltaic repeater impact"
 		"no repeat"
