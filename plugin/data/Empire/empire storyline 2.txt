@@ -327,7 +327,8 @@ mission "Empire: Station Escort Meftarkata"
 		ship "Mefterk Refinery" "Mefterk Refinery"
 	npc
 		government "Empire Rebels"
-		system "Korsmanath"
+		system system
+		personality staying
 		fleet empire-rebels-raiders-fleet 2
 	npc
 		government "Kor Mereti"
