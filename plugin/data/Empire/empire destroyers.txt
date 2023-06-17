@@ -54,8 +54,8 @@ ship "Heavy Empire Destroyer"
 		"Plasma Drive"
 		"Plasma Fuel Pod"
 		"Quantum Generator" 2
-		"RC-200 Atomic Thruster"
-		"RC-205 Atomic Steering"
+		"RC-200 Atomic Thruster" 2
+		"RC-205 Atomic Steering" 2
 		"RC-220 Atomic Thruster"
 		"RC-225 Atomic Steering"
 		"RC-X2 Multiphasic Reactor"
