@@ -4,6 +4,7 @@ ship "Mefterk Refinery"
       swizzle 0
       attributes
             category "Utility"
+            "never disabled"
             cost 0
             shields 0
             hull 98000
@@ -18,7 +19,7 @@ ship "Mefterk Refinery"
             "weapon capacity" 0
             "engine capacity" 0
             "thrust" 75
-            "turn" 175
+            "turn" 3000
             "hyperdrive" 1
             "jump fuel" 100
             "jump speed" 2
