@@ -342,5 +342,5 @@ mission "Empire: Station Escort Meftarkata"
 		"reputation: Cromha Empire" += 30
 		"reputation: Mineria colonnies" += 35
 		"empire jobs" += 1
-		log "You had an epic fight against a huge Kor Sestor fleet with several Empire Navy, Mineria colonnies and a lot of Merchant fleets with you. You also gained a Tre-Phasic Rifle for fighting against the Kor Sestor fleet."
+		log "You escorted an Empire amovible station to the Meftarkata system and gained a Disruption RV-170 Thruster and a Disruption RV-175 Steering engine."
 		dialog "You get your payment of <payment> and new disruptions engines (RV-170 and RV-175)"

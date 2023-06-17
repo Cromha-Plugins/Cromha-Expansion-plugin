@@ -23,7 +23,6 @@ ship "Mefterk Refinery"
             "hyperdrive" 1
             "jump fuel" 100
             "jump speed" 2
-            "hull repair rate" 2
             "ramscoop" .1
             "inscrutable"
             "energy capacity" 1700

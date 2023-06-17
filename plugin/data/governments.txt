@@ -30,7 +30,7 @@ government "Cromha Empire"
 		"Kor Sestor" -3
 		"Kor Mereti" -3
 		"Korath" -2
-		"Kor Efreti" -3
+		"Kor Efret" -3
 		"Wanderer" 3
 		"Remnant" 1
 		"Quarg" 1
