@@ -588,7 +588,7 @@ outfit "Empire Heaver Shard"
 		sprite "projectile/empire heaver shard"
 			"frame rate" 12
 			"rewind"
-		"hit effect" "empire heaver hyperspace hit small"
+		"hit effect" "empire heaver shard hit" 6
 		"inaccuracy" 4
 		"velocity" 15
 		"random velocity" 1.5
