@@ -300,6 +300,8 @@ ship "Empire Tubfalet"
 		over
 	gun 49.5 -148.5 "Langrage Empire-Heaver"
 		over
+	bay "Fuel Pod" 0 0
+		under
 	gun -68 -64 "Antimatter Railgun"
 	gun 68 -64 "Antimatter Railgun"
 	gun -63.5 -53 "Empire Torpedo Bank"
