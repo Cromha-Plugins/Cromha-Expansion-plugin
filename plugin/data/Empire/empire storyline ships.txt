@@ -25,6 +25,8 @@ ship "Mefterk Refinery"
             "hull repair rate" 2
             "ramscoop" .1
             "inscrutable"
+            "energy capacity" 1700
+            "energy generation" 1700
       leak "empire big leak" 45
       leak "empire leak 30"
       explode "empire tiny explosion" 20
