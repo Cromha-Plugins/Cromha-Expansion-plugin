@@ -787,8 +787,8 @@ event "Mefterk Refinery Appears"
 	log "A new station has been positionned: the Mefterk Refinery in the Empire-Korath Space."
 	system Meftarkata
 		pos 52.4305 -276.812
-		government Uninhabited
-		attributes "korath"
+		government "Cromha Empire"
+		attributes "korath" military research minning oil
 		arrival 2205
 		habitable 2205
 		belt 1232

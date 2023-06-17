@@ -72,7 +72,7 @@ planet "Elek Kartani"
 
 planet "Mefterk Refinery"
 	government "Cromha Empire"
-	description ""
+	description "The Mefterk Refinery is a huge refinery in the Empire-Korath space. It one of the principal outpost in the Korath-Empire space to produce refinned oil and refinned silver."
 	spaceport ""
 	outfitter Base-outfitter
 	outfitter Basic-ammo-outfitter
@@ -80,4 +80,4 @@ planet "Mefterk Refinery"
 	shipyard Base-shipyard
 	security 6
 	attributes station korath military research colonny
-	land land/Mefterk_refinery
+	landscape land/Mefterk_refinery
