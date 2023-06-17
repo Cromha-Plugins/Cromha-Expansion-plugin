@@ -18,8 +18,8 @@ ship "Mefterk Refinery"
             "outfit space" 0
             "weapon capacity" 0
             "engine capacity" 0
-            "thrust" 55
-            "turn" 1700
+            "thrust" 35
+            "turn" 1300
             "hyperdrive" 1
             "jump fuel" 100
             "jump speed" 2
