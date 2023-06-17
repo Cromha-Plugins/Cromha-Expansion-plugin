@@ -291,7 +291,7 @@ mission "Empire: Defense Sabriset From Kor Sestor"
 		log "You had an epic fight against a huge Kor Sestor fleet with several Empire Navy, Mineria colonnies and a lot of Merchant fleets with you. You also gained a Tre-Phasic Rifle for fighting against the Kor Sestor fleet."
 		dialog "You get your payment of <payment> and a Tre-Phasic rifle"
 
-#mission "Empire: Station Escort Meftarkata"
+mission "Empire: Station Escort Meftarkata"
 	name "Empire: Station Escort"
 	description "Escort an amovible Empire station to Meftarkata then land on Elek Kartani to get your payment of <payment>."
 	landing
