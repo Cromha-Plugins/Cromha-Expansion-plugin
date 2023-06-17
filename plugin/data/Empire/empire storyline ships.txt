@@ -2,9 +2,9 @@ ship "Mefterk Refinery"
       sprite "ship/mefterk refinery"
       thumbnail "thumbnail/ayym"
       swizzle 0
+      "never disabled"
       attributes
             category "Utility"
-            "never disabled"
             cost 0
             shields 0
             hull 98000
@@ -18,8 +18,8 @@ ship "Mefterk Refinery"
             "outfit space" 0
             "weapon capacity" 0
             "engine capacity" 0
-            "thrust" 75
-            "turn" 3000
+            "thrust" 55
+            "turn" 1700
             "hyperdrive" 1
             "jump fuel" 100
             "jump speed" 2
