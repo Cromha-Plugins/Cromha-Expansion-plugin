@@ -290,3 +290,47 @@ mission "Empire: Defense Sabriset From Kor Sestor"
 		"empire jobs" += 1
 		log "You had an epic fight against a huge Kor Sestor fleet with several Empire Navy, Mineria colonnies and a lot of Merchant fleets with you. You also gained a Tre-Phasic Rifle for fighting against the Kor Sestor fleet."
 		dialog "You get your payment of <payment> and a Tre-Phasic rifle"
+
+#mission "Empire: Station Escort Meftarkata"
+	name "Empire: Station Escort"
+	description "Escort an amovible Empire station to Meftarkata then land on Elek Kartani to get your payment of <payment>."
+	landing
+	source
+		government "Cromha Empire"
+		not attributes uninhabited station
+	to offer
+		has "Empire: Defense Sabriset From Kor Sestor: done"
+		random < 2
+	destination "Elek Kartani"
+	on offer
+		conversation
+			`You're about to land on the planet spaceport, you get hailed by some Empire Destroyer yll'e. Hend sends you this message:`
+			`	"Please escort us and the amovible to <destination>. When want to import a amovible station to the Meftarkata system but there will be Empire Rebels and Kor Mereti fleets on our way. Everyone in The Empire heard about you and your courageous fleet. Please make us pass to this system with the amovible station intact and you'll get well recompensed. More Empire fleets will come from Crodust, lifdot to help us in the mission.`
+			choice
+				`	Send an hail back and say you'll help them`
+					launch
+				`	Send an hail back to say you don't have time`
+					decline
+				`	Ignore the hail and land`
+					decline
+	npc accompany
+		government "Mineria colonnies"
+		fleet mineria-transports 2
+		planet source
+	npc accompany
+		government "Cromha Empire"
+		fleet cromha-fleet 2
+		system Lifdot
+	npc accompany save
+		government "Cromha Empire"
+		personality target escort
+		planet source
+		ship "Mefterk Refinery" "Mefterk Refinery"
+	npc
+		government "Empire Rebels"
+		system "Korosmanath"
+		fleet empire-rebels-raiders-fleet 2
+	npc
+		government "Kor Mereti"
+		system "Sepetrosk"
+		fleet "Large Kor Mereti" 2

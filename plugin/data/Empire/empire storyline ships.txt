@@ -1,0 +1,33 @@
+ship "Mefterk Refinery"
+      sprite "ship/mefterk refinery"
+      thumbnail "thumbnail/ayym"
+      swizzle 0
+      attributes
+            category "Utility"
+            cost 0
+            shields 0
+            hull 98000
+            "required crew" 38
+            "bunks" 38
+            "mass" 2700
+            "drag" 7
+            "heat dissipation" .7
+            "fuel capacity" 700
+            "cargo space" 0
+            "outfit space" 0
+            "weapon capacity" 0
+            "engine capacity" 0
+            "thrust" 75
+            "turn" 75
+            "hyperdrive" 1
+            "jump fuel" 100
+            "jump speed" 2
+            "hull repair rate" 2
+            "ramscoop" .1
+            "inscrutable"
+      leak "empire big leak" 45
+      leak "empire leak 30"
+      explode "empire tiny explosion" 20
+      explode "empire medium explosion" 15
+      explode "empire huge explosion" 5
+      "final explode" "empire black manta explosion"

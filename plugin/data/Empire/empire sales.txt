@@ -266,3 +266,4 @@ shipyard Advanced-lifdot-industries-shipyard
 	"Black Manta"
 	"Empire Palavret"
 	"Empire Battle Bulker"
+	"Mefterk Refinery"
