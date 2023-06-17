@@ -300,7 +300,6 @@ mission "Empire: Station Escort Meftarkata"
 		not attributes uninhabited station
 	to offer
 		has "Empire: Defense Sabriset From Kor Sestor: done"
-		random < 5
 	destination "Elek Kartani"
 	on offer
 		conversation
@@ -334,3 +333,13 @@ mission "Empire: Station Escort Meftarkata"
 		government "Kor Mereti"
 		system "Sepetrosk"
 		fleet "Large Kor Mereti" 2
+	on complete
+		payment 780000
+		payment
+		outfit "RV-175 Disruption Steering" 1
+		outfit "RV-170 Disruption Thruster" 1
+		"reputation: Cromha Empire" += 30
+		"reputation: Mineria colonnies" += 35
+		"empire jobs" += 1
+		log "You had an epic fight against a huge Kor Sestor fleet with several Empire Navy, Mineria colonnies and a lot of Merchant fleets with you. You also gained a Tre-Phasic Rifle for fighting against the Kor Sestor fleet."
+		dialog "You get your payment of <payment> and new disruptions engines (RV-170 and RV-175)"
