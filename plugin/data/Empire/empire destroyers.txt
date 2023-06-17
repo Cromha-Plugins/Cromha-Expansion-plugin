@@ -15,19 +15,60 @@ ship "Heavy Empire Destroyer"
 		"mass" 1800
 		"drag" 17.7
 		"heat dissipation" .45
-		"fuel capacity" 900
+		"fuel capacity" 500
 		"cargo space" 127
 		"outfit space" 3315
 		"weapon capacity" 900
 		"engine capacity" 640
 		weapon
-			"blast radius" 400
-			"shield damage" 10000
-			"hull damage" 50500
-			"hit force" 5500
+			"blast radius" 700
+			"shield damage" 77777
+			"hull damage" 65777
+			"hit force" 4300
 	outfits
-		
-
+		"Alldust Beam Turret" 6
+		"Catalytic Ramscoop"
+		"Cloaking Module"
+		"Countermesure Module" 2
+		"Empire Barricade" 10
+		"Empire Defense Station" 30
+		"Empire Hai Ravine Batteries" 2
+		"Empire Hai Valley Batteries"
+		"Empire Nuke" 2
+		"Empire Shielding Core" 2
+		"Empire Torpedo Bank" 2
+		"Empire Torpedo Missile" 140
+		"Empire Torpedo Rack" 10
+		"Grab-Strike Blaze" 4
+		"Mineria Key Stone"
+		"Multiphasic Ammo Rack" 6
+		"Multiphasic Anti-Missile" 3
+		"Multiphasic Capacitor" 4
+		"Multiphasic Cooler" 2
+		"Multiphasic Scanner"
+		"Multiphasic ammo" 3600
+		"Nuclavoltaic Turret" 6
+		"One-Phasic Cooler" 4
+		"Phasic Grenades" 50
+		"Phasic Rifle" 50
+		"Plasma Drive"
+		"Plasma Fuel Pod"
+		"Quantum Generator" 2
+		"RC-200 Atomic Thruster"
+		"RC-205 Atomic Steering"
+		"RC-220 Atomic Thruster"
+		"RC-225 Atomic Steering"
+		"RC-X2 Multiphasic Reactor"
+		"RC-X4 Multiphasic Reactor"
+		"RX-200 Reverse Thruster" 4
+		"Small Bunk Room" 4
+		"Small Empire Shielding Core" 6
+		"Teleportation Dock" 4
+		"Thermal Nucleavoltaic" 4
+		"Thunderhead Launcher" 4
+		"Thunderhead Missile" 280
+		"Thunderhead Storage Array" 6
+		"Tre-Phasic Rifle" 4
 	# Thrusters
 	engine -19.5 238
 		zoom 1.5
@@ -80,31 +121,56 @@ ship "Heavy Empire Destroyer"
 		zoom 1.5
 	"reverse engine" -67 67.5
 		zoom 1.5
-	turret 98.5 128.5 "Multiphasic Anti-Missile"
+	turret 98.5 128.5 "Grab-Strike Blaze"
+		over
 	turret 52.5 23 "Multiphasic Anti-Missile"
-	turret 67 105.5 "Multiphasic Anti-Missile"
-	turret 11.5 -135.5 "Multiphasic Anti-Missile"
-	turret -98.5 128.5 "Multiphasic Anti-Missile"
+		over
+	turret 67 105.5 "Alldust Beam Turret"
+		over
+	turret 11.5 -135.5 "Alldust Beam Turret"
+		over
+	turret -98.5 128.5 "Grab-Strike Blaze"
+		over
 	turret -52.5 23 "Multiphasic Anti-Missile"
-	turret -67 105.5 "Multiphasic Anti-Missile"
-	turret -11.5 -135.5 "Multiphasic Anti-Missile"
-	turret 0 96.5 "Ion Proton Turret"
-	turret -40.5 -91.5 "Ion Proton Turret"
-	turret 40.5 -91.5 "Ion Proton Turret"
-	turret -40 -110.5 "Grab-Strike Blaze"
-	turret -37 -131 "Grab-Strike Blaze"
-	turret -36.5 -148.5 "Grab-Strike Blaze"
+		over
+	turret -67 105.5 "Alldust Beam Turret"
+		over
+	turret -11.5 -135.5 "Alldust Beam Turret"
+		over
+	turret 0 96.5 "Multiphasic Anti-Missile"
+		over
+	turret -40.5 -91.5 "Alldust Beam Turret"
+		over
+	turret 40.5 -91.5 "Alldust Beam Turret"
+		over
+	turret -40 -110.5 "Nuclavoltaic Turret"
+		over
+	turret -37 -131 "Nuclavoltaic Turret"
+		over
+	turret -36.5 -148.5 "Nuclavoltaic Turret"
+		over
 	turret 102.5 190 "Grab-Strike Blaze"
-	turret 40 -110.5 "Grab-Strike Blaze"
-	turret 37 -131 "Grab-Strike Blaze"
-	turret 36.5 -148.5 "Grab-Strike Blaze"
+		over
+	turret 40 -110.5 "Nuclavoltaic Turret"
+		over
+	turret 37 -131 "Nuclavoltaic Turret"
+		over
+	turret 36.5 -148.5 "Nuclavoltaic Turret"
+		over
 	turret -102.5 190 "Grab-Strike Blaze"
-	gun -16 -154.5 "Empire Torpedo Bank"
+		over
+	gun -16 -154.5 "Thunderhead Launcher"
+		under
 	gun -66 66.5 "Empire Torpedo Bank"
-	gun -8.5 -210 "Empire Torpedo Bank"
-	gun 16 -154.5 "Empire Torpedo Bank"
+		under
+	gun -8.5 -210 "Thunderhead Launcher"
+		under
+	gun 16 -154.5 "Thunderhead Launcher"
+		under
 	gun 66 66.5 "Empire Torpedo Bank"
-	gun 8.5 -210 "Empire Torpedo Bank"
+		under
+	gun 8.5 -210 "Thunderhead Launcher"
+		under
 	gun -7 -198 "Empire Nuke"
 		over
 	gun 7 -198 "Empire Nuke"
