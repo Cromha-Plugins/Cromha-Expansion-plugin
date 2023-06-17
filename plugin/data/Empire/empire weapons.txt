@@ -573,12 +573,22 @@ effect "empire heaver hyperspace hit"
 	"velocity scale" .1
 	sound "heaver hyperspace hit"
 
+effect "empire heaver hyperspace hit small"
+	sprite "effect/empire heaver hyperspace hit"
+		scale .5
+		"no repeat"
+		rewind
+		"frame rate" 60
+	lifetime 36
+	"velocity scale" .1
+	sound "heaver hyperspace hit"
+
 outfit "Empire Heaver Shard"
 	weapon
 		sprite "projectile/empire heaver shard"
 			"frame rate" 12
 			"rewind"
-		"hit effect" "empire heaver hyperspace hit"
+		"hit effect" "empire heaver hyperspace hit small"
 		"inaccuracy" 4
 		"velocity" 15
 		"random velocity" 1.5
