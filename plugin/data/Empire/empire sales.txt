@@ -102,6 +102,7 @@ outfitter Advanced-weapon-outfitter
 	"Nuclavoltaic Repeater"
 	"Alldust Beam Turret"
 	"Twin Modified Blaster"
+	"Nuclavoltaic Turret"
 outfitter Advanced-systems-outfitter
 	"Cargo Expansion"
 	"Ramscoop"
