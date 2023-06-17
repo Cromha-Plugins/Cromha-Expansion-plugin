@@ -289,6 +289,14 @@ mission "Empire: Defense Sabriset From Kor Sestor"
 		fleet "Large Kor Sestor"
 		fleet "Large Kor Sestor"
 		fleet "Large Kor Sestor"
+		fleet "Large Kor Sestor"
+		fleet "Large Kor Sestor"
+		fleet "Large Kor Sestor"
+		fleet "Large Kor Sestor"
+		fleet "Large Kor Sestor"
+		fleet "Large Kor Sestor"
+		fleet "Large Kor Sestor"
+		system "Sabriset"
 	on complete
 		payment 2500780
 		payment
