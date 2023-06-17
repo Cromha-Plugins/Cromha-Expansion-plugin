@@ -300,7 +300,7 @@ mission "Empire: Station Escort Meftarkata"
 		not attributes uninhabited station
 	to offer
 		has "Empire: Defense Sabriset From Kor Sestor: done"
-		random < 2
+		random < 5
 	destination "Elek Kartani"
 	on offer
 		conversation
