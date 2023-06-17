@@ -255,10 +255,10 @@ mission "Empire: Defense Sabriset From Kor Sestor"
 		has "Empire: Colonny Import Giriba: done"
 	source
 		government "Cromha Empire" "Mineria colonnies"
-		not attributes uninhabited
+		not attributes uninhabited station
 	on offer
 		conversation
-			`As you land on <source>, you hear a huge noise and see a huge fleet made of Empire Navy, Mineria colonnies and merchants fleet leaving the planet. You hail an Empire Navy ship that seems to be important in the fleet. You write to him:`
+			`As you are landing, you hear a huge noise and see a huge fleet made of Empire Navy, Mineria colonnies and merchants fleet leaving the planet. You hail an Empire Navy ship that seems to be important in the fleet. You write to him:`
 			`	"Hi, what are you guys doing?"`
 			`	You wait a few seconds for him to respond back. You learn that an huge Kor Sestor fleet is attacking the Sabriset system and its Dragon Station. Will you join them?`
 			choice
@@ -268,41 +268,25 @@ mission "Empire: Defense Sabriset From Kor Sestor"
 					decline
 	npc accompany
 		government "Cromha Empire"
-		fleet cromha-fleet
-		fleet cromha-fleet
+		fleet cromha-fleet 2
 	npc accompany
 		government "Mineria colonnies"
-		fleet minear-transports
-		fleet minear-transports
-		fleet minear-transports
+		fleet mineria-transports 3
 	npc accompany
 		government "Merchant"
-		fleet cromha-merchant
-		fleet cromha-merchant
-		fleet cromha-merchant
-		fleet cromha-merchant
-		fleet cromha-merchant
-		fleet cromha-merchant
+		fleet cromha-merchants 5
 	npc disable
 		government "Kor Sestor"
-		attributes target
-		fleet "Large Kor Sestor"
-		fleet "Large Kor Sestor"
-		fleet "Large Kor Sestor"
-		fleet "Large Kor Sestor"
-		fleet "Large Kor Sestor"
-		fleet "Large Kor Sestor"
-		fleet "Large Kor Sestor"
-		fleet "Large Kor Sestor"
-		fleet "Large Kor Sestor"
-		fleet "Large Kor Sestor"
+		personality target staying
+		fleet "Large Kor Sestor" 10
 		system "Sabriset"
 	on complete
 		payment 2500780
 		payment
+		outfit "Tre-Phasic Rifle" +1
 		"reputation: Cromha Empire" += 15
 		"reputation: Mineria colonnies" += 15
 		"reputation: Merchant" += 10
 		"empire jobs" += 1
-		log "You had an epic fight against a huge Kor Sestor fleet with several Empire Navy, Mineria colonnies and a lot of Merchant fleets with you."
-		dialog "You get your payment of <payment>"
+		log "You had an epic fight against a huge Kor Sestor fleet with several Empire Navy, Mineria colonnies and a lot of Merchant fleets with you. You also gained a Tre-Phasic Rifle for fighting against the Kor Sestor fleet."
+		dialog "You get your payment of <payment> and a Tre-Phasic rifle"
