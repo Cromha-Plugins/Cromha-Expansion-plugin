@@ -69,3 +69,15 @@ planet "Elek Kartani"
       spaceport `The spaceport is just enough big for 2 Empire Destroyers. You will find lots of dilithum seller or illegal outfits dealers. Some Empire Rebels are hiding on this planet since the security is very low.`
       attributes korath factory military colonny oil uninhabited
 	landscape land/Elek_kartani
+
+planet "Mefterk Refinery"
+	government "Cromha Empire"
+	description ""
+	spaceport ""
+	outfitter Base-outfitter
+	outfitter Basic-ammo-outfitter
+	outfitter Basic-power-outfitter
+	shipyard Base-shipyard
+	security 6
+	attributes station korath military research colonny
+	land land/Mefterk_refinery
