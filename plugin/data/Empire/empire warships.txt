@@ -347,7 +347,7 @@ ship "Empire Palavret"
 		"hull" 127000
 		"required crew" 55
 		"bunks" 77
-		"mass" 345
+		"mass" 250
 		"drag" 13.5
 		"heat dissipation" .10
 		"fuel capacity" 600
