@@ -525,21 +525,21 @@ ship "Light Empire Destroyer"
 		"cost" 3120000
 		"shields" 95400
 		"hull" 45065
-		"required crew" 65
+		"required crew" 55
 		"bunks" 75
 		"mass" 550
-		"drag" 4.0
-		"heat dissipation" .7
-		"fuel capacity" 650
-		"cargo space" 68
-		"outfit space" 1120
-		"weapon capacity" 560
-		"engine capacity" 280
+		"drag" 4.7
+		"heat dissipation" .8
+		"fuel capacity" 500
+		"cargo space" 75
+		"outfit space" 1750
+		"weapon capacity" 980
+		"engine capacity" 750
 		weapon
-			"blast radius" 60
-			"shield damage" 600
-			"hull damage" 300
-			"hit force" 900
+			"blast radius" 205
+			"shield damage" 15000
+			"hull damage" 15000
+			"hit force" 1100
 	outfits
 		"Empire Particle gun" 4
 		"Multiphasic Anti-Missile" 2
