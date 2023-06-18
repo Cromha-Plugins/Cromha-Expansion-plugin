@@ -187,7 +187,7 @@ outfit `RC-145 Atomic Steering`
 	"mass" 12
 	"outfit space" -12
 	"engine capacity" -12
-	"turn" 357
+	"turn" 475
 	"turning energy" .7
 	"turning heat" 1.5
 	"steering flare sprite" "effect/empire atomic flare/tiny"
@@ -204,7 +204,7 @@ outfit `RC-165 Atomic Steering`
 	"mass" 20
 	"outfit space" -20
 	"engine capacity" -20
-	"turn" 598
+	"turn" 735
 	"turning energy" 1.1
 	"turning heat" 2.85
 	"steering flare sprite" "effect/empire atomic flare/tiny"
@@ -221,7 +221,7 @@ outfit `RC-185 Atomic Steering`
 	"mass" 32
 	"outfit space" -32
 	"engine capacity" -32
-	"turn" 1350
+	"turn" 1575
 	"turning energy" 2.0
 	"turning heat" 5.1
 	"steering flare sprite" "effect/empire atomic flare/small"
@@ -238,7 +238,7 @@ outfit `RC-205 Atomic Steering`
 	"mass" 49
 	"outfit space" -49
 	"engine capacity" -49
-	"turn" 1948
+	"turn" 2175
 	"turning energy" 3.2
 	"turning heat" 8.2
 	"steering flare sprite" "effect/empire atomic flare/medium"
@@ -255,7 +255,7 @@ outfit `RC-225 Atomic Steering`
 	"mass" 76
 	"outfit space" -76
 	"engine capacity" -76
-	"turn" 3287
+	"turn" 3395
 	"turning energy" 5.2
 	"turning heat" 13.8
 	"steering flare sprite" "effect/empire atomic flare/large"
