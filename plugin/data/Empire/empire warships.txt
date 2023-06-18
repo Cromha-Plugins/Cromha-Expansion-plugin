@@ -353,7 +353,7 @@ ship "Empire Palavret"
 		"fuel capacity" 600
 		"cargo space" 75
 		"landing speed" .07
-		"outfit space" 825
+		"outfit space" 907
 		"weapon capacity" 540
 		"engine capacity" 390
 		"hull repair rate" 5
@@ -389,9 +389,9 @@ ship "Empire Palavret"
 		"Brig" 3
 		"RC-X3 Multiphasic Reactor" 2
 		
-		"RC-200 Atomic Thruster" 1
-		"RC-205 Atomic Steering" 1
-		`RX-200 Reverse Thruster` 1
+		"RC-200 Atomic Thruster" 2
+		"RC-205 Atomic Steering" 2
+		`RX-200 Reverse Thruster` 4
 		"Phasic Rifle" 15
 		"Empire Defense Station" 3
 		"Phasic Grenades" 20
