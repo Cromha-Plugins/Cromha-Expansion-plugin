@@ -346,6 +346,16 @@ effect "empire torpedo ring small"
 	"random velocity" 2
 	"velocity scale" 0.1
 
+effect "empire torpedo ring"
+	sprite "effect/empire torpedo ring"
+		"no repeat"
+		"frame rate" 14
+	"lifetime" 50
+	sound "firelight hit"
+	"random angle" 360
+	"random velocity" 2
+	"velocity scale" 0.1
+
 outfit "Empire Typhoon Bank"
 	thumbnail "outfit/empire typhoon bank"
 	category "Secondary Weapons"
