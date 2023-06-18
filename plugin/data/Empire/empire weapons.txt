@@ -369,7 +369,7 @@ outfit "Empire Typhoon Bank"
 		"die effect" "empire torpedo ring" 4
 		"velocity" 6.7
 		"velocity override" 16
-		"lifetime" 685
+		"lifetime" 875
 		"reload" 65
 		"firing energy" 211
 		"firing heat" 151
