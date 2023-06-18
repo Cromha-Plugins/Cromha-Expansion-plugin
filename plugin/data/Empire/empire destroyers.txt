@@ -541,38 +541,6 @@ ship "Light Empire Destroyer"
 			"hull damage" 15000
 			"hit force" 1100
 	outfits
-		"Empire Particle gun" 4
-		"Multiphasic Anti-Missile" 2
-		"Multiphasic ammo" 1200
-		"Empire Torpedo Bank" 2
-		"Empire Torpedo Missile" 60
-		"Empire Torpedo Rack"
-		"Antimatter Railgun"
-		"Railgun Slug" 30
-		"Grab-Strike Blaze" 4
-		"Nuclavoltaic Repeater" 2
-		
-		"RC-X3 Multiphasic Reactor"
-		"RC-X2 Multiphasic Reactor" 2
-		"Empire Hai Ravine Batteries" 6
-		"Small Empire Shielding Core" 4
-		"Small Radar Jammer" 2
-		"Fuel Cell"
-		"Multiphasic Cooler"
-		"Phasic Rifle" 20
-		"Phasic Grenades" 10
-		"Empire Barricade"
-		"Empire Defense Station" 3
-		"Thermal Nucleavoltaic"
-		
-		`RC-200 Atomic Thruster`
-		`RC-225 Atomic Steering`
-		"Plasma Drive"
-		"Countermesure Module" 2
-		"Cloaking Module"
-		"Mineria Key Stone"
-		"Brig" 4
-		"Multiphasic Scanner"
 		
 	engine -25 133
 	engine 24.5 132.5
@@ -580,21 +548,25 @@ ship "Light Empire Destroyer"
 		zoom 0.7
 	engine 7 124
 		zoom 0.7
-	gun -15.5 -54.5 "Empire Particle gun"
-	gun 15.5 -54.5 "Empire Particle gun"
-	gun -21 -25.5 "Empire Particle gun"
-	gun 21 -25.5 "Empire Particle gun"
-	gun -1 -90.5 "Empire Torpedo Bank"
-	gun -1 -90.5 "Empire Torpedo Bank"
-	gun -0.5 -90 "Antimatter Railgun"
-	turret -16 36 "Multiphasic Anti-Missile"
-	turret 16 36 "Multiphasic Anti-Missile"
-	turret -36 -46 "Grab-Strike Blaze"
-	turret -37 -27.5 "Grab-Strike Blaze"
-	gun -39.5 -6.5 "Nuclavoltaic Repeater"
-	turret 36 -46 "Grab-Strike Blaze"
-	turret 37 -27.5 "Grab-Strike Blaze"
-	gun 39.5 -6.5 "Nuclavoltaic Repeater"
+	
+	gun 0 -90.5
+	turret 0 -29.5
+	turret 0 -15
+	turret 0 2.5
+	turret 0 82
+	turret 0 52
+	gun -11 -43.5
+	gun -8.5 -65.5
+	turret -36.5 -44
+	turret -38 -27
+	turret -39 -7.5
+	turret -46 87.5
+	gun 11 -43.5
+	gun 8.5 -65.5
+	turret 36.5 -44
+	turret 38 -27
+	turret 39 -7.5
+	turret 46 87.5
 	bay "Nanobot" 0 0
 	bay "Nanobot" 0 0
 	bay "Nanobot" 0 0
