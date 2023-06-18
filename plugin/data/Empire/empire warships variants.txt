@@ -107,7 +107,7 @@ ship "Empire Wardragon" "Empire Wardragon (Ion Proton)"
 	explode "empire tiny explosion" 60
 	explode "empire medium explosion" 40
 	"final explode" "empire huge explosion"
-	description "The Empire Wardragin is an remix of the Quarg Wardragon. This is the official Empire Warship that they use. It has good outfits, a great cargo space and great velocity. It is perfect for interceptions, attack, defend or even escort missions."
+	description "The Empire Wardragon is an remix of the Quarg Wardragon. This is the official Empire Warship that they use. It has good outfits, a great cargo space and great velocity. It is perfect for interceptions, attack, defend or even escort missions."
 
 ship "Empire Wardragon" "Empire Wardragon (Electron Beam)"
 	sprite "ship/empire wardragon"
@@ -217,7 +217,7 @@ ship "Empire Wardragon" "Empire Wardragon (Electron Beam)"
 	explode "empire tiny explosion" 60
 	explode "empire medium explosion" 40
 	"final explode" "empire huge explosion"
-	description "The Empire Wardragin is an remix of the Quarg Wardragon. This is the official Empire Warship that they use. It has good outfits, a great cargo space and great velocity. It is perfect for interceptions, attack, defend or even escort missions."
+	description "The Empire Wardragon is an remix of the Quarg Wardragon. This is the official Empire Warship that they use. It has good outfits, a great cargo space and great velocity. It is perfect for interceptions, attack, defend or even escort missions."
 
 ship "Empire Wardragon" "Empire Wardragon (Plasma Repeater)"
 	sprite "ship/empire wardragon"
@@ -327,7 +327,7 @@ ship "Empire Wardragon" "Empire Wardragon (Plasma Repeater)"
 	explode "empire tiny explosion" 60
 	explode "empire medium explosion" 40
 	"final explode" "empire huge explosion"
-	description "The Empire Wardragin is an remix of the Quarg Wardragon. This is the official Empire Warship that they use. It has good outfits, a great cargo space and great velocity. It is perfect for interceptions, attack, defend or even escort missions."
+	description "The Empire Wardragon is an remix of the Quarg Wardragon. This is the official Empire Warship that they use. It has good outfits, a great cargo space and great velocity. It is perfect for interceptions, attack, defend or even escort missions."
 
 ship "Empire Wardragon" "Empire Wardragon (Twin Modified Blaster)"
 	sprite "ship/empire wardragon"
@@ -437,7 +437,7 @@ ship "Empire Wardragon" "Empire Wardragon (Twin Modified Blaster)"
 	explode "empire tiny explosion" 60
 	explode "empire medium explosion" 40
 	"final explode" "empire huge explosion"
-	description "The Empire Wardragin is an remix of the Quarg Wardragon. This is the official Empire Warship that they use. It has good outfits, a great cargo space and great velocity. It is perfect for interceptions, attack, defend or even escort missions."
+	description "The Empire Wardragon is an remix of the Quarg Wardragon. This is the official Empire Warship that they use. It has good outfits, a great cargo space and great velocity. It is perfect for interceptions, attack, defend or even escort missions."
 
 ship "Empire Wardragon" "Empire Wardragon (Disruption)"
 	sprite "ship/empire wardragon"
@@ -547,7 +547,7 @@ ship "Empire Wardragon" "Empire Wardragon (Disruption)"
 	explode "empire tiny explosion" 60
 	explode "empire medium explosion" 40
 	"final explode" "empire huge explosion"
-	description "The Empire Wardragin is an remix of the Quarg Wardragon. This is the official Empire Warship that they use. It has good outfits, a great cargo space and great velocity. It is perfect for interceptions, attack, defend or even escort missions."
+	description "The Empire Wardragon is an remix of the Quarg Wardragon. This is the official Empire Warship that they use. It has good outfits, a great cargo space and great velocity. It is perfect for interceptions, attack, defend or even escort missions."
 
 # Empire Skylark
 ship "Empire Skylark" "Empire Skylark (Ion Proton)"
