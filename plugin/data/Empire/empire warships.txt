@@ -49,6 +49,9 @@ ship "Empire Wardragon"
 		"Self Destruct Module"
 		
 		"Empire Shielding Core" 2
+		"Empire Shielding Core" 4
+		"Quantum Generator"
+		"Empire Barricade"
 		"Empire Hai Ravine Batteries" 2
 		"Plasma Drive"
 		"Multiphasic Scanner"
@@ -128,7 +131,7 @@ ship "Empire Skylark"
 		"fuel capacity" 800
 		"cargo space" 55
 		"landing speed" 0.1
-		"outfit space" 960
+		"outfit space" 1400
 		"weapon capacity" 650
 		"engine capacity" 450
 		"hull repair rate" 5
@@ -148,13 +151,18 @@ ship "Empire Skylark"
 		"Railgun Slug" 560
 		"Railgun Slug Rack"
 		"Langrage Empire-Heaver"
+		"Alldust Beam Turret" 2
 
 		"Multiphasic Anti-Missile" 2
 		"Multiphasic ammo" 1200
 		
-		"Empire Shielding Core" 2
+		"Empire Shielding Core" 4
+		"Fuel Cell"
 		"Small Empire Shielding Core" 2
 		"Empire Hai Ravine Batteries"
+		"Plasma Fuel Pod"
+		"Quantum Generator"
+		"Empire Barricade"
 		"Thermal Nucleavoltaic"
 		"Multiphasic Scanner"
 		"Multiphasic Cooler" 2
@@ -193,6 +201,8 @@ ship "Empire Skylark"
 		under
 	bay "Nanobot" 25.5 32.5
 		under
+	turret 0 45 "Alldust Beam Turret"
+	turret 0 -40 "Alldust Beam Turret"
 	gun -29.5 -72.5 "Empire Particle gun"
 	gun -63.5 -31.5 "Empire Particle gun"
 	gun -14 -85 "Empire Particle gun"
