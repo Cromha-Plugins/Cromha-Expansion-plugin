@@ -1,6 +1,6 @@
 mission help-rebels-prisonners
       name "Bring prisonner to <planet>"
-      description "Bring the 3 empire prisonners you found in the Empire Rebel ship to <destiation>. Payment is <payment>."
+      description "Bring the 3 empire prisonners you found in the Empire Rebel ship to <destination>. Payment is <payment>."
       boarding
       repeat
       to offer
