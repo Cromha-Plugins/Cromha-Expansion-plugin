@@ -78,6 +78,7 @@ outfitter Advanced-ammo-outfitter
 	"Multiphasic Ammo Rack"
 outfitter Advanced-weapon-outfitter
 	"Empire Torpedo Bank"
+	"Empire Typhoon Bank"
 	"Typhoon Launcher"
 	"Typhoon Pod"
 	"Multiphasic Anti-Missile"

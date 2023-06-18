@@ -285,7 +285,7 @@ outfit "Empire Torpedo Bank"
 		"hit effect" "empire huge explosion" 20
 		"velocity" 4
 		"velocity override" 16
-		"lifetime" 10
+		"lifetime" .1
 		"reload" 80
 		"burst reload" 20
 		"burst count" 3
@@ -302,39 +302,17 @@ outfit "Empire Torpedo Bank"
 		"hit force" 70
 		"missile strength" 75
 		phasing
-		submunition "Empire Torpedo Homing"
+		submunition "Empire Torpedo Activated" 3
 		"stream"
-	description "As the Firestorm torpedo does not require full reactor shielding or safety interlocks, Korath engineers were able to further scale down the reactor element to fit in a missile casing for use on and against smaller vessels."
-	description "	Rather than rely on traditional reaction engines attached to the missile for launch, this rapid-fire missile bank appears to operate on the same principles as a Banisher."
-
-
-outfit "Empire Torpedo Homing"
-	weapon
-		sprite "projectile/empire torpedo"
-			scale 1.1
-		"hit effect" "empire huge explosion" 20
-		"velocity" 0.1
-		"lifetime" 45
-		"acceleration" 0.1
-		"drag" .07
-		"turn" 3.4
-		"homing" 4
-		"infrared tracking" .12
-		"optical tracking" .15
-		"radar tracking" .18
-		"trigger radius" 30
-		"blast radius" 35
-		"hit force" 50
-		"missile strength" 135
-		phasing
-		"submunition" "Empire Torpedo Activated" 2
+	description "Unlike the Empire Typhoon Bank, the Empire Torpedo Bank shoots 3 Empire Torpedo that are contained in the ammunition instead of shooting the whole torpedo at once."
+	description "It makes it so that the Empire Torpedo Bank is better for shooting extra large and very small ships and the Empire Typhoon Bank better for shooting all sorts of ships."
 
 outfit "Empire Torpedo Activated"
 	weapon
 		sprite "projectile/empire torpedo active"
 			"frame rate" 6
 			"random start frame"
-		"hit effect" "empire torpedo ring" 6
+		"hit effect" "empire torpedo ring small" 6
 		"velocity" 2
 		"random velocity" 15
 		"lifetime" 500
@@ -357,7 +335,7 @@ outfit "Empire Torpedo Activated"
 		"missile strength" 110
 		phasing
 
-effect "empire torpedo ring"
+effect "empire torpedo ring small"
 	sprite "effect/empire torpedo ring"
 		"scale" 0.1
 		"no repeat"
@@ -367,6 +345,50 @@ effect "empire torpedo ring"
 	"random angle" 360
 	"random velocity" 2
 	"velocity scale" 0.1
+
+outfit "Empire Typhoon Bank"
+	thumbnail "outfit/empire typhoon bank"
+	category "Secondary Weapons"
+	cost 657000
+	licenses
+		"Empire Contributor"
+	"mass" 22
+	"outfit space" -17
+	"weapon capacity" -17
+	"gun ports" -1
+	"energy capacity" 700
+	"empire torpedo capacity" 20
+	weapon
+		sprite "projectile/empire torpedo"
+			scale 1.1
+		sound "firelight"
+		ammo "Empire Torpedo Missile"
+		icon "icon/empire typhoon"
+		"cluster"
+		"hit effect" "empire torpedo ring" 4
+		"die effect" "empire torpedo ring" 4
+		"velocity" 6.7
+		"velocity override" 16
+		"lifetime" 45
+		"reload" 80
+		"burst reload" 20
+		"burst count" 3
+		"firing energy" 211
+		"firing heat" 151
+		"acceleration" 0.6
+		"drag" .1
+		"infrared tracking" .15
+		"optical tracking" .19
+		"radar tracking" .21
+		"homing" 4
+		"trigger radius" 30
+		"blast radius" 40
+		"hit force" 70
+		"missile strength" 75
+		phasing
+		"stream"
+	description "Unlike the Empire Torpedo Bank, the Empire Typhoon Bank shoots a whole Empire Torpedo that instead of shooting 3 Empire Torpedo that are contained in the ammunition"
+	description "It makes it so that the Empire Torpedo Bank is better for shooting extra large and very small ships and the Empire Typhoon Bank better for shooting all sorts of ships."
 
 outfit "Empire Nuke"
 	category "Secondary Weapons"
