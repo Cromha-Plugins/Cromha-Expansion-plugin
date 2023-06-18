@@ -347,7 +347,7 @@ ship "Empire Palavret"
 		"hull" 127000
 		"required crew" 55
 		"bunks" 77
-		"mass" 378
+		"mass" 345
 		"drag" 13.5
 		"heat dissipation" .10
 		"fuel capacity" 600
@@ -369,6 +369,8 @@ ship "Empire Palavret"
 		"Empire Torpedo Missile" 240
 		"Empire Torpedo Rack" 20
 		"Alldust Beam Canon" 6
+		"Nuclavoltaic Turret" 2
+		"Grab-Strike Blaze"
 
 		"Multiphasic Anti-Missile" 2
 		"Multiphasic ammo" 1200
@@ -377,7 +379,11 @@ ship "Empire Palavret"
 		"Empire Hai Gorge Batteries"
 		"Thermal Nucleavoltaic"
 		"Multiphasic Scanner"
-		"Multiphasic Cooler"
+		"Quantum Generator"
+		"Empire Barricade" 4
+		"Countermesure Module Compact" 2
+		"Empire Shielding Core"
+		"Multiphasic Cooler" 2
 		"One-Phasic Cooler" 2
 		"Mineria Key Stone"
 		"Brig" 3
@@ -405,6 +411,9 @@ ship "Empire Palavret"
 		zoom 1.8
 	"reverse engine" -9 -154
 	"reverse engine" 9 -154
+	turret 0 40 "Grab-Strike Blaze"
+	turret -11 -141.5 "Nuclavoltaic Turret"
+	turret 11 -141.5 "Nuclavoltaic Turret"
 	turret 0 -106 "Multiphasic Anti-Missile"
 	turret 0 72 "Multiphasic Anti-Missile"
 	gun -68.5 -145.5 "Alldust Beam Canon"
