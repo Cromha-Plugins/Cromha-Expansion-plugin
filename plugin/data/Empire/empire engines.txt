@@ -8,10 +8,10 @@ outfit `RC-001 Atomic Engines`
 	"mass" 22
 	"outfit space" -22
 	"engine capacity" -22
-	"thrust" 7.3
+	"thrust" 8.7
 	"thrusting energy" .87
 	"thrusting heat" 1.7
-	"turn" 244
+	"turn" 275
 	"turning energy" .64
 	"turning heat" 1.28
 	"flare sprite" "effect/empire atomic flare/tiny"
@@ -31,7 +31,7 @@ outfit `RC-140 Atomic Thruster`
 	"mass" 18
 	"outfit space" -18
 	"engine capacity" -18
-	"thrust" 12.5
+	"thrust" 15.7
 	"thrusting energy" 1.4
 	"thrusting heat" 2.8
 	"flare sprite" "effect/empire atomic flare/tiny"
@@ -52,7 +52,7 @@ outfit `RC-160 Atomic Thruster`
 	"mass" 28
 	"outfit space" -28
 	"engine capacity" -28
-	"thrust" 22.4
+	"thrust" 31.7
 	"thrusting energy" 2.5
 	"thrusting heat" 4.8
 	"flare sprite" "effect/empire atomic flare/tiny"
@@ -73,7 +73,7 @@ outfit `RC-180 Atomic Thruster`
 	"mass" 44
 	"outfit space" -44
 	"engine capacity" -44
-	"thrust" 39.4
+	"thrust" 47.5
 	"thrusting energy" 4
 	"thrusting heat" 8.2
 	"flare sprite" "effect/empire atomic flare/small"
@@ -94,7 +94,7 @@ outfit `RC-200 Atomic Thruster`
 	"mass" 63
 	"outfit space" -63
 	"engine capacity" -63
-	"thrust" 62.8
+	"thrust" 77.5
 	"thrusting energy" 6.1
 	"thrusting heat" 12.7
 	"flare sprite" "effect/empire atomic flare/medium"
@@ -115,7 +115,7 @@ outfit `RC-220 Atomic Thruster`
 	"mass" 104
 	"outfit space" -104
 	"engine capacity" -104
-	"thrust" 114.1
+	"thrust" 135.8
 	"thrusting energy" 10.4
 	"thrusting heat" 22.6
 	"flare sprite" "effect/empire atomic flare/large"
@@ -136,7 +136,7 @@ outfit `RX-120 Reverse Thruster`
 	"mass" 18
 	"outfit space" -18
 	"weapon capacity" -18
-	"reverse thrust" 12.5
+	"reverse thrust" 15.7
 	"reverse thrusting energy" 1.4
 	"reverse thrusting heat" 2.8
 	"reverse flare sprite" "effect/empire atomic flare/tiny"
@@ -153,7 +153,7 @@ outfit `RX-180 Reverse Thruster`
 	"mass" 28
 	"outfit space" -28
 	"weapon capacity" -28
-	"reverse thrust" 22.4
+	"reverse thrust" 47.5
 	"reverse thrusting energy" 2.5
 	"reverse thrusting heat" 4.8
 	"reverse flare sprite" "effect/empire atomic flare/tiny"
@@ -170,7 +170,7 @@ outfit `RX-200 Reverse Thruster`
 	"mass" 44
 	"outfit space" -44
 	"weapon capacity" -44
-	"reverse thrust" 39.4
+	"reverse thrust" 77.5
 	"reverse thrusting energy" 4
 	"reverse thrusting heat" 8.2
 	"reverse flare sprite" "effect/empire atomic flare/small"
@@ -187,7 +187,7 @@ outfit `RC-145 Atomic Steering`
 	"mass" 12
 	"outfit space" -12
 	"engine capacity" -12
-	"turn" 301
+	"turn" 357
 	"turning energy" .7
 	"turning heat" 1.5
 	"steering flare sprite" "effect/empire atomic flare/tiny"
@@ -204,7 +204,7 @@ outfit `RC-165 Atomic Steering`
 	"mass" 20
 	"outfit space" -20
 	"engine capacity" -20
-	"turn" 563
+	"turn" 598
 	"turning energy" 1.1
 	"turning heat" 2.85
 	"steering flare sprite" "effect/empire atomic flare/tiny"
@@ -221,7 +221,7 @@ outfit `RC-185 Atomic Steering`
 	"mass" 32
 	"outfit space" -32
 	"engine capacity" -32
-	"turn" 1028
+	"turn" 1350
 	"turning energy" 2.0
 	"turning heat" 5.1
 	"steering flare sprite" "effect/empire atomic flare/small"
@@ -238,7 +238,7 @@ outfit `RC-205 Atomic Steering`
 	"mass" 49
 	"outfit space" -49
 	"engine capacity" -49
-	"turn" 1714
+	"turn" 1948
 	"turning energy" 3.2
 	"turning heat" 8.2
 	"steering flare sprite" "effect/empire atomic flare/medium"
@@ -255,7 +255,7 @@ outfit `RC-225 Atomic Steering`
 	"mass" 76
 	"outfit space" -76
 	"engine capacity" -76
-	"turn" 2967
+	"turn" 3287
 	"turning energy" 5.2
 	"turning heat" 13.8
 	"steering flare sprite" "effect/empire atomic flare/large"
