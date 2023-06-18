@@ -2,7 +2,7 @@
 start "cromha-transporter"
 	name "NW Cromha Transporter"
 	description `You grew up on your dad's transporter, learning navigation, defending from Pirates.`
-	description `You decided to leave your father transporter to travel to Witdrew Station bank, in the Alpha Cromha system to take out a loan of 4.5M credits  with two of your best friends to buy your first ship and have a fresh start. Maybe will you choose to be captain of a transporter too?`
+	description `You decided to leave your father transporter to travel to the Alldust Empire bank, in the Alpha Cromha system to take out a loan of 4.5M credits with two of your best friends to buy your first ship and have a fresh start. Maybe will you choose to be captain of a transporter too?`
 	thumbnail "land/Witdrew_station"
 	date 17 11 3035
 	system "Alpha Cromha"
@@ -27,18 +27,3 @@ conversation "cromha transporter intro"
 	name
 	`	The elevator is so well-tuned that you do not even realize it is moving until it has deposited you back in the lobby. But as you leave the bank, you are smiling. This crazy adventure suddenly feels real to you. You are going to do it. You are finally going to get off this planet.`
 	`	Compared to the bank, you feel much more at home in the shipyard, walking among the rusted out hulks and newer ships that gleam in the sunlight. You smell grease and dirt and rocket fuel; wonderful smells. There are many ship models to choose from, but only some are within your price range. Which one you choose will determine your future...`
-
-conversation "birthday present"
-	`"WAIT!..."`
-	choice
-		`	Do not wait your dad and enter the spaceport without him`
-			goto dontwait
-		`	Do not wait your dad and enter the spaceport without him`
-			decline
-	label wait
-	`	"Son! I'm glad you waited me! I have something important for you, it's your birthday present. Follow me to the spaceport please."`
-	`	Your dad go to the spaceort manager and ask smth you cam't hear. The manager give him keys of a spaceport depot. He opens it and a very old but beautifull Blackbird transporter.`
-	`	"This was my first ship! say your dad. And it is now yours. I know it is pretty old and rusty but i'm sure you will like it!"`
-	`	You say: "Oh my god dad, it really didn't expected this from you. I'm so happy"`
-	`	"I hope you will mak good worth of it. See you next time!"`
-	`	Your dad come back to his ship and you have the sentiment of never seeing him again.`
