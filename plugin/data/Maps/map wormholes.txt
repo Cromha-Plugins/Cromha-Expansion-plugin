@@ -8,7 +8,7 @@ wormhole "Alpha Jump Tunnel Wormhole"
 	link "Alpha Cromha" "Alpha Hydri"
 	link "Alpha Hydri" "Alpha Cromha"
 	"display name" "Alpha Jump Tunnel"
-	color 0 255 255
+	color .415 .553 1
 
 planet "Solifar Jump Tunnel"
 	attributes "requires: quantum keystone"
@@ -20,7 +20,7 @@ wormhole "Solifar Jump Tunnel"
 	link "Solifar" "Pantica"
 	link "Pantica" "Solifar"
 	"display name" "Solifar Jump Tunnel"
-	color 0 255 255
+	color .415 .553 1
 
 planet "Wel'y Jump Tunnel"
 	attributes "requires: quantum keystone"
@@ -32,7 +32,7 @@ wormhole "Wel'y Jump Tunnel"
 	link "Wel'y" "Prakacha'a"
 	link "Prakacha'a" "Wel'y"
 	"display name" "Wel'y Jump Tunnel"
-	color 0 255 255
+	color .415 .553 1
 
 planet "Lifdot Jump Tunnel"
 	attributes "requires: quantum keystone"
@@ -44,4 +44,4 @@ wormhole "Lifdot Jump Tunnel"
 	link "Lifdot" "Markeb"
 	link "Markeb" "Lifdot"
 	"display name" "Lifdot Jump Tunnel"
-	color 0 255 255
+	color .415 .553 1
