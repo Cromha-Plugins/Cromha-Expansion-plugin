@@ -659,12 +659,10 @@ outfit "Alldust Beam Canon"
 		"burst reload" 1
 		"firing energy" 5.4
 		"firing heat" 1.8
-		"shield damage" 9.7
-		"energy damage" .9
-            "fuel damage" .01
-            "slowing damage" .3
-            "burn damage" .1
-		"hull damage" 7.8
+		"shield damage" 50
+		"hull damage" 40
+		"ion damage" .1
+		"scrambling damage" .1
 	description "Because their Electron Beams are not very effective against the heavy plating of the Korath drones, The Empire have developed a new beam weapon that is considerably more effective against hull armor."
 
 effect "alldust beam fleck"
@@ -711,12 +709,10 @@ outfit "Alldust Beam Turret"
 		"burst reload" 1
 		"firing energy" 5.4
 		"firing heat" 1.8
-		"shield damage" 9.7
-		"energy damage" .9
-            "fuel damage" .01
-            "slowing damage" .3
-            "burn damage" .1
-		"hull damage" 7.8
+		"shield damage" 50
+		"hull damage" 40
+		"ion damage" .1
+		"scrambling damage" .1
 	description "This turret only carries a single Alldust Beam weapon, but with its duty cycle increased so it can do 50% more damage than the non-turreted version."
 
 outfit "Nuclavoltaic Repeater"
