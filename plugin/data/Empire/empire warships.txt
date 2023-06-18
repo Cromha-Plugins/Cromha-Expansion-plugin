@@ -39,6 +39,7 @@ ship "Empire Wardragon"
 		"Railgun Slug" 560
 		"Railgun Slug Rack"
 		"Langrage Empire-Heaver"
+		"Alldust Beam Turret" 2
 		
 		"Multiphasic Anti-Missile" 2
 		"Multiphasic ammo" 1200
@@ -82,6 +83,8 @@ ship "Empire Wardragon"
 	"reverse engine" 13.5 -33
 		zoom 0.5
 	# Weapons
+	turret -28 7 "Alldust Beam Turret"
+	turret 28 7 "Alldust Beam Turret"
 	turret 27.5 5.5 "Multiphasic Anti-Missile"
 	turret -27.5 5.5 "Multiphasic Anti-Missile"
 	gun -12.5 -33.5 "Empire Particle gun"
