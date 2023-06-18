@@ -21,14 +21,13 @@ wormhole "Solifar Jump Tunnel"
 
 planet "Wel'y Jump Tunnel"
 	attributes "requires: quantum keystone"
-	mappable
-	link "Wel'y" "Prakacha'a"
-	link "Prakecha'a" "Wel'y"
+	spaceport ``
+	description ``
 	wormhole "Wel'y Jump Tunnel"
 wormhole "Wel'y Jump Tunnel"
 	mappable
 	link "Wel'y" "Prakacha'a"
-	link "Prakecha'a" "Wel'y"
+	link "Prakacha'a" "Wel'y"
 
 planet "Lifdot Jump Tunnel"
 	attributes "requires: quantum keystone"
