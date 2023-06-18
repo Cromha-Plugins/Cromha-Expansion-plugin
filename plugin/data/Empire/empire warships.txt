@@ -353,7 +353,7 @@ ship "Empire Palavret"
 		"fuel capacity" 600
 		"cargo space" 75
 		"landing speed" .07
-		"outfit space" 907
+		"outfit space" 1075
 		"weapon capacity" 540
 		"engine capacity" 390
 		"hull repair rate" 5
