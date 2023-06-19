@@ -377,6 +377,7 @@ outfit "Empire Typhoon Bank"
 		"cluster"
 		"hit effect" "empire torpedo ring" 4
 		"die effect" "empire torpedo ring" 4
+		"velocity" 2
 		"random velocity" 15
 		"turn" 4
 		"lifetime" 875
