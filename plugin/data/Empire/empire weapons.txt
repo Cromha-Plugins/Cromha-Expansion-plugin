@@ -686,8 +686,9 @@ outfit "Alldust Beam Canon"
 			"random start frame"
 		sound "moonbeam"
 		"hit effect" "alldust beam impact"
-		"velocity" 490
-		"lifetime" 1.3
+		"inaccuracy" 0.45
+		"velocity" 450
+		"lifetime" 1
             "phasing"
 		# A full cycle is 45 frames. Beam is active 56% of the time.
 		"reload" 1.4
@@ -734,9 +735,9 @@ outfit "Alldust Beam Turret"
 		sound "moonbeam"
 		"fire effect" "alldust beam fleck"
 		"hit effect" "alldust beam impact"
-		"inaccuracy" 2.0
 		"turret turn" 3.6
-		"velocity" 490
+		"inaccuracy" 0.45
+		"velocity" 450
 		"lifetime" 1
 		# A full cycle is 36 frames. Beam is active 83% of the time.
 		"reload" 1.2
