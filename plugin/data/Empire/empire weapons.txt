@@ -379,22 +379,19 @@ outfit "Empire Typhoon Bank"
 		"die effect" "empire torpedo ring" 4
 		"velocity" 16
 		"acceleration" 1.6
-		"drag" .1
+		"drag" .7
 		"turn" 2
 		"lifetime" 875
 		"reload" 65
 		"firing energy" 211
 		"firing heat" 151
-		"acceleration" 1.6
-		"drag" .7
 		"infrared tracking" .21
 		"optical tracking" .21
 		"radar tracking" .25
-		"trigger radius" 30
 		"homing" 4
 		"blast radius" 40
 		"hit force" 70
-		"missile strength" 870
+		"missile strength" 140
 		phasing
 		"stream"
 	description "Unlike the Empire Torpedo Bank, the Empire Typhoon Bank shoots a whole Empire Torpedo that instead of shooting 3 Empire Torpedo that are contained in the ammunition"
