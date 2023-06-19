@@ -685,7 +685,6 @@ outfit "Alldust Beam Canon"
 		sprite "projectile/alldust beam"
 			"random start frame"
 		sound "moonbeam"
-		"fire effect" "alldust beam fleck"
 		"hit effect" "alldust beam impact"
 		"inaccuracy" 2.0
 		"velocity" 490
