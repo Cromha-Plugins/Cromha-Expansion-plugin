@@ -541,32 +541,89 @@ ship "Light Empire Destroyer"
 			"hull damage" 15000
 			"hit force" 1100
 	outfits
-		
+		"Alldust Beam Turret" 2
+		Brig 6
+		"Bunk Room" 2
+		"Cloaking Module"
+		"Countermesure Module"
+		"Countermesure Module Compact" 2
+		"Empire Barricade" 8
+		"Empire Defense Station" 15
+		"Empire Hai Gorge Batteries"
+		"Empire Navy Emitter"
+		"Empire Shielding Core" 4
+		"Empire Torpedo Bank" 2
+		"Empire Torpedo Missile" 190
+		"Empire Torpedo Rack" 15
+		"Fuel Cell"
+		"Grab-Strike Blaze" 3
+		"Ion Proton Gun" 2
+		"Langrage Empire-Heaver"
+		"Mineria Key Stone"
+		"Multiphasic Ammo Rack" 5
+		"Multiphasic Anti-Missile" 2
+		"Multiphasic Capacitor" 4
+		"Multiphasic Cooler" 4
+		"Multiphasic Scanner"
+		"Multiphasic ammo" 2700
+		"Nuclavoltaic Turret" 6
+		"One-Phasic Cooler" 2
+		"Phasic Grenades" 35
+		"Phasic Rifle" 35
+		"Plasma Drive"
+		"Plasma Fuel Pod"
+		"Quantum Generator" 3
+		"RC-185 Atomic Steering"
+		"RC-220 Atomic Thruster"
+		"RC-225 Atomic Steering"
+		"RC-X2 Multiphasic Reactor"
+		"Small Bunk Room"
+		"Small Empire Shielding Core" 6
+		"Teleportation Dock" 2
+		"Thermal Nucleavoltaic" 2
+		"Tre-Phasic Rifle"
 	engine -25 133
 	engine 24.5 132.5
 	engine -7 124
 		zoom 0.7
 	engine 7 124
 		zoom 0.7
-	
-	gun 0 -90.5
-	turret 0 -29.5
-	turret 0 -15
-	turret 0 2.5
-	turret 0 82
-	turret 0 52
-	gun -11 -43.5
-	gun -8.5 -65.5
-	turret -36.5 -44
-	turret -38 -27
-	turret -39 -7.5
-	turret -46 87.5
-	gun 11 -43.5
-	gun 8.5 -65.5
-	turret 36.5 -44
-	turret 38 -27
-	turret 39 -7.5
-	turret 46 87.5
+	gun 0 -90.5 "Langrage Empire-Heaver"
+		under
+	turret 0 -29.5 "Multiphasic Anti-Missile"
+		over
+	turret 0 -15 "Grab-Strike Blaze"
+		over
+	turret 0 2.5 "Grab-Strike Blaze"
+		over
+	turret 0 82 "Grab-Strike Blaze"
+		over
+	turret 0 52 "Multiphasic Anti-Missile"
+		over
+	gun -11 -43.5 "Ion Proton Gun"
+		under
+	gun -8.5 -65.5 "Empire Torpedo Bank"
+		under
+	turret -36.5 -44 "Nuclavoltaic Turret"
+		over
+	turret -38 -27 "Nuclavoltaic Turret"
+		over
+	turret -39 -7.5 "Nuclavoltaic Turret"
+		over
+	turret -46 87.5 "Alldust Beam Turret"
+		over
+	gun 11 -43.5 "Ion Proton Gun"
+		under
+	gun 8.5 -65.5 "Empire Torpedo Bank"
+		under
+	turret 36.5 -44 "Nuclavoltaic Turret"
+		over
+	turret 38 -27 "Nuclavoltaic Turret"
+		over
+	turret 39 -7.5 "Nuclavoltaic Turret"
+		over
+	turret 46 87.5 "Alldust Beam Turret"
+		over
 	bay "Nanobot" 0 0
 	bay "Nanobot" 0 0
 	bay "Nanobot" 0 0

@@ -395,6 +395,12 @@ outfit "Empire Typhoon Bank"
 		"blast radius" 40
 		"hit force" 70
 		"missile strength" 140
+		"shield damage" 540
+		"hull damage" 798
+		"heat damage" 1900
+		"ion damage" 1.8
+		"energy damage" 1.2
+		"corrosion damage" 3.3
 		phasing
 		"stream"
 	description "Unlike the Empire Torpedo Bank, the Empire Typhoon Bank shoots a whole Empire Torpedo that instead of shooting 3 Empire Torpedo that are contained in the ammunition"
@@ -727,7 +733,6 @@ outfit "Alldust Beam Turret"
 		sprite "projectile/alldust beam"
 			"random start frame"
 		"hardpoint sprite" "hardpoint/alldust beam turret"
-		"hardpoint offset" 9.
 		sound "moonbeam"
 		"fire effect" "alldust beam fleck"
 		"hit effect" "alldust beam impact"
