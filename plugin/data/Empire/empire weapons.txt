@@ -686,7 +686,6 @@ outfit "Alldust Beam Canon"
 			"random start frame"
 		sound "moonbeam"
 		"hit effect" "alldust beam impact"
-		"inaccuracy" 2.0
 		"velocity" 490
 		"lifetime" 1.3
             "phasing"
