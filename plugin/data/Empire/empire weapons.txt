@@ -379,7 +379,9 @@ outfit "Empire Typhoon Bank"
 		"die effect" "empire torpedo ring" 4
 		"velocity" 2
 		"random velocity" 15
-		"turn" 4
+		"acceleration" 1.6
+		"drag" .1
+		"turn" 2
 		"lifetime" 875
 		"reload" 65
 		"firing energy" 211
@@ -389,6 +391,7 @@ outfit "Empire Typhoon Bank"
 		"infrared tracking" .21
 		"optical tracking" .21
 		"radar tracking" .25
+		"trigger radius" 30
 		"homing" 4
 		"blast radius" 40
 		"hit force" 70
