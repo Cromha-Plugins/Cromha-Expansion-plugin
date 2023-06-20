@@ -379,20 +379,32 @@ ship "Empire Destroyer yll'e"
 		zoom 0.8
 		left
 		angle 270
-	gun 11 -175.5 "Empir Nuke"
+	gun 11 -175.5 "Empire Nuke"
 		under
 	turret 11 94 "Multiphasic Anti-Missile"
+		over
 	turret 11.5 -130.5 "Multiphasic Anti-Missile"
-	turret 14 -52 "Multiphasic Anti-Missile"
-	turret -26 83 "Multiphasic Anti-Missile"
-	turret 32.5 -27.5 "Ion Proton Turret"
-	turret 51.5 96 "Ion Proton Turret"
-	turret 15 17.5 "Ion Proton Turret"
-	turret -14.5 -37 "Grab-Strike Blaze"
-	turret -12.5 -59 "Grab-Strike Blaze"
-	turret -10.5 -84 "Grab-Strike Blaze"
-	turret -8.5 -108 "Grab-Strike Blaze"
+		over
+	turret 14 -52 "Grab-Strike Blaze"
+		over
+	turret -26 83 "Alldust Beam Turret"
+		over
+	turret 32.5 -27.5 "Alldust Beam Turret"
+		over
+	turret 51.5 96 "Alldust Beam Turret"
+		over
+	turret 15 17.5 "Grab-Strike Blaze"
+		over
+	turret -14.5 -37 "Alldust Beam Turret"
+		over
+	turret -12.5 -59 "Nuclavoltaic Turret"
+		over
+	turret -10.5 -84 "Nuclavoltaic Turret"
+		over
+	turret -8.5 -108 "Nuclavoltaic Turret"
+		over
 	turret 22 149.5 "Grab-Strike Blaze"
+		over
 	bay "Fuel Pod" 0 0
 	bay "Fuel Pod" 0 0
 	bay "Nanobot" 20.5 -65 over
