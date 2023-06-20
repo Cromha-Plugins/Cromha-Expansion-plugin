@@ -1,6 +1,5 @@
 minable "crystal"
 	sprite "asteroid/crystal/crystal"
-        scale 0.1
 	hull 4560
 	"random hull" 550
 	payload "Crystal" 32
