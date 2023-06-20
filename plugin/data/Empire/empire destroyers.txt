@@ -317,8 +317,8 @@ ship "Empire Destroyer yll'e"
 		licenses
 			"Empire Navy"
 		"cost" 10930000
-		"shields" 130400
-		"hull" 95065
+		"shields" 270400
+		"hull" 135065
 		"required crew" 75
 		"bunks" 110
 		"mass" 510
@@ -326,7 +326,7 @@ ship "Empire Destroyer yll'e"
 		"heat dissipation" .7
 		"fuel capacity" 600
 		"cargo space" 87
-		"outfit space" 1200
+		"outfit space" 1950
 		"weapon capacity" 550
 		"engine capacity" 450
 		weapon
@@ -335,33 +335,38 @@ ship "Empire Destroyer yll'e"
 			"hull damage" 800
 			"hit force" 2400
 	outfits
-		"Ion Proton Turret" 3
-		"Grab-Strike Blaze" 5
-		"Multiphasic Anti-Missile" 4
-		"Multiphasic ammo" 2400
-		"Empire Nuke"
-		
-		"RC-X3 Multiphasic Reactor" 2
-		"KP-6 Photovoltaic Array"
-		"KP-6 Photovoltaic Panel" 2
-		"Empire Hai Ravine Batteries" 6
-		"Empire Shielding Core" 4
-		"Large Radar Jammer"
-		"Multiphasic Cooler"
-		"Phasic Rifle" 15
-		"Phasic Grenades" 8
-		"Empire Barricade" 3
-		"Empire Defense Station" 6
-		"Thermal Nucleavoltaic"
-		
-		`RC-200 Atomic Thruster`
-		`RC-225 Atomic Steering`
-		"Plasma Drive"
-		"Countermesure Module" 2
+		"Alldust Beam Turret" 4
+		Brig 4
 		"Cloaking Module"
-		"Brig" 5
+		"Countermesure Module" 2
+		"Countermesure Module Compact" 4
+		"Empire Barricade" 20
+		"Empire Defense Station" 35
+		"Empire Hai Ravine Batteries" 2
+		"Empire Nuke"
+		"Empire Shielding Core" 6
+		"Fuel Cell"
+		"Grab-Strike Blaze" 3
 		"Mineria Key Stone"
-		"Multiphasic Scanner"
+		"Multiphasic Ammo Rack" 8
+		"Multiphasic Anti-Missile" 2
+		"Multiphasic Capacitor" 2
+		"Multiphasic Cooler" 4
+		"Multiphasic ammo" 3600
+		"Nuclavoltaic Turret" 3
+		"One-Phasic Cooler" 4
+		"Phasic Grenades" 50
+		"Phasic Rifle" 50
+		"Plasma Drive"
+		"Plasma Fuel Pod"
+		"Quantum Generator" 3
+		"RC-220 Atomic Thruster"
+		"RC-225 Atomic Steering"
+		"RC-225 Atomic Steering"
+		"Small Empire Shielding Core" 8
+		"Teleportation Dock" 3
+		"Thermal Nucleavoltaic" 4
+		"Tre-Phasic Rifle" 2
 	engine 11 220
 		zoom 1.8
 	engine -11 220
@@ -390,12 +395,26 @@ ship "Empire Destroyer yll'e"
 	turret 22 149.5 "Grab-Strike Blaze"
 	bay "Fuel Pod" 0 0
 	bay "Fuel Pod" 0 0
-	bay "Nanobot" 33.5 57
-		over
-	bay "Nanobot" 31.5 155.5
-		over
-	bay "Nanobot" 20 -60.5
-		over
+	bay "Nanobot" 20.5 -65 over
+		"launch effect" "korath external"
+	bay "Nanobot" 44.5 -40 over
+		"launch effect" "korath external"
+	bay "Nanobot" 30 67 over
+		"launch effect" "korath external"
+	bay "Nanobot" 61.5 83 over
+		"launch effect" "korath external"
+	bay "Nanobot" 43 137 over
+		"launch effect" "korath external"
+	bay "Nanobot" 18 171.5 over
+		"launch effect" "korath external"
+	bay "Nanobot" 30 -106 under
+		"launch effect" "korath external"
+	bay "Nanobot" 24 -8 under
+		"launch effect" "korath external"
+	bay "Nanobot" 42 55 under
+		"launch effect" "korath external"
+	bay "Nanobot" 34 172 under
+		"launch effect" "korath external"
 	leak "empire leak" 30 50
 	leak "empire flame" 50 80
 	leak "empire big leak" 60 30
