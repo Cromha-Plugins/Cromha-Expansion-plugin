@@ -569,7 +569,7 @@ effect "grab-strike empire impact"
 	"velocity scale" -.1
 
 outfit "Langrage Empire-Heaver"
-	category "Secondary Weapons"
+	category "Guns"
 	cost 3450000
 	thumbnail "outfit/empire heaver"
 	"mass" 15
