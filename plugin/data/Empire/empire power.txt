@@ -154,4 +154,4 @@ outfit "Quantum Generator"
 	"energy generation" 87
 	"heat generation" 20
 	"cooling" 17.5
-	description "The Quantum Generator was designed for ships with needs like the most heaviest Lifdot ships. Some ships like the Empire Fortress, the Heavy Empire Destroyer and other world-ships. This generator uses antimatter like the Quarg do. It has incredible energy/heat and energy/weight effiency of all human reactors. It has also integrated cooling so it produce almost no heat: 87.5% of the heat is cooled."
+	description "The Quantum Generator was designed for ships with needs like the most heaviest Lifdot ships. Some ships like the Empire Fortress, the Empire Kraken and other world-ships. This generator uses antimatter like the Quarg do. It has incredible energy/heat and energy/weight effiency of all human reactors. It has also integrated cooling so it produce almost no heat: 87.5% of the heat is cooled."

@@ -17,24 +17,24 @@ fleet cromha-fleet
 	variant 3
 		"Empire Skylark"
 		"Empire Wardragon" 2
-		"Empire Nanobot yll'a" 2
+		"Empire Nanobot YLL'A" 2
 		"Empire Tubfalet"
 		"Empire Palavret"
 	variant 3
 		"Empire Skylark (Ion Proton)"
 		"Empire Wardragon (Electron Beam)" 2
-		"Empire Nanobot yll'e"
-		"Empire Nanobot yll'a"
+		"Empire Nanobot YLL'E"
+		"Empire Nanobot YLL'A"
 		"Empire Palavret"
 	variant 3
 		"Empire Skylark (Electron Beam)"
 		"Empire Wardragon (Ion Proton)"
 		"Empire Wardragon (Plasma Repeater)"
-		"Empire Nanobot yll'e"
+		"Empire Nanobot YLL'E"
 	variant 3
 		"Empire Skylark"
 		"Empire Wardragon (Plasma Repeater)" 2
-		"Empire Nanobot yll'e" 2
+		"Empire Nanobot YLL'E" 2
 		"Empire Tubfalet"
 	variant 3
 		"Empire Skylark (Plasma Repeater)"
@@ -44,112 +44,112 @@ fleet cromha-fleet
 		"Empire Skylark (Twin Modified Blaster)"
 		"Empire Wardragon (Ion Proton)"
 		"Empire Wardragon"
-		"Empire Nanobot yll'a"
+		"Empire Nanobot YLL'A"
 		"Empire Palavret"
 	variant 3
 		"Empire Skylark"
 		"Empire Wardragon (Twin Modified Blaster)" 2
-		"Empire Nanobot yll'e"
-		"Empire Nanobot yll'a"
+		"Empire Nanobot YLL'E"
+		"Empire Nanobot YLL'A"
 		"Empire Tubfalet"
 	variant 3
 		"Empire Skylark (Electron Beam)"
 		"Empire Wardragon"
 		"Empire Wardragon (Plasma Repeater)"
-		"Empire Nanobot yll'e"
-		"Empire Nanobot yll'a"
+		"Empire Nanobot YLL'E"
+		"Empire Nanobot YLL'A"
 		"Empire Palavret"
 	variant 1
-		"Light Empire Destroyer" 2
-		"Empire Destroyer yll'e"
-		"Empire Nanobot yll'e" 2
-		"Empire Nanobot yll'a"
+		"Empire Galactik" 2
+		"Empire Corvette YLL'E"
+		"Empire Nanobot YLL'E" 2
+		"Empire Nanobot YLL'A"
 		"Empire Bulker Class D"
-		"Empire Nanobot yll'e" 7
-		"Empire Nanobot yll'e" 7
+		"Empire Nanobot YLL'E" 7
+		"Empire Nanobot YLL'E" 7
 		"Fuel Pod Class D" 2
 	variant 1
-		"Light Empire Destroyer" 2
-		"Empire Destroyer yll'a"
-		"Empire Nanobot yll'e" 1
+		"Empire Galactik" 2
+		"Empire Corvette YLL'A"
+		"Empire Nanobot YLL'E" 1
 		"Empire Tubfalet"
 	variant 1
-		"Light Empire Destroyer"
-		"Empire Destroyer yll'e" 2
-		"Empire Nanobot yll'e"
-		"Empire Nanobot yll'a" 2
+		"Empire Galactik"
+		"Empire Corvette YLL'E" 2
+		"Empire Nanobot YLL'E"
+		"Empire Nanobot YLL'A" 2
 		"Empire Palavret" 2
 	variant 1
-		"Light Empire Destroyer"
-		"Empire Destroyer yll'a" 2
-		"Empire Nanobot yll'a" 1
+		"Empire Galactik"
+		"Empire Corvette YLL'A" 2
+		"Empire Nanobot YLL'A" 1
 		"Empire Bulker Class D"
-		"Empire Nanobot yll'e" 7
-		"Empire Nanobot yll'e" 7
+		"Empire Nanobot YLL'E" 7
+		"Empire Nanobot YLL'E" 7
 	variant 1
-		"Light Empire Destroyer"
-		"Empire Destroyer yll'e"
-		"Empire Destroyer yll'a"
-		"Empire Nanobot yll'e" 2
+		"Empire Galactik"
+		"Empire Corvette YLL'E"
+		"Empire Corvette YLL'A"
+		"Empire Nanobot YLL'E" 2
 		"Empire Tubfalet"
 	variant 1
-		"Light Empire Destroyer" 2
-		"Empire Destroyer yll'a"
-		"Empire Destroyer yll'e"
-		"Empire Nanobot yll'e" 2
-		"Empire Nanobot yll'a" 2
+		"Empire Galactik" 2
+		"Empire Corvette YLL'A"
+		"Empire Corvette YLL'E"
+		"Empire Nanobot YLL'E" 2
+		"Empire Nanobot YLL'A" 2
 		"Empire Bulker Class D"
-		"Empire Nanobot yll'e" 7
-		"Empire Nanobot yll'e" 7
+		"Empire Nanobot YLL'E" 7
+		"Empire Nanobot YLL'E" 7
 		"Fuel Pod Class D" 2
 	variant 0.7
-		"Light Empire Destroyer" 2
-		"Empire Destroyer yll'e"
-		"Heavy Empire Destroyer"
-		"Empire Nanobot yll'e"
-		"Empire Nanobot yll'a" 2
+		"Empire Galactik" 2
+		"Empire Corvette YLL'E"
+		"Empire Kraken"
+		"Empire Nanobot YLL'E"
+		"Empire Nanobot YLL'A" 2
 		"Empire Palavret"
 	variant 0.7
-		"Light Empire Destroyer" 2
-		"Empire Destroyer yll'a"
-		"Heavy Empire Destroyer"
-		"Empire Nanobot yll'a"
+		"Empire Galactik" 2
+		"Empire Corvette YLL'A"
+		"Empire Kraken"
+		"Empire Nanobot YLL'A"
 		"Empire Bulker Class D"
-		"Empire Nanobot yll'e" 7
-		"Empire Nanobot yll'e" 7
+		"Empire Nanobot YLL'E" 7
+		"Empire Nanobot YLL'E" 7
 		"Fuel Pod Class D" 2
 		"Empire Palavret" 2
 	variant 0.7
-		"Light Empire Destroyer"
-		"Empire Destroyer yll'e" 2
-		"Heavy Empire Destroyer"
-		"Empire Nanobot yll'a" 2
+		"Empire Galactik"
+		"Empire Corvette YLL'E" 2
+		"Empire Kraken"
+		"Empire Nanobot YLL'A" 2
 	variant 0.7
-		"Light Empire Destroyer"
-		"Empire Destroyer yll'a" 2
-		"Heavy Empire Destroyer"
-		"Empire Nanobot yll'e" 3
+		"Empire Galactik"
+		"Empire Corvette YLL'A" 2
+		"Empire Kraken"
+		"Empire Nanobot YLL'E" 3
 		"Fuel Pod Class D" 2
 	variant 0.7
-		"Light Empire Destroyer"
-		"Empire Destroyer yll'e"
-		"Empire Destroyer yll'a"
-		"Heavy Empire Destroyer"
-		"Empire Nanobot yll'a" 4
+		"Empire Galactik"
+		"Empire Corvette YLL'E"
+		"Empire Corvette YLL'A"
+		"Empire Kraken"
+		"Empire Nanobot YLL'A" 4
 		"Empire Bulker Class D"
-		"Empire Nanobot yll'e" 7
-		"Empire Nanobot yll'e" 7
+		"Empire Nanobot YLL'E" 7
+		"Empire Nanobot YLL'E" 7
 		"Fuel Pod Class D" 2
 	variant 0.7
-		"Light Empire Destroyer" 2
-		"Empire Destroyer yll'a"
-		"Empire Destroyer yll'e"
-		"Heavy Empire Destroyer"
-		"Empire Nanobot yll'e" 3
-		"Empire Nanobot yll'a" 2
+		"Empire Galactik" 2
+		"Empire Corvette YLL'A"
+		"Empire Corvette YLL'E"
+		"Empire Kraken"
+		"Empire Nanobot YLL'E" 3
+		"Empire Nanobot YLL'A" 2
 		"Empire Bulker Class D"
-		"Empire Nanobot yll'e" 7
-		"Empire Nanobot yll'e" 7
+		"Empire Nanobot YLL'E" 7
+		"Empire Nanobot YLL'E" 7
 		"Fuel Pod Class D" 2
 		"Empire Palavret" 2
 	variant 0.3

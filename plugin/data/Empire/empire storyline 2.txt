@@ -303,7 +303,7 @@ mission "Empire: Station Escort Meftarkata"
 	destination "Elek Kartani"
 	on offer
 		conversation
-			`You're about to land on the planet spaceport, you get hailed by some Empire Destroyer yll'e. Hend sends you this message:`
+			`You're about to land on the planet spaceport, you get hailed by some Empire Corvette YLL'E. Hend sends you this message:`
 			`	"Please escort us and the amovible to <destination>. When want to import a amovible station to the Meftarkata system but there will be Empire Rebels and Kor Mereti fleets on our way. Everyone in The Empire heard about you and your courageous fleet. Please make us pass to this system with the amovible station intact and you'll get well recompensed. More Empire fleets will come from Crodust, lifdot to help us in the mission.`
 			choice
 				`	Send an hail back and say you'll help them`

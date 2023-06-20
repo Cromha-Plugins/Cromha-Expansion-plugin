@@ -88,11 +88,11 @@ mission "Empire: Ring Assist"
 		"reputation: Cromha Empire" += 50
 		"empire jobs" += 1
 		set "license: Empire Navy"
-		give ship "Light Empire Destroyer" "empire fleet names"
-		give ship "Light Empire Destroyer" "empire fleet names"
+		give ship "Empire Galactik" "empire fleet names"
+		give ship "Empire Galactik" "empire fleet names"
 		payment
 		payment 300000
-		dialog "You land on <planet> and recieve <payment>. There is an entire Empire fleet of 2 Light Empire Destroyer. You also won an Empire Navy License."
+		dialog "You land on <planet> and recieve <payment>. There is an entire Empire fleet of 2 Empire Galactik. You also won an Empire Navy License."
 	npc kill
 		government "Bounty Hunter"
 		personality staying disables target

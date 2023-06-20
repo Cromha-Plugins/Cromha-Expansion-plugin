@@ -1,7 +1,7 @@
-ship "Empire Nanobot yll'e"
+ship "Empire Nanobot YLL'E"
 	plural "Empire Nanobots"
-	sprite "ship/empire nanobot yll'e"
-	thumbnail "thumbnail/empire nanobot yll'e"
+	sprite "ship/Empire Nanobot YLL'E"
+	thumbnail "thumbnail/Empire Nanobot YLL'E"
 	"uncapturable"
 	
 	"swizzle" 0
@@ -46,10 +46,10 @@ ship "Empire Nanobot yll'e"
 	gun 12.5 -6 "Empire Particle gun"
 	explode "empire tiny explosion" 15
 
-ship "Empire Nanobot yll'a"
+ship "Empire Nanobot YLL'A"
 	plural "Empire Nanobots"
-	sprite "ship/empire nanobot yll'a"
-	thumbnail "thumbnail/empire nanobot yll'a"
+	sprite "ship/Empire Nanobot YLL'A"
+	thumbnail "thumbnail/Empire Nanobot YLL'A"
 	"uncapturable"
 	
 	"swizzle" 0

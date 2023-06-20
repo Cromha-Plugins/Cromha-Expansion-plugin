@@ -1,6 +1,6 @@
-ship "Heavy Empire Destroyer"
-	sprite "ship/heavy empire destroyer"
-	thumbnail "thumbnail/heavy empire destroyer"
+ship "Empire Kraken"
+	sprite "ship/Empire Kraken"
+	thumbnail "thumbnail/Empire Kraken"
 	swizzle 0
 	attributes
 		category "Destroyer"
@@ -200,9 +200,9 @@ ship "Heavy Empire Destroyer"
 	"final explode" "empire huge explosion"
 	description "The Empire Destroyer is more than just a warship: it is practically a mobile space station, with docking bays for an entire squadron of drones and fighters and enough crew to fill a small village. Although designed primarily for engaging enemies from a distance, a Carrier can also do significant damage in close combat."
 
-ship "Empire Destroyer yll'a"
-	sprite "ship/empire destroyer yll'a"
-	thumbnail "thumbnail/empire destroyer yll'a"
+ship "Empire Corvette YLL'A"
+	sprite "ship/Empire Corvette YLL'A"
+	thumbnail "thumbnail/Empire Corvette YLL'A"
 	swizzle 0
 	attributes
 		category "Destroyer"
@@ -336,9 +336,9 @@ ship "Empire Destroyer yll'a"
 	"final explode" "empire medium explosion"
 	description "The Empire Destroyer is one of the most powerful warships in the Empire fleet, a sleeker and more maneuverable alternative to the venerable and somewhat outdated Leviathan."
 
-ship "Empire Destroyer yll'e"
-	sprite "ship/empire destroyer yll'e"
-	thumbnail "thumbnail/empire destroyer yll'e"
+ship "Empire Corvette YLL'E"
+	sprite "ship/Empire Corvette YLL'E"
+	thumbnail "thumbnail/Empire Corvette YLL'E"
 	swizzle 0
 	attributes
 		category "Destroyer"
@@ -466,7 +466,7 @@ ship "Empire Destroyer yll'e"
 	"final explode" "empire medium explosion"
 	description "The Empire Destroyer is one of the most powerful warships in the Empire fleet, a sleeker and more maneuverable alternative to the venerable and somewhat outdated Leviathan."
 
-ship "Empire Battle Bulker"
+ship "Empire Nano-Flyer"
 	sprite "ship/empire transporter"
 	thumbnail "thumbnail/empire transporter"
 	swizzle 0
@@ -594,9 +594,9 @@ ship "Empire Battle Bulker"
 	"final explode" "empire medium explosion"
 	description "The TF109 is designed almost solely for the purpose of carrying a fleet of Kor Sestor fighters and drones. Without them to serve as a protective screen, the ship itself is relatively helpless."
 
-ship "Light Empire Destroyer"
-	sprite "ship/light empire destroyer"
-	thumbnail "thumbnail/light empire destroyer"
+ship "Empire Galactik"
+	sprite "ship/Empire Galactik"
+	thumbnail "thumbnail/Empire Galactik"
 	swizzle 0
 	attributes
 		category "Destroyer"
@@ -716,4 +716,4 @@ ship "Light Empire Destroyer"
 	explode "empire medium explosion" 24
 	explode "empire huge explosion" 8
 	"final explode" "empire huge explosion"
-	description "The Light Empire Destroyer is the largest warship produced by the Empire shipyard. It is designed to be faster and more maneuverable than other ships of a similar size, in order to serve as a heavy escort ship or as part of a planetary defense and patrol fleet. Because of its intended use in merchant convoys, it also has a fair amount of cargo space."
+	description "The Empire Galactik is the largest warship produced by the Empire shipyard. It is designed to be faster and more maneuverable than other ships of a similar size, in order to serve as a heavy escort ship or as part of a planetary defense and patrol fleet. Because of its intended use in merchant convoys, it also has a fair amount of cargo space."
