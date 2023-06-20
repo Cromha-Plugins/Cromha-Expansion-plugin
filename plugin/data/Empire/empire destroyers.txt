@@ -486,9 +486,9 @@ ship "Empire Battle Bulker"
 		"weapon capacity" 475
 		"engine capacity" 122
 		weapon
-			"blast radius" 280
-			"shield damage" 7200
-			"hull damage" 2400
+			"blast radius" 320
+			"shield damage" 19000
+			"hull damage" 1900
 			"hit force" 4700
 	outfits
 		"Multiphasic Anti-Missile"
@@ -525,13 +525,11 @@ ship "Empire Battle Bulker"
 	
 	engine -9 205
 	engine 9 205
-	turret 0 -214 "Multiphasic Anti-Missile"
-	gun -14 -206 "Nuclavoltaic Repeater"
-	gun 14 -206 "Nuclavoltaic Repeater"
-	turret -13 -60 "Grab-Strike Blaze"
-	turret 13 -60 "Grab-Strike Blaze"
-	turret -89 32 "Alldust Beam Turret"
-	turret 89 32 "Alldust Beam Turret"
+	gun 0 -214
+	gun -14 -206
+	gun 14 -206
+	turret -89 32
+	turret 89 32
 	bay "Nanobot" 38.5 -115.5 over
 		"launch effect" "korath external"
 	bay "Nanobot" 25 -50.5 over
