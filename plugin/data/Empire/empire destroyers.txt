@@ -276,7 +276,7 @@ ship "Empire Destroyer yll'a"
 		zoom 0.8
 		right
 		angle 90
-		gun -0.5 -239 "Empire Nuke"
+	gun -0.5 -239 "Empire Nuke"
 		under
 	gun -9 -219 "Empire Nuke"
 		under
