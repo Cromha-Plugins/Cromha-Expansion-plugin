@@ -578,13 +578,11 @@ outfit "Langrage Empire-Heaver"
 	"outfit space" -8
 	"weapon capacity" -8
 	"gun ports" -1
-	"required crew" 1
 	weapon
 		sprite "projectile/empire heaver hyperspace"
 			"frame rate" 12
 			rewind
 		sound "heaver"
-		icon "icon/empire heaver"
 		"hit effect" "empire heaver hyperspace hit"
 		velocity 30
 		"hit force" 0
