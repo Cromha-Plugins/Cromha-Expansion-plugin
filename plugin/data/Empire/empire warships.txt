@@ -276,6 +276,7 @@ ship "Empire Tubfalet"
 		"Multiphasic Cooler"
 		"One-Phasic Cooler" 4
 		"Mineria Key Stone"
+		"Empire Navy Emitter"
 		"Brig" 14
 		"RC-X4 Multiphasic Reactor" 2
 		

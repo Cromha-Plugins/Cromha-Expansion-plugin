@@ -1,4 +1,3 @@
-
 ship "Heavy Empire Destroyer"
 	sprite "ship/heavy empire destroyer"
 	thumbnail "thumbnail/heavy empire destroyer"
@@ -35,6 +34,7 @@ ship "Heavy Empire Destroyer"
 		"Empire Hai Ravine Batteries" 2
 		"Empire Hai Valley Batteries"
 		"Empire Nuke" 2
+		"Empire Navy Emitter"
 		"Empire Shielding Core" 2
 		"Empire Torpedo Bank" 2
 		"Empire Torpedo Missile" 140
@@ -227,33 +227,43 @@ ship "Empire Destroyer yll'a"
 			"hull damage" 1900
 			"hit force" 2400
 	outfits
-		"Ion Proton Turret" 3
-		"Grab-Strike Blaze" 5
-		"Multiphasic Anti-Missile" 4
-		"Multiphasic ammo" 2400
-		"Empire Nuke" 2
-		
-		"RC-X3 Multiphasic Reactor" 2
-		"KP-6 Photovoltaic Array"
-		"KP-6 Photovoltaic Panel" 2
-		"Empire Hai Ravine Batteries" 6
-		"Empire Shielding Core" 4
-		"Large Radar Jammer"
-		"Multiphasic Cooler"
-		"Phasic Rifle" 15
-		"Phasic Grenades" 8
-		"Empire Barricade" 3
-		"Empire Defense Station" 6
-		"Thermal Nucleavoltaic"
-		
-		`RC-200 Atomic Thruster`
-		`RC-225 Atomic Steering`
-		"Plasma Drive"
-		"Countermesure Module" 2
+		"Alldust Beam Turret" 4
+		Brig 4
+		"Catalytic Ramscoop"
 		"Cloaking Module"
-		"Brig" 5
+		"Countermesure Module" 2
+		"Countermesure Module Compact" 8
+		"Empire Barricade" 25
+		"Empire Defense Station" 40
+		"Empire Hai Gorge Batteries"
+		"Empire Hai Ravine Batteries" 2
+		"Empire Nuke" 2
+		"Empire Shielding Core" 8
+		"Grab-Strike Blaze" 3
 		"Mineria Key Stone"
+		"Multiphasic Ammo Rack" 10
+		"Multiphasic Anti-Missile" 3
+		"Multiphasic Capacitor" 2
+		"Multiphasic Cooler" 10
 		"Multiphasic Scanner"
+		"Multiphasic ammo" 4800
+		"Nuclavoltaic Turret" 2
+		"One-Phasic Cooler" 8
+		"Phasic Grenades" 60
+		"Phasic Rifle" 60
+		"Plasma Drive"
+		"Plasma Fuel Pod"
+		"Quantum Generator" 3
+		"RC-220 Atomic Thruster"
+		"RC-225 Atomic Steering" 2
+		"RC-X2 Multiphasic Reactor"
+		"RC-X3 Multiphasic Reactor"
+		"RC-X4 Multiphasic Reactor"
+		"Small Empire Shielding Core" 14
+		"Teleportation Dock" 4
+		"Thermal Nucleavoltaic" 4
+		"Tre-Phasic Rifle" 2
+		"Empire Navy Emitter"
 	engine -9.5 244.5
 		zoom 1.8
 	engine 10.5 245.5
@@ -266,38 +276,56 @@ ship "Empire Destroyer yll'a"
 		zoom 0.8
 		right
 		angle 90
-	gun -0.5 -239 "Empire Nuke"
+		gun -0.5 -239 "Empire Nuke"
 		under
 	gun -9 -219 "Empire Nuke"
 		under
-	turret 34.5 99.5 "Multiphasic Anti-Missile"
-	turret 31 28.5 "Multiphasic Anti-Missile"
-	turret -5 26.5 "Multiphasic Anti-Missile"
-	turret -6.5 -133 "Multiphasic Anti-Missile"
-	turret -8.5 -118 "Ion Proton Turret"
-	turret -10 75 "Ion Proton Turret"
-	turret -10 116 "Ion Proton Turret"
-	turret 18 -132.5 "Grab-Strike Blaze"
-	turret 19.5 -109.5 "Grab-Strike Blaze"
-	turret 20.5 -85.5 "Grab-Strike Blaze"
-	turret 23 -63 "Grab-Strike Blaze"
-	turret 40 146 "Grab-Strike Blaze"
+	turret 34.5 99.5 "Alldust Beam Turret"
+		over
+	turret 31 28.5 "Alldust Beam Turret"
+		over
+	turret -5 26.5 "Grab-Strike Blaze"
+		over
+	turret -6.5 -133 "Alldust Beam Turret"
+		over
+	turret -8.5 -118 "Multiphasic Anti-Missile"
+		over
+	turret -10 75 "Grab-Strike Blaze"
+		over
+	turret -10 116 "Grab-Strike Blaze"
+		over
+	turret 18 -132.5 "Nuclavoltaic Turret"
+		over
+	turret 19.5 -109.5 "Nuclavoltaic Turret"
+		over
+	turret 20.5 -85.5 "Alldust Beam Turret"
+		over
+	turret 23 -63 "Multiphasic Anti-Missile"
+		over
+	turret 40 146 "Multiphasic Anti-Missile"
+		over
 	bay "Fuel Pod" -15.5 144.5
 		under
 	bay "Fuel Pod" -30 55.5
 		under
-	bay "Nanobot" -9 -216
-		over
-	bay "Nanobot" -22.5 120.5
-		over
-	bay "Nanobot" -3 76.5
-		over
-	bay "Nanobot" -15.5 25.5
-		over
-	bay "Nanobot" -11.5 -123.5
-		over
-	bay "Nanobot" -19.5 -64
-		over
+	bay "Nanobot" -18.5 -163 over
+		"launch effect" "korath external"
+	bay "Nanobot" -43.5 -103.5 over
+		"launch effect" "korath external"
+	bay "Nanobot" -16.5 -32.5 over
+		"launch effect" "korath external"
+	bay "Nanobot" -30 57 over
+		"launch effect" "korath external"
+	bay "Nanobot" -55.5 96.5 over
+		"launch effect" "korath external"
+	bay "Nanobot" -21.5 150.5 over
+		"launch effect" "korath external"
+	bay "Nanobot" -32.5 -76.5 under
+		"launch effect" "korath external"
+	bay "Nanobot" -14.5 43.5 under
+		"launch effect" "korath external"
+	bay "Nanobot" -42.5 193.5 under
+		"launch effect" "korath external"
 	leak "empire leak" 30 50
 	leak "empire flame" 50 80
 	leak "empire big leak" 60 30
@@ -367,6 +395,7 @@ ship "Empire Destroyer yll'e"
 		"Teleportation Dock" 3
 		"Thermal Nucleavoltaic" 4
 		"Tre-Phasic Rifle" 2
+		"Empire Navy Emitter"
 	engine 11 220
 		zoom 1.8
 	engine -11 220
@@ -613,6 +642,7 @@ ship "Light Empire Destroyer"
 		"Teleportation Dock" 2
 		"Thermal Nucleavoltaic" 2
 		"Tre-Phasic Rifle"
+		"Empire Navy Emitter"
 	engine -25 133
 	engine 24.5 132.5
 	engine -7 124
