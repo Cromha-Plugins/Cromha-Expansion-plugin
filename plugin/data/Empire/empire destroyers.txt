@@ -330,9 +330,9 @@ ship "Empire Destroyer yll'e"
 		"weapon capacity" 550
 		"engine capacity" 450
 		weapon
-			"blast radius" 160
-			"shield damage" 1600
-			"hull damage" 800
+			"blast radius" 180
+			"shield damage" 25000
+			"hull damage" 1700
 			"hit force" 2400
 	outfits
 		"Alldust Beam Turret" 4

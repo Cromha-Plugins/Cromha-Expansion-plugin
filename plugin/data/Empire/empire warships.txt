@@ -4,7 +4,7 @@ ship "Empire Wardragon"
 	plural "Empire Wardragons"
 	noun "wardragon"
 	"uncapturable"
-	"never disabled"
+	
 	"swizzle" 0
 	attributes
 		category "Empire Warship"
@@ -114,7 +114,7 @@ ship "Empire Wardragon"
 ship "Empire Skylark"
 	sprite "ship/empire skylark"
 	thumbnail "thumbnail/empire skylark"
-	"never disabled"
+	
 	"swizzle" 0
 	attributes
 		licenses
@@ -227,7 +227,7 @@ ship "Empire Skylark"
 ship "Empire Tubfalet"
 	sprite "ship/empire tubfalet"
 	thumbnail "thumbnail/empire tubfalet"
-	"never disabled"
+	
 	"swizzle" 0
 	attributes
 		licenses

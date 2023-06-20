@@ -3,7 +3,7 @@ ship "Empire Nanobot yll'e"
 	sprite "ship/empire nanobot yll'e"
 	thumbnail "thumbnail/empire nanobot yll'e"
 	"uncapturable"
-	"never disabled"
+	
 	"swizzle" 0
 	attributes
 		category "Nanobot"
@@ -51,7 +51,7 @@ ship "Empire Nanobot yll'a"
 	sprite "ship/empire nanobot yll'a"
 	thumbnail "thumbnail/empire nanobot yll'a"
 	"uncapturable"
-	"never disabled"
+	
 	"swizzle" 0
 	attributes
 		category "Nanobot"

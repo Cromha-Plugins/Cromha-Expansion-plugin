@@ -5,7 +5,7 @@ ship "Empire Wardragon" "Empire Wardragon (Ion Proton)"
 	plural "Empire Wardragons"
 	noun "wardragon"
 	"uncapturable"
-	"never disabled"
+	
 	"swizzle" 0
 	attributes
 		category "Empire Warship"
@@ -115,7 +115,7 @@ ship "Empire Wardragon" "Empire Wardragon (Electron Beam)"
 	plural "Empire Wardragons"
 	noun "wardragon"
 	"uncapturable"
-	"never disabled"
+	
 	"swizzle" 0
 	attributes
 		category "Empire Warship"
@@ -225,7 +225,7 @@ ship "Empire Wardragon" "Empire Wardragon (Plasma Repeater)"
 	plural "Empire Wardragons"
 	noun "wardragon"
 	"uncapturable"
-	"never disabled"
+	
 	"swizzle" 0
 	attributes
 		category "Empire Warship"
@@ -335,7 +335,7 @@ ship "Empire Wardragon" "Empire Wardragon (Twin Modified Blaster)"
 	plural "Empire Wardragons"
 	noun "wardragon"
 	"uncapturable"
-	"never disabled"
+	
 	"swizzle" 0
 	attributes
 		category "Empire Warship"
@@ -445,7 +445,7 @@ ship "Empire Wardragon" "Empire Wardragon (Disruption)"
 	plural "Empire Wardragons"
 	noun "wardragon"
 	"uncapturable"
-	"never disabled"
+	
 	"swizzle" 0
 	attributes
 		category "Empire Warship"
@@ -553,7 +553,7 @@ ship "Empire Wardragon" "Empire Wardragon (Disruption)"
 ship "Empire Skylark" "Empire Skylark (Ion Proton)"
 	sprite "ship/empire skylark"
 	thumbnail "thumbnail/empire skylark"
-	"never disabled"
+	
 	"swizzle" 0
 	attributes
 		licenses
@@ -666,7 +666,7 @@ ship "Empire Skylark" "Empire Skylark (Ion Proton)"
 ship "Empire Skylark" "Empire Skylark (Electron Beam)"
 	sprite "ship/empire skylark"
 	thumbnail "thumbnail/empire skylark"
-	"never disabled"
+	
 	"swizzle" 0
 	attributes
 		licenses
@@ -779,7 +779,7 @@ ship "Empire Skylark" "Empire Skylark (Electron Beam)"
 ship "Empire Skylark" "Empire Skylark (Plasma Repeater)"
 	sprite "ship/empire skylark"
 	thumbnail "thumbnail/empire skylark"
-	"never disabled"
+	
 	"swizzle" 0
 	attributes
 		licenses
@@ -892,7 +892,7 @@ ship "Empire Skylark" "Empire Skylark (Plasma Repeater)"
 ship "Empire Skylark" "Empire Skylark (Twin Modified Blaster)"
 	sprite "ship/empire skylark"
 	thumbnail "thumbnail/empire skylark"
-	"never disabled"
+	
 	"swizzle" 0
 	attributes
 		licenses

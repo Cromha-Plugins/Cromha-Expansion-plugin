@@ -316,7 +316,7 @@ ship "Fuel Pod"
 	sprite "ship/fuel pod"
 		scale 1.2
 	thumbnail "thumbnail/fuel pod"
-	"never disabled"
+	
 	attributes
 		category "Fuel Pod"
 		licenses
@@ -386,7 +386,7 @@ ship "Fuel Pod Class D"
 	sprite "ship/fuel pod class d"
 		scale 1.4
 	thumbnail "thumbnail/fuel pod class d"
-	"never disabled"
+	
 	attributes
 		category "Fuel Pod"
 		licenses
@@ -430,7 +430,7 @@ ship "Fuel Pod Class H"
 	sprite "ship/fuel pod class h"
 		scale 1.4
 	thumbnail "thumbnail/fuel pod class h"
-	"never disabled"
+	
 	swizzle 0
 	attributes
 		category "Fuel Pod"
