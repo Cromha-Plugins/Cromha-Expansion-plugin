@@ -16,7 +16,7 @@ ship "Empire Nanobot YLL'E"
 		"mass" 5
 		"drag" .59
 		"heat dissipation" .12
-		"outfit space" 275
+		"outfit space" 310
 		"cargo space" 25
 		"weapon capacity" 100
 		"engine capacity" 38
@@ -27,7 +27,8 @@ ship "Empire Nanobot YLL'E"
 			"hull damage" 25
 			"hit force" 75
 	outfits
-		"Empire Particle gun" 2
+		"Langrage Empire-Heaver"
+		"Nuclavoltaic Repeater"
 		
 		"RC-X1 Multiphasic Reactor"
 		"Small Empire Shielding Core"
@@ -42,8 +43,8 @@ ship "Empire Nanobot YLL'E"
 		"Compact Plasma Drive"
 	engine 4 37.5
 	engine -10.5 37
-	gun 7 -13 "Empire Particle gun"
-	gun 12.5 -6 "Empire Particle gun"
+	gun 7 -13 "Nuclavoltaic Repeater"
+	gun 12.5 -6 "Langrage Empire-Heaver"
 	explode "empire tiny explosion" 15
 
 ship "Empire Nanobot YLL'A"
