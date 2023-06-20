@@ -208,23 +208,23 @@ ship "Empire Destroyer yll'a"
 		category "Destroyer"
 		licenses
 			"Empire Navy"
-		"cost" 10930000
-		"shields" 130400
-		"hull" 95065
+		"cost" 10970000
+		"shields" 270400
+		"hull" 135065
 		"required crew" 75
-		"bunks" 90
+		"bunks" 110
 		"mass" 510
 		"drag" 6.7
 		"heat dissipation" .7
-		"fuel capacity" 600
-		"cargo space" 125
-		"outfit space" 1200
-		"weapon capacity" 550
-		"engine capacity" 450
+		"fuel capacity" 500
+		"cargo space" 87
+		"outfit space" 2100
+		"weapon capacity" 660
+		"engine capacity" 540
 		weapon
-			"blast radius" 160
-			"shield damage" 1600
-			"hull damage" 800
+			"blast radius" 190
+			"shield damage" 27000
+			"hull damage" 1900
 			"hit force" 2400
 	outfits
 		"Ion Proton Turret" 3
