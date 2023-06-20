@@ -473,94 +473,116 @@ ship "Empire Battle Bulker"
 	attributes
 		category "Destroyer"
 		"cost" 18290000
-		"shields" 79900
-		"hull" 47800
+		"shields" 179900
+		"hull" 98750
 		"mass" 540
 		"drag" 9.1
 		"required crew" 65
 		"bunks" 75
 		"heat dissipation" .65
 		"fuel capacity" 500
-		"cargo space" 39
-		"outfit space" 725
+		"cargo space" 58
+		"outfit space" 895
 		"weapon capacity" 475
-		"engine capacity" 122
+		"engine capacity" 350
 		weapon
 			"blast radius" 320
 			"shield damage" 19000
 			"hull damage" 1900
 			"hit force" 4700
 	outfits
-		"Multiphasic Anti-Missile"
-		"Multiphasic ammo" 600
-		"Nuclavoltaic Repeater" 2
-		"Grab-Strike Blaze" 2
-		"Alldust Beam Turret" 2
-		
-		"Empire Shielding Core" 2
-		"Small Empire Shielding Core" 2
-		"Empire Hai Ravine Batteries" 2
-		"RC-X3 Multiphasic Reactor"
-		"RC-X2 Multiphasic Reactor" 2
-		"Thermal Nucleavoltaic"
-		"Multiphasic Scanner"
-		"Multiphasic Cooler" 2
-		"Self Destruct Module"
+		"Alldust Beam Canon"
+		Brig
+		"Cloaking Module"
+		"Compact Plasma Drive"
 		"Countermesure Module"
-		"Mineria Key Stone"
-		"Brig" 3
+		"Countermesure Module Compact" 4
+		"Empire Barricade" 12
+		"Empire Defense Station" 25
+		"Empire Hai Gorge Batteries" 2
+		"Empire Navy Emitter"
+		"Empire Shielding Core" 4
 		"Fuel Cell"
-
-		"Empire Barricade"
-		"Empire Defense Station" 5
-		"Phasic Grenades" 15
-		"Phasic Rifle" 15
-		"Teleportation Dock" 2
-		"Tre-Phasic Rifle" 2
-		
-		`RC-200 Atomic Thruster`
+		"Grab-Strike Blaze"
+		"Multiphasic Ammo Rack" 2
+		"Multiphasic Anti-Missile"
+		"Multiphasic Capacitor" 2
+		"Multiphasic Cooler" 4
+		"Multiphasic Scanner"
+		"Multiphasic ammo" 1200
+		"Nuclavoltaic Repeater" 2
+		"One-Phasic Cooler" 4
+		"Phasic Grenades" 35
+		"Phasic Rifle" 35
+		"Plasma Fuel Pod"
+		"Quantum Generator" 2
 		"RC-205 Atomic Steering"
-		`RX-200 Reverse Thruster`
-		"Plasma Drive"
+		"RC-220 Atomic Thruster"
+		"RC-X2 Multiphasic Reactor"
+		"Small Empire Shielding Core" 8
+		"Teleportation Dock" 2
+		"Thermal Nucleavoltaic" 4
+		"Tre-Phasic Rifle"
 	
 	engine -9 205
 	engine 9 205
-	gun 0 -214
-	gun -14 -206
-	gun 14 -206
-	turret -89 32
-	turret 89 32
-	bay "Nanobot" 38.5 -115.5 over
+	gun 0 -214 "Alldust Beam Canon"
+		under
+	gun -14 -206 "Nuclavoltaic Repeater"
+		under
+	gun 14 -206 "Nuclavoltaic Repeater"
+		under
+	turret -89 32 "Multiphasic Anti-Missile"
+		over
+	turret 89 32 "Grab-Strike Blaze"
+		over
+	bay Nanobot 38.5 -115.5
+		over
 		"launch effect" "korath external"
-	bay "Nanobot" 25 -50.5 over
+	bay Nanobot 25 -50.5
+		over
 		"launch effect" "korath external"
-	bay "Nanobot" 59 28 over
+	bay Nanobot 59 28
+		over
 		"launch effect" "korath external"
-	bay "Nanobot" 28 79 over
+	bay Nanobot 28 79
+		over
 		"launch effect" "korath external"
-	bay "Nanobot" 19.5 145.5 over
+	bay Nanobot 19.5 145.5
+		over
 		"launch effect" "korath external"
-	bay "Nanobot" 57.5 -56.5 under
+	bay Nanobot 57.5 -56.5
+		under
 		"launch effect" "korath external"
-	bay "Nanobot" 40 19 under
+	bay Nanobot 40 19
+		under
 		"launch effect" "korath external"
-	bay "Nanobot" 60 58.5 under
+	bay Nanobot 60 58.5
+		under
 		"launch effect" "korath external"
-	bay "Nanobot" 45.5 135 under
+	bay Nanobot 45.5 135
+		under
 		"launch effect" "korath external"
-	bay "Nanobot" -36.5 -130.5 over
+	bay Nanobot -36.5 -130.5
+		over
 		"launch effect" "korath external"
-	bay "Nanobot" -61.5 -68 over
+	bay Nanobot -61.5 -68
+		over
 		"launch effect" "korath external"
-	bay "Nanobot" -29.5 -17 over
+	bay Nanobot -29.5 -17
+		over
 		"launch effect" "korath external"
-	bay "Nanobot" -54.5 55 over
+	bay Nanobot -54.5 55
+		over
 		"launch effect" "korath external"
-	bay "Nanobot" -62 24 under
+	bay Nanobot -62 24
+		under
 		"launch effect" "korath external"
-	bay "Nanobot" -35 136.5 under
+	bay Nanobot -35 136.5
+		under
 		"launch effect" "korath external"
-	bay "Nanobot" -22 -82 under
+	bay Nanobot -22 -82
+		under
 		"launch effect" "korath external"
 	leak "empire leak" 30 50
 	leak "empire flame" 50 80
