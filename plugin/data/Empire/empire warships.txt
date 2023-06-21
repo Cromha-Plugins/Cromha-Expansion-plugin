@@ -21,7 +21,7 @@ ship "Empire Wardragon"
 		"landing speed" 0.1
 		"fuel capacity" 650
 		"cargo space" 45
-		"outfit space" 1300
+		"outfit space" 1350
 		"weapon capacity" 530
 		"engine capacity" 230
 		"ramscoop" 0.7

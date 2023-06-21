@@ -2496,3 +2496,65 @@ mission worker-factory[2]
 		payment
 		payment 12040 750
 		dialog "You land on <planet> and the worker(s) pay you <payment>."
+
+# Station Garbage
+
+mission empire-station-garbage[0]
+	name "Station Garbage to <planet>"
+	description "Transport <origin> garbage to <destination>. Payment is <payment>."
+	job
+	repeat
+	cargo "Garbage" 15 3
+	source
+		government "Cromha Empire" "Mineria colonnies"
+		attributes station
+	destination
+		government "Cromha Empir" "Mineria colonnies" "Quarg" "Wanderer" "Hai" "Pug" "Remnant"
+		attributes factory
+		distance 1 25
+	to offer
+		random < 45
+	on complete
+		payment
+		payment 45000 6
+		dialog "You recycle the garbage and get payed <payment>."
+
+mission empire-station-garbage[1]
+	name "Station Garbage to <planet>"
+	description "Transport <origin> garbage to <destination>. Payment is <payment>."
+	job
+	repeat
+	cargo "Garbage" 30 2
+	source
+		government "Cromha Empire" "Mineria colonnies"
+		attributes station
+	destination
+		government "Cromha Empir" "Mineria colonnies" "Quarg" "Wanderer" "Hai" "Pug" "Remnant"
+		attributes factory
+		distance 1 25
+	to offer
+		random < 45
+	on complete
+		payment
+		payment 60000 4
+		dialog "You recycle the garbage and get payed <payment>."
+
+mission empire-station-garbage[2]
+	name "Station Garbage to <planet>"
+	description "Transport <origin> garbage to <destination>. Payment is <payment>."
+	job
+	repeat
+	cargo "Garbage" 55 1.5
+	source
+		government "Cromha Empire" "Mineria colonnies"
+		attributes station
+	destination
+		government "Cromha Empir" "Mineria colonnies" "Quarg" "Wanderer" "Hai" "Pug" "Remnant"
+		attributes factory
+		distance 1 25
+	to offer
+		random < 45
+	on complete
+		payment
+		payment 95000 2
+		dialog "You recycle the garbage and get payed <payment>."
