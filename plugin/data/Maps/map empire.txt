@@ -113,7 +113,8 @@ system "Astroid"
 	fleet mineria-transports 500
 	fleet cromha-merchants 1000
 	link "Volcanois"
-	link "Calor stil"
+	link "Calor Stil"
+	link "Alkseke"
 	link "Alpha Cromha"
 	link "Beta Cromha"
 	trade Clothing 215
@@ -179,7 +180,7 @@ planet "Mineria Trading Station"
 		threshold 5000
 		fleet cromha-fleet 5
 		
-system "Calor stil"
+system "Calor Stil"
 	pos 127 -500
 	attributes tourism inhabited rich paradise hai "empire space"
 	government "Cromha Empire"
@@ -192,6 +193,7 @@ system "Calor stil"
 	link "Lifdot"
 	link "Sepriaptu"
 	link "Uwa Fahn"
+	link "Alkseke"
 	trade Clothing 215
 	trade Electronics 816
 	trade Equipment 487
@@ -242,6 +244,80 @@ planet "Striy"
 	bribe 0.01
 	security 2
 		
+system "Alkseke"
+	pos 65 -530
+	attributes tourism inhabited rich paradise hai "empire space"
+	government "Cromha Empire"
+	fleet cromha-fleet 1000
+	fleet calor-stil-tourism 350
+	fleet calor-stil-tourism2 350
+	fleet small-pirates 1900
+	fleet cromha-merchants 1200
+	link "Astroid"
+	link "Calor Stil"
+	link "Uwa Fahn"
+	trade Clothing 120
+	trade Electronics 120
+	trade Equipment 145
+	trade Food 185
+	trade "Heavy Metals" 1200
+	trade Industrial 1300
+	trade "Luxury Goods" 1900
+	trade Medical 850
+	trade Metal 360
+	trade Plastic 120
+	object
+		sprite "star/y3"
+		distance 0
+		period 1
+		object
+			sprite "planet/browndwarf-t"
+				scale 0.3
+			distance 534
+			period 75
+			object "Alkseke Study Station"
+				sprite "planet/akralva zikurch station"
+				distance 250
+				period 25
+		object "Alfheym"
+			sprite "planet/cloud7-b"
+				scale 1.2
+			distance 785
+			period 110
+			object
+				sprite "star/y8"
+					scale 0.9
+				distance 350
+				period 75
+
+planet "Alkseke Study Station"
+	attributes research north hai "empire space" station
+	landscape "land/Alkseke_study_station"
+	description "The Alkseke Study Station is an important station in The Empire Space. It is where Hai and Empire scientists meets up to elaborate new technologies. It's where all the Empire Hai Batteries generation and the RC Thrusters and Steering have been designed originally."
+	spaceport "The spaceport is minimal even if it seems that there is enough fuel to recharge and Empire Fortress fully. There is not much to say about the spaceport."
+	outfitter "Base-outfitter"
+	outfitter "Basic-ammo-outfitter"
+	outfitter "Basic-power-outfitter"
+	"required reputation" 200
+	security 3.6
+
+planet "Alfheym"
+	attributes tourism north hai "empire space"
+	landscape "land/Alfheym"
+	description "Alfheym is a high touristic planet because of it proximity to Hai Space and Empire Space. It is the center of high technologies kinda like San Francisco on the planet Earth in the 21st century a long time ago."
+	spaceport "From the spaceport you can see the huge city of Alfheym. It seems that due to natural meteorologic phenomena this city is always full of steam and you can only see 2 miles away. It could make a great photography."
+	outfitter "Base-outfitter"
+	outfitter "Basic-ammo-outfitter"
+	outfitter "Basic-weapons-outfitter"
+	outfitter "Advanced-power-outfitter"
+	outfitter "Advanced-engines-outfitter"
+	outfitter "Advanced-systems-outfitter"
+	shipyard "Base-shipyard"
+	shipyard "Basic-freighters-shipyard"
+	shipyard "Advanced-interceptors-shipyard"
+	shipyard "Basic-lifdot-industries-shipyard"
+	security 2.4
+
 system "Lifdot"
 	pos 187 -470
 	attributes inhabited rich research military  "empire space"
@@ -252,7 +328,7 @@ system "Lifdot"
 	fleet cromha-transporters 550
 	fleet mineria-transports 500
 	fleet cromha-merchants 800
-	link "Calor stil"
+	link "Calor Stil"
 	link "Alpha Cromha"
 	link "Sepriaptu"
 	link "All'Estros"
@@ -600,7 +676,7 @@ system "Sepriaptu"
 	belt 1120
 	link Kaliptari
 	link Sabriset
-	link "Calor stil"
+	link "Calor Stil"
 	link "Lifdot"
 	asteroids "small rock" 127 4.34
 	asteroids "medium rock" 23 4.41
