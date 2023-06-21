@@ -292,6 +292,7 @@ system "Alkseke"
 
 planet "Alkseke Study Station"
 	attributes research north hai "empire space" station
+	government "Hai"
 	landscape "land/Alkseke_study_station"
 	description "The Alkseke Study Station is an important station in The Empire Space. It is where Hai and Empire scientists meets up to elaborate new technologies. It's where all the Empire Hai Batteries generation and the RC Thrusters and Steering have been designed originally."
 	spaceport "The spaceport is minimal even if it seems that there is enough fuel to recharge and Empire Fortress fully. There is not much to say about the spaceport."
