@@ -359,8 +359,8 @@ system "Rygelia"
 				distance 250
 				period 20
 	object
-		sprite star/
-		distance 985
+		sprite star/x3
+		distance 700
 		period 10
 		object "Giaru Ringworld"
 			sprite "planet/empire ringworld"
