@@ -853,6 +853,9 @@ system Solifar
 	belt 1517
 	haze "_menu/haze-orange"
 	link Kaliptari
+	link "Uwa Fahn"
+	link "Da Ent"
+	link "Da Lest"
 	asteroids "small rock" 7 7.772
 	asteroids "medium rock" 21 4.176
 	asteroids "large rock" 5 3.654
