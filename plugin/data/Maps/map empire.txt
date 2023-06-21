@@ -321,7 +321,7 @@ planet "Alfheym"
 	security 2.4
 
 system "Rygelia"
-	pos 65 -545
+	pos 65 -555
 	attributes tourism inhabited rich paradise hai "empire space"
 	government "Cromha Empire"
 	fleet cromha-fleet 1000
