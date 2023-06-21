@@ -344,7 +344,7 @@ system "Rygelia"
 	trade Plastic 120
 	object
 		sprite "star/k-giant"
-		distance 0
+		distance 985
 		period 1
 		object
 			sprite "planet/dust5"
@@ -360,7 +360,6 @@ system "Rygelia"
 				period 20
 	object
 		sprite star/x3
-		distance 700
 		period 10
 		object "Giaru Ringworld"
 			sprite "planet/empire ringworld"
