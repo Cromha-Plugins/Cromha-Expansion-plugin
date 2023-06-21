@@ -1,8 +1,8 @@
 government "Cromha Empire"
 	"display name" "Cromha Empire"
 	"player reputation" 0
-	"crew attack" 7
-	"crew defense" 8
+	"crew attack" 29
+	"crew defense" 56
 	"penalty for"
 		assist -0.4
 		disable 1.4
@@ -98,8 +98,8 @@ government "Empire Rebels"
 government "Mineria colonnies"
 	"display name" "Mineria colonnies"
 	"player reputation" 1
-	"crew attack" 6
-	"crew defense" 8
+	"crew attack" 29
+	"crew defense" 56
 	"penalty for"
 		assist -0.4
 		disable 1.4
