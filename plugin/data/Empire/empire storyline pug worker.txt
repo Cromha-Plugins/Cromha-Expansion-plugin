@@ -25,7 +25,7 @@ mission "Empire: Transport Pugs Vacancers"
 		"reputation: Pug" += 10
 		"empire worker jobs" += 1
 		log "You transported a Pug to the Empire Ringworld."
-		log "Minor People" "Pug Worker" "He is a new friend that you made. He is a pug that you brang to the Empire Ringworld so he could get a job."
+		log "Minor People" "Pug Worker" "He is a new friend that you made. He is a pug that you bringed to the Empire Ringworld so he could get a job."
 		
 mission "Pug: Crodust Shipyard"
 	name "Pug: Crodust Shipyard"
