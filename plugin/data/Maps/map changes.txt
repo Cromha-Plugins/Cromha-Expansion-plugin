@@ -64,7 +64,7 @@ system Meftarkata
 
 planet "Elek Kartani"
       government "Uninhabited"
-      description `This planet is a huge industry and oil refinery. It was at first and Empire colonny but they became an Mineria colonny a decade ago. It is one of the most important facotry in the Cromha Empire.`
+      description `This planet is a huge industry and oil refinery. It was at first and Empire colonny but they became an Mineria colonny a decade ago. It is one of the most important factory in the Cromha Empire.`
       description `	The deserts here are home to an unusual number of plant species, which have adapted to survive the occasional catastrophic flash floods.`
       spaceport `The spaceport is just enough big for 2 Empire Destroyers. You will find lots of dilithum seller or illegal outfits dealers. Some Empire Rebels are hiding on this planet since the security is very low.`
       attributes korath factory military colonny oil uninhabited

@@ -2346,7 +2346,7 @@ mission vacancer[2]
 		payment
 		payment 23500
 		dialog "You land on <planet> and depose the vacancer(s). You got payed <payment>."
-mission vacancer[4]
+mission vacancer[3]
 	name "Vacancers to <planet>"
 	description "Transport 3 vacancer to <destination> for its vacations before the date of <date>. Payment is <payment>."
 	job
@@ -2443,7 +2443,7 @@ mission miner[3]
 # Worker
 mission worker-factory[0]
 	name "Worker to <planet>."
-	description "Transport a worker to the <planet> facotry in the <system> system. Payment is <payment>."
+	description "Transport a worker to the <planet> factory in the <system> system. Payment is <payment>."
 	job
 	repeat
 	passengers 1
@@ -2461,7 +2461,7 @@ mission worker-factory[0]
 		dialog "You land on <planet> and the worker(s) pay you <payment>."
 mission worker-factory[1]
 	name "Worker to <planet>"
-	description "Transport 2 workers to the <planet> facotry in the <system> system. Payment is <payment>."
+	description "Transport 2 workers to the <planet> factory in the <system> system. Payment is <payment>."
 	job
 	repeat
 	passengers 2
@@ -2478,9 +2478,9 @@ mission worker-factory[1]
 		payment 12040 750
 		dialog "You land on <planet> and the worker(s) pay you <payment>."
 
-mission worker-factory[1]
+mission worker-factory[2]
 	name "Worker to <planet>"
-	description "Transport 2 workers to the <planet> facotry in the <system> system. Payment is <payment>."
+	description "Transport 2 workers to the <planet> factory in the <system> system. Payment is <payment>."
 	job
 	repeat
 	passengers 2

@@ -33,7 +33,7 @@ system "All'Estros"
 			period 500
 
 planet "Limat"
-	attributes inhabited poor oil facotry mining "far empire space"
+	attributes inhabited poor oil factory mining "far empire space"
 	outfitter Base-outfitter
 	outfitter Basic-ammo-outfitter
 	outfitter Basic-weapons-outfitter
@@ -727,13 +727,13 @@ planet "Wel'y"
 	spaceport ""
 
 planet "Wel'y Spacial Dock"
-	attributes "far empire space" facotry oil poor inhabited station
+	attributes "far empire space" factory oil poor inhabited station
 	landscape land/station42
 	outfitter Base-outfitter
 	outfitter Basic-ammo-outfitter
 	outfitter Basic-systems-outfitter
 	shipyard Base-shipyard
-	description "The Wel'y Spacial Dock is the central ship facotry of the Lifdot Industires. Most of their ships are build there like Interceptors, Warships, Freighters but not Empire Warships, which are build in a military station: The Weila Staton in the Los Faros system."
+	description "The Wel'y Spacial Dock is the central ship factory of the Lifdot Industires. Most of their ships are build there like Interceptors, Warships, Freighters but not Empire Warships, which are build in a military station: The Weila Staton in the Los Faros system."
 	spaceport "The spaceport is minimal. Most of the people that come here are toursists ingeneers or people that come for the core to find jobs."
 
 system "Los Calos"
@@ -799,7 +799,7 @@ system "Los Faros"
 					period 1
 
 planet "Weila Station"
-	attributes station military research facotry rich
+	attributes station military research factory rich
 	outfitter Base-outfitter
 	outfitter Basic-outfitter
 	shipyard Base-shipyard

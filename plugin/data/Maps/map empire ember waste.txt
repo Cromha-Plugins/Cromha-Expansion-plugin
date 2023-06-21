@@ -76,7 +76,7 @@ planet "Empire Listening Station"
 	description "This is an secret Empire Listening Station that watch remnants. Even if the Empire is now friend with the Remnants, they still use this old station. Maybe The Empire dont has that much confiance with this aliens."
 
 planet "Black Manta Spacial Dock"
-	attributes "ember waste" remnant facotry station research military "spacial dock" station
+	attributes "ember waste" remnant factory station research military "spacial dock" station
 	government "Cromha Empire"
 	landscape land/Black_manta_spacial_dock
 	spaceport "Smallest spaceprt ever"
