@@ -135,3 +135,44 @@ ship "Cargo Transporter"
 	engine 13.5 22
 	gun 0 -26 "Empire Particle gun"
 	description "This is a 'mobile cargo'. It is useful to carry cargo, drop it when you need to be faster if you are attacked. The Empire use them with the Empire Bulker to export all their products."
+
+ship "Cargo Transporter Class D"
+	sprite "ship/cargo transporter class d"
+	thumbnail "thumbnail/cargo transporter class d"
+	"swizzle" 0
+	attributes
+		category "Nanobot"
+		licenses
+			"Empire Navy"
+		"cost" 175000
+		"shields" 2100
+		"hull" 950
+		"automaton" 1
+		"mass" 110
+		"drag" .59
+		"heat dissipation" .10
+		"outfit space" 195
+		"weapon capacity" 50
+		"engine capacity" 60
+		"cargo space" 10
+		weapon
+			"blast radius" 5
+			"shield damage" 120
+			"hull damage" 175
+			"hit force" 75
+	outfits
+			`RC-001 Atomic Engines` 2
+			"Alldust Beam Canon"
+			"Small Empire Shielding Core"
+			"Thermal Nucleavoltaic" 4
+			"Countermesure Module Compact"
+			"Multiphasic Capacitor"
+			"Self Destruct Module"
+	leak "empire leak" 15
+	leak "empire big leak" 15
+	explode "empire tiny explosion" 4
+	"final explode" "empire medium explosion"
+	engine -13.5 22
+	engine 13.5 22
+	gun 0 -26 "Alldust Beam Canon"
+	description "This is a 'mobile cargo'. It is useful to carry cargo, drop it when you need to be faster if you are attacked. The Empire use them with the Empire Bulker to export all their products."
