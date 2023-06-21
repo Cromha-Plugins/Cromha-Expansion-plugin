@@ -265,10 +265,10 @@ ship "Empire Colinizer"
 		"heat dissipation" .17
 		"solar collection" 7.2
 		"fuel capacity" 670
-		"cargo space" 111
-		"outfit space" 1085
-		"weapon capacity" 1750
-		"engine capacity" 790
+		"cargo space" 165
+		"outfit space" 2150
+		"weapon capacity" 2300
+		"engine capacity" 1500
 		"atmosphere scan" 100
 		weapon
 			"blast radius" 210
@@ -322,19 +322,17 @@ ship "Empire Colinizer"
 	engine 60 190 0.8
 	engine -29 212
 	engine 29 212
-	gun -81.5 58 "Empire Torpedo Bank"
-		angle 270
-	gun -96.5 -129.5 "Langrage Empire-Heaver"
-	turret 96.5 -129.5 "Multiphasic Anti-Missile"
-	turret -62.5 55 "Multiphasic Anti-Missile"
-	gun 62.5 55 "Langrage Empire-Heaver"
-	turret 36.5 -55.5 "Grab-Strike Blaze"
-	bay "Fuel Pod" -115 -152
-		angle 30
-		"launch effect" "korath internal"
-	bay "Fuel Pod" 115 -152
-		angle 330
-		"launch effect" "korath internal"
+	turret 35.5 -55
+	turret -96.5 -130
+	turret 97 -130
+	turret -63.5 55.5
+	turret 61.5 53
+	turret -67 147.5
+	turret 66.5 147.5
+	turret -60 -153.5
+	turret 59.5 -154
+	gun -80 -187
+	gun 80 -187
 	leak "empire flame" 75
 	leak "empire leak" 20
 	leak "empire leak" 96
