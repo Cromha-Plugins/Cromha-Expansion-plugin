@@ -254,7 +254,7 @@ ship "Empire Colinizer"
 		category "Fortress"
 		cost 276900
 		shields 750000
-		hull 7500000
+		hull 750000
 		licenses
 			"Empire Navy"
 		"hull protection" 7000
@@ -271,45 +271,51 @@ ship "Empire Colinizer"
 		"engine capacity" 1500
 		"atmosphere scan" 100
 		weapon
-			"blast radius" 210
-			"shield damage" 700
-			"hull damage" 780
-			"hit force" 200
+			"blast radius" 450
+			"shield damage" 2700
+			"hull damage" 1950
+			"hit force" 500
 	outfits
-		
-		"Empire Torpedo Bank"
-		"Empire Torpedo Missile" 120
-		"Empire Torpedo Rack" 10
-		"Langrage Empire-Heaver" 2
-		"Grab-Strike Blaze"
-
-		"Multiphasic Anti-Missile" 2
-		"Multiphasic ammo" 1200
-		
-		"Empire Shielding Core" 2
-		"Empire Hai Gorge Batteries"
-		"Thermal Nucleavoltaic" 2
-		"Multiphasic Scanner"
-		"Multiphasic Cooler" 2
-		"Mineria Key Stone"
-		"Brig" 3
-		"RC-X4 Multiphasic Reactor"
-		"RC-X2 Multiphasic Reactor"
-		
-		"RC-200 Atomic Thruster" 1
-		"RC-205 Atomic Steering" 1
-		`RX-180 Reverse Thruster` 2
-		"Phasic Rifle" 35
-		"Tre-Phasic Rifle" 3
-		"Empire Defense Station" 5
-		"Phasic Grenades" 15
-		"Empire Barricade" 3
-		
-		"Countermesure Module"
-		"Teleportation Dock"
+		"Alldust Beam Turret" 3
+		"Antimatter Railgun"
+		Brig 3
+		"Catalytic Ramscoop"
 		"Cloaking Module"
-		"Compact Plasma Drive"
-	
+		"Countermesure Module" 4
+		"Countermesure Module Compact" 8
+		"Empire Barricade" 25
+		"Empire Defense Station" 50
+		"Empire Hai Valley Batteries" 2
+		"Empire Shielding Core" 8
+		"Empire Torpedo Missile" 140
+		"Empire Torpedo Rack" 12
+		"Empire Typhoon Bank"
+		"Fuel Cell" 2
+		"Grab-Strike Blaze" 2
+		"Mineria Key Stone"
+		"Multiphasic Ammo Rack" 5
+		"Multiphasic Anti-Missile"
+		"Multiphasic Cooler" 8
+		"Multiphasic Scanner"
+		"Multiphasic ammo" 2100
+		"Nuclavoltaic Turret" 3
+		"One-Phasic Cooler" 12
+		"Phasic Grenades" 75
+		"Phasic Rifle" 75
+		"Plasma Drive"
+		"Plasma Fuel Pod"
+		"Quantum Generator" 4
+		"RC-180 Atomic Thruster"
+		"RC-205 Atomic Steering"
+		"RC-220 Atomic Thruster"
+		"RC-225 Atomic Steering"
+		"RC-X3 Multiphasic Reactor" 2
+		"RX-200 Reverse Thruster" 6
+		"Railgun Slug" 30
+		"Small Empire Shielding Core" 12
+		"Teleportation Dock" 10
+		"Thermal Nucleavoltaic" 4
+		"Tre-Phasic Rifle" 4
 	"reverse engine" -79 -186
 		zoom 0.8
 	"reverse engine" 79 -186
@@ -322,17 +328,29 @@ ship "Empire Colinizer"
 	engine 60 190 0.8
 	engine -29 212
 	engine 29 212
-	turret 35.5 -55
-	turret -96.5 -130
-	turret 97 -130
-	turret -63.5 55.5
-	turret 61.5 53
-	turret -67 147.5
-	turret 66.5 147.5
-	turret -60 -153.5
-	turret 59.5 -154
-	gun -80 -187
-	gun 80 -187
+	
+	turret 35.5 -55 "Alldust Beam Turret"
+		over
+	turret -96.5 -130 "Grab-Strike Blaze"
+		over
+	turret 97 -130 "Grab-Strike Blaze"
+		over
+	turret -63.5 55.5 "Alldust Beam Turret"
+		over
+	turret 61.5 53 "Alldust Beam Turret"
+		over
+	turret -67 147.5 "Nuclavoltaic Turret"
+		over
+	turret 66.5 147.5 "Nuclavoltaic Turret"
+		over
+	turret -60 -153.5 "Nuclavoltaic Turret"
+		over
+	turret 59.5 -154 "Multiphasic Anti-Missile"
+		over
+	gun -80 -187 "Antimatter Railgun"
+		under
+	gun 80 -187 "Empire Typhoon Bank"
+		under
 	leak "empire flame" 75
 	leak "empire leak" 20
 	leak "empire leak" 96
