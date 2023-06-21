@@ -3,7 +3,7 @@ ship "Empire Fortress"
 	thumbnail "thumbnail/empire fortress"
 	"swizzle" 0
 	attributes
-		category "Fortress"
+		category "World Ship"
 		cost 276900000
 		shields 1996420
 		licenses
@@ -251,7 +251,7 @@ ship "Empire Colinizer"
 	thumbnail "thumbnail/empire fortress mini"
 	"swizzle" 0
 	attributes
-		category "Fortress"
+		category "World Ship"
 		cost 276900
 		shields 750000
 		hull 750000
@@ -328,7 +328,7 @@ ship "Empire Colinizer"
 	engine 60 190 0.8
 	engine -29 212
 	engine 29 212
-	
+
 	turret 35.5 -55 "Alldust Beam Turret"
 		over
 	turret -96.5 -130 "Grab-Strike Blaze"
