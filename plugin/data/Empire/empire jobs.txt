@@ -2509,7 +2509,7 @@ mission empire-station-garbage[0]
 		government "Cromha Empire" "Mineria colonnies"
 		attributes station
 	destination
-		government "Cromha Empir" "Mineria colonnies" "Quarg" "Wanderer" "Hai" "Pug" "Remnant"
+		government "Cromha Empire" "Mineria colonnies" "Quarg" "Wanderer" "Hai" "Pug" "Remnant"
 		attributes factory
 		distance 1 25
 	to offer
@@ -2529,7 +2529,7 @@ mission empire-station-garbage[1]
 		government "Cromha Empire" "Mineria colonnies"
 		attributes station
 	destination
-		government "Cromha Empir" "Mineria colonnies" "Quarg" "Wanderer" "Hai" "Pug" "Remnant"
+		government "Cromha Empire" "Mineria colonnies" "Quarg" "Wanderer" "Hai" "Pug" "Remnant"
 		attributes factory
 		distance 1 25
 	to offer
@@ -2549,7 +2549,7 @@ mission empire-station-garbage[2]
 		government "Cromha Empire" "Mineria colonnies"
 		attributes station
 	destination
-		government "Cromha Empir" "Mineria colonnies" "Quarg" "Wanderer" "Hai" "Pug" "Remnant"
+		government "Cromha Empire" "Mineria colonnies" "Quarg" "Wanderer" "Hai" "Pug" "Remnant"
 		attributes factory
 		distance 1 25
 	to offer
