@@ -256,6 +256,7 @@ system "Alkseke"
 	link "Astroid"
 	link "Calor Stil"
 	link "Uwa Fahn"
+	link "Rygelia"
 	trade Clothing 120
 	trade Electronics 120
 	trade Equipment 145
@@ -318,6 +319,172 @@ planet "Alfheym"
 	shipyard "Advanced-interceptors-shipyard"
 	shipyard "Basic-lifdot-industries-shipyard"
 	security 2.4
+
+system "Rygelia"
+	pos 65 -545
+	attributes tourism inhabited rich paradise hai "empire space"
+	government "Cromha Empire"
+	fleet cromha-fleet 1000
+	fleet calor-stil-tourism 350
+	fleet calor-stil-tourism2 350
+	fleet small-pirates 1900
+	fleet cromha-merchants 1200
+	link "Bore Fah"
+	link "Alkseke"
+	link "Bote Asu"
+	trade Clothing 120
+	trade Electronics 120
+	trade Equipment 145
+	trade Food 185
+	trade "Heavy Metals" 1200
+	trade Industrial 1300
+	trade "Luxury Goods" 1900
+	trade Medical 850
+	trade Metal 360
+	trade Plastic 120
+	object
+		sprite "star/k-giant"
+		distance 0
+		period 1
+		object
+			sprite "planet/dust5"
+			distance 450
+			period 45
+		object
+			sprite "planet/fg_gas3"
+			distance 650
+			period 65
+			object
+				sprite "planet/fg_lava2"
+				distance 250
+				period 20
+	object
+		sprite star/x3
+		period 10
+		object "Giaru Ringworld"
+			sprite "planet/empire ringworld"
+				scale 0.5
+			distance 812
+			period 349.820
+		object "Giaru Ringworld"
+			sprite "planet/empire ringworld"
+				scale 0.5
+			distance 812
+			period 349.820
+			offset 20
+		object "Giaru Ringworld"
+			sprite "planet/empire ringworld"
+				scale 0.5
+			distance 812
+			period 349.820
+			offset 40
+		object "Giaru Ringworld"
+			sprite "planet/empire ringworld"
+				scale 0.5
+			distance 812
+			period 349.820
+			offset 60
+		object "Giaru Ringworld"
+			sprite "planet/empire ringworld"
+				scale 0.5
+			distance 812
+			period 349.820
+			offset 80
+		object "Giaru Ringworld"
+			sprite "planet/empire ringworld"
+				scale 0.5
+			distance 812
+			period 349.820
+			offset 100
+		object "Giaru Ringworld"
+			sprite "planet/empire ringworld"
+				scale 0.5
+			distance 812
+			period 349.820
+			offset 120
+		object "Giaru Ringworld"
+			sprite "planet/empire ringworld"
+				scale 0.5
+			distance 812
+			period 349.820
+			offset 140
+		object "Giaru Ringworld"
+			sprite "planet/empire ringworld"
+				scale 0.5
+			distance 812
+			period 349.820
+			offset 160
+		object "Giaru Ringworld"
+			sprite "planet/empire ringworld"
+				scale 0.5
+			distance 812
+			period 349.820
+			offset 180
+		object "Giaru Ringworld"
+			sprite "planet/empire ringworld"
+				scale 0.5
+			distance 812
+			period 349.820
+			offset 200
+		object "Giaru Ringworld"
+			sprite "planet/empire ringworld"
+				scale 0.5
+			distance 812
+			period 349.820
+			offset 220
+		object "Giaru Ringworld"
+			sprite "planet/empire ringworld left"
+				scale 0.5
+			distance 812
+			period 349.820
+			offset 240
+		object "Giaru Ringworld"
+			sprite "planet/empire ringworld right"
+				scale 0.5
+			distance 812
+			period 349.820
+			offset 260
+		object "Giaru Ringworld"
+			sprite "planet/empire ringworld"
+				scale 0.5
+			distance 812
+			period 349.820
+			offset 280
+		object "Giaru Ringworld"
+			sprite "planet/empire ringworld"
+				scale 0.5
+			distance 812
+			period 349.820
+			offset 300
+		object "Giaru Ringworld"
+			sprite "planet/empire ringworld"
+				scale 0.5
+			distance 812
+			period 349.820
+			offset 320
+		object "Giaru Ringworld"
+			sprite "planet/empire ringworld"
+				scale 0.5
+			distance 812
+			period 349.820
+			offset 340
+
+planet "Giaru Ringworld"
+	attributes tourism north hai "empire space"
+	landscape "land/Giaru_ringworld"
+	description ""
+	spaceport ""
+	outfitter "Base-outfitter"
+	outfitter "Basic-ammo-outfitter"
+	outfitter "Basic-weapons-outfitter"
+	outfitter "Advanced-power-outfitter"
+	outfitter "Advanced-engines-outfitter"
+	outfitter "Advanced-systems-outfitter"
+	shipyard "Base-shipyard"
+	shipyard "Basic-freighters-shipyard"
+	shipyard "Advanced-interceptors-shipyard"
+	shipyard "Basic-lifdot-industries-shipyard"
+	security 1.6
 
 system "Lifdot"
 	pos 187 -470
