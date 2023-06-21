@@ -15,6 +15,7 @@ government "Cromha Empire"
 	"attitude toward"
 		"Empire Rebels" -3
 		Merchant 1
+		"Empire Merchant" 2
 		Pirate -1
 		Syndicate -3
 		Neutral 0.1
@@ -70,6 +71,7 @@ government "Empire Rebels"
 		"Mineria colonnies" -5
 		"Cromha Empire" -5
 		"Hai (Unfettered)" 5
+		"Empire Merchant" -2
 
 		# Empire allies
 		"Quarg" -5
@@ -111,6 +113,7 @@ government "Mineria colonnies"
 		atrocity 20
 	"attitude toward"
 		"Empire Rebels" -3
+		"Empire Merchant" 2
 		Merchant 1
 		Pirate -1
 		Syndicate -3

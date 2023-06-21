@@ -2,8 +2,8 @@ fleet cromha-fleet
 	government "Cromha Empire"
 	names "empire fleet names"
 	fighters "empire fleet names"
-	cargo 2
-	commodities medical
+	cargo 3
+	commodities Medical Electronics Equipment Military
 	personality heroic
 		forbearing
 		disables
@@ -13,155 +13,7 @@ fleet cromha-fleet
 		plunders
 		surveillance
 		ramming
-	outfitters Cromha-basic-outfitter
-	variant 3
-		"Empire Skylark"
-		"Empire Wardragon" 2
-		"Empire Nanobot YLL'A" 2
-		"Empire Tubfalet"
-		"Empire Palavret"
-	variant 3
-		"Empire Skylark (Ion Proton)"
-		"Empire Wardragon (Electron Beam)" 2
-		"Empire Nanobot YLL'E"
-		"Empire Nanobot YLL'A"
-		"Empire Palavret"
-	variant 3
-		"Empire Skylark (Electron Beam)"
-		"Empire Wardragon (Ion Proton)"
-		"Empire Wardragon (Plasma Repeater)"
-		"Empire Nanobot YLL'E"
-	variant 3
-		"Empire Skylark"
-		"Empire Wardragon (Plasma Repeater)" 2
-		"Empire Nanobot YLL'E" 2
-		"Empire Tubfalet"
-	variant 3
-		"Empire Skylark (Plasma Repeater)"
-		"Empire Wardragon" 2
-		"Empire Nanobot" 2
-	variant 3
-		"Empire Skylark (Twin Modified Blaster)"
-		"Empire Wardragon (Ion Proton)"
-		"Empire Wardragon"
-		"Empire Nanobot YLL'A"
-		"Empire Palavret"
-	variant 3
-		"Empire Skylark"
-		"Empire Wardragon (Twin Modified Blaster)" 2
-		"Empire Nanobot YLL'E"
-		"Empire Nanobot YLL'A"
-		"Empire Tubfalet"
-	variant 3
-		"Empire Skylark (Electron Beam)"
-		"Empire Wardragon"
-		"Empire Wardragon (Plasma Repeater)"
-		"Empire Nanobot YLL'E"
-		"Empire Nanobot YLL'A"
-		"Empire Palavret"
-	variant 1
-		"Empire Galactik" 2
-		"Empire Corvette YLL'E"
-		"Empire Nanobot YLL'E" 2
-		"Empire Nanobot YLL'A"
-		"Empire Bulker Class D"
-		"Empire Nanobot YLL'E" 7
-		"Empire Nanobot YLL'E" 7
-		"Fuel Pod Class D" 2
-	variant 1
-		"Empire Galactik" 2
-		"Empire Corvette YLL'A"
-		"Empire Nanobot YLL'E" 1
-		"Empire Tubfalet"
-	variant 1
-		"Empire Galactik"
-		"Empire Corvette YLL'E" 2
-		"Empire Nanobot YLL'E"
-		"Empire Nanobot YLL'A" 2
-		"Empire Palavret" 2
-	variant 1
-		"Empire Galactik"
-		"Empire Corvette YLL'A" 2
-		"Empire Nanobot YLL'A" 1
-		"Empire Bulker Class D"
-		"Empire Nanobot YLL'E" 7
-		"Empire Nanobot YLL'E" 7
-	variant 1
-		"Empire Galactik"
-		"Empire Corvette YLL'E"
-		"Empire Corvette YLL'A"
-		"Empire Nanobot YLL'E" 2
-		"Empire Tubfalet"
-	variant 1
-		"Empire Galactik" 2
-		"Empire Corvette YLL'A"
-		"Empire Corvette YLL'E"
-		"Empire Nanobot YLL'E" 2
-		"Empire Nanobot YLL'A" 2
-		"Empire Bulker Class D"
-		"Empire Nanobot YLL'E" 7
-		"Empire Nanobot YLL'E" 7
-		"Fuel Pod Class D" 2
-	variant 0.7
-		"Empire Galactik" 2
-		"Empire Corvette YLL'E"
-		"Empire Kraken"
-		"Empire Nanobot YLL'E"
-		"Empire Nanobot YLL'A" 2
-		"Empire Palavret"
-	variant 0.7
-		"Empire Galactik" 2
-		"Empire Corvette YLL'A"
-		"Empire Kraken"
-		"Empire Nanobot YLL'A"
-		"Empire Bulker Class D"
-		"Empire Nanobot YLL'E" 7
-		"Empire Nanobot YLL'E" 7
-		"Fuel Pod Class D" 2
-		"Empire Palavret" 2
-	variant 0.7
-		"Empire Galactik"
-		"Empire Corvette YLL'E" 2
-		"Empire Kraken"
-		"Empire Nanobot YLL'A" 2
-	variant 0.7
-		"Empire Galactik"
-		"Empire Corvette YLL'A" 2
-		"Empire Kraken"
-		"Empire Nanobot YLL'E" 3
-		"Fuel Pod Class D" 2
-	variant 0.7
-		"Empire Galactik"
-		"Empire Corvette YLL'E"
-		"Empire Corvette YLL'A"
-		"Empire Kraken"
-		"Empire Nanobot YLL'A" 4
-		"Empire Bulker Class D"
-		"Empire Nanobot YLL'E" 7
-		"Empire Nanobot YLL'E" 7
-		"Fuel Pod Class D" 2
-	variant 0.7
-		"Empire Galactik" 2
-		"Empire Corvette YLL'A"
-		"Empire Corvette YLL'E"
-		"Empire Kraken"
-		"Empire Nanobot YLL'E" 3
-		"Empire Nanobot YLL'A" 2
-		"Empire Bulker Class D"
-		"Empire Nanobot YLL'E" 7
-		"Empire Nanobot YLL'E" 7
-		"Fuel Pod Class D" 2
-		"Empire Palavret" 2
-	variant 0.3
-		"Empire Fortress"
-		"Empire Wardragon"
-		"Empire Wardragon (Electron Beam)"
-		"Empire Wardragon (Plasma Repeater)"
-		"Empire Wardragon (Ion Proton)"
-		"Empire Colinizer" 3
-		"Fuel Pod Class H" 2
-		"Fuel Pod Class D" 2
-		"Fuel Pod" 2
+	outfitters Base-outfitter
 fleet mineria-transports
 	government "Mineria colonnies"
 	names "empire fleet names"
@@ -173,120 +25,10 @@ fleet mineria-transports
 		daring
 		plunders
 		ramming
-	outfitters Cromha-basic-outfitter
-	cargo 6
-	variant 1
-		"Empire Bulker"
-		"Fuel Pod" 2
-		"Cargo Transporter" 3
-		"Nanobot yll'a" 2
-	variant 1
-		"Empire Bulker"
-		"Fuel Pod" 2
-		"Cargo Transporter" 5
-		"Nanobot yll'a" 3
-	variant 1
-		"Empire Bulker"
-		"Fuel Pod Class D" 2
-		"Cargo Transporter" 7
-		"Nanobot yll'a" 3
-	variant 1
-		"Empire Bulker"
-		"Fuel Pod" 2
-		"Cargo Transporter" 3
-		"Nanobot yll'e" 2
-	variant 1
-		"Empire Bulker"
-		"Fuel Pod" 2
-		"Cargo Transporter" 5
-		"Nanobot yll'e" 3
-	variant 1
-		"Empire Bulker"
-		"Fuel Pod Class D" 2
-		"Cargo Transporter" 7
-		"Nanobot yll'e" 3
-	variant 1
-		"Empire Bulker"
-		"Fuel Pod" 2
-		"Cargo Transporter" 3
-		"Nanobot yll'e"
-		"Nanobot yll'a"
-	variant 1
-		"Empire Bulker"
-		"Fuel Pod" 2
-		"Cargo Transporter" 5
-		"Nanobot yll'e" 2
-		"Nanobot yll'a"
-	variant 1
-		"Empire Bulker"
-		"Fuel Pod" 2
-		"Cargo Transporter" 7
-		"Nanobot yll'e" 1
-		"Nanobot yll'a" 2
-	variant .7
-		"Empire Bulker Class H"
-		"Fuel Pod Class H" 6
-	variant .7
-		"Empire Bulker Class H"
-		"Fuel Pod Class H" 5
-	variant .7
-		"Empire Bulker Class H"
-		"Fuel Pod Class H" 4
-	variant .7
-		"Empire Bulker Class H"
-		"Fuel Pod Class H" 3
-	variant .7
-		"Empire Bulker Class H"
-		"Fuel Pod Class H" 2
-	variant .7
-		"Empire Bulker Class H"
-		"Fuel Pod Class H" 1
-	variant .7
-		"Empire Bulker Class H"
-	variant .5
-		"Empire Bulker Class H" 2
-		"Fuel Pod Class H" 6
-	variant .5
-		"Empire Bulker Class H" 2
-		"Fuel Pod Class H" 5
-	variant .5
-		"Empire Bulker Class H" 2
-		"Fuel Pod Class H" 4
-	variant .5
-		"Empire Bulker Class H" 2
-		"Fuel Pod Class H" 3
-	variant .5
-		"Empire Bulker Class H" 2
-		"Fuel Pod Class H" 2
-	variant .5
-		"Empire Bulker Class H" 2
-		"Fuel Pod Class H" 1
-	variant .5
-		"Empire Bulker Class H" 2
-	variant 0.3
-		"Empire Bulker Class D"
-		"Fuel Pod Class D" 2
-		"Cargo Transporter" 6
-		"Nanobot yll'e" 5
-		"Nanobot yll'a" 3
-	variant 0.3
-		"Empire Bulker Class D"
-		"Fuel Pod Class D" 2
-		"Cargo Transporter" 5
-		"Nanobot yll'e" 3
-		"Nanobot yll'a" 6
-	variant 0.3
-		"Empire Bulker Class D"
-		"Fuel Pod Class D" 2
-		"Cargo Transporter" 5
-		"Nanobot yll'e" 9
-	variant 0.3
-		"Empire Bulker Class D"
-		"Fuel Pod Class D" 2
-		"Cargo Transporter" 5
-		"Nanobot yll'a" 9
+	outfitters Base-outfitter
+	cargo 9
 fleet cromha-merchants
-	government "Merchant"
+	government "Empire Merchant"
 	names "civilian"
 	outfitter "Base-outfitter"
 	cargo 7
@@ -475,7 +217,7 @@ fleet calor-stil-tourism
 	cargo 3
 	personality pacific
 	cargo 3
-	outfitters Cromha-basic-outfitter
+	outfitters Base-outfitter
 	# single tourist 1
 	variant 15
 		Blackbird 1
@@ -495,7 +237,7 @@ fleet calor-stil-tourism2
 	names "civilian"
 	cargo 2
 	personality pacific
-	outfitters Cromha-basic-outfitter
+	outfitters Base-outfitter
 	# single tourist 1
 	variant 15
 		Blackbird 1

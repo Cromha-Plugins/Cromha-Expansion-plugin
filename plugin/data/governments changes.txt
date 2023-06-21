@@ -14,6 +14,7 @@ government "Quarg"
 		"Pirate (Devil-Run Gang)" -.01
 		"Gegno" 0.1
             "Empire Rebels" -5
+		"Empire Merchant" 2
             "Cromha Empire" 5
 		"Mineria colonnies" 5
 	"use foreign penalties for"
@@ -45,6 +46,28 @@ government "Merchant"
 	"friendly hail" "friendly civilian"
 	"hostile hail" "hostile civilian"
 
+government "Empire Merchant"
+	swizzle 3
+	"player reputation" 10
+	"attitude toward"
+		"Pirate" -.2
+		"Pirate (Devil-Run Gang)" -.2
+		"Korath" -.2
+		"Empire Rebels" -2
+		"Cromha Empire" 5
+		"Mineria colonnies" 5
+		"Remnant" 2
+		"Quarg" 2
+		"Wanderer" 2
+		"Indigene Creature" 2
+		"Kor Sestor" -2
+		"Kor Mereti" -2
+		"Kor Efret" -2
+	"bribe" 0
+	"fine" 0
+	"friendly hail" "friendly civilian"
+	"hostile hail" "hostile civilian"
+
 government "Indigene Creature"
 	swizzle 1
 	color "governments: Ungoverned"
@@ -53,6 +76,7 @@ government "Indigene Creature"
 		"Cromha Empire" 1
 		"Mineria colonnies" 1
 		"Empire Rebels" -1
+		"Empire Merchant" 1
 
 government "Wanderer"
 	swizzle 2
@@ -65,6 +89,7 @@ government "Wanderer"
 		"Cromha Empire" 3
 		"Mineria colonnies" 3
 		"Empire Rebels" -5
+		"Empire Merchant" 2
 	language "Wanderer"
 	"send untranslated hails"
 	"friendly hail" "wanderer untranslated"
@@ -85,6 +110,7 @@ government "Remnant"
 		"Alpha" -.05
 		"Remnant (Research)" 1
 		"Empire Rebels" -5
+		"Empire Merchant" 2
 		"Cromha Empire" 5
 		"Mineria colonnies" 5
 	"penalty for"
@@ -161,6 +187,7 @@ government "Hai"
 		"Empire Rebels" -5
 		"Cromha Empire" 5
 		"Mineria colonnies" 5
+		"Empire Merchant" 3
 	"bribe" .2
 	"friendly hail" "friendly hai"
 	"friendly disabled hail" "friendly disabled hai"

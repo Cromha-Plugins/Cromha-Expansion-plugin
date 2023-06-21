@@ -1686,7 +1686,7 @@ mission merchant-escort[0]
 		payment 60000
 		dialog "Captain <npc> greets you and gives you <payment>."
 	npc save accompany
-		government "Merchant"
+		government "Empire Merchant"
 		personality escort timid
 		fleet cromha-merchants
 	npc
@@ -1716,7 +1716,7 @@ mission merchant-escort[1]
 		payment 60000
 		dialog "Captain '<npc>' greets you and gives you <payment>."
 	npc save accompany
-		government "Merchant"
+		government "Empire Merchant"
 		personality escort timid
 		fleet cromha-merchants
 	npc
@@ -1746,7 +1746,7 @@ mission merchant-escort[2]
 		payment 60000
 		dialog "Captain <npc> greets you and gives you <payment>."
 	npc save accompany
-		government "Merchant"
+		government "Empire Merchant"
 		personality escort timid
 		fleet cromha-merchants
 	npc
@@ -1776,7 +1776,7 @@ mission merchant-escort[3]
 		payment 60000
 		dialog "Captain <npc> greets you and gives you <payment>."
 	npc save accompany
-		government "Merchant"
+		government "Empire Merchant"
 		personality escort timid
 		fleet cromha-merchants
 	npc
@@ -1806,7 +1806,7 @@ mission merchant-escort[4]
 		payment 60000
 		dialog "Captain <npc> greets you and gives you <payment>."
 	npc save accompany
-		government "Merchant"
+		government "Empire Merchant"
 		personality escort timid
 		fleet cromha-merchants
 	npc
