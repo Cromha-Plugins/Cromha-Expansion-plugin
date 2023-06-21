@@ -82,10 +82,7 @@ planet "Linimbus"
 	"required reputation" 0
 	bribe 1
 	security 1
-	tribute 1000000
-		threshold 5000
-		fleet cromha-fleet 5
-		
+
 planet "Linimbus Moon"
 	landscape "land/Linimbus_moon"
 	outfitter Base-outfitter
@@ -162,9 +159,6 @@ planet "Mineria"
 	"required reputation" 0
 	bribe 1
 	security 1
-	tribute 100000
-		threshold 5000
-		fleet cromha-fleet 5
 		
 planet "Mineria Trading Station"
 	outfitter Base-outfitter
@@ -176,10 +170,6 @@ planet "Mineria Trading Station"
 	"required reputation" 0
 	bribe 1
 	security 1
-	tribute 100000
-		threshold 5000
-		fleet cromha-fleet 5
-		
 system "Calor Stil"
 	pos 127 -500
 	attributes tourism inhabited rich paradise hai "empire space"
@@ -597,9 +587,6 @@ planet "Crodust"
 	"required reputation" 250
 	bribe 3
 	security 3
-	tribute 1000000
-		threshold 5000
-		fleet cromha-fleet 10
 
 planet "Phoenux Station"
 	attributes rich inhabited station nortn research military "empire space"
@@ -616,9 +603,6 @@ planet "Phoenux Station"
 	description "This station studies the red neutron star in the Lifdot system."
 	bribe 3
 	security 3
-	tribute 1000000
-		threshold 5000
-		fleet cromha-fleet 10
 
 system "Alpha Cromha"
 	pos 184 -540
@@ -697,9 +681,6 @@ planet "Alldust"
 	"required reputation" 0
 	bribe 2
 	security 5
-	tribute 1000000
-		threshold 5000
-		fleet cromha-fleet 15
 		
 planet "Plutoon"
 	attributes inhabited rich research paradise factory north urban tourism farming "empire space" hai
