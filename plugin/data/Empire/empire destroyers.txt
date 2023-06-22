@@ -28,7 +28,8 @@ ship "Empire Kraken"
 		"Alldust Beam Turret" 6
 		"Catalytic Ramscoop"
 		"Cloaking Module"
-		"Countermesure Module" 2
+		"Countermesure Module" 4
+		"Countermesure Compact" 8
 		"Empire Barricade" 10
 		"Empire Defense Station" 30
 		"Empire Hai Ravine Batteries" 2
