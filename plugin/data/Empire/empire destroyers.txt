@@ -16,7 +16,7 @@ ship "Empire Kraken"
 		"heat dissipation" .45
 		"fuel capacity" 500
 		"cargo space" 127
-		"outfit space" 3315
+		"outfit space" 1700
 		"weapon capacity" 900
 		"engine capacity" 640
 		weapon
@@ -29,7 +29,7 @@ ship "Empire Kraken"
 		"Catalytic Ramscoop"
 		"Cloaking Module"
 		"Countermesure Module" 4
-		"Countermesure Compact" 8
+		"Countermesure Moduel Compact" 8
 		"Empire Barricade" 10
 		"Empire Defense Station" 30
 		"Empire Hai Ravine Batteries" 2
