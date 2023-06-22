@@ -1553,7 +1553,7 @@ planet "Sek Alarfarat"
 
 system Seketra
 	pos -24.5695 -356.812
-	government "Mineria colonnies"
+	government "Cromha Empire"
 	attributes "korath"
 	arrival 500
 	habitable 425
@@ -1617,6 +1617,7 @@ system Seketra
 planet "Seleptra Nak"
 	attributes korath mining oil
 	landscape land/fog2
+	government "Mineria colonnies"
 	outfitter Base-outfitter
 	spaceport "The spaceport is very small and there is only a several ships. Most of the poeple who lives here are colonnies of Mineria that moved here a century ago probably with a H class Empire World Ship."
 	government "Mineria colonnies"
