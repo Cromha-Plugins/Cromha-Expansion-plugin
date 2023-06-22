@@ -29,6 +29,9 @@ system Pantica
 	fleet "Small Remnant" 1400
 	fleet "Remnant Transport" 1400
 	fleet "Remnant Home Guard" 1300
+	fleet cromha-merchants 2000
+	fleet cromha-fleet 2000
+	fleet mineria-transports 2000
 	fleet "Korath Ember Waste Raid" 40000
 	hazard "Ember Waste Base Heat" 100
 	hazard "Ember Waste Base Storm" 25000
@@ -43,6 +46,11 @@ system Pantica
 		sprite planet/ocean0
 		distance 595
 		period 273.671
+		object "Empire Remnant Embassade"
+			sprite planet/stationh-ancient2
+				scale 0.4
+			distance 275
+			period 15
 	object Esquiline
 		sprite planet/gas9-b
 		distance 1320
@@ -81,3 +89,20 @@ planet "Black Manta Spacial Dock"
 	landscape land/Black_manta_spacial_dock
 	spaceport "Smallest spaceprt ever"
 	description "This is a recent spacial dock. There is not much things do to here unless you want to buy Black Manta Prototypes."
+
+planet "Empire Remnant Embassade"
+	government "Cromha Empire"
+	attributes "ember waste" military
+	description "This is the Empire Embassade in the Remnant systems. It allows The Empire to keep contact with the Remnants and deliver them supplies like food, clothes... It also allow Remnants citizen to enjoy the Cromha Empire technologies and also to allow them to work for The Empire and become officers or scientists."
+	spaceport ""
+	landscape "land/Empire_remnant_embassade"
+	outfitter Base-outfitter
+	outfitter Basic-ammo-outfitter
+	outfitter Basic-weapons-outfitter
+	outfitter Basic-systems-outfitter
+	outfitter Basic-power-outfitter
+	outfitter Basic-engines-outfitter
+	shipyard Basic-freighters-shipyard
+	shipyard Basic-lifdot-industries-shipyard
+	shipyard Base-shipyard
+	security 1.3
