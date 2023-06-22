@@ -15,7 +15,7 @@ mission hai-embassade-escort[0]
 		"reputation: Hai" += 10
 		"reputation: Cromha Empire" += 10
 		payment
-		payment 60000
+		payment 60000 1.5
 		dialog "After opening the ship's sas, the Ambassador thank you and gives you 60000 credits."
 	npc accompany save
 		government Hai
@@ -39,7 +39,7 @@ mission mineria-colonnies-transport-escort[0]
 		attributes factory
 	on complete
 		payment
-		payment 100000
+		payment 100000 2
 		dialog "After landing oon the planet, the Captain thanks you and gives you the <payment>."
 	npc accompany save
 		government "Mineria colonnies"
@@ -80,7 +80,7 @@ mission mineria-colonnies-transport-escort[1]
 		attributes factory
 	on complete
 		payment
-		payment 200000
+		payment 200000 3
 		dialog "After landing oon the planet, the Captain thanks you and gives you the <payment>."
 	npc accompany save
 		government "Mineria colonnies"
@@ -121,7 +121,7 @@ mission mineria-colonnies-transport-escort[2]
 		attributes factory
 	on complete
 		payment
-		payment 150000
+		payment 150000 2
 		dialog "After landing oon the planet, the Captain thanks you and gives you the <payment>."
 	npc accompany save
 		government "Mineria colonnies"
@@ -161,7 +161,7 @@ mission outlaw-empire-passport[0]
 	on complete
 		"reputation: Cromha Empire" += 10
 		payment
-		payment 80000
+		payment 80000 1.5
 		dialog "After opening the sas, Empire authorities thank you and take the guy to the Empire register. You automaticlly got 80000 credits on your bank account."
 
 mission outlaw-empire-passport[1]
@@ -180,7 +180,7 @@ mission outlaw-empire-passport[1]
 	on complete
 		"reputation: Cromha Empire" += 10
 		payment
-		payment 80000
+		payment 80000 2
 		dialog "After opening the sas, Empire authorities thank you and take the guy to the Empire register. You automaticlly got 80000 credits on your bank account."
 
 mission outlaw-empire-passport[2]
@@ -199,7 +199,7 @@ mission outlaw-empire-passport[2]
 	on complete
 		"reputation: Cromha Empire" += 10
 		payment
-		payment 80000
+		payment 80000 3
 		dialog "After opening the sas, Empire authorities thank you and take the guy to the Empire register. You automaticlly got 80000 credits on your bank account."
 
 mission assist-empire-bounty[0]
@@ -219,7 +219,7 @@ mission assist-empire-bounty[0]
 	on complete
 		"reputation: Cromha Empire" += 10
 		payment
-		payment 80000
+		payment 80000 2
 		dialog "The Cromha Empire authorities thank you for helping them and gives you <payment>"
 	npc
 		government "Mineria colonnies"
@@ -250,7 +250,7 @@ mission assist-empire-syndicate[0]
 	on complete
 		"reputation: Cromha Empire" += 10
 		payment
-		payment 80000
+		payment 80000 1.2
 		dialog "The Cromha Empire authorities thank you for helping them and gives you <payment>"
 	npc
 		government "Mineria colonnies"
@@ -281,7 +281,7 @@ mission assist-empire-rebels[0]
 	on complete
 		"reputation: Cromha Empire" += 10
 		payment
-		payment 80000
+		payment 80000 1.3
 		dialog "The Cromha Empire authorities thank you for helping them and gives you <payment>"
 	npc
 		government "Mineria colonnies"
@@ -307,7 +307,7 @@ mission "Harvest (aluminum, small)"
 		government "Cromha Empire" "Mineria colonnies"
 	on complete
 		outfit "Aluminum" -50
-		payment 157500
+		payment 157500 2
 		dialog `You unload the aluminum at the spaceport. The people of <origin> thank you, and pay you <payment>.`
 
 mission "Harvest (aluminum, large)"
@@ -335,7 +335,7 @@ mission "Harvest (copper, small)"
 		government "Cromha Empire" "Mineria colonnies"
 	on complete
 		outfit "Copper" -50
-		payment 262500
+		payment 262500 2
 		dialog `You unload the copper at the spaceport. The people of <origin> thank you, and pay you <payment>.`
 
 mission "Harvest (copper, large)"
@@ -349,7 +349,7 @@ mission "Harvest (copper, large)"
 		government "Cromha Empire" "Mineria colonnies"
 	on complete
 		outfit "Copper" -100
-		payment 540000
+		payment 540000 2
 		dialog `You unload the copper at the spaceport. The people of <origin> thank you, and pay you <payment>.`
 
 mission "Harvest (gold, small)"
@@ -363,7 +363,7 @@ mission "Harvest (gold, small)"
 		government "Cromha Empire" "Mineria colonnies"
 	on complete
 		outfit "Gold" -50
-		payment 800000
+		payment 800000 2
 		dialog `You unload the gold at the spaceport. The people of <origin> thank you, and pay you <payment>.`
 
 mission "Harvest (gold, large)"
@@ -377,7 +377,7 @@ mission "Harvest (gold, large)"
 		government "Cromha Empire" "Mineria colonnies"
 	on complete
 		outfit "Gold" -100
-		payment 1680000
+		payment 1680000 2
 		dialog `You unload the gold at the spaceport. The people of <origin> thank you, and pay you <payment>.`
 
 mission "Harvest (iron, small)"
@@ -391,7 +391,7 @@ mission "Harvest (iron, small)"
 		government "Cromha Empire" "Mineria colonnies"
 	on complete
 		outfit "Iron" -50
-		payment 105000
+		payment 105000 2
 		dialog `You unload the iron at the spaceport. The people of <origin> thank you, and pay you <payment>.`
 
 mission "Harvest (iron, large)"
@@ -405,7 +405,7 @@ mission "Harvest (iron, large)"
 		government "Cromha Empire" "Mineria colonnies"
 	on complete
 		outfit "Iron" -100
-		payment 216000
+		payment 216000 2
 		dialog `You unload the iron at the spaceport. The people of <origin> thank you, and pay you <payment>.`
 
 mission "Harvest (lead, small)"
@@ -419,7 +419,7 @@ mission "Harvest (lead, small)"
 		government "Cromha Empire" "Mineria colonnies"
 	on complete
 		outfit "Lead" -50
-		payment 90000
+		payment 90000 2
 		dialog `You unload the lead at the spaceport. The people of <origin> thank you, and pay you <payment>.`
 
 mission "Harvest (lead, large)"
@@ -433,7 +433,7 @@ mission "Harvest (lead, large)"
 		government "Cromha Empire" "Mineria colonnies"
 	on complete
 		outfit "Lead" -100
-		payment 189000
+		payment 189000 2
 		dialog `You unload the lead at the spaceport. The people of <origin> thank you, and pay you <payment>.`
 
 mission "Harvest (neodymium, small)"
@@ -447,7 +447,7 @@ mission "Harvest (neodymium, small)"
 		government "Cromha Empire" "Mineria colonnies"
 	on complete
 		outfit "Neodymium" -50
-		payment 380000
+		payment 380000 2
 		dialog `You unload the neodymium at the spaceport. The people of <origin> thank you, and pay you <payment>.`
 
 mission "Harvest (neodymium, large)"
@@ -461,7 +461,7 @@ mission "Harvest (neodymium, large)"
 		government "Cromha Empire" "Mineria colonnies"
 	on complete
 		outfit "Neodymium" -100
-		payment 798000
+		payment 798000 2
 		dialog `You unload the neodymium at the spaceport. The people of <origin> thank you, and pay you <payment>.`
 
 mission "Harvest (platinum, small)"
@@ -475,7 +475,7 @@ mission "Harvest (platinum, small)"
 		government "Cromha Empire" "Mineria colonnies"
 	on complete
 		outfit "Platinum" -50
-		payment 1500000
+		payment 1500000 2
 		dialog `You unload the platinum at the spaceport. The people of <origin> thank you, and pay you <payment>.`
 
 mission "Harvest (platinum, large)"
@@ -489,7 +489,7 @@ mission "Harvest (platinum, large)"
 		government "Cromha Empire" "Mineria colonnies"
 	on complete
 		outfit "Platinum" -100
-		payment 3200000
+		payment 3200000 2
 		dialog `You unload the platinum at the spaceport. The people of <origin> thank you, and pay you <payment>.`
 
 mission "Harvest (crystal, small)"
@@ -504,7 +504,7 @@ mission "Harvest (crystal, small)"
 		attributes "far empire space"
 	on complete
 		outfit "Crystal" -50
-		payment 1500000
+		payment 1500000 2
 		dialog `You unload the platinum at the spaceport. The people of <origin> thank you, and pay you <payment>.`
 
 mission "Harvest (crystal, large)"
@@ -519,7 +519,7 @@ mission "Harvest (crystal, large)"
 		attributes "far empire space"
 	on complete
 		outfit "Crystal" -100
-		payment 3200000
+		payment 3200000 2
 		dialog `You unload the platinum at the spaceport. The people of <origin> thank you, and pay you <payment>.`
 
 mission "Harvest (silicon, small)"
@@ -533,7 +533,7 @@ mission "Harvest (silicon, small)"
 		government "Cromha Empire" "Mineria colonnies"
 	on complete
 		outfit "Silicon" -50
-		payment 60000
+		payment 60000 2
 		dialog `You unload the silicon at the spaceport. The people of <origin> thank you, and pay you <payment>.`
 
 mission "Harvest (silicon, large)"
@@ -547,7 +547,7 @@ mission "Harvest (silicon, large)"
 		government "Cromha Empire" "Mineria colonnies"
 	on complete
 		outfit "Silicon" -100
-		payment 128000
+		payment 128000 2
 		dialog `You unload the silicon at the spaceport. The people of <origin> thank you, and pay you <payment>.`
 
 mission "Harvest (silver, small)"
@@ -561,7 +561,7 @@ mission "Harvest (silver, small)"
 		government "Cromha Empire" "Mineria colonnies"
 	on complete
 		outfit "Silver" -50
-		payment 450000
+		payment 450000 2
 		dialog `You unload the silver at the spaceport. The people of <origin> thank you, and pay you <payment>.`
 
 mission "Harvest (silver, large)"
@@ -575,7 +575,7 @@ mission "Harvest (silver, large)"
 		government "Cromha Empire" "Mineria colonnies"
 	on complete
 		outfit "Silver" -100
-		payment 960000
+		payment 960000 2
 		dialog `You unload the silver at the spaceport. The people of <origin> thank you, and pay you <payment>.`
 
 mission "Harvest (titanium, small)"
@@ -589,7 +589,7 @@ mission "Harvest (titanium, small)"
 		government "Cromha Empire" "Mineria colonnies"
 	on complete
 		outfit "Titanium" -50
-		payment 375000
+		payment 375000 2
 		dialog `You unload the titanium at the spaceport. The people of <origin> thank you, and pay you <payment>.`
 
 mission "Harvest (titanium, large)"
@@ -603,7 +603,7 @@ mission "Harvest (titanium, large)"
 		government "Cromha Empire" "Mineria colonnies"
 	on complete
 		outfit "Titanium" -100
-		payment 800000
+		payment 800000 2
 		dialog `You unload the titanium at the spaceport. The people of <origin> thank you, and pay you <payment>.`
 
 mission "Harvest (tungsten, small)"
@@ -617,7 +617,7 @@ mission "Harvest (tungsten, small)"
 		government "Cromha Empire" "Mineria colonnies"
 	on complete
 		outfit "Tungsten" -50
-		payment 450000
+		payment 450000 2
 		dialog `You unload the tungsten at the spaceport. The people of <origin> thank you, and pay you <payment>.`
 
 mission "Harvest (tungsten, large)"
@@ -631,7 +631,7 @@ mission "Harvest (tungsten, large)"
 		government "Cromha Empire" "Mineria colonnies"
 	on complete
 		outfit "Tungsten" -100
-		payment 945000
+		payment 945000 2
 		dialog `You unload the tungsten at the spaceport. The people of <origin> thank you, and pay you <payment>.`
 
 mission "Harvest (uranium, small)"
@@ -645,7 +645,7 @@ mission "Harvest (uranium, small)"
 		government "Cromha Empire" "Mineria colonnies"
 	on complete
 		outfit "Uranium" -50
-		payment 750000
+		payment 750000 2
 		dialog `You unload the uranium at the spaceport. The people of <origin> thank you, and pay you <payment>.`
 
 mission "Harvest (uranium, large)"
@@ -659,7 +659,7 @@ mission "Harvest (uranium, large)"
 		government "Cromha Empire" "Mineria colonnies"
 	on complete
 		outfit "Uranium" -100
-		payment 1600000
+		payment 1600000 2
 		dialog `You unload the uranium at the spaceport. The people of <origin> thank you, and pay you <payment>.`
 
 # Hunt Down Jobs
@@ -679,7 +679,7 @@ mission marauder[0]
 	on complete
 		"reputation: Cromha Empire" += 10
 		payment
-		payment 80000
+		payment 80000 2
 		dialog "The Cromha Empire authorities thank you for destroying the marauder and gives you <payment>"
 	npc kill
 		government "Pirate"
@@ -704,7 +704,7 @@ mission marauder[1]
 	on complete
 		"reputation: Cromha Empire" += 10
 		payment
-		payment 130000
+		payment 130000 2
 		dialog "The Cromha Empire authorities thank you for destroying the marauder and gives you <payment>"
 	npc kill
 		government "Pirate"
@@ -730,7 +730,7 @@ mission cargo-delivry-food[0]
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
-		payment 15000
+		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
 mission cargo-delivry-food[1]
@@ -749,7 +749,7 @@ mission cargo-delivry-food[1]
 		not government "Syndicate" "Empire Rebels"
 	on complete
 		payment
-		payment 15000
+		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
 mission cargo-delivry-food[2]
@@ -768,7 +768,7 @@ mission cargo-delivry-food[2]
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
-		payment 15000
+		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
 mission cargo-delivry-food[3]
@@ -787,7 +787,7 @@ mission cargo-delivry-food[3]
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
-		payment 15000
+		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
 mission cargo-delivry-food[4]
@@ -806,7 +806,7 @@ mission cargo-delivry-food[4]
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
-		payment 15000
+		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
 mission cargo-delivry-clothing[0]
@@ -825,7 +825,7 @@ mission cargo-delivry-clothing[0]
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
-		payment 15000
+		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
 mission cargo-delivry-clothing[1]
@@ -844,7 +844,7 @@ mission cargo-delivry-clothing[1]
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
-		payment 15000
+		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
 mission cargo-delivry-clothing[2]
@@ -863,7 +863,7 @@ mission cargo-delivry-clothing[2]
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
-		payment 15000
+		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
 mission cargo-delivry-equipment[0]
@@ -882,7 +882,7 @@ mission cargo-delivry-equipment[0]
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
-		payment 15000
+		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
 mission cargo-delivry-equipment[1]
@@ -901,7 +901,7 @@ mission cargo-delivry-equipment[1]
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
-		payment 15000
+		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
 mission cargo-delivry-equipment[2]
@@ -920,7 +920,7 @@ mission cargo-delivry-equipment[2]
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
-		payment 15000
+		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
 mission cargo-delivry-medical[0]
@@ -939,7 +939,7 @@ mission cargo-delivry-medical[0]
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
-		payment 15000
+		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
 mission cargo-delivry-medical[1]
@@ -958,7 +958,7 @@ mission cargo-delivry-medical[1]
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
-		payment 15000
+		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
 mission cargo-delivry-electronics[0]
@@ -977,7 +977,7 @@ mission cargo-delivry-electronics[0]
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
-		payment 15000
+		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
 mission cargo-delivry-electronics[1]
@@ -996,7 +996,7 @@ mission cargo-delivry-electronics[1]
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
-		payment 15000
+		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
 mission cargo-delivry-electronics[2]
@@ -1015,7 +1015,7 @@ mission cargo-delivry-electronics[2]
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
-		payment 15000
+		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
 
@@ -1035,7 +1035,7 @@ mission bulk-delivry-food[0]
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
-		payment 15000
+		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
 mission bulk-delivry-food[1]
@@ -1054,7 +1054,7 @@ mission bulk-delivry-food[1]
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
-		payment 15000
+		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
 mission bulk-delivry-food[2]
@@ -1073,7 +1073,7 @@ mission bulk-delivry-food[2]
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
-		payment 15000
+		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
 mission bulk-delivry-food[3]
@@ -1092,7 +1092,7 @@ mission bulk-delivry-food[3]
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
-		payment 15000
+		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
 mission bulk-delivry-food[4]
@@ -1111,7 +1111,7 @@ mission bulk-delivry-food[4]
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
-		payment 15000
+		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
 mission bulk-delivry-clothing[0]
@@ -1130,7 +1130,7 @@ mission bulk-delivry-clothing[0]
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
-		payment 15000
+		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
 mission bulk-delivry-clothing[1]
@@ -1149,7 +1149,7 @@ mission bulk-delivry-clothing[1]
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
-		payment 15000
+		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
 mission bulk-delivry-clothing[2]
@@ -1168,7 +1168,7 @@ mission bulk-delivry-clothing[2]
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
-		payment 15000
+		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
 mission bulk-delivry-equipment[0]
@@ -1187,7 +1187,7 @@ mission bulk-delivry-equipment[0]
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
-		payment 15000
+		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
 mission bulk-delivry-equipment[1]
@@ -1206,7 +1206,7 @@ mission bulk-delivry-equipment[1]
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
-		payment 15000
+		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
 mission bulk-delivry-equipment[2]
@@ -1225,7 +1225,7 @@ mission bulk-delivry-equipment[2]
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
-		payment 15000
+		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
 mission bulk-delivry-medical[0]
@@ -1244,7 +1244,7 @@ mission bulk-delivry-medical[0]
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
-		payment 15000
+		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
 mission bulk-delivry-medical[1]
@@ -1263,7 +1263,7 @@ mission bulk-delivry-medical[1]
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
-		payment 15000
+		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
 mission bulk-delivry-electronics[0]
@@ -1282,7 +1282,7 @@ mission bulk-delivry-electronics[0]
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
-		payment 15000
+		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
 mission bulk-delivry-electronics[1]
@@ -1301,7 +1301,7 @@ mission bulk-delivry-electronics[1]
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
-		payment 15000
+		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
 mission bulk-delivry-electronics[2]
@@ -1320,7 +1320,7 @@ mission bulk-delivry-electronics[2]
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
-		payment 15000
+		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
 mission rush-delivry-food[0]
@@ -1340,7 +1340,7 @@ mission rush-delivry-food[0]
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
-		payment 15000
+		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
 mission rush-delivry-food[1]
@@ -1360,7 +1360,7 @@ mission rush-delivry-food[1]
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
-		payment 15000
+		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
 mission rush-delivry-food[2]
@@ -1380,7 +1380,7 @@ mission rush-delivry-food[2]
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
-		payment 15000
+		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
 mission rush-delivry-food[3]
@@ -1400,7 +1400,7 @@ mission rush-delivry-food[3]
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
-		payment 15000
+		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
 mission rush-delivry-food[4]
@@ -1420,7 +1420,7 @@ mission rush-delivry-food[4]
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
-		payment 15000
+		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
 mission rush-delivry-clothing[0]
@@ -1440,7 +1440,7 @@ mission rush-delivry-clothing[0]
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
-		payment 15000
+		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
 mission rush-delivry-clothing[1]
@@ -1460,7 +1460,7 @@ mission rush-delivry-clothing[1]
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
-		payment 15000
+		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
 mission rush-delivry-clothing[2]
@@ -1480,7 +1480,7 @@ mission rush-delivry-clothing[2]
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
-		payment 15000
+		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
 mission rush-delivry-equipment[0]
@@ -1500,7 +1500,7 @@ mission rush-delivry-equipment[0]
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
-		payment 15000
+		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
 mission rush-delivry-equipment[1]
@@ -1520,7 +1520,7 @@ mission rush-delivry-equipment[1]
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
-		payment 15000
+		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
 mission rush-delivry-equipment[2]
@@ -1540,7 +1540,7 @@ mission rush-delivry-equipment[2]
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
-		payment 15000
+		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
 mission rush-delivry-medical[0]
@@ -1560,7 +1560,7 @@ mission rush-delivry-medical[0]
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
-		payment 15000
+		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
 mission rush-delivry-medical[1]
@@ -1580,7 +1580,7 @@ mission rush-delivry-medical[1]
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
-		payment 15000
+		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
 mission rush-delivry-electronics[0]
@@ -1600,7 +1600,7 @@ mission rush-delivry-electronics[0]
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
-		payment 15000
+		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
 mission rush-delivry-electronics[1]
@@ -1620,7 +1620,7 @@ mission rush-delivry-electronics[1]
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
-		payment 15000
+		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
 mission rush-delivry-electronics[2]
@@ -1640,7 +1640,7 @@ mission rush-delivry-electronics[2]
 		not government "Syndicate" "Empire Rebels" "Pirate" "Kor Mereti" "Kor Sestor" "Kor Efret"
 	on complete
 		payment
-		payment 15000
+		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
 
@@ -1657,7 +1657,7 @@ mission disguise-pirate-merchant
 		government "Cromha Empire" "Mineria colonnies"
 	on complete
 		payment
-		payment 350000
+		payment 350000 2
 		dialog "You land on <planet> and get your payment of <payment>."
 	npc kill
 		government "Bounty (Disguised)"
@@ -1683,7 +1683,7 @@ mission merchant-escort[0]
 		distance 1 3
 	on complete
 		payment
-		payment 60000
+		payment 60000 2
 		dialog "Captain <npc> greets you and gives you <payment>."
 	npc save accompany
 		government "Empire Merchant"
@@ -1713,7 +1713,7 @@ mission merchant-escort[1]
 		distance 1 3
 	on complete
 		payment
-		payment 60000
+		payment 60000 2
 		dialog "Captain '<npc>' greets you and gives you <payment>."
 	npc save accompany
 		government "Empire Merchant"
@@ -1743,7 +1743,7 @@ mission merchant-escort[2]
 		distance 1 3
 	on complete
 		payment
-		payment 60000
+		payment 60000 2
 		dialog "Captain <npc> greets you and gives you <payment>."
 	npc save accompany
 		government "Empire Merchant"
@@ -1773,7 +1773,7 @@ mission merchant-escort[3]
 		distance 1 3
 	on complete
 		payment
-		payment 60000
+		payment 60000 2
 		dialog "Captain <npc> greets you and gives you <payment>."
 	npc save accompany
 		government "Empire Merchant"
@@ -1803,7 +1803,7 @@ mission merchant-escort[4]
 		distance 1 3
 	on complete
 		payment
-		payment 60000
+		payment 60000 2
 		dialog "Captain <npc> greets you and gives you <payment>."
 	npc save accompany
 		government "Empire Merchant"
@@ -1904,7 +1904,7 @@ mission bring-tourist[0]
 		random < 35
 	on complete
 		payment
-		payment 15000
+		payment 15000 2
 		dialog "You land on <planet> and depose the whole family. They payed you <payment>."
 mission bring-tourist[1]
 	name "Tourist to <planet>"
@@ -1921,7 +1921,7 @@ mission bring-tourist[1]
 		random < 35
 	on complete
 		payment
-		payment 11000
+		payment 11000 2
 		dialog "You land on <planet> and depose the whole family. They payed you <payment>."
 mission bring-tourist[2]
 	name "Tourist to <planet>"
@@ -1938,7 +1938,7 @@ mission bring-tourist[2]
 		random < 35
 	on complete
 		payment
-		payment 9000
+		payment 9000 2
 		dialog "You land on <planet> and depose the whole family. They payed you <payment>."
 mission bring-tourist[3]
 	name "Tourist to <planet>"
@@ -1955,7 +1955,7 @@ mission bring-tourist[3]
 		random < 35
 	on complete
 		payment
-		payment 21000
+		payment 21000 2
 		dialog "You land on <planet> and depose the whole family. They payed you <payment>."
 
 #  Colonny importation
@@ -1975,7 +1975,7 @@ mission colonny-importation[0]
 		random < 30
 	on complete
 		payment
-		payment 18000
+		payment 18000 5
 		dialog "You land on <planet> and depose the workers. They payed you <payment>."
 
 mission colonny-importation[1]
@@ -1994,7 +1994,7 @@ mission colonny-importation[1]
 		random < 30
 	on complete
 		payment
-		payment 21000
+		payment 21000 5
 		dialog "You land on <planet> and depose the workers. They payed you <payment>."
 
 mission colonny-importation[2]
@@ -2013,7 +2013,7 @@ mission colonny-importation[2]
 		random < 30
 	on complete
 		payment
-		payment 24000
+		payment 24000 5
 		dialog "You land on <planet> and depose the workers. They payed you <payment>."
 
 # Passengers
@@ -2032,7 +2032,7 @@ mission passenger-transport[0]
 		random < 35
 	on complete
 		payment
-		payment 8500
+		payment 8500 2
 		dialog "You land on <planet> and get Payed <payment>."
 mission passenger-transport[1]
 	name "Passenger to <planet>"
@@ -2049,7 +2049,7 @@ mission passenger-transport[1]
 		random < 35
 	on complete
 		payment
-		payment 10500
+		payment 10500 2
 		dialog "You land on <planet> and get Payed <payment>."
 mission passenger-transport[2]
 	name "Passenger to <planet>"
@@ -2066,7 +2066,7 @@ mission passenger-transport[2]
 		random < 35
 	on complete
 		payment
-		payment 9500
+		payment 9500 2
 		dialog "You land on <planet> and get Payed <payment>."
 
 mission passenger-transport[3]
@@ -2084,7 +2084,7 @@ mission passenger-transport[3]
 		random < 35
 	on complete
 		payment
-		payment 12300
+		payment 12300 2
 		dialog "You land on <planet> and get Payed <payment>."
 mission passenger-transport[4]
 	name "Passenger to <planet>"
@@ -2101,7 +2101,7 @@ mission passenger-transport[4]
 		random < 35
 	on complete
 		payment
-		payment 8500
+		payment 8500 2
 		dialog "You land on <planet> and get Payed <payment>."
 mission passenger-transport[5]
 	name "Passenger to <planet>"
@@ -2118,7 +2118,7 @@ mission passenger-transport[5]
 		random < 35
 	on complete
 		payment
-		payment 10500
+		payment 10500 2
 		dialog "You land on <planet> and get Payed <payment>."
 
 # Wanted outlaws, bounties, rebels
@@ -2135,7 +2135,7 @@ mission wanted-outlaw
 		"combat rating" > 350
 	on complete
 		payment
-		payment 150000
+		payment 150000 2
 		dialog "You bring the captured outlaw to an empire authorities. You got payed <payment>."
 	npc board
 		government "Bounty (Disguised)"
@@ -2158,7 +2158,7 @@ mission wanted-rebel[0]
 		"combat rating" > 350
 	on complete
 		payment
-		payment 150000
+		payment 150000 2
 		dialog "You bring the captured outlaw to an empire authorities. You got payed <payment>."
 	npc board
 		government "Empire Rebels"
@@ -2182,7 +2182,7 @@ mission wanted-rebel[1]
 		"combat rating" > 350
 	on complete
 		payment
-		payment 150000
+		payment 150000 2
 		dialog "You bring the captured outlaw to an empire authorities. You got payed <payment>."
 	npc board
 		government "Empire Rebels"
@@ -2211,7 +2211,7 @@ mission prisonner-empire[0]
 		random < 40
 	on complete
 		payment
-		payment 18000
+		payment 18000 2
 		dialog "You bring the prisonner to an empire authoritie. He pays you <payment>."
 mission prisonner-empire[1]
 	name "Prisonner to <planet>"
@@ -2230,7 +2230,7 @@ mission prisonner-empire[1]
 		random < 35
 	on complete
 		payment
-		payment 24000
+		payment 24000 2
 		dialog "You bring the prisonner to an empire authoritie. He pays you <payment>."
 mission prisonner-empire[2]
 	name "Prisonner to <planet>"
@@ -2249,7 +2249,7 @@ mission prisonner-empire[2]
 		random < 50
 	on complete
 		payment
-		payment 13500
+		payment 13500 2
 		dialog "You bring the prisonner to an empire authoritie. He pays you <payment>."
 
 mission prisonner-empire[3]
@@ -2269,7 +2269,7 @@ mission prisonner-empire[3]
 		random < 50
 	on complete
 		payment
-		payment 13500
+		payment 13500 2
 		dialog "You bring the prisonner to an empire authoritie. He pays you <payment>."
 
 mission prisonner-empire[4]
@@ -2289,7 +2289,7 @@ mission prisonner-empire[4]
 		random < 50
 	on complete
 		payment
-		payment 13500
+		payment 13500 2
 		dialog "You bring the prisonner to an empire authoritie. He pays you <payment>."
 
 # Vacancers
@@ -2310,7 +2310,7 @@ mission vacancer[0]
 		random < 35
 	on complete
 		payment
-		payment 9600
+		payment 9600 2
 		dialog "You land on <planet> and depose the vacancer(s). You got payed <payment>."
 mission vacancer[1]
 	name "Vacancers to <planet>"
@@ -2329,7 +2329,7 @@ mission vacancer[1]
 		random < 45
 	on complete
 		payment
-		payment 21000
+		payment 21000 2
 		dialog "You land on <planet> and depose the vacancer(s). You got payed <payment>."
 mission vacancer[2]
 	name "Vacancers to <planet>"
@@ -2348,7 +2348,7 @@ mission vacancer[2]
 		random < 40
 	on complete
 		payment
-		payment 23500
+		payment 23500 2
 		dialog "You land on <planet> and depose the vacancer(s). You got payed <payment>."
 mission vacancer[3]
 	name "Vacancers to <planet>"
@@ -2367,7 +2367,7 @@ mission vacancer[3]
 		random < 55
 	on complete
 		payment
-		payment 31000
+		payment 31000 2
 		dialog "You land on <planet> and depose the vacancer(s). You got payed <payment>."
 
 # Miners transport
@@ -2387,7 +2387,7 @@ mission miner[0]
 		random < 40
 	on complete
 		payment
-		payment 7800
+		payment 7800 2
 		dialog "You land on <planet> and get payed <payment> by the miner(s)."
 mission miner[1]
 	name "Miners to <planet>"
@@ -2405,7 +2405,7 @@ mission miner[1]
 		random < 55
 	on complete
 		payment
-		payment 9400
+		payment 9400 2
 		dialog "You land on <planet> and get payed <payment> by the miner(s)."
 mission miner[2]
 	name "Miners to <planet>"
@@ -2423,7 +2423,7 @@ mission miner[2]
 		random < 35
 	on complete
 		payment
-		payment 18000
+		payment 18000 2
 		dialog "You land on <planet> and get payed <payment> by the miner(s)."
 mission miner[3]
 	name "Miners to <planet>"
@@ -2441,7 +2441,7 @@ mission miner[3]
 		random < 45
 	on complete
 		payment
-		payment 19000
+		payment 19000 2
 		dialog "You land on <planet> and get payed <payment> by the miner(s)."
 
 # Worker
