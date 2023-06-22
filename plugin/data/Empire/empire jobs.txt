@@ -1890,7 +1890,7 @@ mission secure-delivry[1]
 
 # Bring Tourists
 mission bring-tourist[0]
-	name "Bring Tourist to <planet>"
+	name "Tourist to <planet>"
 	description "A family of 3 humans want to go tourist to <destination>. Bring them there safely to get payed <payment>."
 	passengers 3
 	job
@@ -1898,7 +1898,7 @@ mission bring-tourist[0]
 	source
 		government "Cromha Empire" "Mineria colonnies"
 	destination
-		attributes toursim
+		attributes tourism
 		distance 3 8
 	to offer
 		random < 35
@@ -1907,7 +1907,7 @@ mission bring-tourist[0]
 		payment 15000
 		dialog "You land on <planet> and depose the whole family. They payed you <payment>."
 mission bring-tourist[1]
-	name "Bring Tourist to <planet>"
+	name "Tourist to <planet>"
 	description "A family of 12 humans want to go tourist to <destination>. Bring them there safely to get payed <payment>."
 	passengers 12
 	job
@@ -1915,7 +1915,7 @@ mission bring-tourist[1]
 	source
 		government "Cromha Empire" "Mineria colonnies"
 	destination
-		attributes toursim
+		attributes tourism
 		distance 2 5
 	to offer
 		random < 35
@@ -1924,7 +1924,7 @@ mission bring-tourist[1]
 		payment 11000
 		dialog "You land on <planet> and depose the whole family. They payed you <payment>."
 mission bring-tourist[2]
-	name "Bring Tourist to <planet>"
+	name "Tourist to <planet>"
 	description "A family of 2 humans want to go tourist to <destination>. Bring them there safely to get payed <payment>."
 	passengers 2
 	job
@@ -1932,7 +1932,7 @@ mission bring-tourist[2]
 	source
 		government "Cromha Empire" "Mineria colonnies"
 	destination
-		attributes toursim
+		attributes tourism
 		distance 1 3
 	to offer
 		random < 35
@@ -1941,7 +1941,7 @@ mission bring-tourist[2]
 		payment 9000
 		dialog "You land on <planet> and depose the whole family. They payed you <payment>."
 mission bring-tourist[3]
-	name "Bring Tourist to <planet>"
+	name "Tourist to <planet>"
 	description "A family of 6 humans want to go tourist to <destination>. Bring them there safely to get payed <payment>."
 	passengers 6
 	job
@@ -1949,7 +1949,7 @@ mission bring-tourist[3]
 	source
 		government "Cromha Empire" "Mineria colonnies"
 	destination
-		attributes toursim
+		attributes tourism
 		distance 5 9
 	to offer
 		random < 35
