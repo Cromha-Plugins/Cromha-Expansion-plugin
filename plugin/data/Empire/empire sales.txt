@@ -251,6 +251,7 @@ shipyard Basic-lifdot-industries-shipyard
 	"Empire Palavret"
 	"Empire Nano-Flyer"
 	"Cargo Transporter Class D"
+	"Empire Blazer"
 shipyard Advanced-lifdot-industries-shipyard
 	"Empire Nanobot YLL'E"
 	"Empire Nanobot YLL'A"
