@@ -1001,3 +1001,205 @@ ship "Empire Skylark" "Empire Skylark (Twin Modified Blaster)"
 	explode "empire huge explosion" 20
 	"final explode" "empire huge explosion"
 	description "As the Empire Wardragon, this great ship is a remix of the Quarg ship Skylark. Like the Empire Wardragon, this ship is designed for interception, defend and attack missions principally. The only difference with th Empire Wardragon is that the Empire Skylark has been designed for longer missions. With its capability to regenerate fuel easily, it is a great ship for long interceptions missions but also cargo missions since it has a good cargo space."
+
+# Empire Palavret
+
+ship "Empire Palavret" "Empire Palavret (Proton)"
+	sprite "ship/empire palavret"
+	thumbnail "thumbnail/empire palavret"
+	"swizzle" 0
+	attributes
+		licenses
+			"Empire Navy"
+		category "Empire Warship"
+		"cost" 370000
+		"shields" 137000
+		"hull" 127000
+		"required crew" 55
+		"bunks" 77
+		"mass" 250
+		"drag" 13.5
+		"heat dissipation" .10
+		"fuel capacity" 600
+		"cargo space" 75
+		"landing speed" .07
+		"outfit space" 1075
+		"weapon capacity" 540
+		"engine capacity" 390
+		"hull repair rate" 5
+		"hull energy" 3
+		"ramscoop" .7
+		weapon
+			"blast radius" 75
+			"shield damage" 1700
+			"hull damage" 17000
+			"hit force" 7
+	outfits
+		"Empire Torpedo Bank" 2
+		"Empire Torpedo Missile" 240
+		"Empire Torpedo Rack" 20
+		"Ion Proton Gun" 5
+		"Nuclavoltaic Turret" 2
+		"Grab-Strike Blaze"
+
+		"Multiphasic Anti-Missile" 2
+		"Multiphasic ammo" 1200
+		
+		"Small Empire Shielding Core" 4
+		"Empire Hai Gorge Batteries"
+		"Thermal Nucleavoltaic"
+		"Multiphasic Scanner"
+		"Quantum Generator"
+		"Empire Barricade" 4
+		"Countermesure Module Compact" 2
+		"Empire Shielding Core"
+		"Multiphasic Cooler" 2
+		"One-Phasic Cooler" 2
+		"Mineria Key Stone"
+		"Brig" 3
+		"RC-X3 Multiphasic Reactor" 2
+		
+		"RC-200 Atomic Thruster" 2
+		"RC-205 Atomic Steering" 2
+		`RX-200 Reverse Thruster` 4
+		"Phasic Rifle" 15
+		"Empire Defense Station" 3
+		"Phasic Grenades" 20
+		
+		"Countermesure Module"
+		"Teleportation Dock"
+		"Cloaking Module"
+		"Compact Plasma Drive"
+	
+	engine 19.5 128
+		zoom 1.6
+	engine -19.5 128
+		zoom 1.6
+	engine -78.5 153
+		zoom 1.8
+	engine 78.5 153
+		zoom 1.8
+	"reverse engine" -9 -154
+	"reverse engine" 9 -154
+	turret 0 40 "Grab-Strike Blaze"
+	turret -11 -141.5 "Nuclavoltaic Turret"
+	turret 11 -141.5 "Nuclavoltaic Turret"
+	turret 0 -106 "Multiphasic Anti-Missile"
+	turret 0 72 "Multiphasic Anti-Missile"
+	gun -68.5 -145.5
+	gun -58.5 -147
+	gun -49.5 -148.5
+	gun 68.5 -145.5
+	gun 58.5 -147
+	gun 49.5 -148.5
+	gun 26.5 4.5 "Empire Torpedo Bank"
+	gun -26.5 4.5 "Empire Torpedo Bank"
+	explode "empire tiny explosion" 12
+	explode "empire small explosion" 16
+	explode "empire medium explosion" 30
+	explode "empire medium explosion" 40
+	explode "empire huge explosion" 20
+	"final explode" "empire huge explosion"
+	description "The Empire Palavret is a cheaper and stealthier version of the Empire Tubfalet. This was designed by the Lifdot Industries to have a cheaper price but still be good for outlaws and small Empire Rebels drugs interceptions missions. This ship had a large succes after it was created."
+	description "The goal of the Lifdot Industries was to build a new warship capable of destroying a whole Korath Exiles fleet himself. So the best way was to reuse an Korath Exiles ship model."
+	description "The second goal was to build a ship with the size of an Empire Galactik but with more compact outfits so it can be more maveuvrable and can carry more cargo if needed. Even if it is supposed to be a Warship, the Empire Navy more use it as an Interceptor to capture wanted outalaws or Empire Rebels."
+
+ship "Empire Palavret" "Empire Palavret (Plasma)"
+	sprite "ship/empire palavret"
+	thumbnail "thumbnail/empire palavret"
+	"swizzle" 0
+	attributes
+		licenses
+			"Empire Navy"
+		category "Empire Warship"
+		"cost" 370000
+		"shields" 137000
+		"hull" 127000
+		"required crew" 55
+		"bunks" 77
+		"mass" 250
+		"drag" 13.5
+		"heat dissipation" .10
+		"fuel capacity" 600
+		"cargo space" 75
+		"landing speed" .07
+		"outfit space" 1075
+		"weapon capacity" 540
+		"engine capacity" 390
+		"hull repair rate" 5
+		"hull energy" 3
+		"ramscoop" .7
+		weapon
+			"blast radius" 75
+			"shield damage" 1700
+			"hull damage" 17000
+			"hit force" 7
+	outfits
+		"Empire Torpedo Bank" 2
+		"Empire Torpedo Missile" 240
+		"Empire Torpedo Rack" 20
+		"Nuclavoltaic Repeater" 6
+		"Nuclavoltaic Turret" 2
+		"Grab-Strike Blaze"
+
+		"Multiphasic Anti-Missile" 2
+		"Multiphasic ammo" 1200
+		
+		"Small Empire Shielding Core" 4
+		"Empire Hai Gorge Batteries"
+		"Thermal Nucleavoltaic"
+		"Multiphasic Scanner"
+		"Quantum Generator"
+		"Empire Barricade" 4
+		"Countermesure Module Compact" 2
+		"Empire Shielding Core"
+		"Multiphasic Cooler" 2
+		"One-Phasic Cooler" 2
+		"Mineria Key Stone"
+		"Brig" 3
+		"RC-X3 Multiphasic Reactor" 2
+		
+		"RC-200 Atomic Thruster" 2
+		"RC-205 Atomic Steering" 2
+		`RX-200 Reverse Thruster` 4
+		"Phasic Rifle" 15
+		"Empire Defense Station" 3
+		"Phasic Grenades" 20
+		
+		"Countermesure Module"
+		"Teleportation Dock"
+		"Cloaking Module"
+		"Compact Plasma Drive"
+	
+	engine 19.5 128
+		zoom 1.6
+	engine -19.5 128
+		zoom 1.6
+	engine -78.5 153
+		zoom 1.8
+	engine 78.5 153
+		zoom 1.8
+	"reverse engine" -9 -154
+	"reverse engine" 9 -154
+	turret 0 40 "Grab-Strike Blaze"
+	turret -11 -141.5 "Nuclavoltaic Turret"
+	turret 11 -141.5 "Nuclavoltaic Turret"
+	turret 0 -106 "Multiphasic Anti-Missile"
+	turret 0 72 "Multiphasic Anti-Missile"
+	gun -68.5 -145.5 "Nuclavoltaic Repeater"
+	gun -58.5 -147 "Nuclavoltaic Repeater"
+	gun -49.5 -148.5 "Nuclavoltaic Repeater"
+	gun 68.5 -145.5 "Nuclavoltaic Repeater"
+	gun 58.5 -147 "Nuclavoltaic Repeater"
+	gun 49.5 -148.5 "Nuclavoltaic Repeater"
+	gun 26.5 4.5 "Empire Torpedo Bank"
+	gun -26.5 4.5 "Empire Torpedo Bank"
+	explode "empire tiny explosion" 12
+	explode "empire small explosion" 16
+	explode "empire medium explosion" 30
+	explode "empire medium explosion" 40
+	explode "empire huge explosion" 20
+	"final explode" "empire huge explosion"
+	description "The Empire Palavret is a cheaper and stealthier version of the Empire Tubfalet. This was designed by the Lifdot Industries to have a cheaper price but still be good for outlaws and small Empire Rebels drugs interceptions missions. This ship had a large succes after it was created."
+	description "The goal of the Lifdot Industries was to build a new warship capable of destroying a whole Korath Exiles fleet himself. So the best way was to reuse an Korath Exiles ship model."
+	description "The second goal was to build a ship with the size of an Empire Galactik but with more compact outfits so it can be more maveuvrable and can carry more cargo if needed. Even if it is supposed to be a Warship, the Empire Navy more use it as an Interceptor to capture wanted outalaws or Empire Rebels."
