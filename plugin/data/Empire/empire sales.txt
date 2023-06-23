@@ -277,3 +277,4 @@ shipyard Advanced-lifdot-industries-shipyard
 	"Empire Palavret"
 	"Empire Nano-Flyer"
 	"Cargo Transporter Class D"
+	"Empire Blazer"
