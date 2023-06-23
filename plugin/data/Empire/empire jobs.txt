@@ -2505,7 +2505,7 @@ mission worker-factory[2]
 
 mission empire-station-garbage[0]
 	name "Station Garbage to <planet>"
-	description "Transport <origin> garbage to <destination>. Payment is <payment>."
+	description "Transport <origin> <commodity> to <destination>. Payment is <payment>."
 	job
 	repeat
 	cargo "Garbage" 15 3
@@ -2515,6 +2515,7 @@ mission empire-station-garbage[0]
 	destination
 		government "Cromha Empire" "Mineria colonnies" "Quarg" "Wanderer" "Hai" "Pug" "Remnant"
 		attributes factory
+		not attributes station
 		distance 1 25
 	to offer
 		random < 45
@@ -2525,7 +2526,7 @@ mission empire-station-garbage[0]
 
 mission empire-station-garbage[1]
 	name "Station Garbage to <planet>"
-	description "Transport <origin> garbage to <destination>. Payment is <payment>."
+	description "Transport <origin> <commodity> to <destination>. Payment is <payment>."
 	job
 	repeat
 	cargo "Garbage" 30 2
@@ -2535,6 +2536,7 @@ mission empire-station-garbage[1]
 	destination
 		government "Cromha Empire" "Mineria colonnies" "Quarg" "Wanderer" "Hai" "Pug" "Remnant"
 		attributes factory
+		not attributes station
 		distance 1 25
 	to offer
 		random < 45
@@ -2545,7 +2547,7 @@ mission empire-station-garbage[1]
 
 mission empire-station-garbage[2]
 	name "Station Garbage to <planet>"
-	description "Transport <origin> garbage to <destination>. Payment is <payment>."
+	description "Transport <origin> <commodity> to <destination>. Payment is <payment>."
 	job
 	repeat
 	cargo "Garbage" 55 1.5
@@ -2555,6 +2557,7 @@ mission empire-station-garbage[2]
 	destination
 		government "Cromha Empire" "Mineria colonnies" "Quarg" "Wanderer" "Hai" "Pug" "Remnant"
 		attributes factory
+		not attributes station
 		distance 1 25
 	to offer
 		random < 45
