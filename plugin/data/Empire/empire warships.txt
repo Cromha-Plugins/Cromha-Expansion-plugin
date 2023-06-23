@@ -533,6 +533,12 @@ ship "Empire Blazer"
 		under
 	gun 15 22.5 "Empire Typhoon Bank"
 		under
+	bay "Nanobot" -43.5 2
+		over
+	bay "Nanobot"  43.5 2
+		over
+	bay "Nanobot"  0 -59
+		under
 	leak "empire flame" 75
 	leak "empire leak" 20
 	leak "empire big leak" 96
