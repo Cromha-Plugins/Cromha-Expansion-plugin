@@ -6,8 +6,24 @@ outfit "Mineria Key Stone"
 	mass 0.5
 	"outfit space" -1
 	"quantum keystone" 1
-	description "These Key Stones work like Hais or Remnant Key Stones. The Mineria Key Stones are produced by the Mineria mines and factories, wich is an huge source of keystones"
+	description "These Key Stones work like Hais or Remnant Key Stones. The Mineria Key Stones are produced by the Mineria mines and factories, which is an huge source of keystones"
 	
+outfit "Nanobot Pod"
+	category "Systems"
+	cost 1780
+	thumbnail "outfit/nanobot pod"
+	mass 0.5
+	"outfit space" -2
+	# outfit
+	"outfit scan power" 120
+	"outfit scan speed" 9
+	# cargo
+	"cargo scan power" 120
+	"cargo scan speed" 9
+	# tactical
+	"tactical scan power" 170
+	description "This is a little scanning pod module that is used on every Lifdot Industries fighter nanobot. It is very compact and can scan at a fine speed."
+
 outfit "Cloaking Module"
 	category "Systems"
 	licenses
@@ -218,17 +234,18 @@ outfit "Multiphasic Scanner"
 	"mass" 40
 	"outfit space" -30
 	# outfit
-	"outfit scan power" 100
-	"outfit scan speed" 10
+	"outfit scan power" 195
+	"outfit scan speed" 35
 	# cargo
-	"cargo scan power" 100
-	"cargo scan speed" 10
+	"cargo scan power" 170
+	"cargo scan speed" 27
 	# tactical
-	"tactical scan power" 300
+	"tactical scan power" 780
 	# asteroid
-	"asteroid scan power" 100
+	"asteroid scan power" 145
 	# jammer
-	"radar jamming" 35
+	"radar jamming" 75
+	"optical jamming" 85
 	description "This extremly advanced scanner designed by The Empire and Hai scientics together. It is all in once scanner, it can scan outfits, cargo, heat, energy and it even has an radar jammer istalled on. And all that for a small massand outfit space."
 
 # Misc

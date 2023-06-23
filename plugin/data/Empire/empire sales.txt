@@ -48,6 +48,7 @@ outfitter Basic-systems-outfitter
 	"Compact Plasma Drive"
 	"Fuel Cell"
 	"Plasma Fuel Pod"
+	"Nanobot Pod"
 outfitter Basic-power-outfitter
 	"Empire Hai Chasm Batteries"
 	"Empire Hai Fissure Batteries"
@@ -126,6 +127,7 @@ outfitter Advanced-systems-outfitter
 	"Plasma Fuel Pod"
 	"Empire Navy Emitter"
 	"Tri-Phasic Hyperdrive"
+	"Nanobot Pod"
 outfitter Advanced-power-outfitter
 	"Empire Hai Chasm Batteries"
 	"Empire Hai Fissure Batteries"
