@@ -465,25 +465,74 @@ ship "Empire Blazer"
 			"hull damage" 2005
 			"hit force" 450
 	outfits
+		"Alldust Beam Turret" 2
+		"Cloaking Module"
+		"Countermesure Module" 4
+		"Countermesure Module Compact" 8
+		"Empire Barricade" 3
+		"Empire Defense Station" 5
+		"Empire Hai Gorge Batteries"
+		"Empire Shielding Core" 6
+		"Empire Torpedo Missile" 140
+		"Empire Torpedo Rack" 10
+		"Empire Typhoon Bank" 2
+		"Fuel Cell"
+		"Grab-Strike Blaze" 2
+		"Ion Proton Gun" 2
+		"Langrage Empire-Heaver" 2
+		"Mineria Key Stone"
+		"Multiphasic Ammo Rack" 4
+		"Multiphasic Anti-Missile"
+		"Multiphasic Cooler" 6
+		"Multiphasic Scanner"
+		"Multiphasic ammo" 1800
+		"Nuclavoltaic Turret" 2
+		"One-Phasic Cooler" 10
+		"Phasic Grenades" 12
+		"Phasic Rifle" 12
+		"Plasma Drive"
+		"Plasma Fuel Pod"
+		"Quantum Generator" 4
+		"RC-220 Atomic Thruster" 2
+		"RC-225 Atomic Steering"
+		"RC-X3 Multiphasic Reactor" 2
+		"RX-200 Reverse Thruster" 4
+		"Small Empire Shielding Core" 10
+		"Teleportation Dock"
+		"Thermal Nucleavoltaic" 6
+		"Tre-Phasic Rifle"
 	engine -29 96
 		zoom 1.4
 	engine 29 96
 		zoom 1.4
 	engine 0 89.5
 		zoom 0.8
-	gun -27.5 -130.5
-	gun 27.5 -130.5
-	gun -22.5 -110.5
-	gun 22.5 -110.5
-	turret 0 -23
-	turret 32.5 -54
-	turret -32.5 -54
-	turret -146 14.5
-	turret 146 14.5
-	turret -49.5 -83.5
-	turret 49.5 -83.5
-	gun -15 22.5
-	gun 15 22.5
+	gun -27.5 -130.5 "Ion Proton Gun"
+		under
+	gun 27.5 -130.5 "Ion Proton Gun"
+		under
+	gun -22.5 -110.5 "Langrage Empire-Heaver"
+		under
+	gun 22.5 -110.5 "Langrage Empire-Heaver"
+		under
+	turret 0 -23 "Multiphasic Anti-Missile"
+		over
+	turret 32.5 -54 "Alldust Beam Turret"
+		over
+	turret -32.5 -54 "Alldust Beam Turret"
+		over
+	turret -146 14.5 "Grab-Strike Blaze"
+		over
+	turret 146 14.5 "Grab-Strike Blaze"
+		over
+	turret -49.5 -83.5 "Nuclavoltaic Turret"
+		over
+	turret 49.5 -83.5 "Nuclavoltaic Turret"
+		over
+	gun -15 22.5 "Empire Typhoon Bank"
+		under
+	gun 15 22.5 "Empire Typhoon Bank"
+		under
 	leak "empire flame" 75
 	leak "empire leak" 20
 	leak "empire big leak" 96
