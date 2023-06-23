@@ -465,6 +465,25 @@ ship "Empire Blazer"
 			"hull damage" 2005
 			"hit force" 450
 	outfits
+	engine -29 96
+		zoom 1.4
+	engine 29 96
+		zoom 1.4
+	engine 0 89.5
+		zoom 0.8
+	gun -27.5 -130.5
+	gun 27.5 -130.5
+	gun -22.5 -110.5
+	gun 22.5 -110.5
+	turret 0 -23
+	turret 32.5 -54
+	turret -32.5 -54
+	turret -146 14.5
+	turret 146 14.5
+	turret -49.5 -83.5
+	turret 49.5 -83.5
+	gun -15 22.5
+	gun 15 22.5
 	leak "empire flame" 75
 	leak "empire leak" 20
 	leak "empire big leak" 96
