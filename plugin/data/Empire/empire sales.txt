@@ -54,6 +54,7 @@ outfitter Basic-power-outfitter
 	"Empire Hai Gorge Batteries"
 	"RC-X1 Multiphasic Reactor"
 	"RC-X2 Multiphasic Reactor"
+	"Phasic Dwarf Core"
 outfitter Basic-engines-outfitter
 	`RC-140 Atomic Thruster`
 	`RC-145 Atomic Steering`
@@ -137,6 +138,7 @@ outfitter Advanced-power-outfitter
 	"RC-X4 Multiphasic Reactor"
 	"Thermal Nucleavoltaic"
 	"Quantum Generator"
+	"Phasic Dwarf Core"
 outfitter Advanced-engines-outfitter
 	`RC-140 Atomic Thruster`
 	`RC-145 Atomic Steering`

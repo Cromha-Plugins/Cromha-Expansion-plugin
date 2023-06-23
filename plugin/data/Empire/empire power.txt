@@ -73,6 +73,19 @@ outfit "Multiphasic Capacitor"
 	"energy capacity" 875
 	description "In technic, Empire nanobots don't need any batteries because of their small amount of energy need. The Multiphasic Capacitor lets Empire nanobots stores energy."
 
+outfit "Phasic Dwarf Core"
+	category "Power"
+	cost 950000
+	thumbnail "outfit/dwarf core empire"
+	"mass" 15
+	"outfit space" -12
+	"energy generation" 7.35
+	"heat generation" 2.6
+	"energy capacity" 450
+	"cooling" 2.2
+	description "Originally, a Dwarf Core is a miniaturized nuclear reactor, small enough to be installed in any ship larger than a fighter. It was designed by Deep Sky to be paired with their power-hungry atomic engines."
+	description "The Empire Lifdot Industries Scientists made it so it uses antimatter to produce lot of energy and negligible heat. They also added an integrated cooling system and an energy capacitor in it. You won't see in any Lifdot ships but almost every Empire Merchant ship bigger than an fighter has this outfit installed."
+
 outfit "Thermal Nucleavoltaic"
 	category "Power"
 	licenses
