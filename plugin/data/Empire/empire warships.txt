@@ -446,7 +446,6 @@ ship "Empire Blazer"
 		hull 750000
 		licenses
 			"Empire Navy"
-		"hull protection" 2500
 		"required crew" 13
 		"bunks" 21
 		"mass" 350
@@ -546,3 +545,42 @@ ship "Empire Blazer"
 	explode "empire small explosion" 45
 	"final explode" "empire huge explosion"
 	description "Rai-alore J"
+
+ship "Empire Dredger"
+      sprite "ship/empire dredger"
+	thumbnail "thumbnail/empire dredger"
+	"swizzle" 0
+	attributes
+		category "Empire Warship"
+		cost 780000
+		shields 650450
+		hull 740065
+		licenses
+			"Empire Navy"
+		"hull protection" 100
+		"required crew" 25
+		"bunks" 34
+		"mass" 285
+		"drag" 47
+		"heat dissipation" .17
+		"solar collection" 7.2
+		"fuel capacity" 500
+		"cargo space" 75
+		"outfit space" 1560
+		"weapon capacity" 1750
+		"engine capacity" 1450
+		"atmosphere scan" 100
+		weapon
+			"blast radius" 520
+			"shield damage" 2975
+			"hull damage" 2175
+			"hit force" 480
+	outfits
+		
+	leak "empire flame" 75
+	leak "empire leak" 20
+	leak "empire big leak" 96
+	explode "empire tiny explosion" 30
+	explode "empire small explosion" 45
+	"final explode" "empire huge explosion"
+	description "The Empire Dredger is one of the first ship that the Lifdot Industries ever made. It was at first designed to be an utility ship and it is still an utility ship even if it is categorize in the 'Warship' category. The Empire uses it for prisoners transport, military cargo transport and also for scanning ships and collect data about almost everything."
