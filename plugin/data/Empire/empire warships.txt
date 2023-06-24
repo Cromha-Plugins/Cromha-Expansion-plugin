@@ -576,31 +576,40 @@ ship "Empire Dredger"
 			"hull damage" 2175
 			"hit force" 480
 	outfits
-		Brig 14
-		"Bunk Room" 6
+		"Alldust Beam Turret" 2
+		Brig 8
+		"Bunk Room" 3
 		"Catalytic Ramscoop"
 		"Cloaking Module"
+		"Cluster Mine" 104
+		"Cluster Mine Layer" 4
+		"Cluster Mine Rack" 4
 		"Countermesure Module"
 		"Countermesure Module Compact" 5
 		"Empire Barricade" 15
 		"Empire Defense Station" 30
+		"Empire Hai Fissure Batteries"
 		"Empire Navy Emitter"
 		"Empire Shielding Core" 4
 		"Fuel Cell"
+		"Langrage Empire-Heaver" 2
 		"Mineria Key Stone"
+		"Multiphasic Ammo Rack" 4
+		"Multiphasic Anti-Missile"
 		"Multiphasic Cooler" 5
 		"Multiphasic Scanner"
+		"Multiphasic ammo" 1800
+		"Nuclavoltaic Turret" 4
 		"One-Phasic Cooler" 5
 		"Phasic Grenades" 55
 		"Phasic Rifle" 55
 		"Plasma Drive"
 		"Plasma Fuel Pod"
 		"Quantum Generator" 3
-		"RC-200 Atomic Thruster"
-		"RC-205 Atomic Steering"
+		"RC-200 Atomic Thruster" 2
+		"RC-225 Atomic Steering"
 		"RC-X3 Multiphasic Reactor"
-		"RX-200 Reverse Thruster"
-		"Small Bunk Room" 4
+		"RX-200 Reverse Thruster" 2
 		"Small Empire Shielding Core" 6
 		"Thermal Nucleavoltaic" 4
 		"Tre-Phasic Rifle" 4
@@ -614,19 +623,36 @@ ship "Empire Dredger"
 		zoom .9
 	"reverse engine" 78 76
 		zoom .9
-	gun 124 -50.5
-	gun -124 -50.5
-	gun 96.5 -58.5
-	gun -96.5 -58.5
-	gun 88 168.5
-	gun -88 168.5
-	turret 85.5 130
-	turret 44.5 -26
-	turret 40.5 -151.5
-	turret -85.5 130
-	turret -44.5 -26
-	turret -40.5 -151.5
-	turret 0 -153
+	gun 124 -50.5 "Langrage Empire-Heaver"
+		under
+	gun -124 -50.5 "Langrage Empire-Heaver"
+		under
+	gun 96.5 -58.5 "Cluster Mine Layer"
+		under
+	gun -96.5 -58.5 "Cluster Mine Layer"
+		under
+	gun 88 168.5 "Cluster Mine Layer"
+		under
+		180
+	gun -88 168.5 "Cluster Mine Layer"
+		under
+		180
+	turret 85.5 130 "Alldust Beam Turret"
+		over
+	turret 44.5 -26 "Nuclavoltaic Turret"
+		over
+	turret 40.5 -151.5 "Nuclavoltaic Turret"
+		over
+	turret -85.5 130 "Alldust Beam Turret"
+		over
+	turret -44.5 -26 "Nuclavoltaic Turret"
+		over
+	turret -40.5 -151.5 "Nuclavoltaic Turret"
+		over
+	turret 0 -153 "Multiphasic Anti-Missile"
+		over
+	bay "Fuel Pod" 0 0
+		under
 	leak "empire flame" 75
 	leak "empire leak" 20
 	leak "empire big leak" 96
