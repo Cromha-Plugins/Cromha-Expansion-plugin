@@ -246,6 +246,7 @@ shipyard Basic-lifdot-industries-shipyard
 	"Empire Nano-Flyer"
 	"Cargo Transporter Class D"
 	"Empire Blazer"
+	"Empire Dredger"
 shipyard Advanced-lifdot-industries-shipyard
 	"Empire Nanobot YLL'E"
 	"Empire Nanobot YLL'A"
@@ -270,3 +271,4 @@ shipyard Advanced-lifdot-industries-shipyard
 	"Empire Nano-Flyer"
 	"Cargo Transporter Class D"
 	"Empire Blazer"
+	"Empire Dredger"
