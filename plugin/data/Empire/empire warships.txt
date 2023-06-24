@@ -576,7 +576,57 @@ ship "Empire Dredger"
 			"hull damage" 2175
 			"hit force" 480
 	outfits
-		
+		Brig 14
+		"Bunk Room" 6
+		"Catalytic Ramscoop"
+		"Cloaking Module"
+		"Countermesure Module"
+		"Countermesure Module Compact" 5
+		"Empire Barricade" 15
+		"Empire Defense Station" 30
+		"Empire Navy Emitter"
+		"Empire Shielding Core" 4
+		"Fuel Cell"
+		"Mineria Key Stone"
+		"Multiphasic Cooler" 5
+		"Multiphasic Scanner"
+		"One-Phasic Cooler" 5
+		"Phasic Grenades" 55
+		"Phasic Rifle" 55
+		"Plasma Drive"
+		"Plasma Fuel Pod"
+		"Quantum Generator" 3
+		"RC-200 Atomic Thruster"
+		"RC-205 Atomic Steering"
+		"RC-X3 Multiphasic Reactor"
+		"RX-200 Reverse Thruster"
+		"Small Bunk Room" 4
+		"Small Empire Shielding Core" 6
+		"Thermal Nucleavoltaic" 4
+		"Tre-Phasic Rifle" 4
+	engine -30 164
+		zoom .8
+	engine 30 164
+		zoom .8
+	engine 0 175
+		zoom 1.5
+	"reverse engine" -78 76
+		zoom .9
+	"reverse engine" 78 76
+		zoom .9
+	gun 124 -50.5
+	gun -124 -50.5
+	gun 96.5 -58.5
+	gun -96.5 -58.5
+	gun 88 168.5
+	gun -88 168.5
+	turret 85.5 130
+	turret 44.5 -26
+	turret 40.5 -151.5
+	turret -85.5 130
+	turret -44.5 -26
+	turret -40.5 -151.5
+	turret 0 -153
 	leak "empire flame" 75
 	leak "empire leak" 20
 	leak "empire big leak" 96

@@ -25,6 +25,7 @@ outfitter Basic-ammo-outfitter
 	"Multiphasic ammo"
 	"Typhoon Torpedo"
 	"rslug"
+	"Cluster Mine"
 outfitter Basic-weapons-outfitter
 	"Typhoon Launcher"
 	"Multiphasic Anti-Missile"
@@ -38,6 +39,7 @@ outfitter Basic-weapons-outfitter
 	"Alldust Beam Canon"
 	"Nuclavoltaic Repeater"
 	"Nuclavoltaic Turret"
+	"Cluster Mine Layer"
 outfitter Basic-systems-outfitter
 	"Cargo Expansion"
 	"Ramscoop"
@@ -78,6 +80,8 @@ outfitter Advanced-ammo-outfitter
 	"Thunderhead Storage Array"
 	"Railgun Slug Rack"
 	"Multiphasic Ammo Rack"
+	"Cluster Mine"
+	"Cluster Mine Rack"
 outfitter Advanced-weapon-outfitter
 	"Empire Torpedo Bank"
 	"Empire Typhoon Bank"
@@ -106,6 +110,7 @@ outfitter Advanced-weapon-outfitter
 	"Alldust Beam Turret"
 	"Twin Modified Blaster"
 	"Nuclavoltaic Turret"
+	"Cluster Mine Layer"
 outfitter Advanced-systems-outfitter
 	"Cargo Expansion"
 	"Ramscoop"
