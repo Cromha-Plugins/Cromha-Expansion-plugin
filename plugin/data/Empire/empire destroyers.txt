@@ -29,7 +29,7 @@ ship "Empire Kraken"
 		"Catalytic Ramscoop"
 		"Cloaking Module"
 		"Countermesure Module" 4
-		"Countermesure Moduel Compact" 8
+		"Countermesure Module Compact" 8
 		"Empire Barricade" 10
 		"Empire Defense Station" 30
 		"Empire Hai Ravine Batteries" 2
