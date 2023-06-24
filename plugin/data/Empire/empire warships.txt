@@ -633,10 +633,10 @@ ship "Empire Dredger"
 		under
 	gun 88 168.5 "Cluster Mine Layer"
 		under
-		180
+		angle 180
 	gun -88 168.5 "Cluster Mine Layer"
 		under
-		180
+		angle 180
 	turret 85.5 130 "Alldust Beam Turret"
 		over
 	turret 44.5 -26 "Nuclavoltaic Turret"
