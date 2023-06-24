@@ -5,27 +5,29 @@ fleet cromha-fleet
 	cargo 3
 	commodities Medical Electronics Equipment Military
 	personality heroic
-		forbearing
-		disables
 		hunting
-		frugal
 		daring
+		frugal
 		plunders
+		opportunistic
 		surveillance
-		ramming
-	outfitters Base-outfitter
+	outfitters Base-outfitter Basic-ammo-outfitter
+	variant 1
+		"Empire Skylark"
+		"Empire Wardragon" 2
 fleet mineria-transports
 	government "Mineria colonnies"
 	names "empire fleet names"
 	personality heroic
-		forbearing
-		disables
 		hunting
-		frugal
 		daring
+		frugal
 		plunders
-		ramming
-	outfitters Base-outfitter
+		opportunistic
+		surveillance
+		timid
+		appeasing
+	outfitters Base-outfitter Advanced-ammo-outfitter
 	cargo 9
 fleet cromha-merchants
 	government "Empire Merchant"
@@ -34,183 +36,6 @@ fleet cromha-merchants
 	cargo 7
 	personality timid frugal appeasing
 		confusion 40
-	variant 1
-		"Scout"
-		"Heavy Shuttle" 2
-	variant 1
-		"Scout" 2
-		"Heavy Shuttle" 2
-	variant 1
-		"Scout" 2
-		"Heavy Shuttle"
-	variant 1
-		"Argosy (Empire)"
-		"Star Barge 2"
-		"Clipper"
-		"Flivver (Empire)"
-	variant 1
-		"Argosy (Empire)"
-		"Star Barge 2"
-		"Clipper" 2
-		"Flivver (Empire)" 2
-	variant 1
-		"Argosy (Empire)"
-		"Star Barge 2"
-		"Clipper"
-		"Flivver (Empire)" 2
-	variant 1
-		"Argosy (Empire)"
-		"Star Barge 2"
-		"Clipper" 2
-		"Flivver (Empire)"
-	variant 1
-		"Star Barge"
-		"Bastion"
-	variant 1
-		"Heavy Shuttle"
-		"Headhunter"
-	variant 1
-		"Scout"
-		"Osprey"
-	variant 1
-		"Berserker"
-		"Fury" 2
-	variant 1
-		"Hawk"
-		"Fury" 2
-		"Protector"
-	variant 1
-		"Fury" 3
-		"Osprey"
-	variant 1
-		"Wasp"
-		"Behemoth (Empire)"
-	variant 1
-		"Waps 3"
-		"Raven"
-		"Protector"
-	variant 1
-		"Berserker"
-		"Fury" 2
-		"Wasp" 4
-		"Behemoth (Empire)"
-	variant 1
-		"Hawk"
-		"Fury" 2
-		"Wasp" 3
-		"Osprey"
-	variant 1
-		"Fury" 3
-		"Wasp" 2
-		"Bastion"
-	variant 1
-		"Manta"
-		"Wasp" 2
-		"Raven" 3
-	variant 1
-		"Corvette" 2
-		"Wasp" 2
-		"Manta" 2
-	variant 1
-		"Wasp"
-		"Quicksilver"
-		"Raven"
-		"Protector"
-	variant 1
-		"Waps 3"
-		"Bounder (Empire)"
-		"Quicksilver" 2
-		"Aerie"
-	variant 1
-		"Headhunter (Empire)"
-		"Fury (Empire)" 2
-		"Wasp" 2
-		"Raven"
-	variant 1
-		"Argosy (Empire)"
-		"Wasp" 3
-		"Dreadnought"
-	variant 1
-		"Argosy (Empire)"
-		"Fury (Empire)" 2
-		"Wasp" 2
-	variant 1
-		"Behemoth (Empire)"
-		"Headhunter (Empire)" 2
-		"Raven"
-		"Bounder (Empire)"
-	variant 1
-		"Blackbird (Empire)"
-		"Fury (Empire)"
-		"Quicksilver"
-		"Dreadnought"
-	variant 1
-		"Bounder (Empire)"
-		"Blackbird (Empire)" 2
-		"Wasp" 3
-		"Aerie"
-	variant 1
-		"Headhunter (Empire)" 2
-		"Corvette"
-		"Dreadnought"
-	variant 1
-		"Leviathan"
-		"Quicksilver"
-		"Headhunter (Empire)" 2
-		"Protector"
-	variant 1
-		"Argosy (Empire)" 2
-		"Leviathan"
-		"Wasp" 2
-		"Bounder (Empire)"
-	variant 1
-		"Blackbird (Empire)"
-		"Fury (Empire)" 2
-		"Aerie"
-	variant 1
-		"Freighter (Empire)"
-		"Star Barge" 2
-	variant 1
-		"Freighter (Empire)" 2
-		"Heavy Shuttle" 3
-		"Corvette"
-	variant 1
-		"Freighter (Empire)"
-		"Star Barge" 3
-		"Fury" 3
-	variant 1
-		"Freighter (Empire)" 3
-		"Star Barge" 2
-		"Quicksilver"
-	variant 1
-		"Bulk Freighter (Empire)"
-		"Heavy Shuttle" 2
-		"Wasp" 3
-	variant 1
-		"Bulk Freighter (Empire)" 2
-		"Heavy Shuttle" 3
-		"Firebird"
-	variant 1
-		"Bulk Freighter (Empire)"
-		"Star Barge" 3
-		"Bounder (Empire)"
-	variant 1
-		"Bulk Freighter (Empire)" 3
-		"Heavy Shuttle" 2
-		"Firebird"
-	variant 1
-		"Container Transport (Empire)"
-		"Argosy (Empire)" 2
-		"Corvette" 3
-	variant 1
-		"Container Transport (Empire)"
-		"Clipper" 2
-		"Hawk" 3
-	variant 1
-		"Container Transport (Empire)" 2
-		"Scout" 2
-		"Bounder (Empire)" 2
-		"Quicksilver" 3
 fleet calor-stil-tourism
 	government "Mineria colonnies"
 	names "civilian"
