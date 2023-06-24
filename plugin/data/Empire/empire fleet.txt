@@ -11,6 +11,7 @@ fleet cromha-fleet
 		plunders
 		opportunistic
 		surveillance
+		confusion 0
 	outfitters Base-outfitter Basic-ammo-outfitter
 	# Police fleets
 	variant 1
