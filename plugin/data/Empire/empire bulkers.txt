@@ -232,7 +232,19 @@ ship "Empire Shall'ok"
 			"hit force" 1929
 	outfits
 		
-	
+	"reverse engine" -31 -290
+	"reverse engine" 31 -290
+	engine -69 230
+	engine 69 230
+	turret 0 -166
+	turret -41 -69
+	turret 41 -69
+	turret -41.5 264
+	turret 41.5 264
+	gun -75 -250
+	gun 75 -250
+	gun -60 -214.5
+	gun 60 -214.5
 	leak "empire leak" 60 50
 	leak "empire big leak" 50 40
 	leak "empire flame" 40 80
