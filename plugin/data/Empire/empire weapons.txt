@@ -876,8 +876,8 @@ outfit "Phasic Mine Layer"
 		"homing" 4
 		"infrared tracking" .9
 		"missile strength" 35
-		"disruption damage" 120
-		"shield damage" 140
+		"disruption damage" 70
+		"shield damage" 250
 		"hit force" -150
 		"stream"
 	description "This launcher fires phasic munitions that split into a cloud of stationary mines that each do a considerable amount of damage if a ship crashes into them. However, if a ship hits the mine before it has a chance to deploy, the damage is considerably reduced."
@@ -896,8 +896,8 @@ outfit "Phasic Mine Submunition"
 		"random lifetime" 60
 		"acceleration" .00001
 		"drag" .05
-		"disruption damage" 120
-		"shield damage" 140
+		"disruption damage" 700
+		"shield damage" 250
 		"hit force" 200
 		"missile strength" 22
 
