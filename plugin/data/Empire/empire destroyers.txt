@@ -66,9 +66,9 @@ ship "Empire Kraken"
 		"Small Empire Shielding Core" 6
 		"Teleportation Dock" 4
 		"Thermal Nucleavoltaic" 4
-		"Thunderhead Launcher" 4
-		"Thunderhead Missile" 280
-		"Thunderhead Storage Array" 6
+		"Phasic-Cluster Mine" 293
+		"Phasic Mine Layer" 4
+		"Phasic Mine Rack" 25
 		"Tre-Phasic Rifle" 4
 	# Thrusters
 	engine -19.5 238
