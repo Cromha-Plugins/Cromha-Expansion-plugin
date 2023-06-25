@@ -252,7 +252,7 @@ shipyard Basic-lifdot-industries-shipyard
 	"Empire Palavret"
 	"Empire Nano-Flyer"
 	"Cargo Transporter Class D"
-	"Empire Blazer"
+	
 	"Empire Dredger"
 	"Empire Classik"
 	"Empire Daggrez"
@@ -279,7 +279,7 @@ shipyard Advanced-lifdot-industries-shipyard
 	"Empire Palavret"
 	"Empire Nano-Flyer"
 	"Cargo Transporter Class D"
-	"Empire Blazer"
+	
 	"Empire Dredger"
 	"Empire Classik"
 	"Empire Daggrez"
