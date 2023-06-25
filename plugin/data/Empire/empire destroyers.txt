@@ -16,7 +16,7 @@ ship "Empire Kraken"
 		"heat dissipation" .45
 		"fuel capacity" 500
 		"cargo space" 127
-		"outfit space" 2000
+		"outfit space" 3700
 		"weapon capacity" 900
 		"engine capacity" 640
 		weapon
