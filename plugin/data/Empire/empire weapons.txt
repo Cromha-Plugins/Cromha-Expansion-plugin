@@ -884,7 +884,7 @@ outfit "Phasic Mine Layer"
 
 outfit "Phasic Mine Submunition"
 	weapon
-		sprite "projectile/phasic mine"
+		sprite "projectile/phasic mine mine"
 			"frame rate" 1
 			"no repeat"
 		"hit effect" "empire medium explosion"
@@ -902,7 +902,7 @@ outfit "Phasic Mine Submunition"
 		"missile strength" 22
 
 effect "phasic minelayer fire"
-	sprite "effect/phasic minelayer split"
+	sprite "effect/phasic mine split"
 		"no repeat"
 		"frame rate" 3
 	"lifetime" 61
@@ -912,7 +912,7 @@ effect "phasic minelayer fire"
 	"velocity scale" 1.2
 
 effect "phasic minelayer split"
-	sprite "effect/phasic minelayer split"
+	sprite "effect/phasic mine split"
 		"no repeat"
 		"frame rate" 6
 	sound "mine deploy"
