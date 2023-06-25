@@ -178,6 +178,7 @@ ship "Argosy" "Argosy (Empire)"
 		"Langrage Empire-Heaver" 2
 		"Multiphasic Anti-Missile"
 		"Multiphasic ammo" 600
+		"Nanobot Pod"
 		"One-Phasic Cooler" 3
 		"Phasic Dwarf Core"
 		"RC-180 Atomic Thruster"
@@ -601,18 +602,22 @@ ship "Heavy Shuttle" "Heavy Shuttle (Empire)"
 			"hull damage" 60
 			"hit force" 180
 	outfits
-		"nGVF-AA Fuel Cell"
-		"LP036a Battery Pack"
-		"D14-RN Shield Generator"
-		
-		"X2700 Ion Thruster"
-		"X2200 Ion Steering"
-		"Hyperdrive"
+		"Compact Plasma Drive"
+		"Countermesure Module Compact" 2
+		"Empire Hai Chasm Batteries"
+		"One-Phasic Cooler" 2
+		"Phasic Dwarf Core"
+		"RC-001 Atomic Engines"
+		"Small Empire Shielding Core" 2
+		"Thermal Nucleavoltaic"
+		"Twin Modified Blaster"
 		
 	engine -6.5 38.5
 	engine 6.5 38.5
-	gun -3 -38.5
+	gun -3 -38.5 "Twin Modified Blaster"
+		under
 	gun 3 -38.5
+		under
 	leak "leak" 60 50
 	explode "tiny explosion" 10
 	explode "small explosion" 5
@@ -642,24 +647,29 @@ ship "Scout" "Scout (Empire)"
 			"hull damage" 80
 			"hit force" 240
 	outfits
-		"Energy Blaster" 2
-		"Anti-Missile Turret"
-		
-		"nGVF-CC Fuel Cell"
-		"LP036a Battery Pack"
-		"D14-RN Shield Generator"
+		"Compact Plasma Drive"
+		"Countermesure Module Compact"
+		"Empire Hai Chasm Batteries"
+		"Multiphasic Ammo Rack"
+		"Multiphasic Anti-Missile"
+		"Multiphasic ammo" 900
+		"Nuclavoltaic Repeater" 2
+		"One-Phasic Cooler"
+		"Phasic Dwarf Core"
+		"RC-001 Atomic Engines" 2
+		Ramscoop
+		"Small Empire Shielding Core" 2
 		"Small Radar Jammer"
-		"Ramscoop"
-		
-		"X3700 Ion Thruster"
-		"X3200 Ion Steering"
-		"Hyperdrive"
+		"Thermal Nucleavoltaic" 2
 		
 	engine -7 40
 	engine 7 40
-	gun -18.5 -6 "Energy Blaster"
-	gun 18.5 -6 "Energy Blaster"
-	turret 0 -2.5 "Anti-Missile Turret"
+	gun -18.5 -6 "Nuclavoltaic Repeater"
+		under
+	gun 18.5 -6 "Nuclavoltaic Repeater"
+		under
+	turret 0 -2.5 "Multiphasic Anti-Missile"
+		over
 	explode "tiny explosion" 10
 	explode "small explosion" 20
 	explode "medium explosion" 15
@@ -692,20 +702,19 @@ ship "Star Queen" "Star Queen (Empire)"
 			"hull damage" 300
 			"hit force" 900
 	outfits
-		"Sidewinder Missile Launcher"
-		"Sidewinder Missile" 45
-		"Heavy Anti-Missile Turret" 2
-		
-		"KP-6 Photovoltaic Array" 4
-		"LP036a Battery Pack"
-		"D94-YV Shield Generator"
-		"Small Radar Jammer" 3
+		"Compact Plasma Drive"
+		"Countermesure Module"
+		"Empire Shielding Core" 2
 		"Luxury Accommodations"
-		
-		"X3700 Ion Thruster"
-		"X2200 Ion Steering"
-		"AR120 Reverse Thruster"
-		"Hyperdrive"
+		"Multiphasic Anti-Missile" 2
+		"Multiphasic Cooler" 2
+		"Multiphasic Scanner"
+		"Multiphasic ammo" 1200
+		"Plasma Fuel Pod"
+		"RC-160 Atomic Thruster"
+		"RC-165 Atomic Steering"
+		"RC-X3 Multiphasic Reactor"
+		"Thermal Nucleavoltaic" 4
 		
 	engine -18.5 115
 	engine 18.5 115
@@ -714,10 +723,10 @@ ship "Star Queen" "Star Queen (Empire)"
 	"reverse engine" 19 51
 		over
 	gun 0 -113
-	gun -24 -76 "Sidewinder Missile Launcher"
+	gun -24 -76
 	gun 24 -76
-	turret -21.5 2.5 "Heavy Anti-Missile Turret"
-	turret 21.5 2.5 "Heavy Anti-Missile Turret"
+	turret -21.5 2.5 "Multiphasic Anti-Missile"
+	turret 21.5 2.5 "Multiphasic Anti-Missile"
 	leak "leak" 50 50
 	leak "big leak" 80 30
 	explode "tiny explosion" 10
@@ -752,24 +761,29 @@ ship "Clipper" "Clipper (Empire)"
 			"hull damage" 180
 			"hit force" 540
 	outfits
-		"Beam Laser" 2
-		"Javelin Mini Pod" 2
-		"Javelin" 80
-		
-		"nGVF-DD Fuel Cell"
-		"LP072a Battery Pack"
-		"D23-QP Shield Generator"
-		
-		"Greyhound Plasma Thruster"
-		"Greyhound Plasma Steering"
-		"Hyperdrive"
+		"Compact Plasma Drive"
+		"Countermesure Module Compact"
+		"Empire Shielding Core"
+		"Ion Proton Gun" 2
+		"Multiphasic Capacitor" 2
+		"One-Phasic Cooler"
+		"Phasic Dwarf Core"
+		"RC-140 Atomic Thruster"
+		"RC-145 Atomic Steering"
+		Railgun 2
+		"Railgun Slug" 2000
+		"Thermal Nucleavoltaic" 2
 		
 	engine -22 47
 	engine 22 47
-	gun -21.5 -18 "Javelin Mini Pod"
-	gun 21.5 -18 "Javelin Mini Pod"
-	gun -11 -8.5 "Beam Laser"
-	gun 11 -8.5 "Beam Laser"
+	gun -21.5 -18 Railgun
+		under
+	gun 21.5 -18 Railgun
+		under
+	gun -11 -8.5 "Ion Proton Gun"
+		under
+	gun 11 -8.5 "Ion Proton Gun"
+		under
 	leak "leak" 60 50
 	leak "flame" 50 80
 	explode "tiny explosion" 15
@@ -802,29 +816,37 @@ ship "Hauler" "Hauler (Empire)"
 			"hull damage" 300
 			"hit force" 900
 	outfits
-		"Meteor Missile Pod" 2
-		"Meteor Missile" 14
-		"Quad Blaster Turret" 2
-		"Heavy Anti-Missile Turret" 2
-		
-		"S3 Thermionic"
-		"LP072a Battery Pack"
-		"D23-QP Shield Generator"
+		"Compact Plasma Drive"
+		"Countermesure Module Compact"
+		"Empire Hai Fissure Batteries"
+		"Empire Torpedo Missile" 120
+		"Empire Torpedo Rack" 8
+		"Empire Typhoon Bank" 2
+		"Multiphasic Anti-Missile" 2
+		"Multiphasic Cooler"
+		"Multiphasic ammo" 1200
+		"Nuclavoltaic Turret" 2
+		"RC-180 Atomic Thruster"
+		"RC-185 Atomic Steering"
+		"RX-180 Reverse Thruster"
+		"Small Empire Shielding Core" 2
 		"Small Radar Jammer"
-		
-		"Greyhound Plasma Thruster"
-		"Impala Plasma Steering"
-		"Capybara Reverse Thruster"
-		"Hyperdrive"
+		"Thermal Nucleavoltaic" 6
 
 	engine -45 122.5
 	engine 45 122.5
-	gun -14.5 -92.5
-	gun 14.5 -92.5
-	turret -21.5 -48 "Quad Blaster Turret"
-	turret 21.5 -48 "Heavy Anti-Missile Turret"
-	turret -18.5 78.5 "Heavy Anti-Missile Turret"
-	turret 18.5 78.5 "Quad Blaster Turret"
+	gun -14.5 -92.5 "Empire Typhoon Bank"
+		under
+	gun 14.5 -92.5 "Empire Typhoon Bank"
+		under
+	turret -21.5 -48 "Nuclavoltaic Turret"
+		over
+	turret 21.5 -48 "Multiphasic Anti-Missile"
+		over
+	turret -18.5 78.5 "Multiphasic Anti-Missile"
+		over
+	turret 18.5 78.5 "Nuclavoltaic Turret"
+		over
 	leak "leak" 60 50
 	leak "flame" 50 80
 	leak "big leak" 90 30
@@ -861,31 +883,37 @@ ship "Hauler II (Empire)"
 			"hull damage" 400
 			"hit force" 1200
 	outfits
-		"Meteor Missile Pod" 2
-		"Meteor Missile" 59
-		"Meteor Missile Box" 3
-		"Quad Blaster Turret" 2
-		"Heavy Anti-Missile Turret" 2
-		
-		"S3 Thermionic"
-		"LP072a Battery Pack"
-		"D23-QP Shield Generator"
+		"Compact Plasma Drive"
+		"Countermesure Module"
+		"Empire Hai Fissure Batteries"
+		"Empire Shielding Core"
+		"Empire Torpedo Missile" 90
+		"Empire Torpedo Rack" 5
+		"Empire Typhoon Bank" 2
+		"Multiphasic Anti-Missile" 2
+		"Multiphasic ammo" 1200
+		"Nuclavoltaic Turret" 2
+		"One-Phasic Cooler" 2
+		"Phasic Dwarf Core"
+		"Phasic Rifle"
+		"RC-160 Atomic Thruster"
+		"RC-185 Atomic Steering"
 		"Small Radar Jammer"
-		"Laser Rifle"
-		
-		"Greyhound Plasma Thruster"
-		"Impala Plasma Steering"
-		"Capybara Reverse Thruster"
-		"Hyperdrive"
-		
+		"Thermal Nucleavoltaic" 4
 	engine -45 159.5
 	engine 45 159.5
-	gun -14.5 -129.5
-	gun 14.5 -129.5
-	turret -21.5 -84.5 "Quad Blaster Turret"
-	turret 21.5 -84.5 "Heavy Anti-Missile Turret"
-	turret -18.5 115.5 "Heavy Anti-Missile Turret"
-	turret 18.5 115.5 "Quad Blaster Turret"
+	gun -14.5 -129.5 "Empire Typhoon Bank"
+		under
+	gun 14.5 -129.5 "Empire Typhoon Bank"
+		under
+	turret -21.5 -84.5 "Nuclavoltaic Turret"
+		over
+	turret 21.5 -84.5 "Multiphasic Anti-Missile"
+		over
+	turret -18.5 115.5 "Multiphasic Anti-Missile"
+		over
+	turret 18.5 115.5 "Nuclavoltaic Turret"
+		over
 	leak "leak" 60 50
 	leak "flame" 40 80
 	leak "big leak" 80 30
@@ -922,31 +950,40 @@ ship "Hauler III (Empire)"
 			"hull damage" 500
 			"hit force" 1500
 	outfits
-		"Meteor Missile Pod" 2
-		"Meteor Missile" 59
-		"Meteor Missile Box" 3
-		"Quad Blaster Turret" 2
-		"Heavy Anti-Missile Turret" 2
-		
-		"S3 Thermionic"
-		"LP072a Battery Pack"
-		"D23-QP Shield Generator"
+		"Alldust Beam Turret" 2
+		"Antimatter Railgun"
+		"Compact Plasma Drive"
+		"Countermesure Module"
+		"Empire Hai Fissure Batteries"
+		"Empire Shielding Core" 2
+		"Empire Torpedo Missile" 30
+		"Empire Torpedo Rack"
+		"Empire Typhoon Bank"
+		"Multiphasic Anti-Missile" 2
+		"Multiphasic Cooler"
+		"Multiphasic ammo" 1200
+		"One-Phasic Cooler" 2
+		"Phasic Rifle"
+		"RC-180 Atomic Thruster"
+		"RC-185 Atomic Steering"
+		"Railgun Slug" 30
 		"Small Radar Jammer"
-		"Laser Rifle"
-		
-		"Greyhound Plasma Thruster"
-		"Impala Plasma Steering"
-		"Capybara Reverse Thruster"
-		"Hyperdrive"
+		"Thermal Nucleavoltaic" 5
 
 	engine -45 196.5
 	engine 45 196.5
-	gun -14.5 -166.5
-	gun 14.5 -166.5
-	turret -21.5 -122 "Quad Blaster Turret"
-	turret 21.5 -122 "Heavy Anti-Missile Turret"
-	turret -18.5 152.5 "Heavy Anti-Missile Turret"
-	turret 18.5 152.5 "Quad Blaster Turret"
+	gun -14.5 -166.5 "Empire Typhoon Bank"
+		under
+	gun 14.5 -166.5 "Antimatter Railgun"
+		under
+	turret -21.5 -122 "Alldust Beam Turret"
+		over
+	turret 21.5 -122 "Alldust Beam Turret"
+		over
+	turret -18.5 152.5 "Multiphasic Anti-Missile"
+		over
+	turret 18.5 152.5 "Multiphasic Anti-Missile"
+		over
 	leak "leak" 50 50
 	leak "flame" 40 80
 	leak "big leak" 80 30
@@ -981,19 +1018,21 @@ ship "Star Barge" "Star Barge (Empire)"
 			"hull damage" 80
 			"hit force" 240
 	outfits
-		"Anti-Missile Turret"
-
-		"nGVF-BB Fuel Cell"
-		"LP036a Battery Pack"
-		"D14-RN Shield Generator"
-		
-		"X1700 Ion Thruster"
-		"X1200 Ion Steering"
-		"Hyperdrive"
+		"Compact Plasma Drive"
+		"Countermesure Module Compact"
+		"Multiphasic Anti-Missile"
+		"Multiphasic Capacitor" 2
+		"Multiphasic ammo" 600
+		"One-Phasic Cooler" 2
+		"RC-140 Atomic Thruster"
+		"RC-145 Atomic Steering"
+		"Small Empire Shielding Core"
+		"Thermal Nucleavoltaic" 3
 		
 	engine -9.5 38
 	engine 9.5 38
-	turret 0 -18 "Anti-Missile Turret"
+	turret 0 -18 "Multiphasic Anti-Missile"
+		over
 	leak "leak" 60 50
 	explode "tiny explosion" 10
 	explode "small explosion" 10
