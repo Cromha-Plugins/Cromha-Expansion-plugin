@@ -172,8 +172,235 @@ fleet cromha-merchants
 	names "civilian"
 	outfitter "Base-outfitter"
 	cargo 7
-	personality timid frugal appeasing
+	personality timid frugal appeasing harvests
 		confusion 40
+	# Transports
+	variant 1
+		"Blackbird (Empire)"
+		"Flivver (Empire)" 2
+	variant 1
+		"Blackbird (Empire)"
+		"Heavy Shuttle (Empire)" 2
+	variant 1
+		"Blackbird (Empire)"
+		"Scout (Empire)" 2
+	variant 1
+		"Blackbird (Empire)"
+		"Flivver (Empire)"
+	variant 1
+		"Blackbird (Empire)"
+		"Heavy Shuttle (Empire)"
+	variant 1
+		"Blackbird (Empire)"
+		"Scout (Empire)"
+	variant 1
+		"Bounder (Empire)"
+		"Flivver (Empire)" 2
+	variant 1
+		"Bounder (Empire)"
+		"Heavy Shuttle (Empire)" 2
+	variant 1
+		"Bounder (Empire)"
+		"Scout (Empire)" 2
+	variant 1
+		"Bounder (Empire)"
+		"Flivver (Empire)"
+	variant 1
+		"Bounder (Empire)"
+		"Heavy Shuttle (Empire)"
+	variant 1
+		"Bounder (Empire)"
+		"Scout (Empire)"
+	# Freighters
+	variant 1
+		"Star Barge (Empire)"
+	variant 1
+		"Star Barge (Empire)" 2
+	variant 1
+		"Star Barge" 3
+	variant 1
+		"Freighter (Empire)"
+		"Star Barge (Empire)" 2
+	variant 1
+		"Freighter (Empire)" 2
+	variant 1
+		"Freighter (Empire)"
+		"Star Barge (Empire)" 3
+	variant 1
+		"Clipper (Empire)"
+	variant 1
+		"Clipper (Empire)" 2
+	variant 1
+		"Clipper (Empire)"
+		"Star Barge (Empire)" 2
+	variant 1
+		"Star Barge (Empire)"
+		"Clipper (Empire)" 2
+	variant 1
+		"Behemoth (Empire)"
+	variant 1
+		"Behemoth (Empire)"
+		"Clipper (Empire)" 2
+	variant 1
+		"Behemoth (Empire)"
+		"Star Barge (Empire)" 2
+	variant 1
+		"Bulk Freighter (Empire)"
+		"Freighter (Empire)" 2
+	variant 1
+		"Bulk Freighter (Empire)"
+		"Star Barge (Empire)" 3
+	variant 1
+		"Bulk Freighter (Empire)" 2
+	variant 1
+		"Bulk Freighter (Empire)" 3
+	variant 1
+		"Container Transport (Empire)"
+		"Freighter (Empire)" 2
+	variant 1
+		"Container Transport (Empire)" 2
+	variant 1
+		"Container Transport (Empire)" 3
+	variant 1
+		"Hauler II (Empire)"
+		"Hauler (Empire)" 2
+	variant 1
+		"Hauler (Empire)"
+		"Hauler II (Empire)" 2
+	variant 1
+		"Hauler III (Empire)"
+		"Hauler (Empire)" 2
+	variant 1
+		"Hauler III (Empire)"
+		"Hauler II (Empire)" 2
+	# Interceptors
+	variant 1
+		"Fury (Empire)"
+	variant 1
+		"Fury (Empire)" 2
+	variant 1
+		"Fury (Empire)" 3
+	variant 1
+		"Hawk (Empire)"
+	variant 1
+		"Hawk (Empire)" 2
+	variant 1
+		"Hawk (Empire)" 3
+	variant 1
+		"Wasp (Empire)"
+	variant 1
+		"Wasp (Empire)" 2
+	variant 1
+		"Wasp (Empire)" 3
+	variant 1
+		"Hawk (Empire)"
+		"Wasp (Empire)" 2
+	variant 1
+		"Hawk (Empire)"
+		"Wasp (Empire)" 3
+	variant 1
+		"Fury (Empire)"
+		"Wasp (Empire)" 2
+	variant 1
+		"Fury (Empire)"
+		"Wasp (Empire)" 3
+	# Warships
+		# Syndicate variants
+	variant 1
+		"Quicksilver (Empire)" 2
+	variant 1
+		"Quicksilver (Empire)" 3
+	variant 1
+		"Manta (Empire)"
+		"Quicksilver (Empire)" 2
+	variant 1
+		"Manta (Empire)"
+		"Quicksilver (Empire)" 3
+	variant 1
+		"Protector (Empire)"
+		"Quicksilver (Empire)" 3
+	variant 1
+		"Protector (Empire)"
+		"Manta (Empire)" 2
+	variant 1
+		"Protector (Empire)"
+		"Manta (Empire)" 3
+	variant 1
+		"Protector (Empire)"
+		#Republic variants
+	variant 1
+		"Gunboat (Empire)"
+	variant 1
+		"Gunboat (Empire)" 2
+	variant 1
+		"Gunboat (Empire)" 3
+	variant 1
+		"Raven (Empire)"
+		"Gunboat (Empire)" 2
+	variant 1
+		"Raven (Empire)"
+		"Gunboat (Empire)" 3
+	variant 1
+		"Raven (Empire)" 2
+	variant 1
+		"Raven (Empire)" 3
+		# Free Worlds variants
+	variant 1
+		"Headhunter (Empire)" 2
+	variant 1
+		"Headhunter (Empire)" 3
+	variant 1
+		"Osprey (Empire)"
+		"Headhunter (Empire)" 2
+	variant 1
+		"Osprey (Empire)"
+		"Headhunter (Empire)" 3
+	variant 1
+		"Osprey (Empire)" 2
+	variant 1
+		"Osprey (Empire)" 2
+		"Headhunter (Empire)"
+		# Merchants variants
+	variant 1
+		"Aerie (Empire)"
+		"Headhunter (Empire)" 2
+	variant 1
+		"Aerie (Empire)"
+		"Corvette (Empire)" 2
+	variant 1
+		"Bastion (Empire)"
+		"Headhunter (Empire)" 2
+	variant 1
+		"Bastion (Empire)"
+		"Firebird (Empire)" 2
+	variant 1
+		"Corvette (Empire)"
+	variant 1
+		"Firebird (Empire)"
+	variant 1
+		"Corvette (Empire)"
+		"Headhunter (Empire)" 2
+	variant 1
+		"Corvette (Empire)"
+		"Quicksilver (Empire)" 2
+	variant 1
+		"Firebird (Empire)"
+		"Headhunter (Empire)" 2
+	variant 1
+		"Firebird (Empire)"
+		"Quicksilver (Empire)" 2
+	variant 1
+		"Dreadnought (Empire)"
+		"Corvette (Empire)" 2
+	variant 1
+		"Dreadnought (Empire)"
+		"Firebird (Empire)" 2
+	variant 1
+		"Leviathan (Empire)"
+		"Corvette (Empire)" 2
+	variant 1
+		"Leviathan (Empire)"
+		"Firebird (Empire)" 2
 fleet calor-stil-tourism
 	government "Mineria colonnies"
 	names "civilian"

@@ -859,7 +859,7 @@ ship "Hauler" "Hauler (Empire)"
 
 
 
-ship "Hauler II (Empire)"
+ship "Hauler II" "Hauler II (Empire)"
 	sprite "ship/hauler ii"
 	thumbnail "thumbnail/hauler ii"
 	attributes
@@ -926,7 +926,7 @@ ship "Hauler II (Empire)"
 
 
 
-ship "Hauler III (Empire)"
+ship "Hauler III" "Hauler III (Empire)"
 	sprite "ship/hauler iii"
 	thumbnail "thumbnail/hauler iii"
 	attributes
