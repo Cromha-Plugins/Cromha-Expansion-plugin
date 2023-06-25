@@ -40,6 +40,8 @@ ship "Empire Classik"
 		"Multiphasic Anti-Missile"
 		"Multiphasic Scanner"
 		"Multiphasic ammo" 1800
+		"Multiphasic Cooler"
+		"One-Phasic Cooler" 4
 		"Nuclavoltaic Turret" 2
 		"Phasic Dwarf Core" 4
 		"Phasic Grenades" 25
