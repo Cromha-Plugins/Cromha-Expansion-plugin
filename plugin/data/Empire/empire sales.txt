@@ -283,3 +283,4 @@ shipyard Advanced-lifdot-industries-shipyard
 	"Empire Dredger"
 	"Empire Classik"
 	"Empire Daggrez"
+	"Heliarch Punisher"
