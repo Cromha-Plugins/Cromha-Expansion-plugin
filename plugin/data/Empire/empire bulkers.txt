@@ -231,20 +231,73 @@ ship "Empire Shall'ok"
 			"hull damage" 28000
 			"hit force" 1929
 	outfits
-		
+		"Alldust Beam Turret" 2
+		Brig 5
+		"Bunk Room" 3
+		"Catalytic Ramscoop"
+		"Cloaking Module"
+		"Cluster Mine" 106
+		"Cluster Mine Layer" 2
+		"Cluster Mine Rack" 8
+		"Countermesure Module" 2
+		"Countermesure Module Compact" 4
+		"Empire Barricade" 18
+		"Empire Defense Station" 30
+		"Empire Hai Fissure Batteries"
+		"Empire Hai Ravine Batteries"
+		"Empire Navy Emitter"
+		"Empire Shielding Core" 4
+		"Empire Torpedo Missile" 200
+		"Empire Torpedo Rack" 16
+		"Empire Typhoon Bank" 2
+		"Fuel Cell"
+		"Mineria Key Stone"
+		"Multiphasic Ammo Rack" 5
+		"Multiphasic Anti-Missile"
+		"Multiphasic Cooler" 6
+		"Multiphasic Scanner"
+		"Multiphasic ammo" 2100
+		"Nuclavoltaic Turret" 2
+		"One-Phasic Cooler" 4
+		"Phasic Dwarf Core" 2
+		"Phasic Grenades" 45
+		"Phasic Rifle" 45
+		"Plasma Drive"
+		"Plasma Fuel Pod"
+		"Quantum Generator" 2
+		"RC-220 Atomic Thruster"
+		"RC-225 Atomic Steering"
+		"RC-X2 Multiphasic Reactor" 2
+		"RC-X3 Multiphasic Reactor" 2
+		"RC-X4 Multiphasic Reactor" 2
+		"RX-200 Reverse Thruster" 2
+		"Small Bunk Room" 2
+		"Small Empire Shielding Core" 8
+		"Teleportation Dock" 4
+		"Thermal Nucleavoltaic" 4
+		"Tre-Phasic Rifle"
 	"reverse engine" -31 -290
 	"reverse engine" 31 -290
 	engine -69 230
 	engine 69 230
-	turret 0 -166
-	turret -41 -69
-	turret 41 -69
-	turret -41.5 264
-	turret 41.5 264
-	gun -75 -250
-	gun 75 -250
-	gun -60 -214.5
-	gun 60 -214.5
+	turret 0 -166 "Multiphasic Anti-Missile"
+		over
+	turret -41 -69 "Nuclavoltaic Turret"
+		over
+	turret 41 -69 "Nuclavoltaic Turret"
+		over
+	turret -41.5 264 "Alldust Beam Turret"
+		over
+	turret 41.5 264 "Alldust Beam Turret"
+		over
+	gun -75 -250 "Empire Typhoon Bank"
+		under
+	gun 75 -250 "Empire Typhoon Bank"
+		under
+	gun -60 -214.5 "Cluster Mine Layer"
+		under
+	gun 60 -214.5 "Cluster Mine Layer"
+		under
 	leak "empire leak" 60 50
 	leak "empire big leak" 50 40
 	leak "empire flame" 40 80
