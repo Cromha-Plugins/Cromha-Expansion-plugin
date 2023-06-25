@@ -557,7 +557,6 @@ ship "Empire Dredger"
 		hull 740065
 		licenses
 			"Empire Navy"
-		"hull protection" 100
 		"required crew" 25
 		"bunks" 34
 		"mass" 285

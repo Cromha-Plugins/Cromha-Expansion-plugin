@@ -9,7 +9,6 @@ ship "Empire Fortress"
 		licenses
 			"Empire Black Manta"
 		hull 999999999999
-		"hull protection" 9000
 		"required crew" 1940
 		"bunks" 31920
 		"mass" 10000
@@ -257,7 +256,6 @@ ship "Empire Colinizer"
 		hull 750000
 		licenses
 			"Empire Navy"
-		"hull protection" 7000
 		"required crew" 75
 		"bunks" 3100
 		"mass" 400

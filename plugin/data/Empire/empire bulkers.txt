@@ -1,5 +1,74 @@
 ship "Empire Classik"
-
+	thumbnail "thumbnail/empire classik"
+	swizzle 0
+	attributes
+		category "Bulker"
+		licenses
+			"Empire Navy"
+		"cost" 3120000
+		"shields" 95400
+		"hull" 45065
+		"required crew" 35
+		"bunks" 54
+		"mass" 356
+		"drag" 3.7
+		"heat dissipation" .9
+		"fuel capacity" 500
+		"cargo space" 85
+		"outfit space" 1750
+		"weapon capacity" 980
+		"engine capacity" 750
+		weapon
+			"blast radius" 205
+			"shield damage" 19000
+			"hull damage" 19000
+			"hit force" 1100
+	outfits
+	engine -17 139
+		zoom 1.3
+	engine -55.5 -58.5
+	engine 17 139
+		zoom 1.3
+	engine 55.5 -58.5
+	"reverse engine" 56 -142
+	"reverse engine" -56 -142
+	"steering engine" -42.5 117
+		right
+		angle 315
+	"steering engine" -76 -65
+		right
+		angle 335
+	"steering engine" 42.5 117
+		left
+		angle 45
+	"steering engine" 76 -65
+		left
+		angle 25
+	turret 0 -36
+	turret 0 96
+	turret 0 -113.5
+	gun -17 -111.5
+	gun 17 -111.5
+	turret -47.5 -110.5
+	turret 47.5 -110.5
+	bay "Nanobot" 36 49.5
+		over
+	bay "Nanobot" 18.5 -59
+		over
+	bay "Nanobot" 39.5 -81.5
+		over
+	bay "Nanobot" -36 49.5
+		over
+	bay "Nanobot" -18.5 -59
+		over
+	bay "Nanobot" -39.5 -81.5
+		over
+	leak "empire leak" 60 50
+	leak "empire flame" 40 80
+	explode "empire tiny explosion" 18
+	explode "empire tiny explosion" 36
+	explode "empire medium explosion" 15
+	"final explode" "empire huge explosion"
 
 ship "Fuel Pod"
 	noun "fuel pod"

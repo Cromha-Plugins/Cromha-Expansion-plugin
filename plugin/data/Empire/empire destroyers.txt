@@ -224,8 +224,8 @@ ship "Empire Corvette YLL'A"
 		"engine capacity" 540
 		weapon
 			"blast radius" 190
-			"shield damage" 27000
-			"hull damage" 1900
+			"shield damage" 37500
+			"hull damage" 34500
 			"hit force" 2400
 	outfits
 		"Alldust Beam Turret" 4
@@ -360,8 +360,8 @@ ship "Empire Corvette YLL'E"
 		"engine capacity" 450
 		weapon
 			"blast radius" 180
-			"shield damage" 25000
-			"hull damage" 1700
+			"shield damage" 37500
+			"hull damage" 34500
 			"hit force" 2400
 	outfits
 		"Alldust Beam Turret" 4
@@ -618,8 +618,8 @@ ship "Empire Galactik"
 		"engine capacity" 750
 		weapon
 			"blast radius" 205
-			"shield damage" 15000
-			"hull damage" 15000
+			"shield damage" 28000
+			"hull damage" 000
 			"hit force" 1100
 	outfits
 		"Alldust Beam Turret" 2

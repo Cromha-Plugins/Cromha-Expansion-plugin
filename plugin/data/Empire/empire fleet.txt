@@ -5,13 +5,9 @@ fleet cromha-fleet
 	cargo 3
 	commodities Medical Electronics Equipment Military
 	personality heroic
-		hunting
-		daring
-		frugal
 		plunders
 		opportunistic
 		surveillance
-		confusion 0
 	outfitters Base-outfitter Basic-ammo-outfitter
 	# Police fleets
 	variant 1
@@ -108,14 +104,13 @@ fleet mineria-transports
 	government "Mineria colonnies"
 	names "empire fleet names"
 	personality heroic
-		hunting
-		daring
-		frugal
 		plunders
+		harvests
 		opportunistic
 		surveillance
 		timid
 		appeasing
+		confusion 40
 	outfitters Base-outfitter Advanced-ammo-outfitter
 	cargo 9
 fleet cromha-merchants
