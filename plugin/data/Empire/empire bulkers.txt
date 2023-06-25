@@ -16,7 +16,7 @@ ship "Empire Classik"
 		"heat dissipation" .9
 		"fuel capacity" 500
 		"cargo space" 85
-		"outfit space" 1750
+		"outfit space" 970
 		"weapon capacity" 980
 		"engine capacity" 750
 		weapon
@@ -128,7 +128,7 @@ ship "Empire Daggrez"
 		"heat dissipation" .8
 		"fuel capacity" 400
 		"cargo space" 110
-		"outfit space" 1750
+		"outfit space" 1125
 		"weapon capacity" 980
 		"engine capacity" 750
 		weapon
@@ -222,7 +222,7 @@ ship "Empire Shall'ok"
 		"heat dissipation" .7
 		"fuel capacity" 570
 		"cargo space" 280
-		"outfit space" 1970
+		"outfit space" 1730
 		"weapon capacity" 1000
 		"engine capacity" 950
 		weapon
@@ -323,7 +323,7 @@ ship "Fuel Pod"
 		"mass" 100
 		"drag" .59
 		"heat dissipation" .9
-		"outfit space" 100
+		"outfit space" 47
 		"weapon capacity" 30
 		"engine capacity" 38
 		"fuel capacity" 500
@@ -394,7 +394,7 @@ ship "Fuel Pod Class D"
 		"mass" 125
 		"drag" .59
 		"heat dissipation" .19
-		"outfit space" 250
+		"outfit space" 70
 		"weapon capacity" 30
 		"engine capacity" 38
 		"fuel capacity" 500
@@ -405,11 +405,11 @@ ship "Fuel Pod Class D"
 			"hit force" 75
 	outfits
 			`RC-001 Atomic Engines`
-			"RC-X1 Multiphasic Reactor"
+			"RC-X1 Multiphasic Reactor" 2
 			"Multiphasic Capacitor"
 			"Countermesure Module"
 			"Small Empire Shielding Core"
-			"One-Phasic Cooler"
+			"One-Phasic Cooler" 2
 	leak "empire leak" 15
 	explode "empire tiny explosion" 8
 	"final explode" "empire medium explosion"
@@ -439,7 +439,7 @@ ship "Fuel Pod Class H"
 		"mass" 75
 		"drag" .59
 		"heat dissipation" .34
-		"outfit space" 287
+		"outfit space" 70
 		"weapon capacity" 30
 		"engine capacity" 38
 		"fuel capacity" 500

@@ -16,7 +16,7 @@ ship "Empire Kraken"
 		"heat dissipation" .45
 		"fuel capacity" 500
 		"cargo space" 127
-		"outfit space" 3700
+		"outfit space" 2350
 		"weapon capacity" 900
 		"engine capacity" 640
 		weapon
@@ -219,7 +219,7 @@ ship "Empire Corvette YLL'A"
 		"heat dissipation" .7
 		"fuel capacity" 500
 		"cargo space" 87
-		"outfit space" 2100
+		"outfit space" 1383
 		"weapon capacity" 660
 		"engine capacity" 540
 		weapon
@@ -355,7 +355,7 @@ ship "Empire Corvette YLL'E"
 		"heat dissipation" .7
 		"fuel capacity" 600
 		"cargo space" 87
-		"outfit space" 1950
+		"outfit space" 1383
 		"weapon capacity" 550
 		"engine capacity" 450
 		weapon
@@ -483,7 +483,7 @@ ship "Empire Nano-Flyer"
 		"heat dissipation" .65
 		"fuel capacity" 500
 		"cargo space" 58
-		"outfit space" 895
+		"outfit space" 975
 		"weapon capacity" 475
 		"engine capacity" 350
 		weapon
@@ -613,7 +613,7 @@ ship "Empire Galactik"
 		"heat dissipation" .8
 		"fuel capacity" 500
 		"cargo space" 75
-		"outfit space" 1750
+		"outfit space" 1250
 		"weapon capacity" 980
 		"engine capacity" 750
 		weapon

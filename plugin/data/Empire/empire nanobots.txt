@@ -16,9 +16,9 @@ ship "Empire Nanobot YLL'E"
 		"mass" 5
 		"drag" .59
 		"heat dissipation" .12
-		"outfit space" 310
+		"outfit space" 100
 		"cargo space" 25
-		"weapon capacity" 100
+		"weapon capacity" 35
 		"engine capacity" 38
 		"fuel capacity" 500
 		weapon
@@ -65,9 +65,9 @@ ship "Empire Nanobot YLL'A"
 		"mass" 5
 		"drag" .59
 		"heat dissipation" .12
-		"outfit space" 275
+		"outfit space" 110
 		"cargo space" 25
-		"weapon capacity" 100
+		"weapon capacity" 40
 		"engine capacity" 38
 		"fuel capacity" 500
 		weapon
@@ -110,7 +110,7 @@ ship "Cargo Transporter"
 		"mass" 100
 		"drag" .59
 		"heat dissipation" .9
-		"outfit space" 170
+		"outfit space" 90
 		"weapon capacity" 30
 		"engine capacity" 38
 		"cargo space" 10
@@ -151,7 +151,7 @@ ship "Cargo Transporter Class D"
 		"mass" 110
 		"drag" .59
 		"heat dissipation" .10
-		"outfit space" 195
+		"outfit space" 100
 		"weapon capacity" 50
 		"engine capacity" 60
 		"cargo space" 10
