@@ -12,7 +12,7 @@ ship "Empire Classik"
 		"required crew" 35
 		"bunks" 54
 		"mass" 325
-		"drag" 3.7
+		"drag" 7
 		"heat dissipation" .9
 		"fuel capacity" 500
 		"cargo space" 85
@@ -106,6 +106,40 @@ ship "Empire Classik"
 	explode "empire tiny explosion" 18
 	explode "empire tiny explosion" 36
 	explode "empire medium explosion" 15
+	"final explode" "empire huge explosion"
+
+ship "Empire Daggrez"
+	thumbnail "thumbnail/empire daggrez"
+	sprite "ship/empire daggrez"
+	swizzle 0
+	attributes
+		category "Bulker"
+		licenses
+			"Empire Navy"
+		"cost" 3120000
+		"shields" 116400
+		"hull" 78065
+		"required crew" 40
+		"bunks" 58
+		"mass" 335
+		"drag" 6
+		"heat dissipation" .8
+		"fuel capacity" 400
+		"cargo space" 110
+		"outfit space" 1750
+		"weapon capacity" 980
+		"engine capacity" 750
+		weapon
+			"blast radius" 205
+			"shield damage" 25000
+			"hull damage" 27000
+			"hit force" 1129
+	outfits
+	leak "empire leak" 60 50
+	leak "empire flame" 40 80
+	explode "empire tiny explosion" 18
+	explode "empire tiny explosion" 36
+	explode "empire medium explosion" 25
 	"final explode" "empire huge explosion"
 
 ship "Fuel Pod"
