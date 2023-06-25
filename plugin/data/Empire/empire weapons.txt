@@ -825,7 +825,7 @@ effect "nucleavoltaic repeater impact"
 	"random velocity" .6
 	"velocity scale" -.1
 
-outfit "Phasic-Phasic-Cluster Mine"
+outfit "Phasic-Cluster Mine"
 	category "Ammunition"
 	cost 3500
 	thumbnail "outfit/phasic mine"
