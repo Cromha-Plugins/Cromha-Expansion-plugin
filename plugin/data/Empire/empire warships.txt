@@ -454,7 +454,7 @@ ship "Empire Dredger"
 		"solar collection" 7.2
 		"fuel capacity" 500
 		"cargo space" 75
-		"outfit space" 170
+		"outfit space" 1485
 		"weapon capacity" 1750
 		"engine capacity" 1450
 		"atmosphere scan" 100

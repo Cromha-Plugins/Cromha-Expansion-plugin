@@ -219,7 +219,7 @@ ship "Empire Corvette YLL'A"
 		"heat dissipation" .7
 		"fuel capacity" 500
 		"cargo space" 87
-		"outfit space" 1383
+		"outfit space" 1910
 		"weapon capacity" 660
 		"engine capacity" 540
 		weapon
@@ -483,7 +483,7 @@ ship "Empire Nano-Flyer"
 		"heat dissipation" .65
 		"fuel capacity" 500
 		"cargo space" 58
-		"outfit space" 975
+		"outfit space" 1340
 		"weapon capacity" 475
 		"engine capacity" 350
 		weapon
