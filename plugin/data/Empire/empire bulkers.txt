@@ -135,6 +135,22 @@ ship "Empire Daggrez"
 			"hull damage" 27000
 			"hit force" 1129
 	outfits
+	engine -19.5 189
+	engine -44 163
+		zoom 1.2
+	engine 19.5 189
+	engine 44 163
+		zoom 1.2
+	"reverse engine" -17 -185
+	"reverse engine" 17 -185
+	turret 0 -120
+	turret 0 42
+	turret 0 140
+	turret 0 -14.5
+	gun -37.5 -186
+	turret -74 -88.5
+	gun 37.5 -186
+	turret 74 -88.5
 	leak "empire leak" 60 50
 	leak "empire flame" 40 80
 	explode "empire tiny explosion" 18
