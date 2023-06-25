@@ -466,8 +466,8 @@ ship "Empire Blazer"
 	outfits
 		"Alldust Beam Turret" 2
 		"Cloaking Module"
-		"Countermesure Module" 4
-		"Countermesure Module Compact" 8
+		"Countermesure Module" 2
+		"Countermesure Module Compact" 2
 		"Empire Barricade" 3
 		"Empire Defense Station" 5
 		"Empire Hai Gorge Batteries"

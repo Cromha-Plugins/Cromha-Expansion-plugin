@@ -197,6 +197,7 @@ shipyard Advanced-freighters-shipyard
 	"Hauler II"
 	"Hauler III"
 	"Hauler"
+	"Empire Classik"
 shipyard Basic-interceptors-shipyard
 	"Fury (Empire)"
 	"Berserker"
@@ -252,6 +253,7 @@ shipyard Basic-lifdot-industries-shipyard
 	"Cargo Transporter Class D"
 	"Empire Blazer"
 	"Empire Dredger"
+	"Empire Classik"
 shipyard Advanced-lifdot-industries-shipyard
 	"Empire Nanobot YLL'E"
 	"Empire Nanobot YLL'A"
@@ -277,3 +279,4 @@ shipyard Advanced-lifdot-industries-shipyard
 	"Cargo Transporter Class D"
 	"Empire Blazer"
 	"Empire Dredger"
+	"Empire Classik"
