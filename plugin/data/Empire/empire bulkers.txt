@@ -11,7 +11,7 @@ ship "Empire Classik"
 		"hull" 45065
 		"required crew" 35
 		"bunks" 54
-		"mass" 356
+		"mass" 325
 		"drag" 3.7
 		"heat dissipation" .9
 		"fuel capacity" 500
@@ -25,6 +25,36 @@ ship "Empire Classik"
 			"hull damage" 19000
 			"hit force" 1100
 	outfits
+		"Alldust Beam Turret" 2
+		Brig 2
+		"Catalytic Ramscoop"
+		"Compact Plasma Drive"
+		"Countermesure Module"
+		"Countermesure Module Compact" 4
+		"Empire Barricade" 5
+		"Empire Defense Station" 10
+		"Empire Hai Gorge Batteries"
+		"Empire Shielding Core" 2
+		"Mineria Key Stone"
+		"Multiphasic Ammo Rack" 4
+		"Multiphasic Anti-Missile"
+		"Multiphasic Scanner"
+		"Multiphasic ammo" 1800
+		"Nuclavoltaic Turret" 2
+		"Phasic Dwarf Core" 4
+		"Phasic Grenades" 25
+		"Phasic Rifle" 25
+		"Plasma Fuel Pod"
+		"RC-180 Atomic Thruster"
+		"RC-185 Atomic Steering" 2
+		"RC-X2 Multiphasic Reactor" 4
+		"RX-180 Reverse Thruster"
+		"Small Empire Shielding Core" 6
+		"Teleportation Dock"
+		"Thermal Nucleavoltaic" 4
+		"Thunderhead Launcher" 2
+		"Thunderhead Missile" 240
+		"Thunderhead Storage Array" 8
 	engine -17 139
 		zoom 1.3
 	engine -55.5 -58.5
@@ -35,23 +65,30 @@ ship "Empire Classik"
 	"reverse engine" -56 -142
 	"steering engine" -42.5 117
 		right
-		angle 315
+		angle 45
 	"steering engine" -76 -65
 		right
-		angle 335
+		angle 25
 	"steering engine" 42.5 117
 		left
-		angle 45
+		angle 315
 	"steering engine" 76 -65
 		left
-		angle 25
-	turret 0 -36
-	turret 0 96
-	turret 0 -113.5
-	gun -17 -111.5
-	gun 17 -111.5
-	turret -47.5 -110.5
-	turret 47.5 -110.5
+		angle 335
+	turret 0 -36 "Multiphasic Anti-Missile"
+		over
+	turret 0 96 "Nuclavoltaic Turret"
+		over
+	turret 0 -113.5 "Nuclavoltaic Turret"
+		over
+	gun -17 -111.5 "Thunderhead Launcher"
+		under
+	gun 17 -111.5 "Thunderhead Launcher"
+		under
+	turret -47.5 -110.5 "Alldust Beam Turret"
+		over
+	turret 47.5 -110.5 "Alldust Beam Turret"
+		over
 	bay "Nanobot" 36 49.5
 		over
 	bay "Nanobot" 18.5 -59
