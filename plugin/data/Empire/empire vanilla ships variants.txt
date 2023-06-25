@@ -1381,29 +1381,39 @@ ship "Aerie" "Aerie (Empire)"
 			"hull damage" 400
 			"hit force" 1200
 	outfits
-		"Sidewinder Missile Launcher" 2
-		"Sidewinder Missile" 90
-		"Heavy Laser Turret" 2
-		"Heavy Anti-Missile Turret"
-		
-		"NT-200 Nucleovoltaic"
-		"KP-6 Photovoltaic Panel" 2
-		"LP072a Battery Pack"
-		"D41-HY Shield Generator"
-		"Large Radar Jammer"
+		"Alldust Beam Turret" 2
+		Brig 2
+		"Compact Plasma Drive"
+		"Countermesure Module"
+		"Countermesure Module Compact" 2
+		"Empire Hai Fissure Batteries"
+		"Empire Shielding Core"
+		"Empire Torpedo Missile" 60
+		"Empire Torpedo Rack" 2
+		"Empire Typhoon Bank" 2
 		"Laser Rifle" 3
-		
-		"X3700 Ion Thruster"
-		"X3200 Ion Steering"
-		"Hyperdrive"
+		"Multiphasic Ammo Rack" 2
+		"Multiphasic Anti-Missile"
+		"Multiphasic ammo" 1200
+		"Nanobot Pod"
+		"One-Phasic Cooler" 4
+		"RC-180 Atomic Thruster"
+		"RC-185 Atomic Steering"
+		"Small Empire Shielding Core" 2
+		"Thermal Nucleavoltaic" 5
 		
 	engine 15 97
 	engine -15 97
-	gun -12 -78 "Sidewinder Missile Launcher"
-	gun 12 -78 "Sidewinder Missile Launcher"
-	turret 0 1.5 "Heavy Anti-Missile Turret"
-	turret -31 15.5 "Heavy Laser Turret"
-	turret 31 15.5 "Heavy Laser Turret"
+	gun -12 -78 "Empire Typhoon Bank"
+		under
+	gun 12 -78 "Empire Typhoon Bank"
+		under
+	turret 0 1.5 "Multiphasic Anti-Missile"
+		over
+	turret -31 15.5 "Alldust Beam Turret"
+		over
+	turret 31 15.5 "Alldust Beam Turret"
+		over
 	bay "Fighter" -43.5 2
 		"launch effect" "human internal"
 	bay "Fighter" 43.5 2
@@ -1442,34 +1452,45 @@ ship "Bastion" "Bastion (Empire)"
 			"hull damage" 600
 			"hit force" 1800
 	outfits
-		"Plasma Cannon" 2
-		"Heavy Rocket Launcher" 2
-		"Heavy Rocket" 60
-		"Heavy Rocket Rack" 2
-		"Blaster Turret" 2
-		"Anti-Missile Turret"
-		
-		"S3 Thermionic"
-		"LP144a Battery Pack"
-		"nGVF-BB Fuel Cell"
-		"D67-TM Shield Generator"
-		"Water Coolant System"
-		"Tactical Scanner"
-		"Laser Rifle" 7
-		
-		"Impala Plasma Thruster"
-		"Impala Plasma Steering"
-		"Hyperdrive"
-		
+		Brig 4
+		"Compact Plasma Drive"
+		"Countermesure Module"
+		"Countermesure Module Compact" 2
+		"Empire Hai Gorge Batteries"
+		"Empire Shielding Core"
+		"Ion Proton Turret" 2
+		"Multiphasic Anti-Missile"
+		"Multiphasic Cooler"
+		"Multiphasic ammo" 600
+		"Nuclavoltaic Repeater" 2
+		"One-Phasic Cooler" 2
+		"Phasic Dwarf Core"
+		"Phasic Grenades" 3
+		"Phasic Rifle" 7
+		"RC-180 Atomic Thruster"
+		"RC-185 Atomic Steering"
+		"RC-X3 Multiphasic Reactor"
+		"Small Empire Shielding Core" 4
+		"Thermal Nucleavoltaic" 3
+		"Typhoon Pod" 2
+		"Typhoon Storage Tube" 4
+		"Typhoon Torpedo" 64
 	engine 31.5 89.5
 	engine -31.5 89.5
-	gun 52.5 -0.5 "Heavy Rocket Launcher"
-	gun 52.5 -0.5 "Plasma Cannon"
-	gun -52.5 -0.5 "Heavy Rocket Launcher"
-	gun -52.5 -0.5 "Plasma Cannon"
-	turret 35.5 29.5 "Blaster Turret"
-	turret -35.5 29.5 "Blaster Turret"
-	turret 0 0.5 "Anti-Missile Turret"
+	gun 52.5 -0.5 "Typhoon Pod"
+		under
+	gun 52.5 -0.5 "Nuclavoltaic Repeater"
+		under
+	gun -52.5 -0.5 "Typhoon Pod"
+		under
+	gun -52.5 -0.5 "Nuclavoltaic Repeater"
+		under
+	turret 35.5 29.5 "Ion Proton Turret"
+		over
+	turret -35.5 29.5 "Multiphasic Anti-Missile"
+		over
+	turret 0 0.5 "Ion Proton Turret"
+		over
 	leak "leak" 40 50
 	leak "flame" 40 80
 	leak "big leak" 70 30
@@ -1504,32 +1525,46 @@ ship "Corvette" "Corvette (Empire)"
 			"hull damage" 400
 			"hit force" 1200
 	outfits
-		"Heavy Laser" 2
-		"Sidewinder Missile Launcher" 2
-		"Sidewinder Missile" 90
-		"Heavy Laser Turret"
-		"Anti-Missile Turret"
-		
-		"NT-200 Nucleovoltaic"
-		"KP-6 Photovoltaic Array"
-		"KP-6 Photovoltaic Panel" 2
-		"LP072a Battery Pack"
-		"D94-YV Shield Generator"
-		"Large Radar Jammer"
-		"Laser Rifle" 3
-		
-		"X3700 Ion Thruster"
-		"X3200 Ion Steering"
-		"Hyperdrive"
+		"Alldust Beam Canon" 2
+		Brig 2
+		"Compact Plasma Drive"
+		"Countermesure Module"
+		"Countermesure Module Compact" 3
+		"Empire Shielding Core" 2
+		"Empire Torpedo Missile" 20
+		"Empire Torpedo Rack" 2
+		"Grab-Strike Blaze"
+		"Langrage Empire-Heaver" 2
+		"Multiphasic Ammo Rack" 2
+		"Multiphasic Anti-Missile"
+		"Multiphasic Capacitor"
+		"Multiphasic Cooler"
+		"Multiphasic Scanner"
+		"Multiphasic ammo" 1200
+		"One-Phasic Cooler" 2
+		"Phasic Grenades" 2
+		"Phasic Rifle" 3
+		"Plasma Fuel Pod"
+		"RC-180 Atomic Thruster"
+		"RC-185 Atomic Steering"
+		Ramscoop
+		"Small Empire Shielding Core" 2
+		"Thermal Nucleavoltaic" 8
 		
 	engine -11.5 119
 	engine 11.5 119
-	gun -11.5 -68.5 "Heavy Laser"
-	gun 11.5 -68.5 "Heavy Laser"
-	gun -26 -8 "Sidewinder Missile Launcher"
-	gun 26 -8 "Sidewinder Missile Launcher"
-	turret 0 -10 "Heavy Laser Turret"
-	turret 0 76 "Anti-Missile Turret"
+	gun -11.5 -68.5 "Alldust Beam Canon"
+		under
+	gun 11.5 -68.5 "Alldust Beam Canon"
+		under
+	gun -26 -8 "Langrage Empire-Heaver"
+		under
+	gun 26 -8 "Langrage Empire-Heaver"
+		under
+	turret 0 -10 "Grab-Strike Blaze"
+		over
+	turret 0 76 "Multiphasic Anti-Missile"
+		over
 	leak "leak" 40 50
 	leak "flame" 50 80
 	leak "big leak" 90 30
@@ -1564,30 +1599,44 @@ ship "Firebird" "Firebird (Empire)"
 			"hull damage" 500
 			"hit force" 1500
 	outfits
-		"Particle Cannon" 2
-		"Meteor Missile Launcher" 2
-		"Meteor Missile" 60
-		"Quad Blaster Turret"
-		"Anti-Missile Turret"
-		
-		"RT-I Radiothermal"
-		"nGVF-AA Fuel Cell"
-		"LP144a Battery Pack"
-		"D41-HY Shield Generator"
-		"Laser Rifle" 3
-		
-		"X3700 Ion Thruster"
-		"X3200 Ion Steering"
-		"Hyperdrive"
+		Brig
+		"Compact Plasma Drive"
+		"Countermesure Module"
+		"Countermesure Module Compact" 2
+		"Empire Particle gun" 2
+		"Empire Shielding Core"
+		"Empire Torpedo Missile" 40
+		"Empire Typhoon Bank" 2
+		"Multiphasic Anti-Missile"
+		"Multiphasic Capacitor"
+		"Multiphasic Cooler"
+		"Multiphasic Scanner"
+		"Multiphasic ammo" 600
+		"Nuclavoltaic Turret"
+		"One-Phasic Cooler" 2
+		"Phasic Grenades"
+		"Phasic Rifle" 3
+		"RC-180 Atomic Thruster"
+		"RC-185 Atomic Steering"
+		"RC-X3 Multiphasic Reactor"
+		Ramscoop
+		"Small Empire Shielding Core" 4
+		"Thermal Nucleavoltaic" 3
 		
 	engine -31.5 67
 	engine 31.5 67
-	gun -27 -28 "Particle Cannon"
-	gun 27 -28 "Particle Cannon"
-	gun -38 -13 "Meteor Missile Launcher"
-	gun 38 -13 "Meteor Missile Launcher"
-	turret 0 -38 "Anti-Missile Turret"
-	turret 0 3 "Quad Blaster Turret"
+	gun -27 -28 "Empire Particle gun"
+		under
+	gun 27 -28 "Empire Particle gun"
+		under
+	gun -38 -13 "Empire Typhoon Bank"
+		under
+	gun 38 -13 "Empire Typhoon Bank"
+		under
+	turret 0 -38 "Multiphasic Anti-Missile"
+		over
+	turret 0 3 "Nuclavoltaic Turret"
+		over
 	leak "leak" 50 50
 	leak "flame" 30 80
 	explode "tiny explosion" 18
@@ -1621,28 +1670,41 @@ ship "Manta" "Manta (Empire)"
 			"hull damage" 400
 			"hit force" 1200
 	outfits
-		"Particle Cannon" 4
+		Brig
+		"Compact Plasma Drive"
+		"Countermesure Module"
+		"Countermesure Module Compact" 2
+		"Empire Hai Fissure Batteries"
+		"Empire Particle gun" 2
+		"Empire Torpedo Missile" 80
+		"Empire Torpedo Rack" 4
+		"Empire Typhoon Bank" 2
+		"Ion Proton Gun" 2
+		"Nanobot Pod"
+		"One-Phasic Cooler" 4
+		"Phasic Grenades"
+		"Phasic Rifle"
+		"RC-160 Atomic Thruster"
+		"RC-165 Atomic Steering"
+		"Small Empire Shielding Core" 4
+		"Thermal Nucleavoltaic" 5
+		Torpedo 15
 		"Torpedo Storage Rack"
-		"Torpedo" 21
-		"Torpedo Pod" 2
-		
-		"RT-I Radiothermal"
-		"LP144a Battery Pack"
-		"D14-RN Shield Generator"
-		"Laser Rifle"
-		
-		"X3700 Ion Thruster"
-		"X3200 Ion Steering"
-		"Hyperdrive"
 		
 	engine -33 40
 	engine 33 40
-	gun -20 -31 "Particle Cannon"
-	gun 20 -31 "Particle Cannon"
-	gun -26.5 -30 "Particle Cannon"
-	gun 26.5 -30 "Particle Cannon"
-	gun -68.5 -33 "Torpedo Pod"
-	gun 68.5 -33 "Torpedo Pod"
+	gun -20 -31 "Empire Particle gun"
+		under
+	gun 20 -31 "Empire Particle gun"
+		under
+	gun -26.5 -30 "Ion Proton Gun"
+		under
+	gun 26.5 -30 "Ion Proton Gun"
+		under
+	gun -68.5 -33 "Empire Typhoon Bank"
+		under
+	gun 68.5 -33 "Empire Typhoon Bank"
+		under
 	leak "leak" 60 50
 	leak "flame" 40 80
 	explode "tiny explosion" 10
@@ -1675,31 +1737,43 @@ ship "Osprey" "Osprey (Empire)"
 			"hull damage" 400
 			"hit force" 1200
 	outfits
-		"Plasma Cannon" 4
-		"Quad Blaster Turret"
-		"Heavy Anti-Missile Turret"
-		
-		"Breeder Reactor"
-		"LP036a Battery Pack"
-		"D41-HY Shield Generator"
-		"Large Radar Jammer"
-		"Liquid Helium Cooler"
+		Brig
+		"Compact Plasma Drive"
+		"Countermesure Module"
+		"Countermesure Module Compact" 2
+		"Empire Hai Gorge Batteries"
+		"Empire Shielding Core" 2
+		"Grab-Strike Blaze"
 		"Laser Rifle" 3
-		
-		"Impala Plasma Thruster"
-		"Impala Plasma Steering"
-		"Hyperdrive"
+		"Multiphasic Ammo Rack" 2
+		"Multiphasic Anti-Missile"
+		"Multiphasic Cooler" 2
+		"Multiphasic Scanner"
+		"Multiphasic ammo" 1200
+		"Nuclavoltaic Repeater" 4
+		"One-Phasic Cooler" 2
+		"Phasic Dwarf Core"
+		"RC-180 Atomic Thruster"
+		"RC-185 Atomic Steering"
+		"RC-X3 Multiphasic Reactor"
+		"Thermal Nucleavoltaic" 6
 		
 	engine -42.5 62.5 .8
 	engine 42.5 62.5 .8
 	engine -16.5 105 .6
 	engine 16.5 105 .6
-	gun -25 -49.5 "Plasma Cannon"
-	gun 25 -49.5 "Plasma Cannon"
-	gun -9.5 -95.5 "Plasma Cannon"
-	gun 9.5 -95.5 "Plasma Cannon"
-	turret -15.5 -12 "Quad Blaster Turret"
-	turret 15.5 -12 "Heavy Anti-Missile Turret"
+	gun -25 -49.5 "Nuclavoltaic Repeater"
+		under
+	gun 25 -49.5 "Nuclavoltaic Repeater"
+		under
+	gun -9.5 -95.5 "Nuclavoltaic Repeater"
+		under
+	gun 9.5 -95.5 "Nuclavoltaic Repeater"
+		under
+	turret -15.5 -12 "Grab-Strike Blaze"
+		over
+	turret 15.5 -12 "Multiphasic Anti-Missile"
+		over
 	leak "leak" 40 50
 	leak "flame" 80 80
 	leak "big leak" 80 30
@@ -1736,35 +1810,54 @@ ship "Dreadnought" "Dreadnought (Empire)"
 			"hull damage" 1300
 			"hit force" 3900
 	outfits
-		"Torpedo Launcher" 3
-		"Torpedo" 90
-		"Plasma Turret" 3
-		"Heavy Anti-Missile Turret" 2
-		
-		"Breeder Reactor"
-		"S3 Thermionic"
-		"LP144a Battery Pack"
-		"D41-HY Shield Generator"
-		"Small Radar Jammer"
+		"Alldust Beam Turret"
+		Brig 2
+		"Compact Plasma Drive"
+		"Countermesure Module"
+		"Countermesure Module Compact" 2
+		"Empire Hai Gorge Batteries"
+		"Empire Shielding Core" 2
+		"Empire Torpedo Missile" 80
+		"Empire Torpedo Rack" 4
+		"Empire Typhoon Bank" 2
+		"Langrage Empire-Heaver" 2
 		"Liquid Helium Cooler"
-		"Tactical Scanner"
-		"Laser Rifle" 25
-		
-		"Orca Plasma Thruster"
-		"Orca Plasma Steering"
-		"Hyperdrive"
+		"Multiphasic Anti-Missile" 2
+		"Multiphasic Cooler" 2
+		"Multiphasic Scanner"
+		"Multiphasic ammo" 1200
+		"Nuclavoltaic Turret" 2
+		"One-Phasic Cooler" 4
+		"Phasic Dwarf Core"
+		"Phasic Grenades" 10
+		"Phasic Rifle" 25
+		"Plasma Fuel Pod"
+		"RC-200 Atomic Thruster"
+		"RC-205 Atomic Steering"
+		"RC-X4 Multiphasic Reactor"
+		"Small Empire Shielding Core" 2
+		"Thermal Nucleavoltaic" 4
 		
 	engine -25.5 173.5
 	engine 25.5 173.5
-	gun -9.5 -186 "Torpedo Launcher"
-	gun 9.5 -186 "Torpedo Launcher"
-	gun -18.5 -173.5 "Torpedo Launcher"
-	gun 18.5 -173.5
-	turret 0 -99.5 "Plasma Turret"
-	turret -39 -63.5 "Heavy Anti-Missile Turret"
-	turret 39 -63.5 "Heavy Anti-Missile Turret"
-	turret -39 107.5 "Plasma Turret"
-	turret 39 107.5 "Plasma Turret"
+	gun -9.5 -186 "Langrage Empire-Heaver"
+		under
+	gun 9.5 -186 "Langrage Empire-Heaver"
+		under
+	gun -18.5 -173.5 "Empire Typhoon Bank"
+		under
+	gun 18.5 -173.5 "Empire Typhoon Bank"
+		under
+	turret 0 -99.5 "Alldust Beam Turret"
+		over
+	turret -39 -63.5 "Multiphasic Anti-Missile"
+		over
+	turret 39 -63.5 "Multiphasic Anti-Missile"
+		over
+	turret -39 107.5 "Nuclavoltaic Turret"
+		over
+	turret 39 107.5 "Nuclavoltaic Turret"
+		over
 	leak "leak" 40 50
 	leak "flame" 20 80
 	leak "big leak" 80 30
@@ -1800,30 +1893,45 @@ ship "Leviathan" "Leviathan (Empire)"
 			"hull damage" 400
 			"hit force" 1200
 	outfits
-		"Particle Cannon" 4
-		"Quad Blaster Turret" 3
-		"Anti-Missile Turret"
-		
-		"Fusion Reactor"
-		"LP144a Battery Pack"
-		"D67-TM Shield Generator"
-		"Liquid Helium Cooler"
+		Brig
+		"Compact Plasma Drive"
+		"Countermesure Module"
+		"Countermesure Module Compact" 2
+		"Empire Hai Fissure Batteries"
+		"Empire Particle gun" 4
+		"Empire Shielding Core" 2
 		"Laser Rifle" 15
-		
-		"X3700 Ion Thruster"
-		"X4200 Ion Steering"
-		"Hyperdrive"
-		
+		"Multiphasic Ammo Rack" 2
+		"Multiphasic Anti-Missile"
+		"Multiphasic Cooler"
+		"Multiphasic Scanner"
+		"Multiphasic ammo" 1200
+		"Nuclavoltaic Turret" 3
+		"One-Phasic Cooler" 4
+		"Phasic Dwarf Core"
+		"Plasma Fuel Pod"
+		"RC-200 Atomic Thruster"
+		"RC-205 Atomic Steering"
+		"RC-X2 Multiphasic Reactor" 2
+		"Thermal Nucleavoltaic" 2
 	engine -24 126
 	engine 24 126
-	gun -37.5 -31.5 "Particle Cannon"
-	gun 37.5 -31.5 "Particle Cannon"
-	gun -49 -19.5 "Particle Cannon"
-	gun 49 -19.5 "Particle Cannon"
-	turret -14 -10 "Quad Blaster Turret"
-	turret 14 -10 "Quad Blaster Turret"
-	turret -25.5 12.5 "Quad Blaster Turret"
-	turret 25.5 12.5 "Anti-Missile Turret"
+	gun -37.5 -31.5 "Empire Particle gun"
+		under
+	gun 37.5 -31.5 "Empire Particle gun"
+		under
+	gun -49 -19.5 "Empire Particle gun"
+		under
+	gun 49 -19.5 "Empire Particle gun"
+		under
+	turret -14 -10 "Nuclavoltaic Turret"
+		over
+	turret 14 -10 "Nuclavoltaic Turret"
+		over
+	turret -25.5 12.5 "Nuclavoltaic Turret"
+		over
+	turret 25.5 12.5 "Multiphasic Anti-Missile"
+		over
 	leak "leak" 50 50
 	leak "flame" 30 80
 	leak "big leak" 60 30
@@ -1858,35 +1966,52 @@ ship "Protector" "Protector (Empire)"
 			"hull damage" 800
 			"hit force" 2400
 	outfits
-		"Meteor Missile Launcher" 2
-		"Meteor Missile" 60
-		"Quad Blaster Turret" 6
-		"Heavy Anti-Missile Turret"
-		"Anti-Missile Turret"
-		
-		"Fusion Reactor"
-		"LP288a Battery Pack"
-		"D67-TM Shield Generator"
-		"Small Radar Jammer" 3
-		"Liquid Nitrogen Cooler"
-		"Laser Rifle" 6
-		
-		"X3700 Ion Thruster"
-		"X3200 Ion Steering"
-		"Hyperdrive"
+		Brig
+		"Compact Plasma Drive"
+		"Countermesure Module Compact" 2
+		"Empire Hai Gorge Batteries"
+		"Empire Shielding Core" 2
+		"Empire Torpedo Missile" 80
+		"Empire Torpedo Rack" 4
+		"Empire Typhoon Bank" 2
+		"Ion Proton Turret" 2
+		"Multiphasic Anti-Missile" 2
+		"Multiphasic Cooler"
+		"Multiphasic Scanner"
+		"Multiphasic ammo" 1200
+		"Nuclavoltaic Turret" 4
+		"One-Phasic Cooler" 2
+		"Phasic Dwarf Core"
+		"Phasic Grenades" 6
+		"Phasic Rifle" 6
+		"Plasma Fuel Pod"
+		"RC-180 Atomic Thruster"
+		"RC-185 Atomic Steering"
+		"RC-X2 Multiphasic Reactor" 2
+		"Thermal Nucleavoltaic" 4
 		
 	engine -12 122.5
 	engine 12 122.5
-	gun -17.5 -101 "Meteor Missile Launcher"
-	gun 17.5 -101 "Meteor Missile Launcher"
-	turret 0 -28.5 "Heavy Anti-Missile Turret"
-	turret -48.5 -48.5 "Quad Blaster Turret"
-	turret 48.5 -48.5 "Quad Blaster Turret"
-	turret -68.5 0 "Quad Blaster Turret"
-	turret 68.5 0 "Quad Blaster Turret"
-	turret -48.5 48.5 "Quad Blaster Turret"
-	turret 48.5 48.5 "Quad Blaster Turret"
-	turret 0 30 "Anti-Missile Turret"
+	gun -17.5 -101 "Empire Typhoon Bank"
+		under
+	gun 17.5 -101 "Empire Typhoon Bank"
+		under
+	turret 0 -28.5 "Multiphasic Anti-Missile"
+		over
+	turret -48.5 -48.5 "Nuclavoltaic Turret"
+		over
+	turret 48.5 -48.5 "Nuclavoltaic Turret"
+		over
+	turret -68.5 0 "Ion Proton Turret"
+		over
+	turret 68.5 0 "Ion Proton Turret"
+		over
+	turret -48.5 48.5 "Nuclavoltaic Turret"
+		over
+	turret 48.5 48.5 "Nuclavoltaic Turret"
+		over
+	turret 0 30 "Multiphasic Anti-Missile"
+		over
 	leak "leak" 60 50
 	leak "flame" 20 80
 	explode "tiny explosion" 18
