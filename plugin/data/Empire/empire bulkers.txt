@@ -68,13 +68,13 @@ ship "Empire Classik"
 		angle 45
 	"steering engine" -76 -65
 		right
-		angle 25
+		angle 45
 	"steering engine" 42.5 117
 		left
 		angle 315
 	"steering engine" 76 -65
 		left
-		angle 335
+		angle 315
 	turret 0 -36 "Multiphasic Anti-Missile"
 		over
 	turret 0 96 "Nuclavoltaic Turret"
