@@ -85,8 +85,88 @@ fleet cromha-fleet
 fleet mineria-transports
 	government "Mineria colonnies"
 	names "empire fleet names"
+	commodities "Heavy Metals" Equipment Medical Electronics Military "Luxury Goods"
 	outfitters Base-outfitter Advanced-ammo-outfitter
 	cargo 9
+	variant 1
+		"Empire Classik"
+		"Empire Daggrez"
+		"Empire Shall'ok"
+	variant 1
+		"Empire Classik"
+		"Cargo Transport" 2
+		"Cargo Transporter Class D"
+		"Empire Nanobot YLL'A"
+	variant 1
+		"Empire Classik"
+		"Cargo Transport"
+		"Cargo Transporter Class D" 2
+		"Empire Nanobot YLL'A"
+	variant 1
+		"Empire Classik"
+		"Cargo Transport" 2
+		"Cargo Transporter Class D"
+		"Empire Nanobot YLL'E"
+	variant 1
+		"Empire Classik"
+		"Cargo Transport"
+		"Cargo Transporter Class D" 2
+		"Empire Nanobot YLL'E"
+	variant 1
+		"Empire Daggrez"
+		"Empire Classik"
+		"Cargo Transport" 2
+		"Cargo Transporter Class D"
+		"Empire Nanobot YLL'A"
+	variant 1
+		"Empire Daggrez"
+		"Empire Classik"
+		"Cargo Transport"
+		"Cargo Transporter Class D" 2
+		"Empire Nanobot YLL'A"
+	variant 1
+		"Empire Daggrez"
+		"Empire Classik"
+		"Cargo Transport" 2
+		"Cargo Transporter Class D"
+		"Empire Nanobot YLL'E"
+	variant 1
+		"Empire Daggrez"
+		"Empire Classik"
+		"Cargo Transport"
+		"Cargo Transporter Class D" 2
+		"Empire Nanobot YLL'E"
+	variant 1
+		"Empire Shall'ok"
+		"Empire Classik"
+		"Cargo Transport" 2
+		"Cargo Transporter Class D"
+		"Empire Nanobot YLL'A"
+	variant 1
+		"Empire Shall'ok"
+		"Empire Classik"
+		"Cargo Transport"
+		"Cargo Transporter Class D" 2
+		"Empire Nanobot YLL'A"
+	variant 1
+		"Empire Shall'ok"
+		"Empire Classik"
+		"Cargo Transport" 2
+		"Cargo Transporter Class D"
+		"Empire Nanobot YLL'E"
+	variant 1
+		"Empire Shall'ok"
+		"Empire Classik"
+		"Cargo Transport"
+		"Cargo Transporter Class D" 2
+		"Empire Nanobot YLL'E"
+	variant 1
+		"Empire Shall'ok"
+		"Empire Daggrez" 2
+	variant 1
+		"Empire Shall'ok"
+		"Empire Daggrez" 2
+	
 fleet cromha-merchants
 	government "Empire Merchant"
 	names "civilian"
