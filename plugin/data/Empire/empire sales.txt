@@ -210,7 +210,7 @@ shipyard Advanced-interceptors-shipyard
 	"Hawk (Empire)"
 	"Wasp (Empire)"
 	"Headhunter (Empire)"
-	"Gunboat (modified)"
+	"Gunboat (Empire)"
 shipyard Basic-warships-shipyard
 	"Corvette (Empire)"
 	"Firebird (Empire)"
