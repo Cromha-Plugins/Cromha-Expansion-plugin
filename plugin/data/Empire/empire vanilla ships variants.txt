@@ -1,6 +1,6 @@
 ship "Blackbird" "Blackbird (Empire)"
-	sprite "ship/pirate nighthawk"
-	thumbnail "thumbnail/pirate nighthawk"
+	sprite "ship/blackbird"
+	thumbnail "thumbnail/blackbird"
 	attributes
 		category "Transport"
 		"cost" 2230000
@@ -209,8 +209,8 @@ ship "Argosy" "Argosy (Empire)"
 	description "	The Argosy is also a very easy ship to upgrade with faster engines or more powerful weapons as needed, so many privately owned Argosies have very different capabilities than the stock model."
 
 ship "Behemoth" "Behemoth (Empire)"
-	sprite "ship/pirate mammoth"
-	thumbnail "thumbnail/pirate mammoth"
+	sprite "ship/behemoth"
+	thumbnail "thumbnail/behemoth"
 	attributes
 		category "Heavy Freighter"
 		"cost" 10800000
@@ -578,8 +578,8 @@ ship "Container Transport" "Container Transport (Empire)"
 	description "	As with its geared cousin, however, it remains a slow and difficult to maneuver ship, especially when loaded down with cargo. Some freight caravans use ordinary freighters instead of Container Transports just to avoid the hassle of constantly having to wait for the Container Transport to properly align itself for hyperspace travel."
 
 ship "Heavy Shuttle" "Heavy Shuttle (Empire)"
-	sprite "ship/pirate scrapper"
-	thumbnail "thumbnail/pirate scrapper"
+	sprite "ship/heavy shuttle"
+	thumbnail "thumbnail/heavy shuttle"
 	attributes
 		category "Transport"
 		"cost" 470000
@@ -729,8 +729,8 @@ ship "Star Queen" "Star Queen (Empire)"
 	description "	In support of environmental movements across the galaxy, all Star Queens come standard with an array of solar panels as their only source of energy as opposed to more popular power generators such as fuel cells or nuclear reactors that produce some amount of waste. Although some argue that this is a pointless move given the prevalence of clean fusion reactors, others have applauded it and cited the prohibitive costs of fusion reactors as a reason for using solar panels."
 
 ship "Clipper" "Clipper (Empire)"
-	sprite "ship/pirate cutthroat"
-	thumbnail "thumbnail/pirate cutthroat"
+	sprite "ship/clipper"
+	thumbnail "thumbnail/clipper"
 	attributes
 		category "Light Freighter"
 		"cost" 900000
@@ -1299,8 +1299,8 @@ ship "Raven" "Raven (Empire)"
 	description "The Lionheart Raven is their most popular warship, an agile and elegant vessel that can nevertheless deal out and absorb considerable damage. Ravens are a favorite ship for bounty hunters, because they are more than a match for pirate interceptors and can be used by a skilled pilot to take down much larger ships as well."
 
 ship "Aerie" "Aerie (Empire)"
-	sprite "ship/pirate valkyrie"
-	thumbnail "thumbnail/pirate valkyrie"
+	sprite "ship/aerie"
+	thumbnail "thumbnail/aerie"
 	attributes
 		category "Medium Warship"
 		"cost" 3500000
@@ -1360,8 +1360,8 @@ ship "Aerie" "Aerie (Empire)"
 	description "The Lionheart Aerie is a light carrier, designed to be just big enough for two fighter bays plus a decent armament of its own. Variations on this same ship design have been in use in the Deep for almost half a millennium, but this model comes with the very latest in generator and weapon technology."
 
 ship "Bastion" "Bastion (Empire)"
-	sprite "ship/pirate bulwark"
-	thumbnail "thumbnail/pirate bulwark"
+	sprite "ship/bastion"
+	thumbnail "thumbnail/bastion"
 	attributes
 		category "Medium Warship"
 		"cost" 3860000
