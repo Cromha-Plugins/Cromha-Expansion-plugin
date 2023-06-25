@@ -4,10 +4,6 @@ fleet cromha-fleet
 	fighters "empire fleet names"
 	cargo 3
 	commodities Medical Electronics Equipment Military
-	personality heroic
-		plunders
-		opportunistic
-		surveillance
 	outfitters Base-outfitter Basic-ammo-outfitter
 	# Police fleets
 	variant 1

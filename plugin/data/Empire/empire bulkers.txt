@@ -1,5 +1,6 @@
 ship "Empire Classik"
 	thumbnail "thumbnail/empire classik"
+	sprite "ship/empire classik"
 	swizzle 0
 	attributes
 		category "Bulker"
