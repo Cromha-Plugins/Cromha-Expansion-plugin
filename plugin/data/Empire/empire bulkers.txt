@@ -139,9 +139,9 @@ ship "Empire Daggrez"
 	outfits
 		"Alldust Beam Turret"
 		Brig 3
-		"Cluster Mine" 106
-		"Cluster Mine Layer" 2
-		"Cluster Mine Rack" 8
+		"Phasic-Cluster Mine" 106
+		"Phasic Mine Layer" 2
+		"Phasic Mine Rack" 8
 		"Countermesure Module" 2
 		"Countermesure Module Compact" 2
 		"Empire Barricade" 12
@@ -189,11 +189,11 @@ ship "Empire Daggrez"
 		over
 	turret 0 -14.5 "Multiphasic Anti-Missile"
 		over
-	gun -37.5 -186 "Cluster Mine Layer"
+	gun -37.5 -186 "Phasic Mine Layer"
 		under
 	turret -74 -88.5 "Nuclavoltaic Turret"
 		over
-	gun 37.5 -186 "Cluster Mine Layer"
+	gun 37.5 -186 "Phasic Mine Layer"
 		under
 	turret 74 -88.5 "Nuclavoltaic Turret"
 		over
@@ -236,9 +236,9 @@ ship "Empire Shall'ok"
 		"Bunk Room" 3
 		"Catalytic Ramscoop"
 		"Cloaking Module"
-		"Cluster Mine" 106
-		"Cluster Mine Layer" 2
-		"Cluster Mine Rack" 8
+		"Phasic-Cluster Mine" 106
+		"Phasic Mine Layer" 2
+		"Phasic Mine Rack" 8
 		"Countermesure Module" 2
 		"Countermesure Module Compact" 4
 		"Empire Barricade" 18
@@ -294,9 +294,9 @@ ship "Empire Shall'ok"
 		under
 	gun 75 -250 "Empire Typhoon Bank"
 		under
-	gun -60 -214.5 "Cluster Mine Layer"
+	gun -60 -214.5 "Phasic Mine Layer"
 		under
-	gun 60 -214.5 "Cluster Mine Layer"
+	gun 60 -214.5 "Phasic Mine Layer"
 		under
 	leak "empire leak" 60 50
 	leak "empire big leak" 50 40

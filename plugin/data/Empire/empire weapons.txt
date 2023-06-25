@@ -824,3 +824,100 @@ effect "nucleavoltaic repeater impact"
 	"random spin" 100
 	"random velocity" .6
 	"velocity scale" -.1
+
+outfit "Phasic-Phasic-Cluster Mine"
+	category "Ammunition"
+	cost 3500
+	thumbnail "outfit/phasic mine"
+	"mass" .7
+	"phasic minelayer capacity" -1
+	description "This is ammunition for a Phasic Mine Layer. Each mine splits into eleven submunitions after it is deployed."
+
+outfit "Phasic Mine Rack"
+	category "Ammunition"
+	cost 31500
+	thumbnail "outfit/phasic mine storage"
+	"mass" 2.7
+	"outfit space" -9
+	"phasic minelayer capacity" 9
+	ammo "Phasic-Phasic-Cluster Mine"
+	description "The Phasic Mine Rack is used to store extra ammunition for Phasic Mine Layers."
+
+outfit "Phasic Mine Layer"
+	category "Secondary Weapons"
+	cost 1073000
+	thumbnail "outfit/phasic minelayer"
+	"mass" 36
+	"outfit space" -48
+	"weapon capacity" -48
+	"energy capacity" 50
+	"gun ports" -1
+	"phasic minelayer capacity" 17
+	weapon
+		sprite "projectile/phasic minelayer"
+			"frame rate" .6
+			"no repeat"
+		sound "minelayer"
+		ammo "Phasic-Cluster Mine"
+		icon "icon/minelayer"
+		"fire effect" "phasic minelayer fire"
+		"hit effect" "empire huge explosion"
+		"die effect" "phasic minelayer split" 5
+		"submunition" "Phasic Mine Submunition" 11
+		"inaccuracy" 10
+		"velocity" 3
+		"lifetime" 100
+		"reload" 180
+		"firing energy" 36
+		"firing heat" 36
+		"acceleration" .16
+		"drag" .04
+		"turn" 2
+		"homing" 4
+		"infrared tracking" .9
+		"missile strength" 35
+		"disruption damage" 120
+		"shield damage" 140
+		"hit force" -150
+		"stream"
+	description "This launcher fires phasic munitions that split into a cloud of stationary mines that each do a considerable amount of damage if a ship crashes into them. However, if a ship hits the mine before it has a chance to deploy, the damage is considerably reduced."
+
+outfit "Phasic Mine Submunition"
+	weapon
+		sprite "projectile/phasic mine"
+			"frame rate" 1
+			"no repeat"
+		"hit effect" "empire medium explosion"
+		"die effect" "empire tiny explosion"
+		"inaccuracy" 360
+		"velocity" 2
+		"random velocity" 5
+		"lifetime" 1000
+		"random lifetime" 60
+		"acceleration" .00001
+		"drag" .05
+		"disruption damage" 120
+		"shield damage" 140
+		"hit force" 200
+		"missile strength" 22
+
+effect "phasic minelayer fire"
+	sprite "effect/phasic minelayer split"
+		"no repeat"
+		"frame rate" 3
+	"lifetime" 61
+	"random angle" 5
+	"random spin" 10
+	"random velocity" .5
+	"velocity scale" 1.2
+
+effect "phasic minelayer split"
+	sprite "effect/phasic minelayer split"
+		"no repeat"
+		"frame rate" 6
+	sound "mine deploy"
+	"lifetime" 31
+	"random angle" 360
+	"random spin" 5
+	"random velocity" 2.5
+	"velocity scale" .8

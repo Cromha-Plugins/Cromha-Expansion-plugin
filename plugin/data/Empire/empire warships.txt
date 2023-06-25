@@ -469,9 +469,9 @@ ship "Empire Dredger"
 		"Bunk Room" 3
 		"Catalytic Ramscoop"
 		"Cloaking Module"
-		"Cluster Mine" 104
-		"Cluster Mine Layer" 4
-		"Cluster Mine Rack" 4
+		"Phasic-Cluster Mine" 104
+		"Phasic Mine Layer" 4
+		"Phasic Mine Rack" 4
 		"Countermesure Module"
 		"Countermesure Module Compact" 5
 		"Empire Barricade" 15
@@ -515,14 +515,14 @@ ship "Empire Dredger"
 		under
 	gun -124 -50.5 "Langrage Empire-Heaver"
 		under
-	gun 96.5 -58.5 "Cluster Mine Layer"
+	gun 96.5 -58.5 "Phasic Mine Layer"
 		under
-	gun -96.5 -58.5 "Cluster Mine Layer"
+	gun -96.5 -58.5 "Phasic Mine Layer"
 		under
-	gun 88 168.5 "Cluster Mine Layer"
+	gun 88 168.5 "Phasic Mine Layer"
 		under
 		angle 180
-	gun -88 168.5 "Cluster Mine Layer"
+	gun -88 168.5 "Phasic Mine Layer"
 		under
 		angle 180
 	turret 85.5 130 "Alldust Beam Turret"

@@ -42,9 +42,9 @@ ship "Empire Fortress"
 		"Thunderhead Storage Array" 40
 		"Thunderhead Missile" 1040
 
-		"Cluster Mine Layer" 6
-		"Cluster Mine" 462
-		"Cluster Mine Rack" 40
+		"Phasic Mine Layer" 6
+		"Phasic-Cluster Mine" 462
+		"Phasic Mine Rack" 40
 
 		"Empire Nuke" 8
 
@@ -112,13 +112,13 @@ ship "Empire Fortress"
 	gun 178.5 -419.5 "Thunderhead Launcher"
 	gun 185 83 "Thunderhead Launcher"
 		angle 180
-	gun -163 -434 "Cluster Mine Layer"
-	gun -178.5 -419.5 "Cluster Mine Layer"
-	gun -185 83 "Cluster Mine Layer"
+	gun -163 -434 "Phasic Mine Layer"
+	gun -178.5 -419.5 "Phasic Mine Layer"
+	gun -185 83 "Phasic Mine Layer"
 		angle 180
-	gun 163 -434 "Cluster Mine Layer"
-	gun 178.5 -419.5 "Cluster Mine Layer"
-	gun 185 83 "Cluster Mine Layer"
+	gun 163 -434 "Phasic Mine Layer"
+	gun 178.5 -419.5 "Phasic Mine Layer"
+	gun 185 83 "Phasic Mine Layer"
 		angle 180
 	gun 55 -325 "Empire Nuke"
 		over
