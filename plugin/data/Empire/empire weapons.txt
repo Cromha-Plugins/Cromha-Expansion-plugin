@@ -859,7 +859,7 @@ outfit "Phasic Mine Layer"
 			"no repeat"
 		sound "minelayer"
 		ammo "Phasic-Cluster Mine"
-		icon "icon/minelayer"
+		icon "icon/phasic mine"
 		"fire effect" "phasic minelayer fire"
 		"hit effect" "empire huge explosion"
 		"die effect" "phasic minelayer split" 5
