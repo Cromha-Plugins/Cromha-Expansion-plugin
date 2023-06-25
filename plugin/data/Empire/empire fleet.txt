@@ -42,20 +42,6 @@ fleet cromha-fleet
 		"Empire Palavret (Proton)"
 		"Empire Palavret (Plasma)"
 	variant 1
-		"Empire Blazer"
-		"Empire Nanobot YLL'A" 3
-		"Empire Palavret"
-	variant 1
-		"Empire Blazer"
-		"Empire Nanobot YLL'E" 1
-		"Empire Nanobot YLL'A" 2
-		"Empire Palavret (Proton)"
-	variant 1
-		"Empire Blazer"
-		"Empire Nanobot YLL'A" 1
-		"Empire Nanobot YLL'E" 2
-		"Empire Palavret (Plasma)"
-	variant 1
 		"Empire Dredger"
 		"Fuel Pod Class H"
 		"Empire Palavret"
