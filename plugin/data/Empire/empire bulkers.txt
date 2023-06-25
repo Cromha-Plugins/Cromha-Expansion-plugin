@@ -137,6 +137,42 @@ ship "Empire Daggrez"
 			"hull damage" 27000
 			"hit force" 1129
 	outfits
+		"Alldust Beam Turret"
+		Brig 3
+		"Cluster Mine" 106
+		"Cluster Mine Layer" 2
+		"Cluster Mine Rack" 8
+		"Countermesure Module" 2
+		"Countermesure Module Compact" 2
+		"Empire Barricade" 12
+		"Empire Defense Station" 18
+		"Empire Hai Gorge Batteries"
+		"Empire Shielding Core" 3
+		"Fuel Cell"
+		"Grab-Strike Blaze" 2
+		"Mineria Key Stone"
+		"Multiphasic Ammo Rack" 5
+		"Multiphasic Anti-Missile"
+		"Multiphasic Capacitor" 2
+		"Multiphasic Cooler" 2
+		"Multiphasic Scanner"
+		"Multiphasic ammo" 2100
+		"Nuclavoltaic Turret" 2
+		"One-Phasic Cooler" 4
+		"Phasic Dwarf Core" 2
+		"Phasic Grenades" 30
+		"Phasic Rifle" 30
+		"Plasma Drive"
+		"Plasma Fuel Pod"
+		"RC-160 Atomic Thruster"
+		"RC-180 Atomic Thruster"
+		"RC-185 Atomic Steering" 2
+		"RC-X2 Multiphasic Reactor" 2
+		"RC-X3 Multiphasic Reactor" 2
+		"RX-200 Reverse Thruster"
+		"Small Empire Shielding Core" 6
+		"Teleportation Dock" 2
+		"Thermal Nucleavoltaic" 4
 	engine -19.5 189
 	engine -44 163
 		zoom 1.2
@@ -145,14 +181,22 @@ ship "Empire Daggrez"
 		zoom 1.2
 	"reverse engine" -17 -185
 	"reverse engine" 17 -185
-	turret 0 -120
-	turret 0 42
-	turret 0 140
-	turret 0 -14.5
-	gun -37.5 -186
-	turret -74 -88.5
-	gun 37.5 -186
-	turret 74 -88.5
+	turret 0 -120 "Grab-Strike Blaze"
+		over
+	turret 0 42 "Alldust Beam Turret"
+		over
+	turret 0 140 "Grab-Strike Blaze"
+		over
+	turret 0 -14.5 "Multiphasic Anti-Missile"
+		over
+	gun -37.5 -186 "Cluster Mine Layer"
+		under
+	turret -74 -88.5 "Nuclavoltaic Turret"
+		over
+	gun 37.5 -186 "Cluster Mine Layer"
+		under
+	turret 74 -88.5 "Nuclavoltaic Turret"
+		over
 	leak "empire leak" 60 50
 	leak "empire flame" 40 80
 	explode "empire tiny explosion" 18
