@@ -7053,7 +7053,7 @@ system Alkseke
 				attributes tourism inhabited rich paradise hai "empire space"
 
 system All'Estros
-	pos 440 -490
+	pos 352 -487
 	government "Cromha Empire"
 	habitable nan
 	link Lifdot
@@ -10083,7 +10083,7 @@ system Arneb
 		haze _menu/haze-none
 
 system As'har
-	pos 685 -515
+	pos 421 -608
 	government "Empire Rebels"
 	habitable nan
 	link Irn'o
@@ -10163,7 +10163,7 @@ system As'har
 			minables titanium 13 5.16891
 
 system As'tyar
-	pos 500 -450
+	pos 383 -527
 	government "Cromha Empire"
 	habitable nan
 	link Wel'y
@@ -29780,7 +29780,7 @@ system Homeward
 			minables uranium 4 6.18515
 
 system Host
-	pos 384.431 -543.812
+	pos 338.431 -548.812
 	government Uninhabited
 	habitable 490
 	asteroids "large metal" 1 0.732
@@ -31223,7 +31223,7 @@ system Ipsing
 			haze _menu/haze-67
 
 system Irn'o
-	pos 610 -490
+	pos 447 -558
 	government "Cromha Empire"
 	habitable nan
 	link "Ring Wartrue"
@@ -37411,7 +37411,7 @@ system Lifdot
 			hazard "lifdot neutron hazard" 2900
 
 system "Lim Ort"
-	pos 490 -350
+	pos 251 -649
 	government "Empire Rebels"
 	habitable nan
 	link "Los Asto"
@@ -38123,7 +38123,7 @@ system "Lone Cloud"
 		minables silicon 27 5.0224
 
 system "Los Asto"
-	pos 520 -400
+	pos 293 -654
 	government "Cromha Empire"
 	habitable nan
 	link "Los Calos"
@@ -38135,7 +38135,7 @@ system "Los Asto"
 	minables crystal 13 5.16891
 
 system "Los Calos"
-	pos 540 -430
+	pos 359 -582
 	government "Cromha Empire"
 	habitable nan
 	link Wel'y
@@ -38153,7 +38153,7 @@ system "Los Calos"
 	minables crystal 13 5.16891
 
 system "Los Faros"
-	pos 570 -400
+	pos 345 -641
 	government "Cromha Empire"
 	habitable nan
 	link "Los Calos"
@@ -44211,7 +44211,7 @@ system Nssryos
 		minables silver 6 5.13
 
 system Nugg'et
-	pos 630 -535
+	pos 453 -641
 	government "Cromha Empire"
 	habitable nan
 	link Irn'o
@@ -47621,7 +47621,7 @@ system Pherkad
 			haze _menu/haze-67
 
 system Phil'Ira
-	pos 540 -545
+	pos 424 -467
 	government "Cromha Empire"
 	habitable nan
 	link "Ring Wartrue"
@@ -47685,7 +47685,7 @@ system Phil'Ira
 			minables crystal 13 5.45
 
 system Phil'Rima
-	pos 520 -565
+	pos 389 -458
 	government "Cromha Empire"
 	habitable nan
 	link Phil'Ira
@@ -51435,7 +51435,7 @@ system Rigel
 			minables tungsten 5 13.3277
 
 system "Ring Wartrue"
-	pos 530 -490
+	pos 428 -504
 	government "Cromha Empire"
 	habitable nan
 	link All'Estros
@@ -63082,7 +63082,7 @@ system Wei
 			belt 1927
 
 system Wel'y
-	pos 550 -465
+	pos 398 -560
 	government "Cromha Empire"
 	habitable nan
 	link "Ring Wartrue"
