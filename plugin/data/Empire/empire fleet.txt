@@ -2,6 +2,8 @@ fleet cromha-fleet
 	government "Cromha Empire"
 	names "empire fleet names"
 	fighters "empire fleet names"
+	personality heroic
+		plunders
 	cargo 3
 	commodities Medical Electronics Equipment Military
 	outfitters Base-outfitter Basic-ammo-outfitter
@@ -85,6 +87,8 @@ fleet cromha-fleet
 fleet mineria-transports
 	government "Mineria colonnies"
 	names "empire fleet names"
+	personality heroic
+		disables
 	commodities "Heavy Metals" Equipment Medical Electronics Military "Luxury Goods"
 	outfitters Base-outfitter Advanced-ammo-outfitter
 	cargo 9
@@ -172,7 +176,7 @@ fleet cromha-merchants
 	names "civilian"
 	outfitter "Base-outfitter"
 	cargo 7
-	personality timid frugal appeasing harvests
+	personality timid frugal appeasing harvests disables
 		confusion 40
 	# Transports
 	variant 1
