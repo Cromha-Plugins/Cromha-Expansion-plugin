@@ -20,7 +20,7 @@ class Push:
       # Adding files to the commit
       print("Adding files to the commit...")
       
-      repo = git.Repo('../.git')
+      repo = git.Repo('.git')
       repo.git.add("plugin/")
       repo.git.add(".devs/")
       repo.git.add("copyright")
