@@ -272,7 +272,7 @@ outfit "Disruption Afterburnner"
 	"engine capacity" 8
 	"afterburner thrust" 22.3
 	"afterburner fuel" 0.3
-	"afterburner disruption" 0.3
+	"afterburner disruption" .03
 	"afterburner effect" "disruption afterburner"
 
 effect "disruption afterburner"
