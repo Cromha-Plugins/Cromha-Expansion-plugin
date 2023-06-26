@@ -22,9 +22,9 @@ WriteData () {
       echo "$data_map_wormholes" >> "$map_global"
 }
 
-map_global="devs/map global.txt"
+map_global="devs/editor plugin/data/map global.txt"
 if test -f "$map_global"; then
-      rm -r "devs/map global.txt"
+      rm -r "devs/editor plugin/data/map global.txt"
       WriteData
 else
       WriteData
