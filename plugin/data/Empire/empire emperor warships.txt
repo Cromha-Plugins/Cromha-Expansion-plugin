@@ -1,0 +1,505 @@
+ship "Empire Fortress" "Empire Fortress (Emperor)"
+	sprite "ship/empire fortress"
+	thumbnail "thumbnail/empire fortress"
+	"swizzle" 1
+	attributes
+		category "World Ship"
+		cost 999999999999
+		mass 10000
+		"atmosphere scan" 100
+		bunks 31920
+		"cargo space" 3400
+		drag 0.9
+		"engine capacity" 9000
+		"fuel capacity" 200
+		"gun ports" 27
+		"heat dissipation" 198
+		hull 9e+09
+		"outfit space" 19000
+		"required crew" 1940
+		shields 1996420
+		"solar collection" 4.2
+		"turret mounts" 30
+		"weapon capacity" 9000
+	outfits
+		"Alldust Beam Turret" 7
+		"Antimatter Railgun" 4
+		Brig 6
+		"Bunk Room" 4
+		"Catalytic Ramscoop" 4
+		"Cloaking Module"
+		"Countermesure Module Compact" 220
+		"Disruption Afterburnner" 2
+		"Empire Barricade" 75
+		"Empire Defense Station" 80
+		"Empire Hai Gorge Batteries" 10
+		"Empire Hai Ravine Batteries" 6
+		"Empire Hai Valley Batteries" 4
+		"Empire Nuke" 9
+		"Empire Shielding Core" 30
+		"Empire Torpedo Bank" 6
+		"Empire Torpedo Missile" 900
+		"Empire Torpedo Rack" 70
+		"Empire Typhoon Bank" 4
+		"Fuel Cell" 6
+		"Grab-Strike Blaze" 7
+		"Mineria Key Stone"
+		"Multiphasic Ammo Rack" 18
+		"Multiphasic Anti-Missile" 8
+		"Multiphasic Cooler" 35
+		"Multiphasic Scanner" 8
+		"Multiphasic ammo" 10200
+		"Nuclavoltaic Turret" 8
+		"One-Phasic Cooler" 45
+		"Phasic Grenades" 100
+		"Phasic Mine Layer" 4
+		"Phasic Mine Rack" 70
+		"Phasic Rifle" 100
+		"Phasic-Cluster Mine" 698
+		"Plasma Fuel Pod" 4
+		"Quantum Generator" 18
+		"RC-220 Atomic Thruster" 4
+		"RC-225 Atomic Steering" 6
+		"RC-X1 Multiphasic Reactor" 9
+		"RC-X2 Multiphasic Reactor" 8
+		"RC-X3 Multiphasic Reactor" 5
+		"RC-X4 Multiphasic Reactor" 8
+		"Railgun Slug" 5120
+		"Railgun Slug Rack" 10
+		"Small Bunk Room" 4
+		"Small Empire Shielding Core" 45
+		"Teleportation Dock" 50
+		"Thermal Nucleavoltaic" 12
+		"Tre-Phasic Plasma Drive"
+		"Tre-Phasic Rifle" 30
+		"Tri-Phasic Hyperdrive"
+	shields 1996420
+	hull 9e+09
+	engine 0 481.5
+		zoom 1.7
+		angle 0
+		under
+	engine -135.5 444
+		zoom 1.6
+		angle 0
+		under
+	engine 135.5 444
+		zoom 1.6
+		angle 0
+		under
+	engine -88.5 430.5
+		zoom 0.7
+		angle 0
+		under
+	engine 88.5 430.5
+		zoom 0.7
+		angle 0
+		under
+	engine -77 436
+		zoom 0.7
+		angle 0
+		under
+	engine 77 436
+		zoom 0.7
+		angle 0
+		under
+	engine -46 454.5
+		zoom 0.8
+		angle 0
+		under
+	engine 46 454.5
+		zoom 0.8
+		angle 0
+		under
+	"reverse engine" -90 -464
+		zoom 0.8
+		angle -360
+		under
+	"reverse engine" 90 -464
+		zoom 0.8
+		angle -360
+		under
+	"reverse engine" -115.5 -445.5
+		zoom 0.7
+		angle -360
+		under
+	"reverse engine" 115.5 -445.5
+		zoom 0.7
+		angle -360
+		under
+	"steering engine" -90 -464
+		zoom 0.7
+		angle -180
+		under
+		left
+	"steering engine" 90 -464
+		zoom 0.7
+		angle -180
+		under
+		right
+	"steering engine" -115.5 -445.5
+		zoom 0.6
+		angle -180
+		under
+		left
+	"steering engine" 115.5 -445.5
+		zoom 0.6
+		angle -180
+		under
+		right
+	"steering engine" -152.5 -270
+		zoom 0.6
+		angle 45
+		under
+		right
+	"steering engine" 152.5 -270
+		zoom 0.6
+		angle -45
+		under
+		left
+	"steering engine" -172 169
+		zoom 0.6
+		angle 135
+		under
+		left
+	"steering engine" 172 169
+		zoom 0.6
+		angle -135
+		under
+		right
+	"steering engine" -135.5 444
+		zoom 1.2
+		angle 0
+		under
+		right
+	"steering engine" 135.5 444
+		zoom 1.2
+		angle 0
+		under
+		left
+	turret -129.5 -176 "Multiphasic Anti-Missile"
+		over
+	turret 129.5 -176 "Multiphasic Anti-Missile"
+		over
+	turret -18 18 "Multiphasic Anti-Missile"
+		over
+	turret -75 164 "Multiphasic Anti-Missile"
+		over
+	turret -22 -230.5 "Multiphasic Anti-Missile"
+		over
+	turret 21 -196.5 "Multiphasic Anti-Missile"
+		over
+	turret -41.5 -100.5 "Multiphasic Anti-Missile"
+		over
+	turret -122.5 -349 "Multiphasic Anti-Missile"
+		over
+	turret 63.5 130.5 "Grab-Strike Blaze"
+		over
+	turret 0 -439 "Grab-Strike Blaze"
+		over
+	turret -154 -86 "Alldust Beam Turret"
+		over
+	turret 145.5 184 "Alldust Beam Turret"
+		over
+	turret -147.5 172.5 "Alldust Beam Turret"
+		over
+	turret 129 -299 "Alldust Beam Turret"
+		over
+	turret -141.5 -286.5 "Alldust Beam Turret"
+		over
+	turret 39 -337.5 "Alldust Beam Turret"
+		over
+	turret -131 -409.5 "Alldust Beam Turret"
+		over
+	turret 28 0 "Grab-Strike Blaze"
+		over
+	turret -77.5 283 "Nuclavoltaic Turret"
+		over
+	turret 28 310.5 "Nuclavoltaic Turret"
+		over
+	gun -163 -434 "Phasic Mine Layer"
+		under
+	gun -178.5 -419.5 "Empire Typhoon Bank"
+		under
+	gun -185 83 "Empire Typhoon Bank"
+		angle -180
+		under
+	gun 163 -434 "Phasic Mine Layer"
+		under
+	gun 178.5 -419.5 "Empire Typhoon Bank"
+		under
+	gun 185 83 "Empire Typhoon Bank"
+		angle -180
+		under
+	gun -163 -434 "Antimatter Railgun"
+		under
+	gun -178.5 -419.5 "Antimatter Railgun"
+		under
+	gun -185 83 "Phasic Mine Layer"
+		angle -180
+		under
+	gun 163 -434 "Antimatter Railgun"
+		under
+	gun 178.5 -419.5 "Antimatter Railgun"
+		under
+	gun 185 83 "Phasic Mine Layer"
+		angle -180
+		under
+	gun -163 -434 "Empire Torpedo Bank"
+		under
+	gun -178.5 -419.5 "Empire Torpedo Bank"
+		under
+	gun -185 83 "Empire Torpedo Bank"
+		angle -180
+		under
+	gun 163 -434 "Empire Torpedo Bank"
+		under
+	gun 178.5 -419.5 "Empire Torpedo Bank"
+		under
+	gun 185 83 "Empire Torpedo Bank"
+		angle -180
+		under
+	gun 55 -325 "Empire Nuke"
+		over
+	gun 51.5 -409 "Empire Nuke"
+		over
+	gun -45.5 -403.5 "Empire Nuke"
+		over
+	gun -95.5 168.5 "Empire Nuke"
+		over
+	gun 97 171 "Empire Nuke"
+		over
+	gun -68 231.5 "Empire Nuke"
+		over
+	gun 72 234 "Empire Nuke"
+		over
+	gun -127 1.5 "Empire Nuke"
+		over
+	gun 124.5 -303.5 "Empire Nuke"
+		over
+	turret 40 -403.5 "Nuclavoltaic Turret"
+		over
+	turret -55.5 -312 "Nuclavoltaic Turret"
+		over
+	turret 135 -165.5 "Nuclavoltaic Turret"
+		over
+	turret -121.5 -164 "Nuclavoltaic Turret"
+		over
+	turret -124 24 "Nuclavoltaic Turret"
+		over
+	turret 107 86 "Nuclavoltaic Turret"
+		over
+	turret -97.5 165 "Grab-Strike Blaze"
+		over
+	turret 27.5 299 "Grab-Strike Blaze"
+		over
+	turret -27.5 299 "Grab-Strike Blaze"
+		over
+	turret 107 -86 "Grab-Strike Blaze"
+		over
+	bay Nanobot 61.5 -175.5
+		over
+	bay Nanobot 63.5 -144.5
+		over
+	bay Nanobot 58.5 -117
+		over
+	bay Nanobot 24 -173
+		over
+	bay Nanobot 22 -147.5
+		over
+	bay Nanobot 24.5 -116
+		over
+	bay Nanobot -61.5 -175.5
+		over
+	bay Nanobot -63.5 -144.5
+		over
+	bay Nanobot -58.5 -117
+		over
+	bay Nanobot -24 -173
+		over
+	bay Nanobot -22 -147.5
+		over
+	bay Nanobot -24.5 -116
+		over
+	leak "empire flame" 75 60
+	leak "empire leak" 20 60
+	leak "empire big leak" 96 60
+	leak "empire big leak" 34 60
+	explode "empire huge explosion" 50
+	explode "empire medium explosion" 90
+	explode "empire small explosion" 45
+	explode "empire tiny explosion" 30
+	"final explode" "black manta explosion" 1
+	description "The Original Empire Fortress, is a massive fortress that can contain a small city with its 32,000 bunks. It has been designed to explore every place of the galaxy. It's with this enormous ship that The Empire has a so much detailed map of the space. It can contains several nanobots and more cargo that you would ever need. It might be the most powerful and polyvalent ship you've ever seen."
+	description "Noone know how many of these ships remains in the galaxy; probably only a decade but The Empire stil use it for long missions in the advanced korath space or for futures collonisations. The Empire uses one of the remaining Empire Fortress for keeping contact with the Coalition and deliver food and technologies supplies."
+
+ship "Empire Kraken" "Empire Kraken (Emperor)"
+      sprite "ship/Empire Kraken"
+	thumbnail "thumbnail/Empire Kraken"
+	"never disabled"
+	swizzle 1
+	attributes
+		category Destroyer
+		cost 1000000000000
+		mass 1800
+		bunks 155
+		"cargo space" 158
+		drag 5
+		"engine capacity" 1900
+		"fuel capacity" 650
+		"gun ports" 8
+		"heat dissipation" 0.9
+		hull 365000
+		"outfit space" 10000
+		"required crew" 95
+		shields 475000
+		"turret mounts" 21
+		"weapon capacity" 1900
+	outfits
+		"Alldust Beam Turret" 7
+		Brig 13
+		"Bunk Room" 5
+		"Catalytic Ramscoop" 4
+		"Cloaking Module"
+		"Countermesure Module" 15
+		"Countermesure Module Compact" 15
+		"Disruption Afterburnner" 2
+		"Empire Barricade" 55
+		"Empire Defense Station" 75
+		"Empire Hai Gorge Batteries" 2
+		"Empire Hai Ravine Batteries" 6
+		"Empire Hai Valley Batteries" 2
+		"Empire Navy Emitter" 6
+		"Empire Nuke" 2
+		"Empire Shielding Core" 15
+		"Empire Torpedo Bank" 2
+		"Empire Torpedo Missile" 630
+		"Empire Torpedo Rack" 55
+		"Empire Typhoon Bank" 2
+		"Fuel Cell" 2
+		"Grab-Strike Blaze" 3
+		"Mineria Key Stone"
+		"Multiphasic Ammo Rack" 25
+		"Multiphasic Anti-Missile" 3
+		"Multiphasic Cooler" 8
+		"Multiphasic Scanner" 4
+		"Multiphasic ammo" 9300
+		"Nanobot Pod" 8
+		"Nuclavoltaic Turret" 8
+		"One-Phasic Cooler" 8
+		"Phasic Dwarf Core" 6
+		"Phasic Grenades" 95
+		"Phasic Mine Layer" 2
+		"Phasic Mine Rack" 35
+		"Phasic Rifle" 95
+		"Phasic-Cluster Mine" 349
+		"Plasma Fuel Pod" 2
+		"Quantum Generator" 8
+		"RC-220 Atomic Thruster" 8
+		"RC-225 Atomic Steering" 6
+		"RC-X1 Multiphasic Reactor" 8
+		"RC-X2 Multiphasic Reactor" 6
+		"RC-X3 Multiphasic Reactor" 6
+		"RC-X4 Multiphasic Reactor" 4
+		"Small Bunk Room" 9
+		"Small Empire Shielding Core" 35
+		"Teleportation Dock" 12
+		"Thermal Nucleavoltaic" 12
+		"Tre-Phasic Rifle" 10
+		"Tri-Phasic Hyperdrive"
+	shields 475000
+	hull 365000
+	engine -62.5 206.5
+		zoom 1.2
+		angle 0
+		under
+	engine -25 238.5
+		zoom 1
+		angle 0
+		under
+	engine 62.5 206.5
+		zoom 1.2
+		angle 0
+		under
+	engine 25 238.5
+		zoom 1
+		angle 0
+		under
+	"reverse engine" 67 67.5
+		zoom 1.5
+		angle -360
+		under
+	"reverse engine" -67 67.5
+		zoom 1.5
+		angle -360
+		under
+	gun -8 -212 "Phasic Mine Layer"
+		under
+	gun 8 -212 "Phasic Mine Layer"
+		under
+	gun -16 -158 "Empire Typhoon Bank"
+		under
+	gun 16 -158 "Empire Typhoon Bank"
+		under
+	turret -37 -150 "Nuclavoltaic Turret"
+		over
+	turret 37 -150 "Nuclavoltaic Turret"
+		over
+	turret -38 -132 "Nuclavoltaic Turret"
+		over
+	turret 38 -132 "Nuclavoltaic Turret"
+		over
+	turret -40 -111 "Nuclavoltaic Turret"
+		over
+	turret 40 -111 "Nuclavoltaic Turret"
+		over
+	turret -102 188 "Alldust Beam Turret"
+		over
+	turret 102 188 "Alldust Beam Turret"
+		over
+	turret -32.5 99.5 "Alldust Beam Turret"
+		over
+	turret -59.5 122.5 "Alldust Beam Turret"
+		over
+	turret -72 150 "Nuclavoltaic Turret"
+		over
+	turret 32.5 99.5 "Alldust Beam Turret"
+		over
+	turret 59.5 122.5 "Alldust Beam Turret"
+		over
+	turret 72 150 "Nuclavoltaic Turret"
+		over
+	turret 0 195 "Alldust Beam Turret"
+		over
+	turret 0 98 "Multiphasic Anti-Missile"
+		over
+	turret 0 31 "Grab-Strike Blaze"
+		over
+	turret 0 -31 "Multiphasic Anti-Missile"
+		over
+	turret 0 -119 "Grab-Strike Blaze"
+		over
+	turret 0 -147 "Multiphasic Anti-Missile"
+		over
+	turret 0 -177.5 "Grab-Strike Blaze"
+		over
+	gun -67 66.5 "Empire Nuke"
+		under
+	gun 16.5 -67.5 "Empire Nuke"
+		under
+	gun 67 66.5 "Empire Torpedo Bank"
+		under
+	gun -16.5 -67.5 "Empire Torpedo Bank"
+		under
+	bay "Fuel Pod" 0 0
+		"launch effect" "basic launch"
+	bay "Fuel Pod" 0 0
+		"launch effect" "basic launch"
+	leak "empire leak" 30 50
+	leak "empire flame" 30 80
+	leak "empire big leak" 30 30
+	explode "empire huge explosion" 10
+	explode "empire medium explosion" 90
+	explode "empire tiny explosion" 65
+	"final explode" "empire huge explosion" 1
+	description "The Empire Destroyer is more than just a warship: it is practically a mobile space station, with docking bays for an entire squadron of drones and fighters and enough crew to fill a small village. Although designed primarily for engaging enemies from a distance, a Carrier can also do significant damage in close combat."

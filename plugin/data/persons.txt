@@ -1,0 +1,17 @@
+person "Cromha Emperor"
+      frequency 700000
+      government "Cromha Empire"
+      personality heroic
+            plunders
+            harvests
+            appeasing
+            mute
+            confusion 1
+      system
+            government "Cromha Empire"
+      # Ships
+      # Emperor
+      ship "Empire Fortress (Emperor)" "Cromha Emperor"
+      #Escorts
+      ship "Empire Kraken (Emperor)" "empire emperor fleet names"
+      ship "Empire Kraken (Emperor)" "empire emperor fleet names"

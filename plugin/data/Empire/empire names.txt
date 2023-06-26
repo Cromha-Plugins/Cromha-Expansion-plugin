@@ -15,3 +15,23 @@ phrase "empire fleet names"
 		"-"
 	phrase
 		"digit"
+
+phrase "empire emperor fleet names"
+	word
+		"Emperor "
+	word
+		"Z-"
+	phrase
+		"digit"
+	phrase
+		"digit"
+	phrase
+		"-"
+	phrase
+		"letter"
+	phrase
+		"letter"
+	phrase
+		"-"
+	phrase
+		"digit"

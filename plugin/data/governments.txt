@@ -37,7 +37,7 @@ government "Cromha Empire"
 		"Quarg" 1
 	"death sentence" "empire imprisonment"
 	raid empire-rebels-raiders
-	swizzle 0
+	swizzle 1
 	color .415 .553 1
 	bribe 0
 	fine 17
@@ -167,7 +167,7 @@ government "Mineria colonnies"
 		"Quarg" 1
 	"death sentence" "empire imprisonment"
 	raid empire-rebels-raiders
-	swizzle 0
+	swizzle 1
 	color "shields"
 	bribe 0
 	fine 5

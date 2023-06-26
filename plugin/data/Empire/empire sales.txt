@@ -281,3 +281,4 @@ shipyard Advanced-lifdot-industries-shipyard
 	"Empire Classik"
 	"Empire Daggrez"
 	"Empire Shall'ok"
+	"Empire Fortress (Emperor)"

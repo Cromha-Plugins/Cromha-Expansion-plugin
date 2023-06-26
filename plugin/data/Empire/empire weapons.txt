@@ -882,7 +882,7 @@ outfit "Phasic Mine Layer"
 		"homing" 4
 		"infrared tracking" .9
 		"missile strength" 35
-		"disruption damage" 70
+		"disruption damage" 78
 		"shield damage" 250
 		"hit force" -150
 		"stream"
@@ -902,7 +902,7 @@ outfit "Phasic Mine Submunition"
 		"random lifetime" 60
 		"acceleration" .00001
 		"drag" .05
-		"disruption damage" 700
+		"disruption damage" 89
 		"shield damage" 250
 		"hit force" 200
 		"missile strength" 22
