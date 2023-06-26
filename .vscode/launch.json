@@ -43,22 +43,6 @@
                   "program": "devs/update.py",
                   "console": "integratedTerminal",
                   "justMyCode": false
-            },
-            {
-                  "type": "bashdb",
-                  "request": "launch",
-                  "name": "CromhaEs: Dev Map",
-                  "cwd": "${workspaceFolder}",
-                  "program": "devs/compile map.sh",
-                  "args": []
-            },
-            {
-                  "name": "!CromhaES: Dev Map",
-                  "type": "python",
-                  "request": "launch",
-                  "program": "devs/compile map.py",
-                  "console": "integratedTerminal",
-                  "justMyCode": false
             }
       ]
 }
