@@ -76,6 +76,8 @@ outfit "Multiphasic Capacitor"
 outfit "Phasic Dwarf Core"
 	category "Power"
 	cost 950000
+	licenses
+		"Empire Contributor"
 	thumbnail "outfit/dwarf core empire"
 	"mass" 15
 	"outfit space" -12
