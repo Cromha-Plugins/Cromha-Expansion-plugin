@@ -4,14 +4,14 @@ government "Cromha Empire"
 	"crew attack" 29
 	"crew defense" 56
 	"penalty for"
-		assist -0.4
-		disable 1.4
-		board 2.6
-		capture 15
-		destroy 12
-		scan 0.1
-		provoke 1
-		atrocity 20
+		assist -1.6
+		disable 2.9
+		board 4.9
+		capture 100
+		destroy 85
+		scan 0.5
+		provoke 1.7
+		atrocity 200
 	"attitude toward"
 		"Empire Rebels" -3
 		Merchant 1
@@ -40,7 +40,7 @@ government "Cromha Empire"
 	swizzle 0
 	color .415 .553 1
 	bribe 0
-	fine 7
+	fine 17
 	"provoked on scan"
 	illegals
 		"Interference Plating" 7000
@@ -49,6 +49,14 @@ government "Cromha Empire"
 		"Small Interference Emitter" 5000
 		"Nerve Gas" 1500
 		"Ayym Parts" 7800
+		"Nanotech Battery" 100000
+		"Antimatter Core" 100000
+		"Quarg Skylance" 100000
+		"Quarg Anti-Missile" 100000
+		"Intrusion Countermeasures" 100000
+		"Medium Graviton Thruster" 100000
+		"Medium Graviton Steering" 100000
+		"Quantum Shield Generator" 100000
 	atrocities
 		"Nanotech Battery"
 		"Antimatter Core"
