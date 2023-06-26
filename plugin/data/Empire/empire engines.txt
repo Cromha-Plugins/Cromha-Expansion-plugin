@@ -272,11 +272,11 @@ outfit "Disruption Afterburnner"
 	"engine capacity" 8
 	"afterburner thrust" 22.3
 	"afterburner fuel" 0.3
-	"afterburner disruption" 1.7
+	"afterburner disruption" 0.3
 	"afterburner effect" "disruption afterburner"
 
 effect "disruption afterburner"
-	sprite "effect/afterburner/disruption afterburner"
+	sprite "effect/afterburner/disruption afterburnner"
 		scale 1.4
 		"no repeat"
 		"frame rate" 30
