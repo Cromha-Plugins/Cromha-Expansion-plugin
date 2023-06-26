@@ -15,6 +15,7 @@ outfitter Base-outfitter
 	"Mineria Key Stone"
 	"One-Phasic Cooler"
 	"Nitrogen Afterburnner"
+	"Disruption Afterburnner"
 	"Multiphasic Capacitor"
 	"Tre-Phasic Rifle"
 	"Empire Barricade"

@@ -1,12 +1,12 @@
 outfit "Nitrogen Afterburnner"
-    cost 75000
-    category "Engines"
-    thumbnail "outfit/nitrogen afterburnner"
-    "mass" 15
-    "outfit space" -5
-    "engine capacity" 5
-    "afterburner thrust" 15.8
-    "afterburner fuel" 0.1
+	cost 75000
+	category "Engines"
+	thumbnail "outfit/nitrogen afterburnner"
+	"mass" 15
+	"outfit space" -5
+	"engine capacity" 5
+	"afterburner thrust" 15.8
+	"afterburner fuel" 0.1
 	"afterburner heat" 3.2
 	"afterburner effect" "nitrogen afterburner"
 

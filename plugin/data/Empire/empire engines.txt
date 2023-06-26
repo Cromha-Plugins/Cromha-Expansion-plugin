@@ -262,3 +262,28 @@ outfit `RC-225 Atomic Steering`
 		"frame rate" 11
 	"steering flare sound" "atomic large"
 	description "Nine out of ten human captains interviewed in Hai space say that they would choose Hai atomic engines over those of Deep Sky any day... that is, if they could afford such expensive engines."
+
+outfit "Disruption Afterburnner"
+	cost 75000
+	category "Engines"
+	thumbnail "outfit/disruption afterburnner"
+	"mass" 18
+	"outfit space" -8
+	"engine capacity" 8
+	"afterburner thrust" 22.3
+	"afterburner fuel" 0.3
+	"afterburner disruption" 1.7
+	"afterburner effect" "disruption afterburner"
+
+effect "disruption afterburner"
+	sprite "effect/afterburner/disruption afterburner"
+		scale 1.4
+		"no repeat"
+		"frame rate" 30
+	sound "korath afterburner"
+	"lifetime" 14
+	"random angle" 15
+	"random spin" 360
+	"random frame rate" 5
+	"random velocity" 1.
+	"velocity scale" 1
