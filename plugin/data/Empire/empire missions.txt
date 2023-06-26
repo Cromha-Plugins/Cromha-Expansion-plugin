@@ -16,6 +16,8 @@ mission caught-by-empire
     source
         government "Cromha Empire" "Mineria colonnies"
         not attributes uninhabited
+    to offer
+        "reputation: Cromha Empire" < -20
     on offer
         conversation "empire imprisonment reputation"
 
