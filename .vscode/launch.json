@@ -1,0 +1,56 @@
+{
+      // Use IntelliSense to learn about possible attributes.
+      // Hover to view descriptions of existing attributes.
+      // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+      "version": "0.2.0",
+      "configurations": [
+            {
+                  "name": "Python: Current",
+                  "type": "python",
+                  "request": "launch",
+                  "program": "${file}",
+                  "console": "integratedTerminal",
+                  "justMyCode": true
+            },
+            {
+                  "name": "Cromha-Expansion: User Install",
+                  "type": "python",
+                  "request": "launch",
+                  "program": "install.py",
+                  "console": "integratedTerminal",
+                  "justMyCode": false
+            },
+            {
+                  "name": "Python: User Update",
+                  "type": "python",
+                  "request": "launch",
+                  "program": "update.py",
+                  "console": "integratedTerminal",
+                  "justMyCode": false
+            },
+            {
+                  "name": "Python: Dev Push",
+                  "type": "python",
+                  "request": "launch",
+                  "program": "devs/push.py",
+                  "console": "integratedTerminal",
+                  "justMyCode": false
+            },
+            {
+                  "name": "Python: Dev Run",
+                  "type": "python",
+                  "request": "launch",
+                  "program": "devs/run.py",
+                  "console": "integratedTerminal",
+                  "justMyCode": false
+            },
+            {
+                  "name": "Python: Dev Update",
+                  "type": "python",
+                  "request": "launch",
+                  "program": "devs/update.py",
+                  "console": "integratedTerminal",
+                  "justMyCode": false
+            }
+      ]
+}
