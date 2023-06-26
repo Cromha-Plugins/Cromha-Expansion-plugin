@@ -38226,6 +38226,7 @@ system "Los Faros"
 			minables crystal 13 5.16891
 			object "Weila Station"
 				sprite planet/station6
+				government "Cromha Empire"
 				distance 785
 				period 110
 				hazard "Far Empire Triangle Hazard" 1000
