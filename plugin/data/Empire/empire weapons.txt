@@ -828,6 +828,8 @@ effect "nucleavoltaic repeater impact"
 outfit "Phasic-Cluster Mine"
 	category "Ammunition"
 	cost 3500
+	licenses
+		"Empire Contributor"
 	thumbnail "outfit/phasic mine"
 	"mass" .7
 	"phasic minelayer capacity" -1
@@ -838,6 +840,8 @@ outfit "Phasic Mine Rack"
 	cost 31500
 	thumbnail "outfit/phasic mine storage"
 	"mass" 2.7
+	licenses
+		"Empire Contributor"
 	"outfit space" -9
 	"phasic minelayer capacity" 9
 	ammo "Phasic-Phasic-Cluster Mine"
@@ -848,6 +852,8 @@ outfit "Phasic Mine Layer"
 	cost 1073000
 	thumbnail "outfit/phasic minelayer"
 	"mass" 36
+	licenses
+		"Empire Contributor"
 	"outfit space" -48
 	"weapon capacity" -48
 	"energy capacity" 50

@@ -266,6 +266,8 @@ outfit `RC-225 Atomic Steering`
 outfit "Disruption Afterburnner"
 	cost 75000
 	category "Engines"
+	licenses
+		"Empire Contributor"
 	thumbnail "outfit/disruption afterburnner"
 	"mass" 18
 	"outfit space" -8
