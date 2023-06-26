@@ -13,7 +13,7 @@
                   "justMyCode": true
             },
             {
-                  "name": "Cromha-Expansion: User Install",
+                  "name": "CromhaES: User Install",
                   "type": "python",
                   "request": "launch",
                   "program": "install.py",
@@ -21,7 +21,7 @@
                   "justMyCode": false
             },
             {
-                  "name": "Python: User Update",
+                  "name": "CromhaES: User Update",
                   "type": "python",
                   "request": "launch",
                   "program": "update.py",
@@ -29,7 +29,7 @@
                   "justMyCode": false
             },
             {
-                  "name": "Python: Dev Push",
+                  "name": "CromhaES: Dev Push",
                   "type": "python",
                   "request": "launch",
                   "program": "devs/push.py",
@@ -37,7 +37,7 @@
                   "justMyCode": false
             },
             {
-                  "name": "Python: Dev Run",
+                  "name": "CromhaES: Dev Run",
                   "type": "python",
                   "request": "launch",
                   "program": "devs/run.py",
@@ -45,7 +45,7 @@
                   "justMyCode": false
             },
             {
-                  "name": "Python: Dev Update",
+                  "name": "CromhaES: Dev Update",
                   "type": "python",
                   "request": "launch",
                   "program": "devs/update.py",

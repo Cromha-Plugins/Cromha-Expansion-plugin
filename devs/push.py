@@ -22,9 +22,9 @@ class Push:
       
       repo = git.Repo('.git')
       repo.git.add("plugin/")
-      repo.git.add(".devs/")
-      repo.git.add("copyright")
+      repo.git.add("devs/")
       repo.git.add("LICENSE")
+      repo.git.add(".vscode/")
       repo.git.add("README.md")
       repo.git.add("update.py")
       repo.git.add("install.py")
