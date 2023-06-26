@@ -46,28 +46,6 @@ government "Merchant"
 	"friendly hail" "friendly civilian"
 	"hostile hail" "hostile civilian"
 
-government "Empire Merchant"
-	swizzle 3
-	"player reputation" 10
-	"attitude toward"
-		"Pirate" -.2
-		"Pirate (Devil-Run Gang)" -.2
-		"Korath" -.2
-		"Empire Rebels" -2
-		"Cromha Empire" 5
-		"Mineria colonnies" 5
-		"Remnant" 2
-		"Quarg" 2
-		"Wanderer" 2
-		"Indigene Creature" 2
-		"Kor Sestor" -2
-		"Kor Mereti" -2
-		"Kor Efret" -2
-	"bribe" 0
-	"fine" 0
-	"friendly hail" "friendly civilian"
-	"hostile hail" "hostile civilian"
-
 government "Indigene Creature"
 	swizzle 1
 	color "governments: Ungoverned"
