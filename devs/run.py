@@ -13,7 +13,7 @@ class Run:
 	path = file.read()
 	# Copy plugin to plugins directory
 	source = "plugin/"
-	target = str(path) + "Cromha-expansion"
+	target = str(path) + "Cromha-expansion-plugin"
 	print("Re-installing the plugin to apply updates...")
 	copy_tree(source, target)
 	
