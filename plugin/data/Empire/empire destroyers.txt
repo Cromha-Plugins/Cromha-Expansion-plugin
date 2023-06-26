@@ -74,6 +74,9 @@ ship "Empire Kraken"
 	engine -62.5 206.5
 		zoom 1.2
 	engine -25 238.5
+	engine 62.5 206.5
+		zoom 1.2
+	engine 25 238.5
 	# Reverse
 	"reverse engine" 67 67.5
 		zoom 1.5
