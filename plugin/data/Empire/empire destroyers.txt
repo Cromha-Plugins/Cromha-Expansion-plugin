@@ -71,52 +71,9 @@ ship "Empire Kraken"
 		"Phasic Mine Rack" 25
 		"Tre-Phasic Rifle" 4
 	# Thrusters
-	engine -19.5 238
-		zoom 1.5
-	engine -25 237.5
-		zoom 1.5
-	engine -29.5 236
-		zoom 1.5
-	engine 19.5 238
-		zoom 1.5
-	engine 25 237.5
-		zoom 1.5
-	engine 29.5 236
-		zoom 1.5
-	# Left Steering
-	"steering engine" 40.5 -32.5
-		zoom 0.5
-		angle 300
-		left
-	"steering engine" 36.5 -53.5
-		zoom 0.5
-		angle 300
-		left
-	"steering engine" 34 -72.5
-		zoom 0.5
-		angle 300
-		left
-	"steering engine" 30 -92
-		zoom 0.5
-		angle 300
-		left
-	# Right Steering
-	"steering engine" -40.5 -32.5
-		zoom 0.5
-		angle 60
-		right
-	"steering engine" -36.5 -53.5
-		zoom 0.5
-		angle 60
-		right
-	"steering engine" -34 -72.5
-		zoom 0.5
-		angle 60
-		right
-	"steering engine" -30 -92
-		zoom 0.5
-		angle 60
-		right
+	engine -62.5 206.5
+		zoom 1.2
+	engine -25 238.5
 	# Reverse
 	"reverse engine" 67 67.5
 		zoom 1.5
