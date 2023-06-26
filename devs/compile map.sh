@@ -11,14 +11,23 @@ data_map_rebel_isolated_systems=$(cat "plugin/data/Maps/map rebel isolated syste
 data_map_wormholes=$(cat "plugin/data/Maps/map wormholes.txt")
 
 WriteData () {
+      echo "[VANILLA MAP]" >> "$map_global"
       echo "$data_vanilla_map" >> "$map_global"
+      echo "[MAP CHANGES]" >> "$mao_global"
       echo "$data_map_changes" >> "$map_global"
+      echo "[MAP EMPIRE EMBER WASTE]" >> "$map_global"
       echo "$data_map_empire_ember_waste" >> "$map_global"
+      echo "[MAP EMPIRE]" >> "$map_global"
       echo "$data_map_empire" >> "$map_global"
+      echo "[MAP FAR EMPIRE]" >> "$map_global"
       echo "$data_map_far_empire" >> "$map_global"
+      echo "[MAP MISC]" >> "$map_global"
       echo "$data_map_misc" >> "$map_global"
+      echo "[MAP REBEL DEEP]" >> "$map_global"
       echo "$data_map_rebel_deep" >> "$map_global"
+      echo "[MAP REBEL ISOLATED SYSTEMS]" >> "$map_global"
       echo "$data_map_rebel_isolated_systems" >> "$map_global"
+      echo "[MAP WORMHOLES]" >> "$map_global"
       echo "$data_map_wormholes" >> "$map_global"
 }
 
