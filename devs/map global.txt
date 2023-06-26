@@ -40138,7 +40138,7 @@ system "Volcanois"
 	attributes urban tourism inhabited frontier north volcanic "near earth" hai "empire space"
 	government "Cromha Empire"
 	fleet cromha-fleet 900
-	fleet cromha-transporters 700
+	fleet cromha-merchants 700
 	fleet mineria-transports 700
 	fleet cromha-miners 600
 	fleet cromha-merchants 800
@@ -40238,7 +40238,7 @@ system "Astroid"
 	attributes urban tourism inhabited mining factory farming "empire space"
 	government "Cromha Empire"
 	fleet cromha-fleet 900
-	fleet cromha-transporters 500
+	fleet cromha-merchants 500
 	fleet mineria-transports 500
 	fleet cromha-merchants 1000
 	link "Volcanois"
@@ -40615,7 +40615,7 @@ system "Lifdot"
 	government "Cromha Empire"
 	hazard "lifdot neutron hazard" 2900
 	fleet cromha-fleet 900
-	fleet cromha-transporters 550
+	fleet cromha-merchants 550
 	fleet mineria-transports 500
 	fleet cromha-merchants 800
 	link "Calor Stil"
@@ -40741,7 +40741,7 @@ system "Alpha Cromha"
 	attributes inhabited rich research military paradise mining factory north urban hai "empire space"
 	government "Cromha Empire"
 	fleet cromha-fleet 900
-	fleet cromha-transporters 850
+	fleet cromha-merchants 850
 	fleet mineria-transports 1000
 	fleet "Small Hai" 900
 	fleet cromha-merchants 1000
@@ -40874,7 +40874,7 @@ system "Beta Cromha"
 	attributes inhabited rich research military paradise mining factory north urban hai "empire space"
 	government "Cromha Empire"
 	fleet cromha-fleet 900
-	fleet cromha-transporters 850
+	fleet cromha-merchants 850
 	fleet mineria-transports 1000
 	fleet cromha-merchants 1000
 	fleet "Small Hai" 900
@@ -41767,7 +41767,7 @@ system "All'Estros"
 	attributes inhabited rich research military "far empire space"
 	government "Cromha Empire"
 	fleet cromha-fleet 1100
-	fleet cromha-transporters 850
+	fleet cromha-merchants 850
 	fleet mineria-transports 700
 	fleet cromha-merchants 800
 	haze _menu/haze-cyan
@@ -42868,7 +42868,7 @@ system "Alpha Hydri"
 	attributes "core" syndicate
 	fleet "Small Syndicate" 1200
 	fleet cromha-fleet 1200
-	fleet cromha-transporters 500
+	fleet cromha-merchants 500
 	fleet mineria-transports 600
 	fleet cromha-merchants 800
 	government "Cromha Empire"
@@ -42881,7 +42881,7 @@ system "Polaris"
 	attributes syndicate
 	fleet "Small Syndicate" 1200
 	fleet cromha-fleet 900
-	fleet cromha-transporters 500
+	fleet cromha-merchants 500
 	fleet mineria-transports 600
 	fleet cromha-merchants 1000
 	government "Cromha Empire"
@@ -42891,7 +42891,7 @@ system "Sheratan"
 	attributes "core" syndicate
 	fleet "Small Syndicate" 1200
 	fleet cromha-fleet 900
-	fleet cromha-transporters 500
+	fleet cromha-merchants 500
 	fleet cromha-merchants 1000
 	fleet mineria-transports 600
 	government "Cromha Empire"
@@ -42903,7 +42903,7 @@ system "Achernar"
 	fleet "Small Syndicate" 1200
 	fleet cromha-merchants 1000
 	fleet cromha-fleet 900
-	fleet cromha-transporters 500
+	fleet cromha-merchants 500
 	fleet mineria-transports 600
 	government "Cromha Empire"
 	link "Polaris"
@@ -42916,7 +42916,7 @@ system "Alpheratz"
 	fleet "Small Syndicate" 1200
 	fleet cromha-merchants 1000
 	fleet cromha-fleet 900
-	fleet cromha-transporters 500
+	fleet cromha-merchants 500
 	fleet mineria-transports 600
 	government "Cromha Empire"
 	link "Achernar"
@@ -42929,7 +42929,7 @@ system "Ruchbah"
 	fleet cromha-merchants 1000
 	government "Cromha Empire"
 	fleet cromha-fleet 900
-	fleet cromha-transporters 500
+	fleet cromha-merchants 500
 	fleet mineria-transports 600
 	link "Algol"
 	link "Hamal"

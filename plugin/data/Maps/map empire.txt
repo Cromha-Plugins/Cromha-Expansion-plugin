@@ -6,7 +6,7 @@ system "Volcanois"
 	attributes urban tourism inhabited frontier north volcanic "near earth" hai "empire space"
 	government "Cromha Empire"
 	fleet cromha-fleet 900
-	fleet cromha-transporters 700
+	fleet cromha-merchants 700
 	fleet mineria-transports 700
 	fleet cromha-miners 600
 	fleet cromha-merchants 800
@@ -106,7 +106,7 @@ system "Astroid"
 	attributes urban tourism inhabited mining factory farming "empire space"
 	government "Cromha Empire"
 	fleet cromha-fleet 900
-	fleet cromha-transporters 500
+	fleet cromha-merchants 500
 	fleet mineria-transports 500
 	fleet cromha-merchants 1000
 	link "Volcanois"
@@ -483,7 +483,7 @@ system "Lifdot"
 	government "Cromha Empire"
 	hazard "lifdot neutron hazard" 2900
 	fleet cromha-fleet 900
-	fleet cromha-transporters 550
+	fleet cromha-merchants 550
 	fleet mineria-transports 500
 	fleet cromha-merchants 800
 	link "Calor Stil"
@@ -609,7 +609,7 @@ system "Alpha Cromha"
 	attributes inhabited rich research military paradise mining factory north urban hai "empire space"
 	government "Cromha Empire"
 	fleet cromha-fleet 900
-	fleet cromha-transporters 850
+	fleet cromha-merchants 850
 	fleet mineria-transports 1000
 	fleet "Small Hai" 900
 	fleet cromha-merchants 1000
@@ -742,7 +742,7 @@ system "Beta Cromha"
 	attributes inhabited rich research military paradise mining factory north urban hai "empire space"
 	government "Cromha Empire"
 	fleet cromha-fleet 900
-	fleet cromha-transporters 850
+	fleet cromha-merchants 850
 	fleet mineria-transports 1000
 	fleet cromha-merchants 1000
 	fleet "Small Hai" 900

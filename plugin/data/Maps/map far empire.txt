@@ -4,7 +4,7 @@ system "All'Estros"
 	attributes inhabited rich research military "far empire space"
 	government "Cromha Empire"
 	fleet cromha-fleet 1100
-	fleet cromha-transporters 850
+	fleet cromha-merchants 850
 	fleet mineria-transports 700
 	fleet cromha-merchants 800
 	haze _menu/haze-cyan

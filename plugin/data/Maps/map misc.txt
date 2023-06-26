@@ -57,7 +57,7 @@ system "Alpha Hydri"
 	attributes "core" syndicate
 	fleet "Small Syndicate" 1200
 	fleet cromha-fleet 1200
-	fleet cromha-transporters 500
+	fleet cromha-merchants 500
 	fleet mineria-transports 600
 	fleet cromha-merchants 800
 	government "Cromha Empire"
@@ -70,7 +70,7 @@ system "Polaris"
 	attributes syndicate
 	fleet "Small Syndicate" 1200
 	fleet cromha-fleet 900
-	fleet cromha-transporters 500
+	fleet cromha-merchants 500
 	fleet mineria-transports 600
 	fleet cromha-merchants 1000
 	government "Cromha Empire"
@@ -80,7 +80,7 @@ system "Sheratan"
 	attributes "core" syndicate
 	fleet "Small Syndicate" 1200
 	fleet cromha-fleet 900
-	fleet cromha-transporters 500
+	fleet cromha-merchants 500
 	fleet cromha-merchants 1000
 	fleet mineria-transports 600
 	government "Cromha Empire"
@@ -92,7 +92,7 @@ system "Achernar"
 	fleet "Small Syndicate" 1200
 	fleet cromha-merchants 1000
 	fleet cromha-fleet 900
-	fleet cromha-transporters 500
+	fleet cromha-merchants 500
 	fleet mineria-transports 600
 	government "Cromha Empire"
 	link "Polaris"
@@ -105,7 +105,7 @@ system "Alpheratz"
 	fleet "Small Syndicate" 1200
 	fleet cromha-merchants 1000
 	fleet cromha-fleet 900
-	fleet cromha-transporters 500
+	fleet cromha-merchants 500
 	fleet mineria-transports 600
 	government "Cromha Empire"
 	link "Achernar"
@@ -118,7 +118,7 @@ system "Ruchbah"
 	fleet cromha-merchants 1000
 	government "Cromha Empire"
 	fleet cromha-fleet 900
-	fleet cromha-transporters 500
+	fleet cromha-merchants 500
 	fleet mineria-transports 600
 	link "Algol"
 	link "Hamal"
