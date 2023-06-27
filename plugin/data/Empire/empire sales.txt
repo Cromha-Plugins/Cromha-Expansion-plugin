@@ -299,4 +299,3 @@ shipyard Advanced-lifdot-industries-shipyard
 	"Flivver (Empire)"
 	"Fury (Empire)"
 	"Headhunter (Empire)"
-
