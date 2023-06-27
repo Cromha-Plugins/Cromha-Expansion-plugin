@@ -49,6 +49,7 @@ government "Empire Merchant"
 		"" -3
 		"Cromha Empire" 5
 		"Indigene Creature" 2
+		"Mineria colonnies" 2
 		"Kor Efret" -2
 		"Kor Mereti" -2
 		"Kor Sestor" -2
