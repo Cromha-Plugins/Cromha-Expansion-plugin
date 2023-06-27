@@ -4,7 +4,7 @@ government "Cromha Empire"
 	"crew attack" 29
 	"crew defense" 56
 	"attitude toward"
-		"Empire Rebels" 5
+		"Empire Rebels" 3
 		Bounty -1
 		"Bounty Hunter" -1
 		Hai 1
@@ -16,8 +16,6 @@ government "Cromha Empire"
 		"Kor Efret" -3
 		"Kor Mereti" -3
 		"Kor Sestor" -3
-		"Mineria colonnies" 5
-		"Empire Merchant" 3
 		Korath -2
 		Merchant 1
 		Neutral 0.1
@@ -46,10 +44,9 @@ government "Empire Merchant"
 	color 0.076 0.105 0.407
 	"player reputation" 10
 	"attitude toward"
-		"" -3
+		"" 2
 		"Cromha Empire" 5
 		"Indigene Creature" 2
-		"Mineria colonnies" 2
 		"Kor Efret" -2
 		"Kor Mereti" -2
 		"Kor Sestor" -2
@@ -99,9 +96,9 @@ government "Mineria colonnies"
 		"" -3
 		Bounty -1
 		"Bounty Hunter" -1
+		"Cromha Empire" 5
 		"Empire Merchant" 2
 		"Empire Rebels" -3
-		"Cromha Empire" 5
 		Hai 1
 		"Hai (Unfettered)" -1
 		"Hai Merchant" 1
@@ -174,3 +171,27 @@ government "Empire Merchant (outlaw)"
 	fine 0
 	"friendly hail" "friendly civilian"
 	"hostile hail" "hostile civilian"
+
+government "Remnant (Far Empire)"
+	"display name" Remnant
+	swizzle 26
+	color 0.89 0.38 0.62
+	"player reputation" 1
+	"crew defense" 2.2
+	"attitude toward"
+		"Empire Rebels" 5
+		Alpha -0.05
+		"Remnant (Research)" 1
+		Alpha -0.05
+		"Indigenous Lifeform" 0.05
+		Korath -0.05
+		"Remnant (Research)" 1
+	"penalty for"
+		assist -0.25
+		disable 1
+		board 1
+		capture 10
+		destroy 10
+	"friendly hail" "remnant uncontacted"
+	"hostile hail" "remnant uncontacted hostile"
+

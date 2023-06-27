@@ -3727,7 +3727,7 @@ planet "Astra Luh"
 
 system Nugg'es
 	pos 409.334 -559.445
-	government Remnant
+	government "Remnant (Far Empire)"
 	attributes "far empire space" inhabited remnant wormhole
 	haze _menu/haze-cyan
 	link ""
@@ -3744,9 +3744,9 @@ system Nugg'es
 	trade Medical 705
 	trade Metal 469
 	trade Plastic 519
-	fleet "Light Remnant Defense" 650
+	fleet "Light Far Remnant Defense" 650
 	fleet "Small Remnant" 750
-	fleet "Remnant Transport" 850
+	fleet "Far Remnant Transport" 850
 	hazard "Far Empire Space Hazard" 9000
 	object
 		sprite star/xggiant
@@ -3768,11 +3768,11 @@ system Nugg'es
 			period 120
 
 planet Hozt
-	attributes remnant
+	attributes "remnant far empire"
 	landscape land/Hozt
 	description "Hozt is the Empire Remnant Home planet.It is here that all started and their capital."
 	spaceport "It sure not a big spaceport but it is very agreable since it is in a forest so the air is kinda fresh"
-	government Remnant
+	government "Remnant (Far Empire)"
 	shipyard Remnant
 	shipyard "Remnant Puffin"
 	shipyard "Remnant Salvage Ships"
@@ -3781,13 +3781,13 @@ planet Hozt
 	outfitter "Remnant Salvage"
 	tribute 4000
 		threshold 8500
-		fleet "Heavy Remnant Defense"
-		fleet "Light Remnant Defense"
-		fleet "Remnant Decoy Defense"
+		fleet "Heavy Far Remnant Defense" 20
+		fleet "Light Far Remnant Defense" 20
+		fleet "Far Remnant Decoy Defense" 8
 
 system Nugg'ys
 	pos 393.001 -542.889
-	government Remnant
+	government "Remnant (Far Empire)"
 	attributes "far empire space" inhabited remnant wormhole
 	habitable 7124.298
 	belt 1633 10
@@ -3812,9 +3812,9 @@ system Nugg'ys
 	trade Medical 461
 	trade Metal 502
 	trade Plastic 462
-	fleet "Light Remnant Defense" 650
-	fleet "Small Remnant" 750
-	fleet "Remnant Transport" 850
+	fleet "Light Far Remnant Defense" 650
+	fleet "Small Far Remnant" 750
+	fleet "Far Remnant Transport" 850
 	hazard "Far Empire Space Hazard" 2500
 	object
 		sprite star/o-dwarf
@@ -3855,11 +3855,11 @@ system Nugg'ys
 			period 192.503
 
 planet "For Mars"
-	attributes factory military remnant
+	attributes factory "far remnant" military
 	landscape land/For_mars
 	description "For Mars is a very small planet with lot of deserts on it. The Remnant that move to the Far Empire space have built an factory for their ships and outfits since it was one of the few planets and systems that have the same resources that the Remnant Core systems."
 	spaceport "The spaceport is kind of minimal, several ships are docked to the spaceport but not that much. It seems that there isn't that much activity on the spaceport."
-	government Remnant
+	government "Remnant (Far Empire)"
 	shipyard Remnant
 	outfitter Remnant
 	"required reputation" 11
@@ -3867,8 +3867,8 @@ planet "For Mars"
 	security 1
 	tribute 2500
 		threshold 8000
-		fleet "Heavy Remnant Defense" 16
-		fleet "Remnant Decoy Defense" 11
+		fleet "Heavy Far Remnant Defense" 16
+		fleet "Far Remnant Decoy Defense" 11
 
 planet "Salt Al"
 	attributes uninhabited
@@ -3879,9 +3879,6 @@ planet "Salt Al"
 	outfitter ""
 	bribe 0
 	security 0
-		threshold 8000
-		fleet "Heavy Remnant Defense" 16
-		fleet "Remnant Decoy Defense" 11
 
 planet "Salt Station"
 	attributes factory uninhabited
