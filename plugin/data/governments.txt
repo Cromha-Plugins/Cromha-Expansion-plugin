@@ -24,6 +24,7 @@ government "Cromha Empire"
 		Remnant 1
 		Syndicate -3
 		Wanderer 3
+		"Remnant (Far Empire)" 3
 	"penalty for"
 		assist -1.6
 		disable 2.9
@@ -55,6 +56,7 @@ government "Empire Merchant"
 		Quarg 2
 		Remnant 2
 		Wanderer 2
+		"Remnant (Far Empire)" 3
 	fine 0
 	"friendly hail" "friendly civilian"
 	"hostile hail" "hostile civilian"
@@ -78,6 +80,7 @@ government "Empire Rebels"
 		Merchant -1
 		Pirate 2
 		Quarg -1
+		"Remnant (Far Empire)" -3
 		Remnant -3
 		Republic -1
 		Syndicate -1
@@ -116,6 +119,7 @@ government "Mineria colonnies"
 		Remnant 1
 		Syndicate -3
 		Wanderer 3
+		"Remnant (Far Empire)" 3
 	"penalty for"
 		assist -0.4
 		disable 1.4
