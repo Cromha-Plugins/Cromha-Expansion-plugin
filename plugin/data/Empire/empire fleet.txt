@@ -2,81 +2,77 @@ fleet cromha-fleet
 	government "Cromha Empire"
 	names "empire fleet names"
 	fighters "empire fleet names"
-	personality heroic
-		plunders
-	cargo 3
 	commodities Medical Electronics Equipment Military
-	outfitters Base-outfitter Basic-ammo-outfitter
-	# Police fleets
-	variant 1
+	outfitters Basic-ammo-outfitter Base-outfitter
+	personality
+		plunders heroic
+	variant
 		"Empire Skylark"
 		"Empire Wardragon" 2
 		"Empire Nanobot YLL'E" 2
-	variant 1
+	variant
 		"Empire Skylark (Electron Beam)"
 		"Empire Wardragon (Ion Proton)" 2
 		"Empire Nanobot YLL'E" 2
-	variant 1
+	variant
 		"Empire Skylark (Ion Proton)"
 		"Empire Wardragon (Electron Beam)"
 		"Empire Wardragon (Ion Proton)"
 		"Empire Nanobot YLL'A" 2
-	variant 1
+	variant
 		"Empire Skylark (Plasma Repeater)"
 		"Empire Wardragon (Twin Modified Blaster)"
 		"Empire Wardragon (Electron Beam)"
 		"Empire Nanobot YLL'E"
 		"Empire Nanobot YLL'A"
-	# Class H Warships fleets
-	variant 1
+	variant
 		"Empire Palavret" 3
-	variant 1
+	variant
 		"Empire Palavret (Proton)"
 		"Empire Palavret (Plasma)"
 		"Empire Palavret"
-	variant 1
+	variant
 		"Empire Tubfalet"
 		"Fuel Pod Class H"
 		"Empire Palavret" 2
-	variant 1
+	variant
 		"Empire Tubfalet"
 		"Fuel Pod Class H"
 		"Empire Palavret (Proton)"
 		"Empire Palavret (Plasma)"
-	variant 1
+	variant
 		"Empire Dredger"
 		"Fuel Pod Class H"
 		"Empire Palavret"
-	variant 1
+	variant
 		"Empire Dredger"
 		"Fuel Pod Class H"
 		"Empire Palavret (Proton)"
-	variant 1
+	variant
 		"Empire Dredger"
 		"Fuel Pod Class H"
 		"Empire Palavret (Plasma)"
-	# Destroyers fleets
-	variant 1
+	variant
 		"Empire Galactik" 3
-	variant 1
+	variant
 		"Empire Nano-Flyer"
 		"Empire Nanobot YLL'A" 8
 		"Empire Nanobot YLL'E" 8
 		"Empire Galactik" 2
-	variant 1
+	variant
 		"Empire Corvette YLL'E"
 		"Empire Nanobot YLL'A" 10
 		"Empire Galactik"
-	variant 1
+	variant
 		"Empire Corvette YLL'A"
 		"Empire Nanobot YLL'E" 10
 		"Empire Galactik"
-	variant 1
+	variant
 		"Empire Kraken"
 		"Empire Nanobot YLL'E" 3
 		"Empire Nanobot YLL'A" 3
 		"Empire Galactik" 2
-	variant 1
+	variant
 		"Empire Kraken"
 		"Empire Nanobot YLL'E" 3
 		"Empire Nanobot YLL'A" 3
@@ -84,492 +80,474 @@ fleet cromha-fleet
 		"Empire Nanobot YLL'E" 10
 		"Empire Corvette YLL'E"
 		"Empire Nanobot YLL'A" 10
+
 fleet mineria-transports
 	government "Mineria colonnies"
 	names "empire fleet names"
-	personality heroic
-		disables
+	cargo 9
 	commodities "Heavy Metals" Equipment Medical Electronics Military "Luxury Goods"
 	outfitters Base-outfitter Advanced-ammo-outfitter
-	cargo 9
-	variant 1
+	personality
+		disables heroic
+	variant
 		"Empire Classik"
 		"Empire Daggrez"
 		"Empire Shall'ok"
-	variant 1
+	variant
 		"Empire Classik"
-		"Cargo Transport" 2
+		"" 2
 		"Cargo Transporter Class D"
 		"Empire Nanobot YLL'A"
-	variant 1
+	variant
 		"Empire Classik"
-		"Cargo Transport"
+		""
 		"Cargo Transporter Class D" 2
 		"Empire Nanobot YLL'A"
-	variant 1
+	variant
 		"Empire Classik"
-		"Cargo Transport" 2
+		"" 2
 		"Cargo Transporter Class D"
 		"Empire Nanobot YLL'E"
-	variant 1
+	variant
 		"Empire Classik"
-		"Cargo Transport"
+		""
 		"Cargo Transporter Class D" 2
 		"Empire Nanobot YLL'E"
-	variant 1
+	variant
 		"Empire Daggrez"
 		"Empire Classik"
-		"Cargo Transport" 2
+		"" 2
 		"Cargo Transporter Class D"
 		"Empire Nanobot YLL'A"
-	variant 1
+	variant
 		"Empire Daggrez"
 		"Empire Classik"
-		"Cargo Transport"
+		""
 		"Cargo Transporter Class D" 2
 		"Empire Nanobot YLL'A"
-	variant 1
+	variant
 		"Empire Daggrez"
 		"Empire Classik"
-		"Cargo Transport" 2
+		"" 2
 		"Cargo Transporter Class D"
 		"Empire Nanobot YLL'E"
-	variant 1
+	variant
 		"Empire Daggrez"
 		"Empire Classik"
-		"Cargo Transport"
+		""
 		"Cargo Transporter Class D" 2
 		"Empire Nanobot YLL'E"
-	variant 1
+	variant
 		"Empire Shall'ok"
 		"Empire Classik"
-		"Cargo Transport" 2
+		"" 2
 		"Cargo Transporter Class D"
 		"Empire Nanobot YLL'A"
-	variant 1
+	variant
 		"Empire Shall'ok"
 		"Empire Classik"
-		"Cargo Transport"
+		""
 		"Cargo Transporter Class D" 2
 		"Empire Nanobot YLL'A"
-	variant 1
+	variant
 		"Empire Shall'ok"
 		"Empire Classik"
-		"Cargo Transport" 2
+		"" 2
 		"Cargo Transporter Class D"
 		"Empire Nanobot YLL'E"
-	variant 1
+	variant
 		"Empire Shall'ok"
 		"Empire Classik"
-		"Cargo Transport"
+		""
 		"Cargo Transporter Class D" 2
 		"Empire Nanobot YLL'E"
-	variant 1
+	variant
 		"Empire Shall'ok"
 		"Empire Daggrez" 2
-	variant 1
+	variant
 		"Empire Shall'ok"
 		"Empire Daggrez" 2
-	
+
 fleet cromha-merchants
 	government "Empire Merchant"
-	names "civilian"
-	outfitter "Base-outfitter"
+	names civilian
 	cargo 7
-	personality timid frugal appeasing harvests disables
+	personality
 		confusion 40
-	# Transports
-	variant 1
+		timid disables frugal harvests appeasing
+	variant
 		"Blackbird (Empire)"
 		"Flivver (Empire)" 2
-	variant 1
+	variant
 		"Blackbird (Empire)"
 		"Heavy Shuttle (Empire)" 2
-	variant 1
+	variant
 		"Blackbird (Empire)"
 		"Scout (Empire)" 2
-	variant 1
+	variant
 		"Blackbird (Empire)"
 		"Flivver (Empire)"
-	variant 1
+	variant
 		"Blackbird (Empire)"
 		"Heavy Shuttle (Empire)"
-	variant 1
+	variant
 		"Blackbird (Empire)"
 		"Scout (Empire)"
-	variant 1
+	variant
 		"Bounder (Empire)"
 		"Flivver (Empire)" 2
-	variant 1
+	variant
 		"Bounder (Empire)"
 		"Heavy Shuttle (Empire)" 2
-	variant 1
+	variant
 		"Bounder (Empire)"
 		"Scout (Empire)" 2
-	variant 1
+	variant
 		"Bounder (Empire)"
 		"Flivver (Empire)"
-	variant 1
+	variant
 		"Bounder (Empire)"
 		"Heavy Shuttle (Empire)"
-	variant 1
+	variant
 		"Bounder (Empire)"
 		"Scout (Empire)"
-	# Freighters
-	variant 1
+	variant
 		"Star Barge (Empire)"
-	variant 1
+	variant
 		"Star Barge (Empire)" 2
-	variant 1
+	variant
 		"Star Barge" 3
-	variant 1
+	variant
 		"Freighter (Empire)"
 		"Star Barge (Empire)" 2
-	variant 1
+	variant
 		"Freighter (Empire)" 2
-	variant 1
+	variant
 		"Freighter (Empire)"
 		"Star Barge (Empire)" 3
-	variant 1
+	variant
 		"Clipper (Empire)"
-	variant 1
+	variant
 		"Clipper (Empire)" 2
-	variant 1
+	variant
 		"Clipper (Empire)"
 		"Star Barge (Empire)" 2
-	variant 1
+	variant
 		"Star Barge (Empire)"
 		"Clipper (Empire)" 2
-	variant 1
+	variant
 		"Behemoth (Empire)"
-	variant 1
+	variant
 		"Behemoth (Empire)"
 		"Clipper (Empire)" 2
-	variant 1
+	variant
 		"Behemoth (Empire)"
 		"Star Barge (Empire)" 2
-	variant 1
+	variant
 		"Bulk Freighter (Empire)"
 		"Freighter (Empire)" 2
-	variant 1
+	variant
 		"Bulk Freighter (Empire)"
 		"Star Barge (Empire)" 3
-	variant 1
+	variant
 		"Bulk Freighter (Empire)" 2
-	variant 1
+	variant
 		"Bulk Freighter (Empire)" 3
-	variant 1
+	variant
 		"Container Transport (Empire)"
 		"Freighter (Empire)" 2
-	variant 1
+	variant
 		"Container Transport (Empire)" 2
-	variant 1
+	variant
 		"Container Transport (Empire)" 3
-	variant 1
+	variant
 		"Hauler II (Empire)"
 		"Hauler (Empire)" 2
-	variant 1
+	variant
 		"Hauler (Empire)"
 		"Hauler II (Empire)" 2
-	variant 1
+	variant
 		"Hauler III (Empire)"
 		"Hauler (Empire)" 2
-	variant 1
+	variant
 		"Hauler III (Empire)"
 		"Hauler II (Empire)" 2
-	# Interceptors
-	variant 1
+	variant
 		"Fury (Empire)"
-	variant 1
+	variant
 		"Fury (Empire)" 2
-	variant 1
+	variant
 		"Fury (Empire)" 3
-	variant 1
+	variant
 		"Hawk (Empire)"
-	variant 1
+	variant
 		"Hawk (Empire)" 2
-	variant 1
+	variant
 		"Hawk (Empire)" 3
-	variant 1
+	variant
 		"Wasp (Empire)"
-	variant 1
+	variant
 		"Wasp (Empire)" 2
-	variant 1
+	variant
 		"Wasp (Empire)" 3
-	variant 1
+	variant
 		"Hawk (Empire)"
 		"Wasp (Empire)" 2
-	variant 1
+	variant
 		"Hawk (Empire)"
 		"Wasp (Empire)" 3
-	variant 1
+	variant
 		"Fury (Empire)"
 		"Wasp (Empire)" 2
-	variant 1
+	variant
 		"Fury (Empire)"
 		"Wasp (Empire)" 3
-	# Warships
-		# Syndicate variants
-	variant 1
+	variant
 		"Quicksilver (Empire)" 2
-	variant 1
+	variant
 		"Quicksilver (Empire)" 3
-	variant 1
+	variant
 		"Manta (Empire)"
 		"Quicksilver (Empire)" 2
-	variant 1
+	variant
 		"Manta (Empire)"
 		"Quicksilver (Empire)" 3
-	variant 1
+	variant
 		"Protector (Empire)"
 		"Quicksilver (Empire)" 3
-	variant 1
+	variant
 		"Protector (Empire)"
 		"Manta (Empire)" 2
-	variant 1
+	variant
 		"Protector (Empire)"
 		"Manta (Empire)" 3
-	variant 1
+	variant
 		"Protector (Empire)"
-		#Republic variants
-	variant 1
+	variant
 		"Gunboat (Empire)"
-	variant 1
+	variant
 		"Gunboat (Empire)" 2
-	variant 1
+	variant
 		"Gunboat (Empire)" 3
-	variant 1
+	variant
 		"Raven (Empire)"
 		"Gunboat (Empire)" 2
-	variant 1
+	variant
 		"Raven (Empire)"
 		"Gunboat (Empire)" 3
-	variant 1
+	variant
 		"Raven (Empire)" 2
-	variant 1
+	variant
 		"Raven (Empire)" 3
-		# Free Worlds variants
-	variant 1
+	variant
 		"Headhunter (Empire)" 2
-	variant 1
+	variant
 		"Headhunter (Empire)" 3
-	variant 1
+	variant
 		"Osprey (Empire)"
 		"Headhunter (Empire)" 2
-	variant 1
+	variant
 		"Osprey (Empire)"
 		"Headhunter (Empire)" 3
-	variant 1
+	variant
 		"Osprey (Empire)" 2
-	variant 1
+	variant
 		"Osprey (Empire)" 2
 		"Headhunter (Empire)"
-		# Merchants variants
-	variant 1
+	variant
 		"Aerie (Empire)"
 		"Headhunter (Empire)" 2
-	variant 1
+	variant
 		"Aerie (Empire)"
 		"Corvette (Empire)" 2
-	variant 1
+	variant
 		"Bastion (Empire)"
 		"Headhunter (Empire)" 2
-	variant 1
+	variant
 		"Bastion (Empire)"
 		"Firebird (Empire)" 2
-	variant 1
+	variant
 		"Corvette (Empire)"
-	variant 1
+	variant
 		"Firebird (Empire)"
-	variant 1
+	variant
 		"Corvette (Empire)"
 		"Headhunter (Empire)" 2
-	variant 1
+	variant
 		"Corvette (Empire)"
 		"Quicksilver (Empire)" 2
-	variant 1
+	variant
 		"Firebird (Empire)"
 		"Headhunter (Empire)" 2
-	variant 1
+	variant
 		"Firebird (Empire)"
 		"Quicksilver (Empire)" 2
-	variant 1
+	variant
 		"Dreadnought (Empire)"
 		"Corvette (Empire)" 2
-	variant 1
+	variant
 		"Dreadnought (Empire)"
 		"Firebird (Empire)" 2
-	variant 1
+	variant
 		"Leviathan (Empire)"
 		"Corvette (Empire)" 2
-	variant 1
+	variant
 		"Leviathan (Empire)"
 		"Firebird (Empire)" 2
+	variant
+		"Vanguard (Empire)"
+
 fleet calor-stil-tourism
 	government "Mineria colonnies"
-	names "civilian"
-	cargo 3
-	personality pacific
-	cargo 3
+	names civilian
 	outfitters Base-outfitter
-	# single tourist 1
+	personality
 	variant 15
-		Blackbird 1
-	# single tourist 2
+		Blackbird
 	variant 15
-		Scout 1
-	# single tourist 3
+		Scout
 	variant 15
-		Flivver 1
-	# family tourists
+		Flivver
 	variant 7
 		"Star Barge" 2
-		Scout 1
+		Scout
 		Flivver 3
+
 fleet calor-stil-tourism2
-	government "Merchant"
-	names "civilian"
+	government Merchant
+	names civilian
 	cargo 2
-	personality pacific
 	outfitters Base-outfitter
-	# single tourist 1
+	personality
 	variant 15
-		Blackbird 1
-	# single tourist 2
+		Blackbird
 	variant 15
-		Scout 1
-	# single tourist 3
+		Scout
 	variant 15
-		Flivver 1
-	# family tourists
+		Flivver
 	variant 7
 		"Star Barge" 2
-		Scout 1
+		Scout
 		Flivver 3
+
 fleet small-pirates
-	government "Pirate"
-	names "pirate"
-	personality frugal
-		disables
-		plunders
-		coward
-		appeasing
-	# single
+	government Pirate
+	names pirate
+	personality
+		disables plunders frugal coward appeasing
 	variant 30
-		Wasp 1
+		Wasp
 	variant 30
-		Hawk 1
+		Hawk
 	variant 30
-		Fury 1
-	# group
+		Fury
 	variant 25
 		Sparrow 2
 		Berserker 2
-		"Gunboat (modified)" 1
-	# fleet
+		"Gunboat (modified)"
 	variant 10
 		"Gunboat (modified)" 2
 		Sparrow 4
-		Splinter 1
+		Splinter
+
 fleet cromha-miners
-	government "Merchant"
-	names "civilian"
+	government Merchant
+	names civilian
 	cargo 4
-	personality pacifist
-		mining
-		disables
-	# single
+	personality
+		pacifist disables mining
 	variant 30
-		Hawk 1
-	#double
+		Hawk
 	variant 10
 		Fury 2
-	#triple
 	variant 5
-		Hawk 1
+		Hawk
 		Fury 2
+
 fleet mineria-escorts-transports
 	government "Mineria colonnies"
 	names "empire fleet names"
+	cargo 9
 	commodities "Heavy Metals" Equipment Medical Electronics Military "Luxury Goods"
 	outfitters Base-outfitter Advanced-ammo-outfitter
-	cargo 9
-	variant 1
+	personality
+		disables
+	variant
 		"Empire Classik"
 		"Empire Daggrez"
 		"Empire Shall'ok"
-	variant 1
+	variant
 		"Empire Classik"
-		"Cargo Transport" 2
+		"" 2
 		"Cargo Transporter Class D"
 		"Empire Nanobot YLL'A"
-	variant 1
+	variant
 		"Empire Classik"
-		"Cargo Transport"
+		""
 		"Cargo Transporter Class D" 2
 		"Empire Nanobot YLL'A"
-	variant 1
+	variant
 		"Empire Classik"
-		"Cargo Transport" 2
+		"" 2
 		"Cargo Transporter Class D"
 		"Empire Nanobot YLL'E"
-	variant 1
+	variant
 		"Empire Classik"
-		"Cargo Transport"
+		""
 		"Cargo Transporter Class D" 2
 		"Empire Nanobot YLL'E"
-	variant 1
+	variant
 		"Empire Daggrez"
 		"Empire Classik"
-		"Cargo Transport" 2
+		"" 2
 		"Cargo Transporter Class D"
 		"Empire Nanobot YLL'A"
-	variant 1
+	variant
 		"Empire Daggrez"
 		"Empire Classik"
-		"Cargo Transport"
+		""
 		"Cargo Transporter Class D" 2
 		"Empire Nanobot YLL'A"
-	variant 1
+	variant
 		"Empire Daggrez"
 		"Empire Classik"
-		"Cargo Transport" 2
+		"" 2
 		"Cargo Transporter Class D"
 		"Empire Nanobot YLL'E"
-	variant 1
+	variant
 		"Empire Daggrez"
 		"Empire Classik"
-		"Cargo Transport"
+		""
 		"Cargo Transporter Class D" 2
 		"Empire Nanobot YLL'E"
-	variant 1
+	variant
 		"Empire Shall'ok"
 		"Empire Classik"
-		"Cargo Transport" 2
+		"" 2
 		"Cargo Transporter Class D"
 		"Empire Nanobot YLL'A"
-	variant 1
+	variant
 		"Empire Shall'ok"
 		"Empire Classik"
-		"Cargo Transport"
+		""
 		"Cargo Transporter Class D" 2
 		"Empire Nanobot YLL'A"
-	variant 1
+	variant
 		"Empire Shall'ok"
 		"Empire Classik"
-		"Cargo Transport" 2
+		"" 2
 		"Cargo Transporter Class D"
 		"Empire Nanobot YLL'E"
-	variant 1
+	variant
 		"Empire Shall'ok"
 		"Empire Classik"
-		"Cargo Transport"
+		""
 		"Cargo Transporter Class D" 2
 		"Empire Nanobot YLL'E"
-	variant 1
+	variant
 		"Empire Shall'ok"
 		"Empire Daggrez" 2
-	variant 1
+	variant
 		"Empire Shall'ok"
 		"Empire Daggrez" 2
-	
+

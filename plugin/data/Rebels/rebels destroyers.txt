@@ -1,81 +1,76 @@
 ship "Tar Kas Destroyer"
-    sprite "ship/tar kas destroyer"
+	sprite "ship/tar kas destroyer"
 	thumbnail "thumbnail/tar kas destroyer"
 	attributes
-		category "Destroyer"
-		"cost" 750000
+		category Destroyer
+		cost 750000
+		"mass" 450
+		"outfit space" 720
+		"engine capacity" 175
+		"weapon capacity" 350
+		"cargo space" 85
 		"shields" 75000
 		"hull" 10650
-		"required crew" 35
-		"bunks" 55
-		"mass" 450
-		"drag" 5.9
-		"heat dissipation" .9
 		"fuel capacity" 900
-		"cargo space" 85
-		"outfit space" 720
-		"weapon capacity" 350
-		"engine capacity" 175
+		"heat dissipation" 0.9
+		"required crew" 35
+		"drag" 5.9
+		"bunks" 55
 		weapon
 			"blast radius" 95
 			"shield damage" 1200
 			"hull damage" 800
 			"hit force" 1300
 	outfits
-		"Modified Plasma Repeater" 4
-		"Rebels Blaze-Pike" 2
-		"Rebel Grav-Turret" 2
-		"Heavy Anti-Missile Turret" 2
-		"Railgun Slug" 1000
-		
-		"RC-X3 Multiphasic Reactor" 2
 		"Empire Hai Ravine Batteries"
 		"Empire Shielding Core"
-		
-        "Active Radar Jammer"
-
-		"Liquid Nitrogen Cooler"
-		"Pulse Rifle" 15
-        "Nerve Gas" 8
+		"Heavy Anti-Missile Turret" 2
 		"Large Interference Emitter" 2
-		
-		"W-180 Nitrogen Thruster"
-		"W-180 Nitrogen Steering"
+		"Liquid Nitrogen Cooler"
+		"Modified Plasma Repeater" 4
 		"Nitrogen Afterburnner"
+		"Pulse Rifle" 15
+		"RC-X3 Multiphasic Reactor" 2
+		"Railgun Slug" 1000
+		"Rebel Grav-Turret" 2
+		"Rebels Blaze-Pike" 2
 		"Scram Drive"
-		
+		"W-180 Nitrogen Steering"
+		"W-180 Nitrogen Thruster"
 	engine -32 198.5
-        zoom 1.3
+		zoom 1.3
 	engine 32 198.5
-        zoom 1.3
+		zoom 1.3
 	"reverse engine" -34.5 -183.5
-        zoom 1.3
+		zoom 1.3
+		angle -360
 	"reverse engine" 34.5 -183.5
-        zoom 1.3
+		zoom 1.3
+		angle -360
 	"steering engine" 108 33.5
-        zoom 0.9
-        angle 325
-        left
+		zoom 0.9
+		angle -35.002
+		left
 	"steering engine" 103.5 16
-        zoom 0.3
-        angle 325
-        left
+		zoom 0.3
+		angle -35.002
+		left
 	"steering engine" 103.5 5
-        zoom 0.3
-        angle 325
-        left
+		zoom 0.3
+		angle -35.002
+		left
 	"steering engine" -108 33.5
-        zoom 0.9
-        angle 35
-        right
+		zoom 0.9
+		angle 35.002
+		right
 	"steering engine" -103.5 16
-        zoom 0.3
-        angle 35
-        right
+		zoom 0.3
+		angle 35.002
+		right
 	"steering engine" -103.5 5
-        zoom 0.3
-        angle 35
-        right
+		zoom 0.3
+		angle 35.002
+		right
 	turret -74 13 "Heavy Anti-Missile Turret"
 	turret 74 13 "Heavy Anti-Missile Turret"
 	gun 37.5 -183.5 "Modified Plasma Repeater"
@@ -86,59 +81,52 @@ ship "Tar Kas Destroyer"
 	gun 17.5 -84 "Rebels Blaze-Pike"
 	turret -12 103 "Rebel Grav-Turret"
 	turret 12 103 "Rebel Grav-Turret"
-	leak "leak" 40 50
-	leak "flame" 80 80
+	leak leak 40 50
+	leak flame 80 80
 	leak "big leak" 80 30
-	explode "medium explosion" 24
 	explode "large explosion" 16
+	explode "medium explosion" 24
 	explode "small explosion" 40
 	explode "tiny explosion" 28
 	"final explode" "final explosion medium"
 	description "After the Blackbird gained surprising popularity as an agile light warship despite its original design as a transport, Tarazed decided to produce a new design specifically intended as a warship. The Osprey was the result. Although it is considered overpriced by most savvy pilots, it is nevertheless a perennial favorite among those who have the extra cash to spend on it."
 
 ship "Or Kar Destroyer"
-    sprite "ship/or kar destroyer"
+	sprite "ship/or kar destroyer"
 	thumbnail "thumbnail/or kar destroyer"
 	attributes
-		category "Destroyer"
-		"cost" 950000
+		category Destroyer
+		cost 950000
+		"mass" 650
+		"outfit space" 840
+		"engine capacity" 345
+		"weapon capacity" 750
+		"cargo space" 135
 		"shields" 120000
 		"hull" 28650
-		"required crew" 75
-		"bunks" 145
-		"mass" 650
-		"drag" 6.8
-		"heat dissipation" .7
 		"fuel capacity" 900
-		"cargo space" 135
-		"outfit space" 840
-		"weapon capacity" 750
-		"engine capacity" 345
+		"heat dissipation" 0.7
+		"required crew" 75
+		"drag" 6.8
+		"bunks" 145
 		weapon
 			"blast radius" 156
 			"shield damage" 2600
 			"hull damage" 1900
 			"hit force" 150
 	outfits
-		"Rebel Grav-Turret" 7
-		"Heavy Anti-Missile Turret" 2
-		
-		"RC-X3 Multiphasic Reactor" 2
 		"Empire Hai Ravine Batteries"
 		"Empire Shielding Core" 2
-		
-        "Active Radar Jammer" 2
-
-		"Liquid Nitrogen Cooler" 2
-		"Pulse Rifle" 55
-        "Nerve Gas" 35
+		"Heavy Anti-Missile Turret" 2
 		"Large Interference Emitter" 2
-		
-		"W-180 Nitrogen Thruster"
-		"W-180 Nitrogen Steering"
+		"Liquid Nitrogen Cooler" 2
 		"Nitrogen Afterburnner"
+		"Pulse Rifle" 55
+		"RC-X3 Multiphasic Reactor" 2
+		"Rebel Grav-Turret" 7
 		"Scram Drive"
-		
+		"W-180 Nitrogen Steering"
+		"W-180 Nitrogen Thruster"
 	engine 18.5 131.5
 		zoom 1.4
 	engine -18.5 131.5
@@ -156,97 +144,95 @@ ship "Or Kar Destroyer"
 	engine -44.5 140.5
 		zoom 0.6
 	"steering engine" 64.5 31
-		angle 325
-		left
 		zoom 0.3
+		angle -35.002
 		over
+		left
 	"steering engine" 60.5 18
-		angle 325
-		left
 		zoom 0.3
+		angle -35.002
 		over
+		left
 	"steering engine" 57 8
-		angle 325
-		left
 		zoom 0.3
+		angle -35.002
 		over
+		left
 	"steering engine" 57 -35.5
-		angle 325
-		left
 		zoom 0.3
+		angle -35.002
 		over
+		left
 	"steering engine" 46 -84.5
-		angle 325
-		left
 		zoom 0.3
+		angle -35.002
 		over
+		left
 	"steering engine" -24.5 153
-		angle 325
-		left
 		zoom 0.3
+		angle -35.002
 		over
+		left
 	"steering engine" -28.5 142
-		angle 325
-		left
 		zoom 0.3
+		angle -35.002
 		over
+		left
 	"steering engine" -30 135
-		angle 325
-		left
 		zoom 0.3
+		angle -35.002
 		over
+		left
 	"steering engine" 41 -99.5
-		angle 325
+		zoom 0.3
+		angle -35.002
+		over
 		left
-		zoom 0.3
-		over
-
-
 	"steering engine" -64.5 31
-		angle 35
-		right
 		zoom 0.3
+		angle 35.002
 		over
+		right
 	"steering engine" -60.5 18
-		angle 35
-		right
 		zoom 0.3
+		angle 35.002
 		over
+		right
 	"steering engine" -57 8
-		angle 35
-		right
 		zoom 0.3
+		angle 35.002
 		over
+		right
 	"steering engine" -57 -35.5
-		angle 35
-		right
 		zoom 0.3
+		angle 35.002
 		over
+		right
 	"steering engine" -46 -84.5
-		angle 35
-		right
 		zoom 0.3
+		angle 35.002
 		over
+		right
 	"steering engine" 24.5 153
-		angle 35
-		right
 		zoom 0.3
+		angle 35.002
 		over
+		right
 	"steering engine" 28.5 142
-		angle 35
-		right
 		zoom 0.3
+		angle 35.002
 		over
+		right
 	"steering engine" 30 135
-		angle 35
-		right
 		zoom 0.3
+		angle 35.002
 		over
+		right
 	"steering engine" -41 -99.5
-		angle 35
-		right
 		zoom 0.3
+		angle 35.002
 		over
+		right
 	turret 20 -63.5 "Rebel Grav-Turret"
 	turret 27 98.5 "Rebel Grav-Turret"
 	turret 32 14.5 "Rebel Grav-Turret"
@@ -256,12 +242,13 @@ ship "Or Kar Destroyer"
 	turret 0.5 -4 "Rebel Grav-Turret"
 	turret -0.5 72.5 "Heavy Anti-Missile Turret"
 	turret 0 -90 "Heavy Anti-Missile Turret"
-	leak "leak" 40 50
-	leak "flame" 80 80
+	leak leak 40 50
+	leak flame 80 80
 	leak "big leak" 80 30
-	explode "medium explosion" 24
 	explode "large explosion" 16
+	explode "medium explosion" 24
 	explode "small explosion" 40
 	explode "tiny explosion" 28
 	"final explode" "final explosion medium"
 	description "After the Blackbird gained surprising popularity as an agile light warship despite its original design as a transport, Tarazed decided to produce a new design specifically intended as a warship. The Osprey was the result. Although it is considered overpriced by most savvy pilots, it is nevertheless a perennial favorite among those who have the extra cash to spend on it."
+

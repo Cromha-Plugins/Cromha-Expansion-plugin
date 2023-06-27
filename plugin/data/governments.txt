@@ -1,218 +1,184 @@
 government "Cromha Empire"
-	"display name" "Cromha Empire"
-	"player reputation" 0
+	swizzle 1
+	color 0 1 1
 	"crew attack" 29
 	"crew defense" 56
+	"attitude toward"
+		"Empire Rebels" 5
+		Bounty -1
+		"Bounty Hunter" -1
+		Hai 1
+		"Hai (Unfettered)" -1
+		"Hai Merchant" 1
+		"Hai Merchant (Human)" 1
+		"Hai Merchant (Sympathizers)" 1
+		"Indigene Creature" 2
+		"Kor Efret" -3
+		"Kor Mereti" -3
+		"Kor Sestor" -3
+		Korath -2
+		Merchant 1
+		Neutral 0.1
+		Pirate -1
+		Quarg 1
+		Remnant 1
+		Syndicate -3
+		Wanderer 3
 	"penalty for"
 		assist -1.6
 		disable 2.9
 		board 4.9
 		capture 100
 		destroy 85
-		scan 0.5
-		provoke 1.7
 		atrocity 200
-	"attitude toward"
-		"Empire Rebels" -3
-		Merchant 1
-		"Empire Merchant" 2
-		Pirate -1
-		Syndicate -3
-		Neutral 0.1
-		Hai 1
-		"Mineria colonnies" 5
-		"Hai Merchant" 1
-		"Hai Merchant (Sympathizers)" 1
-		"Hai Merchant (Human)" 1
-		"Hai (Unfettered)" -1
-		Bounty -1
-		"Indigene Creature" 2
-		"Bounty Hunter" -1
-		"Kor Sestor" -3
-		"Kor Mereti" -3
-		"Korath" -2
-		"Kor Efret" -3
-		"Wanderer" 3
-		"Remnant" 1
-		"Quarg" 1
-	"death sentence" "empire imprisonment"
-	raid empire-rebels-raiders
-	swizzle 1
-	color .415 .553 1
-	bribe 0
 	fine 17
-	"provoked on scan"
-	illegals
-		"Interference Plating" 7000
-		"Drugs" 1500
-		"Large Interference Emitter" 8000
-		"Small Interference Emitter" 5000
-		"Nerve Gas" 1500
-		"Ayym Parts" 7800
-		"Nanotech Battery" 100000
-		"Antimatter Core" 100000
-		"Quarg Skylance" 100000
-		"Quarg Anti-Missile" 100000
-		"Intrusion Countermeasures" 100000
-		"Medium Graviton Thruster" 100000
-		"Medium Graviton Steering" 100000
-		"Quantum Shield Generator" 100000
-	atrocities
-		"Nanotech Battery"
-		"Antimatter Core"
-		"Quarg Skylance"
-		"Quarg Anti-Missile"
-		"Intrusion Countermeasures"
-		"Medium Graviton Thruster"
-		"Medium Graviton Steering"
-		"Quantum Shield Generator"
+	"death sentence" "empire imprisonment"
 	"friendly hail" "empire friendly hail"
 	"friendly disabled hail" "empire friendly disabled hail"
 	"hostile hail" "empire hostile hail"
 	"hostile disabled hail" "empire hostile hail"
+	raid empire-rebels-raiders
 
 government "Empire Merchant"
-	swizzle 3
+	swizzle 16
+	color 0.076 0.105 0.407
 	"player reputation" 10
 	"attitude toward"
-		"Pirate" -.2
-		"Pirate (Devil-Run Gang)" -.2
-		"Korath" -.2
-		"Empire Rebels" -2
+		"" -3
 		"Cromha Empire" 5
-		"Mineria colonnies" 5
-		"Remnant" 2
-		"Quarg" 2
-		"Wanderer" 2
 		"Indigene Creature" 2
-		"Kor Sestor" -2
-		"Kor Mereti" -2
 		"Kor Efret" -2
-	"bribe" 0
-	"fine" 0
+		"Kor Mereti" -2
+		"Kor Sestor" -2
+		Korath -0.2
+		Pirate -0.2
+		Quarg 2
+		Remnant 2
+		Wanderer 2
+	fine 0
 	"friendly hail" "friendly civilian"
 	"hostile hail" "hostile civilian"
 
 government "Empire Rebels"
-	"display name" "Empire Rebels"
-	"player reputation" -1
-	"atitude toward"
-		Pirate 1
-		Syndicate -1
-		"Mineria colonnies" -5
-		"Cromha Empire" -5
-		"Hai (Unfettered)" 5
-		"Empire Merchant" -2
-
-		# Empire allies
-		"Quarg" -5
-		"Remnant" -5
-		"Wanderer" -5
-		Republic -5
-		"Deep Security" -5
-		Hai -5
-		"Merchant" -1
-		"Indigene Creature" -1
-		"Hai Merchant" -5
-		"Hai Merchant (Sympathizers)" -5
-		"Hai Merchant (Human)" 5
-
-		"Kor Sestor" -3
-		"Kor Mereti" -3
-		"Korath" -2
-		"Kor Efreti" -3
-	raid cromha-fleet
 	swizzle 3
-	color 0 255 0 1
-	"provoked on scan"
+	color 0 255 0
+	"player reputation" -1
+	"attitude toward"
+		"Mineria colonnies" -3
+		"Cromha Empire" -3
+		"Deep Security" -1
+		"Empire Merchant" -3
+		Hai -1
+		"Hai (Unfettered)" -1
+		"Hai Merchant" -1
+		"Indigene Creature" -2
+		"Kor Efret" 1
+		"Kor Mereti" -1
+		"Kor Sestor" -1
+		Merchant -1
+		Pirate 2
+		Quarg -1
+		Remnant -3
+		Republic -1
+		Syndicate -1
+		Wanderer -1
 	bribe 1
 	fine 2
+	raid cromha-fleet
 
 government "Mineria colonnies"
-	"display name" "Mineria colonnies"
+	swizzle 1
+	color 0.224 0.074 0.799
 	"player reputation" 1
 	"crew attack" 29
 	"crew defense" 56
+	"attitude toward"
+		"" -3
+		Bounty -1
+		"Bounty Hunter" -1
+		"Empire Merchant" 2
+		"Empire Rebels" -3
+		Hai 1
+		"Hai (Unfettered)" -1
+		"Hai Merchant" 1
+		"Hai Merchant (Human)" 1
+		"Hai Merchant (Sympathizers)" 1
+		"Indigene Creature" 2
+		"Kor Mereti" -3
+		"Kor Sestor" -3
+		Korath -2
+		Merchant 1
+		"Mineria colonnies" 5
+		Neutral 0.1
+		Pirate -1
+		Quarg 1
+		Remnant 1
+		Syndicate -3
+		Wanderer 3
 	"penalty for"
 		assist -0.4
 		disable 1.4
 		board 2.6
 		capture 15
 		destroy 12
-		scan 0.1
-		provoke 1
 		atrocity 20
-	"attitude toward"
-		"Empire Rebels" -3
-		"Empire Merchant" 2
-		Merchant 1
-		Pirate -1
-		Syndicate -3
-		Neutral 0.1
-		Hai 1
-		"Mineria colonnies" 5
-		"Hai Merchant" 1
-		"Hai Merchant (Sympathizers)" 1
-		"Hai Merchant (Human)" 1
-		"Hai (Unfettered)" -1
-		Bounty -1
-		"Indigene Creature" 2
-		"Bounty Hunter" -1
-		"Kor Sestor" -3
-		"Kor Mereti" -3
-		"Korath" -2
-		"Kor Efreti" -3
-		"Wanderer" 3
-		"Remnant" 1
-		"Quarg" 1
-	"death sentence" "empire imprisonment"
-	raid empire-rebels-raiders
-	swizzle 1
-	color "shields"
-	bribe 0
 	fine 5
-	"provoked on scan"
+	"death sentence" "empire imprisonment"
 	"friendly hail" "empire friendly hail"
 	"friendly disabled hail" "empire friendly disabled hail"
 	"hostile hail" "empire hostile hail"
 	"hostile disabled hail" "empire hostile hail"
+	raid empire-rebels-raiders
 
 government "Remnant (empre mission)"
-	swizzle 0
-	color .89 .38 .62
-	"crew defense" 2.2
-	"display name" "Remnant"
+	"display name" Remnant
+	color 0.89 0.38 0.62
 	"player reputation" 1
-	"bribe" 0
+	"crew defense" 2.2
 	"attitude toward"
+		Alpha -0.05
 		"Indigenous Lifeform" 0.05
-		"Korath" -.05
-		"Alpha" -.05
+		Korath -0.05
 	"penalty for"
 		assist -0.25
 		disable 1
 		board 1
 		capture 10
 		destroy 10
-		scan 0.1
-	"use foreign penalties for"
-	"provoked on scan"
 	"friendly hail" "remnant uncontacted"
 	"hostile hail" "remnant uncontacted hostile"
 
 government "Syndicate (empire mission)"
+	"display name" Syndicate
 	swizzle 4
-	color 0 .41 .71
-	"display name" "Syndicate"
+	color 0 0.41 0.71
 	"player reputation" 2
 	"attitude toward"
-		"Merchant" .3
-		"Pirate" -.4
-		"Pirate (Devil-Run Gang)" -.4
-		"Smuggler (Hai Trafficker)" -.4
-		"Syndicate that won't enter wormhole" 1
-		"Korath" -.5
-	"bribe" .08
+		"" 1
+		Korath -0.5
+		Merchant 0.3
+		Pirate -0.4
+	bribe 0.08
 	"friendly hail" "friendly syndicate"
 	"hostile hail" "hostile syndicate"
 	raid "pirate raid"
+
+government "Empire Merchant (outlaw)"
+	swizzle 16
+	color 0.076 0.105 0.407
+	"player reputation" 10
+	"attitude toward"
+		"" -3
+		"Cromha Empire" 5
+		"Indigene Creature" 2
+		"Kor Efret" -2
+		"Kor Mereti" -2
+		"Kor Sestor" -2
+		Korath -0.2
+		Pirate -0.2
+		Quarg 2
+		Remnant 2
+		Wanderer 2
+	fine 0
+	"friendly hail" "friendly civilian"
+	"hostile hail" "hostile civilian"

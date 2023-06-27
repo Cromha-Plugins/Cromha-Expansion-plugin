@@ -684,7 +684,7 @@ mission marauder[0]
 	npc kill
 		government "Pirate"
 		personality plunders harvests
-		fleet "small-pirates"
+		fleet "large-pirates"
 		system destination
 		dialog "The last marauder has just been disabled, go back to <planet> to get your payment."
 
@@ -709,9 +709,112 @@ mission marauder[1]
 	npc kill
 		government "Pirate"
 		personality plunders harvests
-		fleet "small-pirates"
+		fleet "large-pirates"
 		system destination
 		dialog "The last marauder has just been disabled, go back to <planet> to get your payment."
+
+mission empire-capture-outlaw[0]
+	job
+	repeat
+	name "Capture Outlaw"
+	description "An outlaw called <npc> has been detected staying near <destination>. Capture the ship and the outlaw without destroying the warship. Bring him back to <destination> to get payed <payment>"
+	to offer
+		random < 15
+		"combat rating" > 350
+	destination source
+	source
+		government "Cromha Empire" "Mineria colonnies"
+	on complete
+		"reputation: Cromha Empire" += 5
+		"reputation: Empire Merchant (outlaw)" += 10000
+		payment
+		payment 80000 2
+		dialog "You land on <destination> and get payed <payment>."
+	npc capture
+		government "Empire Merchant (outlaw)"
+		personality plunders harvests mining appeasing timid coward staying target
+		ship "Headhunter (Empire)" civilian
+		dialog "You successfully captured the outlaw. Time to bring him to <destination>."
+		system
+			distance 1
+
+mission empire-capture-outlaw[1]
+	job
+	repeat
+	name "Capture Outlaw"
+	description "An outlaw called <npc> has been detected staying near <destination>. Capture the ship and the outlaw without destroying the warship. Bring him back to <destination> to get payed <payment>"
+	to offer
+		random < 15
+		"combat rating" > 850
+	destination source
+	source
+		government "Cromha Empire" "Mineria colonnies"
+	on complete
+		"reputation: Cromha Empire" += 5
+		"reputation: Empire Merchant (outlaw)" += 10000
+		payment
+		payment 98000 2
+		dialog "You land on <destination> and get payed <payment>."
+	npc capture
+		government "Empire Merchant (outlaw)"
+		personality plunders harvests mining appeasing timid coward staying target
+		ship "Raven (Empire)" civilian
+		ship "Quicksilver (Empire)" civilian
+		dialog "You successfully captured the outlaw. Time to bring him to <destination>."
+		system
+			distance 1
+
+mission empire-capture-outlaw[2]
+	job
+	repeat
+	name "Capture Outlaw"
+	description "An outlaw called <npc> has been detected staying near <destination>. Capture the ship and the outlaw without destroying the warship. Bring him back to <destination> to get payed <payment>"
+	to offer
+		random < 15
+		"combat rating" > 985
+	destination source
+	source
+		government "Cromha Empire" "Mineria colonnies"
+	on complete
+		"reputation: Cromha Empire" += 5
+		"reputation: Empire Merchant (outlaw)" += 10000
+		payment
+		payment 100000 2
+		dialog "You land on <destination> and get payed <payment>."
+	npc capture
+		government "Empire Merchant (outlaw)"
+		personality plunders harvests mining appeasing timid coward staying target
+		ship "Osprey (Empire)" civilian
+		ship "Aerie (Empire)" civilian
+		dialog "You successfully captured the outlaw. Time to bring him to <destination>."
+		system
+			distance 1
+
+mission empire-capture-outlaw[3]
+	job
+	repeat
+	name "Capture Outlaw"
+	description "An outlaw called <npc> has been detected staying near <destination>. Capture the ship and the outlaw without destroying the warship. Bring him back to <destination> to get payed <payment>"
+	to offer
+		random < 15
+		"combat rating" > 1000
+	destination source
+	source
+		government "Cromha Empire" "Mineria colonnies"
+	on complete
+		"reputation: Cromha Empire" += 5
+		"reputation: Empire Merchant (outlaw)" += 10000
+		payment
+		payment 110000 2
+		dialog "You land on <destination> and get payed <payment>."
+	npc capture
+		government "Empire Merchant (outlaw)"
+		personality plunders harvests mining appeasing timid coward staying target
+		ship "Protector (Empire)" civilian
+		ship "Corvette (Empire)" civilian
+		dialog "You successfully captured the outlaw. Time to bring him to <destination>."
+		system
+			distance 1
 
 # Delivries Jobs
 mission cargo-delivry-food[0]
@@ -1642,29 +1745,6 @@ mission rush-delivry-electronics[2]
 		payment
 		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
-
-
-# Disguise pirates missions
-mission disguise-pirate-merchant
-	name "Disguise Pirate ship"
-	description "A pirate has been recently disguising as a merchant in the <npc> ship near the <system> system. Select merchants ships near this system and destroy the ship then return on <destination> to get your payment of <payment>."
-	repeat
-	job
-	to offer
-		random < 15
-		"combat rating" > 300
-	source
-		government "Cromha Empire" "Mineria colonnies"
-	on complete
-		payment
-		payment 350000 2
-		dialog "You land on <planet> and get your payment of <payment>."
-	npc kill
-		government "Bounty (Disguised)"
-		personality staying
-		system
-			distance 1 2
-		ship "Leviathan" "Shingu Al'I"
 
 # Merchants escort
 mission merchant-escort[0]
