@@ -3731,6 +3731,7 @@ system Nugg'es
 	attributes "far empire space" inhabited remnant wormhole
 	haze _menu/haze-cyan
 	link ""
+	link Nugg'ys
 	asteroids "small rock" 6 3
 	minables "large plant cluster" 4 2
 	trade Clothing 238
@@ -3766,14 +3767,11 @@ system Nugg'es
 			distance 750
 			period 120
 
-system Sol
-
-system ""
-	link Nugg'es
-
 planet Hozt
 	attributes remnant
 	landscape land/Hozt
+	description "Hozt is the Empire Remnant Home planet.It is here that all started and their capital."
+	spaceport "It sure not a big spaceport but it is very agreable since it is in a forest so the air is kinda fresh"
 	government Remnant
 	shipyard Remnant
 	shipyard "Remnant Puffin"
@@ -3786,4 +3784,111 @@ planet Hozt
 		fleet "Heavy Remnant Defense"
 		fleet "Light Remnant Defense"
 		fleet "Remnant Decoy Defense"
+
+system Nugg'ys
+	pos 393.001 -542.889
+	government Remnant
+	attributes "far empire space" inhabited remnant wormhole
+	habitable 7124.298
+	belt 1633 10
+	belt 2458 7
+	belt 2919 10
+	haze _menu/haze-cyan
+	link Nugg'es
+	asteroids "small rock" 16 2.212
+	asteroids "medium rock" 20 2.072
+	asteroids "large rock" 52 2.744
+	asteroids "small metal" 64 2.24
+	asteroids "large metal" 41 1.624
+	minables iron 4 3.721
+	minables lead 46 3.701
+	trade Clothing 265
+	trade Electronics 775
+	trade Equipment 505
+	trade Food 194
+	trade "Heavy Metals" 903
+	trade Industrial 837
+	trade "Luxury Goods" 1337
+	trade Medical 461
+	trade Metal 502
+	trade Plastic 462
+	fleet "Light Remnant Defense" 650
+	fleet "Small Remnant" 750
+	fleet "Remnant Transport" 850
+	hazard "Far Empire Space Hazard" 2500
+	object
+		sprite star/o-dwarf
+		distance 160.755
+		period 52.301
+	object
+		sprite star/b0
+		distance 4.245
+		period 52.301
+		offset 180
+	object "Salt Station"
+		sprite "planet/station mgf ourea naval arsenal wip"
+		distance 311
+		period 25.991
+	object
+		sprite planet/fg_moon8
+		distance 600
+		period 69.649
+	object
+		sprite planet/fg_gas18
+		distance 1425
+		period 254.924
+		object
+			sprite planet/fg_moon21
+			distance 321
+			period 178.869
+		object "For Mars"
+			sprite planet/fg_moon32
+			distance 475
+			period 270.931
+	object
+		sprite planet/fg_gas17
+		distance 2293.926
+		period 567.673
+		object "Salt Al"
+			sprite planet/ice8
+			distance 265.018
+			period 192.503
+
+planet "For Mars"
+	attributes factory military remnant
+	landscape land/For_mars
+	description "For Mars is a very small planet with lot of deserts on it. The Remnant that move to the Far Empire space have built an factory for their ships and outfits since it was one of the few planets and systems that have the same resources that the Remnant Core systems."
+	spaceport "The spaceport is kind of minimal, several ships are docked to the spaceport but not that much. It seems that there isn't that much activity on the spaceport."
+	government Remnant
+	shipyard Remnant
+	outfitter Remnant
+	"required reputation" 11
+	bribe 1
+	security 1
+	tribute 2500
+		threshold 8000
+		fleet "Heavy Remnant Defense" 16
+		fleet "Remnant Decoy Defense" 11
+
+planet "Salt Al"
+	attributes uninhabited
+	landscape land/water14
+	description "Salt Al is the smallest planet on the Nugg'ys system.It is uninhabited but there is a lot of Remnant civilians that come here for vacations and relax."
+	government Uninhabited
+	shipyard ""
+	outfitter ""
+	bribe 0
+	security 0
+		threshold 8000
+		fleet "Heavy Remnant Defense" 16
+		fleet "Remnant Decoy Defense" 11
+
+planet "Salt Station"
+	attributes factory uninhabited
+	landscape land/Salt_station
+	music "sounds/ambient/rulei space"
+	description "When a group of Remnant moved to the Far Empire, this station was the first habitation they ever made in The Empire. It was an habitation and a salt refinnery at the same time. But since an nuclear accident happened recently, it is abondonned and very creepy. There is a lot of rumors about this station but half of it is surely false."
+	government Uninhabited
+	bribe 0
+	security 0
 
