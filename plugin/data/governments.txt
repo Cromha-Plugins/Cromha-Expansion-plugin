@@ -16,6 +16,7 @@ government "Cromha Empire"
 		"Kor Efret" -3
 		"Kor Mereti" -3
 		"Kor Sestor" -3
+		"Mineria colonnies" 5
 		Korath -2
 		Merchant 1
 		Neutral 0.1
@@ -98,6 +99,7 @@ government "Mineria colonnies"
 		"Bounty Hunter" -1
 		"Empire Merchant" 2
 		"Empire Rebels" -3
+		"Cromha Empire" 5
 		Hai 1
 		"Hai (Unfettered)" -1
 		"Hai Merchant" 1
@@ -167,18 +169,6 @@ government "Empire Merchant (outlaw)"
 	swizzle 16
 	color 0.076 0.105 0.407
 	"player reputation" 10
-	"attitude toward"
-		"" -3
-		"Cromha Empire" 5
-		"Indigene Creature" 2
-		"Kor Efret" -2
-		"Kor Mereti" -2
-		"Kor Sestor" -2
-		Korath -0.2
-		Pirate -0.2
-		Quarg 2
-		Remnant 2
-		Wanderer 2
 	fine 0
 	"friendly hail" "friendly civilian"
 	"hostile hail" "hostile civilian"
