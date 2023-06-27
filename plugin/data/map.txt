@@ -1185,6 +1185,7 @@ system Solifar
 	add link "Da Ent"
 	add link "Da Lest"
 	add link Saharik
+	add link Skeruto
 	add link "Uwa Fahn"
 	trade Clothing 215
 	trade Electronics 816
@@ -1250,6 +1251,7 @@ planet "Kor Tah Station"
 system Skeruto
 	government "Cromha Empire"
 	haze _menu/haze-orange
+	add link Solifar
 	add fleet cromha-merchants 1700
 	object
 		sprite star/m0
@@ -1603,6 +1605,7 @@ planet "Sek Alarfarat"
 system Seketra
 	government "Cromha Empire"
 	haze _menu/haze-orange
+	add link "Da Lest"
 	add fleet cromha-fleet 1700
 	add fleet mineria-transports 875
 	add fleet cromha-merchants 950
@@ -1711,7 +1714,7 @@ planet Limat
 	security 1
 
 system "Ring Wartrue"
-	pos 434.297 -511.037
+	pos 440.964 -506.593
 	government "Cromha Empire"
 	attributes "far empire space" inhabited military research rich
 	haze _menu/haze-cyan
@@ -2129,7 +2132,7 @@ planet "Empire Remnant Ring"
 	security 1.8
 
 system Irn'o
-	pos 453.371 -572
+	pos 451.593 -585.926
 	government "Cromha Empire"
 	attributes "far empire space" inhabited military research rich
 	haze _menu/haze-cyan
@@ -2793,6 +2796,7 @@ system "Da Ent"
 			period 23.42
 
 system "Da Lest"
+	add link Seketra
 	add link Solifar
 	object
 		sprite star/m0
@@ -3726,11 +3730,10 @@ planet "Astra Luh"
 	security 8
 
 system Nugg'es
-	pos 409.334 -559.445
+	pos 424.741 -564.482
 	government "Remnant (Far Empire)"
-	attributes "far empire space" inhabited remnant wormhole
+	attributes "far empire space" inhabited remnant
 	haze _menu/haze-cyan
-	link ""
 	link Nugg'ys
 	asteroids "small rock" 6 3
 	minables "large plant cluster" 4 2
@@ -3786,9 +3789,9 @@ planet Hozt
 		fleet "Far Remnant Decoy Defense" 8
 
 system Nugg'ys
-	pos 393.001 -542.889
+	pos 404.26 -525.408
 	government "Remnant (Far Empire)"
-	attributes "far empire space" inhabited remnant wormhole
+	attributes "far empire space" inhabited remnant
 	habitable 7124.298
 	belt 1633 10
 	belt 2458 7
@@ -3881,11 +3884,133 @@ planet "Salt Al"
 	security 0
 
 planet "Salt Station"
-	attributes factory uninhabited
+	attributes factory station uninhabited
 	landscape land/Salt_station
 	music "sounds/ambient/rulei space"
 	description "When a group of Remnant moved to the Far Empire, this station was the first habitation they ever made in The Empire. It was an habitation and a salt refinnery at the same time. But since an nuclear accident happened recently, it is abondonned and very creepy. There is a lot of rumors about this station but half of it is surely false."
 	government Uninhabited
 	bribe 0
 	security 0
+
+system "Rati Cal"
+	add link Chikatip
+
+system Chikatip
+	add link "Rati Cal"
+
+system "Io Salu"
+	pos -65.014 -377.035
+	government "Remnant (Far Empire)"
+	attributes "far empire space" inhabited remnant
+	habitable 3200
+	belt 1145
+	asteroids "large metal" 1 3.689
+	minables platinum 2 3
+	trade Clothing 318
+	trade Electronics 707
+	trade Equipment 509
+	trade Food 311
+	trade "Heavy Metals" 1032
+	trade Industrial 730
+	trade "Luxury Goods" 1212
+	trade Medical 864
+	trade Metal 419
+	trade Plastic 242
+	fleet "Far Remnant Decoy Defense" 950
+	fleet "Small Far Remnant" 850
+	fleet "Far Remnant Transport" 750
+	fleet "Korath Ember Waste Raid" 1200
+	fleet "Korath Ember Waste Large Raid" 1750
+	object
+		sprite star/x4
+		distance 84.536
+		period 55.166
+		offset 180
+	object
+		sprite star/a5
+		distance 65.464
+		period 55.166
+	object "As Laska"
+		sprite planet/cloud5-b
+		distance 516
+		period 82.882
+		object
+			sprite planet/lava0-b
+			distance 209
+			period 79.075
+	object
+		sprite planet/gas4-b
+		distance 1639
+		period 469.195
+		object
+			sprite planet/fg_moon25
+			distance 287
+			period 183.791
+		object "As Al'k Station"
+			sprite planet/beryl/beryl
+			distance 423
+			period 227.682
+		object
+			sprite planet/ice7
+			distance 590
+			period 375.056
+	object
+		sprite planet/jupiter
+		distance 3249
+		period 1309.512
+		object
+			sprite planet/dust5-b
+			distance 291
+			period 129.914
+		object
+			sprite planet/ice8
+			distance 456
+			period 368.085
+		object
+			sprite planet/fg_moon20
+			distance 629
+			period 596.316
+	object
+		sprite planet/jupiter-b
+		distance 4654
+		period 2245.043
+		object
+			sprite planet/fg_moon19
+			distance 311
+			period 170.576
+	object
+		sprite planet/dust0-b
+		distance 7134
+		period 4260.736
+
+system ""
+
+planet "As Al'k Station"
+	attributes factory "far empire" remnant station
+	landscape land/As_al'k
+	description "The As Al'k Station is an isolated Remnant station of the group of Remnant that lives in the Far Empire Space.It is an shipyard factory that is close to koraths so it get attacked quite often."
+	spaceport "The spaceport is minimal."
+	government "Remnant (Far Empire)"
+	shipyard "Remnant Puffin"
+	outfitter Remnant
+	bribe 1
+	security 1
+	tribute 780
+		threshold 3000
+		fleet "Far Remnant Decoy Defense"
+		fleet "Light Far Remnant Defense"
+
+planet "As Laska"
+	attributes "far empire" korath military remnant research
+	landscape land/As_laska
+	description "The As Lask planet is a home planet for the Remnants that move to the Far Empire Space. It's a place where they defend from Korath and anilyze their technologies to improve them."
+	spaceport "The spaceport is right on a beach, you can see huge waves 32 feets tall."
+	government "Remnant (Far Empire)"
+	outfitter "Remnant Salvage"
+	bribe 1
+	security 2
+	tribute 1000
+		threshold 9000
+		fleet "Far Remnant Decoy Defense" 8
+		fleet "Heavy Far Remnant Defense"
 
