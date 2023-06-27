@@ -17,6 +17,7 @@ government "Cromha Empire"
 		"Kor Mereti" -3
 		"Kor Sestor" -3
 		"Mineria colonnies" 5
+		"Empire Merchant" 3
 		Korath -2
 		Merchant 1
 		Neutral 0.1
