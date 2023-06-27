@@ -24,7 +24,6 @@ government "Cromha Empire"
 		Remnant 1
 		Syndicate -3
 		Wanderer 3
-		"Remnant (Far Empire)" 3
 	"penalty for"
 		assist -1.6
 		disable 2.9
@@ -45,7 +44,7 @@ government "Empire Merchant"
 	color 0.076 0.105 0.407
 	"player reputation" 10
 	"attitude toward"
-		"" 2
+		"" 3
 		"Cromha Empire" 5
 		"Indigene Creature" 2
 		"Kor Efret" -2
@@ -56,7 +55,6 @@ government "Empire Merchant"
 		Quarg 2
 		Remnant 2
 		Wanderer 2
-		"Remnant (Far Empire)" 3
 	fine 0
 	"friendly hail" "friendly civilian"
 	"hostile hail" "hostile civilian"
@@ -80,7 +78,6 @@ government "Empire Rebels"
 		Merchant -1
 		Pirate 2
 		Quarg -1
-		"Remnant (Far Empire)" -3
 		Remnant -3
 		Republic -1
 		Syndicate -1
@@ -96,7 +93,7 @@ government "Mineria colonnies"
 	"crew attack" 29
 	"crew defense" 56
 	"attitude toward"
-		"" -3
+		"" 3
 		Bounty -1
 		"Bounty Hunter" -1
 		"Cromha Empire" 5
@@ -119,7 +116,6 @@ government "Mineria colonnies"
 		Remnant 1
 		Syndicate -3
 		Wanderer 3
-		"Remnant (Far Empire)" 3
 	"penalty for"
 		assist -0.4
 		disable 1.4
@@ -181,12 +177,11 @@ government "Remnant (Far Empire)"
 	swizzle 25
 	color 0.89 0.38 0.62
 	"player reputation" 1
-	"crew defense" 2.2
+	"crew attack" 1.6
+	"crew defense" 2.7
 	"attitude toward"
+		Alpha -0.05
 		"Empire Rebels" 5
-		Alpha -0.05
-		"Remnant (Research)" 1
-		Alpha -0.05
 		"Indigenous Lifeform" 0.05
 		Korath -0.05
 		"Remnant (Research)" 1
@@ -198,4 +193,5 @@ government "Remnant (Far Empire)"
 		destroy 10
 	"friendly hail" "remnant uncontacted"
 	"hostile hail" "remnant uncontacted hostile"
+	raid "Korath Ember Waste Raid"
 
