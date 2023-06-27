@@ -174,7 +174,7 @@ government "Empire Merchant (outlaw)"
 
 government "Remnant (Far Empire)"
 	"display name" Remnant
-	swizzle 26
+	swizzle 25
 	color 0.89 0.38 0.62
 	"player reputation" 1
 	"crew defense" 2.2
