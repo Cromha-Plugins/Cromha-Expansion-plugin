@@ -63,6 +63,8 @@ outfitter Basic-power-outfitter
 	"Phasic Dwarf Core"
 	"RC-X1 Multiphasic Reactor"
 	"RC-X2 Multiphasic Reactor"
+	"Phasic Fission Reactor"
+	"Phasic Radiothermal"
 
 outfitter Basic-engines-outfitter
 	"Nitrogen Afterburnner"
@@ -154,6 +156,8 @@ outfitter Advanced-power-outfitter
 	"RC-X3 Multiphasic Reactor"
 	"RC-X4 Multiphasic Reactor"
 	"Thermal Nucleavoltaic"
+	"Phasic Fission Reactor"
+	"Phasic Radiothermal"
 
 outfitter Advanced-engines-outfitter
 	"RC-140 Atomic Thruster"

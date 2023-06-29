@@ -73,6 +73,18 @@ outfit "Multiphasic Capacitor"
 	"energy capacity" 875
 	description "In technic, Empire nanobots don't need any batteries because of their small amount of energy need. The Multiphasic Capacitor lets Empire nanobots stores energy."
 
+outfit "Phasic Radiothermal"
+	category "Power"
+	cost 780000
+	thumbnail "outfit/phasic radiothermal"
+	"mass" 15
+	"outfit space" -15
+	"energy generation" 8.3
+	"heat generation" 18
+	"cooling" 11.7
+	description "At first, when the lifdot Industries released the Phasic Radiothermal near the start of The Empire, it was an huge success in the Empire Space. But only a decade ago, everyone stopped using it. Instead of removing the Phasi Radiothermal from the Lifdot sales, they decided to lower the price by 45%; and it work. This outfits is not installed by default on any Lifdot Industries ship but you can often find Empire Merchant using this power source."
+	description "The only big downside to this reactor is the fact that it produce lot of heat and only 60% of the heat is cooled by an integrated system."
+
 outfit "Phasic Dwarf Core"
 	category "Power"
 	cost 950000
@@ -88,6 +100,21 @@ outfit "Phasic Dwarf Core"
 	description "Originally, a Dwarf Core is a miniaturized nuclear reactor, small enough to be installed in any ship larger than a fighter. It was designed by Deep Sky to be paired with their power-hungry atomic engines."
 	description "The Empire Lifdot Industries Scientists made it so it uses antimatter to produce lot of energy and negligible heat. They also added an integrated cooling system and an energy capacitor in it. You won't see in any Lifdot ships but almost every Empire Merchant ship bigger than an fighter has this outfit installed."
 
+outfit "Phasic Fission Reactor"
+	category "Power"
+	cost 1000000
+	licenses
+		"Empire Contributor"
+	thumbnail "outfit/phasic fission"
+	"mass" 35
+	"outfit space" -20
+	"energy generation" 12
+	"heat generation" 4.5
+	"energy capacity" 450
+	"cooling" 2.025
+	description "At first, fission reactors in the human space was the best source of energy. But from the point of view of the Lifdot Industries, it is useless and very bad. The Phasic Fission Reactor was designed at the very first of the Lifdot Industries, it was their first success."
+	description "Even if this technology is outdated now, there is still a small hand of Empire Merchant captains that uses these engines so the Lifdot Industries still produce them. Its main problems are the mass and outfit space and the heat generation of course, even if it has a cooling integrated, it cools only 45% of the produces heat. But it is still better than any human reactor."
+
 outfit "Thermal Nucleavoltaic"
 	category "Power"
 	licenses
@@ -98,8 +125,8 @@ outfit "Thermal Nucleavoltaic"
 	"outfit space" -5
 	"energy generation" 5.4
 	"cooling" 3.2
-	"heat generation" 3.2
-	description "The Thermal Nuclealotaic is a high advanced generator. It convert thermal enrgy into power and cool the heat."
+	"heat generation" 3
+	description "The Thermal Nuclealotaic is a high advanced generator. It convert thermal energy into power and cool the heat."
 	description "It is mainly used on Empire Nanobots and Empire Destroyers but it's rare to find someone using it."
 
 outfit "RC-X1 Multiphasic Reactor"
