@@ -69,6 +69,15 @@ government "Empire Merchant"
 	fine 0
 	"friendly hail" "friendly civilian"
 	"hostile hail" "hostile civilian"
+	enforces
+		government "Cromha Empire" "Mineria colonnies"
+		near "Alpha Cromha" 2
+	enforces
+		government "Cromha Empire" "Mineria colonnies"
+		near "Ring Wartrue" 1
+	enforces
+		government "Cromha Empire" "Mineria colonnies"
+		near "Skeruto" 1
 
 government "Empire Rebels"
 	swizzle 3
@@ -141,6 +150,15 @@ government "Mineria colonnies"
 	"hostile hail" "empire hostile hail"
 	"hostile disabled hail" "empire hostile hail"
 	raid empire-rebels-raiders
+	enforces
+		government "Cromha Empire" "Mineria colonnies"
+		near "Alpha Cromha" 2
+	enforces
+		government "Cromha Empire" "Mineria colonnies"
+		near "Ring Wartrue" 1
+	enforces
+		government "Cromha Empire" "Mineria colonnies"
+		near "Skeruto" 1
 
 government "Remnant (empre mission)"
 	"display name" Remnant
