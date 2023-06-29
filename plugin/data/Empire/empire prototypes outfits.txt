@@ -9,7 +9,7 @@ outfit "RV-120 Disruption Thruster"
 	"thrust" 114.1
 	"thrusting energy" 0.1
 	"thrusting heat" 0.1
-	"reverse thrust" 39.4
+	"reverse thrust" 114.1
 	"reverse thrusting energy" 4
 	"reverse thrusting heat" 8.2
 	"flare sprite" "effect/disruption flare"
@@ -62,7 +62,7 @@ outfit "RV-170 Disruption Thruster"
 	"thrust" 157.4
 	"thrusting energy" 0.1
 	"thrusting heat" 0.1
-	"reverse thrust" 47.5
+	"reverse thrust" 157.4
 	"reverse thrusting energy" 4
 	"reverse thrusting heat" 8.2
 	"flare sprite" "effect/disruption flare"

@@ -3309,10 +3309,12 @@ system Markeb
 		period 2775.06
 
 system Wezen
+	pos -852 -59
 	government "Empire Rebels"
 	add attributes rebels
-	add link "Alpi Tah"
-	add link "Far Sabira"
+	link "Alpi Tah"
+	link "Far Sabira"
+	link Limen
 	add fleet empire-rebels-raiders 6000
 	add fleet empire-rebels-merchants 5000
 	remove fleet "Small Northern Merchants"
@@ -3387,7 +3389,7 @@ planet Alfheim
 	outfitter Rebels-basic-weapon-outfitter
 
 system "Alpi Tah"
-	pos -644 -453
+	pos -783 -132
 	government "Empire Rebels"
 	attributes deep rebels
 	arrival 2710
@@ -3449,9 +3451,10 @@ planet "Las Tah"
 		fleet empire-rebels-raiders 6
 
 system "Far Sabira"
-	pos -770 -445
+	pos -934 -76
 	government "Empire Rebels"
 	attributes deep rebels
+	link Marlab
 	link Wezen
 	asteroids "small rock" 6 2.642
 	trade Clothing 184
@@ -4013,4 +4016,105 @@ planet "As Laska"
 		threshold 9000
 		fleet "Far Remnant Decoy Defense" 8
 		fleet "Heavy Far Remnant Defense"
+
+system Marlab
+	pos -968 -15
+	government "Empire Rebels"
+	attributes deep rebels
+	habitable 17025
+	belt 1529 10
+	link "Far Sabira"
+	asteroids "small metal" 4 3.722
+	asteroids "medium metal" 18 2.93
+	asteroids "large metal" 7 2.732
+	minables titanium 3 5.894
+	minables aluminum 4 4.814
+	trade Clothing 189
+	trade Electronics 594
+	trade Equipment 707
+	trade Food 595
+	trade "Heavy Metals" 630
+	trade Industrial 712
+	trade "Luxury Goods" 1506
+	trade Medical 433
+	trade Metal 473
+	trade Plastic 466
+	fleet "Small Deep Security" 850
+	fleet empire-rebels-raiders 750
+	fleet empire-rebels-merchants 750
+	object
+		sprite star/f-supergiant
+		period 10
+	object
+		sprite planet/desert1
+		distance 474
+		period 31.636
+	object
+		sprite planet/gas2-hot
+		distance 1851
+		period 244.133
+		object "Sabis Refinery"
+			sprite "planet/rebel station3"
+			distance 201.185
+			period 85.996
+		object
+			sprite planet/browndwarf-y
+			distance 712
+			period 19.685
+	object Sabis
+		sprite planet/cloud1
+		distance 4065
+		period 794.524
+	object
+		sprite planet/gas2
+		distance 6288
+		period 1528.57
+		object
+			sprite planet/dust4-b
+			distance 262
+			period 131.896
+		object
+			sprite planet/fg_moon25
+			distance 389
+			period 290.018
+
+system Limen
+	add link Wezen
+
+system Naos
+	remove link Wezen
+
+planet Sabis
+	attributes deep military rebels
+	landscape land/clouds_01
+	description "Sabis is a core Empire Rebels planet in the Rebels Deep. Most of their ammunitions and engines are factoried here and exported to every Empire Rebels systems."
+	spaceport "the spaceport is huge."
+	government "Empire Rebels"
+	shipyard "Advanced Southern Pirates"
+	shipyard "Syndicate Basics"
+	outfitter Rebels-advanced-engines-outfitter
+	outfitter Rebels-advanced-power-outfitter
+	outfitter Rebels-advanced-systems-outfitter
+	outfitter Rebels-advanced-weapon-outfitter
+	outfitter Rebels-basic-ammo-outfitter
+	outfitter Rebels-basic-outfitter
+	"required reputation" 10
+	bribe 1
+	security 1
+	tribute 780
+		threshold 1000
+		fleet empire-rebels-raiders 8
+		
+planet "Sabis Refinery"
+	attributes deep rebels
+	landscape land/station10
+	description "The Sabis Refinery it the station that refine fuel for the whole Rebels Deep space. It is also a strategic outpost near the frontier between the Rebels Deep and The Deep. It is often attacked by the Deep Security."
+	government "Empire Rebels"
+	outfitter Rebels-basic-ammo-outfitter
+	outfitter Rebels-basic-outfitter
+	bribe 1
+	security 1.3
+	tribute 370
+		threshold 1000
+		fleet empire-rebels-raiders 4
 

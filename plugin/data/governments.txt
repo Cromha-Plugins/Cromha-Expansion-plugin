@@ -16,8 +16,6 @@ government "Cromha Empire"
 		"Kor Efret" -3
 		"Kor Mereti" -3
 		"Kor Sestor" -3
-		"Mineria colonnies" 3
-		"Empire Merchant" 3
 		Korath -2
 		Merchant 1
 		Neutral 0.1
@@ -41,14 +39,18 @@ government "Cromha Empire"
 	"hostile disabled hail" "empire hostile hail"
 	raid empire-rebels-raiders
 	enforces
-		government "Cromha Empire" "Mineria colonnies"
-		near "Alpha Cromha" 2
-	enforces
-		government "Cromha Empire" "Mineria colonnies"
-		near "Ring Wartrue" 1
-	enforces
-		government "Cromha Empire" "Mineria colonnies"
-		near "Skeruto" 1
+		government
+			"Cromha Empire"
+			"Mineria colonnies"
+		near "Alpha Cromha" 0 2
+		government
+			"Cromha Empire"
+			"Mineria colonnies"
+		near "Ring Wartrue" 0 1
+		government
+			"Cromha Empire"
+			"Mineria colonnies"
+		near Skeruto 0 1
 
 government "Empire Merchant"
 	swizzle 16
@@ -70,18 +72,22 @@ government "Empire Merchant"
 	"friendly hail" "friendly civilian"
 	"hostile hail" "hostile civilian"
 	enforces
-		government "Cromha Empire" "Mineria colonnies"
-		near "Alpha Cromha" 2
-	enforces
-		government "Cromha Empire" "Mineria colonnies"
-		near "Ring Wartrue" 1
-	enforces
-		government "Cromha Empire" "Mineria colonnies"
-		near "Skeruto" 1
+		government
+			"Cromha Empire"
+			"Mineria colonnies"
+		near "Alpha Cromha" 0 2
+		government
+			"Cromha Empire"
+			"Mineria colonnies"
+		near "Ring Wartrue" 0 1
+		government
+			"Cromha Empire"
+			"Mineria colonnies"
+		near Skeruto 0 1
 
 government "Empire Rebels"
 	swizzle 3
-	color 0 255 0
+	color 0.257 0.936 0.517
 	"player reputation" -1
 	"attitude toward"
 		"Mineria colonnies" -3
@@ -151,14 +157,18 @@ government "Mineria colonnies"
 	"hostile disabled hail" "empire hostile hail"
 	raid empire-rebels-raiders
 	enforces
-		government "Cromha Empire" "Mineria colonnies"
-		near "Alpha Cromha" 2
-	enforces
-		government "Cromha Empire" "Mineria colonnies"
-		near "Ring Wartrue" 1
-	enforces
-		government "Cromha Empire" "Mineria colonnies"
-		near "Skeruto" 1
+		government
+			"Cromha Empire"
+			"Mineria colonnies"
+		near "Alpha Cromha" 0 2
+		government
+			"Cromha Empire"
+			"Mineria colonnies"
+		near "Ring Wartrue" 0 1
+		government
+			"Cromha Empire"
+			"Mineria colonnies"
+		near Skeruto 0 1
 
 government "Remnant (empre mission)"
 	"display name" Remnant

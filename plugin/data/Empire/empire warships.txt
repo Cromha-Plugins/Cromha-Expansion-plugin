@@ -4,7 +4,6 @@ ship "Empire Wardragon"
 	plural "Empire Wardragons"
 	noun "wardragon"
 	"uncapturable"
-	
 	"swizzle" 0
 	attributes
 		category "Empire Warship"
@@ -298,6 +297,13 @@ ship "Empire Tubfalet"
 		zoom 1.8
 	engine 78.5 153
 		zoom 1.8
+	engine -19.5 126.5
+		over
+	engine 19.5 126.5
+		over
+	engine 0 138.5
+		under
+		zoom 1.3
 	"reverse engine" -9 -154
 	"reverse engine" 9 -154
 	turret 0 -106 "Multiphasic Anti-Missile"
