@@ -26,11 +26,27 @@ fleet cromha-fleet
 		"Empire Nanobot YLL'E"
 		"Empire Nanobot YLL'A"
 	variant
+		"Empire Skylark (Wel'y)"
+		"Empire Wardragon (Twin Modified Blaster)"
+		"Empire Wardragon (Electron Beam)"
+		"Empire Nanobot YLL'E"
+		"Empire Nanobot YLL'A"
+	variant
+		"Empire Skylark (Plasma Repeater)"
+		"Empire Wardragon (Twin Modified Blaster)"
+		"Empire Wardragon (Wel'y)"
+		"Empire Nanobot YLL'E"
+		"Empire Nanobot YLL'A"
+	variant
 		"Empire Palavret" 3
 	variant
 		"Empire Palavret (Proton)"
 		"Empire Palavret (Plasma)"
 		"Empire Palavret"
+	variant
+		"Empire Palavret (Proton)"
+		"Empire Palavret (Plasma)"
+		"Empire Palavret (Wel'y)"
 	variant
 		"Empire Tubfalet"
 		"Fuel Pod Class H"

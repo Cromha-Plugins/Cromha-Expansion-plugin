@@ -1,43 +1,64 @@
-ship "Lor'kas Ik 577"
-	sprite "ship/world-ship a"
-	thumbnail "thumbnail/world-ship a"
+ship "Empire Starline Ak"
+	sprite "ship/empire starline a"
+	thumbnail "thumbnail/empire starline a"
+	swizzle 0
 	attributes
-		category "Heavy Freighter"
+		category "Bulker"
 		cost 29650000
 		shields 32700
 		hull 29600
-		"required crew" 234
-		"bunks" 453
+		"required crew" 65
+		"bunks" 95
 		"mass" 1885
-		"drag" 19
+		"drag" 7
 		"heat dissipation" .4
-		"fuel capacity" 1000
+		"fuel capacity" 500
 		"cargo space" 1375
-		"outfit space" 883
-		"weapon capacity" 338
-		"engine capacity" 238
+		"outfit space" 1700
+		"weapon capacity" 560
+		"engine capacity" 560
 		weapon
-			"blast radius" 400
-			"shield damage" 8000
-			"hull damage" 4000
-			"hit force" 12000
+			"blast radius" 200
+			"shield damage" 15000
+			"hull damage" 13500
+			"hit force" 200
 	outfits
-		"Banisher Grav-Turret" 2
-		"Warder Anti-Missile" 4
-		"Grab-Strike Turret" 2
-		"Expeller Grav-Ray" 2
-		
-		"Triple Plasma Core"
-		"Systems Core (Medium)"
-		"Large Heat Shunt" 2
-		"Small Heat Shunt" 2
-		"Fuel Processor"
-		"Thermal Repeater Rifle" 238
-		"Microbot Defense Station" 15
-		
-		"Thruster (Stellar Class)"
-		"Steering (Planetary Class)"
-		"Scram Drive"
+		"Alldust Beam Turret" 2
+		Brig 3
+		"Catalytic Ramscoop"
+		"Countermesure Module" 2
+		"Countermesure Module Compact" 4
+		"Empire Barricade" 45
+		"Empire Defense Station" 55
+		"Empire Hai Ravine Batteries" 2
+		"Empire Shielding Core" 4
+		"Fuel Cell"
+		"Mineria Key Stone"
+		"Multiphasic Ammo Rack" 4
+		"Multiphasic Anti-Missile" 2
+		"Multiphasic Capacitor" 3
+		"Multiphasic Cooler" 4
+		"Multiphasic Scanner"
+		"Multiphasic ammo" 2400
+		"Nuclavoltaic Turret" 4
+		"One-Phasic Cooler" 6
+		"Phasic Grenades" 60
+		"Phasic Mine Layer" 2
+		"Phasic Mine Rack" 6
+		"Phasic Rifle" 60
+		"Phasic-Cluster Mine" 88
+		"Plasma Drive"
+		"Plasma Fuel Pod"
+		"Quantum Generator"
+		"RC-220 Atomic Thruster"
+		"RC-225 Atomic Steering"
+		"RC-X1 Multiphasic Reactor" 6
+		"RC-X2 Multiphasic Reactor" 4
+		"RC-X3 Multiphasic Reactor" 3
+		"RC-X4 Multiphasic Reactor" 2
+		"RX-200 Reverse Thruster" 2
+		"Small Empire Shielding Core" 4
+		"Thermal Nucleavoltaic" 8
 	
 	engine -37 333 .8
 	engine 0 333 .8
@@ -48,77 +69,108 @@ ship "Lor'kas Ik 577"
 		over
 	"reverse engine" 19 -303 0.5
 		over
-	gun -47 -244 "Expeller Grav-Ray"
-	gun 47 -244 "Expeller Grav-Ray"
-	turret -73 -159 "Warder Anti-Missile"
-	turret 73 -159 "Grab-Strike Turret"
-	turret -56 -137 "Warder Anti-Missile"
-	turret 56 -137 "Warder Anti-Missile"
-	turret -58 -6 "Banisher Grav-Turret"
-	turret 58 -6 "Banisher Grav-Turret"
-	turret -58 25 "Grab-Strike Turret"
-	turret 58 25 "Warder Anti-Missile"
-	bay "Fighter" -72 294 back
+	gun -47 -244 "Phasic Mine Layer"
+		under
+	gun 47 -244 "Phasic Mine Layer"
+		under
+	turret -73 -159 "Nuclavoltaic Turret"
+		over
+	turret 73 -159 "Nuclavoltaic Turret"
+		over
+	turret -56 -137 "Alldust Beam Turret"
+		over
+	turret 56 -137 "Alldust Beam Turret"
+		over
+	turret -58 -6 "Multiphasic Anti-Missile"
+		over
+	turret 58 -6 "Multiphasic Anti-Missile"
+		over
+	turret -58 25 "Nuclavoltaic Turret"
+		over
+	turret 58 25 "Nuclavoltaic Turret"
+		over
+	bay "Nanobot" -72 294 back
 		"launch effect" "korath internal"
-	bay "Fighter" 0 294 back
+	bay "Nanobot" 0 294 back
 		"launch effect" "korath internal"
-	bay "Fighter" 72 294 back
+	bay "Nanobot" 72 294 back
 		"launch effect" "korath internal"
-	explode "tiny explosion" 30
-	explode "small explosion" 45
-	explode "medium explosion" 50
-	explode "large explosion" 40
-	explode "huge explosion" 50
-	"final explode" "final explosion large"
+	leak "empire leak" 50
+	leak "empire big leak" 35
+	leak "empire flame" 60
+	explode "empire tiny explosion" 50
+	explode "empire medium explosion" 60
+	explode "empire huge explosion" 10
+	"final explode" "empire huge explosion"
 	description "The largest of Korath production vessels are derived from a common and ancient chassis. This simple ship has been adapted for hauling materials between refinery and factory stations."
 
 
-ship "Ra'gru Ik 618"
-	sprite "ship/world-ship b"
-	thumbnail "thumbnail/world-ship b"
+ship "Empire Starline Bul"
+	sprite "ship/empire starline b"
+	thumbnail "thumbnail/empire starline b"
+	swizzle 0
 	attributes
-		category "Heavy Warship"
+		category "Bulker"
 		cost 49640000
 		shields 51000
 		hull 39500
-		"required crew" 619
-		"bunks" 794
+		"required crew" 95
+		"bunks" 110
 		"mass" 1745
-		"drag" 21
+		"drag" 8
 		"heat dissipation" .48
-		"fuel capacity" 1000
+		"fuel capacity" 600
 		"cargo space" 191
-		"outfit space" 1278
-		"weapon capacity" 633
-		"engine capacity" 263
+		"outfit space" 1980
+		"weapon capacity" 789
+		"engine capacity" 589
 		weapon
-			"blast radius" 400
-			"shield damage" 8000
-			"hull damage" 4000
-			"hit force" 12000
+			"blast radius" 650
+			"shield damage" 17000
+			"hull damage" 15000
+			"hit force" 600
 	outfits
-		"Grab-Strike Turret" 2
-		"Banisher Grav-Turret" 2
-		"Warder Anti-Missile" 2
-		"Fire-Lance" 3
-		"Korath Inferno" 2
-		"Blaze-Pike Turret" 2
-		"Firelight Missile Bank" 2
-		"Firelight Missile" 36
-		
-		"Triple Plasma Core"
-		"Plasma Core"
-		"Systems Core (Large)"
-		"Liquid Sodium Cooler"
-		"Small Heat Shunt" 3
-		"Fuel Processor"
-		"Brig"
-		"Microbot Defense Station" 13
-		"Thermal Repeater Rifle" 794
-		
-		"Thruster (Stellar Class)"
-		"Steering (Stellar Class)"
-		"Jump Drive"
+		"Alldust Beam Turret" 4
+		Brig 2
+		"Bunk Room" 3
+		"Catalytic Ramscoop" 2
+		"Countermesure Module" 2
+		"Countermesure Module Compact" 4
+		"Empire Barricade" 65
+		"Empire Defense Station" 75
+		"Empire Hai Gorge Batteries" 2
+		"Empire Hai Ravine Batteries" 2
+		"Empire Shielding Core" 4
+		"Empire Torpedo Missile" 60
+		"Empire Torpedo Rack" 6
+		"Empire Typhoon Bank"
+		"Fuel Cell"
+		"Grab-Strike Blaze" 4
+		"Langrage Empire-Heaver" 2
+		"Mineria Key Stone"
+		"Multiphasic Cooler" 2
+		"Multiphasic Scanner"
+		"Nuclavoltaic Turret" 2
+		"One-Phasic Cooler" 6
+		"Phasic Grenades" 90
+		"Phasic Mine Layer" 2
+		"Phasic Mine Rack" 6
+		"Phasic Rifle" 90
+		"Phasic-Cluster Mine" 88
+		"Plasma Drive"
+		"Plasma Fuel Pod"
+		"Quantum Generator"
+		"RC-200 Atomic Thruster"
+		"RC-205 Atomic Steering"
+		"RC-X1 Multiphasic Reactor" 4
+		"RC-X2 Multiphasic Reactor" 4
+		"RC-X3 Multiphasic Reactor" 4
+		"RC-X4 Multiphasic Reactor" 2
+		"RX-200 Reverse Thruster"
+		"Small Empire Shielding Core" 6
+		"Teleportation Dock" 6
+		"Thermal Nucleavoltaic" 8
+		"Tre-Phasic Rifle" 3
 	
 	engine -37 333 .7
 	engine 0 333 .7
@@ -131,71 +183,107 @@ ship "Ra'gru Ik 618"
 		over
 	"reverse engine" 19 -303 0.5
 		over
-	gun -75 -112 "Fire-Lance"
-	gun 75 -112 "Fire-Lance"
-	gun 0 -112 "Fire-Lance"
-	gun 42 90 "Firelight Missile Bank"
-		angle 110
-	gun -42 90 "Firelight Missile Bank"
-		angle 250
-	turret -56 -254 "Warder Anti-Missile"
-	turret 56 -254 "Banisher Grav-Turret"
-	turret -73.5 -221 "Korath Inferno"
-	turret 73.5 -221 "Korath Inferno"
-	turret -56 -186.5 "Grab-Strike Turret"
-	turret 56 -186.5 "Grab-Strike Turret"
-	turret -83 163.5 "Blaze-Pike Turret"
-	turret 83 163.5 "Blaze-Pike Turret"
-	turret -68 195 "Banisher Grav-Turret"
-	turret 68 195 "Warder Anti-Missile"
-	explode "tiny explosion" 30
-	explode "small explosion" 45
-	explode "medium explosion" 50
-	explode "large explosion" 40
-	explode "huge explosion" 50
-	"final explode" "final explosion large"
+	gun -75 -112 "Langrage Empire-Heaver"
+		under
+	gun 75 -112 "Langrage Empire-Heaver"
+		under
+	gun 0 -112 "Empire Typhoon Bank"
+		under
+	gun 42 90 "Phasic Mine Layer"
+		angle 110.00061
+		under
+	gun -42 90 "Phasic Mine Layer"
+		angle -110.00061
+		under
+	turret -56 -254 "Grab-Strike Blaze"
+		over
+	turret 56 -254 "Grab-Strike Blaze"
+		over
+	turret -73.5 -221 "Grab-Strike Blaze"
+		over
+	turret 73.5 -221 "Grab-Strike Blaze"
+		over
+	turret -56 -186.5 "Alldust Beam Turret"
+		over
+	turret 56 -186.5 "Alldust Beam Turret"
+		over
+	turret -83 163.5 "Nuclavoltaic Turret"
+		over
+	turret 83 163.5 "Nuclavoltaic Turret"
+		over
+	turret -68 195 "Alldust Beam Turret"
+		over
+	turret 68 195 "Alldust Beam Turret"
+		over
+	leak "empire leak" 60
+	leak "empire big leak" 40
+	leak "empire flame" 65
+	explode "empire tiny explosion" 55
+	explode "empire medium explosion" 70
+	explode "empire huge explosion" 20
+	"final explode" "empire huge explosion"
 	description "The largest of Korath production vessels are derived from a common and ancient chassis. This deceptively spindly ship bristles with weapon emplacements for heavy raiding or defending other vessels."
 
 
-ship "Kas'lor Ik 582"
-	sprite "ship/world-ship c"
-	thumbnail "thumbnail/world-ship c"
+ship "Empire Starline Cal"
+	sprite "ship/empire starline c"
+	thumbnail "thumbnail/empire starline c"
+	swizzle 0s
 	attributes
-		category "Heavy Freighter"
+		category "Bulker"
 		cost 28190000
 		shields 39750
 		hull 26100
-		"required crew" 314
-		"bunks" 551
+		"required crew" 110
+		"bunks" 145
 		"mass" 1901
-		"drag" 17
+		"drag" 9
 		"heat dissipation" .35
 		"solar collection" 3.8
-		"fuel capacity" 32700
+		"fuel capacity" 500
 		"cargo space" 734
-		"outfit space" 839
-		"weapon capacity" 321
-		"engine capacity" 241
+		"outfit space" 1900
+		"weapon capacity" 700
+		"engine capacity" 700
 		weapon
-			"blast radius" 400
-			"shield damage" 8000
-			"hull damage" 4000
-			"hit force" 12000
+			"blast radius" 750
+			"shield damage" 22000
+			"hull damage" 22000
+			"hit force" 750
 	outfits
-		"Langrage Hyper-Heaver" 2
-		"Banisher Grav-Turret" 3
-		"Warder Anti-Missile" 3
-		
-		"Triple Plasma Core"
-		"Systems Core (Large)"
-		"Liquid Sodium Cooler"
-		"Fuel Processor" 6
-		"Thermal Repeater Rifle" 317
-		"Microbot Defense Station" 4
-		
-		"Thruster (Planetary Class)"
-		"Steering (Planetary Class)"
-		"Scram Drive"
+		"Alldust Beam Turret" 4
+		Brig 3
+		"Countermesure Module" 4
+		"Countermesure Module Compact" 4
+		"Empire Barricade" 80
+		"Empire Defense Station" 90
+		"Empire Hai Ravine Batteries" 2
+		"Empire Hai Valley Batteries" 2
+		"Empire Shielding Core" 4
+		"Fuel Cell" 4
+		"Grab-Strike Blaze" 2
+		"Mineria Key Stone"
+		"Multiphasic Ammo Rack" 4
+		"Multiphasic Anti-Missile" 2
+		"Multiphasic Cooler" 4
+		"Multiphasic Scanner"
+		"Multiphasic ammo" 2400
+		"One-Phasic Cooler" 6
+		"Phasic Grenades" 100
+		"Phasic Rifle" 100
+		"Plasma Drive"
+		"Plasma Fuel Pod"
+		"RC-200 Atomic Thruster"
+		"RC-205 Atomic Steering"
+		"RC-X1 Multiphasic Reactor" 4
+		"RC-X2 Multiphasic Reactor" 4
+		"RC-X3 Multiphasic Reactor" 4
+		"RC-X4 Multiphasic Reactor" 6
+		"RX-200 Reverse Thruster"
+		"Small Empire Shielding Core" 6
+		"Teleportation Dock" 8
+		"Thermal Nucleavoltaic" 8
+		"Tre-Phasic Rifle" 3
 	
 	engine -37 333 .8
 	engine 0 333 .8
@@ -206,71 +294,96 @@ ship "Kas'lor Ik 582"
 		over
 	"reverse engine" 19 -303 0.5
 		over
-	bay "Fighter" -70 51 back
+	bay "Nanobot" -70 51 back
 		"launch effect" "korath internal"
-	bay "Fighter" 0 51 back
+	bay "Nanobot" 0 51 back
 		"launch effect" "korath internal"
-	bay "Fighter" 70 51 back
+	bay "Nanobot" 70 51 back
 		"launch effect" "korath internal"
-	turret -52.5 -80.5 "Banisher Grav-Turret"
-	turret 52.5 -80.5 "Warder Anti-Missile"
-	turret -57 -50.5 "Warder Anti-Missile"
-	turret 57.5 -50.5 "Banisher Grav-Turret"
-	turret -56.5 55 "Langrage Hyper-Heaver"
-	turret 56.5 55 "Langrage Hyper-Heaver"
-	turret -80 283 "Banisher Grav-Turret"
-	turret 80 283 "Warder Anti-Missile"
-	explode "tiny explosion" 30
-	explode "small explosion" 45
-	explode "medium explosion" 50
-	explode "large explosion" 40
-	explode "huge explosion" 50
-	"final explode" "final explosion large"
+	turret -52.5 -80.5 "Multiphasic Anti-Missile"
+		over
+	turret 52.5 -80.5 "Multiphasic Anti-Missile"
+		over
+	turret -57 -50.5 "Alldust Beam Turret"
+		over
+	turret 57.5 -50.5 "Alldust Beam Turret"
+		over
+	turret -56.5 55 "Alldust Beam Turret"
+		over
+	turret 56.5 55 "Alldust Beam Turret"
+		over
+	turret -80 283 "Grab-Strike Blaze"
+		over
+	turret 80 283 "Grab-Strike Blaze"
+		over
+	leak "empire leak" 65
+	leak "empire big leak" 45
+	leak "empire flame" 70
+	explode "empire tiny explosion" 75
+	explode "empire medium explosion" 60
+	explode "empire huge explosion" 45
+	"final explode" "empire huge explosion"
 	description "The largest of Korath production vessels are derived from a common and ancient chassis. This relatively streamlined ship has been adapted to collect, refine, and transport hyperspace fuel."
 
 
-ship "Lor'nag Ik 590"
-	sprite "ship/world-ship d"
-	thumbnail "thumbnail/world-ship d"
+ship "Empire Starline Dys"
+	sprite "ship/empire starline d"
+	thumbnail "thumbnail/empire starline d"
+	swizzle 0
 	attributes
-		category "Space Liner"
+		category "Bulker"
 		cost 33640000
 		shields 47000
 		hull 34800
-		"required crew" 538
-		"bunks" 1492
+		"required crew" 120
+		"bunks" 150
 		"mass" 1929
-		"drag" 18
+		"drag" 10
 		"heat dissipation" .37
 		"solar collection" 5.6
-		"fuel capacity" 1000
+		"fuel capacity" 600
 		"cargo space" 264
-		"outfit space" 856
-		"weapon capacity" 321
-		"engine capacity" 241
+		"outfit space" 2000
+		"weapon capacity" 721
+		"engine capacity" 741
 		weapon
 			"blast radius" 400
-			"shield damage" 8000
-			"hull damage" 4000
+			"shield damage" 25000
+			"hull damage" 23500
 			"hit force" 12000
 	outfits
-		"Grab-Strike Turret" 1
-		"Banisher Grav-Turret" 3
-		"Warder Anti-Missile" 2
-		"Digger Mining Beam" 2
-		
-		"Triple Plasma Core"
-		"Systems Core (Large)"
-		"Large Heat Shunt" 2
-		"Small Heat Shunt" 2
-		"Fuel Processor"
-		"Brig"
-		"Microbot Defense Station" 17
-		"Thermal Repeater Rifle" 272
-		
-		"Thruster (Stellar Class)"
-		"Steering (Planetary Class)"
-		"Scram Drive"
+		"Alldust Beam Turret" 4
+		Brig
+		"Countermesure Module" 4
+		"Countermesure Module Compact" 4
+		"Empire Barricade" 85
+		"Empire Defense Station" 100
+		"Empire Hai Ravine Batteries" 2
+		"Empire Hai Valley Batteries"
+		"Empire Shielding Core" 4
+		"Fuel Cell" 4
+		"Mineria Key Stone"
+		"Multiphasic Ammo Rack" 4
+		"Multiphasic Anti-Missile" 2
+		"Multiphasic Cooler" 4
+		"Multiphasic Scanner"
+		"Multiphasic ammo" 2400
+		"One-Phasic Cooler" 6
+		"Phasic Grenades" 110
+		"Phasic Mine Layer" 2
+		"Phasic Mine Rack" 6
+		"Phasic Rifle" 110
+		"Phasic-Cluster Mine" 88
+		"Plasma Drive"
+		"Plasma Fuel Pod"
+		"RC-200 Atomic Thruster"
+		"RC-205 Atomic Steering"
+		"RC-X2 Multiphasic Reactor" 2
+		"RC-X3 Multiphasic Reactor" 4
+		"RC-X4 Multiphasic Reactor" 2
+		"RX-200 Reverse Thruster"
+		"Small Empire Shielding Core" 6
+		"Thermal Nucleavoltaic" 8
 	
 	engine -37 333 .8
 	engine 0 333 .8
@@ -281,71 +394,106 @@ ship "Lor'nag Ik 590"
 		over
 	"reverse engine" 19 -303 0.5
 		over
-	bay "Fighter" -90 160 back
+	bay "Nanobot" -90 160 back
 		"launch effect" "korath internal"
-	bay "Fighter" 0 160 back
+	bay "Nanobot" 0 160 back
 		"launch effect" "korath internal"
-	bay "Fighter" 90 160 back
+	bay "Nanobot" 90 160 back
 		"launch effect" "korath internal"
-	gun -45 -253 "Digger Mining Beam"
-	gun 45 -253 "Digger Mining Beam"
-	turret -77 -116.5 "Grab-Strike Turret"
-	turret 77 -116.5 "Warder Anti-Missile"
-	turret -87 -83 "Banisher Grav-Turret"
-	turret 87 -83 "Banisher Grav-Turret"
-	turret -51 276.5 "Warder Anti-Missile"
-	turret 51 276.5 "Banisher Grav-Turret"
-	explode "tiny explosion" 30
-	explode "small explosion" 45
-	explode "medium explosion" 50
-	explode "large explosion" 40
-	explode "huge explosion" 50
-	"final explode" "final explosion large"
+	gun -45 -253 "Phasic Mine Layer"
+		under
+	gun 45 -253 "Phasic Mine Layer"
+		under
+	turret -77 -116.5 "Alldust Beam Turret"
+		over
+	turret 77 -116.5 "Alldust Beam Turret"
+		over
+	turret -87 -83 "Multiphasic Anti-Missile"
+		over
+	turret 87 -83 "Multiphasic Anti-Missile"
+		over
+	turret -51 276.5 "Alldust Beam Turret"
+		over
+	turret 51 276.5 "Alldust Beam Turret"
+		over
+	leak "empire leak" 70
+	leak "empire big leak" 55
+	leak "empire flame" 70
+	explode "empire tiny explosion" 85
+	explode "empire medium explosion" 90
+	explode "empire huge explosion" 50
+	"final explode" "empire huge explosion"
 	description "The largest of Korath production vessels are derived from a common and ancient chassis. This bulbous ship has been adapted to carry passengers between stations, or boarding parties into enemy strongholds."
 
 
-ship "Ra'at Ik 621"
-	sprite "ship/world-ship e"
-	thumbnail "thumbnail/world-ship e"
+ship "Empire Starline Eas"
+	sprite "ship/empire starline e"
+	thumbnail "thumbnail/empire starline e"
+	swizzle 0
 	attributes
-		category "Heavy Warship"
+		category "Bulker"
 		cost 43590000
 		shields 48000
 		hull 31400
-		"required crew" 794
-		"bunks" 1037
+		"required crew" 115
+		"bunks" 145
 		"mass" 1755
-		"drag" 27
+		"drag" 10
 		"heat dissipation" .41
-		"fuel capacity" 1000
+		"fuel capacity" 600
 		"cargo space" 228
-		"outfit space" 999
-		"weapon capacity" 407
-		"engine capacity" 277
+		"outfit space" 2300
+		"weapon capacity" 600
+		"engine capacity" 700
 		weapon
-			"blast radius" 400
-			"shield damage" 8000
-			"hull damage" 4000
-			"hit force" 12000
+			"blast radius" 500
+			"shield damage" 25500
+			"hull damage" 25500
+			"hit force" 700
 	outfits
-		"Grab-Strike Turret" 3
-		"Banisher Grav-Turret" 2
-		"Warder Anti-Missile" 2
-		"Fire-Lance" 3
-		
-		"Triple Plasma Core"
-		"Systems Core (Large)"
-		"Large Heat Shunt" 2
-		"Small Heat Shunt" 2
-		"Fuel Processor"
-		"Microbot Defense Station" 12
-		"Thermal Repeater Rifle" 799
-		
-		"Reverser (Lunar Class)"
-		"Thruster (Stellar Class)"
-		"Steering (Stellar Class)"
-		"Jump Drive"
-	
+		"Alldust Beam Turret" 4
+		Brig 2
+		"Catalytic Ramscoop" 3
+		"Countermesure Module" 2
+		"Countermesure Module Compact" 6
+		"Empire Barricade" 85
+		"Empire Defense Station" 95
+		"Empire Hai Gorge Batteries" 2
+		"Empire Hai Ravine Batteries" 4
+		"Empire Hai Valley Batteries"
+		"Empire Shielding Core" 4
+		"Empire Torpedo Missile" 140
+		"Empire Torpedo Rack" 10
+		"Empire Typhoon Bank" 2
+		"Fuel Cell"
+		"Mineria Key Stone"
+		"Multiphasic Ammo Rack" 5
+		"Multiphasic Anti-Missile"
+		"Multiphasic Cooler" 4
+		"Multiphasic Scanner"
+		"Multiphasic ammo" 2100
+		"Nuclavoltaic Turret" 2
+		"One-Phasic Cooler" 6
+		"Phasic Dwarf Core" 3
+		"Phasic Grenades" 110
+		"Phasic Mine Layer"
+		"Phasic Mine Rack" 4
+		"Phasic Rifle" 110
+		"Phasic-Cluster Mine" 53
+		"Plasma Drive"
+		"Plasma Fuel Pod"
+		"Quantum Generator"
+		"RC-220 Atomic Thruster"
+		"RC-225 Atomic Steering"
+		"RC-X1 Multiphasic Reactor" 2
+		"RC-X2 Multiphasic Reactor" 6
+		"RC-X3 Multiphasic Reactor" 6
+		"RC-X4 Multiphasic Reactor" 4
+		"RX-200 Reverse Thruster"
+		"Small Empire Shielding Core" 8
+		"Teleportation Dock" 12
+		"Thermal Nucleavoltaic" 8
+		"Tre-Phasic Rifle" 5
 	engine -42 343 .6
 	engine -22 343 .6
 	engine -22 343 .6
@@ -354,106 +502,143 @@ ship "Ra'at Ik 621"
 	engine 42 343 .6
 	"reverse engine" -16 -336 0.9
 	"reverse engine" 16 -336 0.9
-	bay "Fighter" -100 -169
+	bay "Nanobot" -100 -169
 		"launch effect" "korath internal"
-	bay "Fighter" 0 -169
+	bay "Nanobot" 0 -169
 		"launch effect" "korath internal"
-	bay "Fighter" 100 -169
+	bay "Nanobot" 100 -169
 		"launch effect" "korath internal"
-	bay "Fighter" -98 156 back
+	bay "Nanobot" -98 156 back
 		"launch effect" "korath internal"
-	bay "Fighter" 98 156 back
+	bay "Nanobot" 98 156 back
 		"launch effect" "korath internal"
-	bay "Fighter" -50 303 back
+	bay "Nanobot" -50 303 back
 		"launch effect" "korath internal"
-	bay "Fighter" -50 303 back
+	bay "Nanobot" -50 303 back
 		"launch effect" "korath internal"
-	bay "Fighter" 50 303 back
+	bay "Nanobot" 50 303 back
 		"launch effect" "korath internal"
-	bay "Fighter" 50 303 back
+	bay "Nanobot" 50 303 back
 		"launch effect" "korath internal"
-	gun -71 -209 "Fire-Lance"
-	gun 0 -209 "Fire-Lance"
-	gun 71 -209 "Fire-Lance"
-	turret -52 -295 "Grab-Strike Turret"
-	turret 52 -295 "Warder Anti-Missile"
-	turret -104 -13 "Banisher Grav-Turret"
-	turret 0 -13 "Grab-Strike Turret"
-	turret 104 -13 "Grab-Strike Turret"
-	turret -80.5 191.5 "Warder Anti-Missile"
-	turret 80.5 191.5 "Banisher Grav-Turret"
-	explode "tiny explosion" 30
-	explode "small explosion" 45
-	explode "medium explosion" 50
-	explode "large explosion" 40
-	explode "huge explosion" 50
-	"final explode" "final explosion large"
+	gun -71 -209 "Empire Typhoon Bank"
+		under
+	gun 0 -209 "Phasic Mine Layer"
+		under
+	gun 71 -209 "Empire Typhoon Bank"
+		under
+	turret -52 -295 "Alldust Beam Turret"
+		over
+	turret 52 -295 "Alldust Beam Turret"
+		over
+	turret -104 -13 "Nuclavoltaic Turret"
+		over
+	turret 0 -13 "Multiphasic Anti-Missile"
+		over
+	turret 104 -13 "Nuclavoltaic Turret"
+		over
+	turret -80.5 191.5 "Alldust Beam Turret"
+		over
+	turret 80.5 191.5 "Alldust Beam Turret"
+		over
+	leak "empire leak" 85
+	leak "empire big leak" 70
+	leak "empire flame" 80
+	explode "empire tiny explosion" 75
+	explode "empire medium explosion" 70
+	explode "empire huge explosion" 35
+	"final explode" "empire huge explosion"
 	description "The largest of Korath production vessels are derived from a common and ancient chassis. This many-lobed ship has been adapted to carry fighters into large-scale raids, or mining craft into asteroid belts. Its radial arrangements of hangars allows fighters a maximum variety of safe approach patterns in combat."
 
 
-ship "Kasichara A'awoj"
-	sprite "ship/world-ship f"
-	thumbnail "thumbnail/world-ship f"
+ship "Empire Starline Fex"
+	sprite "ship/empire starline f"
+	thumbnail "thumbnail/empire starline f"
+	swizzle 0
 	attributes
-		category "Space Liner"
+		category "Bulker"
 		cost 42290000
 		shields 44000
 		hull 49600
 		"required crew" 543
 		"bunks" 1997
 		"mass" 2105
-		"drag" 24
+		"drag" 13
 		"heat dissipation" .43
 		"solar collection" 12.7
 		"fuel capacity" 600
 		"cargo space" 532
-		"outfit space" 1038
-		"weapon capacity" 331
-		"engine capacity" 251
+		"outfit space" 2700
+		"weapon capacity" 860
+		"engine capacity" 860
 		weapon
-			"blast radius" 400
-			"shield damage" 8000
-			"hull damage" 4000
-			"hit force" 12000
+			"blast radius" 700
+			"shield damage" 26500
+			"hull damage" 26500
+			"hit force" 900
 	outfits
-		"Banisher Grav-Turret" 3
-		"Warder Anti-Missile" 3
-		"Grab-Strike Turret" 2
-		
-		"Triple Plasma Core"
-		"Systems Core (Large)"
-		"Systems Core (Small)"
-		"Large Heat Shunt" 2
-		"Small Heat Shunt" 3
-		"Fuel Processor" 2
-		"Luxury Accommodations"
-		"Microbot Defense Station" 23
-		"Thermal Repeater Rifle" 548
-		
-		"Afterburner (Comet Class)"
-		"Reverser (Lunar Class)"
-		"Thruster (Stellar Class)"
-		"Steering (Planetary Class)"
-		"Scram Drive"
+	"Alldust Beam Turret" 4
+		Brig 3
+		"Catalytic Ramscoop" 2
+		"Countermesure Module" 4
+		"Countermesure Module Compact" 6
+		"Empire Barricade" 100
+		"Empire Defense Station" 100
+		"Empire Hai Gorge Batteries" 2
+		"Empire Hai Ravine Batteries" 2
+		"Empire Hai Valley Batteries" 2
+		"Empire Shielding Core" 4
+		"Fuel Cell"
+		"Mineria Key Stone"
+		"Multiphasic Ammo Rack" 4
+		"Multiphasic Anti-Missile" 2
+		"Multiphasic Cooler" 6
+		"Multiphasic Scanner"
+		"Multiphasic ammo" 2400
+		"Nuclavoltaic Turret" 2
+		"One-Phasic Cooler" 8
+		"Phasic Grenades" 540
+		"Phasic Rifle" 540
+		"Plasma Drive"
+		"Plasma Fuel Pod"
+		"Quantum Generator" 3
+		"RC-220 Atomic Thruster"
+		"RC-225 Atomic Steering"
+		"RC-X2 Multiphasic Reactor" 4
+		"RC-X3 Multiphasic Reactor" 2
+		"RC-X4 Multiphasic Reactor" 4
+		"RX-200 Reverse Thruster" 2
+		"Small Empire Shielding Core" 8
+		"Teleportation Dock" 12
+		"Thermal Nucleavoltaic" 4
+		"Tre-Phasic Rifle" 4
 	
 	engine -37 343 .8
 	engine 0 343 .8
 	engine 37 343 .8
 	"reverse engine" -16 -336 0.9
 	"reverse engine" 16 -336 0.9
-	turret -78 -233.5 "Banisher Grav-Turret"
-	turret 78 -233.5 "Warder Anti-Missile"
-	turret -78 9.5 "Grab-Strike Turret"
-	turret 78 9.5 "Grab-Strike Turret"
-	turret -73.5 41 "Banisher Grav-Turret"
-	turret 73.5 41 "Warder Anti-Missile"
-	turret -78 231.5 "Warder Anti-Missile"
-	turret 78 231.5 "Banisher Grav-Turret"
-	explode "tiny explosion" 30
-	explode "small explosion" 45
-	explode "medium explosion" 50
-	explode "large explosion" 40
-	explode "huge explosion" 50
-	"final explode" "final explosion large"
+	turret -78 -233.5 "Alldust Beam Turret"
+		over
+	turret 78 -233.5 "Alldust Beam Turret"
+		over
+	turret -78 9.5 "Multiphasic Anti-Missile"
+		over
+	turret 78 9.5 "Multiphasic Anti-Missile"
+		over
+	turret -73.5 41 "Nuclavoltaic Turret"
+		over
+	turret 73.5 41 "Nuclavoltaic Turret"
+		over
+	turret -78 231.5 "Alldust Beam Turret"
+		over
+	turret 78 231.5 "Alldust Beam Turret"
+		over
+	leak "empire leak" 70
+	leak "empire big leak" 110
+	leak "empire flame" 110
+	explode "empire tiny explosion" 90
+	explode "empire medium explosion" 70
+	explode "empire huge explosion" 40
+	"final explode" "empire huge explosion"
 	description "Originally designed as a luxury habitat for those wealthy enough to escape living on the polluted surface of Korath worlds, when the Korath were exiled, it was into these gargantuan 'world-ships' they first crammed themselves into and fled to the core on. Nostalgically, the class was then renamed after the devastated and now forbidden Korath homeworld."
 	description "	Since the introduction of purpose-built city ships, these ancient vessels have mostly been decommissioned, turned into stations, or reconfigured into smaller, specialized vessels. Yet a few still ply the starlanes, crewed by those too restless to live on stations yet not bold enough to go on raids."

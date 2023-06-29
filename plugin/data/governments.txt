@@ -16,6 +16,8 @@ government "Cromha Empire"
 		"Kor Efret" -3
 		"Kor Mereti" -3
 		"Kor Sestor" -3
+		"Mineria colonnies" 3
+		"Empire Merchant" 3
 		Korath -2
 		Merchant 1
 		Neutral 0.1
@@ -44,7 +46,7 @@ government "Empire Merchant"
 	color 0.076 0.105 0.407
 	"player reputation" 10
 	"attitude toward"
-		"" 3
+		"Mineria colonnies" 3
 		"Cromha Empire" 5
 		"Indigene Creature" 2
 		"Kor Efret" -2
