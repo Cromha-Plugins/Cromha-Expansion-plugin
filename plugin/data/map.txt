@@ -3312,9 +3312,11 @@ system Wezen
 	pos -852 -59
 	government "Empire Rebels"
 	add attributes rebels
-	link "Alpi Tah"
+	link ""
+	link Alsif
 	link "Far Sabira"
 	link Limen
+	link Term
 	add fleet empire-rebels-raiders 6000
 	add fleet empire-rebels-merchants 5000
 	remove fleet "Small Northern Merchants"
@@ -3395,7 +3397,10 @@ system "Alpi Tah"
 	arrival 2710
 	habitable 2710
 	belt 1913
-	link Wezen
+	link "Alpi Nova"
+	link Aviar
+	link Larska
+	link Term
 	asteroids "small rock" 6 2.642
 	asteroids "small metal" 3 2.523
 	trade Clothing 215
@@ -3454,6 +3459,8 @@ system "Far Sabira"
 	pos -934 -76
 	government "Empire Rebels"
 	attributes deep rebels
+	link "Alpi Nova"
+	link Marje
 	link Marlab
 	link Wezen
 	asteroids "small rock" 6 2.642
@@ -3987,6 +3994,7 @@ system "Io Salu"
 		period 4260.736
 
 system ""
+	link Wezen
 
 planet "As Al'k Station"
 	attributes factory "far empire" remnant station
@@ -4023,6 +4031,7 @@ system Marlab
 	attributes deep rebels
 	habitable 17025
 	belt 1529 10
+	link Alsif
 	link "Far Sabira"
 	asteroids "small metal" 4 3.722
 	asteroids "medium metal" 18 2.93
@@ -4079,6 +4088,7 @@ system Marlab
 			period 290.018
 
 system Limen
+	add link Alsif
 	add link Wezen
 
 system Naos
@@ -4104,7 +4114,7 @@ planet Sabis
 	tribute 780
 		threshold 1000
 		fleet empire-rebels-raiders 8
-		
+
 planet "Sabis Refinery"
 	attributes deep rebels
 	landscape land/station10
@@ -4117,4 +4127,344 @@ planet "Sabis Refinery"
 	tribute 370
 		threshold 1000
 		fleet empire-rebels-raiders 4
+
+system Alsif
+	pos -868.912 -1.634
+	government Pirate
+	attributes deep pirate rebels
+	habitable 3450
+	belt 1218 4
+	belt 1512 4
+	link Limen
+	link Marlab
+	link Wezen
+	asteroids "small rock" 18 3.137
+	asteroids "medium rock" 31 2.117
+	asteroids "large rock" 16 3.062
+	asteroids "small metal" 58 2.117
+	asteroids "medium metal" 24 2.873
+	asteroids "large metal" 52 3.289
+	minables lead 4 3.581
+	minables titanium 4 4.96
+	trade Clothing 416
+	trade Electronics 629
+	trade Equipment 376
+	trade Food 119
+	trade "Heavy Metals" 1300
+	trade Industrial 872
+	trade "Luxury Goods" 961
+	trade Medical 714
+	trade Metal 223
+	trade Plastic 539
+	fleet "Large Southern Pirates" 1000
+	fleet "Small Northern Pirates" 750
+	fleet empire-rebels-raiders 650
+	fleet empire-rebels-merchants 750
+	object
+		sprite star/m-supergiant
+		distance 14.63
+		period 10
+	object
+		sprite planet/rock18-b
+		distance 1038
+		period 227.744
+	object
+		sprite planet/ganymede
+		distance 1347
+		period 336.668
+	object
+		sprite planet/gas7-hot
+		distance 2229
+		period 716.664
+	object Alfyim
+		sprite planet/neptune
+		distance 3030
+		period 1135.833
+		object
+			sprite planet/fg_moon8
+			distance 204
+			period 179.448
+	object
+		sprite planet/fg_gas0
+		distance 5353
+		period 2667.143
+		object
+			sprite planet/fg_moon28
+			distance 262
+			period 261.184
+	object
+		sprite planet/browndwarf-y
+		distance 15622
+		period 13297.053
+		object
+			sprite planet/europa-b
+			distance 277
+			period 218.088
+
+system Marje
+	pos -967.468 -131.597
+	government "Empire Rebels"
+	attributes deep rebels
+	link "Far Sabira"
+	link Lalmi
+	trade Clothing 167
+	trade Electronics 610
+	trade Equipment 721
+	trade Food 592
+	trade "Heavy Metals" 617
+	trade Industrial 706
+	trade "Luxury Goods" 1417
+	trade Medical 460
+	trade Metal 469
+	trade Plastic 481
+
+system Lalmi
+	pos -892.69 -149.856
+	government "Empire Rebels"
+	attributes deep rebels
+	habitable 450
+	belt 1944 3
+	link "Alpi Nova"
+	link Marje
+	asteroids "small rock" 10 3.194
+	asteroids "medium rock" 71 2.141
+	asteroids "large rock" 59 2.176
+	asteroids "small metal" 14 1.825
+	asteroids "medium metal" 23 2.984
+	asteroids "large metal" 128 2.352
+	minables copper 22 4.628
+	minables iron 25 3.194
+	minables uranium 73 3.02
+	trade Clothing 186
+	trade Electronics 634
+	trade Equipment 698
+	trade Food 596
+	trade "Heavy Metals" 628
+	trade Industrial 706
+	trade "Luxury Goods" 1363
+	trade Medical 502
+	trade Metal 426
+	trade Plastic 482
+	object
+		sprite star/k3
+		period 10
+	object
+		sprite planet/forest1
+		distance 272
+		period 84.588
+	object
+		sprite planet/fg_gas2
+		distance 701
+		period 349.97
+	object
+		sprite planet/gas10
+		distance 2455
+		period 2293.67
+		object
+			sprite planet/rock3
+			distance 239
+			period 139.668
+		object
+			sprite planet/rock7
+			distance 354
+			period 315.077
+		object
+			sprite planet/fg_inhabited_tiny0
+			distance 492
+			period 516.249
+	object
+		sprite planet/vesvi
+		distance 5144
+		period 6956.73
+		object
+			sprite planet/fg_moon1
+			distance 448
+			period 358.441
+
+system Term
+	pos -792.838 -84.079
+	government "Empire Rebels"
+	attributes deep rebels
+	habitable 370
+	belt 1576
+	belt 1826 5
+	link "Alpi Nova"
+	link "Alpi Tah"
+	link Wezen
+	asteroids "small rock" 10 3.827
+	asteroids "medium rock" 92 5.741
+	asteroids "large rock" 5 4.844
+	asteroids "small metal" 1 5.681
+	asteroids "medium metal" 2 5.203
+	asteroids "large metal" 5 4.365
+	minables tungsten 1 10.166
+	minables iron 1 6.395
+	minables neodymium 17 6.362
+	trade Clothing 277
+	trade Electronics 713
+	trade Equipment 354
+	trade Food 436
+	trade "Heavy Metals" 849
+	trade Industrial 662
+	trade "Luxury Goods" 962
+	trade Medical 829
+	trade Metal 340
+	trade Plastic 302
+	fleet empire-rebels-raiders 750
+	fleet "Large Southern Pirates" 850
+	fleet empire-rebels-merchants 650
+	object
+		sprite star/g-giant
+		period 10
+	object
+		sprite planet/ocean2-b
+		distance 323
+		period 120.715
+	object
+		sprite planet/rock13
+		distance 903
+		period 564.275
+		object
+			sprite planet/callisto-b
+			distance 160
+			period 52.966
+	object
+		sprite planet/gas2-hot
+		distance 1380
+		period 1066.05
+	object
+		sprite planet/ice7-b
+		distance 2432
+		period 2494.046
+
+system "Alpi Nova"
+	pos -843.542 -116.116
+	government "Empire Rebels"
+	attributes deep rebels
+	link "Alpi Tah"
+	link "Far Sabira"
+	link Lalmi
+	link Larska
+	link Term
+	trade Clothing 190
+	trade Electronics 827
+	trade Equipment 445
+	trade Food 296
+	trade "Heavy Metals" 1147
+	trade Industrial 661
+	trade "Luxury Goods" 1019
+	trade Medical 822
+	trade Metal 456
+	trade Plastic 369
+
+system Aviar
+	pos -760.704 -174.333
+	government Pirate
+	attributes deep pirate rebels
+	habitable 6075
+	belt 1882 4
+	link "Alpi Tah"
+	asteroids "small rock" 6 2.134
+	asteroids "medium rock" 57 1.122
+	asteroids "large rock" 99 1.65
+	asteroids "small metal" 1 1.65
+	asteroids "medium metal" 3 1.738
+	asteroids "large metal" 3 1.342
+	minables neodymium 7 1.819
+	trade Clothing 212
+	trade Electronics 790
+	trade Equipment 514
+	trade Food 251
+	trade "Heavy Metals" 1038
+	trade Industrial 692
+	trade "Luxury Goods" 1034
+	trade Medical 799
+	trade Metal 467
+	trade Plastic 384
+	fleet "Large Southern Pirates" 1000
+	fleet "Small Southern Pirates" 750
+	fleet empire-rebels-raiders 750
+	fleet empire-rebels-merchants 650
+	object
+		sprite star/g-supergiant
+		distance 457
+		period 488.477
+	object
+		sprite star/x-supergiant
+		distance 457
+		period 488.477
+		offset 180
+	object Abda
+		sprite planet/desert6-b
+		distance 1286
+		period 236.673
+		object
+			sprite planet/fg_moon25
+			distance 175
+			period 87.51
+	object
+		sprite planet/lava6-b
+		distance 1807
+		period 394.207
+	object
+		sprite planet/gas6-hot
+		distance 2315
+		period 571.628
+	object
+		sprite planet/fg_gas18
+		distance 3059
+		period 868.273
+		object
+			sprite planet/rock17-b
+			distance 312
+			period 339.411
+
+system Larska
+	pos -816 -167.111
+	government "Empire Rebels"
+	attributes deep rebels
+	link "Alpi Nova"
+	link "Alpi Tah"
+	trade Clothing 350
+	trade Electronics 785
+	trade Equipment 375
+	trade Food 538
+	trade "Heavy Metals" 1124
+	trade Industrial 910
+	trade "Luxury Goods" 1309
+	trade Medical 871
+	trade Metal 370
+	trade Plastic 494
+
+planet Abda
+	attributes factory military pirate
+	landscape land/desert6
+	description "Abda is an active Pirate planet in the Rebels Deep space."
+	spaceport "The Spaceport is a spaceport."
+	government Pirate
+	shipyard "Advanced Southern Pirates"
+	outfitter "Pirate Outfits"
+	outfitter "Syndicate Advanced"
+	bribe 2
+	security 0
+	tribute 1000
+		threshold 5000
+		fleet "Large Southern Pirates" 6
+		fleet "Small Southern Pirates" 8
+
+planet Alfyim
+	attributes factory military pirate
+	landscape land/water13
+	description "Alfyim is an active Pirate planet in the Rebels Deep space."
+	spaceport "The Spaceport is a spaceport."
+	government Pirate
+	shipyard "Advanced Southern Pirates"
+	outfitter "Pirate Outfits"
+	outfitter "Syndicate Advanced"
+	bribe 2
+	security 0
+	tribute 1000
+		threshold 5000
+		fleet "Large Southern Pirates" 6
+		fleet "Small Southern Pirates" 8
 

@@ -4,7 +4,7 @@ government "Cromha Empire"
 	"crew attack" 29
 	"crew defense" 56
 	"attitude toward"
-		"Empire Rebels" 3
+		"Empire Rebels" -3
 		Bounty -1
 		"Bounty Hunter" -1
 		Hai 1
