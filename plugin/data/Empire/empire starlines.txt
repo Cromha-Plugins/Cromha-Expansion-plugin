@@ -576,7 +576,7 @@ ship "Empire Starline Fex"
 			"hull damage" 26500
 			"hit force" 900
 	outfits
-	"Alldust Beam Turret" 4
+		"Alldust Beam Turret" 4
 		Brig 3
 		"Catalytic Ramscoop" 2
 		"Countermesure Module" 4
