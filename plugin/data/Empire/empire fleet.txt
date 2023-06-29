@@ -111,17 +111,14 @@ fleet mineria-transports
 		"Empire Shall'ok"
 	variant
 		"Empire Classik"
-		"" 2
 		"Cargo Transporter Class D"
 		"Empire Nanobot YLL'A"
 	variant
 		"Empire Classik"
-		""
 		"Cargo Transporter Class D" 2
 		"Empire Nanobot YLL'A"
 	variant
 		"Empire Classik"
-		"" 2
 		"Cargo Transporter Class D"
 		"Empire Nanobot YLL'E"
 	variant
@@ -132,49 +129,41 @@ fleet mineria-transports
 	variant
 		"Empire Daggrez"
 		"Empire Classik"
-		"" 2
 		"Cargo Transporter Class D"
 		"Empire Nanobot YLL'A"
 	variant
 		"Empire Daggrez"
 		"Empire Classik"
-		""
 		"Cargo Transporter Class D" 2
 		"Empire Nanobot YLL'A"
 	variant
 		"Empire Daggrez"
 		"Empire Classik"
-		"" 2
 		"Cargo Transporter Class D"
 		"Empire Nanobot YLL'E"
 	variant
 		"Empire Daggrez"
 		"Empire Classik"
-		""
 		"Cargo Transporter Class D" 2
 		"Empire Nanobot YLL'E"
 	variant
 		"Empire Shall'ok"
 		"Empire Classik"
-		"" 2
 		"Cargo Transporter Class D"
 		"Empire Nanobot YLL'A"
 	variant
 		"Empire Shall'ok"
 		"Empire Classik"
-		""
 		"Cargo Transporter Class D" 2
 		"Empire Nanobot YLL'A"
 	variant
 		"Empire Shall'ok"
 		"Empire Classik"
-		"" 2
 		"Cargo Transporter Class D"
 		"Empire Nanobot YLL'E"
 	variant
 		"Empire Shall'ok"
 		"Empire Classik"
-		""
 		"Cargo Transporter Class D" 2
 		"Empire Nanobot YLL'E"
 	variant
@@ -183,6 +172,42 @@ fleet mineria-transports
 	variant
 		"Empire Shall'ok"
 		"Empire Daggrez" 2
+	variant
+		"Empire Starline Ak"
+		"Empire Classik" 2
+	variant
+		"Empire Starline Ak"
+		"Empire Classik" 3
+	variant
+		"Empire Starline Ak"
+		"Empire Daggrez" 2
+	variant
+		"Empire Starline Bul"
+		"Empire Classik" 2
+	variant
+		"Empire Starline Bul"
+		"Empire Classik" 3
+	variant
+		"Empire Starline Bul"
+		"Empire Daggrez" 2
+	variant
+		"Empire Starline Cal"
+		"Empire Classik" 2
+	variant
+		"Empire Starline Cal"
+		"Empire Classik" 3
+	variant
+		"Empire Starline Cal"
+		"Empire Daggrez" 2
+	variant
+		"Empire Starline Dys"
+		"Empire Starline Ak" 2
+	variant
+		"Empire Starline Eas"
+		"Empire Starline Bul" 2
+	variant
+		"Empire Starline Fex"
+		"Empire Starline Cal" 2
 
 fleet cromha-merchants
 	government "Empire Merchant"
