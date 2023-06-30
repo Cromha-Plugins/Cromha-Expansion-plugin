@@ -1,4 +1,4 @@
-# Ships Stats Calculating:
+# Ships Stats Formulas:
 
 *These are the formulas that endless sky uses for calculating ships stats like acceleration, max speed and turn rate.*
 
