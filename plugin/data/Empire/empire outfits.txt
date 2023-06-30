@@ -10,7 +10,7 @@ outfit "Mineria Key Stone"
 	
 outfit "Fuel Capacitor"
 	cost 70500
-	category "Special"
+	category "Systems"
 	mass 10
 	thumbnail "outfit/fuel capacitor"
 	plural "Fuel Capacitors"

@@ -2689,7 +2689,7 @@ mission empire-fuel-transport[1]
 		"reputation: Cromha Empire" > 100
 	on accept
 		outfit "Fuel Capacitor" +3
-		dialog "An mineria colonnies guy gives you the 2 Fuel Capacitor and leaves your ship."
+		dialog "An mineria colonnies guy gives you the 3 Fuel Capacitor and leaves your ship."
 	on complete
 		outfit "Fuel Capacitor" -3
 		"reputation: Cromha Empire" += 10
@@ -2714,7 +2714,7 @@ mission empire-fuel-transport[2]
 		"reputation: Cromha Empire" > 100
 	on accept
 		outfit "Fuel Capacitor" +5
-		dialog "An mineria colonnies guy gives you the 2 Fuel Capacitor and leaves your ship."
+		dialog "An mineria colonnies guy gives you the 5 Fuel Capacitor and leaves your ship."
 	on complete
 		outfit "Fuel Capacitor" -5
 		"reputation: Cromha Empire" += 10
@@ -2739,7 +2739,7 @@ mission empire-fuel-transport[3]
 		"reputation: Cromha Empire" > 100
 	on accept
 		outfit "Fuel Capacitor" +7
-		dialog "An mineria colonnies guy gives you the 2 Fuel Capacitor and leaves your ship."
+		dialog "An mineria colonnies guy gives you the 7 Fuel Capacitor and leaves your ship."
 	on complete
 		outfit "Fuel Capacitor" -7
 		"reputation: Cromha Empire" += 10
@@ -2764,7 +2764,7 @@ mission empire-fuel-transport[4]
 		"reputation: Cromha Empire" > 100
 	on accept
 		outfit "Fuel Capacitor" +9
-		dialog "An mineria colonnies guy gives you the 2 Fuel Capacitor and leaves your ship."
+		dialog "An mineria colonnies guy gives you the 9 Fuel Capacitor and leaves your ship."
 	on complete
 		outfit "Fuel Capacitor" -9
 		"reputation: Cromha Empire" += 10
@@ -2789,7 +2789,7 @@ mission empire-fuel-transport[5]
 		"reputation: Cromha Empire" > 100
 	on accept
 		outfit "Fuel Capacitor" +12
-		dialog "An mineria colonnies guy gives you the 2 Fuel Capacitor and leaves your ship."
+		dialog "An mineria colonnies guy gives you the 12 Fuel Capacitor and leaves your ship."
 	on complete
 		outfit "Fuel Capacitor" -12
 		"reputation: Cromha Empire" += 10
