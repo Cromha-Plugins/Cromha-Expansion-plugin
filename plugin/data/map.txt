@@ -721,6 +721,7 @@ system Lifdot
 	pos 187 -470
 	government "Cromha Empire"
 	attributes "empire space" inhabited military research rich
+	habitable 0
 	haze _menu/haze-red
 	link All'Estros
 	link "Alpha Cromha"
@@ -750,11 +751,11 @@ system Lifdot
 		period 110
 		object "Lifdot Jump Tunnel"
 			sprite "planet/jump tunnel"
-			distance 2100
+			distance 4567.083
 			period 5
 		object "Phoenux Station"
 			sprite planet/station7
-			distance 300
+			distance 720.598
 			period 80
 			object
 				sprite planet/station7c
@@ -762,12 +763,12 @@ system Lifdot
 		object
 			sprite star/x5-old
 				scale 3
-			distance 1200
+			distance 1930.992
 			period 110
 			object Crodust
 				sprite planet/fg_terrestrial2
 					scale 2.4
-				distance 750
+				distance 765.01
 				period 600
 				object
 					sprite planet/forest6-b
@@ -776,7 +777,7 @@ system Lifdot
 				object
 					sprite planet/fg_icegiant3
 						scale 0.8
-					distance 800
+					distance 1188.171
 					period 130
 		object
 			sprite "planet/empire panels1"
@@ -971,7 +972,7 @@ planet "Witdrew Station"
 	bribe 2
 
 system "Beta Cromha"
-	pos 194 -620
+	pos 187.778 -596.593
 	government "Cromha Empire"
 	attributes "empire space" factory hai inhabited military mining north paradise research rich urban
 	link "Alpha Cromha"
@@ -4467,4 +4468,10 @@ planet Alfyim
 		threshold 5000
 		fleet "Large Southern Pirates" 6
 		fleet "Small Southern Pirates" 8
+
+system Postverta
+	remove hidden
+
+system Celeborim
+	pos 190.616 -638.553
 
