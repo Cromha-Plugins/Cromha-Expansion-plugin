@@ -10,6 +10,8 @@ outfit "Mineria Key Stone"
 	
 outfit "Fuel Capacitor"
 	cost 70500
+	category "Special"
+	mass 10
 	thumbnail "outfit/fuel capacitor"
 	plural "Fuel Capacitors"
 	description "This Capacitor contains non-refined oil in large quantity but you can't use it because it seems to have high security"	
