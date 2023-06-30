@@ -1,0 +1,7 @@
+# Ships Stats Calculating:
+
+*These are the formules that endless sky uses for calculating ships stats like acceleration, max speed and turn rate.*
+
+* thrust / mass = acceleration
+* thrust / drag = max speed
+* turn / mass = turn rate
