@@ -1113,6 +1113,7 @@ planet Listrosia
 system Kaliptari
 	government "Cromha Empire"
 	haze _menu/haze-orange
+	add link "Prima Lifdot"
 	add link Saharik
 	add fleet cromha-fleet 2000
 	add fleet cromha-miners 1500
@@ -1185,8 +1186,8 @@ system Solifar
 	haze _menu/haze-orange
 	add link "Da Ent"
 	add link "Da Lest"
+	add link "Prima Lifdot"
 	add link Saharik
-	add link Skeruto
 	add link "Uwa Fahn"
 	trade Clothing 215
 	trade Electronics 816
@@ -1252,7 +1253,7 @@ planet "Kor Tah Station"
 system Skeruto
 	government "Cromha Empire"
 	haze _menu/haze-orange
-	add link Solifar
+	add link "Prima Lifdot"
 	add fleet cromha-merchants 1700
 	object
 		sprite star/m0
@@ -1607,6 +1608,7 @@ system Seketra
 	government "Cromha Empire"
 	haze _menu/haze-orange
 	add link "Da Lest"
+	add link "Prima Lifdot"
 	add fleet cromha-fleet 1700
 	add fleet mineria-transports 875
 	add fleet cromha-merchants 950
@@ -2797,6 +2799,7 @@ system "Da Ent"
 			period 23.42
 
 system "Da Lest"
+	add link "Prima Lifdot"
 	add link Seketra
 	add link Solifar
 	object
@@ -3313,7 +3316,6 @@ system Wezen
 	pos -852 -59
 	government "Empire Rebels"
 	add attributes rebels
-	link ""
 	link Alsif
 	link "Far Sabira"
 	link Limen
@@ -3378,10 +3380,12 @@ system Wezen
 			period 38.96
 
 planet "Phoenix Station"
+	add attributes rebels
 	outfitter Rebels-basic-ammo-outfitter
 	outfitter Rebels-basic-outfitter
 	outfitter Rebels-basic-power-outfitter
 	outfitter Rebels-basic-systems-outfitter
+	remove security
 
 planet Alfheim
 	outfitter Rebels-advanced-engines-outfitter
@@ -3390,6 +3394,7 @@ planet Alfheim
 	outfitter Rebels-basic-outfitter
 	outfitter Rebels-basic-systems-outfitter
 	outfitter Rebels-basic-weapon-outfitter
+	remove security
 
 system "Alpi Tah"
 	pos -783 -132
@@ -3451,7 +3456,7 @@ planet "Las Tah"
 	outfitter Rebels-basic-systems-outfitter
 	outfitter Rebels-basic-weapon-outfitter
 	bribe 0.5
-	security 0.7
+	security 0
 	tribute 1200
 		threshold 5000
 		fleet empire-rebels-raiders 6
@@ -3995,7 +4000,6 @@ system "Io Salu"
 		period 4260.736
 
 system ""
-	link Wezen
 
 planet "As Al'k Station"
 	attributes factory "far empire" remnant station
@@ -4111,20 +4115,20 @@ planet Sabis
 	outfitter Rebels-basic-outfitter
 	"required reputation" 10
 	bribe 1
-	security 1
+	security 0
 	tribute 780
 		threshold 1000
 		fleet empire-rebels-raiders 8
 
 planet "Sabis Refinery"
-	attributes deep rebels
+	attributes deep rebels station
 	landscape land/station10
 	description "The Sabis Refinery it the station that refine fuel for the whole Rebels Deep space. It is also a strategic outpost near the frontier between the Rebels Deep and The Deep. It is often attacked by the Deep Security."
 	government "Empire Rebels"
 	outfitter Rebels-basic-ammo-outfitter
 	outfitter Rebels-basic-outfitter
 	bribe 1
-	security 1.3
+	security 0
 	tribute 370
 		threshold 1000
 		fleet empire-rebels-raiders 4
@@ -4206,8 +4210,17 @@ system Marje
 	pos -967.468 -131.597
 	government "Empire Rebels"
 	attributes deep rebels
+	habitable 425
+	belt 1691 2
 	link "Far Sabira"
 	link Lalmi
+	asteroids "medium rock" 8 3.103
+	asteroids "large rock" 1 2.272
+	asteroids "small metal" 4 3.671
+	asteroids "medium metal" 10 2.841
+	asteroids "large metal" 2 3.583
+	minables aluminum 3 5.056
+	minables lead 12 4.786
 	trade Clothing 167
 	trade Electronics 610
 	trade Equipment 721
@@ -4218,6 +4231,49 @@ system Marje
 	trade Medical 460
 	trade Metal 469
 	trade Plastic 481
+	fleet empire-rebels-merchants 850
+	fleet empire-rebels-raiders 950
+	fleet "Large Southern Pirates" 1000
+	fleet "Small Southern Pirates" 750
+	fleet "Large Deep Security" 1200
+	object
+		sprite star/k5
+		distance 173.526
+		period 73.274
+		offset 180
+	object
+		sprite star/xggiant
+		distance 48.974
+		period 73.274
+	object Salkfa
+		sprite planet/rock4-b
+		distance 520
+		period 230.076
+		object
+			sprite planet/fg_moon10
+			distance 165
+			period 80.117
+	object
+		sprite planet/gas16
+		distance 1046
+		period 656.392
+	object
+		sprite planet/fg_terrestrial4
+		distance 1610
+		period 1253.442
+	object
+		sprite planet/gas8-b
+		distance 2606
+		period 2581.233
+		object Pirfa
+			sprite planet/fg_terrestrial2
+				scale 2.2
+			distance 643.02
+			period 180.252
+		object Sabristet
+			sprite "planet/rebel station big"
+			distance 324.047
+			period 513.105
 
 system Lalmi
 	pos -892.69 -149.856
@@ -4246,6 +4302,9 @@ system Lalmi
 	trade Medical 502
 	trade Metal 426
 	trade Plastic 482
+	fleet empire-rebels-merchants 850
+	fleet "Small Southern Pirates" 850
+	fleet "Large Southern Pirates" 1000
 	object
 		sprite star/k3
 		period 10
@@ -4317,7 +4376,7 @@ system Term
 	object
 		sprite star/g-giant
 		period 10
-	object
+	object Struy
 		sprite planet/ocean2-b
 		distance 323
 		period 120.715
@@ -4325,8 +4384,8 @@ system Term
 		sprite planet/rock13
 		distance 903
 		period 564.275
-		object
-			sprite planet/callisto-b
+		object "Falk Refinery"
+			sprite "planet/rebel station3"
 			distance 160
 			period 52.966
 	object
@@ -4342,21 +4401,61 @@ system "Alpi Nova"
 	pos -843.542 -116.116
 	government "Empire Rebels"
 	attributes deep rebels
+	habitable 0
+	belt 1748 10
 	link "Alpi Tah"
 	link "Far Sabira"
 	link Lalmi
 	link Larska
 	link Term
-	trade Clothing 190
-	trade Electronics 827
-	trade Equipment 445
-	trade Food 296
-	trade "Heavy Metals" 1147
-	trade Industrial 661
-	trade "Luxury Goods" 1019
-	trade Medical 822
-	trade Metal 456
-	trade Plastic 369
+	asteroids "small rock" 1 4.362
+	asteroids "medium rock" 1 5.273
+	asteroids "large rock" 2 5.924
+	asteroids "small metal" 3 4.687
+	asteroids "medium metal" 1 4.557
+	asteroids "large metal" 1 5.729
+	trade Clothing 232
+	trade Electronics 680
+	trade Equipment 539
+	trade Food 534
+	trade "Heavy Metals" 768
+	trade Industrial 720
+	trade "Luxury Goods" 1158
+	trade Medical 681
+	trade Metal 410
+	trade Plastic 398
+	fleet empire-rebels-merchants 750
+	fleet empire-rebels-raiders 1000
+	fleet "Small Southern Pirates" 750
+	fleet "Large Southern Pirates" 950
+	object
+		sprite planet/browndwarf-t-rougeorange
+		period 10
+	object
+		sprite planet/ice4-b
+		distance 525
+		period 75
+	object
+		sprite planet/gas0-hot
+		distance 909
+		period 35
+	object "Silk Hide"
+		sprite "planet/rebel station3k big"
+		distance 1794
+		period 80
+		object "Silk Hide"
+			sprite "planet/rebel station2"
+			distance 378
+			period 45
+	object
+		sprite planet/gas10
+		distance 3227.193
+		period 130
+		object
+			sprite planet/fg_moon8
+			distance 217
+			period 10
+			offset 10
 
 system Aviar
 	pos -760.704 -174.333
@@ -4424,18 +4523,64 @@ system Larska
 	pos -816 -167.111
 	government "Empire Rebels"
 	attributes deep rebels
+	habitable 5600
+	belt 1622 6
 	link "Alpi Nova"
 	link "Alpi Tah"
-	trade Clothing 350
-	trade Electronics 785
-	trade Equipment 375
-	trade Food 538
-	trade "Heavy Metals" 1124
-	trade Industrial 910
-	trade "Luxury Goods" 1309
-	trade Medical 871
-	trade Metal 370
-	trade Plastic 494
+	asteroids "small rock" 26 3.386
+	asteroids "medium rock" 23 3.544
+	asteroids "large rock" 12 5.026
+	asteroids "small metal" 1 4.126
+	asteroids "medium metal" 4 3.174
+	asteroids "large metal" 1 3.703
+	minables titanium 3 6.768
+	trade Clothing 230
+	trade Electronics 764
+	trade Equipment 552
+	trade Food 396
+	trade "Heavy Metals" 908
+	trade Industrial 691
+	trade "Luxury Goods" 1023
+	trade Medical 724
+	trade Metal 412
+	trade Plastic 344
+	fleet empire-rebels-merchants 750
+	fleet empire-rebels-raiders 1000
+	fleet "Large Southern Pirates" 900
+	fleet "Small Southern Pirates" 800
+	object
+		sprite star/f-giant
+		distance 206.001
+		period 192.33
+	object
+		sprite planet/browndwarf-t-rougeblue
+		distance 256.127
+		period 192.33
+		offset 180
+	object Alhim
+		sprite planet/gw-continential0
+		distance 833
+		period 128.509
+		object
+			sprite planet/fg_moon13
+			distance 196
+			period 103.725
+	object
+		sprite planet/gas7
+		distance 1558
+		period 328.713
+		object
+			sprite planet/rock14-b
+			distance 295
+			period 132.602
+	object
+		sprite planet/gas10-b
+		distance 2275
+		period 580.013
+	object
+		sprite planet/browndwarf-yorange
+		distance 3445
+		period 1080.811
 
 planet Abda
 	attributes factory military pirate
@@ -4474,4 +4619,216 @@ system Postverta
 
 system Celeborim
 	pos 190.616 -638.553
+
+planet "Silk Hide"
+	attributes deep rebels station
+	landscape land/station20
+	description "The Silk Station is an hide for the Empire Rebels drugs runner if they're researched by some Deep Security ships or Free Worlds fleets. It is very rare that the Deep Security fly near this system."
+	spaceport "The spaceport is big enough for some interceptors but surely not enough for several Empire Rebels fleets."
+	government "Empire Rebels"
+	outfitter Rebels-basic-outfitter
+	"required reputation" 50
+	bribe 5
+	security 0
+	tribute 850
+		threshold 2500
+		fleet empire-rebels-merchants 7
+
+planet Alhim
+	attributes deep rebels
+	landscape land/water7
+	description "Alhim is an huge Empire Rebels planet where everything happens"
+	spaceport "The spaceport is huge"
+	government "Empire Rebels"
+	shipyard "Advanced Southern Pirates"
+	shipyard "Core Pirates"
+	shipyard "Tarazed Advanced"
+	outfitter Rebels-advanced-engines-outfitter
+	outfitter Rebels-advanced-power-outfitter
+	outfitter Rebels-advanced-systems-outfitter
+	outfitter Rebels-basic-ammo-outfitter
+	outfitter Rebels-basic-outfitter
+	outfitter Rebels-basic-weapon-outfitter
+	bribe 1
+	security 0
+	tribute 1000
+		threshold 10000
+		fleet empire-rebels-raiders 8
+		fleet empire-rebels-merchants 2
+		fleet "Large Southern Pirates" 4
+
+planet "Falk Refinery"
+	attributes deep rebels station uninhabited
+	description "The Falk Refinery was an Empire Rebels refinery before, but since a Deep Security fleet attacked this station, nuclear hazard happens in the station and it is now uninhabited."
+	government Uninhabited
+	bribe 0
+	security 0
+
+planet Struy
+	attributes deep rebels uninhabited
+	description "Struy is an habitable planet that used to be governed by Pirates but due to daily persecutions by the Deep Security, that abandonned this planet to go more far in the Rebel Deep, in the Aviar system."
+	government Uninhabited
+	bribe 0
+	security 0
+
+planet Sabristet
+	attributes deep rebels station
+	landscape land/station12
+	description "Sabristet is a huge Empire Rebels station that have for goal to scan every ship in the system: Pirates, Rebels Merchants, Drugs runners to analyze people and find cibles to attack."
+	spaceport "The spaceport is minimal"
+	government "Empire Rebels"
+	outfitter Rebels-basic-outfitter
+	bribe 1
+	security 0
+	tribute 350
+		threshold 700
+		fleet "Large Free Worlds" 3
+
+planet Pirfa
+	attributes deep pirate rebels
+	landscape land/forest0
+	description "Pirfa is one of the most important Pirate planet."
+	spaceport "Spaceport kinga big but not too much."
+	government Pirate
+	shipyard "Advanced Southern Pirates"
+	shipyard "Megaparsec Advanced"
+	shipyard "Syndicate Basics"
+	outfitter "Deep Sky Advanced"
+	outfitter "Pirate Outfits"
+	security 0
+	tribute 750
+		threshold 1000
+		fleet "Large Southern Pirates" 5
+
+planet Salkfa
+	attributes deep rebels uninhabited
+	landscape land/canyon02
+	description "Salkfa is a big desertic uninhabited planet that the Pirates and Empire Rebels often uses to hide for Deep Security that scan the system."
+	government Uninhabited
+	bribe 0
+	security 0
+
+system "Prima Lifdot"
+	pos 25.926 -390.778
+	government "Cromha Empire"
+	attributes "empire space" inhabited military research rich
+	habitable 0
+	belt 1347 6
+	haze _menu/haze-orange
+	link "Da Lest"
+	link Kaliptari
+	link Seketra
+	link Skeruto
+	link Solifar
+	asteroids "small rock" 19 5.52
+	asteroids "large rock" 2 2.815
+	asteroids "small metal" 3 5.52
+	asteroids "medium metal" 6 3.919
+	asteroids "large metal" 4 3.312
+	minables neodymium 1 8.317
+	trade Clothing 249
+	trade Electronics 777
+	trade Equipment 466
+	trade Food 415
+	trade "Heavy Metals" 1080
+	trade Industrial 679
+	trade "Luxury Goods" 1171
+	trade Medical 603
+	trade Metal 420
+	trade Plastic 334
+	fleet cromha-fleet 900
+	fleet cromha-merchants 550
+	fleet mineria-transports 500
+	fleet "Wanderer Freight" 750
+	fleet "Far Remnant Transport" 750
+	fleet "Large Hai Merchant" 850
+	fleet "Large Hai" 850
+	fleet "Small Hai" 550
+	fleet "Small Hai Merchant" 550
+	hazard "lifdot neutron hazard" 2900
+	object
+		sprite star/xg-supergiant
+		period 10
+		object
+			sprite star/nova
+			period 50
+	object
+		sprite planet/rock2b
+		distance 270
+	object Min'sta
+		sprite planet/ice3
+		distance 934
+		period 75
+		object
+			sprite planet/rock3-b
+			distance 186
+			period 30
+	object
+		sprite planet/browndwarf-tgreen
+		distance 2406
+		period 110
+		object "Ya Drawf"
+			sprite "planet/station hai geocoris"
+				scale 1.2
+			distance 300
+			period 25
+		object
+			sprite planet/forest6
+				scale 1.4
+			distance 588.121
+			period 45
+	object "Salkdot Shipyardor"
+		sprite planet/shipyard
+		distance 3699.154
+		period 100
+
+planet "Salkdot Shipyardor"
+	attributes "empire space" hai korath "korath space" military rich station tourism
+	landscape "land/station huge 1"
+	description `The Salkdot Shipyardor is probably the biggest station/planet of the whole galaxy. The Empire call it a "shipyardor". It has been designed to store millions of Lifdot Industries ship of all sorts: freighters, transporters, bulkers, interceptors, warships, world-ships... The secret of how this structures has been build stay secret in The Empire. You can find every Lifdot Industries/Cromha Empire outfits and ships at this place, like on Crodust, Lifdot. Due to the proximity of Remnant, Hais and Wanderers, the Mineria colonnies also export a lot of other species outfits to this station/planet.`
+	spaceport "From the spaceport you have a great view of the system with its orange haze and the huge nova and a green brawndrowf. You can see ships of all species: Humans, Remnants, Hais, Empire Navies, Pugs, Wanderers, Quargs... The only one that seems to miss is Coalition ships..."
+	government "Cromha Empire"
+	shipyard Advanced-freighters-shipyard
+	shipyard Advanced-interceptors-shipyard
+	shipyard Advanced-lifdot-industries-shipyard
+	shipyard Advanced-warships-shipyard
+	shipyard Base-shipyard
+	shipyard "Imo Loo Mer Basics"
+	shipyard "Imo Loo Mer Advanced"
+	shipyard "Mon Ki i'Hiya Basics"
+	shipyard "Shield Beetle"
+	shipyard "Yeer e Ki Basics"
+	shipyard "Yeer e Ki Advanced"
+	shipyard Remnant
+	shipyard "Wanderer Advanced"
+	outfitter Advanced-ammo-outfitter
+	outfitter Advanced-engines-outfitter
+	outfitter Advanced-power-outfitter
+	outfitter Advanced-systems-outfitter
+	outfitter Advanced-weapon-outfitter
+	outfitter Base-outfitter
+	outfitter "Hai Advanced"
+	outfitter Remnant
+	outfitter "Wanderer Advanced"
+	bribe 3
+	security 5
+
+planet "Ya Drawf"
+	attributes hai research station tourism
+	landscape land/sea17-harro
+	description "Ya Drawf is an Hai station that has for goal to study the super nova in the center of the system and the green brwndrawf that the station orbit around."
+	spaceport "The spaceport seems to contains lot of research hight technology, like lot of Hais station."
+	government Hai
+	outfitter "Hai Basics"
+	bribe 1
+	security 1
+
+planet Min'sta
+	attributes empire "empire space" military oil
+	landscape land/Salkdot
+	description "Min'sta is too hot to live in but it is habited my a small colonny of Mineria that lives in the undergrounds of the planet. While they live under, huge solar panels collect data about the super nova and produce huge amount of fuel with it, which is directly transfered to the Salkfdot Shipyardord spaceport to be refinned. Since it is very hot there is no spaceport even if it is inhabited."
+	spaceport " "
+	government "Mineria colonnies"
+	bribe 0.1
+	security 0.1
 

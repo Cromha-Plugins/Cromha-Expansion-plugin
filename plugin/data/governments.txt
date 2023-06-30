@@ -108,8 +108,8 @@ government "Empire Rebels"
 		Republic -1
 		Syndicate -1
 		Wanderer -1
-	bribe 1
-	fine 2
+	bribe .5
+	fine 1
 	raid cromha-fleet
 
 government "Mineria colonnies"
