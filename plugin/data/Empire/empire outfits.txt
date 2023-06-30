@@ -8,6 +8,12 @@ outfit "Mineria Key Stone"
 	"quantum keystone" 1
 	description "These Key Stones work like Hais or Remnant Key Stones. The Mineria Key Stones are produced by the Mineria mines and factories, which is an huge source of keystones"
 	
+outfit "Fuel Capacitor"
+	cost 70500
+	thumbnail "outfit/fuel capacitor"
+	plural "Fuel Capacitors"
+	description "This Capacitor contains non-refined oil in large quantity but you can't use it because it seems to have high security"	
+
 outfit "Nanobot Pod"
 	category "Systems"
 	cost 1780
