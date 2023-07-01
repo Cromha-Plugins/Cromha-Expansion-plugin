@@ -9,5 +9,10 @@ This is a program that basically update the local github repository from the mai
 The run.py program grab the plugin/ directory from the local repository and copy directly to your plugin directory (the path is stored in .settings.txt). Note that all python scripts are made to be executed for the root directory (the directory of the local repository).
 ## Push.py
 This script simply add all the changes you've made to a commit that you can name through the terminal window. It will then push the commit to the main branch in the github repository in the cloud. Note that all python scripts are made to be executed for the root directory (the directory of the local repository).
+
+
+## endless-sky-ship-builder.html
+This a simple html page that let you create gun/turret/engine hardpoints for creating ships. It is copied from [the original endless sky ship builder](https://endless-sky.github.io/ship_builder.html). the 'endless-sky-ship-builder_files/' directory is just here to store needed file for html page.
+
 ## Es Developer Tool/
 This directory contains useful python programs that haven been made by the creator of Endless Sky and can help you coding plugins. There is a README.md file in it if you want to know more about it.
