@@ -1,6 +1,6 @@
 # Cromha-expansion_plugin
 This is a endless sky plugin i make myself. Check out the wiki for more informations or just test the plugin!
-**You can join the discord server [here](https://discord.gg/fSUbjYtTxX)**
+**You can join the discord server [here](https://discord.gg/tafa8dVH5Q)**
 
 For more information, just check the [wiki](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki)!
 
