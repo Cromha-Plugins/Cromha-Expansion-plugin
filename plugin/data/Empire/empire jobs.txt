@@ -1,3 +1,294 @@
+# Fuel Exportation Jobs
+mission empire-fuel-transport[0]
+	job
+	repeat
+	name "Fuel Export to <planet>"
+	description "Transport 2 Fuel Capacitor full of non-refined oil to <destination> before the date of <date>. Payment is <payment>."
+	deadline 4 2
+	destination
+		not government "Empire Rebels" "Kor Mereti" "Kor Efret" "Kor Sestor" "Hai (Unfettered)" "Pirate"
+		distance 2 4
+	source
+		government "Cromha Empire" "Mineria colonnies"
+	to offer
+		random < 2
+		"reputation: Cromha Empire" > 100
+	on accept
+		outfit "Fuel Capacitor" +2
+		dialog "An mineria colonnies guy gives you the 2 Fuel Capacitor and leaves your ship."
+	on complete
+		outfit "Fuel Capacitor" -2
+		"reputation: Cromha Empire" += 10
+		"reputation: Mineria colonnies" += 20
+		dialog "You give the Fuel Capacitors to a mineria colonny guy and get payed <payment>."
+		payment
+		payment 50000 3
+mission empire-fuel-transport[1]
+	job
+	repeat
+	name "Fuel Export to <planet>"
+	description "Transport 3 Fuel Capacitor full of non-refined oil to <destination> before the date of <date>. Payment is <payment>."
+	deadline 4 2
+	destination
+		not government "Empire Rebels" "Kor Mereti" "Kor Efret" "Kor Sestor" "Hai (Unfettered)" "Pirate"
+		distance 2 4
+	source
+		government "Cromha Empire" "Mineria colonnies"
+	to offer
+		random < 2
+		"reputation: Cromha Empire" > 100
+	on accept
+		outfit "Fuel Capacitor" +3
+		dialog "An mineria colonnies guy gives you the 3 Fuel Capacitor and leaves your ship."
+	on complete
+		outfit "Fuel Capacitor" -3
+		"reputation: Cromha Empire" += 10
+		"reputation: Mineria colonnies" += 20
+		dialog "You give the Fuel Capacitors to a mineria colonny guy and get payed <payment>."
+		payment
+		payment 65500 3
+mission empire-fuel-transport[2]
+	job
+	repeat
+	name "Fuel Export to <planet>"
+	description "Transport 5 Fuel Capacitor full of non-refined oil to <destination> before the date of <date>. Payment is <payment>."
+	deadline 7 2
+	destination
+		not government "Empire Rebels" "Kor Mereti" "Kor Efret" "Kor Sestor" "Hai (Unfettered)" "Pirate"
+		distance 4 7
+	source
+		government "Cromha Empire" "Mineria colonnies"
+	to offer
+		random < 2
+		"reputation: Cromha Empire" > 100
+	on accept
+		outfit "Fuel Capacitor" +5
+		dialog "An mineria colonnies guy gives you the 5 Fuel Capacitor and leaves your ship."
+	on complete
+		outfit "Fuel Capacitor" -5
+		"reputation: Cromha Empire" += 10
+		"reputation: Mineria colonnies" += 20
+		dialog "You give the Fuel Capacitors to a mineria colonny guy and get payed <payment>."
+		payment
+		payment 70000 3
+mission empire-fuel-transport[3]
+	job
+	repeat
+	name "Fuel Export to <planet>"
+	description "Transport 7 Fuel Capacitor full of non-refined oil to <destination> before the date of <date>. Payment is <payment>."
+	deadline 4 2
+	destination
+		not government "Empire Rebels" "Kor Mereti" "Kor Efret" "Kor Sestor" "Hai (Unfettered)" "Pirate"
+		distance 4 7
+	source
+		government "Cromha Empire" "Mineria colonnies"
+	to offer
+		random < 2
+		"reputation: Cromha Empire" > 100
+	on accept
+		outfit "Fuel Capacitor" +7
+		dialog "An mineria colonnies guy gives you the 7 Fuel Capacitor and leaves your ship."
+	on complete
+		outfit "Fuel Capacitor" -7
+		"reputation: Cromha Empire" += 10
+		"reputation: Mineria colonnies" += 20
+		dialog "You give the Fuel Capacitors to a mineria colonny guy and get payed <payment>."
+		payment
+		payment 85500 3
+mission empire-fuel-transport[4]
+	job
+	repeat
+	name "Fuel Export to <planet>"
+	description "Transport 9 Fuel Capacitor full of non-refined oil to <destination> before the date of <date>. Payment is <payment>."
+	deadline 12 2
+	destination
+		not government "Empire Rebels" "Kor Mereti" "Kor Efret" "Kor Sestor" "Hai (Unfettered)" "Pirate"
+		distance 7 12
+	source
+		government "Cromha Empire" "Mineria colonnies"
+	to offer
+		random < 2
+		"reputation: Cromha Empire" > 100
+	on accept
+		outfit "Fuel Capacitor" +9
+		dialog "An mineria colonnies guy gives you the 9 Fuel Capacitor and leaves your ship."
+	on complete
+		outfit "Fuel Capacitor" -9
+		"reputation: Cromha Empire" += 10
+		"reputation: Mineria colonnies" += 20
+		dialog "You give the Fuel Capacitors to a mineria colonny guy and get payed <payment>."
+		payment
+		payment 105000 3
+mission empire-fuel-transport[5]
+	job
+	repeat
+	name "Fuel Export to <planet>"
+	description "Transport 12 Fuel Capacitor full of non-refined oil to <destination> before the date of <date>. Payment is <payment>."
+	deadline 13
+	destination
+		not government "Empire Rebels" "Kor Mereti" "Kor Efret" "Kor Sestor" "Hai (Unfettered)" "Pirate"
+		distance 13
+	source
+		government "Cromha Empire" "Mineria colonnies"
+	to offer
+		random < 2
+		"reputation: Cromha Empire" > 100
+	on accept
+		outfit "Fuel Capacitor" +12
+		dialog "An mineria colonnies guy gives you the 12 Fuel Capacitor and leaves your ship."
+	on complete
+		outfit "Fuel Capacitor" -12
+		"reputation: Cromha Empire" += 10
+		"reputation: Mineria colonnies" += 20
+		dialog "You give the Fuel Capacitors to a mineria colonny guy and get payed <payment>."
+		payment
+		payment 170000 2.7
+
+mission empire-fuel-transport[6]
+	job
+	repeat
+	name "Fuel Export to <planet>"
+	description "Transport 2 Fuel Capacitor full of non-refined oil to <destination> before the date of <date>. Payment is <payment>."
+	deadline 4 2
+	destination
+		not government "Empire Rebels" "Kor Mereti" "Kor Efret" "Kor Sestor" "Hai (Unfettered)" "Pirate"
+		distance 2 4
+	source
+		government "Cromha Empire" "Mineria colonnies"
+	to offer
+		random < 2
+		"reputation: Cromha Empire" > 100
+	on accept
+		outfit "Fuel Capacitor" +2
+		dialog "An mineria colonnies guy gives you the 2 Fuel Capacitor and leaves your ship."
+	on complete
+		outfit "Fuel Capacitor" -2
+		"reputation: Cromha Empire" += 10
+		"reputation: Mineria colonnies" += 20
+		dialog "You give the Fuel Capacitors to a mineria colonny guy and get payed <payment>."
+		payment
+		payment 50000 3
+mission empire-fuel-transport[7]
+	job
+	repeat
+	name "Fuel Export to <planet>"
+	description "Transport 3 Fuel Capacitor full of non-refined oil to <destination> before the date of <date>. Payment is <payment>."
+	deadline 4 2
+	destination
+		not government "Empire Rebels" "Kor Mereti" "Kor Efret" "Kor Sestor" "Hai (Unfettered)" "Pirate"
+		distance 2 4
+	source
+		government "Cromha Empire" "Mineria colonnies"
+	to offer
+		random < 2
+		"reputation: Cromha Empire" > 100
+	on accept
+		outfit "Fuel Capacitor" +3
+		dialog "An mineria colonnies guy gives you the 3 Fuel Capacitor and leaves your ship."
+	on complete
+		outfit "Fuel Capacitor" -3
+		"reputation: Cromha Empire" += 10
+		"reputation: Mineria colonnies" += 20
+		dialog "You give the Fuel Capacitors to a mineria colonny guy and get payed <payment>."
+		payment
+		payment 65500 3
+mission empire-fuel-transport[8]
+	job
+	repeat
+	name "Fuel Export to <planet>"
+	description "Transport 5 Fuel Capacitor full of non-refined oil to <destination> before the date of <date>. Payment is <payment>."
+	deadline 7 2
+	destination
+		not government "Empire Rebels" "Kor Mereti" "Kor Efret" "Kor Sestor" "Hai (Unfettered)" "Pirate"
+		distance 4 7
+	source
+		government "Cromha Empire" "Mineria colonnies"
+	to offer
+		random < 2
+		"reputation: Cromha Empire" > 100
+	on accept
+		outfit "Fuel Capacitor" +5
+		dialog "An mineria colonnies guy gives you the 5 Fuel Capacitor and leaves your ship."
+	on complete
+		outfit "Fuel Capacitor" -5
+		"reputation: Cromha Empire" += 10
+		"reputation: Mineria colonnies" += 20
+		dialog "You give the Fuel Capacitors to a mineria colonny guy and get payed <payment>."
+		payment
+		payment 70000 3
+mission empire-fuel-transport[9]
+	job
+	repeat
+	name "Fuel Export to <planet>"
+	description "Transport 7 Fuel Capacitor full of non-refined oil to <destination> before the date of <date>. Payment is <payment>."
+	deadline 4 2
+	destination
+		not government "Empire Rebels" "Kor Mereti" "Kor Efret" "Kor Sestor" "Hai (Unfettered)" "Pirate"
+		distance 4 7
+	source
+		government "Cromha Empire" "Mineria colonnies"
+	to offer
+		random < 2
+		"reputation: Cromha Empire" > 100
+	on accept
+		outfit "Fuel Capacitor" +7
+		dialog "An mineria colonnies guy gives you the 7 Fuel Capacitor and leaves your ship."
+	on complete
+		outfit "Fuel Capacitor" -7
+		"reputation: Cromha Empire" += 10
+		"reputation: Mineria colonnies" += 20
+		dialog "You give the Fuel Capacitors to a mineria colonny guy and get payed <payment>."
+		payment
+		payment 85500 3
+mission empire-fuel-transport[10]
+	job
+	repeat
+	name "Fuel Export to <planet>"
+	description "Transport 9 Fuel Capacitor full of non-refined oil to <destination> before the date of <date>. Payment is <payment>."
+	deadline 12 2
+	destination
+		not government "Empire Rebels" "Kor Mereti" "Kor Efret" "Kor Sestor" "Hai (Unfettered)" "Pirate"
+		distance 7 12
+	source
+		government "Cromha Empire" "Mineria colonnies"
+	to offer
+		random < 2
+		"reputation: Cromha Empire" > 100
+	on accept
+		outfit "Fuel Capacitor" +9
+		dialog "An mineria colonnies guy gives you the 9 Fuel Capacitor and leaves your ship."
+	on complete
+		outfit "Fuel Capacitor" -9
+		"reputation: Cromha Empire" += 10
+		"reputation: Mineria colonnies" += 20
+		dialog "You give the Fuel Capacitors to a mineria colonny guy and get payed <payment>."
+		payment
+		payment 105000 3
+mission empire-fuel-transport[11]
+	job
+	repeat
+	name "Fuel Export to <planet>"
+	description "Transport 12 Fuel Capacitor full of non-refined oil to <destination> before the date of <date>. Payment is <payment>."
+	deadline 13
+	destination
+		not government "Empire Rebels" "Kor Mereti" "Kor Efret" "Kor Sestor" "Hai (Unfettered)" "Pirate"
+		distance 13
+	source
+		government "Cromha Empire" "Mineria colonnies"
+	to offer
+		random < 2
+		"reputation: Cromha Empire" > 100
+	on accept
+		outfit "Fuel Capacitor" +12
+		dialog "An mineria colonnies guy gives you the 12 Fuel Capacitor and leaves your ship."
+	on complete
+		outfit "Fuel Capacitor" -12
+		"reputation: Cromha Empire" += 10
+		"reputation: Mineria colonnies" += 20
+		dialog "You give the Fuel Capacitors to a mineria colonny guy and get payed <payment>."
+		payment
+		payment 170000 2.7
+
 # Hai Empire Jobs
 mission hai-embassade-escort[0]
 	assisting
@@ -2645,155 +2936,3 @@ mission empire-station-garbage[2]
 		payment
 		payment 95000 2
 		dialog "You recycle the garbage and get payed <payment>."
-		
-# Fuel Exportation Jobs
-mission empire-fuel-transport[0]
-	job
-	repeat
-	name "Fuel Export to <planet>"
-	description "Transport 2 Fuel Capacitor full of non-refined oil to <destination> before the date of <date>. Payment is <payment>."
-	deadline 4 2
-	destination
-		not government "Empire Rebels" "Kor Mereti" "Kor Efret" "Kor Sestor" "Hai (Unfettered)" "Pirate"
-		distance 2 4
-	source
-		attributes oil
-		government "Cromha Empire" "Mineria colonnies"
-	to offer
-		random < 5
-		"reputation: Cromha Empire" > 100
-	on accept
-		outfit "Fuel Capacitor" +2
-		dialog "An mineria colonnies guy gives you the 2 Fuel Capacitor and leaves your ship."
-	on complete
-		outfit "Fuel Capacitor" -2
-		"reputation: Cromha Empire" += 10
-		"reputation: Mineria colonnies" += 20
-		dialog "You give the Fuel Capacitors to a mineria colonny guy and get payed <payment>."
-		payment
-		payment 50000 3
-mission empire-fuel-transport[1]
-	job
-	repeat
-	name "Fuel Export to <planet>"
-	description "Transport 3 Fuel Capacitor full of non-refined oil to <destination> before the date of <date>. Payment is <payment>."
-	deadline 4 2
-	destination
-		not government "Empire Rebels" "Kor Mereti" "Kor Efret" "Kor Sestor" "Hai (Unfettered)" "Pirate"
-		distance 2 4
-	source
-		attributes oil
-		government "Cromha Empire" "Mineria colonnies"
-	to offer
-		random < 5
-		"reputation: Cromha Empire" > 100
-	on accept
-		outfit "Fuel Capacitor" +3
-		dialog "An mineria colonnies guy gives you the 3 Fuel Capacitor and leaves your ship."
-	on complete
-		outfit "Fuel Capacitor" -3
-		"reputation: Cromha Empire" += 10
-		"reputation: Mineria colonnies" += 20
-		dialog "You give the Fuel Capacitors to a mineria colonny guy and get payed <payment>."
-		payment
-		payment 65500 3
-mission empire-fuel-transport[2]
-	job
-	repeat
-	name "Fuel Export to <planet>"
-	description "Transport 5 Fuel Capacitor full of non-refined oil to <destination> before the date of <date>. Payment is <payment>."
-	deadline 7 2
-	destination
-		not government "Empire Rebels" "Kor Mereti" "Kor Efret" "Kor Sestor" "Hai (Unfettered)" "Pirate"
-		distance 4 7
-	source
-		attributes oil
-		government "Cromha Empire" "Mineria colonnies"
-	to offer
-		random < 5
-		"reputation: Cromha Empire" > 100
-	on accept
-		outfit "Fuel Capacitor" +5
-		dialog "An mineria colonnies guy gives you the 5 Fuel Capacitor and leaves your ship."
-	on complete
-		outfit "Fuel Capacitor" -5
-		"reputation: Cromha Empire" += 10
-		"reputation: Mineria colonnies" += 20
-		dialog "You give the Fuel Capacitors to a mineria colonny guy and get payed <payment>."
-		payment
-		payment 70000 3
-mission empire-fuel-transport[3]
-	job
-	repeat
-	name "Fuel Export to <planet>"
-	description "Transport 7 Fuel Capacitor full of non-refined oil to <destination> before the date of <date>. Payment is <payment>."
-	deadline 4 2
-	destination
-		not government "Empire Rebels" "Kor Mereti" "Kor Efret" "Kor Sestor" "Hai (Unfettered)" "Pirate"
-		distance 4 7
-	source
-		attributes oil
-		government "Cromha Empire" "Mineria colonnies"
-	to offer
-		random < 5
-		"reputation: Cromha Empire" > 100
-	on accept
-		outfit "Fuel Capacitor" +7
-		dialog "An mineria colonnies guy gives you the 7 Fuel Capacitor and leaves your ship."
-	on complete
-		outfit "Fuel Capacitor" -7
-		"reputation: Cromha Empire" += 10
-		"reputation: Mineria colonnies" += 20
-		dialog "You give the Fuel Capacitors to a mineria colonny guy and get payed <payment>."
-		payment
-		payment 85500 3
-mission empire-fuel-transport[4]
-	job
-	repeat
-	name "Fuel Export to <planet>"
-	description "Transport 9 Fuel Capacitor full of non-refined oil to <destination> before the date of <date>. Payment is <payment>."
-	deadline 12 2
-	destination
-		not government "Empire Rebels" "Kor Mereti" "Kor Efret" "Kor Sestor" "Hai (Unfettered)" "Pirate"
-		distance 7 12
-	source
-		attributes oil
-		government "Cromha Empire" "Mineria colonnies"
-	to offer
-		random < 5
-		"reputation: Cromha Empire" > 100
-	on accept
-		outfit "Fuel Capacitor" +9
-		dialog "An mineria colonnies guy gives you the 9 Fuel Capacitor and leaves your ship."
-	on complete
-		outfit "Fuel Capacitor" -9
-		"reputation: Cromha Empire" += 10
-		"reputation: Mineria colonnies" += 20
-		dialog "You give the Fuel Capacitors to a mineria colonny guy and get payed <payment>."
-		payment
-		payment 105000 3
-mission empire-fuel-transport[5]
-	job
-	repeat
-	name "Fuel Export to <planet>"
-	description "Transport 12 Fuel Capacitor full of non-refined oil to <destination> before the date of <date>. Payment is <payment>."
-	deadline 13
-	destination
-		not government "Empire Rebels" "Kor Mereti" "Kor Efret" "Kor Sestor" "Hai (Unfettered)" "Pirate"
-		distance 13
-	source
-		attributes oil
-		government "Cromha Empire" "Mineria colonnies"
-	to offer
-		random < 5
-		"reputation: Cromha Empire" > 100
-	on accept
-		outfit "Fuel Capacitor" +12
-		dialog "An mineria colonnies guy gives you the 12 Fuel Capacitor and leaves your ship."
-	on complete
-		outfit "Fuel Capacitor" -12
-		"reputation: Cromha Empire" += 10
-		"reputation: Mineria colonnies" += 20
-		dialog "You give the Fuel Capacitors to a mineria colonny guy and get payed <payment>."
-		payment
-		payment 170000 2.7
