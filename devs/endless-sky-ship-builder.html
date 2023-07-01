@@ -1,0 +1,54 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><title>Endless Sky Ship Builder</title>
+<link rel="stylesheet" type="text/css" href="endless-sky-ship-builder_files/ship-builder.css">
+</head>
+
+<body>
+<!-- TODO: don't use a table to control layout -->
+<table role="presentation">
+<tbody><tr>
+	<td class="controls">
+		<p>
+			<label for="sprite-selector">Select a ship sprite:</label>
+			<input type="file" id="sprite-selector" name="file" title="Select a ship sprite" accept="image/png">
+		</p>
+
+		<p>
+			<label for="swizzle-select">Swizzle:</label>
+			<select name="swizzle" id="swizzle-select">
+				<option value="0" selected="selected">Republic (No swizzle)</option>
+				<option value="1">Unused (G ↔ B)</option>
+				<option value="2">Militia (R ↔ G)</option>
+				<option value="3">Unused (R → G → B → R)</option>
+				<option value="4">Syndicate (R → B → G → R)</option>
+				<option value="5">Merchant (R ↔ B)</option>
+				<option value="6">Pirate (G → R, B → G)</option>
+			</select>
+			#<input title="Swizzle Number" id="swizzle-value" type="text" disabled="disabled" value="0">
+		</p>
+
+		<p>
+			<input type="checkbox" id="show-outline">
+			<label for="show-outline">Show collision mask</label>
+		</p>
+
+		<p class="hardpoint-type">
+			<button type="button" name="gun" title="Create a gun mount at the selected position">gun</button>
+			<button type="button" name="turret" title="Create a turret mount at the selected position">turret</button>
+			<button type="button" name="engine" title="Create a engine mount at the selected position">engine</button>
+		</p>
+		<p>Load an image (regular resolution or @2x), click on where each 
+hardpoint should be, then click one of the buttons above to add the 
+selected point to a list of points (which will be shown below). You can 
+then copy that list into your ship definition.</p>
+		<pre id="points"></pre>
+	</td>
+	<td class="image-display">
+		<canvas id="canvas" class="has-image" width="420" height="660"></canvas>
+	</td>
+</tr>
+</tbody></table>
+
+
+<script type="text/javascript" defer="defer" src="endless-sky-ship-builder_files/ship-builder.js"></script>
+</body></html>
