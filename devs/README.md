@@ -12,7 +12,7 @@ This script simply add all the changes you've made to a commit that you can name
 
 
 ## endless-sky-ship-builder.html
-This a simple html page that let you create gun/turret/engine hardpoints for creating ships. It is copied from [the original endless sky ship builder](https://endless-sky.github.io/ship_builder.html). the 'endless-sky-ship-builder_files/' directory is just here to store needed file for html page.
+This a simple html page that let you create gun/turret/engine/reverse engine/bay hardpoints for creating ships. I personally copied it from [the original endless sky ship builder](https://endless-sky.github.io/ship_builder.html) and did modifications (I added a 'reverse engine' and a 'bay' button so you can create bay and reverse engine hardpoints too). the 'endless-sky-ship-builder_files/' directory is just here to store needed file for html page.
 
 ## Es Developer Tool/
 This directory contains useful python programs that haven been made by the creator of Endless Sky and can help you coding plugins. There is a README.md file in it if you want to know more about it.
