@@ -44,5 +44,13 @@
                   "console": "integratedTerminal",
                   "justMyCode": false
             }
+            {
+                  "name": "CromhaES: Dev Ships Stats",
+                  "type": "python",
+                  "request": "launch",
+                  "program": "devs/ships stats.py",
+                  "console": "integratedTerminal",
+                  "justMyCode": false
+            }
       ]
 }
