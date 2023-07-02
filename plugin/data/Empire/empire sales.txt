@@ -277,6 +277,7 @@ shipyard Basic-lifdot-industries-shipyard
 	"Headhunter (Empire)"
 	"Empire Starline Ak"
 	"Empire Starline Bul"
+	"Empire Striker"
 
 shipyard Advanced-lifdot-industries-shipyard
 	"Argosy (Empire)"
@@ -312,3 +313,4 @@ shipyard Advanced-lifdot-industries-shipyard
 	"Empire Starline Dys"
 	"Empire Starline Eas"
 	"Empire Starline Fex"
+	"Empire Striker"
