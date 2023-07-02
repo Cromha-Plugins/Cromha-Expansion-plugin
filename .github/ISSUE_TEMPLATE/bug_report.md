@@ -1,27 +1,29 @@
 ---
 name: Bug report
 about: Create a report to help us improve
-title: 'BUG:'
+title: 'BUG: '
 labels: bug
-assignees: ''
+assignees: OcelotWalrus
 
 ---
 
+<!--⚠️⚠️Do not delete text that are in brackets. It's here to help you and they will disappear when you will post the issue⚠️⚠️-->
+
 **Describe the bug**
-A clear and concise description of what the bug is.
+<Describe with the most words possible the bug that occurred.>
 
 **To Reproduce**
-Steps to reproduce the behavior:
+<Write the steps to reproduce the behavior. You can add or delete existing steps.>
 1. Go to '...'
 2. Click on '....'
 3. Scroll down to '....'
 4. See error
 
 **Expected behavior**
-A clear and concise description of what you expected to happen.
+<!--Describe what was supposed to happen instead of what happened to you. If not, delete this part.-->
 
 **Screenshots**
-If applicable, add screenshots to help explain your problem.
+<!--Add at least 1 to 3 screenshots if possible. It will help to understand more your problem. Delete this part if you don't have any screenshots-->
 
 **Additional context**
-Add any other context about the problem here.
+<!--You can add additional context if you want. If not, delete this part.-->
