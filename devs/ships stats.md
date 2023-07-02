@@ -4,15 +4,39 @@
 
 *These are the formulas that endless sky uses for calculating ships stats like acceleration, max speed and turn rate.*
 
+**To get the actual thrust, multiply the engine thrust in the engine outfit definition (the code) by 3,600**.
+
+<details>
+
+  <summary>Explanation</summary>
+
+  *For example if an engine has a thrust of 128.3 in the outfit definition, I will multiply it by 3,600, 128.3 * 3,600 = 461,880. 461,880 is the actual thrust that is displayed on the engine definition on the outfitter in-game.*
+
+</details>
+
+**To get the actual turn, multiply the engine turn in the engine outfit definition (the code) by 60.**
+
+<details>
+
+  <summary>Explanation</summary>
+
+  *For example, if an engine has a turn of 2,894 in the outfit definition, I will multiply it by 60, 2,894 * 60 = 173,640. 173,640 is the actual turn that is displayed on the engine definition on the outfitter in-game.*
+
+</details>
+
 * thrust / mass = acceleration
 * thrust / drag = max speed
 * turn / mass = turn rate
 
+*You can use the 'devs/ships stats.py' python script.*
+
 ## Type of ships
 
-*All thrusting stats, acceleration, mass, drag, turn and turn rate rated by type of ships.*
+*All thrusting stats(here thrust is max speed), acceleration, mass, drag, turn(here turn is max turn) and turn rate rated by type of ships.*
 
-### Thrust
+<details>
+
+  <summary>Thrust</summary>
 
 50-300 | Nanobots/Fuel Pods
 
@@ -22,7 +46,11 @@
 
 700-900 | Empire Warships/Destroyers(without any nanobot)
 
-### Acceleration
+</details>
+
+<details>
+
+  <summary>Acceleration</summary>
 
 30-40 | Heavy Freighters/Bulkers(heavy ones)/World-Ships
 
@@ -32,7 +60,11 @@
 
 80-100 | Modified Ships/Nanobots
 
-### Mass
+</details>
+
+<details>
+
+  <summary>Mass</summary>
 
 50-200 | Light Interceptors/Nanobots/Fuel Pods/Transporters
 
@@ -42,7 +74,11 @@
 
 450-700 | Destroyers(heavy type)/World-Ships/Heavy Freighters(rare)
 
-### Drag
+</details>
+
+<details>
+
+  <summary>Drag</summary>
 
 1-3 | Nanobots/Fuel Pods/Transporters(rare)
 
@@ -52,7 +88,11 @@
 
 9-11 | Heavy Warships(rare)/Destroyers(heavy type)/Utility(rare)/World-Ships
 
-### Turn
+</details>
+
+<details>
+
+  <summary>Turn</summary>
 
 50-150 | Heavy Freighters/Bulker/Utility
 
@@ -62,7 +102,11 @@
 
 700-900 | Empire Warships(light type)/Destroyers(heavy type)
 
-### Turn Rate
+</details>
+
+<details>
+
+  <summary>Turn Rate</summary>
 
 50-150 | Heavy Freighters/Bulker/Utility
 
@@ -71,3 +115,5 @@
 280-330 | Light Freighters/Light Warships/Transporters(30% of time)/Destroyers(carriers type without any nanobot and light type)/Empire Warships(heavy and utility type)
 
 700-900 | Empire Warships(light type)/Destroyers(heavy type)
+
+</details>
