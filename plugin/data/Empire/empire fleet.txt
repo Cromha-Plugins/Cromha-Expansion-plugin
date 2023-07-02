@@ -68,8 +68,13 @@ fleet cromha-fleet
 		"Empire Dredger"
 		"Fuel Pod Class H"
 		"Empire Palavret (Plasma)"
-	variant
+	variant 4
 		"Empire Galactik" 3
+	variant 2
+		"Empire Striker"
+		"Empire Nanobot YLL'A" 3
+		"Empire Nanobot YLL'E" 3
+		"Empire Galactik" 2
 	variant
 		"Empire Nano-Flyer"
 		"Empire Nanobot YLL'A" 8
