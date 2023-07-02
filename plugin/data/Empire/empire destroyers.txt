@@ -443,8 +443,8 @@ ship "Empire Striker"
 		"heat dissipation" 3
 		"fuel capacity" 600
 		"cargo space" 85
-		"outfit space" 1045
-		"weapon capacity" 240
+		"outfit space" 1075
+		"weapon capacity" 470
 		"engine capacity" 145
 		weapon
 			"blast radius" 420
