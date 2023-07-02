@@ -1113,8 +1113,10 @@ planet Listrosia
 system Kaliptari
 	government "Cromha Empire"
 	haze _menu/haze-orange
+	add link Parnakter
 	add link "Prima Lifdot"
 	add link Saharik
+	remove link Mekislepti
 	add fleet cromha-fleet 2000
 	add fleet cromha-miners 1500
 	add fleet small-pirates 3000
@@ -1301,7 +1303,7 @@ system Skeruto
 
 planet "Sabira Eseskrai"
 	add attributes military mining oil
-	government ""
+	government Uninhabited
 
 planet "Sabira Station"
 	attributes factory korath military north research station
@@ -1317,6 +1319,7 @@ system Sabriset
 	haze _menu/haze-orange
 	add link Eshkoshtar
 	add link Mesuket
+	add link Parnakter
 	trade Clothing 215
 	trade Electronics 816
 	trade Equipment 487
@@ -1657,7 +1660,7 @@ planet "Seleptra Nak"
 	outfitter Base-outfitter
 
 planet "Empire Z677 Base"
-	attributes korath military "requires: empire mapper" secret
+	attributes hideout korath military "requires: empire mapper" secret
 	landscape land/Empire_Z677_base
 	description "The Empire Z677 Secret Base is an outpost in the korath space to analyze Empire Rebels that are staying in the Korosmanath system and Kor Efreti that are in the Sumprast, Sevrelect and Kashikt systems because the Cromha Empire is planning to envase the Kor Efreti systems and make them own. Maybe it will be sooner that people think"
 	government "Cromha Empire"
@@ -3910,9 +3913,65 @@ planet "Salt Station"
 
 system "Rati Cal"
 	add link Chikatip
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/ice0-b
+		distance 393.64
+		period 151.535
+	object Dustmaker
+		sprite planet/rock15
+		distance 741.05
+		period 391.414
+	object
+		sprite planet/gas7
+		distance 1204.29
+		period 810.89
+		object
+			sprite planet/dust1-b
+			distance 269
+			period 15.695
+	object
+		sprite planet/gas5
+		distance 2194.1
+		period 1994.11
+		object Limejog
+			sprite planet/stationh-ancient1
+				scale 0.5
+			distance 240
+			period 17.5
 
 system Chikatip
 	add link "Rati Cal"
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/ganymede-b
+		distance 124.36
+		period 26.908
+	object
+		sprite planet/uranus-b
+		distance 690.755
+		period 352.25
+		object "Selefkar Refinery"
+			sprite planet/station3k
+				scale 0.5
+			distance 279.557
+			period 19.97
+	object
+		sprite planet/dust3
+		distance 1174.6
+		period 781.088
+	object
+		sprite planet/cloud5-b
+		distance 1387.21
+		period 1002.48
+	object
+		sprite planet/gas14-b
+		distance 3728.22
+		period 4416.9
 
 system "Io Salu"
 	pos -65.014 -377.035
@@ -4095,9 +4154,75 @@ system Marlab
 system Limen
 	add link Alsif
 	add link Wezen
+	object
+		sprite star/f5
+		period 10
+	object
+		sprite planet/venus
+		distance 238.96
+		period 35.679
+	object
+		sprite planet/lava3
+		distance 445.21
+		period 90.735
+	object
+		sprite planet/gas2-b
+		distance 1297.5
+		period 451.428
+		object
+			sprite planet/europa-b
+			distance 210
+			period 18.439
+	object
+		sprite planet/uranus
+		distance 2331.5
+		period 1087.37
+		object
+			sprite planet/dust5
+			distance 212
+			period 13.188
 
 system Naos
 	remove link Wezen
+	object
+		sprite star/f8
+		period 10
+	object
+		sprite planet/cloud6-b
+		distance 284.04
+		period 52.905
+		object
+			sprite planet/rock7-b
+			distance 147
+			period 17.044
+	object
+		sprite planet/cloud5-b
+		distance 698.29
+		period 203.928
+	object Asgard
+		sprite planet/forest1-b
+		distance 1403.38
+		period 581.014
+	object
+		sprite planet/ice0
+		distance 1754.42
+		period 812.128
+	object
+		sprite planet/gas9
+		distance 3348.18
+		period 2141.1
+		object
+			sprite planet/desert4
+			distance 231
+			period 12.383
+		object
+			sprite planet/rock17
+			distance 354
+			period 23.491
+		object
+			sprite planet/rock0-b
+			distance 511
+			period 40.741
 
 planet Sabis
 	attributes deep military rebels
@@ -4212,6 +4337,7 @@ system Marje
 	attributes deep rebels
 	habitable 425
 	belt 1691 2
+	link "Alpi Ava"
 	link "Far Sabira"
 	link Lalmi
 	asteroids "medium rock" 8 3.103
@@ -4616,9 +4742,64 @@ planet Alfyim
 
 system Postverta
 	remove hidden
+	object
+		sprite star/m8
+		period 10
+	object
+		sprite planet/desert7
+		distance 439
+		period 316.657
+	object Fertriery
+		sprite planet/fog0
+		distance 814
+		period 799.52
+		object
+			sprite planet/dust4
+			distance 202
+			period 21
+	object
+		sprite planet/rock10
+		distance 1208
+		period 1445.41
+	object "Ssil Vida"
+		sprite planet/sheragi_postverta
+			scale 0.5
+		distance 1408
+		period 1818.85
 
 system Celeborim
 	pos 190.616 -638.553
+	object
+		sprite star/m0
+		period 10
+	object "Firka Tesk"
+		sprite planet/lava3
+		distance 194.84
+		period 60.814
+	object
+		sprite planet/ocean9
+		distance 541.25
+		period 281.567
+	object
+		sprite planet/lava7-b
+		distance 901.09
+		period 604.835
+	object
+		sprite planet/dust2
+		distance 1764.34
+		period 1657.13
+	object
+		sprite planet/gas5-b
+		distance 3744.58
+		period 5123.77
+		object
+			sprite planet/dust4
+			distance 274
+			period 15.082
+		object
+			sprite planet/callisto
+			distance 373
+			period 23.956
 
 planet "Silk Hide"
 	attributes deep rebels station
@@ -4726,16 +4907,16 @@ system "Prima Lifdot"
 	asteroids "medium metal" 6 3.919
 	asteroids "large metal" 4 3.312
 	minables neodymium 1 8.317
-	trade Clothing 249
-	trade Electronics 777
-	trade Equipment 466
-	trade Food 415
-	trade "Heavy Metals" 1080
-	trade Industrial 679
-	trade "Luxury Goods" 1171
-	trade Medical 603
-	trade Metal 420
-	trade Plastic 334
+	trade Clothing 255
+	trade Electronics 761
+	trade Equipment 510
+	trade Food 425
+	trade "Heavy Metals" 1015
+	trade Industrial 627
+	trade "Luxury Goods" 1063
+	trade Medical 623
+	trade Metal 409
+	trade Plastic 380
 	fleet cromha-fleet 900
 	fleet cromha-merchants 550
 	fleet mineria-transports 500
@@ -4780,7 +4961,7 @@ system "Prima Lifdot"
 	object "Salkdot Shipyardor"
 		sprite planet/shipyard
 		distance 3699.154
-		period 100
+		period 222
 
 planet "Salkdot Shipyardor"
 	attributes "empire space" hai korath "korath space" military rich station tourism
@@ -4788,17 +4969,17 @@ planet "Salkdot Shipyardor"
 	description `The Salkdot Shipyardor is probably the biggest station/planet of the whole galaxy. The Empire call it a "shipyardor". It has been designed to store millions of Lifdot Industries ship of all sorts: freighters, transporters, bulkers, interceptors, warships, world-ships... The secret of how this structures has been build stay secret in The Empire. You can find every Lifdot Industries/Cromha Empire outfits and ships at this place, like on Crodust, Lifdot. Due to the proximity of Remnant, Hais and Wanderers, the Mineria colonnies also export a lot of other species outfits to this station/planet.`
 	spaceport "From the spaceport you have a great view of the system with its orange haze and the huge nova and a green brawndrowf. You can see ships of all species: Humans, Remnants, Hais, Empire Navies, Pugs, Wanderers, Quargs... The only one that seems to miss is Coalition ships..."
 	government "Cromha Empire"
+	shipyard ""
+	shipyard ""
+	shipyard ""
+	shipyard ""
+	shipyard ""
+	shipyard ""
 	shipyard Advanced-freighters-shipyard
 	shipyard Advanced-interceptors-shipyard
 	shipyard Advanced-lifdot-industries-shipyard
 	shipyard Advanced-warships-shipyard
 	shipyard Base-shipyard
-	shipyard "Imo Loo Mer Basics"
-	shipyard "Imo Loo Mer Advanced"
-	shipyard "Mon Ki i'Hiya Basics"
-	shipyard "Shield Beetle"
-	shipyard "Yeer e Ki Basics"
-	shipyard "Yeer e Ki Advanced"
 	shipyard Remnant
 	shipyard "Wanderer Advanced"
 	outfitter Advanced-ammo-outfitter
@@ -4831,4 +5012,202 @@ planet Min'sta
 	government "Mineria colonnies"
 	bribe 0.1
 	security 0.1
+
+system "Alpi Ava"
+	pos -1027.597 -133.766
+	government "Empire Rebels"
+	attributes deep rebels
+	habitable 11350
+	belt 1434 10
+	link Marje
+	asteroids "small rock" 27 2.8
+	asteroids "medium rock" 40 1.4
+	asteroids "large rock" 40 2.66
+	asteroids "small metal" 6 2.492
+	asteroids "medium metal" 10 2.128
+	asteroids "large metal" 6 2.576
+	minables silver 14 2.504
+	minables iron 27 2.742
+	minables uranium 31 2.892
+	trade Clothing 293
+	trade Electronics 883
+	trade Equipment 430
+	trade Food 189
+	trade "Heavy Metals" 1196
+	trade Industrial 584
+	trade "Luxury Goods" 984
+	trade Medical 748
+	trade Metal 231
+	trade Plastic 278
+	fleet empire-rebels-merchants 800
+	fleet "Small Southern Pirates" 900
+	object
+		sprite star/b-giant
+		period 10
+	object
+		sprite planet/gas10
+		distance 1006
+		period 119.801
+		object
+			sprite planet/fg_gas13
+			distance 406
+			period 23.44
+	object
+		sprite planet/gas9
+		distance 2078
+		period 355.656
+		object
+			sprite planet/rock3
+			distance 250
+			period 149.421
+	object
+		sprite planet/gas14-b
+		distance 4019
+		period 956.619
+		object
+			sprite "planet/asteroid base"
+			distance 272
+			period 117.401
+		object Falka
+			sprite planet/fg_terrestrial10
+			distance 470
+			period 104.317
+	object
+		sprite planet/browndwarf-y
+		distance 6177
+		period 1822.756
+
+planet Falka
+	attributes deep factory rebels
+	landscape land/city18-iridium
+	description "Falk is a planet far in the Rebels Deep. Only a few thousands people live here. Most of people that lives here are engineers that works in factories."
+	spaceport "The spaceport is huge but almost unused."
+	government "Empire Rebels"
+	outfitter Rebels-advanced-systems-outfitter
+	outfitter Rebels-basic-ammo-outfitter
+	outfitter Rebels-basic-outfitter
+	bribe 0.1
+	security 0
+	tribute 150
+		threshold 700
+		fleet empire-rebels-merchants 2
+		fleet "Large Southern Pirates" 4
+
+system Parnakter
+	pos 124.514 -385.21
+	government "Cromha Empire"
+	attributes korath
+	habitable 22300
+	belt 1474 8
+	haze _menu/haze-orange
+	link Kaliptari
+	link Mekislepti
+	link Sabriset
+	asteroids "small rock" 8 1.277
+	asteroids "medium rock" 33 1.63
+	asteroids "large rock" 93 1.411
+	asteroids "medium metal" 2 1.579
+	asteroids "large metal" 1 1.226
+	minables neodymium 7 2.065
+	trade Clothing 264
+	trade Electronics 769
+	trade Equipment 534
+	trade Food 351
+	trade "Heavy Metals" 1011
+	trade Industrial 644
+	trade "Luxury Goods" 1149
+	trade Medical 798
+	trade Metal 400
+	trade Plastic 395
+	fleet Quarg 900
+	fleet cromha-fleet 1300
+	fleet mineria-transports 800
+	fleet cromha-merchants 750
+	object
+		sprite star/o-giant
+		distance 302.5
+		period 263.062
+	object
+		sprite star/f-supergiant
+		distance 302.5
+		period 263.062
+		offset 180
+	object
+		sprite planet/water0-b
+		distance 1060.954
+		period 61.065
+	object "Alr Hideout"
+		sprite planet/station1kd
+		distance 1700.069
+		period 124.828
+		object
+			sprite planet/fg_moon13
+			distance 275.421
+			period 30
+	object "Farka Colons"
+		sprite planet/gas5-b
+		distance 2423.148
+		period 241.741
+	object
+		sprite planet/gas9-b
+		distance 3120.737
+		period 356.139
+		object
+			sprite planet/rock2b
+			distance 220
+			period -nan
+
+system Mekislepti
+	add link Parnakter
+	remove link Kaliptari
+	object
+		sprite star/g0
+		distance 36.539
+		period 9.641
+	object
+		sprite star/g5
+		distance 63.14
+		period 9.641
+		offset 180
+	object
+		sprite planet/mars
+		distance 305.67
+		period 51.77
+	object
+		sprite planet/cloud0-b
+		distance 556.96
+		period 127.33
+	object "Aresepru Nat"
+		sprite planet/water1
+		distance 1697.45
+		period 677.475
+	object
+		sprite planet/neptune
+		distance 2600.81
+		period 1284.87
+		object "Merask Fortuno"
+			sprite planet/station1k
+				scale 0.5
+			distance 334.445
+			period 30.473
+
+planet "Alr Hideout"
+	attributes hideout korath military station
+	landscape land/station44
+	description "The Alr Hideout was an old Kor Mereti Station that the Cromha Empire take comtrol off. The Cromha Empire now use it as a hideout for Empire Merchant or Mineria colonnies fleet if they are chased by any Empire Navy enemy."
+	spaceport "The whole station is actually a spaceport."
+	government "Cromha Empire"
+	outfitter Base-outfitter
+	outfitter Basic-ammo-outfitter
+	bribe 0
+	security 0
+
+planet "Farka Colons"
+	attributes korath mining minning oil
+	landscape land/canyon4
+	description "Farka Colons is an huge Mineria colonny that is based on refined oil exportation. The oil is produced and refined at the same place that let the colonny gain way more money that other oil colonny like this. this isone of the greatest Mineria colonny"
+	spaceport "From the spaceport you can see huge buildings and at the very far of the city, far coulds you can see desertic hills with huge oil mining station. This planet seems to be exploited a lot."
+	government "Mineria colonnies"
+	bribe 1
+	security 1
 
