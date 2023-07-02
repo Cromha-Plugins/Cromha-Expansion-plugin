@@ -10,9 +10,9 @@ jobs:
         permissions:
             issues: write
         steps:
-            - name: 'Auto-assign PR'
+            - name: 'Auto-assign Pull'
               uses: pozil/auto-assign-issue@v1
               with:
-                  repo-token: ${{ secrets.MY_PERSONAL_ACCESS_TOKEN }}
+                  repo-token: ${{ secrets.GITHUB_TOKEN }}
                   assignees: OcelotWalrus
                   allowSelfAssign: true
