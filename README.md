@@ -5,6 +5,7 @@ This is a endless sky plugin i make myself. Check out the wiki for more informat
 For more information, just check the [wiki](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki)!
 
 ## Contributing
+All Contributions are welcome!
 To contribute to the plugin, you can create issues to describe an error from spelling errors to mission bug or anything else.
 
 You can also create an issue to request specific feature.
