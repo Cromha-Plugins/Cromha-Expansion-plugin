@@ -2942,6 +2942,7 @@ system "Alpha Hydri"
 	fleet cromha-merchants 500
 	fleet mineria-transports 600
 	fleet cromha-merchants 800
+	fleet "Korath Raid" 1400
 	object "Alpha Jump Tunnel"
 		sprite "planet/jump tunnel"
 		distance 1200
@@ -2984,6 +2985,7 @@ system "Alpha Hydri"
 	fleet cromha-merchants 500
 	fleet mineria-transports 600
 	fleet cromha-merchants 800
+	fleet "Korath Raid" 1400
 	object "Alpha Jump Tunnel"
 		sprite "planet/jump tunnel"
 		distance 1200
@@ -3023,6 +3025,7 @@ system Polaris
 	fleet cromha-merchants 500
 	fleet mineria-transports 600
 	fleet cromha-merchants 1000
+	fleet "Korath Raid" 1400
 	object
 		sprite star/f5
 		period 10
@@ -3056,6 +3059,7 @@ system Sheratan
 	fleet cromha-merchants 500
 	fleet cromha-merchants 1000
 	fleet mineria-transports 600
+	fleet "Korath Raid" 1400
 	object
 		sprite star/f5
 		distance 21.025
@@ -3752,7 +3756,7 @@ system Nugg'es
 	pos 424.741 -564.482
 	government "Remnant (Far Empire)"
 	attributes "far empire space" inhabited remnant
-	haze _menu/haze-cyan
+	haze _menu/haze-blackbody
 	link Nugg'ys
 	asteroids "small rock" 6 3
 	minables "large plant cluster" 4 2
@@ -3803,7 +3807,7 @@ planet Hozt
 	outfitter "Remnant Salvage"
 	tribute 4000
 		threshold 8500
-		fleet "Heavy Far Remnant Defense" 20
+		fleet "" 20
 		fleet "Light Far Remnant Defense" 20
 		fleet "Far Remnant Decoy Defense" 8
 
@@ -3889,7 +3893,7 @@ planet "For Mars"
 	security 1
 	tribute 2500
 		threshold 8000
-		fleet "Heavy Far Remnant Defense" 16
+		fleet "" 16
 		fleet "Far Remnant Decoy Defense" 11
 
 planet "Salt Al"
@@ -4087,7 +4091,7 @@ planet "As Laska"
 	tribute 1000
 		threshold 9000
 		fleet "Far Remnant Decoy Defense" 8
-		fleet "Heavy Far Remnant Defense"
+		fleet ""
 
 system Marlab
 	pos -968 -15
@@ -4742,30 +4746,6 @@ planet Alfyim
 
 system Postverta
 	remove hidden
-	object
-		sprite star/m8
-		period 10
-	object
-		sprite planet/desert7
-		distance 439
-		period 316.657
-	object Fertriery
-		sprite planet/fog0
-		distance 814
-		period 799.52
-		object
-			sprite planet/dust4
-			distance 202
-			period 21
-	object
-		sprite planet/rock10
-		distance 1208
-		period 1445.41
-	object "Ssil Vida"
-		sprite planet/sheragi_postverta
-			scale 0.5
-		distance 1408
-		period 1818.85
 
 system Celeborim
 	pos 190.616 -638.553
@@ -4970,11 +4950,6 @@ planet "Salkdot Shipyardor"
 	spaceport "From the spaceport you have a great view of the system with its orange haze and the huge nova and a green brawndrowf. You can see ships of all species: Humans, Remnants, Hais, Empire Navies, Pugs, Wanderers, Quargs... The only one that seems to miss is Coalition ships..."
 	government "Cromha Empire"
 	shipyard ""
-	shipyard ""
-	shipyard ""
-	shipyard ""
-	shipyard ""
-	shipyard ""
 	shipyard Advanced-freighters-shipyard
 	shipyard Advanced-interceptors-shipyard
 	shipyard Advanced-lifdot-industries-shipyard
@@ -5155,7 +5130,7 @@ system Parnakter
 		object
 			sprite planet/rock2b
 			distance 220
-			period -nan
+			period 0
 
 system Mekislepti
 	add link Parnakter
@@ -5211,3 +5186,79 @@ planet "Farka Colons"
 	bribe 1
 	security 1
 
+galaxy Sentar
+	pos 10000 1700
+	sprite ui/sentar
+
+system Helk'Alf
+	pos 10821.542 1541.625
+	government "Cromha Empire"
+	habitable 0
+	belt 1945 10
+	haze _menu/haze-33
+	asteroids "small rock" 4 6.919
+	asteroids "medium rock" 1 5.506
+	asteroids "large rock" 8 6.324
+	asteroids "small metal" 11 6.324
+	asteroids "medium metal" 10 5.059
+	asteroids "large metal" 21 4.91
+	hazard "Far Empire Space Hazard" 1200
+	object
+		sprite planet/browndwarf-t-rougeblue
+		period 200
+	object
+		sprite planet/desert10
+		distance 1107.034
+		period -75
+	object
+		sprite planet/rock10-b
+		distance 1635.175
+		period 85
+	object
+		sprite planet/gas14
+		distance 3945.956
+		period 110
+	object
+		sprite planet/gas3
+		distance 4952.723
+		period 145
+		object
+			sprite planet/ice8-b
+			distance 294
+			period 35
+	object
+		sprite planet/station-bunrodea
+		distance 2730.168
+	object "Helk'Alf Wormhole"
+		sprite planet/wormhole
+			scale 5
+		distance 10909.867
+
+system Helk'Alk
+	pos 403.63 -434.463
+	government Uninhabited
+	habitable 3650
+	belt 1687
+	belt 2118 2
+	haze _menu/haze-33
+	asteroids "small rock" 3 1.693
+	asteroids "medium rock" 3 1.871
+	asteroids "large rock" 7 1.901
+	asteroids "medium metal" 2 1.723
+	asteroids "large metal" 2 1.96
+	minables copper 4 2.334
+	minables aluminum 4 3.476
+	hazard "Far Black Hole Gravity" 1
+	object "Helk'Alf Wormhole"
+		sprite planet/wormhole
+			scale 5
+
+planet "Helk'Alf Wormhole"
+	attributes "requires: quantum keystone"
+	description ""
+	spaceport ""
+
+wormhole "Helk'Alf Wormhole"
+	link "Helk'Alk" "Helk'Alf"
+	link "Helk'Alf" "Helk'Alk"
+	mappable 0
