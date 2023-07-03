@@ -25,5 +25,8 @@ assignees: OcelotWalrus
 **Screenshots**
 <!--Add at least 1 to 3 screenshots if possible. It will help to understand more your problem. Delete this part if you don't have any screenshots-->
 
+**Game Logs**
+<!--Drag & Drop your endless-sky logs file. It should be in your [endless-sky folder](https://github.com/endless-sky/endless-sky/wiki/CreatingPlugins) and it is called "errors.txt".-->
+
 **Additional context**
 <!--You can add additional context if you want. If not, delete this part.-->
