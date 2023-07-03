@@ -7,6 +7,8 @@ assignees: OcelotWalrus
 
 ---
 
+<!--⚠️⚠️Do not delete text that are in brackets. It's here to help you and they will disappear when you will post the issue⚠️⚠️-->
+
 **Is your feature request related to a problem? Please describe.**
 <!--A clear and concise description of what the problem is. Ex. I'm always frustrated when [...] If your feature is not related to a problem delete this part.-->
 
