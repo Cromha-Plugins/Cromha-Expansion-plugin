@@ -30,6 +30,8 @@
             "Radiothermal",
             "Sestor",
             "Starline",
+            "uncapturable",
+            "Wardragons",
             "Wel'y"
       ],
       "python.testing.unittestArgs": [
