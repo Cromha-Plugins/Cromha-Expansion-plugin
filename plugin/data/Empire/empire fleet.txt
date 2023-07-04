@@ -442,6 +442,14 @@ fleet cromha-merchants
 		"Firebird (Empire)" 2
 	variant
 		"Vanguard (Empire)"
+	variant 2
+		"Bactrian (Empire)"
+		"Barb (Empire)" 3
+	variant 2
+		"Bactrian (Empire)"
+		"Finch (Empire)" 3
+		"Mule (Empire)" 2
+		"Dropship (Empire)" 2
 
 fleet calor-stil-tourism
 	government "Mineria colonnies"

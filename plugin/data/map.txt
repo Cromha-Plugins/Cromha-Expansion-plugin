@@ -5259,6 +5259,4 @@ planet "Helk'Alf Wormhole"
 	spaceport ""
 
 wormhole "Helk'Alf Wormhole"
-	link "Helk'Alk" "Helk'Alf"
-	link "Helk'Alf" "Helk'Alk"
 	mappable 0
