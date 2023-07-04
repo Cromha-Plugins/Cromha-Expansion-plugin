@@ -12,13 +12,13 @@ Learn more [about Endless Sky][esweb].
 
   <summary>Summary</summary>
 
-* [About plugin](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/blob/main/README.md#about-plugin)
-    * [This plugin](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/blob/main/README.md#this-plugin)
-* [Contributing](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/blob/main/README.md#contributing)
-* [Development status](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/blob/main/README.md#development-status)
-* [Installation](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/blob/main/README.md#installation)
-    * [Install steps](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/blob/main/README.md#install-steps)
-    * [Keeping the plugin updated](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/blob/main/README.md#keeping-the-plugin-updated)
+* [About plugin](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/README.md#about-plugin)
+    * [This plugin](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/README.md#this-plugin)
+* [Contributing](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/README.md#contributing)
+* [Development status](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/README.md#development-status)
+* [Installation](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/README.md#installation)
+    * [Install steps](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/README.md#install-steps)
+    * [Keeping the plugin updated](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/README.md#keeping-the-plugin-updated)
 
 </details>
 
