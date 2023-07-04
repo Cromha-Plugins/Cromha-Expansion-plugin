@@ -53,6 +53,7 @@ It is currently a Beta plugin.
 
 # Installation
 Go [here](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki/User-Guide) for more infos on installing the plugin.
+You can download the [lite version](https://github.com/OcelotWalrus/Cromha-Expansion-plugin-LITE), it is basically just the plugin data & images without all other useless stuff.
 
 ## Install steps
 
