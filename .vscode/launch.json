@@ -9,7 +9,7 @@
                   "type": "python",
                   "request": "launch",
                   "program": "install.py",
-                  "console": "integratedTerminal",
+                  "console": "internalConsole",
                   "justMyCode": false
             },
             {
@@ -17,7 +17,7 @@
                   "type": "python",
                   "request": "launch",
                   "program": "update.py",
-                  "console": "integratedTerminal",
+                  "console": "internalConsole",
                   "justMyCode": false
             },
             {
@@ -25,7 +25,7 @@
                   "type": "python",
                   "request": "launch",
                   "program": "devs/push.py",
-                  "console": "integratedTerminal",
+                  "console": "internalConsole",
                   "justMyCode": false
             },
             {
@@ -33,7 +33,7 @@
                   "type": "python",
                   "request": "launch",
                   "program": "devs/run.py",
-                  "console": "integratedTerminal",
+                  "console": "internalConsole",
                   "justMyCode": false
             },
             {
@@ -41,7 +41,7 @@
                   "type": "python",
                   "request": "launch",
                   "program": "devs/update.py",
-                  "console": "integratedTerminal",
+                  "console": "internalConsole",
                   "justMyCode": false
             }
             {
@@ -49,7 +49,7 @@
                   "type": "python",
                   "request": "launch",
                   "program": "devs/ships stats.py",
-                  "console": "integratedTerminal",
+                  "console": "internalConsole",
                   "justMyCode": false
             }
       ]
