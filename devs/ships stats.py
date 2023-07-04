@@ -12,7 +12,7 @@ class ShipsStatsCalculator:
       
       # Compute final stats
       acceleration = thrust / mass
-      max_speed = thrust / drag
+      max_speed = thrust / drag / 60
       turn_rate= turn / mass
       
       # Print results

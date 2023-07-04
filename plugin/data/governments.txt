@@ -24,6 +24,7 @@ government "Cromha Empire"
 		Remnant 1
 		Syndicate -3
 		Wanderer 3
+		"Mineria colonnie" 5
 	"penalty for"
 		assist -1.6
 		disable 2.9
@@ -119,7 +120,6 @@ government "Mineria colonnies"
 	"crew attack" 29
 	"crew defense" 56
 	"attitude toward"
-		"" 3
 		Bounty -1
 		"Bounty Hunter" -1
 		"Cromha Empire" 5
@@ -219,11 +219,9 @@ government "Remnant (Far Empire)"
 	"crew attack" 1.6
 	"crew defense" 2.7
 	"attitude toward"
-		Alpha -0.05
-		"Empire Rebels" 5
+		"Empire Rebels" -5
 		"Indigenous Lifeform" 0.05
 		Korath -0.05
-		"Remnant (Research)" 1
 	"penalty for"
 		assist -0.25
 		disable 1

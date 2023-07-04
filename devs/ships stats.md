@@ -25,7 +25,7 @@
 </details>
 
 * thrust / mass = acceleration
-* thrust / drag = max speed
+* thrust / drag / 60 = max speed
 * turn / mass = turn rate
 
 *You can use the 'devs/ships stats.py' python script.*

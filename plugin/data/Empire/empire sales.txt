@@ -189,7 +189,7 @@ shipyard Basic-freighters-shipyard
 	"Cargo Transporter"
 	"Flivver (Empire)"
 	"Freighter (Empire)"
-	Lance
+	"Lance (Empire)"
 	"Scout (Empire)"
 	"Star Barge (Empire)"
 
@@ -209,7 +209,7 @@ shipyard Advanced-freighters-shipyard
 	"Hauler II (Empire)"
 	"Hauler III (Empire)"
 	"Heavy Shuttle (Empire)"
-	Lance
+	"Lance (Empire)"
 	"Scout (Empire)"
 	"Star Barge (Empire)"
 	"Star Queen (Empire)"
@@ -239,16 +239,16 @@ shipyard Basic-warships-shipyard
 
 shipyard Advanced-warships-shipyard
 	"Aerie (Empire)"
-	Barb
+	"Barb (Empire)"
 	"Bastion (Empire)"
-	Boxwing
+	"Boxwing (Empire)"
 	"Corvette (Empire)"
-	Dagger
+	"Dagger (Empire)"
 	"Dreadnought (Empire)"
-	Dropship
-	Finch
+	"Dropship (Empire)"
+	"Finch (Empire)"
 	"Firebird (Empire)"
-	Lance
+	"Lance (Empire)"
 	"Leviathan (Empire)"
 	"Manta (Empire)"
 	"Osprey (Empire)"
@@ -278,6 +278,8 @@ shipyard Basic-lifdot-industries-shipyard
 	"Empire Starline Ak"
 	"Empire Starline Bul"
 	"Empire Striker"
+	"Mule (Empire)"
+	"Bactrian (Empire)"
 
 shipyard Advanced-lifdot-industries-shipyard
 	"Argosy (Empire)"
@@ -314,3 +316,5 @@ shipyard Advanced-lifdot-industries-shipyard
 	"Empire Starline Eas"
 	"Empire Starline Fex"
 	"Empire Striker"
+	"Mule (Empire)"
+	"Bactrian (Empire)"
