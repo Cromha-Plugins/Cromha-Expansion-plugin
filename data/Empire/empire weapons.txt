@@ -361,6 +361,8 @@ outfit "Empire Typhoon Bank"
 		lifetime 875
 		"acceleration" 0.6
 		"reload" 65
+		"burst reload" 20
+		"burst count" 2
 		"firing energy" 211
 		"firing heat" 151
 		"drag" 0.12
