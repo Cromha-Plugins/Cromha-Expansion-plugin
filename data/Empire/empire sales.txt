@@ -213,6 +213,8 @@ shipyard Advanced-freighters-shipyard
 	"Scout (Empire)"
 	"Star Barge (Empire)"
 	"Star Queen (Empire)"
+	"Modified Flivver"
+	"Colossus"
 
 shipyard Basic-interceptors-shipyard
 	"Berserker (Empire)"
@@ -227,6 +229,7 @@ shipyard Advanced-interceptors-shipyard
 	"Hawk (Empire)"
 	"Headhunter (Empire)"
 	"Wasp (Empire)"
+	"Hornet"
 
 shipyard Basic-warships-shipyard
 	"Bastion (Empire)"
@@ -280,6 +283,7 @@ shipyard Basic-lifdot-industries-shipyard
 	"Empire Striker"
 	"Mule (Empire)"
 	"Bactrian (Empire)"
+	"Empire Oriole"
 
 shipyard Advanced-lifdot-industries-shipyard
 	"Argosy (Empire)"
@@ -318,3 +322,6 @@ shipyard Advanced-lifdot-industries-shipyard
 	"Empire Striker"
 	"Mule (Empire)"
 	"Bactrian (Empire)"
+	"Colossus"
+	"Empire Hydra"
+	"Empire Oriole"

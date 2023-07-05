@@ -936,7 +936,7 @@ outfit "Wel'y Beam Turret"
 		sound "sunbeam"
 		"hit effect" "wel'y beam impact"
 		"inaccuracy" .2
-		"turret turn" 1.3
+		"turret turn" 2.1
 		"velocity" 540
 		"lifetime" 1
 		"reload" 1
@@ -966,7 +966,7 @@ outfit "Dual Wel'y Beam Turret"
 		sound "sunbeam"
 		"hit effect" "wel'y beam impact" 2
 		"inaccuracy" .2
-		"turret turn" 1.0
+		"turret turn" 1.7
 		"velocity" 540
 		"lifetime" 1
 		"reload" 1

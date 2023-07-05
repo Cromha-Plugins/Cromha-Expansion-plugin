@@ -3,7 +3,6 @@ ship "Empire Wardragon"
 	thumbnail "thumbnail/empire wardragon"
 	plural "Empire Wardragons"
 	noun "wardragon"
-	"uncapturable"
 	"swizzle" 0
 	attributes
 		category "Empire Warship"
@@ -226,7 +225,6 @@ ship "Empire Skylark"
 ship "Empire Tubfalet"
 	sprite "ship/empire tubfalet"
 	thumbnail "thumbnail/empire tubfalet"
-	
 	"swizzle" 0
 	attributes
 		licenses
@@ -554,3 +552,182 @@ ship "Empire Dredger"
 	explode "empire small explosion" 45
 	"final explode" "empire huge explosion"
 	description "The Empire Dredger is one of the first ship that the Lifdot Industries ever made. It was at first designed to be an utility ship and it is still an utility ship even if it is categorize in the 'Warship' category. The Empire uses it for prisoners transport, military cargo transport and also for scanning ships and collect data about almost everything."
+	
+ship "Empire Hydra"
+	sprite "ship/Empire Hydra"
+	thumbnail "thumbnail/Empire Hydra"
+	"swizzle" 0
+	attributes
+		licenses
+			"Empire Navy"
+		category "Empire Warship"
+		"cost" 8203000
+		"shields" 218000
+		"hull" 197500
+		"required crew" 75
+		"bunks" 95
+		"mass" 390
+		"drag" 10
+		"heat dissipation" .9
+		"fuel capacity" 700
+		"cargo space" 90
+		"landing speed" 0.1
+		"outfit space" 1455
+		"weapon capacity" 375
+		"engine capacity" 410
+		"hull repair rate" 2
+		"hull energy" 2
+		"ramscoop" 1.5
+		weapon
+			"blast radius" 985
+			"shield damage" 29500
+			"hull damage" 23500
+			"hit force" 1200
+	outfits
+		"Alldust Beam Turret"
+		"Catalytic Ramscoop" 3
+		"Cloaking Module"
+		"Countermesure Module" 4
+		"Countermesure Module Compact" 13
+		"Brig"
+		"Dual Wel'y Beam Turret" 2
+		"Empire Barricade" 8
+		"Empire Defense Station" 20
+		"Empire Hai Ravine Batteries"
+		"Empire Navy Emitter"
+		"Empire Shielding Core" 3
+		"Fuel Cell"
+		"Langrage Empire-Heaver" 2
+		"Mineria Key Stone"
+		"Multiphasic Ammo Rack" 8
+		"Multiphasic Anti-Missile"
+		"Multiphasic Capacitor" 2
+		"Multiphasic Cooler" 6
+		"Multiphasic Scanner" 2
+		"Multiphasic ammo" 3000
+		"One-Phasic Cooler" 10
+		"Phasic Grenades" 65
+		"Phasic Rifle" 65
+		"Plasma Drive"
+		"Plasma Fuel Pod"
+		"Quantum Generator"
+		"RC-220 Atomic Thruster" 2
+		"RC-225 Atomic Steering" 2
+		"RC-X3 Multiphasic Reactor" 2
+		"RC-X4 Multiphasic Reactor" 2
+		"Small Empire Shielding Core" 8
+		"Teleportation Dock" 3
+		"Thermal Nucleavoltaic" 9
+		"Tre-Phasic Rifle" 3
+		"Wel'y Beam Turret" 2
+	engine -36.5 94
+	engine 36.5 94
+	engine 0 95
+	engine -28 101.5
+	engine 28 101.5
+	gun -75 45.5 "Langrage Empire-Heaver"
+		under
+	gun 75 45.5 "Langrage Empire-Heaver"
+		under
+	turret 0 -35.5 "Alldust Beam Turret"
+		over
+	turret 0 -17.5 "Multiphasic Anti-Missile"
+		over
+	turret -27 64.5 "Dual Wel'y Beam Turret"
+		over
+	turret 27 64.5 "Dual Wel'y Beam Turret"
+		over
+	turret -66.5 73 "Wel'y Beam Turret"
+		over
+	turret 66.5 73 "Wel'y Beam Turret"
+		over
+	bay "Fuel Pod" 0 42
+	explode "empire tiny explosion" 12
+	explode "empire small explosion" 16
+	explode "empire medium explosion" 30
+	explode "empire medium explosion" 40
+	explode "empire huge explosion" 20
+	"final explode" "empire huge explosion"
+	description "The goal of the Lifdot Industries was to build a new warship capable of destroying a whole Korath Exiles fleet himself. So the best way was to reuse an Korath Exiles ship model."
+	description "The second goal was to build a ship with the size of an Empire Galactik but with more compact outfits so it can be more maveuvrable and can carry more cargo if needed. Even if it is supposed to be a Warship, the Empire Navy more use it as an Interceptor to capture wanted outalaws or Empire Rebels."
+	
+ship "Empire Oriole"
+	sprite "ship/Empire Oriole"
+	thumbnail "thumbnail/Empire Oriole"
+	plural "Empire Orioles"
+	"swizzle" 0
+	attributes
+		category "Empire Warship"
+		licenses
+			"Empire Navy"
+		"cost" 140000
+		"shields" 80400
+		"hull" 15065
+		"required crew" 8
+		"bunks" 17
+		"mass" 215
+		"drag" 5.9
+		"heat dissipation" .34
+		"landing speed" 0.1
+		"fuel capacity" 300
+		"cargo space" 25
+		"outfit space" 1000
+		"weapon capacity" 365
+		"engine capacity" 215
+		"ramscoop" 0.7
+		weapon
+			"blast radius" 300
+			"shield damage" 8500
+			"hull damage" 8500
+			"hit force" 500
+	outfits
+		Brig
+		"Catalytic Ramscoop"
+		"Countermesure Module" 4
+		"Countermesure Module Compact" 6
+		"Empire Barricade" 2
+		"Empire Defense Station" 5
+		"Empire Hai Fissure Batteries" 3
+		"Empire Shielding Core" 4
+		"Fuel Cell"
+		"Mineria Key Stone"
+		"Multiphasic Ammo Rack" 5
+		"Multiphasic Anti-Missile"
+		"Multiphasic Cooler" 4
+		"Multiphasic Scanner"
+		"Multiphasic ammo" 2100
+		"One-Phasic Cooler" 4
+		"Phasic Fission Reactor"
+		"Phasic Grenades" 10
+		"Phasic Rifle" 10
+		"Plasma Drive"
+		"Plasma Fuel Pod"
+		"RC-180 Atomic Thruster"
+		"RC-200 Atomic Thruster"
+		"RC-205 Atomic Steering" 2
+		"RC-X2 Multiphasic Reactor" 2
+		"RC-X3 Multiphasic Reactor" 2
+		"RC-X4 Multiphasic Reactor"
+		"RX-180 Reverse Thruster"
+		"RX-200 Reverse Thruster"
+		"Small Empire Shielding Core" 4
+		"Teleportation Dock"
+		"Thermal Nucleavoltaic" 4
+		"Wel'y Beam Turret" 2
+	engine -14 47
+	engine 14 47
+	turret 0 -1 "Multiphasic Anti-Missile"
+		over
+	turret -18 37.5 "Wel'y Beam Turret"
+		over
+	turret 18 37.5 "Wel'y Beam Turret"
+		over
+	leak "empire leak" 60 50
+	leak "empire flame" 40 80
+	leak "empire big leak" 30 30
+	leak "empire flame" 40 80
+	leak "empire leak" 60 50
+	explode "empire tiny explosion" 60
+	explode "empire medium explosion" 40
+	"final explode" "empire huge explosion"
+	description "The Empire Wardragmoin is an remix of the Quarg Wardragon. This is the official Empire Warship that they use. It has good outfits, a great cargo space and great velocity. It is perfect for interceptions, attack, defend or even escort missions."

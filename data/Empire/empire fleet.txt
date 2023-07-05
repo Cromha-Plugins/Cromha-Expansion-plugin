@@ -38,6 +38,46 @@ fleet cromha-fleet
 		"Empire Nanobot YLL'E"
 		"Empire Nanobot YLL'A"
 	variant
+		"Empire Skylark"
+		"Empire Oriole" 2
+		"Empire Nanobot YLL'E" 2
+	variant
+		"Empire Skylark (Electron Beam)"
+		"Empire Oriole (Ion Proton)" 2
+		"Empire Nanobot YLL'E" 2
+	variant
+		"Empire Skylark (Ion Proton)"
+		"Empire Oriole (Electron Beam)"
+		"Empire Oriole (Ion Proton)"
+		"Empire Nanobot YLL'A" 2
+	variant
+		"Empire Skylark (Plasma Repeater)"
+		"Empire Oriole (Twin Modified Blaster)"
+		"Empire Oriole (Electron Beam)"
+		"Empire Nanobot YLL'E"
+		"Empire Nanobot YLL'A"
+	variant
+		"Empire Skylark (Wel'y)"
+		"Empire Oriole (Twin Modified Blaster)"
+		"Empire Oriole (Electron Beam)"
+		"Empire Nanobot YLL'E"
+		"Empire Nanobot YLL'A"
+	variant
+		"Empire Skylark (Plasma Repeater)"
+		"Empire Oriole (Twin Modified Blaster)"
+		"Empire Oriole (Wel'y)"
+		"Empire Nanobot YLL'E"
+		"Empire Nanobot YLL'A"
+	variant
+		"Empire Hydra"
+		"Empire Wardragon" 2
+	variant
+		"Empire Hydra"
+		"Empire Oriole" 2
+	variant
+		"Empire Hydra"
+		"Empire Skylark" 2
+	variant
 		"Empire Palavret" 3
 	variant
 		"Empire Palavret (Proton)"
@@ -226,6 +266,9 @@ fleet cromha-merchants
 		"Flivver (Empire)" 2
 	variant
 		"Blackbird (Empire)"
+		"Modified Flivver" 2
+	variant
+		"Blackbird (Empire)"
 		"Heavy Shuttle (Empire)" 2
 	variant
 		"Blackbird (Empire)"
@@ -233,6 +276,9 @@ fleet cromha-merchants
 	variant
 		"Blackbird (Empire)"
 		"Flivver (Empire)"
+	variant
+		"Blackbird (Empire)"
+		"Modified Flivver"
 	variant
 		"Blackbird (Empire)"
 		"Heavy Shuttle (Empire)"
@@ -244,6 +290,9 @@ fleet cromha-merchants
 		"Flivver (Empire)" 2
 	variant
 		"Bounder (Empire)"
+		"Modified Flivver" 2
+	variant
+		"Bounder (Empire)"
 		"Heavy Shuttle (Empire)" 2
 	variant
 		"Bounder (Empire)"
@@ -251,6 +300,9 @@ fleet cromha-merchants
 	variant
 		"Bounder (Empire)"
 		"Flivver (Empire)"
+	variant
+		"Bounder (Empire)"
+		"Modified Flivver"
 	variant
 		"Bounder (Empire)"
 		"Heavy Shuttle (Empire)"
@@ -289,6 +341,14 @@ fleet cromha-merchants
 	variant
 		"Behemoth (Empire)"
 		"Star Barge (Empire)" 2
+	variant
+		"Colossus"
+	variant
+		"Colossus"
+		"Modified Flivver" 2
+	variant
+		"Colossus"
+		"Freighter (Empire)" 2
 	variant
 		"Bulk Freighter (Empire)"
 		"Freighter (Empire)" 2
@@ -348,6 +408,24 @@ fleet cromha-merchants
 	variant
 		"Fury (Empire)"
 		"Wasp (Empire)" 3
+	variant
+		"Hornet"
+	variant
+		"Hornet" 2
+	variant
+		"Hornet" 3
+	variant
+		"Hawk (Empire)"
+		"Hornet" 2
+	variant
+		"Hawk (Empire)"
+		"Hornet" 3
+	variant
+		"Fury (Empire)"
+		"Hornet" 2
+	variant
+		"Fury (Empire)"
+		"Hornet" 3
 	variant
 		"Quicksilver (Empire)" 2
 	variant

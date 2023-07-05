@@ -5,6 +5,8 @@ government "Cromha Empire"
 	"crew defense" 56
 	"attitude toward"
 		"Empire Rebels" -3
+		"Empire Merchant" 3
+		"Mineria colonnies" 3
 		Bounty -1
 		"Bounty Hunter" -1
 		Hai 1
@@ -59,6 +61,7 @@ government "Empire Merchant"
 	"player reputation" 10
 	"attitude toward"
 		"Mineria colonnies" 3
+		"Empire Rebels" -3
 		"Cromha Empire" 5
 		"Indigene Creature" 2
 		"Kor Efret" -2
