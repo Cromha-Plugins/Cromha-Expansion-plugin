@@ -56,20 +56,16 @@ Go [here](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki/User-Guid
 
 ## Install steps
 
-You can just copy this block if you're a bash shell user. If not, do how you normally do or just clone the repository and copy the "plugin" folder to your [endless sky plugin directory](https://github.com/endless-sky/endless-sky/wiki/CreatingPlugins).
+To install the plugin you just have to clone this repository into your [endless sky plugin directory](https://github.com/endless-sky/endless-sky/wiki/CreatingPlugins).
 
 ```
 git clone https://github.com/OcelotWalrus/Cromha-Expansion-plugin.git
-cd Cromha-Expansion-plugin
-chmod +x install.py
-python install.py
 ```
 
 ## Keeping the plugin updated
-The update.py python script will update the local repo and update the plugin that is already in your [endless sky plugin directory](https://github.com/endless-sky/endless-sky/wiki/CreatingPlugins).
+If you're not familiar with git, you just have to run that command into the installed plugin.
 ```
-chmod +x update.py
-python update.py
+git pull origin main
 ```
 [es]: https://github.com/endless-sky/endless-sky
 [continuous]: https://github.com/endless-sky/endless-sky/releases/tag/continuous
