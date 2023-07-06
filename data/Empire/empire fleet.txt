@@ -5,7 +5,7 @@ fleet cromha-fleet
 	commodities Medical Electronics Equipment Military
 	outfitters Basic-ammo-outfitter Base-outfitter
 	personality
-		plunders heroic
+		plunders heroic frugal
 	variant
 		"Empire Skylark"
 		"Empire Wardragon" 2
