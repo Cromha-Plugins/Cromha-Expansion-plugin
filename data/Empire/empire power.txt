@@ -120,7 +120,7 @@ outfit "Thermal Nucleavoltaic"
 	licenses
 		"Empire Contributor"
 	thumbnail "outfit/thermal nucleavoltaic"
-	cost 9700
+	cost 17000
 	mass 5
 	"outfit space" -5
 	"energy generation" 5.4
@@ -131,7 +131,7 @@ outfit "Thermal Nucleavoltaic"
 
 outfit "RC-X1 Multiphasic Reactor"
 	category "Power"
-	cost 7000
+	cost 8550
 	licenses
 		"Empire Contributor"
 	thumbnail "outfit/x1_multiphasic_reactor"
@@ -145,7 +145,7 @@ outfit "RC-X1 Multiphasic Reactor"
 
 outfit "RC-X2 Multiphasic Reactor"
 	category "Power"
-	cost 7000
+	cost 12500
 	licenses
 		"Empire Contributor"
 	thumbnail "outfit/x2_multiphasic_reactor"
@@ -159,7 +159,7 @@ outfit "RC-X2 Multiphasic Reactor"
 
 outfit "RC-X3 Multiphasic Reactor"
 	category "Power"
-	cost 7000
+	cost 17800
 	licenses
 		"Empire Contributor"
 	thumbnail "outfit/x3_multiphasic_reactor"
@@ -173,7 +173,7 @@ outfit "RC-X3 Multiphasic Reactor"
 
 outfit "RC-X4 Multiphasic Reactor"
 	category "Power"
-	cost 7000
+	cost 24900
 	licenses
 		"Empire Contributor"
 	thumbnail "outfit/x4_multiphasic_reactor"
