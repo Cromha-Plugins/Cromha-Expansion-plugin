@@ -44,7 +44,6 @@ ship "Empire Wardragon"
 		
 		"RC-X4 Multiphasic Reactor" 2
 		"Multiphasic Capacitor" 5
-		"Self Destruct Module"
 		
 		"Empire Shielding Core" 2
 		"Empire Shielding Core" 4

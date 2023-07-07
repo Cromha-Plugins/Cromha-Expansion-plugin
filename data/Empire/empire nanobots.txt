@@ -126,7 +126,6 @@ ship "Cargo Transporter"
 			"RC-X1 Multiphasic Reactor" 2
 			"Countermesure Module Compact"
 			"Empire Hai Chasm Batteries"
-			"Self Destruct Module"
 			"Thermal Nucleavoltaic"
 	leak "empire leak" 15
 	explode "empire tiny explosion" 4
@@ -167,7 +166,6 @@ ship "Cargo Transporter Class D"
 			"Thermal Nucleavoltaic" 4
 			"Countermesure Module Compact"
 			"Multiphasic Capacitor"
-			"Self Destruct Module"
 	leak "empire leak" 15
 	leak "empire big leak" 15
 	explode "empire tiny explosion" 4

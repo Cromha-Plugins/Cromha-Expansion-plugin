@@ -58,7 +58,6 @@ ship "Empire Fortress"
 		"Mineria Key Stone"
 		"Cloaking Module"
 		"Empire Navy Emitter" 6
-		"Self Destruct Module" 15
 		"Fuel Cell" 15
 		"Multiphasic Scanner" 15
 		"Empire Shielding Core" 8

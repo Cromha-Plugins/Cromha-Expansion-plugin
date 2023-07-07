@@ -16,7 +16,6 @@ outfitter Base-outfitter
 	"Phasic Rifle"
 	"RC-001 Atomic Engines"
 	Ramscoop
-	"Self Destruct Module"
 	"Tre-Phasic Rifle"
 	"Weapon Module"
 

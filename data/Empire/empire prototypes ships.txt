@@ -64,7 +64,6 @@ ship "Black Manta"
 		"Railgun Slug" 1030
 		"Railgun Slug Rack" 2
 		"Empire Defense Station" 13
-		"Self Destruct Module"
 		"Small Empire Shielding Core" 6
 		"Teleportation Dock" 2
 		"Thermal Nucleavoltaic" 2

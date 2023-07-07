@@ -47,7 +47,6 @@ ship "Empire Wardragon" "Empire Wardragon (Ion Proton)"
 		
 		"RC-X4 Multiphasic Reactor" 2
 		"Multiphasic Capacitor" 5
-		"Self Destruct Module"
 		
 		"Empire Shielding Core" 2
 		"Empire Hai Ravine Batteries" 2
@@ -157,7 +156,6 @@ ship "Empire Wardragon" "Empire Wardragon (Electron Beam)"
 		
 		"RC-X4 Multiphasic Reactor" 2
 		"Multiphasic Capacitor" 5
-		"Self Destruct Module"
 		
 		"Empire Shielding Core" 2
 		"Empire Hai Ravine Batteries" 2
@@ -267,7 +265,6 @@ ship "Empire Wardragon" "Empire Wardragon (Plasma Repeater)"
 		
 		"RC-X4 Multiphasic Reactor" 2
 		"Multiphasic Capacitor" 5
-		"Self Destruct Module"
 		
 		"Empire Shielding Core" 2
 		"Empire Hai Ravine Batteries" 2
@@ -377,7 +374,6 @@ ship "Empire Wardragon" "Empire Wardragon (Twin Modified Blaster)"
 		
 		"RC-X4 Multiphasic Reactor" 2
 		"Multiphasic Capacitor" 5
-		"Self Destruct Module"
 		
 		"Empire Shielding Core" 2
 		"Empire Hai Ravine Batteries" 2
@@ -610,7 +606,6 @@ ship "Empire Wardragon" "Empire Wardragon (Wel'y)"
 		
 		"RC-X4 Multiphasic Reactor" 2
 		"Multiphasic Capacitor" 5
-		"Self Destruct Module"
 		
 		"Empire Shielding Core" 2
 		"Empire Hai Ravine Batteries" 2

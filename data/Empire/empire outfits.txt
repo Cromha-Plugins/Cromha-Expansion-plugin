@@ -123,19 +123,6 @@ outfit "Countermesure Module Compact"
 	"slowing protection" 4
 	"energy consumption" 0.3
 	description "This module has been especially designed for the small ships like nanobots or other ships who would travels in the Far Empire Space. It increase ion, disruption, discharge, energy and corrosion damages. It is also perfect for traveling in the Ember Waste. This is a little piece of advanced high technology."
-	
-outfit "Self Destruct Module"
-	cost 1000
-	category "Systems"
-	licenses
-		"Empire Contributor"
-	mass 1
-	"outfit space" -1
-	thumbnail "outfit/self destruct module"
-	"self destruct" 1
-	"unplunderable" 1
-	description "Automaticlly engage a self destruct sequence when someone board your ship."
-	description "There is some chance that it does not engage the self destruct sequence."	
 
 outfit "Fuel Cell"
 	thumbnail "outfit/small fuel cell empire"
