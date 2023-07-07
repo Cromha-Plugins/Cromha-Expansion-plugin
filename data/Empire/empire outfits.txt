@@ -239,6 +239,18 @@ outfit "Multiphasic Cooler"
 	"cooling energy" 10
 	description "For ships with extreme cooling needs, the multiphasic cooler is the answer. One of these coolers will dissipate the heat produced by anything but the heaviest of armaments."
 
+outfit "Tre-Phasic Cooler"
+	category "Systems"
+	cost 115000
+	licenses
+		"Empire Contributor"
+	thumbnail "outfit/large_multiphasic_cooler"
+	"mass" 40
+	"outfit space" -20
+	"cooling" 38
+	"cooling energy" 23
+	description "For ships with extreme cooling needs, the multiphasic cooler is the answer. One of these coolers will dissipate the heat produced by anything but the heaviest of armaments."
+
 outfit "One-Phasic Cooler"
 	category "Systems"
 	cost 9000

@@ -147,6 +147,7 @@ outfitter Advanced-systems-outfitter
 	"X-Skirmish Computer"
 	"X-Crusade Computer"
 	"X-Warforge Computer"
+	"Tre-Phasic Cooler"
 
 outfitter Advanced-power-outfitter
 	"Empire Hai Chasm Batteries"
