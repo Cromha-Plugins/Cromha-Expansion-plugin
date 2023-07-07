@@ -76,6 +76,17 @@ fleet cromha-fleet
 	variant
 		"Empire Palavret" 3
 	variant
+		"Empire Skyswift"
+		"Empire Wardragon" 2
+	variant
+		"Empire Skyswift"
+		"Empire Oriole" 2
+	variant
+		"Empire Skyswift"
+		"Empire Skylark" 2
+	variant
+		"Empire Palavret" 3
+	variant
 		"Empire Palavret (Proton)"
 		"Empire Palavret (Plasma)"
 		"Empire Palavret"

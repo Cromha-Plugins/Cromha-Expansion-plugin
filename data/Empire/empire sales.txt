@@ -331,3 +331,4 @@ shipyard Advanced-lifdot-industries-shipyard
 	"Colossus"
 	"Empire Hydra"
 	"Empire Oriole"
+	"Empire Skyswift"

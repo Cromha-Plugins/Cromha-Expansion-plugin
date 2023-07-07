@@ -730,3 +730,115 @@ ship "Empire Oriole"
 	explode "empire medium explosion" 40
 	"final explode" "empire huge explosion"
 	description "The Empire Wardragmoin is an remix of the Quarg Wardragon. This is the official Empire Warship that they use. It has good outfits, a great cargo space and great velocity. It is perfect for interceptions, attack, defend or even escort missions."
+
+ship "Empire Skyswift"
+	sprite "ship/empire skyswift"
+	thumbnail "thumbnail/empire skyswift"
+	
+	"swizzle" 0
+	attributes
+		licenses
+			"Empire Navy"
+		category "Empire Warship"
+		"cost" 400000
+		"shields" 152000
+		"hull" 115000
+		"required crew" 35
+		"bunks" 45
+		"mass" 380
+		"drag" 9.5
+		"heat dissipation" .99
+		"fuel capacity" 500
+		"cargo space" 75
+		"landing speed" 0.1
+		"outfit space" 1700
+		"weapon capacity" 850
+		"engine capacity" 525
+		"hull repair rate" 6
+		"hull energy" 9
+		"ramscoop" 1.5
+		weapon
+			"blast radius" 500
+			"shield damage" 23000
+			"hull damage" 25000
+			"hit force" 800
+	outfits
+		"Alldust Beam Canon" 2
+		"Alldust Beam Turret" 4
+		Brig 6
+		"Catalytic Ramscoop" 3
+		"Cloaking Module"
+		"Countermesure Module" 4
+		"Countermesure Module Compact" 8
+		"Empire Hai Ravine Batteries"
+		"Empire Shielding Core" 6
+		"Fuel Cell"
+		"Mineria Key Stone"
+		"Multiphasic Ammo Rack" 2
+		"Multiphasic Anti-Missile" 2
+		"Multiphasic Capacitor" 2
+		"Multiphasic Cooler" 4
+		"Multiphasic Scanner"
+		"Multiphasic ammo" 1800
+		"Phasic Fission Reactor"
+		"Plasma Drive"
+		"Plasma Fuel Pod"
+		"Quantum Generator" 2
+		"RC-185 Atomic Steering"
+		"RC-220 Atomic Thruster"
+		"RC-225 Atomic Steering"
+		"RC-X3 Multiphasic Reactor" 4
+		"RC-X4 Multiphasic Reactor"
+		"RX-200 Reverse Thruster" 2
+		Ramscoop 4
+		"Small Empire Shielding Core" 8
+		"Thermal Nucleavoltaic" 4
+		"Tre-Phasic Cooler" 2
+		"Wel'y Beam Canon"
+		"Wel'y Beam Turret" 2
+	`reverse engine` -13 -86
+		under
+	`reverse engine` 13 -86
+		under
+	engine -14 106.5
+	engine -29.5 85.5
+		over
+	engine -64 127
+	engine 14 106.5
+	engine 29.5 85.5
+		over
+	engine 64 127
+	bay "Nanobot" 0 44.5
+	bay "Nanobot" 0 -19
+	bay "Nanobot" -102 95
+	bay "Nanobot" 102 95
+	gun -13 -86 "Alldust Beam Canon"
+		under
+	gun 13 -86 "Alldust Beam Canon"
+		under
+	gun 0 -126.5 "Wel'y Beam Canon"
+		under
+	turret 30 -70 "Alldust Beam Turret"
+		over
+	turret 64.5 -32 "Alldust Beam Turret"
+		over
+	turret 101 21 "Wel'y Beam Turret"
+		over
+	turret -30 -70 "Alldust Beam Turret"
+		over
+	turret -64.5 -32 "Alldust Beam Turret"
+		over
+	turret -101 21 "Wel'y Beam Turret"
+		over
+	turret 0 43.5 "Multiphasic Anti-Missile"
+		over
+	turret 0 -24 "Multiphasic Anti-Missile"
+		over
+	leak "empire leak" 80
+	leak "empire big leak" 50
+	explode "empire tiny explosion" 8
+	explode "empire small explosion" 20
+	explode "empire medium explosion" 80
+	explode "empire huge explosion" 5
+	"final explode" "empire huge explosion"
+	description "As the Empire Wardragon, this great ship is a remix of the Quarg ship Skylark. Like the Empire Wardragon, this ship is designed for interception, defend and attack missions principally. The only difference with th Empire Wardragon is that the Empire Skylark has been designed for longer missions. With its capability to regenerate fuel easily, it is a great ship for long interceptions missions but also cargo missions since it has a good cargo space."
