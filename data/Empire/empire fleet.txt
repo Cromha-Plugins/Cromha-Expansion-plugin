@@ -43,29 +43,25 @@ fleet cromha-fleet
 		"Empire Nanobot YLL'E" 2
 	variant
 		"Empire Skylark (Electron Beam)"
-		"Empire Oriole (Ion Proton)" 2
+		"Empire Oriole" 2
 		"Empire Nanobot YLL'E" 2
 	variant
 		"Empire Skylark (Ion Proton)"
-		"Empire Oriole (Electron Beam)"
-		"Empire Oriole (Ion Proton)"
+		"Empire Oriole" 2
 		"Empire Nanobot YLL'A" 2
 	variant
 		"Empire Skylark (Plasma Repeater)"
-		"Empire Oriole (Twin Modified Blaster)"
-		"Empire Oriole (Electron Beam)"
+		"Empire Oriole" 2
 		"Empire Nanobot YLL'E"
 		"Empire Nanobot YLL'A"
 	variant
 		"Empire Skylark (Wel'y)"
-		"Empire Oriole (Twin Modified Blaster)"
-		"Empire Oriole (Electron Beam)"
+		"Empire Oriole" 2
 		"Empire Nanobot YLL'E"
 		"Empire Nanobot YLL'A"
 	variant
 		"Empire Skylark (Plasma Repeater)"
-		"Empire Oriole (Twin Modified Blaster)"
-		"Empire Oriole (Wel'y)"
+		"Empire Oriole" 2
 		"Empire Nanobot YLL'E"
 		"Empire Nanobot YLL'A"
 	variant

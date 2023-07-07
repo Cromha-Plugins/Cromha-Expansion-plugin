@@ -14,7 +14,39 @@ outfit "Fuel Capacitor"
 	mass 10
 	thumbnail "outfit/fuel capacitor"
 	plural "Fuel Capacitors"
-	description "This Capacitor contains non-refined oil in large quantity but you can't use it because it seems to have high security"	
+	description "This Capacitor contains non-refined oil in large quantity but you can't use it because it seems to have high security"
+
+outfit "X-Skirmish Computer"
+	cost 87500
+	category "Hand to Hand"
+	mass 15
+	"required crew" -5
+	thumbnail "outfit/empire skirmish nano computer"
+	description "This Nano-Computer has for goal to act as a crew through your ship's systems. It is enough powerful to replace 5 of your ship's crews."
+
+outfit "X-Battlezone Computer"
+	cost 1202500
+	category "Hand to Hand"
+	mass 30
+	"required crew" -15
+	thumbnail "outfit/empire battlezone nano computer"
+	description "This Nano-Computer has for goal to act as a crew through your ship's systems. It is enough powerful to replace 15 of your ships's crews."
+
+outfit "X-Warforge Computer"
+	cost 175500
+	category "Hand to Hand"
+	mass 45
+	"required crew" -25
+	thumbnail "outfit/empire warforge nano computer"
+	description "This Nano-Computer has for goal to act as a crew through your ship's systems. It is enough powerful to replace 25 of your ships's crews."
+
+outfit "X-Crusade Computer"
+	cost 280500
+	category "Hand to Hand"
+	mass 55
+	"required crew" -35
+	thumbnail "outfit/empire crusade nano computer"
+	description "This Nano-Computer has for goal to act as a crew through your ship's systems. It is enough powerful to replace 35 of your ships's crews."
 
 outfit "Nanobot Pod"
 	category "Systems"

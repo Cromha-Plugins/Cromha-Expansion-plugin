@@ -55,6 +55,8 @@ outfitter Basic-systems-outfitter
 	Ramscoop
 	"Small Bunk Room"
 	"Small Empire Shielding Core"
+	"X-Battlezone Computer"
+	"X-Skirmish Computer"
 
 outfitter Basic-power-outfitter
 	"Empire Hai Chasm Batteries"
@@ -142,6 +144,10 @@ outfitter Advanced-systems-outfitter
 	"Small Empire Shielding Core"
 	"Teleportation Dock"
 	"Tri-Phasic Hyperdrive"
+	"X-Battlezone Computer"
+	"X-Skirmish Computer"
+	"X-Crusade Computer"
+	"X-Warforge Computer"
 
 outfitter Advanced-power-outfitter
 	"Empire Hai Chasm Batteries"

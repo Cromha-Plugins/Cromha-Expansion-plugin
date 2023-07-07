@@ -2214,10 +2214,11 @@ planet "Est Lifdot"
 	outfitter Basic-systems-outfitter
 
 system Nugg'et
-	pos 390.889 -609.185
+	pos 405.704 -619.259
 	government "Cromha Empire"
 	attributes "far empire space" inhabited military research rich
 	haze _menu/haze-cyan
+	link As'kya
 	link Irn'o
 	asteroids "medium rock" 63 4.13
 	asteroids "small metal" 4 10.5
@@ -2263,7 +2264,7 @@ system Nugg'et
 			period 110
 
 system As'har
-	pos 424 -646
+	pos 442 -655
 	government "Empire Rebels"
 	attributes blackhole "far empire space" inhabited military research rich
 	arrival 1900
@@ -2402,7 +2403,7 @@ planet "Wel'y Spacial Dock"
 	outfitter Basic-systems-outfitter
 
 system "Los Calos"
-	pos 327.852 -576.889
+	pos 315.704 -571.556
 	government "Cromha Empire"
 	attributes "far empire space" inhabited military research rich
 	haze _menu/haze-triangle
@@ -2423,6 +2424,7 @@ system "Los Faros"
 	government "Cromha Empire"
 	attributes "far empire space" inhabited military research rich
 	haze _menu/haze-triangle
+	link As'kya
 	link "Los Asto"
 	link "Los Calos"
 	asteroids "medium rock" 63 4.13
@@ -2485,7 +2487,7 @@ system "Los Asto"
 	hazard "Far Empire Triangle Hazard" 1000
 
 system "Lim Ort"
-	pos 256 -659
+	pos 257.778 -677.37
 	government "Empire Rebels"
 	attributes "far empire space" inhabited military research rich
 	haze _menu/haze-cyan
@@ -2674,10 +2676,11 @@ planet "Ill'Safra Station"
 	outfitter Basic-ammo-outfitter
 
 system As'tyar
-	pos 367.555 -580.666
+	pos 385.629 -567.036
 	government "Cromha Empire"
 	attributes "far empire space" inhabited military research rich
 	haze _menu/haze-133
+	link As'kya
 	link Wel'y
 	asteroids "medium rock" 63 4.13
 	asteroids "small metal" 4 10.5
@@ -4746,6 +4749,30 @@ planet Alfyim
 
 system Postverta
 	remove hidden
+	object
+		sprite star/m8
+		period 10
+	object
+		sprite planet/desert7
+		distance 439
+		period 316.657
+	object Fertriery
+		sprite planet/fog0
+		distance 814
+		period 799.52
+		object
+			sprite planet/dust4
+			distance 202
+			period 21
+	object
+		sprite planet/rock10
+		distance 1208
+		period 1445.41
+	object "Ssil Vida"
+		sprite planet/sheragi_postverta
+			scale 0.5
+		distance 1408
+		period 1818.85
 
 system Celeborim
 	pos 190.616 -638.553
@@ -5260,3 +5287,92 @@ planet "Helk'Alf Wormhole"
 
 wormhole "Helk'Alf Wormhole"
 	mappable 0
+
+system As'kya
+	pos 358.468 -590.775
+	government "Cromha Empire"
+	attributes "far empire space" inhabited tourism
+	habitable 0
+	belt 1962 6
+	belt 2395 9
+	haze _menu/haze-cyan
+	link As'tyar
+	link "Los Faros"
+	link Nugg'et
+	asteroids "medium rock" 11 4.628
+	asteroids "large rock" 9 5.968
+	asteroids "small metal" 2 3.898
+	asteroids "medium metal" 8 3.41
+	asteroids "large metal" 1 4.446
+	minables silver 3 5.692
+	trade Clothing 236
+	trade Electronics 819
+	trade Equipment 517
+	trade Food 203
+	trade "Heavy Metals" 1034
+	trade Industrial 716
+	trade "Luxury Goods" 1054
+	trade Medical 830
+	trade Metal 429
+	trade Plastic 384
+	fleet cromha-fleet 1300
+	fleet cromha-merchants 650
+	fleet mineria-transports 950
+	hazard "Far Empire Space Hazard" 2300
+	object
+		sprite star/y-supergiant
+		period 10
+	object
+		sprite planet/ocean9
+		distance 580
+		period 35
+	object
+		sprite planet/gas15-b
+		distance 1121
+		period 55
+		object
+			sprite planet/oberon-b
+			distance 216
+			period 15
+	object Lifka
+		sprite planet/cloud0
+			scale 2.3
+		distance 2749.813
+		period 75
+		object
+			sprite planet/fg_gas18
+			distance 8320.969
+			period 95
+	object
+		sprite planet/gas17-b
+		distance 4415
+		period 96
+		object
+			sprite planet/fg_moon20
+			distance 245
+			period 15
+	object
+		sprite planet/gas13
+		distance 8121
+		period 135
+
+planet Lifka
+	attributes "far empire space" research
+	landscape land/clouds_00
+	description "Lifka is a lonely planet is the Far Empire Space"
+	spaceport ...
+	government "Cromha Empire"
+	shipyard Advanced-interceptors-shipyard
+	shipyard Base-shipyard
+	shipyard Basic-freighters-shipyard
+	shipyard Basic-lifdot-industries-shipyard
+	shipyard Basic-warships-shipyard
+	outfitter Advanced-ammo-outfitter
+	outfitter Advanced-power-outfitter
+	outfitter Advanced-systems-outfitter
+	outfitter Base-outfitter
+	outfitter Basic-engines-outfitter
+	outfitter Basic-weapons-outfitter
+	bribe 1
+	security 5
+
