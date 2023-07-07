@@ -21,6 +21,7 @@ outfit "X-Skirmish Computer"
 	category "Hand to Hand"
 	mass 15
 	"required crew" -5
+	"unplunderable" 1
 	thumbnail "outfit/empire skirmish nano computer"
 	description "This Nano-Computer has for goal to act as a crew through your ship's systems. It is enough powerful to replace 5 of your ship's crews."
 
@@ -29,6 +30,7 @@ outfit "X-Battlezone Computer"
 	category "Hand to Hand"
 	mass 30
 	"required crew" -15
+	"unplunderable" 1
 	thumbnail "outfit/empire battlezone nano computer"
 	description "This Nano-Computer has for goal to act as a crew through your ship's systems. It is enough powerful to replace 15 of your ships's crews."
 
@@ -37,6 +39,7 @@ outfit "X-Warforge Computer"
 	category "Hand to Hand"
 	mass 45
 	"required crew" -25
+	"unplunderable" 1
 	thumbnail "outfit/empire warforge nano computer"
 	description "This Nano-Computer has for goal to act as a crew through your ship's systems. It is enough powerful to replace 25 of your ships's crews."
 
@@ -45,6 +48,7 @@ outfit "X-Crusade Computer"
 	category "Hand to Hand"
 	mass 55
 	"required crew" -35
+	"unplunderable" 1
 	thumbnail "outfit/empire crusade nano computer"
 	description "This Nano-Computer has for goal to act as a crew through your ship's systems. It is enough powerful to replace 35 of your ships's crews."
 
@@ -343,8 +347,8 @@ outfit "Tre-Phasic Rifle"
 	thumbnail "outfit/tre-phasic rifle"
 	"capture attack" 7.9
 	"capture defense" 9.8
+	"unplunderable" 1
 	"energy consumption" 1
-	"unplunderable"
 	description "Tre-Phasic Rifles are very high advanced Hand to Hand weapons. It is the best weapon The Empire every designed for boarding and defending ships. Since this weapon need lots of energy, it consumme some energy to recharge the Rifles. It can kill and alien in one shot."
 
 outfit "Phasic Grenades"

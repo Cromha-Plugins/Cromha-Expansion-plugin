@@ -4749,30 +4749,6 @@ planet Alfyim
 
 system Postverta
 	remove hidden
-	object
-		sprite star/m8
-		period 10
-	object
-		sprite planet/desert7
-		distance 439
-		period 316.657
-	object Fertriery
-		sprite planet/fog0
-		distance 814
-		period 799.52
-		object
-			sprite planet/dust4
-			distance 202
-			period 21
-	object
-		sprite planet/rock10
-		distance 1208
-		period 1445.41
-	object "Ssil Vida"
-		sprite planet/sheragi_postverta
-			scale 0.5
-		distance 1408
-		period 1818.85
 
 system Celeborim
 	pos 190.616 -638.553
@@ -5286,7 +5262,6 @@ planet "Helk'Alf Wormhole"
 	spaceport ""
 
 wormhole "Helk'Alf Wormhole"
-	mappable 0
 
 system As'kya
 	pos 358.468 -590.775
@@ -5375,4 +5350,272 @@ planet Lifka
 	outfitter Basic-weapons-outfitter
 	bribe 1
 	security 5
+
+system "Sagittarius A*"
+
+system "Kor Tar'fei"
+	pos 217.111 -35.667
+	government "Cromha Empire"
+	attributes core
+	habitable 10000
+	belt 1592 9
+	haze _menu/haze-blackbody
+	link "Kor Akla"
+	link "Kor Flas"
+	asteroids "large metal" 1 5.603
+	fleet cromha-fleet 1200
+	object
+		sprite star/xg5-old
+		period 10
+	object Rat'Kta
+		sprite planet/desert6
+		distance 355
+		period 26.755
+	object
+		sprite planet/fg_gas8
+		distance 1239
+		period 174.448
+		object
+			sprite planet/rock0-b
+			distance 300
+			period 45
+	object
+		sprite planet/browndwarf-y-rougeorange
+		distance 2344
+		period 453.938
+		object
+			sprite planet/fg_moon4
+			distance 306
+			period 329.668
+		object
+			sprite planet/dust0-b
+			distance 441
+			period 570.364
+	object
+		sprite planet/jupiter-b
+		distance 4042
+		period 1027.908
+		object
+			sprite planet/fg_moon27
+			distance 270
+			period 209.873
+		object
+			sprite planet/dust1-b
+			distance 406
+			period 254.43
+
+planet Rat'Kta
+	attributes core uninhabited
+	landscape land/desert6
+	description "Rat'Kta is a extremely hot planet. The temperature often goes over 174°."
+	government Uninhabited
+	bribe 0
+	security 0
+
+system "Kor Akla"
+	pos 270.852 -10.371
+	government "Cromha Empire"
+	attributes core
+	habitable 0
+	belt 1685 3
+	belt 1804
+	belt 2751 8
+	haze _menu/haze-blackbody
+	link "Kor Flas"
+	link "Kor Tar'fei"
+	asteroids "small rock" 17 2.64
+	asteroids "medium rock" 99 2.97
+	asteroids "large rock" 35 2.64
+	asteroids "small metal" 51 2.73
+	asteroids "medium metal" 81 2.58
+	asteroids "large metal" 22 2.64
+	minables silicon 13 4.765
+	minables aluminum 16 5.201
+	minables iron 38 4.529
+	fleet cromha-fleet 1200
+	object
+		sprite star/x-supergiant
+		period 10
+	object
+		sprite planet/gas1-hot
+		distance 760
+		period 45
+	object
+		sprite planet/gas3
+		distance 1643
+		period 75
+		object
+			sprite planet/fg_moon13
+			distance 449
+			period 5
+	object
+		sprite planet/gas1
+		distance 3586
+		period 85
+		object
+			sprite planet/callisto
+			distance 480
+			period 35
+	object
+		sprite planet/fg_gas0
+		distance 4627
+		period 95
+	object
+		sprite planet/gas3
+		distance 10609
+		period 135
+
+system "Kor Flas"
+	pos 249.63 -107.445
+	government "Cromha Empire"
+	attributes core
+	habitable 718.053
+	belt 1707 5
+	belt 2192 9
+	haze _menu/haze-blackbody
+	link "Kor Akla"
+	link "Kor Tar'fei"
+	asteroids "small rock" 93 1.13
+	asteroids "medium rock" 38 1.33
+	asteroids "large rock" 17 1.287
+	asteroids "small metal" 3 1.401
+	asteroids "medium metal" 5 0.772
+	asteroids "large metal" 1 1.073
+	minables uranium 2 2.004
+	minables tungsten 5 1.577
+	minables aluminum 28 1.234
+	trade Clothing 376
+	trade Electronics 674
+	trade Equipment 396
+	trade Food 319
+	trade "Heavy Metals" 1113
+	trade Industrial 821
+	trade "Luxury Goods" 1502
+	trade Medical 924
+	trade Metal 446
+	trade Plastic 370
+	fleet cromha-fleet 1200
+	fleet mineria-transports 1000
+	object
+		sprite star/g3
+		distance 31.738
+		period 33.274
+	object
+		sprite star/m5
+		distance 62.762
+		period 33.274
+		offset 180
+	object
+		sprite planet/ice3
+		distance 331
+		period 89.893
+	object
+		sprite planet/rock9-b
+		distance 777
+		period 323.306
+		object
+			sprite planet/rock3
+			distance 148
+			period 68.06
+	object "Fallut Colonny"
+		sprite planet/forest6-b
+		distance 1304
+		period 702.907
+	object
+		sprite "planet/browndwarf-l cyan"
+		distance 2151
+		period 1489.163
+		object "Fallut Dragoon"
+			sprite "planet/empire station3k big"
+			distance 218.315
+			period 143.383
+	object
+		sprite planet/browndwarf-tpurple
+		distance 3297
+		period 2825.922
+		object
+			sprite planet/fg_moon14
+			distance 291
+			period 129.914
+
+planet "Fallut Colonny"
+	attributes colonny core mining oil
+	landscape land/forest3
+	description "The Fallut Colonny is Mineria colonny based on extracting ancients asteroids that arrived on that planet. The people on this colonny studies these old asteroids to understand more the start of this galaxy."
+	spaceport "The spaceport is principally a oil collection dock."
+	government "Mineria colonnies"
+	shipyard Base-shipyard
+	shipyard Basic-freighters-shipyard
+	shipyard Basic-interceptors-shipyard
+	outfitter Base-outfitter
+	outfitter Rebels-basic-ammo-outfitter
+	outfitter Rebels-basic-power-outfitter
+	outfitter Rebels-basic-systems-outfitter
+	bribe 0
+	security 1
+
+planet "Fallut Dragoon"
+	attributes core empire oil station
+	landscape land/station20
+	description "The Fallut Dragoon station is principally a communication station. Bacause the Cronha Empire refuse to send police fleet in these far systems, the Fallut Colonny have to send messages everytime they need a Mineria fleet to transport them commodities or cargo, to communicate search result or in case of any attack."
+	spaceport "The spaceport is blue."
+	government "Cromha Empire"
+	outfitter Base-outfitter
+	outfitter Rebels-basic-ammo-outfitter
+	bribe 0
+	security 0
+
+system Saykain
+	pos 219.135 -138.701
+	government "Cromha Empire"
+	attributes core
+	habitable 0
+	belt 1686 7
+	haze _menu/haze-blackbody
+	asteroids "large metal" 1 2.52
+	fleet cromha-fleet 1200
+	fleet mineria-transports 2000
+	fleet Quarg 2000
+	object
+		sprite star/xggiant
+		period 10
+	object
+		sprite planet/mars-b
+		distance 440
+		period 15
+	object
+		sprite planet/europa-b
+		distance 790
+		period 35
+	object
+		sprite planet/ice4-b
+		distance 1960
+		period 65
+		object
+			sprite planet/vesvi
+			distance 517
+			period 13.432
+	object
+		sprite planet/gas2-hot
+		distance 4228
+		period 85
+		object
+			sprite planet/fg_moon1
+			distance 220
+			period 123.349
+		object
+			sprite planet/fg_gas0
+			distance 534
+			period 34.077
+	object
+		sprite planet/gas5
+		distance 10421
+		period 125
+	object
+		sprite planet/gas15-b
+		distance 20619
+		object
+			sprite planet/dust3
+			distance 219
+			period 122.509
 
