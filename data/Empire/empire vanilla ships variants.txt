@@ -2380,3 +2380,263 @@ ship "Hornet"
 	explode "tiny explosion" 20
 	explode "small explosion" 10
 	description "The Wasp is a medium-strength interceptor, designed by Syndicated Shipyards to serve as an escort for cargo vessels. Like most Syndicate ships, it is not particularly pretty, but it at least serves the purpose it was made for."
+	
+ship "Arrow" "Arrow (Empire)"
+	sprite "ship/marrowe"
+	thumbnail "thumbnail/marrowe"
+	attributes
+		category "Transport"
+		"cost" 1200000
+		"shields" 3670
+		"hull" 900
+		"required crew" 2
+		"bunks" 4
+		"mass" 120
+		"drag" 2.0
+		"heat dissipation" .85
+		"fuel capacity" 500
+		"cargo space" 20
+		"outfit space" 235
+		"weapon capacity" 90
+		"engine capacity" 95
+		weapon
+			"blast radius" 24
+			"shield damage" 350
+			"hull damage" 250
+			"hit force" 360
+	outfits
+		"Antimatter Railgun" 2
+		"Compact Plasma Drive"
+		"Countermesure Module" 2
+		"Empire Shielding Core"
+		"Luxury Accommodations"
+		"Multiphasic Anti-Missile"
+		"Multiphasic Capacitor" 2
+		"Multiphasic ammo" 600
+		"One-Phasic Cooler" 2
+		"Phasic Dwarf Core"
+		"Phasic Radiothermal" 2
+		"RC-160 Atomic Thruster"
+		"RC-185 Atomic Steering"
+		"Railgun Slug" 60
+		Ramscoop 3
+		
+	engine -8 56
+	engine 8 56
+	gun -7.5 -36 "Antimatter Railgun"
+		under
+	gun 7.5 -36 "Antimatter Railgun"
+		under
+	turret 0 17.5 "Multiphasic Anti-Missile"
+		over
+	leak "leak" 80 50
+	explode "tiny explosion" 12
+	explode "small explosion" 18
+	explode "medium explosion" 6
+	"final explode" "final explosion small"
+	description "The Arrow is a light transport, designed for bringing a small number of very rich passengers - Syndicate CEOs, for example - from one planet to another with speed and style. It makes up for its light armament by being able to outrun nearly every other ship in the sky."
+	
+ship "Rainmaker" "Ranmaker (Empire)"
+	sprite "ship/rainmaker"
+	thumbnail "thumbnail/rainmaker"
+	attributes
+		category "Light Warship"
+		"cost" 1580000
+		"shields" 9800
+		"hull" 1800
+		"required crew" 5
+		"bunks" 15
+		"mass" 150
+		"drag" 3.8
+		"heat dissipation" .6
+		"fuel capacity" 400
+		"cargo space" 35
+		"outfit space" 450
+		"weapon capacity" 175
+		"engine capacity" 75
+		weapon
+			"blast radius" 40
+			"shield damage" 1670
+			"hull damage" 1250
+			"hit force" 600
+	outfits
+		Brig 2
+		"Compact Plasma Drive"
+		"Countermesure Module"
+		"Countermesure Module Compact" 4
+		"Empire Hai Fissure Batteries"
+		"Empire Particle gun" 2
+		"Empire Torpedo Missile" 120
+		"Empire Torpedo Rack" 4
+		"Empire Typhoon Bank" 4
+		"Multiphasic Cooler"
+		"Nanobot Pod"
+		"Phasic Fission Reactor"
+		"RC-160 Atomic Thruster"
+		"RC-185 Atomic Steering"
+		Ramscoop
+		"Small Empire Shielding Core" 4
+		"Thermal Nucleavoltaic" 6
+		
+	engine -11.5 44.5 0.4
+	engine 11.5 44.5 0.4
+	gun -7.5 -36.5 "Empire Particle gun"
+		under
+	gun 7.5 -36.5 "Empire Particle gun"
+		under
+	gun -27 8 "Empire Typhoon Bank"
+		under
+	gun 27 8 "Empire Typhoon Bank"
+		under
+	gun -22 8 "Empire Typhoon Bank"
+		under
+	gun 22 8 "Empire Typhoon Bank"
+		under
+	leak "leak" 50 50
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 15
+	"final explode" "final explosion small"
+	description "The Rainmaker is a missile boat built in the Republic Navy Yard. It comes equipped with four missile launchers and enough ammunition to destroy even ships many times its size. Because of their lack of maneuverability and relatively light shielding, Rainmakers serve best as long-range attack ships, and once their missile supply is spent, they are relatively useless in combat."
+	
+ship "Splinter" "Splinter (Empire)"
+	sprite "ship/msplintere"
+	thumbnail "thumbnail/msplintere"
+	attributes
+		category "Medium Warship"
+		"cost" 3100000
+		"shields" 12300
+		"hull" 1900
+		"required crew" 7
+		"bunks" 21
+		"mass" 250
+		"drag" 4.0
+		"heat dissipation" .7
+		"fuel capacity" 600
+		"cargo space" 45
+		"outfit space" 560
+		"weapon capacity" 350
+		"engine capacity" 110
+		weapon
+			"blast radius" 60
+			"shield damage" 1900
+			"hull damage" 1355
+			"hit force" 900
+	outfits
+		Brig
+		"Compact Plasma Drive"
+		"Countermesure Module"
+		"Countermesure Module Compact" 4
+		"Empire Hai Fissure Batteries" 2
+		"Empire Shielding Core"
+		"Multiphasic Ammo Rack" 2
+		"Multiphasic Anti-Missile"
+		"Multiphasic Cooler"
+		"Multiphasic ammo" 1200
+		"Nuclavoltaic Repeater" 2
+		"Nuclavoltaic Turret" 2
+		"One-Phasic Cooler" 2
+		"Phasic Fission Reactor"
+		"Phasic Grenades" 5
+		"Phasic Radiothermal" 2
+		"Phasic Rifle" 5
+		"RC-180 Atomic Thruster"
+		"RC-185 Atomic Steering"
+		"RC-X2 Multiphasic Reactor"
+		Ramscoop 3
+		"Small Empire Shielding Core" 6
+		
+	engine -15.5 115
+	engine 15.5 115
+	gun -12 -93 "Nuclavoltaic Repeater"
+		under
+	gun 12 -93 "Nuclavoltaic Repeater"
+		under
+	turret -13 42 "Nuclavoltaic Turret"
+		over
+	turret 0 9 "Nuclavoltaic Turret"
+		over
+	turret 13 42 "Multiphasic Anti-Missile"
+		over
+	leak "leak" 60 50
+	leak "flame" 40 80
+	leak "big leak" 90 30
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "large explosion" 8
+	"final explode" "final explosion medium"
+	description "The Splinter is the largest warship produced by the Megaparsec shipyard. It is designed to be faster and more maneuverable than other ships of a similar size, in order to serve as a heavy escort ship or as part of a planetary defense and patrol fleet. Because of its intended use in merchant convoys, it also has a fair amount of cargo space."
+	
+ship "Frigate" "Frigate (Empire)"
+	sprite "ship/frigate"
+	thumbnail "thumbnail/frigate"
+	attributes
+		category "Heavy Warship"
+		"cost" 5200000
+		"shields" 18675
+		"hull" 3500
+		"required crew" 21
+		"bunks" 30
+		"mass" 310
+		"drag" 5.2
+		"heat dissipation" .7
+		"fuel capacity" 400
+		"cargo space" 45
+		"outfit space" 615
+		"weapon capacity" 245
+		"engine capacity" 235
+		weapon
+			"blast radius" 100
+			"shield damage" 6700
+			"hull damage" 6700
+			"hit force" 1500
+	outfits
+		Brig 3
+		"Catalytic Ramscoop"
+		"Compact Plasma Drive"
+		"Countermesure Module Compact" 6
+		"Empire Defense Station" 2
+		"Empire Hai Gorge Batteries"
+		"Empire Particle gun" 2
+		"Empire Shielding Core" 2
+		"Ion Proton Turret" 2
+		"Multiphasic Ammo Rack"
+		"Multiphasic Anti-Missile"
+		"Multiphasic Cooler" 2
+		"Multiphasic ammo" 900
+		"Phasic Fission Reactor"
+		"Phasic Grenades" 5
+		"Phasic Radiothermal"
+		"Phasic Rifle" 5
+		"Plasma Fuel Pod" 2
+		"RC-180 Atomic Thruster"
+		"RC-185 Atomic Steering" 2
+		"Small Empire Shielding Core" 8
+		"Thermal Nucleavoltaic" 6
+		
+	engine -26 96.5
+	engine 26 96.5
+	gun -11 -84.5 "Empire Particle gun"
+		under
+	gun 11 -84.5 "Empire Particle gun"
+		under
+	gun -11 -84.5
+		under
+	gun 11 -84.5
+		under
+	turret 0 -37.5 "Multiphasic Anti-Missile"
+		over
+	turret -15.5 -12.5 "Ion Proton Turret"
+		over
+	turret 15.5 -12.5 "Ion Proton Turret"
+		over
+	leak "leak" 40 50
+	leak "flame" 50 80
+	leak "big leak" 90 30
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "large explosion" 8
+	"final explode" "final explosion medium"
+	description "For centuries, the Frigate was the largest warship produced by the Republic Navy Yard, but now they seem quite small compared to a Cruiser or a Carrier. Armed with a variety of weapons, the Frigate is equally capable at fending off small fighters or bombarding larger ships. In its time it possessed relatively good maneuverability for a ship of its size, but now it sees continued use mostly due to the sheer number of them already built for service."

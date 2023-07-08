@@ -115,39 +115,95 @@ fleet cromha-fleet
 		"Empire Dredger"
 		"Fuel Pod Class H"
 		"Empire Palavret (Plasma)"
-	variant 4
+	variant 5
 		"Empire Galactik" 3
-	variant 2
-		"Empire Striker"
-		"Empire Nanobot YLL'A" 3
-		"Empire Nanobot YLL'E" 3
-		"Empire Galactik" 2
-	variant
+	variant 2.5
 		"Empire Nano-Flyer"
 		"Empire Nanobot YLL'A" 8
 		"Empire Nanobot YLL'E" 8
-		"Empire Galactik" 2
-	variant
-		"Empire Corvette YLL'E"
-		"Empire Nanobot YLL'A" 10
-		"Empire Galactik"
-	variant
-		"Empire Corvette YLL'A"
-		"Empire Nanobot YLL'E" 10
-		"Empire Galactik"
+	variant 1.5
+		"Empire Nano-Flyer"
+		"Empire Nanobot YLL'A" 8
+		"Empire Nanobot YLL'E" 8
+		"Empire Nano-Flyer"
+		"Empire Nanobot YLL'A" 8
+		"Empire Nanobot YLL'E" 8
+		"Empire Nano-Flyer"
+		"Empire Nanobot YLL'A" 8
+		"Empire Nanobot YLL'E" 8
+	variant 2.5
+		"Empire Striker"
+		"Empire Nanobot YLL'A" 3
+		"Empire Nanobot YLL'E" 3
+	variant 1.5
+		"Empire Striker"
+		"Empire Nanobot YLL'A" 3
+		"Empire Nanobot YLL'E" 3
+		"Empire Striker"
+		"Empire Nanobot YLL'A" 3
+		"Empire Nanobot YLL'E" 3
+		"Empire Striker"
+		"Empire Nanobot YLL'A" 3
+		"Empire Nanobot YLL'E" 3
 	variant
 		"Empire Kraken"
-		"Empire Nanobot YLL'E" 3
-		"Empire Nanobot YLL'A" 3
-		"Empire Galactik" 2
+		"Empire Nano-Flyer"
+		"Empire Nanobot YLL'A" 8
+		"Empire Nanobot YLL'E" 8
+		"Empire Nano-Flyer"
+		"Empire Nanobot YLL'A" 8
+		"Empire Nanobot YLL'E" 8
 	variant
 		"Empire Kraken"
-		"Empire Nanobot YLL'E" 3
+		"Empire Striker"
 		"Empire Nanobot YLL'A" 3
+		"Empire Nanobot YLL'E" 3
+		"Empire Striker"
+		"Empire Nanobot YLL'A" 3
+		"Empire Nanobot YLL'E" 3
+	variant
+		"Empire Kraken"
 		"Empire Corvette YLL'A"
-		"Empire Nanobot YLL'E" 10
+		"Empire Nanobot YLL'E" 9
+		"Empire Nano-Flyer"
+		"Empire Nanobot YLL'A" 8
+		"Empire Nanobot YLL'E" 8
+	variant
+		"Empire Kraken"
+		"Empire Corvette YLL'A"
+		"Empire Nanobot YLL'E" 9
+		"Empire Striker"
+		"Empire Nanobot YLL'A" 3
+		"Empire Nanobot YLL'E" 3
+	variant
+		"Empire Kraken"
 		"Empire Corvette YLL'E"
 		"Empire Nanobot YLL'A" 10
+		"Empire Nano-Flyer"
+		"Empire Nanobot YLL'A" 8
+		"Empire Nanobot YLL'E" 8
+	variant
+		"Empire Kraken"
+		"Empire Corvette YLL'E"
+		"Empire Nanobot YLL'A" 10
+		"Empire Striker"
+		"Empire Nanobot YLL'A" 3
+		"Empire Nanobot YLL'E" 3
+	variant 2
+		"Empire Kraken"
+		"Empire Corvette YLL'A"
+		"Empire Nanobot YLL'E" 9
+		"Empire Corvette YLL'E"
+		"Empire Nanobot YLL'A" 10
+	variant 3
+		"Empire Kraken"
+		"Empire Galactik" 3
+	variant 1.5
+		"Empire Kraken"
+		"Empire Galactik" 4
+	variant
+		"Empire Kraken"
+		"Empire Galactik" 5
 
 fleet mineria-transports
 	government "Mineria colonnies"
@@ -291,6 +347,30 @@ fleet cromha-merchants
 		"Heavy Shuttle (Empire)"
 	variant
 		"Blackbird (Empire)"
+		"Scout (Empire)"
+	variant
+		"Arrow (Empire)"
+		"Flivver (Empire)" 2
+	variant
+		"Arrow (Empire)"
+		"Modified Flivver" 2
+	variant
+		"Arrow (Empire)"
+		"Heavy Shuttle (Empire)" 2
+	variant
+		"Arrow (Empire)"
+		"Scout (Empire)" 2
+	variant
+		"Arrow (Empire)"
+		"Flivver (Empire)"
+	variant
+		"Arrow (Empire)"
+		"Modified Flivver"
+	variant
+		"Arrow (Empire)"
+		"Heavy Shuttle (Empire)"
+	variant
+		"Arrow (Empire)"
 		"Scout (Empire)"
 	variant
 		"Bounder (Empire)"
@@ -444,6 +524,12 @@ fleet cromha-merchants
 		"Manta (Empire)"
 		"Quicksilver (Empire)" 3
 	variant
+		"Splinter (Empire)"
+		"Quicksilver (Empire)" 2
+	variant
+		"Splinter (Empire)"
+		"Quicksilver (Empire)" 3
+	variant
 		"Protector (Empire)"
 		"Quicksilver (Empire)" 3
 	variant
@@ -454,22 +540,47 @@ fleet cromha-merchants
 		"Manta (Empire)" 3
 	variant
 		"Protector (Empire)"
+		"Splinter (Empire)" 2
+	variant
+		"Protector (Empire)"
+		"Splinter (Empire)" 3
+	variant
+		"Protector (Empire)"
 	variant
 		"Gunboat (Empire)"
+		"Ranmaker (Empire)" 2
 	variant
 		"Gunboat (Empire)" 2
+		"Ranmaker (Empire)"
 	variant
 		"Gunboat (Empire)" 3
+	variant
+		"Gunboat (Empire)"
+		"Ranmaker (Empire)" 3
 	variant
 		"Raven (Empire)"
 		"Gunboat (Empire)" 2
 	variant
 		"Raven (Empire)"
 		"Gunboat (Empire)" 3
+	variant
+		"Raven (Empire)"
+		"Ranmaker (Empire)" 2
+	variant
+		"Raven (Empire)"
+		"Ranmaker (Empire)" 3
 	variant
 		"Raven (Empire)" 2
+		"Frigate (Empire)"
 	variant
 		"Raven (Empire)" 3
+		"Frigate (Empire)"
+	variant
+		"Gunboat (Empire)" 2
+		"Frigate (Empire)"
+	variant
+		"Gunboat (Empire)" 3
+		"Frigate (Empire)"
 	variant
 		"Headhunter (Empire)" 2
 	variant
@@ -527,10 +638,10 @@ fleet cromha-merchants
 		"Firebird (Empire)" 2
 	variant
 		"Vanguard (Empire)"
-	variant 2
+	variant
 		"Bactrian (Empire)"
 		"Barb (Empire)" 3
-	variant 2
+	variant
 		"Bactrian (Empire)"
 		"Finch (Empire)" 3
 		"Mule (Empire)" 2

@@ -389,3 +389,17 @@ outfit "Empire Defense Station"
 	"mass" 3
 	"outfit space" -2
 	description "This is a specially designed barricade, which can be installed in the hallways of your ship as a powerful defense against anyone who boards you in an attempt to take over your ship"
+	
+outfit "Medical Station"
+	category "Hand to Hand"
+	cost 90500
+	licenses
+		"Empire Contributor"
+	thumbnail "outfit/medical bay"
+	"capture defense" 75
+	"capture attack" 60
+	"unplunderable" 1
+	"bunks" 5
+	"required crew" 3
+	"outfit space" -2
+	description "This medical bay is designed to well, make all the crews healthy. it is very expansive but very worth it."

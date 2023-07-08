@@ -121,6 +121,7 @@ outfitter Advanced-weapon-outfitter
 	"Dual Wel'y Beam Turret"
 	"Wel'y Beam Turret"
 	"Wel'y Beam Canon"
+	"Empire Particle Turret"
 
 outfitter Advanced-systems-outfitter
 	Brig
@@ -148,6 +149,7 @@ outfitter Advanced-systems-outfitter
 	"X-Crusade Computer"
 	"X-Warforge Computer"
 	"Tre-Phasic Cooler"
+	"Medical Station"
 
 outfitter Advanced-power-outfitter
 	"Empire Hai Chasm Batteries"
@@ -221,6 +223,7 @@ shipyard Advanced-freighters-shipyard
 	"Star Queen (Empire)"
 	"Modified Flivver"
 	"Colossus"
+	"Arrow (Empire)"
 
 shipyard Basic-interceptors-shipyard
 	"Berserker (Empire)"
@@ -245,6 +248,7 @@ shipyard Basic-warships-shipyard
 	"Manta (Empire)"
 	"Quicksilver (Empire)"
 	"Raven (Empire)"
+	"Ranmaker (Empire)"
 
 shipyard Advanced-warships-shipyard
 	"Aerie (Empire)"
@@ -265,6 +269,9 @@ shipyard Advanced-warships-shipyard
 	"Quicksilver (Empire)"
 	"Raven (Empire)"
 	"Vanguard (Empire)"
+	"Ranmaker (Empire)"
+	"Splinter (Empire)"
+	"Frigate (Empire)"
 
 shipyard Basic-lifdot-industries-shipyard
 	"Argosy (Empire)"
@@ -290,6 +297,8 @@ shipyard Basic-lifdot-industries-shipyard
 	"Mule (Empire)"
 	"Bactrian (Empire)"
 	"Empire Oriole"
+	"Ranmaker (Empire)"
+	"Splinter (Empire)"
 
 shipyard Advanced-lifdot-industries-shipyard
 	"Argosy (Empire)"
@@ -332,3 +341,6 @@ shipyard Advanced-lifdot-industries-shipyard
 	"Empire Hydra"
 	"Empire Oriole"
 	"Empire Skyswift"
+	"Ranmaker (Empire)"
+	"Splinter (Empire)"
+	"Frigate (Empire)"
