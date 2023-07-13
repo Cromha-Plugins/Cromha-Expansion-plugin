@@ -17,7 +17,9 @@ outfitter Base-outfitter
 	"RC-001 Atomic Engines"
 	Ramscoop
 	"Tre-Phasic Rifle"
+	"Phasic Ramscoop"
 	"Weapon Module"
+	"Anti-Missile Field Device"
 
 outfitter Basic-ammo-outfitter
 	"Empire Torpedo Missile"
@@ -29,8 +31,6 @@ outfitter Basic-ammo-outfitter
 
 outfitter Basic-weapons-outfitter
 	"Alldust Beam Canon"
-	"Electron Beam"
-	"Electron Turret"
 	"Empire Defense Station"
 	"Grab-Strike Blaze"
 	"Ion Proton Gun"
@@ -42,6 +42,7 @@ outfitter Basic-weapons-outfitter
 	Railgun
 	"Typhoon Launcher"
 	"Wel'y Beam Canon"
+	"Scrambling Beam"
 
 outfitter Basic-systems-outfitter
 	"Cargo Expansion"
@@ -56,6 +57,10 @@ outfitter Basic-systems-outfitter
 	"Small Empire Shielding Core"
 	"X-Battlezone Computer"
 	"X-Skirmish Computer"
+	"T1 Phasic Amplifier"
+	"NGx3 Quatalant Cooler"
+	"Shield Processor"
+	"Antimatter Capacitor"
 
 outfitter Basic-power-outfitter
 	"Empire Hai Chasm Batteries"
@@ -97,8 +102,6 @@ outfitter Advanced-weapon-outfitter
 	"Alldust Beam Canon"
 	"Alldust Beam Turret"
 	"Antimatter Railgun"
-	"Electron Beam"
-	"Electron Turret"
 	"Empire Defense Station"
 	"Empire Nuke"
 	"Empire Particle gun"
@@ -115,13 +118,14 @@ outfitter Advanced-weapon-outfitter
 	"Phasic Mine Layer"
 	Railgun
 	"Thunderhead Launcher"
-	"Twin Modified Blaster"
 	"Typhoon Launcher"
 	"Typhoon Pod"
 	"Dual Wel'y Beam Turret"
 	"Wel'y Beam Turret"
 	"Wel'y Beam Canon"
 	"Empire Particle Turret"
+	"Twin Empire Particle"
+	"Scrambling Beam"
 
 outfitter Advanced-systems-outfitter
 	Brig
@@ -150,6 +154,17 @@ outfitter Advanced-systems-outfitter
 	"X-Warforge Computer"
 	"Tre-Phasic Cooler"
 	"Medical Station"
+	"Hull Breaker"
+	"T1 Phasic Amplifier"
+	"T2 Phasic Amplifier"
+	"T3 Phasic Amplifier"
+	"NGx9 Quatalant Cooler"
+	"NGx3 Quatalant Cooler"
+	"Shield Processor (Huge)"
+	"Shield Processor"
+	"Antimatter Capacitor (Large)"
+	"Antimatter Capacitor"
+	"Antimatter Cooling Cell"
 
 outfitter Advanced-power-outfitter
 	"Empire Hai Chasm Batteries"
@@ -224,6 +239,8 @@ shipyard Advanced-freighters-shipyard
 	"Modified Flivver"
 	"Colossus"
 	"Arrow (Empire)"
+	"Bulk Courier"
+	Arbiter
 
 shipyard Basic-interceptors-shipyard
 	"Berserker (Empire)"
@@ -239,6 +256,7 @@ shipyard Advanced-interceptors-shipyard
 	"Headhunter (Empire)"
 	"Wasp (Empire)"
 	"Hornet"
+	"Rancorster"
 
 shipyard Basic-warships-shipyard
 	"Bastion (Empire)"
@@ -249,6 +267,7 @@ shipyard Basic-warships-shipyard
 	"Quicksilver (Empire)"
 	"Raven (Empire)"
 	"Ranmaker (Empire)"
+	"Rancorster"
 
 shipyard Advanced-warships-shipyard
 	"Aerie (Empire)"
@@ -272,6 +291,8 @@ shipyard Advanced-warships-shipyard
 	"Ranmaker (Empire)"
 	"Splinter (Empire)"
 	"Frigate (Empire)"
+	"Rancorster"
+	"Bulk Courier"
 
 shipyard Basic-lifdot-industries-shipyard
 	"Argosy (Empire)"
@@ -299,11 +320,13 @@ shipyard Basic-lifdot-industries-shipyard
 	"Empire Oriole"
 	"Ranmaker (Empire)"
 	"Splinter (Empire)"
+	"Rancorster"
+	"Bulk Courier"
+	Arbiter
 
 shipyard Advanced-lifdot-industries-shipyard
 	"Argosy (Empire)"
 	"Behemoth (Empire)"
-	"Black Manta"
 	"Blackbird (Empire)"
 	"Bounder (Empire)"
 	"Cargo Transporter Class D"
@@ -344,3 +367,8 @@ shipyard Advanced-lifdot-industries-shipyard
 	"Ranmaker (Empire)"
 	"Splinter (Empire)"
 	"Frigate (Empire)"
+	"Empire Sea Kraken"
+	"Rancorster"
+	"Bulk Courier"
+	"Empire Kastador"
+	Arbiter

@@ -578,11 +578,82 @@ ship "Container Transport" "Container Transport (Empire)"
 	description "The Container Transport is a newer, more popular configuration of the Bulk Freighter that replaces the outboard loose cargo holds with intermodal containers for more efficient turnaround in larger, better-equipped ports."
 	description "	As with its geared cousin, however, it remains a slow and difficult to maneuver ship, especially when loaded down with cargo. Some freight caravans use ordinary freighters instead of Container Transports just to avoid the hassle of constantly having to wait for the Container Transport to properly align itself for hyperspace travel."
 
+ship "Bulk Courier"
+	sprite "ship/bulk courier"
+	thumbnail "thumbnail/bulk courier"
+	attributes
+		category "Heavy Freighter"
+		"cost" 12500000
+		"shields" 8950
+		"hull" 10250
+		"required crew" 20
+		"bunks" 42
+		"mass" 900
+		"drag" 10
+		"heat dissipation" .6
+		"fuel capacity" 500
+		"cargo space" 850
+		"outfit space" 750
+		"weapon capacity" 350
+		"engine capacity" 350
+		weapon
+			"blast radius" 120
+			"shield damage" 1900
+			"hull damage" 1200
+			"hit force" 1800
+	outfits
+		"Antimatter Capacitor"
+		"Compact Plasma Drive"
+		"Countermesure Module" 4
+		"Countermesure Module Compact" 6
+		"Empire Hai Gorge Batteries"
+		"Empire Particle Turret" 10
+		"Mineria Key Stone"
+		"NGx3 Quatalant Cooler" 2
+		"NGx9 Quatalant Cooler"
+		"Plasma Fuel Pod"
+		"RC-200 Atomic Thruster"
+		"RC-205 Atomic Steering"
+		"RC-X4 Multiphasic Reactor"
+		"RX-180 Reverse Thruster"
+		Ramscoop 2
+		"Shield Processor"
+		"Thermal Nucleavoltaic" 10
+	
+	engine -21.5 195.5
+		zoom 1.2
+	engine 21.5 195.5
+		zoom 1.2
+	"reverse engine" -23.5 -162
+	"reverse engine" 23.5 -162
+	turret -52 -115.5
+	turret -52 -65.5
+	turret -52 -15.5
+	turret -52 34.5
+	turret -52 84.5
+	turret -52 134.5
+	turret 52 -115.5
+	turret 52 -65.5
+	turret 52 -15.5
+	turret 52 34.5
+	turret 52 84.5
+	turret 52.5 134.5
+	leak "leak" 40 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description "The Bulk Freighter is the ultimate cargo ship, able to carry as much cargo as four ordinary Syndicate Freighters. Its on-board gearing allows it to service even the most primitive colonies, though dock workers in busier spaceports often joke that it would be simpler to carry smaller freighters within its gigantic holds."
+	description "	It is also an incredibly slow and difficult to maneuver ship, especially when loaded down with cargo. Some freight caravans use ordinary freighters instead of Bulk Freighters just to avoid the hassle of constantly having to wait for the Bulk Freighter to properly align itself for hyperspace travel."
+
 ship "Heavy Shuttle" "Heavy Shuttle (Empire)"
 	sprite "ship/heavy shuttle"
 	thumbnail "thumbnail/heavy shuttle"
 	attributes
-		category "Transport"
+		category "Light Freighter"
 		"cost" 470000
 		"shields" 950
 		"hull" 1000
@@ -605,18 +676,21 @@ ship "Heavy Shuttle" "Heavy Shuttle (Empire)"
 		"Compact Plasma Drive"
 		"Countermesure Module Compact" 2
 		"Empire Hai Chasm Batteries"
+		"Nuclavoltaic Repeater"
 		"One-Phasic Cooler" 2
 		"Phasic Dwarf Core"
 		"RC-001 Atomic Engines"
+		Railgun
+		"Railgun Slug" 1500
+		"Railgun Slug Rack"
 		"Small Empire Shielding Core" 2
 		"Thermal Nucleavoltaic"
-		"Twin Modified Blaster"
 		
 	engine -6.5 38.5
 	engine 6.5 38.5
-	gun -3 -38.5 "Twin Modified Blaster"
+	gun -3 -38.5 Railgun
 		under
-	gun 3 -38.5
+	gun 3 -38.5 "Thermal Nucleavoltaic"
 		under
 	leak "leak" 60 50
 	explode "tiny explosion" 10
@@ -627,7 +701,7 @@ ship "Scout" "Scout (Empire)"
 	sprite "ship/scout"
 	thumbnail "thumbnail/scout"
 	attributes
-		category "Transport"
+		category "Light Freighter"
 		"cost" 850000
 		"shields" 2750
 		"hull" 950
@@ -1055,33 +1129,36 @@ ship "Berserker" "Berserker (Empire)"
 		"fuel capacity" 400
 		"cargo space" 10
 		"outfit space" 200
-		"weapon capacity" 35
-		"engine capacity" 65
+		"weapon capacity" 125
+		"engine capacity" 75
 		weapon
 			"blast radius" 30
-			"shield damage" 750
-			"hull damage" 256
+			"shield damage" 975
+			"hull damage" 575
 			"hit force" 450
 	outfits
+		"Antimatter Railgun"
 		"Compact Plasma Drive"
-		"Countermesure Module Compact"
+		"Countermesure Module Compact" 2
 		"Multiphasic Capacitor"
-		"Nanobot Pod"
-		"One-Phasic Cooler" 2
-		"RC-001 Atomic Engines"
-		"Small Empire Shielding Core" 3
+		"NGx3 Quatalant Cooler"
+		"RC-001 Atomic Engines" 2
+		Railgun
+		"Railgun Slug" 1530
+		"Railgun Slug Rack"
+		"Small Empire Shielding Core"
 		"Thermal Nucleavoltaic" 2
-		"Twin Modified Blaster" 2
+		"Twin Empire Particle" 2
 		
 	engine -10 45
 	engine 10 45
-	gun -20 12 "Twin Modified Blaster"
+	gun -20 12 "Antimatter Railgun"
 		under
-	gun 20 12 "Twin Modified Blaster"
+	gun 20 12 Railgun
 		under
-	gun -44 10
+	gun -44 10 "Twin Empire Particle"
 		under
-	gun 44 10
+	gun 44 10 "Twin Empire Particle"
 		under
 	leak "leak" 60 50
 	leak "flame" 80 80
@@ -1427,8 +1504,8 @@ ship "Aerie" "Aerie (Empire)"
 	description "The Lionheart Aerie is a light carrier, designed to be just big enough for two fighter bays plus a decent armament of its own. Variations on this same ship design have been in use in the Deep for almost half a millennium, but this model comes with the very latest in generator and weapon technology."
 
 ship "Bastion" "Bastion (Empire)"
-	sprite "ship/bastion"
-	thumbnail "thumbnail/bastion"
+	sprite "ship/bastion empire"
+	thumbnail "thumbnail/bastion empire"
 	attributes
 		category "Medium Warship"
 		"cost" 3860000
@@ -2465,7 +2542,7 @@ ship "Rainmaker" "Ranmaker (Empire)"
 		"Countermesure Module"
 		"Countermesure Module Compact" 4
 		"Empire Hai Fissure Batteries"
-		"Empire Particle gun" 2
+		"Twin Empire Particle" 2
 		"Empire Torpedo Missile" 120
 		"Empire Torpedo Rack" 4
 		"Empire Typhoon Bank" 4
@@ -2480,9 +2557,9 @@ ship "Rainmaker" "Ranmaker (Empire)"
 		
 	engine -11.5 44.5 0.4
 	engine 11.5 44.5 0.4
-	gun -7.5 -36.5 "Empire Particle gun"
+	gun -7.5 -36.5 "Twin Empire Particle"
 		under
-	gun 7.5 -36.5 "Empire Particle gun"
+	gun 7.5 -36.5 "Twin Empire Particle"
 		under
 	gun -27 8 "Empire Typhoon Bank"
 		under
@@ -2598,13 +2675,12 @@ ship "Frigate" "Frigate (Empire)"
 		"Countermesure Module Compact" 6
 		"Empire Defense Station" 2
 		"Empire Hai Gorge Batteries"
-		"Empire Particle gun" 2
 		"Empire Shielding Core" 2
-		"Ion Proton Turret" 2
-		"Multiphasic Ammo Rack"
 		"Multiphasic Anti-Missile"
 		"Multiphasic Cooler" 2
-		"Multiphasic ammo" 900
+		"Multiphasic ammo" 600
+		"Nuclavoltaic Repeater" 2
+		"Nuclavoltaic Turret" 2
 		"Phasic Fission Reactor"
 		"Phasic Grenades" 5
 		"Phasic Radiothermal"
@@ -2614,22 +2690,23 @@ ship "Frigate" "Frigate (Empire)"
 		"RC-185 Atomic Steering" 2
 		"Small Empire Shielding Core" 8
 		"Thermal Nucleavoltaic" 6
+		"Twin Empire Particle" 2
 		
 	engine -26 96.5
 	engine 26 96.5
-	gun -11 -84.5 "Empire Particle gun"
+	gun -11 -84.5 "Nuclavoltaic Repeater"
 		under
-	gun 11 -84.5 "Empire Particle gun"
+	gun 11 -84.5 "Nuclavoltaic Repeater"
 		under
-	gun -11 -84.5
+	gun -11 -84.5 "Twin Empire Particle"
 		under
-	gun 11 -84.5
+	gun 11 -84.5 "Twin Empire Particle"
 		under
 	turret 0 -37.5 "Multiphasic Anti-Missile"
 		over
-	turret -15.5 -12.5 "Ion Proton Turret"
+	turret -15.5 -12.5 "Nuclavoltaic Turret"
 		over
-	turret 15.5 -12.5 "Ion Proton Turret"
+	turret 15.5 -12.5 "Nuclavoltaic Turret"
 		over
 	leak "leak" 40 50
 	leak "flame" 50 80
@@ -2640,3 +2717,207 @@ ship "Frigate" "Frigate (Empire)"
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
 	description "For centuries, the Frigate was the largest warship produced by the Republic Navy Yard, but now they seem quite small compared to a Cruiser or a Carrier. Armed with a variety of weapons, the Frigate is equally capable at fending off small fighters or bombarding larger ships. In its time it possessed relatively good maneuverability for a ship of its size, but now it sees continued use mostly due to the sheer number of them already built for service."
+	
+ship "Rancorster"
+	sprite "ship/rancor"
+	thumbnail "thumbnail/rancor"
+	attributes
+		category "Interceptor"
+		"cost" 510000
+		"shields" 2900
+		"hull" 950
+		"required crew" 1
+		"bunks" 3
+		"mass" 70
+		"drag" 1.5
+		"heat dissipation" .9
+		"fuel capacity" 500
+		"cargo space" 25
+		"outfit space" 250
+		"weapon capacity" 260
+		"engine capacity" 130
+		weapon
+			"blast radius" 25
+			"shield damage" 720
+			"hull damage" 570
+			"hit force" 400
+	outfits
+		"Antimatter Railgun"
+		"Compact Plasma Drive"
+		"Countermesure Module Compact"
+		"Multiphasic Capacitor"
+		"One-Phasic Cooler" 2
+		"RC-140 Atomic Thruster"
+		"RC-165 Atomic Steering"
+		"Railgun Slug" 30
+		"Small Empire Shielding Core" 2
+		"Thermal Nucleavoltaic" 5
+		"Twin Empire Particle" 2
+
+	engine -18 36
+		zoom 0.35
+		angle 0
+		under
+	engine 18 36
+		zoom 0.35
+		angle 0
+		under
+	engine -11 36
+		zoom 0.65
+		angle 0
+		under
+	engine 11 36
+		zoom 0.65
+		angle 0
+		under
+	gun -10 -32 "Twin Empire Particle"
+		under
+	gun 10 -32 "Twin Empire Particle"
+		under
+	gun -16 -22 "Antimatter Railgun"
+		under
+	gun 16 -22
+		under
+	leak "flame" 50 80
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	description "The Rancor was originally a pirate vessel, and many were used in the early turf wars. The Alpha War was the beginning of the Rancor's decline as faster interceptors quickly outpaced and outmaneuvered this relatively slower ship. Today it is seen as a relic of the past, most noteworthy for influencing the design of the Fury."
+	
+ship Vanguard "Vanguard (Empire)"
+	"outfit space" 560
+	"engine capacity" 150
+	"weapon capacity" 250
+	"cargo space" 65
+	"shields" 9980
+	"hull" 8700
+	"fuel capacity" 350
+	"heat dissipation" 0.9
+	"required crew" 25
+	"drag" 7
+	add attributes
+		"bunks" 10
+	outfits
+		"Compact Plasma Drive"
+		"Countermesure Module"
+		"Countermesure Module Compact" 2
+		"Empire Hai Ravine Batteries"
+		"Empire Shielding Core" 2
+		"Empire Torpedo Missile" 60
+		"Empire Torpedo Rack" 2
+		"Empire Typhoon Bank" 2
+		"Enforcer Confrontation Gear" 4
+		"Ion Proton Gun" 3
+		"Langrage Empire-Heaver" 2
+		"Multiphasic Ammo Rack" 2
+		"Multiphasic Anti-Missile"
+		"Multiphasic Cooler"
+		"One-Phasic Cooler" 2
+		"Phasic Dwarf Core"
+		"Phasic Grenades" 4
+		"Plasma Fuel Pod"
+		"RC-160 Atomic Thruster"
+		"RC-185 Atomic Steering"
+		"Small Empire Shielding Core" 4
+		"Thermal Nucleavoltaic" 5
+	gun 0 -132.5 "Ion Proton Gun"
+		parallel
+	gun -24 -122.5 "Ion Proton Gun"
+		parallel
+	gun 24 -122.5 "Ion Proton Gun"
+		parallel
+	gun -40 -47.5 "Langrage Empire-Heaver"
+		parallel
+	gun 40 -47.5 "Langrage Empire-Heaver"
+		parallel
+	gun -35 -44.5 "Empire Typhoon Bank"
+		parallel
+	gun 35 -44.5 "Empire Typhoon Bank"
+		parallel
+	turret 0 42 "Multiphasic Anti-Missile"
+	
+ship Arbiter
+	sprite "ship/arbiter"
+	thumbnail "thumbnail/arbiter"
+	attributes
+		category "Utility"
+		"cost" 510000
+		"shields" 2900
+		"hull" 950
+		"required crew" 15
+		"bunks" 23
+		"mass" 70
+		"drag" 6.3
+		"heat dissipation" .9
+		"fuel capacity" 400
+		"cargo space" 65
+		"outfit space" 460
+		"weapon capacity" 350
+		"engine capacity" 250
+		weapon
+			"blast radius" 25
+			"shield damage" 850
+			"hull damage" 665
+			"hit force" 400
+	outfits
+		"Compact Plasma Drive"
+		"Countermesure Module"
+		"Countermesure Module Compact" 4
+		"Empire Hai Gorge Batteries" 2
+		"Empire Particle Turret" 2
+		"Multiphasic Ammo Rack" 2
+		"Multiphasic Anti-Missile"
+		"Multiphasic Cooler"
+		"Multiphasic Scanner"
+		"Multiphasic ammo" 1200
+		"NGx9 Quatalant Cooler"
+		"Nuclavoltaic Turret"
+		"Phasic Grenades" 5
+		"Phasic Radiothermal"
+		"Phasic Rifle" 5
+		"Plasma Fuel Pod"
+		"RC-180 Atomic Thruster"
+		"RC-185 Atomic Steering"
+		"RC-X4 Multiphasic Reactor"
+		"Scrambling Beam" 2
+		"Shield Processor"
+		"Fuel Capacitor"
+		"T2 Phasic Amplifier"
+		`RX-180 Reverse Thruster`
+		
+	turret -54.5 47.5 "Empire Particle Turret"
+		over
+	turret 54.5 47.5 "Empire Particle Turret"
+		over
+	turret 0 -42.5 "Multiphasic Anti-Missile"
+		over
+	turret 0 -75 "Nuclavoltaic Turret"
+		over
+	gun -44.5 -102.5 "Scrambling Beam"
+		under
+	gun 44.5 -102.5 "Scrambling Beam"
+		under
+	`reverse engine` 20.5 -177
+		over
+		zoom .7
+	`reverse engine` 67.5 -97
+		zoom .5
+		over
+	`reverse engine` -20.5 -177
+		over
+		zoom .7
+	`reverse engine` -67.5 -97
+		over
+		zoom .5
+	engine 70 147
+	engine 23.5 192
+		zoom 1.3
+	engine -70 147
+	engine -23.5 192
+		zoom 1.3
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "large explosion" 5
+	leak "leak" 15
+	leak "flame" 15
+	"final explode" "large explosion"
+	description "The Arbiter is one of the most recent ships of the Lifdot Industries. It has been designed especially to the demand of asteroids and fossils hunters. It is a great utility ship for transporting cargo or little group of people, mining asteroids or fossils. It is probably one of the ship that had the most success in the Empire Merchants."

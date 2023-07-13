@@ -852,3 +852,12 @@ event "Mefterk Refinery Appears"
 				sprite planet/io
 				distance 315
 				period 29.4282
+
+event "Caltalytic Tear Appears"
+	outfitter Advanced-weapon-outfitter
+		add "Caltalytic Tear"
+	fleet cromha-fleet
+		add variant 2
+			"Empire Sea Kraken (Caltalytic)"
+		remove variant
+			"Empire Sea Kraken"

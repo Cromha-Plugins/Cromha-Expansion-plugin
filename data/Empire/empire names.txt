@@ -5,14 +5,14 @@ phrase "empire fleet names"
 		"digit"
 	phrase
 		"digit"
-	phrase
+	word
 		"-"
 	phrase
 		"letter"
 	phrase
 		"letter"
-	phrase
-		"-"
+	word
+		"."
 	phrase
 		"digit"
 
@@ -25,13 +25,13 @@ phrase "empire emperor fleet names"
 		"digit"
 	phrase
 		"digit"
-	phrase
+	word
 		"-"
 	phrase
 		"letter"
 	phrase
 		"letter"
-	phrase
-		"-"
+	word
+		"."
 	phrase
 		"digit"

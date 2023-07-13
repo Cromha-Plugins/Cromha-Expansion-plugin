@@ -13,9 +13,13 @@ start "nw-cromha-transporter"
 		score 950
 		mortgage Mortgage
 			principal 6500000 # 6.5M
-			interest 0.0000008
-			term 365
+			interest 0.00000000008
+			term 730
 	set "license: Pilot's"
+	set "license: Empire Passport"
+	set "nw-cromha-transporter-start"
+	set "Empire: First Contact: offered"
+	set "Empire: First Contact: done"
 
 conversation "cromha transporter intro"
 	scene "land/Witdrew_station"

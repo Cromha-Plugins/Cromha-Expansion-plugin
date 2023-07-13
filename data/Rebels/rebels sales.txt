@@ -56,11 +56,11 @@ outfitter Rebels-basic-power-outfitter
 	"Multiphasic Capacitor"
 	"NT-200 Nucleovoltaic"
 outfitter Rebels-basic-engines-outfitter
-	`RC-140 Atomic Thruster`
-	`RC-145 Atomic Steering`
-	`RC-160 Atomic Thruster`
-	`RC-165 Atomic Steering`
-	`RX-120 Reverse Thruster`
+	"W-120 Nitrogen Thruster"
+	"Nitrogen Afterburnner"
+	"W-120 Nitrogen Steering"
+	"W-160 Nitrogen Thruster"
+	"W-160 Nitrogen Steering"
 outfitter Rebels-advanced-ammo-outfitter
 	"Multiphasic ammo"
 	"Torpedo"
@@ -101,6 +101,11 @@ outfitter Rebels-advanced-systems-outfitter
 	"Engine Module"
 	"Compact Empire Shielding Core"
 	"Empire Shielding Core"
+	"Active Radar Jammer"
+	"Small Interference Emitter"
+	"Large Interference Emitter"
+	"Modified Plasma Repeater"
+	"Railgun Slug"
 outfitter Rebels-advanced-power-outfitter
 	"Empire Hai Chasm Batteries"
 	"Empire Hai Fissure Batteries"
@@ -116,12 +121,10 @@ outfitter Rebels-advanced-power-outfitter
 	"Multiphasic Capacitor"
 	"NT-200 Nucleovoltaic"
 outfitter Rebels-advanced-engines-outfitter
-	`RC-140 Atomic Thruster`
-	`RC-145 Atomic Steering`
-	`RC-160 Atomic Thruster`
-	`RC-165 Atomic Steering`
-	`RC-180 Atomic Thruster`
-	`RC-185 Atomic Steering`
-	`RC-200 Atomic Thruster`
-	`RC-205 Atomic Steering`
-	`RX-120 Reverse Thruster`
+	"W-120 Nitrogen Thruster"
+	"Nitrogen Afterburnner"
+	"W-120 Nitrogen Steering"
+	"W-160 Nitrogen Thruster"
+	"W-160 Nitrogen Steering"
+	"W-180 Nitrogen Thruster"
+	"W-180 Nitrogen Steering"

@@ -1,0 +1,118 @@
+fleet empire-rebels-raiders
+	government "Empire Rebels"
+	names "civilian"
+	"cargo settings"
+		cargo 3
+		commodities Clothing Food Garbage "Illegal Substances" "Illegal Cargo"
+		outfitters Rebels-basic-outfitter
+	personality appeasing frugal disables plunders coward opportunistic harvests secretive
+		confusion 25
+	variant 1
+		"Gunboat (Rebels)" 2
+		"Osprey (Rebels)"
+	variant 1
+		"Gunboat (Rebels)" 3
+		"Osprey (Rebels)"
+		"Scavenger" 2
+	variant 1
+		"Gunboat (Rebels)" 4
+		"Osprey (Rebels)"
+		"Rebel Raven"
+	variant 1
+		"Gunboat (Rebels)" 2
+		"Osprey (Rebels)"
+		"Scavenger"
+	variant 1
+		"Gunboat (Rebels)" 2
+		"Osprey (Rebels)"
+	variant 1
+		"Gunboat (Rebels)" 3
+		"Osprey (Rebels)"
+		"Scavenger" 2
+	variant 1
+		"Gunboat (Rebels)" 4
+		"Osprey (Rebels)"
+		"Rebel Firebird"
+	variant 1
+		"Gunboat (Rebels)" 2
+		"Osprey (Rebels)"
+		"Scavenger"
+	variant 0.7
+		"Or Kar Destroyer"
+		"Gunboat (Rebels)" 3
+	variant 0.7
+		"Tar Kas Destroyer"
+		"Gunboat (Rebels)" 3
+	variant 0.8
+		"Rebel Kyanite"
+		"Gunboat (Rebels)" 5
+fleet empire-rebels-raiders-fleet
+	government "Empire Rebels"
+	names "civilian"
+	"cargo settings"
+		cargo 3
+		commodities Clothing Food Garbage "Illegal Substances" "Illegal Cargo"
+		outfitters Rebels-basic-outfitter
+	personality appeasing frugal disables plunders coward opportunistic harvests secretive
+		confusion 25
+	variant 1
+		"Gunboat (Rebels)" 2
+		"Osprey (Rebels)"
+	variant 1
+		"Gunboat (Rebels)" 3
+		"Osprey (Rebels)"
+		"Scavenger" 2
+	variant 1
+		"Gunboat (Rebels)" 4
+		"Osprey (Rebels)"
+		"Rebel Raven"
+	variant 1
+		"Gunboat (Rebels)" 2
+		"Osprey (Rebels)"
+		"Scavenger"
+	variant 1
+		"Gunboat (Rebels)" 2
+		"Osprey (Rebels)"
+	variant 1
+		"Gunboat (Rebels)" 3
+		"Osprey (Rebels)"
+		"Scavenger" 2
+	variant 1
+		"Gunboat (Rebels)" 4
+		"Osprey (Rebels)"
+		"Rebel Firebird"
+	variant 1
+		"Gunboat (Rebels)" 2
+		"Osprey (Rebels)"
+		"Scavenger"
+	variant 0.7
+		"Or Kar Destroyer"
+		"Gunboat (Rebels)" 3
+	variant 0.7
+		"Tar Kas Destroyer"
+		"Gunboat (Rebels)" 3
+	variant 0.8
+		"Rebel Kyanite"
+		"Gunboat (Rebels)" 5
+
+fleet empire-rebels-merchants
+	government "Empire Rebels"
+	names "civilian"
+	"cargo settings"
+		cargo 5
+		commodities Clothing Food Garbage "Illegal Substances" "Illegal Cargo"
+		outfitters Rebels-basic-outfitter
+	personality coward timid disables plunders appeasing frugal
+		confusion 35
+	# small
+	variant 1
+		"Scavenger"
+		"Gunboat (Rebels)" 2
+	# medium
+	variant 1
+		"Scavenger"
+		"Gunboat (Rebels)" 2
+	# large
+	variant 1
+		"Scavenger" 2
+		"Gunboat (Rebels)"  4

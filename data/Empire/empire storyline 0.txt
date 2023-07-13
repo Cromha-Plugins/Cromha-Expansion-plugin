@@ -4,6 +4,8 @@ mission "Empire: First Contact"
 	source
 		government "Cromha Empire"
 		not attributes uninhabited
+	to offer
+		not "nw-cromha-transporter-start" 	
 	destination "Witdrew Station"
 	on offer
 		"reputation: Cromha Empire" += 10
@@ -48,6 +50,7 @@ mission "Empire: Humanitary Delivry to <planet>"
 		not attributes uninhabited
 	to offer
 		has "Empire: First Contact: done"
+		random < 2
 	on offer
 		conversation
 			`You enter the <planet> spaceport and see a big sign where it's written "The Empire search for remunerated workforce".`

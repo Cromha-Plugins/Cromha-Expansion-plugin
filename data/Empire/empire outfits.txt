@@ -76,10 +76,10 @@ outfit "Cloaking Module"
 	cost 1000000
 	"mass" 10
 	"outfit space" -10
-	"cloak" .1
+	"cloak" .008
 	"cloaking energy" 1
 	"cloaking fuel" .2
-	"cloaking heat" 1.3
+	"cloaking heat" 56
 	"required crew" 1
 	"operating costs" 350
 	description "The work of the Cloaking Module is a total mistery in the whole galaxy. Some rumours says that only one human in the galaxy known the functionment of the Cloaking Module"
@@ -127,6 +127,7 @@ outfit "Countermesure Module Compact"
 	"slowing protection" 4
 	"energy consumption" 0.3
 	description "This module has been especially designed for the small ships like nanobots or other ships who would travels in the Far Empire Space. It increase ion, disruption, discharge, energy and corrosion damages. It is also perfect for traveling in the Ember Waste. This is a little piece of advanced high technology."
+	
 
 outfit "Fuel Cell"
 	thumbnail "outfit/small fuel cell empire"
@@ -146,10 +147,9 @@ outfit "Weapon Module"
 	thumbnail "outfit/weapon module"
 	licenses
 		"Empire Contributor"
-	"mass" 5
-	"outfit space" -5
-	"weapon capacity" 35
-	"engine capacity" -35
+	"mass" 1
+	"weapon capacity" 15
+	"engine capacity" -15
 	"unplunderable" 1
 	description "This module allows you to sacrifice some engine capacity in order to make more capacity for the weapons, in situations where you need just a bit more capacity to install a particular weapon or reverse thruster."
 	description "This little module redirect some of the engine energy to the weapons. It does not affect heat dissipation or anything else unless outfit space of course."
@@ -160,13 +160,110 @@ outfit "Engine Module"
 	thumbnail "outfit/engine module"
 	licenses
 		"Empire Contributor"
-	"mass" 5
-	"outfit space" -5
-	"engine capacity" 35
-	"weapon capacity" -35
+	"mass" 1
+	"engine capacity" 15
+	"weapon capacity" -15
 	"unplunderable" 1
 	description "This module allows you to sacrifice some weapon capacity in order to make more capacity for the engines, in situations where you need just a bit more capacity to install a particular engine."
 	description "This little module redirect some of the weapon energy to the engines. It does not affect heat dissipation or anything else unless outfit space of course."
+	
+outfit "Hull Breaker"
+	category "Systems"
+	thumbnail "outfit/limit breaker"
+	licenses
+		"Empire Contributor"
+	cost 25000
+	"mass" 1
+	"outfit space" -1
+	"threshold percentage" 0.01
+	description `This outfit is sometimes referred to as the "Berserker Circuit" after the first ship it was used in. Many consider the development of this device a reckless attempt to push a ship's combat abilities to its maximum limits. But installing a Hull Breaker on your ship does allow it to keep functioning well past the point that it would be disabled due to internal safety mechanisms shutting your systems down.`
+	description `	However, using this isn't without risk. If your ship continues fighting a hopeless battle after it would normally be disabled, you are unlikely to be left adrift in space afterwards waiting for someone to come rescue you... Because you'd be dead.`
+	description `	Installing more than one of these outfits reduces their effectiveness as they interfere with each other as well as your ship's internal safety shutdown systems.`
+	
+outfit "T1 Phasic Amplifier"
+	category "Systems"
+	cost 4000
+	thumbnail "outfit/T1 phasic amplifier"
+	licenses
+		"Empire Contributor"
+	"mass" 1
+	"outfit space" -1
+	"outfit scan power" 8
+	"outfit scan efficiency" -2
+	"cargo scan power" 4
+	"cargo scan efficiency" -1
+	description "The Phasic Amplifiers are little piece of advanced technology that amplify every scan power without buying an other scanner. However, by ampliying the range of your scanners, it will lower their effiency but a bit."
+	description "	This device cannot be installed on a ship that doesn't already have equipment for scanning both cargo and outfits."
+	
+outfit "T2 Phasic Amplifier"
+	category "Systems"
+	cost 4000
+	thumbnail "outfit/T2 phasic amplifier"
+	licenses
+		"Empire Contributor"
+	"mass" 4
+	"outfit space" -4
+	"outfit scan power" 32
+	"outfit scan efficiency" -8
+	"cargo scan power" 16
+	"cargo scan efficiency" -4
+	description "The Phasic Amplifiers are little piece of advanced technology that amplify every scan power without buying an other scanner. However, by ampliying the range of your scanners, it will lower their effiency but a bit."
+	description "	This device cannot be installed on a ship that doesn't already have equipment for scanning both cargo and outfits."
+	
+outfit "T3 Phasic Amplifier"
+	category "Systems"
+	cost 4000
+	thumbnail "outfit/T3 phasic amplifier"
+	licenses
+		"Empire Contributor"
+	"mass" 16
+	"outfit space" -16
+	"outfit scan power" 128
+	"outfit scan efficiency" -32
+	"cargo scan power" 64
+	"cargo scan efficiency" -16
+	description "The Phasic Amplifiers are little piece of advanced technology that amplify every scan power without buying an other scanner. However, by ampliying the range of your scanners, it will lower their effiency but a bit."
+	description "	This device cannot be installed on a ship that doesn't already have equipment for scanning both cargo and outfits."
+	
+outfit "Phasic Ramscoop"
+	category "Systems"
+	cost 6500
+	thumbnail "outfit/phasic ramscoop"
+	licenses
+		"Empire Contributor"
+	"mass" 15
+	"outfit space" -15
+	"ramscoop" 1.7
+	"fuel capacity" 30
+	"energy consumption" 4.5
+	"heat generation" 1.3
+	description "The Phasic Ramscoop is an ameliorated version of the basic Ramscoops. It has way better ramscoop but it consumme energy and produce some heat. It also has an integrated fuel storage room."
+
+outfit "Antimatter Capacitor"
+	category "Systems"
+	cost 55000
+	thumbnail "outfit/antimatter capacitor"
+	licenses
+		"Empire Contributor"
+	mass 15
+	"outfit space" -15
+	"heat generation" 2.3
+	"fuel consumption" .02
+	"antimatter production" 2
+	description "This device convert fuel to antimatter constantinuously. It is need if your ship have systems that requires antimatter needs installed on."
+	
+outfit "Antimatter Capacitor (Large)"
+	category "Systems"
+	cost 55000
+	thumbnail "outfit/antimatter capacitor large"
+	licenses
+		"Empire Contributor"
+	mass 25
+	"outfit space" -25
+	"heat generation" 3.7
+	"fuel consumption" .04
+	"antimatter production" 4
+	description "This device convert fuel to antimatter constantinuously. It is need if your ship have systems that requires antimatter needs installed on."
 
 # Shields
 outfit "Small Empire Shielding Core"
@@ -198,6 +295,50 @@ outfit "Empire Shielding Core"
 	"hull energy" 0.9
 	"hull heat" 0.32
 	description "This Cromha Empire shield generator can restore a ship's shield strength more quickly than any human shielding technology, but while recharging shields it also draws a much larger amount of heat and power."
+	
+outfit "Shield Processor"
+	category "Systems"
+	licenses
+		"Empire Navy"
+	cost 785000
+	thumbnail "outfit/shield processor"
+	mass 25
+	"outfit space" -25
+	"shield generation" 17.5
+	"shield energy" 12.5
+	"shield heat" 7.9
+	"hull repair rate" 1.5
+	"hull energy" 7.8
+	"hull heat" 18.9
+	"cooling" 9.38
+	"energy generation" 19.285
+	"antimatter production" -2
+	"fuel capacity" 70
+	"ramscoop" 1.1
+	description "The shield processors are systems that use quantum energy and antimatter to produce huge amounts of energy for a small cost of heat and energy loss. It has also an integrated cooling system but it only cools 35% of the generated heat. It also produce 95% of the needed energy to function so it is not totally auto-efficient."
+	description "On of the other downside to these Shield Processors is that they use fuel to produce antimatter. It's why they also have an integrated ramscoop and fuel storage systems."
+	
+outfit "Shield Processor (Huge)"
+	category "Systems"
+	licenses
+		"Empire Navy"
+	cost 1450000
+	thumbnail "outfit/shield processor huge"
+	mass 45
+	"outfit space" -40
+	"shield generation" 52.5
+	"shield energy" 37.5
+	"shield heat" 23.7
+	"hull repair rate" 4.5
+	"hull energy" 23.4
+	"hull heat" 56.7
+	"cooling" 28.14
+	"energy generation" 57.855
+	"fuel capacity" 70
+	"antimatter production" -4
+	"ramscoop" 1.5
+	description "The shield processors are systems that use quantum energy and antimatter to produce huge amounts of energy for a small cost of heat and energy loss. It has also an integrated cooling system but it only cools 35% of the generated heat. It also produce 95% of the needed energy to function so it is not totally auto-efficient."
+	description "On of the other downside to these Shield Processors is that they use fuel to produce antimatter. It's why they also have an integrated ramscoop and fuel storage systems."
 
 # Hyper Drives
 outfit "Compact Plasma Drive"
@@ -266,6 +407,46 @@ outfit "One-Phasic Cooler"
 	"cooling" 7.8
 	"cooling energy" 2.3
 	description "For ships with minors cooling need like an interceptor, the One-Phasic Cooler is a great possibility. For it mass, cooling and energy consumption, it has great effiency."
+	
+outfit "NGx3 Quatalant Cooler"
+	category "Systems"
+	cost 7500
+	thumbnail "outfit/t1 quatalant cooler"
+	licenses
+		"Empire Contributor"
+	"mass" 10
+	"outfit space" -10
+	"cooling" 8.7
+	"cooling energy" 2.5
+	description "The NGx Quatalant Cooling systems were invented back at the beginning of the Lifdot Industries, even if the Quantalant Cooling systems are now part of the Lifdot Industires, it was created in the Mineria mines to cool there digging machine and oil extractor with low-end cost."
+	description "Even if the NGx3 Quatalant Cooler is still a quiet old system, it is valuable for Freighters and other ships of that kind."
+	
+outfit "NGx9 Quatalant Cooler"
+	category "Systems"
+	cost 17850
+	thumbnail "outfit/t2 quatalant cooler"
+	licenses
+		"Empire Contributor"
+	"mass" 35
+	"outfit space" -35
+	"cooling" 31.2
+	"cooling energy" 17.5
+	description "The NGx Quatalant Cooling systems were invented back at the beginning of the Lifdot Industries, even if the Quantalant Cooling systems are now part of the Lifdot Industires, it was created in the Mineria mines to cool there digging machine and oil extractor with low-end cost."
+	description "Even if the NGx9 Quatalant Cooler is still a quiet old system, it is valuable for Freighters and other ships of that kind."
+
+outfit "Antimatter Cooling Cell"
+	category "Systems"
+	cost 120350
+	thumbnail "outfit/antimatter cooling"
+	licenses
+		"Empire Contributor"
+	"mass" 35
+	"outfit space" -45
+	"cooling" 125.4
+	"cooling energy" 8.6
+	"antimatter production" -4
+	description "The Antimatter Cooling Cell is an extremely powerful cooling system. It uses antimatter to produce huge amount of energy and cool your ship systems with a low-end cost of energy. This is probably the best cooling system that is available in the whole galaxy."
+	description "You cannot install this outfit if you don't have any Antimatter Capacitor installed."
 
 # Scanning
 outfit "Multiphasic Scanner"
@@ -308,7 +489,7 @@ outfit "Empire Mapper"
 	category "Special"
 	cost 7000
 	thumbnail "outfit/empire mapper"
-	"map" 17
+	"map" 19
 	description "This data chip contains complete information on the twelve star systems closest to this one: planets, ports, governments, trade prices, available services, etc. You can get all the same information just by exploring those systems yourself, but having a map can save you from making wrong turns if you are trying to travel through new territory to reach a certain system quickly."
 
 # Hand to Hand

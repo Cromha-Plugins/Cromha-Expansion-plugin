@@ -300,5 +300,83 @@ ship "Gunboat (modified)" "Gunboat (Rebels)"
 	explode "small explosion" 20
 	explode "medium explosion" 15
 	"final explode" "final explosion small"
-    description "This is a non-licensied model of the original Gunboat."
+	description "This is a non-licensied model of the original Gunboat."
 	description "The Navy Gunboat is designed for engaging targets at short range, and also serves as the Navy's mobile sensor platform, scanning ships for illegal equipment or cargo."
+
+ship "Rebel Kyanite"
+	sprite "ship/rebel kyanite"
+	thumbnail "thumbnail/rebel kyanite"
+	attributes
+		category "Utility"
+		"cost" 28870000
+		"shields" 0
+		"hull" 13650
+		"shields" 29350
+		"required crew" 66
+		"bunks" 93
+		"mass" 985
+		"drag" 14.6
+		"heat dissipation" 0.5
+		"fuel capacity" 400
+		"cargo space" 76
+		"outfit space" 380
+		"weapon capacity" 202
+		"engine capacity" 160
+		"energy capacity" 21300
+		"energy generation" 11.3
+		"heat generation" 27.2
+		"outfit scan power" 18
+		"outfit scan efficiency" 8
+		"cargo scan power" 6
+		"cargo scan efficiency" 2
+		weapon
+			"blast radius" 197
+			"shield damage" 2030
+			"hull damage" 1440
+			"hit force" 2800
+	outfits
+		"Empire Shielding Core"
+		Hyperdrive
+		"Large Interference Emitter"
+		"Liquid Nitrogen Cooler"
+		"Modified Plasma Repeater" 2
+		"Railgun Slug" 500
+		"Rebel Grav-Turret" 3
+		"Rebels Blaze-Pike"
+		"S3 Thermionic" 2
+		"Small Radar Jammer"
+		"W-160 Nitrogen Steering"
+		"W-160 Nitrogen Thruster"
+		"Hyperdrive"
+	"steering engine" -84 -100 0.5
+		angle 58.5
+		right
+	"steering engine" 84 -100 0.5
+		angle -58.5
+		left
+	engine -15 140
+	engine 15 140
+	engine -28.5 169
+	engine 28.5 169
+	gun -40 -350 "Modified Plasma Repeater"
+		under
+	gun 40 -350 "Modified Plasma Repeater"
+		under
+	gun 0 -62.5 "Rebels Blaze-Pike"
+		under
+	turret -46 -102 "Rebel Grav-Turret"
+		over
+	turret 46 -102 "Rebel Grav-Turret"
+		over
+	turret 0 69 "Rebel Grav-Turret"
+		over
+	leak "leak" 20 50
+	leak "flame" 90 160
+	leak "big leak" 30 50
+	explode "huge explosion" 12
+	explode "large explosion" 46
+	explode "medium explosion" 44
+	explode "small explosion" 30
+	"final explode" "final explosion large"
+	description `Kyanites are intricately-built test platforms for Gegno Scin technology, equipped with an extensive built-in power system and energy reserve able to support many types of outfits. Weapon experimentation, the most common practice of Kyanites, is recorded by various scanner instruments littering the two long structures on the front of the hull. Despite being weapon research vessels, Kyanites are not combat-capable due to how exposed their systems are and how little hull covers them. These systems are also very expensive and difficult to produce, so only a small amount of Kyanites are found in service.`
+	description `	The scanner system found on the Tridymite was originally developed and tested on Kyanite platforms, eventually becoming integrated into the hull as well.`

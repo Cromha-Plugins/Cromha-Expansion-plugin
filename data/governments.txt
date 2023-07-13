@@ -121,9 +121,9 @@ government "Empire Rebels"
 		Republic -1
 		Syndicate -1
 		Wanderer -1
-	bribe .5
-	fine 1
-	raid cromha-fleet
+	bribe .05
+	fine .15
+	raid "Large Deep Security"
 
 government "Mineria colonnies"
 	swizzle 1

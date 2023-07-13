@@ -345,3 +345,92 @@ mission "Empire: Station Escort Meftarkata"
 		"empire jobs" += 1
 		log "You escorted an Empire amovible station to the Meftarkata system and gained a Disruption RV-170 Thruster and a Disruption RV-175 Steering engine."
 		dialog "You get your payment of <payment> and new disruptions engines (RV-170 and RV-175)"
+
+mission "Empire: Caltalytic Tear Transport1"
+	name "Empire: Secret Weapon Transport"
+	description "Transport the Secret Weapon that The Empire entrusted you without being caught by the Korath fleets to <destination>. Payment is 1B credits."
+	landing
+	source
+		government "Cromha Empire"
+		not planet "Weila Station"
+		attributes research military
+		not attributes uninhabited
+	to offer
+		has "Empire: Station Escort Meftarkata: done"
+		random < 3
+	destination "Weila Station"
+	on offer
+		log "The Cromha Empire entrusted you a secret weapon so you can transport it to the Weila Station, Los Faros."
+		conversation
+			`As you land you recieve an hail from the tower of control of the spaceport. It says "The Cromha Empire has an important mission for you. We want you to transport in your cargo a secret outfit that we cannot tell you what is it yet. If you transport it to <destination> without being caught by any Korath fleet of any faction, we will pay you <payment>. No Empire fleet will escort you, we need to keep this secret from any space faction, even or allies."`
+			choice
+				`	Send back a hail to accept`
+					accept
+				`	Send back a hail to decline`
+					decline
+				`	Decline and send no hail`
+					decline
+	on accept
+		dialog "A millisecond after sending a hail back to accept the mission a mysterious outfit get teleported to your cargo bays. It must be the secret outfit The Empire entrusted you."
+		outfit "Caltalytic Tear Secret" 1
+	on complete
+		payment
+		payment 500000000
+	npc
+		government "Kor Mereti"
+		personality target
+		system
+			distance 2 5
+		fleet "Large Kor Mereti" 5
+	npc
+		government "Kor Sestor"
+		personality target
+		system
+			distance 2 5
+		fleet "Large Kor Sestor" 3
+	npc
+		government "Kor Efret"
+		personality target
+		system
+			distance 2 5
+		fleet "Kor Efret Home" 6
+
+mission "Empire: Caltalytic Tear Transport2"
+	name "Empire: Secret Weapon Transport"
+	description "Transport the Secret Weapon that The Empire entrusted you without being caught by the Korath fleets to <destination>. Payment is <payment>."
+	landing
+	source
+		government "Cromha Empire"
+	to offer
+		has "Empire: Caltalytic Tear Transport1: done"
+	destination "Salkdot Shipyardor"
+	on offer
+		log "The Cromha Empire entrusted you a secret weapon so you can transport it to the Salkdot Shipyardor, Prima Lifdot."
+		conversation
+			`As soon as you land on the station, the secret weapon get teleported somewhere else on the station that your scanners cannot figure out. You get an hail from the tower of control that tells you to wait in the spaceport. You wait for 6 hours when the secret weapon get teleported to your cargo bays again. You will have to transport it a final time to <destination>. You don't know your payment but it should be huge.`
+				accept
+	on complete
+		payment
+		payment 500000000
+		outfit "Caltalytic Tear Secret" -1
+		dialog "You got payed 1B credits and The Empire inform you that the weapon is now avaible in the outfitter."
+		log "You helped the Cromha Empire to create the Caltalytic Tear. It is a destructive Secondary Weapon that can kill any Korath Destroyer in a few seconds. You also got payed 1B credits. Thanks to you, now the Empire Seakraken have these powerful weapons installed on them."
+		event "Caltalytic Tear Appears"
+	npc
+		government "Kor Mereti"
+		personality target
+		system
+			distance 2 5
+		fleet "Large Kor Mereti" 5
+	npc
+		government "Kor Sestor"
+		personality target
+		system
+			distance 2 5
+		fleet "Large Kor Sestor" 3
+	npc
+		government "Kor Efret"
+		personality target
+		system
+			distance 2 5
+		fleet "Kor Efret Home" 6

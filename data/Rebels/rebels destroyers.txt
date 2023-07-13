@@ -9,8 +9,8 @@ ship "Tar Kas Destroyer"
 		"engine capacity" 175
 		"weapon capacity" 350
 		"cargo space" 85
-		"shields" 75000
-		"hull" 10650
+		"shields" 120000
+		"hull" 18000
 		"fuel capacity" 900
 		"heat dissipation" 0.9
 		"required crew" 35

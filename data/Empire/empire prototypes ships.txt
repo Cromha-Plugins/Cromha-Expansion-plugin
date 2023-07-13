@@ -1,11 +1,11 @@
 ship "Black Manta"
-	sprite "ship/black manta/black manta 1"
-	thumbnail "thumbnail/black manta/black manta 1"
+	sprite "ship/black manta/black manta"
+		"frame rate" 4
+	thumbnail "thumbnail/black manta"
 	plural "Black Mantas"
 	noun "prototype"
 	"uncapturable"
-	"never disabled"
-	"swizzle" 6
+	"swizzle" 0
 	attributes
 		category "Prototype"
 		licenses
@@ -31,98 +31,60 @@ ship "Black Manta"
 			"hull damage" 230000
 			"hit force" 200
 	outfits
-		"Antimatter Railgun"
-		"Cloaking Module"
-		"Countermesure Module" 6
-		"Ion Proton Gun" 2
-		"Empire Hai Valley Batteries" 4
-		"Empire Navy Emitter" 2
-		"Empire Nuke"
-		"Empire Particle gun" 2
-		"Empire Shielding Core" 12
-		"Fuel Cell" 2
-		"Ion Proton Gun" 2
-		"Ion Proton Turret" 3
-		"Mineria Key Stone"
-		"Multiphasic Ammo Rack" 8
-		"Multiphasic Anti-Missile" 2
-		"Multiphasic Cooler" 8
-		"Multiphasic Scanner" 6
-		"Multiphasic ammo" 3600
-		"One-Phasic Cooler" 2
-		"Phasic Grenades" 25
-		"Phasic Rifle" 25
-		"Tri-Phasic Hyperdrive"
-		"Plasma Fuel Pod" 4
-		"Plasma Repeater" 4
-		"Grab-Strike Blaze" 3
-		"RC-220 Atomic Thruster" 2
-		"RC-225 Atomic Steering" 2
-		"RC-X3 Multiphasic Reactor" 4
-		"RC-X4 Multiphasic Reactor" 4
-		"RX-200 Reverse Thruster" 4
-		"Railgun Slug" 1030
-		"Railgun Slug Rack" 2
-		"Empire Defense Station" 13
-		"Small Empire Shielding Core" 6
-		"Teleportation Dock" 2
-		"Thermal Nucleavoltaic" 2
-	turret 0 -70 "Multiphasic Anti-Missile"
-		over
-	turret 0 67.5 "Multiphasic Anti-Missile"
-		over
-	gun -22.5 -105.5 "Plasma Repeater"
+		"Anti-Missile Field Device"
+		"Antimatter Capacitor (Large)"
+		"Caltalytic Tear"
+		"Cloaking Module" 2
+		"Countermesure Module Compact" 60
+		"Disruption Afterburnner"
+		"Empire Hai Gorge Batteries" 2
+		"Empire Hai Ravine Batteries"
+		"Empire Navy Emitter"
+		"Empire Particle Turret" 8
+		"Fuel Cell" 132
+		"Multiphasic Cooler" 4
+		"Multiphasic Scanner" 2
+		"NGx3 Quatalant Cooler" 6
+		"NGx9 Quatalant Cooler" 2
+		"One-Phasic Cooler" 8
+		"Phasic Ramscoop" 8
+		"Plasma Drive"
+		"Plasma Fuel Pod" 19
+		"Quantum Generator" 12
+		"RC-200 Atomic Thruster"
+		"RC-205 Atomic Steering" 2
+		"RX-200 Reverse Thruster"
+		"Shield Processor (Huge)" 2
+		"T3 Phasic Amplifier"
+		"Tre-Phasic Cooler" 2
+		"Twin Empire Particle" 2
+		"X-Crusade Computer"
+		"X-Skirmish Computer" 2
+		
+	gun 0 -105.5 "Caltalytic Tear"
 		under
-	gun -27.5 -103.5 "Plasma Repeater"
+	gun -4.5 -94.5 "Twin Empire Particle"
 		under
-	turret -71 35.5 "Ion Proton Turret"
-		over
-	gun -39.5 51.5 "Antimatter Railgun"
+	gun 4.5 -94.5 "Twin Empire Particle"
 		under
-	gun -100.5 1 "Empire Particle gun"
+	turret -68.5 -11 "Empire Particle Turret"
 		under
-	gun -82 7 "Ion Proton Gun"
+	turret -96 -76 "Empire Particle Turret"
 		under
-	gun -55.5 9 "Ion Proton Gun"
+	turret -28.5 -186.5 "Empire Particle Turret"
 		under
-	turret -84 16.5 "Ion Proton Turret"
-		over
-	turret -65 100.5 "Grab-Strike Blaze"
-		over
-	gun 22.5 -105.5 "Plasma Repeater"
+	turret -61 -224.5 "Empire Particle Turret"
 		under
-	gun 27.5 -103.5 "Plasma Repeater"
+	turret 0 120 "Anti-Missile Field Device"
 		under
-	turret 71 35.5 "Grab-Strike Blaze"
-		over
-	gun 39.5 51.5 "Empire Nuke"
+	turret 68.5 -11 "Empire Particle Turret"
 		under
-	gun 100.5 1 "Empire Particle gun"
+	turret 96 -76 "Empire Particle Turret"
 		under
-	gun 82 7 "Ion Proton Gun"
+	turret 28.5 -186.5 "Empire Particle Turret"
 		under
-	gun 55.5 9 "Ion Proton Gun"
+	turret 61 -224.5 "Empire Particle Turret"
 		under
-	turret 84 16.5 "Ion Proton Turret"
-		over
-	turret 65 100.5 "Grab-Strike Blaze"
-		over
-	engine -39 134
-	engine -31.5 135
-	engine -14.5 164
-		angle -10
-		zoom 0.6
-	engine -21 153
-		angle -10
-		zoom 0.6
-	engine 39 134
-	engine 31.5 135
-	engine 14.5 164
-		angle 10
-		zoom 0.6
-	engine 21 153
-		angle 10
-		zoom 0.6
 	leak "empire leak" 60 50
 	leak "empire flame" 40 80
 	leak "empire big leak" 30 30

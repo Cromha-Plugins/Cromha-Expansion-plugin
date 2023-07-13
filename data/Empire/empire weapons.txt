@@ -23,6 +23,49 @@ outfit "Empire Particle gun"
 		"hit force" 80
 	description "The Particle Cannon works by accelerating a short burst of particles to near-relativistic speeds. When mounted on a ship that can turn fast enough to keep it trained on approaching ships, it becomes a nearly unbeatable weapon, capable of destroying smaller ships before they can even approach close enough for their comparatively short-ranged weapons to be effective."
 	
+outfit "Twin Empire Particle"
+	category "Guns"
+	cost 530000
+	thumbnail "outfit/empire particle twin"
+	"mass" 50
+	"outfit space" -50
+	licenses
+		"Empire Contributor"
+	"weapon capacity" -50
+	"gun ports" -1
+	weapon
+		sound "particle"
+		"submunition" "Empire Particle Submunition"
+			"offset" 2.5 0
+		"submunition" "Empire Particle Submunition"
+			"offset" -2.5 0
+		"hit effect" "empire particle impact" 2
+		"inaccuracy" 0.2
+		"velocity" .001
+		lifetime .001
+		"reload" 20
+		"firing energy" 35
+		"firing force" 10
+		"firing heat" 120
+		"shield damage" 95
+		"hull damage" 95
+		"hit force" 80
+	description "Both barrels of the Twin Particle Cannon fire similtaneously, releasing double the force of a single Particle Cannon all at once. The size of this weapon is its main drawback, as few ships can accomodate it. While this product is fully functional, the sales department has raised concerns about its viability in the marketplace."
+
+outfit "Empire Particle Submunition"
+	weapon
+		sprite "projectile/empire particle beam"
+		"hit effect" "empire particle impact"
+		"velocity" 35
+		"inaccuracy" 0.2
+		"lifetime" 30
+		"firing energy" 35
+		"firing force" 10
+		"firing heat" 120
+		"shield damage" 95
+		"hull damage" 95
+		"hit force" 80
+	
 outfit "Empire Particle Turret"
 	category Turrets
 	licenses "Empire Contributor"
@@ -212,6 +255,7 @@ outfit "Antimatter Railgun"
 		"tracking" 1
 		"heat damage" 75
 		"ion damage" 75
+		"slowing damage" 35
 		"leak damage" 15
 	description "A missle system, Works internally like a fabricator."
 	description "It refits the materials of a railgun slug, and adds fuel from your ship."
@@ -233,6 +277,7 @@ outfit "antimatter railgun stage 1"
 		"split range" 500
 		"heat damage" 75
 		"ion damage" 75
+		"slowing damage" 35
 		"leak damage" 15
 		"hit force" 1
 
@@ -248,7 +293,8 @@ outfit "antimatter railgun stage 2"
 		"turn" 10
 		"homing" 4
 		"tracking" 1
-		"heat damage" 757
+		"heat damage" 75
+		"slowing damage" 35
 		"ion damage" 75
 		"hit force" 1
 
@@ -779,8 +825,10 @@ outfit "Nuclavoltaic Turret"
 	"required crew" 1
 	"turret mounts" -1
 	weapon
-		sprite "projectile/nucleavoltaic repeater"
-			"frame rate" 5
+		"submunition" "Nucleavoltaic Turret Submunition"
+			"offset" 2 0
+		"submunition" "Nucleavoltaic Turret Submunition"
+			"offset" -2 0
 		"hardpoint sprite" "hardpoint/nucleavoltaic repeater turret"
 		"hardpoint offset" 7
 		sound repeater
@@ -788,18 +836,31 @@ outfit "Nuclavoltaic Turret"
 		"cluster"
 		"inaccuracy" 4
 		"turret turn" 2.6
-		"velocity" 15
-		lifetime 40
+		"velocity" 0
+		lifetime 0
 		"reload" 5
 		"burst reload" 4
 		"burst count" 12
 		"firing energy" 24
 		"firing heat" 0.7
+		"shield damage" 148
+		"hull damage" 78
+		"heat damage" 154
+		"corrosion damage" 2
+	description "This is the smallest and simplest Cromha Empire projectile weapon, designed mostly for use on light destroyers and other ships. As with most Empire technology, it generates a large amount of heat and energy, enough that the gun must pause briefly after every few shots to cool down."
+
+outfit "Nucleavoltaic Turret Submunition"
+	weapon
+		sprite "projectile/nucleavoltaic repeater"
+			"frame rate" 5
+		"hit effect" "nucleavoltaic repeater impact"
+		sound repeater
 		"shield damage" 72
 		"hull damage" 39
 		"heat damage" 77
 		"corrosion damage" 1
-	description "This is the smallest and simplest Cromha Empire projectile weapon, designed mostly for use on light destroyers and other ships. As with most Empire technology, it generates a large amount of heat and energy, enough that the gun must pause briefly after every few shots to cool down."
+		"velocity" 15
+		lifetime 40
 
 effect "nucleavoltaic repeater impact"
 	sprite "effect/nucleavoltaic repeater impact"
@@ -1005,3 +1066,29 @@ outfit "Dual Wel'y Beam Turret"
 		"hull damage" 50
 		"disruption damage" 23
 	description "This turret carries a pair of Wanderer Sunbeams. For any ship that can support its energy requirements, it is an immensely powerful weapon."
+	
+outfit "Scrambling Beam"
+	category "Guns"
+	licenses
+		"Empire Contributor"
+	cost 45000
+	thumbnail "outfit/scrambling beam"
+	"mass" 25
+	"outfit space" -20
+	"weapon capacity" -20
+	"gun ports" -1
+	weapon
+		sprite "projectile/scrambling beam"
+			"frame rate" 30
+		sound "sunbeam"
+		"hit effect" wel'y beam impact"
+		"inaccuracy" 2.4
+		"velocity" 390
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 3.5
+		"firing heat" 5.6
+		"shield damage" 10
+		"hull damage" 10
+		"scrambling damage" 1
+	description "The Scrambling Beam is a quite old technology, used at the very first of the Lifdot Industries, but even at these days, it is still a valuable weapon for interceptors and light warships. It is now mostly used by miners in the Empire Spaces."
