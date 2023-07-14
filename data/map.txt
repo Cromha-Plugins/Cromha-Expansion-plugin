@@ -1666,7 +1666,7 @@ system All'Estros
 	haze _menu/haze-cyan
 	link Lifdot
 	link "Ring Wartrue"
-	minables crystal 13 5.169
+	minables quatalant 13 5.169
 	trade Clothing 215
 	trade Electronics 816
 	trade Equipment 487
@@ -1722,7 +1722,7 @@ system "Ring Wartrue"
 	link Irn'o
 	link Phil'Ira
 	link Wel'y
-	minables crystal 2 5.169
+	minables quatalant 2 5.169
 	trade Clothing 215
 	trade Electronics 816
 	trade Equipment 487
@@ -2145,7 +2145,7 @@ system Irn'o
 	minables silicon 13 5.169
 	minables "" 13 5.169
 	minables titanium 13 5.169
-	minables crystal 13 5.169
+	minables quatalant 13 5.169
 	trade Clothing 215
 	trade Electronics 816
 	trade Equipment 487
@@ -2197,7 +2197,7 @@ system Irn'o
 planet "Est Lifdot"
 	attributes colonny factory "far empire space" inhabited military oil rich
 	landscape land/fog10
-	description "Est Lifdot is know to be a high tropical planet. Like Lifdot, it is full of verdure. This planet is an huge miner colonny, that extract Titanium, Uranium and  Crystal, the materials needed for building Empire Atomic Engines. There is also 3 greats engines factories, the only place where the Empire Atomic Engines are builded."
+	description "Est Lifdot is know to be a high tropical planet. Like Lifdot, it is full of verdure. This planet is an huge miner colonny, that extract Titanium, Uranium and  quatalant, the materials needed for building Empire Atomic Engines. There is also 3 greats engines factories, the only place where the Empire Atomic Engines are builded."
 	spaceport ""
 	shipyard Advanced-freighters-shipyard
 	shipyard Base-shipyard
@@ -2220,7 +2220,7 @@ system Nugg'et
 	minables silicon 13 5.169
 	minables "" 13 5.169
 	minables titanium 13 5.169
-	minables crystal 13 5.169
+	minables quatalant 13 5.169
 	trade Clothing 215
 	trade Electronics 816
 	trade Equipment 487
@@ -2325,7 +2325,7 @@ system Wel'y
 	minables silicon 13 5.169
 	minables "" 13 5.169
 	minables titanium 13 5.169
-	minables crystal 13 5.169
+	minables quatalant 13 5.169
 	trade Clothing 215
 	trade Electronics 816
 	trade Equipment 487
@@ -2410,7 +2410,7 @@ system "Los Calos"
 	minables silicon 13 5.169
 	minables "" 13 5.169
 	minables titanium 13 5.169
-	minables crystal 13 5.169
+	minables quatalant 13 5.169
 	hazard "Far Empire Triangle Hazard" 1000
 
 system "Los Faros"
@@ -2427,7 +2427,7 @@ system "Los Faros"
 	minables silicon 13 5.169
 	minables "" 13 5.169
 	minables titanium 13 5.169
-	minables crystal 13 5.169
+	minables quatalant 13 5.169
 	fleet cromha-fleet 1700
 	fleet mineria-transports 1850
 	hazard "Far Empire Triangle Hazard" 1000
@@ -2477,7 +2477,7 @@ system "Los Asto"
 	link "Lim Ort"
 	link "Los Calos"
 	link "Los Faros"
-	minables crystal 13 5.169
+	minables quatalant 13 5.169
 	hazard "Far Empire Triangle Hazard" 1000
 
 system "Lim Ort"
@@ -2558,7 +2558,7 @@ system Phil'Ira
 	haze _menu/haze-cyan
 	link Phil'Rima
 	link "Ring Wartrue"
-	minables crystal 13 5.45
+	minables quatalant 13 5.45
 	trade Clothing 215
 	trade Electronics 816
 	trade Equipment 487
@@ -2601,7 +2601,7 @@ system Phil'Rima
 	attributes "far empire space" inhabited military research rich
 	haze _menu/haze-cyan
 	link Phil'Ira
-	minables crystal 8 5.45
+	minables quatalant 8 5.45
 	trade Clothing 215
 	trade Electronics 816
 	trade Equipment 487
@@ -2682,7 +2682,7 @@ system As'tyar
 	minables silicon 13 5.169
 	minables "" 13 5.169
 	minables titanium 13 5.169
-	minables crystal 13 5.169
+	minables quatalant 13 5.169
 	trade Clothing 215
 	trade Electronics 816
 	trade Equipment 487

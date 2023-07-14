@@ -467,13 +467,13 @@ outfit "Empire Nuke"
 	"weapon capacity" -10
 	"gun ports" -1
 	weapon
-		sprite projectile/missile
+		sprite projectile/empire nuke
 			"frame rate" 0.25
 			"no repeat"
 		"hardpoint sprite" "hardpoint/empire nuke"
 		sound nuke
 		icon "icon/empire nuke"
-		"hit effect" "empire nuke explosion" 2
+		"hit effect" "empire nuke explosion" 
 		"hit effect" "empire nuke residue fast" 10
 		"hit effect" "empire nuke residue slow" 10
 		"die effect" "missile death"

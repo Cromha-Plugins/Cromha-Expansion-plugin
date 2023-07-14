@@ -1,14 +1,14 @@
-minable "crystal"
+minable "quatalant"
 	sprite "asteroid/crystal/crystal"
 	hull 4560
-	"random hull" 550
-	payload "Crystal" 32
+	"random hull" 650
+	payload "Crystal" 25
 	explode "smoke" 30
 	explode "bolide" 30
 	explode "asteroid crunch medium"
 
-outfit "Crystal"
-	plural "Crystals"
+outfit "Quatalant"
+	plural "Qualatanties"
 	category "Minerals"
 	cost 4550
 	thumbnail "outfit/harvested crystal"
@@ -16,7 +16,7 @@ outfit "Crystal"
 	"mass" 1
 	"installable" -1
 	"minable" 1
-	description "Strong, lightweight, and resistant to corrosion, the far empire crystal is one of the chief metals used for empire warships hulls. It is the Ayym Creature who produce it by eating differents metals in the Triangle region in the Far Empire Space."
+	description "Strong, lightweight, and resistant to corrosion, the far empire quatalant is one of the chief metals used for empire warships hulls. It is the Ayym Creature who produce it by eating differents metals in the Triangle region in the Far Empire Space."
 	
 minable "fossil"
 	sprite "asteroid/fossil/spin"

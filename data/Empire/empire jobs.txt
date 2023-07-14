@@ -660,9 +660,9 @@ mission "Harvest (platinum, large)"
 		payment 3200000 2
 		dialog `You unload the platinum at the spaceport. The people of <origin> thank you, and pay you <payment>.`
 
-mission "Harvest (crystal, small)"
-	name "Harvest Crystal"
-	description "The people of <origin> will pay you <payment> for 50 tons of crystal."
+mission "Harvest (quatalant, small)"
+	name "Harvest Quatalant"
+	description "The people of <origin> will pay you <payment> for 50 tons of quatalant."
 	repeat
 	job
 	to offer
@@ -671,13 +671,13 @@ mission "Harvest (crystal, small)"
 		government "Cromha Empire" "Mineria colonnies"
 		attributes "far empire space"
 	on complete
-		outfit "Crystal" -50
+		outfit "Quatalant" -50
 		payment 1500000 2
 		dialog `You unload the platinum at the spaceport. The people of <origin> thank you, and pay you <payment>.`
 
-mission "Harvest (crystal, large)"
-	name "Harvest Crystal"
-	description "The people of <origin> will pay you <payment> for 100 tons of crystal."
+mission "Harvest (quatalant, large)"
+	name "Harvest quatalant"
+	description "The people of <origin> will pay you <payment> for 100 tons of quatalant."
 	repeat
 	job
 	to offer
@@ -686,7 +686,7 @@ mission "Harvest (crystal, large)"
 		government "Cromha Empire" "Mineria colonnies"
 		attributes "far empire space"
 	on complete
-		outfit "Crystal" -100
+		outfit "Quatalant" -100
 		payment 3200000 2
 		dialog `You unload the platinum at the spaceport. The people of <origin> thank you, and pay you <payment>.`
 

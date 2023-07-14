@@ -467,7 +467,7 @@ mission "Empire: Study Black Hole"
 mission "Empire: Bring Resources 2"
 	landing
 	name "Empire: Bring Resources"
-	description "Bring the following resources to <destination> for the Black Manta:  10 tons of Crystal, 18 tons of Gold, 35 tons of Neodyium, 2 tons of Uranium, 1 Teleportation Dock and 1 Mineria Key Stone. Payment is <payment>."
+	description "Bring the following resources to <destination> for the Black Manta:  10 tons of Quatalant, 18 tons of Gold, 35 tons of Neodyium, 2 tons of Uranium, 1 Teleportation Dock and 1 Mineria Key Stone. Payment is <payment>."
 	source
 		government "Cromha Empire"
 		not attributes uninhabited
@@ -480,7 +480,7 @@ mission "Empire: Bring Resources 2"
 			`	"10 tons of Titanium, 18 tons of Gold, 35 tons of Neodyium, 2 tons of Uranium, 1 Teleportation Dock and 1 Mineria Key Stone."`
 				accept
 	on complete
-		outfit "Crystal" -10
+		outfit "Quatalant" -10
 		outfit "Gold" -18
 		outfit "Uranium" -2
 		outfit "Neodymium" -2
