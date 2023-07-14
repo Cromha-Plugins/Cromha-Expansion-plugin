@@ -20,6 +20,7 @@ outfitter Base-outfitter
 	"Phasic Ramscoop"
 	"Weapon Module"
 	"Anti-Missile Field Device"
+	"Phasic Reasoning Node"
 
 outfitter Basic-ammo-outfitter
 	"Empire Torpedo Missile"
@@ -165,6 +166,7 @@ outfitter Advanced-systems-outfitter
 	"Antimatter Capacitor (Large)"
 	"Antimatter Capacitor"
 	"Antimatter Cooling Cell"
+	"Ameliorating Phasic-Cell"
 
 outfitter Advanced-power-outfitter
 	"Empire Hai Chasm Batteries"

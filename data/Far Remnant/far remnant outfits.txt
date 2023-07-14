@@ -15,5 +15,5 @@ effect "warp drive effect"
 	sprite "effect/warp drive"
 		"no repeat"
 		"frame rate" 6
-	"lifetime" 8
+	"lifetime" 12
 	"velocity scale" 3

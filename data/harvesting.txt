@@ -2,7 +2,7 @@ minable "quatalant"
 	sprite "asteroid/crystal/crystal"
 	hull 4560
 	"random hull" 650
-	payload "Crystal" 25
+	payload "Quatalant" 25
 	explode "smoke" 30
 	explode "bolide" 30
 	explode "asteroid crunch medium"

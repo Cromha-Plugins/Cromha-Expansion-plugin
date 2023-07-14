@@ -2709,7 +2709,8 @@ system As'tyar
 			period 90
 
 galaxy empire
-	pos 50 -420
+	pos 70 -390
+	sprite label/empire
 
 galaxy "far empire space"
 	pos 440 -490
@@ -5190,10 +5191,12 @@ galaxy Sentar
 
 system Helk'Alf
 	pos 10821.542 1541.625
-	government "Cromha Empire"
+	government Uninhabited
+	attributes sentar wormhole
 	habitable 0
 	belt 1945 10
 	haze _menu/haze-33
+	link Sylk'fratis
 	asteroids "small rock" 4 6.919
 	asteroids "medium rock" 1 5.506
 	asteroids "large rock" 8 6.324
@@ -5349,7 +5352,7 @@ planet Lifka
 system "Sagittarius A*"
 
 system "Kor Tar'fei"
-	pos 283.778 65.37
+	pos 283.778 73.37
 	government "Cromha Empire"
 	attributes core
 	habitable 10000
@@ -5408,7 +5411,7 @@ planet Rat'Kta
 	security 0
 
 system "Kor Akla"
-	pos 229.963 53.036
+	pos 233.074 63.703
 	government "Cromha Empire"
 	attributes core
 	habitable 0
@@ -5461,7 +5464,7 @@ system "Kor Akla"
 		period 135
 
 system "Kor Flas"
-	pos 261.065 -3.102
+	pos 261.065 6.676
 	government "Cromha Empire"
 	attributes core
 	habitable 718.053
@@ -5613,4 +5616,151 @@ system Saykain
 			sprite planet/dust3
 			distance 219
 			period 122.509
+
+system Sylk'fratis
+	pos 10807.792 1465.625
+	government Uninhabited
+	attributes sentar
+	habitable 3200
+	belt 1777 3
+	belt 2447 9
+	haze _menu/haze-33
+	link Fratris
+	link Helk'Alf
+	asteroids "small rock" 3 3.898
+	asteroids "large rock" 2 4.246
+	asteroids "small metal" 6 3.967
+	asteroids "medium metal" 3 5.429
+	asteroids "large metal" 14 5.498
+	minables iron 6 8.142
+	object
+		sprite star/x3
+		distance 86.74
+		period 58.488
+		offset 180
+	object
+		sprite star/a5
+		distance 70.26
+		period 58.488
+	object
+		sprite planet/fg_gas17
+		distance 457
+		period 69.081
+	object
+		sprite planet/lava2
+		distance 853
+		period 176.161
+	object
+		sprite planet/gas11-b
+		distance 1646
+		period 472.204
+		object
+			sprite planet/rock2b
+			distance 245
+			period 0
+		object
+			sprite planet/ice8
+			distance 340
+			period 236.984
+	object
+		sprite planet/fg_gas15
+		distance 2725
+		period 1005.854
+		object
+			sprite planet/rhea-b
+			distance 389
+			period 238.618
+		object
+			sprite planet/dust4
+			distance 502
+			period 349.812
+
+system Fratris
+	pos 10727.042 1470.208
+	government Uninhabited
+	attributes sentar
+	habitable 980
+	belt 1072 7
+	belt 1576 8
+	haze _menu/haze-33
+	link Sylk'fratis
+	asteroids "small rock" 17 1.62
+	asteroids "medium rock" 7 1.238
+	asteroids "large rock" 6 1.401
+	asteroids "medium metal" 2 0.965
+	asteroids "large metal" 1 1.31
+	minables titanium 6 2.546
+	object
+		sprite star/xg0
+		distance 176.237
+		period 76.998
+		offset 180
+	object
+		sprite star/k0-old
+		distance 55.763
+		period 76.998
+	object Salra
+		sprite planet/ice3-b
+		distance 543
+		period 161.676
+		object
+			sprite planet/dust0
+			distance 186
+			period 156.23
+	object Stabilis
+		sprite planet/rock12-b
+		distance 1042
+		period 429.782
+	object
+		sprite planet/gas11
+		distance 1801
+		period 976.602
+		object
+			sprite planet/fg_moon33
+			distance 303
+			period 138.033
+		object
+			sprite planet/rock0-b
+			distance 429
+			period 335.882
+	object
+		sprite planet/browndwarf-tpurple
+		distance 2837
+		period 1930.794
+		object
+			sprite planet/fg_moon3
+			distance 306
+			period 202.34
+	object
+		sprite planet/fg_gas16
+		distance 4561
+		period 3935.837
+	object
+		sprite planet/gas7-hot
+		distance 6740
+		period 7070.283
+		object
+			sprite planet/fg_moon16
+			distance 200
+			period 133.8
+
+planet Stabilis
+	attributes sentar uninhabited
+	landscape land/badlands12
+	description "Stabilis is a quit habitable planet but no faction ever tried to make it habitable."
+	government Uninhabited
+	bribe 0
+	security 0
+
+planet Salra
+	attributes sentar uninhabited
+	landscape land/water11-harro
+	description "Salra is a planet filled with one single great ocean that covers everthing that exist on that planet."
+	government Uninhabited
+	bribe 0
+	security 0
+
+galaxy "sentar galaxy"
+	pos 10350 1500.21
+	sprite "label/sentar galaxy"
 

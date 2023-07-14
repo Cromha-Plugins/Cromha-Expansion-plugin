@@ -238,6 +238,39 @@ outfit "Phasic Ramscoop"
 	"energy consumption" 4.5
 	"heat generation" 1.3
 	description "The Phasic Ramscoop is an ameliorated version of the basic Ramscoops. It has way better ramscoop but it consumme energy and produce some heat. It also has an integrated fuel storage room."
+	
+outfit "Ameliorating Phasic-Cell"
+	category "Systems"
+	cost 2520000
+	thumbnail "outfit/ameliorating cell"
+	licenses
+		"Empire Navy"
+	"mass" 25
+	"outfit space" -15
+	"ramscoop" 2
+	"shield generation multiplier" 1.8
+	"shield heat multiplier" 1.3
+	"hull repair multiplier" 1.9
+	"hull heat multiplier" 1.4
+	"solar collection" 3.8
+	"overheat damage threshold" 0.4
+	"cooling inefficiency" .1
+	"heat capacity" 100000
+	"antimatter production" -2
+	description "The Ameliorating Phasic-Cell is a highly advanced system core this ameliorates your ships in overhaul for small downsides. It has an integrated ramscoop, a solar panel. It also multiply your ship's shield and hull repair rate by almost a double but also multiply the heat it will produce when repairing the shields or hull. it also lets you not take heat damage before reaching 140% of heat and make so that your cooling systems goes to 140% of cooling. It also make so that it store heat in a small cube to contain it and letting your ship flying even if it his heavily overheated."
+	description "You cannot install this outfit if don't have any Antimatter Capacitor."
+	
+outfit "Phasic Reasoning Node"
+	category "Systems"
+	cost 5000
+	thumbnail "outfit/phasic reasoning"
+	"crew equivalence" 15
+	licenses
+		"Empire Navy"
+	"mass" 5
+	ramscoop .8
+	description "The Phasic Reasoning Node is a core for all nanobots. It's what make them automatons and able to move freely without any human need. Similar systems can be found on Kor Mereti ships."
+	description "Even if it is cheap and pretty useless for common ships, it has some research potential."
 
 outfit "Antimatter Capacitor"
 	category "Systems"
@@ -442,7 +475,7 @@ outfit "Antimatter Cooling Cell"
 		"Empire Contributor"
 	"mass" 35
 	"outfit space" -45
-	"cooling" 125.4
+	"cooling" 265.5
 	"cooling energy" 8.6
 	"antimatter production" -4
 	description "The Antimatter Cooling Cell is an extremely powerful cooling system. It uses antimatter to produce huge amount of energy and cool your ship systems with a low-end cost of energy. This is probably the best cooling system that is available in the whole galaxy."

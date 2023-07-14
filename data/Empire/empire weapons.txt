@@ -467,7 +467,7 @@ outfit "Empire Nuke"
 	"weapon capacity" -10
 	"gun ports" -1
 	weapon
-		sprite projectile/empire nuke
+		sprite "projectile/empire nuke"
 			"frame rate" 0.25
 			"no repeat"
 		"hardpoint sprite" "hardpoint/empire nuke"
@@ -475,14 +475,14 @@ outfit "Empire Nuke"
 		icon "icon/empire nuke"
 		"hit effect" "empire nuke explosion" 
 		"hit effect" "empire nuke residue fast" 10
-		"hit effect" "empire nuke residue slow" 10
+		"hit effect" "empire nuke residue slow" 15
 		"die effect" "missile death"
 		ammo "Empire Nuke"
 		"stream"
 		"inaccuracy" 1
-		"velocity" 8
-		lifetime 1200
-		"acceleration" 0.8
+		"velocity" 10
+		lifetime 1700
+		"acceleration" 0.9
 		"reload" 400
 		"firing energy" 10
 		"firing heat" 400
@@ -492,31 +492,31 @@ outfit "Empire Nuke"
 		"radar tracking" 0.5
 		"optical tracking" 1
 		"trigger radius" 40
-		"blast radius" 450
-		"shield damage" 15000
-		"hull damage" 12000
-		"ion damage" 2000
-		"slowing damage" 450
-		"hit force" 4000
-		"missile strength" 2300
+		"blast radius" 1050
+		"shield damage" 12000
+		"hull damage" 10000
+		"ion damage" 6500
+		"slowing damage" 850
+		"hit force" 850
+		"missile strength" 3200
 	description "It has been centuries since the last nuclear war was fought, and until very recently, most people in the galaxy assumed that that era of chaos and destruction was forever behind us..."
 	description "	[Nuclear missiles are a one-shot weapon: each missile occupies a gun slot, and after it is fired, the slot it was in is left empty.]"
 
 effect "empire nuke explosion"
 	sprite "effect/explosion/empire huge"
-		scale 2
-		"frame rate" 30
+		scale 1.5
 		"no repeat"
+		"frame rate" 30
 	sound "explosion nuke"
-	lifetime 30
-	"velocity scale" 0.4
+	"lifetime" 15
 	"random angle" 360
-	"random velocity" 1
 	"random spin" 5
+	"random velocity" 1
+	"velocity scale" .4
 
 effect "empire nuke residue fast"
-	sprite "effect/explosion/empire huge"
-		scale 2
+	sprite "effect/explosion/empire medium"
+		scale 1.5
 		"frame rate" 15
 		"no repeat"
 	lifetime 72
@@ -526,8 +526,8 @@ effect "empire nuke residue fast"
 	"random spin" 5
 
 effect "empire nuke residue slow"
-	sprite "effect/explosion/empire huge"
-		scale 2
+	sprite "effect/explosion/empire medium"
+		scale 1.5
 		"frame rate" 10
 		"no repeat"
 	lifetime 120
