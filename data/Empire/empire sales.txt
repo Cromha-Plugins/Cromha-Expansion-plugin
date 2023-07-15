@@ -87,7 +87,6 @@ outfitter Basic-engines-outfitter
 outfitter Advanced-ammo-outfitter
 	"Empire Torpedo Missile"
 	"Empire Torpedo Rack"
-	"Heavy Rocket"
 	"Multiphasic Ammo Rack"
 	"Multiphasic ammo"
 	"Phasic Mine Rack"
