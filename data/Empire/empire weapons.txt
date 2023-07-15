@@ -825,10 +825,9 @@ outfit "Nuclavoltaic Turret"
 	"required crew" 1
 	"turret mounts" -1
 	weapon
-		"submunition" "Nucleavoltaic Turret Submunition"
-			"offset" 2 0
-		"submunition" "Nucleavoltaic Turret Submunition"
-			"offset" -2 0
+		sprite "projectile/nucleavoltaic repeater turret"
+			"frame rate" 5
+			scale .5
 		"hardpoint sprite" "hardpoint/nucleavoltaic repeater turret"
 		"hardpoint offset" 7
 		sound repeater
@@ -836,11 +835,11 @@ outfit "Nuclavoltaic Turret"
 		"cluster"
 		"inaccuracy" 4
 		"turret turn" 2.6
-		"velocity" 0
-		lifetime 0
+		"velocity" 10
+		lifetime 40
 		"reload" 5
 		"burst reload" 4
-		"burst count" 12
+		"burst count" 6
 		"firing energy" 24
 		"firing heat" 0.7
 		"shield damage" 148
@@ -848,19 +847,6 @@ outfit "Nuclavoltaic Turret"
 		"heat damage" 154
 		"corrosion damage" 2
 	description "This is the smallest and simplest Cromha Empire projectile weapon, designed mostly for use on light destroyers and other ships. As with most Empire technology, it generates a large amount of heat and energy, enough that the gun must pause briefly after every few shots to cool down."
-
-outfit "Nucleavoltaic Turret Submunition"
-	weapon
-		sprite "projectile/nucleavoltaic repeater"
-			"frame rate" 5
-		"hit effect" "nucleavoltaic repeater impact"
-		sound repeater
-		"shield damage" 72
-		"hull damage" 39
-		"heat damage" 77
-		"corrosion damage" 1
-		"velocity" 15
-		lifetime 40
 
 effect "nucleavoltaic repeater impact"
 	sprite "effect/nucleavoltaic repeater impact"
