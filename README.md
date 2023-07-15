@@ -17,8 +17,8 @@ Learn more [about Endless Sky][esweb].
 * [Contributing](#contributing)
 * [Development status](#development-status)
 * [Installation](#installation)
-    * [Install steps](install-steps)
-    * [Keeping the plugin updated](keeping-the-plugin-updated)
+    * [Install steps](#install-steps)
+    * [Keeping the plugin updated](#keeping-the-plugin-updated)
 
 </details>
 
