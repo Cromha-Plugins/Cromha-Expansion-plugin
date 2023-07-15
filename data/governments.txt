@@ -87,7 +87,7 @@ government "Empire Merchant"
 		near Skeruto 0 1
 
 government "Empire Rebels"
-	swizzle 3
+	swizzle 19
 	color 0.257 0.936 0.517
 	"player reputation" -1
 	"attitude toward"
@@ -110,7 +110,7 @@ government "Empire Rebels"
 		Syndicate -1
 		Wanderer -1
 	bribe .05
-	fine .15
+	fine 0
 	raid "Large Deep Security"
 
 government "Mineria colonnies"

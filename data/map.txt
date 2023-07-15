@@ -4156,7 +4156,10 @@ system Marlab
 
 system Limen
 	add link Alsif
+	add link Obrana
 	add link Wezen
+	add fleet empire-rebels-merchants 1000
+	add fleet empire-rebels-raiders 1300
 	object
 		sprite star/f5
 		period 10
@@ -4270,6 +4273,7 @@ system Alsif
 	belt 1512 4
 	link Limen
 	link Marlab
+	link Obrana
 	link Wezen
 	asteroids "small rock" 18 3.137
 	asteroids "medium rock" 31 2.117
@@ -4401,7 +4405,7 @@ system Marje
 			period 180.252
 		object Sabristet
 			sprite "planet/rebel station big"
-			distance 324.047
+			distance 1345.184
 			period 513.105
 
 system Lalmi
@@ -5236,7 +5240,7 @@ system Helk'Alf
 		distance 10909.867
 
 system Helk'Alk
-	pos 403.63 -434.463
+	pos 428.63 -406.463
 	government Uninhabited
 	habitable 3650
 	belt 1687
@@ -5260,6 +5264,7 @@ planet "Helk'Alf Wormhole"
 	spaceport ""
 
 wormhole "Helk'Alf Wormhole"
+	mappable -1
 
 system As'kya
 	pos 358.468 -590.775
@@ -5820,7 +5825,7 @@ system Satras
 		object
 			sprite planet/could7-b
 			distance 393
-			period -nan
+			period 0
 
 planet Afralt
 	attributes sentar
@@ -5829,7 +5834,6 @@ planet Afralt
 	government Uninhabited
 	bribe 0
 	security 0
-
 
 system Alf'kra
 	pos 10848.486 1373.171
@@ -5982,4 +5986,156 @@ planet Draggonist
 	outfitter "Far Remnant Core"
 	tribute 750
 		fleet "Far Remnant Decoy Defense" 15
+
+system Orbona
+	add fleet empire-rebels-merchants 1200
+	add fleet empire-rebels-raiders 1700
+
+system Terminus
+	add fleet "Small Deep Merchants" 1000
+	add fleet empire-rebels-merchants 1000
+	add fleet empire-rebels-raiders 2000
+
+system Mora
+	add link Obrana
+	add fleet empire-rebels-merchants 1200
+	add fleet empire-rebels-raiders 2500
+
+system Obrana
+	pos -823.879 38.269
+	government Republic
+	attributes "dirt belt"
+	arrival 5000
+	habitable 10
+	belt 1194 7
+	belt 1769 10
+	haze _menu/haze-67
+	link Alsif
+	link Limen
+	link Mora
+	asteroids "small rock" 26 3.434
+	asteroids "medium rock" 93 5.897
+	asteroids "large rock" 3 5.702
+	asteroids "small metal" 5 5.767
+	asteroids "medium metal" 281 6.35
+	asteroids "large metal" 13 6.286
+	minables tungsten 18 9.17
+	minables iron 21 10.175
+	minables aluminum 34 10.345
+	trade Clothing 345
+	trade Electronics 851
+	trade Equipment 677
+	trade Food 459
+	trade "Heavy Metals" 892
+	trade Industrial 890
+	trade "Luxury Goods" 992
+	trade Medical 871
+	trade Metal 415
+	trade Plastic 466
+	fleet "Small Southern Pirates" 1200
+	fleet "Large Southern Pirates" 3200
+	fleet "Human Miners" 1500
+	fleet empire-rebels-merchants 1200
+	fleet empire-rebels-raiders 1700
+	fleet "Small Deep Merchants" 1200
+	object
+		sprite planet/browndwarf-t-rouge
+		period 10
+	object
+		sprite planet/gas1-hot
+		distance 548
+		period 1622.672
+	object
+		sprite planet/browndwarf-l
+		distance 1425
+		period 6804.282
+		object
+			sprite planet/fg_gas2
+			distance 433
+			period 26.81
+	object
+		sprite planet/fg_gas16
+		distance 2648
+		period 17236.019
+		object
+			sprite planet/desert4-b
+			distance 254
+			period 191.497
+	object
+		sprite planet/gas13-b
+		distance 4753
+		period 41448.776
+		object
+			sprite planet/luna
+			distance 298
+			period 194.458
+
+system Chornifath
+	government "Empire Rebels"
+	add fleet empire-rebels-raiders 1500
+	add fleet empire-rebels-merchants 2000
+	add fleet cromha-merchants 1700
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/rock4
+		distance 320.84
+		period 103.847
+		object
+			sprite planet/rock17
+			distance 168
+			period 19.824
+	object "Eskar Kortuka"
+		sprite planet/ocean7
+		distance 804.591
+		period 412.405
+		object
+			sprite planet/station1kd
+				scale 0.5
+			distance 150.27
+			period 20.256
+	object
+		sprite planet/ice3-b
+		distance 1233.75
+		period 783.073
+	object
+		sprite planet/gas12-b
+		distance 1945.96
+		period 1551.18
+		object
+			sprite planet/ice7-b
+			distance 312
+			period 14.475
+		object
+			sprite planet/rhea
+			distance 450
+			period 25.073
+	object "Alkanite Station"
+		sprite "planet/rebel station2kd big"
+		distance 2743.987
+		period 110
+
+planet "Alkanite Station"
+	attributes station
+	landscape land/station31
+	description "The Alkanite Station is one of the few outpost in the North Empire Space that lets the Empire Rebels control Empire Merchant trade routes."
+	spaceport "The spaceport is minimal."
+	government "Empire Rebels"
+	outfitter Rebels-advanced-ammo-outfitter
+	outfitter Rebels-basic-engines-outfitter
+	outfitter Rebels-basic-outfitter
+	outfitter Rebels-basic-systems-outfitter
+	bribe 0
+	security 0
+	tribute 300
+		threshold 2500
+		fleet empire-rebels-merchants 5
+		fleet empire-rebels-raiders 3
+
+planet "Eskar Kortuka"
+	government Uninhabited
+
+planet "Kasichara Fet"
+	government Uninhabited
 
