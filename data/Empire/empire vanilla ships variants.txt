@@ -2921,3 +2921,61 @@ ship Arbiter
 	leak "flame" 15
 	"final explode" "large explosion"
 	description "The Arbiter is one of the most recent ships of the Lifdot Industries. It has been designed especially to the demand of asteroids and fossils hunters. It is a great utility ship for transporting cargo or little group of people, mining asteroids or fossils. It is probably one of the ship that had the most success in the Empire Merchants."
+	
+ship "Sunder"
+	sprite "ship/sunder"
+	thumbnail "thumbnail/sunder"
+	attributes
+		category "Transport"
+		"cost" 1580000
+		"shields" 9800
+		"hull" 1800
+		"required crew" 5
+		"bunks" 15
+		"mass" 150
+		"drag" 3.8
+		"heat dissipation" .6
+		"fuel capacity" 400
+		"cargo space" 35
+		"outfit space" 450
+		"weapon capacity" 175
+		"engine capacity" 75
+		weapon
+			"blast radius" 40
+			"shield damage" 1670
+			"hull damage" 1250
+			"hit force" 600
+	outfits
+		Brig 2
+		"Compact Plasma Drive"
+		"Countermesure Module Compact" 2
+		"NGx3 Quatalant Cooler" 2
+		"Nuclavoltaic Turret"
+		"Phasic Grenades" 3
+		"Phasic Radiothermal"
+		"Phasic Ramscoop"
+		"Phasic Rifle" 3
+		"RC-160 Atomic Thruster"
+		"RC-165 Atomic Steering"
+		"RC-X2 Multiphasic Reactor"
+		"Small Bunk Room" 2
+		"Thermal Nucleavoltaic" 2
+		"Scrambling Beam" 2
+		"Quatalant Shield (Tiny)"
+		
+	engine -10.5 54
+	engine 10.5 54
+	`reverse engine` 19 -54.5
+	`reverse engine` -19 -54.5
+	gun -4 -29 "Scrambling Beam"
+		under
+	gun 4 -29 "Scrambling Beam"
+		under
+	turret 0 28 "Nuclavoltaic Turret"
+		over
+	leak "leak" 50 50
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 15
+	"final explode" "final explosion small"
+	description "The Rainmaker is a missile boat built in the Republic Navy Yard. It comes equipped with four missile launchers and enough ammunition to destroy even ships many times its size. Because of their lack of maneuverability and relatively light shielding, Rainmakers serve best as long-range attack ships, and once their missile supply is spent, they are relatively useless in combat."
