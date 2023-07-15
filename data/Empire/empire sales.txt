@@ -167,6 +167,7 @@ outfitter Advanced-systems-outfitter
 	"Antimatter Capacitor"
 	"Antimatter Cooling Cell"
 	"Ameliorating Phasic-Cell"
+	"Draining Field Device"
 
 outfitter Advanced-power-outfitter
 	"Empire Hai Chasm Batteries"

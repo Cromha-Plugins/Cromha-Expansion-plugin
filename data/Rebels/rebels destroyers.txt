@@ -29,7 +29,7 @@ ship "Tar Kas Destroyer"
 		"Liquid Nitrogen Cooler"
 		"Modified Plasma Repeater" 4
 		"Nitrogen Afterburnner"
-		"Pulse Rifle" 15
+		"Modified Hai Rifle" 15
 		"RC-X3 Multiphasic Reactor" 2
 		"Railgun Slug" 1000
 		"Rebel Grav-Turret" 2
@@ -121,7 +121,7 @@ ship "Or Kar Destroyer"
 		"Large Interference Emitter" 2
 		"Liquid Nitrogen Cooler" 2
 		"Nitrogen Afterburnner"
-		"Pulse Rifle" 55
+		"Modified Hai Rifle" 55
 		"RC-X3 Multiphasic Reactor" 2
 		"Rebel Grav-Turret" 7
 		"Scram Drive"

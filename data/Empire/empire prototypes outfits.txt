@@ -218,3 +218,61 @@ effect "Anti-Missile Field Shield"
 	"random frame rate" 6
 	"random velocity" 6
 	"velocity scale" 0.1
+	
+outfit "Draining Field Device"
+	category "Turrets"
+	cost 7800500
+	thumbnail "outfit/draining field device"
+	licenses
+		"Empire Black Manta"
+	"mass" 55
+	"outfit space" -55
+	"weapon capacity" -55
+	"turret mounts" -1
+	"energy capacity" 5500
+	"antimatter production" -2
+	weapon
+		"hardpoint sprite" "hardpoint/draining field"
+		"fire effect" "draining field fire"
+		"hit effect" "draining field hit" 2
+		"hit effect" "draining field cloud"
+		sound "gridfire"
+		"phasing"
+		"velocity" 1440
+		"lifetime" 1.5
+		"reload" 20
+		"turret turn" 20
+		"firing energy" 800
+		"firing heat" 400
+		"firing force" 150
+		"shield damage" 800
+		"ion damage" 150
+		"blast radius" 40
+		"piercing" .3
+	description "This device produces a large field that will take down the shields of your enemy to zero almost instantaneously. It will also deal a noticeable amount of ion damage that can totally disable your ship energy long enough for you to disable them. it cannot be installed if you don't have any antimatter capacitor installed."
+	
+effect "draining field fire"
+	sprite "effect/draining field/fire"
+		"no repeat"
+		"frame rate" 20
+	"lifetime" 7
+	"random angle" 360
+	"random spin" 20
+	"velocity scale" 1
+
+effect "draining field hit"
+	sprite "effect/draining field/hit"
+		"no repeat"
+		"frame rate" 10
+	"lifetime" 25
+	"random angle" 360
+	"velocity scale" .00001
+	
+effect "draining field cloud"
+	sprite "effect/draining field/cloud"
+		"no repeat"
+		"frame rate" 2
+	"lifetime" 61
+	"random angle" 360
+	"random spin" 10
+	"velocity scale" .00001

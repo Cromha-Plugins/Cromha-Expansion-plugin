@@ -32,7 +32,7 @@ ship "Rebel Firebird"
 		"Liquid Nitrogen Cooler"
 		"LP576a Battery Pack" 2
 		"D67-TM Shield Generator"
-		"Laser Rifle" 40
+		"Modified Hai Rifle" 40
 		"Thermal Nucleavoltaic" 3
 		
 		"W-180 Nitrogen Thruster" 2
@@ -160,7 +160,7 @@ ship "Osprey" "Osprey (Rebels)"
 		"Small Empire Shielding Core"
 		"Active Radar Jammer"
 		"Liquid Nitrogen Cooler"
-		"Pulse Rifle" 3
+		"Modified Hai Rifle" 3
 		"Large Interference Emitter"
 		
 		"W-160 Nitrogen Thruster"
@@ -221,7 +221,7 @@ ship "Scavenger"
 		"Fission Reactor"
 		"LP144a Battery Pack"
 		"D41-HY Shield Generator"
-		"Laser Rifle" 5
+		"Modified Hai Rifle" 5
 		"Plasma Fuel Pod"
 		"Liquid Nitrogen Cooler"
 		"W-160 Nitrogen Thruster"

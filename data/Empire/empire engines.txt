@@ -272,17 +272,17 @@ outfit "Disruption Afterburnner"
 	"mass" 18
 	"outfit space" -8
 	"engine capacity" 18
-	"afterburner thrust" 27.5
-	"afterburner fuel" 0.3
-	"afterburner disruption" .03
+	"afterburner thrust" 29.4
+	"afterburner fuel" 0.33
+	"afterburner disruption" .033
 	"afterburner effect" "disruption afterburner"
 
 effect "disruption afterburner"
 	sprite "effect/afterburner/disruption afterburnner"
-		scale 1.4
+		scale 1.6
 		"no repeat"
 		"frame rate" 30
-	sound "korath afterburner"
+	sound "ionic afterburner"
 	"lifetime" 14
 	"random angle" 15
 	"random spin" 360

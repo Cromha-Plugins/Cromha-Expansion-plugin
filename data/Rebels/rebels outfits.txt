@@ -46,3 +46,11 @@ outfit "Large Interference Emitter"
 	"scan interference" 4
 	"energy consumption" 1.9
 	description "The larger version of the interference emitter is quite powerful, capable of stopping roughly four out of five scan attempts alone although with the same downside of its smaller brother. Often the preferred choice of smugglers, perfect for passing through high security sectors with illegal cargo."
+	
+outfit "Modified Hai Rifle"
+	category "Hand to Hand"
+	cost 750
+	thumbnail "outfit/hai rifle"
+	"mass" 1
+	"capture defense" .9
+	"capture attack" 1.4

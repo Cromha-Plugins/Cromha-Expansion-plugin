@@ -5618,7 +5618,7 @@ system Saykain
 			period 122.509
 
 system Sylk'fratis
-	pos 10807.792 1465.625
+	pos 10810.755 1459.699
 	government Uninhabited
 	attributes sentar
 	habitable 3200
@@ -5683,6 +5683,7 @@ system Fratris
 	belt 1072 7
 	belt 1576 8
 	haze _menu/haze-33
+	link Satras
 	link Sylk'fratis
 	asteroids "small rock" 17 1.62
 	asteroids "medium rock" 7 1.238
@@ -5690,6 +5691,7 @@ system Fratris
 	asteroids "medium metal" 2 0.965
 	asteroids "large metal" 1 1.31
 	minables titanium 6 2.546
+	fleet Ayym 950
 	object
 		sprite star/xg0
 		distance 176.237
@@ -5763,4 +5765,221 @@ planet Salra
 galaxy "sentar galaxy"
 	pos 10350 1500.21
 	sprite "label/sentar galaxy"
+
+system Satras
+	pos 10722.153 1409.208
+	government Uninhabited
+	attributes sentar
+	habitable 662.873
+	belt 1515
+	belt 2259 6
+	haze _menu/haze-33
+	link Fratris
+	asteroids "small rock" 8 4.954
+	asteroids "medium rock" 42 4.954
+	asteroids "large rock" 1 3.162
+	asteroids "small metal" 2 3.425
+	asteroids "medium metal" 36 2.793
+	asteroids "large metal" 2 3.636
+	minables copper 7 7.371
+	minables titanium 19 6.72
+	fleet Ayym 1200
+	object
+		sprite star/k8
+		distance 78.153
+		period 63.528
+		offset 180
+	object
+		sprite star/g8
+		distance 76.347
+		period 63.528
+	object
+		sprite planet/rock6-b
+		distance 473
+		period 159.822
+		object Afralt
+			sprite planet/desert4-b
+			distance 177
+			period 111.397
+	object
+		sprite "planet/zenith hot"
+		distance 1013
+		period 500.909
+	object
+		sprite planet/rock8-b
+		distance 1394
+		period 808.61
+	object
+		sprite planet/saturn
+		distance 2237
+		period 1643.781
+		object
+			sprite planet/fg_moon14
+			distance 286
+			period 126.58
+		object
+			sprite planet/could7-b
+			distance 393
+			period -nan
+
+planet Afralt
+	attributes sentar
+	landscape land/desert6
+	description "Afralt is a desertic planet. Even if it is a desert, it is habited by a lot of indigeneous life forms."
+	government Uninhabited
+	bribe 0
+	security 0
+
+
+system Alf'kra
+	pos 10848.486 1373.171
+	government "Remnant (Far Empire)"
+	attributes sentar
+	habitable 1310
+	belt 1644 5
+	belt 2261 9
+	haze _menu/haze-67
+	link Alf'hul
+	asteroids "medium rock" 25 2.822
+	asteroids "large rock" 7 2.381
+	asteroids "small metal" 4 2.705
+	asteroids "medium metal" 4 2.705
+	asteroids "large metal" 6 1.735
+	minables aluminum 5 2.596
+	minables neodymium 9 5.082
+	trade Clothing 410
+	trade Electronics 732
+	trade Equipment 652
+	trade Food 186
+	trade "Heavy Metals" 957
+	trade Industrial 886
+	trade "Luxury Goods" 1465
+	trade Medical 847
+	trade Metal 261
+	trade Plastic 322
+	fleet "Far Remnant Transport" 1200
+	fleet "Light Far Remnant Defense" 2000
+	fleet "Small Far Remnant" 1350
+	fleet "Large Far Remnant" 1700
+	object
+		sprite star/x-dwarf
+		distance 115.163
+		period 57.39
+	object
+		sprite star/f8
+		distance 7.837
+		period 57.39
+		offset 180
+	object
+		sprite planet/venus-b
+		distance 280
+		period 51.78
+	object
+		sprite planet/desert7
+		distance 699
+		period 204.24
+	object Fraral
+		sprite planet/forest4-b
+		distance 1260
+		period 494.288
+	object
+		sprite planet/uranus-b
+		distance 3774
+		period 2562.284
+	object
+		sprite "planet/browndwarf-y cyan"
+		distance 7544
+		period 7241.472
+		object
+			sprite planet/ice7-b
+			distance 326
+			period 154.044
+
+planet Fraral
+	attributes "far remnant" sentar wormhole
+	landscape land/city12
+	description "Fraral is a planet with low citiens percentage. Most of the people that come here is for selling drugs or other illegals stuffs."
+	spaceport .
+	government "Remnant (Far Empire)"
+	shipyard "Far Remnant"
+	outfitter "Far Remnant"
+	security 0.5
+	tribute 950
+		threshold 12000
+		fleet "Far Remnant Decoy Defense" 15
+		fleet "Heavy Far Remnant Defense" 5
+
+system Alf'hul
+	pos 10902.523 1365.578
+	government "Remnant (Far Empire)"
+	attributes sentar
+	habitable 3000
+	belt 1293 7
+	belt 2292 8
+	haze _menu/haze-67
+	link Alf'kra
+	asteroids "medium rock" 1 1.958
+	asteroids "large rock" 4 1.699
+	asteroids "large metal" 8 1.814
+	trade Clothing 410
+	trade Electronics 732
+	trade Equipment 652
+	trade Food 186
+	trade "Heavy Metals" 957
+	trade Industrial 886
+	trade "Luxury Goods" 1465
+	trade Medical 847
+	trade Metal 261
+	trade Plastic 322
+	fleet "Far Remnant Transport" 1200
+	fleet "Light Far Remnant Defense" 2000
+	fleet "Small Far Remnant" 1350
+	fleet "Large Far Remnant" 1700
+	object
+		sprite planet/browndwarf-t-rougeorange
+		distance 251
+		period 198.829
+		offset 180
+	object
+		sprite star/k-giant
+		distance 251
+		period 198.829
+	object
+		sprite planet/desert10
+		distance 739
+		period 146.712
+	object
+		sprite planet/gas8-b
+		distance 1372
+		period 371.134
+		object
+			sprite planet/fg_moon17
+			distance 320
+			period 352.549
+	object
+		sprite planet/ice0
+		distance 2017
+		period 661.543
+	object
+		sprite planet/fg_gas8
+		distance 3020
+		period 1212.02
+		object
+			sprite planet/fg_moon23
+			distance 323
+			period 219.434
+		object Draggonist
+			sprite "planet/asteroid base red"
+			distance 459
+			period 257.357
+
+planet Draggonist
+	attributes "far remnant" sentar
+	landscape land/badlands5
+	description "This asteroid is a base for the Remnants."
+	spaceport .
+	government "Remnant (Far Empire)"
+	outfitter "Far Remnant Core"
+	tribute 750
+		fleet "Far Remnant Decoy Defense" 15
 

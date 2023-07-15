@@ -55,13 +55,7 @@ government "Cromha Empire"
 			"Cromha Empire"
 			"Mineria colonnies"
 		near "Alpha Cromha" 0 2
-		government
-			"Cromha Empire"
-			"Mineria colonnies"
 		near "Ring Wartrue" 0 1
-		government
-			"Cromha Empire"
-			"Mineria colonnies"
 		near Skeruto 0 1
 
 government "Empire Merchant"
@@ -89,13 +83,7 @@ government "Empire Merchant"
 			"Cromha Empire"
 			"Mineria colonnies"
 		near "Alpha Cromha" 0 2
-		government
-			"Cromha Empire"
-			"Mineria colonnies"
 		near "Ring Wartrue" 0 1
-		government
-			"Cromha Empire"
-			"Mineria colonnies"
 		near Skeruto 0 1
 
 government "Empire Rebels"
@@ -173,13 +161,7 @@ government "Mineria colonnies"
 			"Cromha Empire"
 			"Mineria colonnies"
 		near "Alpha Cromha" 0 2
-		government
-			"Cromha Empire"
-			"Mineria colonnies"
 		near "Ring Wartrue" 0 1
-		government
-			"Cromha Empire"
-			"Mineria colonnies"
 		near Skeruto 0 1
 
 government "Remnant (empre mission)"

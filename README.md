@@ -12,13 +12,13 @@ Learn more [about Endless Sky][esweb].
 
   <summary>Summary</summary>
 
-* [About plugin](https://github.com/OcelotWalrus/Cromha-Expansion-plugin#about-plugin)
-    * [This plugin](https://github.com/OcelotWalrus/Cromha-Expansion-plugin#this-plugin)
-* [Contributing](https://github.com/OcelotWalrus/Cromha-Expansion-plugin#contributing)
-* [Development status](https://github.com/OcelotWalrus/Cromha-Expansion-plugin#development-status)
-* [Installation](https://github.com/OcelotWalrus/Cromha-Expansion-plugin#installation)
-    * [Install steps](https://github.com/OcelotWalrus/Cromha-Expansion-plugin#install-steps)
-    * [Keeping the plugin updated](https://github.com/OcelotWalrus/Cromha-Expansion-plugin#keeping-the-plugin-updated)
+* [About plugin](#about-plugin)
+    * [This plugin](#this-plugin)
+* [Contributing](#contributing)
+* [Development status](#development-status)
+* [Installation](#installation)
+    * [Install steps](install-steps)
+    * [Keeping the plugin updated](keeping-the-plugin-updated)
 
 </details>
 
@@ -65,9 +65,11 @@ git clone https://github.com/OcelotWalrus/Cromha-Expansion-plugin.git
 
 ## Keeping the plugin updated
 If you're not familiar with git, you just have to run that command into the installed plugin.
+
 ```
 git pull origin main
 ```
+
 [es]: https://github.com/endless-sky/endless-sky
 [continuous]: https://github.com/endless-sky/endless-sky/releases/tag/continuous
 [esweb]: https://endless-sky.github.io/
