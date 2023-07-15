@@ -722,7 +722,7 @@ fleet cromha-merchants
 		"Dropship (Empire)" 2
 	variant 3
 		Arbiter
-		"Hornet" 4
+		"Sunder" 4
 
 fleet small-pirates
 	government Pirate
@@ -776,6 +776,7 @@ fleet cromha-miners
 		"Splinter (Empire)"
 	variant 8
 		Arbiter
+		Sunder 3
 	variant 8
 		Arbiter
 		"Hornet (Miner)" 3

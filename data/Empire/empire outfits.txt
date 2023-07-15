@@ -348,7 +348,7 @@ outfit "Quatalant Shield (Big)"
 	category "Systems"
 	licenses
 		"Empire Contributor"
-	cost 25700
+	cost 35980
 	thumbnail "outfit/big empire shield"
 	"mass" 35
 	"outfit space" -35
@@ -363,7 +363,7 @@ outfit "Quatalant Shield (Huge)"
 	category "Systems"
 	licenses
 		"Empire Contributor"
-	cost 25700
+	cost 47800
 	thumbnail "outfit/huge empire shield"
 	"mass" 45
 	"outfit space" -40

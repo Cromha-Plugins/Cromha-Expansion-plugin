@@ -215,6 +215,7 @@ shipyard Basic-freighters-shipyard
 	"Lance (Empire)"
 	"Scout (Empire)"
 	"Star Barge (Empire)"
+	"Sunder"
 
 shipyard Advanced-freighters-shipyard
 	"Argosy (Empire)"
@@ -241,6 +242,7 @@ shipyard Advanced-freighters-shipyard
 	"Arrow (Empire)"
 	"Bulk Courier"
 	Arbiter
+	"Sunder"
 
 shipyard Basic-interceptors-shipyard
 	"Berserker (Empire)"
@@ -323,6 +325,7 @@ shipyard Basic-lifdot-industries-shipyard
 	"Rancorster"
 	"Bulk Courier"
 	Arbiter
+	"Sunder"
 
 shipyard Advanced-lifdot-industries-shipyard
 	"Argosy (Empire)"
@@ -372,3 +375,4 @@ shipyard Advanced-lifdot-industries-shipyard
 	"Bulk Courier"
 	"Empire Kastador"
 	Arbiter
+	"Sunder"
