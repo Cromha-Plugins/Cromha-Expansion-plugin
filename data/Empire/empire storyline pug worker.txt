@@ -4,11 +4,14 @@ mission "Empire: Transport Pugs Vacancers"
 	landing
 	passengers 3
 	destination "Empire Ring"
+	source
+		government "Pug"
 	to offer
 		has "Empire: Visit Pugs: done"
+		random < 2
 	on offer
 		conversation
-			`As you land on Vara Pug, you see some sorts of aliens coming to you: it's Pugs. You show them where the cargo is stocked. You approach of one of their ship, they are extremely smooth and seems highly advanced in technology.`
+			`As you land on <origin>, you see some sorts of aliens coming to you: it's Pugs. You show them where the cargo is stocked. You approach of one of their ship, they are extremely smooth and seems highly advanced in technology.`
 			`	You stay some time in the spaceport to look at the Pugs's ships. You go back to your ship to do some things when you hear a noise near the ship arrimage. You go to see what is it and see an Pug.`
 			`	The Pug starts the conversation: "Hi!"`
 			`	You response to him and say "Great to meet you. But how do you know my language?"`

@@ -12,7 +12,7 @@ mission hai-transport-spaceport0
 	source
 		government "Cromha Empire" "Mineria colonnies"
 	to offer
-		random < 25
+		random < 55
 		"reputation: Hai" > 0
 	on offer
 		dialog "A group of Hai greets you and talk to you. They're willing to pay 50,000 credits if you take them to <planet> before the date of <date>."
@@ -34,7 +34,7 @@ mission hai-transport-spaceport1
 	source
 		government "Cromha Empire" "Mineria colonnies"
 	to offer
-		random < 30
+		random < 55
 		"reputation: Hai" > 0
 	on offer
 		dialog "A group of Hai greets you and talk to you. They're willing to pay 60,000 credits if you take them to <planet> before the date of <date>."
@@ -56,7 +56,7 @@ mission wanderer-transport-spaceport0
 	source
 		government "Cromha Empire" "Mineria colonnies"
 	to offer
-		random < 30
+		random < 55
 		"reputation: Wanderer" > 0
 	on offer
 		dialog "A group of Wanderer greets you and talk to you. They're willing to pay 50,000 credits if you take them to <planet> before the date of <date>."
@@ -78,7 +78,7 @@ mission wanderer-transport-spaceport1
 	source
 		government "Cromha Empire" "Mineria colonnies"
 	to offer
-		random < 35
+		random < 55
 		"reputation: Wanderer" > 0
 	on offer
 		dialog "A group of Wanderer greets you and talk to you. They're willing to pay 60,000 credits if you take them to <planet> before the date of <date>."
@@ -86,3 +86,36 @@ mission wanderer-transport-spaceport1
 		dialog "The group of Wanderer thanks you and gives you a crate full of money."
 		payment
 		payment 60000
+		
+# Ilegal Jobs
+
+mission outlaw-evade-spaceport0
+	landing
+	repeat
+	name "Evade To <planet>"
+	description "Transport the mysterious man to <destination> without being caught by the Empire Authorities on the radar. The authorities can't be on the same systems as you for the mission to complete."
+	passengers 1
+	illegal -700000 "The Empire Authorities just found out about your illegal passenger. They are now chasing you!"
+	destination
+		government "Syndicate" "Republic" "Free Worlds" "Hai"
+		distance 5 9
+	source
+		government "Cromha Empire" "Mineria colonnies"
+		not attributes uninhabited
+	to offer
+		random < 45
+	on offer
+		dialog "You're nicely sit on a bar of the spaceport when a suspect man sits next to you and says he is willing to pay you 500,000 credits if you help him evading. While he is talking to you, you see Empire Authorities searching for someone... It seems to be an illegal mission."
+	on depart
+		conversation
+			scene "thumbnail/empire oriole"
+			`When departing from the planet, you see a Empire Oriole scanning you. You must go away before he finish the scan and figure out about your illegal passenger`
+	on complete
+		payment 500000
+		payment
+		dialog "The Passenger leaves and gives you 500000 credits."
+	npc evade
+		government "Cromha Empire"
+		personality target surveillance
+			confusion 10
+		ship "Empire Oriole"
