@@ -1,17 +1,15 @@
-# Empire Wardragon
-ship "Empire Wardragon" "Empire Wardragon (Ion Proton)"
+# Wardragons
+ship "Empire Wardragon" "Empire Wardragon (Alldust Beam)"
 	sprite "ship/empire wardragon"
 	thumbnail "thumbnail/empire wardragon"
 	plural "Empire Wardragons"
 	noun "wardragon"
-	"uncapturable"
-	
 	"swizzle" 0
 	attributes
 		category "Empire Warship"
 		licenses
 			"Empire Navy"
-		"cost" 3000000
+		"cost" 200000
 		"shields" 75400
 		"hull" 30065
 		"required crew" 15
@@ -19,117 +17,8 @@ ship "Empire Wardragon" "Empire Wardragon (Ion Proton)"
 		"mass" 260
 		"drag" 7.7
 		"heat dissipation" .12
-		"fuel capacity" 650
-		"cargo space" 45
 		"landing speed" 0.1
-		"outfit space" 1350
-		"weapon capacity" 530
-		"engine capacity" 230
-		"ramscoop" 0.7
-		weapon
-			"blast radius" 100
-			"shield damage" 9500
-			"hull damage" 9500
-			"hit force" 300
-	outfits
-		"Ion Proton Gun" 6
-		"Empire Torpedo Bank" 2
-		"Empire Torpedo Missile" 240
-		"Empire Torpedo Rack" 20
-		"Antimatter Railgun" 2
-		"Railgun Slug" 560
-		"Railgun Slug Rack"
-		"Langrage Empire-Heaver"
-		"Alldust Beam Turret" 2
-		
-		"Multiphasic Anti-Missile" 2
-		"Multiphasic ammo" 1200
-		
-		"RC-X4 Multiphasic Reactor" 2
-		"Multiphasic Capacitor" 5
-		
-		"Empire Shielding Core" 2
-		"Empire Hai Ravine Batteries" 2
-		"Plasma Drive"
-		"Multiphasic Scanner"
-		"Multiphasic Cooler" 4
-		"Mineria Key Stone"
-		"Brig" 2
-		
-		"RC-220 Atomic Thruster" 1
-		"RC-225 Atomic Steering" 1
-		`RX-200 Reverse Thruster` 2
-		"Phasic Rifle" 55
-		"Empire Defense Station" 5
-		"Phasic Grenades" 25
-		
-		"Countermesure Module" 1
-		"Teleportation Dock" 1
-		"Cloaking Module"
-	engine -18.5 51
-		zoom 0.5
-	engine -25 51
-		zoom 0.5
-	engine 18.5 51
-		zoom 0.5
-	engine 25 51
-		zoom 0.5
-	"reverse engine" -42.5 -16
-		zoom 0.5
-	"reverse engine" -13.5 -33
-		zoom 0.5
-	"reverse engine" 42.5 -16
-		zoom 0.5
-	"reverse engine" 13.5 -33
-		zoom 0.5
-	# Weapons
-	turret -28 7 "Alldust Beam Turret"
-	turret 28 7 "Alldust Beam Turret"
-	turret 27.5 5.5 "Multiphasic Anti-Missile"
-	turret -27.5 5.5 "Multiphasic Anti-Missile"
-	gun -12.5 -33.5 "Ion Proton Gun"
-	gun 12.5 -33.5 "Ion Proton Gun"
-	gun -42 -15.5 "Ion Proton Gun"
-	gun 42 -15.5 "Ion Proton Gun"
-	gun -9 -51.5 "Ion Proton Gun"
-	gun 9 -51.5 "Ion Proton Gun"
-	gun 10 -1 "Empire Torpedo Bank"
-	gun -10 -1 "Empire Torpedo Bank"
-	gun 8 -13.5 "Antimatter Railgun"
-	gun -8 -13.5 "Antimatter Railgun"
-	gun 0 -71.5 "Langrage Empire-Heaver"
-	leak "empire leak" 60 50
-	leak "empire flame" 40 80
-	leak "empire big leak" 30 30
-	leak "empire flame" 40 80
-	leak "empire leak" 60 50
-	explode "empire tiny explosion" 60
-	explode "empire medium explosion" 40
-	"final explode" "empire huge explosion"
-	description "The Empire Wardragon is an remix of the Quarg Wardragon. This is the official Empire Warship that they use. It has good outfits, a great cargo space and great velocity. It is perfect for interceptions, attack, defend or even escort missions."
-
-ship "Empire Wardragon" "Empire Wardragon (Electron Beam)"
-	sprite "ship/empire wardragon"
-	thumbnail "thumbnail/empire wardragon"
-	plural "Empire Wardragons"
-	noun "wardragon"
-	"uncapturable"
-	
-	"swizzle" 0
-	attributes
-		category "Empire Warship"
-		licenses
-			"Empire Navy"
-		"cost" 3000000
-		"shields" 75400
-		"hull" 30065
-		"required crew" 15
-		"bunks" 35
-		"mass" 260
-		"drag" 7.7
-		"heat dissipation" .12
 		"fuel capacity" 650
-		"landing speed" 0.1
 		"cargo space" 45
 		"outfit space" 1350
 		"weapon capacity" 530
@@ -141,366 +30,41 @@ ship "Empire Wardragon" "Empire Wardragon (Electron Beam)"
 			"hull damage" 9500
 			"hit force" 300
 	outfits
-		"Alldust Beam Canon" 6
-		"Empire Torpedo Bank" 2
-		"Empire Torpedo Missile" 240
-		"Empire Torpedo Rack" 20
-		"Antimatter Railgun" 2
-		"Railgun Slug" 560
-		"Railgun Slug Rack"
-		"Langrage Empire-Heaver"
 		"Alldust Beam Turret" 2
-		
-		"Multiphasic Anti-Missile" 2
-		"Multiphasic ammo" 1200
-		
-		"RC-X4 Multiphasic Reactor" 2
-		"Multiphasic Capacitor" 5
-		
-		"Empire Shielding Core" 2
-		"Empire Hai Ravine Batteries" 2
-		"Plasma Drive"
-		"Multiphasic Scanner"
-		"Multiphasic Cooler" 4
-		"Mineria Key Stone"
-		"Brig" 2
-		
-		"RC-220 Atomic Thruster" 1
-		"RC-225 Atomic Steering" 1
-		`RX-200 Reverse Thruster` 2
-		"Phasic Rifle" 55
-		"Empire Defense Station" 5
-		"Phasic Grenades" 25
-		
-		"Countermesure Module" 1
-		"Teleportation Dock" 1
-		"Cloaking Module"
-	engine -18.5 51
-		zoom 0.5
-	engine -25 51
-		zoom 0.5
-	engine 18.5 51
-		zoom 0.5
-	engine 25 51
-		zoom 0.5
-	"reverse engine" -42.5 -16
-		zoom 0.5
-	"reverse engine" -13.5 -33
-		zoom 0.5
-	"reverse engine" 42.5 -16
-		zoom 0.5
-	"reverse engine" 13.5 -33
-		zoom 0.5
-	# Weapons
-	turret -28 7 "Alldust Beam Turret"
-	turret 28 7 "Alldust Beam Turret"
-	turret 27.5 5.5 "Multiphasic Anti-Missile"
-	turret -27.5 5.5 "Multiphasic Anti-Missile"
-	gun -12.5 -33.5 "Empire Particle gun"
-	gun 12.5 -33.5 "Empire Particle gun"
-	gun -42 -15.5 "Empire Particle gun"
-	gun 42 -15.5 "Empire Particle gun"
-	gun -9 -51.5 "Empire Particle gun"
-	gun 9 -51.5 "Empire Particle gun"
-	gun 10 -1 "Empire Torpedo Bank"
-	gun -10 -1 "Empire Torpedo Bank"
-	gun 8 -13.5 "Antimatter Railgun"
-	gun -8 -13.5 "Antimatter Railgun"
-	gun 0 -71.5 "Langrage Empire-Heaver"
-	leak "empire leak" 60 50
-	leak "empire flame" 40 80
-	leak "empire big leak" 30 30
-	leak "empire flame" 40 80
-	leak "empire leak" 60 50
-	explode "empire tiny explosion" 60
-	explode "empire medium explosion" 40
-	"final explode" "empire huge explosion"
-	description "The Empire Wardragon is an remix of the Quarg Wardragon. This is the official Empire Warship that they use. It has good outfits, a great cargo space and great velocity. It is perfect for interceptions, attack, defend or even escort missions."
-
-ship "Empire Wardragon" "Empire Wardragon (Plasma Repeater)"
-	sprite "ship/empire wardragon"
-	thumbnail "thumbnail/empire wardragon"
-	plural "Empire Wardragons"
-	noun "wardragon"
-	"uncapturable"
-	
-	"swizzle" 0
-	attributes
-		category "Empire Warship"
-		licenses
-			"Empire Navy"
-		"cost" 3000000
-		"shields" 75400
-		"hull" 30065
-		"required crew" 15
-		"bunks" 35
-		"mass" 260
-		"drag" 7.7
-		"heat dissipation" .12
-		"fuel capacity" 650
-		"cargo space" 45
-		"outfit space" 1350
-		"weapon capacity" 530
-		"landing speed" 0.1
-		"engine capacity" 230
-		"ramscoop" 0.7
-		weapon
-			"blast radius" 100
-			"shield damage" 9500
-			"hull damage" 9500
-			"hit force" 300
-	outfits
-		"Nuclavoltaic Repeater" 6
-		"Empire Torpedo Bank" 2
-		"Empire Torpedo Missile" 240
-		"Empire Torpedo Rack" 20
 		"Antimatter Railgun" 2
-		"Railgun Slug" 560
-		"Railgun Slug Rack"
-		"Langrage Empire-Heaver"
-		"Alldust Beam Turret" 2
-		
-		"Multiphasic Anti-Missile" 2
-		"Multiphasic ammo" 1200
-		
-		"RC-X4 Multiphasic Reactor" 2
-		"Multiphasic Capacitor" 5
-		
-		"Empire Shielding Core" 2
-		"Empire Hai Ravine Batteries" 2
-		"Plasma Drive"
-		"Multiphasic Scanner"
-		"Multiphasic Cooler" 4
-		"Mineria Key Stone"
-		"Brig" 2
-		
-		"RC-220 Atomic Thruster" 1
-		"RC-225 Atomic Steering" 1
-		`RX-200 Reverse Thruster` 2
-		"Phasic Rifle" 55
-		"Empire Defense Station" 5
-		"Phasic Grenades" 25
-		
-		"Countermesure Module" 1
-		"Teleportation Dock" 1
-		"Cloaking Module"
-	engine -18.5 51
-		zoom 0.5
-	engine -25 51
-		zoom 0.5
-	engine 18.5 51
-		zoom 0.5
-	engine 25 51
-		zoom 0.5
-	"reverse engine" -42.5 -16
-		zoom 0.5
-	"reverse engine" -13.5 -33
-		zoom 0.5
-	"reverse engine" 42.5 -16
-		zoom 0.5
-	"reverse engine" 13.5 -33
-		zoom 0.5
-	# Weapons
-	turret -28 7 "Alldust Beam Turret"
-	turret 28 7 "Alldust Beam Turret"
-	turret 27.5 5.5 "Multiphasic Anti-Missile"
-	turret -27.5 5.5 "Multiphasic Anti-Missile"
-	gun -12.5 -33.5 "Nuclavoltaic Repeater"
-	gun 12.5 -33.5 "Nuclavoltaic Repeater"
-	gun -42 -15.5 "Nuclavoltaic Repeater"
-	gun 42 -15.5 "Nuclavoltaic Repeater"
-	gun -9 -51.5 "Nuclavoltaic Repeater"
-	gun 9 -51.5 "Nuclavoltaic Repeater"
-	gun 10 -1 "Empire Torpedo Bank"
-	gun -10 -1 "Empire Torpedo Bank"
-	gun 8 -13.5 "Antimatter Railgun"
-	gun -8 -13.5 "Antimatter Railgun"
-	gun 0 -71.5 "Langrage Empire-Heaver"
-	leak "empire leak" 60 50
-	leak "empire flame" 40 80
-	leak "empire big leak" 30 30
-	leak "empire flame" 40 80
-	leak "empire leak" 60 50
-	explode "empire tiny explosion" 60
-	explode "empire medium explosion" 40
-	"final explode" "empire huge explosion"
-	description "The Empire Wardragon is an remix of the Quarg Wardragon. This is the official Empire Warship that they use. It has good outfits, a great cargo space and great velocity. It is perfect for interceptions, attack, defend or even escort missions."
-
-ship "Empire Wardragon" "Empire Wardragon (Twin Modified Blaster)"
-	sprite "ship/empire wardragon"
-	thumbnail "thumbnail/empire wardragon"
-	plural "Empire Wardragons"
-	noun "wardragon"
-	"uncapturable"
-	
-	"swizzle" 0
-	attributes
-		category "Empire Warship"
-		licenses
-			"Empire Navy"
-		"cost" 3000000
-		"shields" 75400
-		"hull" 30065
-		"required crew" 15
-		"bunks" 35
-		"mass" 260
-		"drag" 7.7
-		"heat dissipation" .12
-		"fuel capacity" 650
-		"cargo space" 45
-		"landing speed" 0.1
-		"outfit space" 1350
-		"weapon capacity" 530
-		"engine capacity" 230
-		"ramscoop" 0.7
-		weapon
-			"blast radius" 100
-			"shield damage" 9500
-			"hull damage" 9500
-			"hit force" 300
-	outfits
-		"Twin Modified Blaster" 6
-		"Empire Torpedo Bank" 2
-		"Empire Torpedo Missile" 240
-		"Empire Torpedo Rack" 20
-		"Antimatter Railgun" 2
-		"Railgun Slug" 560
-		"Railgun Slug Rack"
-		"Langrage Empire-Heaver"
-		"Alldust Beam Turret" 2
-		
-		"Multiphasic Anti-Missile" 2
-		"Multiphasic ammo" 1200
-		
-		"RC-X4 Multiphasic Reactor" 2
-		"Multiphasic Capacitor" 5
-		
-		"Empire Shielding Core" 2
-		"Empire Hai Ravine Batteries" 2
-		"Plasma Drive"
-		"Multiphasic Scanner"
-		"Multiphasic Cooler" 4
-		"Mineria Key Stone"
-		"Brig" 2
-		
-		"RC-220 Atomic Thruster" 1
-		"RC-225 Atomic Steering" 1
-		`RX-200 Reverse Thruster` 2
-		"Phasic Rifle" 55
-		"Empire Defense Station" 5
-		"Phasic Grenades" 25
-		
-		"Countermesure Module" 1
-		"Teleportation Dock" 1
-		"Cloaking Module"
-	engine -18.5 51
-		zoom 0.5
-	engine -25 51
-		zoom 0.5
-	engine 18.5 51
-		zoom 0.5
-	engine 25 51
-		zoom 0.5
-	"reverse engine" -42.5 -16
-		zoom 0.5
-	"reverse engine" -13.5 -33
-		zoom 0.5
-	"reverse engine" 42.5 -16
-		zoom 0.5
-	"reverse engine" 13.5 -33
-		zoom 0.5
-	# Weapons
-	turret -28 7 "Alldust Beam Turret"
-	turret 28 7 "Alldust Beam Turret"
-	turret 27.5 5.5 "Multiphasic Anti-Missile"
-	turret -27.5 5.5 "Multiphasic Anti-Missile"
-	gun -12.5 -33.5 "Empire Particle gun"
-	gun 12.5 -33.5 "Empire Particle gun"
-	gun -42 -15.5 "Empire Particle gun"
-	gun 42 -15.5 "Empire Particle gun"
-	gun -9 -51.5 "Empire Particle gun"
-	gun 9 -51.5 "Empire Particle gun"
-	gun 10 -1 "Empire Torpedo Bank"
-	gun -10 -1 "Empire Torpedo Bank"
-	gun 8 -13.5 "Antimatter Railgun"
-	gun -8 -13.5 "Antimatter Railgun"
-	gun 0 -71.5 "Langrage Empire-Heaver"
-	leak "empire leak" 60 50
-	leak "empire flame" 40 80
-	leak "empire big leak" 30 30
-	leak "empire flame" 40 80
-	leak "empire leak" 60 50
-	explode "empire tiny explosion" 60
-	explode "empire medium explosion" 40
-	"final explode" "empire huge explosion"
-	description "The Empire Wardragon is an remix of the Quarg Wardragon. This is the official Empire Warship that they use. It has good outfits, a great cargo space and great velocity. It is perfect for interceptions, attack, defend or even escort missions."
-
-ship "Empire Wardragon" "Empire Wardragon (Disruption)"
-	sprite "ship/empire wardragon"
-	thumbnail "thumbnail/empire wardragon"
-	plural "Empire Wardragons"
-	noun "wardragon"
-	"uncapturable"
-	"swizzle" 0
-	attributes
-		category "Empire Warship"
-		licenses
-			"Empire Navy"
-		"cost" 3000000
-		"shields" 95700
-		"hull" 70890
-		"required crew" 15
-		"bunks" 45
-		"mass" 185
-		"drag" 8.7
-		"heat dissipation" .8
-		"landing speed" 0.1
-		"fuel capacity" 475
-		"cargo space" 35
-		"outfit space" 2385
-		"weapon capacity" 780
-		"engine capacity" 590
-		"ramscoop" .99
-		weapon
-			"blast radius" 700
-			"shield damage" 19700
-			"hull damage" 19300
-			"hit force" 1200
-	outfits
-		"Alldust Beam Turret" 4
 		Brig 2
-		"Catalytic Ramscoop" 3
 		"Cloaking Module"
-		"Countermesure Module" 4
-		"Countermesure Module Compact" 12
-		"Disruption Afterburnner"
+		"Countermesure Module"
+		"Empire Barricade"
+		"Empire Defense Station" 5
 		"Empire Hai Ravine Batteries" 2
-		"Empire Navy Emitter"
-		"Empire Shielding Core" 8
-		"Empire Torpedo Missile" 520
-		"Empire Torpedo Rack" 40
-		"Empire Typhoon Bank" 6
-		"Fuel Cell"
-		"Intrusion Countermeasures" 920
+		"Alldust Beam Canon" 6
+		"Empire Shielding Core" 6
+		"Empire Torpedo Bank" 2
+		"Empire Torpedo Missile" 240
+		"Empire Torpedo Rack" 20
+		"Langrage Empire-Heaver"
 		"Mineria Key Stone"
-		"Multiphasic Ammo Rack" 4
 		"Multiphasic Anti-Missile" 2
-		"Multiphasic Capacitor" 4
+		"Multiphasic Capacitor" 5
 		"Multiphasic Cooler" 4
-		"Multiphasic Scanner" 2
-		"Multiphasic ammo" 2400
-		"One-Phasic Cooler" 12
-		"Phasic Fission Reactor"
-		"Phasic Mine Layer" 2
-		"Phasic Mine Rack" 6
-		"Phasic-Cluster Mine" 88
-		"Plasma Fuel Pod"
-		"Quantum Generator" 4
-		"RV-125 Disruption Steering"
-		"RV-170 Disruption Thruster"
-		"RV-175 Disruption Steering"
-		"Small Empire Shielding Core" 16
+		"Multiphasic Scanner"
+		"Multiphasic ammo" 1200
+		"NGx3 Quatalant Cooler" 2
+		"Phasic Grenades" 25
+		"Phasic Ramscoop" 8
+		"Phasic Rifle" 55
 		"Plasma Drive"
+		"Quantum Generator"
+		"Quatalant Shield (Medium)" 4
+		"Quatalant Shield (Small)" 2
+		"RC-220 Atomic Thruster"
+		"RC-225 Atomic Steering"
+		"RC-X4 Multiphasic Reactor" 2
+		"RX-200 Reverse Thruster" 2
+		"Railgun Slug" 560
+		"Railgun Slug Rack"
+		"Teleportation Dock"
 	engine -18.5 51
 		zoom 0.5
 	engine -25 51
@@ -518,36 +82,21 @@ ship "Empire Wardragon" "Empire Wardragon (Disruption)"
 	"reverse engine" 13.5 -33
 		zoom 0.5
 	# Weapons
-	turret 28 6.5 "Alldust Beam Turret"
-		over
-	turret 10.5 -1.5 "Alldust Beam Turret"
-		over
-	turret 8 -14.5 "Multiphasic Anti-Missile"
-		over
-	turret -28 6.5 "Alldust Beam Turret"
-		over
-	turret -10.5 -1.5 "Alldust Beam Turret"
-		over
-	turret -8 -14.5 "Multiphasic Anti-Missile"
-		over
-	gun -14 -31 "Empire Typhoon Bank"
-		under
-	gun 14 -31 "Empire Typhoon Bank"
-		under
-	gun 13 46.5 "Phasic Mine Layer"
-		angle -180
-		under
-	gun -13 46.5 "Phasic Mine Layer"
-		angle -180
-		under
-	gun -41.5 -16.5 "Empire Typhoon Bank"
-		under
-	gun 41.5 -16.5 "Empire Typhoon Bank"
-		under
-	gun -4.5 -56 "Empire Typhoon Bank"
-		under
-	gun 4.5 -56 "Empire Typhoon Bank"
-		under
+	turret -28 7 "Alldust Beam Turret"
+	turret 28 7 "Alldust Beam Turret"
+	turret 27.5 5.5 "Multiphasic Anti-Missile"
+	turret -27.5 5.5 "Multiphasic Anti-Missile"
+	gun -12.5 -33.5 "Alldust Beam Canon"
+	gun 12.5 -33.5 "Alldust Beam Canon"
+	gun -42 -15.5 "Alldust Beam Canon"
+	gun 42 -15.5 "Alldust Beam Canon"
+	gun -9 -51.5 "Alldust Beam Canon"
+	gun 9 -51.5 "Alldust Beam Canon"
+	gun 10 -1 "Empire Torpedo Bank"
+	gun -10 -1 "Empire Torpedo Bank"
+	gun 8 -13.5 "Antimatter Railgun"
+	gun -8 -13.5 "Antimatter Railgun"
+	gun 0 -71.5 "Langrage Empire-Heaver"
 	leak "empire leak" 60 50
 	leak "empire flame" 40 80
 	leak "empire big leak" 30 30
@@ -556,21 +105,19 @@ ship "Empire Wardragon" "Empire Wardragon (Disruption)"
 	explode "empire tiny explosion" 60
 	explode "empire medium explosion" 40
 	"final explode" "empire huge explosion"
-	description "The Empire Wardragon is an remix of the Quarg Wardragon. This is the official Empire Warship that they use. It has good outfits, a great cargo space and great velocity. It is perfect for interceptions, attack, defend or even escort missions."
-
-ship "Empire Wardragon" "Empire Wardragon (Wel'y)"
+	description "The Empire Wardragon is mostly an interception and surveillance warship that the Cromha Empire uses to stop drugs run, catch up outlaws or defend Empire Merchant from any enemy. It is its capability to be easily modified with weapons, systems, that makes it a really viable ship for anyone. It is also pretty cheap so any good captain can afford this ship, if they have the right license. The Empire made different variants of this ships: The Alldust Beam variant, the Wel'y Beam variant, the Antimatter variant (it is basically a variant where most of the systems are antimatter), Ion Proton variant, Plasma Repeater variant and the Twin Empire Particle variant, even if it is extremely rare."
+	
+ship "Empire Wardragon" "Empire Wardragon (Wel'y Beam)"
 	sprite "ship/empire wardragon"
 	thumbnail "thumbnail/empire wardragon"
 	plural "Empire Wardragons"
 	noun "wardragon"
-	"uncapturable"
-	
 	"swizzle" 0
 	attributes
 		category "Empire Warship"
 		licenses
 			"Empire Navy"
-		"cost" 3000000
+		"cost" 200000
 		"shields" 75400
 		"hull" 30065
 		"required crew" 15
@@ -578,9 +125,9 @@ ship "Empire Wardragon" "Empire Wardragon (Wel'y)"
 		"mass" 260
 		"drag" 7.7
 		"heat dissipation" .12
+		"landing speed" 0.1
 		"fuel capacity" 650
 		"cargo space" 45
-		"landing speed" 0.1
 		"outfit space" 1350
 		"weapon capacity" 530
 		"engine capacity" 230
@@ -591,40 +138,41 @@ ship "Empire Wardragon" "Empire Wardragon (Wel'y)"
 			"hull damage" 9500
 			"hit force" 300
 	outfits
+		"Alldust Beam Turret" 2
+		"Antimatter Railgun" 2
+		Brig 2
+		"Cloaking Module"
+		"Countermesure Module"
+		"Empire Barricade"
+		"Empire Defense Station" 5
+		"Empire Hai Ravine Batteries" 2
 		"Wel'y Beam Canon" 6
+		"Empire Shielding Core" 6
 		"Empire Torpedo Bank" 2
 		"Empire Torpedo Missile" 240
 		"Empire Torpedo Rack" 20
-		"Antimatter Railgun" 2
+		"Langrage Empire-Heaver"
+		"Mineria Key Stone"
+		"Multiphasic Anti-Missile" 2
+		"Multiphasic Capacitor" 5
+		"Multiphasic Cooler" 4
+		"Multiphasic Scanner"
+		"Multiphasic ammo" 1200
+		"NGx3 Quatalant Cooler" 2
+		"Phasic Grenades" 25
+		"Phasic Ramscoop" 8
+		"Phasic Rifle" 55
+		"Plasma Drive"
+		"Quantum Generator"
+		"Quatalant Shield (Medium)" 4
+		"Quatalant Shield (Small)" 2
+		"RC-220 Atomic Thruster"
+		"RC-225 Atomic Steering"
+		"RC-X4 Multiphasic Reactor" 2
+		"RX-200 Reverse Thruster" 2
 		"Railgun Slug" 560
 		"Railgun Slug Rack"
-		"Langrage Empire-Heaver"
-		"Alldust Beam Turret" 2
-		
-		"Multiphasic Anti-Missile" 2
-		"Multiphasic ammo" 1200
-		
-		"RC-X4 Multiphasic Reactor" 2
-		"Multiphasic Capacitor" 5
-		
-		"Empire Shielding Core" 2
-		"Empire Hai Ravine Batteries" 2
-		"Plasma Drive"
-		"Multiphasic Scanner"
-		"Multiphasic Cooler" 4
-		"Mineria Key Stone"
-		"Brig" 2
-		
-		"RC-220 Atomic Thruster" 1
-		"RC-225 Atomic Steering" 1
-		`RX-200 Reverse Thruster` 2
-		"Phasic Rifle" 55
-		"Empire Defense Station" 5
-		"Phasic Grenades" 25
-		
-		"Countermesure Module" 1
-		"Teleportation Dock" 1
-		"Cloaking Module"
+		"Teleportation Dock"
 	engine -18.5 51
 		zoom 0.5
 	engine -25 51
@@ -665,126 +213,444 @@ ship "Empire Wardragon" "Empire Wardragon (Wel'y)"
 	explode "empire tiny explosion" 60
 	explode "empire medium explosion" 40
 	"final explode" "empire huge explosion"
-	description "The Empire Wardragon is an remix of the Quarg Wardragon. This is the official Empire Warship that they use. It has good outfits, a great cargo space and great velocity. It is perfect for interceptions, attack, defend or even escort missions."
-
-# Empire Skylark
-ship "Empire Skylark" "Empire Skylark (Ion Proton)"
-	sprite "ship/empire skylark"
-	thumbnail "thumbnail/empire skylark"
+	description "The Empire Wardragon is mostly an interception and surveillance warship that the Cromha Empire uses to stop drugs run, catch up outlaws or defend Empire Merchant from any enemy. It is its capability to be easily modified with weapons, systems, that makes it a really viable ship for anyone. It is also pretty cheap so any good captain can afford this ship, if they have the right license. The Empire made different variants of this ships: The Alldust Beam variant, the Wel'y Beam variant, the Antimatter variant (it is basically a variant where most of the systems are antimatter), Ion Proton variant, Plasma Repeater variant and the Twin Empire Particle variant, even if it is extremely rare."
 	
+ship "Empire Wardragon" "Empire Wardragon (Plasma Repeater)"
+	sprite "ship/empire wardragon"
+	thumbnail "thumbnail/empire wardragon"
+	plural "Empire Wardragons"
+	noun "wardragon"
 	"swizzle" 0
 	attributes
+		category "Empire Warship"
 		licenses
 			"Empire Navy"
-		category "Empire Warship"
-		"cost" 350000
-		"shields" 115000
-		"hull" 70000
-		"required crew" 25
-		"bunks" 55
-		"mass" 370
-		"drag" 12.3
-		"heat dissipation" .9
-		"fuel capacity" 800
-		"cargo space" 55
-		"outfit space" 1400
-		"weapon capacity" 650
-		"engine capacity" 450
-		"hull repair rate" 5
-		"hull energy" 5
+		"cost" 200000
+		"shields" 75400
+		"hull" 30065
+		"required crew" 15
+		"bunks" 35
+		"mass" 260
+		"drag" 7.7
+		"heat dissipation" .12
 		"landing speed" 0.1
-		"ramscoop" 1.5
+		"fuel capacity" 650
+		"cargo space" 45
+		"outfit space" 1350
+		"weapon capacity" 530
+		"engine capacity" 230
+		"ramscoop" 0.7
 		weapon
 			"blast radius" 100
-			"shield damage" 10500
-			"hull damage" 10500
+			"shield damage" 9500
+			"hull damage" 9500
 			"hit force" 300
 	outfits
+		"Alldust Beam Turret" 2
+		"Antimatter Railgun" 2
+		Brig 2
+		"Cloaking Module"
+		"Countermesure Module"
+		"Empire Barricade"
+		"Empire Defense Station" 5
+		"Empire Hai Ravine Batteries" 2
+		"Nuclavoltaic Repeater" 6
+		"Empire Shielding Core" 6
+		"Empire Torpedo Bank" 2
+		"Empire Torpedo Missile" 240
+		"Empire Torpedo Rack" 20
+		"Langrage Empire-Heaver"
+		"Mineria Key Stone"
+		"Multiphasic Anti-Missile" 2
+		"Multiphasic Capacitor" 5
+		"Multiphasic Cooler" 4
+		"Multiphasic Scanner"
+		"Multiphasic ammo" 1200
+		"NGx3 Quatalant Cooler" 2
+		"Phasic Grenades" 25
+		"Phasic Ramscoop" 8
+		"Phasic Rifle" 55
+		"Plasma Drive"
+		"Quantum Generator"
+		"Quatalant Shield (Medium)" 4
+		"Quatalant Shield (Small)" 2
+		"RC-220 Atomic Thruster"
+		"RC-225 Atomic Steering"
+		"RC-X4 Multiphasic Reactor" 2
+		"RX-200 Reverse Thruster" 2
+		"Railgun Slug" 560
+		"Railgun Slug Rack"
+		"Teleportation Dock"
+	engine -18.5 51
+		zoom 0.5
+	engine -25 51
+		zoom 0.5
+	engine 18.5 51
+		zoom 0.5
+	engine 25 51
+		zoom 0.5
+	"reverse engine" -42.5 -16
+		zoom 0.5
+	"reverse engine" -13.5 -33
+		zoom 0.5
+	"reverse engine" 42.5 -16
+		zoom 0.5
+	"reverse engine" 13.5 -33
+		zoom 0.5
+	# Weapons
+	turret -28 7 "Alldust Beam Turret"
+	turret 28 7 "Alldust Beam Turret"
+	turret 27.5 5.5 "Multiphasic Anti-Missile"
+	turret -27.5 5.5 "Multiphasic Anti-Missile"
+	gun -12.5 -33.5 "Nuclavoltaic Repeater"
+	gun 12.5 -33.5 "Nuclavoltaic Repeater"
+	gun -42 -15.5 "Nuclavoltaic Repeater"
+	gun 42 -15.5 "Nuclavoltaic Repeater"
+	gun -9 -51.5 "Nuclavoltaic Repeater"
+	gun 9 -51.5 "Nuclavoltaic Repeater"
+	gun 10 -1 "Empire Torpedo Bank"
+	gun -10 -1 "Empire Torpedo Bank"
+	gun 8 -13.5 "Antimatter Railgun"
+	gun -8 -13.5 "Antimatter Railgun"
+	gun 0 -71.5 "Langrage Empire-Heaver"
+	leak "empire leak" 60 50
+	leak "empire flame" 40 80
+	leak "empire big leak" 30 30
+	leak "empire flame" 40 80
+	leak "empire leak" 60 50
+	explode "empire tiny explosion" 60
+	explode "empire medium explosion" 40
+	"final explode" "empire huge explosion"
+	description "The Empire Wardragon is mostly an interception and surveillance warship that the Cromha Empire uses to stop drugs run, catch up outlaws or defend Empire Merchant from any enemy. It is its capability to be easily modified with weapons, systems, that makes it a really viable ship for anyone. It is also pretty cheap so any good captain can afford this ship, if they have the right license. The Empire made different variants of this ships: The Alldust Beam variant, the Wel'y Beam variant, the Antimatter variant (it is basically a variant where most of the systems are antimatter), Ion Proton variant, Plasma Repeater variant and the Twin Empire Particle variant, even if it is extremely rare."
+	
+ship "Empire Wardragon" "Empire Wardragon (Ion Proton)"
+	sprite "ship/empire wardragon"
+	thumbnail "thumbnail/empire wardragon"
+	plural "Empire Wardragons"
+	noun "wardragon"
+	"swizzle" 0
+	attributes
+		category "Empire Warship"
+		licenses
+			"Empire Navy"
+		"cost" 200000
+		"shields" 75400
+		"hull" 30065
+		"required crew" 15
+		"bunks" 35
+		"mass" 260
+		"drag" 7.7
+		"heat dissipation" .12
+		"landing speed" 0.1
+		"fuel capacity" 650
+		"cargo space" 45
+		"outfit space" 1350
+		"weapon capacity" 530
+		"engine capacity" 230
+		"ramscoop" 0.7
+		weapon
+			"blast radius" 100
+			"shield damage" 9500
+			"hull damage" 9500
+			"hit force" 300
+	outfits
+		"Alldust Beam Turret" 2
+		"Antimatter Railgun" 2
+		Brig 2
+		"Cloaking Module"
+		"Countermesure Module"
+		"Empire Barricade"
+		"Empire Defense Station" 5
+		"Empire Hai Ravine Batteries" 2
 		"Ion Proton Gun" 6
+		"Empire Shielding Core" 6
 		"Empire Torpedo Bank" 2
 		"Empire Torpedo Missile" 240
 		"Empire Torpedo Rack" 20
-		"Antimatter Railgun" 2
+		"Langrage Empire-Heaver"
+		"Mineria Key Stone"
+		"Multiphasic Anti-Missile" 2
+		"Multiphasic Capacitor" 5
+		"Multiphasic Cooler" 4
+		"Multiphasic Scanner"
+		"Multiphasic ammo" 1200
+		"NGx3 Quatalant Cooler" 2
+		"Phasic Grenades" 25
+		"Phasic Ramscoop" 8
+		"Phasic Rifle" 55
+		"Plasma Drive"
+		"Quantum Generator"
+		"Quatalant Shield (Medium)" 4
+		"Quatalant Shield (Small)" 2
+		"RC-220 Atomic Thruster"
+		"RC-225 Atomic Steering"
+		"RC-X4 Multiphasic Reactor" 2
+		"RX-200 Reverse Thruster" 2
 		"Railgun Slug" 560
 		"Railgun Slug Rack"
-		"Langrage Empire-Heaver"
-		"Alldust Beam Turret" 2
-
-		"Multiphasic Anti-Missile" 2
-		"Multiphasic ammo" 1200
-		
-		"Empire Shielding Core" 4
-		"Fuel Cell"
-		"Small Empire Shielding Core" 2
-		"Empire Hai Ravine Batteries"
-		"Plasma Fuel Pod"
-		"Quantum Generator"
-		"Empire Barricade"
-		"Thermal Nucleavoltaic"
-		"Multiphasic Scanner"
-		"Multiphasic Cooler" 2
-		"One-Phasic Cooler" 2
-		"Mineria Key Stone"
-		"Brig" 6
-		"RC-X4 Multiphasic Reactor" 2
-		
-		"RC-200 Atomic Thruster" 1
-		"RC-225 Atomic Steering" 1
-		`RX-180 Reverse Thruster` 2
-		"Phasic Rifle" 55
-		"Empire Defense Station" 5
-		"Phasic Grenades" 25
-		
-		"Countermesure Module" 2
-		"Teleportation Dock" 1
-		"Cloaking Module"
-		"Plasma Drive"
-		
-	engine -14 106
-		zoom 1.4
-	engine 14 106
-		zoom 1.4
-	engine 30.5 86
-		over
-	engine -30.5 86
-		over
-	engine 63.5 127
-	engine -63.5 127
-	"reverse engine" -62.5 -32.5
-	"reverse engine" -30.5 -72
-	"reverse engine" 62.5 -32.5
-	"reverse engine" 30.5 -72
-	bay "Nanobot" -25.5 32.5
-		under
-	bay "Nanobot" 25.5 32.5
-		under
-	turret 0 45 "Alldust Beam Turret"
-	turret 0 -40 "Alldust Beam Turret"
-	gun -29.5 -72.5 "Empire Particle gun"
-	gun -63.5 -31.5 "Empire Particle gun"
-	gun -14 -85 "Empire Particle gun"
-	gun 29.5 -72.5 "Empire Particle gun"
-	gun 63.5 -31.5 "Empire Particle gun"
-	gun 14 -85 "Empire Particle gun"
-	gun -64.5 -32.5 "Empire Torpedo Bank"
-	gun 64.5 -32.5 "Empire Torpedo Bank"
-	gun -34 -7.5 "Antimatter Railgun"
-	gun 34 -7.5 "Antimatter Railgun"
-	gun 0 -127 "Langrage Empire-Heaver"
-	turret -34 24 "Multiphasic Anti-Missile"
-	turret 34 24 "Multiphasic Anti-Missile"
-	explode "empire tiny explosion" 12
-	explode "empire small explosion" 16
-	explode "empire medium explosion" 30
+		"Teleportation Dock"
+	engine -18.5 51
+		zoom 0.5
+	engine -25 51
+		zoom 0.5
+	engine 18.5 51
+		zoom 0.5
+	engine 25 51
+		zoom 0.5
+	"reverse engine" -42.5 -16
+		zoom 0.5
+	"reverse engine" -13.5 -33
+		zoom 0.5
+	"reverse engine" 42.5 -16
+		zoom 0.5
+	"reverse engine" 13.5 -33
+		zoom 0.5
+	# Weapons
+	turret -28 7 "Alldust Beam Turret"
+	turret 28 7 "Alldust Beam Turret"
+	turret 27.5 5.5 "Multiphasic Anti-Missile"
+	turret -27.5 5.5 "Multiphasic Anti-Missile"
+	gun -12.5 -33.5 "Ion Proton Gun"
+	gun 12.5 -33.5 "Ion Proton Gun"
+	gun -42 -15.5 "Ion Proton Gun"
+	gun 42 -15.5 "Ion Proton Gun"
+	gun -9 -51.5 "Ion Proton Gun"
+	gun 9 -51.5 "Ion Proton Gun"
+	gun 10 -1 "Empire Torpedo Bank"
+	gun -10 -1 "Empire Torpedo Bank"
+	gun 8 -13.5 "Antimatter Railgun"
+	gun -8 -13.5 "Antimatter Railgun"
+	gun 0 -71.5 "Langrage Empire-Heaver"
+	leak "empire leak" 60 50
+	leak "empire flame" 40 80
+	leak "empire big leak" 30 30
+	leak "empire flame" 40 80
+	leak "empire leak" 60 50
+	explode "empire tiny explosion" 60
 	explode "empire medium explosion" 40
-	explode "empire huge explosion" 20
 	"final explode" "empire huge explosion"
-	description "As the Empire Wardragon, this great ship is a remix of the Quarg ship Skylark. Like the Empire Wardragon, this ship is designed for interception, defend and attack missions principally. The only difference with th Empire Wardragon is that the Empire Skylark has been designed for longer missions. With its capability to regenerate fuel easily, it is a great ship for long interceptions missions but also cargo missions since it has a good cargo space."
-
-ship "Empire Skylark" "Empire Skylark (Electron Beam)"
+	description "The Empire Wardragon is mostly an interception and surveillance warship that the Cromha Empire uses to stop drugs run, catch up outlaws or defend Empire Merchant from any enemy. It is its capability to be easily modified with weapons, systems, that makes it a really viable ship for anyone. It is also pretty cheap so any good captain can afford this ship, if they have the right license. The Empire made different variants of this ships: The Alldust Beam variant, the Wel'y Beam variant, the Antimatter variant (it is basically a variant where most of the systems are antimatter), Ion Proton variant, Plasma Repeater variant and the Twin Empire Particle variant, even if it is extremely rare."
+	
+ship "Empire Wardragon" "Empire Wardragon (Twin Particle)"
+	sprite "ship/empire wardragon"
+	thumbnail "thumbnail/empire wardragon"
+	plural "Empire Wardragons"
+	noun "wardragon"
+	"swizzle" 0
+	attributes
+		category "Empire Warship"
+		licenses
+			"Empire Navy"
+		"cost" 200000
+		"shields" 75400
+		"hull" 30065
+		"required crew" 15
+		"bunks" 35
+		"mass" 260
+		"drag" 7.7
+		"heat dissipation" .12
+		"landing speed" 0.1
+		"fuel capacity" 650
+		"cargo space" 45
+		"outfit space" 1575
+		"weapon capacity" 750
+		"engine capacity" 230
+		"ramscoop" 0.7
+		weapon
+			"blast radius" 100
+			"shield damage" 9500
+			"hull damage" 9500
+			"hit force" 300
+	outfits
+		"Alldust Beam Turret" 2
+		"Antimatter Railgun" 2
+		Brig 2
+		"Cloaking Module"
+		"Countermesure Module"
+		"Empire Barricade"
+		"Empire Defense Station" 5
+		"Empire Hai Ravine Batteries" 2
+		"Twin Empire Particle" 6
+		"Empire Shielding Core" 6
+		"Empire Torpedo Bank" 2
+		"Empire Torpedo Missile" 240
+		"Empire Torpedo Rack" 20
+		"Langrage Empire-Heaver"
+		"Mineria Key Stone"
+		"Multiphasic Anti-Missile" 2
+		"Multiphasic Capacitor" 5
+		"Multiphasic Cooler" 4
+		"Multiphasic Scanner"
+		"Multiphasic ammo" 1200
+		"NGx3 Quatalant Cooler" 2
+		"Phasic Grenades" 25
+		"Phasic Ramscoop" 8
+		"Phasic Rifle" 55
+		"Plasma Drive"
+		"Quantum Generator"
+		"Quatalant Shield (Medium)" 4
+		"Quatalant Shield (Small)" 2
+		"RC-220 Atomic Thruster"
+		"RC-225 Atomic Steering"
+		"RC-X4 Multiphasic Reactor" 2
+		"RX-200 Reverse Thruster" 2
+		"Railgun Slug" 560
+		"Railgun Slug Rack"
+		"Teleportation Dock"
+	engine -18.5 51
+		zoom 0.5
+	engine -25 51
+		zoom 0.5
+	engine 18.5 51
+		zoom 0.5
+	engine 25 51
+		zoom 0.5
+	"reverse engine" -42.5 -16
+		zoom 0.5
+	"reverse engine" -13.5 -33
+		zoom 0.5
+	"reverse engine" 42.5 -16
+		zoom 0.5
+	"reverse engine" 13.5 -33
+		zoom 0.5
+	# Weapons
+	turret -28 7 "Alldust Beam Turret"
+	turret 28 7 "Alldust Beam Turret"
+	turret 27.5 5.5 "Multiphasic Anti-Missile"
+	turret -27.5 5.5 "Multiphasic Anti-Missile"
+	gun -12.5 -33.5 "Twin Empire Particle"
+	gun 12.5 -33.5 "Twin Empire Particle"
+	gun -42 -15.5 "Twin Empire Particle"
+	gun 42 -15.5 "Twin Empire Particle"
+	gun -9 -51.5 "Twin Empire Particle"
+	gun 9 -51.5 "Twin Empire Particle"
+	gun 10 -1 "Empire Torpedo Bank"
+	gun -10 -1 "Empire Torpedo Bank"
+	gun 8 -13.5 "Antimatter Railgun"
+	gun -8 -13.5 "Antimatter Railgun"
+	gun 0 -71.5 "Langrage Empire-Heaver"
+	leak "empire leak" 60 50
+	leak "empire flame" 40 80
+	leak "empire big leak" 30 30
+	leak "empire flame" 40 80
+	leak "empire leak" 60 50
+	explode "empire tiny explosion" 60
+	explode "empire medium explosion" 40
+	"final explode" "empire huge explosion"
+	description "The Empire Wardragon is mostly an interception and surveillance warship that the Cromha Empire uses to stop drugs run, catch up outlaws or defend Empire Merchant from any enemy. It is its capability to be easily modified with weapons, systems, that makes it a really viable ship for anyone. It is also pretty cheap so any good captain can afford this ship, if they have the right license. The Empire made different variants of this ships: The Alldust Beam variant, the Wel'y Beam variant, the Antimatter variant (it is basically a variant where most of the systems are antimatter), Ion Proton variant, Plasma Repeater variant and the Twin Empire Particle variant, even if it is extremely rare."
+	
+ship "Empire Wardragon" "Empire Wardragon (Antimatter)"
+	sprite "ship/empire wardragon"
+	thumbnail "thumbnail/empire wardragon"
+	plural "Empire Wardragons"
+	noun "wardragon"
+	"swizzle" 0
+	attributes
+		category "Empire Warship"
+		licenses
+			"Empire Navy"
+		"cost" 200000
+		"shields" 75400
+		"hull" 30065
+		"required crew" 15
+		"bunks" 35
+		"mass" 260
+		"drag" 7.7
+		"heat dissipation" .12
+		"landing speed" 0.1
+		"fuel capacity" 650
+		"cargo space" 45
+		"outfit space" 1575
+		"weapon capacity" 750
+		"engine capacity" 230
+		"ramscoop" 0.7
+		weapon
+			"blast radius" 100
+			"shield damage" 9500
+			"hull damage" 9500
+			"hit force" 300
+	outfits
+		"Antimatter Railgun" 2
+		Brig 2
+		"Cloaking Module"
+		"Countermesure Module"
+		"Empire Barricade"
+		"Empire Defense Station" 5
+		"Empire Hai Ravine Batteries" 2
+		"Wel'y Beam Canon" 6
+		"Empire Shielding Core" 6
+		"Empire Torpedo Bank" 2
+		"Empire Torpedo Missile" 240
+		"Empire Torpedo Rack" 20
+		"Langrage Empire-Heaver"
+		"Mineria Key Stone"
+		"Anti-Missile Field Device"
+		"Draining Field Device"
+		"Antimatter Capacitor" 3
+		"Multiphasic Capacitor" 5
+		"Multiphasic Cooler" 4
+		"Multiphasic Scanner"
+		"NGx3 Quatalant Cooler" 2
+		"Phasic Grenades" 25
+		"Phasic Ramscoop" 12
+		"Phasic Rifle" 55
+		"Plasma Drive"
+		"Quantum Generator"
+		"Quatalant Shield (Medium)" 4
+		"Quatalant Shield (Small)" 2
+		"RC-220 Atomic Thruster"
+		"RC-225 Atomic Steering"
+		"RC-X4 Multiphasic Reactor" 2
+		"RX-200 Reverse Thruster" 2
+		"Railgun Slug" 560
+		"Railgun Slug Rack"
+		"Teleportation Dock"
+	engine -18.5 51
+		zoom 0.5
+	engine -25 51
+		zoom 0.5
+	engine 18.5 51
+		zoom 0.5
+	engine 25 51
+		zoom 0.5
+	"reverse engine" -42.5 -16
+		zoom 0.5
+	"reverse engine" -13.5 -33
+		zoom 0.5
+	"reverse engine" 42.5 -16
+		zoom 0.5
+	"reverse engine" 13.5 -33
+		zoom 0.5
+	# Weapons
+	turret -28 7
+	turret 28 7
+	turret 27.5 5.5 "Draining Field Device"
+	turret -27.5 5.5 "Anti-Missile Field Device"
+	gun -12.5 -33.5 "Wel'y Beam Canon"
+	gun 12.5 -33.5 "Wel'y Beam Canon"
+	gun -42 -15.5 "Wel'y Beam Canon"
+	gun 42 -15.5 "Wel'y Beam Canon"
+	gun -9 -51.5 "Wel'y Beam Canon"
+	gun 9 -51.5 "Wel'y Beam Canon"
+	gun 10 -1 "Empire Torpedo Bank"
+	gun -10 -1 "Empire Torpedo Bank"
+	gun 8 -13.5 "Antimatter Railgun"
+	gun -8 -13.5 "Antimatter Railgun"
+	gun 0 -71.5 "Langrage Empire-Heaver"
+	leak "empire leak" 60 50
+	leak "empire flame" 40 80
+	leak "empire big leak" 30 30
+	leak "empire flame" 40 80
+	leak "empire leak" 60 50
+	explode "empire tiny explosion" 60
+	explode "empire medium explosion" 40
+	"final explode" "empire huge explosion"
+	description "The Empire Wardragon is mostly an interception and surveillance warship that the Cromha Empire uses to stop drugs run, catch up outlaws or defend Empire Merchant from any enemy. It is its capability to be easily modified with weapons, systems, that makes it a really viable ship for anyone. It is also pretty cheap so any good captain can afford this ship, if they have the right license. The Empire made different variants of this ships: The Alldust Beam variant, the Wel'y Beam variant, the Antimatter variant (it is basically a variant where most of the systems are antimatter), Ion Proton variant, Plasma Repeater variant and the Twin Empire Particle variant, even if it is extremely rare."
+	
+# Skylarks
+ship "Empire Skylark" "Empire Skylark (Alldust Beam)"
 	sprite "ship/empire skylark"
 	thumbnail "thumbnail/empire skylark"
-	
 	"swizzle" 0
 	attributes
 		licenses
@@ -800,12 +666,12 @@ ship "Empire Skylark" "Empire Skylark (Electron Beam)"
 		"heat dissipation" .9
 		"fuel capacity" 800
 		"cargo space" 55
+		"landing speed" 0.1
 		"outfit space" 1400
 		"weapon capacity" 650
 		"engine capacity" 450
 		"hull repair rate" 5
 		"hull energy" 5
-		"landing speed" 0.1
 		"ramscoop" 1.5
 		weapon
 			"blast radius" 100
@@ -813,45 +679,46 @@ ship "Empire Skylark" "Empire Skylark (Electron Beam)"
 			"hull damage" 10500
 			"hit force" 300
 	outfits
+		"Alldust Beam Turret" 2
+		"Antimatter Railgun" 2
+		Brig 6
+		"Cloaking Module"
+		"Countermesure Module" 2
+		"Empire Barricade"
+		"Empire Defense Station" 5
+		"Empire Hai Ravine Batteries"
 		"Alldust Beam Canon" 6
+		"Empire Shielding Core" 4
 		"Empire Torpedo Bank" 2
 		"Empire Torpedo Missile" 240
 		"Empire Torpedo Rack" 20
-		"Antimatter Railgun" 2
-		"Railgun Slug" 560
-		"Railgun Slug Rack"
-		"Langrage Empire-Heaver"
-		"Alldust Beam Turret" 2
-
-		"Multiphasic Anti-Missile" 2
-		"Multiphasic ammo" 1200
-		
-		"Empire Shielding Core" 4
 		"Fuel Cell"
-		"Small Empire Shielding Core" 2
-		"Empire Hai Ravine Batteries"
+		"Langrage Empire-Heaver"
+		"Mineria Key Stone"
+		"Multiphasic Anti-Missile" 2
+		"Multiphasic Cooler" 2
+		"Multiphasic Scanner"
+		"Multiphasic ammo" 1200
+		"NGx3 Quatalant Cooler" 4
+		"NGx9 Quatalant Cooler" 2
+		"One-Phasic Cooler" 2
+		"Phasic Grenades" 25
+		"Phasic Ramscoop" 6
+		"Phasic Rifle" 55
+		"Plasma Drive"
 		"Plasma Fuel Pod"
 		"Quantum Generator"
-		"Empire Barricade"
-		"Thermal Nucleavoltaic"
-		"Multiphasic Scanner"
-		"Multiphasic Cooler" 2
-		"One-Phasic Cooler" 2
-		"Mineria Key Stone"
-		"Brig" 6
+		"Quatalant Shield (Huge)"
+		"Quatalant Shield (Medium)" 4
+		"RC-200 Atomic Thruster"
+		"RC-225 Atomic Steering"
 		"RC-X4 Multiphasic Reactor" 2
-		
-		"RC-200 Atomic Thruster" 1
-		"RC-225 Atomic Steering" 1
-		`RX-180 Reverse Thruster` 2
-		"Phasic Rifle" 55
-		"Empire Defense Station" 5
-		"Phasic Grenades" 25
-		
-		"Countermesure Module" 2
-		"Teleportation Dock" 1
-		"Cloaking Module"
-		"Plasma Drive"
+		"RX-180 Reverse Thruster" 2
+		"Railgun Slug" 560
+		"Railgun Slug Rack"
+		"Small Empire Shielding Core" 2
+		"Teleportation Dock"
+		"Thermal Nucleavoltaic"
 		
 	engine -14 106
 		zoom 1.4
@@ -873,12 +740,12 @@ ship "Empire Skylark" "Empire Skylark (Electron Beam)"
 		under
 	turret 0 45 "Alldust Beam Turret"
 	turret 0 -40 "Alldust Beam Turret"
-	gun -29.5 -72.5 "Empire Particle gun"
-	gun -63.5 -31.5 "Empire Particle gun"
-	gun -14 -85 "Empire Particle gun"
-	gun 29.5 -72.5 "Empire Particle gun"
-	gun 63.5 -31.5 "Empire Particle gun"
-	gun 14 -85 "Empire Particle gun"
+	gun -29.5 -72.5 "Alldust Beam Canon"
+	gun -63.5 -31.5 "Alldust Beam Canon"
+	gun -14 -85 "Alldust Beam Canon"
+	gun 29.5 -72.5 "Alldust Beam Canon"
+	gun 63.5 -31.5 "Alldust Beam Canon"
+	gun 14 -85 "Alldust Beam Canon"
 	gun -64.5 -32.5 "Empire Torpedo Bank"
 	gun 64.5 -32.5 "Empire Torpedo Bank"
 	gun -34 -7.5 "Antimatter Railgun"
@@ -892,12 +759,124 @@ ship "Empire Skylark" "Empire Skylark (Electron Beam)"
 	explode "empire medium explosion" 40
 	explode "empire huge explosion" 20
 	"final explode" "empire huge explosion"
-	description "As the Empire Wardragon, this great ship is a remix of the Quarg ship Skylark. Like the Empire Wardragon, this ship is designed for interception, defend and attack missions principally. The only difference with th Empire Wardragon is that the Empire Skylark has been designed for longer missions. With its capability to regenerate fuel easily, it is a great ship for long interceptions missions but also cargo missions since it has a good cargo space."
-
+	description "As the Empire Wardragon, this great ship is a remix of the Quarg ship Skylark. Like the Empire Wardragon, this ship is designed for interception, defend and attack missions principally. The only difference with the Empire Wardragon is that the Empire Skylark has been designed for longer missions. With its capability to regenerate fuel easily, it is a great ship for long interceptions missions but also cargo missions since it has a good cargo space."
+	
+ship "Empire Skylark" "Empire Skylark (Wel'y Beam)"
+	sprite "ship/empire skylark"
+	thumbnail "thumbnail/empire skylark"
+	"swizzle" 0
+	attributes
+		licenses
+			"Empire Navy"
+		category "Empire Warship"
+		"cost" 350000
+		"shields" 115000
+		"hull" 70000
+		"required crew" 25
+		"bunks" 55
+		"mass" 370
+		"drag" 12.3
+		"heat dissipation" .9
+		"fuel capacity" 800
+		"cargo space" 55
+		"landing speed" 0.1
+		"outfit space" 1400
+		"weapon capacity" 650
+		"engine capacity" 450
+		"hull repair rate" 5
+		"hull energy" 5
+		"ramscoop" 1.5
+		weapon
+			"blast radius" 100
+			"shield damage" 10500
+			"hull damage" 10500
+			"hit force" 300
+	outfits
+		"Alldust Beam Turret" 2
+		"Antimatter Railgun" 2
+		Brig 6
+		"Cloaking Module"
+		"Countermesure Module" 2
+		"Empire Barricade"
+		"Empire Defense Station" 5
+		"Empire Hai Ravine Batteries"
+		"Wel'y Beam Canon" 6
+		"Empire Shielding Core" 4
+		"Empire Torpedo Bank" 2
+		"Empire Torpedo Missile" 240
+		"Empire Torpedo Rack" 20
+		"Fuel Cell"
+		"Langrage Empire-Heaver"
+		"Mineria Key Stone"
+		"Multiphasic Anti-Missile" 2
+		"Multiphasic Cooler" 2
+		"Multiphasic Scanner"
+		"Multiphasic ammo" 1200
+		"NGx3 Quatalant Cooler" 4
+		"NGx9 Quatalant Cooler" 2
+		"One-Phasic Cooler" 2
+		"Phasic Grenades" 25
+		"Phasic Ramscoop" 6
+		"Phasic Rifle" 55
+		"Plasma Drive"
+		"Plasma Fuel Pod"
+		"Quantum Generator"
+		"Quatalant Shield (Huge)"
+		"Quatalant Shield (Medium)" 4
+		"RC-200 Atomic Thruster"
+		"RC-225 Atomic Steering"
+		"RC-X4 Multiphasic Reactor" 2
+		"RX-180 Reverse Thruster" 2
+		"Railgun Slug" 560
+		"Railgun Slug Rack"
+		"Small Empire Shielding Core" 2
+		"Teleportation Dock"
+		"Thermal Nucleavoltaic"
+		
+	engine -14 106
+		zoom 1.4
+	engine 14 106
+		zoom 1.4
+	engine 30.5 86
+		over
+	engine -30.5 86
+		over
+	engine 63.5 127
+	engine -63.5 127
+	"reverse engine" -62.5 -32.5
+	"reverse engine" -30.5 -72
+	"reverse engine" 62.5 -32.5
+	"reverse engine" 30.5 -72
+	bay "Nanobot" -25.5 32.5
+		under
+	bay "Nanobot" 25.5 32.5
+		under
+	turret 0 45 "Alldust Beam Turret"
+	turret 0 -40 "Alldust Beam Turret"
+	gun -29.5 -72.5 "Wel'y Beam Canon"
+	gun -63.5 -31.5 "Wel'y Beam Canon"
+	gun -14 -85 "Wel'y Beam Canon"
+	gun 29.5 -72.5 "Wel'y Beam Canon"
+	gun 63.5 -31.5 "Wel'y Beam Canon"
+	gun 14 -85 "Wel'y Beam Canon"
+	gun -64.5 -32.5 "Empire Torpedo Bank"
+	gun 64.5 -32.5 "Empire Torpedo Bank"
+	gun -34 -7.5 "Antimatter Railgun"
+	gun 34 -7.5 "Antimatter Railgun"
+	gun 0 -127 "Langrage Empire-Heaver"
+	turret -34 24 "Multiphasic Anti-Missile"
+	turret 34 24 "Multiphasic Anti-Missile"
+	explode "empire tiny explosion" 12
+	explode "empire small explosion" 16
+	explode "empire medium explosion" 30
+	explode "empire medium explosion" 40
+	explode "empire huge explosion" 20
+	"final explode" "empire huge explosion"
+	description "As the Empire Wardragon, this great ship is a remix of the Quarg ship Skylark. Like the Empire Wardragon, this ship is designed for interception, defend and attack missions principally. The only difference with the Empire Wardragon is that the Empire Skylark has been designed for longer missions. With its capability to regenerate fuel easily, it is a great ship for long interceptions missions but also cargo missions since it has a good cargo space."
+	
 ship "Empire Skylark" "Empire Skylark (Plasma Repeater)"
 	sprite "ship/empire skylark"
 	thumbnail "thumbnail/empire skylark"
-	
 	"swizzle" 0
 	attributes
 		licenses
@@ -913,9 +892,9 @@ ship "Empire Skylark" "Empire Skylark (Plasma Repeater)"
 		"heat dissipation" .9
 		"fuel capacity" 800
 		"cargo space" 55
+		"landing speed" 0.1
 		"outfit space" 1400
 		"weapon capacity" 650
-		"landing speed" 0.1
 		"engine capacity" 450
 		"hull repair rate" 5
 		"hull energy" 5
@@ -926,45 +905,46 @@ ship "Empire Skylark" "Empire Skylark (Plasma Repeater)"
 			"hull damage" 10500
 			"hit force" 300
 	outfits
+		"Alldust Beam Turret" 2
+		"Antimatter Railgun" 2
+		Brig 6
+		"Cloaking Module"
+		"Countermesure Module" 2
+		"Empire Barricade"
+		"Empire Defense Station" 5
+		"Empire Hai Ravine Batteries"
 		"Nuclavoltaic Repeater" 6
+		"Empire Shielding Core" 4
 		"Empire Torpedo Bank" 2
 		"Empire Torpedo Missile" 240
 		"Empire Torpedo Rack" 20
-		"Antimatter Railgun" 2
-		"Railgun Slug" 560
-		"Railgun Slug Rack"
-		"Langrage Empire-Heaver"
-		"Alldust Beam Turret" 2
-
-		"Multiphasic Anti-Missile" 2
-		"Multiphasic ammo" 1200
-		
-		"Empire Shielding Core" 4
 		"Fuel Cell"
-		"Small Empire Shielding Core" 2
-		"Empire Hai Ravine Batteries"
+		"Langrage Empire-Heaver"
+		"Mineria Key Stone"
+		"Multiphasic Anti-Missile" 2
+		"Multiphasic Cooler" 2
+		"Multiphasic Scanner"
+		"Multiphasic ammo" 1200
+		"NGx3 Quatalant Cooler" 4
+		"NGx9 Quatalant Cooler" 2
+		"One-Phasic Cooler" 2
+		"Phasic Grenades" 25
+		"Phasic Ramscoop" 6
+		"Phasic Rifle" 55
+		"Plasma Drive"
 		"Plasma Fuel Pod"
 		"Quantum Generator"
-		"Empire Barricade"
-		"Thermal Nucleavoltaic"
-		"Multiphasic Scanner"
-		"Multiphasic Cooler" 2
-		"One-Phasic Cooler" 2
-		"Mineria Key Stone"
-		"Brig" 6
+		"Quatalant Shield (Huge)"
+		"Quatalant Shield (Medium)" 4
+		"RC-200 Atomic Thruster"
+		"RC-225 Atomic Steering"
 		"RC-X4 Multiphasic Reactor" 2
-		
-		"RC-200 Atomic Thruster" 1
-		"RC-225 Atomic Steering" 1
-		`RX-180 Reverse Thruster` 2
-		"Phasic Rifle" 55
-		"Empire Defense Station" 5
-		"Phasic Grenades" 25
-		
-		"Countermesure Module" 2
-		"Teleportation Dock" 1
-		"Cloaking Module"
-		"Plasma Drive"
+		"RX-180 Reverse Thruster" 2
+		"Railgun Slug" 560
+		"Railgun Slug Rack"
+		"Small Empire Shielding Core" 2
+		"Teleportation Dock"
+		"Thermal Nucleavoltaic"
 		
 	engine -14 106
 		zoom 1.4
@@ -1005,12 +985,11 @@ ship "Empire Skylark" "Empire Skylark (Plasma Repeater)"
 	explode "empire medium explosion" 40
 	explode "empire huge explosion" 20
 	"final explode" "empire huge explosion"
-	description "As the Empire Wardragon, this great ship is a remix of the Quarg ship Skylark. Like the Empire Wardragon, this ship is designed for interception, defend and attack missions principally. The only difference with th Empire Wardragon is that the Empire Skylark has been designed for longer missions. With its capability to regenerate fuel easily, it is a great ship for long interceptions missions but also cargo missions since it has a good cargo space."
-
-ship "Empire Skylark" "Empire Skylark (Twin Modified Blaster)"
+	description "As the Empire Wardragon, this great ship is a remix of the Quarg ship Skylark. Like the Empire Wardragon, this ship is designed for interception, defend and attack missions principally. The only difference with the Empire Wardragon is that the Empire Skylark has been designed for longer missions. With its capability to regenerate fuel easily, it is a great ship for long interceptions missions but also cargo missions since it has a good cargo space."
+	
+ship "Empire Skylark" "Empire Skylark (Ion Proton)"
 	sprite "ship/empire skylark"
 	thumbnail "thumbnail/empire skylark"
-	
 	"swizzle" 0
 	attributes
 		licenses
@@ -1026,58 +1005,59 @@ ship "Empire Skylark" "Empire Skylark (Twin Modified Blaster)"
 		"heat dissipation" .9
 		"fuel capacity" 800
 		"cargo space" 55
+		"landing speed" 0.1
 		"outfit space" 1400
 		"weapon capacity" 650
 		"engine capacity" 450
 		"hull repair rate" 5
 		"hull energy" 5
 		"ramscoop" 1.5
-		"landing speed" 0.1
 		weapon
 			"blast radius" 100
 			"shield damage" 10500
 			"hull damage" 10500
 			"hit force" 300
 	outfits
-		"Twin Modified Blaster" 6
+		"Alldust Beam Turret" 2
+		"Antimatter Railgun" 2
+		Brig 6
+		"Cloaking Module"
+		"Countermesure Module" 2
+		"Empire Barricade"
+		"Empire Defense Station" 5
+		"Empire Hai Ravine Batteries"
+		"Ion Proton Gun" 6
+		"Empire Shielding Core" 4
 		"Empire Torpedo Bank" 2
 		"Empire Torpedo Missile" 240
 		"Empire Torpedo Rack" 20
-		"Antimatter Railgun" 2
-		"Railgun Slug" 560
-		"Railgun Slug Rack"
-		"Langrage Empire-Heaver"
-		"Alldust Beam Turret" 2
-
-		"Multiphasic Anti-Missile" 2
-		"Multiphasic ammo" 1200
-		
-		"Empire Shielding Core" 4
 		"Fuel Cell"
-		"Small Empire Shielding Core" 2
-		"Empire Hai Ravine Batteries"
+		"Langrage Empire-Heaver"
+		"Mineria Key Stone"
+		"Multiphasic Anti-Missile" 2
+		"Multiphasic Cooler" 2
+		"Multiphasic Scanner"
+		"Multiphasic ammo" 1200
+		"NGx3 Quatalant Cooler" 4
+		"NGx9 Quatalant Cooler" 2
+		"One-Phasic Cooler" 2
+		"Phasic Grenades" 25
+		"Phasic Ramscoop" 6
+		"Phasic Rifle" 55
+		"Plasma Drive"
 		"Plasma Fuel Pod"
 		"Quantum Generator"
-		"Empire Barricade"
-		"Thermal Nucleavoltaic"
-		"Multiphasic Scanner"
-		"Multiphasic Cooler" 2
-		"One-Phasic Cooler" 2
-		"Mineria Key Stone"
-		"Brig" 6
+		"Quatalant Shield (Huge)"
+		"Quatalant Shield (Medium)" 4
+		"RC-200 Atomic Thruster"
+		"RC-225 Atomic Steering"
 		"RC-X4 Multiphasic Reactor" 2
-		
-		"RC-200 Atomic Thruster" 1
-		"RC-225 Atomic Steering" 1
-		`RX-180 Reverse Thruster` 2
-		"Phasic Rifle" 55
-		"Empire Defense Station" 5
-		"Phasic Grenades" 25
-		
-		"Countermesure Module" 2
-		"Teleportation Dock" 1
-		"Cloaking Module"
-		"Plasma Drive"
+		"RX-180 Reverse Thruster" 2
+		"Railgun Slug" 560
+		"Railgun Slug Rack"
+		"Small Empire Shielding Core" 2
+		"Teleportation Dock"
+		"Thermal Nucleavoltaic"
 		
 	engine -14 106
 		zoom 1.4
@@ -1099,12 +1079,12 @@ ship "Empire Skylark" "Empire Skylark (Twin Modified Blaster)"
 		under
 	turret 0 45 "Alldust Beam Turret"
 	turret 0 -40 "Alldust Beam Turret"
-	gun -29.5 -72.5 "Empire Particle gun"
-	gun -63.5 -31.5 "Empire Particle gun"
-	gun -14 -85 "Empire Particle gun"
-	gun 29.5 -72.5 "Empire Particle gun"
-	gun 63.5 -31.5 "Empire Particle gun"
-	gun 14 -85 "Empire Particle gun"
+	gun -29.5 -72.5 "Ion Proton Gun"
+	gun -63.5 -31.5 "Ion Proton Gun"
+	gun -14 -85 "Ion Proton Gun"
+	gun 29.5 -72.5 "Ion Proton Gun"
+	gun 63.5 -31.5 "Ion Proton Gun"
+	gun 14 -85 "Ion Proton Gun"
 	gun -64.5 -32.5 "Empire Torpedo Bank"
 	gun 64.5 -32.5 "Empire Torpedo Bank"
 	gun -34 -7.5 "Antimatter Railgun"
@@ -1118,389 +1098,71 @@ ship "Empire Skylark" "Empire Skylark (Twin Modified Blaster)"
 	explode "empire medium explosion" 40
 	explode "empire huge explosion" 20
 	"final explode" "empire huge explosion"
-	description "As the Empire Wardragon, this great ship is a remix of the Quarg ship Skylark. Like the Empire Wardragon, this ship is designed for interception, defend and attack missions principally. The only difference with th Empire Wardragon is that the Empire Skylark has been designed for longer missions. With its capability to regenerate fuel easily, it is a great ship for long interceptions missions but also cargo missions since it has a good cargo space."
-
-ship "Empire Skylark" "Empire Skylark (Wel'y)"
-	sprite "ship/empire skylark"
-	thumbnail "thumbnail/empire skylark"
+	description "As the Empire Wardragon, this great ship is a remix of the Quarg ship Skylark. Like the Empire Wardragon, this ship is designed for interception, defend and attack missions principally. The only difference with the Empire Wardragon is that the Empire Skylark has been designed for longer missions. With its capability to regenerate fuel easily, it is a great ship for long interceptions missions but also cargo missions since it has a good cargo space."
 	
+# Palavrets
+ship "Empire Palavret" "Empire Palavret (Wel'y Beam)"
+	sprite "ship/empire palavret"
+	thumbnail "thumbnail/empire palavret"
 	"swizzle" 0
 	attributes
 		licenses
 			"Empire Navy"
 		category "Empire Warship"
-		"cost" 350000
-		"shields" 115000
-		"hull" 70000
-		"required crew" 25
-		"bunks" 55
-		"mass" 370
-		"drag" 12.3
-		"heat dissipation" .9
-		"fuel capacity" 800
-		"cargo space" 55
-		"outfit space" 1400
-		"weapon capacity" 650
-		"engine capacity" 450
+		"cost" 370000
+		"shields" 137000
+		"hull" 127000
+		"required crew" 55
+		"bunks" 77
+		"mass" 250
+		"drag" 13.5
+		"heat dissipation" .10
+		"fuel capacity" 600
+		"cargo space" 75
+		"landing speed" .07
+		"outfit space" 1075
+		"weapon capacity" 540
+		"engine capacity" 390
 		"hull repair rate" 5
-		"hull energy" 5
-		"ramscoop" 1.5
-		"landing speed" 0.1
+		"hull energy" 3
+		"ramscoop" .7
 		weapon
-			"blast radius" 100
-			"shield damage" 10500
-			"hull damage" 10500
-			"hit force" 300
+			"blast radius" 75
+			"shield damage" 1700
+			"hull damage" 17000
+			"hit force" 7
 	outfits
 		"Wel'y Beam Canon" 6
-		"Empire Torpedo Bank" 2
-		"Empire Torpedo Missile" 240
-		"Empire Torpedo Rack" 20
-		"Antimatter Railgun" 2
-		"Railgun Slug" 560
-		"Railgun Slug Rack"
-		"Langrage Empire-Heaver"
-		"Alldust Beam Turret" 2
-
-		"Multiphasic Anti-Missile" 2
-		"Multiphasic ammo" 1200
-		
-		"Empire Shielding Core" 4
-		"Fuel Cell"
-		"Small Empire Shielding Core" 2
-		"Empire Hai Ravine Batteries"
-		"Plasma Fuel Pod"
-		"Quantum Generator"
-		"Empire Barricade"
-		"Thermal Nucleavoltaic"
-		"Multiphasic Scanner"
-		"Multiphasic Cooler" 2
-		"One-Phasic Cooler" 2
-		"Mineria Key Stone"
-		"Brig" 6
-		"RC-X4 Multiphasic Reactor" 2
-		
-		"RC-200 Atomic Thruster" 1
-		"RC-225 Atomic Steering" 1
-		`RX-180 Reverse Thruster` 2
-		"Phasic Rifle" 55
-		"Empire Defense Station" 5
-		"Phasic Grenades" 25
-		
-		"Countermesure Module" 2
-		"Teleportation Dock" 1
-		"Cloaking Module"
-		"Plasma Drive"
-		
-	engine -14 106
-		zoom 1.4
-	engine 14 106
-		zoom 1.4
-	engine 30.5 86
-		over
-	engine -30.5 86
-		over
-	engine 63.5 127
-	engine -63.5 127
-	"reverse engine" -62.5 -32.5
-	"reverse engine" -30.5 -72
-	"reverse engine" 62.5 -32.5
-	"reverse engine" 30.5 -72
-	bay "Nanobot" -25.5 32.5
-		under
-	bay "Nanobot" 25.5 32.5
-		under
-	turret 0 45 "Alldust Beam Turret"
-	turret 0 -40 "Alldust Beam Turret"
-	gun -29.5 -72.5 "Empire Particle gun"
-	gun -63.5 -31.5 "Empire Particle gun"
-	gun -14 -85 "Empire Particle gun"
-	gun 29.5 -72.5 "Empire Particle gun"
-	gun 63.5 -31.5 "Empire Particle gun"
-	gun 14 -85 "Empire Particle gun"
-	gun -64.5 -32.5 "Empire Torpedo Bank"
-	gun 64.5 -32.5 "Empire Torpedo Bank"
-	gun -34 -7.5 "Antimatter Railgun"
-	gun 34 -7.5 "Antimatter Railgun"
-	gun 0 -127 "Langrage Empire-Heaver"
-	turret -34 24 "Multiphasic Anti-Missile"
-	turret 34 24 "Multiphasic Anti-Missile"
-	explode "empire tiny explosion" 12
-	explode "empire small explosion" 16
-	explode "empire medium explosion" 30
-	explode "empire medium explosion" 40
-	explode "empire huge explosion" 20
-	"final explode" "empire huge explosion"
-	description "As the Empire Wardragon, this great ship is a remix of the Quarg ship Skylark. Like the Empire Wardragon, this ship is designed for interception, defend and attack missions principally. The only difference with th Empire Wardragon is that the Empire Skylark has been designed for longer missions. With its capability to regenerate fuel easily, it is a great ship for long interceptions missions but also cargo missions since it has a good cargo space."
-
-# Empire Palavret
-
-ship "Empire Palavret" "Empire Palavret (Proton)"
-	sprite "ship/empire palavret"
-	thumbnail "thumbnail/empire palavret"
-	"swizzle" 0
-	attributes
-		licenses
-			"Empire Navy"
-		category "Empire Warship"
-		"cost" 370000
-		"shields" 137000
-		"hull" 127000
-		"required crew" 55
-		"bunks" 77
-		"mass" 250
-		"drag" 13.5
-		"heat dissipation" .10
-		"fuel capacity" 600
-		"cargo space" 75
-		"landing speed" .07
-		"outfit space" 1075
-		"weapon capacity" 540
-		"engine capacity" 390
-		"hull repair rate" 5
-		"hull energy" 3
-		"ramscoop" .7
-		weapon
-			"blast radius" 75
-			"shield damage" 1700
-			"hull damage" 17000
-			"hit force" 7
-	outfits
-		"Empire Torpedo Bank" 2
-		"Empire Torpedo Missile" 240
-		"Empire Torpedo Rack" 20
-		"Ion Proton Gun" 5
-		"Nuclavoltaic Turret" 2
-		"Grab-Strike Blaze"
-
-		"Multiphasic Anti-Missile" 2
-		"Multiphasic ammo" 1200
-		
-		"Small Empire Shielding Core" 4
-		"Empire Hai Gorge Batteries"
-		"Thermal Nucleavoltaic"
-		"Multiphasic Scanner"
-		"Quantum Generator"
-		"Empire Barricade" 4
-		"Countermesure Module Compact" 2
-		"Empire Shielding Core"
-		"Multiphasic Cooler" 2
-		"One-Phasic Cooler" 2
-		"Mineria Key Stone"
-		"Brig" 3
-		"RC-X3 Multiphasic Reactor" 2
-		
-		"RC-200 Atomic Thruster" 2
-		"RC-205 Atomic Steering" 2
-		`RX-200 Reverse Thruster` 4
-		"Phasic Rifle" 15
-		"Empire Defense Station" 3
-		"Phasic Grenades" 20
-		
-		"Countermesure Module"
-		"Teleportation Dock"
+		Brig 3
 		"Cloaking Module"
 		"Compact Plasma Drive"
-	
-	engine 19.5 128
-		zoom 1.6
-	engine -19.5 128
-		zoom 1.6
-	engine -78.5 153
-		zoom 1.8
-	engine 78.5 153
-		zoom 1.8
-	"reverse engine" -9 -154
-	"reverse engine" 9 -154
-	turret 0 40 "Grab-Strike Blaze"
-	turret -11 -141.5 "Nuclavoltaic Turret"
-	turret 11 -141.5 "Nuclavoltaic Turret"
-	turret 0 -106 "Multiphasic Anti-Missile"
-	turret 0 72 "Multiphasic Anti-Missile"
-	gun -68.5 -145.5
-	gun -58.5 -147
-	gun -49.5 -148.5
-	gun 68.5 -145.5
-	gun 58.5 -147
-	gun 49.5 -148.5
-	gun 26.5 4.5 "Empire Torpedo Bank"
-	gun -26.5 4.5 "Empire Torpedo Bank"
-	explode "empire tiny explosion" 12
-	explode "empire small explosion" 16
-	explode "empire medium explosion" 30
-	explode "empire medium explosion" 40
-	explode "empire huge explosion" 20
-	"final explode" "empire huge explosion"
-	description "The Empire Palavret is a cheaper and stealthier version of the Empire Tubfalet. This was designed by the Lifdot Industries to have a cheaper price but still be good for outlaws and small Empire Rebels drugs interceptions missions. This ship had a large succes after it was created."
-	description "The goal of the Lifdot Industries was to build a new warship capable of destroying a whole Korath Exiles fleet himself. So the best way was to reuse an Korath Exiles ship model."
-	description "The second goal was to build a ship with the size of an Empire Galactik but with more compact outfits so it can be more maveuvrable and can carry more cargo if needed. Even if it is supposed to be a Warship, the Empire Navy more use it as an Interceptor to capture wanted outalaws or Empire Rebels."
-
-ship "Empire Palavret" "Empire Palavret (Plasma)"
-	sprite "ship/empire palavret"
-	thumbnail "thumbnail/empire palavret"
-	"swizzle" 0
-	attributes
-		licenses
-			"Empire Navy"
-		category "Empire Warship"
-		"cost" 370000
-		"shields" 137000
-		"hull" 127000
-		"required crew" 55
-		"bunks" 77
-		"mass" 250
-		"drag" 13.5
-		"heat dissipation" .10
-		"fuel capacity" 600
-		"cargo space" 75
-		"landing speed" .07
-		"outfit space" 1075
-		"weapon capacity" 540
-		"engine capacity" 390
-		"hull repair rate" 5
-		"hull energy" 3
-		"ramscoop" .7
-		weapon
-			"blast radius" 75
-			"shield damage" 1700
-			"hull damage" 17000
-			"hit force" 7
-	outfits
+		"Countermesure Module"
+		"Countermesure Module Compact" 2
+		"Empire Barricade" 4
+		"Empire Defense Station" 3
+		"Empire Hai Gorge Batteries"
 		"Empire Torpedo Bank" 2
 		"Empire Torpedo Missile" 240
 		"Empire Torpedo Rack" 20
-		"Nuclavoltaic Repeater" 6
-		"Nuclavoltaic Turret" 2
 		"Grab-Strike Blaze"
-
-		"Multiphasic Anti-Missile" 2
-		"Multiphasic ammo" 1200
-		
-		"Small Empire Shielding Core" 4
-		"Empire Hai Gorge Batteries"
-		"Thermal Nucleavoltaic"
-		"Multiphasic Scanner"
-		"Quantum Generator"
-		"Empire Barricade" 4
-		"Countermesure Module Compact" 2
-		"Empire Shielding Core"
-		"Multiphasic Cooler" 2
-		"One-Phasic Cooler" 2
 		"Mineria Key Stone"
-		"Brig" 3
-		"RC-X3 Multiphasic Reactor" 2
-		
+		"Multiphasic Anti-Missile" 2
+		"Multiphasic Cooler" 2
+		"Multiphasic Scanner"
+		"Multiphasic ammo" 1200
+		"Nuclavoltaic Turret" 2
+		"One-Phasic Cooler" 2
+		"Phasic Grenades" 20
+		"Phasic Rifle" 15
+		"Quantum Generator"
+		"Quatalant Shield (Medium)" 2
+		"Quatalant Shield (Small)" 2
 		"RC-200 Atomic Thruster" 2
 		"RC-205 Atomic Steering" 2
-		`RX-200 Reverse Thruster` 4
-		"Phasic Rifle" 15
-		"Empire Defense Station" 3
-		"Phasic Grenades" 20
-		
-		"Countermesure Module"
-		"Teleportation Dock"
-		"Cloaking Module"
-		"Compact Plasma Drive"
-	
-	engine 19.5 128
-		zoom 1.6
-	engine -19.5 128
-		zoom 1.6
-	engine -78.5 153
-		zoom 1.8
-	engine 78.5 153
-		zoom 1.8
-	"reverse engine" -9 -154
-	"reverse engine" 9 -154
-	turret 0 40 "Grab-Strike Blaze"
-	turret -11 -141.5 "Nuclavoltaic Turret"
-	turret 11 -141.5 "Nuclavoltaic Turret"
-	turret 0 -106 "Multiphasic Anti-Missile"
-	turret 0 72 "Multiphasic Anti-Missile"
-	gun -68.5 -145.5 "Nuclavoltaic Repeater"
-	gun -58.5 -147 "Nuclavoltaic Repeater"
-	gun -49.5 -148.5 "Nuclavoltaic Repeater"
-	gun 68.5 -145.5 "Nuclavoltaic Repeater"
-	gun 58.5 -147 "Nuclavoltaic Repeater"
-	gun 49.5 -148.5 "Nuclavoltaic Repeater"
-	gun 26.5 4.5 "Empire Torpedo Bank"
-	gun -26.5 4.5 "Empire Torpedo Bank"
-	explode "empire tiny explosion" 12
-	explode "empire small explosion" 16
-	explode "empire medium explosion" 30
-	explode "empire medium explosion" 40
-	explode "empire huge explosion" 20
-	"final explode" "empire huge explosion"
-	description "The Empire Palavret is a cheaper and stealthier version of the Empire Tubfalet. This was designed by the Lifdot Industries to have a cheaper price but still be good for outlaws and small Empire Rebels drugs interceptions missions. This ship had a large succes after it was created."
-	description "The goal of the Lifdot Industries was to build a new warship capable of destroying a whole Korath Exiles fleet himself. So the best way was to reuse an Korath Exiles ship model."
-	description "The second goal was to build a ship with the size of an Empire Galactik but with more compact outfits so it can be more maveuvrable and can carry more cargo if needed. Even if it is supposed to be a Warship, the Empire Navy more use it as an Interceptor to capture wanted outalaws or Empire Rebels."
-
-ship "Empire Palavret" "Empire Palavret (Wel'y)"
-	sprite "ship/empire palavret"
-	thumbnail "thumbnail/empire palavret"
-	"swizzle" 0
-	attributes
-		licenses
-			"Empire Navy"
-		category "Empire Warship"
-		"cost" 370000
-		"shields" 137000
-		"hull" 127000
-		"required crew" 55
-		"bunks" 77
-		"mass" 250
-		"drag" 13.5
-		"heat dissipation" .10
-		"fuel capacity" 600
-		"cargo space" 75
-		"landing speed" .07
-		"outfit space" 1075
-		"weapon capacity" 540
-		"engine capacity" 390
-		"hull repair rate" 5
-		"hull energy" 3
-		"ramscoop" .7
-		weapon
-			"blast radius" 75
-			"shield damage" 1700
-			"hull damage" 17000
-			"hit force" 7
-	outfits
-		"Empire Torpedo Bank" 2
-		"Empire Torpedo Missile" 240
-		"Empire Torpedo Rack" 20
-		"Wel'y Beam Canon" 6
-		"Nuclavoltaic Turret" 2
-		"Grab-Strike Blaze"
-
-		"Multiphasic Anti-Missile" 2
-		"Multiphasic ammo" 1200
-		
-		"Small Empire Shielding Core" 4
-		"Empire Hai Gorge Batteries"
-		"Thermal Nucleavoltaic"
-		"Multiphasic Scanner"
-		"Quantum Generator"
-		"Empire Barricade" 4
-		"Countermesure Module Compact" 2
-		"Empire Shielding Core"
-		"Multiphasic Cooler" 2
-		"One-Phasic Cooler" 2
-		"Mineria Key Stone"
-		"Brig" 3
 		"RC-X3 Multiphasic Reactor" 2
-		
-		"RC-200 Atomic Thruster" 2
-		"RC-205 Atomic Steering" 2
-		`RX-200 Reverse Thruster` 4
-		"Phasic Rifle" 15
-		"Empire Defense Station" 3
-		"Phasic Grenades" 20
-		
-		"Countermesure Module"
+		"RX-200 Reverse Thruster" 4
 		"Teleportation Dock"
-		"Cloaking Module"
-		"Compact Plasma Drive"
+		"Thermal Nucleavoltaic"
 	
 	engine 19.5 128
 		zoom 1.6
@@ -1533,115 +1195,193 @@ ship "Empire Palavret" "Empire Palavret (Wel'y)"
 	"final explode" "empire huge explosion"
 	description "The Empire Palavret is a cheaper and stealthier version of the Empire Tubfalet. This was designed by the Lifdot Industries to have a cheaper price but still be good for outlaws and small Empire Rebels drugs interceptions missions. This ship had a large succes after it was created."
 	description "The goal of the Lifdot Industries was to build a new warship capable of destroying a whole Korath Exiles fleet himself. So the best way was to reuse an Korath Exiles ship model."
-	description "The second goal was to build a ship with the size of an Empire Galactik but with more compact outfits so it can be more maveuvrable and can carry more cargo if needed. Even if it is supposed to be a Warship, the Empire Navy more use it as an Interceptor to capture wanted outalaws or Empire Rebels."
 	
-# Sea Kraken
-ship "Empire Sea Kraken" "Empire Sea Kraken (Caltalyctic)"
-		sprite "ship/empire seakraken"
-		thumbnail "thumbnail/empire seakraken"
-		swizzle 0
-		attributes
-			category "World Ship"
-			cost 276900000
-			shields 850500
-			licenses
-				"Empire Black Manta"
-			hull 900000
-			"required crew" 1940
-			"bunks" 31920
-			"mass" 10000
-			"drag" 84
-			"heat dissipation" .22
-			"solar collection" 4.2
-			"fuel capacity" 800
-			"cargo space" 3400
-			"outfit space" 7580
-			"weapon capacity" 3500
-			"engine capacity" 1200
-			"atmosphere scan" 100
-			weapon
-				"blast radius" 4000
-				"shield damage" 800000
-				"hull damage" 400000
-				"hit force" 120000
-		outfits
-			"Alldust Beam Turret" 7
-			Brig 8
-			"Catalytic Ramscoop" 8
-			"Cloaking Module"
-			"Countermesure Module" 8
-			"Countermesure Module Compact" 25
-			"Empire Barricade" 115
-			"Empire Defense Station" 140
-			"Empire Hai Fissure Batteries" 6
-			"Empire Hai Gorge Batteries" 4
-			"Empire Hai Ravine Batteries" 4
-			"Empire Hai Valley Batteries" 2
-			"Caltalytic Tear"
-			"Plasma Fuel Pod" 12
-			"Empire Shielding Core" 10
-			"Fuel Cell" 15
-			"Medical Station" 6
-			"Mineria Key Stone"
-			"Multiphasic Cooler" 8
-			"Multiphasic Scanner" 5
-			"One-Phasic Cooler" 16
-			"Phasic Fission Reactor"
-			"Phasic Grenades" 1000
-			"Phasic Radiothermal" 4
-			"Phasic Rifle" 1000
-			"Plasma Fuel Pod" 3
-			"Quantum Generator" 5
-			"RC-220 Atomic Thruster" 5
-			"RC-225 Atomic Steering" 7
-			"RC-X1 Multiphasic Reactor" 4
-			"RC-X2 Multiphasic Reactor" 4
-			"RC-X3 Multiphasic Reactor" 6
-			"RC-X4 Multiphasic Reactor" 4
-			"RX-200 Reverse Thruster" 12
-			"Small Empire Shielding Core" 20
-			"Teleportation Dock" 12
-			"Thermal Nucleavoltaic" 6
-			"Tre-Phasic Cooler" 16
-			"Tre-Phasic Rifle" 80
-			"Tri-Phasic Hyperdrive"
-			"X-Battlezone Computer" 4
-			"X-Crusade Computer" 2
-			"X-Skirmish Computer" 10
-			"X-Warforge Computer" 8
-		engine -38 304
-		engine 38 304
-		engine 0 315
-			zoom 2
-		gun 0 -326 "Caltalytic Tear"
-		"reverse engine" -80 -75 .6
-		"reverse engine" 80 -75 .6
-		"steering engine" -31 -207 .6
-			angle 60
-			right
-		"steering engine" 31 -207 .6
-			angle 300
-			left
-		"steering engine" -99 131 .6
-			angle 155
-			left
-		"steering engine" 99 131 .6
-			angle 205
-			right
-		turret -31 -207
-		turret 31 -207
-		turret 0 -156
-		turret -48 -99
-		turret 48 -99
-		turret -68 9
-		turret 68 9 
-		leak "empire flame" 75
-		leak "empire leak" 20
-		leak "empire big leak" 96
-		leak "empire big leak" 34
-		explode "empire tiny explosion" 30
-		explode "empire small explosion" 45
-		explode "empire medium explosion" 50
-		explode "empire medium explosion" 40
-		explode "empire huge explosion" 50
-		"final explode" "black manta explosion"
+ship "Empire Palavret" "Empire Palavret (Plasma Repeater)"
+	sprite "ship/empire palavret"
+	thumbnail "thumbnail/empire palavret"
+	"swizzle" 0
+	attributes
+		licenses
+			"Empire Navy"
+		category "Empire Warship"
+		"cost" 370000
+		"shields" 137000
+		"hull" 127000
+		"required crew" 55
+		"bunks" 77
+		"mass" 250
+		"drag" 13.5
+		"heat dissipation" .10
+		"fuel capacity" 600
+		"cargo space" 75
+		"landing speed" .07
+		"outfit space" 1075
+		"weapon capacity" 540
+		"engine capacity" 390
+		"hull repair rate" 5
+		"hull energy" 3
+		"ramscoop" .7
+		weapon
+			"blast radius" 75
+			"shield damage" 1700
+			"hull damage" 17000
+			"hit force" 7
+	outfits
+		"Nuclavoltaic Repeater" 6
+		Brig 3
+		"Cloaking Module"
+		"Compact Plasma Drive"
+		"Countermesure Module"
+		"Countermesure Module Compact" 2
+		"Empire Barricade" 4
+		"Empire Defense Station" 3
+		"Empire Hai Gorge Batteries"
+		"Empire Torpedo Bank" 2
+		"Empire Torpedo Missile" 240
+		"Empire Torpedo Rack" 20
+		"Grab-Strike Blaze"
+		"Mineria Key Stone"
+		"Multiphasic Anti-Missile" 2
+		"Multiphasic Cooler" 2
+		"Multiphasic Scanner"
+		"Multiphasic ammo" 1200
+		"Nuclavoltaic Turret" 2
+		"One-Phasic Cooler" 2
+		"Phasic Grenades" 20
+		"Phasic Rifle" 15
+		"Quantum Generator"
+		"Quatalant Shield (Medium)" 2
+		"Quatalant Shield (Small)" 2
+		"RC-200 Atomic Thruster" 2
+		"RC-205 Atomic Steering" 2
+		"RC-X3 Multiphasic Reactor" 2
+		"RX-200 Reverse Thruster" 4
+		"Teleportation Dock"
+		"Thermal Nucleavoltaic"
+	
+	engine 19.5 128
+		zoom 1.6
+	engine -19.5 128
+		zoom 1.6
+	engine -78.5 153
+		zoom 1.8
+	engine 78.5 153
+		zoom 1.8
+	"reverse engine" -9 -154
+	"reverse engine" 9 -154
+	turret 0 40 "Grab-Strike Blaze"
+	turret -11 -141.5 "Nuclavoltaic Turret"
+	turret 11 -141.5 "Nuclavoltaic Turret"
+	turret 0 -106 "Multiphasic Anti-Missile"
+	turret 0 72 "Multiphasic Anti-Missile"
+	gun -68.5 -145.5 "Nuclavoltaic Repeater"
+	gun -58.5 -147 "Nuclavoltaic Repeater"
+	gun -49.5 -148.5 "Nuclavoltaic Repeater"
+	gun 68.5 -145.5 "Nuclavoltaic Repeater"
+	gun 58.5 -147 "Nuclavoltaic Repeater"
+	gun 49.5 -148.5 "Nuclavoltaic Repeater"
+	gun 26.5 4.5 "Empire Torpedo Bank"
+	gun -26.5 4.5 "Empire Torpedo Bank"
+	explode "empire tiny explosion" 12
+	explode "empire small explosion" 16
+	explode "empire medium explosion" 30
+	explode "empire medium explosion" 40
+	explode "empire huge explosion" 20
+	"final explode" "empire huge explosion"
+	description "The Empire Palavret is a cheaper and stealthier version of the Empire Tubfalet. This was designed by the Lifdot Industries to have a cheaper price but still be good for outlaws and small Empire Rebels drugs interceptions missions. This ship had a large succes after it was created."
+	description "The goal of the Lifdot Industries was to build a new warship capable of destroying a whole Korath Exiles fleet himself. So the best way was to reuse an Korath Exiles ship model."
+	
+ship "Empire Palavret" "Empire Palavret (Ion Proton)"
+	sprite "ship/empire palavret"
+	thumbnail "thumbnail/empire palavret"
+	"swizzle" 0
+	attributes
+		licenses
+			"Empire Navy"
+		category "Empire Warship"
+		"cost" 370000
+		"shields" 137000
+		"hull" 127000
+		"required crew" 55
+		"bunks" 77
+		"mass" 250
+		"drag" 13.5
+		"heat dissipation" .10
+		"fuel capacity" 600
+		"cargo space" 75
+		"landing speed" .07
+		"outfit space" 1075
+		"weapon capacity" 540
+		"engine capacity" 390
+		"hull repair rate" 5
+		"hull energy" 3
+		"ramscoop" .7
+		weapon
+			"blast radius" 75
+			"shield damage" 1700
+			"hull damage" 17000
+			"hit force" 7
+	outfits
+		"Ion Proton Gun" 6
+		Brig 3
+		"Cloaking Module"
+		"Compact Plasma Drive"
+		"Countermesure Module"
+		"Countermesure Module Compact" 2
+		"Empire Barricade" 4
+		"Empire Defense Station" 3
+		"Empire Hai Gorge Batteries"
+		"Empire Torpedo Bank" 2
+		"Empire Torpedo Missile" 240
+		"Empire Torpedo Rack" 20
+		"Grab-Strike Blaze"
+		"Mineria Key Stone"
+		"Multiphasic Anti-Missile" 2
+		"Multiphasic Cooler" 2
+		"Multiphasic Scanner"
+		"Multiphasic ammo" 1200
+		"Nuclavoltaic Turret" 2
+		"One-Phasic Cooler" 2
+		"Phasic Grenades" 20
+		"Phasic Rifle" 15
+		"Quantum Generator"
+		"Quatalant Shield (Medium)" 2
+		"Quatalant Shield (Small)" 2
+		"RC-200 Atomic Thruster" 2
+		"RC-205 Atomic Steering" 2
+		"RC-X3 Multiphasic Reactor" 2
+		"RX-200 Reverse Thruster" 4
+		"Teleportation Dock"
+		"Thermal Nucleavoltaic"
+	
+	engine 19.5 128
+		zoom 1.6
+	engine -19.5 128
+		zoom 1.6
+	engine -78.5 153
+		zoom 1.8
+	engine 78.5 153
+		zoom 1.8
+	"reverse engine" -9 -154
+	"reverse engine" 9 -154
+	turret 0 40 "Grab-Strike Blaze"
+	turret -11 -141.5 "Nuclavoltaic Turret"
+	turret 11 -141.5 "Nuclavoltaic Turret"
+	turret 0 -106 "Multiphasic Anti-Missile"
+	turret 0 72 "Multiphasic Anti-Missile"
+	gun -68.5 -145.5 "Ion Proton Gun"
+	gun -58.5 -147 "Ion Proton Gun"
+	gun -49.5 -148.5 "Ion Proton Gun"
+	gun 68.5 -145.5 "Ion Proton Gun"
+	gun 58.5 -147 "Ion Proton Gun"
+	gun 49.5 -148.5 "Ion Proton Gun"
+	gun 26.5 4.5 "Empire Torpedo Bank"
+	gun -26.5 4.5 "Empire Torpedo Bank"
+	explode "empire tiny explosion" 12
+	explode "empire small explosion" 16
+	explode "empire medium explosion" 30
+	explode "empire medium explosion" 40
+	explode "empire huge explosion" 20
+	"final explode" "empire huge explosion"
+	description "The Empire Palavret is a cheaper and stealthier version of the Empire Tubfalet. This was designed by the Lifdot Industries to have a cheaper price but still be good for outlaws and small Empire Rebels drugs interceptions missions. This ship had a large succes after it was created."
+	description "The goal of the Lifdot Industries was to build a new warship capable of destroying a whole Korath Exiles fleet himself. So the best way was to reuse an Korath Exiles ship model."
