@@ -364,7 +364,7 @@ ship "Empire Tubfalet"
 	explode "empire huge explosion" 20
 	"final explode" "empire huge explosion"
 	description "The goal of the Lifdot Industries was to build a new warship capable of destroying a whole Korath Exiles fleet himself. So the best way was to reuse an Korath Exiles ship model."
-	description "The second goal was to build a ship with the size of an Empire Galactik but with more compact outfits so it can be more maveuvrable and can carry more cargo if needed. Even if it is supposed to be a Warship, the Empire Navy more use it as an Interceptor to capture wanted outalaws or Empire Rebels."
+	description "The second goal was to build a ship with the size of an Empire Galactik but with more compact outfits so it can be more maveuvrable and can carry more cargo if needed. Even if it is supposed to be a Warship, the Empire Navy more use it as an Interceptor to capture wanted outlaws or Empire Rebels."
 
 ship "Empire Palavret"
 	sprite "ship/empire palavret"
@@ -676,7 +676,7 @@ ship "Empire Hydra"
 	explode "empire huge explosion" 20
 	"final explode" "empire huge explosion"
 	description "The goal of the Lifdot Industries was to build a new warship capable of destroying a whole Korath Exiles fleet himself. So the best way was to reuse an Korath Exiles ship model."
-	description "The second goal was to build a ship with the size of an Empire Galactik but with more compact outfits so it can be more maveuvrable and can carry more cargo if needed. Even if it is supposed to be a Warship, the Empire Navy more use it as an Interceptor to capture wanted outalaws or Empire Rebels."
+	description "The second goal was to build a ship with the size of an Empire Galactik but with more compact outfits so it can be more maveuvrable and can carry more cargo if needed. Even if it is supposed to be a Warship, the Empire Navy more use it as an Interceptor to capture wanted outlaws or Empire Rebels. What makes it so good is that the Cromha Empire can easily install new antimatter technologies on this ship if need when it is in a mission or a defense mission. "
 	
 ship "Empire Oriole"
 	sprite "ship/Empire Oriole"
@@ -757,7 +757,7 @@ ship "Empire Oriole"
 	explode "empire tiny explosion" 60
 	explode "empire medium explosion" 40
 	"final explode" "empire huge explosion"
-	description "The Empire Wardragmoin is an remix of the Quarg Wardragon. This is the official Empire Warship that they use. It has good outfits, a great cargo space and great velocity. It is perfect for interceptions, attack, defend or even escort missions."
+	description "The Empire Oriole is mostly used in escort fleets, it is fast, can move from a system to another easily... The Lifdot Industris didn't have any particular goals for this new warships, except that it should be a more compact ship than the Empire Wardragon. The Empire Oriole, is a very easy target when it is alone, but when a in a fleet, it can be a powerful and useful warship."
 
 ship "Empire Skyswift"
 	sprite "ship/empire skyswift"
@@ -873,4 +873,4 @@ ship "Empire Skyswift"
 	explode "empire medium explosion" 80
 	explode "empire huge explosion" 5
 	"final explode" "empire huge explosion"
-	description "As the Empire Wardragon, this great ship is a remix of the Quarg ship Skylark. Like the Empire Wardragon, this ship is designed for interception, defend and attack missions principally. The only difference with th Empire Wardragon is that the Empire Skylark has been designed for longer missions. With its capability to regenerate fuel easily, it is a great ship for long interceptions missions but also cargo missions since it has a good cargo space."
+	description "The Empire Skyswift is for sure an updated version of the Empire Skylark. It is basically a bigger ships with the new technologies the Lifdot Industries created after the Empire Skylark was made. Since this ships is very expensive build, you won't see this ship often. One of the biggest advantages of this warship is the Ameliorating Phasic-Cell, a brand new technology that is extremely powerful, as well as Shield Processors."
