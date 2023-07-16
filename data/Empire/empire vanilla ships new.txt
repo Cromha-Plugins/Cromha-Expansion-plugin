@@ -477,3 +477,57 @@ ship "Sunder"
 	explode "medium explosion" 15
 	"final explode" "final explosion small"
 	description "The Sunder, even if it is a ship classed in the Transport category, it is more of a Utility ship. It has no particular attributes that make it stand out. The only thing that makes him good is its price: a young man or girl can easily afford this ship to start a new life in the Empire Space. But now, this ship is mostly used by asteroid miners in the Empire Space. You will often see this ship with Arbiters."
+	
+ship "Dreadful"
+	sprite "ship/dreadful"
+	thumbnail "thumbnail/dreadful"
+	attributes
+		category "Interceptor"
+		"cost" 670000
+		"shields" 2700
+		"hull" 800
+		"required crew" 1
+		"bunks" 4
+		"mass" 110
+		"drag" 2.1
+		"heat dissipation" .8
+		"fuel capacity" 300
+		"cargo space" 20
+		"outfit space" 270
+		"weapon capacity" 150
+		"engine capacity" 70
+		weapon
+			"blast radius" 30
+			"shield damage" 650
+			"hull damage" 235
+			"hit force" 450
+	outfits
+		"Compact Plasma Drive"
+		"Countermesure Module Compact" 2
+		"Empire Hai Fissure Batteries"
+		"NGx3 Quatalant Cooler" 2
+		"Phasic Dwarf Core"
+		"Phasic Radiothermal"
+		"Phasic Ramscoop"
+		"Quatalant Shield (Medium)"
+		"RC-140 Atomic Thruster"
+		"RC-145 Atomic Steering"
+		"Small Bunk Room"
+		"Thermal Nucleavoltaic" 2
+		"Twin Empire Particle" 2
+		
+	engine 27 44
+	engine -27 44
+	gun 50.5 -0.5 "Twin Empire Particle"
+		under
+	gun -50.5 -0.5 "Twin Empire Particle"
+		under
+	gun 8.5 -1.5
+		under
+	gun -8.5 -1.5
+		under
+	leak "leak" 60 50
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	"final explode" "final explosion small"
+	description "The Tarazed Hawk is an interceptor-class warship often used as an escort for freighters or in a planetary militia's patrol squadron. Hawks are fast enough to chase down most smaller ships, but are capable of mounting much more powerful weapons. They are also, of course, a favorite ship of pirate captains who have earned enough money to afford one."

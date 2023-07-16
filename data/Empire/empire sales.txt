@@ -258,6 +258,7 @@ shipyard Advanced-interceptors-shipyard
 	"Wasp (Empire)"
 	"Hornet"
 	"Rancorster"
+	"Dreadful"
 
 shipyard Basic-warships-shipyard
 	"Bastion (Empire)"
@@ -269,6 +270,7 @@ shipyard Basic-warships-shipyard
 	"Raven (Empire)"
 	"Ranmaker (Empire)"
 	"Rancorster"
+	"Dreadful"
 
 shipyard Advanced-warships-shipyard
 	"Aerie (Empire)"
@@ -294,6 +296,7 @@ shipyard Advanced-warships-shipyard
 	"Frigate (Empire)"
 	"Rancorster"
 	"Bulk Courier"
+	"Dreadful"
 
 shipyard Basic-lifdot-industries-shipyard
 	"Argosy (Empire)"
@@ -325,6 +328,7 @@ shipyard Basic-lifdot-industries-shipyard
 	"Bulk Courier"
 	Arbiter
 	"Sunder"
+	"Dreadful"
 
 shipyard Advanced-lifdot-industries-shipyard
 	"Argosy (Empire)"
@@ -374,3 +378,4 @@ shipyard Advanced-lifdot-industries-shipyard
 	"Empire Kastador"
 	Arbiter
 	"Sunder"
+	"Dreadful"
