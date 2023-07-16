@@ -312,11 +312,11 @@ mission "Empire: Station Escort Meftarkata"
 					decline
 				`	Ignore the hail and land`
 					decline
-	npc accompany
+	npc
 		government "Mineria colonnies"
 		fleet mineria-transports 2
 		planet source
-	npc accompany
+	npc
 		government "Cromha Empire"
 		fleet cromha-fleet 2
 		system Lifdot
@@ -325,15 +325,16 @@ mission "Empire: Station Escort Meftarkata"
 		personality target escort
 		planet source
 		ship "Mefterk Refinery" "Mefterk Refinery"
-	npc
+	npc evade
 		government "Empire Rebels"
 		system destination
-		personality staying
-		fleet empire-rebels-raiders-fleet 2
-	npc
+		personality staying target
+		fleet empire-rebels-raiders-fleet 5
+	npc evade
 		government "Kor Mereti"
 		system "Sepetrosk"
-		fleet "Large Kor Mereti" 2
+		personality target
+		fleet "Large Kor Mereti" 3
 	on complete
 		payment 780000
 		payment
@@ -376,19 +377,19 @@ mission "Empire: Caltalytic Tear Transport1"
 	on complete
 		payment
 		payment 500000000
-	npc
+	npc evade
 		government "Kor Mereti"
 		personality target
 		system
 			distance 2 5
 		fleet "Large Kor Mereti" 5
-	npc
+	npc evade
 		government "Kor Sestor"
 		personality target
 		system
 			distance 2 5
 		fleet "Large Kor Sestor" 3
-	npc
+	npc evade
 		government "Kor Efret"
 		personality target
 		system
@@ -416,21 +417,21 @@ mission "Empire: Caltalytic Tear Transport2"
 		dialog "You got payed 1B credits and The Empire inform you that the weapon is now avaible in the outfitter."
 		log "You helped the Cromha Empire to create the Caltalytic Tear. It is a destructive Secondary Weapon that can kill any Korath Destroyer in a few seconds. You also got payed 1B credits. Thanks to you, now the Empire Seakraken have these powerful weapons installed on them."
 		event "Caltalytic Tear Appears"
-	npc
+	npc evade
 		government "Kor Mereti"
 		personality target
 		system
-			distance 2 5
+			distance 2 3
 		fleet "Large Kor Mereti" 5
-	npc
+	npc evade
 		government "Kor Sestor"
 		personality target
 		system
-			distance 2 5
+			distance 2 3
 		fleet "Large Kor Sestor" 3
-	npc
+	npc evade
 		government "Kor Efret"
 		personality target
 		system
-			distance 2 5
+			distance 2 3
 		fleet "Kor Efret Home" 6
