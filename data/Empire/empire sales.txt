@@ -339,7 +339,6 @@ shipyard Advanced-lifdot-industries-shipyard
 	"Empire Daggrez"
 	"Empire Dredger"
 	"Empire Fortress"
-	"Empire Fortress (Emperor)"
 	"Empire Galactik"
 	"Empire Kraken"
 	"Empire Nano-Flyer"

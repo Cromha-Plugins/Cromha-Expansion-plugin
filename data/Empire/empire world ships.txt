@@ -28,8 +28,9 @@ ship "Empire Sea Kraken"
 			"hit force" 120000
 	outfits
 		"Alldust Beam Turret" 7
+		"Antimatter Capacitor (Large)" 3
+		"Antimatter Cooling Cell" 2
 		Brig 8
-		"Catalytic Ramscoop" 4
 		"Cloaking Module"
 		"Countermesure Module" 8
 		"Countermesure Module Compact" 25
@@ -40,16 +41,18 @@ ship "Empire Sea Kraken"
 		"Empire Hai Ravine Batteries" 4
 		"Empire Hai Valley Batteries" 2
 		"Empire Nuke"
-		"Empire Shielding Core" 10
 		"Fuel Cell" 5
 		"Medical Station" 6
 		"Mineria Key Stone"
 		"Multiphasic Cooler" 8
 		"Multiphasic Scanner" 5
+		"NGx3 Quatalant Cooler" 4
+		"NGx9 Quatalant Cooler" 2
 		"One-Phasic Cooler" 16
 		"Phasic Fission Reactor"
 		"Phasic Grenades" 1000
 		"Phasic Radiothermal" 4
+		"Phasic Ramscoop" 8
 		"Phasic Rifle" 1000
 		"Plasma Fuel Pod" 3
 		"Quantum Generator" 5
@@ -60,7 +63,7 @@ ship "Empire Sea Kraken"
 		"RC-X3 Multiphasic Reactor" 6
 		"RC-X4 Multiphasic Reactor" 4
 		"RX-200 Reverse Thruster" 12
-		"Small Empire Shielding Core" 20
+		"Shield Processor (Huge)"
 		"Teleportation Dock" 12
 		"Thermal Nucleavoltaic" 6
 		"Tre-Phasic Cooler" 16
@@ -106,6 +109,7 @@ ship "Empire Sea Kraken"
 	explode "empire medium explosion" 40
 	explode "empire huge explosion" 50
 	"final explode" "black manta explosion"
+	description "The Sea Kraken is a heavy World Ship that is mostly used by The Empire for transporting large amount of people like colonies, Empire Military, and Remnant people that want to start a new life in the Empire Space. You will not often see this ship."
 
 ship "Empire Fortress"
 	sprite "ship/empire fortress"
@@ -350,8 +354,8 @@ ship "Empire Fortress"
 	explode "empire medium explosion" 40
 	explode "empire huge explosion" 50
 	"final explode" "black manta explosion"
-	description "The Original Empire Fortress, is a massive fortress that can contain a small city with its 32,000 bunks. It has been designed to explore every place of the galaxy. It's with this enormous ship that The Empire has a so much detailed map of the space. It can contains several nanobots and more cargo that you would ever need. It might be the most powerful and polyvalent ship you've ever seen."
-	description "Noone know how many of these ships remains in the galaxy; probably only a decade but The Empire stil use it for long missions in the advanced korath space or for futures collonisations. The Empire uses one of the remaining Empire Fortress for keeping contact with the Coalition and deliver food and technologies supplies."
+	description "The Original Empire Fortress, is a massive fortress that can contain a small city with its 32,000 bunks. It has been designed to explore every place of the galaxy. It's with this enormous ship that The Empire has a so much detailed map of the space. It can contains several nanobots and more cargo that you would ever need. It might be the most powerful and versatile ship you've ever seen."
+	description "No one know how many of these ships remains in the galaxy; probably only a decade but The Empire stil use it for long missions in the advanced Korath space or for futures colonization. The Empire uses one of the remaining Empire Fortress for keeping contact with the Coalition and deliver food and technologies supplies."
 
 ship "Empire Colinizer"
 	sprite "ship/empire fortress mini"
@@ -464,4 +468,4 @@ ship "Empire Colinizer"
 	explode "empire small explosion" 45
 	explode "empire medium explosion" 30
 	"final explode" "empire huge explosion"
-	description "Rai-alore J"
+	description "DEPRECATED"

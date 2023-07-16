@@ -26,7 +26,8 @@ ship "Empire Kraken"
 			"hit force" 4300
 	outfits
 		"Alldust Beam Turret" 6
-		"Catalytic Ramscoop"
+		"Antimatter Capacitor (Large)"
+		Brig 2
 		"Cloaking Module"
 		"Countermesure Module" 4
 		"Countermesure Module Compact" 8
@@ -34,9 +35,8 @@ ship "Empire Kraken"
 		"Empire Defense Station" 30
 		"Empire Hai Ravine Batteries" 2
 		"Empire Hai Valley Batteries"
-		"Empire Nuke" 2
 		"Empire Navy Emitter"
-		"Empire Shielding Core" 2
+		"Empire Nuke" 2
 		"Empire Torpedo Bank" 2
 		"Empire Torpedo Missile" 140
 		"Empire Torpedo Rack" 10
@@ -48,13 +48,20 @@ ship "Empire Kraken"
 		"Multiphasic Cooler" 2
 		"Multiphasic Scanner"
 		"Multiphasic ammo" 3600
+		"NGx3 Quatalant Cooler" 2
 		"Nuclavoltaic Turret" 6
 		"One-Phasic Cooler" 4
 		"Phasic Grenades" 50
+		"Phasic Mine Layer" 4
+		"Phasic Mine Rack" 25
+		"Phasic Ramscoop"
 		"Phasic Rifle" 50
+		"Phasic-Cluster Mine" 293
 		"Plasma Drive"
 		"Plasma Fuel Pod"
 		"Quantum Generator" 2
+		"Quatalant Shield (Huge)" 2
+		"Quatalant Shield (Medium)" 2
 		"RC-200 Atomic Thruster" 2
 		"RC-205 Atomic Steering" 2
 		"RC-220 Atomic Thruster"
@@ -62,14 +69,12 @@ ship "Empire Kraken"
 		"RC-X2 Multiphasic Reactor"
 		"RC-X4 Multiphasic Reactor"
 		"RX-200 Reverse Thruster" 4
+		"Shield Processor (Huge)"
 		"Small Bunk Room" 4
-		"Small Empire Shielding Core" 6
 		"Teleportation Dock" 4
 		"Thermal Nucleavoltaic" 4
-		"Phasic-Cluster Mine" 293
-		"Phasic Mine Layer" 4
-		"Phasic Mine Rack" 25
 		"Tre-Phasic Rifle" 4
+		"X-Crusade Computer"
 	# Thrusters
 	engine -62.5 206.5
 		zoom 1.2
@@ -159,7 +164,7 @@ ship "Empire Kraken"
 	explode "empire medium explosion" 40
 	explode "empire huge explosion" 10
 	"final explode" "empire huge explosion"
-	description "The Empire Destroyer is more than just a warship: it is practically a mobile space station, with docking bays for an entire squadron of drones and fighters and enough crew to fill a small village. Although designed primarily for engaging enemies from a distance, a Carrier can also do significant damage in close combat."
+	description "The Empire Kraken is more than just a warship: it is practically a mobile space station, with docking bays for an entire squadron of drones and fighters and enough crew to fill a small village. Although designed primarily for engaging enemies from a distance, a Kraken can also do significant damage in close combat. It is very powerful with its various weapons, which makes this ship extremely versatile. Except this, there is not much to tell about this Destroyers."
 
 ship "Empire Kastador"
 	sprite "ship/Empire Kastador"
@@ -188,6 +193,8 @@ ship "Empire Kastador"
 			"hull damage" 35777
 			"hit force" 4300
 	outfits
+		"Ameliorating Phasic-Cell"
+		"Antimatter Capacitor (Large)"
 		Brig 6
 		"Cloaking Module"
 		"Countermesure Module" 4
@@ -200,7 +207,6 @@ ship "Empire Kastador"
 		"Empire Hai Valley Batteries"
 		"Empire Navy Emitter" 3
 		"Empire Nuke" 2
-		"Empire Shielding Core" 4
 		"Grab-Strike Blaze" 4
 		"Multiphasic Cooler" 4
 		"Multiphasic Scanner"
@@ -221,7 +227,7 @@ ship "Empire Kastador"
 		"RC-X3 Multiphasic Reactor" 6
 		"RC-X4 Multiphasic Reactor" 4
 		"RX-200 Reverse Thruster" 4
-		"Small Empire Shielding Core" 8
+		"Shield Processor"
 		"Teleportation Dock" 3
 		"Thermal Nucleavoltaic" 4
 		"Tre-Phasic Cooler" 2
@@ -314,7 +320,7 @@ ship "Empire Kastador"
 	explode "empire medium explosion" 40
 	explode "empire huge explosion" 10
 	"final explode" "empire huge explosion"
-	description "The Empire Destroyer is more than just a warship: it is practically a mobile space station, with docking bays for an entire squadron of drones and fighters and enough crew to fill a small village. Although designed primarily for engaging enemies from a distance, a Carrier can also do significant damage in close combat."	
+	description "The Empire Kastador is an try of the Lifdot Industries to create a new Destroyer that will have for model the Empire Kraken but will be principally designed for carrying nanobots squadrons. Technically, this Destroyer is pretty useless in combat but the fact that it can carry dozens of nanobots makes it very powerful in defense mission or even attack mission. This type of ship can be extremely helpful while fighting against Korath fleets."	
 
 ship "Empire Corvette YLL'A"
 	sprite "ship/Empire Corvette YLL'A"
@@ -344,8 +350,9 @@ ship "Empire Corvette YLL'A"
 			"hit force" 2400
 	outfits
 		"Alldust Beam Turret" 4
+		"Ameliorating Phasic-Cell"
+		"Antimatter Capacitor (Large)"
 		Brig 4
-		"Catalytic Ramscoop"
 		"Cloaking Module"
 		"Countermesure Module" 2
 		"Countermesure Module Compact" 8
@@ -353,8 +360,8 @@ ship "Empire Corvette YLL'A"
 		"Empire Defense Station" 40
 		"Empire Hai Gorge Batteries"
 		"Empire Hai Ravine Batteries" 2
+		"Empire Navy Emitter"
 		"Empire Nuke" 2
-		"Empire Shielding Core" 8
 		"Grab-Strike Blaze" 3
 		"Mineria Key Stone"
 		"Multiphasic Ammo Rack" 10
@@ -366,6 +373,7 @@ ship "Empire Corvette YLL'A"
 		"Nuclavoltaic Turret" 2
 		"One-Phasic Cooler" 8
 		"Phasic Grenades" 60
+		"Phasic Ramscoop" 12
 		"Phasic Rifle" 60
 		"Plasma Drive"
 		"Plasma Fuel Pod"
@@ -375,11 +383,10 @@ ship "Empire Corvette YLL'A"
 		"RC-X2 Multiphasic Reactor"
 		"RC-X3 Multiphasic Reactor"
 		"RC-X4 Multiphasic Reactor"
-		"Small Empire Shielding Core" 14
+		"Shield Processor"
 		"Teleportation Dock" 4
 		"Thermal Nucleavoltaic" 4
 		"Tre-Phasic Rifle" 2
-		"Empire Navy Emitter"
 	engine -9.5 244.5
 		zoom 1.8
 	engine 10.5 245.5
@@ -450,7 +457,8 @@ ship "Empire Corvette YLL'A"
 	explode "empire medium explosion" 60
 	explode "empire huge explosion" 40
 	"final explode" "empire medium explosion"
-	description "The Empire Destroyer is one of the most powerful warships in the Empire fleet, a sleeker and more maneuverable alternative to the venerable and somewhat outdated Leviathan."
+	description "The Empire Corvettes are nanobots carriers. Like most of carriers, it is pretty useless in a fight if it is alone with no nanobot. It's why you see Empire Corvettes always with other Destroyers. The only difference with other carriers is that these ones have better hulls and shields and in general better systems and mobility."
+	description "The Empire Corvette YLL'A is less a carrier than the YLL'E version. It has less bays but even with that, it can carry Nanobots YLL'E, which are way better than Nanobots YLL'A."
 
 ship "Empire Corvette YLL'E"
 	sprite "ship/Empire Corvette YLL'E"
@@ -480,6 +488,8 @@ ship "Empire Corvette YLL'E"
 			"hit force" 2400
 	outfits
 		"Alldust Beam Turret" 4
+		"Ameliorating Phasic-Cell"
+		"Antimatter Capacitor (Large)"
 		Brig 4
 		"Cloaking Module"
 		"Countermesure Module" 2
@@ -487,8 +497,8 @@ ship "Empire Corvette YLL'E"
 		"Empire Barricade" 20
 		"Empire Defense Station" 35
 		"Empire Hai Ravine Batteries" 2
+		"Empire Navy Emitter"
 		"Empire Nuke"
-		"Empire Shielding Core" 6
 		"Fuel Cell"
 		"Grab-Strike Blaze" 3
 		"Mineria Key Stone"
@@ -500,18 +510,17 @@ ship "Empire Corvette YLL'E"
 		"Nuclavoltaic Turret" 3
 		"One-Phasic Cooler" 4
 		"Phasic Grenades" 50
+		"Phasic Ramscoop" 10
 		"Phasic Rifle" 50
 		"Plasma Drive"
 		"Plasma Fuel Pod"
 		"Quantum Generator" 3
 		"RC-220 Atomic Thruster"
-		"RC-225 Atomic Steering"
-		"RC-225 Atomic Steering"
-		"Small Empire Shielding Core" 8
+		"RC-225 Atomic Steering" 2
+		"Shield Processor"
 		"Teleportation Dock" 3
 		"Thermal Nucleavoltaic" 4
 		"Tre-Phasic Rifle" 2
-		"Empire Navy Emitter"
 	engine 11 220
 		zoom 1.8
 	engine -11 220
@@ -580,7 +589,8 @@ ship "Empire Corvette YLL'E"
 	explode "empire medium explosion" 60
 	explode "empire huge explosion" 40
 	"final explode" "empire medium explosion"
-	description "The Empire Destroyer is one of the most powerful warships in the Empire fleet, a sleeker and more maneuverable alternative to the venerable and somewhat outdated Leviathan."
+	description "The Empire Corvettes are nanobots carriers. Like most of carriers, it is pretty useless in a fight if it is alone with no nanobot. It's why you see Empire Corvettes always with other Destroyers. The only difference with other carriers is that these ones have better hulls and shields and in general better systems and mobility."
+	description "The Empire Corvette YLL'E is more a carrier than the YLL'A version. It has more bays but even with that, it can carry only Nanobots YLL'A, which are way worse than Nanobots YLL'E."
 
 ship "Empire Striker"
 	sprite "ship/medium empire destroyer"
@@ -607,14 +617,16 @@ ship "Empire Striker"
 			"hull damage" 19000
 			"hit force" 890
 	outfits
+		"Ameliorating Phasic-Cell"
+		"Antimatter Capacitor"
+		"Antimatter Capacitor (Large)"
+		"Antimatter Cooling Cell"
 		Brig 2
-		"Catalytic Ramscoop"
 		"Countermesure Module" 4
 		"Countermesure Module Compact" 6
 		"Empire Barricade" 8
 		"Empire Defense Station" 15
 		"Empire Hai Gorge Batteries"
-		"Empire Shielding Core" 4
 		"Empire Torpedo Missile" 60
 		"Empire Torpedo Rack" 4
 		"Empire Typhoon Bank"
@@ -630,11 +642,14 @@ ship "Empire Striker"
 		"Phasic Grenades" 50
 		"Phasic Mine Layer"
 		"Phasic Mine Rack" 4
+		"Phasic Ramscoop" 2
 		"Phasic Rifle" 50
 		"Phasic-Cluster Mine" 53
 		"Plasma Drive"
 		"Plasma Fuel Pod"
 		"Quantum Generator"
+		"Quatalant Shield (Big)"
+		"Quatalant Shield (Small)" 2
 		"RC-140 Atomic Thruster"
 		"RC-145 Atomic Steering"
 		"RC-200 Atomic Thruster"
@@ -643,7 +658,6 @@ ship "Empire Striker"
 		"RC-X2 Multiphasic Reactor" 2
 		"RC-X4 Multiphasic Reactor"
 		"RX-180 Reverse Thruster" 2
-		"Small Empire Shielding Core" 6
 		"Wel'y Beam Turret" 2
 	engine -44 152
 		zoom 1.3
@@ -682,7 +696,7 @@ ship "Empire Striker"
 	explode "empire medium explosion" 60
 	explode "empire huge explosion" 5
 	"final explode" "empire medium explosion"
-	description "The TF109 is designed almost solely for the purpose of carrying a fleet of Kor Sestor fighters and drones. Without them to serve as a protective screen, the ship itself is relatively helpless."
+	description "The Empire Striker is a derived version of the Empire Nano-Flyer: it is a carrier that can carry less Nanobots but contrarily to the Nano-Flyer, it can be very helpful in fights since it has more powerful weapons and more mobility. And in plus, it is even cheaper for The Empire to build Empire Strikers than to build Empire Nano-Flyer."
 
 ship "Empire Nano-Flyer"
 	sprite "ship/empire transporter"
@@ -719,7 +733,6 @@ ship "Empire Nano-Flyer"
 		"Empire Defense Station" 25
 		"Empire Hai Gorge Batteries" 2
 		"Empire Navy Emitter"
-		"Empire Shielding Core" 4
 		"Fuel Cell"
 		"Grab-Strike Blaze"
 		"Multiphasic Ammo Rack" 2
@@ -728,16 +741,20 @@ ship "Empire Nano-Flyer"
 		"Multiphasic Cooler" 4
 		"Multiphasic Scanner"
 		"Multiphasic ammo" 1200
+		"NGx3 Quatalant Cooler" 2
+		"NGx9 Quatalant Cooler"
 		"Nuclavoltaic Repeater" 2
 		"One-Phasic Cooler" 4
 		"Phasic Grenades" 35
+		"Phasic Ramscoop" 4
 		"Phasic Rifle" 35
 		"Plasma Fuel Pod"
 		"Quantum Generator" 2
+		"Quatalant Shield (Big)" 2
+		"Quatalant Shield (Medium)" 2
 		"RC-205 Atomic Steering"
 		"RC-220 Atomic Thruster"
 		"RC-X2 Multiphasic Reactor"
-		"Small Empire Shielding Core" 8
 		"Teleportation Dock" 2
 		"Thermal Nucleavoltaic" 4
 		"Tre-Phasic Rifle"
@@ -810,7 +827,7 @@ ship "Empire Nano-Flyer"
 	explode "empire medium explosion" 60
 	explode "empire huge explosion" 5
 	"final explode" "empire medium explosion"
-	description "The TF109 is designed almost solely for the purpose of carrying a fleet of Kor Sestor fighters and drones. Without them to serve as a protective screen, the ship itself is relatively helpless."
+	description "The Empire Nano-Flyer is designed almost solely for the purpose of carrying a squadron of Nanobots. Without them to serve as a protective screen, the ship itself is relatively helpless. The fact that even with the squadron attached to him he can be very mobiles makes this ship a very useful ship when catching up outlaws or running away Korath fleets."
 
 ship "Empire Galactik"
 	sprite "ship/Empire Galactik"
@@ -848,14 +865,12 @@ ship "Empire Galactik"
 		"Empire Barricade" 8
 		"Empire Defense Station" 15
 		"Empire Hai Gorge Batteries"
-		"Empire Navy Emitter"
-		"Empire Shielding Core" 4
+		"Empire Navy Emitter" 2
 		"Empire Torpedo Bank" 2
 		"Empire Torpedo Missile" 190
 		"Empire Torpedo Rack" 15
 		"Fuel Cell"
 		"Grab-Strike Blaze" 3
-		"Ion Proton Gun" 2
 		"Langrage Empire-Heaver"
 		"Mineria Key Stone"
 		"Multiphasic Ammo Rack" 5
@@ -871,16 +886,18 @@ ship "Empire Galactik"
 		"Plasma Drive"
 		"Plasma Fuel Pod"
 		"Quantum Generator" 3
+		"Quatalant Shield (Huge)"
+		"Quatalant Shield (Medium)" 2
+		"Quatalant Shield (Tiny)" 2
 		"RC-185 Atomic Steering"
 		"RC-220 Atomic Thruster"
 		"RC-225 Atomic Steering"
 		"RC-X2 Multiphasic Reactor"
 		"Small Bunk Room"
-		"Small Empire Shielding Core" 6
 		"Teleportation Dock" 2
 		"Thermal Nucleavoltaic" 2
 		"Tre-Phasic Rifle"
-		"Empire Navy Emitter"
+		"Twin Empire Particle" 2
 	engine -25 133
 	engine 24.5 132.5
 	engine -7 124
@@ -934,4 +951,4 @@ ship "Empire Galactik"
 	explode "empire medium explosion" 24
 	explode "empire huge explosion" 8
 	"final explode" "empire huge explosion"
-	description "The Empire Galactik is the largest warship produced by the Empire shipyard. It is designed to be faster and more maneuverable than other ships of a similar size, in order to serve as a heavy escort ship or as part of a planetary defense and patrol fleet. Because of its intended use in merchant convoys, it also has a fair amount of cargo space."
+	description "The Empire Galactik is the lightest destroyer produced by the Lifdot Industries. It is designed to be faster and more maneuverable than other ships of a similar size, in order to serve as a heavy escort ship or as part of a planetary defense and patrol fleet. Because of its intended use in merchant convoys, it also has a fair amount of cargo space."
