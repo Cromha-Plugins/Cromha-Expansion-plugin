@@ -72,7 +72,7 @@ ship "Colossus"
 	sprite "ship/colossus"
 	thumbnail "thumbnail/colossus"
 	attributes
-		category "Heavy Freighter"
+		category "Space Liner"
 		"cost" 10800000
 		"shields" 12950
 		"hull" 9400

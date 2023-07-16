@@ -685,7 +685,7 @@ ship "Star Queen" "Star Queen (Empire)"
 	sprite "ship/star queen"
 	thumbnail "thumbnail/star queen"
 	attributes
-		category "Utility"
+		category "Space Liner"
 		"cost" 4200000
 		"shields" 7800
 		"hull" 4500
@@ -933,7 +933,7 @@ ship "Hauler III" "Hauler III (Empire)"
 	sprite "ship/hauler iii"
 	thumbnail "thumbnail/hauler iii"
 	attributes
-		category "Heavy Freighter"
+		category "Space Liner"
 		"cost" 3260000
 		"shields" 4200
 		"hull" 7450
