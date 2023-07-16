@@ -238,7 +238,7 @@ fleet mineria-transports
 	government "Mineria colonnies"
 	names "empire fleet names"
 	"cargo settings"
-		cargo 9
+		cargo 6
 		commodities "Heavy Metals" Equipment Medical Electronics Military "Luxury Goods"
 		outfitters Base-outfitter Advanced-ammo-outfitter
 	personality
@@ -352,7 +352,7 @@ fleet cromha-merchants
 	government "Empire Merchant"
 	names civilian
 	"cargo settings"
-		cargo 6
+		cargo 4
 		commodities Clothing Equipment Medical Food Electronics Metal Plastic Industrial "Luxury Goods"
 	personality
 		confusion 40
@@ -755,7 +755,7 @@ fleet cromha-miners
 	government "Empire Merchant"
 	names civilian
 	"cargo settings"
-		cargo 1
+		cargo 2
 		commodities Medical Equipment Electronics Food Clothin Garbage
 		outfitters Base-outfitter Basic-ammo-outfitter
 	personality
