@@ -13,30 +13,30 @@ fleet cromha-fleet
 		"Empire Wardragon" 2
 		"Empire Nanobot YLL'E" 2
 	variant
-		"Empire Skylark (Electron Beam)"
+		"Empire Skylark (Alldust Beam)"
 		"Empire Wardragon (Ion Proton)" 2
 		"Empire Nanobot YLL'E" 2
 	variant
 		"Empire Skylark (Ion Proton)"
-		"Empire Wardragon (Electron Beam)"
+		"Empire Wardragon (Alldust Beam)"
 		"Empire Wardragon (Ion Proton)"
 		"Empire Nanobot YLL'A" 2
 	variant
 		"Empire Skylark (Plasma Repeater)"
-		"Empire Wardragon (Twin Modified Blaster)"
+		"Empire Wardragon (Plasma Repeater)"
 		"Empire Wardragon (Electron Beam)"
 		"Empire Nanobot YLL'E"
 		"Empire Nanobot YLL'A"
 	variant
 		"Empire Skylark (Wel'y)"
-		"Empire Wardragon (Twin Modified Blaster)"
-		"Empire Wardragon (Electron Beam)"
+		"Empire Wardragon (Twin Particle)"
+		"Empire Wardragon (Alldust Beam)"
 		"Empire Nanobot YLL'E"
 		"Empire Nanobot YLL'A"
 	variant
 		"Empire Skylark (Plasma Repeater)"
-		"Empire Wardragon (Twin Modified Blaster)"
-		"Empire Wardragon (Wel'y)"
+		"Empire Wardragon (Antimatter)"
+		"Empire Wardragon (Wel'y Beam)"
 		"Empire Nanobot YLL'E"
 		"Empire Nanobot YLL'A"
 	variant
@@ -44,7 +44,7 @@ fleet cromha-fleet
 		"Empire Oriole" 2
 		"Empire Nanobot YLL'E" 2
 	variant
-		"Empire Skylark (Electron Beam)"
+		"Empire Skylark (Alldust Beam)"
 		"Empire Oriole" 2
 		"Empire Nanobot YLL'E" 2
 	variant
@@ -68,7 +68,7 @@ fleet cromha-fleet
 		"Empire Nanobot YLL'A"
 	variant
 		"Empire Hydra"
-		"Empire Wardragon" 2
+		"Empire Wardragon (Twin Particle)" 2
 	variant
 		"Empire Hydra"
 		"Empire Oriole" 2
@@ -89,13 +89,13 @@ fleet cromha-fleet
 	variant
 		"Empire Palavret" 3
 	variant
-		"Empire Palavret (Proton)"
-		"Empire Palavret (Plasma)"
+		"Empire Palavret (Ion Proton)"
+		"Empire Palavret (Plasma Repeater)"
 		"Empire Palavret"
 	variant
-		"Empire Palavret (Proton)"
-		"Empire Palavret (Plasma)"
-		"Empire Palavret (Wel'y)"
+		"Empire Palavret (Ion Proton)"
+		"Empire Palavret (Plasma Repeater)"
+		"Empire Palavret (Wel'y Beam)"
 	variant
 		"Empire Tubfalet"
 		"Fuel Pod Class H"
@@ -103,8 +103,8 @@ fleet cromha-fleet
 	variant
 		"Empire Tubfalet"
 		"Fuel Pod Class H"
-		"Empire Palavret (Proton)"
-		"Empire Palavret (Plasma)"
+		"Empire Palavret (Ion Proton)"
+		"Empire Palavret (Plasma Repeater)"
 	variant
 		"Empire Dredger"
 		"Fuel Pod Class H"
@@ -112,11 +112,11 @@ fleet cromha-fleet
 	variant
 		"Empire Dredger"
 		"Fuel Pod Class H"
-		"Empire Palavret (Proton)"
+		"Empire Palavret (Ion Proton)"
 	variant
 		"Empire Dredger"
 		"Fuel Pod Class H"
-		"Empire Palavret (Plasma)"
+		"Empire Palavret (Plasma Repeater)"
 	variant 5
 		"Empire Galactik" 3
 	variant 2.5

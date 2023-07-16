@@ -27,21 +27,20 @@ ship "Empire Nanobot YLL'E"
 			"hull damage" 25
 			"hit force" 75
 	outfits
+		"Compact Plasma Drive"
+		"Countermesure Module Compact"
+		"Empire Hai Chasm Batteries"
 		"Langrage Empire-Heaver"
+		"Mineria Key Stone"
+		"Nanobot Pod"
 		"Nuclavoltaic Repeater"
+		"One-Phasic Cooler" 2
 		"Phasic Reasoning Node"
-		
+		"Quatalant Shield (Tiny)" 3
+		"RC-001 Atomic Engines"
 		"RC-X1 Multiphasic Reactor"
 		"Small Empire Shielding Core"
-		"Empire Hai Chasm Batteries" 
-		"Countermesure Module Compact"
-		"Nanobot Pod"
-		"One-Phasic Cooler" 2
-		"Mineria Key Stone"
 		"Thermal Nucleavoltaic"
-
-		`RC-001 Atomic Engines`
-		"Compact Plasma Drive"
 	engine 4 37.5
 	engine -10.5 37
 	gun 7 -13 "Nuclavoltaic Repeater"
@@ -77,20 +76,19 @@ ship "Empire Nanobot YLL'A"
 			"hull damage" 25
 			"hit force" 75
 	outfits
-		"Ion Proton Gun"
-		
-		"RC-X1 Multiphasic Reactor"
-		"Small Empire Shielding Core"
-		"Empire Hai Chasm Batteries" 
+		"Compact Plasma Drive"
 		"Countermesure Module Compact"
+		"Empire Hai Chasm Batteries"
+		"Ion Proton Gun"
+		"Mineria Key Stone"
 		"Nanobot Pod"
 		"One-Phasic Cooler" 2
-		"Mineria Key Stone"
-		"Thermal Nucleavoltaic"
 		"Phasic Reasoning Node"
-
-		`RC-001 Atomic Engines`
-		"Compact Plasma Drive"
+		"Quatalant Shield (Small)"
+		"RC-001 Atomic Engines"
+		"RC-X1 Multiphasic Reactor"
+		"Small Empire Shielding Core"
+		"Thermal Nucleavoltaic"
 	
 	engine 2 28
 	engine -2 28
@@ -122,14 +120,15 @@ ship "Cargo Transporter"
 			"hull damage" 25
 			"hit force" 75
 	outfits
-			`RC-001 Atomic Engines`
-			"Empire Particle gun"
-			"Small Empire Shielding Core"
-			"RC-X1 Multiphasic Reactor" 2
-			"Countermesure Module Compact"
-			"Empire Hai Chasm Batteries"
-			"Thermal Nucleavoltaic"
-			"Phasic Reasoning Node"
+		"Countermesure Module Compact"
+		"Empire Hai Chasm Batteries"
+		"Empire Particle gun"
+		"Phasic Reasoning Node"
+		"Quatalant Shield (Tiny)" 3
+		"RC-001 Atomic Engines"
+		"RC-X1 Multiphasic Reactor" 2
+		"Small Empire Shielding Core"
+		"Thermal Nucleavoltaic"
 	leak "empire leak" 15
 	explode "empire tiny explosion" 4
 	"final explode" "empire medium explosion"
@@ -163,13 +162,14 @@ ship "Cargo Transporter Class D"
 			"hull damage" 175
 			"hit force" 75
 	outfits
-			`RC-001 Atomic Engines` 2
-			"Alldust Beam Canon"
-			"Small Empire Shielding Core"
-			"Thermal Nucleavoltaic" 4
-			"Countermesure Module Compact"
-			"Multiphasic Capacitor"
-			"Phasic Reasoning Node"
+		"Alldust Beam Canon"
+		"Countermesure Module Compact"
+		"Multiphasic Capacitor"
+		"Phasic Reasoning Node"
+		"Quatalant Shield (Tiny)" 2
+		"RC-001 Atomic Engines" 2
+		"Small Empire Shielding Core"
+		"Thermal Nucleavoltaic" 4
 	leak "empire leak" 15
 	leak "empire big leak" 15
 	explode "empire tiny explosion" 4
@@ -281,7 +281,7 @@ ship "Fuel Pod Class D"
 			"RC-X1 Multiphasic Reactor" 2
 			"Multiphasic Capacitor"
 			"Countermesure Module"
-			"Small Empire Shielding Core"
+			"Quatalant Shield (Tiny)"
 			"One-Phasic Cooler" 2
 			"Phasic Reasoning Node"
 	leak "empire leak" 15
@@ -327,7 +327,7 @@ ship "Fuel Pod Class H"
 			"RC-X2 Multiphasic Reactor"
 			"Multiphasic Capacitor"
 			"Countermesure Module"
-			"Small Empire Shielding Core"
+			"Quatalant Shield (Tiny)"
 			"One-Phasic Cooler" 2
 			"Phasic Reasoning Node"
 	leak "empire leak" 15

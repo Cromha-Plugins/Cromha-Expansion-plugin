@@ -15,7 +15,7 @@ ship "Mefterk Refinery"
             "heat dissipation" .7
             "fuel capacity" 700
             "cargo space" 0
-            "outfit space" 0
+            "outfit space" 105
             "weapon capacity" 0
             "engine capacity" 0
             "thrust" 35
@@ -24,9 +24,14 @@ ship "Mefterk Refinery"
             "jump fuel" 100
             "jump speed" 2
             "ramscoop" .1
-            "inscrutable"
+		"inscrutable"
             "energy capacity" 1700
             "energy generation" 1700
+      outfits
+      	"Wel'y Beam Turret" 3
+	turret 0 -33 "Wel'y Beam Turret"
+	turret -54.5 -112.5 "Wel'y Beam Turret"
+	turret 84 -80 "Wel'y Beam Turret"
       leak "empire big leak" 45
       leak "empire leak 30"
       explode "empire tiny explosion" 20
