@@ -1,5 +1,5 @@
 minable "quatalant"
-	sprite "asteroid/crystal/crystal"
+	sprite "asteroid/livecrystal/livecrystal"
 	hull 4560
 	"random hull" 650
 	payload "Quatalant" 25
