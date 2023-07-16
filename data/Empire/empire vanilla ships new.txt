@@ -66,8 +66,7 @@ ship "Bulk Courier"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "The Bulk Freighter is the ultimate cargo ship, able to carry as much cargo as four ordinary Syndicate Freighters. Its on-board gearing allows it to service even the most primitive colonies, though dock workers in busier spaceports often joke that it would be simpler to carry smaller freighters within its gigantic holds."
-	description "	It is also an incredibly slow and difficult to maneuver ship, especially when loaded down with cargo. Some freight caravans use ordinary freighters instead of Bulk Freighters just to avoid the hassle of constantly having to wait for the Bulk Freighter to properly align itself for hyperspace travel."
+	description "The Bulk Courier was a successful attempt of the Lifdot Industries to make the best Heavy Freighter that can be affordable to most of Empire Merchants. The Empire taken the Bulk Freighter and changed the materials like heavy metals to quatalant to make the whole thing more resistant to hull damage and other kind of damage like heat damage, burn damage, ion damage."
 	
 ship "Colossus"
 	sprite "ship/colossus"
@@ -170,7 +169,7 @@ ship "Colossus"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "The Behemoth is a recent ship design from Betelgeuse Shipyards, designed as an alternative to the Syndicate Bulk Freighter. Although its cargo capacity is somewhat lower, it is also more maneuverable, and packs a heavier armament by default."
+	description "The Colossus is a recent ship that is taken from the original Behemoth. It is basically just a bigger version of it. While it can carry a lot of cargo, it has also a great defense with his 14 turret mounts and its extra bays for Fighters and Drones. Even if it is meant to be an Heavy Freighter, it is categorized in the Space Liner ships since it can travel easily a dozens of systems without need of any fuel or people to help them out."
 	
 ship "Modified Flivver"
 	sprite "ship/flivverRacing"
@@ -215,7 +214,7 @@ ship "Modified Flivver"
 	leak "leak" 60 50
 	explode "tiny explosion" 10
 	"final explode" "small explosion" 10
-	description "With space for neither cargo nor passengers nor heavy weaponry, the Flivver's only selling point is speed. Flivvers are sold mostly to wealthy individuals who want to be able to travel the stars without needing to share a bunk room on a merchant transport with common people."
+	description "With space for neither cargo nor passengers nor heavy weaponry, the Flivver's only selling point is speed. Flivvers are sold mostly to wealthy individuals who want to be able to travel the stars without needing to share a bunk room on a merchant transport with common people. This modified version of the Flivver was designed especially for a large growing group in the Empire Space: the space racers. These people organize races between different light ships and the rewards are huge."
 	
 ship "Hornet"
 	sprite "ship/hornet"
@@ -267,7 +266,7 @@ ship "Hornet"
 	leak "leak" 60 50
 	explode "tiny explosion" 20
 	explode "small explosion" 10
-	description "The Wasp is a medium-strength interceptor, designed by Syndicated Shipyards to serve as an escort for cargo vessels. Like most Syndicate ships, it is not particularly pretty, but it at least serves the purpose it was made for."
+	description "The Hornet looks like it is a modified version of the Wasp but it's actually the opposite: the Wasp is a modified version of the Hornet. The Hornet was originally designed by the Syndicate shipyards but at the end, it finished looking like the Wasp. The Lifdot Industries found the old plans of the Hornet and decided to finish this ship and to sell it. It don't have much difference to the Wasp, except its particular design."
 	
 ship "Rancorster"
 	sprite "ship/rancor"
@@ -477,4 +476,4 @@ ship "Sunder"
 	explode "small explosion" 20
 	explode "medium explosion" 15
 	"final explode" "final explosion small"
-	description "The Rainmaker is a missile boat built in the Republic Navy Yard. It comes equipped with four missile launchers and enough ammunition to destroy even ships many times its size. Because of their lack of maneuverability and relatively light shielding, Rainmakers serve best as long-range attack ships, and once their missile supply is spent, they are relatively useless in combat."
+	description "The Sunder, even if it is a ship classed in the Transport category, it is more of a Utility ship. It has no particular attributes that make it stand out. The only thing that makes him good is its price: a young man or girl can easily afford this ship to start a new life in the Empire Space. But now, this ship is mostly used by asteroid miners in the Empire Space. You will often see this ship with Arbiters."

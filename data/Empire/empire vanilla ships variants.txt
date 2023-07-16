@@ -33,7 +33,7 @@ ship "Blackbird" "Blackbird (Empire)"
 		"Phasic Dwarf Core" 2
 		"RC-180 Atomic Thruster"
 		"RC-185 Atomic Steering"
-		"Small Empire Shielding Core"
+		"Quatalant Shield (Small)"
 		"Small Radar Jammer"
 		
 	engine -42.5 52
@@ -82,7 +82,7 @@ ship "Flivver" "Flivver (Empire)"
 		"One-Phasic Cooler" 2
 		"RC-001 Atomic Engines"
 		"RX-120 Reverse Thruster"
-		"Small Empire Shielding Core"
+		"Quatalant Shield (Tiny)"
 		"Thermal Nucleavoltaic" 4
 		
 	engine -16.5 26
@@ -121,7 +121,7 @@ ship "Bounder" "Bounder (Empire)"
 		"Compact Plasma Drive"
 		"Countermesure Module Compact"
 		"Empire Hai Fissure Batteries" 2
-		"Empire Shielding Core"
+		"Quatalant Shield (Medium)"
 		"Ion Proton Turret" 2
 		"Multiphasic Anti-Missile" 2
 		"Multiphasic ammo" 1200
@@ -173,7 +173,7 @@ ship "Argosy" "Argosy (Empire)"
 		"Countermesure Module Compact"
 		"Empire Hai Gorge Batteries"
 		"Empire Particle gun" 2
-		"Empire Shielding Core"
+		"Quatalant Shield (Medium)"
 		"Ion Proton Turret"
 		"Langrage Empire-Heaver" 2
 		"Multiphasic Anti-Missile"
@@ -235,7 +235,7 @@ ship "Behemoth" "Behemoth (Empire)"
 	outfits
 		"Countermesure Module Compact" 2
 		"Empire Hai Gorge Batteries"
-		"Empire Shielding Core"
+		"Quatalant Shield (Medium)"
 		"Fuel Cell" 2
 		"Ion Proton Turret" 2
 		"Multiphasic Anti-Missile" 2
@@ -320,7 +320,7 @@ ship "Fury" "Fury (Empire)"
 		"RC-140 Atomic Thruster"
 		"RC-145 Atomic Steering"
 		"RC-X1 Multiphasic Reactor"
-		"Small Empire Shielding Core"
+		"Quatalant Shield (Small)"
 		"Small Radar Jammer" 2
 		
 	engine -11 35 0.8
@@ -365,7 +365,7 @@ ship "Headhunter" "Headhunter (Empire)"
 		"Compact Plasma Drive"
 		"Countermesure Module Compact"
 		"Empire Hai Fissure Batteries"
-		"Empire Shielding Core"
+		"Quatalant Shield (Medium)"
 		"Ion Proton Gun" 2
 		"Multiphasic Anti-Missile"
 		"Multiphasic ammo" 600
@@ -423,7 +423,7 @@ ship "Freighter" "Freighter (Empire)"
 		"RC-140 Atomic Thruster"
 		"RC-165 Atomic Steering"
 		"RX-120 Reverse Thruster"
-		"Small Empire Shielding Core"
+		"Quatalant Shield (Medium)"
 		"Thermal Nucleavoltaic" 2
 		
 	engine -7.5 92
@@ -455,7 +455,7 @@ ship "Bulk Freighter" "Bulk Freighter (Empire)"
 		"heat dissipation" .4
 		"fuel capacity" 900
 		"cargo space" 640
-		"outfit space" 415
+		"outfit space" 440
 		"weapon capacity" 260
 		"engine capacity" 85
 		weapon
@@ -468,7 +468,7 @@ ship "Bulk Freighter" "Bulk Freighter (Empire)"
 		"Countermesure Module Compact"
 		"Electron Turret" 2
 		"Empire Hai Fissure Batteries"
-		"Empire Shielding Core"
+		"Quatalant Shield (Big)"
 		"Multiphasic Anti-Missile"
 		"Multiphasic Cooler"
 		"Multiphasic ammo" 600
@@ -537,7 +537,7 @@ ship "Container Transport" "Container Transport (Empire)"
 		"Compact Plasma Drive"
 		"Countermesure Module Compact"
 		"Empire Hai Fissure Batteries"
-		"Empire Shielding Core"
+		"Quatalant Shield (Medium)"
 		"Ion Proton Turret"
 		"Laser Rifle"
 		"Multiphasic Anti-Missile" 2
@@ -612,7 +612,7 @@ ship "Heavy Shuttle" "Heavy Shuttle (Empire)"
 		Railgun
 		"Railgun Slug" 1500
 		"Railgun Slug Rack"
-		"Small Empire Shielding Core" 2
+		"Quatalant Shield (Tiny)" 2
 		"Thermal Nucleavoltaic"
 		
 	engine -6.5 38.5
@@ -661,7 +661,7 @@ ship "Scout" "Scout (Empire)"
 		"Phasic Dwarf Core"
 		"RC-001 Atomic Engines" 2
 		Ramscoop
-		"Small Empire Shielding Core" 2
+		"Quatalant Shield (Tiny)" 2
 		"Small Radar Jammer"
 		"Thermal Nucleavoltaic" 2
 		
@@ -707,7 +707,7 @@ ship "Star Queen" "Star Queen (Empire)"
 	outfits
 		"Compact Plasma Drive"
 		"Countermesure Module"
-		"Empire Shielding Core" 2
+		"Quatalant Shield (Medium)" 2
 		"Luxury Accommodations"
 		"Multiphasic Anti-Missile" 2
 		"Multiphasic Cooler" 2
@@ -766,7 +766,7 @@ ship "Clipper" "Clipper (Empire)"
 	outfits
 		"Compact Plasma Drive"
 		"Countermesure Module Compact"
-		"Empire Shielding Core"
+		"Quatalant Shield (Small)"
 		"Ion Proton Gun" 2
 		"Multiphasic Capacitor" 2
 		"One-Phasic Cooler"
@@ -832,7 +832,7 @@ ship "Hauler" "Hauler (Empire)"
 		"RC-180 Atomic Thruster"
 		"RC-185 Atomic Steering"
 		"RX-180 Reverse Thruster"
-		"Small Empire Shielding Core" 2
+		"Quatalant Shield (Small)" 2
 		"Small Radar Jammer"
 		"Thermal Nucleavoltaic" 6
 
@@ -877,7 +877,7 @@ ship "Hauler II" "Hauler II (Empire)"
 		"heat dissipation" .6
 		"fuel capacity" 400
 		"cargo space" 260
-		"outfit space" 350
+		"outfit space" 375
 		"weapon capacity" 140
 		"engine capacity" 80
 		weapon
@@ -889,7 +889,7 @@ ship "Hauler II" "Hauler II (Empire)"
 		"Compact Plasma Drive"
 		"Countermesure Module"
 		"Empire Hai Fissure Batteries"
-		"Empire Shielding Core"
+		"Quatalant Shield (Medium)" 2
 		"Empire Torpedo Missile" 90
 		"Empire Torpedo Rack" 5
 		"Empire Typhoon Bank" 2
@@ -944,7 +944,7 @@ ship "Hauler III" "Hauler III (Empire)"
 		"heat dissipation" .6
 		"fuel capacity" 400
 		"cargo space" 390
-		"outfit space" 350
+		"outfit space" 400
 		"weapon capacity" 140
 		"engine capacity" 80
 		weapon
@@ -958,7 +958,7 @@ ship "Hauler III" "Hauler III (Empire)"
 		"Compact Plasma Drive"
 		"Countermesure Module"
 		"Empire Hai Fissure Batteries"
-		"Empire Shielding Core" 2
+		"Quatalant Shield (Medium)" 2
 		"Empire Torpedo Missile" 30
 		"Empire Torpedo Rack"
 		"Empire Typhoon Bank"
@@ -1012,7 +1012,7 @@ ship "Star Barge" "Star Barge (Empire)"
 		"heat dissipation" .8
 		"fuel capacity" 300
 		"cargo space" 50
-		"outfit space" 130
+		"outfit space" 145
 		"weapon capacity" 20
 		"engine capacity" 40
 		weapon
@@ -1029,7 +1029,7 @@ ship "Star Barge" "Star Barge (Empire)"
 		"One-Phasic Cooler" 2
 		"RC-140 Atomic Thruster"
 		"RC-145 Atomic Steering"
-		"Small Empire Shielding Core"
+		"Quatalant Shield (Tiny)" 2
 		"Thermal Nucleavoltaic" 3
 		
 	engine -9.5 38
@@ -1075,7 +1075,7 @@ ship "Berserker" "Berserker (Empire)"
 		Railgun
 		"Railgun Slug" 1530
 		"Railgun Slug Rack"
-		"Small Empire Shielding Core"
+		"Quatalant Shield (Small)"
 		"Thermal Nucleavoltaic" 2
 		"Twin Empire Particle" 2
 		
@@ -1129,7 +1129,7 @@ ship "Hawk" "Hawk (Empire)"
 		"Phasic Dwarf Core" 2
 		"RC-140 Atomic Thruster"
 		"RC-145 Atomic Steering"
-		"Small Empire Shielding Core" 2
+		"Quatalant Shield (Tiny)" 2
 		"Small Radar Jammer" 3
 		
 	engine -23.5 41
@@ -1176,7 +1176,7 @@ ship "Wasp" "Wasp (Empire)"
 		"RC-001 Atomic Engines"
 		Railgun
 		"Railgun Slug" 1000
-		"Small Empire Shielding Core" 2
+		"Quatalant Shield (Tiny)" 2
 		"Small Radar Jammer"
 		"Thermal Nucleavoltaic" 2
 		
@@ -1233,7 +1233,7 @@ ship "Gunboat" "Gunboat (Empire)"
 		"Phasic Dwarf Core"
 		"RC-160 Atomic Thruster"
 		"RC-165 Atomic Steering"
-		"Small Empire Shielding Core" 3
+		"Quatalant Shield (Small)" 2
 		"Thermal Nucleavoltaic" 3
 		
 	engine -12 57.5 0.7
@@ -1285,7 +1285,7 @@ ship "Quicksilver" "Quicksilver (Empire)"
 		"One-Phasic Cooler" 2
 		"RC-145 Atomic Steering"
 		"RC-160 Atomic Thruster"
-		"Small Empire Shielding Core" 4
+		"Quatalant Shield (Tiny)" 4
 		"Thermal Nucleavoltaic" 2
 		
 	engine -15.5 54
@@ -1336,7 +1336,7 @@ ship "Raven" "Raven (Empire)"
 		"Phasic Rifle" 2
 		"RC-160 Atomic Thruster"
 		"RC-165 Atomic Steering"
-		"Small Empire Shielding Core" 2
+		"Quatalant Shield (Small)" 2
 		"Thermal Nucleavoltaic" 3
 		"Typhoon Pod" 2
 		"Typhoon Storage Tube" 2
@@ -1391,7 +1391,7 @@ ship "Aerie" "Aerie (Empire)"
 		"Countermesure Module"
 		"Countermesure Module Compact" 2
 		"Empire Hai Fissure Batteries"
-		"Empire Shielding Core"
+		"Quatalant Shield (Medium)"
 		"Empire Torpedo Missile" 60
 		"Empire Torpedo Rack" 2
 		"Empire Typhoon Bank" 2
@@ -1403,7 +1403,7 @@ ship "Aerie" "Aerie (Empire)"
 		"One-Phasic Cooler" 4
 		"RC-180 Atomic Thruster"
 		"RC-185 Atomic Steering"
-		"Small Empire Shielding Core" 2
+		"Quatalant Shield (Tiny)" 2
 		"Thermal Nucleavoltaic" 5
 		
 	engine 15 97
@@ -1461,7 +1461,7 @@ ship "Bastion" "Bastion (Empire)"
 		"Countermesure Module"
 		"Countermesure Module Compact" 2
 		"Empire Hai Gorge Batteries"
-		"Empire Shielding Core"
+		"Quatalant Shield (Big)"
 		"Ion Proton Turret" 2
 		"Multiphasic Anti-Missile"
 		"Multiphasic Cooler"
@@ -1474,7 +1474,7 @@ ship "Bastion" "Bastion (Empire)"
 		"RC-180 Atomic Thruster"
 		"RC-185 Atomic Steering"
 		"RC-X3 Multiphasic Reactor"
-		"Small Empire Shielding Core" 4
+		"Quatalant Shield (Tiny)" 2
 		"Thermal Nucleavoltaic" 3
 		"Typhoon Pod" 2
 		"Typhoon Storage Tube" 4
@@ -1534,7 +1534,7 @@ ship "Corvette" "Corvette (Empire)"
 		"Compact Plasma Drive"
 		"Countermesure Module"
 		"Countermesure Module Compact" 3
-		"Empire Shielding Core" 2
+		"Quatalant Shield (Medium)" 2
 		"Empire Torpedo Missile" 20
 		"Empire Torpedo Rack" 2
 		"Grab-Strike Blaze"
@@ -1552,7 +1552,7 @@ ship "Corvette" "Corvette (Empire)"
 		"RC-180 Atomic Thruster"
 		"RC-185 Atomic Steering"
 		Ramscoop
-		"Small Empire Shielding Core" 2
+		"Quatalant Shield (Tint)" 2
 		"Thermal Nucleavoltaic" 8
 		
 	engine -11.5 119
@@ -1594,7 +1594,7 @@ ship "Firebird" "Firebird (Empire)"
 		"heat dissipation" .6
 		"fuel capacity" 400
 		"cargo space" 50
-		"outfit space" 400
+		"outfit space" 425
 		"weapon capacity" 160
 		"engine capacity" 100
 		weapon
@@ -1608,7 +1608,7 @@ ship "Firebird" "Firebird (Empire)"
 		"Countermesure Module"
 		"Countermesure Module Compact" 2
 		"Empire Particle gun" 2
-		"Empire Shielding Core"
+		"Quatalant Shield (Medium)" 2
 		"Empire Torpedo Missile" 40
 		"Empire Typhoon Bank" 2
 		"Multiphasic Anti-Missile"
@@ -1624,7 +1624,7 @@ ship "Firebird" "Firebird (Empire)"
 		"RC-185 Atomic Steering"
 		"RC-X3 Multiphasic Reactor"
 		Ramscoop
-		"Small Empire Shielding Core" 4
+		"Quatalant Shield (Small)" 2
 		"Thermal Nucleavoltaic" 3
 		
 	engine -31.5 67
@@ -1690,7 +1690,7 @@ ship "Manta" "Manta (Empire)"
 		"Phasic Rifle"
 		"RC-160 Atomic Thruster"
 		"RC-165 Atomic Steering"
-		"Small Empire Shielding Core" 4
+		"Quatalant Shield (Tiny)" 4
 		"Thermal Nucleavoltaic" 5
 		Torpedo 15
 		"Torpedo Storage Rack"
@@ -1746,7 +1746,7 @@ ship "Osprey" "Osprey (Empire)"
 		"Countermesure Module"
 		"Countermesure Module Compact" 2
 		"Empire Hai Gorge Batteries"
-		"Empire Shielding Core" 2
+		"Quatalant Shield (Medium)" 2
 		"Grab-Strike Blaze"
 		"Laser Rifle" 3
 		"Multiphasic Ammo Rack" 2
@@ -1818,7 +1818,7 @@ ship "Dreadnought" "Dreadnought (Empire)"
 		"Countermesure Module"
 		"Countermesure Module Compact" 2
 		"Empire Hai Gorge Batteries"
-		"Empire Shielding Core" 2
+		"Quatalant Shield (Medium)" 2
 		"Empire Torpedo Missile" 80
 		"Empire Torpedo Rack" 4
 		"Empire Typhoon Bank" 2
@@ -1837,7 +1837,7 @@ ship "Dreadnought" "Dreadnought (Empire)"
 		"RC-200 Atomic Thruster"
 		"RC-205 Atomic Steering"
 		"RC-X4 Multiphasic Reactor"
-		"Small Empire Shielding Core" 2
+		"Quatalant Shield (Tiny)" 2
 		"Thermal Nucleavoltaic" 4
 		
 	engine -25.5 173.5
@@ -1901,7 +1901,7 @@ ship "Leviathan" "Leviathan (Empire)"
 		"Countermesure Module Compact" 2
 		"Empire Hai Fissure Batteries"
 		"Empire Particle gun" 4
-		"Empire Shielding Core" 2
+		"Quatalant Shield (Medium)" 2
 		"Laser Rifle" 15
 		"Multiphasic Ammo Rack" 2
 		"Multiphasic Anti-Missile"
@@ -1972,7 +1972,7 @@ ship "Protector" "Protector (Empire)"
 		"Compact Plasma Drive"
 		"Countermesure Module Compact" 2
 		"Empire Hai Gorge Batteries"
-		"Empire Shielding Core" 2
+		"Quatalant Shield (Small)" 3
 		"Empire Torpedo Missile" 80
 		"Empire Torpedo Rack" 4
 		"Empire Typhoon Bank" 2
@@ -2053,7 +2053,7 @@ ship "Mule" "Mule (Empire)"
 		"Countermesure Module"
 		"Countermesure Module Compact" 2
 		"Empire Hai Gorge Batteries"
-		"Empire Shielding Core"
+		"Quatalant Shield (Big)"
 		"Fuel Cell"
 		"Multiphasic Anti-Missile" 2
 		"Multiphasic Cooler"
@@ -2065,7 +2065,7 @@ ship "Mule" "Mule (Empire)"
 		"RC-160 Atomic Thruster"
 		"RC-165 Atomic Steering"
 		"RC-X3 Multiphasic Reactor"
-		"Small Empire Shielding Core" 4
+		"Quatalant Shield (Tiny)" 2
 		"Typhoon Pod" 2
 		"Typhoon Storage Tube" 4
 		"Typhoon Torpedo" 64
@@ -2126,7 +2126,7 @@ ship "Bactrian" "Bactrian (Empire)"
 		"Compact Plasma Drive"
 		"Countermesure Module"
 		"Empire Hai Gorge Batteries"
-		"Empire Shielding Core" 2
+		"Quatalant Shield (Huge)"
 		"Empire Torpedo Missile" 60
 		"Empire Torpedo Rack" 2
 		"Empire Typhoon Bank" 2
@@ -2146,7 +2146,7 @@ ship "Bactrian" "Bactrian (Empire)"
 		"RC-225 Atomic Steering"
 		"RC-X3 Multiphasic Reactor"
 		"RX-120 Reverse Thruster"
-		"Small Empire Shielding Core" 4
+		"Quatalant Shield (Small)" 2
 		
 	engine 18.5 232
 	engine -15 232
@@ -2214,7 +2214,7 @@ ship "Arrow" "Arrow (Empire)"
 		"Antimatter Railgun" 2
 		"Compact Plasma Drive"
 		"Countermesure Module" 2
-		"Empire Shielding Core"
+		"Quatalant Shield (Small)"
 		"Luxury Accommodations"
 		"Multiphasic Anti-Missile"
 		"Multiphasic Capacitor" 2
@@ -2281,7 +2281,7 @@ ship "Rainmaker" "Ranmaker (Empire)"
 		"RC-160 Atomic Thruster"
 		"RC-185 Atomic Steering"
 		Ramscoop
-		"Small Empire Shielding Core" 4
+		"Quatalant Shield (Tiny)" 4
 		"Thermal Nucleavoltaic" 6
 		
 	engine -11.5 44.5 0.4
@@ -2334,7 +2334,7 @@ ship "Splinter" "Splinter (Empire)"
 		"Countermesure Module"
 		"Countermesure Module Compact" 4
 		"Empire Hai Fissure Batteries" 2
-		"Empire Shielding Core"
+		"Quatalant Shield (Medium)" 2
 		"Multiphasic Ammo Rack" 2
 		"Multiphasic Anti-Missile"
 		"Multiphasic Cooler"
@@ -2350,7 +2350,7 @@ ship "Splinter" "Splinter (Empire)"
 		"RC-185 Atomic Steering"
 		"RC-X2 Multiphasic Reactor"
 		Ramscoop 3
-		"Small Empire Shielding Core" 6
+		"Quatalant Shield (Tiny)" 2
 		
 	engine -15.5 115
 	engine 15.5 115
@@ -2389,7 +2389,7 @@ ship "Frigate" "Frigate (Empire)"
 		"heat dissipation" .7
 		"fuel capacity" 400
 		"cargo space" 45
-		"outfit space" 615
+		"outfit space" 635
 		"weapon capacity" 245
 		"engine capacity" 235
 		weapon
@@ -2404,7 +2404,7 @@ ship "Frigate" "Frigate (Empire)"
 		"Countermesure Module Compact" 6
 		"Empire Defense Station" 2
 		"Empire Hai Gorge Batteries"
-		"Empire Shielding Core" 2
+		"Quatalant Shield (Big)"
 		"Multiphasic Anti-Missile"
 		"Multiphasic Cooler" 2
 		"Multiphasic ammo" 600
@@ -2417,7 +2417,7 @@ ship "Frigate" "Frigate (Empire)"
 		"Plasma Fuel Pod" 2
 		"RC-180 Atomic Thruster"
 		"RC-185 Atomic Steering" 2
-		"Small Empire Shielding Core" 8
+		"Quatalant Shield (Small)" 2
 		"Thermal Nucleavoltaic" 6
 		"Twin Empire Particle" 2
 		
@@ -2465,7 +2465,7 @@ ship Vanguard "Vanguard (Empire)"
 		"Countermesure Module"
 		"Countermesure Module Compact" 2
 		"Empire Hai Ravine Batteries"
-		"Empire Shielding Core" 2
+		"Quatalant Shield (Big)"
 		"Empire Torpedo Missile" 60
 		"Empire Torpedo Rack" 2
 		"Empire Typhoon Bank" 2
@@ -2481,7 +2481,7 @@ ship Vanguard "Vanguard (Empire)"
 		"Plasma Fuel Pod"
 		"RC-160 Atomic Thruster"
 		"RC-185 Atomic Steering"
-		"Small Empire Shielding Core" 4
+		"Quatalant Shield (Tiny)" 4
 		"Thermal Nucleavoltaic" 5
 	gun 0 -132.5 "Ion Proton Gun"
 		parallel

@@ -32,7 +32,7 @@ ship "Scout" "Scout (Empire)(Miner)"
 		"RC-001 Atomic Engines" 2
 		Ramscoop
 		"Scrambling Beam" 2
-		"Small Empire Shielding Core" 2
+		"Quatalant Shield (Tiny)" 2
 		"Small Radar Jammer"
 		"Thermal Nucleavoltaic" 2
 		
@@ -67,7 +67,7 @@ ship "Modified Flivver" "Modified Flivver (Miner)
 		"heat dissipation" .9
 		"fuel capacity" 300
 		"cargo space" 25
-		"outfit space" 180
+		"outfit space" 195
 		"weapon capacity" 65
 		"engine capacity" 45
 		weapon
@@ -88,7 +88,7 @@ ship "Modified Flivver" "Modified Flivver (Miner)
 		"RC-001 Atomic Engines"
 		Ramscoop 2
 		"Scrambling Beam"
-		"Small Empire Shielding Core" 3
+		"Quatalant Shield (Small)" 2
 		
 	engine 0 22
 	gun 0 -3 "Scrambling Beam"
@@ -124,7 +124,7 @@ ship "Clipper" "Clipper (Empire)(Miner)"
 	outfits
 		"Compact Plasma Drive"
 		"Countermesure Module Compact"
-		"Empire Shielding Core"
+		"Quatalant Shield (Small)" 2
 		"Langrage Empire-Heaver" 2
 		"Multiphasic Capacitor" 2
 		"One-Phasic Cooler"
@@ -167,7 +167,7 @@ ship "Hawk" "Hawk (Empire)(Miner)"
 		"heat dissipation" .8
 		"fuel capacity" 300
 		"cargo space" 20
-		"outfit space" 200
+		"outfit space" 220
 		"weapon capacity" 50
 		"engine capacity" 70
 		weapon
@@ -185,7 +185,7 @@ ship "Hawk" "Hawk (Empire)(Miner)"
 		"RC-140 Atomic Thruster"
 		"RC-145 Atomic Steering"
 		"Scrambling Beam" 2
-		"Small Empire Shielding Core" 2
+		"Quatalant Shield (Medium)"
 		"Small Radar Jammer" 3
 		
 	engine -23.5 41
@@ -215,7 +215,7 @@ ship "Hornet" "Hornet (Miner)"
 		"heat dissipation" .8
 		"fuel capacity" 300
 		"cargo space" 5
-		"outfit space" 170
+		"outfit space" 195
 		"weapon capacity" 35
 		"engine capacity" 60
 		weapon
@@ -238,7 +238,7 @@ ship "Hornet" "Hornet (Miner)"
 		"RC-145 Atomic Steering"
 		"RC-X1 Multiphasic Reactor"
 		"Scrambling Beam"
-		"Small Empire Shielding Core" 4
+		"Quatalant Shield (Small) 2"
 		
 	gun -4 -42.5 "Scrambling Beam"
 		under
@@ -286,7 +286,7 @@ ship "Rancorster" "Rancorster (Miner)"
 		"RC-165 Atomic Steering"
 		"Railgun Slug" 30
 		"Scrambling Beam" 3
-		"Small Empire Shielding Core" 2
+		"Quatalant Shield (Small)"
 		"Thermal Nucleavoltaic" 5
 
 	engine -18 36

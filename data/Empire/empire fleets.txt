@@ -710,7 +710,7 @@ fleet cromha-merchants
 	variant 1.25
 		"Leviathan (Empire)"
 		"Firebird (Empire)" 2
-	variant
+	variant 2
 		"Vanguard (Empire)"
 	variant
 		"Bactrian (Empire)"
