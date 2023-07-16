@@ -53,15 +53,18 @@ It is currently a Beta plugin.
 * The [wiki](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki/) still in work and most of the Gameplay section is outdated.
 
 # Installation
-Go [here](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki/User-Guide) for more infos on installing the plugin.
+Go [here](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki/User-Guide) for more infos on installing Endless Sky plugin.
 
 ## Install steps
 
 To install the plugin you just have to clone this repository into your [endless sky plugin directory](https://github.com/endless-sky/endless-sky/wiki/CreatingPlugins).
+You can use the following command if you're used to command line.
 
 ```
 git clone https://github.com/OcelotWalrus/Cromha-Expansion-plugin.git
 ```
+
+ If not, you can download the [continuous build](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/releases/tag/continuous) and put the folder into your [endless sky plugin directory](https://github.com/endless-sky/endless-sky/wiki/CreatingPlugins).
 
 ## Keeping the plugin updated
 If you're not familiar with git, you just have to run that command into the installed plugin.
