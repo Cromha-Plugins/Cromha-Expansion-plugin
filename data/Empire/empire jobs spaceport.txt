@@ -12,7 +12,7 @@ mission hai-transport-spaceport0
 	source
 		government "Cromha Empire" "Mineria colonnies"
 	to offer
-		random < 55
+		random < 3
 		"reputation: Hai" > 0
 	on offer
 		dialog "A group of Hai greets you and talk to you. They're willing to pay 50,000 credits if you take them to <planet> before the date of <date>."
@@ -34,7 +34,7 @@ mission hai-transport-spaceport1
 	source
 		government "Cromha Empire" "Mineria colonnies"
 	to offer
-		random < 55
+		random < 3
 		"reputation: Hai" > 0
 	on offer
 		dialog "A group of Hai greets you and talk to you. They're willing to pay 60,000 credits if you take them to <planet> before the date of <date>."
@@ -56,7 +56,7 @@ mission wanderer-transport-spaceport0
 	source
 		government "Cromha Empire" "Mineria colonnies"
 	to offer
-		random < 55
+		random < 3
 		"reputation: Wanderer" > 0
 	on offer
 		dialog "A group of Wanderer greets you and talk to you. They're willing to pay 50,000 credits if you take them to <planet> before the date of <date>."
@@ -78,7 +78,7 @@ mission wanderer-transport-spaceport1
 	source
 		government "Cromha Empire" "Mineria colonnies"
 	to offer
-		random < 55
+		random < 3
 		"reputation: Wanderer" > 0
 	on offer
 		dialog "A group of Wanderer greets you and talk to you. They're willing to pay 60,000 credits if you take them to <planet> before the date of <date>."
