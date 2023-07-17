@@ -17,7 +17,7 @@ mission caught-by-empire
         government "Cromha Empire" "Mineria colonnies"
         not attributes uninhabited
     to offer
-        "reputation: Cromha Empire" < -20
+        "reputation: Cromha Empire" < -200
     on offer
         conversation "empire imprisonment reputation"
 
@@ -121,7 +121,7 @@ mission empire-syndicate-attack
                     decline
     npc kill
         government "Syndicate"
-        fleet "Large Syndicate" 8
+        fleet "Large Syndicate" 16
         dialog "The last Syndicate ship has been destroyed. Time to land on <planet> to get your payment."
     npc
         government "Mineria colonnies"

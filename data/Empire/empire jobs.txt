@@ -11,7 +11,7 @@ mission empire-fuel-transport[0]
 	source
 		government "Cromha Empire" "Mineria colonnies"
 	to offer
-		random < 2
+		random < 5
 		"reputation: Cromha Empire" > 100
 	on accept
 		outfit "Fuel Capacitor" +2
@@ -35,7 +35,7 @@ mission empire-fuel-transport[1]
 	source
 		government "Cromha Empire" "Mineria colonnies"
 	to offer
-		random < 2
+		random < 5
 		"reputation: Cromha Empire" > 100
 	on accept
 		outfit "Fuel Capacitor" +3
@@ -59,7 +59,7 @@ mission empire-fuel-transport[2]
 	source
 		government "Cromha Empire" "Mineria colonnies"
 	to offer
-		random < 2
+		random < 5
 		"reputation: Cromha Empire" > 100
 	on accept
 		outfit "Fuel Capacitor" +5
@@ -83,7 +83,7 @@ mission empire-fuel-transport[3]
 	source
 		government "Cromha Empire" "Mineria colonnies"
 	to offer
-		random < 2
+		random < 5
 		"reputation: Cromha Empire" > 100
 	on accept
 		outfit "Fuel Capacitor" +7
@@ -107,7 +107,7 @@ mission empire-fuel-transport[4]
 	source
 		government "Cromha Empire" "Mineria colonnies"
 	to offer
-		random < 2
+		random < 5
 		"reputation: Cromha Empire" > 100
 	on accept
 		outfit "Fuel Capacitor" +9
@@ -131,7 +131,7 @@ mission empire-fuel-transport[5]
 	source
 		government "Cromha Empire" "Mineria colonnies"
 	to offer
-		random < 2
+		random < 5
 		"reputation: Cromha Empire" > 100
 	on accept
 		outfit "Fuel Capacitor" +12
@@ -156,7 +156,7 @@ mission empire-fuel-transport[6]
 	source
 		government "Cromha Empire" "Mineria colonnies"
 	to offer
-		random < 2
+		random < 5
 		"reputation: Cromha Empire" > 100
 	on accept
 		outfit "Fuel Capacitor" +2
@@ -180,7 +180,7 @@ mission empire-fuel-transport[7]
 	source
 		government "Cromha Empire" "Mineria colonnies"
 	to offer
-		random < 2
+		random < 5
 		"reputation: Cromha Empire" > 100
 	on accept
 		outfit "Fuel Capacitor" +3
@@ -204,7 +204,7 @@ mission empire-fuel-transport[8]
 	source
 		government "Cromha Empire" "Mineria colonnies"
 	to offer
-		random < 2
+		random < 5
 		"reputation: Cromha Empire" > 100
 	on accept
 		outfit "Fuel Capacitor" +5
@@ -228,7 +228,7 @@ mission empire-fuel-transport[9]
 	source
 		government "Cromha Empire" "Mineria colonnies"
 	to offer
-		random < 2
+		random < 5
 		"reputation: Cromha Empire" > 100
 	on accept
 		outfit "Fuel Capacitor" +7
@@ -252,7 +252,7 @@ mission empire-fuel-transport[10]
 	source
 		government "Cromha Empire" "Mineria colonnies"
 	to offer
-		random < 2
+		random < 5
 		"reputation: Cromha Empire" > 100
 	on accept
 		outfit "Fuel Capacitor" +9
@@ -276,7 +276,7 @@ mission empire-fuel-transport[11]
 	source
 		government "Cromha Empire" "Mineria colonnies"
 	to offer
-		random < 2
+		random < 5
 		"reputation: Cromha Empire" > 100
 	on accept
 		outfit "Fuel Capacitor" +12

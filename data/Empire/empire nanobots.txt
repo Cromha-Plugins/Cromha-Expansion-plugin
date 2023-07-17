@@ -2,8 +2,6 @@ ship "Empire Nanobot YLL'E"
 	plural "Empire Nanobots"
 	sprite "ship/Empire Nanobot YLL'E"
 	thumbnail "thumbnail/Empire Nanobot YLL'E"
-	"uncapturable"
-	
 	"swizzle" 0
 	attributes
 		category "Nanobot"
@@ -51,8 +49,6 @@ ship "Empire Nanobot YLL'A"
 	plural "Empire Nanobots"
 	sprite "ship/Empire Nanobot YLL'A"
 	thumbnail "thumbnail/Empire Nanobot YLL'A"
-	"uncapturable"
-	
 	"swizzle" 0
 	attributes
 		category "Nanobot"

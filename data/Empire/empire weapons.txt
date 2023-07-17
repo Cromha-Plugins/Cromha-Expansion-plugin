@@ -1,4 +1,6 @@
 outfit "Empire Particle gun"
+	"display name" "Empire Particle Gun"
+	plural "Empire Particle Guns"
 	category Guns
 	licenses "Empire Contributor"
 	cost 220000

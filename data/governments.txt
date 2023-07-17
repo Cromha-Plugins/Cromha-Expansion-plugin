@@ -67,6 +67,7 @@ government "Empire Merchant"
 		"Empire Rebels" -3
 		"Cromha Empire" 5
 		"Indigene Creature" 2
+		"Hai (Unfettered)" -1
 		"Kor Efret" -2
 		"Kor Mereti" -2
 		"Kor Sestor" -2
@@ -225,4 +226,3 @@ government "Remnant (Far Empire)"
 	"friendly hail" "remnant uncontacted"
 	"hostile hail" "remnant uncontacted hostile"
 	raid "Korath Ember Waste Raid"
-

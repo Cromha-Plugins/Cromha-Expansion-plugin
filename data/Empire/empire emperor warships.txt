@@ -4,334 +4,237 @@ ship "Empire Fortress" "Empire Fortress (Emperor)"
 	"swizzle" 1
 	attributes
 		category "World Ship"
-		cost 999999999999
-		mass 10000
-		"atmosphere scan" 100
-		bunks 31920
-		"cargo space" 3400
-		drag 0.9
-		"engine capacity" 9000
-		"fuel capacity" 200
-		"gun ports" 27
-		"heat dissipation" 198
-		hull 9e+09
-		"outfit space" 19000
+		cost 276900000
+		shields 196420
+		hull 320690
 		"required crew" 1940
-		shields 1996420
+		"bunks" 31920
+		"mass" 12000
+		"drag" 84
+		"heat dissipation" .22
 		"solar collection" 4.2
-		"turret mounts" 30
-		"weapon capacity" 9000
+		"fuel capacity" 1000
+		"cargo space" 1864
+		"outfit space" 3180
+		"weapon capacity" 1148
+		"engine capacity" 480
+		"atmosphere scan" 100
+		weapon
+			"blast radius" 400
+			"shield damage" 8000
+			"hull damage" 4000
+			"hit force" 12000
 	outfits
-		"Alldust Beam Turret" 7
-		"Antimatter Railgun" 4
-		Brig 6
-		"Bunk Room" 4
-		"Catalytic Ramscoop" 4
-		"Cloaking Module"
-		"Countermesure Module Compact" 220
-		"Disruption Afterburnner" 2
-		"Empire Barricade" 75
-		"Empire Defense Station" 80
-		"Empire Hai Gorge Batteries" 10
-		"Empire Hai Ravine Batteries" 6
-		"Empire Hai Valley Batteries" 4
-		"Empire Nuke" 9
-		"Empire Shielding Core" 30
-		"Empire Torpedo Bank" 6
-		"Empire Torpedo Missile" 900
-		"Empire Torpedo Rack" 70
-		"Empire Typhoon Bank" 4
-		"Fuel Cell" 6
-		"Grab-Strike Blaze" 7
+		"Ameliorating Phasic-Cell"
+		"Anti-Missile Field Device" 4
+		"Antimatter Capacitor" 3
+		"Antimatter Capacitor (Large)" 10
+		"Antimatter Cooling Cell" 3
+		Brig 4
+		"Caltalytic Tear"
+		"Countermesure Module" 4
+		"Countermesure Module Compact" 16
+		"Disruption Afterburnner"
+		"Draining Field Device" 6
+		"Dual Wel'y Beam Turret" 7
+		"Empire Hai Ravine Batteries"
+		"Empire Torpedo Bank" 3
+		"Empire Torpedo Missile" 140
+		"Empire Torpedo Rack" 8
+		"Fuel Cell" 16
 		"Mineria Key Stone"
-		"Multiphasic Ammo Rack" 18
-		"Multiphasic Anti-Missile" 8
-		"Multiphasic Cooler" 35
-		"Multiphasic Scanner" 8
-		"Multiphasic ammo" 10200
-		"Nuclavoltaic Turret" 8
-		"One-Phasic Cooler" 45
-		"Phasic Grenades" 100
-		"Phasic Mine Layer" 4
-		"Phasic Mine Rack" 70
-		"Phasic Rifle" 100
-		"Phasic-Cluster Mine" 698
-		"Plasma Fuel Pod" 4
-		"Quantum Generator" 18
-		"RC-220 Atomic Thruster" 4
-		"RC-225 Atomic Steering" 6
-		"RC-X1 Multiphasic Reactor" 9
-		"RC-X2 Multiphasic Reactor" 8
-		"RC-X3 Multiphasic Reactor" 5
-		"RC-X4 Multiphasic Reactor" 8
-		"Railgun Slug" 5120
-		"Railgun Slug Rack" 10
-		"Small Bunk Room" 4
-		"Small Empire Shielding Core" 45
-		"Teleportation Dock" 50
-		"Thermal Nucleavoltaic" 12
-		"Tre-Phasic Plasma Drive"
-		"Tre-Phasic Rifle" 30
+		"Multiphasic Scanner" 2
+		"Phasic Reasoning Node" 15
+		"Plasma Fuel Pod" 19
+		"Quantum Generator" 11
+		"RC-220 Atomic Thruster" 3
+		"RC-225 Atomic Steering" 2
+		"Shield Processor (Huge)"
+		"T3 Phasic Amplifier"
 		"Tri-Phasic Hyperdrive"
-	shields 1996420
-	hull 9e+09
-	engine 0 481.5
-		zoom 1.7
-		angle 0
-		under
-	engine -135.5 444
-		zoom 1.6
-		angle 0
-		under
-	engine 135.5 444
-		zoom 1.6
-		angle 0
-		under
-	engine -88.5 430.5
-		zoom 0.7
-		angle 0
-		under
-	engine 88.5 430.5
-		zoom 0.7
-		angle 0
-		under
-	engine -77 436
-		zoom 0.7
-		angle 0
-		under
-	engine 77 436
-		zoom 0.7
-		angle 0
-		under
-	engine -46 454.5
-		zoom 0.8
-		angle 0
-		under
-	engine 46 454.5
-		zoom 0.8
-		angle 0
-		under
-	"reverse engine" -90 -464
-		zoom 0.8
-		angle -360
-		under
-	"reverse engine" 90 -464
-		zoom 0.8
-		angle -360
-		under
-	"reverse engine" -115.5 -445.5
-		zoom 0.7
-		angle -360
-		under
-	"reverse engine" 115.5 -445.5
-		zoom 0.7
-		angle -360
-		under
+
+	"reverse engine" -90 -464 0.8
+	"reverse engine" 90 -464 0.8
+	"reverse engine" -115.5 -445.5 0.7
+	"reverse engine" 115.5 -445.5 0.7
 	"steering engine" -90 -464
 		zoom 0.7
-		angle -180
-		under
 		left
+		angle 180
 	"steering engine" 90 -464
 		zoom 0.7
-		angle -180
-		under
 		right
+		angle 180
 	"steering engine" -115.5 -445.5
 		zoom 0.6
-		angle -180
-		under
 		left
+		angle 180
 	"steering engine" 115.5 -445.5
 		zoom 0.6
-		angle -180
-		under
 		right
+		angle 180
 	"steering engine" -152.5 -270
-		zoom 0.6
 		angle 45
-		under
 		right
+		zoom 0.6
 	"steering engine" 152.5 -270
-		zoom 0.6
-		angle -45
-		under
+		angle 315
 		left
+		zoom 0.6
 	"steering engine" -172 169
-		zoom 0.6
 		angle 135
-		under
 		left
-	"steering engine" 172 169
 		zoom 0.6
-		angle -135
-		under
+	"steering engine" 172 169
+		angle 225
 		right
+		zoom 0.6
 	"steering engine" -135.5 444
 		zoom 1.2
-		angle 0
-		under
 		right
 	"steering engine" 135.5 444
 		zoom 1.2
-		angle 0
-		under
 		left
-	turret -129.5 -176 "Multiphasic Anti-Missile"
-		over
-	turret 129.5 -176 "Multiphasic Anti-Missile"
-		over
-	turret -18 18 "Multiphasic Anti-Missile"
-		over
-	turret -75 164 "Multiphasic Anti-Missile"
-		over
-	turret -22 -230.5 "Multiphasic Anti-Missile"
-		over
-	turret 21 -196.5 "Multiphasic Anti-Missile"
-		over
-	turret -41.5 -100.5 "Multiphasic Anti-Missile"
-		over
-	turret -122.5 -349 "Multiphasic Anti-Missile"
-		over
-	turret 63.5 130.5 "Grab-Strike Blaze"
-		over
-	turret 0 -439 "Grab-Strike Blaze"
-		over
-	turret -154 -86 "Alldust Beam Turret"
-		over
-	turret 145.5 184 "Alldust Beam Turret"
-		over
-	turret -147.5 172.5 "Alldust Beam Turret"
-		over
-	turret 129 -299 "Alldust Beam Turret"
-		over
-	turret -141.5 -286.5 "Alldust Beam Turret"
-		over
-	turret 39 -337.5 "Alldust Beam Turret"
-		over
-	turret -131 -409.5 "Alldust Beam Turret"
-		over
-	turret 28 0 "Grab-Strike Blaze"
-		over
-	turret -77.5 283 "Nuclavoltaic Turret"
-		over
-	turret 28 310.5 "Nuclavoltaic Turret"
-		over
-	gun -163 -434 "Phasic Mine Layer"
-		under
-	gun -178.5 -419.5 "Empire Typhoon Bank"
-		under
-	gun -185 83 "Empire Typhoon Bank"
-		angle -180
-		under
-	gun 163 -434 "Phasic Mine Layer"
-		under
-	gun 178.5 -419.5 "Empire Typhoon Bank"
-		under
-	gun 185 83 "Empire Typhoon Bank"
-		angle -180
-		under
-	gun -163 -434 "Antimatter Railgun"
-		under
-	gun -178.5 -419.5 "Antimatter Railgun"
-		under
-	gun -185 83 "Phasic Mine Layer"
-		angle -180
-		under
-	gun 163 -434 "Antimatter Railgun"
-		under
-	gun 178.5 -419.5 "Antimatter Railgun"
-		under
-	gun 185 83 "Phasic Mine Layer"
-		angle -180
-		under
-	gun -163 -434 "Empire Torpedo Bank"
-		under
-	gun -178.5 -419.5 "Empire Torpedo Bank"
-		under
-	gun -185 83 "Empire Torpedo Bank"
-		angle -180
-		under
-	gun 163 -434 "Empire Torpedo Bank"
-		under
-	gun 178.5 -419.5 "Empire Torpedo Bank"
-		under
-	gun 185 83 "Empire Torpedo Bank"
-		angle -180
-		under
-	gun 55 -325 "Empire Nuke"
-		over
-	gun 51.5 -409 "Empire Nuke"
-		over
-	gun -45.5 -403.5 "Empire Nuke"
-		over
-	gun -95.5 168.5 "Empire Nuke"
-		over
-	gun 97 171 "Empire Nuke"
-		over
-	gun -68 231.5 "Empire Nuke"
-		over
-	gun 72 234 "Empire Nuke"
-		over
-	gun -127 1.5 "Empire Nuke"
-		over
-	gun 124.5 -303.5 "Empire Nuke"
-		over
-	turret 40 -403.5 "Nuclavoltaic Turret"
-		over
-	turret -55.5 -312 "Nuclavoltaic Turret"
-		over
-	turret 135 -165.5 "Nuclavoltaic Turret"
-		over
-	turret -121.5 -164 "Nuclavoltaic Turret"
-		over
-	turret -124 24 "Nuclavoltaic Turret"
-		over
-	turret 107 86 "Nuclavoltaic Turret"
-		over
-	turret -97.5 165 "Grab-Strike Blaze"
-		over
-	turret 27.5 299 "Grab-Strike Blaze"
-		over
-	turret -27.5 299 "Grab-Strike Blaze"
-		over
-	turret 107 -86 "Grab-Strike Blaze"
-		over
-	bay Nanobot 61.5 -175.5
-		over
-	bay Nanobot 63.5 -144.5
-		over
-	bay Nanobot 58.5 -117
-		over
-	bay Nanobot 24 -173
-		over
-	bay Nanobot 22 -147.5
-		over
-	bay Nanobot 24.5 -116
-		over
-	bay Nanobot -61.5 -175.5
-		over
-	bay Nanobot -63.5 -144.5
-		over
-	bay Nanobot -58.5 -117
-		over
-	bay Nanobot -24 -173
-		over
-	bay Nanobot -22 -147.5
-		over
-	bay Nanobot -24.5 -116
-		over
-	leak "empire flame" 75 60
-	leak "empire leak" 20 60
-	leak "empire big leak" 96 60
-	leak "empire big leak" 34 60
-	explode "empire huge explosion" 50
-	explode "empire medium explosion" 90
-	explode "empire small explosion" 45
-	explode "empire tiny explosion" 30
-	"final explode" "black manta explosion" 1
-	description "The Original Empire Fortress, is a massive fortress that can contain a small city with its 32,000 bunks. It has been designed to explore every place of the galaxy. It's with this enormous ship that The Empire has a so much detailed map of the space. It can contains several nanobots and more cargo that you would ever need. It might be the most powerful and polyvalent ship you've ever seen."
-	description "Noone know how many of these ships remains in the galaxy; probably only a decade but The Empire stil use it for long missions in the advanced korath space or for futures collonisations. The Empire uses one of the remaining Empire Fortress for keeping contact with the Coalition and deliver food and technologies supplies."
+	engine 0 481.5
+		zoom 1.7
+	engine -135.5 444
+		zoom 1.6
+	engine 135.5 444
+		zoom 1.6
+	engine -88.5 430.5
+		zoom 0.7
+	engine 88.5 430.5
+		zoom 0.7
+	engine -77 436
+		zoom 0.7
+	engine 77 436
+		zoom 0.7
+	engine -46 454.5
+		zoom 0.8
+	engine 46 454.5
+		zoom 0.8
+	turret -19.5 -438.5 "Banisher Grav-Turret"
+	turret 19.5 -438.5 "Warder Anti-Missile"
+	turret -178 -332 "Warder Anti-Missile"
+	turret 178 -332 "Banisher Grav-Turret"
+	turret -186 -285.5 "Banisher Grav-Turret"
+	turret 186 -285.5 "Warder Anti-Missile"
+	turret -131.5 -173.5 "Langrage Hyper-Heaver"
+	turret 131.5 -173.5 "Korath Inferno"
+	turret -131.5 -156 "Korath Inferno"
+	turret 131.5 -156 "Warder Anti-Missile"
+	turret 46 -12 "Warder Anti-Missile"
+	turret -16.5 16 "Banisher Grav-Turret"
+	turret 62 128 "Langrage Hyper-Heaver"
+	turret -75.5 162.5 "Firestorm Battery"
+	turret -204.5 200 "Banisher Grav-Turret"
+	turret 204.5 200 "Warder Anti-Missile"
+	turret -192.5 257.5 "Warder Anti-Missile"
+	turret 192.5 257.5 "Banisher Grav-Turret"
+	turret -72.5 338.5 "Langrage Hyper-Heaver"
+	turret 72.5 338.5 "Korath Inferno"
+	turret -95.5 365.5 "Korath Inferno"
+	turret 95.5 365.5 "Banisher Grav-Turret"
+	gun -170 -104 "Firelight Missile Bank"
+		angle 315
+	gun 170 -104 "Firelight Missile Bank"
+		angle 45
+	gun -178 -84 "Firelight Missile Bank"
+		angle 290
+	gun 178 -84 "Firelight Missile Bank"
+		angle 70
+	bay "Fighter" -167.5 -420
+		angle 315
+		"launch effect" "korath internal"
+	bay "Fighter" 167.5 -420
+		angle 45
+		"launch effect" "korath internal"
+	bay "Fighter" -179.5 80
+		angle 45
+		back
+		"launch effect" "korath internal"
+	bay "Fighter" 179.5 80
+		angle 315
+		back
+		"launch effect" "korath internal"
+	bay "Fighter" -167.5 -420
+		angle 315
+		"launch effect" "korath internal"
+	bay "Fighter" 167.5 -420
+		angle 45
+		"launch effect" "korath internal"
+	bay "Fighter" -179.5 80
+		angle 45
+		back
+		"launch effect" "korath internal"
+	bay "Fighter" 179.5 80
+		angle 315
+		back
+		"launch effect" "korath internal"
+	bay "Fighter" -167.5 -420
+		angle 315
+		"launch effect" "korath internal"
+	bay "Fighter" 167.5 -420
+		angle 45
+		"launch effect" "korath internal"
+	bay "Fighter" -179.5 80
+		angle 45
+		back
+		"launch effect" "korath internal"
+	bay "Fighter" 179.5 80
+		angle 315
+		back
+		"launch effect" "korath internal"
+	bay "Fighter" -167.5 -420
+		angle 315
+		"launch effect" "korath internal"
+	bay "Fighter" 167.5 -420
+		angle 45
+		"launch effect" "korath internal"
+	bay "Fighter" -179.5 80
+		angle 45
+		back
+		"launch effect" "korath internal"
+	bay "Fighter" 179.5 80
+		angle 315
+		back
+		"launch effect" "korath internal"
+	bay "Fighter" -167.5 -420
+		angle 315
+		"launch effect" "korath internal"
+	bay "Fighter" 167.5 -420
+		angle 45
+		"launch effect" "korath internal"
+	bay "Fighter" -179.5 80
+		angle 45
+		back
+		"launch effect" "korath internal"
+	bay "Fighter" 179.5 80
+		angle 315
+		back
+		"launch effect" "korath internal"
+	bay "Fighter" -167.5 -420
+		angle 315
+		"launch effect" "korath internal"
+	bay "Fighter" 167.5 -420
+		angle 45
+		"launch effect" "korath internal"
+	bay "Fighter" -179.5 80
+		angle 45
+		back
+		"launch effect" "korath internal"
+	bay "Fighter" 179.5 80
+		angle 315
+		back
+		"launch effect" "korath internal"
+	explode "tiny explosion" 30
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 50
+	"final explode" "final explosion large"
+	description "Korsmanath A'awojs, named in memory of the Korath home system, are massive nomadic habitats that hold much of their remaining population. True flying cities, they could be self-contained miniature worlds were it not for their heavy defensive armament and reliance on unsustainable materials, methods, and sources of power."
+	description "	Commission of new Korsmanath A'awojs is a resource-demanding, labor-intensive, painstaking process fraught with political intrigue. Navarchs fight with the civilian government for resources and yard time they would rather devote to building raiding and defensive fleets, civilians vie with each other for a place on the next ship, and planning committees argue with engineers over what methods and technologies to use. This leads to construction delays, corner-cutting, and over-militarization of the design at best, and violent feuds at worst."
 
 ship "Empire Kraken" "Empire Kraken (Emperor)"
       sprite "ship/Empire Kraken"

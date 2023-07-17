@@ -252,8 +252,11 @@ system Volcanois
 	arrival 1080
 	habitable 1080
 	belt 1529
+	link All'Estros
 	link Astroid
+	link "Beta Cromha"
 	link "Bore Fah"
+	link "Hi Yahr"
 	asteroids "large metal" 21 7
 	minables silicon 50 3
 	minables silver 19 3
@@ -273,6 +276,8 @@ system Volcanois
 	fleet mineria-transports 700
 	fleet cromha-miners 600
 	fleet cromha-merchants 800
+	fleet "Large Unfettered" 1800
+	fleet "Small Unfettered" 1500
 	object Linimbus
 		sprite planet/fg_lava0
 			scale 2
@@ -717,7 +722,6 @@ system Lifdot
 	attributes "empire space" inhabited military research rich
 	habitable 0
 	haze _menu/haze-red
-	link All'Estros
 	link "Alpha Cromha"
 	link "Calor Stil"
 	link Mesuket
@@ -971,6 +975,7 @@ system "Beta Cromha"
 	attributes "empire space" factory hai inhabited military mining north paradise research rich urban
 	link "Alpha Cromha"
 	link Astroid
+	link Volcanois
 	asteroids "large metal" 21 7
 	trade Clothing 215
 	trade Electronics 816
@@ -1660,12 +1665,12 @@ planet "Empire Z677 Base"
 	government "Cromha Empire"
 
 system All'Estros
-	pos 348 -486.444
+	pos 167.556 -675.481
 	government "Cromha Empire"
 	attributes "far empire space" inhabited military research rich
 	haze _menu/haze-cyan
-	link Lifdot
 	link "Ring Wartrue"
+	link Volcanois
 	minables quatalant 13 5.169
 	trade Clothing 215
 	trade Electronics 816
@@ -1714,7 +1719,7 @@ planet Limat
 	security 1
 
 system "Ring Wartrue"
-	pos 440.964 -506.593
+	pos 170.445 -736.371
 	government "Cromha Empire"
 	attributes "far empire space" inhabited military research rich
 	haze _menu/haze-cyan
@@ -2132,7 +2137,7 @@ planet "Empire Remnant Ring"
 	security 1.8
 
 system Irn'o
-	pos 451.593 -585.926
+	pos 325.371 -774.815
 	government "Cromha Empire"
 	attributes "far empire space" inhabited military research rich
 	haze _menu/haze-cyan
@@ -2208,7 +2213,7 @@ planet "Est Lifdot"
 	outfitter Basic-systems-outfitter
 
 system Nugg'et
-	pos 405.704 -619.259
+	pos 298.148 -887.259
 	government "Cromha Empire"
 	attributes "far empire space" inhabited military research rich
 	haze _menu/haze-cyan
@@ -2258,7 +2263,7 @@ system Nugg'et
 			period 110
 
 system As'har
-	pos 442 -655
+	pos 357.111 -748.333
 	government "Empire Rebels"
 	attributes blackhole "far empire space" inhabited military research rich
 	arrival 1900
@@ -2312,7 +2317,7 @@ planet "Solfa Station"
 	outfitter Rebels-basic-outfitter
 
 system Wel'y
-	pos 359.778 -520.704
+	pos 207.334 -796.704
 	government "Cromha Empire"
 	attributes "far empire space" inhabited military research rich
 	haze _menu/haze-cyan
@@ -2397,7 +2402,7 @@ planet "Wel'y Spacial Dock"
 	outfitter Basic-systems-outfitter
 
 system "Los Calos"
-	pos 315.704 -571.556
+	pos 151.482 -881.667
 	government "Cromha Empire"
 	attributes "far empire space" inhabited military research rich
 	haze _menu/haze-triangle
@@ -2414,7 +2419,7 @@ system "Los Calos"
 	hazard "Far Empire Triangle Hazard" 1000
 
 system "Los Faros"
-	pos 362 -634
+	pos 241.111 -942.889
 	government "Cromha Empire"
 	attributes "far empire space" inhabited military research rich
 	haze _menu/haze-triangle
@@ -2470,7 +2475,7 @@ planet "Weila Station"
 	outfitter Base-outfitter
 
 system "Los Asto"
-	pos 308 -648
+	pos 132.889 -993.778
 	government "Cromha Empire"
 	attributes "far empire space" inhabited military research rich
 	haze _menu/haze-triangle
@@ -2481,7 +2486,7 @@ system "Los Asto"
 	hazard "Far Empire Triangle Hazard" 1000
 
 system "Lim Ort"
-	pos 257.778 -677.37
+	pos 60 -1012.926
 	government "Empire Rebels"
 	attributes "far empire space" inhabited military research rich
 	haze _menu/haze-cyan
@@ -2552,7 +2557,7 @@ planet Phil'Sta
 	outfitter Rebels-basic-weapon-outfitter
 
 system Phil'Ira
-	pos 405.185 -471.815
+	pos 114.963 -691.371
 	government "Cromha Empire"
 	attributes "far empire space" inhabited military research rich
 	haze _menu/haze-cyan
@@ -2596,7 +2601,7 @@ system Phil'Ira
 			period 110
 
 system Phil'Rima
-	pos 443.555 -445.889
+	pos 101.777 -755.963
 	government "Cromha Empire"
 	attributes "far empire space" inhabited military research rich
 	haze _menu/haze-cyan
@@ -2670,7 +2675,7 @@ planet "Ill'Safra Station"
 	outfitter Basic-ammo-outfitter
 
 system As'tyar
-	pos 385.629 -567.036
+	pos 277.185 -829.703
 	government "Cromha Empire"
 	attributes "far empire space" inhabited military research rich
 	haze _menu/haze-133
@@ -3751,7 +3756,7 @@ planet "Astra Luh"
 	security 8
 
 system Nugg'es
-	pos 424.741 -564.482
+	pos 332.074 -677.149
 	government "Remnant (Far Empire)"
 	attributes "far empire space" inhabited remnant
 	haze _menu/haze-blackbody
@@ -3810,7 +3815,7 @@ planet Hozt
 		fleet "Far Remnant Decoy Defense" 8
 
 system Nugg'ys
-	pos 404.26 -525.408
+	pos 288.927 -704.741
 	government "Remnant (Far Empire)"
 	attributes "far empire space" inhabited remnant
 	habitable 7124.298
@@ -5267,7 +5272,7 @@ wormhole "Helk'Alf Wormhole"
 	mappable -1
 
 system As'kya
-	pos 358.468 -590.775
+	pos 235.357 -866.331
 	government "Cromha Empire"
 	attributes "far empire space" inhabited tourism
 	habitable 0
@@ -6119,7 +6124,7 @@ system Chornifath
 planet "Alkanite Station"
 	attributes station
 	landscape land/station31
-	description "The Alkanite Station is one of the few outpost in the North Empire Space that lets the Empire Rebels control Empire Merchant trade routes."
+	description "The Alkanite Station is one of the few outpost in the South Empire Space that lets the Empire Rebels control Empire Merchant trade routes."
 	spaceport "The spaceport is minimal."
 	government "Empire Rebels"
 	outfitter Rebels-advanced-ammo-outfitter
@@ -6138,6 +6143,11 @@ planet "Eskar Kortuka"
 
 planet "Kasichara Fet"
 	government Uninhabited
+
+system "Hi Yahr"
+	add link Volcanois
+	add fleet cromha-fleet 1500
+
 
 # Lumbarian Empire/Rebellion
 
@@ -6252,4 +6262,3 @@ system Phact
 system Arneb
 	government "Lumbarian Empire"
 	add fleet "Large L Navy" 800
-
