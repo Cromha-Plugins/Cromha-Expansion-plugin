@@ -6139,3 +6139,117 @@ planet "Eskar Kortuka"
 planet "Kasichara Fet"
 	government Uninhabited
 
+# Lumbarian Empire/Rebellion
+
+system Lumbaria
+	pos -491.861 -221.722
+	government "Lumbarian Empire"
+	habitable 425
+	belt 1857 8
+	link Mirzam
+	link Phurad
+	asteroids "small rock" 5 2.366
+	asteroids "medium rock" 70 2.262
+	asteroids "large rock" 4 2.028
+	asteroids "small metal" 2 2.548
+	asteroids "medium metal" 6 1.43
+	asteroids "large metal" 2 2.262
+	minables tungsten 11 3.044
+	trade Clothing 242
+	trade Electronics 755
+	trade Equipment 627
+	trade Food 374
+	trade "Heavy Metals" 955
+	trade Industrial 653
+	trade "Luxury Goods" 1313
+	trade Medical 541
+	trade Metal 328
+	trade Plastic 489
+	fleet "Large L Navy" 1200
+	fleet "Paradise Merchants" 4000
+	object
+		sprite star/k5
+		period 10
+	object "-[Lumbarian High Command]-"
+		sprite planet/forest0-b
+		distance 288
+		period 94.832
+	object
+		sprite planet/ice2
+		distance 955
+		period 572.625
+	object
+		sprite planet/gas12
+		distance 1481
+		period 1105.855
+	object
+		sprite planet/browndwarf-y
+		distance 2577
+		period 2538.266
+		object
+			sprite planet/tethys
+			distance 285
+			period 296.32
+		object
+			sprite planet/io
+			distance 442
+			period 351.264
+		object
+			sprite planet/oberon
+			distance 603
+			period 911.949
+	object
+		sprite planet/neptune-b
+		distance 7472
+		period 12532.013
+	object
+		sprite planet/gas12-b
+		distance 13642
+		period 30915.95
+		object
+			sprite planet/rock20
+			distance 283
+			period 179.962
+
+planet "-[Lumbarian High Command]-"
+	landscape land/forest4
+	description -[Placeholder]-
+	spaceport -[Placeholder]-
+	government "Lumbarian Empire"
+	shipyard "Lumbarian Advanced"
+	shipyard "Lumbarian Basic"
+
+system Phurad
+	government "Lumbarian Empire"
+	add link Lumbaria
+	add fleet "Large L Navy" 1500
+
+system Mirzam
+	government "Lumbarian Empire"
+	add link Lumbaria
+	add fleet "Large L Navy" 1500
+
+system Canopus
+	government "Lumbarian Empire"
+	add fleet "Large L Navy" 1500
+
+system Mebsuta
+	government "Lumbarian Empire"
+	add fleet "Large L Navy" 1500
+
+system Tejat
+	government "Lumbarian Empire"
+	add fleet "Large L Navy" 1500
+
+system Wazn
+	government "Lumbarian Empire"
+	add fleet "Large L Navy" 1500
+
+system Phact
+	government "Lumbarian Empire"
+	add fleet "Large L Navy" 1500
+
+system Arneb
+	government "Lumbarian Empire"
+	add fleet "Large L Navy" 800
+
