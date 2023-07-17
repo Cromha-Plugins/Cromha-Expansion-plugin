@@ -226,3 +226,23 @@ government "Remnant (Far Empire)"
 	"friendly hail" "remnant uncontacted"
 	"hostile hail" "remnant uncontacted hostile"
 	raid "Korath Ember Waste Raid"
+
+government "Lumbarian Empire"
+	swizzle 2
+	color 0 1 0
+	"player reputation" 3
+	"attitude toward"
+		"Free Worlds" 10
+		Pirate -10
+		Rebellion -10
+		Republic 0.001
+	bribe 30
+	"friendly hail" "friendly navy"
+	"hostile hail" "hostile navy"
+
+government Rebellion
+	swizzle 25
+	color 1 0 1
+	"attitude toward"
+		"Lumbarian Empire" -10
+		Republic -10

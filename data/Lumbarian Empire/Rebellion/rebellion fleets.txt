@@ -1,0 +1,95 @@
+fleet "Large Rebellion I"
+	government Rebellion
+	names pirate
+	cargo 2
+	personality
+		plunders coward
+	variant 3
+		"Marauder Falcon"
+		"Marauder Firebird"
+		"Marauder Raven (Weapons)"
+		"Marauder Quicksilver (Engines)"
+		"Marauder Arrow (Weapons)"
+		"Marauder Bounder (Engines)"
+	variant 3
+		"Marauder Falcon"
+		"Marauder Firebird"
+		"Marauder Raven (Engines)"
+		"Marauder Quicksilver (Weapons)"
+		"Marauder Arrow (Engines)"
+		"Marauder Bounder (Weapons)"
+	variant 2
+		"Marauder Falcon (Weapons)"
+		"Marauder Firebird (Engines)"
+		"Marauder Raven"
+		"Marauder Quicksilver"
+		"Marauder Arrow"
+		"Marauder Bounder"
+	variant 2
+		"Marauder Falcon (Engines)"
+		"Marauder Firebird (Weapons)"
+		"Marauder Raven"
+		"Marauder Quicksilver"
+		"Marauder Arrow"
+		"Marauder Bounder"
+	variant 3
+		"Marauder Leviathan"
+		"Marauder Firebird"
+		"Marauder Raven (Engines)"
+		"Marauder Quicksilver (Weapons)"
+		"Marauder Arrow (Engines)"
+		"Marauder Bounder (Weapons)"
+	variant 3
+		"Marauder Leviathan"
+		"Marauder Firebird"
+		"Marauder Raven (Weapons)"
+		"Marauder Quicksilver (Engines)"
+		"Marauder Arrow (Weapons)"
+		"Marauder Bounder (Engines)"
+	variant 2
+		"Marauder Leviathan (Engines)"
+		"Marauder Firebird (Weapons)"
+		"Marauder Raven"
+		"Marauder Quicksilver"
+		"Marauder Arrow"
+		"Marauder Bounder"
+	variant 2
+		"Marauder Leviathan (Weapons)"
+		"Marauder Firebird (Engines)"
+		"Marauder Raven"
+		"Marauder Quicksilver"
+		"Marauder Arrow"
+		"Marauder Bounder"
+	variant 4
+		"Rebellion Javelin-Class" 2
+		"Rebellion Dart-Class" 5
+	variant 4
+		"Marauder Leviathan (Weapons)"
+		"Rebellion Dart-Class" 8
+	variant 4
+		"Marauder Falcon (Weapons)"
+		"Rebellion Dart-Class" 8
+	variant 4
+		"Marauder Raven" 3
+		"Rebellion Dart-Class" 5
+	variant
+		"Rebellion Excalibur-Class"
+		"Rebellion Javelin-Class" 3
+		"Marauder Leviathan"
+		"Marauder Falcon"
+		"Marauder Raven" 3
+		"Rebellion Dart-Class" 10
+	variant
+		"Rebellion Excalibur-Class"
+		"Rebellion Javelin-Class" 3
+		"Marauder Leviathan (Weapons)"
+		"Marauder Falcon (Weapons)"
+		"Marauder Raven" 3
+		"Rebellion Dart-Class" 10
+	variant
+		"Rebellion Excalibur-Class"
+		"Rebellion Javelin-Class" 3
+		"Marauder Leviathan (Engines)"
+		"Marauder Falcon (Engines)"
+		"Marauder Raven" 3
+		"Rebellion Dart-Class" 10
