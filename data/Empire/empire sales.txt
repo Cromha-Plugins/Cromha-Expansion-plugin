@@ -379,3 +379,4 @@ shipyard Advanced-lifdot-industries-shipyard
 	Arbiter
 	"Sunder"
 	"Dreadful"
+	"Empire Fortress (Emperor)"

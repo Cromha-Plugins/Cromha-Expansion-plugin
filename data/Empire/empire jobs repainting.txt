@@ -10,6 +10,7 @@ mission empire-repainting-0
 	on accept
 		event empire-repainting-0
 		fine 7000
+		fail
 		
 event empire-repainting-0
 	government "Escort"
@@ -27,6 +28,7 @@ mission empire-repainting-1
 	on accept
 		event empire-repainting-1
 		fine 7000
+		fail
 		
 event empire-repainting-1
 	government "Escort"
@@ -44,6 +46,7 @@ mission empire-repainting-2
 	on accept
 		event empire-repainting-2
 		fine 7000
+		fail
 		
 event empire-repainting-2
 	government "Escort"
@@ -61,6 +64,7 @@ mission empire-repainting-3
 	on accept
 		event empire-repainting-3
 		fine 7000
+		fail
 		
 event empire-repainting-3
 	government "Escort"
@@ -78,6 +82,7 @@ mission empire-repainting-4
 	on accept
 		event empire-repainting-4
 		fine 7000
+		fail
 		
 event empire-repainting-4
 	government "Escort"
@@ -95,6 +100,7 @@ mission empire-repainting-5
 	on accept
 		event empire-repainting-5
 		fine 7000
+		fail
 		
 event empire-repainting-5
 	government "Escort"
@@ -112,6 +118,7 @@ mission empire-repainting-6
 	on accept
 		event empire-repainting-6
 		fine 7000
+		fail
 		
 event empire-repainting-6
 	government "Escort"
@@ -129,6 +136,7 @@ mission empire-repainting-7
 	on accept
 		event empire-repainting-7
 		fine 7000
+		fail
 		
 event empire-repainting-7
 	government "Escort"
@@ -146,6 +154,7 @@ mission empire-repainting-8
 	on accept
 		event empire-repainting-8
 		fine 7000
+		fail
 		
 event empire-repainting-8
 	government "Escort"
@@ -163,6 +172,7 @@ mission empire-repainting-9
 	on accept
 		event empire-repainting-9
 		fine 7000
+		fail
 		
 event empire-repainting-9
 	government "Escort"
@@ -180,6 +190,7 @@ mission empire-repainting-10
 	on accept
 		event empire-repainting-10
 		fine 7000
+		fail
 		
 event empire-repainting-10
 	government "Escort"
@@ -197,6 +208,7 @@ mission empire-repainting-11
 	on accept
 		event empire-repainting-11
 		fine 7000
+		fail
 		
 event empire-repainting-11
 	government "Escort"
@@ -214,6 +226,7 @@ mission empire-repainting-12
 	on accept
 		event empire-repainting-12
 		fine 7000
+		fail
 		
 event empire-repainting-12
 	government "Escort"
@@ -231,6 +244,7 @@ mission empire-repainting-13
 	on accept
 		event empire-repainting-13
 		fine 7000
+		fail
 		
 event empire-repainting-13
 	government "Escort"
@@ -248,6 +262,7 @@ mission empire-repainting-14
 	on accept
 		event empire-repainting-14
 		fine 7000
+		fail
 		
 event empire-repainting-14
 	government "Escort"
@@ -265,6 +280,7 @@ mission empire-repainting-15
 	on accept
 		event empire-repainting-15
 		fine 7000
+		fail
 		
 event empire-repainting-15
 	government "Escort"
@@ -282,6 +298,7 @@ mission empire-repainting-16
 	on accept
 		event empire-repainting-16
 		fine 7000
+		fail
 		
 event empire-repainting-16
 	government "Escort"
@@ -299,6 +316,7 @@ mission empire-repainting-17
 	on accept
 		event empire-repainting-17
 		fine 7000
+		fail
 		
 event empire-repainting-17
 	government "Escort"
@@ -316,6 +334,7 @@ mission empire-repainting-18
 	on accept
 		event empire-repainting-18
 		fine 7000
+		fail
 		
 event empire-repainting-18
 	government "Escort"
@@ -333,6 +352,7 @@ mission empire-repainting-19
 	on accept
 		event empire-repainting-19
 		fine 7000
+		fail
 		
 event empire-repainting-19
 	government "Escort"
@@ -350,6 +370,7 @@ mission empire-repainting-20
 	on accept
 		event empire-repainting-20
 		fine 7000
+		fail
 		
 event empire-repainting-20
 	government "Escort"
@@ -367,6 +388,7 @@ mission empire-repainting-21
 	on accept
 		event empire-repainting-21
 		fine 7000
+		fail
 		
 event empire-repainting-21
 	government "Escort"
@@ -384,6 +406,7 @@ mission empire-repainting-22
 	on accept
 		event empire-repainting-22
 		fine 7000
+		fail
 		
 event empire-repainting-22
 	government "Escort"
@@ -401,6 +424,7 @@ mission empire-repainting-23
 	on accept
 		event empire-repainting-23
 		fine 7000
+		fail
 		
 event empire-repainting-23
 	government "Escort"
@@ -418,6 +442,7 @@ mission empire-repainting-24
 	on accept
 		event empire-repainting-24
 		fine 7000
+		fail
 		
 event empire-repainting-24
 	government "Escort"
@@ -435,6 +460,7 @@ mission empire-repainting-25
 	on accept
 		event empire-repainting-25
 		fine 7000
+		fail
 		
 event empire-repainting-25
 	government "Escort"
@@ -452,9 +478,8 @@ mission empire-repainting-26
 	on accept
 		event empire-repainting-26
 		fine 7000
+		fail
 		
 event empire-repainting-26
 	government "Escort"
 		swizzle 26
-	
-		swizzle 6
