@@ -7,7 +7,7 @@ fleet cromha-fleet
 		outfitters Basic-ammo-outfitter Base-outfitter
 	personality
 		plunders heroic frugal
-		confusion 0
+		confusion .5
 	variant
 		"Empire Skylark"
 		"Empire Wardragon" 2

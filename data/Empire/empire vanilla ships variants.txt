@@ -1300,66 +1300,61 @@ ship "Quicksilver" "Quicksilver (Empire)"
 	"final explode" "final explosion small"
 	description "The Megaparsec Quicksilver is a warship built around a single concept: to design the smallest and fastest ship capable of carrying two Particle Cannons. Because of its speed and long weapons range, the Quicksilver can keep a safe distance from most targets and bombard them with particle bursts until they are destroyed. Unfortunately the Headhunter eventually surpassed the original design intent, but the Quicksilver's better durability to cost ratio, and the existence of long-term contracts, has kept it in use with Syndicate security forces."
 
-ship "Raven" "Raven (Empire)"
-	sprite "ship/mravens"
-	thumbnail "thumbnail/mravens"
-	attributes
-		category "Light Warship"
-		"cost" 2200000
-		"shields" 4850
-		"hull" 1750
-		"required crew" 6
-		"bunks" 13
-		"mass" 130
-		"drag" 3.7
-		"heat dissipation" .8
-		"fuel capacity" 500
-		"cargo space" 30
-		"outfit space" 280
-		"weapon capacity" 100
-		"engine capacity" 100
-		weapon
-			"blast radius" 60
-			"shield damage" 1120
-			"hull damage" 975
-			"hit force" 900
+ship Raven "Raven (Empire)"
+	sprite "ship/lifdot raven"
+	thumbnail "thumbnail/lifdot raven"
+	"outfit space" 450
+	"engine capacity" 100
+	"weapon capacity" 250
+	"cargo space" 30
+	"shields" 4850
+	"hull" 1750
+	"fuel capacity" 500
+	"heat dissipation" 0.8
+	"required crew" 6
+	"drag" 3.5
 	outfits
 		Brig
 		"Compact Plasma Drive"
 		"Countermesure Module Compact" 2
 		"Empire Hai Fissure Batteries"
+		"Empire Torpedo Missile" 80
+		"Empire Torpedo Rack" 4
+		"Empire Typhoon Bank" 2
 		"KP-6 Photovoltaic Panel" 2
 		"Multiphasic Scanner"
-		"Nuclavoltaic Repeater" 2
+		"Nuclavoltaic Turret"
 		"One-Phasic Cooler" 2
 		"Phasic Grenades"
 		"Phasic Rifle" 2
+		"Quatalant Shield (Small)" 2
 		"RC-160 Atomic Thruster"
 		"RC-165 Atomic Steering"
-		"Quatalant Shield (Small)" 2
 		"Thermal Nucleavoltaic" 3
-		"Typhoon Pod" 2
-		"Typhoon Storage Tube" 2
-		"Typhoon Torpedo" 34
-		
-	engine -9.5 63
-	engine 9.5 63
-	gun -13.5 -35.5 "Nuclavoltaic Repeater"
-		under
-	gun 13.5 -35.5 "Nuclavoltaic Repeater"
-		under
-	gun -21 -28 "Typhoon Pod"
-		under
-	gun 21 -28 "Typhoon Pod"
-		under
-	leak "leak" 60 50
-	leak "flame" 50 80
-	explode "medium explosion" 24
-	explode "large explosion" 16
-	explode "tiny explosion" 28
-	explode "small explosion" 40
-	"final explode" "final explosion small"
+		"Twin Empire Particle" 2
+	engine -11 62.5
+		zoom 1.1
+	engine 11 62.5
+		zoom 1.1
+	engine 46 21.5
+		zoom 0.1
+	engine 69 14.5
+		zoom 0.1
+	engine 91 19.5
+		zoom 0.1
+	engine -46 21.5
+		zoom 0.1
+	engine -69 14.5
+		zoom 0.1
+	engine -91 19.5
+		zoom 0.1
+	gun -20 -28 "Twin Empire Particle"
+	gun -20 -28 "Twin Empire Particle"
+	gun -13.5 -34 "Empire Typhoon Bank"
+	gun 13.5 -34 "Empire Typhoon Bank"
+	turret 0 32.5 "Nuclavoltaic Turret"
 	description "The Lionheart Raven is their most popular warship, an agile and elegant vessel that can nevertheless deal out and absorb considerable damage. Ravens are a favorite ship for bounty hunters, because they are more than a match for pirate interceptors and can be used by a skilled pilot to take down much larger ships as well."
+	description "The Lifdot variant has more weapon capacity and engine capacity as you can see. It even has a turret mount."
 
 ship "Aerie" "Aerie (Empire)"
 	sprite "ship/aerie"

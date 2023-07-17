@@ -15,7 +15,7 @@ outfit "Pug Crystal"
 	description "This sort of crystal that a pug worker in the Empire Ringworld gave you seems to have specials power."
 	
 outfit "Subsidurial Plushie"
-	category "Special"
+	category "Unique"
 	cost 40
 	thumbnail "outfit/subsidurial plushie"
 	description "A stuffed toy shaped like a popular space creature. Isn't it adorable?"

@@ -11,9 +11,11 @@ phrase "empire friendly hail"
 
 phrase "empire friendly disabled hail"
 	word
-		"Your help is welcome. Please could you help me?"
+		"Your help is welcome. Please could you help us?"
 		"Carry us in destroying the cowards that attacked us."
-		"Please i'm disabled, would you like to help us? The Empire will surely award you for this."
+		"Please I'm currently disabled, would you like to help us? The Empire will surely award you for this."
+		"Please could you help all our derelict ships?"
+		"Could you help me to get out of here?"
 
 phrase "empire hostile hail"
 	word
