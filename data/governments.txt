@@ -4,6 +4,9 @@ government "Cromha Empire"
 	"crew attack" 29
 	"crew defense" 56
 	"attitude toward"
+		"Empire Rebels" -3
+		"Empire Merchant" 3
+		"Mineria colonnies" 3
 		"Empire Rebels" 5
 		Bounty -1
 		"Bounty Hunter" -1
@@ -38,18 +41,30 @@ government "Cromha Empire"
 	"hostile hail" "empire hostile hail"
 	"hostile disabled hail" "empire hostile hail"
 	raid empire-rebels-raiders
+	atrocities
+		"Nanotech Battery"
+		"Antimatter Core"
+		"Quarg Skylance"
+		"Quarg Anti-Missile"
+		"Intrusion Countermeasures"
+		"Medium Graviton Thruster"
+		"Medium Graviton Steering"
+		"Quantum Shield Generator"
 	enforces
 		government
 			"Cromha Empire"
 			"Mineria colonnies"
 		near Skeruto 0 1
+		near "Alpha Cromha" 0 2
+		near "Ring Wartrue" 0 1
 
 government "Empire Merchant"
 	swizzle 16
 	color 0.076 0.105 0.407
 	"player reputation" 10
 	"attitude toward"
-		"Mineria colonnies" -3
+		"Mineria colonnies" 3
+		"Empire Rebels" -3
 		"Cromha Empire" 5
 		"Hai (Unfettered)" -1
 		"Indigene Creature" 2
@@ -69,6 +84,8 @@ government "Empire Merchant"
 			"Cromha Empire"
 			"Mineria colonnies"
 		near Skeruto 0 1
+		near "Alpha Cromha" 0 2
+		near "Ring Wartrue" 0 1
 
 government "Empire Rebels"
 	swizzle 19
@@ -145,6 +162,8 @@ government "Mineria colonnies"
 			"Cromha Empire"
 			"Mineria colonnies"
 		near Skeruto 0 1
+		near "Alpha Cromha" 0 2
+		near "Ring Wartrue" 0 1
 
 government "Remnant (empre mission)"
 	"display name" Remnant
