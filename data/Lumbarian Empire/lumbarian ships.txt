@@ -363,9 +363,8 @@ ship "Cruiser (Lumbarian)"
 		"Lumbarian Particle Turret" 2
 		"Outfits Expansion"
 		"Particle Cannon" 6
-		Ramscoop
 		"Security Station"
-		"Tactical Scanner"
+		"Solar Core"
 		"Water Coolant System"
 	engine -28 154
 		zoom 0.95
@@ -439,11 +438,10 @@ ship "Carrier (Lumbarian)"
 		"Laser Rifle" 40
 		"Liquid Helium Cooler"
 		"Lumbarian Particle Turret" 2
-		"Outfits Expansion" 4
+		"Outfits Expansion" 5
 		"Particle Cannon" 8
-		Ramscoop
 		"Security Station"
-		"Tactical Scanner"
+		"Solar Core"
 		"Water Coolant System"
 	engine -36.5 200
 		zoom 0.65
@@ -582,7 +580,9 @@ ship "Shield Beetle (Lumbarian)"
 		"LP288a Battery Pack"
 		"Laser Rifle" 60
 		"Lumbarian Particle Turret" 2
+		"Outfits Expansion" 2
 		"Particle Cannon" 8
+		"Solar Core"
 	engine -44 133
 	engine 44 133
 	gun -22 -102 "Particle Cannon"
@@ -664,3 +664,4 @@ ship "Lumbarian Cutlas-Class"
 	explode "tiny explosion" 60
 	"final explode" "final explosion medium"
 	description "One of the greatest ships of the fleet, the Lumbarian Cutlas-Class is derived from a Korath Met Par Tek 53 and highly upgraded."
+
