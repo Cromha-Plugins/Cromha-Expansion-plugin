@@ -298,7 +298,7 @@ ship "Frigate (Lumbarian)"
 		"Fragmentation Grenades" 5
 		Hyperdrive
 		"LP144a Battery Pack"
-		"Laser Rifle" 5
+		"Modified Hai Rifle" 5
 		"Liquid Helium Cooler"
 		"Lumbarian Particle Turret"
 		"Outfits Expansion"
@@ -358,7 +358,7 @@ ship "Cruiser (Lumbarian)"
 		"Jump Drive"
 		"LP576a Battery Pack"
 		"Large Radar Jammer"
-		"Laser Rifle" 20
+		"Modified Hai Rifle" 20
 		"Liquid Helium Cooler"
 		"Lumbarian Particle Turret" 2
 		"Outfits Expansion"
@@ -435,7 +435,7 @@ ship "Carrier (Lumbarian)"
 		"Heavy Anti-Missile Turret" 2
 		"Jump Drive"
 		"LP288a Battery Pack"
-		"Laser Rifle" 40
+		"Modified Hai Rifle" 40
 		"Liquid Helium Cooler"
 		"Lumbarian Particle Turret" 2
 		"Outfits Expansion" 5
@@ -578,7 +578,7 @@ ship "Shield Beetle (Lumbarian)"
 		"Hai Williwaw Cooling" 2
 		"Jump Drive"
 		"LP288a Battery Pack"
-		"Laser Rifle" 60
+		"Modified Hai Rifle" 60
 		"Lumbarian Particle Turret" 2
 		"Outfits Expansion" 2
 		"Particle Cannon" 8

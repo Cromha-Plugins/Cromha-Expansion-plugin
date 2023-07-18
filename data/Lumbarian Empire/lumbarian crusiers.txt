@@ -30,7 +30,7 @@ ship "Lumbarian Trident-Class"
 		"Heavy Anti-Missile Turret" 4
 		"Jump Drive"
 		"Large Heat Shunt" 15
-		"Laser Rifle" 200
+		"Modified Hai Rifle" 200
 		"Lumbarian Particle Turret" 14
 		"Nanotech Battery" 2
 		"Particle Cannon" 12
@@ -123,7 +123,7 @@ ship "Lumbarian Pike-Class"
 		"Heavy Anti-Missile Turret" 5
 		"Jump Drive"
 		"Large Heat Shunt" 15
-		"Laser Rifle" 200
+		"Modified Hai Rifle" 200
 		"Lumbarian Particle Turret" 18
 		"Nanotech Battery" 2
 		"Quantum Shield Generator" 3
