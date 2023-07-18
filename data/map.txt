@@ -3405,6 +3405,10 @@ planet Alfheim
 	outfitter Rebels-basic-systems-outfitter
 	outfitter Rebels-basic-weapon-outfitter
 	remove security
+	tribute 650
+		threshold 5000
+		fleet empire-rebels-raiders-fleet 6
+		fleet empire-rebels-merchants 6 
 
 system "Alpi Tah"
 	pos -783 -132
