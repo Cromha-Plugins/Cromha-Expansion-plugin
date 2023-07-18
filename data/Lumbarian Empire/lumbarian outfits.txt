@@ -8,7 +8,7 @@ outfit "Lumbarian Particle Turret"
 	"weapon capacity" -70
 	"turret mounts" -1
 	weapon
-		sprite "projectile/particle beam"
+		sprite "projectile/dual particle beam"
 		sound particle
 		"hit effect" "particle impact"
 		"inaccuracy" 0.5
