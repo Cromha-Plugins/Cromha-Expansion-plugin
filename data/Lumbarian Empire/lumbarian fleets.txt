@@ -57,5 +57,31 @@ fleet "Large L Navy"
 		"Lumbarian Cutlas-Class"
 	variant 2
 		"Lumbarian Cutlas-Class"
-		Frigate 2
+		"Frigate (Lumbarian)" 2
 
+fleet "Small L Navy"
+	government "Lumbarian Empire"
+	names "republic capital"
+	fighters "republic fighter"
+	personality
+		disables heroic mining harvests opportunistic
+	variant
+		"Lumbarian Cutlas-Class"
+	variant
+		"Frigate (Lumbarian)"
+	variant 2
+		"Gunboat (Lumbarian)" 3
+	variant 2
+		"Gunboat (Lumbarian)" 2
+		"Rainmaker (Lumbarian)"
+	variant 2
+		"Gunboat (Lumbarian)"
+		"Rainmaker (Lumbarian)" 2
+	variant 2
+		"Rainmaker (Lumbarian)" 3
+	variant
+		"Frigate (Lumbarian)"
+		"Gunboat (Lumbarian" 2
+	variant
+		"Frigate (Lumbarian)"
+		"Rainmaker (Lumbarian" 2

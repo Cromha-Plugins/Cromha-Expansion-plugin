@@ -27,6 +27,7 @@ government "Cromha Empire"
 		Remnant 1
 		Syndicate -3
 		Wanderer 3
+		"Lumbarian Empire" -1
 	"penalty for"
 		assist -1.6
 		disable 2.9
@@ -232,7 +233,6 @@ government "Lumbarian Empire"
 	color 0.618 0 1
 	"player reputation" 3
 	"attitude toward"
-		Rebellion -10
 		"Free Worlds" 10
 		Pirate -10
 		Republic 0.001
@@ -242,10 +242,3 @@ government "Lumbarian Empire"
 	bribe 30
 	"friendly hail" "friendly navy"
 	"hostile hail" "hostile navy"
-
-government Rebellion
-	swizzle 25
-	color 1 0 1
-	"attitude toward"
-		"Lumbarian Empire" -10
-		Republic -10
