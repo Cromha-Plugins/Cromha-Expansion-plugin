@@ -4160,6 +4160,7 @@ system Marlab
 			period 290.018
 
 system Limen
+	government "Empire Rebels"
 	add link Alsif
 	add link Obrana
 	add link Wezen
@@ -5993,10 +5994,12 @@ planet Draggonist
 		fleet "Far Remnant Decoy Defense" 15
 
 system Orbona
+	government "Empire Rebels"
 	add fleet empire-rebels-merchants 1200
 	add fleet empire-rebels-raiders 1700
 
 system Terminus
+	government "Empire Rebels"
 	add fleet "Small Deep Merchants" 1000
 	add fleet empire-rebels-merchants 1000
 	add fleet empire-rebels-raiders 2000
@@ -6008,7 +6011,7 @@ system Mora
 
 system Obrana
 	pos -823.879 38.269
-	government Republic
+	government "Empire Rebels"
 	attributes "dirt belt"
 	arrival 5000
 	habitable 10
@@ -6223,8 +6226,8 @@ planet "-[Lumbarian High Command]-"
 	description -[Placeholder]-
 	spaceport -[Placeholder]-
 	government "Lumbarian Empire"
-	shipyard "Lumbarian Advanced"
-	shipyard "Lumbarian Basic"
+	shipyard ""
+	shipyard ""
 
 system Phurad
 	government "Lumbarian Empire"
@@ -6491,50 +6494,20 @@ system Phact
 system Arneb
 	government "Lumbarian Empire"
 	add fleet "Large L Navy" 800
-	object
-		sprite star/f5
-		period 10
-	object
-		sprite planet/venus
-		distance 206
-		period 28.558
-	object
-		sprite planet/cloud6-b
-		distance 546.25
-		period 123.314
-	object
-		sprite planet/desert8
-		distance 829.46
-		period 230.739
-	object Haven
-		sprite planet/forest6
-		distance 1264.82
-		period 434.481
-	object
-		sprite planet/io
-		distance 4062.31
-		period 2500.84
 
 planet Haven
-		fleet "Large L Navy" 21
 
 planet Featherweight
-		fleet "Large L Navy" 30
 
 planet Splashdown
-		fleet "Large L Navy" 3
 
 planet Serpens
-		fleet "Large L Navy" 3
 
 planet Glory
-		fleet "Large L Navy" 16
 
 planet Vail
-		fleet "Large L Navy" 11
 
 planet Calda
-		fleet "Large L Navy" 13
 
 planet Pearl
-		fleet "Large L Navy" 11
+
