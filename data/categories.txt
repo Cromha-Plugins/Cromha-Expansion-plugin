@@ -33,7 +33,6 @@ category "bay type"
 	"Gunboat"
 	"Nanobot"
 	"Fuel Pod"
-	"Cargo Freighter"
 
 # Outfits of these types can be bought and sold via the outfitter.
 category "outfit"
