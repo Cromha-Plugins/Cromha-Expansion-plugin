@@ -609,9 +609,9 @@ ship "Shield Beetle (Lumbarian)"
 	description "The Lumbarian Empire has gone to many exotic places, as seen in this alien warship."
 
 ship "Lumbarian Cutlas-Class"
-	plural "Met Par Tek 53s"
-	sprite "ship/met par tek 53"
-	thumbnail "thumbnail/met par tek 53"
+	plural "Lumbarians Cutlas-Class"
+	sprite "ship/lumbarian Met Par Tek 53 upgrade"
+	thumbnail "thumbnail/lumbarian Met Par Tek 53 upgrade"
 	attributes
 		category Destroyer
 		licenses Lumbarian
