@@ -6510,14 +6510,24 @@ planet Haven
 planet Featherweight
 
 planet Splashdown
+	outfitter "Lumbarian Stuff"
 
 planet Serpens
+	shipyard "Lumbarian Basic"
+	outfitter "Lumbarian Stuff"
 
 planet Glory
+	shipyard "Lumbarian Advanced"
+	outfitter "Lumbarian Stuff"
 
 planet Vail
+	shipyard "Lumbarian Advanced"
+	outfitter "Lumbarian Stuff"
 
 planet Calda
+	shipyard "Lumbarian Basic"
+	outfitter "Lumbarian Stuff"
 
 planet Pearl
+	outfitter "Lumbarian Stuff"
 
