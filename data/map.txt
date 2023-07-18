@@ -6226,8 +6226,9 @@ planet "-[Lumbarian High Command]-"
 	description -[Placeholder]-
 	spaceport -[Placeholder]-
 	government "Lumbarian Empire"
-	shipyard ""
-	shipyard ""
+	shipyard "Lumbarian Advanced"
+	shipyard "Lumbarian Basic"
+	outfitter "Lumbarian Stuff"
 
 system Phurad
 	government "Lumbarian Empire"
