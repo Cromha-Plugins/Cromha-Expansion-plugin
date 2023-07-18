@@ -1,6 +1,5 @@
 outfit "Lumbarian Particle Turret"
 	category Turrets
-	plural "Lumbarian Particle Turrets"
 	cost 220000
 	thumbnail "outfit/lumbarian particle turret"
 	"mass" 30
@@ -9,6 +8,7 @@ outfit "Lumbarian Particle Turret"
 	"turret mounts" -1
 	weapon
 		sprite "projectile/dual particle beam"
+		"hardpoint sprite" "hardpoint/particle turret hardpoint sprite"
 		sound particle
 		"hit effect" "particle impact" 2
 		"inaccuracy" 0.5
@@ -23,3 +23,4 @@ outfit "Lumbarian Particle Turret"
 		"hull damage" 130
 		"hit force" 80
 	description "Two Particle Cannons, placed on a turret. Pandemonium ensues."
+

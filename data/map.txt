@@ -6176,6 +6176,7 @@ system Lumbaria
 	trade Metal 328
 	trade Plastic 489
 	fleet "Large L Navy" 1200
+	fleet "Small L Navy" 400
 	fleet "Paradise Merchants" 4000
 	object
 		sprite star/k5
@@ -6234,6 +6235,7 @@ system Phurad
 	government "Lumbarian Empire"
 	add link Lumbaria
 	add fleet "Large L Navy" 1500
+	add fleet "Small L Navy" 600
 	object
 		sprite star/g0
 		period 10
@@ -6266,6 +6268,7 @@ system Mirzam
 	government "Lumbarian Empire"
 	add link Lumbaria
 	add fleet "Large L Navy" 1500
+	add fleet "Small L Navy" 600
 	object
 		sprite star/g0
 		period 10
@@ -6297,6 +6300,7 @@ system Mirzam
 system Canopus
 	government "Lumbarian Empire"
 	add fleet "Large L Navy" 1500
+	add fleet "Small L Navy" 600
 	object
 		sprite star/m3
 		period 10
@@ -6320,6 +6324,7 @@ system Canopus
 system Mebsuta
 	government "Lumbarian Empire"
 	add fleet "Large L Navy" 1500
+	add fleet "Small L Navy" 600
 	object
 		sprite star/g-supergiant
 		distance 1.491
@@ -6368,6 +6373,7 @@ system Mebsuta
 system Tejat
 	government "Lumbarian Empire"
 	add fleet "Large L Navy" 1500
+	add fleet "Small L Navy" 600
 	object
 		sprite star/g0
 		distance 11.78
@@ -6417,6 +6423,7 @@ system Tejat
 system Wazn
 	government "Lumbarian Empire"
 	add fleet "Large L Navy" 1500
+	add fleet "Small L Navy" 600
 	object
 		sprite star/k8
 		distance 28.211
@@ -6454,6 +6461,7 @@ system Wazn
 system Phact
 	government "Lumbarian Empire"
 	add fleet "Large L Navy" 1500
+	add fleet "Small L Navy" 600
 	object
 		sprite star/g5
 		distance 45.94
@@ -6495,6 +6503,7 @@ system Phact
 system Arneb
 	government "Lumbarian Empire"
 	add fleet "Large L Navy" 800
+	add fleet "Small L Navy" 400
 
 planet Haven
 
