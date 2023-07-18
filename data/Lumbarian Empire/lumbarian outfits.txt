@@ -10,7 +10,7 @@ outfit "Lumbarian Particle Turret"
 	weapon
 		sprite "projectile/dual particle beam"
 		sound particle
-		"hit effect" "particle impact"
+		"hit effect" "particle impact" 2
 		"inaccuracy" 0.5
 		"turret turn" 1.5
 		"velocity" 30
