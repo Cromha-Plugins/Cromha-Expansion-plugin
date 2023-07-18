@@ -1,4 +1,52 @@
 # CREDITS
+Files: data/*
+Licenses: GPL-3.0
+**Derived from works by Michael Zahniser (from under the same license)**
+
+Files; images/*
+Licenses: CC-BY-SA-4.0
+**All images derived from "Endless Sky" by Michael Zahniser and possibly others listed below under "Endless Sky Artwork" and "Endless Sky Photographs"  except as noted below under "Additional Image Sources".**
+
+## ENDLESS SKY ARTWORK
+
+* Photos from Wikimedia Commons
+
+  ù Berthold Werner (CC-BY-SA-3.0)
+  
+  * Dmitry A. Mottl (CC-BY-SA-3.0)
+  
+  * Myrabella (CC-BY-SA-3.0)
+  
+  * Matthew Field (CC-BY-SA-3.0)
+  
+* and other photographers
+
+  * Chris Pickel (CC-BY-SA-4.0)
+  
+  * Michael Wilson (CC-BY-SA-4.0)
+  
+  * @harro.eu (CC-BY-SA-4.0)
+  
+  * @Iridium Ore (CC-BY-SA-4.0)
+  
+  * Eric Denni (CC-BY-SA-4.0)
+  
+* and from public domain sources
+
+  * NASA
+  
+  * US Geological Survey
+  
+  * Library of Congress
+  
+  * US Army
+  
+  * morguefile.com
+  
+  * unsplash.com
+  
+
+## ADDITIONAL IMAGE SOURCES
 * Lifdot Indsutries: Colossus sprite: https://github.com/Adde-Endless-Sky-Mods/Fluff/blob/main/images/ship/colossus.png
 * Lifdot Industries: Modified Flivver sprite: https://github.com/Adde-Endless-Sky-Mods/Fluff/blob/main/images/ship/flivverRacing.png
 * Lifdot Industires: Hornet sprite: https://github.com/Adde-Endless-Sky-Mods/Fluff/blob/main/images/ship/hornet.png
