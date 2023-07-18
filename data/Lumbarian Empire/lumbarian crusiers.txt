@@ -73,6 +73,22 @@ ship "Lumbarian Trident-Class"
 	turret 66 239.5 "Lumbarian Particle Turret"
 	turret 31.5 176.5 "Lumbarian Particle Turret"
 	turret 18 -196.5 "Lumbarian Particle Turret"
+	bay Gunboat -115 399.5
+	bay Gunboat -124 339.5
+	bay Gunboat -108.5 270.5
+	bay Gunboat -98.5 196.5
+	bay Gunboat -89.5 108.5
+	bay Gunboat -77 13
+	bay Gunboat -65.5 -81
+	bay Gunboat -53 -164.5
+	bay Gunboat 115 399.5
+	bay Gunboat 124 339.5
+	bay Gunboat 108.5 270.5
+	bay Gunboat 98.5 196.5
+	bay Gunboat 89.5 108.5
+	bay Gunboat 77 13
+	bay Gunboat 65.5 -81
+	bay Gunboat 53 -164.5
 	description "When Imperial Fire Industries unveiled their new creation, everyone was in awe. It was a massive cruiser with an extreme amount of space, built for power. It was the Trident-Class."
 	description "	Along with its size came great requirements. They were fixed with alien outfits."
 
@@ -141,4 +157,26 @@ ship "Lumbarian Pike-Class"
 	turret 90.5 203.5 "Lumbarian Particle Turret"
 	turret 99.5 274 "Lumbarian Particle Turret"
 	turret 40.5 -48.5 "Lumbarian Particle Turret"
-
+	bay Gunboat -48 282.5
+	bay Gunboat -45.5 230.5
+	bay Gunboat -43 171
+	bay Gunboat -40 109
+	bay Gunboat -37 60.5
+	bay Gunboat -99.5 344
+	bay Gunboat -138 337.5
+	bay Gunboat -110.5 220
+	bay Gunboat -81 80.5
+	bay Gunboat -54.5 -53.5
+	bay Gunboat -30.5 -194.5
+	bay Gunboat 48 282.5
+	bay Gunboat 45.5 230.5
+	bay Gunboat 43 171
+	bay Gunboat 40 109
+	bay Gunboat 37 60.5
+	bay Gunboat 99.5 344
+	bay Gunboat 138 337.5
+	bay Gunboat 110.5 220
+	bay Gunboat 81 80.5
+	bay Gunboat 54.5 -53.5
+	bay Gunboat 30.5 -194.5
+	description "The Pike-Class is the successor to the Trident-Class."

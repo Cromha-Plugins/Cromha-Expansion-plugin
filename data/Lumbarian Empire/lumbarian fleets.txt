@@ -86,6 +86,19 @@ fleet "Small L Navy"
 		"Frigate (Lumbarian)"
 		"Rainmaker (Lumbarian" 2
 
+fleet "Lumbarian Cruiser"
+	government "Lumbarian Empire"
+	names "republic capital"
+	fighters "republic fighter"
+	personality
+		disables heroic mining harvests opportunistic
+	variant
+		"Lumbarian Trident-Class"
+		"Gunboat (Lumbarian)" 16
+	variant
+		"Lumbarian Pike-Class"
+		"Gunboat (Lumbarian)" 22
+
 event "Lumbarian Upgrade One"
 	date 3016 1 8
 	fleet "Large L Navy"
