@@ -15,7 +15,7 @@ Licenses: CC-BY-SA-4.0
 
 * Photos from Wikimedia Commons
 
-  ù Berthold Werner (CC-BY-SA-3.0)
+  * Berthold Werner (CC-BY-SA-3.0)
   
   * Dmitry A. Mottl (CC-BY-SA-3.0)
   
