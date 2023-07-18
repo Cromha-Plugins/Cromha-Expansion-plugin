@@ -1,6 +1,6 @@
 outfit "Lumbarian Particle Turret"
 	category Turrets
-	plural "Particle Cannons"
+	plural "Lumbarian Particle Turrets"
 	cost 220000
 	thumbnail "outfit/lumbarian particle turret"
 	"mass" 30
@@ -24,3 +24,14 @@ outfit "Lumbarian Particle Turret"
 		"hit force" 80
 	description "Two Particle Cannons, placed on a turret. Pandemonium ensues."
 
+outfit "Solar Core"
+	category "Power"
+	cost 27500
+	thumbnail "outfit/solar core"
+	"mass" 30
+	"outfit space" -25
+	"energy capacity" 1370
+	"ramscoop" .8
+	"solar collection" 10.4
+	"solar heat" 5.4
+	description "The Solar Core is a highly prized outfit by most Empire Rebels raiders as well as Pirates and Lumbarian captains. This outfit lets you produce a noticable amount of energy without taking too much space as well as letting you refuel if you're lost in an uninhabited system."
