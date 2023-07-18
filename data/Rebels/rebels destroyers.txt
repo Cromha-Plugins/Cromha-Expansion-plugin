@@ -5,7 +5,7 @@ ship "Tar Kas Destroyer"
 		category Destroyer
 		cost 750000
 		"mass" 450
-		"outfit space" 720
+		"outfit space" 750
 		"engine capacity" 175
 		"weapon capacity" 350
 		"cargo space" 85
@@ -23,6 +23,7 @@ ship "Tar Kas Destroyer"
 			"hit force" 1300
 	outfits
 		"Empire Hai Ravine Batteries"
+		"Solar Core"
 		"Empire Shielding Core"
 		"Heavy Anti-Missile Turret" 2
 		"Large Interference Emitter" 2
@@ -98,7 +99,7 @@ ship "Or Kar Destroyer"
 		category Destroyer
 		cost 950000
 		"mass" 650
-		"outfit space" 840
+		"outfit space" 870
 		"engine capacity" 345
 		"weapon capacity" 750
 		"cargo space" 135
@@ -127,6 +128,7 @@ ship "Or Kar Destroyer"
 		"Scram Drive"
 		"W-180 Nitrogen Steering"
 		"W-180 Nitrogen Thruster"
+		"Solar Core"
 	engine 18.5 131.5
 		zoom 1.4
 	engine -18.5 131.5

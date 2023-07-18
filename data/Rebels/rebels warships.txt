@@ -12,7 +12,7 @@ ship "Rebel Firebird"
 		"drag" 18
 		"heat dissipation" .55
 		"fuel capacity" 1400
-		"cargo space" 850
+		"cargo space" 880
 		"outfit space" 1120
 		"weapon capacity" 512
 		"engine capacity" 245
@@ -27,6 +27,7 @@ ship "Rebel Firebird"
 		"Ion Proton Turret" 4
 		"Quad Blaster Turret" 4
 		"Heavy Anti-Missile Turret" 4
+		"Solar Core"
 		
 		"Fission Reactor"
 		"Liquid Nitrogen Cooler"
@@ -83,7 +84,7 @@ ship "Rebel Raven"
 		"heat dissipation" .75
 		"fuel capacity" 600
 		"cargo space" 130
-		"outfit space" 336
+		"outfit space" 366
 		"weapon capacity" 345
 		"engine capacity" 345
 		weapon
@@ -99,6 +100,7 @@ ship "Rebel Raven"
 		"nGVF-DD Fuel Cell"
 		"LP072a Battery Pack"
 		"D23-QP Shield Generator"
+		"Solar Core"
 		"Brig" 2
 		"Thermal Nucleavoltaic"
 		"One-Phasic Cooler"
@@ -139,7 +141,7 @@ ship "Osprey" "Osprey (Rebels)"
 		"heat dissipation" .8
 		"fuel capacity" 600
 		"cargo space" 40
-		"outfit space" 520
+		"outfit space" 550
 		"weapon capacity" 235
 		"engine capacity" 130
 		weapon
@@ -155,6 +157,7 @@ ship "Osprey" "Osprey (Rebels)"
 		"Heavy Anti-Missile Turret"
 		"Railgun Slug" 1000
 		
+		"Solar Core"
 		"RC-X2 Multiphasic Reactor" 2
 		"Empire Hai Ravine Batteries"
 		"Small Empire Shielding Core"
@@ -204,7 +207,7 @@ ship "Scavenger"
 		"drag" 10.9
 		"heat dissipation" .4
 		"fuel capacity" 800
-		"cargo space" 370
+		"cargo space" 400
 		"outfit space" 520
 		"weapon capacity" 340
 		"engine capacity" 85
@@ -228,6 +231,7 @@ ship "Scavenger"
 		"W-160 Nitrogen Steering"
 		"Nitrogen Afterburnner"
 		"Hyperdrive"
+		"Solar Core"
 	engine -31.5 110.5 0.7
 	engine 31.5 110.5 0.7
 	engine 0 113.5 1.2
@@ -264,7 +268,7 @@ ship "Gunboat (modified)" "Gunboat (Rebels)"
 		"heat dissipation" .8
 		"fuel capacity" 600
 		"cargo space" 50
-		"outfit space" 340
+		"outfit space" 370
 		"weapon capacity" 100
 		"engine capacity" 90
 		weapon
@@ -283,6 +287,7 @@ ship "Gunboat (modified)" "Gunboat (Rebels)"
 		"Tactical Scanner"
 		"Brig"
 		"Small Interference Emitter"
+		"Solar Core"
 		
 		"W-120 Nitrogen Thruster"
 		"W-160 Nitrogen Steering"
@@ -319,7 +324,7 @@ ship "Rebel Kyanite"
 		"heat dissipation" 0.5
 		"fuel capacity" 400
 		"cargo space" 76
-		"outfit space" 380
+		"outfit space" 410
 		"weapon capacity" 202
 		"engine capacity" 160
 		"energy capacity" 21300
@@ -348,6 +353,7 @@ ship "Rebel Kyanite"
 		"W-160 Nitrogen Steering"
 		"W-160 Nitrogen Thruster"
 		"Hyperdrive"
+		"Solar Core"
 	"steering engine" -84 -100 0.5
 		angle 58.5
 		right
