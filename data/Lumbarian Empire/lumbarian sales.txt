@@ -50,4 +50,6 @@ outfitter "Lumbarian Stuff"
 	"Particle Cannon"
 	Ramscoop
 	"Solar Core"
+	"Lumba Repair Device"
+	"Lumba Repair Device (Large)"
 
