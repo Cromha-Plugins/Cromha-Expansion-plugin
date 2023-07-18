@@ -6148,9 +6148,6 @@ system "Hi Yahr"
 	add link Volcanois
 	add fleet cromha-fleet 1500
 
-
-# Lumbarian Empire/Rebellion
-
 system Lumbaria
 	pos -491.861 -221.722
 	government "Lumbarian Empire"
@@ -6226,39 +6223,318 @@ planet "-[Lumbarian High Command]-"
 	description -[Placeholder]-
 	spaceport -[Placeholder]-
 	government "Lumbarian Empire"
-	shipyard "Lumbarian Advanced"
-	shipyard "Lumbarian Basic"
+	shipyard ""
+	shipyard ""
 
 system Phurad
 	government "Lumbarian Empire"
 	add link Lumbaria
 	add fleet "Large L Navy" 1500
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/rock18-b
+		distance 242.81
+		period 46.052
+	object Pearl
+		sprite planet/ocean0
+		distance 767.81
+		period 258.957
+		object
+			sprite planet/dust1
+			distance 129
+			period 16.719
+	object
+		sprite planet/gas17
+		distance 1584.81
+		period 767.916
+		object
+			sprite planet/ganymede-b
+			distance 220
+			period 13.165
+	object
+		sprite planet/dust3-b
+		distance 2639.02
+		period 1650.1
 
 system Mirzam
 	government "Lumbarian Empire"
 	add link Lumbaria
 	add fleet "Large L Navy" 1500
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/lava5-b
+		distance 184.16
+		period 30.419
+	object
+		sprite planet/lava7-b
+		distance 425.17
+		period 106.706
+	object
+		sprite planet/cloud6
+		distance 754.58
+		period 252.293
+	object
+		sprite planet/io
+		distance 1523.47
+		period 723.767
+	object
+		sprite planet/gas14-b
+		distance 2805.76
+		period 1808.93
+		object
+			sprite planet/rock17
+			distance 215
+			period 12.145
 
 system Canopus
 	government "Lumbarian Empire"
 	add fleet "Large L Navy" 1500
+	object
+		sprite star/m3
+		period 10
+	object Splashdown
+		sprite planet/ice7
+		distance 166.5
+		period 56.665
+	object
+		sprite planet/ocean0
+		distance 399.59
+		period 210.677
+	object
+		sprite planet/io-b
+		distance 719.95
+		period 509.506
+	object
+		sprite planet/dust0-b
+		distance 1975.56
+		period 2315.96
 
 system Mebsuta
 	government "Lumbarian Empire"
 	add fleet "Large L Navy" 1500
+	object
+		sprite star/g-supergiant
+		distance 1.491
+		period 30.511
+	object
+		sprite star/m-dwarf
+		distance 368.073
+		period 30.511
+	object
+		sprite planet/gas0-hot
+		distance 605.544
+		period 76.253
+	object
+		sprite planet/dust0
+		distance 1566.24
+		period 317.195
+	object
+		sprite planet/rock2-b
+		distance 2090.45
+		period 489.101
+		object
+			sprite planet/europa-b
+			distance 142
+			period 16.182
+	object
+		sprite planet/gas10
+		distance 3225.69
+		period 937.504
+		object
+			sprite planet/dust3-b
+			distance 195
+			period 13.422
+		object
+			sprite planet/rock3
+			distance 300
+			period 25.612
+	object Featherweight
+		sprite planet/forest3-b
+		distance 4155.03
+		period 1370.56
+		object
+			sprite planet/desert4
+			distance 127
+			period 17.992
 
 system Tejat
 	government "Lumbarian Empire"
 	add fleet "Large L Navy" 1500
+	object
+		sprite star/g0
+		distance 11.78
+		period 12.528
+	object
+		sprite star/m8
+		distance 94.244
+		period 12.528
+		offset 180
+	object
+		sprite planet/lava4-b
+		distance 444.026
+		period 107.37
+		object
+			sprite planet/lava2
+			distance 140
+			period 18.902
+	object Calda
+		sprite planet/cloud6
+		distance 976.466
+		period 350.152
+		object
+			sprite planet/dust0
+			distance 155
+			period 18.454
+	object Vail
+		sprite planet/ice2
+		distance 1542.03
+		period 694.882
+		object
+			sprite planet/dust4-b
+			distance 153
+			period 21.595
+	object
+		sprite planet/gas12
+		distance 2957.47
+		period 1845.66
+		object
+			sprite planet/dust2-b
+			distance 306
+			period 13.394
+		object
+			sprite planet/rhea
+			distance 438
+			period 22.937
 
 system Wazn
 	government "Lumbarian Empire"
 	add fleet "Large L Navy" 1500
+	object
+		sprite star/k8
+		distance 28.211
+		period 15.696
+	object
+		sprite star/m5
+		distance 65.239
+		period 15.696
+		offset 180
+	object
+		sprite planet/lava5
+		distance 263.027
+		period 74.118
+	object Glory
+		sprite planet/forest1-b
+		distance 542.917
+		period 219.797
+	object
+		sprite planet/jupiter-b
+		distance 1357.76
+		period 869.273
+		object
+			sprite planet/ice0
+			distance 267
+			period 12.594
+		object
+			sprite planet/ice7
+			distance 419
+			period 24.759
+	object
+		sprite planet/gas0-b
+		distance 2875.76
+		period 2679.48
 
 system Phact
 	government "Lumbarian Empire"
 	add fleet "Large L Navy" 1500
+	object
+		sprite star/g5
+		distance 45.94
+		period 12.803
+		offset 180
+	object
+		sprite star/k0
+		distance 58.597
+		period 12.803
+	object
+		sprite planet/lava4
+		distance 266.988
+		period 52.259
+	object
+		sprite planet/ocean6-b
+		distance 559.478
+		period 158.524
+	object
+		sprite planet/rock8-b
+		distance 858.728
+		period 301.443
+	object Serpens
+		sprite planet/cloud6
+		distance 1377.17
+		period 612.214
+		object
+			sprite planet/dust3-b
+			distance 163
+			period 19.901
+	object
+		sprite planet/dust4
+		distance 1892.38
+		period 986.132
+	object
+		sprite planet/miranda
+		distance 2711.38
+		period 1691.25
 
 system Arneb
 	government "Lumbarian Empire"
 	add fleet "Large L Navy" 800
+	object
+		sprite star/f5
+		period 10
+	object
+		sprite planet/venus
+		distance 206
+		period 28.558
+	object
+		sprite planet/cloud6-b
+		distance 546.25
+		period 123.314
+	object
+		sprite planet/desert8
+		distance 829.46
+		period 230.739
+	object Haven
+		sprite planet/forest6
+		distance 1264.82
+		period 434.481
+	object
+		sprite planet/io
+		distance 4062.31
+		period 2500.84
+
+planet Haven
+		fleet "Large L Navy" 21
+
+planet Featherweight
+		fleet "Large L Navy" 30
+
+planet Splashdown
+		fleet "Large L Navy" 3
+
+planet Serpens
+		fleet "Large L Navy" 3
+
+planet Glory
+		fleet "Large L Navy" 16
+
+planet Vail
+		fleet "Large L Navy" 11
+
+planet Calda
+		fleet "Large L Navy" 13
+
+planet Pearl
+		fleet "Large L Navy" 11
