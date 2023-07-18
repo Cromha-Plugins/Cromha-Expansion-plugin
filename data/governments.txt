@@ -4,9 +4,7 @@ government "Cromha Empire"
 	"crew attack" 29
 	"crew defense" 56
 	"attitude toward"
-		"Empire Rebels" -3
-		"Empire Merchant" 3
-		"Mineria colonnies" 3
+		"Empire Rebels" 5
 		Bounty -1
 		"Bounty Hunter" -1
 		Hai 1
@@ -26,7 +24,6 @@ government "Cromha Empire"
 		Remnant 1
 		Syndicate -3
 		Wanderer 3
-		"Mineria colonnies" 5
 	"penalty for"
 		assist -1.6
 		disable 2.9
@@ -36,15 +33,6 @@ government "Cromha Empire"
 		atrocity 200
 	fine 17
 	"death sentence" "empire imprisonment"
-	atrocities
-		"Nanotech Battery"
-		"Antimatter Core"
-		"Quarg Skylance"
-		"Quarg Anti-Missile"
-		"Intrusion Countermeasures"
-		"Medium Graviton Thruster"
-		"Medium Graviton Steering"
-		"Quantum Shield Generator"
 	"friendly hail" "empire friendly hail"
 	"friendly disabled hail" "empire friendly disabled hail"
 	"hostile hail" "empire hostile hail"
@@ -54,8 +42,6 @@ government "Cromha Empire"
 		government
 			"Cromha Empire"
 			"Mineria colonnies"
-		near "Alpha Cromha" 0 2
-		near "Ring Wartrue" 0 1
 		near Skeruto 0 1
 
 government "Empire Merchant"
@@ -63,11 +49,10 @@ government "Empire Merchant"
 	color 0.076 0.105 0.407
 	"player reputation" 10
 	"attitude toward"
-		"Mineria colonnies" 3
-		"Empire Rebels" -3
+		"Mineria colonnies" -3
 		"Cromha Empire" 5
-		"Indigene Creature" 2
 		"Hai (Unfettered)" -1
+		"Indigene Creature" 2
 		"Kor Efret" -2
 		"Kor Mereti" -2
 		"Kor Sestor" -2
@@ -83,8 +68,6 @@ government "Empire Merchant"
 		government
 			"Cromha Empire"
 			"Mineria colonnies"
-		near "Alpha Cromha" 0 2
-		near "Ring Wartrue" 0 1
 		near Skeruto 0 1
 
 government "Empire Rebels"
@@ -110,7 +93,7 @@ government "Empire Rebels"
 		Republic -1
 		Syndicate -1
 		Wanderer -1
-	bribe .05
+	bribe 0.05
 	fine 0
 	raid "Large Deep Security"
 
@@ -161,8 +144,6 @@ government "Mineria colonnies"
 		government
 			"Cromha Empire"
 			"Mineria colonnies"
-		near "Alpha Cromha" 0 2
-		near "Ring Wartrue" 0 1
 		near Skeruto 0 1
 
 government "Remnant (empre mission)"
@@ -229,13 +210,16 @@ government "Remnant (Far Empire)"
 
 government "Lumbarian Empire"
 	swizzle 2
-	color 0 1 0
+	color 0.618 0 1
 	"player reputation" 3
 	"attitude toward"
+		Rebellion -10
 		"Free Worlds" 10
 		Pirate -10
-		Rebellion -10
 		Republic 0.001
+		"Cromha Empire" -1
+		"Mineria colonnies" -1
+		"Empire Merchant" -1
 	bribe 30
 	"friendly hail" "friendly navy"
 	"hostile hail" "hostile navy"
