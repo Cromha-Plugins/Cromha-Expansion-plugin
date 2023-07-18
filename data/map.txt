@@ -5245,7 +5245,7 @@ system Helk'Alf
 		distance 10909.867
 
 system Helk'Alk
-	pos 428.63 -406.463
+	pos 391.889 -405.574
 	government Uninhabited
 	habitable 3650
 	belt 1687
