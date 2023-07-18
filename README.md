@@ -24,11 +24,11 @@ Learn more [about Endless Sky][esweb].
 
 # About Plugin:
 
-Adds a new civilization to the Korath Space (now named the 'Empire Space'): The Cromha Empire. Also known as 'The Empire', it is a government that dirige a huge part of the north of the Milky Way. It also a very high advanced government, that has kind of remixed outfits and ships from other vanilla governments. They are human but don't directly have contact with human Merchants, they have contact with the Syndicate, the Republic but they don't allow them to enter their territory. Know more about the plugin in the [wiki](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki)! (or test the game yourself)
-
+Adds a new civilization to the Korath Space (now named the 'Empire Space'): The Cromha Empire. Also known as 'The Empire', it is a government that dirige a huge part of the north of the Milky Way. It also a very high advanced government, that has kind of remixed outfits and ships from other vanilla governments. They are human but don't directly have contact with human Merchants, they have contact with the Syndicate, the Republic but they don't allow them to enter their territory. Know more about the plugin in the [wiki](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki)! (or test the game yourself) Also, there is another empire that is set up next to the Paradise Planets. It is called the Lumbarian Empire.
 ## This plugin:
 
 * Adds governments that are related to the vanilla storyline (kind of).
+* Adds another government that will fight the other one.
 * The storyline that the plugin adds is made so it is the most similar possible to the vanilla one.
 * Add new outfits and ships from different governments.
 * Expands upon the existing map for exploration (New Systems in the north of the galaxy and near the Deep Space).
@@ -51,6 +51,7 @@ It is currently a Beta plugin.
 * Outfits and ships descriptions are not fully done.
 * The whole 'Empire Rebels' part is not started very yet. (check [wiki](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki/Governments-&-Major-Factions)).
 * The [wiki](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki/) still in work and most of the Gameplay section is outdated.
+* The Lumbarian Empire is currently in a very early stage.
 
 # Installation
 Go [here](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki/User-Guide) for more information on installing this Endless Sky plugin.
