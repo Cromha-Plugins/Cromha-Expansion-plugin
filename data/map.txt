@@ -6529,36 +6529,52 @@ system Arneb
 		period 2500.84
 
 planet Haven
+	tribute 500
+		threshold 3500
 		fleet "Small L Navy" 21
 
 planet Featherweight
+	tribute 650
+		threshold 4500
 		fleet "Small L Navy" 30
 
 planet Splashdown
 	outfitter "Lumbarian Stuff"
+	tribute 750
+		threshold 5000
 		fleet "Large L Navy" 3
 
 planet Serpens
 	shipyard "Lumbarian Basic"
 	outfitter "Lumbarian Stuff"
+	tribute 750
+		threshold 5000
 		fleet "Large L Navy" 3
 
 planet Glory
 	shipyard "Lumbarian Advanced"
 	outfitter "Lumbarian Stuff"
+	tribute 1250
+		threshold 12000
 		fleet "Large L Navy" 16
 
 planet Vail
 	shipyard "Lumbarian Advanced"
 	outfitter "Lumbarian Stuff"
+	tribute 950
+		threshold 6500
 		fleet "Large L Navy" 11
 
 planet Calda
 	shipyard "Lumbarian Basic"
 	outfitter "Lumbarian Stuff"
+	tribute 950
+		threshold 7500
 		fleet "Large L Navy" 13
 
 planet Pearl
 	outfitter "Lumbarian Stuff"
+	tribute 850
+		threshold 7000
 		fleet "Large L Navy" 11
 
