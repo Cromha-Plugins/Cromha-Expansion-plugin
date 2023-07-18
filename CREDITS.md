@@ -1,10 +1,14 @@
 # CREDITS
 Files: data/*
+
 Licenses: GPL-3.0
+
 **Derived from works by Michael Zahniser (from under the same license)**
 
 Files; images/*
+
 Licenses: CC-BY-SA-4.0
+
 **All images derived from "Endless Sky" by Michael Zahniser and possibly others listed below under "Endless Sky Artwork" and "Endless Sky Photographs"  except as noted below under "Additional Image Sources".**
 
 ## ENDLESS SKY ARTWORK
