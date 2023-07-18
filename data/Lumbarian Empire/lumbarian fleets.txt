@@ -85,3 +85,23 @@ fleet "Small L Navy"
 	variant
 		"Frigate (Lumbarian)"
 		"Rainmaker (Lumbarian" 2
+
+event "Lumbarian Upgrade One"
+	date 3016 1 8
+	fleet "Large L Navy"
+		add variant 3
+			"Lumbarian Doom-Class"
+		add variant
+			"Lumbarian Doom-Class" 3
+		add variant
+			"Lumbarian Doom-Class"
+			"Cruiser (Lumbarian)" 2
+			"Combat Drone (Lumbarian)" 8
+		add variant
+			"Lumbarian Doom-Class"
+			"Carrier (Lumbarian)"
+			"Lance (Lumbarian)" 4
+			"Combat Drone (Lumbarian)" 6
+		add variant
+			"Lumbarian Doom-Class"
+			"Lumbarian Cutlas-Class" 3

@@ -665,3 +665,56 @@ ship "Lumbarian Cutlas-Class"
 	"final explode" "final explosion medium"
 	description "One of the greatest ships of the fleet, the Lumbarian Cutlas-Class is derived from a Korath Met Par Tek 53 and highly upgraded."
 
+ship "Lumbarian Doom-Class"
+	plural "Quarg Wardragons"
+	sprite ship/wardragon
+	thumbnail thumbnail/wardragon
+	attributes
+		category Destroyer
+		licenses "Lumbarian King"
+		cost 80000000
+		"mass" 400
+		"outfit space" 740
+		"engine capacity" 220
+		"weapon capacity" 280
+		"cargo space" 50
+		"shields" 200000
+		"hull" 80000
+		"hull repair rate" 7
+		"hull energy" 7
+		"fuel capacity" 800
+		"heat dissipation" 0.5
+		"required crew" 160
+		"ion resistance" 8
+		"drag" 10
+		"bunks" 185
+		weapon
+			"blast radius" 250
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 1500
+	outfits
+		"A860 Atomic Thruster"
+		"A865 Atomic Steering"
+		"Antimatter Core"
+		"Intrusion Countermeasures" 160
+		"Jump Drive"
+		"Nanotech Battery"
+		"Outfits Expansion" 2
+		"Quantum Shield Generator"
+		"Quarg Skylance" 4
+		"Solar Core"
+	engine -14 47
+	engine 14 47
+	turret -28 7 "Quarg Skylance"
+	turret 28 7 "Quarg Skylance"
+	turret -9 -14 "Quarg Skylance"
+	turret 9 -14 "Quarg Skylance"
+	explode "huge explosion" 20
+	explode "large explosion" 40
+	explode "medium explosion" 30
+	explode "small explosion" 16
+	explode "tiny explosion" 12
+	"final explode" "final explosion medium"
+	description "Because of the strength of the Cromha Empire, the Lumbarian Empire was forced to make a few purchases. With powerful scanning technologies, they copied the designs of the Quarg Wardragon and made their own, better version."
+
