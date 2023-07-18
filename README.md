@@ -53,7 +53,7 @@ It is currently a Beta plugin.
 * The [wiki](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki/) still in work and most of the Gameplay section is outdated.
 
 # Installation
-Go [here](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki/User-Guide) for more infos on installing Endless Sky plugin.
+Go [here](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki/User-Guide) for more information on installing this Endless Sky plugin.
 
 ## Install steps
 
