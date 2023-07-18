@@ -1,0 +1,61 @@
+fleet "Large L Navy"
+	government "Lumbarian Empire"
+	names "republic capital"
+	fighters "republic fighter"
+	personality
+		disables heroic mining harvests opportunistic
+	variant 5
+		"Frigate (Lumbarian)" 2
+		"Rainmaker (Lumbarian)"
+		"Gunboat (Lumbarian)"
+	variant 3
+		"Cruiser (Lumbarian)"
+		"Combat Drone (Lumbarian)" 4
+	variant 3
+		"Cruiser (Lumbarian)"
+		"Combat Drone (Lumbarian)" 4
+		"Frigate (Lumbarian)"
+		"Rainmaker (Lumbarian)"
+	variant 2
+		"Carrier (Lumbarian)"
+		"Lance (Lumbarian)" 4
+		"Combat Drone (Lumbarian)" 6
+	variant
+		"Carrier (Lumbarian)"
+		"Lance (Lumbarian)" 4
+		"Combat Drone (Lumbarian)" 6
+		"Cruiser (Lumbarian)"
+		"Combat Drone (Lumbarian)" 4
+		"Frigate (Lumbarian)" 2
+		"Rainmaker (Lumbarian)" 2
+		"Gunboat (Lumbarian)" 2
+	variant
+		"Cruiser (Lumbarian)"
+		"Combat Drone (Lumbarian)" 4
+		"Frigate (Lumbarian)" 2
+	variant
+		"Frigate (Lumbarian)"
+		"Rainmaker (Lumbarian)" 2
+		"Gunboat (Lumbarian)"
+	variant 2
+		"Shield Beetle (Lumbarian)"
+		"Gunboat (Lumbarian)" 2
+	variant
+		"Shield Beetle (Lumbarian)"
+		"Cruiser (Lumbarian)"
+		"Combat Drone (Lumbarian)" 4
+	variant
+		"Shield Beetle (Lumbarian)" 2
+	variant
+		"Lumbarian Cutlas-Class" 3
+	variant 2
+		"Shield Beetle (Lumbarian)"
+		"Lumbarian Cutlas-Class" 2
+	variant
+		"Cruiser (Lumbarian)"
+		"Combat Drone (Lumbarian)" 4
+		"Lumbarian Cutlas-Class"
+	variant 2
+		"Lumbarian Cutlas-Class"
+		Frigate 2
+
