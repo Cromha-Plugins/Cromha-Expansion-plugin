@@ -1,17 +1,16 @@
-# CREDITS
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+
 Files: data/*
-
+Copyright: Cromha (github.com/OcelotWalrus)
 Licenses: GPL-3.0
+Comment: Derived from works by Michael Zahniser (from under the same license)
 
-**Derived from works by Michael Zahniser (from under the same license)**
-
-Files; images/*
-
+Files: images/*
+Copyright: Cromha (github.com/OcelotWalrus)
 Licenses: CC-BY-SA-4.0
+Comment: All images derived from "Endless Sky" by Michael Zahniser and possibly others listed below under "Endless Sky Artwork" and "Endless Sky Photographs"  except as noted below under "Additional Image Sources".
 
-**All images derived from "Endless Sky" by Michael Zahniser and possibly others listed below under "Endless Sky Artwork" and "Endless Sky Photographs"  except as noted below under "Additional Image Sources".**
-
-## ENDLESS SKY ARTWORK
+ENDLESS SKY ARTWORK
 
 * Photos from Wikimedia Commons
 
@@ -50,7 +49,7 @@ Licenses: CC-BY-SA-4.0
   * unsplash.com
   
 
-## ADDITIONAL IMAGE SOURCES
+ADDITIONAL IMAGE SOURCES
 * Lifdot Indsutries: Colossus sprite: https://github.com/Adde-Endless-Sky-Mods/Fluff/blob/main/images/ship/colossus.png
 * Lifdot Industries: Modified Flivver sprite: https://github.com/Adde-Endless-Sky-Mods/Fluff/blob/main/images/ship/flivverRacing.png
 * Lifdot Industires: Hornet sprite: https://github.com/Adde-Endless-Sky-Mods/Fluff/blob/main/images/ship/hornet.png
