@@ -1303,8 +1303,8 @@ ship "Quicksilver" "Quicksilver (Empire)"
 ship Raven "Raven (Empire)"
 	sprite "ship/lifdot raven"
 	thumbnail "thumbnail/lifdot raven"
-	"outfit space" 450
-	"engine capacity" 100
+	"outfit space" 520
+	"engine capacity" 155
 	"weapon capacity" 250
 	"cargo space" 30
 	"shields" 4850
