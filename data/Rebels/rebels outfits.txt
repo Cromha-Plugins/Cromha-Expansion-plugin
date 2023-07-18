@@ -54,3 +54,15 @@ outfit "Modified Hai Rifle"
 	"mass" 1
 	"capture defense" .9
 	"capture attack" 1.4
+
+outfit "Solar Core"
+	category "Power"
+	cost 27500
+	thumbnail "outfit/solar core"
+	"mass" 30
+	"outfit space" -25
+	"energy capacity" 1370
+	"ramscoop" .8
+	"solar collection" 10.4
+	"solar heat" 5.4
+	description "The Solar Core is a highly prized outfit by most Empire Rebels raiders as well as Pirates and Lumbarian captains. This outfit lets you produce a noticable amount of energy without taking too much space as well as letting you refuel if you're lost in an uninhabited system."
