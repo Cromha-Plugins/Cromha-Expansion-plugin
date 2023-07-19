@@ -1,0 +1,94 @@
+mission "Lumbarian Import [0]"
+	job
+	repeat
+	name `Metals to <destination>`
+	cargo "Metals" 30 50
+	description `<planet> needs <cargo> imported from <stopovers>.`
+	to offer
+		"random" > 0
+	source
+		government "Lumbarian Empire"
+	stopover
+		not government "Lumbarian Empire"
+		distance 3 6
+	on stopover
+		dialog `The dockworkers on <planet> load up your reserved cargo hold with <cargo>.`
+	on complete
+		payment 1000 3
+		dialog `The authorities on <planet> take the <cargo> and give you <payment>.`
+
+mission "Lumbarian Import [1]"
+	job
+	repeat
+	name `Metals to <destination>`
+	cargo "Metals" 30 50
+	description `<planet> needs <cargo> imported from <stopovers>.`
+	to offer
+		"random" > 0
+	source
+		government "Lumbarian Empire"
+	stopover
+		not government "Lumbarian Empire"
+		distance 3 6
+	on stopover
+		dialog `The dockworkers on <planet> load up your reserved cargo hold with <cargo>.`
+	on complete
+		payment 1000 3
+		dialog `The authorities on <planet> take the <cargo> and give you <payment>.`
+
+mission "Lumbarian Import [2]"
+	job
+	repeat
+	name `Metals to <destination>`
+	cargo "Metals" 30 50
+	description `<planet> needs <cargo> imported from <stopovers>.`
+	to offer
+		"random" > 0
+	source
+		government "Lumbarian Empire"
+	stopover
+		not government "Lumbarian Empire"
+		distance 3 6
+	on stopover
+		dialog `The dockworkers on <planet> load up your reserved cargo hold with <cargo>.`
+	on complete
+		payment 1000 3
+		dialog `The authorities on <planet> take the <cargo> and give you <payment>.`
+
+mission "Lumbarian Import [3]"
+	job
+	repeat
+	name `Metals to <destination>`
+	cargo "Metals" 30 50
+	description `<planet> needs <cargo> imported from <stopovers>.`
+	to offer
+		"random" > 0
+	source
+		government "Lumbarian Empire"
+	stopover
+		not government "Lumbarian Empire"
+		distance 3 6
+	on stopover
+		dialog `The dockworkers on <planet> load up your reserved cargo hold with <cargo>.`
+	on complete
+		payment 1000 3
+		dialog `The authorities on <planet> take the <cargo> and give you <payment>.`
+
+mission "Lumbarian Import [4]"
+	job
+	repeat
+	name `Metals to <destination>`
+	cargo "Metals" 30 50
+	description `<planet> needs <cargo> imported from <stopovers>.`
+	to offer
+		"random" > 0
+	source
+		government "Lumbarian Empire"
+	stopover
+		not government "Lumbarian Empire"
+		distance 3 6
+	on stopover
+		dialog `The dockworkers on <planet> load up your reserved cargo hold with <cargo>.`
+	on complete
+		payment 1000 3
+		dialog `The authorities on <planet> take the <cargo> and give you <payment>.`

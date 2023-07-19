@@ -65,24 +65,24 @@ fleet "Small L Navy"
 	fighters "republic fighter"
 	personality
 		disables heroic mining harvests opportunistic
-	variant
+	variant 10
 		"Lumbarian Cutlas-Class"
-	variant
+	variant 10
 		"Frigate (Lumbarian)"
-	variant 2
+	variant 20
 		"Gunboat (Lumbarian)" 3
-	variant 2
+	variant 20
 		"Gunboat (Lumbarian)" 2
 		"Rainmaker (Lumbarian)"
-	variant 2
+	variant 20
 		"Gunboat (Lumbarian)"
 		"Rainmaker (Lumbarian)" 2
-	variant 2
+	variant 20
 		"Rainmaker (Lumbarian)" 3
-	variant
+	variant 10
 		"Frigate (Lumbarian)"
 		"Gunboat (Lumbarian" 2
-	variant
+	variant 10
 		"Frigate (Lumbarian)"
 		"Rainmaker (Lumbarian" 2
 
@@ -92,31 +92,31 @@ fleet "Lumbarian Cruiser"
 	fighters "republic fighter"
 	personality
 		disables heroic mining harvests opportunistic
-	variant
+	variant 10
 		"Lumbarian Trident-Class"
 		"Gunboat (Lumbarian)" 16
-	variant
+	variant 10
 		"Lumbarian Pike-Class"
 		"Gunboat (Lumbarian)" 22
 
 event "Lumbarian Upgrade One"
 	date 8 1 2025
 	fleet "Large L Navy"
-		add variant 3
+		add variant 30
 			"Lumbarian Doom-Class"
-		add variant
+		add variant 10
 			"Lumbarian Doom-Class" 3
-		add variant
+		add variant 10
 			"Lumbarian Doom-Class"
 			"Cruiser (Lumbarian)" 2
 			"Combat Drone (Lumbarian)" 8
-		add variant
+		add variant 10
 			"Lumbarian Doom-Class"
 			"Carrier (Lumbarian)"
 			"Lance (Lumbarian)" 4
 			"Combat Drone (Lumbarian)" 6
-		add variant
+		add variant 10
 			"Lumbarian Doom-Class"
 			"Lumbarian Cutlas-Class" 3
-		add variant .1
+		add variant
 			"Lumbarian Drak-Class"

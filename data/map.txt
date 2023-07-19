@@ -6647,7 +6647,7 @@ planet Salmasta
 		fleet "Small L Navy" 8
 
 system Lastama
-	pos -542.861 -228.722
+	pos -547.861 -209.722
 	government "Lumbarian Empire"
 	habitable 4500
 	belt 1017 3
@@ -6694,7 +6694,7 @@ system Lastama
 		object
 			sprite planet/vesvi
 			distance 270
-			period -nan
+			period 0
 	object
 		sprite planet/browndwarf-y
 		distance 4136
