@@ -102,6 +102,7 @@ hazard "Blue Black Hole Gravity"
 		"damage dropoff" 150 2500
 
 system Meftarkata
+	government "Cromha Empire"
 	object
 		sprite star/f5
 		distance 23.995
@@ -3406,9 +3407,8 @@ planet Alfheim
 	outfitter Rebels-basic-weapon-outfitter
 	remove security
 	tribute 650
-		threshold 5000
 		fleet empire-rebels-raiders-fleet 6
-		fleet empire-rebels-merchants 6 
+		fleet empire-rebels-merchants 6
 
 system "Alpi Tah"
 	pos -783 -132
@@ -6160,6 +6160,7 @@ system Lumbaria
 	government "Lumbarian Empire"
 	habitable 425
 	belt 1857 8
+	link Lastama
 	link Mirzam
 	link Phurad
 	asteroids "small rock" 5 2.366
@@ -6237,6 +6238,7 @@ planet "-[Lumbarian High Command]-"
 
 system Phurad
 	government "Lumbarian Empire"
+	add link Lastama
 	add link Lumbaria
 	add fleet "Large L Navy" 1500
 	add fleet "Small L Navy" 600
@@ -6270,7 +6272,9 @@ system Phurad
 
 system Mirzam
 	government "Lumbarian Empire"
+	add link Lastama
 	add link Lumbaria
+	add link Sipha
 	add fleet "Large L Navy" 1500
 	add fleet "Small L Navy" 600
 	object
@@ -6303,6 +6307,7 @@ system Mirzam
 
 system Canopus
 	government "Lumbarian Empire"
+	add link Sipha
 	add fleet "Large L Navy" 1500
 	add fleet "Small L Navy" 600
 	object
@@ -6508,29 +6513,6 @@ system Arneb
 	government "Lumbarian Empire"
 	add fleet "Large L Navy" 800
 	add fleet "Small L Navy" 400
-	object
-		sprite star/f5
-		period 10
-	object
-		sprite planet/venus
-		distance 206
-		period 28.558
-	object
-		sprite planet/cloud6-b
-		distance 546.25
-		period 123.314
-	object
-		sprite planet/desert8
-		distance 829.46
-		period 230.739
-	object Haven
-		sprite planet/forest6
-		distance 1264.82
-		period 434.481
-	object
-		sprite planet/io
-		distance 4062.31
-		period 2500.84
 
 planet Haven
 	tribute 500
@@ -6539,7 +6521,6 @@ planet Haven
 
 planet Featherweight
 	tribute 650
-		threshold 4500
 		fleet "Small L Navy" 30
 
 planet Splashdown
@@ -6581,4 +6562,157 @@ planet Pearl
 	tribute 850
 		threshold 7000
 		fleet "Large L Navy" 11
+
+system Sipha
+	pos -417 -279.556
+	government "Lumbarian Empire"
+	attributes north
+	habitable 700
+	belt 1521 10
+	belt 2191 8
+	haze _menu/haze-67
+	link Alheka
+	link Betelgeuse
+	link Canopus
+	link Mirzam
+	asteroids "small rock" 30 5.04
+	asteroids "medium rock" 16 3.808
+	asteroids "large rock" 53 4.928
+	asteroids "small metal" 3 2.912
+	asteroids "medium metal" 2 3.304
+	asteroids "large metal" 2 4.368
+	minables iron 10 5.457
+	minables aluminum 26 9.164
+	trade Clothing 242
+	trade Electronics 679
+	trade Equipment 642
+	trade Food 454
+	trade "Heavy Metals" 996
+	trade Industrial 648
+	trade "Luxury Goods" 1411
+	trade Medical 560
+	trade Metal 343
+	trade Plastic 451
+	object
+		sprite star/g3
+		period 10
+	object
+		sprite planet/lava1-b
+		distance 335
+		period 92.7
+	object Salmasta
+		sprite planet/rock1-b
+		distance 809
+		period 347.883
+	object
+		sprite planet/browndwarf-yyellow
+		distance 1726
+		period 1084.107
+	object
+		sprite planet/fg_gas21
+		distance 4015
+		period 3846.266
+		object
+			sprite "planet/asteroid base"
+			distance 306
+			period 140.088
+	object
+		sprite planet/fg_gas8
+		distance 5371
+		period 5951.051
+		object
+			sprite planet/desert4
+			distance 284
+			period 226.407
+		object
+			sprite planet/miranda
+			distance 431
+			period 423.28
+
+system Betelgeuse
+	add link Sipha
+
+system Alheka
+	add link Sipha
+
+planet Salmasta
+	landscape land/city14-sfiera
+	description TODO
+	spaceport TODO
+	government "Lumbarian Empire"
+	shipyard "Lumbarian Basic"
+	outfitter "Lumbarian Stuff"
+	tribute 560
+		fleet "Lumbarian Cruiser"
+		fleet "Small L Navy" 8
+
+system Lastama
+	pos -542.861 -228.722
+	government "Lumbarian Empire"
+	habitable 4500
+	belt 1017 3
+	belt 1961 7
+	link Lumbaria
+	link Mirzam
+	link Phurad
+	asteroids "small rock" 104 5.208
+	asteroids "medium rock" 12 3.472
+	asteroids "large rock" 62 4.836
+	asteroids "medium metal" 5 5.456
+	asteroids "large metal" 14 6.014
+	minables iron 2 7.795
+	minables tungsten 10 9.381
+	trade Clothing 282
+	trade Electronics 765
+	trade Equipment 643
+	trade Food 397
+	trade "Heavy Metals" 956
+	trade Industrial 701
+	trade "Luxury Goods" 1268
+	trade Medical 534
+	trade Metal 344
+	trade Plastic 462
+	object
+		sprite star/k-supergiant
+		period 10
+	object
+		sprite planet/browndwarf-l
+		distance 1016
+		period 193.105
+		object
+			sprite planet/fg_moon30
+			distance 311
+			period 170.576
+	object
+		sprite planet/fg_terrestrial5
+		distance 1613
+		period 386.283
+	object
+		sprite planet/browndwarf-ypurple
+		distance 2353
+		period 680.592
+		object
+			sprite planet/vesvi
+			distance 270
+			period -nan
+	object
+		sprite planet/browndwarf-y
+		distance 4136
+		period 1586.078
+		object
+			sprite planet/fg_moon21
+			distance 309
+			period 168.934
+		object
+			sprite planet/fg_moon18
+			distance 448
+			period 294.914
+		object
+			sprite planet/io
+			distance 636
+			period 606.298
+	object
+		sprite planet/fg_gas10
+		distance 7086
+		period 3556.767
 

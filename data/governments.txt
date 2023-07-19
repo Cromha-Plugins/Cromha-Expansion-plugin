@@ -7,7 +7,6 @@ government "Cromha Empire"
 		"Empire Rebels" -3
 		"Empire Merchant" 3
 		"Mineria colonnies" 3
-		"Empire Rebels" 5
 		Bounty -1
 		"Bounty Hunter" -1
 		Hai 1
