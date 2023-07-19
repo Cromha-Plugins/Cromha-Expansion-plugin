@@ -6727,6 +6727,8 @@ system Lastama
 
 system Albireo
 	government "Empire Rebels"
+	add fleet empire-rebels-merchants 800
+	add fleet empire-rebels-raiders 1100
 	object
 		sprite star/g5
 		distance 15.461
