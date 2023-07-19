@@ -1,7 +1,7 @@
 mission "Lumbarian Empire Buy Sol"
 	landing
 	to offer
-		has "even: Lumbarian Empire Buys Sol"
+		has "event: Lumbarian Empire Buys Sol"
 	source
 		not government "Uninhabited"
 		not attributes uninhabited
