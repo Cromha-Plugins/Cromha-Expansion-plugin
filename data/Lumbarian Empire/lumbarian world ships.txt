@@ -36,7 +36,7 @@ ship "Lumbarian Ecthelion-Class"
 		"Modified Hai Rifle" 200
 		"Nanotech Battery" 2
 		"Outfits Expansion" 4
-		"Particle Barage Gun"
+		"Particle Barrage Gun"
 		"Particle Cannon" 10
 		"Quantum Shield Generator" 3
 		"Security Station" 20
@@ -64,7 +64,7 @@ ship "Lumbarian Ecthelion-Class"
 	turret 83 -23 "Heavy Anti-Missile Turret"
 	turret 104.5 -99 "Heavy Anti-Missile Turret"
 	turret 0 25 "Heavy Anti-Missile Turret"
-	gun 0 -467 "Particle Barage Gun"
+	gun 0 -467 "Particle Barrage Gun"
 	gun 46.5 -421 "Particle Cannon"
 	gun 67.5 -397.5 "Particle Cannon"
 	gun 136.5 32 "Particle Cannon"
