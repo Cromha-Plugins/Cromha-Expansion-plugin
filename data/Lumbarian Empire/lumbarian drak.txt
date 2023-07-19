@@ -5,7 +5,7 @@ ship "Lumbarian Drak-Class"
 	thumbnail "thumbnail/archon"
 	"never disabled"
 	licenses
-		"Lumbarian King"
+		"Lumbarian Emperor"
 	attributes
 		category "Prototype"
 		"cost" 1000000000
