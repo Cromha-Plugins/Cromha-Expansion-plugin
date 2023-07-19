@@ -4,6 +4,7 @@ ship "Lumbarian Drak-Class"
 		"frame rate" 0.87
 	thumbnail thumbnail/archon
 	"never disabled"
+	licenses "Lumbarian Emperor"
 	attributes
 		category Prototype
 		cost 1000000000
