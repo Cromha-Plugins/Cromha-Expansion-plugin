@@ -43,6 +43,7 @@ ship "Lumbarian Ecthelion-Class"
 		"Tactical Scanner"
 		"Solar Core" 5
 		"Lumba Repair Module (Large)"
+		"Quantum Shield Generator" 3
 
 		"A370 Atomic Thruster" 2
 		"A375 Atomic Steering" 2
