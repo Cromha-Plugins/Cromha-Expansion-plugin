@@ -22,16 +22,15 @@ hazard "Far Empire Triangle Hazard"
 	weapon
 		"shield damage" 2.3
 		"ion damage" 1.7
-		
+
 hazard "Eden Storm"
-	"duration" 300 1500
-	"strength" 1 3
-	"system-wide"
+	duration 300 1500
+	strength 1 3
 	"environmental effect" "ion hazard" 20
 	weapon
-		"ion damage" 2.2
 		"shield damage" 6
 		"hull damage" 0.01
+		"ion damage" 2.2
 
 effect "lifdot ion hazard"
 	sprite "effect/gridfire fire"
@@ -6725,4 +6724,175 @@ system Lastama
 		sprite planet/fg_gas10
 		distance 7086
 		period 3556.767
+
+system Albireo
+	government "Empire Rebels"
+	object
+		sprite star/g5
+		distance 15.461
+		period 11.783
+	object
+		sprite star/m8
+		distance 71.581
+		period 11.783
+		offset 180
+	object
+		sprite planet/desert9
+		distance 258.368
+		period 60.258
+	object
+		sprite planet/cloud8-b
+		distance 494.928
+		period 159.759
+	object Sinter
+		sprite planet/rock9
+		distance 801.738
+		period 329.383
+	object
+		sprite planet/ice8-b
+		distance 2211.99
+		period 1509.48
+
+planet Sinter
+	government "Empire Rebels"
+	outfitter Rebels-basic-ammo-outfitter
+	outfitter Rebels-basic-engines-outfitter
+	outfitter Rebels-basic-outfitter
+	outfitter Rebels-basic-power-outfitter
+	outfitter Rebels-basic-systems-outfitter
+	outfitter Rebels-basic-weapon-outfitter
+
+system Sadr
+	government "Empire Rebels"
+	object
+		sprite star/a5
+		distance 6.268
+		period 6.973
+	object
+		sprite star/m3
+		distance 99.336
+		period 6.973
+		offset 180
+	object
+		sprite planet/callisto
+		distance 280.83
+		period 32.142
+	object
+		sprite planet/rock3-b
+		distance 543.84
+		period 86.62
+	object
+		sprite planet/desert6-b
+		distance 876.65
+		period 177.276
+		object
+			sprite planet/rock17-b
+			distance 150
+			period 17.568
+	object
+		sprite planet/desert5
+		distance 1311.09
+		period 324.236
+	object
+		sprite planet/miranda
+		distance 2553.34
+		period 881.202
+
+system Alkaid
+	government "Empire Rebels"
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/cloud5
+		distance 363.84
+		period 84.472
+		object
+			sprite planet/mercury
+			distance 221
+			period 20.407
+	object Thunder
+		sprite planet/ocean1
+		distance 934.8
+		period 347.877
+		object
+			sprite planet/luna
+			distance 178
+			period 22.71
+	object
+		sprite planet/gas0
+		distance 1927.89
+		period 1030.31
+		object
+			sprite planet/dust3-b
+			distance 266
+			period 12.068
+		object
+			sprite planet/dust1-b
+			distance 389
+			period 21.343
+		object
+			sprite planet/dust2-b
+			distance 508
+			period 31.851
+		object
+			sprite planet/oberon-b
+			distance 611
+			period 42.013
+
+planet Thunder
+	government "Empire Rebels"
+	shipyard "Advanced Core Pirates"
+	shipyard "Advanced Northern Pirates"
+	outfitter Rebels-advanced-ammo-outfitter
+	outfitter Rebels-advanced-engines-outfitter
+	outfitter Rebels-advanced-power-outfitter
+	outfitter Rebels-advanced-systems-outfitter
+	outfitter Rebels-advanced-weapon-outfitter
+	outfitter Rebels-basic-outfitter
+
+system Kraz
+	government "Empire Rebels"
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/rock2-b
+		distance 311.49
+		period 66.913
+		object
+			sprite planet/dust2-b
+			distance 176
+			period 22.329
+	object Rust
+		sprite planet/forest6
+		distance 903.7
+		period 330.662
+		object
+			sprite planet/io-b
+			distance 123
+			period 17.148
+	object
+		sprite planet/rock15
+		distance 1258.06
+		period 543.125
+	object
+		sprite planet/gas17
+		distance 2011.3
+		period 1097.9
+		object
+			sprite planet/mercury-b
+			distance 234
+			period 14.441
+		object
+			sprite planet/desert4
+			distance 351
+			period 26.53
+
+planet Rust
+	government "Empire Rebels"
+	outfitter Rebels-advanced-ammo-outfitter
+	outfitter Rebels-advanced-engines-outfitter
+	outfitter Rebels-advanced-power-outfitter
+	outfitter Rebels-basic-outfitter
 
