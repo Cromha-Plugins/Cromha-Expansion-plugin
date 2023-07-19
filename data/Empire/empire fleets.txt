@@ -723,6 +723,72 @@ fleet cromha-merchants
 	variant 3
 		Arbiter
 		"Sunder" 4
+		
+fleet cromha-merchant-protection-jobs-light
+	government "Empire Merchant"
+	"cargo settings"
+		cargo 0
+	names civilian
+	personality heroic disables frugal
+	variant
+		"Wasp (Empire)" 4
+	variant
+		"Dreadful" 2
+	variant
+		"Hawk (Empire)" 3
+	variant
+		"Berserker (Empire" 2
+	variant
+		"Hornet" 5
+		
+fleet cromha-merchant-protection-jobs-medium
+	government "Empire Merchant"
+	"cargo settings"
+		cargo 0
+	names civilian
+	personality heroic disables frugal
+	variant
+		"Wasp (Empire)" 4
+		"Raven (Empire)"
+	variant
+		"Dreadful" 3
+		"Gunboat (Empire)" 2
+	variant
+		"Hawk (Empire)" 4
+		"Osprey (Empire)"
+	variant
+		"Berserker (Empire" 5
+		"Splinter (Empire)" 2
+	variant
+		"Hornet" 8
+		"Quicksilver (Empire)" 3
+		
+fleet cromha-merchant-protection-jobs-heavy
+	government "Empire Merchant"
+	"cargo settings"
+		cargo 0
+	names civilian
+	personality heroic disables frugal
+	variant
+		"Wasp (Empire)" 6
+		"Raven (Empire)" 3
+		"Dreadnought (Empire)"
+	variant
+		"Dreadful" 4
+		"Gunboat (Empire)" 5
+		"Frigate (Empire)" 2
+	variant
+		"Hawk (Empire)" 6
+		"Osprey (Empire)" 3
+		"Leviathan (Empire)"
+	variant
+		"Berserker (Empire" 5
+		"Splinter (Empire)" 2
+		"Headhunter (Empire)" 5
+	variant
+		"Hornet" 6
+		"Quicksilver (Empire)" 5
+		"Protector (Empire)" 2
 
 fleet small-pirates
 	government Pirate
