@@ -229,7 +229,7 @@ government "Remnant (Far Empire)"
 	raid "Korath Ember Waste Raid"
 
 government "Lumbarian Empire"
-	swizzle 2
+	swizzle 26
 	color 0.618 0 1
 	"player reputation" 3
 	"attitude toward"
