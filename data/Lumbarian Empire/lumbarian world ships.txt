@@ -1,0 +1,105 @@
+ship "Lumbarian Ecthelion-Class"
+	plural "Lumbarian Ecthelion-Classes"
+	sprite "ship/lumbarian Ecthelion-Class"
+	thumbnail "thumbnail/lumbarian Ecthelion-Class"
+	attributes
+		category "World Ship"
+		"cost" 70000000
+		"shields" 120000
+		"hull" 120000
+		"required crew" 160
+		"bunks" 212
+		"mass" 1010
+		"drag" 17.6
+		"heat dissipation" .35
+		"fuel capacity" 1000
+		"cargo space" 30
+		"outfit space" 5430
+		"weapon capacity" 1800
+		"engine capacity" 2300
+		"spinal mount" 1
+		weapon
+			"blast radius" 340
+			"shield damage" 12000
+			"hull damage" 10000
+			"hit force" 5100
+	outfits
+		"Prototype Fusion Cannon"
+		"Quad Blaster Turret" 4
+		"Heavy Laser Turret" 4
+		"Electron Turret" 2
+		"Wanderer Anti-Missile"
+		"Torpedo Pod" 4
+		"Torpedo Storage Rack" 2
+		"Torpedo" 42
+		"Typhoon Pod" 2
+		"Typhoon Torpedo" 34
+		
+		"Dark Storm Shielding" 2
+		"Triple Plasma Core"
+		"LP036a Battery Pack"
+		"LP072a Battery Pack"
+		"Large Heat Shunt" 3
+		"Fuel Processor" 3
+		"Tactical Scanner"
+
+		"Afterburner (Lunar Class)"
+		"A370 Atomic Thruster"
+		"A375 Atomic Steering"
+		"Hyperdrive"
+		
+	turret -171 247.5
+	turret -52.5 247
+	turret -90 167.5
+	turret -86.5 72
+	turret -83 -23
+	turret -104.5 -99
+	turret 171 247.5
+	turret 52.5 247
+	turret 90 167.5
+	turret 86.5 72
+	turret 83 -23
+	turret 104.5 -99
+	turret 0 25
+	gun 0 -467
+	gun 46.5 -421
+	gun 67.5 -397.5
+	gun 136.5 32
+	gun 166 56.5
+	gun 194.5 86.5
+	gun -46.5 -421
+	gun -67.5 -397.5
+	gun -136.5 32
+	gun -166 56.5
+	gun -194.5 86.5
+	bay Gunboat -84.5 -135
+	bay Gunboat -102.5 -136.5
+	bay Gunboat -134 -136
+	bay Gunboat -175 -97
+	bay Gunboat -201 -96.5
+	bay Gunboat -1 112.5
+	bay Gunboat 84.5 -135
+	bay Gunboat 102.5 -136.5
+	bay Gunboat 134 -136
+	bay Gunboat 175 -97
+	bay Gunboat 201 -96.5
+	bay Gunboat 0 112.5
+	bay Gunboat 0 75
+	bay Gunboat 0 25
+	bay Gunboat 0 -24.5
+	bay Gunboat 0 -83.5
+	engine 52 502
+		zoom 1.7
+	engine 108.5 482.5
+		zoom 1.7
+	engine -52 502
+		zoom 1.7
+	engine -108.5 482.5
+		zoom 1.7
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "The Lumbarian Ecthelion-Class is more than a warship, it is a Lumbarian Wolrd Ship. It is practically a mobile station that can carry 4 squadron of Gunboats, more weapon that you'll ever need and: a spinal mount that is a very rare gun port that lets you install extremely deadly weapons on it."  

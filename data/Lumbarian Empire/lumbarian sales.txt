@@ -27,6 +27,7 @@ shipyard "Lumbarian Advanced"
 	"Lumbarian Cutlas-Class"
 	"Lumbarian Doom-Class"
 	"Lumbarian Drak-Class"
+	"Lumbarian Ecthelion-Class"
 
 outfitter "Lumbarian Stuff"
 	"A120 Atomic Thruster"
