@@ -241,3 +241,25 @@ government "Lumbarian Empire"
 	bribe 30
 	"friendly hail" "friendly navy"
 	"hostile hail" "hostile navy"
+	
+government "Sheragi"
+	"display name" "Sheragi"
+	swizzle 3
+	color .03 .61 .30
+	"player reputation" 0
+	"attitude toward"
+		"Hai" -.01
+		"Drak" 1
+		"Sheragi (Dishonoured)" -.01
+	"crew attack" 2.5
+	"crew defense" 3.8
+	"penalty for"
+		assist -0.25
+		disable 1
+		board 1
+		capture 10
+		destroy 10
+	"friendly hail" "friendly sheragi"
+	"friendly disabled hail" "friendly disabled sheragi"
+	"hostile hail" "hostile sheragi"
+	"hostile disabled hail" "hostile disabled sheragi"

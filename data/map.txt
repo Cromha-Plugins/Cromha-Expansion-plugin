@@ -22,6 +22,16 @@ hazard "Far Empire Triangle Hazard"
 	weapon
 		"shield damage" 2.3
 		"ion damage" 1.7
+		
+hazard "Eden Storm"
+	"duration" 300 1500
+	"strength" 1 3
+	"system-wide"
+	"environmental effect" "ion hazard" 20
+	weapon
+		"ion damage" 2.2
+		"shield damage" 6
+		"hull damage" 0.01
 
 effect "lifdot ion hazard"
 	sprite "effect/gridfire fire"
