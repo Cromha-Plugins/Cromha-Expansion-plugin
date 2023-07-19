@@ -24,3 +24,31 @@ outfit "Lumbarian Particle Turret"
 		"hit force" 80
 	description "Two Particle Cannons, placed on a turret. Pandemonium ensues."
 
+outfit "Lumbarian Particle Battery"
+	category Turrets
+	plural "Lumbarian Particle Turrets"
+	licenses "Lumbarian Knight"
+	cost 4000000
+	thumbnail "outfit/lumbarian particle turret"
+	"mass" 80
+	"outfit space" -140
+	"weapon capacity" -140
+	"turret mounts" -1
+	weapon
+		sprite "projectile/dual particle beam"
+		"hardpoint sprite" "hardpoint/particle turret hardpoint sprite"
+		sound particle
+		"hit effect" "particle impact" 2
+		"inaccuracy" 0.3
+		"turret turn" 1
+		"velocity" 40
+		lifetime 25
+		"reload" 20
+		"firing energy" 100
+		"firing force" 40
+		"firing heat" 380
+		"shield damage" 400
+		"hull damage" 350
+		"hit force" 120
+	description "This is an extremely powerful weapon made of a gigantic Particle Turret."
+
