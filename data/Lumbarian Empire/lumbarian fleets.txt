@@ -58,6 +58,8 @@ fleet "Large L Navy"
 	variant 2
 		"Lumbarian Cutlas-Class"
 		"Frigate (Lumbarian)" 2
+	variant .7
+		"Lumbarian Ecthelion-Class"
 
 fleet "Small L Navy"
 	government "Lumbarian Empire"
@@ -120,3 +122,5 @@ event "Lumbarian Upgrade One"
 			"Lumbarian Cutlas-Class" 3
 		add variant
 			"Lumbarian Drak-Class"
+		add variant .3
+			"Lumbarian Ecthelion-Class"
