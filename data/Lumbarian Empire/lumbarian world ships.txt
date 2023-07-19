@@ -25,9 +25,8 @@ ship "Lumbarian Ecthelion-Class"
 			"hit force" 5100
 	outfits
 		"Prototype Fusion Cannon"
-		"Quad Blaster Turret" 4
-		"Heavy Laser Turret" 4
-		"Electron Turret" 2
+		"Lumbarian Particle Battery" 12
+		
 		"Wanderer Anti-Missile"
 		"Torpedo Pod" 4
 		"Torpedo Storage Rack" 2
@@ -42,11 +41,13 @@ ship "Lumbarian Ecthelion-Class"
 		"Large Heat Shunt" 3
 		"Fuel Processor" 3
 		"Tactical Scanner"
+		"Solar Core" 5
+		"Lumba Repair Module (Large)"
 
-		"Afterburner (Lunar Class)"
-		"A370 Atomic Thruster"
-		"A375 Atomic Steering"
+		"A370 Atomic Thruster" 2
+		"A375 Atomic Steering" 2
 		"Hyperdrive"
+		"Jump Drive"
 		
 	turret -171 247.5
 	turret -52.5 247
@@ -61,7 +62,7 @@ ship "Lumbarian Ecthelion-Class"
 	turret 83 -23
 	turret 104.5 -99
 	turret 0 25
-	gun 0 -467
+	gun 0 -467 "Prototype Fusion Cannon"
 	gun 46.5 -421
 	gun 67.5 -397.5
 	gun 136.5 32
