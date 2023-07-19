@@ -19,7 +19,6 @@ outfitter Base-outfitter
 	"Tre-Phasic Rifle"
 	"Phasic Ramscoop"
 	"Weapon Module"
-	"Anti-Missile Field Device"
 	"Phasic Reasoning Node"
 	"Quatalant Shield (Tiny)"
 
@@ -121,6 +120,7 @@ outfitter Advanced-weapon-outfitter
 	"Twin Empire Particle"
 	"Scrambling Beam"
 	"Draining Field Device"
+	"Anti-Missile Field Device"
 
 outfitter Advanced-systems-outfitter
 	Brig
