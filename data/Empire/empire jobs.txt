@@ -2820,7 +2820,7 @@ mission empire-protection-escort-light[0]
 	name "Protection Escort"
 	description "The captain of the <npc> is willing to escort you until <date> if you pay him 45,000 credits."
 	deadline 7 1.2
-	jobs
+	job
 	repeat
 	source
 		government "Cromha Empire" "Mineria colonnies"
@@ -2843,7 +2843,7 @@ mission empire-protection-escort-light[1]
 	name "Protection Escort"
 	description "The captain of the <npc> is willing to escort you until <date> if you pay him 55,000 credits."
 	deadline 8 1.2
-	jobs
+	job
 	repeat
 	source
 		government "Cromha Empire" "Mineria colonnies"
@@ -2866,7 +2866,7 @@ mission empire-protection-escort-medium[0]
 	name "Protection Escort"
 	description "The captain of the <npc> is willing to escort you until <date> if you pay him 65,000 credits."
 	deadline 8 1.2
-	jobs
+	job
 	repeat
 	source
 		government "Cromha Empire" "Mineria colonnies"
@@ -2889,7 +2889,7 @@ mission empire-protection-escort-medium[1]
 	name "Protection Escort"
 	description "The captain of the <npc> is willing to escort you until <date> if you pay him 75,000 credits."
 	deadline 9 1.2
-	jobs
+	job
 	repeat
 	source
 		government "Cromha Empire" "Mineria colonnies"
@@ -2912,7 +2912,7 @@ mission empire-protection-escort-heavy[0]
 	name "Protection Escort"
 	description "The captain of the <npc> is willing to escort you until <date> if you pay him 85,000 credits."
 	deadline 9 1.2
-	jobs
+	job
 	repeat
 	source
 		government "Cromha Empire" "Mineria colonnies"
@@ -2935,7 +2935,7 @@ mission empire-protection-escort-heavy[1]
 	name "Protection Escort"
 	description "The captain of the <npc> is willing to escort you until <date> if you pay him 95,000 credits."
 	deadline 9 1.2
-	jobs
+	job
 	repeat
 	source
 		government "Cromha Empire" "Mineria colonnies"

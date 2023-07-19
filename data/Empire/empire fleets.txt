@@ -737,7 +737,7 @@ fleet cromha-merchant-protection-jobs-light
 	variant
 		"Hawk (Empire)" 3
 	variant
-		"Berserker (Empire" 2
+		"Berserker (Empire)" 2
 	variant
 		"Hornet" 5
 		
