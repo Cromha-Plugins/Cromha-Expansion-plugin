@@ -5,6 +5,7 @@ outfit "Lumbarian Particle Turret"
 	"mass" 30
 	"outfit space" -70
 	"weapon capacity" -70
+	"required crew" 1
 	"turret mounts" -1
 	weapon
 		sprite "projectile/dual particle beam"
@@ -33,6 +34,7 @@ outfit "Lumbarian Particle Battery"
 	"mass" 80
 	"outfit space" -140
 	"weapon capacity" -140
+	"required crew" 1
 	"turret mounts" -1
 	weapon
 		sprite "projectile/dual particle beam"
@@ -51,4 +53,30 @@ outfit "Lumbarian Particle Battery"
 		"hull damage" 350
 		"hit force" 120
 	description "This is an extremely powerful weapon made of a gigantic Particle Turret."
+
+outfit "Particle Barage Gun"
+	category Guns
+	plural "Particle Cannons"
+	licenses "Lumbarian Emperor"
+	cost 20000000
+	thumbnail "outfit/particle cannon"
+	"mass" 100
+	"outfit space" -120
+	"weapon capacity" -120
+	"gun ports" -1
+	"spinal mount" -1
+	weapon
+		sprite "projectile/particle beam"
+		sound particle
+		"hit effect" "particle impact"
+		"inaccuracy" 2
+		"velocity" 60
+		lifetime 25
+		"firing energy" 40
+		"firing force" 15
+		"firing heat" 130
+		"shield damage" 80
+		"hull damage" 70
+		"hit force" 80
+	description "The Particle Cannon works by accelerating a short burst of particles to near-relativistic speeds. When mounted on a ship that can turn fast enough to keep it trained on approaching ships, it becomes a nearly unbeatable weapon, capable of destroying smaller ships before they can even approach close enough for their comparatively short-ranged weapons to be effective."
 
