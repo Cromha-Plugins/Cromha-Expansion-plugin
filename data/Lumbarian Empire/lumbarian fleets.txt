@@ -118,3 +118,5 @@ event "Lumbarian Upgrade One"
 		add variant
 			"Lumbarian Doom-Class"
 			"Lumbarian Cutlas-Class" 3
+		add variant .1
+			"Lumbarian Drak-Class"

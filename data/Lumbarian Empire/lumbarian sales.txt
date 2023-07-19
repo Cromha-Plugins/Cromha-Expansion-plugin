@@ -26,6 +26,7 @@ shipyard "Lumbarian Advanced"
 	"Shield Beetle (Lumbarian)"
 	"Lumbarian Cutlas-Class"
 	"Lumbarian Doom-Class"
+	"Lumbarian Drak-Class"
 
 outfitter "Lumbarian Stuff"
 	"A120 Atomic Thruster"
