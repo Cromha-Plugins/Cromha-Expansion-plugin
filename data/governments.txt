@@ -229,7 +229,7 @@ government "Remnant (Far Empire)"
 
 government "Lumbarian Empire"
 	swizzle 22
-	color 0.824 1 0
+	color 1 0.852 0.279
 	"player reputation" 3
 	"attitude toward"
 		"Free Worlds" 10
