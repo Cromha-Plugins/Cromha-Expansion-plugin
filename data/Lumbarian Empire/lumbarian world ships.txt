@@ -24,7 +24,6 @@ ship "Lumbarian Ecthelion-Class"
 			"hull damage" 10000
 			"hit force" 5100
 	outfits
-<<<<<<< HEAD
 		""
 		"A860 Atomic Thruster" 2
 		"A865 Atomic Steering" 5
@@ -76,57 +75,6 @@ ship "Lumbarian Ecthelion-Class"
 	gun -136.5 32 "Particle Cannon"
 	gun -166 56.5 "Particle Cannon"
 	gun -194.5 86.5 "Particle Cannon"
-=======
-		"Prototype Fusion Cannon"
-		"Lumbarian Particle Battery" 12
-		
-		"Wanderer Anti-Missile"
-		"Torpedo Pod" 4
-		"Torpedo Storage Rack" 2
-		"Torpedo" 42
-		"Typhoon Pod" 2
-		"Typhoon Torpedo" 34
-		
-		"Dark Storm Shielding" 2
-		"Triple Plasma Core"
-		"LP036a Battery Pack"
-		"LP072a Battery Pack"
-		"Large Heat Shunt" 3
-		"Fuel Processor" 3
-		"Tactical Scanner"
-		"Solar Core" 5
-		"Lumba Repair Module (Large)"
-
-		"A370 Atomic Thruster" 2
-		"A375 Atomic Steering" 2
-		"Hyperdrive"
-		"Jump Drive"
-		
-	turret -171 247.5
-	turret -52.5 247
-	turret -90 167.5
-	turret -86.5 72
-	turret -83 -23
-	turret -104.5 -99
-	turret 171 247.5
-	turret 52.5 247
-	turret 90 167.5
-	turret 86.5 72
-	turret 83 -23
-	turret 104.5 -99
-	turret 0 25
-	gun 0 -467 "Prototype Fusion Cannon"
-	gun 46.5 -421
-	gun 67.5 -397.5
-	gun 136.5 32
-	gun 166 56.5
-	gun 194.5 86.5
-	gun -46.5 -421
-	gun -67.5 -397.5
-	gun -136.5 32
-	gun -166 56.5
-	gun -194.5 86.5
->>>>>>> 55fd1a141b6460d6de856a5fec4137b721bd1335
 	bay Gunboat -84.5 -135
 	bay Gunboat -102.5 -136.5
 	bay Gunboat -134 -136
