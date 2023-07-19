@@ -100,7 +100,7 @@ fleet "Lumbarian Cruiser"
 		"Gunboat (Lumbarian)" 22
 
 event "Lumbarian Upgrade One"
-	date 3016 1 8
+	date 8 1 2025
 	fleet "Large L Navy"
 		add variant 3
 			"Lumbarian Doom-Class"

@@ -16,7 +16,7 @@ outfit "Lumba Repair Device (Large)"
 	category "Systems"
 	thumbnail "outfit/large lumba repair module"
 	"mass" 25
-	"outfit space" - 25
+	"outfit space" -25
 	"required crew" 1
 	"operating costs" 65
 	"hull repair rate" 8.4

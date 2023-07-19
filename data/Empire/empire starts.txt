@@ -3,7 +3,7 @@ start "nw-cromha-transporter"
 	description `You grew up on your dad's transporter, learning navigation, defending from Pirates.`
 	description `You decided to leave your father transporter to travel to the Linimbus Empire bank, in the Volcanois system. You saved 3M credits with two of your best friends and you are going to take a loan of 3M credits to buy your first ship and have a fresh start. Maybe will you choose to be captain of a transporter too?`
 	thumbnail "scene/city empire linimbus"
-	date 17 11 3035
+	date 17 11 3015
 	system "Volcanois"
 	planet "Linimbus"
 	conversation "cromha transporter intro"
