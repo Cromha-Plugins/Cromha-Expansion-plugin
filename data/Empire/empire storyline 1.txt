@@ -382,9 +382,9 @@ mission "Empire: Escort Convoit"
 		give ship "Empire Bulker" "empire fleet names"
 		"reputation: Cromha Empire" += 10
 		"empire jobs" += 1
-	npc save escort
+	npc save
 		government "Mineria colonnies"
-		personality save escort timid
+		personality escort timid
 		fleet mineria-escorts-transports
 	npc
 		government "Empire Rebels"
