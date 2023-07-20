@@ -60,4 +60,5 @@ outfitter "Lumbarian Stuff"
 	"Lumbarian King License"
 	"Lumbarian Emperor License"
 	"Lumba Heavy Laser"
+	"Lumba Heavy Laser Turret"
 

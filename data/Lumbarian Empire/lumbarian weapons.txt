@@ -103,4 +103,30 @@ outfit "Lumba Heavy Laser"
 		"hull damage" 3.5
 		"burn damage" 1.3
 	description "The Lumba Heavy Laser is a highly advanced beam gun that can easily overheat any ship of a reasonable size. It has been designed by the Lumbarian Empire and is now one of their most used weapon upon Merchants."
+	
+outfit "Lumba Heavy Laser Turret"
+	category "Turrets"
+	cost 60000
+	thumbnail "outfit/mod heavy laser turret"
+	"mass" 23
+	"outfit space" -23
+	"weapon capacity" -23
+	"gun ports" -1
+	weapon
+		sprite "projectile/mod heavy laser"
+			"frame rate" 1
+		"hardpoint sprite" "hardpoint/mod heavy laser turret"
+		sound "heavy laser"
+		"hit effect" "wel'y beam impact"
+		"inaccuracy" .6
+		"turret turn" 2.6
+		"velocity" 400
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 1.7
+		"firing heat" 3.6
+		"shield damage" 3.5
+		"hull damage" 3.5
+		"burn damage" 1.3
+	description "The Lumba Heavy Laser is a highly advanced beam gun that can easily overheat any ship of a reasonable size. It has been designed by the Lumbarian Empire and is now one of their most used weapon upon Merchants."
 
