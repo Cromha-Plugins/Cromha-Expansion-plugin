@@ -251,6 +251,7 @@ government "Sheragi"
 		"Hai" -.01
 		"Drak" 1
 		"Sheragi (Dishonoured)" -.01
+		"Indigene Creature" 1
 	"crew attack" 2.5
 	"crew defense" 3.8
 	"penalty for"

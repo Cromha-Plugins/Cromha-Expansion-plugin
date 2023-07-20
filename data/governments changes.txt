@@ -53,6 +53,7 @@ government "Indigene Creature"
 		"Mineria colonnies" 1
 		"Empire Rebels" -1
 		"Empire Merchant" 1
+		"Sheragi" 1
 
 government "Wanderer"
 	swizzle 2
