@@ -718,3 +718,58 @@ ship "Lumbarian Doom-Class"
 	"final explode" "final explosion medium"
 	description "Because of the strength of the Cromha Empire, the Lumbarian Empire was forced to make a few purchases. With powerful scanning technologies, they copied the designs of the Quarg Wardragon and made their own, better version."
 
+ship "Lumbarian Sting-Class"
+	plural Sting-Classes
+	sprite ship/gunboat
+	thumbnail thumbnail/gunboat
+	attributes
+		category Gunboat
+		licenses Lumbarian
+		cost 3500000
+		"mass" 140
+		"outfit space" 345
+		"engine capacity" 80
+		"weapon capacity" 70
+		"cargo space" 50
+		"shields" 5800
+		"hull" 1400
+		"fuel capacity" 600
+		"heat dissipation" 0.8
+		"required crew" 7
+		"drag" 2.9
+		"bunks" 12
+		weapon
+			"blast radius" 72
+			"shield damage" 720
+			"hull damage" 360
+			"hit force" 1080
+	outfits
+		"A255 Atomic Steering"
+		"A370 Atomic Thruster"
+		"Cargo Scanner"
+		"D23-QP Shield Generator"
+		Hyperdrive
+		"LP288a Battery Pack"
+		"Liquid Nitrogen Cooler"
+		"Lumba Heavy Laser" 2
+		"Lumba Heavy Laser Turret"
+		"NT-200 Nucleovoltaic"
+		"Outfit Scanner"
+		"Outfits Expansion" 2
+		"Small Radar Jammer"
+		"Tactical Scanner"
+	engine -12 57.5
+		zoom 0.7
+	engine 12 57.5
+		zoom 0.7
+	gun -28.5 -27.5 "Lumba Heavy Laser"
+	gun 28.5 -27.5 "Lumba Heavy Laser"
+	turret 0 -1 "Lumba Heavy Laser Turret"
+	leak leak 50 50
+	leak flame 80 80
+	explode "medium explosion" 15
+	explode "small explosion" 20
+	explode "tiny explosion" 10
+	"final explode" "final explosion small"
+	description "The Sting-Class is designed to be a support ship for cruisers, disabling thier enemies for them to be destroyed."
+
