@@ -18,11 +18,13 @@ ship "Black Manta"
 		"mass" 711
 		"drag" 7.5
 		"heat dissipation" .17
-		"fuel capacity" 700
+		"fuel capacity" 100000
 		"cargo space" 170
 		"outfit space" 20700
 		"weapon capacity" 10700
 		"engine capacity" 10700
+		"energy capacity" 90000
+		"energy generation" 65000
 		"inscrutable" 1
 		"ramscoop" 0.7
 		"spinal mount" 3
