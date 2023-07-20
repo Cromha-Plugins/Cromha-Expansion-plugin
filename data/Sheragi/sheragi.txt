@@ -69,6 +69,8 @@ shipyard "Sheragi Advanced"
 	"Gold Shield"
 	"Ruby Hammer"
 	"White Brand"
+	"Black Diamond"
+	"Bronze Edge"
 
 # Ship names:
 phrase "sheragi"

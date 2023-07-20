@@ -1,9 +1,12 @@
-fleet "Sheragi Fleet Big"
-	government "Sheragi (Rebirth)"
-	names "sheragi"
+fleet sheragi-fleet
+	government "Sheragi"
+	name "sheragi"
+	"cargo settings"
+		cargo 1
+		commodities Medical Electronics Military Equipment
+		outfitter "Sheragi Basic"
 	personality
-		heroic
-		confusion 10
+		disables heroic frugal
 	variant 10
 		"Gold Shield" 2
 		"Black Diamond" 16
@@ -50,13 +53,6 @@ fleet "Sheragi Fleet Big"
 		"Platinum Spear"
 		"Bronze Edge" 4
 		"White Brand" 5
-
-fleet "Sheragi Fleet Small"
-	government "Sheragi (Rebirth)"
-	names "sheragi"
-	personality
-		heroic
-		confusion 10
 	variant
 		"Gold Shield"
 		"Black Diamond" 8
@@ -84,13 +80,20 @@ fleet "Sheragi Fleet Small"
 		"Bronze Edge" 4
 	variant 12
 		"Bronze Edge" 3
-
-fleet "Sheragi Fleet Civilian"
-	government "Sheragi (Rebirth)"
-	names "sheragi"
+		
+fleet sheragi-transport
+	government "Sheragi"
+	name "sheragi"
+	"cargo settings"
+		cargo 4
+		commodities Medical Electronics Military Equipment Food Clothing
+		outfitter "Sheragi Advanced"
 	personality
-		timid frugal appeasing
-		confusion 30
+		disables timid frugal appeasing
+	variant
+		"Gold Shield"
+		"Black Diamond" 8
+		"Bronze Edge" 2
 	variant 2
 		"Ruby Hammer" 2
 		"Bronze Edge" 4
@@ -116,66 +119,4 @@ fleet "Sheragi Fleet Civilian"
 	variant
 		"Ruby Hammer" 2
 		"White Brand" 2
-
-fleet "Dishonoured Big"
-	government "Sheragi (Dishonoured)"
-	names "sheragi"
-	personality
-		disables
-		plunders
-		confusion 20
-	variant 2
-		"Gold Shield" 2
-		"Black Diamond" 16
-		"White Brand"
-	variant 5
-		"Gold Shield"
-		"Black Diamond" 8
-		"White Brand" 2
-	variant
-		"Platinum Spear"
-		"Gold Shield" 2
-		"Black Diamond" 16
-		"White Brand"
-	variant 2
-		"Platinum Spear"
-		"Gold Shield"
-		"Black Diamond" 8
-		"White Brand" 2
-	variant 6
-		"Platinum Spear"
-	variant 3
-		"Platinum Spear"
-		"White Brand" 2
-	variant 2
-		"White Brand" 5
-	variant 2
-		"White Brand" 4
-
-fleet "Dishonoured Small"
-	government "Sheragi (Dishonoured)"
-	names "sheragi"
-	personality
-		disables
-		plunders
-		confusion 20
-	variant
-		"Gold Shield"
-		"Black Diamond" 8
-	variant
-		"Platinum Spear"
-	variant
-		"White Brand" 3
-		"Bronze Edge" 2
-	variant 5
-		"White Brand" 2
-		"Bronze Edge" 2
-	variant 5
-		"White Brand"
-		"Bronze Edge" 2
-	variant 5
-		"White Brand" 2
-	variant 12
-		"Bronze Edge" 4
-	variant 12
-		"Bronze Edge" 3
+	
