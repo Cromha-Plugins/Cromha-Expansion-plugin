@@ -80,6 +80,13 @@ fleet sheragi-fleet
 		"Bronze Edge" 4
 	variant 12
 		"Bronze Edge" 3
+	variant .5
+		"Emerald Sword (Modern)"
+		"Black Diamond" 6
+	variant .25
+		"Emerald Sword (Modern)"
+		"Black Diamond" 6
+		"Platinum Spear" 2
 		
 fleet sheragi-transport
 	government "Sheragi"

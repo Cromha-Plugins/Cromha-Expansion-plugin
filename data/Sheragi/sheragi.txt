@@ -25,6 +25,7 @@ outfitter "Sheragi Basic"
 	"Sheragi Hyperdrive"
 	"Fusion Power Converter"
 	"Warp Drive"
+	"Dragonflame Canon"
 
 outfitter "Sheragi Advanced"
 	"Small EM Battery"
@@ -73,6 +74,7 @@ shipyard "Sheragi Advanced"
 	"White Brand"
 	"Black Diamond"
 	"Bronze Edge"
+	"Emerald Sword (Modern)"
 
 # Ship names:
 phrase "sheragi"
