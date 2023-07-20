@@ -111,7 +111,7 @@ outfit "Lumba Heavy Laser Turret"
 	"mass" 23
 	"outfit space" -23
 	"weapon capacity" -23
-	"gun ports" -1
+	"turret mount" -1
 	weapon
 		sprite "projectile/mod heavy laser"
 			"frame rate" 1
