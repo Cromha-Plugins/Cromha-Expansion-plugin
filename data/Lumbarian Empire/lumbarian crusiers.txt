@@ -1,6 +1,7 @@
 ship "Lumbarian Trident-Class"
 	plural Trident-Classes
 	sprite "ship/lumbarian trident-class"
+	thumbnail "thumbnail/trident-class"
 	swizzle 0
 	attributes
 		category Cruiser
@@ -95,6 +96,7 @@ ship "Lumbarian Trident-Class"
 
 ship "Lumbarian Pike-Class"
 	sprite "ship/lumbarian pike-class"
+	thumbnail "thumbnail/pike-class"
 	swizzle 0
 	attributes
 		category Cruiser
