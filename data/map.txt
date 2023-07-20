@@ -4768,30 +4768,6 @@ planet Alfyim
 
 system Postverta
 	remove hidden
-	object
-		sprite star/m8
-		period 10
-	object
-		sprite planet/desert7
-		distance 439
-		period 316.657
-	object Fertriery
-		sprite planet/fog0
-		distance 814
-		period 799.52
-		object
-			sprite planet/dust4
-			distance 202
-			period 21
-	object
-		sprite planet/rock10
-		distance 1208
-		period 1445.41
-	object "Ssil Vida"
-		sprite planet/sheragi_postverta
-			scale 0.5
-		distance 1408
-		period 1818.85
 
 system Celeborim
 	pos 190.616 -638.553
@@ -6670,29 +6646,6 @@ system Arneb
 	government "Lumbarian Empire"
 	add fleet "Large L Navy" 800
 	add fleet "Small L Navy" 400
-	object
-		sprite star/f5
-		period 10
-	object
-		sprite planet/venus
-		distance 206
-		period 28.558
-	object
-		sprite planet/cloud6-b
-		distance 546.25
-		period 123.314
-	object
-		sprite planet/desert8
-		distance 829.46
-		period 230.739
-	object Haven
-		sprite planet/forest6
-		distance 1264.82
-		period 434.481
-	object
-		sprite planet/io
-		distance 4062.31
-		period 2500.84
 
 planet Haven
 	tribute 500
@@ -7196,8 +7149,8 @@ system Faputa
 	belt 1840 2
 	belt 2338
 	haze _menu/haze-33
+	link Alasuka
 	link Falapta
-	link "Saggitarus B°"
 	asteroids "medium metal" 6 1.389
 	asteroids "large metal" 4 1.926
 	fleet Ayym 1200
@@ -7223,7 +7176,7 @@ system Faputa
 		object
 			sprite planet/rogue-radiating
 			distance 257
-			period -nan
+			period 0
 	object
 		sprite planet/uranus-b
 		distance 3441
@@ -7270,7 +7223,6 @@ system "Saggitarus B°"
 	belt 1956 8
 	belt 2327 8
 	haze _menu/haze-full
-	link Faputa
 	hazard "Black Hole Accretion Disk" 1
 	hazard "Black Hole Event Horizon" 1
 	hazard "Black Hole Gravity" 1
@@ -7281,4 +7233,126 @@ system "Saggitarus B°"
 	object
 		sprite star/black-hole-core
 		period 1
+
+system Alasuka
+	pos 10560.857 1354.133
+	government Uninhabited
+	attributes sentar
+	habitable 22300
+	belt 1637 9
+	belt 1972 2
+	haze _menu/haze-67
+	link Faputa
+	link Jlka
+	asteroids "small rock" 2 0.779
+	asteroids "medium rock" 18 0.805
+	asteroids "large rock" 11 0.964
+	asteroids "small metal" 1 0.858
+	asteroids "medium metal" 8 0.937
+	asteroids "large metal" 17 1.069
+	minables uranium 6 1.176
+	fleet Ayym 1200
+	object
+		sprite star/y8
+		distance 268.5
+		period 219.982
+	object
+		sprite star/o-giant
+		distance 268.5
+		period 219.982
+		offset 180
+	object
+		sprite planet/water0-b
+		distance 726
+		period 52.398
+	object Alstabra
+		sprite planet/fg_icegiant9
+		distance 1364
+		period 134.936
+		object
+			sprite planet/dust3
+			distance 231
+			period 132.715
+		object
+			sprite planet/rock17-b
+			distance 388
+			period 470.698
+	object
+		sprite planet/fg_icegiant2
+		distance 2249
+		period 285.688
+		object
+			sprite planet/rock17
+			distance 285
+			period 296.32
+	object
+		sprite planet/fg_gas10
+		distance 3581
+		period 574.003
+		object
+			sprite planet/dust7-b
+			distance 266
+			period 163.992
+		object
+			sprite planet/fg_moon5
+			distance 385
+			period 197.701
+		object
+			sprite planet/fg_moon11
+			distance 569
+			period 835.916
+
+planet Alstabra
+	attributes sentar uninhabited
+	landscape land/water11-harro
+	description TODO
+
+system Jlka
+	pos 10536.524 1293.8
+	government Uninhabited
+	attributes sentar
+	habitable 3400
+	belt 1497 7
+	haze _menu/haze-67
+	link Alasuka
+	asteroids "small rock" 4 1.352
+	asteroids "medium rock" 40 2.34
+	asteroids "large rock" 2 2.106
+	asteroids "large metal" 3 2.392
+	minables lead 1 4.344
+	minables gold 1 2.433
+	minables iron 1 2.643
+	fleet Ayym 1200
+	fleet sheragi-fleet 1200
+	object
+		sprite star/a3
+		period 10
+	object
+		sprite planet/ice3-b
+		distance 457
+		period 67.019
+		object
+			sprite planet/fg_moon32
+			distance 184
+			period 65.32
+	object
+		sprite planet/rock19-b
+		distance 1159
+		period 270.673
+		object
+			sprite planet/ice7-b
+			distance 180
+			period 63.201
+	object
+		sprite planet/jupiter-b
+		distance 2296
+		period 754.707
+	object
+		sprite planet/fg_gas4
+		distance 4105
+		period 1804.223
+	object
+		sprite planet/gas6
+		distance 5213
+		period 2581.976
 

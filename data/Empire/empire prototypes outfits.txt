@@ -276,3 +276,44 @@ effect "draining field cloud"
 	"random angle" 360
 	"random spin" 10
 	"velocity scale" .00001
+	
+outfit "Prototype Fusion Cannon (Empire)"
+	"display name" "Prototype Fusion Cannon"
+	category "Secondary Weapons"
+	cost 160000000
+	thumbnail "outfit/fusion cannon"
+	"mass" 45
+	"outfit space" -144
+	"weapon capacity" -144
+	"gun ports" -1
+	"spinal mount" -1
+	"required crew" 12
+	weapon
+		sprite "projectile/fusion gun bolt"
+			"no repeat"
+			"frame rate" .25
+		sound "dragonflame"
+		icon "icon/dragonflame"
+		"fire effect" "fusion cannon fire"
+		"die effect" "fusion cannon cloud" 5
+		"hit effect" "fusion cannon impact" 20
+		"hit effect" "fusion cannonspark" 40
+		"hit effect" "fusion cannon explosion 1" 10
+		"hit effect" "fusion cannon explosion 2" 10
+		"hit effect" "fusion cannon explosion 3" 10
+		"hit effect" "fusion cannon nuke" 1
+		"live effect" "fusion cannon cloud" 10
+		"inaccuracy" 0.2
+		"velocity" 66
+		"lifetime" 20
+		"reload" 40
+		"firing energy" 5000
+		"firing heat" 6000
+		"firing fuel" 50
+		"shield damage" 1200
+		"hull damage" 950
+		"piercing" 0.2
+		"disruption damage" 19
+		"hit force" 250
+		"missile strength" 500
+	description "This is a personally obtained prototype Fusion Cannon, a deadly, massive spinal weapon. Where it came from, nobody knows except the owner, and those who wish to ask are too afraid of being on the receiving end."

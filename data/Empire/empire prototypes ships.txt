@@ -20,11 +20,12 @@ ship "Black Manta"
 		"heat dissipation" .17
 		"fuel capacity" 700
 		"cargo space" 170
-		"outfit space" 2700
-		"weapon capacity" 1700
-		"engine capacity" 1700
+		"outfit space" 20700
+		"weapon capacity" 10700
+		"engine capacity" 10700
 		"inscrutable" 1
 		"ramscoop" 0.7
+		"spinal mount" 3
 		weapon
 			"blast radius" 70
 			"shield damage" 175000
@@ -40,7 +41,7 @@ ship "Black Manta"
 		"Empire Hai Gorge Batteries" 2
 		"Empire Hai Ravine Batteries"
 		"Empire Navy Emitter"
-		"Empire Particle Turret" 8
+		"Empire Particle Turret (Augmented)" 8
 		"Fuel Cell" 132
 		"Multiphasic Cooler" 4
 		"Multiphasic Scanner" 2
@@ -57,33 +58,33 @@ ship "Black Manta"
 		"Shield Processor (Huge)" 2
 		"T3 Phasic Amplifier"
 		"Tre-Phasic Cooler" 2
-		"Twin Empire Particle" 2
+		"Prototype Fusion Cannon (Empire)" 2
 		"X-Crusade Computer"
 		"X-Skirmish Computer" 2
 		
 	gun 0 -105.5 "Caltalytic Tear"
 		under
-	gun -4.5 -94.5 "Twin Empire Particle"
+	gun -4.5 -94.5 "Prototype Fusion Cannon (Empire)"
 		under
-	gun 4.5 -94.5 "Twin Empire Particle"
+	gun 4.5 -94.5 "Prototype Fusion Cannon (Empire)"
 		under
-	turret -68.5 -11 "Empire Particle Turret"
+	turret -68.5 -11 "Empire Particle Turret (Augmented)"
 		under
-	turret -96 -76 "Empire Particle Turret"
+	turret -96 -76 "Empire Particle Turret (Augmented)"
 		under
-	turret -28.5 -186.5 "Empire Particle Turret"
+	turret -28.5 -186.5 "Empire Particle Turret (Augmented)"
 		under
-	turret -61 -224.5 "Empire Particle Turret"
+	turret -61 -224.5 "Empire Particle Turret (Augmented)"
 		under
 	turret 0 120 "Anti-Missile Field Device"
 		under
-	turret 68.5 -11 "Empire Particle Turret"
+	turret 68.5 -11 "Empire Particle Turret (Augmented)"
 		under
-	turret 96 -76 "Empire Particle Turret"
+	turret 96 -76 "Empire Particle Turret (Augmented)"
 		under
-	turret 28.5 -186.5 "Empire Particle Turret"
+	turret 28.5 -186.5 "Empire Particle Turret (Augmented)"
 		under
-	turret 61 -224.5 "Empire Particle Turret"
+	turret 61 -224.5 "Empire Particle Turret (Augmented)"
 		under
 	leak "empire leak" 60 50
 	leak "empire flame" 40 80
