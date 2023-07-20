@@ -12,6 +12,7 @@ ship "Bronze Edge" "Bronze Edge (Pulse)"
 		"Large Fission Drive"
 		"Fusion Afterburner"
 		"Sheragi Hyperdrive"
+		"Warp Drive"
 	gun "Sheragi Pulse Beam"
 	gun "Heavy Ion Cyclotron"
 	gun "Heavy Ion Cyclotron"
@@ -28,6 +29,7 @@ ship "Bronze Edge" "Bronze Edge (PWave)"
 		"Large Fission Drive"
 		"Fusion Afterburner"
 		"Sheragi Hyperdrive"
+		"Warp Drive"
 
 ship "Bronze Edge" "Bronze Edge (Cyclotron)"
 	outfits
@@ -41,6 +43,7 @@ ship "Bronze Edge" "Bronze Edge (Cyclotron)"
 		
 		"Large Fission Drive"
 		"Fusion Afterburner"
+		"Warp Drive"
 		"Sheragi Hyperdrive"
 
 ship "Ruby Hammer" "Ruby Hammer (Pulse)"
@@ -51,6 +54,7 @@ ship "Ruby Hammer" "Ruby Hammer (Pulse)"
 		"Medium EM Battery"
 		"Large Hybrid Cooling"
 		"Small Hybrid Cooling" 2
+		"Warp Drive"
 		"Sheragi Solar Intake" 2
 		
 		"Small Fusion Drive"
@@ -62,6 +66,7 @@ ship "Ruby Hammer" "Ruby Hammer (PWave)"
 		"Dense Particle Shielding"
 		"Medium EM Battery"
 		"Large Hybrid Cooling"
+		"Warp Drive"
 		"Small Hybrid Cooling" 2
 		"Sheragi Solar Intake" 2
 		
@@ -72,6 +77,7 @@ ship "Platinum Spear" "Platinum Spear (Pulse)"
 		"Sheragi Pulse Beam Turret" 8
 		"Sheragi Anti-Missile" 2
 		"Dense Particle Shielding"
+		"Warp Drive"
 		"Large EM Battery"
 		"Large Hybrid Cooling"
 		"Electronic Warfare System" 2
@@ -96,6 +102,7 @@ ship "Platinum Spear" "Platinum Spear (PWave)"
 		"Sheragi Anti-Missile" 2
 		"Dense Particle Shielding"
 		"Large EM Battery"
+		"Warp Drive"
 		"Large Hybrid Cooling"
 		"Electronic Warfare System" 2
 		"Sheragi Solar Intake" 2
@@ -119,6 +126,7 @@ ship "Platinum Spear" "Platinum Spear (Shields)"
 		"Dense Particle Shielding" 2
 		"Sheragi Solar Intake" 2
 		"Large EM Battery"
+		"Warp Drive"
 		"Large Hybrid Cooling"
 		"Electronic Warfare System" 2
 		
@@ -142,6 +150,7 @@ ship "Gold Shield" "Gold Shield (Pulse)"
 		"Large EM Battery"
 		"Dense Particle Shielding"
 		"Large Hybrid Cooling"
+		"Warp Drive"
 		"Electronic Warfare System" 2
 		"Sheragi Solar Intake" 2
 		
