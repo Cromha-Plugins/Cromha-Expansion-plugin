@@ -4768,6 +4768,30 @@ planet Alfyim
 
 system Postverta
 	remove hidden
+	object
+		sprite star/m8
+		period 10
+	object
+		sprite planet/desert7
+		distance 439
+		period 316.657
+	object Fertriery
+		sprite planet/fog0
+		distance 814
+		period 799.52
+		object
+			sprite planet/dust4
+			distance 202
+			period 21
+	object
+		sprite planet/rock10
+		distance 1208
+		period 1445.41
+	object "Ssil Vida"
+		sprite planet/sheragi_postverta
+			scale 0.5
+		distance 1408
+		period 1818.85
 
 system Celeborim
 	pos 190.616 -638.553
@@ -6646,6 +6670,29 @@ system Arneb
 	government "Lumbarian Empire"
 	add fleet "Large L Navy" 800
 	add fleet "Small L Navy" 400
+	object
+		sprite star/f5
+		period 10
+	object
+		sprite planet/venus
+		distance 206
+		period 28.558
+	object
+		sprite planet/cloud6-b
+		distance 546.25
+		period 123.314
+	object
+		sprite planet/desert8
+		distance 829.46
+		period 230.739
+	object Haven
+		sprite planet/forest6
+		distance 1264.82
+		period 434.481
+	object
+		sprite planet/io
+		distance 4062.31
+		period 2500.84
 
 planet Haven
 	tribute 500
@@ -7315,6 +7362,7 @@ system Jlka
 	belt 1497 7
 	haze _menu/haze-67
 	link Alasuka
+	link Hulki
 	asteroids "small rock" 4 1.352
 	asteroids "medium rock" 40 2.34
 	asteroids "large rock" 2 2.106
@@ -7355,4 +7403,229 @@ system Jlka
 		sprite planet/gas6
 		distance 5213
 		period 2581.976
+
+system Hulki
+	pos 10480.339 1327.689
+	government Sheragi
+	attributes sentar
+	habitable 1125
+	belt 1264 7
+	belt 2017 5
+	haze _menu/haze-133
+	link Almatar
+	link Jlka
+	asteroids "small rock" 4 6.343
+	asteroids "medium rock" 2 7.88
+	asteroids "large rock" 8 9.418
+	asteroids "small metal" 66 8.649
+	asteroids "medium metal" 117 8.265
+	asteroids "large metal" 38 5.67
+	minables titanium 8 13.494
+	minables copper 13 10.534
+	trade Clothing 150
+	trade Electronics 702
+	trade Equipment 510
+	trade Food 204
+	trade "Heavy Metals" 1217
+	trade Industrial 645
+	trade "Luxury Goods" 1069
+	trade Medical 596
+	trade Metal 299
+	trade Plastic 506
+	fleet Ayym 1200
+	fleet sheragi-fleet 1200
+	fleet sheragi-transport 900
+	object
+		sprite star/b-dwarf
+		period 10
+	object
+		sprite planet/ice1
+		distance 334
+		period 72.795
+	object
+		sprite planet/lava2
+		distance 798
+		period 268.836
+	object Sher'kla
+		sprite planet/desert8
+		distance 1202
+		period 496.982
+		object
+			sprite planet/fg_moon8
+			distance 175
+			period 142.578
+	object
+		sprite planet/gas0-b
+		distance 4055
+		period 3079.428
+
+planet Sher'kla
+	attributes farming sheragi snetar
+	landscape land/canyon02
+	description "Sher'kla is the very last planet of the Sentar galaxy that is habited by the Sheragi. It is a peaceful place to live."
+	spaceport TODO
+	government Sheragi
+	outfitter "Sheragi Basic"
+	tribute 750
+		threshold 12000
+		fleet sheragi-fleet 15
+
+system Almatar
+	pos 10438.968 1260.837
+	government Sheragi
+	attributes sentar
+	habitable 1715
+	belt 1642 3
+	belt 2361 6
+	haze _menu/haze-133
+	link Fartapli
+	link Hulki
+	asteroids "medium rock" 9 1.663
+	asteroids "large rock" 1 2.31
+	asteroids "small metal" 4 2.002
+	asteroids "medium metal" 4 2.248
+	asteroids "large metal" 2 1.879
+	minables silver 2 3.682
+	minables tungsten 4 3.629
+	trade Clothing 173
+	trade Electronics 729
+	trade Equipment 460
+	trade Food 266
+	trade "Heavy Metals" 1188
+	trade Industrial 675
+	trade "Luxury Goods" 994
+	trade Medical 569
+	trade Metal 278
+	trade Plastic 540
+	fleet Ayym 1200
+	fleet sheragi-fleet 1200
+	fleet sheragi-transport 900
+	object
+		sprite star/f5
+		period 10
+	object
+		sprite planet/desert2-b
+		distance 292
+		period 48.195
+	object
+		sprite planet/desert6
+		distance 670
+		period 167.51
+	object Sher'alla
+		sprite planet/gas8-b
+		distance 2184
+		period 985.841
+	object
+		sprite planet/gas0
+		distance 3911
+		period 2362.434
+		object
+			sprite planet/fg_moon13
+			distance 290
+			period 186.68
+	object
+		sprite planet/gas5-b
+		distance 4936
+		period 3349.582
+		object
+			sprite planet/rhea
+			distance 302
+			period 163.226
+
+planet Sher'alla
+	attributes research sheragi snetar
+	landscape land/dune2
+	description TODO
+	spaceport TODO
+	government Sheragi
+	outfitter "Sheragi Advanced"
+	tribute 750
+		threshold 12000
+		fleet sheragi-fleet 15
+
+system Fartapli
+	pos 10375.376 1324.356
+	government Sheragi
+	attributes sentar
+	habitable 4500.011
+	belt 1132 9
+	haze _menu/haze-133
+	link Almatar
+	asteroids "medium rock" 10 3.871
+	asteroids "large rock" 6 2.463
+	asteroids "small metal" 1 3.167
+	asteroids "medium metal" 1 2.502
+	asteroids "large metal" 1 2.307
+	minables titanium 3 4.746
+	trade Clothing 208
+	trade Electronics 709
+	trade Equipment 439
+	trade Food 289
+	trade "Heavy Metals" 1137
+	trade Industrial 674
+	trade "Luxury Goods" 1003
+	trade Medical 568
+	trade Metal 251
+	trade Plastic 510
+	fleet Ayym 1200
+	fleet sheragi-fleet 1200
+	fleet sheragi-transport 900
+	object
+		sprite planet/browndwarf-t-rouge
+		distance 445.5
+		period 470.156
+	object
+		sprite star/k-supergiant
+		distance 445.5
+		period 470.156
+		offset 180
+	object
+		sprite planet/gas9-hot
+		distance 1328
+		period 288.569
+		object
+			sprite planet/dust1-b
+			distance 184
+			period 77.626
+	object
+		sprite planet/rock3-b
+		distance 1780
+		period 447.799
+	object
+		sprite planet/gas2-b
+		distance 2927
+		period 944.251
+		object
+			sprite planet/dust7-b
+			distance 311
+			period 207.32
+		object
+			sprite planet/browndwarf-yyellow
+			distance 603
+			period 40.891
+		object
+			sprite planet/fg_moon11
+			distance 879
+			period 1605.01
+	object Sher'fallup
+		sprite planet/gas12
+		distance 4769.998
+		period 2244.32
+	object
+		sprite planet/fg_moon8
+		distance 5649
+		period 2531.69
+
+planet Sher'fallup
+	attributes military research sentar sheragi
+	landscape land/bwerner6
+	description "Sher'fallup is mostly a Sheragi military and research basement"
+	spaceport TODO
+	shipyard "Sheragi Advanced"
+	shipyard "Sheragi Basic"
+	outfitter "Sheragi Advanced"
+	outfitter "Sheragi Basic"
+	tribute 850
+		threshold 15000
+		fleet sheragi-fleet 23
 
