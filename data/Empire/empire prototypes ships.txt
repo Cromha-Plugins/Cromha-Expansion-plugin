@@ -17,7 +17,7 @@ ship "Black Manta"
 		"bunks" 97
 		"mass" 711
 		"drag" 7.5
-		"heat dissipation" .17
+		"heat dissipation" 7
 		"fuel capacity" 100000
 		"cargo space" 170
 		"outfit space" 20700
