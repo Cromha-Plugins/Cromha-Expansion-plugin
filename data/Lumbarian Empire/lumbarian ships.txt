@@ -298,9 +298,9 @@ ship "Frigate (Lumbarian)"
 		"Fragmentation Grenades" 5
 		Hyperdrive
 		"LP144a Battery Pack"
-		"Modified Hai Rifle" 5
 		"Liquid Helium Cooler"
 		"Lumbarian Particle Turret"
+		"Modified Hai Rifle" 5
 		"Outfits Expansion"
 		"Particle Cannon" 4
 		"Security Station"
@@ -325,8 +325,8 @@ ship "Frigate (Lumbarian)"
 
 ship "Cruiser (Lumbarian)"
 	plural Cruisers
-	sprite ship/lumbarian cruiser
-	thumbnail thumbnail/lumbarian cruiser
+	sprite "ship/lumbarian cruiser"
+	thumbnail "thumbnail/lumbarian cruiser"
 	attributes
 		category Cruiser
 		licenses "Lumbarian Knight"
@@ -358,9 +358,9 @@ ship "Cruiser (Lumbarian)"
 		"Jump Drive"
 		"LP576a Battery Pack"
 		"Large Radar Jammer"
-		"Modified Hai Rifle" 20
 		"Liquid Helium Cooler"
 		"Lumbarian Particle Turret" 2
+		"Modified Hai Rifle" 20
 		"Outfits Expansion"
 		"Particle Cannon" 6
 		"Security Station"
@@ -435,9 +435,9 @@ ship "Carrier (Lumbarian)"
 		"Heavy Anti-Missile Turret" 2
 		"Jump Drive"
 		"LP288a Battery Pack"
-		"Modified Hai Rifle" 40
 		"Liquid Helium Cooler"
 		"Lumbarian Particle Turret" 2
+		"Modified Hai Rifle" 40
 		"Outfits Expansion" 5
 		"Particle Cannon" 8
 		"Security Station"
@@ -578,8 +578,8 @@ ship "Shield Beetle (Lumbarian)"
 		"Hai Williwaw Cooling" 2
 		"Jump Drive"
 		"LP288a Battery Pack"
-		"Modified Hai Rifle" 60
 		"Lumbarian Particle Turret" 2
+		"Modified Hai Rifle" 60
 		"Outfits Expansion" 2
 		"Particle Cannon" 8
 		"Solar Core"
@@ -720,8 +720,8 @@ ship "Lumbarian Doom-Class"
 
 ship "Lumbarian Sting-Class"
 	plural Sting-Classes
-	sprite ship/gunboat
-	thumbnail thumbnail/gunboat
+	sprite ship/string-class
+	thumbnail thumbnail/string-class
 	attributes
 		category Gunboat
 		licenses Lumbarian
@@ -758,18 +758,18 @@ ship "Lumbarian Sting-Class"
 		"Outfits Expansion" 2
 		"Small Radar Jammer"
 		"Tactical Scanner"
-	engine -12 57.5
+	engine -8 48
 		zoom 0.7
-	engine 12 57.5
+	engine 8 48
 		zoom 0.7
-	gun -28.5 -27.5 "Lumba Heavy Laser"
-	gun 28.5 -27.5 "Lumba Heavy Laser"
-	turret 0 -1 "Lumba Heavy Laser Turret"
+	gun -23 -29 "Lumba Heavy Laser"
+	gun 23 -29 "Lumba Heavy Laser"
+	turret 0 -7.5 "Lumba Heavy Laser Turret"
 	leak leak 50 50
 	leak flame 80 80
 	explode "medium explosion" 15
 	explode "small explosion" 20
 	explode "tiny explosion" 10
 	"final explode" "final explosion small"
-	description "The Sting-Class is designed to be a support ship for cruisers, disabling thier enemies for them to be destroyed."
+	description "The Sting-Class is designed to be a support ship for cruisers, disabling their enemies for them to be destroyed."
 
