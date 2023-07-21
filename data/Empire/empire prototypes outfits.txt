@@ -293,7 +293,6 @@ outfit "Prototype Fusion Cannon (Empire)"
 			"no repeat"
 			"frame rate" .25
 		sound "dragonflame"
-		icon "icon/dragonflame"
 		"fire effect" "fusion cannon fire"
 		"die effect" "fusion cannon cloud" 5
 		"hit effect" "fusion cannon impact" 20
@@ -317,3 +316,35 @@ outfit "Prototype Fusion Cannon (Empire)"
 		"hit force" 250
 		"missile strength" 500
 	description "This is a personally obtained prototype Fusion Cannon, a deadly, massive spinal weapon. Where it came from, nobody knows except the owner, and those who wish to ask are too afraid of being on the receiving end."
+	
+outfit "Dragonflame Cannon (Empire)"
+	"display name" "Dragonflame Cannon"
+	category "Secondary Weapons"
+	cost 150000000
+	thumbnail "outfit/dragonflame"
+	"mass" 156
+	"outfit space" -156
+	"weapon capacity" -156
+	"required crew" 10
+	"gun ports" -1
+	"spinal mount" -1
+	weapon
+		sound "dragonflame"
+		"fire effect" "dragonflame"
+		"hit effect" "bright hit"
+		"hit effect" "dragonflame plasma" 30
+		"hit effect" "dragonflame debris" 50
+		"velocity" 2000
+		"lifetime" 1
+		"reload" 180
+		"firing energy" 16000
+		"firing fuel" 200
+		"firing heat" 40000
+		"firing force" 1000
+		"hit force" 2000
+		"shield damage" 25000
+		"hull damage" 15000
+		"heat damage" 50000
+		"piercing" 0.4
+		"blast radius" 50
+	description "The ancient Sheragi superweapon is simple in concept, but the cost involved in developing something like it is exorbitant. It's hard to envision what could have motivated the creation of such a thing. It uses an obscene amount of energy to trigger an extremely powerful thermonuclear reaction, directing most of the energy from the resulting explosion forwards in a devastatingly powerful beam of gamma radiation."

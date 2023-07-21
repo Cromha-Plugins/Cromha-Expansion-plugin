@@ -60,13 +60,14 @@ ship "Black Manta"
 		"Shield Processor (Huge)" 2
 		"T3 Phasic Amplifier"
 		"Tre-Phasic Cooler" 2
-		"Prototype Fusion Cannon (Empire)" 2
+		"Dragonflame Cannon (Empire)"
+		"Prototype Fusion Cannon (Empire)"
 		"X-Crusade Computer"
 		"X-Skirmish Computer" 2
 		
 	gun 0 -105.5 "Caltalytic Tear"
 		under
-	gun -4.5 -94.5 "Prototype Fusion Cannon (Empire)"
+	gun -4.5 -94.5 "Dragonflame Cannon (Empire)"
 		under
 	gun 4.5 -94.5 "Prototype Fusion Cannon (Empire)"
 		under
