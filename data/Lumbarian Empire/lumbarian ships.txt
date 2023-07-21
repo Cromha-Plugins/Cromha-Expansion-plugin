@@ -325,8 +325,8 @@ ship "Frigate (Lumbarian)"
 
 ship "Cruiser (Lumbarian)"
 	plural Cruisers
-	sprite ship/cruiser
-	thumbnail thumbnail/cruiser
+	sprite ship/lumbarian cruiser
+	thumbnail thumbnail/lumbarian cruiser
 	attributes
 		category Cruiser
 		licenses "Lumbarian Knight"
