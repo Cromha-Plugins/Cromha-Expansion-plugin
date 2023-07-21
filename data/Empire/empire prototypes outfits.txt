@@ -342,8 +342,8 @@ outfit "Dragonflame Cannon (Empire)"
 		"firing heat" 40000
 		"firing force" 1000
 		"hit force" 2000
-		"shield damage" 25000
-		"hull damage" 15000
+		"shield damage" 29000
+		"hull damage" 19000
 		"heat damage" 50000
 		"piercing" 0.4
 		"blast radius" 50

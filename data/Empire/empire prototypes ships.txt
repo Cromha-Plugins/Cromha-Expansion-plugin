@@ -28,6 +28,8 @@ ship "Black Manta"
 		"inscrutable" 1
 		"ramscoop" 0.7
 		"spinal mount" 3
+		"cooling" 99999
+		"fuel generation" 50
 		weapon
 			"blast radius" 70
 			"shield damage" 175000
