@@ -4768,30 +4768,6 @@ planet Alfyim
 
 system Postverta
 	remove hidden
-	object
-		sprite star/m8
-		period 10
-	object
-		sprite planet/desert7
-		distance 439
-		period 316.657
-	object Fertriery
-		sprite planet/fog0
-		distance 814
-		period 799.52
-		object
-			sprite planet/dust4
-			distance 202
-			period 21
-	object
-		sprite planet/rock10
-		distance 1208
-		period 1445.41
-	object "Ssil Vida"
-		sprite planet/sheragi_postverta
-			scale 0.5
-		distance 1408
-		period 1818.85
 
 system Celeborim
 	pos 190.616 -638.553
@@ -6670,29 +6646,6 @@ system Arneb
 	government "Lumbarian Empire"
 	add fleet "Large L Navy" 800
 	add fleet "Small L Navy" 400
-	object
-		sprite star/f5
-		period 10
-	object
-		sprite planet/venus
-		distance 206
-		period 28.558
-	object
-		sprite planet/cloud6-b
-		distance 546.25
-		period 123.314
-	object
-		sprite planet/desert8
-		distance 829.46
-		period 230.739
-	object Haven
-		sprite planet/forest6
-		distance 1264.82
-		period 434.481
-	object
-		sprite planet/io
-		distance 4062.31
-		period 2500.84
 
 planet Haven
 	tribute 500
@@ -7551,6 +7504,7 @@ system Fartapli
 	belt 1132 9
 	haze _menu/haze-133
 	link Almatar
+	link Krista
 	asteroids "medium rock" 10 3.871
 	asteroids "large rock" 6 2.463
 	asteroids "small metal" 1 3.167
@@ -7628,4 +7582,89 @@ planet Sher'fallup
 	tribute 850
 		threshold 15000
 		fleet sheragi-fleet 23
+
+system Krista
+	pos 10299.043 1272.615
+	government Sheragi
+	attributes sentar
+	habitable 22300
+	belt 1373 5
+	haze _menu/haze-67
+	link Fartapli
+	asteroids "small rock" 195 2.97
+	asteroids "medium rock" 45 1.53
+	asteroids "large rock" 20 2.79
+	asteroids "small metal" 68 2.28
+	asteroids "medium metal" 16 2.43
+	asteroids "large metal" 35 1.86
+	minables lead 2 4.598
+	minables iron 76 4.311
+	trade Clothing 208
+	trade Electronics 709
+	trade Equipment 439
+	trade Food 289
+	trade "Heavy Metals" 1137
+	trade Industrial 674
+	trade "Luxury Goods" 1003
+	trade Medical 568
+	trade Metal 251
+	trade Plastic 510
+	fleet Ayym 1200
+	fleet sheragi-fleet 1200
+	fleet sheragi-transport 900
+	object
+		sprite planet/browndwarf-y-rougeorange
+		distance 250
+		period 197.642
+	object
+		sprite star/o-giant
+		distance 250
+		period 197.642
+		offset 180
+	object
+		sprite planet/gas1
+		distance 1140
+		period 103.101
+		object
+			sprite planet/rock17
+			distance 462
+			period 611.586
+	object
+		sprite planet/browndwarf-lpurple
+		distance 1984
+		period 236.712
+	object
+		sprite planet/gas11-b
+		distance 2534
+		period 341.678
+	object
+		sprite planet/fg_gas21
+		distance 3632
+		period 586.309
+		object
+			sprite planet/dust7
+			distance 305
+			period 201.349
+		object
+			sprite planet/ice7-b
+			distance 473
+			period 269.221
+		object Sher'gallion
+			sprite planet/ice8
+			distance 660
+			period 640.939
+	object
+		sprite planet/dust3
+		distance 4546
+		period 821.016
+
+planet Sher'gallion
+	attributes sentar sheragi
+	landscape land/canyon02
+	description "Sher'gallion is a peaceful Sheragi planet which is a nice place to live."
+	spaceport TODO
+	government Sheragi
+	outfitter "Sheragi Basic"
+	tribute 350
+		fleet sheragi-fleet 8
 
