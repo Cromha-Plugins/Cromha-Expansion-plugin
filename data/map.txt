@@ -5387,6 +5387,7 @@ system "Kor Tar'fei"
 	link "Kor Flas"
 	asteroids "large metal" 1 5.603
 	fleet cromha-fleet 1200
+	fleet Luminaza 850
 	object
 		sprite star/xg5-old
 		period 10
@@ -5456,6 +5457,7 @@ system "Kor Akla"
 	minables aluminum 16 5.201
 	minables iron 38 4.529
 	fleet cromha-fleet 1200
+	fleet Luminaza 950
 	object
 		sprite star/x-supergiant
 		period 10
@@ -5658,6 +5660,7 @@ system Sylk'fratis
 	asteroids "medium metal" 3 5.429
 	asteroids "large metal" 14 5.498
 	minables iron 6 8.142
+	fleet Luminaza 950
 	object
 		sprite star/x3
 		distance 86.74
@@ -5717,6 +5720,7 @@ system Fratris
 	asteroids "large metal" 1 1.31
 	minables titanium 6 2.546
 	fleet Ayym 950
+	fleet Luminaza 950
 	object
 		sprite star/xg0
 		distance 176.237
@@ -5809,7 +5813,8 @@ system Satras
 	asteroids "large metal" 2 3.636
 	minables copper 7 7.371
 	minables titanium 19 6.72
-	fleet Ayym 1200
+	fleet Ayym 950
+	fleet Luminaza 950
 	object
 		sprite star/k8
 		distance 78.153
@@ -7110,6 +7115,7 @@ system Falapta
 	minables lead 2 6.59
 	minables titanium 6 5.006
 	fleet Ayym 1200
+	fleet Luminaza 1200
 	object
 		sprite star/b8
 		period 10
@@ -7155,6 +7161,7 @@ system Faputa
 	asteroids "medium metal" 6 1.389
 	asteroids "large metal" 4 1.926
 	fleet Ayym 1200
+	fleet Luminaza 1200
 	object
 		sprite star/b-dwarf
 		period 10
@@ -7253,6 +7260,7 @@ system Alasuka
 	asteroids "large metal" 17 1.069
 	minables uranium 6 1.176
 	fleet Ayym 1200
+	fleet Luminaza 1200
 	object
 		sprite star/y8
 		distance 268.5
@@ -7326,6 +7334,7 @@ system Jlka
 	minables iron 1 2.643
 	fleet Ayym 1200
 	fleet sheragi-fleet 1200
+	fleet Luminaza 1200
 	object
 		sprite star/a3
 		period 10
@@ -7791,7 +7800,7 @@ system Last'ka
 		object
 			sprite planet/rock2b
 			distance 195
-			period -nan
+			period 0
 		object
 			sprite planet/rock20
 			distance 295
@@ -7815,7 +7824,7 @@ system Last'ka
 		object
 			sprite planet/could7-b
 			distance 521
-			period -nan
+			period 0
 	object
 		sprite planet/gas2-b
 		distance 14621
@@ -7981,7 +7990,7 @@ system Articula
 		object
 			sprite planet/beryl/beryl
 			distance 232
-			period -nan
+			period 0
 	object
 		sprite planet/browndwarf-yblue
 		distance 5101

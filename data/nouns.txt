@@ -143,7 +143,7 @@ ship "Ayym Creature"
 		"heat dissipation" .7
 		"cargo space" 75
 		"cooling" 13
-		"thrust" 50
+		"thrust" 250
 		"turn" 1100
 		"hyperdrive" 1
 		"jump fuel" 100
@@ -196,6 +196,7 @@ ship "Luminazoa"
 		rewind
 		"frame rate" 4
 	"never disabled"
+	swizzle 0
 	attributes
 		category "Interceptor"
 		"automaton" 1
@@ -251,12 +252,64 @@ effect "blue blood"
 	"random angle" 20
 	"random velocity" 1
 	"random spin" 5
+
+
+
+outfit "Lightning Tendril?"
+	category "Secondary Weapons"
+	thumbnail "outfit/unknown"
+	"turret mounts" -1
+	"unplunderable" 1
+	weapon
+		sprite "projectile/lightning"
+			"frame rate" 60
+			"random start frame"
+		sound "zapper"
+		icon "icon/lightning"
+		"hit effect" "ion impact" 2
+		"inaccuracy" 3
+		"turret turn" 1
+		"velocity" 320
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 2.7
+		"shield damage" 7.4
+		"hull damage" 5.8
+		"ion damage" .4
+
+outfit Digester?
+	category "Guns"
+	thumbnail "outfit/unknown"
+	"gun ports" -1
+	weapon
+		"hit effect" "digester splatter"
+		"inaccuracy" 180
+		"velocity" 10
+		"lifetime" 1
+		"reload" 70
+		"burst reload" 35
+		"burst count" 3
+		"cluster"
+		"discharge damage" 3
+		"minable damage" 300
+		"corrosion damage" 6
+		"blast radius" 10
+		"safe"
+
+effect "digester splatter"
+	sound "explosion jje"
+
+
+phrase luminazoa
+	word
+		Luminazoa
 	
 fleet Luminaza
 	government "Indigene Creature"
 	personality mute
+	names luminazoa
 	cargo 0
-	variant.25
+	variant .25
 		"Luminazoa" 2
 	variant .5
 		"Luminazoa" 3

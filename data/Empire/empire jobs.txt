@@ -2958,7 +2958,7 @@ mission empire-protection-escort-heavy[1]
 
 mission empire-merchant-assist-small[0]
 	name "Derelict S.O.S."
-	description "A derelict Empire Merchant ship has sent a S.O.S. sooner this day. Assist him before some Empire Rebels receive his S.O.S. and find him then bring him back to <origin>."
+	description "A derelict Empire Merchant ship has sent a S.O.S. sooner this day in a nearby system. Assist him before some Empire Rebels receive his S.O.S. and find him then bring him back to <origin>."
 	job
 	repeat
 	source
@@ -2989,7 +2989,7 @@ mission empire-merchant-assist-small[0]
 			
 mission empire-merchant-assist-small[1]
 	name "Derelict S.O.S."
-	description "A derelict Empire Merchant ship has sent a S.O.S. sooner this day. Assist him before some Empire Rebels receive his S.O.S. and find him then bring him back to <origin>"
+	description "A derelict Empire Merchant ship has sent a S.O.S. sooner this day in a nearby system. Assist him before some Empire Rebels receive his S.O.S. and find him then bring him back to <origin>"
 	job
 	repeat
 	source
@@ -3020,7 +3020,7 @@ mission empire-merchant-assist-small[1]
 			
 mission empire-merchant-assist-small[2]
 	name "Derelict S.O.S."
-	description "A derelict Empire Merchant ship has sent a S.O.S. sooner this day. Assist him before some Empire Rebels receive his S.O.S. and find him then bring him back to <origin>."
+	description "A derelict Empire Merchant ship has sent a S.O.S. sooner this day in a nearby system. Assist him before some Empire Rebels receive his S.O.S. and find him then bring him back to <origin>."
 	job
 	repeat
 	source
