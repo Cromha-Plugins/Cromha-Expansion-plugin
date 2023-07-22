@@ -189,3 +189,76 @@ fleet "Ayym"
 	cargo 0
 	variant 1
 		"Ayym Creature"
+		
+ship "Luminazoa"
+	noun "creature"
+	sprite "ship/luminazoa/luminazoa"
+		rewind
+		"frame rate" 4
+	"never disabled"
+	attributes
+		category "Interceptor"
+		"automaton" 1
+		"shields" 800
+		"hull" 2400
+		"mass" 180
+		"drag" 4.8
+		"heat dissipation" 1.2
+		"cargo space" 18
+		"thrust" 4.4
+		"afterburner thrust" 22
+		"afterburner energy" 4.4
+		"turn" 150
+		"shield generation" 1.5
+		"hull repair rate" 1
+		"heat protection" 1
+		"ion protection" 3
+		"scramble protection" 3
+		"ion resistance" 2
+		"scramble resistance" 2
+		"energy capacity" 150
+		"energy generation" 2
+		"fuel capacity" 150
+		"inscrutable" 1
+		"gaslining" 1
+		"hyperdrive" 1
+		"scram drive" .2
+		"atmosphere scan" 100
+		"asteroid scan power" 50
+		weapon
+			"hit force" 30
+			"blast radius" 160
+			"corrosion damage" 480
+	outfits
+		Digester? 3
+		"Lightning Tendril?" 1
+	gun 0 -30 Digester?
+	gun -5 -32 Digester?
+	gun 5 -32 Digester?
+	turret 0 7 "Lightning Tendril?"
+	leak "blue blood" 15 25
+	explode "blue blood" 25
+	"final explode" "blue blood"
+	description "The exposed mantle of Hell's Maw is home to a thriving colony of these creatures. While they are content to harmlessly scavenge for minerals, they can become dangerous when provoked. Their tendrils are able to emit electrical bursts which can disrupt a ship's power systems."
+
+
+effect "blue blood"
+	sprite "effect/blue blood"
+		"no repeat"
+		"frame rate" 10
+		"random start frame"
+	"lifetime" 61
+	"random angle" 20
+	"random velocity" 1
+	"random spin" 5
+	
+fleet Luminaza
+	government "Indigene Creature"
+	personality mute
+	cargo 0
+	variant.25
+		"Luminazoa" 2
+	variant .5
+		"Luminazoa" 3
+	variant .25
+		"Luminazoa" 5

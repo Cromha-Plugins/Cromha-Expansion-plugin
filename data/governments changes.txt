@@ -170,3 +170,26 @@ government "Hai"
 	"friendly disabled hail" "friendly disabled hai"
 	"hostile hail" "hostile hai"
 	"hostile disabled hail" "hostile disabled hai"
+	
+government "Ka'het"
+	swizzle 0
+	language "Ka'het"
+	color .647 .241 .599
+	"attitude toward"
+		"Ka'het (Infighting)" -.01
+		"Remnant" -.01
+		"Quarg" -.01
+		"Pug" -.01
+		"Hai" -.01
+		"Hai (Wormhole Access)" -.01
+		"Korath" -.01
+		"Navy (Oathkeeper)" -.01
+		"Republic" -.01
+		"Free Worlds" -.01
+		"Hai (Unfettered)" -.01
+		"Wanderer" -.01
+		"Cromha Empire" -.01
+		"Mineria colonnies" -.01
+		"Empire Merchant" -.01
+	
+	"player reputation" -1

@@ -167,6 +167,7 @@ planet "Mefterk Refinery"
 	security 6
 
 system Pantica
+	pos 307.87 444.353
 	add attributes wormhole
 	add asteroids "medium rock" 18 0.791
 	remove asteroids "medium rock"
@@ -7667,4 +7668,385 @@ planet Sher'gallion
 	outfitter "Sheragi Basic"
 	tribute 350
 		fleet sheragi-fleet 8
+
+planet Retilie
+	spaceport TODO
+	government Ka'het
+	outfitter Ka'het
+	remove bribe
+	remove security
+
+system Lire
+	government Ka'het
+	add link Farmas
+	add link Last'ka
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/dust2
+		distance 180.81
+		period 29.593
+	object
+		sprite planet/desert2-b
+		distance 676.17
+		period 214.008
+		object
+			sprite planet/rock0-b
+			distance 135
+			period 20.119
+	object
+		sprite planet/ice1
+		distance 1019.41
+		period 396.16
+	object Retilie
+		sprite planet/water1
+		distance 1361.41
+		period 611.408
+	object
+		sprite planet/browndwarf-l
+		distance 2307.37
+		period 1349.03
+		object
+			sprite planet/miranda-b
+			distance 300
+			period 27
+		object
+			sprite planet/rock3
+			distance 425
+			period 36
+
+system Patir
+	object
+		sprite star/nova
+		distance 155.321
+		period 1
+	object
+		sprite star/neutron-core
+		period 1
+	object "Builder Settlement"
+		sprite "planet/asteroid base"
+		distance 1496.85
+		period 327.598
+	object
+		sprite planet/gas2-b
+		distance 2866.29
+		period 868.07
+		object
+			sprite planet/rock17-b
+			distance 203
+			period 17.525
+
+system Last'ka
+	pos -101.259 639.37
+	government Ka'het
+	attributes "ember waste" graveyard
+	arrival 1080
+	habitable 11850
+	belt 1388 4
+	haze _menu/haze-red
+	link Farmas
+	link Lire
+	asteroids "small rock" 34 4.385
+	asteroids "medium rock" 2 6.89
+	asteroids "large rock" 2 4.698
+	asteroids "small metal" 76 4.541
+	asteroids "medium metal" 20 6.342
+	asteroids "large metal" 171 7.125
+	minables iron 35 9.845
+	minables aluminum 76 6.437
+	trade Clothing 270
+	trade Electronics 818
+	trade Equipment 605
+	trade Food 524
+	trade "Heavy Metals" 863
+	trade Industrial 662
+	trade "Luxury Goods" 1259
+	trade Medical 816
+	trade Metal 307
+	trade Plastic 411
+	fleet Ka'het 2850
+	fleet "Ka'het Aggressive" 9300
+	hazard "Ember Waste Base Heat" 100
+	hazard "Ember Waste Base Storm" 9000
+	object
+		sprite star/a-supergiant
+		period 10
+	object
+		sprite planet/rock7
+		distance 569
+		period 49.873
+	object
+		sprite planet/rock1
+		distance 980
+		period 112.73
+		object
+			sprite planet/rock7-b
+			distance 163
+			period 98.445
+	object
+		sprite planet/gas15-b
+		distance 1696
+		period 256.649
+		object
+			sprite planet/rock2b
+			distance 195
+			period -nan
+		object
+			sprite planet/rock20
+			distance 295
+			period 191.529
+	object
+		sprite planet/browndwarf-y
+		distance 4021
+		period 936.919
+	object
+		sprite "planet/browndwarf-l cyan"
+		distance 8382
+		period 2819.826
+		object
+			sprite planet/miranda-b
+			distance 273
+			period 213.381
+		object
+			sprite planet/rock14
+			distance 388
+			period 200.016
+		object
+			sprite planet/could7-b
+			distance 521
+			period -nan
+	object
+		sprite planet/gas2-b
+		distance 14621
+		period 6496.305
+	object Ka'shra
+		sprite "planet/thermopylae station"
+			"frame rate" 0.5
+		distance 2476.737
+		period 150
+
+planet Ka'shra
+	attributes "ember waste" graveyard kahet station
+	landscape land/station12
+	description TODO
+	spaceport TODO
+	government Ka'het
+	bribe 0
+	security 0
+
+system Farmas
+	pos -121.296 698.741
+	government Ka'het
+	attributes "ember waste" graveyard
+	arrival 1080
+	habitable 6075
+	belt 1909 8
+	belt 2342 5
+	haze _menu/haze-red
+	link Last'ka
+	link Lire
+	asteroids "small rock" 2 2.488
+	asteroids "medium rock" 5 2.187
+	asteroids "large rock" 3 2.413
+	asteroids "medium metal" 4 3.204
+	asteroids "large metal" 1 2.865
+	minables neodymium 2 2.775
+	trade Clothing 270
+	trade Electronics 818
+	trade Equipment 605
+	trade Food 524
+	trade "Heavy Metals" 863
+	trade Industrial 662
+	trade "Luxury Goods" 1259
+	trade Medical 816
+	trade Metal 307
+	trade Plastic 411
+	fleet Ka'het 2850
+	fleet "Ka'het Aggressive" 9300
+	hazard "Ember Waste Base Heat" 100
+	hazard "Ember Waste Base Storm" 9000
+	object
+		sprite star/g-supergiant
+		distance 396.5
+		period 394.762
+	object
+		sprite star/x-supergiant
+		distance 396.5
+		period 394.762
+		offset 180
+	object
+		sprite planet/fg_icegiant1
+		distance 1474
+		period 290.424
+		object
+			sprite planet/desert4-b
+			distance 198
+			period 131.798
+		object
+			sprite planet/dust0
+			distance 293
+			period 308.884
+		object
+			sprite planet/dust4
+			distance 419
+			period 266.747
+	object
+		sprite planet/gas6-b
+		distance 2488
+		period 636.887
+		object
+			sprite planet/fg_moon28
+			distance 378
+			period 452.618
+	object
+		sprite planet/gas9
+		distance 3712
+		period 1160.643
+		object
+			sprite planet/fg_moon10
+			distance 255
+			period 153.926
+	object
+		sprite planet/fg_gas7
+		distance 4645
+		period 1624.671
+	object
+		sprite planet/browndwarf-tpurple
+		distance 6563
+		period 2728.604
+		object
+			sprite planet/dust7
+			distance 312
+			period 208.321
+
+system Articula
+	pos 368.537 378.686
+	government Remnant
+	attributes "ember waste"
+	arrival 625
+	habitable 2200
+	belt 1059 8
+	haze _menu/haze-red
+	link Arculus
+	asteroids "small rock" 12 2.819
+	asteroids "medium rock" 32 2.479
+	asteroids "large rock" 166 2.965
+	asteroids "small metal" 10 3.451
+	asteroids "medium metal" 17 3.305
+	asteroids "large metal" 4 2.479
+	minables silicon 15 4.314
+	minables titanium 7 4.144
+	minables lead 50 5.205
+	trade Clothing 346
+	trade Electronics 733
+	trade Equipment 676
+	trade Food 512
+	trade "Heavy Metals" 933
+	trade Industrial 780
+	trade "Luxury Goods" 1006
+	trade Medical 510
+	trade Metal 417
+	trade Plastic 498
+	fleet "Large Remnant" 3000
+	fleet "Small Remnant" 2200
+	fleet "Remnant Transport" 2200
+	fleet "Remnant Home Guard" 2000
+	fleet "Korath Ember Waste Raid" 40000
+	hazard "Ember Waste Base Heat" 100
+	hazard "Ember Waste Base Storm" 25000
+	object
+		sprite star/f3
+		period 10
+	object Rem'ka
+		sprite planet/ocean8
+		distance 500
+		period 95.346
+		object
+			sprite planet/dust4-b
+			distance 183
+			period 76.994
+	object
+		sprite planet/fg_terrestrial4
+		distance 1189
+		period 349.64
+	object
+		sprite planet/dust3-b
+		distance 1707
+		period 601.449
+	object
+		sprite planet/jupiter
+		distance 2167
+		period 860.274
+		object
+			sprite planet/beryl/beryl
+			distance 232
+			period -nan
+	object
+		sprite planet/browndwarf-yblue
+		distance 5101
+		period 3106.931
+	object
+		sprite planet/browndwarf-tyellow
+		distance 5961
+		period 3924.889
+		object
+			sprite planet/tethys-b
+			distance 272
+			period 276.279
+
+system Arculus
+	add link Articula
+	object
+		sprite star/g5
+		period 10
+	object Seraglio
+		sprite planet/rock13-b
+		distance 209.29
+		period 48.444
+	object Eminonu
+		sprite planet/rock16-b
+		distance 490.5
+		period 173.811
+		object Babiali
+			sprite planet/desert4-b
+			distance 122
+			period 18.391
+	object Viminal
+		sprite planet/ocean2
+		distance 923.75
+		period 449.212
+		object Kumkapi
+			sprite planet/io-b
+			distance 162
+			period 17.899
+	object Xerolophos
+		sprite planet/gas0-hot
+		distance 1734.39
+		period 1155.68
+		object Topkapi
+			sprite planet/tethys-b
+			distance 200
+			period 15.056
+		object Aksaray
+			sprite planet/miranda-b
+			distance 273
+			period 24.012
+		object Yedikule
+			sprite planet/ice7
+			distance 431
+			period 47.631
+	object
+		sprite planet/browndwarf-t
+		distance 3358
+		period 3113.44
+
+planet Rem'ka
+	attributes "ember waste" remnant
+	landscape land/clouds_07
+	description TODO
+	spaceport TODO
+	government Remnant
+	outfitter Remnant
+	outfitter "Remnant Core"
 
