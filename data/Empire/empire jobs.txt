@@ -2954,4 +2954,97 @@ mission empire-protection-escort-heavy[1]
 	to complete
 		never
 
-		
+# Assisting Jobs
+
+mission empire-merchant-assist-small[0]
+	name "Derelict S.O.S."
+	description "A derelict Empire Merchant ship has sent a S.O.S. sooner this day. Assist him before some Empire Rebels receive his S.O.S. and find him then bring him back to <origin>."
+	job
+	repeat
+	source
+		government "Cromha Empire" "Mineria colonnies"
+	to offer
+		random < 20
+		"combat rating" > 300
+	on fail
+		dialog "You failed your mission"
+	on visit
+		dialog "It seems you landed on <planet> but didn't assist the derelict ship."
+	npc assist save
+		government "Empire Merchant"
+		personality target timid appeasing derelict
+		ship "Dreadful" "Might Eagle"
+		system 
+			distance 2
+	npc
+		government "Empire Rebels"
+		fleet empire-rebels-merchants
+		system
+			distance 6 28
+			government "Empire Rebels"
+	on complete
+		payment
+		payment 300000
+		dialog "You land with the captain of the <npc> and he gives you <payment>.
+			
+mission empire-merchant-assist-small[1]
+	name "Derelict S.O.S."
+	description "A derelict Empire Merchant ship has sent a S.O.S. sooner this day. Assist him before some Empire Rebels receive his S.O.S. and find him then bring him back to <origin>"
+	job
+	repeat
+	source
+		government "Cromha Empire" "Mineria colonnies"
+	to offer
+		random < 20
+		"combat rating" > 300
+	on fail
+		dialog "You failed your mission"
+	on visit
+		dialog "It seems you landed on <planet> but didn't assist the derelict ship."
+	npc assist save
+		government "Empire Merchant"
+		personality target timid appeasing derelict
+		ship "Hawk (Empire)" "Deadly Warlord"
+		system 
+			distance 2
+	npc
+		government "Empire Rebels"
+		fleet empire-rebels-merchants
+		system
+			distance 6 28
+			government "Empire Rebels"
+	on complete
+		payment
+		payment 400000
+		dialog "You land with the captain of the <npc> and he gives you <payment>.
+			
+mission empire-merchant-assist-small[2]
+	name "Derelict S.O.S."
+	description "A derelict Empire Merchant ship has sent a S.O.S. sooner this day. Assist him before some Empire Rebels receive his S.O.S. and find him then bring him back to <origin>."
+	job
+	repeat
+	source
+		government "Cromha Empire" "Mineria colonnies"
+	to offer
+		random < 20
+		"combat rating" > 300
+	on fail
+		dialog "You failed your mission"
+	on visit
+		dialog "It seems you landed on <planet> but didn't assist the derelict ship."
+	npc assist save
+		government "Empire Merchant"
+		personality target timid appeasing derelict
+		ship "Wasp (Empire)" "Summer"
+		system 
+			distance 2
+	npc
+		government "Empire Rebels"
+		fleet empire-rebels-merchants
+		system
+			distance 6 28
+	on complete
+		payment
+		payment 50000
+		dialog "You land with the captain of the <npc> and he gives you <payment>.
+			government "Empire Rebels"
