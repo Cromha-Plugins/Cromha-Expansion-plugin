@@ -184,4 +184,95 @@ ship "Lumbarian Pike-Class"
 	bay Gunboat 54.5 -53.5
 	bay Gunboat 30.5 -194.5
 	description "The Pike-Class is the successor to the Trident-Class."
+	
+ship "Lumbarian Fork-Class"
+	sprite "ship/fork-class"
+	thumbnail "thumbnail/fork-class"
+	swizzle 0
+	attributes
+		category Cruiser
+		licenses "Lumbarian Emperor"
+		cost 750000000
+		"mass" 11000
+		"outfit space" 4100
+		"engine capacity" 720
+		"weapon capacity" 2000
+		"cargo space" 800
+		"shields" 450000
+		"hull" 230000
+		"fuel capacity" 30000
+		"heat dissipation" 0.3
+		"required crew" 260
+		"drag" 30
+		"bunks" 398
+		weapon
+			"blast radius" 6000
+			"shield damage" 28000
+			"hull damage" 22000
+			"hit force" 30000
+	outfits
+		"A860 Atomic Thruster" 2
+		"A865 Atomic Steering" 5
+		"Fragmentation Grenades" 60
+		"Heavy Anti-Missile Turret" 5
+		"Jump Drive"
+		"Large Heat Shunt" 15
+		"Lumbarian Particle Battery" 8
+		"Lumbarian Particle Turret" 10
+		"Modified Hai Rifle" 200
+		"Nanotech Battery" 2
+		"Quantum Shield Generator" 3
+		"Scram Drive"
+		"Security Station" 15
+		"Triple Plasma Core" 3
+	engine -102 411.5
+	engine -38 475
+	engine 102 411.5
+	engine 38 475
+	turret -45.5 282.5 "Heavy Anti-Missile Turret"
+	turret -43.5 217 "Heavy Anti-Missile Turret"
+	turret -39.5 157 "Heavy Anti-Missile Turret"
+	turret -38 94.5 "Heavy Anti-Missile Turret"
+	turret -32.5 10.5 "Heavy Anti-Missile Turret"
+	turret -28 -265.5 "Lumbarian Particle Battery"
+	turret -57 -103.5 "Lumbarian Particle Battery"
+	turret -102 117 "Lumbarian Particle Battery"
+	turret 45.5 282.5 "Lumbarian Particle Battery"
+	turret 43.5 217 "Lumbarian Particle Battery"
+	turret 39.5 157 "Lumbarian Particle Battery"
+	turret 38 94.5 "Lumbarian Particle Battery"
+	turret 32.5 10.5 "Lumbarian Particle Battery"
+	turret 28 -265.5 "Lumbarian Particle Turret"
+	turret 57 -103.5 "Lumbarian Particle Turret"
+	turret 102 117 "Lumbarian Particle Turret"
+	turret 8.5 -143.5 "Lumbarian Particle Turret"
+	turret -3 -31.5 "Lumbarian Particle Turret"
+	turret -27.5 -115 "Lumbarian Particle Turret"
+	turret -10.5 189 "Lumbarian Particle Turret"
+	turret 90.5 203.5 "Lumbarian Particle Turret"
+	turret 99.5 274 "Lumbarian Particle Turret"
+	turret 40.5 -48.5 "Lumbarian Particle Turret"
+	bay Gunboat -48 282.5
+	bay Gunboat -45.5 230.5
+	bay Gunboat -43 171
+	bay Gunboat -40 109
+	bay Gunboat -37 60.5
+	bay Gunboat -99.5 344
+	bay Gunboat -138 337.5
+	bay Gunboat -110.5 220
+	bay Gunboat -81 80.5
+	bay Gunboat -54.5 -53.5
+	bay Gunboat -30.5 -194.5
+	bay Gunboat 48 282.5
+	bay Gunboat 45.5 230.5
+	bay Gunboat 43 171
+	bay Gunboat 40 109
+	bay Gunboat 37 60.5
+	bay Gunboat 99.5 344
+	bay Gunboat 138 337.5
+	bay Gunboat 110.5 220
+	bay Gunboat 81 80.5
+	bay Gunboat 54.5 -53.5
+	bay Gunboat 30.5 -194.5
+	description "The Pike-Class is the successor to the Trident-Class."
 
