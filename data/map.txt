@@ -8355,7 +8355,7 @@ system Zubenelhakrabi
 			period 44.523
 
 system "Gamma Grova"
-	pos -982.889 163.963
+	pos -1028.222 132.556
 	government "Cromha Empire"
 	attributes "cromha rim" womrhole
 	habitable 11850
@@ -8489,7 +8489,7 @@ wormhole "Rim Jump Tunnel"
 	color .415 .553 1
 
 system "Alpha Kas"
-	pos -1005.889 207.63
+	pos -1051.222 176.223
 	government "Cromha Empire"
 	attributes "cromha rim" mining oil
 	habitable 550
@@ -8591,7 +8591,7 @@ planet "Alpha Cras"
 	government "Cromha Empire"
 
 system Elneif
-	pos -1039.555 169.519
+	pos -1084.888 138.112
 	government Quarg
 	attributes "cromha rim" military quarg ringworld
 	habitable 3650
