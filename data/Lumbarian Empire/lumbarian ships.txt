@@ -156,19 +156,19 @@ ship "Lance (Lumbarian)"
 
 ship "Rainmaker (Lumbarian)"
 	plural Rainmakers
-	sprite ship/rainmaker
-	thumbnail thumbnail/rainmaker
+	sprite ship/lumbarian rainmaker
+	thumbnail thumbnail/lumbarian rainmaker
 	attributes
 		category Gunboat
 		licenses Lumbarian
 		cost 2000000
 		"mass" 180
-		"outfit space" 280
-		"engine capacity" 59
-		"weapon capacity" 60
+		"outfit space" 320
+		"engine capacity" 75
+		"weapon capacity" 125
 		"cargo space" 25
-		"shields" 3500
-		"hull" 1200
+		"shields" 4200
+		"hull" 1500
 		"fuel capacity" 500
 		"heat dissipation" 0.6
 		"required crew" 3
@@ -186,22 +186,25 @@ ship "Rainmaker (Lumbarian)"
 		Hyperdrive
 		"LP072a Battery Pack"
 		"Large Radar Jammer"
-		"Meteor Missile" 360
-		"Meteor Missile Box" 12
-		"Meteor Missile Launcher" 6
+		"Meteor Missile" 200
+		"Meteor Missile Box" 8
+		"Meteor Missile Launcher" 4
+		"Lumbarian Particle Turret" 2
 		"Outfits Expansion"
 		"Tactical Scanner"
 		"nGVF-CC Fuel Cell"
+		"Lumba Heavy Laser Turret"
 	engine -11.5 44.5
 		zoom 0.4
 	engine 11.5 44.5
 		zoom 0.4
-	gun -7.5 -36.5 "Meteor Missile Launcher"
-	gun 7.5 -36.5 "Meteor Missile Launcher"
+	gun -7.5 -36.5 "Lumbarian Particle Turret"
+	gun 7.5 -36.5 "Lumbarian Particle Turret"
 	gun -27 8 "Meteor Missile Launcher"
 	gun 27 8 "Meteor Missile Launcher"
 	gun -22 8 "Meteor Missile Launcher"
 	gun 22 8 "Meteor Missile Launcher"
+	turret 0 34.5 "Lumba Heavy Laser Turret"
 	leak leak 50 50
 	explode "medium explosion" 15
 	explode "small explosion" 20
