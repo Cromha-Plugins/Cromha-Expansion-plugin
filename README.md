@@ -71,7 +71,7 @@ git clone https://github.com/OcelotWalrus/Cromha-Expansion-plugin.git
 If you're not familiar with git, you just have to run that command into the installed plugin.
 
 ```
-git pull origin main
+git pull
 ```
 
 [es]: https://github.com/endless-sky/endless-sky
