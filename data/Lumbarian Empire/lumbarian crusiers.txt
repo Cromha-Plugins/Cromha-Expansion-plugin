@@ -193,42 +193,56 @@ ship "Lumbarian Fork-Class"
 		category Cruiser
 		licenses "Lumbarian Emperor"
 		cost 750000000
-		"mass" 11000
-		"outfit space" 4100
-		"engine capacity" 720
-		"weapon capacity" 2000
-		"cargo space" 800
-		"shields" 450000
-		"hull" 230000
+		"mass" 19000
+		"outfit space" 7200
+		"engine capacity" 980
+		"weapon capacity" 3500
+		"cargo space" 700
+		"shields" 1200000
+		"hull" 900000
 		"fuel capacity" 30000
-		"heat dissipation" 0.3
-		"required crew" 260
-		"drag" 30
-		"bunks" 398
+		"heat dissipation" 0.1
+		"required crew" 450
+		"drag" 35
+		"bunks" 780
 		weapon
-			"blast radius" 6000
-			"shield damage" 28000
-			"hull damage" 22000
-			"hit force" 30000
+			"blast radius" 7500
+			"shield damage" 32000
+			"hull damage" 25000
+			"hit force" 35000
 	outfits
-		"A860 Atomic Thruster" 2
-		"A865 Atomic Steering" 5
-		"Fragmentation Grenades" 60
-		"Heavy Anti-Missile Turret" 5
+		"Catalytic Ramscoop" 4
+		"Dark Storm Shielding" 2
+		"Fusion Reactor" 3
+		"Hai Diamond Regenerator" 4
+		"Hai Williwaw Cooling" 44
+		"LP576a Battery Pack"
+		"Lumba Repair Device"
+		"Lumba Repair Device (Large)"
+		"Quantum Shield Generator"
+		"Security Station" 25
+		"Triple Plasma Core" 4
+		"Scram Drive"
+		"Solar Core" 4
+		"Type 4 Radiant Steering" 11
+		"Type 4 Radiant Thruster" 5
+		"White Sun Reactor" 17
+		"Fragmentation Grenades" 85
+		"Modified Hai Rifle" 85
 		"Jump Drive"
-		"Large Heat Shunt" 15
+		"Nanotech Battery" 3
+		"Large Heat Shunt" 25
 		"Lumbarian Particle Battery" 8
 		"Lumbarian Particle Turret" 10
-		"Modified Hai Rifle" 200
-		"Nanotech Battery" 2
-		"Quantum Shield Generator" 3
-		"Scram Drive"
-		"Security Station" 15
-		"Triple Plasma Core" 3
-	engine -102 411.5
-	engine -38 475
-	engine 102 411.5
-	engine 38 475
+		"Lumba Heavy Laser Turret" 12
+	engine -221 680
+		zoom 2.5
+	engine -87 778.5
+		zoom 2.5
+	engine 221 680
+		zoom 2.5
+	engine 87 778.5
+		zoom 2.5
 	turret -45.5 282.5 "Heavy Anti-Missile Turret"
 	turret -43.5 217 "Heavy Anti-Missile Turret"
 	turret -39.5 157 "Heavy Anti-Missile Turret"
@@ -252,6 +266,31 @@ ship "Lumbarian Fork-Class"
 	turret 90.5 203.5 "Lumbarian Particle Turret"
 	turret 99.5 274 "Lumbarian Particle Turret"
 	turret 40.5 -48.5 "Lumbarian Particle Turret"
+	turret -95 343 "Lumba Heavy Laser Turret"
+	turret -12.5 254 "Lumba Heavy Laser Turret"
+	turret -7 -310.5 "Lumba Heavy Laser Turret"
+	turret -69.5 -11 "Lumba Heavy Laser Turret"
+	turret -127 265 "Lumba Heavy Laser Turret"
+	turret -156 397 "Lumba Heavy Laser Turret"
+	turret 95 343 "Lumba Heavy Laser Turret"
+	turret 12.5 254 "Lumba Heavy Laser Turret"
+	turret 7 -310.5 "Lumba Heavy Laser Turret"
+	turret 69.5 -11 "Lumba Heavy Laser Turret"
+	turret 127 265 "Lumba Heavy Laser Turret"
+	turret 156 397 "Lumba Heavy Laser Turret"
+	bay Gunboat -48 282.5
+	bay Gunboat -45.5 230.5
+	bay Gunboat -43 171
+	bay Gunboat -40 109
+	bay Gunboat -37 60.5
+	bay Gunboat -99.5 344
+	bay Gunboat -138 337.5
+	bay Gunboat -110.5 220
+	bay Gunboat -81 80.5
+	bay Gunboat -54.5 -53.5
+	bay Gunboat -30.5 -194.5
+	bay Gunboat 48 282.5
+	bay Gunboat 45.5 230.5
 	bay Gunboat -48 282.5
 	bay Gunboat -45.5 230.5
 	bay Gunboat -43 171
@@ -274,5 +313,14 @@ ship "Lumbarian Fork-Class"
 	bay Gunboat 81 80.5
 	bay Gunboat 54.5 -53.5
 	bay Gunboat 30.5 -194.5
-	description "The Pike-Class is the successor to the Trident-Class."
+	bay Gunboat 43 171
+	bay Gunboat 40 109
+	bay Gunboat 37 60.5
+	bay Gunboat 99.5 344
+	bay Gunboat 138 337.5
+	bay Gunboat 110.5 220
+	bay Gunboat 81 80.5
+	bay Gunboat 54.5 -53.5
+	bay Gunboat 30.5 -194.5
+	description "The Fork-Class is the successor to the Pike-Class."
 

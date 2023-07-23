@@ -156,8 +156,8 @@ ship "Lance (Lumbarian)"
 
 ship "Rainmaker (Lumbarian)"
 	plural Rainmakers
-	sprite ship/lumbarian rainmaker
-	thumbnail thumbnail/lumbarian rainmaker
+	sprite "ship/lumbarian rainmaker"
+	thumbnail "thumbnail/lumbarian rainmaker"
 	attributes
 		category Gunboat
 		licenses Lumbarian
