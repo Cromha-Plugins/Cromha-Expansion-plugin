@@ -723,8 +723,8 @@ ship "Lumbarian Doom-Class"
 
 ship "Lumbarian Sting-Class"
 	plural Sting-Classes
-	sprite ship/string-class
-	thumbnail thumbnail/string-class
+	sprite ship/sting-class
+	thumbnail thumbnail/sting-class
 	attributes
 		category Gunboat
 		licenses Lumbarian
