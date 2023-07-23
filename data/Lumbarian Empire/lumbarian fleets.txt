@@ -41,7 +41,7 @@ fleet "Large L Navy"
 		"Combat Drone (Lumbarian)" 4
 		"Frigate (Lumbarian)" 2
 		"Rainmaker (Lumbarian)" 2
-		"Lumbarian String-Class" 2
+		"Lumbarian Sting-Class" 2
 	variant
 		"Cruiser (Lumbarian)"
 		"Combat Drone (Lumbarian)" 4
@@ -53,13 +53,13 @@ fleet "Large L Navy"
 	variant .5
 		"Frigate (Lumbarian)"
 		"Rainmaker (Lumbarian)" 2
-		"Lumbarian String-Class"
+		"Lumbarian Sting-Class"
 	variant
 		"Shield Beetle (Lumbarian)"
 		"Gunboat (Lumbarian)" 2
 	variant
 		"Shield Beetle (Lumbarian)"
-		"Lumbarian String-Class" 2
+		"Lumbarian Sting-Class" 2
 	variant
 		"Shield Beetle (Lumbarian)"
 		"Cruiser (Lumbarian)"
