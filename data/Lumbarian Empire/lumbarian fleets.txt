@@ -4,10 +4,14 @@ fleet "Large L Navy"
 	fighters "republic fighter"
 	personality
 		disables heroic mining harvests opportunistic
-	variant 5
+	variant 2.5
 		"Frigate (Lumbarian)" 2
 		"Rainmaker (Lumbarian)"
 		"Gunboat (Lumbarian)"
+	variant 2.5
+		"Frigate (Lumbarian)" 2
+		"Rainmaker (Lumbarian)"
+		"Lumbarian Sting-Class"
 	variant 3
 		"Cruiser (Lumbarian)"
 		"Combat Drone (Lumbarian)" 4
@@ -20,7 +24,7 @@ fleet "Large L Navy"
 		"Carrier (Lumbarian)"
 		"Lance (Lumbarian)" 4
 		"Combat Drone (Lumbarian)" 6
-	variant
+	variant .5
 		"Carrier (Lumbarian)"
 		"Lance (Lumbarian)" 4
 		"Combat Drone (Lumbarian)" 6
@@ -29,17 +33,33 @@ fleet "Large L Navy"
 		"Frigate (Lumbarian)" 2
 		"Rainmaker (Lumbarian)" 2
 		"Gunboat (Lumbarian)" 2
+	variant .5
+		"Carrier (Lumbarian)"
+		"Lance (Lumbarian)" 4
+		"Combat Drone (Lumbarian)" 6
+		"Cruiser (Lumbarian)"
+		"Combat Drone (Lumbarian)" 4
+		"Frigate (Lumbarian)" 2
+		"Rainmaker (Lumbarian)" 2
+		"Lumbarian String-Class" 2
 	variant
 		"Cruiser (Lumbarian)"
 		"Combat Drone (Lumbarian)" 4
 		"Frigate (Lumbarian)" 2
-	variant
+	variant .5
 		"Frigate (Lumbarian)"
 		"Rainmaker (Lumbarian)" 2
 		"Gunboat (Lumbarian)"
-	variant 2
+	variant .5
+		"Frigate (Lumbarian)"
+		"Rainmaker (Lumbarian)" 2
+		"Lumbarian String-Class"
+	variant
 		"Shield Beetle (Lumbarian)"
 		"Gunboat (Lumbarian)" 2
+	variant
+		"Shield Beetle (Lumbarian)"
+		"Lumbarian String-Class" 2
 	variant
 		"Shield Beetle (Lumbarian)"
 		"Cruiser (Lumbarian)"
@@ -71,19 +91,30 @@ fleet "Small L Navy"
 		"Lumbarian Cutlas-Class"
 	variant 10
 		"Frigate (Lumbarian)"
-	variant 20
+	variant 10
 		"Gunboat (Lumbarian)" 3
-	variant 20
+	variant 10
+		"Lumbarian Sting-Class" 3
+	variant 10
 		"Gunboat (Lumbarian)" 2
 		"Rainmaker (Lumbarian)"
-	variant 20
+	variant 10
+		"Lumbarian Sting-Class" 2
+		"Rainmaker (Lumbarin)"
+	variant 10
 		"Gunboat (Lumbarian)"
+		"Rainmaker (Lumbarian)" 2
+	variant 10
+		"Lumbarian Sting-Class"
 		"Rainmaker (Lumbarian)" 2
 	variant 20
 		"Rainmaker (Lumbarian)" 3
-	variant 10
+	variant 5
 		"Frigate (Lumbarian)"
 		"Gunboat (Lumbarian" 2
+	variant 5
+		"Frigate (Lumbarian)"
+		"Lumbarian Sting-Class" 2
 	variant 10
 		"Frigate (Lumbarian)"
 		"Rainmaker (Lumbarian" 2
@@ -94,15 +125,20 @@ fleet "Lumbarian Cruiser"
 	fighters "republic fighter"
 	personality
 		disables heroic mining harvests opportunistic
-	variant 10
+	variant 5
 		"Lumbarian Trident-Class"
 		"Gunboat (Lumbarian)" 16
-	variant 10
+	variant 5
 		"Lumbarian Pike-Class"
-		"Gunboat (Lumbarian)" 22
+		"Lumbarian Sting-Class" 22
+	variant 5
+		"Lumbarian Trident-Class"
+		"Gunboat (Lumbarian)" 16
+	variant 5
+		"Lumbarian Pike-Class"
+		"Lumbarian Sting-Class" 22
 
 event "Lumbarian Upgrade One"
-	date 8 1 2025
 	fleet "Large L Navy"
 		add variant 30
 			"Lumbarian Doom-Class"
