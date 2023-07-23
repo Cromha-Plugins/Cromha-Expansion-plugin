@@ -91,6 +91,12 @@ ship "Lumbarian Trident-Class"
 	bay Gunboat 77 13
 	bay Gunboat 65.5 -81
 	bay Gunboat 53 -164.5
+	explode "huge explosion" 10
+	explode "large explosion" 40
+	explode "medium explosion" 50
+	explode "small explosion" 45
+	explode "tiny explosion" 20
+	"final explode" "final explosion large"
 	description "When Imperial Fire Industries unveiled their new creation, everyone was in awe. It was a massive cruiser with an extreme amount of space, built for power. It was the Trident-Class."
 	description "	Along with its size came great requirements. They were fixed with alien outfits."
 
@@ -183,6 +189,12 @@ ship "Lumbarian Pike-Class"
 	bay Gunboat 81 80.5
 	bay Gunboat 54.5 -53.5
 	bay Gunboat 30.5 -194.5
+	explode "huge explosion" 10
+	explode "large explosion" 40
+	explode "medium explosion" 50
+	explode "small explosion" 45
+	explode "tiny explosion" 20
+	"final explode" "final explosion large"
 	description "The Pike-Class is the successor to the Trident-Class."
 	
 ship "Lumbarian Fork-Class"
@@ -322,5 +334,11 @@ ship "Lumbarian Fork-Class"
 	bay Gunboat 81 80.5
 	bay Gunboat 54.5 -53.5
 	bay Gunboat 30.5 -194.5
+	explode "huge explosion" 10
+	explode "large explosion" 40
+	explode "medium explosion" 50
+	explode "small explosion" 45
+	explode "tiny explosion" 20
+	"final explode" "final explosion large"
 	description "The Fork-Class is the successor to the Pike-Class."
 
