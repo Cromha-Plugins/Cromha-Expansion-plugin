@@ -24,7 +24,7 @@ Learn more [about Endless Sky][esweb].
 
 # About Plugin:
 
-Adds a new civilization to the Korath Space (now named the 'Empire Space'): The Cromha Empire. Also known as 'The Empire', it is a government that dirige a huge part of the north of the Milky Way. It also a very high advanced government, that has kind of remixed outfits and ships from other vanilla governments. They are human but don't directly have contact with human Merchants, they have contact with the Syndicate, the Republic but they don't allow them to enter their territory. Know more about the plugin in the [wiki](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki)! (or test the game yourself) Also, there is another empire that is set up next to the Paradise Planets. It is called the Lumbarian Empire.
+Adds a new civilization to the Korath Space (now named the '[Empire Space](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki/Regions-of-the-galaxy#the-empire-space)': [The Cromha Empire](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki/Cromha-Empire). Also known as 'The Empire', it is a government that dirige a huge part of the north of the Milky Way. It also a very high advanced government. They are human but don't directly have contact with human Merchants, they have contact with the Syndicate, the Republic but they don't allow them to enter their territory. Know more about the plugin in the [wiki](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki)! (or test the game yourself) Also, there is another empire that is set up next to the Paradise Planets. It is called the Lumbarian Empire.
 ## This plugin:
 
 * Adds governments that are related to the vanilla storyline (kind of).
@@ -32,13 +32,13 @@ Adds a new civilization to the Korath Space (now named the 'Empire Space'): The 
 * The storyline that the plugin adds is made so it is the most similar possible to the vanilla one.
 * Add new outfits and ships from different governments.
 * Expands upon the existing map for exploration (New Systems in the north of the galaxy and near the Deep Space).
-* Adds a new galaxy but it is still in work.
+* Adds a new galaxy where there is Sheragis but it is still in work.
 
 # Contributing
 
 All Contributions are welcome!
-To contribute to the plugin, you can create issues to describe an error from spelling errors to mission bug or anything else.
-You can also create an issue to request specific feature.
+To contribute to the plugin, you can create [issues](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/issues) to describe an error from spelling errors to mission bug or anything else.
+You can also create an [issue](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/issues) or a [pull request](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/pulls) to request specific feature.
 
 If you wanna know more about contributing, check the [wiki page](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki/Contributor-Guide).
 
