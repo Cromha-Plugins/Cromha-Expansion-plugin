@@ -16,6 +16,7 @@ government "Quarg"
 		"Empire Merchant" 2
             "Cromha Empire" 5
 		"Mineria colonnies" 5
+		"Lumbarian Empire" -1
 	"use foreign penalties for"
 		"Gegno"
 	"death sentence" "quarg imprisonment"

@@ -8059,3 +8059,644 @@ planet Rem'ka
 	outfitter Remnant
 	outfitter "Remnant Core"
 
+system Alderamin
+	pos -285.334 271.482
+	government "Lumbarian Empire"
+	add link Matar
+	object
+		sprite star/g0
+		distance 47.369
+		period 14.23
+	object
+		sprite star/g5
+		distance 81.854
+		period 14.23
+		offset 180
+	object
+		sprite planet/desert7
+		distance 258.593
+		period 40.283
+	object
+		sprite planet/venus
+		distance 502.283
+		period 109.048
+	object
+		sprite planet/cloud0
+		distance 1072.52
+		period 340.256
+		object Furnace
+			sprite planet/dust4
+			distance 154
+			period 21.807
+	object
+		sprite planet/miranda
+		distance 1670.52
+		period 661.416
+	object
+		sprite planet/gas0-b
+		distance 2301.76
+		period 1069.76
+
+system Alnair
+	pos -285.334 327.482
+	government "Lumbarian Empire"
+	add fleet "Small L Navy" 950
+	add fleet "Large L Navy" 1200
+	object
+		sprite star/m8
+		period 10
+	object Hippocrates
+		sprite planet/cloud4
+		distance 160.25
+		period 69.838
+	object
+		sprite planet/lava7-b
+		distance 614.29
+		period 524.147
+	object
+		sprite planet/gas17-b
+		distance 1355.45
+		period 1717.98
+		object
+			sprite planet/oberon
+			distance 214
+			period 12.63
+		object
+			sprite planet/rock17-b
+			distance 314
+			period 22.448
+		object
+			sprite planet/mercury
+			distance 417
+			period 34.354
+	object
+		sprite planet/gas5-b
+		distance 2418.94
+		period 4095.72
+		object
+			sprite planet/europa
+			distance 274
+			period 13.6
+
+system "Delta Capricorni"
+	pos -288.556 207.778
+	object
+		sprite star/g5
+		distance 24.193
+		period 11.668
+	object
+		sprite star/m3
+		distance 65.743
+		period 11.668
+		offset 180
+	object
+		sprite planet/io
+		distance 273.406
+		period 61.843
+	object Maker
+		sprite planet/rock4
+		distance 498.016
+		period 152.034
+	object
+		sprite planet/tethys
+		distance 898.776
+		period 368.598
+	object
+		sprite planet/cloud4-b
+		distance 1338.19
+		period 669.658
+	object
+		sprite planet/rock0-b
+		distance 3430.88
+		period 2749.06
+
+system Persian
+	pos -212.778 338.704
+	government "Lumbarian Empire"
+	add fleet "Small L Navy" 800
+	add fleet "Large L Navy" 1200
+	object
+		sprite star/f5-old
+		distance 14.383
+		period 7.885
+	object
+		sprite star/k0
+		distance 100.678
+		period 7.885
+		offset 180
+	object
+		sprite planet/rock13
+		distance 419.028
+		period 54.8
+		object
+			sprite planet/lava0
+			distance 134
+			period 17.7
+	object
+		sprite planet/gas11-b
+		distance 981.718
+		period 196.515
+		object
+			sprite planet/ice7
+			distance 252
+			period 12.472
+	object
+		sprite planet/dust2
+		distance 1698.08
+		period 447.048
+	object
+		sprite planet/dust1-b
+		distance 2414.12
+		period 757.801
+
+planet Hippocrates
+	shipyard "Lumbarian Basic"
+	shipyard "Southbound Basics"
+	outfitter "Lumbarian Stuff"
+	outfitter "Pirate Outfits"
+
+system Matar
+	pos -227.778 279.704
+	government "Lumbarian Empire"
+	add link Alderamin
+	object
+		sprite star/k3
+		period 10
+	object
+		sprite planet/rock4
+		distance 183.39
+		period 46.829
+	object Antipode
+		sprite planet/ocean5
+		distance 606.63
+		period 281.734
+		object
+			sprite planet/rock14
+			distance 131
+			period 17.109
+	object
+		sprite planet/tethys-b
+		distance 1400.52
+		period 988.297
+	object
+		sprite planet/gas14-b
+		distance 2811.52
+		period 2811.03
+		object
+			sprite planet/ice0
+			distance 224
+			period 12.915
+		object
+			sprite planet/luna
+			distance 332
+			period 23.304
+
+planet Antipode
+
+planet Furnace
+	outfitter "Lumbarian Stuff"
+
+system Graffias
+	government "Empire Rebels"
+	object
+		sprite star/k0
+		distance 60.367
+		period 16.951
+		offset 180
+	object
+		sprite star/k0
+		distance 60.367
+		period 16.951
+	object
+		sprite planet/desert3-b
+		distance 308
+		period 69.067
+	object Poisonwood
+		sprite planet/cloud8
+		distance 679.25
+		period 226.199
+	object
+		sprite planet/gas8
+		distance 1489.5
+		period 734.526
+		object
+			sprite planet/rock3-b
+			distance 192
+			period 13.113
+		object
+			sprite planet/ganymede-b
+			distance 345
+			period 31.586
+		object
+			sprite planet/ice0-b
+			distance 516
+			period 57.775
+
+planet Poisonwood
+	shipyard "Advanced Southern Pirates"
+	outfitter Rebels-advanced-ammo-outfitter
+	outfitter Rebels-advanced-power-outfitter
+	outfitter Rebels-basic-engines-outfitter
+	outfitter Rebels-basic-outfitter
+	outfitter Rebels-basic-systems-outfitter
+
+system Zubenelhakrabi
+	pos -747 374.333
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/lava4
+		distance 147
+		period 32.206
+	object "Valley of the Damned"
+		sprite planet/earth
+		distance 502.704
+		period 203.671
+	object
+		sprite planet/gas8
+		distance 1345.85
+		period 892.189
+		object
+			sprite planet/luna
+			distance 288.272
+			period 26.054
+		object
+			sprite planet/ice8
+			distance 373.272
+			period 38.39
+	object
+		sprite planet/rock17
+		distance 2322.59
+		period 2022.65
+		object
+			sprite planet/oberon
+			distance 83
+			period 41.671
+	object
+		sprite planet/gas6
+		distance 3672.78
+		period 4022.11
+		object
+			sprite planet/lava0
+			distance 281.814
+			period 12.084
+		object
+			sprite planet/dust5
+			distance 464.272
+			period 25.552
+		object
+			sprite planet/ice7
+			distance 568.272
+			period 34.602
+		object
+			sprite planet/callisto
+			distance 672.272
+			period 44.523
+
+system "Gamma Grova"
+	pos -982.889 163.963
+	government "Cromha Empire"
+	attributes "cromha rim" womrhole
+	habitable 11850
+	belt 1537 2
+	link "Alpha Kas"
+	asteroids "medium rock" 120 1.595
+	asteroids "large rock" 2 1.978
+	asteroids "small metal" 9 2.265
+	asteroids "medium metal" 2 3.03
+	asteroids "large metal" 11 1.754
+	minables iron 5 2.071
+	minables titanium 17 2.794
+	minables copper 24 1.733
+	fleet cromha-fleet 1100
+	fleet mineria-transports 1100
+	fleet cromha-miners 850
+	fleet cromha-merchants 950
+	fleet Quarg 1000
+	object
+		sprite star/a-supergiant
+		distance 375
+		period 363.092
+		offset 180
+	object
+		sprite planet/browndwarf-y-rougeorange
+		distance 375
+		period 363.092
+	object
+		sprite planet/rock13
+		distance 807
+		period 84.239
+	object
+		sprite planet/gas17
+		distance 1603
+		period 235.831
+		object
+			sprite planet/rhea
+			distance 247
+			period 120.732
+		object
+			sprite planet/dust5-b
+			distance 399
+			period 208.582
+	object
+		sprite planet/gas14
+		distance 2685
+		period 511.231
+		object
+			sprite planet/europa-b
+			distance 234
+			period 169.331
+		object
+			sprite planet/oberon-b
+			distance 377
+			period 450.823
+	object
+		sprite planet/gas15
+		distance 3764
+		period 848.546
+		object
+			sprite planet/fg_moon25
+			distance 202
+			period 108.524
+	object
+		sprite planet/gas11-b
+		distance 5220
+		period 1385.819
+		object
+			sprite planet/tethys-b
+			distance 260
+			period 258.199
+	object
+		sprite planet/gas0-hot
+		distance 5816
+		period 1629.812
+	object "Rim Jump Tunnel"
+		sprite "planet/jump tunnel"
+		distance 10485.017
+		period 200
+
+system Minkar
+	add attributes wormhole
+	object
+		sprite star/k0-old
+		distance 30.363
+		period 15.198
+	object
+		sprite star/m0
+		distance 92.985
+		period 15.198
+		offset 180
+	object
+		sprite planet/rock16
+		distance 409.064
+		period 91.786
+		object
+			sprite planet/rhea-b
+			distance 154
+			period 24.024
+	object
+		sprite planet/cloud1-b
+		distance 901.504
+		period 300.289
+		object
+			sprite planet/rock7
+			distance 182
+			period 18.633
+	object
+		sprite planet/luna-b
+		distance 1662.54
+		period 752.049
+	object
+		sprite planet/desert4
+		distance 2872.75
+		period 1708.18
+	object "Rim Jump Tunnel"
+		sprite "planet/jump tunnel"
+		distance 7275.485
+		period 200
+
+planet "Rim Jump Tunnel"
+	attributes "requires: quantum keystone"
+	description ""
+	spaceport ""
+
+wormhole "Rim Jump Tunnel"
+	mappable
+	link Minkar "Gamma Grova"
+	link "Gamma Grova" Minkar
+	"display name" "Rim Jump Tunnel"
+	color .415 .553 1
+
+system "Alpha Kas"
+	pos -1005.889 207.63
+	government "Cromha Empire"
+	attributes "cromha rim" mining oil
+	habitable 550
+	belt 1048 7
+	link Elneif
+	link "Gamma Grova"
+	asteroids "small rock" 3 3.599
+	asteroids "medium rock" 14 2.465
+	asteroids "large rock" 53 3.5
+	asteroids "small metal" 1 3.007
+	asteroids "medium metal" 12 3.106
+	asteroids "large metal" 2 3.352
+	minables lead 1 5.406
+	trade Clothing 390
+	trade Electronics 725
+	trade Equipment 585
+	trade Food 486
+	trade "Heavy Metals" 969
+	trade Industrial 889
+	trade "Luxury Goods" 1007
+	trade Medical 902
+	trade Metal 333
+	trade Plastic 249
+	fleet cromha-fleet 1200
+	fleet mineria-transports 750
+	fleet cromha-merchants 750
+	fleet cromha-miners 950
+	fleet Quarg 1000
+	object
+		sprite star/g8
+		distance 117.542
+		period 41.063
+	object
+		sprite star/xg5-old
+		distance 33.958
+		period 41.063
+		offset 180
+	object "Alpha Cras"
+		sprite planet/ice4-b
+		distance 355
+		period 114.083
+	object
+		sprite planet/fg_gas9
+		distance 1046
+		period 577
+		object
+			sprite planet/dust5
+			distance 265
+			period 112.898
+		object
+			sprite planet/rock0-b
+			distance 378
+			period 277.804
+	object Casta
+		sprite planet/fg_icegiant0
+		distance 2144.073
+		period 1671.951
+		object
+			sprite planet/fg_moon28
+			distance 218
+			period 198.234
+		object
+			sprite planet/lava0
+			distance 372
+			period 187.773
+	object
+		sprite planet/browndwarf-y
+		distance 3686
+		period 3816.908
+		object
+			sprite planet/fg_moon11
+			distance 282
+			period 291.654
+	object
+		sprite planet/fg_gas21
+		distance 6228
+		period 8383.04
+		object
+			sprite planet/fg_moon6
+			distance 258
+			period 255.225
+
+planet Casta
+	attributes "cromha rim" farming iol mining
+	landscape land/forest5
+	description "Casta is a very cold planet, easily above 10°F. Even with that conditions, a Mineria colony happened the set up here. A lot of iol has been found in this planet."
+	spaceport TODO
+	government "Mineria colonnies"
+	outfitter Base-outfitter
+	outfitter Basic-ammo-outfitter
+	outfitter Basic-power-outfitter
+	outfitter Basic-systems-outfitter
+
+planet "Alpha Cras"
+	landscape land/beach4
+	music "ambiant/rulei planet"
+	description "Alpha Cras is a very windy planet but also a very peaceful planet. It is a perfect military basement for The Empire."
+	spaceport TODO
+	government "Cromha Empire"
+
+system Elneif
+	pos -1039.555 169.519
+	government Quarg
+	attributes "cromha rim" military quarg ringworld
+	habitable 3650
+	belt 1623 2
+	link "Alpha Kas"
+	asteroids "small rock" 4 3.003
+	minables lead 3 3.689
+	trade Clothing 361
+	trade Electronics 723
+	trade Equipment 615
+	trade Food 542
+	trade "Heavy Metals" 936
+	trade Industrial 859
+	trade "Luxury Goods" 1048
+	trade Medical 874
+	trade Metal 295
+	trade Plastic 248
+	fleet cromha-fleet 850
+	fleet Quarg 650
+	fleet mineria-transports 1200
+	fleet cromha-merchants 950
+	fleet cromha-miners 1200
+	object
+		sprite star/f-giant
+		period 10
+	object
+		sprite planet/lava3
+		distance 812
+		period 349.82
+	object Krasta
+		sprite planet/station0
+			scale 0.5
+		distance 812
+		period 349.82
+		offset 180
+	object Quar'Coal
+		sprite "planet/ringworld left"
+			scale 0.5
+		distance 812
+		period 349.82
+		offset -30
+	object Quar'Coal
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.82
+		offset -50
+	object Quar'Coal
+		sprite "planet/ringworld right"
+			scale 0.5
+		distance 812
+		period 349.82
+		offset -70
+	object Quar'Coal
+		sprite "planet/ringworld left"
+			scale 0.5
+		distance 812
+		period 349.82
+		offset -90
+	object Quar'Coal
+		sprite "planet/ringworld right"
+			scale 0.5
+		distance 812
+		period 349.82
+		offset -110
+	object Quar'Coal
+		sprite "planet/ringworld right"
+			scale 0.5
+		distance 812
+		period 349.82
+		offset 40
+	object Quar'Coal
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.82
+		offset 60
+	object Quar'Coal
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.82
+		offset 80
+	object Quar'Coal
+		sprite "planet/ringworld left"
+			scale 0.5
+		distance 812
+		period 349.82
+		offset 100
+
+planet Krasta
+	attributes "cromha rim" military station
+	landscape land/station6
+	music ambiant/machinery
+	description "Krasta is a small Empire station."
+	spaceport TODO
+	government "Cromha Empire"
+	outfitter Base-outfitter
+	outfitter Basic-ammo-outfitter
+
+planet Quar'Coal
+	attributes "cromha rim" military station
+	landscape land/station9
+	music ambiant/machinery
+	description "Quar'Coal is the Quarg Ringworld in the Empire Rim."
+	spaceport TODO
+	government Quarg
+

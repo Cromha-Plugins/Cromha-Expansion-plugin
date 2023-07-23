@@ -10,7 +10,7 @@ mission "Empire: First Contact"
 	on offer
 		"reputation: Cromha Empire" += 10
 		conversation
-			`As you entering the spaceport, you see a lot of alien species you never seen before: some seems to be Hai others Remnants and even weird looking sort of Spider.`
+			`Your blast doors open, and you suddenly hear sounds of people talking, engines, bars and others... In the spaceport you can see huge and beautiful ships you've never seen before, some people seems to be human/cyborgs, and other aliens. You decide to enter the outfitter and you can find mysterious systems and devices that seems to be extremely advanced in technology. The only thing you know about these outfits is that you can't afford most of them.`
 			`   A guy with a blaster and an Empire Badge walks up to you`
 			`   "Hey. We scanned your ship before you land. We see that you have no Empire Passport installed on your ship. To travel in the Empire Space you'll need one."`
 			choice

@@ -238,6 +238,7 @@ government "Lumbarian Empire"
 		"Cromha Empire" -1
 		"Mineria colonnies" -1
 		"Empire Merchant" -1
+		"Quarg" -1
 	bribe 30
 	"friendly hail" "friendly navy"
 	"hostile hail" "hostile navy"
