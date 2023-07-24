@@ -186,14 +186,13 @@ ship "Rainmaker (Lumbarian)"
 		Hyperdrive
 		"LP072a Battery Pack"
 		"Large Radar Jammer"
-		"Meteor Missile" 200
-		"Meteor Missile Box" 8
-		"Meteor Missile Launcher" 4
-		"Lumbarian Particle Turret" 2
+		"Lumba Heavy Laser Turret"
+		"Lumba Piercer" 221
+		"Lumba Piercer Array" 8
+		"Lumba Piercer Pod" 3
 		"Outfits Expansion"
 		"Tactical Scanner"
 		"nGVF-CC Fuel Cell"
-		"Lumba Heavy Laser Turret"
 	engine -11.5 44.5
 		zoom 0.4
 	engine 11.5 44.5
@@ -517,6 +516,9 @@ ship "Auxiliary (Lumbarian)"
 		"Heavy Anti-Missile Turret" 2
 		"LP288a Battery Pack"
 		"Large Radar Jammer"
+		"Lumba Piercer" 94
+		"Lumba Piercer Array" 2
+		"Lumba Piercer Pod" 2
 		"Lumbarian Particle Turret" 2
 		Ramscoop
 		"Scram Drive"

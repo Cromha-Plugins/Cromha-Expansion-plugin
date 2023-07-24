@@ -143,4 +143,7 @@ outfitter "Lumbarian Stuff"
 	"Scram Drive"
 	"Small Radar Jammer"
 	"Large Radar Jammer"
+	"Lumba Piercer Pod"
+	"Lumba Piercer Array"
+	"Lumba Piercer"
 

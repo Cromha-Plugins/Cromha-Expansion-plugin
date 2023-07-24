@@ -32,7 +32,7 @@ ship "Lumbarian Drak-Class"
 		"ion resistance" 1
 		"ion protection" 1.1
 		"drag" 27
-		"bunks" 2
+		"bunks" 16
 		"scramble protection" 1.1
 		"scramble resistance" 1
 		weapon
@@ -46,6 +46,9 @@ ship "Lumbarian Drak-Class"
 		"Drak Antimatter Cannon Lumbarian"
 		Hyperdrive
 		"Jump Drive"
+		"Lumba Piercer" 287
+		"Lumba Piercer Array" 16
+		"Lumba Piercer Pod"
 		"Lumba Repair Device"
 		"Lumbarian Particle Battery" 2
 		"Lumbarian Particle Turret" 10
