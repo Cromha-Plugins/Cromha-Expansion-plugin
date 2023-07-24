@@ -8496,6 +8496,7 @@ system "Alpha Kas"
 	belt 1048 7
 	link Elneif
 	link "Gamma Grova"
+	link Kramga
 	asteroids "small rock" 3 3.599
 	asteroids "medium rock" 14 2.465
 	asteroids "large rock" 53 3.5
@@ -8699,4 +8700,82 @@ planet Quar'Coal
 	description "Quar'Coal is the Quarg Ringworld in the Empire Rim."
 	spaceport TODO
 	government Quarg
+
+system Kramga
+	pos -1014.666 203.89
+	government "Cromha Empire"
+	attributes "cromha rim" mining oil
+	habitable 950
+	belt 1141 5
+	belt 1870 9
+	link "Alpha Kas"
+	asteroids "large metal" 1 4.704
+	trade Clothing 374
+	trade Electronics 731
+	trade Equipment 596
+	trade Food 512
+	trade "Heavy Metals" 1025
+	trade Industrial 917
+	trade "Luxury Goods" 1065
+	trade Medical 885
+	trade Metal 353
+	trade Plastic 283
+	fleet cromha-fleet 1000
+	fleet mineria-transports 650
+	fleet cromha-merchants 450
+	fleet cromha-miners 650
+	fleet Quarg 1000
+	object
+		sprite star/k5-old
+		distance 201.5
+		period 143.015
+	object
+		sprite "planet/browndwarf-l-rouge cyan"
+		distance 201.5
+		period 143.015
+		offset 180
+	object Cro'dast
+		sprite planet/forest1
+		distance 670.914
+		period 209.136
+		object Faltap
+			sprite "planet/empire station2kd big"
+			distance 2009.389
+			period 75
+	object
+		sprite "planet/zenith cold"
+		distance 1019
+		period 422.143
+	object
+		sprite planet/gas1-b
+		distance 1970
+		period 1134.743
+	object
+		sprite planet/fg_icegiant7
+		distance 2811
+		period 1934.147
+
+planet Cro'dast
+	attributes "cromha rim" farming urban
+	landscape land/city5
+	description "Cro'dast is an important planet in The Rim space that is controlled by the Cromha Empire because it's one of the few planet that you can buy advanced cromha technologies."
+	spaceport TODO
+	shipyard Base-shipyard
+	shipyard Basic-freighters-shipyard
+	shipyard Basic-interceptors-shipyard
+	shipyard Basic-lifdot-industries-shipyard
+	shipyard Basic-warships-shipyard
+	outfitter Advanced-ammo-outfitter
+	outfitter Advanced-engines-outfitter
+	outfitter Advanced-power-outfitter
+	outfitter Advanced-systems-outfitter
+	outfitter Advanced-weapon-outfitter
+	outfitter Base-outfitter
+
+planet Faltap
+	attributes "cromha rim" station
+	landscape "land/station huge 2"
+	description "It is principally a communication station to contact the Empire Space."
+	spaceport TODO
+	government "Cromha Empire"
 
