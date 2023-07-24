@@ -6,6 +6,7 @@ ship "Lumbarian Drak-Class"
 	"never disabled"
 	attributes
 		category Prototype
+		licenses "Lumbarian King"
 		cost 1000000000
 		"mass" 1000
 		"outfit space" 1300
@@ -114,8 +115,8 @@ outfit "Drak Antimatter Fragment Lumbarian"
 		sprite "projectile/drak bolt"
 			"frame rate" 9.835
 			"random start frame"
-		"live effect" "antimatter dust" 249
-		"live effect" "antimatter spark" 249
+		"live effect" "antimatter dust" 2
+		"live effect" "antimatter spark" 2
 		"hit effect" "antimatter dust" 10
 		"hit effect" "nuke explosion"
 		"safe"
