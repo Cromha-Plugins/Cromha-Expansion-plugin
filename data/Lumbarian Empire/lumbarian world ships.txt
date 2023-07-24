@@ -24,11 +24,13 @@ ship "Lumbarian Ecthelion-Class"
 			"hull damage" 10000
 			"hit force" 5100
 	outfits
-		""
 		"A860 Atomic Thruster" 2
 		"A865 Atomic Steering" 5
 		"Fragmentation Grenades" 60
 		"Heavy Anti-Missile Turret" 3
+		"Ion Missile" 1000
+		"Ion Missile Clip"
+		"Ion Missile Pod" 2
 		"Jump Drive"
 		"Large Heat Shunt" 21
 		"Lumba Repair Device (Large)" 2
@@ -37,13 +39,12 @@ ship "Lumbarian Ecthelion-Class"
 		"Nanotech Battery" 2
 		"Outfits Expansion" 4
 		"Particle Barrage Gun"
-		"Particle Cannon" 10
+		"Particle Cannon" 8
 		"Quantum Shield Generator" 3
 		"Security Station" 20
 		"Solar Core" 2
 		"Tactical Scanner"
 		"Triple Plasma Core" 3
-	engine 52 502
 		zoom 1.7
 	engine 108.5 482.5
 		zoom 1.7

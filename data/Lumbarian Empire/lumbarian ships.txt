@@ -97,14 +97,18 @@ ship "Dropship (Lumbarian)"
 		"A120 Atomic Thruster"
 		"A125 Atomic Steering"
 		"D23-QP Shield Generator"
+		"Ion Missile" 1200
+		"Ion Missile Clip" 2
+		"Ion Missile Pod" 2
 		"LP036a Battery Pack"
-		"Particle Cannon" 2
 		"Small Radar Jammer"
 		"nGVF-CC Fuel Cell"
 	engine 13 26
 	engine -13 26
-	gun 2 -27 "Particle Cannon"
-	gun -2 -27 "Particle Cannon"
+	gun 2 -27 "Ion Missile Pod"
+		under
+	gun -2 -27 "Ion Missile Pod"
+		under
 	leak leak 60 50
 	explode "small explosion" 5
 	explode "tiny explosion" 15
@@ -581,22 +585,32 @@ ship "Shield Beetle (Lumbarian)"
 		"Fusion Reactor"
 		"Hai Diamond Regenerator"
 		"Hai Williwaw Cooling" 2
+		"Ion Missile" 2400
+		"Ion Missile Clip" 8
+		"Ion Missile Pod" 2
 		"Jump Drive"
 		"LP288a Battery Pack"
 		"Lumbarian Particle Turret" 2
 		"Modified Hai Rifle" 60
 		"Outfits Expansion" 2
-		"Particle Cannon" 8
+		"Particle Cannon" 6
 		"Solar Core"
 	engine -44 133
 	engine 44 133
-	gun -22 -102 "Particle Cannon"
-	gun 22 -102 "Particle Cannon"
+	gun -22 -102 "Ion Missile Pod"
+		under
+	gun 22 -102 "Ion Missile Pod"
+		under
 	gun -34 -68 "Particle Cannon"
+		under
 	gun 34 -68 "Particle Cannon"
+		under
 	gun -49 -38 "Particle Cannon"
+		under
 	gun 49 -38 "Particle Cannon"
+		under
 	gun -61 -14 "Particle Cannon"
+		under
 	gun 61 -14 "Particle Cannon"
 	turret -39 48 "Anti-Missile Turret"
 	turret 39 48 "Anti-Missile Turret"
@@ -647,15 +661,21 @@ ship "Lumbarian Cutlas-Class"
 		"Double Plasma Core"
 		"Generator (Inferno Class)"
 		Hyperdrive
+		"Ion Missile" 2800
+		"Ion Missile Clip" 12
+		"Ion Missile Pod"
 		"Large Heat Shunt" 3
 		"Lumbarian Particle Turret" 4
-		"Particle Cannon" 3
+		"Particle Cannon" 2
 		"Systems Core (Medium)"
 	engine -24 132
 	engine 24 132
-	gun 0 -92 "Particle Cannon"
+	gun 0 -92 "Ion Missile Pod"
+		under
 	gun -10 -65 "Particle Cannon"
+		under
 	gun 10 -65 "Particle Cannon"
+		under
 	turret -36 -45 "Lumbarian Particle Turret"
 	turret 36 -45 "Lumbarian Particle Turret"
 	turret -38 -28 "Lumbarian Particle Turret"

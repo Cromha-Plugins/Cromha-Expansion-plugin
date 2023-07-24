@@ -146,4 +146,7 @@ outfitter "Lumbarian Stuff"
 	"Lumba Piercer Pod"
 	"Lumba Piercer Array"
 	"Lumba Piercer"
+	"Ion Missile Pod"
+	"Ion Missile"
+	"Ion Missile Clip"
 
