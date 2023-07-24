@@ -35,7 +35,7 @@ ship "Quarg Skylark"
 		
 		"Medium Graviton Thruster"
 		"Medium Graviton Steering"
-		"Jump Drive"
+		"Warp Drive"
 		
 	engine -15 117
 	engine 15 117
@@ -88,7 +88,7 @@ ship "Quarg Wardragon"
 		
 		"Medium Graviton Thruster"
 		"Medium Graviton Steering"
-		"Jump Drive"
+		"Warp Drive"
 		
 	engine -14 47
 	engine 14 47
@@ -143,7 +143,7 @@ ship "Quarg Drake"
 	outfits
 		"Antimatter Core"
 		"Intrusion Countermeasures" 50
-		"Jump Drive"
+		"Warp Drive"
 		"Medium Graviton Steering"
 		"Medium Graviton Thruster"
 		"Nanotech Battery"
@@ -196,7 +196,7 @@ ship "Quarg Hydra"
 	outfits
 		"Antimatter Core"
 		"Intrusion Countermeasures" 170
-		"Jump Drive"
+		"Warp Drive"
 		"Medium Graviton Steering"
 		"Medium Graviton Thruster"
 		"Nanotech Battery" 2
