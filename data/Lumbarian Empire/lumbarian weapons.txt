@@ -163,15 +163,15 @@ outfit "Lumba Piercer Pod"
 		sound "piercer"
 		ammo "Lumba Piercer"
 		icon "icon/lumba piercer"
-		"submunition" "Lumba Piercer Submunition" 5
+		"submunition" "Lumba Piercer Submunition" 6
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
 		"hit effect" "piercer explosion"
 		"die effect" "piercer explosion"
 		"random start angle" 30
 		"inaccuracy" 3
-		"velocity" 18
-		"lifetime" 200
+		"velocity" .1
+		"lifetime" .1
 		"reload" 72
 		"firing energy" 29
 		"firing heat" 144
