@@ -106,9 +106,7 @@ ship "Dropship (Lumbarian)"
 	engine 13 26
 	engine -13 26
 	gun 2 -27 "Ion Missile Pod"
-		under
 	gun -2 -27 "Ion Missile Pod"
-		under
 	leak leak 60 50
 	explode "small explosion" 5
 	explode "tiny explosion" 15
@@ -201,12 +199,12 @@ ship "Rainmaker (Lumbarian)"
 		zoom 0.4
 	engine 11.5 44.5
 		zoom 0.4
-	gun -7.5 -36.5 "Lumbarian Particle Turret"
-	gun 7.5 -36.5 "Lumbarian Particle Turret"
-	gun -27 8 "Meteor Missile Launcher"
-	gun 27 8 "Meteor Missile Launcher"
-	gun -22 8 "Meteor Missile Launcher"
-	gun 22 8 "Meteor Missile Launcher"
+	gun -7.5 -36.5 "Lumba Piercer Pod"
+	gun 7.5 -36.5 "Lumba Piercer Pod"
+	gun -27 8 "Lumba Piercer Pod"
+	gun 27 8
+	gun -22 8
+	gun 22 8
 	turret 0 34.5 "Lumba Heavy Laser Turret"
 	leak leak 50 50
 	explode "medium explosion" 15
@@ -361,16 +359,16 @@ ship "Cruiser (Lumbarian)"
 		"Fragmentation Grenades" 20
 		"Fusion Reactor"
 		"Heavy Anti-Missile Turret" 2
-		"Jump Drive"
 		"LP576a Battery Pack"
+		"Large Heat Shunt" 3
 		"Large Radar Jammer"
-		"Liquid Helium Cooler"
 		"Lumbarian Particle Turret" 2
 		"Modified Hai Rifle" 20
 		"Outfits Expansion"
 		"Particle Cannon" 6
 		"Security Station"
 		"Solar Core"
+		"Sun Drive"
 		"Water Coolant System"
 	engine -28 154
 		zoom 0.95
@@ -439,15 +437,15 @@ ship "Carrier (Lumbarian)"
 		"Fragmentation Grenades" 40
 		"Fusion Reactor"
 		"Heavy Anti-Missile Turret" 2
-		"Jump Drive"
 		"LP288a Battery Pack"
-		"Liquid Helium Cooler"
+		"Large Heat Shunt" 4
 		"Lumbarian Particle Turret" 2
 		"Modified Hai Rifle" 40
 		"Outfits Expansion" 5
 		"Particle Cannon" 8
 		"Security Station"
 		"Solar Core"
+		"Sun Drive"
 		"Water Coolant System"
 	engine -36.5 200
 		zoom 0.65
@@ -524,15 +522,15 @@ ship "Auxiliary (Lumbarian)"
 		"Lumba Piercer Array" 2
 		"Lumba Piercer Pod" 2
 		"Lumbarian Particle Turret" 2
-		Ramscoop
 		"Scram Drive"
+		"Solar Core"
 		"Water Coolant System"
 	engine -41 180.5
 		zoom 0.45
 	engine 41 180.5
 		zoom 0.45
-	gun -12.5 -182
-	gun 12.5 -182
+	gun -12.5 -182 "Lumba Piercer Pod"
+	gun 12.5 -182 "Lumba Piercer Pod"
 	turret 0 -74 "Heavy Anti-Missile Turret"
 	turret 0 -17 "Lumbarian Particle Turret"
 	turret 0 32 "Lumbarian Particle Turret"
@@ -561,7 +559,7 @@ ship "Shield Beetle (Lumbarian)"
 		licenses "Imperial Knight"
 		cost 23000000
 		"mass" 650
-		"outfit space" 865
+		"outfit space" 866
 		"engine capacity" 150
 		"weapon capacity" 415
 		"cargo space" 142
@@ -584,33 +582,26 @@ ship "Shield Beetle (Lumbarian)"
 		"Fission Reactor"
 		"Fusion Reactor"
 		"Hai Diamond Regenerator"
-		"Hai Williwaw Cooling" 2
 		"Ion Missile" 2400
 		"Ion Missile Clip" 8
 		"Ion Missile Pod" 2
-		"Jump Drive"
 		"LP288a Battery Pack"
+		"Large Heat Shunt" 3
 		"Lumbarian Particle Turret" 2
 		"Modified Hai Rifle" 60
-		"Outfits Expansion" 2
+		"Outfits Expansion" 6
 		"Particle Cannon" 6
 		"Solar Core"
+		"Sun Drive"
 	engine -44 133
 	engine 44 133
 	gun -22 -102 "Ion Missile Pod"
-		under
 	gun 22 -102 "Ion Missile Pod"
-		under
 	gun -34 -68 "Particle Cannon"
-		under
 	gun 34 -68 "Particle Cannon"
-		under
 	gun -49 -38 "Particle Cannon"
-		under
 	gun 49 -38 "Particle Cannon"
-		under
 	gun -61 -14 "Particle Cannon"
-		under
 	gun 61 -14 "Particle Cannon"
 	turret -39 48 "Anti-Missile Turret"
 	turret 39 48 "Anti-Missile Turret"
@@ -671,11 +662,8 @@ ship "Lumbarian Cutlas-Class"
 	engine -24 132
 	engine 24 132
 	gun 0 -92 "Ion Missile Pod"
-		under
 	gun -10 -65 "Particle Cannon"
-		under
 	gun 10 -65 "Particle Cannon"
-		under
 	turret -36 -45 "Lumbarian Particle Turret"
 	turret 36 -45 "Lumbarian Particle Turret"
 	turret -38 -28 "Lumbarian Particle Turret"

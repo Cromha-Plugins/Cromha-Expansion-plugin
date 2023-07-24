@@ -28,7 +28,6 @@ ship "Lumbarian Trident-Class"
 		"A860 Atomic Thruster" 2
 		"A865 Atomic Steering" 5
 		"Fragmentation Grenades" 60
-		"Jump Drive"
 		"Large Heat Shunt" 15
 		"Lumba Piercer" 364
 		"Lumba Piercer Array" 15
@@ -42,6 +41,7 @@ ship "Lumbarian Trident-Class"
 		"Quantum Shield Generator" 3
 		"Scram Drive"
 		"Security Station" 15
+		"Sun Drive"
 		"Tactical Scanner" 3
 		"Triple Plasma Core" 3
 	engine -108.5 472.5
@@ -140,7 +140,6 @@ ship "Lumbarian Pike-Class"
 		"Ion Missile" 4000
 		"Ion Missile Clip" 12
 		"Ion Missile Pod" 4
-		"Jump Drive"
 		"Large Heat Shunt" 15
 		"Lumba Piercer" 190
 		"Lumba Piercer Array" 8
@@ -152,6 +151,7 @@ ship "Lumbarian Pike-Class"
 		"Quantum Shield Generator" 3
 		"Scram Drive"
 		"Security Station" 15
+		"Sun Drive"
 		"Triple Plasma Core" 3
 	engine -102 411.5
 	engine -38 475
@@ -248,7 +248,6 @@ ship "Lumbarian Fork-Class"
 		"Ion Missile" 6800
 		"Ion Missile Clip" 20
 		"Ion Missile Pod" 8
-		"Jump Drive"
 		"Large Heat Shunt" 28
 		"Lumba Heavy Laser Turret" 12
 		"Lumba Piercer" 318
@@ -263,6 +262,7 @@ ship "Lumbarian Fork-Class"
 		"Scram Drive"
 		"Security Station" 25
 		"Solar Core" 5
+		"Sun Drive"
 		"Triple Plasma Core" 5
 	engine -221 680
 		zoom 2.5
