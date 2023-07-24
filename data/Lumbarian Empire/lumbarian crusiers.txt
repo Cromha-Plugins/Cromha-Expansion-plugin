@@ -30,6 +30,9 @@ ship "Lumbarian Trident-Class"
 		"Fragmentation Grenades" 60
 		"Jump Drive"
 		"Large Heat Shunt" 15
+		"Lumba Piercer" 364
+		"Lumba Piercer Array" 15
+		"Lumba Piercer Pod" 4
 		"Lumbarian Particle Battery" 6
 		"Lumbarian Particle Turret" 10
 		"Modified Hai Rifle" 200
@@ -53,6 +56,14 @@ ship "Lumbarian Trident-Class"
 	turret 77.5 -94 "Lumbarian Particle Battery"
 	turret 61.5 -179.5
 	turret 45 -291.5
+	gun -105 63.5 "Lumba Piercer Pod"
+		under
+	gun -74 -65.5 "Lumba Piercer Pod"
+		under
+	gun 105 63.5 "Lumba Piercer Pod"
+		under
+	gun 74 -65.5 "Lumba Piercer Pod"
+		under
 	gun -9.5 -364 "Particle Cannon"
 	gun -14.5 -380 "Particle Cannon"
 	gun -18 -396 "Particle Cannon"
@@ -130,8 +141,14 @@ ship "Lumbarian Pike-Class"
 		"A865 Atomic Steering" 5
 		"Fragmentation Grenades" 60
 		"Heavy Anti-Missile Turret" 5
+		"Ion Missile" 4000
+		"Ion Missile Clip" 12
+		"Ion Missile Pod" 4
 		"Jump Drive"
 		"Large Heat Shunt" 15
+		"Lumba Piercer" 190
+		"Lumba Piercer Array" 8
+		"Lumba Piercer Pod" 2
 		"Lumbarian Particle Battery" 8
 		"Lumbarian Particle Turret" 10
 		"Modified Hai Rifle" 200
@@ -167,6 +184,18 @@ ship "Lumbarian Pike-Class"
 	turret 90.5 203.5 "Lumbarian Particle Turret"
 	turret 99.5 274 "Lumbarian Particle Turret"
 	turret 40.5 -48.5 "Lumbarian Particle Turret"
+	gun -98.5 136.5 "Ion Missile Pod"
+		under
+	gun -80 52 "Ion Missile Pod"
+		under
+	gun -63.5 -21.5 "Lumba Piercer Pod"
+		under
+	gun 98.5 136.5 "Ion Missile Pod"
+		under
+	gun 80 52 "Ion Missile Pod"
+		under
+	gun 63.5 -21.5 "Lumba Piercer Pod"
+		under
 	bay Gunboat -48 282.5
 	bay Gunboat -45.5 230.5
 	bay Gunboat -43 171
@@ -206,7 +235,7 @@ ship "Lumbarian Fork-Class"
 		licenses "Lumbarian Emperor"
 		cost 750000000
 		"mass" 19000
-		"outfit space" 7200
+		"outfit space" 8700
 		"engine capacity" 980
 		"weapon capacity" 3500
 		"cargo space" 700
@@ -225,28 +254,34 @@ ship "Lumbarian Fork-Class"
 	outfits
 		"Catalytic Ramscoop" 4
 		"Dark Storm Shielding" 2
+		"Fragmentation Grenades" 85
 		"Fusion Reactor" 3
 		"Hai Diamond Regenerator" 4
 		"Hai Williwaw Cooling" 44
+		"Ion Missile" 7200
+		"Ion Missile Clip" 20
+		"Ion Missile Pod" 8
+		"Jump Drive"
 		"LP576a Battery Pack"
+		"Large Heat Shunt" 25
+		"Lumba Heavy Laser Turret" 12
+		"Lumba Piercer" 318
+		"Lumba Piercer Array" 16
+		"Lumba Piercer Pod" 2
 		"Lumba Repair Device"
 		"Lumba Repair Device (Large)"
+		"Lumbarian Particle Battery" 8
+		"Lumbarian Particle Turret" 10
+		"Modified Hai Rifle" 85
+		"Nanotech Battery" 3
 		"Quantum Shield Generator"
-		"Security Station" 25
-		"Triple Plasma Core" 4
 		"Scram Drive"
+		"Security Station" 25
 		"Solar Core" 4
+		"Triple Plasma Core" 4
 		"Type 4 Radiant Steering" 11
 		"Type 4 Radiant Thruster" 5
 		"White Sun Reactor" 17
-		"Fragmentation Grenades" 85
-		"Modified Hai Rifle" 85
-		"Jump Drive"
-		"Nanotech Battery" 3
-		"Large Heat Shunt" 25
-		"Lumbarian Particle Battery" 8
-		"Lumbarian Particle Turret" 10
-		"Lumba Heavy Laser Turret" 12
 	engine -221 680
 		zoom 2.5
 	engine -87 778.5
@@ -290,6 +325,26 @@ ship "Lumbarian Fork-Class"
 	turret 69.5 -11 "Lumba Heavy Laser Turret"
 	turret 127 265 "Lumba Heavy Laser Turret"
 	turret 156 397 "Lumba Heavy Laser Turret"
+	gun -154.5 116 "Lumba Piercer Pod"
+		under
+	gun -140.5 33.5 "Ion Missile Pod"
+		under
+	gun -127 -32 "Ion Missile Pod"
+		under
+	gun -112.5 -97.5 "Ion Missile Pod"
+		under
+	gun -98 -172 "Ion Missile Pod"
+		under
+	gun 154.5 116 "Lumba Piercer Pod"
+		under
+	gun 140.5 33.5 "Ion Missile Pod"
+		under
+	gun 127 -32 "Ion Missile Pod"
+		under
+	gun 112.5 -97.5 "Ion Missile Pod"
+		under
+	gun 98 -172 "Ion Missile Pod"
+		under
 	bay Gunboat -48 282.5
 	bay Gunboat -45.5 230.5
 	bay Gunboat -43 171
