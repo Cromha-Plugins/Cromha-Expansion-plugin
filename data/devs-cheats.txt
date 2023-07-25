@@ -80,8 +80,16 @@ outfit "Cheater Core"
 	"jump effect" "jump drive"
 	"jump drive" 1
 	"jump speed" 77777777
+	"jump range" 77777777
+	"hull repair rate" 77777777
+	"shield generation" 77777777
 	"energy capacity" 777777
 	"energy generation" 7777777
+	"quantum keystone"
+	"cloaking" 77
+	"cloaking fuel" .77777777
+	"cloaking energy" .77777777
+	description "What a fascinating creation, the Cheater Core is. Made even more so by the fact that it does not exist. This think has everything you could want, along with some things you did not think to want."
 
 # FIXES
 
