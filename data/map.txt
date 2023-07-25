@@ -8895,94 +8895,113 @@ system Quar'des
 	asteroids "ringworld debris e" 9 4.704
 	minables "ringworld debris F" 10 4.704
 	minables "ringworld debris H" 7 4.704
+	hazard "Eden Storm" 2200
 	object
-		sprite star/x3
+		sprite star/x0-old
 		period 10
 		object
-			sprite "planet/empire ringworld"
+			sprite "planet/ringworld broken right"
 				scale 0.5
 			distance 812
 			period 349.82
 		object
-			sprite "planet/empire ringworld"
+			sprite "planet/ringworld"
 				scale 0.5
 			distance 812
 			period 349.82
 			offset 20
 		object
-			sprite "planet/empire ringworld left"
+			sprite "planet/ringworld broken left"
 				scale 0.5
 			distance 812
 			period 349.82
 			offset 40
 		object
-			sprite "planet/empire ringworld right"
+			sprite "planet/ringworld broken right"
 				scale 0.5
 			distance 812
 			period 349.82
 			offset 60
 		object
-			sprite "planet/empire ringworld"
+			sprite "planet/ringworld"
 				scale 0.5
 			distance 812
 			period 349.82
 			offset 80
 		object
-			sprite "planet/empire ringworld"
+			sprite "planet/ringworld"
 				scale 0.5
 			distance 812
 			period 349.82
 			offset 100
 		object
-			sprite "planet/empire ringworld left"
+			sprite "planet/ringworld broken left"
 				scale 0.5
 			distance 812
 			period 349.82
 			offset 120
 		object
-			sprite "planet/empire ringworld right"
+			sprite "planet/ringworld broken debris"
+				scale 0.5
+			distance 812
+			period 349.82
+			offset 140
+		object
+			sprite "planet/ringworld broken right"
 				scale 0.5
 			distance 812
 			period 349.82
 			offset 160
 		object
-			sprite "planet/empire ringworld"
+			sprite "planet/ringworld"
 				scale 0.5
 			distance 812
 			period 349.82
 			offset 180
 		object
-			sprite "planet/empire ringworld left"
+			sprite "planet/ringworld broken left"
 				scale 0.5
 			distance 812
 			period 349.82
 			offset 200
 		object
-			sprite "planet/empire ringworld right"
+			sprite "planet/ringworld broken debris small"
+				scale 0.5
+			distance 812
+			period 349.82
+			offset 220
+		object
+			sprite "planet/ringworld broken debris"
+				scale 0.5
+			distance 812
+			period 349.82
+			offset 240
+		object
+			sprite "planet/ringworld broken right"
 				scale 0.5
 			distance 812
 			period 349.82
 			offset 260
 		object
-			sprite "planet/empire ringworld"
+			sprite "planet/ringworld"
 				scale 0.5
 			distance 812
 			period 349.82
 			offset 280
 		object
-			sprite "planet/empire ringworld"
+			sprite "planet/ringworld broken left"
 				scale 0.5
 			distance 812
 			period 349.82
 			offset 300
 		object
-			sprite "planet/empire ringworld"
+			sprite "planet/ringworld broken debris small"
 				scale 0.5
 			distance 812
 			period 349.82
 			offset 320
 		object
-			sprite "planet/empire ringworld"
+			sprite "planet/ringworld broken debris"
 				scale 0.5
 			distance 812
 			period 349.82
