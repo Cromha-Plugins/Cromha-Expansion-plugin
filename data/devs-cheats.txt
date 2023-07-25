@@ -69,7 +69,7 @@ mission "All-Content Start"
 # CHEATER CORE
 outfit "Cheater Core"
 	cost 77777777
-	thumbnail "outfit/unknown"
+	thumbnail "outfit/cheater core"
 	"outfit space" 77777777
 	"engine capacity" 77777777
 	"weapon capacity" 7777777
