@@ -114,6 +114,7 @@ system Meftarkata
 	government "Cromha Empire"
 	add fleet "Quarg Protectionist" 5000
 	add fleet "Quarg Protectionist" 5000
+	add fleet "Quarg Protectionist" 5000
 	object
 		sprite star/f5
 		distance 23.995
@@ -1077,6 +1078,7 @@ system Sepriaptu
 	trade Plastic 364
 	add fleet "Quarg Protectionist" 20000
 	add fleet "Quarg Protectionist" 20000
+	add fleet "Quarg Protectionist" 20000
 	add fleet cromha-miners 600
 	add fleet small-pirates 2000
 	add fleet mineria-transports 3000
@@ -1131,6 +1133,7 @@ system Kaliptari
 	add link "Prima Lifdot"
 	add link Saharik
 	remove link Mekislepti
+	add fleet "Quarg Protectionist" 15000
 	add fleet "Quarg Protectionist" 15000
 	add fleet "Quarg Protectionist" 15000
 	add fleet cromha-fleet 2000
@@ -1219,6 +1222,7 @@ system Solifar
 	trade Plastic 364
 	add fleet "Quarg Protectionist" 20000
 	add fleet "Quarg Protectionist" 20000
+	add fleet "Quarg Protectionist" 20000
 	add fleet cromha-merchants 1700
 	object
 		sprite star/m0
@@ -1274,6 +1278,7 @@ system Skeruto
 	government "Cromha Empire"
 	haze _menu/haze-orange
 	add link "Prima Lifdot"
+	add fleet "Quarg Protectionist" 10000
 	add fleet "Quarg Protectionist" 10000
 	add fleet "Quarg Protectionist" 10000
 	add fleet cromha-merchants 1700
@@ -1578,6 +1583,7 @@ system Fornarep
 	add attributes military
 	add fleet "Quarg Protectionist" 10000
 	add fleet "Quarg Protectionist" 10000
+	add fleet "Quarg Protectionist" 10000
 	add fleet cromha-fleet 1800
 	add fleet mineria-transports 1700
 	add fleet empire-rebels-raiders 2300
@@ -1634,6 +1640,7 @@ system Seketra
 	haze _menu/haze-orange
 	add link "Da Lest"
 	add link "Prima Lifdot"
+	add fleet "Quarg Protectionist" 15000
 	add fleet "Quarg Protectionist" 15000
 	add fleet "Quarg Protectionist" 15000
 	add fleet cromha-fleet 1700
@@ -3546,6 +3553,7 @@ system Korsmanath
 	government "Empire Rebels"
 	add fleet "Quarg Protectionist" 15000
 	add fleet "Quarg Protectionist" 15000
+	add fleet "Quarg Protectionist" 15000
 	add fleet empire-rebels-raiders 6000
 	add fleet empire-rebels-merchants 5000
 	object
@@ -3981,6 +3989,7 @@ system "Rati Cal"
 
 system Chikatip
 	add link "Rati Cal"
+	add fleet "Quarg Protectionist" 10000
 	add fleet "Quarg Protectionist" 10000
 	add fleet "Quarg Protectionist" 10000
 	object
@@ -4787,30 +4796,6 @@ planet Alfyim
 
 system Postverta
 	remove hidden
-	object
-		sprite star/m8
-		period 10
-	object
-		sprite planet/desert7
-		distance 439
-		period 316.657
-	object Fertriery
-		sprite planet/fog0
-		distance 814
-		period 799.52
-		object
-			sprite planet/dust4
-			distance 202
-			period 21
-	object
-		sprite planet/rock10
-		distance 1208
-		period 1445.41
-	object "Ssil Vida"
-		sprite planet/sheragi_postverta
-			scale 0.5
-		distance 1408
-		period 1818.85
 
 system Celeborim
 	pos 190.616 -638.553
@@ -6240,6 +6225,7 @@ system Chornifath
 	government "Empire Rebels"
 	add fleet "Quarg Protectionist" 5000
 	add fleet "Quarg Protectionist" 5000
+	add fleet "Quarg Protectionist" 5000
 	add fleet empire-rebels-raiders 1500
 	add fleet empire-rebels-merchants 2000
 	add fleet cromha-merchants 1700
@@ -6729,29 +6715,6 @@ system Arneb
 	government "Lumbarian Empire"
 	add fleet "Large L Navy" 800
 	add fleet "Small L Navy" 400
-	object
-		sprite star/f5
-		period 10
-	object
-		sprite planet/venus
-		distance 206
-		period 28.558
-	object
-		sprite planet/cloud6-b
-		distance 546.25
-		period 123.314
-	object
-		sprite planet/desert8
-		distance 829.46
-		period 230.739
-	object Haven
-		sprite planet/forest6
-		distance 1264.82
-		period 434.481
-	object
-		sprite planet/io
-		distance 4062.31
-		period 2500.84
 
 planet Haven
 	tribute 500
@@ -8905,7 +8868,7 @@ system Quar'des
 			distance 812
 			period 349.82
 		object
-			sprite "planet/ringworld"
+			sprite planet/ringworld
 				scale 0.5
 			distance 812
 			period 349.82
@@ -8923,13 +8886,13 @@ system Quar'des
 			period 349.82
 			offset 60
 		object
-			sprite "planet/ringworld"
+			sprite planet/ringworld
 				scale 0.5
 			distance 812
 			period 349.82
 			offset 80
 		object
-			sprite "planet/ringworld"
+			sprite planet/ringworld
 				scale 0.5
 			distance 812
 			period 349.82
@@ -8953,7 +8916,7 @@ system Quar'des
 			period 349.82
 			offset 160
 		object
-			sprite "planet/ringworld"
+			sprite planet/ringworld
 				scale 0.5
 			distance 812
 			period 349.82
@@ -8983,7 +8946,7 @@ system Quar'des
 			period 349.82
 			offset 260
 		object
-			sprite "planet/ringworld"
+			sprite planet/ringworld
 				scale 0.5
 			distance 812
 			period 349.82
@@ -9006,4 +8969,63 @@ system Quar'des
 			distance 812
 			period 349.82
 			offset 340
+
+system Shaulaee
+	hidden
+	pos -10766.625 1980.125
+	government Author
+	habitable 7000
+	belt 1308 4
+	belt 2079 7
+	haze _menu/haze-triangle
+	asteroids "small rock" 1 2.138
+	asteroids "medium rock" 1 1.469
+	asteroids "large rock" 3 2.095
+	asteroids "medium metal" 39 1.49
+	asteroids "large metal" 2 2.16
+	trade Clothing 360
+	trade Electronics 865
+	trade Equipment 387
+	trade Food 549
+	trade "Heavy Metals" 849
+	trade Industrial 561
+	trade "Luxury Goods" 1429
+	trade Medical 879
+	trade Metal 511
+	trade Plastic 457
+	object
+		sprite star/b0
+		period 10
+	object
+		sprite planet/desert1
+		distance 506
+		period 54.417
+		object
+			sprite planet/fg_moon33
+			distance 183
+			period 64.788
+	object
+		sprite planet/dust2-b
+		distance 1098
+		period 173.946
+	object
+		sprite planet/gas15
+		distance 2417
+		period 568.102
+	object Greenarok
+		sprite planet/shipyard
+		distance 5130
+		period 1756.657
+
+planet Greenarok
+	attributes station
+	landscape "land/gw-station uilenxi"
+	description "You're a cheater!"
+	spaceport "You're a cheater!"
+	government Author
+	shipyard "Everything Shipyard"
+	outfitter "Everything Outfitter"
+	"required reputation" -1000000
+	bribe 0
+	security 0
 
