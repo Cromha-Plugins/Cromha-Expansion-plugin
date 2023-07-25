@@ -152,4 +152,5 @@ outfitter "Lumbarian Stuff"
 	"Ion Missile Pod"
 	"Ion Missile"
 	"Ion Missile Clip"
+	"Sun Drive"
 
