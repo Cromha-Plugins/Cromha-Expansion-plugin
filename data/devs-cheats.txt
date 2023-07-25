@@ -66,6 +66,7 @@ mission "All-Content Start"
 
 # CHEATER CORE
 outfit "Cheater Core"
+	category Special
 	cost 77777777
 	thumbnail "outfit/cheater core"
 	"outfit space" 77777777
