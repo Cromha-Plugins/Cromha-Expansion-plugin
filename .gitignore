@@ -1,4 +1,6 @@
-.settings.txt
 .vscode/
-.DS_Store
+*.DS_Store
 **/.DS_Store
+**/.blend1
+**/.log
+**/.tmp
