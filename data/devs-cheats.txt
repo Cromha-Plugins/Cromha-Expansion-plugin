@@ -89,6 +89,7 @@ outfit "Cheater Core"
 	"cloaking" 77
 	"cloaking fuel" .77777777
 	"cloaking energy" .77777777
+	"cooling" 77777777
 	description "What a fascinating creation, the Cheater Core is. Made even more so by the fact that it does not exist. This think has everything you could want, along with some things you did not think to want."
 
 # FIXES
@@ -128,26 +129,173 @@ ship "Hallucination"
 	
 # SALES
 # There is where there is the outfitter and the shipyard for all content
+# For ships there is just the '# <Species/Civlizations/Government> to add and then all ship unordered.
 # Make sure you separate use the following template so it's easier to find out things:
 #
 # # <Species/Civilization/Government>
 # 	# Engines
-#	<outfits/ships>
+#	<outfits>
 #
 # 	# Power
-#	<outfits/ships>
+#	<outfits>
 #
 # 	# Weapons
-#	<outfits/ships>
+#	<outfits>
 #
 #	# Ammunition Stuff
-#	<outfits/ships>
+#	<outfits>
 #
 #	# Systems (Everything that is not of all other categories)
-#	<outfits/ships>
+#	<outfits>
+#
+#	# Hand to Hand
+#	<outfits>
 #
 # Everything that is in '()' you have to ignore it and everything that is in '<>' you have to replace it by what is written inside (if it's written species, you have to write the species)
 
 outfitter "Everything Outfitter"
+	# Author
+		# Systems
+	"Cheater Core"
+	
+	# Uncategorized
+		# Weapons
+	"Twin Modified Blaster"
+		# Uniques
+	"Empire Quantum Medal"
+	"Pug Crystal"
+	"Subsidurial Plushie"
+	
+	# Empire
+		# Engines
+	`RC-001 Atomic Engines`
+	`RC-140 Atomic Thruster`
+	`RC-160 Atomic Thruster`
+	`RC-180 Atomic Thruster`
+	`RC-200 Atomic Thruster`
+	`RC-220 Atomic Thruster`
+	`RX-120 Reverse Thruster`
+	`RX-180 Reverse Thruster`
+	`RX-200 Reverse Thruster`
+	`RC-145 Atomic Steering`
+	`RC-165 Atomic Steering`
+	`RC-185 Atomic Steering`
+	`RC-205 Atomic Steering`
+	`RC-225 Atomic Steering`
+	"Disruption Afterburnner"
+		
+		# Power
+	"Empire Hai Chasm Batteries"
+	"Empire Hai Fissure Batteries"
+	"Empire Hai Gorge Batteries"
+	"Empire Hai Ravine Batteries"
+	"Empire Hai Valley Batteries"
+	"Multiphasic Capacitor"
+	"Phasic Radiothermal"
+	"Phasic Dwarf Core"
+	"Phasic Fission Reactor"
+	"Thermal Nucleavoltaic"
+	"RC-X1 Multiphasic Reactor"
+	"RC-X2 Multiphasic Reactor"
+	"RC-X3 Multiphasic Reactor"
+	"RC-X4 Multiphasic Reactor"
+	"Quantum Generator"
+	
+		# Weapons
+	"Empire Particle gun"
+	"Twin Empire Particle"
+	"Empire Particle Turret"
+	"Empire Particle Turret (Augmented)"
+	"Ion Proton Gun"
+	"Ion Proton Turret"
+	"Multiphasic Anti-Missile"
+	"Antimatter Railgun"
+	"Empire Torpedo Bank"
+	"Empire Typhoon Bank"
+	"Empire Nuke"
+	"Grab-Strike Blaze"
+	"Langrage Empire-Heaver"
+	"Alldust Beam Canon"
+	"Alldust Beam Turret"
+	"Nuclavoltaic Repeater"
+	"Nuclavoltaic Turret"
+	"Phasic Mine Layer"
+	"Wel'y Beam Canon"
+	"Wel'y Beam Turret"
+	"Dual Wel'y Beam Turret"
+	"Scrambling Beam"
+	
+		# Ammunition Stuff
+	"Multiphasic ammo"
+	"Multiphasic Ammo Rack"
+	"Empire Torpedo Rack"
+	"Empire Torpedo Missile"
+	"Phasic-Cluster Mine"
+	"Phasic Mine Rack"
+	
+		# Systems
+	"Mineria Key Stone"
+	"Fuel Capacitor"
+	"X-Skirmish Computer"
+	"X-Battlezone Computer"
+	"X-Warforge Computer"
+	"X-Crusade Computer"
+	"Nanobot Pod"
+	"Cloaking Module"
+	"Empire Navy Emitter"
+	"Countermesure Module"
+	"Countermesure Module Compact"
+	"Fuel Cell"
+	"Weapon Module"
+	"Engine Module"
+	"Hull Breaker"
+	"T1 Phasic Amplifier"
+	"T2 Phasic Amplifier"
+	"T3 Phasic Amplifier"
+	"Phasic Ramscoop"
+	"Ameliorating Phasic-Cell"
+	"Phasic Reasoning Node"
+	"Antimatter Capacitor"
+	"Antimatter Capacitor (Large)"
+	"Quatalant Shield (Tiny)"
+	"Quatalant Shield (Small)"
+	"Quatalant Shield (Medium)"
+	"Quatalant Shield (Big)"
+	"Quatalant Shield (Huge)"
+	"Shield Processor"
+	"Shield Processor (Huge)"
+	"Compact Plasma Drive"
+	"Plasma Drive"
+	"Multiphasic Cooler"
+	"Tre-Phasic Cooler"
+	"One-Phasic Cooler"
+	"NGx3 Quatalant Cooler"
+	"NGx9 Quatalant Cooler"
+	"Antimatter Cooling Cell"
+	"Multiphasic Scanner"
+	"Plasma Fuel Pod"
+	"Empire Mapper"
+	
+		# Hand to Hand
+	"Teleportation Dock"
+	"Phasic Rifle"
+	"Tre-Phasic Rifle"
+	"Phasic Grenades"
+	"Empire Barricade"
+	"Empire Defense Station"
+	"Medical Station"
+	
+		# Prototypes
+	"RV-120 Disruption Thruster"
+	"RV-120 Disruption Steering"
+	"RV-170 Disruption Thruster"
+	"RV-170 Disruption Steering"
+	"Tri-Phasic Hyperdrive"
+	"Caltalytic Tear Secret"
+	"Caltalytic Tear"
+	"Anti-Missile Field Device"
+	"Draining Field Device"
+	"Prototype Fusion Cannon (Empire)"
+	"Dragonflame Cannon (Empire)"
 
 shipyard "Everything Shipyard"
