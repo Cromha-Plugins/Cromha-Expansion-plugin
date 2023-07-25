@@ -34,8 +34,6 @@ start "Devs-cheats"
 	set "license: Lumbarian King"
 	set "license: Lumbarian Emperor"
 	set "cheater"
-	give ship "Empire Hydra (Emperor)"
-	outfit "Cheater Core" 1
 	# Skip the game's normal intro mission string.
 	set "Intro [0]: offered"
 
@@ -103,6 +101,8 @@ mission "remove shaulaee hidden"
 		"cheater" > 0
 	on offer
 		event "remove shaulaee hidden"
+		give ship "Empire Hydra (Emperor)" "Z-47-IY.7"
+		outfit "Cheater Core" 1
 		fail
 
 event "remove shaulaee hidden"
