@@ -340,6 +340,7 @@ outfit "Draining Rocket Fabricator"
 	"outfit space" -45
 	"weapon capacity" -65
 	"turret mounts" -1
+	"required crew" 1
 	"energy capacity" 3800
 	weapon
 		sprite "projectile/draining rocket"
@@ -350,6 +351,7 @@ outfit "Draining Rocket Fabricator"
 		"hit effect" "mhd explosion" 4
 		"hit effect" "mhd spark" 860
 		"die effect" "small explosion"
+		stream
 		"hardpoint sprite" "hardpoint/draining rocket turret"
 		"turret turn" 4
 		"inaccuracy" 3
