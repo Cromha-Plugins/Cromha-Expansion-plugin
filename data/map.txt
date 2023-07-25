@@ -113,6 +113,7 @@ hazard "Blue Black Hole Gravity"
 system Meftarkata
 	government "Cromha Empire"
 	add fleet "Quarg Protectionist" 5000
+	add fleet "Quarg Protectionist" 5000
 	object
 		sprite star/f5
 		distance 23.995
@@ -1075,6 +1076,7 @@ system Sepriaptu
 	trade Metal 479
 	trade Plastic 364
 	add fleet "Quarg Protectionist" 20000
+	add fleet "Quarg Protectionist" 20000
 	add fleet cromha-miners 600
 	add fleet small-pirates 2000
 	add fleet mineria-transports 3000
@@ -1129,6 +1131,7 @@ system Kaliptari
 	add link "Prima Lifdot"
 	add link Saharik
 	remove link Mekislepti
+	add fleet "Quarg Protectionist" 15000
 	add fleet "Quarg Protectionist" 15000
 	add fleet cromha-fleet 2000
 	add fleet cromha-miners 1500
@@ -1215,6 +1218,7 @@ system Solifar
 	trade Metal 479
 	trade Plastic 364
 	add fleet "Quarg Protectionist" 20000
+	add fleet "Quarg Protectionist" 20000
 	add fleet cromha-merchants 1700
 	object
 		sprite star/m0
@@ -1270,6 +1274,7 @@ system Skeruto
 	government "Cromha Empire"
 	haze _menu/haze-orange
 	add link "Prima Lifdot"
+	add fleet "Quarg Protectionist" 10000
 	add fleet "Quarg Protectionist" 10000
 	add fleet cromha-merchants 1700
 	object
@@ -1572,6 +1577,7 @@ system Fornarep
 	government "Cromha Empire"
 	add attributes military
 	add fleet "Quarg Protectionist" 10000
+	add fleet "Quarg Protectionist" 10000
 	add fleet cromha-fleet 1800
 	add fleet mineria-transports 1700
 	add fleet empire-rebels-raiders 2300
@@ -1628,6 +1634,7 @@ system Seketra
 	haze _menu/haze-orange
 	add link "Da Lest"
 	add link "Prima Lifdot"
+	add fleet "Quarg Protectionist" 15000
 	add fleet "Quarg Protectionist" 15000
 	add fleet cromha-fleet 1700
 	add fleet mineria-transports 875
@@ -3538,6 +3545,7 @@ system "Far Sabira"
 system Korsmanath
 	government "Empire Rebels"
 	add fleet "Quarg Protectionist" 15000
+	add fleet "Quarg Protectionist" 15000
 	add fleet empire-rebels-raiders 6000
 	add fleet empire-rebels-merchants 5000
 	object
@@ -3973,6 +3981,7 @@ system "Rati Cal"
 
 system Chikatip
 	add link "Rati Cal"
+	add fleet "Quarg Protectionist" 10000
 	add fleet "Quarg Protectionist" 10000
 	object
 		sprite star/k5
@@ -6230,6 +6239,7 @@ system Obrana
 system Chornifath
 	government "Empire Rebels"
 	add fleet "Quarg Protectionist" 5000
+	add fleet "Quarg Protectionist" 5000
 	add fleet empire-rebels-raiders 1500
 	add fleet empire-rebels-merchants 2000
 	add fleet cromha-merchants 1700
@@ -6355,7 +6365,10 @@ system Lumbaria
 	trade Plastic 489
 	fleet "Large L Navy" 1200
 	fleet "Small L Navy" 400
-	fleet "Paradise Merchants" 4000
+	fleet "Paradise Merchants" 500
+	fleet "Large Southern Merchants" 1300
+	fleet "Small Southern Merchants" 600
+	fleet "Lumbarian Cruiser" 2000
 	object
 		sprite star/k5
 		period 10
@@ -6415,6 +6428,8 @@ system Phurad
 	add link Lumbaria
 	add fleet "Large L Navy" 1500
 	add fleet "Small L Navy" 600
+	remove fleet "Small Republic"
+	remove fleet "Large Republic"
 	object
 		sprite star/g0
 		period 10
@@ -6448,8 +6463,14 @@ system Mirzam
 	add link Lastama
 	add link Lumbaria
 	add link Sipha
+	add fleet "Small Northern Merchants" 600
+	add fleet "Large Northern Merchants" 1500
 	add fleet "Large L Navy" 1500
 	add fleet "Small L Navy" 600
+	remove fleet "Small Northern Merchants"
+	remove fleet "Large Northern Merchants"
+	remove fleet "Small Republic"
+	remove fleet "Large Republic"
 	object
 		sprite star/g0
 		period 10
@@ -6483,6 +6504,9 @@ system Canopus
 	add link Sipha
 	add fleet "Large L Navy" 1500
 	add fleet "Small L Navy" 600
+	remove fleet "Small Republic"
+	remove fleet "Large Republic"
+	remove fleet "Republic Logistics"
 	object
 		sprite star/m3
 		period 10
@@ -6505,8 +6529,13 @@ system Canopus
 
 system Mebsuta
 	government "Lumbarian Empire"
+	add fleet "Small Northern Merchants" 600
+	add fleet "Large Northern Merchants" 1500
 	add fleet "Large L Navy" 1500
 	add fleet "Small L Navy" 600
+	remove fleet "Small Northern Merchants"
+	remove fleet "Large Northern Merchants"
+	remove fleet "Small Republic"
 	object
 		sprite star/g-supergiant
 		distance 1.491
@@ -6556,6 +6585,8 @@ system Tejat
 	government "Lumbarian Empire"
 	add fleet "Large L Navy" 1500
 	add fleet "Small L Navy" 600
+	remove fleet "Small Republic"
+	remove fleet "Large Republic"
 	object
 		sprite star/g0
 		distance 11.78
@@ -6606,6 +6637,9 @@ system Wazn
 	government "Lumbarian Empire"
 	add fleet "Large L Navy" 1500
 	add fleet "Small L Navy" 600
+	remove fleet "Small Republic"
+	remove fleet "Large Republic"
+	remove fleet "Republic Logistics"
 	object
 		sprite star/k8
 		distance 28.211
@@ -6642,8 +6676,17 @@ system Wazn
 
 system Phact
 	government "Lumbarian Empire"
+	add fleet "Small Northern Merchants" 700
+	add fleet "Large Northern Merchants" 1300
+	add fleet "Human Miners" 950
 	add fleet "Large L Navy" 1500
 	add fleet "Small L Navy" 600
+	remove fleet "Small Northern Merchants"
+	remove fleet "Large Northern Merchants"
+	remove fleet "Small Republic"
+	remove fleet "Large Republic"
+	remove fleet "Republic Logistics"
+	remove fleet "Human Miners"
 	object
 		sprite star/g5
 		distance 45.94
@@ -6789,6 +6832,10 @@ system Sipha
 	trade Medical 560
 	trade Metal 343
 	trade Plastic 451
+	fleet "Small L Navy" 600
+	fleet "Large L Navy" 1500
+	fleet "Small Southern Merchants" 600
+	fleet "Large Southern Merchants" 1500
 	object
 		sprite star/g3
 		period 10
@@ -6935,6 +6982,8 @@ system Lastama
 	trade Medical 534
 	trade Metal 344
 	trade Plastic 462
+	fleet "Small L Navy" 1000
+	fleet "Large L Navy" 1400
 	object
 		sprite star/k-supergiant
 		period 10
