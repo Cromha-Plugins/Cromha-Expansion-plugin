@@ -80,7 +80,7 @@ outfit "Cheater Core"
 	"jump effect" "jump drive"
 	"jump drive" 1
 	"jump speed" 77777777
-	"jump range" 77777777
+	"jump range" 7777777777777777
 	"hull repair rate" 77777777
 	"shield generation" 77777777
 	"energy capacity" 777777
@@ -108,6 +108,7 @@ mission "remove shaulaee hidden"
 event "remove shaulaee hidden"
 	system Shaulaee
 		remove hidden
+	visit Sol
 
 	
 # Add a valid category to uncategorized ships to make them appear in shipyards.
