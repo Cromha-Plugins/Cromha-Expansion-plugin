@@ -84,7 +84,7 @@ outfit "Cheater Core"
 	"shield generation" 77777777
 	"energy capacity" 777777
 	"energy generation" 7777777
-	"quantum keystone"
+	"quantum keystone" 1
 	"cloaking" 77
 	"cloaking fuel" .77777777
 	"cloaking energy" .77777777
@@ -96,7 +96,6 @@ outfit "Cheater Core"
 # Edit Shaulaee system so it's no more invisible
 mission "remove shaulaee hidden"
 	landing
-	priority
 	invisible
 	to offer
 		"cheater" > 0

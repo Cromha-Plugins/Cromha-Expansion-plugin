@@ -115,6 +115,7 @@ system Meftarkata
 	add fleet "Quarg Protectionist" 5000
 	add fleet "Quarg Protectionist" 5000
 	add fleet "Quarg Protectionist" 5000
+	add fleet "Quarg Protectionist" 5000
 	object
 		sprite star/f5
 		distance 23.995
@@ -1079,6 +1080,7 @@ system Sepriaptu
 	add fleet "Quarg Protectionist" 20000
 	add fleet "Quarg Protectionist" 20000
 	add fleet "Quarg Protectionist" 20000
+	add fleet "Quarg Protectionist" 20000
 	add fleet cromha-miners 600
 	add fleet small-pirates 2000
 	add fleet mineria-transports 3000
@@ -1133,6 +1135,7 @@ system Kaliptari
 	add link "Prima Lifdot"
 	add link Saharik
 	remove link Mekislepti
+	add fleet "Quarg Protectionist" 15000
 	add fleet "Quarg Protectionist" 15000
 	add fleet "Quarg Protectionist" 15000
 	add fleet "Quarg Protectionist" 15000
@@ -1223,6 +1226,7 @@ system Solifar
 	add fleet "Quarg Protectionist" 20000
 	add fleet "Quarg Protectionist" 20000
 	add fleet "Quarg Protectionist" 20000
+	add fleet "Quarg Protectionist" 20000
 	add fleet cromha-merchants 1700
 	object
 		sprite star/m0
@@ -1278,6 +1282,7 @@ system Skeruto
 	government "Cromha Empire"
 	haze _menu/haze-orange
 	add link "Prima Lifdot"
+	add fleet "Quarg Protectionist" 10000
 	add fleet "Quarg Protectionist" 10000
 	add fleet "Quarg Protectionist" 10000
 	add fleet "Quarg Protectionist" 10000
@@ -1584,6 +1589,7 @@ system Fornarep
 	add fleet "Quarg Protectionist" 10000
 	add fleet "Quarg Protectionist" 10000
 	add fleet "Quarg Protectionist" 10000
+	add fleet "Quarg Protectionist" 10000
 	add fleet cromha-fleet 1800
 	add fleet mineria-transports 1700
 	add fleet empire-rebels-raiders 2300
@@ -1640,6 +1646,7 @@ system Seketra
 	haze _menu/haze-orange
 	add link "Da Lest"
 	add link "Prima Lifdot"
+	add fleet "Quarg Protectionist" 15000
 	add fleet "Quarg Protectionist" 15000
 	add fleet "Quarg Protectionist" 15000
 	add fleet "Quarg Protectionist" 15000
@@ -3554,6 +3561,7 @@ system Korsmanath
 	add fleet "Quarg Protectionist" 15000
 	add fleet "Quarg Protectionist" 15000
 	add fleet "Quarg Protectionist" 15000
+	add fleet "Quarg Protectionist" 15000
 	add fleet empire-rebels-raiders 6000
 	add fleet empire-rebels-merchants 5000
 	object
@@ -3989,6 +3997,7 @@ system "Rati Cal"
 
 system Chikatip
 	add link "Rati Cal"
+	add fleet "Quarg Protectionist" 10000
 	add fleet "Quarg Protectionist" 10000
 	add fleet "Quarg Protectionist" 10000
 	add fleet "Quarg Protectionist" 10000
@@ -6223,6 +6232,7 @@ system Obrana
 
 system Chornifath
 	government "Empire Rebels"
+	add fleet "Quarg Protectionist" 5000
 	add fleet "Quarg Protectionist" 5000
 	add fleet "Quarg Protectionist" 5000
 	add fleet "Quarg Protectionist" 5000
@@ -8972,7 +8982,7 @@ system Quar'des
 
 system Shaulaee
 	hidden
-	pos -10766.625 1980.125
+	pos -1305.125 560.75
 	government Author
 	habitable 7000
 	belt 1308 4
