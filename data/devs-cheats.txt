@@ -1205,6 +1205,28 @@ outfitter "Everything Outfitter"
 		# Special
 	"Quantum Energy Field"
 	
+	# Lumbarian Empire
+		# Engines
+		# Power
+		# Weapons
+	"Lumbarian Particle Turret"
+	"Lumbarian Particle Battery"
+	"Lumba Heavy Laser"
+	"Lumba Heavy Laser Turret"
+	"Lumba Piercer Pod"
+	"Ion Missile Pod"
+	"Draining Rocket Fabricator"
+		# Ammunition Stuff
+	"Lumba Piercer Array"
+	"Lumba Piercer"
+	"Ion Missile"
+	"Ion Missile Clip"
+		# Systems
+	"Sun Drive"
+	"Lumba Repair Device"
+	"Lumba Repair Device (Large)"
+		# Hand to Hand
+
 	# Kor Mereti Fluffs
 	"Korath Disruptor Gun"
 	"Korath Electro Shocker"
@@ -2345,4 +2367,24 @@ shipyard "Everything Shipyard"
 	"_Ion Timer Ship"
 	"vyu-Ir"
 
+
+	# Lumbarian Empire
+	"Combat Drone (Lumbarian)"
+	"Surveillance Drone (Lumbarian)"
+	"Dropship (Lumbarian)"
+	"Lance (Lumbarian)"
+	"Rainmaker (Lumbarian)"
+	"Gunboat (Lumbarian)"
+	"Frigate (Lumbarian)"
+	"Cruiser (Lumbarian)"
+	"Carrier (Lumbarian)"
+	"Auxiliary (Lumbarian)"
+	"Shield Beetle (Lumbarian)"
+	"Lumbarian Cutlas-Class"
+	"Lumbarian Doom-Class"
+	"Lumbarian Drak-Class"
+	"Lumbarian Ecthelion-Class"
+	"Lumbarian Fork-Class"
+	"Lumbarian Pike-Class"
+	"Lumbarian Trident-Class"
 
