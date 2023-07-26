@@ -1804,6 +1804,14 @@ shipyard "Everything Shipyard"
 	"Empire Fortress"
 	"Empire Colinizer"
 	"Empire Sea Kraken (Caltalyctic)"
+	"Bulk Courier"
+	"Colossus"
+	"Modified Flivver"
+	"Hornet"
+	"Rancorster"
+	Arbiter
+	"Sunder"
+	"Dreadful"
 	
 	# Rebels
 	"Rebel Firebird"
