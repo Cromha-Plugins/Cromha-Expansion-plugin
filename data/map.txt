@@ -9038,7 +9038,7 @@ system Shaulaee
 		period 1756.657
 
 planet Greenarok
-	attributes station
+	attributes station forge
 	landscape "land/gw-station uilenxi"
 	description "You're a cheater!"
 	spaceport "You're a cheater!"

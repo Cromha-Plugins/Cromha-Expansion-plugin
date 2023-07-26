@@ -89,6 +89,8 @@ outfit "Cheater Core"
 	"cloaking fuel" .77777777
 	"cloaking energy" .77777777
 	"cooling" 77777777
+	"gaslining" 1
+	"tactical scan power" 77777777
 	description "What a fascinating creation, the Cheater Core is. Made even more so by the fact that it does not exist. This think has everything you could want, along with some things you did not think to want."
 
 # FIXES
@@ -105,10 +107,1889 @@ mission "remove shaulaee hidden"
 		outfit "Cheater Core" 1
 		fail
 
+mission money
+	name "Need Cash?"
+	repeat
+	job
+	source
+		attributes forge
+	description "I need a credit, a credit is what I need...  here, have one trillion"
+	on accept
+		payment 1000000000000
+		fail
+
+mission "Boost Combat Rating"
+	repeat
+	job
+	source
+		attributes forge
+	description "Boost your combat rating by 200,000 (enough to go from 0 to 12)."
+	on accept
+		"combat rating" += 200000
+		fail
+
+mission "Reset Combat Rating"
+	repeat
+	job
+	source
+		attributes forge
+	description "Reset your combat rating to 0."
+	on accept
+		"combat rating" = 0
+		fail
+		
+mission "Add Pilot's License"
+	repeat
+	job
+	source
+		attributes forgehuman
+	description "Gives you a Pilot's license."
+	to offer
+		not "license: Pilot's"
+	on accept
+		set "license: Pilot's"
+		fail
+
+mission "Add City-Ship License"
+	repeat
+	job
+	source
+		attributes forgehuman
+	description "Gives you a City-Ship license."
+	to offer
+		not "license: City-Ship"
+	on accept
+		set "license: City-Ship"
+		fail
+
+mission "Add Navy Licenses"
+	repeat
+	job
+	source
+		attributes forgehuman
+	description "Gives you the Navy, Auxiliary, Cruiser, and Carrier licenses."
+	to offer
+		or
+			not "license: Navy"
+			not "license: Navy Auxiliary"
+			not "license: Navy Cruiser"
+			not "license: Navy Carrier"
+	on accept
+		set "license: Navy"
+		set "license: Navy Auxiliary"
+		set "license: Navy Cruiser"
+		set "license: Navy Carrier"
+		fail
+
+mission "Add Wanderer Licenses"
+	repeat
+	job
+	source
+		attributes forgewanderer
+	description "Gives you the Wanderer, Wanderer Outfits, and Wanderer Military licenses."
+	to offer
+		or
+			not "license: Wanderer"
+			not "license: Wanderer Military"
+			not "license: Wanderer Outfits"
+	on accept
+		set "license: Wanderer"
+		set "license: Wanderer Military"
+		set "license: Wanderer Outfits"
+		fail
+
+mission "Add Unfettered Militia License"
+	repeat
+	job
+	source
+		attributes forgehai
+	description "Gives you an Unfettered Militia license."
+	to offer
+		not "license: Unfettered Militia"
+	on accept
+		set "license: Unfettered Militia"
+		fail
+
+mission "Add Militia License"
+	repeat
+	job
+	source
+		attributes forgehuman
+	description "Gives you a Militia license."
+	to offer
+		not "license: Militia"
+	on accept
+		set "license: Militia"
+		fail
+
+mission "Add Remnant Licenses"
+	repeat
+	job
+	source
+		attributes forge
+	description "Gives you the Remnant and Remnant Capital licenses."
+	to offer
+		or
+			not "license: Remnant"
+			not "license: Remnant Capital"
+	on accept
+		set "license: Remnant"
+		set "license: Remnant Capital"
+		fail
+
+mission "Add Coalition Licenses"
+	repeat
+	job
+	source
+		attributes forgecoalition
+	description "Gives you the Coalition and Heliarch licenses."
+	to offer
+		or
+			not "license: Coalition"
+			not "license: Heliarch"
+	on accept
+		set "license: Coalition"
+		set "license: Heliarch"
+		fail
+
+mission "Add Gegno Licenses"
+	repeat
+	job
+	source
+		attributes forge
+	description "Gives you the Gegno licenses."
+	to offer
+		or
+			not "license: Gegno Civilian"
+			not "license: Gegno Driller"
+			not "license: Vi Lord"
+			not "license: Vi Centurion"
+			not "license: Vi Evocati"
+			not "license: Scin Hoplologist"
+			not "license: Scin Architect"
+			not "license: Scin Adjutant"
+	on accept
+		set "license: Gegno Civilian"
+		set "license: Gegno Driller"
+		set "license: Vi Lord"
+		set "license: Vi Centurion"
+		set "license: Vi Evocati"
+		set "license: Scin Hoplologist"
+		set "license: Scin Architect"
+		set "license: Scin Adjutant"
+		fail
+
+mission "Remove Licenses"
+	repeat
+	job
+	source
+		attributes forge
+	description "Removes all licenses. You can readd the licenses you want by departing the planet and returning to the job board."
+	on accept
+		clear "license: Pilot's"
+		clear "license: City-Ship"
+		clear "license: Navy"
+		clear "license: Navy Auxiliary"
+		clear "license: Navy Cruiser"
+		clear "license: Navy Carrier"
+		clear "license: Wanderer"
+		clear "license: Wanderer Outfits"
+		clear "license: Wanderer Military"
+		clear "license: Unfettered Militia"
+		clear "license: Militia"
+		clear "license: Remnant"
+		clear "license: Remnant Capital"
+		clear "license: Coalition"
+		clear "license: Heliarch"
+		clear "license: Gegno Civilian"
+		clear "license: Gegno Driller"
+		clear "license: Vi Lord"
+		clear "license: Vi Centurion"
+		clear "license: Vi Evocati"
+		clear "license: Scin Hoplologist"
+		clear "license: Scin Architect"
+		clear "license: Scin Adjutant"
+		fail
+
+mission "Reset Reputation"
+	repeat
+	job
+	source
+		attributes forge
+	description "Reset your reputation with all governments to the default."
+	on offer
+		"reputation: Alpha" = -1000
+		"reputation: Author" = 1
+		"reputation: Builder" = 0
+		"reputation: Bounty" = -1000
+		"reputation: Bounty (Disguised)" = 1
+		"reputation: Bounty Hunter" = -1000
+		"reputation: Coalition" = 1
+		"reputation: Deep" = -1000
+		"reputation: Deep Security" = 1
+		"reputation: Derelict" = 0
+		"reputation: Drak" = 1
+		"reputation: Drak (Hostile)" = -1000
+		"reputation: Free Worlds" = 1
+		"reputation: Hai" = 0
+		"reputation: Hai (Wormhole Access)" = 0
+		"reputation: Hai (Unfettered)" = -1000
+		"reputation: Heliarch" = 1
+		"reputation: Independent" = 10
+		"reputation: Independent (Killable)" = 10
+		"reputation: Indigenous Lifeform" = 1
+		"reputation: Ka'het" = -1
+		"reputation: Ka'het (Infighting)" = -1
+		"reputation: Korath" = -10
+		"reputation: Korath Nanobots" = -1000
+		"reputation: Kor Efret" = 1
+		"reputation: Kor Mereti" = -1000
+		"reputation: Kor Mereti (Hostile)" = -1000
+		"reputation: Kor Sestor" = -1000
+		"reputation: Marauder" = 1
+		"reputation: Merchant" = 10
+		"reputation: Militia" = 0
+		"reputation: Navy Intelligence" = 0
+		"reputation: Navy (Oathkeeper)" = 100
+		"reputation: Neutral" = 1
+		"reputation: Parrot" = 1
+		"reputation: Pirate" = 10;
+		"reputation: Pug" = 1
+		"reputation: Pug (Wanderer)" = 1
+		"reputation: Quarg" = 1
+		"reputation: Remnant" = 1
+		"reputation: Republic" = 2
+		"reputation: Syndicate" = 2
+		"reputation: Syndicate (Extremist)" = -1000
+		"reputation: Test Dummy" = -1000
+		"reputation: Uninhabited" = 0
+		"reputation: Ember Waste" = 1
+		"reputation: Wanderer" = 1
+		"reputation: Wormhole Alpha" = 0
+		fail
+
+mission "Friendly Quarg"
+	repeat
+	job
+	source
+		attributes forgequarg
+	description "Set your reputation with the Quarg to positive 100,000."
+	to offer
+		"reputation: Quarg" <= 0
+	on accept
+		"reputation: Quarg" = 100000
+		fail
+
+mission "Friendly Wanderer"
+	repeat
+	job
+	source
+		attributes forgewanderer
+	description "Set your reputation with the Wanderer to positive 100,000."
+	to offer
+		"reputation: Wanderer" <= 0
+	on accept
+		"reputation: Wanderer" = 100000
+		fail
+
+mission "Friendly Hai"
+	repeat
+	job
+	source
+		attributes forgehai
+	description "Set your reputation with the Hai to positive 100,000."
+	to offer
+		"reputation: Hai" <= 0
+	on accept
+		"reputation: Hai" = 100000
+		fail
+
+mission "Friendly Hai (Unfettered)"
+	repeat
+	job
+	source
+		attributes forgehai
+	description "Set your reputation with the Hai (Unfettered) to positive 100,000."
+	to offer
+		"reputation: Hai (Unfettered)" <= 0
+	on accept
+		"reputation: Hai (Unfettered)" = 100000
+		fail
+
+mission "Friendly Pug"
+	repeat
+	job
+	source
+		attributes forgepug
+	description "Set your reputation with the Pug to positive 100,000."
+	to offer
+		"reputation: Pug" <= 0
+	on accept
+		"reputation: Pug" = 100000
+		fail
+
+mission "Friendly Pirates"
+	repeat
+	job
+	source
+		attributes forgehuman
+	description "Set your reputation with Pirates to positive 100,000."
+	to offer
+		"reputation: Pirate" <= 0
+	on accept
+		"reputation: Pirate" = 100000
+		fail
+
+mission "Friendly Syndicate"
+	repeat
+	job
+	source
+		attributes forgehuman
+	description "Set your reputation with the Syndicate to positive 100,000."
+	to offer
+		"reputation: Syndicate" <= 0
+	on accept
+		"reputation: Syndicate" = 100000
+		fail
+
+mission "Friendly Republic"
+	repeat
+	job
+	source
+		attributes forgehuman
+	description "Set your reputation with the Republic to positive 100,000."
+	to offer
+		"reputation: Republic" <= 0
+	on accept
+		"reputation: Republic" = 100000
+		fail
+
+mission "Friendly Free Worlds"
+	repeat
+	job
+	source
+		attributes forgehuman
+	description "Set your reputation with the Free Worlds to positive 100,000."
+	to offer
+		"reputation: Free Worlds" <= 0
+	on accept
+		"reputation: Free Worlds" = 100000
+		fail
+
+mission "Friendly Militia"
+	repeat
+	job
+	source
+		attributes forgehuman
+	description "Set your reputation with the Militia to positive 100,000."
+	to offer
+		"reputation: Militia" <= 0
+	on accept
+		"reputation: Militia" = 100000
+		fail
+
+mission "Friendly Merchants"
+	repeat
+	job
+	source
+		attributes forgehuman
+	description "Set your reputation with Merchants to positive 100,000."
+	to offer
+		"reputation: Merchant" <= 0
+	on accept
+		"reputation: Merchant" = 100000
+		fail
+
+mission "Friendly Navy (Oathkeeper)"
+	repeat
+	job
+	source
+		attributes forgehuman
+	description "Set your reputation with the Navy (Oathkeeper) to positive 100,000."
+	to offer
+		"reputation: Navy (Oathkeeper)" <= 0
+	on accept
+		"reputation: Navy (Oathkeeper)" = 100000
+		fail
+
+mission "Friendly Korath"
+	repeat
+	job
+	source
+		attributes forgekorath
+	description "Set your reputation with the Korath to positive 100,000."
+	to offer
+		"reputation: Korath" <= 0
+	on accept
+		"reputation: Korath" = 100000
+		fail
+
+mission "Friendly Kor Efret"
+	repeat
+	job
+	source
+		attributes forgekorath
+	description "Set your reputation with the Kor Efret to positive 100,000."
+	to offer
+		"reputation: Kor Efret" <= 0
+	on accept
+		"reputation: Kor Efret" = 100000
+		fail
+
+mission "Friendly Kor Mereti"
+	repeat
+	job
+	source
+		attributes forgekorath
+	description "Set your reputation with the Kor Mereti to positive 100,000."
+	to offer
+		"reputation: Kor Mereti" <= 0
+	on accept
+		"reputation: Kor Mereti" = 100000
+		fail
+
+mission "Friendly Kor Sestor"
+	repeat
+	job
+	source
+		attributes forgekorath
+	description "Set your reputation with the Kor Sestor to positive 100,000."
+	to offer
+		"reputation: Kor Sestor" <= 0
+	on accept
+		"reputation: Kor Sestor" = 100000
+		fail
+
+mission "Friendly Coalition"
+	repeat
+	job
+	source
+		attributes forgecoalition
+	description "Set your reputation with the Coalition to positive 100,000."
+	to offer
+		"reputation: Coalition" <= 0
+	on accept
+		"reputation: Coalition" = 100000
+		fail
+
+mission "Friendly Heliarch"
+	repeat
+	job
+	source
+		attributes forgecoalition
+	description "Set your reputation with the Heliarch to positive 100,000."
+	to offer
+		"reputation: Heliarch" <= 0
+	on accept
+		"reputation: Heliarch" = 100000
+		fail
+
+mission "Friendly Remnant"
+	repeat
+	job
+	source
+		attributes forge
+	description "Set your reputation with the Remnant to positive 100,000."
+	to offer
+		"reputation: Remnant" <= 0
+	on accept
+		"reputation: Remnant" = 100000
+		fail
+
+mission "Friendly Drak"
+	repeat
+	job
+	source
+		attributes forgedrak
+	description "Set your reputation with the Drak to positive 100,000."
+	to offer
+		"reputation: Drak" <= 0
+	on accept
+		"reputation: Drak" = 100000
+		fail
+
+mission "Friendly Gegno"
+	repeat
+	job
+	source
+		attributes forge
+	description "Set your reputation with the Gegno to positive 100,000."
+	to offer
+		"reputation: Gegno" < 0
+	on accept
+		"reputation: Gegno" = 100000
+		fail
+
+mission "Friendly Gegno Scin"
+	repeat
+	job
+	source
+		attributes forge
+	description "Set your reputation with the Gegno Scin to positive 100,000."
+	to offer
+		"reputation: Gegno Scin" < 0
+	on accept
+		"reputation: Gegno Scin" = 100000
+		fail
+
+mission "Friendly Gegno Vi"
+	repeat
+	job
+	source
+		attributes forge
+	description "Set your reputation with the Gegno Vi to positive 100,000."
+	to offer
+		"reputation: Gegno Vi" < 0
+	on accept
+		"reputation: Gegno Vi" = 100000
+		fail
+
+mission "Hostile Quarg"
+	repeat
+	job
+	source
+		attributes forgequarg
+	description "Set your reputation with the Quarg to negative 100,000."
+	to offer
+		"reputation: Quarg" >= 0
+	on accept
+		"reputation: Quarg" = -100000
+		fail
+
+mission "Hostile Wanderer"
+	repeat
+	job
+	source
+		attributes forgewanderer
+	description "Set your reputation with the Wanderer to negative 100,000."
+	to offer
+		"reputation: Wanderer" >= 0
+	on accept
+		"reputation: Wanderer" = -100000
+		fail
+
+mission "Hostile Hai"
+	repeat
+	job
+	source
+		attributes forgehai
+	description "Set your reputation with the Hai to negative 100,000."
+	to offer
+		"reputation: Hai" >= 0
+	on accept
+		"reputation: Hai" = -100000
+		fail
+
+mission "Hostile Hai (Unfettered)"
+	repeat
+	job
+	source
+		attributes forgehai
+	description "Set your reputation with the Hai (Unfettered) to negative 100,000."
+	to offer
+		"reputation: Hai (Unfettered)" >= 0
+	on accept
+		"reputation: Hai (Unfettered)" = -100000
+		fail
+
+mission "Hostile Pug"
+	repeat
+	job
+	source
+		attributes forgepug
+	description "Set your reputation with the Pug to negative 100,000."
+	to offer
+		"reputation: Pug" >= 0
+	on accept
+		"reputation: Pug" = -100000
+		fail
+
+mission "Hostile Pirates"
+	repeat
+	job
+	source
+		attributes forgehuman
+	description "Set your reputation with Pirates to negative 100,000."
+	to offer
+		"reputation: Pirate" >= 0
+	on accept
+		"reputation: Pirate" = -100000
+		fail
+
+mission "Hostile Syndicate"
+	repeat
+	job
+	source
+		attributes forgehuman
+	description "Set your reputation with the Syndicate to negative 100,000."
+	to offer
+		"reputation: Syndicate" >= 0
+	on accept
+		"reputation: Syndicate" = -100000
+		fail
+
+mission "Hostile Republic"
+	repeat
+	job
+	source
+		attributes forgehuman
+	description "Set your reputation with the Republic to negative 100,000."
+	to offer
+		"reputation: Republic" >= 0
+	on accept
+		"reputation: Republic" = -100000
+		fail
+
+mission "Hostile Free Worlds"
+	repeat
+	job
+	source
+		attributes forgehuman
+	description "Set your reputation with the Free Worlds to negative 100,000."
+	to offer
+		"reputation: Free Worlds" >= 0
+	on accept
+		"reputation: Free Worlds" = -100000
+		fail
+
+mission "Hostile Militia"
+	repeat
+	job
+	source
+		attributes forgehuman
+	description "Set your reputation with the Militia to negative 100,000."
+	to offer
+		"reputation: Militia" >= 0
+	on accept
+		"reputation: Militia" = -100000
+		fail
+
+mission "Hostile Merchants"
+	repeat
+	job
+	source
+		attributes forgehuman
+	description "Set your reputation with Merchants to negative 100,000."
+	to offer
+		"reputation: Merchant" >= 0
+	on accept
+		"reputation: Merchant" = -100000
+		fail
+
+mission "Hostile Navy (Oathkeeper)"
+	repeat
+	job
+	source
+		attributes forgehuman
+	description "Set your reputation with the Navy (Oathkeeper) to negative  100,000."
+	to offer
+		"reputation: Navy (Oathkeeper)" >= 0
+	on accept
+		"reputation: Navy (Oathkeeper)" = -100000
+		fail
+
+mission "Hostile Korath"
+	repeat
+	job
+	source
+		attributes forgekorath
+	description "Set your reputation with the Korath to negative 100,000."
+	to offer
+		"reputation: Korath" >= 0
+	on accept
+		"reputation: Korath" = -100000
+		fail
+
+mission "Hostile Kor Efret"
+	repeat
+	job
+	source
+		attributes forgekorath
+	description "Set your reputation with the Kor Efret to negative 100,000."
+	to offer
+		"reputation: Kor Efret" >= 0
+	on accept
+		"reputation: Kor Efret" = -100000
+		fail
+
+mission "Hostile Kor Mereti"
+	repeat
+	job
+	source
+		attributes forgekorath
+	description "Set your reputation with the Kor Mereti to negative 100,000."
+	to offer
+		"reputation: Kor Mereti" >= 0
+	on accept
+		"reputation: Kor Mereti" = -100000
+		fail
+
+mission "Hostile Kor Sestor"
+	repeat
+	job
+	source
+		attributes forgekorath
+	description "Set your reputation with the Kor Sestor to negative 100,000."
+	to offer
+		"reputation: Kor Sestor" >= 0
+	on accept
+		"reputation: Kor Sestor" = -100000
+		fail
+
+mission "Hostile Coalition"
+	repeat
+	job
+	source
+		attributes forgecoalition
+	description "Set your reputation with the Coalition to negative 100,000."
+	to offer
+		"reputation: Coalition" >= 0
+	on accept
+		"reputation: Coalition" = -100000
+		fail
+
+mission "Hostile Heliarch"
+	repeat
+	job
+	source
+		attributes forgecoalition
+	description "Set your reputation with the Heliarch to negative 100,000."
+	to offer
+		"reputation: Heliarch" >= 0
+	on accept
+		"reputation: Heliarch" = -100000
+		fail
+
+mission "Hostile Remnant"
+	repeat
+	job
+	source
+		attributes forge
+	description "Set your reputation with the Remnant to negative 100,000."
+	to offer
+		"reputation: Remnant" >= 0
+	on accept
+		"reputation: Remnant" = -100000
+		fail
+
+mission "Hostile Drak"
+	repeat
+	job
+	source
+		attributes forgedrak
+	description "Set your reputation with the Drak to negative 100,000."
+	to offer
+		"reputation: Drak" >= 0
+	on accept
+		"reputation: Drak" = -100000
+		fail
+
+mission "Hostile Gegno"
+	repeat
+	job
+	source
+		attributes forge
+	description "Set your reputation with the Gegno to negative 100,000."
+	to offer
+		"reputation: Gegno" > 0
+	on accept
+		"reputation: Gegno" = -100000
+		fail
+
+mission "Hostile Gegno Scin"
+	repeat
+	job
+	source
+		attributes forge
+	description "Set your reputation with the Gegno Scin to negative 100,000."
+	to offer
+		"reputation: Gegno Scin" > 0
+	on accept
+		"reputation: Gegno Scin" = -100000
+		fail
+
+mission "Hostile Gegno Vi"
+	repeat
+	job
+	source
+		attributes forge
+	description "Set your reputation with the Gegno Vi to negative 100,000."
+	to offer
+		"reputation: Gegno Vi" > 0
+	on accept
+		"reputation: Gegno Vi" = -100000
+		fail
+
 event "remove shaulaee hidden"
 	system Shaulaee
 		remove hidden
-	visit Sol
+	visit "1 Axis"
+	visit "10 Pole"
+	visit "11 Autumn Above"
+	visit "11 Spring Below"
+	visit "12 Autumn Above"
+	visit "14 Pole"
+	visit "14 Summer Above"
+	visit "14 Winter Below"
+	visit "16 Autumn Rising"
+	visit "3 Axis"
+	visit "3 Pole"
+	visit "3 Spring Rising"
+	visit "4 Axis"
+	visit "4 Spring Rising"
+	visit "4 Summer Rising"
+	visit "4 Winter Rising"
+	visit "5 Axis"
+	visit "5 Spring Below"
+	visit "5 Summer Above"
+	visit "5 Winter Above"
+	visit "7 Autumn Rising"
+	visit "8 Winter Below"
+	visit "9 Spring Above"
+	visit "Ablodab"
+	visit "Ablub"
+	visit "Acamar"
+	visit "Achernar"
+	visit "Acnanjo"
+	visit "Acrux"
+	visit "Actannka"
+	visit "Adhara"
+	visit "Ae Ce L-332"
+	visit "Ae Ce Q-761"
+	visit "Ae Il A-3"
+	visit "Ae Il B-11"
+	visit "Ae Il F-46"
+	visit "Ae Il G-66"
+	visit "Ae Il H-24"
+	visit "Ae Il I-99"
+	visit "Ae Il M-77"
+	visit "Ae Il O-96"
+	visit "Aescolanus"
+	visit "Aierena"
+	visit "Aik Kamgatake"
+	visit "Aki'il"
+	visit "Aksek"
+	visit "Al Dhanab"
+	visit "Al Hurr"
+	visit "Albaldah"
+	visit "Albireo"
+	visit "Alcyone"
+	visit "Aldebaran"
+	visit "Alderamin"
+	visit "Aldhibain"
+	visit "Aleit"
+	visit "Algenib"
+	visit "Algieba"
+	visit "Algol"
+	visit "Algorel"
+	visit "Alheka"
+	visit "Alhena"
+	visit "Alioth"
+	visit "Alkaid"
+	visit "Almaaz"
+	visit "Almach"
+	visit "Alnair"
+	visit "Alnasl"
+	visit "Alnilam"
+	visit "Alnitak"
+	visit "Alniyat"
+	visit "Alpha Arae"
+	visit "Alpha Centauri"
+	visit "Alpha Hydri"
+	visit "Alphard"
+	visit "Alphecca"
+	visit "Alpheratz"
+	visit "Altair"
+	visit "Aludra"
+	visit "Anbrim"
+	visit "Ancient Hope"
+	visit "Ankaa"
+	visit "Answer"
+	visit "Antares"
+	visit "Antevorta"
+	visit "Ap'arak"
+	visit "Arcturus"
+	visit "Arculus"
+	visit "Arena"
+	visit "Arneb"
+	visit "Ascella"
+	visit "Asikafarnut"
+	visit "Asio"
+	visit "Aspidiske"
+	visit "Atik"
+	visit "Atria"
+	visit "Auhru"
+	visit "Avior"
+	visit "Avo Chigo"
+	visit "Aya'k'k"
+	visit "Beginning"
+	visit "Bellatrix"
+	visit "Belonging"
+	visit "Belug"
+	visit "Belugt"
+	visit "Beta Lupi"
+	visit "Betelgeuse"
+	visit "Bloptab"
+	visit "Blubipad"
+	visit "Blugtad"
+	visit "Boral"
+	visit "Bore Fah"
+	visit "Bosuno Le"
+	visit "Bote Asu"
+	visit "Bright Void"
+	visit "Broken Bowl"
+	visit "Builder"
+	visit "Bunri Lemeta"
+	visit "Bunrodea"
+	visit "Caeculus"
+	visit "Canopus"
+	visit "Capella"
+	visit "Caph"
+	visit "Cardax"
+	visit "Cardea"
+	visit "Castor"
+	visit "Cebalrai"
+	visit "Celeborim"
+	visit "Chikatip"
+	visit "Chimitarp"
+	visit "Chirr'ay'akai"
+	visit "Chornifath"
+	visit "Chy'chra"
+	visit "Cinxia"
+	visit "Coalition"
+	visit "Coluber"
+	visit "Companion"
+	visit "Convector"
+	visit "Cor Caroli"
+	visit "Cotpoxi"
+	visit "Cshudlye"
+	visit "Da Ent"
+	visit "Da Lest"
+	visit "Dabih"
+	visit "Danoa"
+	visit "Dark Hills"
+	visit "Debrugt"
+	visit "Deep Space 19K12"
+	visit "Deep Space 19M1"
+	visit "Deep Space 19M2"
+	visit "Deep Space 19M5"
+	visit "Deep Space 1Q"
+	visit "Deep Space 1X"
+	visit "Deep Space 5J"
+	visit "Deep Space 5N"
+	visit "Deep Space 5T"
+	visit "Deep Space 7C"
+	visit "Deep Space 7F"
+	visit "Delia"
+	visit "Delta Capricorni"
+	visit "Delta Sagittarii"
+	visit "Delta Velorum"
+	visit "Deneb"
+	visit "Denebola"
+	visit "Deprecated+Mods"
+	visit "Devil-Hide"
+	visit "Devil-Run"
+	visit "Diespiter"
+	visit "Diphda"
+	visit "Dixere"
+	visit "Dokdobaru"
+	visit "Drak"
+	visit "Dschubba"
+	visit "Dubhe"
+	visit "Due Yoot"
+	visit "Durax"
+	visit "E-4183"
+	visit "E-9182"
+	visit "Eber"
+	visit "Eblumab"
+	visit "Edusa"
+	visit "Eebu"
+	visit "Egeria"
+	visit "Ehma Ti"
+	visit "Ek'kek'ru"
+	visit "Ekuarik"
+	visit "Elabi Choati"
+	visit "Elifennka"
+	visit "Elnath"
+	visit "Elo Chigo"
+	visit "Eltanin"
+	visit "Empeles"
+	visit "Eneremprukt"
+	visit "Eneva Katta"
+	visit "Enif"
+	visit "Eogho"
+	visit "Epsilon Leonis"
+	visit "Era Natta"
+	visit "Erabu Lemeta"
+	visit "Eragaru Le"
+	visit "Erba Yle"
+	visit "Es'sprak'ai"
+	visit "Eshkoshtar"
+	visit "Esix"
+	visit "Eteron"
+	visit "Evrae"
+	visit "Fah Root"
+	visit "Fah Soom"
+	visit "Fala"
+	visit "Fallen Leaf"
+	visit "Far Horizon"
+	visit "Farbutero"
+	visit "Farinus"
+	visit "Faronektu"
+	visit "Fasitopfar"
+	visit "Fearis"
+	visit "Fell Omen"
+	visit "Feraticus"
+	visit "Fereti"
+	visit "Feroteri"
+	visit "Ferukistek"
+	visit "Fingol"
+	visit "Flugbu"
+	visit "Fomalhaut"
+	visit "Fornarep"
+	visit "Four Pillars"
+	visit "Fscher"
+	visit "Furmeliki"
+	visit "G-3191"
+	visit "G-6183"
+	visit "G-719"
+	visit "G-819"
+	visit "Gacrux"
+	visit "Gamma Cassiopeiae"
+	visit "Gamma Corvi"
+	visit "Gaungu"
+	visit "Gegno"
+	visit "Genta Bo"
+	visit "Gento Ah"
+	visit "Gerenus"
+	visit "Ghhil"
+	visit "Gienah"
+	visit "Giribea"
+	visit "Girtab"
+	visit "Glubatub"
+	visit "Gomeisa"
+	visit "Good Omen"
+	visit "Gorvi"
+	visit "Graffias"
+	visit "Gualetri"
+	visit "Gupta"
+	visit "H-8188"
+	visit "H-9187"
+	visit "Hadar"
+	visit "Hai"
+	visit "Hamal"
+	visit "Han"
+	visit "Hassaleh"
+	visit "Hatysa"
+	visit "Heia Due"
+	visit "Hesselpost"
+	visit "Heutesl"
+	visit "Hevru Hai"
+	visit "Hi Yahr"
+	visit "Hintar"
+	visit "Holeb"
+	visit "Homeward"
+	visit "Host"
+	visit "Human"
+	visit "Hunter"
+	visit "Huud"
+	visit "Iigen"
+	visit "Iinjma"
+	visit "Iise"
+	visit "Ik'kara'ka"
+	visit "Ildaria"
+	visit "Iliniza"
+	visit "Ilirco"
+	visit "Imo Dep"
+	visit "Insitor"
+	visit "Io Lowe"
+	visit "Io Mann"
+	visit "Ipsing"
+	visit "Is Ce B-139"
+	visit "Is Ce F-422"
+	visit "Is Ce G-460"
+	visit "Is Ce J-591"
+	visit "Is Il T-127"
+	visit "Is Il T-94"
+	visit "Is Il V-263"
+	visit "Is Il X-626"
+	visit "Is Il Z-59"
+	visit "Is Il Z-814"
+	visit "Iyech'yek"
+	visit "Izar"
+	visit "Jentu Centi"
+	visit "Jentu Le"
+	visit "Jied"
+	visit "Jyeg Pvu"
+	visit "Jyelio"
+	visit "Ka'ch'chrai"
+	visit "Ka'pru"
+	visit "Kaliptari"
+	visit "Kanguwa"
+	visit "Kappa Centauri"
+	visit "Karhio"
+	visit "Kashikt"
+	visit "Kasikfar"
+	visit "Kaus Australis"
+	visit "Kaus Borealis"
+	visit "Ki War Ek"
+	visit "Kifrana Terberah"
+	visit "Kilema"
+	visit "Kiluit"
+	visit "Kiro'ku"
+	visit "Kiru'kichi"
+	visit "Kneirc"
+	visit "Kochab"
+	visit "Kor Ak'Mari"
+	visit "Kor En'lakfar"
+	visit "Kor Fel'tar"
+	visit "Kor Men"
+	visit "Kor Nor'peli"
+	visit "Kor Tar'bei"
+	visit "Kor Zena'i"
+	visit "Korath"
+	visit "Kornephoros"
+	visit "Korsmanath"
+	visit "Kraz"
+	visit "Kugel"
+	visit "Kursa"
+	visit "L-118"
+	visit "L-6181"
+	visit "Last Word"
+	visit "Lesath"
+	visit "Levana"
+	visit "Limen"
+	visit "Lire"
+	visit "Lloloi"
+	visit "Lolami"
+	visit "Lom Tahr"
+	visit "Lone Cloud"
+	visit "Lucina"
+	visit "Lurata"
+	visit "M-1188"
+	visit "MC-42"
+	visit "MS-219"
+	visit "Makferuti"
+	visit "Maoni"
+	visit "Markab"
+	visit "Markeb"
+	visit "Matar"
+	visit "Mebla"
+	visit "Meblumem"
+	visit "Mebsuta"
+	visit "Meftarkata"
+	visit "Mego Faro"
+	visit "Mego Inito"
+	visit "Mego Seo"
+	visit "Mei Yohn"
+	visit "Mekislepti"
+	visit "Men"
+	visit "Menkalinan"
+	visit "Menkar"
+	visit "Menkent"
+	visit "Merak"
+	visit "Mesuket"
+	visit "Miaplacidus"
+	visit "Miblulub"
+	visit "Mimosa"
+	visit "Minkar"
+	visit "Mintaka"
+	visit "Mirach"
+	visit "Mirfak"
+	visit "Mirzam"
+	visit "Misam"
+	visit "Misc"
+	visit "Mizar"
+	visit "Mnashyu"
+	visit "Mohuwo"
+	visit "Moktar"
+	visit "Mora"
+	visit "Msalbit"
+	visit "Muhlifain"
+	visit "Muphrid"
+	visit "Naos"
+	visit "Naper"
+	visit "Nenia"
+	visit "Nihal"
+	visit "Nnatai"
+	visit "Nnaug"
+	visit "Nocte"
+	visit "Nona"
+	visit "Nssryos"
+	visit "Nunki"
+	visit "O-3184"
+	visit "Oblate"
+	visit "Oihaug"
+	visit "Ookmya"
+	visit "Oosuoro"
+	visit "Orbona"
+	visit "Origin"
+	visit "Orvala"
+	visit "Ossipago"
+	visit "Over the Rainbow"
+	visit "Paeli"
+	visit "Pantica"
+	visit "Parca"
+	visit "Paru Paru"
+	visit "Patir"
+	visit "Pbelnep"
+	visit "Peacock"
+	visit "Pelubta"
+	visit "Peragenor"
+	visit "Peresedersi"
+	visit "Perfica"
+	visit "Persian"
+	visit "Persitar"
+	visit "Phact"
+	visit "Phecda"
+	visit "Pherkad"
+	visit "Phurad"
+	visit "Piadenli"
+	visit "Pik'ro'iyak"
+	visit "Plort"
+	visit "Polaris"
+	visit "Polerius"
+	visit "Pollux"
+	visit "Porrima"
+	visit "Postverta"
+	visit "Prakacha'a"
+	visit "Procyon"
+	visit "Prosa"
+	visit "Ptetubo"
+	visit "Ptobeh"
+	visit "Pug"
+	visit "Pug Iyik"
+	visit "Pukako"
+	visit "Quarg"
+	visit "Quaru"
+	visit "Queri"
+	visit "Rajak"
+	visit "Rasalhague"
+	visit "Rastaban"
+	visit "Rati Cal"
+	visit "Ravu Kon"
+	visit "Regor"
+	visit "Regulus"
+	visit "Relifer"
+	visit "Remembrance"
+	visit "Remnant"
+	visit "Rigel"
+	visit "Ritilas"
+	visit "Rouseu"
+	visit "Ruchbah"
+	visit "Rutilicus"
+	visit "Sabik"
+	visit "Sabriset"
+	visit "Sadalmelik"
+	visit "Sadalsuud"
+	visit "Sadr"
+	visit "Sagittarius A*"
+	visit "Saiph"
+	visit "Salipastart"
+	visit "Saquergen"
+	visit "Sargas"
+	visit "Sarin"
+	visit "Sayaiban"
+	visit "Scheat"
+	visit "Schedar"
+	visit "Scija"
+	visit "Segesta"
+	visit "Seginus"
+	visit "Seketra"
+	visit "Sepetrosk"
+	visit "Sepriaptu"
+	visit "Sera Natta"
+	visit "Sevrelect"
+	visit "Shaula"
+	visit "Sheratan"
+	visit "Shini Bori"
+	visit "Si'yak'ku"
+	visit "Sich'ka'ara"
+	visit "Silikatakfar"
+	visit "Silver Bell"
+	visit "Silver String"
+	visit "Similisti"
+	visit "Sirius"
+	visit "Skeruto"
+	visit "Sko'karak"
+	visit "Sobarati"
+	visit "Sol"
+	visit "Sol Arach"
+	visit "Sol Kimek"
+	visit "Sol Saryd"
+	visit "Solifar"
+	visit "Sospi"
+	visit "Speloog"
+	visit "Spica"
+	visit "Statina"
+	visit "Steep Roof"
+	visit "Stercutus"
+	visit "Suhail"
+	visit "Sumar"
+	visit "Sumprast"
+	visit "Tais"
+	visit "Talita"
+	visit "Tania Australis"
+	visit "Tarazed"
+	visit "Team Blue"
+	visit "Team Red"
+	visit "Tebuteb"
+	visit "Tejat"
+	visit "Terminus"
+	visit "Terra Incognita"
+	visit "Thshybo Le"
+	visit "Torbab"
+	visit "Tortor"
+	visit "Tscera"
+	visit "Turais"
+	visit "U-5188"
+	visit "Uelawan"
+	visit "Uhebe"
+	visit "Ula Mon"
+	visit "Ultima Thule"
+	visit "Umbral"
+	visit "Unagi"
+	visit "Unukalhai"
+	visit "Urba Pest"
+	visit "Uttna"
+	visit "Uwa Fahn"
+	visit "Uwo Seija"
+	visit "V-2189"
+	visit "Vaiov"
+	visit "Vanguwo"
+	visit "Vaticanus"
+	visit "Vega"
+	visit "Vesvii"
+	visit "Vilacira"
+	visit "Vindemiatrix"
+	visit "Volax"
+	visit "Vorsuke"
+	visit "Vulcuja"
+	visit "W-3197"
+	visit "Wah Ki"
+	visit "Wah Oh"
+	visit "Wah Yoot"
+	visit "Wanderer"
+	visit "Waypoint"
+	visit "Wazn"
+	visit "Wei"
+	visit "Wezen"
+	visit "World's End"
+	visit "Wreoul"
+	visit "Xutluno Fali"
+	visit "Xutluno Rees"
+	visit "Ya Hai"
+	visit "Yed Prior"
+	visit "Yerser"
+	visit "Yli"
+	visit "Yllke"
+	visit "Yranjiu"
+	visit "Zaurak"
+	visit "Zeinar"
+	visit "Zeta Aquilae"
+	visit "Zeta Centauri"
+	visit "Zolpulti"
+	visit "Zosma"
+	visit "Zuba Zub"
+	visit "Zubenelgenubi"
+	visit "Zubenelhakrabi"
+	visit "Zubeneschamali"
+	"visit planet" "Ablub's Invention"
+	"visit planet" "Ada"
+	"visit planet" "Aetuah"
+	"visit planet" "Ahr"
+	"visit planet" "Aksaray"
+	"visit planet" "Albatross"
+	"visit planet" "Alexandria"
+	"visit planet" "Alfheim"
+	"visit planet" "Alix"
+	"visit planet" "Allhome"
+	"visit planet" "Alta Hai"
+	"visit planet" "Amazon"
+	"visit planet" "Angko"
+	"visit planet" "Antipode"
+	"visit planet" "Arabia"
+	"visit planet" "Arachne Station"
+	"visit planet" "Aresepru Nat"
+	"visit planet" "Arroharg"
+	"visit planet" "Asgard"
+	"visit planet" "Ashy Reach"
+	"visit planet" "Aspiration"
+	"visit planet" "Author"
+	"visit planet" "Avalon"
+	"visit planet" "Aventine"
+	"visit planet" "Babiali"
+	"visit planet" "Baianus"
+	"visit planet" "Bank of Blugtad"
+	"visit planet" "Belug's Plunge"
+	"visit planet" "Beryl"
+	"visit planet" "Big Sky"
+	"visit planet" "Bivrost"
+	"visit planet" "Bloodsea"
+	"visit planet" "Bloptab's Furnace"
+	"visit planet" "Blubipad's Workshop"
+	"visit planet" "Blue Interior"
+	"visit planet" "Bluerun"
+	"visit planet" "Bluestone"
+	"visit planet" "Bosunothro"
+	"visit planet" "Bounty"
+	"visit planet" "Bourne"
+	"visit planet" "Brass Second"
+	"visit planet" "Bright Echo"
+	"visit planet" "Buccaneer Bay"
+	"visit planet" "Builder"
+	"visit planet" "Builder Settlement"
+	"visit planet" "Bunrodea"
+	"visit planet" "Bunthro"
+	"visit planet" "Burthen"
+	"visit planet" "Byruca"
+	"visit planet" "Caelian"
+	"visit planet" "Calda"
+	"visit planet" "Canyon"
+	"visit planet" "Capitoline"
+	"visit planet" "Carbuncle Station"
+	"visit planet" "Ceaseless Toil"
+	"visit planet" "Ceilia'sei"
+	"visit planet" "Celeatis"
+	"visit planet" "Celestial Third"
+	"visit planet" "Charon Station"
+	"visit planet" "Charybdis Station"
+	"visit planet" "Chiron"
+	"visit planet" "Chosen Nexus"
+	"visit planet" "Cipi"
+	"visit planet" "Clark"
+	"visit planet" "Clink"
+	"visit planet" "Cloudfire"
+	"visit planet" "Coalition"
+	"visit planet" "Cold Horizon"
+	"visit planet" "Cool Forest"
+	"visit planet" "Cornucopia"
+	"visit planet" "Corral of Meblumem"
+	"visit planet" "Covert"
+	"visit planet" "Crataegusa"
+	"visit planet" "Crossroads"
+	"visit planet" "Cyife"
+	"visit planet" "Dancer"
+	"visit planet" "Darkcloak"
+	"visit planet" "Darkmetal"
+	"visit planet" "Darkrest"
+	"visit planet" "Darkstone"
+	"visit planet" "Darkwaste"
+	"visit planet" "Deadman's Cove"
+	"visit planet" "Deep"
+	"visit planet" "Deep Treasure"
+	"visit planet" "Deep Water"
+	"visit planet" "Deka Dathnak"
+	"visit planet" "Deli Kasi"
+	"visit planet" "Deli Kat"
+	"visit planet" "Delve"
+	"visit planet" "Delve of Bloptab"
+	"visit planet" "Deprecated"
+	"visit planet" "Desi Seledrak"
+	"visit planet" "Devil-Eye"
+	"visit planet" "Devil-Run Wormhole"
+	"visit planet" "Devru Kaska"
+	"visit planet" "Diligent Hand"
+	"visit planet" "Disara"
+	"visit planet" "Dlia Jzaur"
+	"visit planet" "Double Haze"
+	"visit planet" "Drak"
+	"visit planet" "Drekag Firask"
+	"visit planet" "Dueitch Ae"
+	"visit planet" "Dueyu Eitch"
+	"visit planet" "Dune"
+	"visit planet" "Dusk Companion"
+	"visit planet" "Dustmaker"
+	"visit planet" "Dwelling of Speloog"
+	"visit planet" "Earth"
+	#"visit planet" "Eavine"
+	"visit planet" "Echo"
+	"visit planet" "Eeu Mnai"
+	"visit planet" "Ef Aourtdye"
+	"visit planet" "Ef Osch"
+	"visit planet" "Eldergrasp"
+	"visit planet" "Elek Kartanu"
+	"visit planet" "Elenchus"
+	"visit planet" "Ember Gegno"
+	"visit planet" "Ember Graveyard"
+	"visit planet" "Ember Reaches"
+	"visit planet" "Ember Threshold"
+	"visit planet" "Ember Wormhole"
+	"visit planet" "Eminonu"
+	"visit planet" "Enbye"
+	"visit planet" "Enn Bue"
+	"visit planet" "Erabuthro"
+	"visit planet" "Eragarthro"
+	"visit planet" "Esayaku Fen"
+	"visit planet" "Esek Stovar"
+	"visit planet" "Eskar Kortuka"
+	"visit planet" "Esperaktu Station"
+	"visit planet" "Esquiline"
+	"visit planet" "Essime"
+	"visit planet" "Esstch"
+	"visit planet" "Everhope"
+	"visit planet" "Everything"
+	"visit planet" "Factory of Eblumab"
+	"visit planet" "Far Garden"
+	"visit planet" "Far Home"
+	"visit planet" "Far Monad"
+	"visit planet" "Far'en Lai"
+	"visit planet" "Fara Skaeruti"
+	"visit planet" "Farpoint"
+	"visit planet" "Farseer"
+	"visit planet" "Farwater"
+	"visit planet" "Featherweight"
+	"visit planet" "Fek Rembatu"
+	"visit planet" "Fenrir Station"
+	"visit planet" "Fertriery"
+	"visit planet" "Firefall"
+	"visit planet" "Firelode"
+	"visit planet" "Firka Tesk"
+	"visit planet" "Flood"
+	"visit planet" "Flowing Fields"
+	"visit planet" "Follower"
+	"visit planet" "Forge"
+	"visit planet" "Forpelog"
+	"visit planet" "Foundry"
+	"visit planet" "Fourth Shadow"
+	"visit planet" "Freedom"
+	"visit planet" "Frostmark"
+	"visit planet" "Furnace"
+	"visit planet" "Gara Pvu"
+	"visit planet" "Garden Empyreal"
+	"visit planet" "Gegno"
+	"visit planet" "Geminus"
+	"visit planet" "Gemstone"
+	"visit planet" "Gentle Rain"
+	"visit planet" "Geyser"
+	"visit planet" "Ghneoe"
+	"visit planet" "Giaru Gegno"
+	"visit planet" "Giverstone"
+	"visit planet" "Glaze"
+	"visit planet" "Glittering Ice"
+	"visit planet" "Glory"
+	"visit planet" "Goldcrawl"
+	"visit planet" "Graede"
+	"visit planet" "Grakhord"
+	"visit planet" "Graveyard Wormhole (Stable)"
+	"visit planet" "Graveyard Wormhole (Unstable)"
+	"visit planet" "Greenbloom"
+	"visit planet" "Greenrock"
+	"visit planet" "Greenview"
+	"visit planet" "Greenwater"
+	"visit planet" "Gresku Fodar"
+	"visit planet" "Greymoon"
+	"visit planet" "Guardian Array Sapphire"
+	"visit planet" "Gue Faur"
+	"visit planet" "Hai"
+	"visit planet" "Hai-home"
+	"visit planet" "Hammer of Debrugt"
+	"visit planet" "Harmony"
+	"visit planet" "Haven"
+	"visit planet" "Haze"
+	"visit planet" "Heartland"
+	"visit planet" "Heartvalley"
+	"visit planet" "Helheim"
+	"visit planet" "Hephaestus"
+	"visit planet" "Hermes"
+	"visit planet" "Hestia"
+	"visit planet" "Hippocrates"
+	"visit planet" "Hope"
+	"visit planet" "Hopper"
+	"visit planet" "Huginn Station"
+	"visit planet" "Human"
+	"visit planet" "Humanika"
+	"visit planet" "Hydra Station"
+	"visit planet" "Icefall"
+	"visit planet" "Icelake"
+	"visit planet" "Iddesato"
+	"visit planet" "Iemn Eitch"
+	"visit planet" "Illbo Avo"
+	"visit planet" "Illbo Elo"
+	"visit planet" "Ingot"
+	"visit planet" "Inmost Blue"
+	"visit planet" "Into White"
+	"visit planet" "Iritoroost"
+	"visit planet" "Ironfirth"
+	"visit planet" "Janiculum"
+	"visit planet" "Jentuthro"
+	"visit planet" "Jupiter"
+	"visit planet" "Kaeyin"
+	"visit planet" "Kalbai"
+	"visit planet" "Karek Fornati"
+	"visit planet" "Kasichara Fet"
+	"visit planet" "Keneska Fek"
+	"visit planet" "Kessel Sepret"
+	"visit planet" "Ki Patek Ka"
+	"visit planet" "Kisarra"
+	"visit planet" "Korath"
+	"visit planet" "Korati Efreti"
+	"visit planet" "Korbatri Eska"
+	"visit planet" "Kort Kehai"
+	"visit planet" "Kort Vek'kri"
+	"visit planet" "Kraken Station"
+	"visit planet" "Kumkapi"
+	"visit planet" "Kuwaru Efreti"
+	"visit planet" "Lagrange"
+	"visit planet" "Laki Nemparu"
+	"visit planet" "Lenz's Loop"
+	"visit planet" "Letis'sei"
+	"visit planet" "Leviathan Station"
+	"visit planet" "Lichen"
+	"visit planet" "Limejog"
+	"visit planet" "Lodestone"
+	"visit planet" "Longjump"
+	"visit planet" "Luna"
+	"visit planet" "Maelstrom"
+	"visit planet" "Mahoganybox"
+	"visit planet" "Mainsail"
+	"visit planet" "Maker"
+	"visit planet" "Makerplace"
+	"visit planet" "Mani"
+	"visit planet" "MarauderE"
+	"visit planet" "MarauderW"
+	"visit planet" "Market of Gupta"
+	"visit planet" "Mars"
+	"visit planet" "Martini"
+	"visit planet" "Mebla's Portion"
+	"visit planet" "Melenci"
+	"visit planet" "Memory"
+	"visit planet" "Merask Fortuno"
+	"visit planet" "Mere"
+	"visit planet" "Mereti Station"
+	"visit planet" "Miblulub's Plenty"
+	"visit planet" "Midgard"
+	"visit planet" "Midway Emerald"
+	"visit planet" "Millrace"
+	"visit planet" "Mirrorlake"
+	"visit planet" "Mnai"
+	"visit planet" "Mods"
+	#"visit planet" "Mooncreek"
+	"visit planet" "Moonshake"
+	#"visit planet" "Mountaintop"
+	"visit planet" "Muninn Station"
+	"visit planet" "Muspel"
+	"visit planet" "Mutiny"
+	"visit planet" "Mystery"
+	"visit planet" "Nasqueron"
+	"visit planet" "Nearby Jade"
+	"visit planet" "Nepheritis"
+	"visit planet" "New Argentina"
+	"visit planet" "New Austria"
+	"visit planet" "New Boston"
+	"visit planet" "New Britain"
+	"visit planet" "New China"
+	"visit planet" "New Finding"
+	"visit planet" "New Greenland"
+	"visit planet" "New Holland"
+	"visit planet" "New Iceland"
+	"visit planet" "New India"
+	"visit planet" "New Kansas"
+	"visit planet" "New Portland"
+	"visit planet" "New Sahara"
+	"visit planet" "New Switzerland"
+	"visit planet" "New Tibet"
+	"visit planet" "New Tortuga"
+	"visit planet" "New Wales"
+	"visit planet" "New Washington"
+	"visit planet" "Newhome"
+	"visit planet" "Nifel"
+	"visit planet" "Nimbus"
+	"visit planet" "Norn"
+	"visit planet" "Oasis"
+	"visit planet" "Oberon Station"
+	"visit planet" "Oblivion"
+	"visit planet" "Ochrescoop"
+	"visit planet" "Ogmur's Siphon"
+	"visit planet" "Okoity"
+	"visit planet" "Olohoa"
+	"visit planet" "Osaeli"
+	"visit planet" "Oup Je"
+	"visit planet" "Painter"
+	"visit planet" "Palarei"
+	"visit planet" "Palatine"
+	"visit planet" "Parii'het"
+	"visit planet" "Passaritus"
+	"visit planet" "Pearl"
+	"visit planet" "Pelubta Station"
+	"visit planet" "Periaxle Circuit"
+	"visit planet" "Phoenix Station"
+	"visit planet" "Pilot"
+	"visit planet" "Pincian"
+	"visit planet" "Placatious"
+	"visit planet" "Placer"
+	"visit planet" "Plort's Water"
+	"visit planet" "Poisonwood"
+	"visit planet" "Poseidos"
+	"visit planet" "Prime"
+	"visit planet" "Pug"
+	"visit planet" "Pug Wormhole"
+	"visit planet" "Pugglemug"
+	"visit planet" "Pugglequat"
+	"visit planet" "Pyriphlegethon"
+	"visit planet" "Quarg"
+	"visit planet" "Quicksilver"
+	"visit planet" "Quirinal"
+	"visit planet" "Rand"
+	"visit planet" "Redwatch"
+	"visit planet" "Refuge of Belugt"
+	"visit planet" "Rekat Moraski"
+	"visit planet" "Relic"
+	"visit planet" "Remnant"
+	"visit planet" "Remnant Wormhole"
+	"visit planet" "Remote Blue"
+	"visit planet" "Retilie"
+	"visit planet" "Reunion"
+	"visit planet" "Revelation"
+	"visit planet" "Ring of Friendship"
+	"visit planet" "Ring of Power"
+	"visit planet" "Ring of Wisdom"
+	"visit planet" "Ruelogakk"
+	"visit planet" "Ruin"
+	"visit planet" "Rupture"
+	"visit planet" "Rust"
+	"visit planet" "Rusty Second"
+	"visit planet" "Sabira Eseskrai"
+	"visit planet" "Safaresk Enlai"
+	"visit planet" "Sandsnap"
+	"visit planet" "Sandy Two"
+	"visit planet" "Sapira Mereti"
+	"visit planet" "Sardva"
+	"visit planet" "Sarisa Fentra"
+	"visit planet" "Saros"
+	"visit planet" "Sasirka Gatru"
+	#"visit planet" "Scar's Hideout"
+	"visit planet" "Sebarep Atarkis"
+	"visit planet" "Sebra Skira"
+	"visit planet" "Second Cerulean"
+	"visit planet" "Second Rose"
+	"visit planet" "Second Viridian"
+	"visit planet" "Secret Sky"
+	"visit planet" "Sek Alarfarat"
+	"visit planet" "Selefkar Refinery"
+	"visit planet" "Seleptra Nak"
+	"visit planet" "Seli'het"
+	"visit planet" "Separa Tiklar"
+	"visit planet" "Septar Lorku"
+	"visit planet" "Seraglio"
+	"visit planet" "Serpens"
+	"visit planet" "Servian"
+	"visit planet" "Sessiliki Far"
+	"visit planet" "Sestor Ikfar"
+	"visit planet" "Setar Fort"
+	"visit planet" "Shadow of Leaves"
+	"visit planet" "Shadowed Valley"
+	"visit planet" "Shangri-La"
+	"visit planet" "Shifting Sand"
+	"visit planet" "Shih's Locker"
+	"visit planet" "Shiver"
+	"visit planet" "Shorebreak"
+	"visit planet" "Shroud"
+	"visit planet" "Siedi"
+	"visit planet" "Sies Upi"
+	"visit planet" "Silo of Ablodab"
+	"visit planet" "Silver"
+	"visit planet" "Sinter"
+	"visit planet" "Siteria"
+	"visit planet" "Skillet"
+	"visit planet" "Skyfarm"
+	"visit planet" "Skymoot"
+	"visit planet" "Slylandro"
+	"visit planet" "Smuggler's Den"
+	"visit planet" "Snowfeather"
+	"visit planet" "Solace"
+	"visit planet" "Solima Skarati"
+	"visit planet" "Sopi Lefarkata"
+	"visit planet" "Sopoyra"
+	"visit planet" "Spera Anatrusk"
+	"visit planet" "Splashdown"
+	"visit planet" "Ssil Vida"
+	"visit planet" "Starcross"
+	"visit planet" "Starting Rubin"
+	"visit planet" "Station Cian"
+	"visit planet" "Steamwater"
+	"visit planet" "Stonebreak"
+	"visit planet" "Stormhold"
+	"visit planet" "Stronghold of Flugbu"
+	"visit planet" "Sundive"
+	"visit planet" "Sundrinker"
+	"visit planet" "Sunracer"
+	"visit planet" "Swiftsong"
+	"visit planet" "Tebuteb's Table"
+	"visit planet" "Tefkar Ret"
+	"visit planet" "Ternituul"
+	#"visit planet" "The Eye"
+	"visit planet" "Third Umber"
+	"visit planet" "Thornlight"
+	"visit planet" "Thrall"
+	"visit planet" "Thshybothro"
+	"visit planet" "Thule"
+	"visit planet" "Thunder"
+	"visit planet" "Tibernia"
+	"visit planet" "Tik Klai"
+	"visit planet" "Tinker"
+	"visit planet" "Topkapi"
+	"visit planet" "Trinket"
+	"visit planet" "Triton Station"
+	"visit planet" "Trove"
+	"visit planet" "Truklar"
+	"visit planet" "Tschyss"
+	"visit planet" "Tundra"
+	"visit planet" "Turquoise Four"
+	"visit planet" "Twinstar"
+	"visit planet" "Typhon Station"
+	"visit planet" "Vail"
+	"visit planet" "Valhalla"
+	"visit planet" "Valley of the Damned"
+	"visit planet" "Var Oti"
+	"visit planet" "Var' Kar'i'i"
+	"visit planet" "Var' Kayi"
+	"visit planet" "Var' Roi"
+	"visit planet" "Vara K'chrai"
+	"visit planet" "Vara Ke'sok"
+	"visit planet" "Vara Ke'stai"
+	"visit planet" "Vara Kehi'ki"
+	"visit planet" "Vara Pug"
+	"visit planet" "Vara Rakak"
+	"visit planet" "Varu Ek'lak'lai"
+	"visit planet" "Varu K'est"
+	"visit planet" "Varu K'prai"
+	"visit planet" "Varu Mer'ek"
+	"visit planet" "Varu Tek'kai"
+	"visit planet" "Varu Tev'kei"
+	"visit planet" "Vatican"
+	"visit planet" "Veiuye"
+	"visit planet" "Veliante"
+	"visit planet" "Vibrant Water"
+	"visit planet" "Vigales"
+	"visit planet" "Viminal"
+	"visit planet" "Vinci"
+	"visit planet" "Violetwake"
+	"visit planet" "Vivid Aether"
+	"visit planet" "Wanderer"
+	"visit planet" "Warfeed"
+	"visit planet" "Warm Slope"
+	"visit planet" "Warm Wind"
+	"visit planet" "Watcher"
+	"visit planet" "Wayfarer"
+	"visit planet" "Weir of Glubatub"
+	"visit planet" "Windblain"
+	"visit planet" "Winter"
+	"visit planet" "Wormhole Alpha"
+	#"visit planet" "Wormhole Barren Alpha"
+	#"visit planet" "Wormhole Barren Beta"
+	"visit planet" "Wormhole Link"
+	"visit planet" "Wye Tzeou"
+	"visit planet" "Wyvern Station"
+	"visit planet" "Xerolophos"
+	"visit planet" "Xurelei"
+	"visit planet" "Yedikule"
+	"visit planet" "Yiia Iyr"
+	"visit planet" "Yniu Eiu"
+	"visit planet" "Yniu Ena"
+	"visit planet" "Zenith"
+	"visit planet" "Zug"
+	"visit planet" "Zydee"
 
 	
 # Add a valid category to uncategorized ships to make them appear in shipyards.
