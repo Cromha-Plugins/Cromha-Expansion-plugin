@@ -166,6 +166,7 @@ outfitter "Everything Outfitter"
 	"Empire Quantum Medal"
 	"Pug Crystal"
 	"Subsidurial Plushie"
+	"Sheragi War Manuscript"
 	
 	# Empire
 		# Engines
@@ -338,6 +339,81 @@ outfitter "Everything Outfitter"
 	"Thrasher Cannon (Far Remnant)"
 	"Thrasher Turret (Far Remnant)"
 	"Defense Point Turret (Far Remnant)"
+	
+	# Sheragi
+		# Engines
+	"Large Fission Drive"
+	"Fusion Afterburner"
+	"Small Fusion Drive"
+	"Fusion Drive"
+		
+		# Power
+	"Medium EM Battery"
+	"Small EM Battery"
+	"Large EM Battery"
+	"Fusion Core"
+		
+		# Weapons
+	"Particle Waveform Turret"
+	"Dragonflame Cannon"
+	"Shadow's Blade"
+	"Light's Bane"
+	"Sheragi Pulse Beam"
+	"Sheragi Pulse Beam Turret"
+	"Particle Waveform Cannon"
+	"Kinetic Spear Launcher"
+		
+		# Ammunition Stuff
+	"Kinetic Spear"
+	"Kinetic Spear Rack"
+		
+		# Systems
+	"Medium Hybrid Cooling"
+	"Sheragi Hyperdrive"
+	"Fusion Power Converter"
+	"Light Particle Shielding"
+	"Dense Particle Shielding"
+	"Sheragi Solar Intake"
+	"Electronic Warfare System"
+	"Small Hybrid Cooling"
+		
+		# Hand to Hand
+	"Plasma Thrower"
+	
+		# Special
+	"Quantum Energy Field"
+	
+	# Kor Mereti Fluffs
+	"Korath Disruptor Gun"
+	"Korath Electro Shocker"
+	"Korath Shocker Turret"
+	"Korath Shock-Strike"
+	"Korath Waste"
+	"Korath Waste Launcher"
+	"Vector Engine (Reality Class)"
+	"Fuel Refiner"
+	"Korath Defense Drone"
+	"Systems Core (Huge)"
+	
+	# Ka'het Fluffs
+	"Ka'het Scanner"
+	"Builder IFF Transmitter"
+	"Builder Negator"
+	"Builder Anti-Missile"
+	"Builder Grand Cooling"
+	"Builder Grand Defense"
+	"Builder Grand Generator"
+	"Builder Grand Accumulator"
+	
+	# Quarg Fluffs
+	"Fluxion Shield Generator"
+	"Infimum Shield Generator"
+	"Peripheral Repair Hub"
+	"Central Repair Hub"
+	"Singularity Core"
+	"Tachyon Core"
+	"Quarg Ranseur"
+	"Quarg Skydagger"
 
 shipyard "Everything Shipyard"
 
@@ -406,4 +482,30 @@ shipyard "Everything Shipyard"
 	"Smew (Far Remnant)"
 	"Starling (Far Remnant)"
 	"Tern (Far Remnant)"
+	
+	# Sheragi
+	"Black Diamond"
+	"Emerald Sword"
+	"Platinum Spear"
+	"Gold Shield"
+	"Opal Glaive"
+	"Bronze Edge"
+	"Ruby Hammer"
+	"White Brand"
+	
+	# Korath
+	"Ancient Raider"
+	
+	# Kor Mereti Fluffs
+	"Model 1024"
+	"Model 1024 (Wrecked)"
+	"Model 1024 (Greenhouse)"
+	"Model 1024 (Infested)"
+	
+	# Ka'het Fluffs
+	"Veliante'ixis"
+	
+	# Quarg Fluffs
+	"Quarg Drake"
+	"Quarg Hydra"
 
