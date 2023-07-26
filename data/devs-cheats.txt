@@ -299,8 +299,40 @@ outfitter "Everything Outfitter"
 	"Draining Field Device"
 	"Prototype Fusion Cannon (Empire)"
 	"Dragonflame Cannon (Empire)"
+	
+	# Rebels
+		# Engines
+	"Nitrogen Afterburnner"
+	"W-120 Nitrogen Thruster"
+	"W-120 Nitrogen Steering"
+	"W-160 Nitrogen Thruster"
+	"W-160 Nitrogen Steering"
+	"W-180 Nitrogen Thruster"
+	"W-180 Nitrogen Steering"
+		
+		# Power
+	"Solar Core"
+		
+		# Weapons
+	"Rebels Particle Gun"
+	"Modified Plasma Repeater"
+	"Rebel Grav-Turret"
+	"Rebels Blaze-Pike"
+		
+		# Systems
+	"Active Radar Jammer"
+	"Small Interference Emitter"
+	"Large Interference Emitter"
+		
+		# Hand to Hand
+	"Drugs"
+	"Modified Hai Rifle"
+		
+		# Special
+	"Rebels Mapper"
 
 shipyard "Everything Shipyard"
+
 	# Empire
 	"Empire Classik"
 	"Empire Daggrez"
@@ -337,4 +369,14 @@ shipyard "Everything Shipyard"
 	"Empire Fortress"
 	"Empire Colinizer"
 	"Empire Sea Kraken (Caltalyctic)"
+	
+	# Rebels
+	"Rebel Firebird"
+	"Rebel Raven"
+	"Osprey (Rebels)"
+	"Scavenger"
+	"Gunboat (Rebels)"
+	"Rebel Kyanite"
+	"Tar Kas Destroyer"
+	"Or Kar Destroyer"
 
