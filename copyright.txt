@@ -88,3 +88,4 @@ ADDITIONAL IMAGE SOURCES
 * Others: Most of the textures used are vanilla ones slightly modified so credit to every Endless Sky Contributor: https://github.com/endless-sky/endless-sky-assets
 * Sheragi Images & Inspiration: https://github.com/Petersupes/sheragi-rebirth
 * Some Outfits & Ships imgaes: https://github.com/Adde-Endless-Sky-Mods/Fluff
+* Some Various Images: https://github.com/1010todd/The-Enclave/tree/master/images/land
