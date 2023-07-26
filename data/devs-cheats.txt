@@ -330,6 +330,10 @@ outfitter "Everything Outfitter"
 		
 		# Special
 	"Rebels Mapper"
+	
+	# Far Remnants
+		# Systems
+	"Warp Drive"
 
 shipyard "Everything Shipyard"
 
@@ -379,4 +383,23 @@ shipyard "Everything Shipyard"
 	"Rebel Kyanite"
 	"Tar Kas Destroyer"
 	"Or Kar Destroyer"
+	
+	# Far Remnants
+	"Albatross (Far Remnant)"
+	"Modified Dromedary"
+	"Modified Dromedary Ghost"
+	"Modified Dromedary Specter"
+	"Modified Dromedary Wreck"
+	"Gull (Far Remnant)"
+	"Heron (Far Remnant)"
+	"Ibis (Far Remnant)"
+	"Merganser (Far Remnant)"
+	"Pelican (Far Remnant)"
+	"Penguin (Far Remnant)"
+	"Peregrine (Far Remnant)"
+	"Petrel (Far Remnant)"
+	"Puffin (Far Remnant)"
+	"Smew (Far Remnant)"
+	"Starling (Far Remnant)"
+	"Tern (Far Remnant)"
 
