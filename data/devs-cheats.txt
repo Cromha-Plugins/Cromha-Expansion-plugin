@@ -333,6 +333,11 @@ outfitter "Everything Outfitter"
 	# Far Remnants
 		# Systems
 	"Warp Drive"
+	"Inhibitor Cannon (Far Remnant)"
+	"Inhibitor Turret (Far Remnant)"
+	"Thrasher Cannon (Far Remnant)"
+	"Thrasher Turret (Far Remnant)"
+	"Defense Point Turret (Far Remnant)"
 
 shipyard "Everything Shipyard"
 
