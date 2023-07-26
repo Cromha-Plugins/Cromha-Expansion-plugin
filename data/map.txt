@@ -6429,10 +6429,10 @@ system Lumbaria
 			distance 283
 			period 179.962
 
-planet "-[Lumbarian High Command]-"
+planet "Lumbarian Middle Earth"
 	landscape land/forest4
-	description -[Placeholder]-
-	spaceport -[Placeholder]-
+	description `This planet is a very nice one, full of lush trees around your landing area. But it has dark places. Far to the West there are many volcanoes: that is the land of "Mordor". For you see, this planet is very like Middle Earth. There even is a great mine, though it is still active, for rare materials used in Imperial Fire ships.`
+	spaceport `Even though this is a place of machines, it is far nicer than Isendard. For it values Ents.`
 	government "Lumbarian Empire"
 	shipyard "Lumbarian Advanced"
 	shipyard "Lumbarian Basic"
