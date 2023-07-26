@@ -8,6 +8,7 @@ assignees: OcelotWalrus
 ---
 
 <!--⚠️⚠️Do not delete text that are in brackets. It's here to help you and they will disappear when you will post the issue⚠️⚠️-->
+<!--Please before submiting an issue, make sure you're using the latest version of the plugin and check if the error/bug still happen on latest version-->
 
 **Describe the bug**
 <Describe with the most words possible the bug that occurred.>
