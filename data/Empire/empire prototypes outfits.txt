@@ -391,7 +391,7 @@ effect "fusion cannonspark empire"
 	"random frame rate" 10
 
 effect "fusion cannon cloud empire"
-	sprite "effect/plasma cloud"
+	sprite "effect/plasma cloud empire"
 		"no repeat"
 		"frame rate" 15
 	"lifetime" 20
@@ -412,7 +412,7 @@ outfit "Dragonflame Cannon (Empire)"
 	"spinal mount" -1
 	weapon
 		sound "dragonflame"
-		"fire effect" "dragonflame epire"
+		"fire effect" "dragonflame empire"
 		"hit effect" "bright hit empire"
 		"hit effect" "dragonflame plasma empire" 30
 		"hit effect" "dragonflame debris empire" 50
