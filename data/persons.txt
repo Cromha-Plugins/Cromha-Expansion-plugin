@@ -33,6 +33,7 @@ person "Ember Nightmare"
 		hunting
 		vindictive
 		unconstrained
+		mute
 		confusion 20
 	system
 		attributes graveyard
