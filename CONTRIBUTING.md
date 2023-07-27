@@ -4,6 +4,7 @@
   * [Requesting Features](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki/Contributor-Guide#requesting-features)
 * [Adding your own code](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki/Contributor-Guide#adding-your-own-code)
   * [Coding Features & Add-ons](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki/Contributor-Guide#coding-features--add-ons)
+    * [Coding Tips](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki/Contributor-Guide#coding-tips)
   * [Apply your code to the base plugin](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki/Contributor-Guide#apply-your-code-to-the-base-plugin)
   * [Using the scripts](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki/Contributor-Guide#using-the-scripts)
 
@@ -40,6 +41,8 @@ Note that you can create your own codespace and work on it if you prefer.
 
 **You will find useful links to help you coding faster and better on the [discord server](https://discord.com/invite/tafa8dVH5Q)**
 
+### Coding Tips
+
 Here are some tips to code addons or create your own plugin:
 * Always check the "errors.txt" file in your endless sky directory to find possible coding errors made by you or other contributors.
 
@@ -51,7 +54,59 @@ Here are some tips to code addons or create your own plugin:
 
 * Check the differents projects in the github repositories to know for what we need help or to find some projects that interest you.
 
-* Use the github wiki if there is something you're not sure about.
+* Use the [plugin wiki](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki) as well as the official [plugin creation wiki](https://github.com/endless-sky/endless-sky/wiki#creating-ships-missions-artwork-etc) if there is something you're not sure about.
+
+* If you're adding ships or outfits, make sure that if you made your own model, to add it to the [`source/`](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/tree/main/source) directory. Make sure to use the following pattern for creating files & folders:
+```
+  source/
+  |-- outfit/
+  | |-- <outfit code name>/
+  |     |-- 3D/ (the 3D models)
+  |     |   |-- <outfit code name>.blend
+  |     |       ...
+  |     |-- GIMP/ (optional, only if you added metal texture to your render)
+  |     |   |-- <outfit code name>.xcf
+  |     |       ...
+  |     |-- rendering/ (the blender renders in PNG format)
+  |     |   |-- raw/ (the render of your blender model without any re-scaling and GIMP modifications)
+  |     |   |   |-- <outfit code name>.png
+  |     |   |       ...
+  |     |   |-- final/ (the render of your blender model with GIMP modifications)
+  |     |   |   |-- <outfit code name>.png
+  |     |   |       ...
+  |     |   |-- sprites/ (the render of your blender model with GIMP modifications and re-scaling for the game)
+  |     |       |-- <outfit code name>.png
+  |     |           ...
+  |     |-- templates/ (optional, only if you use other parts of blender models that are not already in the source/ directory)
+  |         ...
+  |
+  |-- ships/
+      |-- <ship code name>/
+          |-- 3D/ (the 3D models)
+          |   |-- <ship code name>.blend
+          |       ...
+          |-- GIMP/ (optional, only if you added metal texture to your render)
+          |   |-- <ship code name>.xcf
+          |   |-- <ship code name>-thumb.xcf
+          |       ...
+          |-- rendering/ (the blender renders in PNG format)
+          |   |-- raw/ (the render of your blender model without any re-scaling and GIMP modifications)
+          |   |   |-- <ship code name>.png
+          |   |   |-- <ship code name>-thumb.png
+          |   |       ...
+          |   |-- final/ (the render of your blender model with GIMP modifications)
+          |   |   |-- <ship code name>.png
+          |   |   |-- <ship code name>-thumb.png
+          |   |       ...
+          |   |-- sprites/ (the render of your blender model with GIMP modifications and re-scaling for the game)
+          |   |   |-- <ship code name>.png
+          |   |   |-- <ship code name>-thumb.png
+          |   |       ...
+          |-- templates/ (optional, only if you use other parts of blender models that are not already in the source/ directory)
+              ...
+```
+
+_Where <ship code name> is your ship model name without any caps and <outfit code name> is your outfit model name without any caps._
 
 ## Apply your code to the base plugin
 You can simply create a new [pull request](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/compare) that merge the branch where you created your work (a forked or a local repository of you) to the 'main' branch. If you've done everything right, I or @lumba527 should review the pull request and maybe add your very own code to the plugin.
