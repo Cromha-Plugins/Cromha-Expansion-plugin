@@ -6388,7 +6388,7 @@ system Lumbaria
 	object
 		sprite star/k5
 		period 10
-	object "-[Lumbarian High Command]-"
+	object "Lumbarian Middle Earth"
 		sprite planet/forest0-b
 		distance 288
 		period 94.832
