@@ -120,6 +120,7 @@ system Meftarkata
 	add fleet "Quarg Protectionist" 5000
 	add fleet "Quarg Protectionist" 5000
 	add fleet "Quarg Protectionist" 5000
+	add fleet "Quarg Protectionist" 5000
 	object
 		sprite star/f5
 		distance 23.995
@@ -1093,6 +1094,7 @@ system Sepriaptu
 	add fleet "Quarg Protectionist" 20000
 	add fleet "Quarg Protectionist" 20000
 	add fleet "Quarg Protectionist" 20000
+	add fleet "Quarg Protectionist" 20000
 	add fleet cromha-miners 600
 	add fleet small-pirates 2000
 	add fleet mineria-transports 3000
@@ -1147,6 +1149,7 @@ system Kaliptari
 	add link "Prima Lifdot"
 	add link Saharik
 	remove link Mekislepti
+	add fleet "Quarg Protectionist" 15000
 	add fleet "Quarg Protectionist" 15000
 	add fleet "Quarg Protectionist" 15000
 	add fleet "Quarg Protectionist" 15000
@@ -1247,6 +1250,7 @@ system Solifar
 	add fleet "Quarg Protectionist" 20000
 	add fleet "Quarg Protectionist" 20000
 	add fleet "Quarg Protectionist" 20000
+	add fleet "Quarg Protectionist" 20000
 	add fleet cromha-merchants 1700
 	object
 		sprite star/m0
@@ -1302,6 +1306,7 @@ system Skeruto
 	government "Cromha Empire"
 	haze _menu/haze-orange
 	add link "Prima Lifdot"
+	add fleet "Quarg Protectionist" 10000
 	add fleet "Quarg Protectionist" 10000
 	add fleet "Quarg Protectionist" 10000
 	add fleet "Quarg Protectionist" 10000
@@ -1618,6 +1623,7 @@ system Fornarep
 	add fleet "Quarg Protectionist" 10000
 	add fleet "Quarg Protectionist" 10000
 	add fleet "Quarg Protectionist" 10000
+	add fleet "Quarg Protectionist" 10000
 	add fleet cromha-fleet 1800
 	add fleet mineria-transports 1700
 	add fleet empire-rebels-raiders 2300
@@ -1674,6 +1680,7 @@ system Seketra
 	haze _menu/haze-orange
 	add link "Da Lest"
 	add link "Prima Lifdot"
+	add fleet "Quarg Protectionist" 15000
 	add fleet "Quarg Protectionist" 15000
 	add fleet "Quarg Protectionist" 15000
 	add fleet "Quarg Protectionist" 15000
@@ -3599,6 +3606,7 @@ system Korsmanath
 	add fleet "Quarg Protectionist" 15000
 	add fleet "Quarg Protectionist" 15000
 	add fleet "Quarg Protectionist" 15000
+	add fleet "Quarg Protectionist" 15000
 	add fleet empire-rebels-raiders 6000
 	add fleet empire-rebels-merchants 5000
 	object
@@ -4034,6 +4042,7 @@ system "Rati Cal"
 
 system Chikatip
 	add link "Rati Cal"
+	add fleet "Quarg Protectionist" 10000
 	add fleet "Quarg Protectionist" 10000
 	add fleet "Quarg Protectionist" 10000
 	add fleet "Quarg Protectionist" 10000
@@ -5337,7 +5346,7 @@ system Helk'Alf
 		distance 10909.867
 
 system Helk'Alk
-	pos 391.889 -405.574
+	pos 376.778 -471.055
 	government Sheragi
 	habitable 3650
 	belt 1687
@@ -5356,12 +5365,6 @@ system Helk'Alk
 			scale 5
 
 planet "Helk'Alf Wormhole"
-	attributes "requires: quantum keystone"
-	description ""
-	spaceport ""
-
-wormhole "Helk'Alf Wormhole"
-	mappable -1
 
 system As'kya
 	pos 235.357 -866.331
@@ -6283,6 +6286,7 @@ system Chornifath
 	add fleet "Quarg Protectionist" 5000
 	add fleet "Quarg Protectionist" 5000
 	add fleet "Quarg Protectionist" 5000
+	add fleet "Quarg Protectionist" 5000
 	add fleet empire-rebels-raiders 1500
 	add fleet empire-rebels-merchants 2000
 	add fleet cromha-merchants 1700
@@ -7178,6 +7182,7 @@ planet Thunder
 
 system Kraz
 	government "Empire Rebels"
+	"jump range" 50
 	object
 		sprite star/g0
 		period 10
@@ -9095,6 +9100,7 @@ system Kalisto
 	habitable 355
 	belt 1663 8
 	belt 2318 3
+	"jump range" 70
 	link Fral
 	link "Gamma Grova"
 	link Kramga
@@ -9196,6 +9202,7 @@ system Fral
 	attributes "cromha rim" mining oil
 	habitable 12050.934
 	belt 1175 8
+	"jump range" 50
 	link Kalisto
 	asteroids "small rock" 8 4.224
 	asteroids "medium rock" 7 2.88
@@ -9285,7 +9292,6 @@ planet Karl
 	outfitter Base-outfitter
 
 planet Cralif
-	land "land/gw-gw mountainforestA02"
 	attributes "cromha riù" factory mining oil
 	description "Cralif is a huge planet with a lot resources that are exploited by the Mineria collonies to take them to Craska to be refinned and then used to create ammunitions and other various stuff."
 	spaceport TODO
@@ -9327,4 +9333,10 @@ system "Eneva Katta"
 			sprite planet/ice7-b
 			distance 279
 			period 14.644
+
+system Mimosa
+	"jump range" 50
+
+system Spica
+	"jump range" 50
 
