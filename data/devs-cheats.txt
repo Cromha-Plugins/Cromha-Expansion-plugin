@@ -41,6 +41,8 @@ start "Devs-cheats"
 	set "license: Scin Hoplologist"
 	set "license: Scin Architect"
 	set "license: Scin Adjutant"
+	set "license: Sheragi"
+	set "license: Sheragi Capital"
 	set "cheater"
 	# Skip the game's normal intro mission string.
 	set "Intro [0]: offered"
