@@ -9285,6 +9285,7 @@ planet Karl
 	outfitter Base-outfitter
 
 planet Cralif
+	land "land/gw-gw mountainforestA02"
 	attributes "cromha riù" factory mining oil
 	description "Cralif is a huge planet with a lot resources that are exploited by the Mineria collonies to take them to Craska to be refinned and then used to create ammunitions and other various stuff."
 	spaceport TODO
