@@ -54,4 +54,4 @@ Here are some tips to code addons or create your own plugin:
 * Use the github wiki if there is something you're not sure about.
 
 ## Apply your code to the base plugin
-You can simply create a pull request that merge the branch where you created your work (a forked or a local repository of you) to the 'devs' branch. If you've done everything right, I should review the pull request and maybe add your very own code to the plugin.
+You can simply create a new [pull request](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/compare) that merge the branch where you created your work (a forked or a local repository of you) to the 'main' branch. If you've done everything right, I or @lumba527 should review the pull request and maybe add your very own code to the plugin.
