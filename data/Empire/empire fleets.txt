@@ -245,8 +245,12 @@ fleet cromha-fleet-protectionist
 	variant 2
 		"Empire Tubfalet"
 		"Fuel Pod Class H"
+		"Empire Dredger"
 		"Empire Palavret (Ion Proton)"
 		"Empire Palavret (Plasma Repeater)"
+		"Empire Nano-Flyer"
+		"Empire Nanobot YLL'A" 8
+		"Empire Nanobot YLL'E" 8
 	variant .25
 		"Empire Kastador"
 		"Empire Nano-Flyer"
