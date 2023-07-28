@@ -59,11 +59,13 @@ jobs:
               --tag continuous \
               --name "Continuous Build" \
               --description "$DESCRIPTION" \
+              --artifacts "Cromha-Expansion-plugin.zip" \
               --pre-release
           else
             github-release edit \
               --tag continuous \
               --name "Continuous Build" \
               --description "$DESCRIPTION" \
+              --artifacts "Cromha-Expansion-plugin.zip" 
               --pre-release
           fi
