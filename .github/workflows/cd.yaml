@@ -15,27 +15,16 @@ concurrency:
 
 jobs:
 
-  zip:
+  build:
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v2
-
-    - name: Get Composer Cache Directory
-      id: composer-cache
-      run: |
-        echo "::set-output name=dir::$(composer config cache-files-dir)"
-    - uses: actions/cache@v2
+    - uses: actions/checkout@master
+    - name: Archive Release
+      uses: thedoctor0/zip-release@0.7.1
       with:
-        path: ${{ steps.composer-cache.outputs.dir }}
-        key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.lock') }}
-        restore-keys: |
-          ${{ runner.os }}-composer-
-    - name: Install dependencies
-      run: |
-        composer install -o -q
-    - name: Zip Folder
-      run: zip -r ${{ github.event.repository.name }}.zip . -x ".git/*" ".github/*" "phpcs.xml" "composer.json" "composer.lock" ".gitignore" "source/*"
+        type: 'zip'
+        filename: 'Cromha-Expansion-plugin.zip'
+        exclusions: '*.git* /*node_modules/* .editorconfig /source/'
 
   cd_upload_artifacts_to_release:
     name: Upload
