@@ -14,34 +14,13 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-
-  cd_plugin:
-    name: Upload Release Asset
-    runs-on: ubuntu-latest
-    env:
-      OUTPUT: Cromha-Expansion-plugin.zip
-      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-      - name: Build project # This would actually build your project, using zip for an example artifact
-        run: |
-          zip --junk-paths continuous-build data/ images/ LICENSE about.txt icon.png copyright.txt README.md
-      - name: Upload artifact
-        uses: actions/upload-artifact@v3
-        with:
-          name: ${{ env.OUTPUT }}
-          path: ${{ env.OUTPUT }}
           
   cd_upload_artifacts_to_release:
     name: Upload
     if: github.event_name == 'push'
     runs-on: ubuntu-latest
-    needs:
-      - cd_plugin
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      OUTPUT_PLUGIN: Cromha-Expansion-plugin.zip
     steps:
       - uses: actions/checkout@v3
       - name: Install github-release
@@ -77,14 +56,3 @@ jobs:
               --description "$DESCRIPTION" \
               --pre-release
           fi
-      - name: Download Artifacts
-        uses: actions/download-artifact@v3
-        with:
-          path: ${{ github.workspace }} # This will download all files to e.g `./EndlessSky-win64.zip/EndlessSky-win64.zip`
-      - name: Add ${{ env.OUTPUT_APPIMAGE }} to release tag
-        run: |
-          github-release upload \
-            --tag continuous \
-            --replace \
-            --name ${{ env.OUTPUT.PLUGIN }} \
-            --file ${{ env.OUTPUT_PLUGIN }}/${{ env.OUTPUT_PLUGIN }}
