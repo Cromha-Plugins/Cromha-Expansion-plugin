@@ -28,6 +28,8 @@ jobs:
     name: Upload
     if: github.event_name == 'push'
     runs-on: ubuntu-latest
+    needs:
+      - zip-files
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
