@@ -66,7 +66,7 @@ jobs:
               --pre-release
           fi
       - name: Upload Artifacts
-      - uses: IsaacShelton/update-existing-release@v1.3.2
+        uses: IsaacShelton/update-existing-release@v1.3.2
         with:
           token: ${{secrets.GITHUB_TOKEN}}
           release: "Continuous Build"
