@@ -121,6 +121,9 @@ system Meftarkata
 	add fleet "Quarg Protectionist" 5000
 	add fleet "Quarg Protectionist" 5000
 	add fleet "Quarg Protectionist" 5000
+	add fleet "Quarg Protectionist" 5000
+	add fleet "Quarg Protectionist" 5000
+	add fleet "Quarg Protectionist" 5000
 	object
 		sprite star/f5
 		distance 23.995
@@ -1095,6 +1098,9 @@ system Sepriaptu
 	add fleet "Quarg Protectionist" 20000
 	add fleet "Quarg Protectionist" 20000
 	add fleet "Quarg Protectionist" 20000
+	add fleet "Quarg Protectionist" 20000
+	add fleet "Quarg Protectionist" 20000
+	add fleet "Quarg Protectionist" 20000
 	add fleet cromha-miners 600
 	add fleet small-pirates 2000
 	add fleet mineria-transports 3000
@@ -1149,6 +1155,9 @@ system Kaliptari
 	add link "Prima Lifdot"
 	add link Saharik
 	remove link Mekislepti
+	add fleet "Quarg Protectionist" 15000
+	add fleet "Quarg Protectionist" 15000
+	add fleet "Quarg Protectionist" 15000
 	add fleet "Quarg Protectionist" 15000
 	add fleet "Quarg Protectionist" 15000
 	add fleet "Quarg Protectionist" 15000
@@ -1251,6 +1260,9 @@ system Solifar
 	add fleet "Quarg Protectionist" 20000
 	add fleet "Quarg Protectionist" 20000
 	add fleet "Quarg Protectionist" 20000
+	add fleet "Quarg Protectionist" 20000
+	add fleet "Quarg Protectionist" 20000
+	add fleet "Quarg Protectionist" 20000
 	add fleet cromha-merchants 1700
 	object
 		sprite star/m0
@@ -1306,6 +1318,9 @@ system Skeruto
 	government "Cromha Empire"
 	haze _menu/haze-orange
 	add link "Prima Lifdot"
+	add fleet "Quarg Protectionist" 10000
+	add fleet "Quarg Protectionist" 10000
+	add fleet "Quarg Protectionist" 10000
 	add fleet "Quarg Protectionist" 10000
 	add fleet "Quarg Protectionist" 10000
 	add fleet "Quarg Protectionist" 10000
@@ -1624,6 +1639,9 @@ system Fornarep
 	add fleet "Quarg Protectionist" 10000
 	add fleet "Quarg Protectionist" 10000
 	add fleet "Quarg Protectionist" 10000
+	add fleet "Quarg Protectionist" 10000
+	add fleet "Quarg Protectionist" 10000
+	add fleet "Quarg Protectionist" 10000
 	add fleet cromha-fleet 1800
 	add fleet mineria-transports 1700
 	add fleet empire-rebels-raiders 2300
@@ -1680,6 +1698,9 @@ system Seketra
 	haze _menu/haze-orange
 	add link "Da Lest"
 	add link "Prima Lifdot"
+	add fleet "Quarg Protectionist" 15000
+	add fleet "Quarg Protectionist" 15000
+	add fleet "Quarg Protectionist" 15000
 	add fleet "Quarg Protectionist" 15000
 	add fleet "Quarg Protectionist" 15000
 	add fleet "Quarg Protectionist" 15000
@@ -3607,6 +3628,9 @@ system Korsmanath
 	add fleet "Quarg Protectionist" 15000
 	add fleet "Quarg Protectionist" 15000
 	add fleet "Quarg Protectionist" 15000
+	add fleet "Quarg Protectionist" 15000
+	add fleet "Quarg Protectionist" 15000
+	add fleet "Quarg Protectionist" 15000
 	add fleet empire-rebels-raiders 6000
 	add fleet empire-rebels-merchants 5000
 	object
@@ -4042,6 +4066,9 @@ system "Rati Cal"
 
 system Chikatip
 	add link "Rati Cal"
+	add fleet "Quarg Protectionist" 10000
+	add fleet "Quarg Protectionist" 10000
+	add fleet "Quarg Protectionist" 10000
 	add fleet "Quarg Protectionist" 10000
 	add fleet "Quarg Protectionist" 10000
 	add fleet "Quarg Protectionist" 10000
@@ -6287,6 +6314,9 @@ system Chornifath
 	add fleet "Quarg Protectionist" 5000
 	add fleet "Quarg Protectionist" 5000
 	add fleet "Quarg Protectionist" 5000
+	add fleet "Quarg Protectionist" 5000
+	add fleet "Quarg Protectionist" 5000
+	add fleet "Quarg Protectionist" 5000
 	add fleet empire-rebels-raiders 1500
 	add fleet empire-rebels-merchants 2000
 	add fleet cromha-merchants 1700
@@ -6390,6 +6420,7 @@ system Lumbaria
 	government "Lumbarian Empire"
 	habitable 425
 	belt 1857 8
+	haze _menu/haze-brown
 	link Lastama
 	link Mirzam
 	link Phurad
@@ -6471,6 +6502,7 @@ planet "Lumbarian Middle Earth"
 
 system Phurad
 	government "Lumbarian Empire"
+	haze _menu/haze-brown
 	add link Lastama
 	add link Lumbaria
 	add fleet "Large L Navy" 1500
@@ -6507,6 +6539,7 @@ system Phurad
 
 system Mirzam
 	government "Lumbarian Empire"
+	haze _menu/haze-brown
 	add link Lastama
 	add link Lumbaria
 	add link Sipha
@@ -6548,6 +6581,7 @@ system Mirzam
 
 system Canopus
 	government "Lumbarian Empire"
+	haze _menu/haze-brown
 	add link Sipha
 	add fleet "Large L Navy" 1500
 	add fleet "Small L Navy" 600
@@ -6576,6 +6610,7 @@ system Canopus
 
 system Mebsuta
 	government "Lumbarian Empire"
+	haze _menu/haze-brown
 	add fleet "Small Northern Merchants" 600
 	add fleet "Large Northern Merchants" 1500
 	add fleet "Large L Navy" 1500
@@ -6630,6 +6665,7 @@ system Mebsuta
 
 system Tejat
 	government "Lumbarian Empire"
+	haze _menu/haze-brown
 	add fleet "Large L Navy" 1500
 	add fleet "Small L Navy" 600
 	remove fleet "Small Republic"
@@ -6682,6 +6718,7 @@ system Tejat
 
 system Wazn
 	government "Lumbarian Empire"
+	haze _menu/haze-brown
 	add fleet "Large L Navy" 1500
 	add fleet "Small L Navy" 600
 	remove fleet "Small Republic"
@@ -6723,6 +6760,7 @@ system Wazn
 
 system Phact
 	government "Lumbarian Empire"
+	haze _menu/haze-brown
 	add fleet "Small Northern Merchants" 700
 	add fleet "Large Northern Merchants" 1300
 	add fleet "Human Miners" 950
@@ -6833,7 +6871,7 @@ system Sipha
 	habitable 700
 	belt 1521 10
 	belt 2191 8
-	haze _menu/haze-67
+	haze _menu/haze-brown
 	link Alheka
 	link Betelgeuse
 	link Canopus
@@ -6986,6 +7024,7 @@ system Lastama
 	habitable 4500
 	belt 1017 3
 	belt 1961 7
+	haze _menu/haze-brown
 	link Lumbaria
 	link Mirzam
 	link Phurad
@@ -9336,7 +9375,307 @@ system "Eneva Katta"
 
 system Mimosa
 	"jump range" 50
+	object
+		sprite star/k8
+		period 10
+	object
+		sprite planet/rock13
+		distance 171.16
+		period 46.565
+	object Shorebreak
+		sprite planet/ocean9
+		distance 468.12
+		period 210.617
+	object
+		sprite planet/water0
+		distance 758.21
+		period 434.153
+	object
+		sprite planet/rhea-b
+		distance 2070.21
+		period 1958.75
 
 system Spica
 	"jump range" 50
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/desert4-b
+		distance 112.25
+		period 19.028
+	object Oasis
+		sprite planet/forest0-b
+		distance 401.46
+		period 128.701
+	object
+		sprite planet/dust4-b
+		distance 1099.46
+		period 583.296
+	object
+		sprite planet/gas7-b
+		distance 2243.46
+		period 1700.19
+		object
+			sprite planet/ganymede
+			distance 243
+			period 12.292
+		object
+			sprite planet/rhea-b
+			distance 402
+			period 26.154
+
+system "Is Il Z-59"
+	government "Lumbarian Empire (Colonies)"
+	add fleet "Small L Colony Navy" 1700
+	object
+		sprite star/g3
+		distance 67.938
+		period 52.077
+		offset 180
+	object
+		sprite star/g5
+		distance 71.062
+		period 52.077
+	object "Lumba Beta"
+		sprite planet/forest0
+		distance 807.865
+		period 252.324
+	object
+		sprite planet/browndwarf-y
+		distance 1771.61
+		period 819.415
+		object
+			sprite planet/rock0
+			distance 283
+			period 179.962
+		object
+			sprite planet/dust1-b
+			distance 442
+			period 289.009
+	object
+		sprite planet/dust0
+		distance 2996
+		period 1802.04
+
+planet "Lumba Beta"
+	attributes farming "lumbarian colony"
+	landscape land/gw-land7
+	description "Lumba Beta is the first plaet that has been colonized by the LUmbarian Empire in the Astral Space. The Lumbarian Empire lost contact with these colonies since a long time and they think they are dead."
+	spaceport TODO
+	shipyard "Lumbarian Basic"
+	outfitter "Lumbarian Stuff"
+	tribute 750
+		fleet "Large L Colony Navy" 5
+
+planet Kalmasta
+	landscape land/canyon03
+	description "Kalmasta is a high desertic planet where you can find extremely high canyons. Life is almost not seen here."
+
+system "Is Ce J-591"
+	government "Lumbarian Empire (Colonies)"
+	add fleet "Small L Colony Navy" 1200
+	object
+		sprite star/f-giant
+		distance 60.57
+		period 87.166
+		offset 180
+	object
+		sprite star/g0
+		distance 191.43
+		period 87.166
+	object
+		sprite planet/rock18-b
+		distance 524
+		period 58.704
+		object
+			sprite planet/rock0-b
+			distance 146
+			period 66.685
+	object Firlsa
+		sprite planet/cloud6-b
+		distance 986
+		period 151.525
+	object Kirlsta
+		sprite planet/ganymede-b
+		distance 1740
+		period 355.218
+		object
+			sprite planet/lava0
+			distance 172
+			period 50
+	object
+		sprite planet/gas6-b
+		distance 2742
+		period 702.704
+		object
+			sprite planet/rhea
+			distance 369
+			period 220.454
+	object
+		sprite planet/gas2-b
+		distance 5143
+		period 1805.08
+	object
+		sprite planet/gas9
+		distance 7275
+		period 3036.83
+		object
+			sprite planet/callisto
+			distance 289
+			period 128.577
+
+planet Firlsa
+	attributes "lumbarian colony" mining oil
+	landscape "land/gw-gw barren1"
+	description "Firlsa is a very volcanic planet but the Lumbarian colony was still able to set up colonies here and start mining oil and other primary resoures."
+	spaceport TODO
+	tribute 350
+		fleet "Small L Colony Navy" 7
+
+system "Is Ce G-460"
+	add fleet "Small L Colony Navy" 1200
+	object
+		sprite star/k-dwarf
+		period 10
+	object
+		sprite planet/ice0
+		distance 363
+		period 276.643
+	object Kalmasta
+		sprite planet/gas5
+		distance 4058
+		period 10340.1
+		object
+			sprite planet/rock20
+			distance 283
+			period 179.962
+		object
+			sprite planet/rhea-b
+			distance 426
+			period 273.459
+		object
+			sprite planet/dust0-b
+			distance 602
+			period 909.681
+	object
+		sprite planet/gas0-b
+		distance 7146
+		period 24163.2
+
+planet Kirlsta
+	attributes "lumbarian colony" "mining oil"
+	landscape "land/gw-gw barren2"
+	description "Kirlsta is a planet very simillar to Firls, in the same system. Like Firlsa, lot of oil and other primary resources have been found by the Lumbarian colonies."
+	spaceport TODO
+	tribute 150
+		fleet "Large L Colony Navy" 2
+
+system "Ae Il I-99"
+	add fleet "Small L Colony Navy" 1000
+	object
+		sprite star/g0-old
+		period 10
+	object
+		sprite planet/lava3-b
+		distance 344
+		period 54.912
+	object
+		sprite planet/lava0-b
+		distance 982
+		period 264.85
+	object
+		sprite planet/gas6
+		distance 2471
+		period 1057.16
+	object
+		sprite planet/gas17
+		distance 4438
+		period 2544.56
+		object
+			sprite planet/dust1-b
+			distance 270
+			period 137.983
+	object
+		sprite planet/gas8-b
+		distance 9544
+		period 8024.69
+
+system "Ae Il G-66"
+	government "Lumbarian Empire (Colonies)"
+	add fleet "Small L Colony Navy" 1000
+	object
+		sprite star/o8
+		distance 38.697
+		period 44.513
+		offset 180
+	object
+		sprite star/g3
+		distance 122.303
+		period 44.513
+	object
+		sprite planet/lava7
+		distance 493.915
+		period 45.408
+	object
+		sprite planet/titan-b
+		distance 733.393
+		period 82.16
+	object
+		sprite planet/cloud7-b
+		distance 1186.58
+		period 169.082
+	object
+		sprite planet/jupiter-b
+		distance 2492
+		period 514.607
+	object
+		sprite planet/uranus
+		distance 7018
+		period 2432.05
+		object
+			sprite planet/europa
+			distance 232
+			period 167.164
+		object
+			sprite planet/rock14
+			distance 366
+			period 183.248
+	object "Alma Refinery"
+		sprite planet/station4ver8
+		distance 933.566
+		period 110
+
+planet "Alma Refinery"
+	attributes "lumbarian colony" oil refinery station
+	landscape "land/station huge 2"
+	description "The Alma Refinery is a great refinery station to refine mined oil from all the Lumbarian colonies system in the Astral Space."
+	spaceport TODO
+	tribute 150
+		fleet "Small L Colony Navy" 3
+
+system "Ae Il A-3"
+	add fleet "Small L Colony Navy" 1700
+
+system "Ae Il H-24"
+	add fleet "Small L Colony Navy" 1100
+	object
+		sprite star/f0
+		period 10
+	object
+		sprite planet/mercury-b
+		distance 274
+		period 35.856
+	object
+		sprite planet/ice5-b
+		distance 890
+		period 209.906
+	object
+		sprite planet/rock17
+		distance 2100
+		period 760.797
+	object
+		sprite planet/gas9-b
+		distance 3643
+		period 1738.31
 
