@@ -67,6 +67,9 @@ jobs:
           token: ${{secrets.GITHUB_TOKEN}}
           release: "Continuous Build"
           tag: "continuous"
+          prerelease: true
           replace: true
+          message: "This is an automated build of the latest source. It may be unstable or even crash, corrupt your save or eat your kitten. Use with caution!"
+          body: "This is an automated build of the latest source. It may be unstable or even crash, corrupt your save or eat your kitten. Use with caution!"
           files: >
             builds/Cromha-Expansion-plugin.zip
