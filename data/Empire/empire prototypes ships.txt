@@ -74,7 +74,7 @@ ship "Black Manta"
 		"Prototype Fusion Cannon (Empire)"
 		"X-Crusade Computer"
 		"X-Skirmish Computer" 2
-		"Drak Reproaching Device"
+		"Drak Reproaching Device" 4
 		
 	gun 0 -105.5 "Caltalytic Tear"
 		under
@@ -100,7 +100,7 @@ ship "Black Manta"
 		under
 	turret 61 -224.5 "Empire Particle Turret (Augmented)"
 		under
-	turret 0 120 "Drak Reproaching Device"
+	turret 0 110 "Drak Reproaching Device"
 	turret 0 -61 "Drak Reproaching Device"
 	turret -27.5 77 "Drak Reproaching Device"
 	turret 27.5 77 "Drak Reproaching Device"
@@ -145,7 +145,7 @@ outfit "Empire Particle Turret (Augmented)"
 		"firing heat" 120
 		"shield damage" 400
 		"hull damage" 350
-		"hit force" -90
+		"hit force" -160
 	description "The Particle Cannon works by accelerating a short burst of particles to near-relativistic speeds. When mounted on a ship that can turn fast enough to keep it trained on approaching ships, it becomes a nearly unbeatable weapon, capable of destroying smaller ships before they can even approach close enough for their comparatively short-ranged weapons to be effective."
 	
 outfit "Drak Reproaching Device"
@@ -164,4 +164,4 @@ outfit "Drak Reproaching Device"
 		"turret turn" 2.
 		"firing energy" 15
 		"firing heat" 10
-		"hit force" -110
+		"hit force" -285
