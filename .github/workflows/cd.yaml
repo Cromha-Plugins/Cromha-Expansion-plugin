@@ -14,7 +14,16 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-          
+  
+  zip-files:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: vimtor/action-zip@v1
+        with:
+          files: data/ images/ about.txt icon.png README.md LICENSE copyright.txt
+          dest: builds/Cromha-Expansion-plugin.zip
+  
   cd_upload_artifacts_to_release:
     name: Upload
     if: github.event_name == 'push'
@@ -56,3 +65,12 @@ jobs:
               --description "$DESCRIPTION" \
               --pre-release
           fi
+      - name: Upload Artifacts
+      - uses: IsaacShelton/update-existing-release@v1.3.2
+        with:
+          token: ${{secrets.GITHUB_TOKEN}}
+          release: "Continuous Build"
+          tag: "continuous"
+          replace: true
+          files: >
+            builds/Cromha-Expansion-plugin.zip
