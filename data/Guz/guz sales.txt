@@ -9,5 +9,7 @@ outfitter "Guz' Advanced"
 	"Kkrok Shield Emitter"
 
 shipyard "Guz' Basic"
+	"Guz'Chisel"
 
 shipyard "Guz' Advanced"
+	"Guz'Chisel"
