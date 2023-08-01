@@ -41,7 +41,6 @@ jobs:
         uses: ksm2/archive-action@v1
         with:
           format: "tar.gz"
-          name: Cromha-Expansion-plugin.tar.gz
           path: builds/Cromha-Expansion-plugin.tar.gz
           include: data/ images/ about.txt icon.png README.md LICENSE copyright.txt
       - name: Move/Create continuous tag
