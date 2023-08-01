@@ -37,6 +37,12 @@ jobs:
         with:
           files: data/ images/ about.txt icon.png README.md LICENSE copyright.txt
           dest: builds/Cromha-Expansion-plugin.zip
+      - name: Create Tar
+        uses: ksm2/archive-action@v1
+        with:
+          format: "tar.gz"
+          name: Cromha-Expansion-plugin.tar.gz
+          include: data/ images/ about.txt icon.png README.md LICENSE copyright.txt
       - name: Move/Create continuous tag
         run: |
           git tag --force continuous ${{ github.sha }}
@@ -84,3 +90,4 @@ jobs:
             * Linux: ~/.local/share/endless-sky/plugins/
           files: >
             builds/Cromha-Expansion-plugin.zip
+            ${{ steps.archive.outputs.path }}
