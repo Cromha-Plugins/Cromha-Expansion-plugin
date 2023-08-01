@@ -1,0 +1,45 @@
+ship "Guz'Chisel"
+	sprite "ship/guz chisel"
+	thumbnail "thumbnail/guz chisel"
+	attributes
+		category "Light Warship"
+		licenses "Guz' Ship"
+		cost 110000
+		"mass" 210
+		"outfit space" 620
+		"engine capacity" 100
+		"weapon capacity" 320
+		"cargo space" 35
+		"shields" 8000
+		"hull" 2500
+		"fuel capacity" 500
+		"heat dissipation" 0.7
+		"required crew" 21
+		"drag" 5.6
+		"bunks" 44
+		weapon
+			"blast radius" 100
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 1500
+	outfits
+		"Zkon Shield Emitter" 2
+	
+	engine 0 81.5
+	turret 0 5
+	gun 32 -38
+	gun -32 -38
+		zoom 1.4
+	bay "Fighter" 47 42.5
+		over
+	bay "Fighter" -47 42.5
+		over
+	leak leak 40 50
+	leak flame 50 80
+	leak "big leak" 90 30
+	explode "large explosion" 8
+	explode "medium explosion" 24
+	explode "small explosion" 36
+	explode "tiny explosion" 18
+	"final explode" "final explosion medium"
+	description "TODO"

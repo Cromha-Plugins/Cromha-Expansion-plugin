@@ -1,8 +1,12 @@
 outfitter "Guz' Base"
+	"Sklak Shield Emitter"
 
 outfitter "Guz' Basic"
+	"Zkon Shield Emitter"
 
 outfitter "Guz' Advanced"
+	"Zkon Shield Emitter"
+	"Kkrok Shield Emitter"
 
 shipyard "Guz' Basic"
 
