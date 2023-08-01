@@ -28,7 +28,6 @@ outfit "Zkon Shield Emitter"
 
 outfit "Sklak Shield Emitter"
 	category Systems
-	plural "Zkon Shield Emitters"
 	cost 850000
 	thumbnail "outfit/guz'pas shield tiny"
 	"mass" 20
