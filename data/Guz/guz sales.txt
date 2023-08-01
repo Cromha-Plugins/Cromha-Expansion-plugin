@@ -1,0 +1,9 @@
+outfitter "Guz' Base"
+
+outfitter "Guz' Basic"
+
+outfitter "Guz' Advanced"
+
+shipyard "Guz' Basic"
+
+shipyard "Guz' Advanced"
