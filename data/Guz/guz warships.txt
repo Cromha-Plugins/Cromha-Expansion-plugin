@@ -1,6 +1,7 @@
 ship "Guz'Chisel"
 	sprite "ship/guz chisel"
 	thumbnail "thumbnail/guz chisel"
+	"never disabled"
 	attributes
 		category "Light Warship"
 		licenses "Guz' Ship"
