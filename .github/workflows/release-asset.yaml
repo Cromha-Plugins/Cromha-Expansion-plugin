@@ -25,9 +25,8 @@ jobs:
     - name: Install dependencies
       run: |
         composer install -o -q
-    - name: Cromha-Expansion-plugin
-      run: zip -r ${{ github.event.repository.name }}.zip . -x ".git/*" ".github/*" "phpcs.xml" "composer.json" "composer.lock" ".gitignore" "source/*" ".editorconfig" "CODE_OF_CONDUCT.md" "CONTRIBUTING.md"
-
+    - name: Zip File
+      run: zip -r Cromha-Expansion-plugin.zip . -x ".git/*" ".github/*" "phpcs.xml" "composer.json" "composer.lock" ".gitignore" "source/*" ".editorconfig" "CODE_OF_CONDUCT.md" "CONTRIBUTING.md"
     - name: Release
       uses: softprops/action-gh-release@v1
       if: startsWith(github.ref, 'refs/tags/')
