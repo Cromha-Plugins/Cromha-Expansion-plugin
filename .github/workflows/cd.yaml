@@ -42,6 +42,7 @@ jobs:
         with:
           format: "tar.gz"
           name: Cromha-Expansion-plugin.tar.gz
+          path: builds/Cromha-Expansion-plugin.tar.gz
           include: data/ images/ about.txt icon.png README.md LICENSE copyright.txt
       - name: Move/Create continuous tag
         run: |
@@ -90,4 +91,4 @@ jobs:
             * Linux: ~/.local/share/endless-sky/plugins/
           files: >
             builds/Cromha-Expansion-plugin.zip
-            Cromha-Expansion-plugin.tar.gz
+            builds/Cromha-Expansion-plugin.tar.gz
