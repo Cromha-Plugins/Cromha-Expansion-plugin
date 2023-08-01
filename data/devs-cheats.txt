@@ -1233,6 +1233,8 @@ outfitter "Everything Outfitter"
 		# Hand to Hand
 		
 	# Guz'
+		# Guns
+	"Guz' Tractor"
 		# Systems
 	"Sklak Shield Emitter"
 	"Zkon Shield Emitter"

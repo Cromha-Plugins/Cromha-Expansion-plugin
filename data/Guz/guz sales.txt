@@ -3,10 +3,12 @@ outfitter "Guz' Base"
 
 outfitter "Guz' Basic"
 	"Zkon Shield Emitter"
+	"Guz' Tractor"
 
 outfitter "Guz' Advanced"
 	"Zkon Shield Emitter"
 	"Kkrok Shield Emitter"
+	"Guz' Tractor"
 
 shipyard "Guz' Basic"
 	"Guz'Chisel"
