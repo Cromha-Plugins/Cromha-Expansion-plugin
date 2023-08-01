@@ -1239,6 +1239,9 @@ outfitter "Everything Outfitter"
 	"Sklak Shield Emitter"
 	"Zkon Shield Emitter"
 	"Kkrok Shield Emitter"
+	"Holk Radar Device"
+	"Kroth Radar Device"
+	"Sklorai Radar Device"
 
 	# Kor Mereti Fluffs
 	"Korath Disruptor Gun"

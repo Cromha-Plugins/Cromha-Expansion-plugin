@@ -1,5 +1,6 @@
 outfit "Kkrok Shield Emitter"
 	category Systems
+	licenses "Guz' Outfit License"
 	cost 300000
 	thumbnail "outfit/guz'pas shield medium"
 	"mass" 40
@@ -14,6 +15,7 @@ outfit "Kkrok Shield Emitter"
 
 outfit "Zkon Shield Emitter"
 	category Systems
+	licenses "Guz' Outfit License"
 	cost 150000
 	thumbnail "outfit/guz'pas shield small"
 	"mass" 30
@@ -28,6 +30,7 @@ outfit "Zkon Shield Emitter"
 
 outfit "Sklak Shield Emitter"
 	category Systems
+	licenses "Guz' Outfit License"
 	cost 850000
 	thumbnail "outfit/guz'pas shield tiny"
 	"mass" 20
@@ -39,4 +42,46 @@ outfit "Sklak Shield Emitter"
 	"high shield permeability" 0.7
 	"low shield permeability" 0.7
 	"outfit space needed" 20
+
+outfit "Holk Radar Device"
+	category Systems
+	licenses "Guz' Outfit License"
+	cost 27850
+	thumbnail "outfit/guz scanner tiny"
+	"mass" 15
+	"outfit space" -15
+	"cargo scan power" 5
+	"cargo scan efficiency" 2
+	"outfit scan power" 4
+	"outfit scan efficiency" 2
+	"tactical scan power" 6
+	"scan concealment" 2
+	
+outfit "Kroth Radar Device"
+	category Systems
+	licenses "Guz' Outfit License"
+	cost 37800
+	thumbnail "outfit/guz scanner small"
+	"mass" 30
+	"outfit space" -30
+	"cargo scan power" 7
+	"cargo scan efficiency" 4
+	"outfit scan power" 6
+	"outfit scan efficiency" 4
+	"tactical scan power" 10
+	"scan concealment" 2
+	
+outfit "Sklorai Radar Device"
+	category Systems
+	licenses "Guz' Outfit License"
+	cost 45200
+	thumbnail "outfit/guz scanner large"
+	"mass" 45
+	"outfit space" -45
+	"cargo scan power" 11
+	"cargo scan efficiency" 6
+	"outfit scan power" 10
+	"outfit scan efficiency" 6
+	"tactical scan power" 22
+	"scan concealment" 2
 

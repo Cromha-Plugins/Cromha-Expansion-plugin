@@ -25,6 +25,7 @@ ship "Guz'Chisel"
 			"hit force" 1500
 	outfits
 		"Zkon Shield Emitter"
+		"Holk Radar Device"
 	
 	engine 0 81.5
 	turret 0 5
