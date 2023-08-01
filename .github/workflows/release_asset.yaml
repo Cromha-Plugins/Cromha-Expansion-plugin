@@ -25,7 +25,7 @@ jobs:
     - name: Install dependencies
       run: |
         composer install -o -q
-    - name: Zip Folder
+    - name: Cromha-Expansion-plugin
       run: zip -r ${{ github.event.repository.name }}.zip . -x ".git/*" ".github/*" "phpcs.xml" "composer.json" "composer.lock" ".gitignore" "source/*" ".editorconfig" "CODE_OF_CONDUCT.md" "CONTRIBUTING.md"
 
     - name: Release
