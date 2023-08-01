@@ -1,0 +1,60 @@
+government Guz'Pas
+	color 0.495 0.32 0
+	"crew attack" 1.6
+	"crew defense" 3.2
+	language Guz'
+	"penalty for"
+		assist -1.6
+		disable 2.9
+		board 4.9
+		capture 100
+		destroy 85
+		atrocity 200
+	"friendly hail" "guz friendly hail"
+	"friendly disabled hail" "guz friendly hail"
+	"hostile hail" "guz hostile hail"
+	"hostile disabled hail" "guz hostile hail"
+	bribe 0
+	fine 1.3
+	raid "Small Guz'Kah"
+
+government Guz'Huk
+	color 0.495 0.32 0
+	"crew attack" 1.1
+	"crew defense" 2.3
+	language Guz'
+	"penalty for"
+		assist -1.6
+		disable 2.9
+		board 4.9
+		capture 100
+		destroy 85
+		atrocity 200
+	"friendly hail" "guz friendly hail"
+	"friendly disabled hail" "guz friendly hail"
+	"hostile hail" "guz hostile hail"
+	"hostile disabled hail" "guz hostile hail"
+	bribe .8
+	fine 1.5
+	raid "Small Guz'Kah"
+	
+government Guz'Kah
+	color 0.495 0.32 0
+	"crew attack" 1.4
+	"crew defense" 2.8
+	"player reputation" -10
+	language Guz'
+	"penalty for"
+		assist -1.6
+		disable 2.9
+		board 4.9
+		capture 100
+		destroy 85
+		atrocity 200
+	"friendly hail" "guz friendly hail"
+	"friendly disabled hail" "guz friendly hail"
+	"hostile hail" "guz hostile hail"
+	"hostile disabled hail" "guz hostile hail"
+	bribe 1.4
+	fine 1.2
+	raid
