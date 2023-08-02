@@ -47,6 +47,7 @@ outfitter "Guz' Advanced"
 	"X4200 Ion Steering"
 	"X5200 Ion Steering"
 	"X1100 Ion Reverse Thruster"
+	"Guz' Ardagron Core"
 
 shipyard "Guz' Basic"
 	"Guz'Chisel"

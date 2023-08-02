@@ -77,6 +77,8 @@ ENDLESS SKY ARTWORK
 
   * pngegg.com
 
+  * texturify.com
+
 
 ADDITIONAL IMAGE SOURCES
 * Lifdot Indsutries: Colossus sprite: https://github.com/Adde-Endless-Sky-Mods/Fluff/blob/main/images/ship/colossus.png

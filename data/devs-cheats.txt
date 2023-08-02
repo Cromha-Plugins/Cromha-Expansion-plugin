@@ -1237,6 +1237,7 @@ outfitter "Everything Outfitter"
 	"Guz' Tractor"
 		# Power
 	"Nuclea-Fission Reactor"
+	"Guz' Ardagron Core"
 		# Systems
 	"Sklak Shield Emitter"
 	"Zkon Shield Emitter"
