@@ -34,7 +34,7 @@ ship "Empire Hydra" "Empire Hydra (Emperor)"
 		"Disruption Afterburnner"
 		"Draining Field Device" 2
 		"Drone Hacking"
-		"Dual Wel'y Beam Turret" 4
+		"Dual Wel'y Beam Turret (Blue)" 4
 		"Empire Nuke Fabricator" 2
 		"Empire Quantum Medal"
 		"Fuel Cell" 28
@@ -86,13 +86,13 @@ ship "Empire Hydra" "Empire Hydra (Emperor)"
 		over
 	turret 0 -17.5 "Draining Field Device"
 		over
-	turret -27 64.5 "Dual Wel'y Beam Turret"
+	turret -27 64.5 "Dual Wel'y Beam Turret (Blue)"
 		over
-	turret 27 64.5 "Dual Wel'y Beam Turret"
+	turret 27 64.5 "Dual Wel'y Beam Turret (Blue)"
 		over
-	turret -66.5 73 "Dual Wel'y Beam Turret"
+	turret -66.5 73 "Dual Wel'y Beam Turret (Blue)"
 		over
-	turret 66.5 73 "Dual Wel'y Beam Turret"
+	turret 66.5 73 "Dual Wel'y Beam Turret (Blue)"
 		over
 	turret 0 0 "Anti-Missile Field Device"
 		under
@@ -142,7 +142,7 @@ ship "Empire Fortress" "Empire Fortress (Emperor)"
 		"Countermesure Module Compact" 16
 		"Disruption Afterburnner"
 		"Draining Field Device" 6
-		"Dual Wel'y Beam Turret" 7
+		"Dual Wel'y Beam Turret (Blue)" 7
 		"Empire Hai Ravine Batteries"
 		"Empire Torpedo Bank" 3
 		"Empire Torpedo Missile" 140
