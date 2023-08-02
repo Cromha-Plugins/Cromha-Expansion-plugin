@@ -11,3 +11,4 @@ outfit "Nuclea-Fission Reactor"
 	"solar collection" 7
 	"solar heat" 3
 	"ramscoop" .5
+	description "The Nuclea-Fission Reactor is a basic nuclear reactor inside of a fission reactor, while it is pretty old, it is still enough powerful to generate energy for any Guz' ship. It is a all-in one system that produce energy from nuclear energy but also from solar panels. It also has a ramscoop that lets the ship produce fuel from solar power."
