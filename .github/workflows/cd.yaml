@@ -71,13 +71,13 @@ jobs:
           github-release upload \
             --tag continuous \
             --replace \
-            --name Cromha-Expansion-plugin.zip
+            --name Cromha-Expansion-plugin.zip \
             --file builds/Cromha-Expansion-plugin.zip
       - name: Add tar to release tag
         run: |
           github-release upload \
             --tag continuous \
             --replace \
-            --name Cromha-Expansion-plugin.tar.gz
+            --name Cromha-Expansion-plugin.tar.gz \
             --file builds/Cromha-Expansion-plugin.tar.gz
 
