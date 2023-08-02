@@ -91,7 +91,9 @@ effect "skylance impact"
 	"random angle" 180
 	"velocity scale" 0.
 
-
+outfit Voidscythe
+	category Turrets
+	cost 14850000
 
 outfit "Quarg Anti-Missile"
 	category "Turrets"
