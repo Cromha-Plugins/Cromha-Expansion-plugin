@@ -17,7 +17,7 @@ outfit "Guz' Ardagron Core"
 	category Power
 	licenses "Guz' Outfit License"
 	cost 98550
-	thumbnail "guz ardagron core"
+	thumbnail "outfit/guz ardagron core"
 	"mass" 45
 	"outfit space" -45
 	"energy generation" 11
