@@ -126,8 +126,8 @@ outfit Voidscythe
 		"inaccuracy" 0.2
 		"velocity" 77
 		"lifetime" 45
-		"shield damage" 1700
-		"hull damage" 1100
+		"shield damage" 8790
+		"hull damage" 5800
 		"piercing" 0.2
 		"disruption damage" 19
 		"hit force" 250
