@@ -58,7 +58,7 @@ jobs:
             Download the compressed zip file and place the unzipped "Cromha-Expansion-plugin" folder in the appropriate location based on your system:
             * Windows: C:\Users\yourusername\AppData\Roaming\endless-sky\plugins
             * Mac OS X*: ~/Library/ApplicationSupport/endless-sky/plugins/
-            * Linux: ~/.local/share/endless-sky/plugins/
+            * Linux: ~/.local/share/endless-sky/plugins/"
           if ! github-release info -t continuous > /dev/null 2>&1; then
             github-release release \
               --tag continuous \
