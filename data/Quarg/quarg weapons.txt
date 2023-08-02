@@ -91,11 +91,11 @@ effect "skylance impact"
 	"random angle" 180
 	"velocity scale" 0.
 
-outfit Voidscythe
-	"display name" "Quarg Voidscythe"
+outfit Doomscythe
+	"display name" "Quarg Doomscythe"
 	category Turrets
 	cost 14850000
-	thumbnail "outfit/quarg voidscythe"
+	thumbnail "outfit/quarg doomscythe"
 	"mass" 40
 	"outfit space" -40
 	"weapon capacity" -40
@@ -107,11 +107,11 @@ outfit Voidscythe
 	weapon
 		sound "acuit"
 		sound "fusion blast"
-		sprite "projectile/voidscythe"
+		sprite "projectile/doomscythe"
 			"no repeat"
 			"frame rate" .25
-		"fire effect" "voidscythe fire"
-		"hardpoint sprite" "hardpoint/quarg voidscythe"
+		"fire effect" "doomscythe fire"
+		"hardpoint sprite" "hardpoint/quarg doomscythe"
 		"hardpoint offset" 10
 		"hit effect" "fusion cannon impact quarg" 20
 		"hit effect" "fusion cannonspark quarg" 40
@@ -136,15 +136,15 @@ outfit Voidscythe
 		"phasing"
 		
 	
-effect "voidscythe fire"
-	sprite "effect/voidscythe/fire"
+effect "doomscythe fire"
+	sprite "effect/doomscythe/fire"
 		"frame rate" 18
 		"no repeat"
 	lifetime 30
 	"random angle" 360
 	
-effect "voidscythe ring"
-	sprite "effect/voidscythe/ring"
+effect "doomscythe ring"
+	sprite "effect/doomscythe/ring"
 		"scale" 0.5
 		"frame rate" 18
 		"no repeat"

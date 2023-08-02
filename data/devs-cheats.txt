@@ -1281,7 +1281,7 @@ outfitter "Everything Outfitter"
 	"Small Graviton Steering"
 	"Large Graviton Thruster"
 	"Large Graviton Steering"
-	Voidscythe
+	Doomscythe
 	
 	# Misc
 	"Prototype Fusion Cannon"

@@ -208,14 +208,14 @@ ship "Quarg Hydra"
 		"Quarg Skylance" 2
 		"Central Repair Hub"
 		"Quarg Skydagger"
-		Voidscythe
+		Doomscythe
 		"Singularity Core"
 	sprite "ship/quargHydra"
 	thumbnail "thumbnail/quargHydra"
 	#	Hardpoints
 	gun -75 45.5
 	gun 75 45.5
-	turret 0 -35.5 "Voidscythe
+	turret 0 -35.5 "Doomscythe"
 	turret 0 -17.5 "Quarg Skydagger"
 	turret -27 64.5 "Quarg Anti-Missile"
 	turret 27 64.5 "Quarg Anti-Missile"
