@@ -1235,6 +1235,8 @@ outfitter "Everything Outfitter"
 	# Guz'
 		# Guns
 	"Guz' Tractor"
+		# Power
+	"Nuclea-Fission Reactor"
 		# Systems
 	"Sklak Shield Emitter"
 	"Zkon Shield Emitter"
