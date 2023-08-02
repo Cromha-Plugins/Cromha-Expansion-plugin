@@ -82,9 +82,9 @@ ship "Empire Hydra" "Empire Hydra (Emperor)"
 		angle 0
 		under
 	turret -75 45.5 "Draining Rocket Fabricator"
-		under
+		over
 	turret 75 45.5 "Empire Nuke Fabricator"
-		under
+		over
 	turret 0 -35.5 "Draining Field Device"
 		over
 	turret 0 -17.5 "Draining Field Device"
