@@ -25,6 +25,7 @@ Learn more [about Endless Sky][esweb].
 * [Installation](#installation)
     * [Install steps](#install-steps)
     * [Keeping the plugin updated](#keeping-the-plugin-updated)
+* [Special Thanks](#special-thanks)
 
 </details>
 
@@ -98,6 +99,19 @@ git pull
 ```
 
 If it don't work, you can just re-download the plugin at [releases](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/releases) and put it in your [endless sky plugin directory](https://github.com/endless-sky/endless-sky/wiki/CreatingPlugins). And make sure you deleted the old Cromha Expansion plugin folder.
+
+## Special thanks
+
+I have several people that really needs credits for my work here, first because some of them helped me but also some of them did great work on the endless sky community:
+
+  * @lumba527
+    * He helped me by a lot on the plugin and had a lot of great ideas.
+  * @1010todd's
+    * This guys is an insane plugin creator who made tons of great assets, plugins and also have insane ideas. Lot of ideas from this project originally come from some of his work. You can check his plugins [here](https://github.com/endless-sky/endless-sky/discussions/7928).
+  * @MidnightPlugins
+    * He made great plugins with great ideas that have me other great ideas.
+  * @Petersupes
+    * He created the [Sheragi Rebirth](https://github.com/Petersupes/sheragi-rebirth) plugin, which I partially copied.
 
 [es]: https://github.com/endless-sky/endless-sky
 [continuous]: https://github.com/endless-sky/endless-sky/releases/tag/continuous
