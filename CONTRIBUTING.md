@@ -68,7 +68,7 @@ Here are some tips to code addons or create your own plugin:
 
 * Use the [plugin wiki](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki) as well as the official [plugin creation wiki](https://github.com/endless-sky/endless-sky/wiki#creating-ships-missions-artwork-etc) if there is something you're not sure about.
 
-* If you're adding ships or outfits, make sure that if you made your own model, to add it to the [`source/`](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/tree/main/source) directory. Make sure to use the following pattern for creating files & folders:
+* If you're adding ships or outfits, make sure that if you made your own model, to add it to the [`source/`](https://github.com/OcelotWalrus/Cromha-Expansion-sources) sub-module. Make sure to use the following pattern for creating files & folders:
 ```
   source/
   |-- outfit/
