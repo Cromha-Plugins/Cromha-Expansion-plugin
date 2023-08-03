@@ -19,6 +19,7 @@ ship "Quarg Skylark"
 		"hull repair rate" 5
 		"hull energy" 5
 		"ramscoop" 10
+		"threshold percentage" 0.25
 		weapon
 			"blast radius" 250
 			"shield damage" 1000
@@ -74,6 +75,7 @@ ship "Quarg Wardragon"
 		"hull repair rate" 5
 		"hull energy" 5
 		"ramscoop" 10
+		"threshold percentage" 0.25
 		weapon
 			"blast radius" 250
 			"shield damage" 1000
@@ -130,6 +132,7 @@ ship "Quarg Drake"
 		mass 260
 		ramscoop 10
 		shields 110000
+		"threshold percentage" 0.25
 		weapon
 			"blast radius" 250
 			"hit force" 1500
@@ -182,6 +185,7 @@ ship "Quarg Hydra"
 		mass 610
 		ramscoop 10
 		shields 220000
+		"threshold percentage" 0.25
 		weapon
 			"blast radius" 300
 			"hit force" 2000
