@@ -68,9 +68,9 @@ Here are some tips to code addons or create your own plugin:
 
 * Use the [plugin wiki](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki) as well as the official [plugin creation wiki](https://github.com/endless-sky/endless-sky/wiki#creating-ships-missions-artwork-etc) if there is something you're not sure about.
 
-* If you're adding ships or outfits, make sure that if you made your own model, to add it to the [`source/`](https://github.com/OcelotWalrus/Cromha-Expansion-sources) sub-module. Make sure to use the following pattern for creating files & folders:
+* If you're adding ships or outfits, make sure that if you made your own model, to add it to the [`sources/`](https://github.com/OcelotWalrus/Cromha-Expansion-sources) sub-module. Make sure to use the following pattern for creating files & folders:
 ```
-  source/
+  sources/
   |-- outfit/
   |   |-- <outfit code name>/
   |       |-- 3D/ (the 3D models)
@@ -89,7 +89,7 @@ Here are some tips to code addons or create your own plugin:
   |       |   |-- sprites/ (the render of your blender model with GIMP modifications and re-scaling for the game)
   |       |       |-- <outfit code name>.png
   |       |           ...
-  |       |-- templates/ (optional, only if you use other parts of blender models that are not already in the source/ directory)
+  |       |-- templates/ (optional, only if you use other parts of blender models that are not already in the sources/ directory)
   |           ...
   |
   |-- ships/
@@ -114,7 +114,7 @@ Here are some tips to code addons or create your own plugin:
           |   |   |-- <ship code name>.png
           |   |   |-- <ship code name>-thumb.png
           |   |       ...
-          |-- templates/ (optional, only if you use other parts of blender models that are not already in the source/ directory)
+          |-- templates/ (optional, only if you use other parts of blender models that are not already in the sources/ directory)
               ...
 ```
 

@@ -2,6 +2,12 @@
 
 <h1><p align=center>Endless Sky Plugin:<br />Cromha-Expansion</p></h1>
 
+[![CD](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/actions/workflows/cd.yaml/badge.svg?branch=main)](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/actions/workflows/cd.yaml)
+[![Submodule Updates](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/actions/workflows/sub-modules-update.yaml/badge.svg?branch=main)](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/actions/workflows/sub-modules-update.yaml)
+[![Codespaces Prebuilds](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/actions/workflows/codespaces/create_codespaces_prebuilds/badge.svg)](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/actions/workflows/codespaces/create_codespaces_prebuilds)
+
+## 
+
 This is a plugin for the free, open-source game [Endless Sky][es]. This plugin
 is developed and tested against the [Endless Sky continuous][continuous] build.
 Learn more [about Endless Sky][esweb].
@@ -66,7 +72,7 @@ You can use the following command if you're used to command line.
 git clone https://github.com/OcelotWalrus/Cromha-Expansion-plugin.git
 ```
 
-If you want the `source/` directory (a directory for the plugin assets like `.blend` files or `.xcf` for contributor), run the following command to enable sub-modules:
+If you want the `sources/` directory (a directory for the plugin assets like `.blend` files or `.xcf` for contributor), run the following command to enable sub-modules:
 
 ```
 git clone https://github.com/OcelotWalrus/Cromha-Expansion-plugin.git --recursive
