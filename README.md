@@ -66,7 +66,7 @@ You can use the following command if you're used to command line.
 git clone https://github.com/OcelotWalrus/Cromha-Expansion-plugin.git
 ```
 
-If you want the `source/` directory (a directory for the plugin assets like `.blend` files or `.xcf` for contributor), run the following command to enable sub-modeuls:
+If you want the `source/` directory (a directory for the plugin assets like `.blend` files or `.xcf` for contributor), run the following command to enable sub-modules:
 
 ```
 git clone https://github.com/OcelotWalrus/Cromha-Expansion-plugin.git --recursive
