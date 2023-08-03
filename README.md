@@ -34,7 +34,14 @@ Adds a new civilization to the Korath Space (now named the '[Empire Space](https
 ## This plugin:
 
 * Adds governments that are related to the vanilla storyline (kind of).
-* Adds another government that will fight the other one.
+* Expand various civilizations:
+  * Quarg
+  * Pug
+  * Remnant
+  * Ka'Het
+  * Kor Automatons (Kor Mereti and Kor Sestor)
+  * Korath
+* The Lumbarian Empire that wants to replace the Republic and the Free Worlds and the Syndicate
 * The storyline that the plugin adds is made so it is the most similar possible to the vanilla one.
 * Add new outfits and ships from different governments.
 * Expands upon the existing map for exploration (New Systems in the north of the galaxy and near the Deep Space).
@@ -52,12 +59,15 @@ You can also create an [issue](https://github.com/OcelotWalrus/Cromha-Expansion-
 # Development Status
 It is currently a Beta plugin.
 
-* A medium WIP (work in progress) plugin.
-* Story is not fully implemented but for most of the part, it is.
-* Spaceport and planets descriptions are not fully done.
+* A medium WIP (work in progress) plugin
+* Story is not fully implemented but for most of the part, it is
+* Spaceport and planets descriptions are not fully done
+* Quarg-Pug Expansion not finished
+* Ember Watse/Remnant/Dark Expansion not finished
+* Many more civilizations expansions to do
 * Outfits and ships descriptions are not fully done.
-* The whole 'Empire Rebels' part is not started very yet. (check [wiki](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki/Governments-&-Major-Factions)).
-* The [wiki](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki/) still in work and most of the Gameplay section is outdated.
+* The whole 'Empire Rebels' part is not started very yet. (check [wiki](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki/Governments-&-Major-Factions))
+* The [wiki](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki/) still in work and most of the Gameplay section is outdated
 * The Lumbarian Empire is currently in a very early stage. Help create the storyline [here](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/discussions/117)
 
 # Installation
