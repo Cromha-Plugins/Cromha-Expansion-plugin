@@ -13,11 +13,9 @@ jobs:
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
-      - uses: actions/checkout@v2
-
-        # Uses the private access token from above link
+      - uses: actions/checkout@v3
         with:
-          token: ${{ secrets.PRIVATE_TOKEN_GITHUB }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       # Initialize or update each one recursively
       - name: Pull & update submodules recursively
