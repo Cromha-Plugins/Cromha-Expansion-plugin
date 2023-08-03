@@ -66,6 +66,12 @@ You can use the following command if you're used to command line.
 git clone https://github.com/OcelotWalrus/Cromha-Expansion-plugin.git
 ```
 
+If you want the `source/` directory (a directory for the plugin assets like .blend files or .xcf for contributor), run the following command to enable sub-modeuls:
+
+```
+git clone https://github.com/OcelotWalrus/Cromha-Expansion-plugin.git --recursive
+```
+
  If not, you can download the [continuous build](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/releases/tag/continuous) and put the folder into your [endless sky plugin directory](https://github.com/endless-sky/endless-sky/wiki/CreatingPlugins).
 
 ## Keeping the plugin updated
