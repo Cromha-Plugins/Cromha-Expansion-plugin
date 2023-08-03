@@ -5,21 +5,27 @@ name: Submodule Updates
 # Start the job on all push #
 #############################
 on:
-  push:
-    branches: [master, main]
-  pull_request:
-    branches: [master, main]
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
 
 ###############
 # Set the Job #
 ###############
 jobs:
-  submodule:
+  submodule_update:
     name: Submodule update
     runs-on: ubuntu-latest
+    env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
+      - name: Setup Git
+        run: |
+          git config user.email "actions@github.com"
+          git config user.name "Github Actions"
+          git fetch origin
       - name: Checkout submodules
         run: |
           git submodule update --remote
