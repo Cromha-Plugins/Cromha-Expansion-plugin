@@ -1,32 +1,33 @@
----
-name: Submodule Updates
 
-#############################
-# Start the job on all push #
-#############################
+name: Update Submodules
 on:
   schedule:
-    - cron: "0 * * * *"
+  # run daily at midnight
+  - cron: '0 * * * *'
+  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-###############
-# Set the Job #
-###############
 jobs:
-  submodule_update:
-    name: Submodule update
+  update:
     runs-on: ubuntu-latest
-    env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-      - name: Checkout submodules
+      - uses: actions/checkout@v2
+
+        # Uses the private access token from above link
+        with:
+          token: ${{ secrets.PRIVATE_TOKEN_GITHUB }}
+
+      # Initialize or update each one recursively
+      - name: Pull & update submodules recursively
+        run: |
+          git submodule update --init --recursive
+          git submodule update --recursive --remote
+
+      # Commit to the repo under the GitHub actions user to ensure we have
+      # reasonable logging to trace back
+      - name: Commit & push changes
         run: |
           git config --global user.email "actions@github.com"
-          git config --global user.name "Github Actions"
-          git submodule update --remote
-          git add -A
-          git commit -m "Updated sub-modules"
-          git push -u
-      
+          git config --global user.name "GitHub Actions - update submodules"
+          git commit -am "Update submodules" || echo "No changes to commit"
+          git push
