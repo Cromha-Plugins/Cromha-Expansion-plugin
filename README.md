@@ -102,15 +102,16 @@ If it don't work, you can just re-download the plugin at [releases](https://gith
 
 ## Special thanks
 
+Check [copyright.txt](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/blob/main/copyright.txt) for full credits.
 I have several people that really needs credits for my work here, first because some of them helped me but also some of them did great work on the endless sky community:
 
-  * @lumba527
+  * [`@lumbar527`](https://github.com/lumbar527)
     * He helped me by a lot on the plugin and had a lot of great ideas.
-  * @1010todd's
-    * This guys is an insane plugin creator who made tons of great assets, plugins and also have insane ideas. Lot of ideas from this project originally come from some of his work. You can check his plugins [here](https://github.com/endless-sky/endless-sky/discussions/7928).
-  * @MidnightPlugins
+  * [`@1010todd`](https://github.com/1010todd)
+    * This guys is an insane plugin creator who made tons of great assets, plugins and also have insane ideas. Lot of ideas from this project originally come from some of his work. You can check his plugins [here](https://github.com/endless-sky/endless-sky/discussions/7928). Respect to this guy.
+  * [`@MidnightPlugins`](https://github.com/MidnightPlugins)
     * He made great plugins with great ideas that have me other great ideas.
-  * @Petersupes
+  * [`@Petersupes`](https://github.com/Petersupes)
     * He created the [Sheragi Rebirth](https://github.com/Petersupes/sheragi-rebirth) plugin, which I partially copied.
 
 [es]: https://github.com/endless-sky/endless-sky
