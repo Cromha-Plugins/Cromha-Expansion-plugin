@@ -1,4 +1,4 @@
-.vscode/
+.vscode/*
 *.DS_Store
 **/.DS_Store
 *.blend1
