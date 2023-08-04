@@ -23,7 +23,7 @@ outfit "Guz' Tractor"
 		"firing heat" 4.9
 		"shield damage" 2.8
 		"hull damage" .9
-		"hit force" 40
+		"hit force" -75
 	description "The Guz' Tractor is a powerful reproaching weapon that lets the Guz' approach their enemy without moving and whithout letting them the time to understand what's happening. The Guz'Tractor is very similar the REbels Grav-Turret and the Korath Grav-Turret, but it's more powerful."
 
 effect "guz tractor impact"
