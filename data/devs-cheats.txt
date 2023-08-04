@@ -1238,6 +1238,10 @@ outfitter "Everything Outfitter"
 		# Power
 	"Nuclea-Fission Reactor"
 	"Guz' Ardagron Core"
+		# Engines
+	"Guz'Yar 1 Thruster"
+	"Guz'Yar 2 Thruster"
+	"Guz'Yar 3 Thruster"
 		# Systems
 	"Sklak Shield Emitter"
 	"Zkon Shield Emitter"
