@@ -23,15 +23,15 @@ ship "Quarg Fafnir"
 		"disruption resistance" .2
 		"disruption resistance energy" 1
 		"disruption resistance heat" 1
+		"cooling" 35
 		weapon
 			"blast radius" 250
 			"shield damage" 7000
 			"hull damage" 1500
 			"hit force" 1500
 	outfits
-		"Quarg Starwrath" 2
-		"Quarg Starpike" 4
-		"Anti-Missile 2
+		"Quarg Skypike" 6
+		"Quarg Anti-Missile" 2
 		
 		"Singularity Core"
 		"Tachyon Core" 2
@@ -40,19 +40,20 @@ ship "Quarg Fafnir"
 		"Plate Shield Generator"
 		"Intrusion Countermeasures" 150
 		"Blight Rifle" 130
+		"Quarg Gravitational Core"
 		
-		"Large Graviton Thruster"
-		"Large Graviton Steering"
+		"Medium Graviton Thruster"
+		"Medium Graviton Steering"
 		"Warp Drive"
 		
-	turret -35 -119
-	turret 35 -119
-	turret -40.5 -95.5
-	turret 40.5 -95.5
-	turret -45 -69
-	turret 45 -69
-	gun -39 77.5
-	gun 39 77.5
+	turret -35 -119 "Quarg Anti-Missile"
+	turret 35 -119 "Quarg Anti-Missile"
+	turret -40.5 -95.5 "Quarg Skypike"
+	turret 40.5 -95.5 "Quarg Skypike"
+	turret -45 -69 "Quarg Skypike"
+	turret 45 -69 "Quarg Skypike"
+	turret -39 77.5 "Quarg Skypike"
+	turret 39 77.5 "Quarg Skypike"
 	engine -0.5 159.5
 		zoom 1
 		angle 0

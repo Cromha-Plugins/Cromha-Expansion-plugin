@@ -29,7 +29,7 @@ outfit "Quarg Gravitational Core"
 	"optical jamming" 35
 	"radar jamming" 35
 	"energy consumption" 60
-	description "The Quarg developed the Gravitational Core is a device that generate gravitational forces to create more thrust and turn, enhance your ship acceleration in overhaul, it protects your ship from hit forces and slowing damages."
+	description "The Gravitational Core is a device that generate gravitational forces to create more thrust and turn, enhance your ship acceleration in overhaul, it protects your ship from hit forces and slowing damages."
 	description "It can also corrupt radar and optical tracking missiles by creating gravitational forces."
 	
 
