@@ -1245,6 +1245,8 @@ outfitter "Everything Outfitter"
 	"Guz'Yar 1 Thruster"
 	"Guz'Yar 2 Thruster"
 	"Guz'Yar 3 Thruster"
+	"Guz'Yar 4 Thruster"
+	"Guz'Yar 5 Thruster"
 		# Systems
 	"Sklak Shield Emitter"
 	"Zkon Shield Emitter"
