@@ -11,15 +11,15 @@ outfit "Quarg Skypike"
 	"active cooling" 15
 	"cooling energy" 3
 	weapon
-		sprite "projectile/skylance"
+		sprite "projectile/skypike"
 			"frame rate" 1
 		"hardpoint sprite" "hardpoint/quarg skylance"
 		"hardpoint offset" 10
 		sound "skylance"
-		"hit effect" "skylance impact"
+		"hit effect" "skylance impact" 2
 		"inaccuracy" .4
 		"turret turn" 3.5
-		"velocity" 1000
+		"velocity" 1200
 		"lifetime" 1
 		"reload" 1
 		"firing energy" 35
