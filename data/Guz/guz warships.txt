@@ -30,11 +30,12 @@ ship "Guz'Chisel"
 		"Holk Radar Device"
 		"Guz'Yar 1 Thruster"
 		"Nuclea-Fission Reactor" 2
-		"Guz' Tractor"
+		"Guz Artillery Turret"
+		"Guz Heavy Missile" 7
 	
 	engine 0 81.5
 		zoom 2
-	turret 0 5 "Guz' Tractor"
+	turret 0 5
 	gun 32 -38
 	gun -32 -38
 		zoom 1.4

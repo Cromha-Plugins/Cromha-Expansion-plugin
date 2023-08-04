@@ -32,3 +32,42 @@ effect "guz tractor impact"
 		"frame rate" 60
 	"lifetime" 2
 	"velocity scale" 0.
+
+outfit "Guz Artillery Turret"
+	category "Secondary Weapons"
+	cost 480000
+	thumbnail "outfit/guz heavy artillery"
+	"mass" 50
+	"outfit space" -40
+	"weapon capacity" -40
+	"turret mounts" -1
+	"guz heavy missile capacity" 7
+	weapon
+		sprite projectile/missile
+			"frame rate" 0.25
+		"hit effect" "nuke explosion"
+		ammo "Guz Heavy Missile"
+		"stream"
+		"inaccuracy" 1
+		"turret turn" 3
+		"velocity" 6
+		lifetime 800
+		"acceleration" 0.8
+		"reload" 40
+		"burst count" 5
+		"drag" 0.1
+		"trigger radius" 30
+		"blast radius" 150
+		"shield damage" 2000
+		"hull damage" 2400
+		"hit force" 4000
+		"missile strength" 200
+	description "This is a powerful missile-artillery turret made by the Guz."
+
+outfit "Guz Heavy Missile"
+	category "Secondary Weapons"
+	cost 60000
+	thumbnail outfit/nuke
+	"mass" 3
+	"outfit space" -3
+	"guz heavy missile capacity" -1
