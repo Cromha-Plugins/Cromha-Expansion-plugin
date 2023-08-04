@@ -46,7 +46,7 @@ outfit "Guz' Artillery Turret"
 		sprite projectile/missile
 			"frame rate" 0.25
 		"hit effect" "nuke explosion"
-		ammo "Guz Heavy Missile"
+		ammo "Guz' Heavy Missile"
 		"stream"
 		"inaccuracy" 1
 		"turret turn" 3
@@ -62,7 +62,7 @@ outfit "Guz' Artillery Turret"
 		"hull damage" 2400
 		"hit force" 4000
 		"missile strength" 200
-	description "This is a powerful missile-artillery turret made by the Guz."
+	description "This is a powerful missile-artillery turret made by the Guz'."
 
 outfit "Guz' Heavy Missile"
 	category "Secondary Weapons"
