@@ -16,10 +16,14 @@ outfit "Quarg Skypike"
 		"hardpoint sprite" "hardpoint/quarg skylance"
 		"hardpoint offset" 10
 		sound "skylance"
+		"fire effect" "alldust beam fleck"
 		"hit effect" "skylance impact" 2
 		"inaccuracy" .4
 		"turret turn" 3.5
 		"velocity" 1200
+		"reload" 70
+		"burst count" 90
+		"burst reload" .01
 		"lifetime" 1
 		"reload" 1
 		"firing energy" 35
