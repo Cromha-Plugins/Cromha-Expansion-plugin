@@ -1235,6 +1235,9 @@ outfitter "Everything Outfitter"
 	# Guz'
 		# Guns
 	"Guz' Tractor"
+		# Secondary Weapons
+	"Guz' Artillery Turret"
+	"Guz' Heavy Missile"
 		# Power
 	"Nuclea-Fission Reactor"
 	"Guz' Ardagron Core"
@@ -1286,6 +1289,8 @@ outfitter "Everything Outfitter"
 	"Large Graviton Thruster"
 	"Large Graviton Steering"
 	Doomscythe
+	"Quarg Skypike"
+	"Quarg Gravitational Core"
 	
 	# Misc
 	"Prototype Fusion Cannon"
@@ -1878,6 +1883,13 @@ shipyard "Everything Shipyard"
 	
 	# Guz'
 	"Guz'Chisel"
+	
+	# Quarg Fluffs
+	"Quarg Wardragon"
+	"Quarg Skylark"
+	"Quarg Drake"
+	"Quarg Hydra"
+	"Quarg Fafnir"
 	
 	# Korath
 	"Ancient Raider"

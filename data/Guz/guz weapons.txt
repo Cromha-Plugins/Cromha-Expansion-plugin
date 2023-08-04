@@ -46,6 +46,7 @@ outfit "Guz' Artillery Turret"
 		sprite projectile/missile
 			"frame rate" 0.25
 		"hit effect" "nuke explosion"
+		"hardpoint sprite" "hardpoint/guz tractor"
 		ammo "Guz' Heavy Missile"
 		"stream"
 		"inaccuracy" 1
