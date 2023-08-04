@@ -33,7 +33,7 @@ effect "guz tractor impact"
 	"lifetime" 2
 	"velocity scale" 0.
 
-outfit "Guz Artillery Turret"
+outfit "Guz' Artillery Turret"
 	category "Secondary Weapons"
 	cost 480000
 	thumbnail "outfit/guz heavy artillery"
@@ -64,7 +64,7 @@ outfit "Guz Artillery Turret"
 		"missile strength" 200
 	description "This is a powerful missile-artillery turret made by the Guz."
 
-outfit "Guz Heavy Missile"
+outfit "Guz' Heavy Missile"
 	category "Secondary Weapons"
 	cost 60000
 	thumbnail outfit/nuke
