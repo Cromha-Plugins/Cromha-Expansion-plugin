@@ -18,15 +18,18 @@ outfit "Quarg Skypike"
 		sound "skylance"
 		"hit effect" "skylance impact"
 		"inaccuracy" .4
-		"turret turn" 2.1
-		"velocity" 500
+		"turret turn" 3.5
+		"velocity" 1000
 		"lifetime" 1
 		"reload" 1
-		"firing energy" 15
-		"firing heat" 5
-		"shield damage" 25
-		"hull damage" 20
-		"ion damage" .1
+		"firing energy" 35
+		"firing heat" 18
+		"shield damage" 80
+		"hull damage" 68
+		"damage dropoff" 700
+		"dropoff modifier" .5
+		"piercing" .1
+	description "The Skypike is an ameliorated Quarg Skylance. Its range have been doubled as well as its damage statistics. Its downside is that his damages dropoff at higher ranges from 700"
 
 outfit "Quarg Skylance"
 	category "Turrets"
