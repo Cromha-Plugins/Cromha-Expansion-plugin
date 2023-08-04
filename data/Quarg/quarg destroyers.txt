@@ -34,7 +34,7 @@ ship "Quarg Fafnir"
 		"Quarg Anti-Missile" 2
 		
 		"Singularity Core"
-		"Tachyon Core" 2
+		"Tachyon Core" 4
 		"Nanotech Battery" 3
 		"Fluxion Shield Generator" 2
 		"Plate Shield Generator"
