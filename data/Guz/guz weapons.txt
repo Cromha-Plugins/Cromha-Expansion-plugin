@@ -82,7 +82,7 @@ outfit "Gatlin' Guz' Ammo"
 	cost 4
 	thumbnail "outfit/guz bullet"
 	"mass" .002
-	"gatling round capacity" -1
+	"gatling guz round capacity" -1
 	description "This simple cartridge is the ammunition for the Gatling Gun, with a projectile of depleted nuclear fuel or an illuminated tracer round. Since this ammunition is primarily manufactured on pirate worlds by slave children in poor working conditions, muzzle velocity can vary by up to 30%, and tracer distribution is seldom uniform."
 
 outfit "Guz' Bullet Boxes"
@@ -92,8 +92,8 @@ outfit "Guz' Bullet Boxes"
 	thumbnail "outfit/guz bullet storage"
 	"mass" 2
 	"outfit space" -5
-	"gatling round capacity" 1500
-	ammo "Gatling Gun Ammo"
+	"gatling guz round capacity" 1500
+	ammo "Gatlin' Guz' Ammo"
 	description "Bullet Boxes are used to store extra ammunition for Gatling Guns."
 
 outfit "Guz' Gatlin' Gun"
@@ -104,12 +104,12 @@ outfit "Guz' Gatlin' Gun"
 	"outfit space" -8
 	"weapon capacity" -8
 	"gun ports" -1
-	"gatling round capacity" 3000
+	"gatling guz round capacity" 3000
 	weapon
 		sprite "projectile/guz bullet"
 			"random start frame"
 		sound "gatling"
-		ammo "Gatling Gun Ammo"
+		ammo "Gatlin' Guz' Ammo"
 		icon "icon/guz gat"
 		"inaccuracy" 2
 		"velocity" 16
