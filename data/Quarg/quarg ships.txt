@@ -256,7 +256,7 @@ ship "Quarg Fafnir"
 		"disruption resistance" .2
 		"disruption resistance energy" 1
 		"disruption resistance heat" 1
-		"cooling" 75
+		"cooling" 175
 		weapon
 			"blast radius" 250
 			"shield damage" 7000
