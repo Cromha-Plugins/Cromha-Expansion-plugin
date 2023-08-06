@@ -1237,7 +1237,11 @@ outfitter "Everything Outfitter"
 	"Guz' Tractor"
 		# Secondary Weapons
 	"Guz' Artillery Turret"
+	"Guz' Gatlin' Gun"
+		# Ammunition
 	"Guz' Heavy Missile"
+	"Gatlin' Guz' Ammo"
+	"Guz' Bullet Boxes"
 		# Power
 	"Nuclea-Fission Reactor"
 	"Guz' Ardagron Core"
