@@ -233,7 +233,7 @@ ship "Quarg Hydra"
 	
 ship "Quarg Fafnir"
 	sprite "ship/quarg fafnir"
-	thumbnail "ship/quarg fafnir"
+	thumbnail "thumbnail/quarg fafnir"
 	attributes
 		category "Medium Warship" 
 		"cost" 5900000
@@ -303,3 +303,68 @@ ship "Quarg Fafnir" "Quarg Fafnir (Doomscythe)"
 		"Quarg Fuel Processor (Medium)"
 		"Doomscythe" 4
 		"Skypike" 0
+		
+ship "Quarg Kaukas"
+	sprite "ship/quarg kaukas"
+	thumbnail "thumbnail/quarg kaukas"
+	attributes
+		category "Heavy Freighter"
+		"cost" 5900000
+		"shields" 548000
+		"hull" 129000
+		"required crew" 320
+		"bunks" 360
+		"mass" 4292
+		"drag" 16.4
+		"heat dissipation" .75
+		"fuel capacity" 1800
+		"cargo space" 2750
+		"outfit space" 1520
+		"weapon capacity" 788
+		"engine capacity" 260
+		"hull repair rate" 7
+		"hull energy" 7
+		"ramscoop" 10
+		weapon
+			"blast radius" 250
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 1500
+	outfits
+		"Quarg Skypike" 4
+		"Quarg Doomscythe" 2
+		"Quarg Anti-Missile" 2
+		
+		"Antimatter Core"
+		"Singularity Core" 4
+		"Nanotech Battery" 4
+		"Quantum Shield Generator"
+		"Infinium Shield Generator" 2
+		"Intrusion Countermeasures" 320
+		"Quarg Gravitational Core"
+		
+		"Large Graviton Thruster"
+		"Large Graviton Steering"
+		"Warp Drive"
+		
+	turret -40 -249 
+	turret 40 -249 
+	turret -48 -192.5 "Quarg Skypike"
+	turret 48 -192.5 "Quarg Skypike"
+	turret 0 18.5 "Quarg Anti-Missile"
+	turret 0 83.5 "Quarg Anti-Missile"
+	turret -139 198.5 "Quarg Skypike"
+	turret 139 198.5 "Quarg Skypike"
+	turret -136 248.5 
+	turret 136 248.5 
+	engine -57.5 319.5 
+	engine 57.5 319.5 
+	engine 0 352.5 
+	engine 0 352.5 
+	explode "tiny explosion" 12
+	explode "small explosion" 16
+	explode "medium explosion" 30
+	explode "large explosion" 40
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description "Quarg heavy freighter for shipping large amount of cargo across large distance."

@@ -20,6 +20,8 @@ outfit "Quarg Gravitational Core"
 	"unplunderable"
 	"slowing protection" 1
 	"slowing resistance heat" .9
+	"afterburner thrust" 23.5
+	"afterburner disruption" .033
 	"thrust" 9
 	"turn" 150
 	"force protection" 1

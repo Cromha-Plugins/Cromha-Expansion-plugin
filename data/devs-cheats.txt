@@ -1892,6 +1892,7 @@ shipyard "Everything Shipyard"
 	"Quarg Drake"
 	"Quarg Hydra"
 	"Quarg Fafnir"
+	"Quarg Kaukas"
 	
 	# Korath
 	"Ancient Raider"
@@ -1905,10 +1906,6 @@ shipyard "Everything Shipyard"
 	
 	# Ka'het Fluffs
 	"Veliante'ixis"
-	
-	# Quarg Fluffs
-	"Quarg Drake"
-	"Quarg Hydra"
 	
 	# Misc
 	"Archon"
