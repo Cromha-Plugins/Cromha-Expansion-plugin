@@ -1293,6 +1293,7 @@ outfitter "Everything Outfitter"
 	Doomscythe
 	"Quarg Skypike"
 	"Quarg Gravitational Core"
+	"Quarg Celestial Hammer"
 	
 	# Misc
 	"Prototype Fusion Cannon"
@@ -1893,6 +1894,7 @@ shipyard "Everything Shipyard"
 	"Quarg Hydra"
 	"Quarg Fafnir"
 	"Quarg Kaukas"
+	"Quarg Gtuhanai"
 	
 	# Korath
 	"Ancient Raider"
