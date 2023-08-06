@@ -246,7 +246,7 @@ ship "Quarg Fafnir"
 		"heat dissipation" .6
 		"fuel capacity" 800
 		"cargo space" 1565
-		"outfit space" 1389
+		"outfit space" 14989
 		"weapon capacity" 750
 		"engine capacity" 120
 		"hull repair rate" 5
@@ -256,7 +256,7 @@ ship "Quarg Fafnir"
 		"disruption resistance" .2
 		"disruption resistance energy" 1
 		"disruption resistance heat" 1
-		"cooling" 35
+		"cooling" 75
 		weapon
 			"blast radius" 250
 			"shield damage" 7000
@@ -266,14 +266,14 @@ ship "Quarg Fafnir"
 		"Quarg Skypike" 6
 		"Quarg Anti-Missile" 2
 		
-		"Singularity Core"
-		"Tachyon Core" 4
+		"Singularity Core" 6
 		"Nanotech Battery" 3
 		"Antimatter Core"
 		"Fluxion Shield Generator" 2
-		"Plate Shield Generator"
+		"Infinium Shield Generator"
 		"Intrusion Countermeasures" 150
 		"Blight Rifle" 130
+		"Peripheral Repair Hub"
 		"Quarg Gravitational Core"
 		
 		"Medium Graviton Thruster"
@@ -289,13 +289,17 @@ ship "Quarg Fafnir"
 	turret -39 77.5 "Quarg Skypike"
 	turret 39 77.5 "Quarg Skypike"
 	engine -0.5 159.5
-		zoom 1
-		angle 0
-		under
 	explode "tiny explosion" 12
 	explode "small explosion" 16
 	explode "medium explosion" 30
 	explode "large explosion" 40
 	explode "huge explosion" 20
 	"final explode" "final explosion medium"
-	description "Quarg Modern Destroyer"
+	description "Quarg Modern Medium Warship"
+	
+ship "Quarg Fafnir" "Quarg Fafnir (Doomscythe)"
+	outfits
+		"Quarg Cooling (Large)"
+		"Quarg Fuel Processor (Medium)"
+		"Doomscythe" 4
+		"Skypike" 0
