@@ -217,10 +217,10 @@ outfit "Ion Plasma Thrower"
 		sound "flamethrower"
 		icon "icon/flamethrower empire"
 		"submunition" "Ion Plasma Thrower Projectile"
-		"inaccuracy" 12
+		"inaccuracy" 30
 		"velocity" 9
 		"lifetime" 4
-		"reload" 1
+		"reload" .3
 		"firing energy" .1
 		"firing fuel" .25
 		"firing heat" 4
@@ -234,13 +234,13 @@ outfit "Ion Plasma Thrower"
 
 outfit "Ion Plasma Thrower Projectile"
 	weapon
-		sprite "effect/explosion/empire explosion small"
+		sprite "effect/explosion/empire medium"
 			"frame rate" 17
 			"random start frame"
 		"hit effect" "flamethrower empire hit"
 		"die effect" "flamethrower empire die"
 		"inaccuracy" 20
-		"lifetime" 26
+		"lifetime" 45
 		"random lifetime" 8
 		"damage dropoff" 0 198
 		"dropoff modifier" .5

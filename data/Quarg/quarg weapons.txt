@@ -101,7 +101,7 @@ outfit "Quarg Ranseur"
 	"outfit space" -31
 	"weapon capacity" -31
 	"gun ports" -1
-	"active cooling" 7.55
+	"active cooling" 9.55
 	"cooling energy" 1.55
 	weapon
 		sprite "projectile/ranseur"
@@ -112,10 +112,10 @@ outfit "Quarg Ranseur"
 		"velocity" 800
 		"lifetime" 1
 		"reload" 24
-		"burst count" 10
+		"burst count" 80
 		"burst reload" 1
-		"firing energy" 285
-		"firing heat" 95
+		"firing energy" 10
+		"firing heat" 25
 		"shield damage" 475
 		"hull damage" 380
 		"piercing" .1
@@ -143,16 +143,17 @@ outfit "Quarg Celestial Hammer"
 		sprite "projectile/quarg celestialhammer"
 			"frame rate" 1
 		sound "dragonflame"
+		"live effect" "fusion cannon cloud empire" 5
 		"hit effect" "celestialhammer impact"
-		submunition "quarg celestialhammer fragment" 22
-		submunition "quarg celestialhammer micro fragment" 150
+		submunition "quarg celestialhammer fragment" 28
+		submunition "quarg celestialhammer micro fragment" 170
 		"inaccuracy" .4
 		"velocity" 120
 		"velocity override" 50
 		"range override" 3500
 		"acceleration" .001
 		"drag" .07
-		"lifetime" 120
+		"lifetime" 140
 		"reload" 360
 		"firing energy" 4500
 		"firing heat" 5000

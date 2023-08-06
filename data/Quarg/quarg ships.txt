@@ -1,6 +1,6 @@
 ship "Quarg Skylark"
-	sprite "ship/skylark"
-	thumbnail "thumbnail/skylark"
+	sprite "ship/quarg skylark"
+	thumbnail "ship/quarg skylark"
 	attributes
 		category "Utility"
 		"cost" 5900000
@@ -13,13 +13,15 @@ ship "Quarg Skylark"
 		"heat dissipation" .7
 		"fuel capacity" 1000
 		"cargo space" 200
-		"outfit space" 750
-		"weapon capacity" 200
+		"outfit space" 950
+		"weapon capacity" 270
 		"engine capacity" 120
 		"hull repair rate" 5
 		"hull energy" 5
 		"ramscoop" 10
-		"threshold percentage" 0.25
+		"threshold percentage" 0.1
+		"cooling" 45
+		"cooling energy" 8
 		weapon
 			"blast radius" 250
 			"shield damage" 1000
@@ -30,6 +32,7 @@ ship "Quarg Skylark"
 		"Quarg Anti-Missile" 2
 		
 		"Antimatter Core"
+		"Singularity Core" 2
 		"Nanotech Battery"
 		"Infimum Shield Generator"
 		"Peripheral Repair Hub"
@@ -40,12 +43,14 @@ ship "Quarg Skylark"
 		"Medium Graviton Steering"
 		"Warp Drive"
 		
-	engine -15 117
-	engine 15 117
-	turret -12 -80 "Quarg Skylance"
-	turret 12 -80 "Quarg Skylance"
-	turret -34 24 "Quarg Anti-Missile"
-	turret 34 24 "Quarg Anti-Missile"
+	engine 13.5 81.5
+	engine -13.5 81.5
+	turret 31.5 -19 "Quarg Skylance"
+	turret 39.5 55.5 "Quarg Anti-Missile"
+	turret -31.5 -19 "Quarg Skylance"
+	turret -39.5 55.5 "Quarg Anti-Missile"
+	gun 12 -65 "Quarg Ranseur"
+	gun -12 -65 "Quarg Ranseur"
 	explode "tiny explosion" 12
 	explode "small explosion" 16
 	explode "medium explosion" 30
@@ -75,7 +80,7 @@ ship "Quarg Wardragon"
 		"hull repair rate" 5
 		"hull energy" 5
 		"ramscoop" 10
-		"threshold percentage" 0.25
+		"threshold percentage" 0.1
 		weapon
 			"blast radius" 250
 			"shield damage" 1000
@@ -132,7 +137,7 @@ ship "Quarg Drake"
 		mass 260
 		ramscoop 10
 		shields 110000
-		"threshold percentage" 0.25
+		"threshold percentage" 0.1
 		weapon
 			"blast radius" 250
 			"hit force" 1500
@@ -186,7 +191,7 @@ ship "Quarg Hydra"
 		mass 610
 		ramscoop 10
 		shields 220000
-		"threshold percentage" 0.25
+		"threshold percentage" 0.1
 		weapon
 			"blast radius" 300
 			"hit force" 2000
@@ -257,6 +262,7 @@ ship "Quarg Fafnir"
 		"disruption resistance energy" 1
 		"disruption resistance heat" 1
 		"cooling" 175
+		"threshold percentage" 0.1
 		weapon
 			"blast radius" 250
 			"shield damage" 7000
@@ -276,8 +282,8 @@ ship "Quarg Fafnir"
 		"Peripheral Repair Hub"
 		"Quarg Gravitational Core"
 		
-		"Medium Graviton Thruster"
-		"Medium Graviton Steering"
+		"Small Graviton Thruster"
+		"Small Graviton Steering"
 		"Warp Drive"
 		
 	turret -35 -119 "Quarg Anti-Missile"
@@ -325,6 +331,7 @@ ship "Quarg Kaukas"
 		"hull repair rate" 7
 		"hull energy" 7
 		"ramscoop" 10
+		"threshold percentage" 0.1
 		weapon
 			"blast radius" 250
 			"shield damage" 1000
@@ -345,8 +352,8 @@ ship "Quarg Kaukas"
 		"Blight Rifle" 280
 		"Quarg Gravitational Core"
 		
-		"Large Graviton Thruster"
-		"Large Graviton Steering"
+		"Medium Graviton Thruster"
+		"Medium Graviton Steering"
 		"Warp Drive"
 		
 	turret -40 -249 
@@ -398,6 +405,7 @@ ship "Quarg Gtuhanai"
 		"disruption resistance" .2
 		"disruption resistance energy" 1
 		"disruption resistance heat" 1
+		"threshold percentage" 0.1
 		weapon
 			"blast radius" 250
 			"shield damage" 1000
@@ -422,11 +430,11 @@ ship "Quarg Gtuhanai"
 		"Blight Rifle" 210
 		"Quarg Gravitational Core"
 		
-		"Large Graviton Thruster"
-		"Large Graviton Steering"
+		"Medium Graviton Thruster"
+		"Medium Graviton Steering"
 		"Warp Drive"
 		
-	gun 0 -403 "Quarg Celestial Hammer"
+	gun 0 -241 "Quarg Celestial Hammer"
 	turret -96 -389.5 "Quarg Skypike"
 	turret 96 -389.5 "Quarg Skypike"
 	turret -100.5 -357.5 "Quarg Skypike"
