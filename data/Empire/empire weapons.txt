@@ -1154,12 +1154,11 @@ outfit "Empire Emergency Deployer"
 		"discharge damage" 150
 		"corrosion damage" 150
 		"hit force" 1600
-		"missile strength" 280
 	description "Empire Emergency Deployer is used by the Empire Navy in emergency situations, to launch their installed Compact Countermesure Modules on their enemies, which produce deadly damages." 
 	
 
-effect "mhd spark"
-	sprite "effect/mhd spark"
+effect "empire mhd spark"
+	sprite "effect/empire mhd spark"
 		"frame rate" 12
 		"rewind"
 		"random start frame"
@@ -1169,7 +1168,7 @@ effect "mhd spark"
 	"random lifetime" 30
 	"random velocity" 4.45
 
-effect "mhd explosion"
+effect "empire mhd explosion"
 	sprite "effect/ion explosion"
 		"no repeat"
 		"frame rate" 30
