@@ -343,7 +343,7 @@ outfit "Quatalant Shield (Medium)"
 	"hull heat" 0.30
 	description ""
 	
-outfit "Quatalant Shield (Big)"
+outfit "Quatalant Shield (Large)"
 	category "Systems"
 	licenses
 		"Empire Contributor"
