@@ -1104,6 +1104,7 @@ outfitter "Everything Outfitter"
 	"Multiphasic Scanner"
 	"Plasma Fuel Pod"
 	"Empire Mapper"
+	"Empire Emergency Deployer"
 	
 		# Hand to Hand
 	"Teleportation Dock"

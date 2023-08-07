@@ -99,6 +99,10 @@ ship "Black Manta"
 		under
 	turret 0 120 "Anti-Missile Field Device"
 		under
+	turret 0 125 "Empire Emergency Deployer"
+		under
+	turret 0 115 "Empire Emergency Deployer"
+		under
 	turret 68.5 -11 "Empire Particle Turret (Augmented)"
 		under
 	turret 96 -76 "Empire Particle Turret (Augmented)"

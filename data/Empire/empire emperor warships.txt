@@ -100,7 +100,9 @@ ship "Empire Hydra" "Empire Hydra (Emperor)"
 	turret 66.5 73 "Dual Wel'y Beam Turret (Blue)"
 		over
 	turret 0 0 "Anti-Missile Field Device"
-		over
+		under
+	turret 0 -15 "Empire Emergency Deployer"
+		under
 	bay "Fuel Pod" 0 42
 		"launch effect" "basic launch"
 	explode "empire huge explosion" 20
