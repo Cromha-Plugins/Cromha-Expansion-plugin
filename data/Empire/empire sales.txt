@@ -180,6 +180,7 @@ outfitter Advanced-power-outfitter
 	"Thermal Nucleavoltaic"
 	"Phasic Fission Reactor"
 	"Phasic Radiothermal"
+	"Empire Emergency Deployer"
 
 outfitter Advanced-engines-outfitter
 	"RC-140 Atomic Thruster"

@@ -49,7 +49,8 @@ ship "Black Manta"
 		"Antimatter Capacitor (Large)"
 		"Caltalytic Tear"
 		"Cloaking Module" 2
-		"Countermesure Module Compact" 60
+		"Countermesure Module Compact" 120
+		"Empire Emergency Deployer" 2
 		"Disruption Afterburnner"
 		"Empire Hai Gorge Batteries" 2
 		"Empire Hai Ravine Batteries"
