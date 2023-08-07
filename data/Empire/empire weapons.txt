@@ -1123,6 +1123,7 @@ outfit "Empire Emergency Deployer"
 		"Empire Navy"
 	"mass" 13
 	"outfit space" -17
+	"turret mounts" -1
 	weapon
 		sprite "projectile/empire mhd"
 			"frame rate" 2
