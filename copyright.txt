@@ -89,7 +89,21 @@ ADDITIONAL IMAGE SOURCES
 * Lifdot Industries: Empire Oriole sprite: https://github.com/Adde-Endless-Sky-Mods/Fluff/blob/main/images/ship/quargDrake.png
 * Lifdot Industries: Empire Hydra sprte: https://github.com/Adde-Endless-Sky-Mods/Fluff/blob/main/images/ship/quargHydra.png
 * Kor Mereti Fluff: Model 2 and Model 192 sprites: https://github.com/mOctave/blended-ships
-* Various Textures & Inspirations: Michael Arsollon with the https://github.com/MidnightPlugins account.
+* Various Textures & Inspirations: Michael Arsollon with the https://github.com/MidnightPlugins account (some textures may have been modified or altered from the original version:
+  * images/asteroid/fossil/*
+  * images/asteroid/metalli/*
+  * images/asteroid/ringworld debris*
+  * images/effect/flotsam fossil
+  * images/effect/blue blood*
+  * images/hardpoint/genesis flak cannon
+  * images/hardpoint/particle burst turret
+  * images/hardpoint/quad turbo blaster turret
+  * images/hardpoint/turbo blaster turret
+  * images/icon/fireswarm
+  * images/icon/lightning
+  * images/land/*
+  * images/_menu/haze-purple+
+  * 
 * Sheragi Images & Inspiration: https://github.com/Petersupes/sheragi-rebirth
 * Some Outfits & Ships imgaes: https://github.com/Adde-Endless-Sky-Mods/Fluff
 * Some Various Images: https://github.com/1010todd/The-Enclave/tree/master/images/land
