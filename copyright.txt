@@ -101,9 +101,26 @@ ADDITIONAL IMAGE SOURCES
   * images/hardpoint/turbo blaster turret
   * images/icon/fireswarm
   * images/icon/lightning
+  * images/icon/negator
   * images/land/*
   * images/_menu/haze-purple+
-  * 
+  * images/outfit/builder grand defense
+  * images/outfit/builder grand generator
+  * images/outfit/builder iff
+  * images/outfit/builder negator
+  * images/outfit/genesis flak cannon
+  * images/outfit/genesis repair bot
+  * images/outfit/harvested fossil
+  * images/outfit/hydrogen missile
+  * images/outfit/industrial ramscoop
+  * images/outfit/limit breaker
+  * images/outfit/medical bay
+  * images/outfit/particle burst turret
+  * images/outfit/pug*
+  * images/outfit/quad turbo blaster turret
+  * images/outfit/quantumium
+  * images/outfit/scan amplifier
+  * images/outfit/subsidurial plushie
 * Sheragi Images & Inspiration: https://github.com/Petersupes/sheragi-rebirth
 * Some Outfits & Ships imgaes: https://github.com/Adde-Endless-Sky-Mods/Fluff
 * Some Various Images: https://github.com/1010todd/The-Enclave/tree/master/images/land
