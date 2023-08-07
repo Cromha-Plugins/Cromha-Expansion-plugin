@@ -1251,6 +1251,9 @@ outfitter "Everything Outfitter"
 	"Guz'Yar 3 Thruster"
 	"Guz'Yar 4 Thruster"
 	"Guz'Yar 5 Thruster"
+	"Guz'Yar 1 Steering"
+	"Guz'Yar 2 Steering"
+	"Guz'Yar 3 Steering"
 		# Systems
 	"Sklak Shield Emitter"
 	"Zkon Shield Emitter"
@@ -1891,6 +1894,7 @@ shipyard "Everything Shipyard"
 	
 	# Guz'
 	"Guz'Chisel"
+	"Guz'Chasef"
 	
 	# Quarg Fluffs
 	"Quarg Wardragon"

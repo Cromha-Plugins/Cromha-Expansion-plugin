@@ -50,22 +50,23 @@ outfit "Guz' Artillery Turret"
 		"hit effect" "nuke explosion"
 		"hardpoint sprite" "hardpoint/guz heavy artillery"
 		ammo "Guz' Heavy Missile"
+		icon "icon/sidewinder"
 		"stream"
 		"inaccuracy" 1
 		"turret turn" 3
 		"velocity" 19
 		lifetime 800
 		"acceleration" 0.8
-		"reload" 40
-		"burst reload" 5
+		"reload" 60
+		"burst reload" 15
 		"homing" 1
 		"burst count" 5
 		"drag" 0.1
 		"trigger radius" 30
 		"blast radius" 150
-		"shield damage" 2000
-		"hull damage" 2400
-		"hit force" 4000
+		"shield damage" 250
+		"hull damage" 240
+		"hit force" 700
 		"missile strength" 200
 	description "This is a powerful missile-artillery turret made by the Guz'."
 
