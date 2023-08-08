@@ -50,6 +50,9 @@ Files:
  images/thumbnail/rancor*
  images/hardpoint/guz heavy artillery*
  images/outfit/guz artillery turret*
+ images/outfit/space junk
+ images/outfit/guz scanner tiny
+ images/outfit/guz translator
 Copyright: Michael Arsollon
 License: CC-BY-SA-4.0
 Comment: Taken from other plugins in the MidnightPlugins account.
