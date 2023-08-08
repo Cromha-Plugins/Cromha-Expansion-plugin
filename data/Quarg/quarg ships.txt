@@ -22,6 +22,8 @@ ship "Quarg Skylark"
 		"threshold percentage" 0.1
 		"cooling" 45
 		"cooling energy" 8
+		"overheat damage threshold" 0.4
+		"heat capacity" 8700
 		weapon
 			"blast radius" 250
 			"shield damage" 1000
@@ -81,6 +83,8 @@ ship "Quarg Wardragon"
 		"hull energy" 5
 		"ramscoop" 10
 		"threshold percentage" 0.1
+		"overheat damage threshold" 0.4
+		"heat capacity" 8700
 		weapon
 			"blast radius" 250
 			"shield damage" 1000
@@ -138,6 +142,8 @@ ship "Quarg Drake"
 		ramscoop 10
 		shields 110000
 		"threshold percentage" 0.1
+		"overheat damage threshold" 0.4
+		"heat capacity" 8700
 		weapon
 			"blast radius" 250
 			"hit force" 1500
@@ -192,6 +198,8 @@ ship "Quarg Hydra"
 		ramscoop 10
 		shields 220000
 		"threshold percentage" 0.1
+		"overheat damage threshold" 0.4
+		"heat capacity" 8700
 		weapon
 			"blast radius" 300
 			"hit force" 2000
@@ -221,7 +229,7 @@ ship "Quarg Hydra"
 		"Quarg Anti-Missile" 2
 		"Quarg Skylance" 2
 		"Central Repair Hub"
-		"Quarg Skydagger"
+		"Quarg Turver"
 		Doomscythe
 		"Singularity Core"
 	sprite "ship/quargHydra"
@@ -230,7 +238,7 @@ ship "Quarg Hydra"
 	gun -75 45.5
 	gun 75 45.5
 	turret 0 -35.5 "Doomscythe"
-	turret 0 -17.5 "Quarg Skydagger"
+	turret 0 -17.5 "Quarg Turver"
 	turret -27 64.5 "Quarg Anti-Missile"
 	turret 27 64.5 "Quarg Anti-Missile"
 	turret -66.5 73 "Quarg Skylance"
@@ -263,20 +271,23 @@ ship "Quarg Fafnir"
 		"disruption resistance heat" 1
 		"cooling" 175
 		"threshold percentage" 0.1
+		"overheat damage threshold" 0.4
+		"heat capacity" 8700
 		weapon
 			"blast radius" 250
 			"shield damage" 7000
 			"hull damage" 1500
 			"hit force" 1500
 	outfits
-		"Quarg Skypike" 6
+		"Quarg Skypike" 4
+		"Quarg Turver" 2
 		"Quarg Anti-Missile" 2
 		
 		"Singularity Core" 6
 		"Nanotech Battery" 3
 		"Antimatter Core"
 		"Fluxion Shield Generator" 2
-		"Infinium Shield Generator"
+		"Infimum Shield Generator"
 		"Intrusion Countermeasures" 150
 		"Blight Rifle" 130
 		"Peripheral Repair Hub"
@@ -290,8 +301,8 @@ ship "Quarg Fafnir"
 	turret 35 -119 "Quarg Anti-Missile"
 	turret -40.5 -95.5 "Quarg Skypike"
 	turret 40.5 -95.5 "Quarg Skypike"
-	turret -45 -69 "Quarg Skypike"
-	turret 45 -69 "Quarg Skypike"
+	turret -45 -69 "Quarg Turver"
+	turret 45 -69 "Quarg Turver"
 	turret -39 77.5 "Quarg Skypike"
 	turret 39 77.5 "Quarg Skypike"
 	engine -0.5 159.5
@@ -332,6 +343,8 @@ ship "Quarg Kaukas"
 		"hull energy" 7
 		"ramscoop" 10
 		"threshold percentage" 0.1
+		"overheat damage threshold" 0.4
+		"heat capacity" 8700
 		weapon
 			"blast radius" 250
 			"shield damage" 1000
@@ -346,7 +359,7 @@ ship "Quarg Kaukas"
 		"Singularity Core" 4
 		"Nanotech Battery" 4
 		"Quantum Shield Generator"
-		"Infinium Shield Generator" 2
+		"Infimum Shield Generator" 2
 		"Intrusion Countermeasures" 320
 		"Central Repair Hub"
 		"Blight Rifle" 280
@@ -406,6 +419,8 @@ ship "Quarg Gtuhanai"
 		"disruption resistance energy" 1
 		"disruption resistance heat" 1
 		"threshold percentage" 0.1
+		"overheat damage threshold" 0.4
+		"heat capacity" 8700
 		weapon
 			"blast radius" 250
 			"shield damage" 1000
@@ -422,7 +437,7 @@ ship "Quarg Gtuhanai"
 		"Singularity Core" 4
 		"Antimatter Core" 2
 		"Nanotech Battery" 4
-		"Infinium Shield Generator" 2
+		"Infimum Shield Generator" 2
 		"Quantum Shield Generator"
 		"Central Repair Hub"
 		"Peripheral Repair Hub" 2
