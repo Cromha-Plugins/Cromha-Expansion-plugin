@@ -73,7 +73,7 @@ Files:
  images/thumbnail/quarg skylark*
  images/thumbnail/quarg kaukas*
 Copyright: 1010todd
-License: Unclear
+License: GPL-3-or-later
 
 https://creativecommons.org/licenses/by-sa/4.0/
 
