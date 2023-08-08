@@ -26,11 +26,51 @@ Licenses: GPL-3.0
 Comment: Taken from https://github.com/1010todd/Galactic-War.
 
 Files:
- images/outfit/license/lumbarian*
- images/ship/lumbarian pike-class
- images/ship/lumbarian trident-class
+ images/ship/lumbarian?pike-class
+ images/ship/lumbarian?trident-class
 Copyright: Roger Tabris
 License: CC-BY-SA-4.0
+
+Files:
+ images/outfit/license/lumbarian*
+Copyright: Roger Tabris
+License: CC-BY-SA-4.0
+Comment: Derived from works of Michael Zahniser (under the same license)
+
+Files:
+ images/asteroid/fossil/*
+ images/outfit/harvested fossil*
+ images/asteroid/ringworld debris*
+ images/effect/fossil flotsam*
+ images/ship/luminazoa/*
+ images/ship/model 1024-bis*
+ images/thumbnail/luminazoa/*
+ images/thumbnail/model 1024-bis*
+ images/ship/rancor*
+ images/thumbnail/rancor*
+Copyright: Michael Arsollon
+License: CC-BY-SA-4.0
+Comment: Taken from other plugins in the MidnightPlugins account.
+
+Files:
+ images/ship/empire seakraken*
+ images/thumbnail/empire seakraken*
+Copyright: Darcy Manoel
+License: CC-BY-SA-4.0
+
+Files:
+ images/ship/quarg fafnir*
+ images/ship/quarg gtuhanai*
+ images/ship/quarg skylark*
+ images/ship/quarg kaukas*
+ images/thumbnail/quarg fafnir*
+ images/thumbnail/quarg gtuhanai*
+ images/thumbnail/quarg skylark*
+ images/thumbnail/quarg kaukas*
+Copyright: 1010todd
+License: Unclear
+
+https://creativecommons.org/licenses/by-sa/4.0/
 
 ENDLESS SKY ARTWORK
 
