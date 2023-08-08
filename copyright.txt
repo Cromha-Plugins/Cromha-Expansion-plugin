@@ -76,7 +76,6 @@ ENDLESS SKY ARTWORK
 
 
 ADDITIONAL IMAGE SOURCES
-<<<<<<< HEAD
 (resources in ship/ directory means there is also an other textures in the thumbnail/ directory)
 * images/asteroid/fossil/* (@MidnightPlugins)
 * images/outfit/harvested fossil* (@MidnightPlugins)
@@ -90,20 +89,3 @@ ADDITIONAL IMAGE SOURCES
 * images/ship/quarg gtuhanai (@1010todd)
 * images/ship/quarg skylark (@1010todd)
 * images/ship/quarg kaukas (@1010todd)
-=======
-<<<<<<< HEAD
-* images/asteroid/fossil/* (@MidnightPlugins)
-* images/asteroid/ringworld debris* (@MidnightPlugins)
-* images/effect/fossil flotsam  (@MidnightPlugins)
-=======
-* Colossus sprite: https://github.com/Adde-Endless-Sky-Mods/Fluff/blob/main/images/ship/colossus.png
-* Modified Flivver sprite: https://github.com/Adde-Endless-Sky-Mods/Fluff/blob/main/images/ship/flivverRacing.png
-* Hornet sprite: https://github.com/Adde-Endless-Sky-Mods/Fluff/blob/main/images/ship/hornet.png
-* LKor Sestor Kar Ik Vot: https://github.com/Adde-Endless-Sky-Mods/Fluff/blob/main/images/ship/karIkVot637.png
-* Empire Oriole and Quarg Drake sprite: https://github.com/Adde-Endless-Sky-Mods/Fluff/blob/main/images/ship/quargDrake.png
-* Empire/Quarg Hydra sprite: https://github.com/Adde-Endless-Sky-Mods/Fluff/blob/main/images/ship/quargHydra.png
-* Kor Mereti Fluff: Kor Mereti Model 2 and Model 192 sprites: https://github.com/mOctave/blended-ships
-* Sheragi outfits and ships Images: https://github.com/Petersupes/sheragi-rebirth
-* Others: Most of the textures used are vanilla ones slightly modified so credit to every Endless Sky Contributor: https://github.com/endless-sky/endless-sky-assets
->>>>>>> fa612b9730c50884aedeb458ecf4abb14d86008e
->>>>>>> 56f6e1a3c25801a4cc0b7292938e2e4b7f80f845
