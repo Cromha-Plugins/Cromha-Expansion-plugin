@@ -8,7 +8,7 @@ Comment: Derived from works by Michael Zahniser (from under the same license)
 Files: data/Quarg/*
 Copyright: Cromha (github.com/OcelotWalrus)
 Licenses: GPL-3.0
-Comment: Derived from works at https://github.com/Adde-Endless-Sky-Mods/Fluff (from under the same license)
+Comment: Derived from works at https://github.com/Adde-Endless-Sky-Mods/Fluff and works at https://github.com/1010todd/Beyond-the-Sky (from under the same license)
 
 Files: data/devs-cheats.txt
 Copyright Cromha (github.com/OcelotWalrus)
