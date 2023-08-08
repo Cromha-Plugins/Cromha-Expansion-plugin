@@ -5,11 +5,6 @@ Copyright: Cromha (github.com/OcelotWalrus)
 Licenses: GPL-3.0
 Comment: Derived from works by Michael Zahniser (from under the same license)
 
-Files: data/Sheragi/*
-Copyright: Cromha (github.com/OcelotWalrus)
-Licenses: CC-BY-SA-4.0
-Comment: Derived from works at https://github.com/Petersupes/sheragi-rebirth (from under the same license)
-
 Files: data/Quarg/*
 Copyright: Cromha (github.com/OcelotWalrus)
 Licenses: GPL-3.0
@@ -81,16 +76,12 @@ ENDLESS SKY ARTWORK
 
 
 ADDITIONAL IMAGE SOURCES
-* Many Textures & Inspirations: @1010todd's (Github) plugins who got great ideas: https://github.com/endless-sky/endless-sky/discussions/7928
-* Lifdot Indsutries: Colossus sprite: https://github.com/Adde-Endless-Sky-Mods/Fluff/blob/main/images/ship/colossus.png
-* Lifdot Industries: Modified Flivver sprite: https://github.com/Adde-Endless-Sky-Mods/Fluff/blob/main/images/ship/flivverRacing.png
-* Lifdot Industires: Hornet sprite: https://github.com/Adde-Endless-Sky-Mods/Fluff/blob/main/images/ship/hornet.png
-* Lifdot Industries: Empire Kastador sprite: https://github.com/Adde-Endless-Sky-Mods/Fluff/blob/main/images/ship/karIkVot637.png
-* Lifdot Industries: Empire Oriole sprite: https://github.com/Adde-Endless-Sky-Mods/Fluff/blob/main/images/ship/quargDrake.png
-* Lifdot Industries: Empire Hydra sprte: https://github.com/Adde-Endless-Sky-Mods/Fluff/blob/main/images/ship/quargHydra.png
-* Kor Mereti Fluff: Model 2 and Model 192 sprites: https://github.com/mOctave/blended-ships
-* Various Textures & Inspirations: Michael Arsollon with the https://github.com/MidnightPlugins account.
-* Sheragi Images & Inspiration: https://github.com/Petersupes/sheragi-rebirth
-* Some Outfits & Ships imgaes: https://github.com/Adde-Endless-Sky-Mods/Fluff
-* Some Various Images: https://github.com/1010todd/The-Enclave/tree/master/images/land
+* Colossus sprite: https://github.com/Adde-Endless-Sky-Mods/Fluff/blob/main/images/ship/colossus.png
+* Modified Flivver sprite: https://github.com/Adde-Endless-Sky-Mods/Fluff/blob/main/images/ship/flivverRacing.png
+* Hornet sprite: https://github.com/Adde-Endless-Sky-Mods/Fluff/blob/main/images/ship/hornet.png
+* LKor Sestor Kar Ik Vot: https://github.com/Adde-Endless-Sky-Mods/Fluff/blob/main/images/ship/karIkVot637.png
+* Empire Oriole and Quarg Drake sprite: https://github.com/Adde-Endless-Sky-Mods/Fluff/blob/main/images/ship/quargDrake.png
+* Empire/Quarg Hydra sprite: https://github.com/Adde-Endless-Sky-Mods/Fluff/blob/main/images/ship/quargHydra.png
+* Kor Mereti Fluff: Kor Mereti Model 2 and Model 192 sprites: https://github.com/mOctave/blended-ships
+* Sheragi outfits and ships Images: https://github.com/Petersupes/sheragi-rebirth
 * Others: Most of the textures used are vanilla ones slightly modified so credit to every Endless Sky Contributor: https://github.com/endless-sky/endless-sky-assets
