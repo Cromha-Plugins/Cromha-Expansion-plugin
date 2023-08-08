@@ -48,6 +48,8 @@ Files:
  images/thumbnail/model 1024-bis*
  images/ship/rancor*
  images/thumbnail/rancor*
+ images/hardpoint/guz heavy artillery*
+ images/outfit/guz artillery turret*
 Copyright: Michael Arsollon
 License: CC-BY-SA-4.0
 Comment: Taken from other plugins in the MidnightPlugins account.
@@ -113,21 +115,3 @@ ENDLESS SKY ARTWORK
   * pngegg.com
 
   * texturify.com
-
-
-ADDITIONAL IMAGE SOURCES
-(resources in ship/ directory means there is also an other textures in the thumbnail/ directory)
-* images/asteroid/fossil/* (@MidnightPlugins)
-* images/outfit/harvested fossil* (@MidnightPlugins)
-* images/asteroid/ringworld debris* (@MidnightPlugins)
-* images/effect/fossil flotsam  (@MidnightPlugins)
-* images/ship/luminazoa/* (@MidnighPlugins)
-* images/ship/model 1024-bis* (@MidnightPlugins)
-* images/ship/empire seakraken (@Endless Sky Mods)
-* images/ship/rancor (@MidnightPlugins)
-* images/ship/quarg fafnir (@1010todd)
-* images/ship/quarg gtuhanai (@1010todd)
-* images/ship/quarg skylark (@1010todd)
-* images/ship/quarg kaukas (@1010todd)
-* images/hardpoint/guz heavy artillery (@MidnightPlugins)
-* images/outfit/guz artillery turret (@MidnightPlugins)
