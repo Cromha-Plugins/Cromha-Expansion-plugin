@@ -129,3 +129,5 @@ ADDITIONAL IMAGE SOURCES
 * images/ship/quarg gtuhanai (@1010todd)
 * images/ship/quarg skylark (@1010todd)
 * images/ship/quarg kaukas (@1010todd)
+* images/hardpoint/guz heavy artillery (@MidnightPlugins)
+* images/outfit/guz artillery turret (@MidnightPlugins)
