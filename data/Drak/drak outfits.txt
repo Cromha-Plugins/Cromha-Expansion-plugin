@@ -21,6 +21,7 @@ outfit "Drak Distancer"
 	"turret mounts" -1
 	"energy capacity" 6400
 	weapon
+		"icon" "icon/distancer"
 		"fire effect" "distancer flare"
 		"turret turn" 4.
 		"velocity" 2000
