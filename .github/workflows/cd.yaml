@@ -29,17 +29,12 @@ jobs:
           echo "GOPATH=$(go env GOPATH)" >> $GITHUB_ENV
           echo "$(go env GOPATH)/bin" >> $GITHUB_PATH
       - name: Create Zip
-        uses: vimtor/action-zip@v1
-        with:
-          recursive: true
-          files: data/ images/ plugin.txt icon.png README.md LICENSE copyright.txt
-          dest: builds/Cromha-Expansion-plugin.zip
+        run: |
+          mkdir builds
+          zip -r builds/Cromha-Expansion-plugin.zip data/ images/ plugins.txt icon.png LICENSE README.md copyright.txt
       - name: Create Tar
-        uses: vimtor/action-zip@v1
-        with:
-          recursive: true
-          files: data/ images/ plugin.txt icon.png README.md LICENSE copyright.txt
-          dest: builds/Cromha-Expansion-plugin.tar.gz
+        run: |
+          tar c -f builds/Cromha-Expansion-plugin.tar.gz data/ images/ icon.png LICENSE plugin.txt README.md copyright.txt
       - name: Set environment variables
         run: |
           echo "GITHUB_USER=$( echo ${{ github.repository }} | cut -d/ -f1 )" >> $GITHUB_ENV
