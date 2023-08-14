@@ -31,11 +31,13 @@ jobs:
       - name: Create Zip
         uses: vimtor/action-zip@v1
         with:
+          recursive: true
           files: data/ images/ plugin.txt icon.png README.md LICENSE copyright.txt
           dest: builds/Cromha-Expansion-plugin.zip
       - name: Create Tar
         uses: vimtor/action-zip@v1
         with:
+          recursive: true
           files: data/ images/ plugin.txt icon.png README.md LICENSE copyright.txt
           dest: builds/Cromha-Expansion-plugin.tar.gz
       - name: Set environment variables
