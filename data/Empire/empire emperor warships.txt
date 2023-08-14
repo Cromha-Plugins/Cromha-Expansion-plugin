@@ -26,7 +26,7 @@ ship "Empire Hydra" "Empire Hydra (Emperor)"
 		"turret mounts" 7
 		"weapon capacity" 810
 		"fuel generation" 50
-		"force protection" -0.99
+		"force protection" .5
 	outfits
 		"Ameliorating Phasic-Cell"
 		"Anti-Missile Field Device"
