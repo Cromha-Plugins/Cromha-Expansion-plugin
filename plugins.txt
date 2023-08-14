@@ -1,0 +1,4 @@
+name "Cromha expansion"
+
+about "Add new high-tier and low-tier factions and expand the existing one."
+about "Adds different new storyline and introduce new gameplay mechanics."
