@@ -1,7 +1,7 @@
 fleet "Large L Navy"
 	government "Lumbarian Empire"
-	names "republic capital"
-	fighters "republic fighter"
+	names "lumbarian names"
+	fighters "lumbarian fighters"
 	personality
 		disables heroic mining harvests opportunistic
 	variant 3
@@ -83,8 +83,8 @@ fleet "Large L Navy"
 
 fleet "Small L Navy"
 	government "Lumbarian Empire"
-	names "republic capital"
-	fighters "republic fighter"
+	names "lumbarian names"
+	fighters "lumbarian fighters"
 	personality
 		disables heroic mining harvests opportunistic
 	variant 10
@@ -121,8 +121,8 @@ fleet "Small L Navy"
 
 fleet "Large L Colony Navy"
 	government "Lumbarian Empire (Colonies)"
-	names "republic capital"
-	fighters "republic fighter"
+	names "lumbarian names"
+	fighters "lumbarian fighters"
 	personality
 		disables heroic mining harvests opportunistic
 	variant 3
@@ -204,8 +204,8 @@ fleet "Large L Colony Navy"
 
 fleet "Small L Colony Navy"
 	government "Lumbarian Empire (Colonies)"
-	names "republic capital"
-	fighters "republic fighter"
+	names "lumbarian names"
+	fighters "lumbarian fighters"
 	personality
 		disables heroic mining harvests opportunistic
 	variant 10
@@ -243,8 +243,8 @@ fleet "Small L Colony Navy"
 
 fleet "Lumbarian Cruiser"
 	government "Lumbarian Empire"
-	names "republic capital"
-	fighters "republic fighter"
+	names "lumbarian names"
+	fighters "lumbarian fighters"
 	personality
 		disables heroic mining harvests opportunistic
 	variant 5
@@ -262,8 +262,8 @@ fleet "Lumbarian Cruiser"
 
 fleet "Fork-Class"
 	government "Lumbarian Empire"
-	names "republic capital"
-	fighters "republic fighter"
+	names "lumbarian names"
+	fighters "lumbarian fighters"
 	personality
 		disables heroic mining harvests opportunistic
 	variant
@@ -312,8 +312,8 @@ event "Lumbarian Upgrade Two"
 
 fleet "Large L Navy after upgrade i"
 	government "Lumbarian Empire"
-	names "republic capital"
-	fighters "republic fighter"
+	names "lumbarian names"
+	fighters "lumbarian fighters"
 	personality
 		disables heroic mining harvests opportunistic
 	variant 3
@@ -417,8 +417,8 @@ fleet "Large L Navy after upgrade i"
 
 fleet "Large L Navy after upgrade ii"
 	government "Lumbarian Empire"
-	names "republic capital"
-	fighters "republic fighter"
+	names "lumbarian names"
+	fighters "lumbarian fighters"
 	personality
 		disables heroic mining harvests opportunistic
 	variant 3
