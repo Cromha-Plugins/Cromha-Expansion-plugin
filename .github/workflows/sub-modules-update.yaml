@@ -27,7 +27,7 @@ jobs:
       # reasonable logging to trace back
       - name: Commit & push changes
         run: |
-          git config --global user.email "actions@github.com"
+          git config --global user.email "enderman.quickly@gmail.com"
           git config --global user.name "GitHub Actions - update submodules"
           git commit -am "Update submodules" || echo "No changes to commit"
           git push
