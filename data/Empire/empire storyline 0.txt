@@ -63,7 +63,7 @@ mission "Empire: Humanitary Delivry to <planet>"
 			`	You go see someone who seems to be part of the Empire Authorities. You ask them on what consist this job and how much they will pay you.`
 			`	"Hi. I want to get information about this 'Empire remunerated workforce', can you help me about that?"`
 			`	The guy says:`
-			`	"Of course, it's why i'm here.", "The Empire recrutes people who want to work for them. By registering to this 'organization' you will accept to recieve differents remunerated missions from The Empire. All hard workers will be rewarded for working hard for the Empire, rewards are money, ships, special new outfits from Empire scientics, licenses and more!"`
+			`	"Of course, it's why i'm here.", "The Empire recrutes people who want to work for them. By registering to this 'organization' you will accept to receive differents remunerated missions from The Empire. All hard workers will be rewarded for working hard for the Empire, rewards are money, ships, special new outfits from Empire scientics, licenses and more!"`
 			choice
 				`	"Seems interesting. I would like to register, how can I?"`
 					goto accept
@@ -139,7 +139,7 @@ mission "Empire: Delivry Jump Drive in <planet> military lab"
 		has "Empire: Escort Empire Raven: done"
 	on offer
 		conversation
-			`You land on <planet> and recieve an other message for the Empire missions. You click on the pop-up and the app opens. You can see written on the screen:`
+			`You land on <planet> and receive an other message for the Empire missions. You click on the pop-up and the app opens. You can see written on the screen:`
 			`	"Delivry Jump Drive in <planet> in the military lab before the date of <date>. Payment is <payment>."`
 				accept
 	on fail
@@ -171,7 +171,7 @@ mission "Empire: Harvest 25 tons of silicon"
 		has "Empire: Delivry Jump Drive in <planet> military lab: done"
 	on offer
 		conversation
-			`You land on <planet> and recieve an other message for the Empire missions. You click on the pop-up and the app opens. You can see written on the screen:`
+			`You land on <planet> and receive an other message for the Empire missions. You click on the pop-up and the app opens. You can see written on the screen:`
 			`	"Harvest 25 tons of silicon for The Empire then land on <origin> to get your payment of <payment>."`
 				accept
 	on complete

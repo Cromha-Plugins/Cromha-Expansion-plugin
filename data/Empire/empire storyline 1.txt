@@ -12,7 +12,7 @@ mission "Empire: Technology Testing"
 		government "Cromha Empire"
 	on offer
 		conversation
-			`You land on <planet> and recieve an other message for the Empire missions. You click on the pop-up and the app opens. You can see written on the screen:`
+			`You land on <planet> and receive an other message for the Empire missions. You click on the pop-up and the app opens. You can see written on the screen:`
 			`	"Disable the robotic target dummy ship in <system>, collect test data for Cromha Empire engineers by scanning it with the multiphasic scanner tech, and land on <planet>. Warning: the target ship is programmed to engage in self-defense behaviors to ensure a realistic simulation. Payment is <payment>."`
 				accept
 	on accept
@@ -24,7 +24,7 @@ mission "Empire: Technology Testing"
 		outfit "Multiphasic Scanner" -1
 		payment
 		payment 10000
-		dialog "You send the scans to The Empire and recieve <payment> and an extra Multiphasic Scanner."
+		dialog "You send the scans to The Empire and receive <payment> and an extra Multiphasic Scanner."
 	npc save disable "scan cargo"
 		government "Test Dummy"
 		personality disables staying heroic target
@@ -45,7 +45,7 @@ mission "Empire: Espionage Remnants"
 	destination "Empire Listening Station"
 	on offer
 		conversation
-			`You land on <planet> and recieve an other message for the Empire missions. You click on the pop-up and the app opens. You can see written on the screen:`
+			`You land on <planet> and receive an other message for the Empire missions. You click on the pop-up and the app opens. You can see written on the screen:`
 			`	"Go to the Pantica system and scan the remnant ship <npc> and its outfits. Then land on the Empire Listening Station. Payment is <payment>. Beware the Remnants will surely attack you if you scan them. Don't destroy the ship."`
 			`	They also inform you that after the missions the Remnants will no longer attack you. Just skip the attacking ships and land on <planet>.`
 				accept
@@ -80,7 +80,7 @@ mission "Empire: Ring Assist"
 	destination "Empire Ring"
 	on offer
 		conversation
-			`You land on <planet> and recieve an other message for the Empire missions. You click on the pop-up and the app opens. You can see written on the screen:`
+			`You land on <planet> and receive an other message for the Empire missions. You click on the pop-up and the app opens. You can see written on the screen:`
 			`	"The Empire Ring Station in <system> system is attacked by some Bounty Hunters. Dirige an Empire Fleet to the <system> and destroy all the Bounty Hunters."`
 			`	They also inform you that an entire fleet is waiting you on the <planet> ring station.`
 				accept
@@ -92,7 +92,7 @@ mission "Empire: Ring Assist"
 		give ship "Empire Galactik" "empire fleet names"
 		payment
 		payment 300000
-		dialog "You land on <planet> and recieve <payment>. There is an entire Empire fleet of 2 Empire Galactik. You also won an Empire Navy License."
+		dialog "You land on <planet> and receive <payment>. There is an entire Empire fleet of 2 Empire Galactik. You also won an Empire Navy License."
 	npc kill
 		government "Bounty Hunter"
 		personality staying disables target
@@ -125,7 +125,7 @@ mission "Empire: Scientists Researches in Ember Waste 1"
 		has "Empire: Ring Assist: done"
 	on offer
 		conversation
-			`You land on <planet> and recieve an other message for the Empire missions. You click on the pop-up and the app opens. You can see written on the screen:`
+			`You land on <planet> and receive an other message for the Empire missions. You click on the pop-up and the app opens. You can see written on the screen:`
 			`	"Go to <system> in the Ember Waste and scan a Void Sprite for the Empire Scientists. Then Land on <planet> to get your payment of <payment>."`
 				accept
 	on complete
@@ -332,7 +332,7 @@ mission "Empire: Defense Solifar"
 		has "Empire: Bring Resources: done"
 	on offer
 		conversation
-			`You land on <planet> and recieve an other message for the Empire missions. You click on the pop-up and the app opens. You can see written on the screen:`
+			`You land on <planet> and receive an other message for the Empire missions. You click on the pop-up and the app opens. You can see written on the screen:`
 			`	"Defense Solifar from Empire Rebels fleet that attacked a Mineria Convoit. There will be an Empire fleet that will help you. Then land on <destination>. Payment is <payment>."`
 				accept
 	on complete
@@ -375,7 +375,7 @@ mission "Empire: Escort Convoit"
 		has "Empire: Defense Solifar: done"
 	on offer
 		conversation
-			`You land on <planet> and recieve an other message for the Empire missions. You click on the pop-up and the app opens. You can see written on the screen:`
+			`You land on <planet> and receive an other message for the Empire missions. You click on the pop-up and the app opens. You can see written on the screen:`
 			`	"Escort a mineria convoit from Empire Rebels. Get to <destination> before the Empire Rebels intercept you. You'll get an Bulk Freighter if you sccues in this mission".`
 				accept
 	on complete
@@ -448,7 +448,7 @@ mission "Empire: Study Black Hole"
 		distance 1 5
 	on offer
 		conversation
-			`You land on <planet> and recieve an other message for the Empire missions. You click on the pop-up and the app opens. You can see written on the screen:`
+			`You land on <planet> and receive an other message for the Empire missions. You click on the pop-up and the app opens. You can see written on the screen:`
 			`	"Go to the As'har system to study the Blackhole, then go back to <destination> to depose the scans. Payment is <payment>."`
 				accept
 	on complete
@@ -476,7 +476,7 @@ mission "Empire: Bring Resources 2"
 		has "Empire: Study Black Hole: done"
 	on offer
 		conversation
-			`You enter the planet spaceport when you recieve a message from the Black Manta scentists: they whant you to collect minerals again.`
+			`You enter the planet spaceport when you receive a message from the Black Manta scentists: they whant you to collect minerals again.`
 			`	"10 tons of Titanium, 18 tons of Gold, 35 tons of Neodyium, 2 tons of Uranium, 1 Teleportation Dock and 1 Mineria Key Stone."`
 				accept
 	on complete
