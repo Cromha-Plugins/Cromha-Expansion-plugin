@@ -31,10 +31,10 @@ mission "Empire: First Contact"
 		set "license: Empire Passport"
 		log "Empire" "You got your Empire Passport."
 		log "Empire" "You discovered the Empire Space."
-		log "Factions" "Empire Navy" "The Empire Navy, usually called The Empire or Cromha Empire is an military organization that rules all system that The Cromha Empire controls. They defend the empires systems in the core from the Syndicates and Pirates, but also from Empire Rebels, who often intercept Mineria colonnies transports. They are one of the most advanced military organization with their great ships and high tech outfits, that lets them dominate other major organizations in term of combat power. They created an Alliance in the year of 2973 with Hais, Wanderers, Quargs and Remnants."
-		log "Factions" "Mineria colonnies" "The Mineria colonnies are in some way part of The Empire Navy. They are principally a products exportation company. They sell Mineria materials in the whole Empire Space for cheap prizes and also sell them to some allies to the Empire Navy. The Mineria colonnies are one of the richest organizations in the whole galaxy, they produced more than 4894B credits in the year of 3018. Contrarily to the Merchants, their ships have great defenses and great cargo capacity. You can find them everywhere in the Empire Space."
+		log "Factions" "Empire Navy" "The Empire Navy, usually called The Empire or Cromha Empire is an military organization that rules all system that The Cromha Empire controls. They defend the empires systems in the core from the Syndicates and Pirates, but also from Empire Rebels, who often intercept Mineria Colonies transports. They are one of the most advanced military organization with their great ships and high tech outfits, that lets them dominate other major organizations in term of combat power. They created an Alliance in the year of 2973 with Hais, Wanderers, Quargs and Remnants."
+		log "Factions" "Mineria Colonies" "The Mineria Colonies are in some way part of The Empire Navy. They are principally a products exportation company. They sell Mineria materials in the whole Empire Space for cheap prizes and also sell them to some allies to the Empire Navy. The Mineria Colonies are one of the richest organizations in the whole galaxy, they produced more than 4894B credits in the year of 3018. Contrarily to the Merchants, their ships have great defenses and great cargo capacity. You can find them everywhere in the Empire Space."
 		log "Factions" "The Great Alliance" "The Great Alliance is an union with The Empire, the Wanderer, the Remnant, the Quarg and the Hai. It is a pact between this different alien species and The Empire to protect the communication and all commercial stuff in the north space of the galaxy but also in the Ember Waste, to assure deliveries of primal materials to the Remnant, who are isolated of the galaxy. But also to protect Quargs from the Hielarchics and the Coalition. But for The Empire, it is just a way to protect themselves from all Korath species like Kor Sestor, Kor Mereti and Kor Efreti, hostile Korath species that attack them often in the Empire Space."
-		log "Factions" "Empire Merchants" "The Empire Merchant is kind of an global organization like the Mineria colonnies, an organization that gives rights for trading, space traveling to people who are part of it. The difference with the Mineria colonnies is that, they are not a government and they don't own any system, planet or station. Everyone that comes from everywhere can be part of this organization and start they journey in the Empire Space not as an Empire worker, employee or anything like that but as a free Merchant."
+		log "Factions" "Empire Merchants" "The Empire Merchant is kind of an global organization like the Mineria Colonies, an organization that gives rights for trading, space traveling to people who are part of it. The difference with the Mineria Colonies is that, they are not a government and they don't own any system, planet or station. Everyone that comes from everywhere can be part of this organization and start they journey in the Empire Space not as an Empire worker, employee or anything like that but as a free Merchant."
 		conversation
 			`You enter the registering place in the Witdrew Station spaceport. you wait in a queue until it's your turn.`
 			`   "Captain <last>?" say the guy who registering people. "Oh! It's you; there is you Empire Passport and have a great day!"`
@@ -97,7 +97,7 @@ mission "Empire: Humanitary Delivry to <planet>"
 mission "Empire: Escort Empire Raven"
 	landing
 	name "Empire: Escort Empire Oriole"
-	description "Escort on Empire Wardragon to the <planet> reparation station before the date of <date>. Payment is a free Empire Oriole ship."
+	description "Escort on Empire Oriole to the <planet> reparation station before the date of <date>. Payment is a free Arbiter from the Lifdot Industries shipyard."
 	deadline 15
 	source
 		government "Cromha Empire"
@@ -106,8 +106,8 @@ mission "Empire: Escort Empire Raven"
 		has "Empire: Humanitary Delivry to <planet>: done"
 	on offer
 		conversation
-			`You land on <planet> and recieve an other message for the Empire missions. You click on the pop-up and the app opens. You can see written on the screen:`
-			`	"Escort on Empire Oriole to the <planet> reparation station before the date of <date>. Payment is a free Empire Oriole ship."`
+			`You land on <planet> and receive an other message for the Empire missions. You click on the pop-up and the app opens. You can see written on the screen:`
+			`	"Escort on Empire Oriole to the <planet> reparation station before the date of <date>. Payment is a free Arbiter from the Lifdot Industries shipyard."`
 				accept
 	destination
 		government "Cromha Empire"
@@ -119,13 +119,13 @@ mission "Empire: Escort Empire Raven"
 	on complete
 		"reputation: Cromha Empire" += 10
 		"empire jobs" += 1
-		give ship "Empire Oriole" "Z-47-IY.7"
-		dialog "You land on the reparation station dock and you can already see the Empire Oriole waiting for you in the spaceport."
-		log "Empire" "You escorted an Empire Oriole to <destination> and The Empire gave you a free Empire Oriole."
+		give ship Arbiter "Z-47-IY.7"
+		dialog "You land on the reparation station dock and you can already see the Arbiter waiting for you in the spaceport."
+		log "Empire" "You escorted an Empire Oriole to <destination> and The Empire gave you a free Arbiter from the Lifdot Industries shipyard."
 	npc accompany save
 		government "Cromha Empire"
 		personality escort timid
-		ship "Empire Oriole" Z-47-IY.7
+		ship "Empire Oriole" Z-25-ZK.9
 
 mission "Empire: Delivry Jump Drive in <planet> military lab"
 	landing
@@ -184,32 +184,38 @@ mission "Empire: Harvest 25 tons of silicon"
 
 mission "Empire: Dirige Empire fleet to <planet>"
 	landing
-	name "Empire: Dirige Empire Fleet"
-	description "Dirige an Empire combat fleet to Wezen for engaging battle to Empire Rebels. Destroy the Empire Rebels fleet and land on <planet> to get your payment of <payment>."
+	name "Empire: Dirige Empire Defense Fleet"
+	description "An Empire Rebels fleet is about to attack the Sheratan System in The Core. Escort an Empire defense fleet to this system and defeat the rebels. Payment is <payment>."
 	source
 		government "Cromha Empire"
 		not attributes uninhabited
 	to offer
 		has "Empire: Harvest 25 tons of silicon: done"
-	destination "Linimbus"
+	destination "Sundive"
 	on offer
 		conversation
-			`You land on <planet> and recieve an other message for the Empire missions. You click on the pop-up and the app opens. You can see written on the screen:`
-			`	"Dirige an Empire combat fleet to <destination> for engaging battle to Empire Rebels. Destroy the Empire Rebels fleet and land on <planet> to get your payment of <payment>."`
+			`You land on <planet> and receive an other message for the Empire missions. You click on the pop-up and the app opens. You can see written on the screen:`
+			`	"An Empire Rebels fleet is about to attack the Sheratan System in The Core. Escort an Empire defense fleet to this system and defeat the rebels. Payment is <payment>."`
 				accept
 	on complete
 		"reputation: Cromha Empire" += 10
 		"empire jobs" += 1
-		log "Empire" "You diriged a whole Empire Fleet to fight against Empire Rebels."
+		log "Empire" "You escorted a whole Empire Fleet to fight against Empire Rebels."
 		payment 300000
-		dialog "You land on <planet>, give back the fleet to The Empire and get your payment of <payment>."
+		dialog "You land on <planet> and finish you escort mission. You got paid <payment>."
 	npc escort
 		government "Cromha Empire"
 		fleet cromha-fleet
+		fleet cromha-fleet
+		fleet cromha-fleet
 	npc kill
-		system Wezen
+		system Sheratan
 		government "Empire Rebels"
 		personality staying
+		fleet empire-rebels-raiders-fleet
+		fleet empire-rebels-raiders-fleet
+		fleet empire-rebels-raiders-fleet
+		fleet empire-rebels-raiders-fleet
 		fleet empire-rebels-raiders-fleet
 
 mission "Empire: First Award"
