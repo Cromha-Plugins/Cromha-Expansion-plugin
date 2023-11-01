@@ -97,7 +97,7 @@ mission "Empire: Humanitary Delivry to <planet>"
 mission "Empire: Escort Empire Raven"
 	landing
 	name "Empire: Escort Empire Oriole"
-	description "Escort on Empire Wardragon to the <planet> reparation station before the date of <date>. Payment is a free Empire Oriole ship."
+	description "Escort on Empire Oriole to the <planet> reparation station before the date of <date>. Payment is a free Arbiter from the Lifdot Industries shipyard."
 	deadline 15
 	source
 		government "Cromha Empire"
@@ -106,8 +106,8 @@ mission "Empire: Escort Empire Raven"
 		has "Empire: Humanitary Delivry to <planet>: done"
 	on offer
 		conversation
-			`You land on <planet> and recieve an other message for the Empire missions. You click on the pop-up and the app opens. You can see written on the screen:`
-			`	"Escort on Empire Oriole to the <planet> reparation station before the date of <date>. Payment is a free Empire Oriole ship."`
+			`You land on <planet> and receive an other message for the Empire missions. You click on the pop-up and the app opens. You can see written on the screen:`
+			`	"Escort on Empire Oriole to the <planet> reparation station before the date of <date>. Payment is a free Arbiter from the Lifdot Industries shipyard."`
 				accept
 	destination
 		government "Cromha Empire"
@@ -119,13 +119,13 @@ mission "Empire: Escort Empire Raven"
 	on complete
 		"reputation: Cromha Empire" += 10
 		"empire jobs" += 1
-		give ship "Empire Oriole" "Z-47-IY.7"
-		dialog "You land on the reparation station dock and you can already see the Empire Oriole waiting for you in the spaceport."
-		log "Empire" "You escorted an Empire Oriole to <destination> and The Empire gave you a free Empire Oriole."
+		give ship Arbiter "Z-47-IY.7"
+		dialog "You land on the reparation station dock and you can already see the Arbiter waiting for you in the spaceport."
+		log "Empire" "You escorted an Empire Oriole to <destination> and The Empire gave you a free Arbiter from the Lifdot Industries shipyard."
 	npc accompany save
 		government "Cromha Empire"
 		personality escort timid
-		ship "Empire Oriole" Z-47-IY.7
+		ship "Empire Oriole" Z-25-ZK.9
 
 mission "Empire: Delivry Jump Drive in <planet> military lab"
 	landing
