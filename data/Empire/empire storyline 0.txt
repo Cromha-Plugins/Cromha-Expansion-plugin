@@ -184,32 +184,38 @@ mission "Empire: Harvest 25 tons of silicon"
 
 mission "Empire: Dirige Empire fleet to <planet>"
 	landing
-	name "Empire: Dirige Empire Fleet"
-	description "Dirige an Empire combat fleet to Wezen for engaging battle to Empire Rebels. Destroy the Empire Rebels fleet and land on <planet> to get your payment of <payment>."
+	name "Empire: Dirige Empire Defense Fleet"
+	description "An Empire Rebels fleet is about to attack the Sheratan System in The Core. Escort an Empire defense fleet to this system and defeat the rebels. Payment is <payment>."
 	source
 		government "Cromha Empire"
 		not attributes uninhabited
 	to offer
 		has "Empire: Harvest 25 tons of silicon: done"
-	destination "Linimbus"
+	destination "Sundive"
 	on offer
 		conversation
-			`You land on <planet> and recieve an other message for the Empire missions. You click on the pop-up and the app opens. You can see written on the screen:`
-			`	"Dirige an Empire combat fleet to <destination> for engaging battle to Empire Rebels. Destroy the Empire Rebels fleet and land on <planet> to get your payment of <payment>."`
+			`You land on <planet> and receive an other message for the Empire missions. You click on the pop-up and the app opens. You can see written on the screen:`
+			`	"An Empire Rebels fleet is about to attack the Sheratan System in The Core. Escort an Empire defense fleet to this system and defeat the rebels. Payment is <payment>."`
 				accept
 	on complete
 		"reputation: Cromha Empire" += 10
 		"empire jobs" += 1
-		log "Empire" "You diriged a whole Empire Fleet to fight against Empire Rebels."
+		log "Empire" "You escorted a whole Empire Fleet to fight against Empire Rebels."
 		payment 300000
-		dialog "You land on <planet>, give back the fleet to The Empire and get your payment of <payment>."
+		dialog "You land on <planet> and finish you escort mission. You got paid <payment>."
 	npc escort
 		government "Cromha Empire"
 		fleet cromha-fleet
+		fleet cromha-fleet
+		fleet cromha-fleet
 	npc kill
-		system Wezen
+		system Sheratan
 		government "Empire Rebels"
 		personality staying
+		fleet empire-rebels-raiders-fleet
+		fleet empire-rebels-raiders-fleet
+		fleet empire-rebels-raiders-fleet
+		fleet empire-rebels-raiders-fleet
 		fleet empire-rebels-raiders-fleet
 
 mission "Empire: First Award"
