@@ -177,7 +177,7 @@ mission "Empire: Scientists Researches in Ember Waste 2"
 		"reputation: Cromha Empire" += 10
 		"empire jobs" += 1
 	npc kill
-		government "Indigene Creature"
+		government "Unknow"
 		system "Gerenus"
 		personality staying timid target
 		ship "Void Sprite"
