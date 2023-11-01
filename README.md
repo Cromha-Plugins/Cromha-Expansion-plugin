@@ -76,6 +76,7 @@ It is currently a Beta plugin.
 
 # System requirements
 Endless Sky has very minimal system requirements, meaning most systems should be able to run the game. But this plugin is kind of heavy.
+It is also important that you play using the **latest unstable beta version of Endless Sky**, the main branch of the official [Endless Sky repository](https://github.com/endless-sky/endless-sky).
 
 || Minimum | Recommended |
 |---|----:|----:|
