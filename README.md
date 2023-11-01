@@ -87,7 +87,8 @@ It is also important that you play using the **latest unstable beta version of E
 |Storage Free | 900 MB | 3 GB |
 
 ## Known issues
-  * Game crash when loading resources (don't have enough RAM)
+  * Game sometimes crash when loading resources (don't have enough RAM)
+  * Some outfits or ships don't have texture: it's because we're currently revamping them (the textures to be revamped are in [images/_TEMP/](https://github.com/Cromha-Plugins/Cromha-Expansion-plugin/tree/main/images/_TEMP))
 
 # Installation
 If you're new in the Endless Sky community, check the [User Guide](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki/User-Guide) to learn the basics!
