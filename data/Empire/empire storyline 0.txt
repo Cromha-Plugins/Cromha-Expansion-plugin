@@ -53,7 +53,8 @@ mission "Empire: Humanitary Delivry to <planet>"
 		random < 45
 	on offer
 		conversation
-			`You enter <planet> spaceport and see a big sign where it's written "The Empire search for remunerated workforce".`
+			scene "scene/empire workforce poster"
+			`You enter <planet> spaceport and see a big sign where it's written "The Empire search for remunerated workforce". Under it you can read: "We search for motivated people from any where in the galaxies to help us defeat the bad factions of this galaxy, join The Empire forces to defeat the Lumbarian Empire and the Rebels!". There is also a cool poster on your left.`
 			choice
 				`	Go see what is it.`
 					goto next
