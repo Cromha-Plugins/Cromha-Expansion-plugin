@@ -10,7 +10,7 @@ mission "Award 3"
 		log "You got an Empire Quantum Medal from Cromha himself."
 		conversation
 			`As you land, you hear a little 'bip' sound coming from to small monitor in front of you. You click on the pop-up and its open the Cromha Empire missions app. You can read a new message:`
-			`	"Dear Captain <last>, I heard about you this last months, about what you did for The Empire. You know that we award all our good citizens, but you deserve something better. For your bravour you won an Empire medal. With this medal you will be able to enter in any Empire planets even if it is top secrets ones. With this medal you will also recieve 15,000 credits per day. Just be sure you don't lose it. Signed, Cromha Lord-sta"`
+			`	"Dear Captain <last>, I heard about you this last months, about what you did for The Empire. You know that we award all our good citizens, but you deserve something better. For your bravour you won an Empire medal. With this medal you will be able to enter in any Empire planets even if it is top secrets ones. With this medal you will also receive 15,000 credits per day. Just be sure you don't lose it. Signed, Cromha Lord-sta"`
 			`	Cromha Lord-sta himself, the Emperor send you a letter! You can't even think about it that your teleportation dock turns on and you can see the medal teleporting. You'll know how to make good use of it.`
 				decline
 	on decline
@@ -779,7 +779,7 @@ event "Giribea Colonny Appears"
 	planet Osaeli
 		attributes ka'het minning oil research military
 		landscape land/fields15
-		government "Mineria colonnies"
+		government "Mineria Colonies"
 		spaceport `An Earth-like planet with high biodiversity, at first glance Osaeli appears to be an idyllic world where no lifeform ever became predominant; but looking more closely, the signs of an ancient devastation can still be seen. In the middle of the forests, huge amounts of debris are scattered across large areas, and scans reveal many underground bunkers, partly destroyed and filled with water.`
 		description `An Earth-like planet with high biodiversity, at first glance Osaeli appears to be an idyllic world where no lifeform ever became predominant; but looking more closely, the signs of an ancient devastation can still be seen. In the middle of the forests, huge amounts of debris are scattered across large areas, and scans reveal many underground bunkers, partly destroyed and filled with water.`
 
