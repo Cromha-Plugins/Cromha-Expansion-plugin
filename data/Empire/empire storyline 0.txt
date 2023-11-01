@@ -196,7 +196,7 @@ mission "Empire: Dirige Empire fleet to <planet>"
 	destination "Sundive"
 	on offer
 		conversation
-			`You land on <planet> and receive an other message for the Empire missions. You click on the pop-up and the app opens. You can see written on the screen:`
+			`You land on <origin> and receive an other message for the Empire missions. You click on the pop-up and the app opens. You can see written on the screen:`
 			`	"An Empire Rebels fleet is about to attack the Sheratan System in The Core. Escort an Empire defense fleet to this system and defeat the rebels. Payment is <payment>."`
 				accept
 	on complete

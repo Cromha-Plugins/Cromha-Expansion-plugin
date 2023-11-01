@@ -136,7 +136,7 @@ mission "Empire: Scientists Researches in Ember Waste 1"
 		"reputation: Cromha Empire" += 10
 		"empire jobs" += 1
 	npc "scan outfits" save
-		government "Unknown"
+		government "Indigene Creature"
 		system "Gerenus"
 		personality staying timid target
 		ship "Void Sprite"
@@ -177,7 +177,7 @@ mission "Empire: Scientists Researches in Ember Waste 2"
 		"reputation: Cromha Empire" += 10
 		"empire jobs" += 1
 	npc kill
-		government "Unknown"
+		government "Unknow"
 		system "Gerenus"
 		personality staying timid target
 		ship "Void Sprite"
@@ -214,27 +214,27 @@ mission "Empire: Search for Void Sprites"
 		"empire jobs" += 1
 		log "Empire" "You did researches about Void Sprite in the Ember Waste for the Lifdots Researches Labs Industries."
 	npc "scan outfits" save
-		government "Unknown"
+		government "Indigene Creature"
 		system "Gerenus"
 		personality staying target timid
 		fleet Void-sprite-family
 	npc "scan outfits" save
-		government "Unknown"
+		government "Indigene Creature"
 		system "Esix"
 		personality staying target timid
 		fleet Void-sprite-family
 	npc "scan outfits" save
-		government "Unknown"
+		government "Indigene Creature"
 		system "Nona"
 		personality staying target timid
 		fleet Void-sprite-family
 	npc "scan outfits" save
-		government "Unknown"
+		government "Indigene Creature"
 		system "Paeli"
 		personality staying target timid
 		fleet Void-sprite-family
 	npc "scan outfits" save
-		government "Unknown"
+		government "Indigene Creature"
 		system "Polerius"
 		personality staying target timid
 		fleet Void-sprite-family
