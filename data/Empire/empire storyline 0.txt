@@ -41,8 +41,8 @@ mission "Empire: First Contact"
 
 mission "Empire: Humanitary Delivry to <planet>"
 	landing
-	name "Empire: Humanitary Delivry"
-	description "Delivry humanitary resources to <destination> before the date of <date>. Payment is <payment>"
+	name "Empire: Humanitarian Deliver"
+	description "Deliver humanitarian resources to <destination> before the date of <date>. Payment is <payment>"
 	cargo Food 5 15
 	deadline 10
 	source
@@ -53,7 +53,8 @@ mission "Empire: Humanitary Delivry to <planet>"
 		random < 45
 	on offer
 		conversation
-			`You enter the <planet> spaceport and see a big sign where it's written "The Empire search for remunerated workforce".`
+			scene "scene/empire workforce poster"
+			`You enter <planet> spaceport and see a big sign where it's written "The Empire search for remunerated workforce". Under it you can read: "We search for motivated people from anywhere in the galaxies to help us defeat the bad factions of this galaxy, join The Empire forces to defeat the Lumbarian Empire and the Rebels!". There is also a cool poster on your left.`
 			choice
 				`	Go see what is it.`
 					goto next
@@ -63,36 +64,37 @@ mission "Empire: Humanitary Delivry to <planet>"
 			`	You go see someone who seems to be part of the Empire Authorities. You ask them on what consist this job and how much they will pay you.`
 			`	"Hi. I want to get information about this 'Empire remunerated workforce', can you help me about that?"`
 			`	The guy says:`
-			`	"Of course, it's why i'm here.", "The Empire recrutes people who want to work for them. By registering to this 'organization' you will accept to receive differents remunerated missions from The Empire. All hard workers will be rewarded for working hard for the Empire, rewards are money, ships, special new outfits from Empire scientics, licenses and more!"`
+			`	"Of course, it's why I'm here.", "The Empire recruits people who want to work for them. By registering to this 'organization' you will accept to receive different remunerated missions from The Empire. All hard workers will be rewarded for working hard for the Empire, rewards are money, ships, special new outfits from Empire scientists, licenses and more!"`
 			choice
 				`	"Seems interesting. I would like to register, how can I?"`
 					goto accept
 				`	"This is not interesting me, but thank you anyway`
 					decline
 			label accept
-			`	"Cool!", "Well to register you just have to write your name here and we will offer you your first remunerated mission right after."`
-			`	"Nice" you say "I like how The Empire is well organized."`
-			`	You write your name in a board and your Empire Passport UUID and go back on your ship to do your mission right now.`
+			`	"Cool!", "Well to register you just have to write your name here and we will offer you your first remunerated mission right after it."`
+			`	"Nice" you say "I like how The Empire is well organized!"`
+			`	You write your name in a board and your Empire Passport ID and go back on your ship to do your mission right now.`
 			``
 			`	You enter your ship, search for some app and install the one to get Empire missions. You can see your first mission appearing after opening the app:`
-			`	"Delivry humanitary resources to <destination> before the date of <date>. Payment is <payment>"`
+			`	"Deliver humanitarian resources to <destination> before the date of <date>. Payment is <payment>."`
 				accept
 	on fail
 		"reputation: Cromha Empire" -= 10
-		dialog "You failed in your mission. The Empire inform you that they will no longer give you missions."
+		dialog "You failed in your mission. The Empire inform you that they will no longer give you missions anymore."
+		log "Empire" "You failed your first Empire mission and since then they no longer give you any missions."
 	destination
 		government "Cromha Empire"
 		attributes station
 		distance 2 5
 	on accept
-		log "Empire" "You volunteer for your first Empire mission."
+		log "Empire" "You volunteered for your first Empire mission."
 	on complete
 		"reputation: Cromha Empire" += 10
 		"empire jobs" += 1
-		log "Empire" "You done your first empire job."
+		log "Empire" "You've done your first empire mission."
 		payment
 		payment 30000
-		dialog "You finished your first Empire Mission and get payed <payment>."
+		dialog "You finished your first Empire mission and get payed <payment>."
 
 mission "Empire: Escort Empire Raven"
 	landing
@@ -115,7 +117,7 @@ mission "Empire: Escort Empire Raven"
 		distance 1 10
 	on fail
 		"reputation: Cromha Empire" -= 10
-		dialog "You failed in your mission. The Empire inform you that they will no longer give you missions."
+		dialog "You failed in your mission. The Empire inform you that they will no longer give you missions anymore."
 	on complete
 		"reputation: Cromha Empire" += 10
 		"empire jobs" += 1
@@ -129,8 +131,8 @@ mission "Empire: Escort Empire Raven"
 
 mission "Empire: Delivry Jump Drive in <planet> military lab"
 	landing
-	name "Empire: Jump Drive Delivry"
-	description "Delivry Jump Drive in <planet> in the military lab before the date of <date>. Payment is <payment>."
+	name "Empire: Jump Drive Deliver"
+	description "Deliver a Jump Drive at the <planet> military lab before the date of <date>. Payment is <payment>."
 	deadline 13
 	source
 		government "Cromha Empire"
@@ -140,11 +142,11 @@ mission "Empire: Delivry Jump Drive in <planet> military lab"
 	on offer
 		conversation
 			`You land on <planet> and receive an other message for the Empire missions. You click on the pop-up and the app opens. You can see written on the screen:`
-			`	"Delivry Jump Drive in <planet> in the military lab before the date of <date>. Payment is <payment>."`
+			`	"Deliver a Jump Drive at the <planet> military lab before the date of <date>. Payment is <payment>."`
 				accept
 	on fail
 		"reputation: Cromha Empire" -= 20
-		dialog "You failed in your mission. The Empire inform you that they will no longer give you missions."
+		dialog "You failed in your mission. The Empire inform you that they will no longer give you missions anymore."
 	on accept
 		outfit "Jump Drive" 1
 	destination
@@ -158,7 +160,7 @@ mission "Empire: Delivry Jump Drive in <planet> military lab"
 		outfit "Jump Drive" -1
 		payment
 		payment 100000
-		dialog "You land on the reparation station dock and you unload the Jump Drive. You get payed <payment>."
+		dialog "You land on the station spaceport and you unload the Jump Drive. You get payed <payment>."
 
 mission "Empire: Harvest 25 tons of silicon"
 	landing
@@ -184,7 +186,7 @@ mission "Empire: Harvest 25 tons of silicon"
 
 mission "Empire: Dirige Empire fleet to <planet>"
 	landing
-	name "Empire: Dirige Empire Defense Fleet"
+	name "Empire: Escort Empire Defense Fleet"
 	description "An Empire Rebels fleet is about to attack the Sheratan System in The Core. Escort an Empire defense fleet to this system and defeat the rebels. Payment is <payment>."
 	source
 		government "Cromha Empire"
@@ -227,10 +229,10 @@ mission "Empire: First Award"
 	to offer
 		has "Empire: Dirige Empire fleet to <planet>: done"
 	on offer
-		log "Empire" "You gained your first award from The Empire. You got the Empire Contributor Lincense."
+		log "Empire" "You gained your first award from The Empire. You got the Empire Contributor License."
 		conversation
 			`As you land on the planet, you can see a message from The Empire:`
-			`	"It's been a few weeks that you've been working for us, we wanted to award you for all for hard work. We offer you the Empire Contributor License wich will grant you the access to every non-military ships and outfits in the Empire Space. You also will also be credited 1M credits on your account."`
+			`	"It's been a few weeks that you've been working for us, we wanted to award you for all for hard work. We offer you the Empire Contributor License which will grant you the access to every non-military ships and outfits in the Empire Space. You also will also be credited 1M credits on your account."`
 				decline
 	on decline
 		"reputation: Cromha Empire" += 10
