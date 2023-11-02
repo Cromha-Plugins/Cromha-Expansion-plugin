@@ -68,6 +68,7 @@ outfitter "Guz' Advanced"
 	"Guz' Bullet Boxes"
 	"Guz' Gatlin' Gun"
 	"Interference Jamming Cell"
+	"Guz' Hull Repairing Bot Cell"
 
 shipyard "Guz' Basic"
 	"Guz'Chisel"
