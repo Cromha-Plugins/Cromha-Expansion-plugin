@@ -93,6 +93,7 @@ outfit "Interference Jamming Cell"
 	"mass" 10
 	"outfit space" -10
 	"radar jamming" 3
+	description "A simple cellular system that generates radio waves and have enough power to jam many type of missiles"
 
 outfit "Guz' Hull Repairing Bot Cell"
 	category Systems
@@ -109,3 +110,5 @@ outfit "Guz' Hull Repairing Bot Cell"
 	weapon
 		"hardpoint sprite" "hardpoint/guz hull bot repair fabricator/guz hull bot repair fabricator"
 			"scale" .25
+	description "This system is installed on a turret mount so that the repairing bot can easily go directly on the ship's hull."
+	description "The way that it works is that small repairing bots get continuously fabricated inside of the system and then got on the ship's hull and try to repair any damage on the ship." 
