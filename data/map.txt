@@ -797,7 +797,7 @@ system Lifdot
 			distance 1930.992
 			period 110
 			object Crodust
-				sprite planet/fg_terrestrial2
+				sprite planet/crodust
 					scale 2.4
 				distance 765.01
 				period 600
