@@ -5,7 +5,7 @@
 * [Adding your own code](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki/Contributor-Guide#adding-your-own-code)
   * [Coding Features & Add-ons](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki/Contributor-Guide#coding-features--add-ons)
     * [Coding Tips](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki/Contributor-Guide#coding-tips)
-    * [Commit Name Convention](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki/Contributor-Guide#coding-name-convention)
+    * [Commit Name Convention](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki/Contributor-Guide#commit-name-convention)
   * [Apply your code to the base plugin](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki/Contributor-Guide#apply-your-code-to-the-base-plugin)
 
 # Request feature & Report bugs
