@@ -43,8 +43,8 @@ outfit "Prototype-XB4 Detonator Engine"
 	thumbnail "outfit/empire prototype engine"
 	"mass" 45
 	"outfit space" -75
-	"engine capacity" 115
-	"afterburner thrust" 198.7
+	"engine capacity" -115
+	"afterburner thrust" 199.9
 	"afterburner fuel" 1.8
 	"afterburner disruption" .7
 	"antimatter capacity" -8
