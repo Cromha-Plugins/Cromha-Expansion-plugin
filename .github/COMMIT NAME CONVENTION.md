@@ -1,0 +1,2 @@
+# Naming Conventions
+You are requested to name commits in a certain style: For large things, you use the `progress -` prefix. You can add a little more detail to the prefix by saying `progress [major | minor] -` . For smaller things, say `tweak -` or `bugfix -` (for bugfixes). For documentation changes, begin with `documentation -`. You can also use `refactor -` with the changes after if you refactored a word or a sentence. Specify also after the change if it is through all the project or only a specific file. 

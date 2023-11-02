@@ -5,8 +5,8 @@
 * [Adding your own code](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki/Contributor-Guide#adding-your-own-code)
   * [Coding Features & Add-ons](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki/Contributor-Guide#coding-features--add-ons)
     * [Coding Tips](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki/Contributor-Guide#coding-tips)
+    * [Commit Name Convention](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki/Contributor-Guide#coding-name-convention)
   * [Apply your code to the base plugin](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki/Contributor-Guide#apply-your-code-to-the-base-plugin)
-  * [Using the scripts](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki/Contributor-Guide#using-the-scripts)
 
 # Request feature & Report bugs
 **Please, every time before reporting a bug or requesting a feature, check if there is not a duplicated issue(someone that had the same idea or bug than you).**
@@ -119,6 +119,10 @@ Here are some tips to code addons or create your own plugin:
 ```
 
 _Where <ship code name> is your ship model name without any caps and <outfit code name> is your outfit model name without any caps._
+
+### Commit Name Convention
+When contributing to this project, you need to apply the commit name convention that you can find here:
+**[/.github/COMMIT NAME CONVENTION.md](https://github.com/Cromha-Plugins/Cromha-Expansion-plugin/blob/main/.github/COMMIT%20NAME%20CONVENTION.md)**
 
 ## Apply your code to the base plugin
 You can simply create a new [pull request](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/compare) that merge the branch where you created your work (a forked or a local repository of you) to the 'main' branch. If you've done everything right, I or @lumbar527 should review the pull request and maybe add your very own code to the plugin.
