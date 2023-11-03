@@ -466,6 +466,7 @@ mission "Empire: Get Stolen Detonator Engine Prototype"
 		outfit "Empire Detonator Engine Secret" 1
 		outfit "Empire Detonator Attribute Secret" -1
 		"reputation: Lumbarian Empire" -= 1000000000000
+		log "Empire" "You got back a stolen prototype of an empire engine detained in a secret Lumbarian Empire military lab."
 	npc
 		government "Lumbarian Empire"
 		personality staying
@@ -583,6 +584,7 @@ mission "Empire: Transport Prototype Detonator Engine"
 		payment 3000000
 		outfit Doomscythe 1
 		outfit "Empire Detonator Engine Secret" -1
+		log "Empire" "You successfully secretely transported an prototype of an empire engine to a secret region of the space, the Cromha Rim, even if there were huge Lumbarian and Rebels fleets on your way."
 	npc evade
 		government "Empire Rebels"
 		personality target hunting daring plunders vindictive ramming appeasing
