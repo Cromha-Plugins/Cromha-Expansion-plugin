@@ -7,7 +7,7 @@ ship "Guz'Chisel"
 		licenses "Guz' Ship"
 		cost 800000
 		"mass" 50
-		"outfit space" 380
+		"outfit space" 395
 		"engine capacity" 150
 		"weapon capacity" 130
 		"cargo space" 35
@@ -35,6 +35,7 @@ ship "Guz'Chisel"
 		"Guz' Heavy Missile" 27
 		"Hyperdrive"
 		"Guz' Solar Cell"
+		"Guz' Fuel Processor"
 	
 	engine 0 81.5
 		zoom 2
