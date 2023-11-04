@@ -112,3 +112,25 @@ outfit "Guz' Hull Repairing Bot Cell"
 			"scale" .25
 	description "This system is installed on a turret mount so that the repairing bot can easily go directly on the ship's hull."
 	description "The way that it works is that small repairing bots get continuously fabricated inside of the system and then got on the ship's hull and try to repair any damage on the ship." 
+
+outfit "Guz' Fuel Processor"
+	category Systems
+	licenses "Guz' Outfit"
+	cost 16500
+	thumbnail "outfit/guz ramscoop"
+	mass 20
+	"outfit space" -20
+	ramscoop 2.3
+	description "Guz' Fuel Processor are basic ramscoop that uses solar winds to generate hyperspace fuel."
+	description "This outfit is installed on many of the Guz' ships that are enough big to requires a specific amount of fuel. But bigger ships generally have a larger version of this installed."
+
+outfit "Guz' Fuel Processor Large"
+	category Systems
+	licenses "Guz' Outfit"
+	cost 16500
+	thumbnail "outfit/guz ramscoop large"
+	mass 35
+	"outfit space" -35
+	ramscoop 3.95
+	description "Guz' Fuel Processor are basic ramscoop that uses solar winds to generate hyperspace fuel."
+	description "This outfit is installed on many of the Guz' ships that are enough big to requires a specific amount of fuel. But bigger ships generally have a larger version of this installed."

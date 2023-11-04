@@ -34,6 +34,7 @@ ship "Guz'Chisel"
 		"Guz' Artillery Turret"
 		"Guz' Heavy Missile" 27
 		"Hyperdrive"
+		"Guz' Solar Cell"
 	
 	engine 0 81.5
 		zoom 2
@@ -60,7 +61,7 @@ ship "Guz'Chasef"
 		licenses "Guz' Ship"
 		cost 65320
 		"mass" 25
-		"outfit space" 285
+		"outfit space" 295
 		"engine capacity" 170
 		"weapon capacity" 110
 		"cargo space" 25
@@ -84,6 +85,7 @@ ship "Guz'Chasef"
 		"Guz'Yar 2 Thruster"
 		"Guz'Yar 1 Steering"
 		"Nuclea-Fission Reactor"
+		"Guz' Solar Cell"
 		"Guz' Artillery Turret"
 		"Guz' Heavy Missile" 27
 		"Guz' Gatlin' Gun" 2
