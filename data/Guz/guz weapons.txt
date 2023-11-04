@@ -51,6 +51,7 @@ outfit "Guz' Artillery Turret"
 		"hardpoint sprite" "hardpoint/guz heavy artillery"
 		ammo "Guz' Heavy Missile"
 		icon "icon/sidewinder"
+		"safe"
 		"stream"
 		"inaccuracy" 1
 		"turret turn" 3
@@ -112,6 +113,7 @@ outfit "Guz' Gatlin' Gun"
 		sound "gatling"
 		ammo "Gatlin' Guz' Ammo"
 		icon "icon/guz gat"
+		"safe"
 		"inaccuracy" 2
 		"velocity" 16
 		"lifetime" 1
