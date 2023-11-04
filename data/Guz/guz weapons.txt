@@ -24,7 +24,7 @@ outfit "Guz' Tractor"
 		"shield damage" 2.8
 		"hull damage" .9
 		"hit force" -75
-	description "The Guz' Tractor is a powerful reproaching weapon that lets the Guz' approach their enemy without moving and whithout letting them the time to understand what's happening. The Guz'Tractor is very similar the REbels Grav-Turret and the Korath Grav-Turret, but it's more powerful."
+	description "The Guz' Tractor is a powerful reproaching weapon that lets the Guz' approach their enemy without moving and whithout letting them the time to understand what's happening. The Guz'Tractor is very similar the Rebels Grav-Turret and the Korath Grav-Turret, but it's more powerful."
 
 effect "guz tractor impact"
 	sprite "effect/guz tractor impact"
@@ -66,10 +66,10 @@ outfit "Guz' Artillery Turret"
 		"trigger radius" 30
 		"blast radius" 150
 		"shield damage" 250
-		"hull damage" 240
+		"hull damage" 80
 		"hit force" 700
 		"missile strength" 200
-	description "This is a powerful missile-artillery turret made by the Guz'."
+	description "This is a powerful missile-artillery turret made by the Guz'. It contains special chemical cores to level up the shield damages."
 
 outfit "Guz' Heavy Missile"
 	category "Ammunition"

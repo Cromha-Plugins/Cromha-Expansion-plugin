@@ -6,7 +6,7 @@ ship "Guz'Chisel"
 		category "Light Warship"
 		licenses "Guz' Ship"
 		cost 800000
-		"mass" 110
+		"mass" 50
 		"outfit space" 380
 		"engine capacity" 150
 		"weapon capacity" 130
@@ -18,7 +18,7 @@ ship "Guz'Chisel"
 		"energy capacity" 800
 		"heat dissipation" 0.7
 		"required crew" 8
-		"drag" 7.5
+		"drag" 5.3
 		"bunks" 16
 		weapon
 			"blast radius" 100
@@ -28,8 +28,8 @@ ship "Guz'Chisel"
 	outfits
 		"Zkon Shield Emitter"
 		"Holk Radar Device"
-		"Guz'Yar 1 Thruster"
-		"Guz'Yar 1 Steering"
+		"Guz'Yar 2 Thruster"
+		"Guz'Yar 2 Steering"
 		"Nuclea-Fission Reactor" 2
 		"Guz' Artillery Turret"
 		"Guz' Heavy Missile" 27
@@ -56,10 +56,10 @@ ship "Guz'Chasef"
 	thumbnail "thumbnail/chasef"
 	"never disabled"
 	attributes
-		category "Interceptor"
+		category "Light Warship"
 		licenses "Guz' Ship"
 		cost 65320
-		"mass" 70
+		"mass" 25
 		"outfit space" 285
 		"engine capacity" 170
 		"weapon capacity" 110
@@ -71,7 +71,7 @@ ship "Guz'Chasef"
 		"energy capacity" 320
 		"heat dissipation" 0.7
 		"required crew" 3
-		"drag" 10.2
+		"drag" 4.6
 		"bunks" 4  
 		weapon
 			"blast radius" 100
@@ -81,8 +81,8 @@ ship "Guz'Chasef"
 	outfits
 		"Kkrok Shield Emitter"
 		"Holk Radar Device"
-		"Guz'Yar 1 Thruster"
-		"Guz'Yar 2 Steering"
+		"Guz'Yar 2 Thruster"
+		"Guz'Yar 1 Steering"
 		"Nuclea-Fission Reactor"
 		"Guz' Artillery Turret"
 		"Guz' Heavy Missile" 27
