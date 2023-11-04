@@ -2,6 +2,7 @@ outfit "Guz' Tractor"
 	category "Turrets"
 	cost 943000
 	thumbnail "outfit/guz tractor"
+	licenses "Guz' Outfit"
 	"mass" 19
 	"outfit space" -10
 	"weapon capacity" -25
@@ -37,6 +38,7 @@ outfit "Guz' Artillery Turret"
 	category "Secondary Weapons"
 	cost 480000
 	thumbnail "outfit/guz artillery turret"
+	licenses "Guz' Outfit"
 	"mass" 50
 	"outfit space" -40
 	"weapon capacity" -40
@@ -73,13 +75,16 @@ outfit "Guz' Artillery Turret"
 
 outfit "Guz' Heavy Missile"
 	category "Ammunition"
+	licenses "Guz' Outfit"
 	cost 60000
 	thumbnail "outfit/guz heavy missile"
 	"mass" 11
 	"guz heavy missile capacity" -1
+	description "Guz' Heavy Missiles are strong kinetic missiles that contains special chemical cores to level up the shields damages."
 	
 outfit "Gatlin' Guz' Ammo"
 	plural "Gatlin' Guz' Ammo"
+	licenses "Guz' Outfit"
 	category "Ammunition"
 	cost 4
 	thumbnail "outfit/guz bullet"
@@ -90,6 +95,7 @@ outfit "Gatlin' Guz' Ammo"
 outfit "Guz' Bullet Boxes"
 	plural "Guz' Bullet Boxes"
 	category "Ammunition"
+	licenses "Guz' Outfit"
 	cost 3000
 	thumbnail "outfit/guz bullet storage"
 	"mass" 2
@@ -101,6 +107,7 @@ outfit "Guz' Bullet Boxes"
 outfit "Guz' Gatlin' Gun"
 	category "Secondary Weapons"
 	cost 20000
+	licenses "Guz' Outfit"
 	thumbnail "outfit/guz gatling"
 	"mass" 2
 	"outfit space" -8
