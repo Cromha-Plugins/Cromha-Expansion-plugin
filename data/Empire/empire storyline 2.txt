@@ -576,6 +576,7 @@ mission "Empire: Transport Prototype Detonator Engine"
 	on enter Minkar
 		dialog "You get a message on a empire top-secret freequences and loose the signal right after receiving: 't**s ju** **nnel wil* make you ***er the **omha r*m'. The message seems to be crypted and only a few letters are able to be de-crypted."
 	on complete
+		event "Lifdot Colonization"
 		conversation
 			`You finnaly land on <destination>, and decide to get some rest while waiting for some empire authorities to come to you. You play a game for about 01:38 hours. It's not empire authorities who come to your blast door but Quargs, 3 quargs to be accurate.`
 			`You open your blast door to let them enter. They greet you and then unplug the prototype engine from your systems and unload it from your cargo. They leave an say bye. You want to ask them for the payment but they're already way far from your ship.`
@@ -635,3 +636,34 @@ mission "Empire: Transport Prototype Detonator Engine"
 		fleet "Quarg Protectionist"
 		fleet "Large Quarg"
 		fleet "Quarg"
+
+mission "Empire: Colony Importation2"
+	name "Empire: Kalisty Colony Importation"
+	description "Land on Makerplace, Ula Mon to pick up Hai colony workers and then bring them to the new Kalisty Colony, Lifdot."
+	landing
+	stopover "Makerplace"
+	destination "Kalisty"
+	to offer
+		has "Empire: Transport Prototype Detonator Engine: done"
+		random < 5
+	source
+		government "Cromha Empire" "Mineria Colonies" "Hai" "Wanderer"
+	on offer
+		log "Empire" "A new colony in the Lifdot System called 'Kalisty' has been instored on the Crodust moon planet."
+		conversation
+			`You checkout your ship's systems when you get a notification from the Empire Workforce missions:`
+			`"Captain <first> <last>, we have an important new missions for you. As you may know, we are currently colonizations more planets in the Lifdot system to increase work and economy evolution in the Empire Space. We have recently colonized the moon of Crodust, Lifdot that we baptised 'Kalisty'."`
+			`"What we want you to do is to stopover on Makerplace, Ula Mon  and pick up a dozen of Hai colony workers. Then bring them to Kalisty, Lifdot. We do not offer any payment personally but the Hai Emperor himself will credit <payment> on your bank account."`
+			`"	Thanks in advance, Empire Workforces."`
+			choice
+				`Click "accept"`
+					accept
+				`Click "decline"`
+					decline
+	on stopover
+		dialog "You quickly pick up the Hai workers which are 15 and you automatically got credited <payment> on your bank account. Time to land on <destination>."
+		payment
+		payment 2300000
+	on complete
+		dialog "You land on <destination> and succesfully complete your mission."
+		log "Empire" "You transported 15 Hai colony workers to the brand new Kalisty colony, Lifdot. You got credited 2.3M credits by the Hai Emperor himself."
