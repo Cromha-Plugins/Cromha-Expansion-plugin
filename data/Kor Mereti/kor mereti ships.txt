@@ -71,6 +71,62 @@ ship "Model 8" "Model 8 (minelayer)"
 		"Systems Core (Small)"
 		"Thruster (Comet Class)"
 	gun 9 -36 "Cluster Mine Layer"
+
+ship "Model 192"
+	sprite "ship/model 192"
+	thumbnail "thumbnail/model 192"
+	attributes
+		category "Destroyer"
+		cost 9201000
+		shields 70500
+		hull 98500
+		automaton 1
+		"crew equivalent" 125
+		mass 850
+		drag 12.5
+		"heat dissipation" .65
+		"fuel capacity" 600
+		"cargo space" 720
+		"outfit space" 725
+		"weapon capacity" 345
+		"engine capacity" 135
+		"self destruct" .8
+		ramscoop 2.5
+		weapon
+			"blast radius" 420
+			"shield damage" 5600
+			"hull damage" 2800
+			"hit force" 8400
+		outfits
+			"Shield Disruptor Turret" 3
+			"Husk-Slice Turret" 4
+
+			"Double Plasma Core"
+			"Systems Core (Medium)"
+			"Systems Core (Small)"
+			"Cargo Expansion" 2
+			"Large Heat Shunt"
+			"Reasoning Node" 4
+
+			"Steering (Stellar Class)"
+			"Thruster (Stellar Class)"
+			"Hyperdrive"
+	turret 38.5 147 "Shield Disruptor Turret"
+	turret -11.5 -100 "Husk-Slice Turret"
+	turret -32 30 "Husk-Slice Turret"
+	turret 21.5 -197.5 "Husk-Slice Turret"
+	turret -31.5 142.5 "Shield Disruptor Turret"
+	turret -13 259 "Husk-Slice Turret"
+	turret -12.5 -44 "Shield Disruptor Turret"
+	engine -12.5 285
+	engine 12.5 285
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+
 	
 ship "Model 512"
 	bay "Drone" 0 0
