@@ -898,17 +898,23 @@ mission "Empire: Sarbutaro Colonization"
 		government "Kor Mereti"
 		personality target
 		fleet "Large Kor Mereti"
-		system
-			government "Kor Mereti"
-	npc evade
-		government "Kor Mereti"
-		personality target
+		fleet "Large Kor Mereti"
 		fleet "Large Kor Mereti"
 		system
 			government "Kor Mereti"
 	npc evade
 		government "Kor Mereti"
 		personality target
+		fleet "Large Kor Mereti"
+		fleet "Large Kor Mereti"
+		fleet "Large Kor Mereti"
+		system
+			government "Kor Mereti"
+	npc evade
+		government "Kor Mereti"
+		personality target
+		fleet "Large Kor Mereti"
+		fleet "Large Kor Mereti"
 		fleet "Large Kor Mereti"
 		system
 			government "Kor Mereti"
