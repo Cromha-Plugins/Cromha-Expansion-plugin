@@ -98,7 +98,7 @@ outfit "Cheater Core"
 	"energy capacity" 777777
 	"energy generation" 7777777
 	"quantum keystone" 1
-	"cloaking" 77
+	"cloak" 77
 	"cloaking fuel" .77777777
 	"cloaking energy" .77777777
 	"cooling" 77777777
