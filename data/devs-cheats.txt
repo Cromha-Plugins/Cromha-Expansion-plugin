@@ -1872,6 +1872,7 @@ shipyard "Everything Shipyard"
 	"Quarg Kaukas"
 	"Quarg Gtuhanai"
 	"Quarg Zilant"
+	"Quarg Kalisto"
 	
 	# Korath
 	"Ancient Raider"
