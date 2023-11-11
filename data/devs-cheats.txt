@@ -1275,6 +1275,7 @@ outfitter "Everything Outfitter"
 	"Quarg Celestial Hammer"
 	"Quarg Turver"
 	"Blight Rifle"
+	"Quarg Edenshard"
 	
 	# Drak
 	"Drak Distancer"
