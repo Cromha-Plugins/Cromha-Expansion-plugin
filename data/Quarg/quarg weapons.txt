@@ -19,13 +19,12 @@ outfit "Quarg Edenshard"
 	"cooling energy" 14
 	weapon
 		sprite "projectile/skypike"
-			"frame rate" 1
-			scale 1.4
+			"frame rate" 2
 		"hardpoint sprite" "hardpoint/quarg skylance"
 			scale 1.2
 		"hardpoint offset" 10
 		sound "skylance"
-		"fire effect" "alldust beam fleck" 2
+		"fire effect" "alldust beam fleck" 4
 		"hit effect" "skylance impact" 5
 		"inaccuracy" .5
 		"turret turn" 3.1
