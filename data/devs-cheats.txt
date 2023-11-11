@@ -1106,6 +1106,8 @@ outfitter "Everything Outfitter"
 	"Plasma Fuel Pod"
 	"Empire Mapper"
 	"Empire Emergency Deployer"
+	"Heat Capacitor"
+	"Heat Capacitor (Large)"
 	
 		# Hand to Hand
 	"Teleportation Dock"
