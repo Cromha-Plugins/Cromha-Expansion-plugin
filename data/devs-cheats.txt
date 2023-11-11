@@ -1809,6 +1809,8 @@ shipyard "Everything Shipyard"
 	"Empire Starline Eas"
 	"Empire Starline Fex"
 	"Mefterk Refinery"
+	"Quaru'y Refinery"
+	"Empire Z.KA-85 Enterprise"
 	# Not adding Empire Warships variants
 	"Empire Wardragon"
 	"Empire Skylark"
