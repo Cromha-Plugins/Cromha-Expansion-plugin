@@ -54,6 +54,7 @@ ship "Quarg Drake"
 	explode "large explosion" 38
 	explode "huge explosion" 18
 	"final explode" "final explosion medium"
+	description "The Drake is used by the Quarg as a Light Warship."
 
 	
 ship "Quarg Wardragon"
