@@ -16,7 +16,8 @@ ship "Empire Sea Kraken" "Empire Sea Kraken (Caltalyctic)"
 		"drag" 84
 		"heat dissipation" .22
 		"solar collection" 4.2
-		"fuel capacity" 800
+		"fuel capacity" 9000
+		"fuel generation" 1.5
 		"cargo space" 3400
 		"outfit space" 7580
 		"weapon capacity" 3500
