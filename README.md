@@ -86,8 +86,6 @@ Adds a new civilization to the Korath Space (now named the '[Empire Space](https
 
 All Contributions are welcome!
 
-![Screenshot from 2023-11-12 15-17-06](https://github.com/Cromha-Plugins/Cromha-Expansion-plugin/assets/87318892/5de53c81-5c92-4879-8bdd-687e50fe103a)
-![Screenshot from 2023-11-10 18-51-46](https://github.com/Cromha-Plugins/Cromha-Expansion-plugin/assets/87318892/34929c1d-cce0-427a-bbc0-2e92d2459750)
 _Check the [Contributing Guide](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/wiki/Contributor-Guide) before creating any issue or pull request._
 
 To contribute to the plugin, you can create [issues](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/issues) to describe an error from spelling errors to mission bug or anything else.
