@@ -31,10 +31,10 @@ jobs:
       - name: Create Zip
         run: |
           mkdir builds
-          zip -r builds/Cromha-Expansion-plugin.zip data/ images/ plugins.txt icon.png LICENSE README.md copyright.txt
+          zip -r builds/Cromha-Expansion-plugin.zip data/ images/ sounds/ plugins.txt icon.png LICENSE README.md copyright.txt
       - name: Create Tar
         run: |
-          tar c -f builds/Cromha-Expansion-plugin.tar.gz data/ images/ icon.png LICENSE plugin.txt README.md copyright.txt
+          tar c -f builds/Cromha-Expansion-plugin.tar.gz data/ images/ sounds/ icon.png LICENSE plugin.txt README.md copyright.txt
       - name: Set environment variables
         run: |
           echo "GITHUB_USER=$( echo ${{ github.repository }} | cut -d/ -f1 )" >> $GITHUB_ENV
