@@ -1881,6 +1881,7 @@ shipyard "Everything Shipyard"
 	"Quarg Zilant"
 	"Quarg Kalisto"
 	"Quarg Glaurun"
+	"Quarg Smaug"
 	
 	# Korath
 	"Ancient Raider"
