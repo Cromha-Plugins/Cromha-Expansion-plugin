@@ -1880,6 +1880,7 @@ shipyard "Everything Shipyard"
 	"Quarg Gtuhanai"
 	"Quarg Zilant"
 	"Quarg Kalisto"
+	"Quarg Glaurun"
 	
 	# Korath
 	"Ancient Raider"

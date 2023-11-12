@@ -17,6 +17,12 @@ fleet "Large Quarg"
 	variant
 		"Quarg Kaukas"
 		"Quarg Drake" 2
+	variant
+		"Quarg Glaurun"
+		"Quarg Hydra" 2
+	variant
+		"Quarg Glaurun"
+		"Quarg Drake" 2
 fleet "Quarg Protectionist"
 	government "Quarg"
 	personality
