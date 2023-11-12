@@ -1272,6 +1272,7 @@ outfitter "Everything Outfitter"
 	"Large Graviton Thruster"
 	"Large Graviton Steering"
 	Doomscythe
+	"Quarg Cataclist"
 	"Quarg Skypike"
 	"Quarg Gravitational Core"
 	"Quarg Celestial Hammer"
