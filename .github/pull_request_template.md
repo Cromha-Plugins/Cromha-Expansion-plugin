@@ -26,7 +26,7 @@
 **Test Configuration**:
 
 <!--Just enter your current Endless Sky version-->
-Endless Sky ver: 
+Endless Sky version: 
 
 # Checklist:
 
@@ -35,4 +35,4 @@ Endless Sky ver:
 - [ ] I have made corresponding changes to the documentation
 - [ ] My changes generate no new warnings
 - [ ] New and existing unit tests pass locally with my changes
-- [ ] My pull request don't add any useless images or code
+- [ ] My pull request doesn't add any useless images or code
